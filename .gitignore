@@ -1,0 +1,29 @@
+# Personal planning notes (not for the public repo)
+ubc-course-map-project-context.md
+
+# macOS
+.DS_Store
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+dist/
+coverage/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editors
+.vscode/*
+!.vscode/settings.json
+.idea/
