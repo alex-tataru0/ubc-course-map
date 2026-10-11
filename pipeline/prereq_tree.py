@@ -39,3 +39,45 @@ def parse_with_rules(text: str):
     if None in clauses:
         return None
     return clauses[0] if len(clauses) == 1 else {"all_of": clauses}
+
+
+def tree_problems(tree, text: str) -> list[str]:
+    # Returns a list of what's wrong with a tree (from the rules or Gemini). Empty = looks fine.
+    problems = []
+    found = set()
+    _check_node(tree, problems, found)
+    # The tree should mention exactly the courses the text mentions: none dropped, none made up.
+    expected = set(COURSE.findall(text))
+    if found != expected:
+        problems.append(
+            f"courses don't match the text: missing {sorted(expected - found)}, "
+            f"extra {sorted(found - expected)}"
+        )
+    return problems
+
+
+def _check_node(node, problems: list[str], found: set[str]) -> None:
+    # Checks one node, then calls itself on any children (recursion).
+    # Adds problems it sees to `problems` and every course code to `found`.
+    if isinstance(node, str):
+        if COURSE.fullmatch(node):
+            found.add(node)
+        else:
+            problems.append(f"not a course code: {node!r}")
+    elif isinstance(node, dict) and list(node) in (["one_of"], ["all_of"]):
+        items = next(iter(node.values()))
+        if not isinstance(items, list) or not items:
+            problems.append(f"needs a non-empty list: {node!r}")
+            return
+        for item in items:
+            _check_node(item, problems, found)
+    elif isinstance(node, dict) and set(node) == {"course", "min_grade"}:
+        _check_node(node["course"], problems, found)
+        grade = node["min_grade"]
+        if not isinstance(grade, int) or not 0 <= grade <= 100:
+            problems.append(f"bad grade: {grade!r}")
+    elif isinstance(node, dict) and list(node) == ["other"] and isinstance(node["other"], str):
+        # Free text like "six credits of BIOL beyond BIOL 111" can still mention courses.
+        found.update(COURSE.findall(node["other"]))
+    else:
+        problems.append(f"unknown node: {node!r}")

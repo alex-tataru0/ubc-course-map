@@ -1,4 +1,4 @@
-from prereq_tree import normalize_codes, parse_with_rules
+from prereq_tree import normalize_codes, parse_with_rules, tree_problems
 from requisites import extract_requisites
 
 
@@ -100,3 +100,68 @@ def test_which_courses_the_rules_cant_parse(courses):
         "CPSC 410", "CPSC 415", "CPSC 423", "CPSC 430", "CPSC 436",
         "CPSC 440", "CPSC 445", "CPSC 491",
     }
+
+
+CPSC_221_TEXT = (
+    "One of CPSC 210, CPEN 221 and either (a) one of CPSC 121, MATH 220, "
+    "MATH_O 220 or (b) a score of 68% or higher in MATH 226"
+)
+
+
+def test_every_rule_tree_passes_the_checker(courses):
+    for c in courses.values():
+        prereq = extract_requisites(c["description"])["prereq"]
+        if prereq is None:
+            continue
+        text = normalize_codes(prereq)
+        tree = parse_with_rules(text)
+        if tree is not None:
+            assert tree_problems(tree, text) == [], c["code"]
+
+
+def test_correct_hand_written_tree_passes():
+    tree = {"all_of": [
+        {"one_of": ["CPSC 210", "CPEN 221"]},
+        {"one_of": [
+            {"one_of": ["CPSC 121", "MATH 220", "MATH_O 220"]},
+            {"course": "MATH 226", "min_grade": 68},
+        ]},
+    ]}
+    assert tree_problems(tree, CPSC_221_TEXT) == []
+
+
+def test_flags_dropped_courses():
+    tree = {"all_of": [
+        {"one_of": ["CPSC 210", "CPEN 221"]},
+        {"one_of": ["CPSC 121", "MATH 220"]},
+    ]}
+    assert len(tree_problems(tree, CPSC_221_TEXT)) == 1
+
+
+def test_flags_made_up_course():
+    tree = {"one_of": ["CPSC 210", "CPSC 999"]}
+    assert len(tree_problems(tree, "One of CPSC 210, CPSC 110")) == 1
+
+
+def test_flags_unknown_node():
+    problems = tree_problems({"any_of": ["CPSC 210"]}, "CPSC 210")
+    assert "unknown node: {'any_of': ['CPSC 210']}" in problems
+
+
+def test_flags_bad_grade():
+    tree = {"course": "MATH 226", "min_grade": "68%"}
+    assert tree_problems(tree, "MATH 226") == ["bad grade: '68%'"]
+
+
+def test_flags_empty_list():
+    assert tree_problems({"one_of": []}, "") == ["needs a non-empty list: {'one_of': []}"]
+
+
+def test_counts_courses_inside_other_text():
+    # CPSC 445
+    text = "CPSC 320. and either BMEG 250 or six credits of BIOL beyond BIOL 111"
+    tree = {"all_of": [
+        "CPSC 320",
+        {"one_of": ["BMEG 250", {"other": "six credits of BIOL beyond BIOL 111"}]},
+    ]}
+    assert tree_problems(tree, text) == []
