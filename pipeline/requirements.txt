@@ -1,2 +1,4 @@
 beautifulsoup4
 pytest
+google-genai
+python-dotenv
