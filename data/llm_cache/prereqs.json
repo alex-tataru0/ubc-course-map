@@ -1,0 +1,327 @@
+{
+  "3 credits of Computer Science and at least third-year standing": {
+    "model": "gemini-3.8-flash",
+    "problems": [],
+    "tree": {
+      "all_of": [
+        {
+          "other": "3 credits of Computer Science"
+        },
+        {
+          "other": "at least third-year standing"
+        }
+      ]
+    }
+  },
+  "All of (a) CPSC 221 or DSCI 221, (b) at least 3 credits from MATH or STAT at 200 level or above or MATH_O 200, MATH_O 220, MATH_O 222, MATH_O 225, MATH_O 307, STAT_O 121, STAT_O 203, STAT_O 205, STAT_O 230, STAT_O 303 or any course on the STAT 200 credit exclusion: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult\u2026 or HES_O 340, HMKN_O 205, POLI_O 400, PSYO_O 271, STAT_O 124": {
+    "model": "gemini-3.8-flash",
+    "problems": [],
+    "tree": {
+      "all_of": [
+        {
+          "one_of": [
+            "CPSC 221",
+            "DSCI 221"
+          ]
+        },
+        {
+          "one_of": [
+            {
+              "other": "at least 3 credits from MATH or STAT at 200 level or above"
+            },
+            "MATH_O 200",
+            "MATH_O 220",
+            "MATH_O 222",
+            "MATH_O 225",
+            "MATH_O 307",
+            "STAT_O 121",
+            "STAT_O 203",
+            "STAT_O 205",
+            "STAT_O 230",
+            "STAT_O 303",
+            {
+              "other": "any course on the STAT 200 credit exclusion: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult\u2026"
+            },
+            "HES_O 340",
+            "HMKN_O 205",
+            "POLI_O 400",
+            "PSYO_O 271",
+            "STAT_O 124"
+          ]
+        }
+      ]
+    }
+  },
+  "All of (a) one of CPSC 221, DSCI 221 (b) one of MATH 152, MATH 221, MATH 223, MATH_O 222 (c) one of MATH 200, MATH 217, MATH 226, MATH 253, MATH 254, MATH_O 200 (d) one of STAT 241, STAT 251, ECON 325, ECON 327, MATH 302, STAT 302, MATH 318, STAT_O 302": {
+    "model": "gemini-3.8-flash",
+    "problems": [],
+    "tree": {
+      "all_of": [
+        {
+          "one_of": [
+            "CPSC 221",
+            "DSCI 221"
+          ]
+        },
+        {
+          "one_of": [
+            "MATH 152",
+            "MATH 221",
+            "MATH 223",
+            "MATH_O 222"
+          ]
+        },
+        {
+          "one_of": [
+            "MATH 200",
+            "MATH 217",
+            "MATH 226",
+            "MATH 253",
+            "MATH 254",
+            "MATH_O 200"
+          ]
+        },
+        {
+          "one_of": [
+            "STAT 241",
+            "STAT 251",
+            "ECON 325",
+            "ECON 327",
+            "MATH 302",
+            "STAT 302",
+            "MATH 318",
+            "STAT_O 302"
+          ]
+        }
+      ]
+    }
+  },
+  "All of CPSC 221, CPSC 310, CPSC 344 and Third-year standing": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "all_of": [
+        "CPSC 221",
+        "CPSC 310",
+        "CPSC 344",
+        {
+          "other": "Third-year standing"
+        }
+      ]
+    }
+  },
+  "All of the following with a minimum grade of 76% in each of: (a) CPSC 310 or CPEN 321, (b) CPSC 313 or CPEN 331, and (c) CPSC 317 or ELEC 331": {
+    "model": "gemini-3.8-flash",
+    "problems": [],
+    "tree": {
+      "all_of": [
+        {
+          "one_of": [
+            {
+              "course": "CPSC 310",
+              "min_grade": 76
+            },
+            {
+              "course": "CPEN 321",
+              "min_grade": 76
+            }
+          ]
+        },
+        {
+          "one_of": [
+            {
+              "course": "CPSC 313",
+              "min_grade": 76
+            },
+            {
+              "course": "CPEN 331",
+              "min_grade": 76
+            }
+          ]
+        },
+        {
+          "one_of": [
+            {
+              "course": "CPSC 317",
+              "min_grade": 76
+            },
+            {
+              "course": "ELEC 331",
+              "min_grade": 76
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "CPSC 320. and either BMEG 250 or six credits of BIOL beyond BIOL 111": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "all_of": [
+        "CPSC 320",
+        {
+          "one_of": [
+            "BMEG 250",
+            {
+              "other": "six credits of BIOL beyond BIOL 111"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "Either (a) CPSC 310 or (b) all of CPEN 321, CPEN 331": {
+    "model": "gemini-3.8-flash",
+    "problems": [],
+    "tree": {
+      "one_of": [
+        "CPSC 310",
+        {
+          "all_of": [
+            "CPEN 321",
+            "CPEN 331"
+          ]
+        }
+      ]
+    }
+  },
+  "Either (a) one of CPSC 203, CPSC 210, CPEN 221, DSCI 221 or (b) MATH 210 and one of CPSC 107, CPSC 110": {
+    "model": "gemini-3.8-flash",
+    "problems": [],
+    "tree": {
+      "one_of": [
+        {
+          "one_of": [
+            "CPSC 203",
+            "CPSC 210",
+            "CPEN 221",
+            "DSCI 221"
+          ]
+        },
+        {
+          "all_of": [
+            "MATH 210",
+            {
+              "one_of": [
+                "CPSC 107",
+                "CPSC 110"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "Either CPSC 340 or both (a) AI 240 and (b) one of STAT 251, ECON 325, ECON 327, MATH 302, STAT 302, MATH 318": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "one_of": [
+        "CPSC 340",
+        {
+          "all_of": [
+            "AI 240",
+            {
+              "one_of": [
+                "STAT 251",
+                "ECON 325",
+                "ECON 327",
+                "MATH 302",
+                "STAT 302",
+                "MATH 318"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "Either CPSC 340 or both (a) one of AI 240, CPSC 330 and (b) one of STAT 200, STAT 251, ECON 325, ECON 327, MATH 302, STAT 302, MATH 318": {
+    "model": "gemini-3.8-flash",
+    "problems": [],
+    "tree": {
+      "one_of": [
+        "CPSC 340",
+        {
+          "all_of": [
+            {
+              "one_of": [
+                "AI 240",
+                "CPSC 330"
+              ]
+            },
+            {
+              "one_of": [
+                "STAT 200",
+                "STAT 251",
+                "ECON 325",
+                "ECON 327",
+                "MATH 302",
+                "STAT 302",
+                "MATH 318"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "One of CPSC 210, CPEN 221 and either (a) one of CPSC 121, MATH 220, MATH_O 220 or (b) a score of 68% or higher in MATH 226": {
+    "model": "gemini-3.8-flash",
+    "problems": [],
+    "tree": {
+      "all_of": [
+        {
+          "one_of": [
+            "CPSC 210",
+            "CPEN 221"
+          ]
+        },
+        {
+          "one_of": [
+            {
+              "one_of": [
+                "CPSC 121",
+                "MATH 220",
+                "MATH_O 220"
+              ]
+            },
+            {
+              "course": "MATH 226",
+              "min_grade": 68
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "Principles of Mathematics 12 or Pre-calculus 12": {
+    "model": "gemini-3.8-flash",
+    "problems": [],
+    "tree": {
+      "one_of": [
+        {
+          "other": "Principles of Mathematics 12"
+        },
+        {
+          "other": "Pre-calculus 12"
+        }
+      ]
+    }
+  },
+  "Third-year standing in a Computer Science or Computer Engineering specialization, and permission of the department": {
+    "model": "gemini-3.8-flash",
+    "problems": [],
+    "tree": {
+      "all_of": [
+        {
+          "other": "Third-year standing in a Computer Science or Computer Engineering specialization"
+        },
+        {
+          "other": "permission of the department"
+        }
+      ]
+    }
+  }
+}
