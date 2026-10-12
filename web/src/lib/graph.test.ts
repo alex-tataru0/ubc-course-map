@@ -1,6 +1,7 @@
 import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
-import { buildGraph, prereqCourses } from "./graph";
+import { ancestors, buildGraph, descendants, prereqCourses } from "./graph";
+import type { GraphEdge } from "./graph";
 import type { Course, CourseFile, ReqNode } from "./types";
 
 // A minimal course record, with just the fields the graph cares about.
@@ -91,6 +92,40 @@ describe("buildGraph", () => {
   });
 });
 
+describe("ancestors and descendants", () => {
+  // A -> B -> C, and D -> C (an option)
+  const edges: GraphEdge[] = [
+    { source: "A", target: "B", kind: "required" },
+    { source: "B", target: "C", kind: "required" },
+    { source: "D", target: "C", kind: "option" },
+  ];
+
+  it("finds every prereq, direct or not, including options", () => {
+    expect(ancestors("C", edges)).toEqual(new Set(["A", "B", "D"]));
+  });
+
+  it("finds every course a course leads to", () => {
+    expect(descendants("A", edges)).toEqual(new Set(["B", "C"]));
+  });
+
+  it("is empty at the ends of the graph", () => {
+    expect(ancestors("A", edges)).toEqual(new Set());
+    expect(descendants("C", edges)).toEqual(new Set());
+  });
+
+  it("is empty for a course with no edges", () => {
+    expect(ancestors("Z", edges)).toEqual(new Set());
+  });
+
+  it("stops on a cycle and leaves out the start", () => {
+    const cycle: GraphEdge[] = [
+      { source: "A", target: "B", kind: "required" },
+      { source: "B", target: "A", kind: "required" },
+    ];
+    expect(ancestors("A", cycle)).toEqual(new Set(["B"]));
+  });
+});
+
 describe("buildGraph on the real CPSC data", () => {
   const url = new URL("../../../data/courses/cpsc.json", import.meta.url);
   const data: CourseFile = JSON.parse(readFileSync(url, "utf8"));
@@ -130,5 +165,20 @@ describe("buildGraph on the real CPSC data", () => {
   it("doesn't draw coreqs", () => {
     // CPSC 121's only CPSC requirement is its coreq (one of CPSC 107, CPSC 110).
     expect(edgesInto("CPSC 121")).toEqual([]);
+  });
+
+  it("finds the whole chain behind CPSC 313", () => {
+    // 313 needs 213 and (221 or DSCI 221); 213 needs 121 and 210;
+    // 221 needs 210 and 121; 210 needs 107 or 110; 107 needs 103.
+    expect(ancestors("CPSC 313", graph.edges)).toEqual(
+      new Set(["CPSC 213", "CPSC 221", "CPSC 121", "CPSC 210", "CPSC 107", "CPSC 110", "CPSC 103"]),
+    );
+  });
+
+  it("finds that CPSC 210 unlocks CPSC 213 and CPSC 221", () => {
+    const unlocked = descendants("CPSC 210", graph.edges);
+    expect(unlocked.has("CPSC 213")).toBe(true);
+    expect(unlocked.has("CPSC 221")).toBe(true);
+    expect(unlocked.has("CPSC 110")).toBe(false);
   });
 });

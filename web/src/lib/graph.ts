@@ -67,3 +67,48 @@ export function buildGraph(courses: Course[]): Graph {
   }
   return { nodes, edges };
 }
+
+// Everything you need before `id`: its prereqs, their prereqs, and so on.
+// Includes "option" edges, so it's every course that could be on the path.
+export function ancestors(id: string, edges: GraphEdge[]): Set<string> {
+  return reachable(id, neighbours(edges, "target", "source"));
+}
+
+// Everything `id` leads to: the courses that need it, the courses that need those, and so on.
+export function descendants(id: string, edges: GraphEdge[]): Set<string> {
+  return reachable(id, neighbours(edges, "source", "target"));
+}
+
+// For each course, the courses one step away in one direction.
+// neighbours(edges, "target", "source") maps a course to its direct prereqs.
+function neighbours(
+  edges: GraphEdge[],
+  from: "source" | "target",
+  to: "source" | "target",
+): Map<string, string[]> {
+  const map = new Map<string, string[]>();
+  for (const edge of edges) {
+    const list = map.get(edge[from]) ?? [];
+    list.push(edge[to]);
+    map.set(edge[from], list);
+  }
+  return map;
+}
+
+// Breadth-first search from `start`. The result doesn't include `start` itself.
+// `seen` stops it looping forever if the data ever has a cycle.
+function reachable(start: string, next: Map<string, string[]>): Set<string> {
+  const seen = new Set<string>([start]);
+  const queue = [start];
+  while (queue.length > 0) {
+    const current = queue.shift()!;
+    for (const code of next.get(current) ?? []) {
+      if (!seen.has(code)) {
+        seen.add(code);
+        queue.push(code);
+      }
+    }
+  }
+  seen.delete(start);
+  return seen;
+}
