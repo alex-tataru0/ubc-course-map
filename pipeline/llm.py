@@ -15,7 +15,7 @@ MODEL = "gemini-3.8-flash"
 CACHE_PATH = Path(__file__).parents[1] / "data" / "llm_cache" / "prereqs.json"
 
 # Examples that show the patterns. The first is CPSC 313's (the rules already handle it);
-# the other two are made up. None is a prereq Gemini will actually be asked about,
+# the others are made up. None is a prereq Gemini will actually be asked about,
 # so they don't leak answers into the accuracy check later.
 EXAMPLES = [
     (
@@ -33,12 +33,18 @@ EXAMPLES = [
             {"other": "Second-year standing"},
         ]},
     ),
+    (
+        "Chemistry 12 and one of PHYS 101, PHYS 117",
+        {"all_of": [{"other": "Chemistry 12"}, {"one_of": ["PHYS 101", "PHYS 117"]}]},
+    ),
 ]
 
 INSTRUCTIONS = """You turn UBC course prerequisite text into a JSON tree.
 
 A node is one of:
-- a course code string, written exactly as in the text, e.g. "CPSC 221" or "MATH_O 220"
+- a course code string, written exactly as in the text, e.g. "CPSC 221" or "MATH_O 220".
+  A course code is a 2-4 capital-letter subject and a 3-digit number. Anything else,
+  including high school courses like "Chemistry 12", is not a course code.
 - {"one_of": [node, ...]}: any one of these is enough
 - {"all_of": [node, ...]}: every one of these is needed
 - {"course": "MATH 226", "min_grade": 68}: a course with a minimum percentage grade
