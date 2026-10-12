@@ -8,8 +8,9 @@ from google.genai import types
 
 from prereq_tree import normalize_codes, parse_with_rules, tree_problems
 
-# Free-tier Flash model. Google renames these often, so it lives in one place.
-MODEL = "gemini-3.8-flash"
+# Free-tier models, best first. Each model has its own rate limits, so if the first one is
+# out of quota or overloaded, the next one gets a turn. Google renames these often.
+MODELS = ["gemini-3.8-flash", "gemini-3.5-flash-lite"]
 
 # Every Gemini answer is saved here and committed, so each prereq is only sent once.
 CACHE_PATH = Path(__file__).parents[1] / "data" / "llm_cache" / "prereqs.json"
@@ -63,11 +64,11 @@ Examples:
 """ + "\n".join(f"Text: {text}\nJSON: {json.dumps(tree)}" for text, tree in EXAMPLES)
 
 
-def ask_gemini(text: str, client=None):
+def ask_gemini(text: str, client=None, model: str = MODELS[0]):
     # `client` lets tests pass in a fake, so they never call the real API.
     client = client or genai.Client()
     response = client.models.generate_content(
-        model=MODEL,
+        model=model,
         contents=text,
         config=types.GenerateContentConfig(
             system_instruction=INSTRUCTIONS,
@@ -89,16 +90,16 @@ def save_cache(cache: dict, path: Path = CACHE_PATH) -> None:
     path.write_text(json.dumps(cache, indent=2, sort_keys=True) + "\n", encoding="utf-8")
 
 
-def parse_prereq(text: str, cache: dict, ask=ask_gemini) -> dict:
+def parse_prereq(text: str, cache: dict, ask) -> dict:
     # Rules first (free and instant), then a saved answer, then Gemini as a last resort.
-    # `ask` lets tests swap in a fake instead of calling Gemini.
+    # `ask(text)` must return (tree, name of the model that answered).
     text = normalize_codes(text)
     tree = parse_with_rules(text)
     if tree is not None:
         return {"tree": tree, "source": "rules", "problems": []}
     if text not in cache:
-        tree = ask(text)
-        cache[text] = {"tree": tree, "problems": tree_problems(tree, text), "model": MODEL}
+        tree, model = ask(text)
+        cache[text] = {"tree": tree, "problems": tree_problems(tree, text), "model": model}
     return {"source": "llm", **cache[text]}
 
 

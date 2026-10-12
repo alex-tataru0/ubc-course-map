@@ -2,7 +2,7 @@ import json
 from types import SimpleNamespace
 
 from llm import (
-    EXAMPLES, INSTRUCTIONS, MODEL, ask_gemini, load_cache, parse_prereq, save_cache,
+    EXAMPLES, INSTRUCTIONS, MODELS, ask_gemini, load_cache, parse_prereq, save_cache,
 )
 from prereq_tree import tree_problems
 
@@ -34,7 +34,7 @@ def test_sends_the_text_and_asks_for_json():
     client = FakeClient('"CPSC 110"')
     ask_gemini("CPSC 110", client)
     call = client.models.calls[0]
-    assert call["model"] == MODEL
+    assert call["model"] == MODELS[0]
     assert call["contents"] == "CPSC 110"
     assert call["config"].response_mime_type == "application/json"
     assert call["config"].system_instruction == INSTRUCTIONS
@@ -48,14 +48,15 @@ def test_examples_in_the_prompt_are_valid():
 
 
 class FakeAsk:
-    # Pretends to be ask_gemini: returns a fixed tree and counts how often it's called.
+    # Pretends to be the real `ask`: returns a fixed tree plus a model name,
+    # and counts how often it's called.
     def __init__(self, tree):
         self.tree = tree
         self.calls = 0
 
     def __call__(self, text):
         self.calls += 1
-        return self.tree
+        return self.tree, "fake-model"
 
 
 CPSC_410_TEXT = "Either (a) CPSC 310 or (b) all of CPEN 321, CPEN 331"
@@ -80,7 +81,7 @@ def test_asks_gemini_when_rules_fail():
     assert result["source"] == "llm"
     assert result["tree"] == CPSC_410_TREE
     assert result["problems"] == []
-    assert cache[CPSC_410_TEXT]["model"] == MODEL
+    assert cache[CPSC_410_TEXT]["model"] == "fake-model"
 
 
 def test_only_asks_once_per_text():
