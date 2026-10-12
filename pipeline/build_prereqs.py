@@ -2,6 +2,7 @@ import time
 from pathlib import Path
 
 from dotenv import load_dotenv
+from google.genai import errors
 
 from llm import ask_gemini, load_cache, parse_prereq, save_cache
 from parse_courses import parse_course_list
@@ -12,11 +13,24 @@ HTML_PATH = Path(__file__).parents[1] / "data" / "raw" / "cpsc.html"
 # The free tier only allows a few requests a minute, so space the calls out.
 SECONDS_BETWEEN_CALLS = 15
 
+# How long to wait before each retry when Gemini is overloaded (503) or rate-limited (429).
+RETRY_WAITS = [30, 60, 120]
 
-def ask_slowly(text: str):
-    time.sleep(SECONDS_BETWEEN_CALLS)
-    print("Asked Gemini:", text)
-    return ask_gemini(text)
+
+def ask_slowly(text: str, ask=ask_gemini, sleep=time.sleep):
+    # `ask` and `sleep` can be swapped for fakes in tests, so tests don't really wait.
+    sleep(SECONDS_BETWEEN_CALLS)
+    print("Asking Gemini:", text)
+    for wait in RETRY_WAITS:
+        try:
+            return ask(text)
+        except errors.APIError as e:
+            if e.code not in (429, 503):
+                raise
+            print(f"  Gemini is busy ({e.code}). Trying again in {wait} seconds...")
+            sleep(wait)
+    # Last try. If this fails too, the error stops the script (saved answers are kept).
+    return ask(text)
 
 
 def build_requisites(courses: list[dict], cache: dict, ask=ask_slowly, save=save_cache) -> dict:
