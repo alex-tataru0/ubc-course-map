@@ -49,6 +49,14 @@ export function prereqCourses(tree: ReqNode): Map<string, EdgeKind> {
   return found;
 }
 
+// Courses numbered below 500. Grad courses are left off the graph for now.
+export function undergradOnly(courses: Course[]): Course[] {
+  return courses.filter((c) => {
+    const number = c.code.match(/\d{3}/);
+    return number !== null && Number(number[0]) < 500;
+  });
+}
+
 // Nodes for every course in the list, and prereq edges between them.
 // Prereqs from outside the list (e.g. MATH 200 on the CPSC graph) get no edge;
 // the side panel shows them instead. Coreqs aren't drawn either.
