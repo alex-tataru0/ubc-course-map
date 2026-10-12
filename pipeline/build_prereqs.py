@@ -1,3 +1,4 @@
+import json
 import time
 from pathlib import Path
 
@@ -6,9 +7,13 @@ from google.genai import errors
 
 from llm import MODELS, ask_gemini, load_cache, parse_prereq, save_cache
 from parse_courses import parse_course_list
+from prereq_tree import normalize_codes
 from requisites import extract_requisites
 
-HTML_PATH = Path(__file__).parents[1] / "data" / "raw" / "cpsc.html"
+ROOT = Path(__file__).parents[1]
+HTML_PATH = ROOT / "data" / "raw" / "cpsc.html"
+OUTPUT_PATH = ROOT / "data" / "courses" / "cpsc.json"
+SOURCE_URL = "https://vancouver.calendar.ubc.ca/course-descriptions/subject/cpscv"
 
 # The free tier only allows a few requests a minute, so space the calls out.
 SECONDS_BETWEEN_CALLS = 15
@@ -52,33 +57,60 @@ def ask_slowly(text: str, ask=ask_gemini, sleep=time.sleep):
             print(f"  {model} can't answer right now ({e.code}). Switching to {MODELS[i + 1]}.")
 
 
-def build_requisites(courses: list[dict], cache: dict, ask=ask_slowly, save=save_cache) -> dict:
-    # Returns {"CPSC 210": {"prereq": {tree, source, problems}}, ...}.
-    # Courses with no prereq or coreq get an empty dict.
-    results = {}
+def requisite(text, cache: dict, ask):
+    # One prereq or coreq as it goes in the output file, or None if the course has none.
+    if text is None:
+        return None
+    result = parse_prereq(text, cache, ask)
+    return {
+        "text": normalize_codes(text),
+        "tree": result["tree"],
+        "source": result["source"],
+        "problems": result["problems"],
+    }
+
+
+def build_courses(courses: list[dict], cache: dict, ask=ask_slowly, save=save_cache) -> list[dict]:
+    # Turns parsed courses into the records the website will load.
+    records = []
     for course in courses:
         reqs = extract_requisites(course["description"])
-        results[course["code"]] = {
-            key: parse_prereq(reqs[key], cache, ask)
-            for key in ("prereq", "coreq")
-            if reqs[key] is not None
-        }
+        equivalency = reqs["equivalency"]
+        records.append({
+            "code": course["code"],
+            "title": course["title"],
+            "credits": course["credits"],
+            "description": normalize_codes(course["description"]),
+            "prereq": requisite(reqs["prereq"], cache, ask),
+            "coreq": requisite(reqs["coreq"], cache, ask),
+            "equivalency": normalize_codes(equivalency) if equivalency else None,
+        })
         # Save after every course, so a crash (like a rate limit) never loses answers.
         save(cache)
-    return results
+    return records
 
 
-def print_summary(results: dict) -> None:
-    found = [(code, key, r) for code, reqs in results.items() for key, r in reqs.items()]
-    by_rules = sum(r["source"] == "rules" for _, _, r in found)
-    print(f"{len(found)} requisites: {by_rules} by rules, {len(found) - by_rules} by Gemini")
-    for code, key, r in found:
-        if r["problems"]:
-            print(f"NEEDS REVIEW  {code} {key}: {r['problems']}")
+def write_courses(records: list[dict], path: Path = OUTPUT_PATH) -> None:
+    data = {"subject": "CPSC", "source": SOURCE_URL, "courses": records}
+    path.parent.mkdir(parents=True, exist_ok=True)
+    # ensure_ascii=False keeps characters like "–" readable instead of "\u2013".
+    path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+
+
+def print_summary(records: list[dict]) -> None:
+    found = [(r["code"], key, r[key]) for r in records for key in ("prereq", "coreq") if r[key]]
+    by_rules = sum(req["source"] == "rules" for _, _, req in found)
+    print(f"{len(records)} courses, {len(found)} requisites: "
+          f"{by_rules} by rules, {len(found) - by_rules} by Gemini")
+    for code, key, req in found:
+        if req["problems"]:
+            print(f"NEEDS REVIEW  {code} {key}: {req['problems']}")
 
 
 if __name__ == "__main__":
     load_dotenv()
     courses = parse_course_list(HTML_PATH.read_text(encoding="utf-8"))
-    results = build_requisites(courses, load_cache())
-    print_summary(results)
+    records = build_courses(courses, load_cache())
+    write_courses(records)
+    print_summary(records)
+    print("Wrote", OUTPUT_PATH.relative_to(ROOT))

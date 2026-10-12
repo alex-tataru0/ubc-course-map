@@ -1,36 +1,95 @@
+import json
+
 import pytest
 from google.genai import errors
 
 from build_prereqs import (
-    RETRY_WAITS, SECONDS_BETWEEN_CALLS, ask_slowly, build_requisites, print_summary,
+    RETRY_WAITS, SECONDS_BETWEEN_CALLS, ask_slowly, build_courses, print_summary, write_courses,
 )
-from llm import MODELS
+from llm import MODELS, load_cache
+from prereq_tree import normalize_codes
+
+
+def no_save(cache):
+    pass
+
+
+def fake_ask(text):
+    return {"other": text}, "fake-model"
+
+
+def requisites(records):
+    return [r[key] for r in records for key in ("prereq", "coreq") if r[key]]
 
 
 def test_only_the_hard_prereqs_go_to_gemini(courses):
     asked = []
 
-    def fake_ask(text):
+    def counting_ask(text):
         asked.append(text)
-        return {"other": text}, "fake-model"
+        return fake_ask(text)
 
-    results = build_requisites(list(courses.values()), {}, fake_ask, save=lambda cache: None)
-    found = [r for reqs in results.values() for r in reqs.values()]
-    assert len(found) == 51
-    assert sum(r["source"] == "rules" for r in found) == 38
+    records = build_courses(list(courses.values()), {}, counting_ask, no_save)
+    assert len(records) == 112
+    assert len(requisites(records)) == 51
+    assert sum(req["source"] == "rules" for req in requisites(records)) == 38
     assert len(asked) == 13
+
+
+def test_course_record(courses):
+    records = build_courses([courses["CPSC 213"]], {}, fake_ask, no_save)
+    assert records == [{
+        "code": "CPSC 213",
+        "title": courses["CPSC 213"]["title"],
+        "credits": "4",
+        "description": normalize_codes(courses["CPSC 213"]["description"]),
+        "prereq": {
+            "text": "All of CPSC 121, CPSC 210",
+            "tree": {"all_of": ["CPSC 121", "CPSC 210"]},
+            "source": "rules",
+            "problems": [],
+        },
+        "coreq": None,
+        "equivalency": None,
+    }]
+
+
+def test_equivalency_codes_are_normalized(courses):
+    records = build_courses([courses["CPSC 322"]], {}, fake_ask, no_save)
+    assert records[0]["equivalency"] == "AI 322"
+
+
+def test_committed_cache_answers_every_hard_prereq(courses):
+    # The saved Gemini answers are enough to build everything without an API key,
+    # and none of them was flagged by the checker.
+    def no_gemini(text):
+        raise AssertionError(f"Not in the cache: {text}")
+
+    records = build_courses(list(courses.values()), load_cache(), no_gemini, no_save)
+    assert all(req["problems"] == [] for req in requisites(records))
+
+
+def test_write_courses(tmp_path):
+    path = tmp_path / "cpsc.json"
+    write_courses([{"code": "CPSC 427", "description": "[1.5–1.5-1]"}], path)
+    data = json.loads(path.read_text(encoding="utf-8"))
+    assert data["subject"] == "CPSC"
+    assert data["courses"][0]["code"] == "CPSC 427"
+    assert "1.5–1.5-1" in path.read_text(encoding="utf-8")
 
 
 def test_summary_lists_answers_that_need_review(capsys):
     # capsys is a pytest fixture that captures what the code prints.
-    results = {
-        "CPSC 110": {},
-        "CPSC 210": {"prereq": {"tree": "CPSC 110", "source": "rules", "problems": []}},
-        "CPSC 999": {"prereq": {"tree": None, "source": "llm", "problems": ["unknown node: None"]}},
-    }
-    print_summary(results)
+    ok = {"text": "CPSC 110", "tree": "CPSC 110", "source": "rules", "problems": []}
+    bad = {"text": "???", "tree": None, "source": "llm", "problems": ["unknown node: None"]}
+    records = [
+        {"code": "CPSC 110", "prereq": None, "coreq": None},
+        {"code": "CPSC 210", "prereq": ok, "coreq": None},
+        {"code": "CPSC 999", "prereq": bad, "coreq": None},
+    ]
+    print_summary(records)
     out = capsys.readouterr().out
-    assert "2 requisites: 1 by rules, 1 by Gemini" in out
+    assert "3 courses, 2 requisites: 1 by rules, 1 by Gemini" in out
     assert "NEEDS REVIEW  CPSC 999 prereq" in out
     assert "CPSC 210" not in out
 
