@@ -1,14 +1,18 @@
 import json
 import sys
+from pathlib import Path
 
 from dotenv import load_dotenv
 from google import genai
 from google.genai import types
 
-from prereq_tree import normalize_codes, tree_problems
+from prereq_tree import normalize_codes, parse_with_rules, tree_problems
 
 # Free-tier Flash model. Google renames these often, so it lives in one place.
 MODEL = "gemini-3.8-flash"
+
+# Every Gemini answer is saved here and committed, so each prereq is only sent once.
+CACHE_PATH = Path(__file__).parents[1] / "data" / "llm_cache" / "prereqs.json"
 
 # Examples that show the patterns. The first is CPSC 313's (the rules already handle it);
 # the other two are made up. None is a prereq Gemini will actually be asked about,
@@ -65,6 +69,31 @@ def ask_gemini(text: str, client=None):
         ),
     )
     return json.loads(response.text)
+
+
+def load_cache(path: Path = CACHE_PATH) -> dict:
+    if not path.exists():
+        return {}
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def save_cache(cache: dict, path: Path = CACHE_PATH) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    # sort_keys keeps the file in a stable order, so git diffs only show real changes.
+    path.write_text(json.dumps(cache, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+
+
+def parse_prereq(text: str, cache: dict, ask=ask_gemini) -> dict:
+    # Rules first (free and instant), then a saved answer, then Gemini as a last resort.
+    # `ask` lets tests swap in a fake instead of calling Gemini.
+    text = normalize_codes(text)
+    tree = parse_with_rules(text)
+    if tree is not None:
+        return {"tree": tree, "source": "rules", "problems": []}
+    if text not in cache:
+        tree = ask(text)
+        cache[text] = {"tree": tree, "problems": tree_problems(tree, text), "model": MODEL}
+    return {"source": "llm", **cache[text]}
 
 
 if __name__ == "__main__":
