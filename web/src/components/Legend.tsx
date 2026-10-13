@@ -25,7 +25,7 @@ function LineSample({ dashed }: { dashed: boolean }) {
 // The key for the two kinds of lines, shown in the header.
 export default function EdgeLegend() {
   return (
-    <p className="flex flex-wrap gap-x-4 text-sm sm:justify-end">
+    <p className="flex flex-wrap gap-x-4 text-xs sm:justify-end sm:text-sm">
       <span>
         <LineSample dashed={false} />
         Required prerequisite

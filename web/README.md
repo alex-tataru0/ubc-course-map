@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# UBC Course Map: website
 
-## Getting Started
+The Next.js site that draws the prerequisite graph. The [main README](../README.md) explains what it does and how the data is built.
 
-First, run the development server:
+## Running it
 
-```bash
+From this folder:
+
+```
+npm install
+npm test
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open http://localhost:3000. `npm run build` writes the finished static site to `out/`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Where things are
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- `src/app/page.tsx` runs at build time: it reads `../data/courses/cpsc.json`, builds and lays out the graph, and renders the header.
+- `src/components/` holds the React pieces: `CourseGraph` (the graph, with React Flow), `CourseDetails` (the side panel), `SelectionBar` and `Legend`.
+- `src/lib/` holds the logic, with no React in it, and a test file next to each module:
+  - `graph.ts`: course data to nodes and edges; what a course needs and unlocks.
+  - `sections.ts`: which courses go in the co-op and "other" sections.
+  - `layout.ts`: rows in year order, positions (with dagre) and the year bands.
+  - `highlight.ts`: how each course and line is drawn when one is selected.
+  - `details.ts`: tidies descriptions and prerequisite trees for the side panel.

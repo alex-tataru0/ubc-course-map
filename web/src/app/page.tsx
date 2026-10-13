@@ -31,15 +31,16 @@ export default function Home() {
 
   return (
     <main className="flex h-screen flex-col">
-      <header className="flex flex-wrap items-end justify-between gap-x-8 gap-y-2 border-b border-header-line bg-header px-5 py-3 text-header-ink">
+      <header className="flex flex-wrap items-end justify-between gap-x-8 gap-y-1.5 border-b border-header-line bg-header px-4 py-2 text-header-ink sm:px-5 sm:py-3">
         <div>
-          <h1 className="text-xl font-semibold tracking-tight">UBC Course Map</h1>
+          <h1 className="text-lg font-semibold tracking-tight sm:text-xl">UBC Course Map</h1>
           <p className="text-sm text-header-muted">
-            Computer Science (CPSC) prerequisites, first year to fourth. Click a course to see what it
-            needs and what it unlocks.
+            {/* The first sentence is hidden on phones to save space. */}
+            <span className="hidden sm:inline">Computer Science (CPSC) prerequisites, first year to fourth. </span>
+            Click a course to see what it needs and what it unlocks.
           </p>
         </div>
-        <div className="space-y-1 sm:text-right">
+        <div className="space-y-0.5 sm:space-y-1 sm:text-right">
           <EdgeLegend />
           <p className="text-xs text-header-muted">
             Unofficial student project, not affiliated with UBC. Data from the{" "}

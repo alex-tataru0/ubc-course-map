@@ -1,16 +1,20 @@
 # UBC Course Map
 
+![CI](https://github.com/alex-tataru0/ubc-course-map/actions/workflows/ci.yml/badge.svg)
+
 A website for UBC students to plan courses using the prerequisite graph.
 
-> Work in progress.
+> Work in progress. Unofficial, not affiliated with UBC.
 
-## Planned features
+## Features
 
-- Pick a major and see its required courses and how they connect.
-- Prerequisite graph: click a course to see what it needs and what it unlocks.
-- "What can I take next?" based on the courses you've already done.
-- Teaching history and grade distributions per course (from UBCGrades).
-- Links to r/ubc discussions and RateMyProf for each course and instructor.
+- [x] Prerequisite graph for Computer Science (CPSC), laid out from first year to fourth.
+- [x] Click a course to highlight everything it needs and everything it unlocks.
+- [x] Course details: description, credits, and the exact prerequisite rule, including courses from other departments.
+- [ ] Pick a major and see its required courses and how they connect.
+- [ ] "What can I take next?" based on the courses you've already done.
+- [ ] Teaching history and grade distributions per course (from UBCGrades).
+- [ ] Links to r/ubc discussions and RateMyProf for each course and instructor.
 
 ## How the course data is built
 
@@ -52,6 +56,26 @@ python pipeline/build_prereqs.py
 ```
 
 A Gemini API key is only needed when there are prerequisites the cache doesn't have yet. Put it in a `.env` file (see `.env.example`).
+
+## The website
+
+The site is in `web/`: Next.js, TypeScript and React Flow, exported as a plain static site. It never calls an API. Everything is worked out when the site is built.
+
+- **Built ahead of time.** A server component reads `data/courses/cpsc.json` during `npm run build`, turns it into a graph and lays it out. The browser only gets the finished positions, so the layout library never ships to it.
+- **Laid out in course order.** Rows go by year (all 100-level courses above all 200-level ones, and so on), and a course sits below any prerequisite from its own year (CPSC 103 → 107). [dagre](https://github.com/dagrejs/dagre) only picks the left-to-right order inside each row, through a custom ranker, to keep lines from crossing. The rows are then packed tightly: dagre's own spacing made the graph about 4,000px wide, packed it's about 1,800px.
+- **What a course needs and unlocks** is a breadth-first search over the prerequisite edges, in each direction. Solid lines are required, dashed lines are one of several options.
+- **Colours** for "needs" and "unlocks" were checked with a colour-blindness validator, and always come with text labels. There's a dark mode, and it works with the keyboard (Tab, Enter, Esc) and screen readers.
+
+### Running it
+
+```
+cd web
+npm install
+npm test
+npm run dev
+```
+
+`npm run build` writes the static site to `web/out/`. There are 56 tests (Vitest) for the graph, layout, highlighting and course-details logic, including checks against the real CPSC data. GitHub Actions runs `pytest` and the website's tests, lint and build on every push.
 
 ## Data credits
 
