@@ -1,10 +1,19 @@
 import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
-import { buildGraph, undergradOnly } from "./graph";
-import type { Graph } from "./graph";
-import { layoutGraph, NODE_HEIGHT, NODE_WIDTH } from "./layout";
+import { buildGraph, toGraphNode, undergradOnly } from "./graph";
+import type { Graph, GraphEdge, GraphNode } from "./graph";
+import { layoutGraph, NODE_HEIGHT, NODE_WIDTH, yearRows } from "./layout";
 import type { Position } from "./layout";
+import { splitCourses } from "./sections";
 import type { CourseFile } from "./types";
+
+function node(id: string): GraphNode {
+  return { id, title: id, noRequirements: false };
+}
+
+function edge(source: string, target: string): GraphEdge {
+  return { source, target, kind: "required" };
+}
 
 function overlaps(a: Position, b: Position): boolean {
   return (
@@ -13,76 +22,120 @@ function overlaps(a: Position, b: Position): boolean {
   );
 }
 
-function node(id: string) {
-  return { id, title: id };
-}
+describe("yearRows", () => {
+  it("puts each year below the one before", () => {
+    const graph: Graph = { nodes: ["CPSC 310", "CPSC 110", "CPSC 210"].map(node), edges: [] };
+    const rows = yearRows(graph);
+    expect(rows.get("CPSC 110")).toBe(0);
+    expect(rows.get("CPSC 210")).toBe(1);
+    expect(rows.get("CPSC 310")).toBe(2);
+  });
+
+  it("drops a course below a prereq from the same year", () => {
+    const graph: Graph = {
+      nodes: ["CPSC 103", "CPSC 107", "CPSC 110", "CPSC 210"].map(node),
+      edges: [edge("CPSC 103", "CPSC 107"), edge("CPSC 107", "CPSC 210")],
+    };
+    const rows = yearRows(graph);
+    expect(rows.get("CPSC 103")).toBe(0);
+    expect(rows.get("CPSC 110")).toBe(0);
+    expect(rows.get("CPSC 107")).toBe(1);
+    expect(rows.get("CPSC 210")).toBe(2);
+  });
+
+  it("wraps a long row into even pieces of at most 14", () => {
+    const ids = Array.from({ length: 15 }, (_, i) => `CPSC ${401 + i}`);
+    const rows = yearRows({ nodes: ids.map(node), edges: [] });
+    const firstRow = ids.filter((id) => rows.get(id) === 0);
+    const secondRow = ids.filter((id) => rows.get(id) === 1);
+    expect(firstRow).toEqual(ids.slice(0, 8));
+    expect(secondRow).toEqual(ids.slice(8));
+  });
+});
 
 describe("layoutGraph", () => {
-  // A -> B -> C, plus two loose courses L1 and L2.
   const graph: Graph = {
-    nodes: ["A", "B", "C", "L1", "L2"].map(node),
-    edges: [
-      { source: "A", target: "B", kind: "required" },
-      { source: "B", target: "C", kind: "option" },
-    ],
+    nodes: ["CPSC 110", "CPSC 210", "CPSC 213"].map(node),
+    edges: [edge("CPSC 110", "CPSC 210"), edge("CPSC 210", "CPSC 213")],
   };
-  const { positions, looseTop } = layoutGraph(graph);
+  const sections = [
+    { title: "Co-op", nodes: ["CPSC 298", "CPSC 299"].map(node) },
+    { title: "Empty", nodes: [] },
+    { title: "Other", nodes: ["CPSC 448"].map(node) },
+  ];
+  const { positions, labels } = layoutGraph(graph, sections);
   const pos = (id: string) => positions.get(id)!;
 
-  it("gives every node a position", () => {
-    expect([...positions.keys()].sort()).toEqual(["A", "B", "C", "L1", "L2"]);
+  it("puts every prereq above the course that needs it", () => {
+    expect(pos("CPSC 110").y).toBeLessThan(pos("CPSC 210").y);
+    expect(pos("CPSC 210").y).toBeLessThan(pos("CPSC 213").y);
   });
 
-  it("puts prereqs above the courses they unlock", () => {
-    expect(pos("A").y).toBeLessThan(pos("B").y);
-    expect(pos("B").y).toBeLessThan(pos("C").y);
+  it("puts each section's title, then its courses in a row, under the graph", () => {
+    expect(labels.map((l) => l.text)).toEqual(["Co-op", "Other"]);
+    const [coop, other] = labels;
+    expect(coop.y).toBeGreaterThan(pos("CPSC 213").y + NODE_HEIGHT);
+    expect(pos("CPSC 298").y).toBeGreaterThan(coop.y);
+    expect(pos("CPSC 299").y).toBe(pos("CPSC 298").y);
+    expect(pos("CPSC 299").x).toBeGreaterThan(pos("CPSC 298").x);
+    expect(other.y).toBeGreaterThan(pos("CPSC 298").y + NODE_HEIGHT);
+    expect(pos("CPSC 448").y).toBeGreaterThan(other.y);
   });
 
-  it("puts loose courses in a row below the graph", () => {
-    expect(looseTop).not.toBeNull();
-    expect(pos("L1").y).toBe(looseTop);
-    expect(pos("L2").y).toBe(looseTop);
-    expect(pos("L1").y).toBeGreaterThan(pos("C").y + NODE_HEIGHT);
-    expect(pos("L1").x).toBeLessThan(pos("L2").x);
-  });
-
-  it("wraps the grid after 6 courses", () => {
-    const seven = { nodes: "1234567".split("").map(node), edges: [] };
-    const layout = layoutGraph(seven);
-    expect(layout.looseTop).toBe(0);
-    expect(layout.positions.get("6")!.y).toBe(0);
-    expect(layout.positions.get("7")!.y).toBeGreaterThan(0);
-    expect(layout.positions.get("7")!.x).toBe(0);
-  });
-
-  it("has no grid when every course is linked", () => {
-    const linked = { nodes: graph.nodes.slice(0, 3), edges: graph.edges };
-    expect(layoutGraph(linked).looseTop).toBeNull();
+  it("has no titles without sections", () => {
+    expect(layoutGraph(graph).labels).toEqual([]);
   });
 });
 
 describe("layoutGraph on the real CPSC data", () => {
   const url = new URL("../../../data/courses/cpsc.json", import.meta.url);
   const data: CourseFile = JSON.parse(readFileSync(url, "utf8"));
-  const graph = buildGraph(undergradOnly(data.courses));
-  const { positions, looseTop } = layoutGraph(graph);
+  const { main, coop, other } = splitCourses(undergradOnly(data.courses));
+  const graph = buildGraph(main);
+  const { positions, labels } = layoutGraph(graph, [
+    { title: "Co-op work terms", nodes: coop.map(toGraphNode) },
+    { title: "Other CPSC courses", nodes: other.map(toGraphNode) },
+  ]);
+  const y = (id: string) => positions.get(id)!.y;
+  const rows = yearRows(graph);
 
-  it("keeps only undergrad courses", () => {
-    expect(graph.nodes.some((n) => n.id === "CPSC 500")).toBe(false);
-    expect(graph.nodes.some((n) => n.id === "CPSC 490")).toBe(true);
+  it("puts 100, 103 and 110 on the top row", () => {
+    expect(rows.get("CPSC 100")).toBe(0);
+    expect(rows.get("CPSC 103")).toBe(0);
+    expect(rows.get("CPSC 110")).toBe(0);
+    expect(y("CPSC 110")).toBe(Math.min(...graph.nodes.map((n) => y(n.id))));
   });
 
-  it("puts every prereq above the course that needs it", () => {
-    for (const edge of graph.edges) {
-      expect(positions.get(edge.source)!.y).toBeLessThan(positions.get(edge.target)!.y);
+  it("keeps the years in order", () => {
+    const ys = (level: number) =>
+      graph.nodes.filter((n) => n.id[5] === String(level)).map((n) => y(n.id));
+    for (const level of [1, 2, 3]) {
+      expect(Math.max(...ys(level))).toBeLessThan(Math.min(...ys(level + 1)));
     }
   });
 
-  it("puts the 10 loose undergrad courses in the grid", () => {
-    // 100, 259, 398, 399, 424, 430, 436, 448, 490, 499: no prereq links to other CPSC courses.
-    const inGrid = graph.nodes.filter((n) => positions.get(n.id)!.y >= looseTop!);
-    expect(inGrid.map((n) => n.id)).toContain("CPSC 436");
-    expect(inGrid).toHaveLength(10);
+  it("puts every prereq above the course that needs it", () => {
+    for (const e of graph.edges) expect(y(e.source)).toBeLessThan(y(e.target));
+  });
+
+  it("is only as wide as the widest row", () => {
+    const xs = graph.nodes.map((n) => positions.get(n.id)!.x);
+    expect(Math.max(...xs) + NODE_WIDTH - Math.min(...xs)).toBeLessThanOrEqual(14 * (NODE_WIDTH + 30));
+  });
+
+  it("never has more than 14 courses in a row", () => {
+    const counts = new Map<number, number>();
+    for (const row of rows.values()) counts.set(row, (counts.get(row) ?? 0) + 1);
+    expect(Math.max(...counts.values())).toBeLessThanOrEqual(14);
+  });
+
+  it("puts the co-op terms in order under the graph", () => {
+    const coopIds = coop.map((c) => c.code);
+    expect(labels[0].text).toBe("Co-op work terms");
+    expect(new Set(coopIds.map(y)).size).toBe(1);
+    const xs = coopIds.map((id) => positions.get(id)!.x);
+    expect(xs).toEqual([...xs].sort((a, b) => a - b));
+    expect(y("CPSC 298")).toBeGreaterThan(Math.max(...graph.nodes.map((n) => y(n.id))));
   });
 
   it("doesn't overlap any two courses", () => {

@@ -1,12 +1,14 @@
-import dagre from "@dagrejs/dagre";
-import type { Graph } from "./graph";
+import dagre, { type GraphLabel, type RankerFunction } from "@dagrejs/dagre";
+import type { Graph, GraphNode } from "./graph";
 
 export const NODE_WIDTH = 110;
-export const NODE_HEIGHT = 44;
+export const NODE_HEIGHT = 52;
 const GAP = 30; // between nodes side by side
 const RANK_GAP = 70; // between rows of the graph
-const GRID_COLUMNS = 6; // loose courses per row in the grid below
-const GRID_TOP_MARGIN = 100; // space between the graph and the grid
+const MAX_PER_ROW = 14; // longer rows of the graph wrap onto extra rows
+const SECTION_COLUMNS = 8; // courses per row in the sections below the graph
+const SECTION_GAP = 100; // space above each section
+const LABEL_HEIGHT = 32; // space for a section's title
 
 // Top-left corner, which is what React Flow expects.
 export interface Position {
@@ -14,48 +16,146 @@ export interface Position {
   y: number;
 }
 
-export interface Layout {
-  positions: Map<string, Position>;
-  // Where the grid of loose courses starts, so the page can label it. null if there are none.
-  looseTop: number | null;
+// A titled group of courses shown under the graph, e.g. the co-op work terms.
+export interface Section {
+  title: string;
+  nodes: GraphNode[];
 }
 
-// Linked courses (with at least one edge) are laid out top to bottom by dagre,
-// so prereqs sit above the courses they unlock. Loose courses (no edges)
-// go in a grid underneath, so they don't look like starting points.
-export function layoutGraph(graph: Graph): Layout {
-  const linked = new Set(graph.edges.flatMap((e) => [e.source, e.target]));
-  const positions = new Map<string, Position>();
+export interface Label {
+  text: string;
+  x: number;
+  y: number;
+}
 
-  const g = new dagre.graphlib.Graph();
-  g.setGraph({ rankdir: "TB", nodesep: GAP, ranksep: RANK_GAP });
-  g.setDefaultEdgeLabel(() => ({}));
-  for (const node of graph.nodes) {
-    if (linked.has(node.id)) {
-      g.setNode(node.id, { width: NODE_WIDTH, height: NODE_HEIGHT });
+export interface Layout {
+  positions: Map<string, Position>;
+  labels: Label[]; // section titles
+}
+
+function year(code: string): number {
+  return Math.floor(Number(code.match(/\d{3}/)![0]) / 100);
+}
+
+// Splits a list into the fewest pieces of at most `max`, keeping the pieces about the same size.
+function splitEvenly<T>(items: T[], max: number): T[][] {
+  const pieces = Math.ceil(items.length / max);
+  const size = Math.ceil(items.length / pieces);
+  const result: T[][] = [];
+  for (let i = 0; i < items.length; i += size) result.push(items.slice(i, i + size));
+  return result;
+}
+
+// The row of each course in the graph, counting from 0 at the top.
+// - Years go in order: every 100-level course is above every 200-level one, and so on.
+// - Inside a year, a course sits one row below its lowest prereq from the same year (103 -> 107).
+//   Prereqs from earlier years are already above it.
+// - A row with more than MAX_PER_ROW courses wraps onto extra rows in course-number order.
+//   That's safe because courses in the same row never need each other.
+export function yearRows(graph: Graph): Map<string, number> {
+  const prereqs = new Map<string, string[]>();
+  for (const edge of graph.edges) {
+    prereqs.set(edge.target, [...(prereqs.get(edge.target) ?? []), edge.source]);
+  }
+
+  const byYear = new Map<number, string[]>();
+  for (const { id } of graph.nodes) {
+    byYear.set(year(id), [...(byYear.get(year(id)) ?? []), id]);
+  }
+
+  const rows = new Map<string, number>();
+  let nextRow = 0;
+  for (const y of [...byYear.keys()].sort((a, b) => a - b)) {
+    const ids = byYear.get(y)!.sort();
+
+    // Rows inside this year, counting from 0.
+    const local = new Map<string, number>();
+    const rowInYear = (id: string): number => {
+      if (!local.has(id)) {
+        local.set(id, 0); // set first, so a cycle in the data can't recurse forever
+        const sameYear = (prereqs.get(id) ?? []).filter((p) => year(p) === y);
+        local.set(id, Math.max(0, ...sameYear.map((p) => rowInYear(p) + 1)));
+      }
+      return local.get(id)!;
+    };
+    ids.forEach(rowInYear);
+
+    // Turn them into rows of the whole graph, wrapping long ones.
+    const deepest = Math.max(...local.values());
+    for (let r = 0; r <= deepest; r++) {
+      const row = ids.filter((id) => local.get(id) === r);
+      for (const piece of splitEvenly(row, MAX_PER_ROW)) {
+        for (const id of piece) rows.set(id, nextRow);
+        nextRow++;
+      }
     }
   }
+  return rows;
+}
+
+// Places the graph in the rows from yearRows, then each section underneath as a titled grid.
+//
+// dagre picks the left-to-right order inside each row, to keep edges from crossing.
+// Its own x positions are very spread out (about 4000px for CPSC) because it leaves room
+// to route edges that skip rows, but React Flow draws its own curves and ignores those
+// routes. So we keep dagre's order and pack each row tightly, centred on the widest row.
+export function layoutGraph(graph: Graph, sections: Section[] = []): Layout {
+  const rows = yearRows(graph);
+  const positions = new Map<string, Position>();
+  const labels: Label[] = [];
+
+  // dagre calls this instead of choosing rows itself. Its ranks go up in steps of 2,
+  // because it doubles every edge's length inside (to leave room for edge labels) and
+  // halves the gap between ranks to match, so row r is rank 2r. Nodes dagre adds for
+  // its own use aren't in `rows`, so they get 0.
+  const setRows: RankerFunction = (g) => {
+    for (const id of g.nodes()) g.node(id).rank = 2 * (rows.get(id) ?? 0);
+  };
+
+  const g = new dagre.graphlib.Graph();
+  g.setGraph({
+    rankdir: "TB",
+    // dagre accepts a function here (that's its RankerFunction type), but its GraphLabel
+    // type only lists the built-in ranker names, hence the cast.
+    ranker: setRows as unknown as GraphLabel["ranker"],
+  });
+  g.setDefaultEdgeLabel(() => ({}));
+  for (const node of graph.nodes) g.setNode(node.id, { width: NODE_WIDTH, height: NODE_HEIGHT });
   for (const edge of graph.edges) g.setEdge(edge.source, edge.target);
   dagre.layout(g);
 
-  // dagre gives the centre of each node; convert to the top-left corner.
-  let bottom = 0;
-  for (const id of g.nodes()) {
-    const { x, y } = g.node(id);
-    positions.set(id, { x: x - NODE_WIDTH / 2, y: y - NODE_HEIGHT / 2 });
-    bottom = Math.max(bottom, y + NODE_HEIGHT / 2);
+  // Group the courses by row, each row in dagre's left-to-right order.
+  const byRow: string[][] = [];
+  for (const { id } of graph.nodes) {
+    const row = rows.get(id)!;
+    byRow[row] = [...(byRow[row] ?? []), id];
   }
+  for (const row of byRow) row.sort((a, b) => g.node(a).x - g.node(b).x);
 
-  const loose = graph.nodes.filter((n) => !linked.has(n.id));
-  const looseTop = loose.length === 0 ? null : linked.size === 0 ? 0 : bottom + GRID_TOP_MARGIN;
-  loose.forEach((node, i) => {
-    const column = i % GRID_COLUMNS;
-    const row = Math.floor(i / GRID_COLUMNS);
-    positions.set(node.id, {
-      x: column * (NODE_WIDTH + GAP),
-      y: looseTop! + row * (NODE_HEIGHT + GAP),
+  const rowWidth = (count: number) => count * (NODE_WIDTH + GAP) - GAP;
+  const widest = Math.max(0, ...byRow.map((row) => rowWidth(row.length)));
+  byRow.forEach((row, r) => {
+    const left = (widest - rowWidth(row.length)) / 2;
+    row.forEach((id, i) => {
+      positions.set(id, { x: left + i * (NODE_WIDTH + GAP), y: r * (NODE_HEIGHT + RANK_GAP) });
     });
   });
+  const bottom = byRow.length * (NODE_HEIGHT + RANK_GAP) - RANK_GAP;
 
-  return { positions, looseTop };
+  let top = graph.nodes.length > 0 ? bottom + SECTION_GAP : 0;
+  for (const section of sections) {
+    if (section.nodes.length === 0) continue;
+    labels.push({ text: section.title, x: 0, y: top });
+    const firstRow = top + LABEL_HEIGHT;
+    section.nodes.forEach((node, i) => {
+      positions.set(node.id, {
+        x: (i % SECTION_COLUMNS) * (NODE_WIDTH + GAP),
+        y: firstRow + Math.floor(i / SECTION_COLUMNS) * (NODE_HEIGHT + GAP),
+      });
+    });
+    const rowCount = Math.ceil(section.nodes.length / SECTION_COLUMNS);
+    top = firstRow + rowCount * (NODE_HEIGHT + GAP) - GAP + SECTION_GAP;
+  }
+
+  return { positions, labels };
 }

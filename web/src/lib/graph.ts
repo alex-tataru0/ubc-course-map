@@ -7,6 +7,7 @@ export type EdgeKind = "required" | "option";
 export interface GraphNode {
   id: string; // course code, e.g. "CPSC 210"
   title: string;
+  noRequirements: boolean; // no prereq and no coreq at all, e.g. CPSC 110
 }
 
 // An edge points from a prerequisite to the course that needs it.
@@ -57,11 +58,19 @@ export function undergradOnly(courses: Course[]): Course[] {
   });
 }
 
+export function toGraphNode(course: Course): GraphNode {
+  return {
+    id: course.code,
+    title: course.title,
+    noRequirements: course.prereq === null && course.coreq === null,
+  };
+}
+
 // Nodes for every course in the list, and prereq edges between them.
 // Prereqs from outside the list (e.g. MATH 200 on the CPSC graph) get no edge;
 // the side panel shows them instead. Coreqs aren't drawn either.
 export function buildGraph(courses: Course[]): Graph {
-  const nodes = courses.map((c) => ({ id: c.code, title: c.title }));
+  const nodes = courses.map(toGraphNode);
   const inGraph = new Set(nodes.map((n) => n.id));
   const edges: GraphEdge[] = [];
 

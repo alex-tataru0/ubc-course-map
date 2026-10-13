@@ -73,8 +73,8 @@ describe("buildGraph", () => {
       course("CPSC 210", "CPSC 110"),
     ]);
     expect(graph.nodes).toEqual([
-      { id: "CPSC 110", title: "CPSC 110 title" },
-      { id: "CPSC 210", title: "CPSC 210 title" },
+      { id: "CPSC 110", title: "CPSC 110 title", noRequirements: true },
+      { id: "CPSC 210", title: "CPSC 210 title", noRequirements: false },
     ]);
     expect(graph.edges).toEqual([
       { source: "CPSC 110", target: "CPSC 210", kind: "required" },
