@@ -4,6 +4,7 @@ import {
   Controls,
   Handle,
   MarkerType,
+  Panel,
   Position,
   ReactFlow,
   type ColorMode,
@@ -14,7 +15,8 @@ import {
   type ReactFlowInstance,
 } from "@xyflow/react";
 import "@xyflow/react/dist/style.css";
-import { useEffect, useMemo, useState, useSyncExternalStore } from "react";
+import { useEffect, useMemo, useRef, useState, useSyncExternalStore } from "react";
+import type { KeyboardEvent as ReactKeyboardEvent } from "react";
 import type { GraphEdge, GraphNode } from "@/lib/graph";
 import { edgeRole, highlightFor, nodeRole } from "@/lib/highlight";
 import type { EdgeRole, Role } from "@/lib/highlight";
@@ -22,6 +24,7 @@ import { BAND_GUTTER, NODE_HEIGHT, NODE_WIDTH } from "@/lib/layout";
 import type { Band, Label, Position as Point } from "@/lib/layout";
 import type { Course } from "@/lib/types";
 import CourseDetails from "./CourseDetails";
+import SelectionBar from "./SelectionBar";
 
 // A course with its position, worked out at build time by layoutGraph.
 export type PlacedCourse = GraphNode & Point;
@@ -96,6 +99,18 @@ function BandNode({ data }: NodeProps<BandNodeType>) {
 // Defined outside the component so React Flow gets the same object on every render.
 const nodeTypes = { course: CourseNode, label: LabelNode, band: BandNode };
 
+// What screen readers announce on a focused course, replacing React Flow's default
+// (which talks about moving and deleting nodes, which this site doesn't do).
+const KEYBOARD_HINT = "Press Enter or Space to see what this course needs and unlocks. Press Escape to clear.";
+// Below this zoom the course codes get hard to read, so narrow screens (phones) start
+// on the first two years instead of the whole width of the graph.
+const MIN_START_ZOOM = 0.5;
+
+const ariaLabelConfig = {
+  "node.a11yDescription.default": KEYBOARD_HINT,
+  "node.a11yDescription.keyboardDisabled": KEYBOARD_HINT,
+};
+
 // Edge colours by role. undefined keeps React Flow's default grey.
 const EDGE_COLORS: Record<EdgeRole, string | undefined> = {
   normal: undefined,
@@ -136,9 +151,13 @@ export default function CourseGraph({
   calendarUrl,
 }: CourseGraphProps) {
   const colorMode = useSystemColorMode();
+  // The highlighted course, and whether its side panel is open. Closing the panel keeps
+  // the highlight, so the lines can be seen on a phone (where the panel covers the graph).
   const [selected, setSelected] = useState<string | null>(null);
+  const [panelOpen, setPanelOpen] = useState(false);
   // The React Flow instance, so we can move the view. Set once the graph has loaded.
   const [flow, setFlow] = useState<ReactFlowInstance<FlowNode, Edge> | null>(null);
+  const canvasRef = useRef<HTMLDivElement>(null);
 
   const placed = useMemo(() => new Map(courses.map((c) => [c.id, c])), [courses]);
   const records = useMemo(() => new Map(details.map((c) => [c.code, c])), [details]);
@@ -148,6 +167,60 @@ export default function CourseGraph({
     () => (selected === null ? null : highlightFor(selected, edges)),
     [selected, edges],
   );
+
+  // The view to start with: the whole width of the graph with the year labels on the
+  // left, starting at the top of first year. On screens too narrow to show that at a
+  // readable size, it centres on the 100- and 200-level courses at MIN_START_ZOOM instead.
+  // The fit-view button in the corner still shows everything.
+  const showStart = (instance: ReactFlowInstance<FlowNode, Edge>) => {
+    const box = canvasRef.current?.getBoundingClientRect();
+    if (!box || bands.length === 0) return;
+    const margin = 16;
+    const top = bands[0].top;
+    let left = -BAND_GUTTER; // the year labels
+    let right = width + 30; // the right end of the bands
+    const fitZoom = (box.width - 2 * margin) / (right - left);
+    if (fitZoom < MIN_START_ZOOM) {
+      const endOfYear2 = bands[Math.min(1, bands.length - 1)].bottom;
+      const start = courses.filter((c) => c.y < endOfYear2);
+      left = Math.min(...start.map((c) => c.x));
+      right = Math.max(...start.map((c) => c.x + NODE_WIDTH));
+    }
+    const zoom = Math.min(1, Math.max(MIN_START_ZOOM, fitZoom));
+    instance.setViewport({
+      x: box.width / 2 - ((left + right) / 2) * zoom,
+      y: margin - top * zoom,
+      zoom,
+    });
+  };
+
+  const onInit = (instance: ReactFlowInstance<FlowNode, Edge>) => {
+    setFlow(instance);
+    showStart(instance);
+  };
+
+  // When a course is selected, make sure it's on screen. The side panel takes room from the
+  // graph, and a course picked in the panel can be anywhere. Waits one frame so the graph
+  // has its new size first.
+  useEffect(() => {
+    if (selected === null || flow === null) return;
+    const frame = requestAnimationFrame(() => {
+      const course = placed.get(selected);
+      const box = canvasRef.current?.getBoundingClientRect();
+      if (!course || !box) return;
+      const topLeft = flow.flowToScreenPosition({ x: course.x, y: course.y });
+      const bottomRight = flow.flowToScreenPosition({ x: course.x + NODE_WIDTH, y: course.y + NODE_HEIGHT });
+      const onScreen =
+        topLeft.x >= box.left && topLeft.y >= box.top && bottomRight.x <= box.right && bottomRight.y <= box.bottom;
+      if (!onScreen) {
+        flow.setCenter(course.x + NODE_WIDTH / 2, course.y + NODE_HEIGHT / 2, {
+          zoom: flow.getZoom(),
+          duration: 400,
+        });
+      }
+    });
+    return () => cancelAnimationFrame(frame);
+  }, [selected, panelOpen, flow, placed]);
 
   // Esc clears the selection.
   useEffect(() => {
@@ -181,6 +254,7 @@ export default function CourseGraph({
         width: NODE_WIDTH,
         height: NODE_HEIGHT,
         zIndex: 2, // above every edge, so lines pass behind the boxes instead of over their text
+        ariaLabel: `${c.id}: ${c.title}`,
         data: { code: c.id, title: c.title, noRequirements: c.noRequirements, role: nodeRole(highlight, c.id) },
       });
     }
@@ -191,6 +265,7 @@ export default function CourseGraph({
         position: { x: label.x, y: label.y },
         data: { text: label.text },
         selectable: false,
+        focusable: false,
       });
     });
     return result;
@@ -220,53 +295,74 @@ export default function CourseGraph({
     [edges, highlight],
   );
 
-  // Clicking a course selects it; clicking it again clears it.
-  const onNodeClick: NodeMouseHandler = (_, node) => {
-    if (node.type !== "course") return;
-    setSelected((current) => (current === node.id ? null : node.id));
+  // Clicking a course highlights it and opens its panel. Clicking it again clears it,
+  // unless its panel was closed, in which case the panel opens again.
+  const choose = (id: string) => {
+    if (id === selected && panelOpen) {
+      setSelected(null);
+    } else {
+      setSelected(id);
+      setPanelOpen(true);
+    }
   };
 
-  // Clicking a course code in the side panel selects it and moves the view to it,
-  // since it may be off screen.
-  const selectFromPanel = (code: string) => {
-    setSelected(code);
-    const course = placed.get(code);
-    if (flow && course) {
-      flow.setCenter(course.x + NODE_WIDTH / 2, course.y + NODE_HEIGHT / 2, {
-        zoom: flow.getZoom(),
-        duration: 400,
-      });
+  const onNodeClick: NodeMouseHandler = (_, node) => {
+    if (node.type === "course") choose(node.id);
+  };
+
+  // Tab moves between courses (React Flow makes each one focusable and pans to it).
+  // Enter or Space on a focused course works like a click.
+  const onKeyDown = (event: ReactKeyboardEvent<HTMLDivElement>) => {
+    if (event.key !== "Enter" && event.key !== " ") return;
+    const node = (event.target as HTMLElement).closest(".react-flow__node-course");
+    const id = node?.getAttribute("data-id");
+    if (id) {
+      event.preventDefault(); // stop Space from scrolling the page
+      choose(id);
     }
   };
 
   const selectedCourse = selected === null ? undefined : records.get(selected);
 
   return (
-    <div className="relative h-full w-full">
-      <ReactFlow
-        nodes={nodes}
-        edges={flowEdges}
-        nodeTypes={nodeTypes}
-        onInit={setFlow}
-        onNodeClick={onNodeClick}
-        onPaneClick={() => setSelected(null)}
-        nodesDraggable={false}
-        nodesConnectable={false}
-        elementsSelectable={false}
-        colorMode={colorMode}
-        minZoom={0.1}
-        fitView
-      >
-        <Controls showInteractive={false} />
-      </ReactFlow>
-      {selectedCourse && highlight && (
+    // On wide screens the side panel sits beside the graph. On phones it covers the graph.
+    <div className="relative flex h-full w-full">
+      <div ref={canvasRef} onKeyDown={onKeyDown} className="relative min-w-0 flex-1">
+        <ReactFlow
+          nodes={nodes}
+          edges={flowEdges}
+          nodeTypes={nodeTypes}
+          onInit={onInit}
+          onNodeClick={onNodeClick}
+          onPaneClick={() => setSelected(null)}
+          nodesDraggable={false}
+          nodesConnectable={false}
+          edgesFocusable={false} // Tab goes straight to the courses, not to each of the 70 lines
+          elementsSelectable={false}
+          colorMode={colorMode}
+          minZoom={0.1}
+          ariaLabelConfig={ariaLabelConfig}
+        >
+          <Controls showInteractive={false} />
+          {highlight && !panelOpen && (
+            <Panel position="top-left">
+              <SelectionBar
+                highlight={highlight}
+                onDetails={() => setPanelOpen(true)}
+                onClear={() => setSelected(null)}
+              />
+            </Panel>
+          )}
+        </ReactFlow>
+      </div>
+      {selectedCourse && highlight && panelOpen && (
         <CourseDetails
           course={selectedCourse}
           highlight={highlight}
           onMap={onMap}
           calendarUrl={calendarUrl}
-          onSelect={selectFromPanel}
-          onClose={() => setSelected(null)}
+          onSelect={setSelected}
+          onClose={() => setPanelOpen(false)}
         />
       )}
     </div>

@@ -72,3 +72,10 @@ body {
 .react-flow {
   --xy-background-color: var(--canvas);
 }
+
+/* A clear ring around a course reached with the keyboard (Tab). */
+.react-flow__node-course:focus-visible {
+  outline: 2px solid var(--role-selected);
+  outline-offset: 3px;
+  border-radius: 10px;
+}

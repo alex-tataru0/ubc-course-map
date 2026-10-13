@@ -1,5 +1,10 @@
-// The key for the two kinds of lines. It has no state, so the server can render it
-// straight into the header.
+// Small pieces of the key that explain the lines and colours. They have no state,
+// so they work in server and client components alike.
+
+// A little square outlined in a highlight colour, e.g. border-role-needs.
+export function Swatch({ className }: { className: string }) {
+  return <span className={`mr-2 inline-block h-3 w-3 rounded-sm border-2 ${className}`} aria-hidden />;
+}
 
 function LineSample({ dashed }: { dashed: boolean }) {
   return (
@@ -17,6 +22,7 @@ function LineSample({ dashed }: { dashed: boolean }) {
   );
 }
 
+// The key for the two kinds of lines, shown in the header.
 export default function EdgeLegend() {
   return (
     <p className="flex flex-wrap gap-x-4 text-sm sm:justify-end">

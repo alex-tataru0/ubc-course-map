@@ -2,6 +2,7 @@ import type { ReactNode } from "react";
 import { displayCode, simplifyTree, splitDescription } from "@/lib/details";
 import type { Highlight } from "@/lib/highlight";
 import type { Course, ReqNode, Requisite } from "@/lib/types";
+import { Swatch } from "./Legend";
 
 interface CourseDetailsProps {
   course: Course;
@@ -12,7 +13,8 @@ interface CourseDetailsProps {
   onClose: () => void;
 }
 
-// The panel on the right that opens when a course is clicked.
+// The panel that opens when a course is clicked: beside the graph on wide screens,
+// covering it on phones.
 export default function CourseDetails({
   course,
   highlight,
@@ -27,7 +29,7 @@ export default function CourseDetails({
   const links = { onMap, onSelect };
 
   return (
-    <aside className="absolute inset-y-0 right-0 z-10 w-full overflow-y-auto border-l border-line bg-surface p-5 text-sm shadow-xl sm:w-96">
+    <aside className="absolute inset-0 z-10 overflow-y-auto bg-surface p-5 text-sm md:static md:w-96 md:shrink-0 md:border-l md:border-line">
       <div className="flex items-start justify-between gap-3">
         <div>
           <h2 className="text-lg font-semibold">
@@ -88,10 +90,6 @@ export default function CourseDetails({
       </a>
     </aside>
   );
-}
-
-function Swatch({ className }: { className: string }) {
-  return <span className={`mr-2 inline-block h-3 w-3 rounded-sm border-2 ${className}`} aria-hidden />;
 }
 
 function Section({ title, children }: { title: string; children: ReactNode }) {
