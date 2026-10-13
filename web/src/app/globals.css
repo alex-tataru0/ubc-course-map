@@ -3,6 +3,11 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  /* Highlight colours when a course is clicked. Checked with a colour-blindness
+     validator: all three stay distinct for red-green and blue-yellow colour blindness. */
+  --role-selected: #2a78d6; /* blue */
+  --role-needs: #eb6834; /* orange */
+  --role-unlocks: #1baf7a; /* aqua */
 }
 
 @theme inline {
@@ -10,12 +15,20 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  /* Lets Tailwind classes use them, e.g. border-role-needs. */
+  --color-role-selected: var(--role-selected);
+  --color-role-needs: var(--role-needs);
+  --color-role-unlocks: var(--role-unlocks);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    /* Same hues, stepped for a dark background. */
+    --role-selected: #3987e5;
+    --role-needs: #d95926;
+    --role-unlocks: #199e70;
   }
 }
 
