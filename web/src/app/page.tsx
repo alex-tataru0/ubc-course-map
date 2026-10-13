@@ -34,7 +34,13 @@ export default function Home() {
         <h1 className="font-semibold">UBC Course Map: CPSC</h1>
       </header>
       <div className="flex-1">
-        <CourseGraph courses={courses} edges={graph.edges} labels={labels} />
+        <CourseGraph
+          courses={courses}
+          edges={graph.edges}
+          labels={labels}
+          details={[...main, ...coop, ...other]}
+          calendarUrl={data.source}
+        />
       </div>
     </main>
   );

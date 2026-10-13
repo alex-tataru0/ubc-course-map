@@ -13,6 +13,7 @@ import {
   type Node,
   type NodeMouseHandler,
   type NodeProps,
+  type ReactFlowInstance,
 } from "@xyflow/react";
 import "@xyflow/react/dist/style.css";
 import { useEffect, useMemo, useState, useSyncExternalStore } from "react";
@@ -21,6 +22,8 @@ import { edgeRole, highlightFor, nodeRole } from "@/lib/highlight";
 import type { EdgeRole, Highlight, Role } from "@/lib/highlight";
 import { NODE_HEIGHT, NODE_WIDTH } from "@/lib/layout";
 import type { Label, Position as Point } from "@/lib/layout";
+import type { Course } from "@/lib/types";
+import CourseDetails from "./CourseDetails";
 
 // A course with its position, worked out at build time by layoutGraph.
 export type PlacedCourse = GraphNode & Point;
@@ -29,11 +32,14 @@ interface CourseGraphProps {
   courses: PlacedCourse[];
   edges: GraphEdge[];
   labels: Label[]; // section titles, e.g. "Co-op work terms"
+  details: Course[]; // the full calendar records, for the side panel
+  calendarUrl: string;
 }
 
 type CourseData = { code: string; title: string; noRequirements: boolean; role: Role };
 type CourseNodeType = Node<CourseData, "course">;
 type LabelNodeType = Node<{ text: string }, "label">;
+type FlowNode = CourseNodeType | LabelNodeType;
 
 // The box style for each role. The colours come from globals.css (--role-*).
 const ROLE_CLASSES: Record<Role, string> = {
@@ -116,6 +122,8 @@ function InfoPanel({ highlight, title }: { highlight: Highlight | null; title?: 
     return <p>Click a course to see what it needs and what it unlocks.</p>;
   }
   const swatch = "inline-block h-3 w-3 rounded-sm border-2";
+  const count = (n: number) => `${n} ${n === 1 ? "course" : "courses"}`;
+  const { needs, unlocks } = highlight;
   return (
     <div className="space-y-1">
       <p className="font-semibold">
@@ -125,11 +133,11 @@ function InfoPanel({ highlight, title }: { highlight: Highlight | null; title?: 
       </p>
       <p>
         <span className={`${swatch} mr-1.5 border-role-needs`} />
-        Needs {highlight.needs.size} {highlight.needs.size === 1 ? "course" : "courses"} in CPSC
+        {needs.size === 0 ? "No prerequisites in CPSC" : `Needs ${count(needs.size)} in CPSC`}
       </p>
       <p>
         <span className={`${swatch} mr-1.5 border-role-unlocks`} />
-        Unlocks {highlight.unlocks.size} {highlight.unlocks.size === 1 ? "course" : "courses"}
+        {unlocks.size === 0 ? "Doesn't lead to other CPSC courses" : `Unlocks ${count(unlocks.size)}`}
       </p>
       <p className="text-xs text-zinc-500 dark:text-zinc-400">
         Dashed lines are one of several options. Click the background or press Esc to clear.
@@ -138,9 +146,15 @@ function InfoPanel({ highlight, title }: { highlight: Highlight | null; title?: 
   );
 }
 
-export default function CourseGraph({ courses, edges, labels }: CourseGraphProps) {
+export default function CourseGraph({ courses, edges, labels, details, calendarUrl }: CourseGraphProps) {
   const colorMode = useSystemColorMode();
   const [selected, setSelected] = useState<string | null>(null);
+  // The React Flow instance, so we can move the view. Set once the graph has loaded.
+  const [flow, setFlow] = useState<ReactFlowInstance<FlowNode, Edge> | null>(null);
+
+  const placed = useMemo(() => new Map(courses.map((c) => [c.id, c])), [courses]);
+  const records = useMemo(() => new Map(details.map((c) => [c.code, c])), [details]);
+  const onMap = useMemo(() => new Set(placed.keys()), [placed]);
 
   const highlight = useMemo(
     () => (selected === null ? null : highlightFor(selected, edges)),
@@ -157,7 +171,7 @@ export default function CourseGraph({ courses, edges, labels }: CourseGraphProps
   }, []);
 
   const nodes = useMemo(() => {
-    const result: (CourseNodeType | LabelNodeType)[] = courses.map((c) => ({
+    const result: FlowNode[] = courses.map((c) => ({
       id: c.id,
       type: "course",
       position: { x: c.x, y: c.y },
@@ -208,30 +222,55 @@ export default function CourseGraph({ courses, edges, labels }: CourseGraphProps
     setSelected((current) => (current === node.id ? null : node.id));
   };
 
-  const selectedTitle = courses.find((c) => c.id === selected)?.title;
+  // Clicking a course code in the side panel selects it and moves the view to it,
+  // since it may be off screen.
+  const selectFromPanel = (code: string) => {
+    setSelected(code);
+    const course = placed.get(code);
+    if (flow && course) {
+      flow.setCenter(course.x + NODE_WIDTH / 2, course.y + NODE_HEIGHT / 2, {
+        zoom: flow.getZoom(),
+        duration: 400,
+      });
+    }
+  };
+
+  const selectedCourse = selected === null ? undefined : records.get(selected);
 
   return (
-    <ReactFlow
-      nodes={nodes}
-      edges={flowEdges}
-      nodeTypes={nodeTypes}
-      onNodeClick={onNodeClick}
-      onPaneClick={() => setSelected(null)}
-      nodesDraggable={false}
-      nodesConnectable={false}
-      elementsSelectable={false}
-      colorMode={colorMode}
-      minZoom={0.1}
-      fitView
-    >
-      <Background />
-      <Controls showInteractive={false} />
-      <Panel
-        position="top-left"
-        className="max-w-sm rounded-md border border-zinc-200 bg-white/90 p-3 text-sm shadow-sm dark:border-zinc-700 dark:bg-zinc-900/90"
+    <div className="relative h-full w-full">
+      <ReactFlow
+        nodes={nodes}
+        edges={flowEdges}
+        nodeTypes={nodeTypes}
+        onInit={setFlow}
+        onNodeClick={onNodeClick}
+        onPaneClick={() => setSelected(null)}
+        nodesDraggable={false}
+        nodesConnectable={false}
+        elementsSelectable={false}
+        colorMode={colorMode}
+        minZoom={0.1}
+        fitView
       >
-        <InfoPanel highlight={highlight} title={selectedTitle} />
-      </Panel>
-    </ReactFlow>
+        <Background />
+        <Controls showInteractive={false} />
+        <Panel
+          position="top-left"
+          className="max-w-sm rounded-md border border-zinc-200 bg-white/90 p-3 text-sm shadow-sm dark:border-zinc-700 dark:bg-zinc-900/90"
+        >
+          <InfoPanel highlight={highlight} title={selectedCourse?.title} />
+        </Panel>
+      </ReactFlow>
+      {selectedCourse && (
+        <CourseDetails
+          course={selectedCourse}
+          onMap={onMap}
+          calendarUrl={calendarUrl}
+          onSelect={selectFromPanel}
+          onClose={() => setSelected(null)}
+        />
+      )}
+    </div>
   );
 }
