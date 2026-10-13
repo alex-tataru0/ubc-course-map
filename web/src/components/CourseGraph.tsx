@@ -1,11 +1,9 @@
 "use client";
 
 import {
-  Background,
   Controls,
   Handle,
   MarkerType,
-  Panel,
   Position,
   ReactFlow,
   type ColorMode,
@@ -19,9 +17,9 @@ import "@xyflow/react/dist/style.css";
 import { useEffect, useMemo, useState, useSyncExternalStore } from "react";
 import type { GraphEdge, GraphNode } from "@/lib/graph";
 import { edgeRole, highlightFor, nodeRole } from "@/lib/highlight";
-import type { EdgeRole, Highlight, Role } from "@/lib/highlight";
-import { NODE_HEIGHT, NODE_WIDTH } from "@/lib/layout";
-import type { Label, Position as Point } from "@/lib/layout";
+import type { EdgeRole, Role } from "@/lib/highlight";
+import { BAND_GUTTER, NODE_HEIGHT, NODE_WIDTH } from "@/lib/layout";
+import type { Band, Label, Position as Point } from "@/lib/layout";
 import type { Course } from "@/lib/types";
 import CourseDetails from "./CourseDetails";
 
@@ -32,6 +30,8 @@ interface CourseGraphProps {
   courses: PlacedCourse[];
   edges: GraphEdge[];
   labels: Label[]; // section titles, e.g. "Co-op work terms"
+  bands: Band[]; // the shaded strip behind each year
+  width: number; // width of the graph's widest row
   details: Course[]; // the full calendar records, for the side panel
   calendarUrl: string;
 }
@@ -39,15 +39,16 @@ interface CourseGraphProps {
 type CourseData = { code: string; title: string; noRequirements: boolean; role: Role };
 type CourseNodeType = Node<CourseData, "course">;
 type LabelNodeType = Node<{ text: string }, "label">;
-type FlowNode = CourseNodeType | LabelNodeType;
+type BandNodeType = Node<{ year: number; shaded: boolean }, "band">;
+type FlowNode = CourseNodeType | LabelNodeType | BandNodeType;
 
 // The box style for each role. The colours come from globals.css (--role-*).
 const ROLE_CLASSES: Record<Role, string> = {
-  normal: "border-zinc-300 dark:border-zinc-600",
+  normal: "border-line",
   selected: "border-2 border-role-selected ring-4 ring-role-selected/30",
   needs: "border-2 border-role-needs",
   unlocks: "border-2 border-role-unlocks",
-  dimmed: "border-zinc-300 opacity-25 dark:border-zinc-600",
+  dimmed: "border-line opacity-25",
 };
 
 // One course box: the code, the title cut off with "…" if it's too long,
@@ -56,15 +57,15 @@ const ROLE_CLASSES: Record<Role, string> = {
 function CourseNode({ data }: NodeProps<CourseNodeType>) {
   return (
     <div
-      className={`flex h-full w-full cursor-pointer flex-col justify-center rounded-md border bg-white px-2 text-zinc-900 shadow-sm transition-opacity dark:bg-zinc-800 dark:text-zinc-100 ${ROLE_CLASSES[data.role]}`}
+      className={`flex h-full w-full cursor-pointer flex-col justify-center rounded-lg border bg-surface px-2.5 text-ink shadow-sm transition-opacity ${ROLE_CLASSES[data.role]}`}
     >
       <Handle type="target" position={Position.Top} isConnectable={false} className="opacity-0" />
-      <div className="text-sm font-semibold leading-tight">{data.code}</div>
-      <div className="truncate text-[10px] leading-tight text-zinc-500 dark:text-zinc-400" title={data.title}>
+      <div className="text-[15px] font-semibold leading-tight">{data.code}</div>
+      <div className="truncate text-[11px] leading-tight text-ink-muted" title={data.title}>
         {data.title}
       </div>
       {data.noRequirements && (
-        <div className="text-[10px] font-medium leading-tight text-zinc-700 dark:text-zinc-300">
+        <div className="mt-0.5 text-[11px] font-medium leading-tight text-ink">
           No requirements
         </div>
       )}
@@ -76,14 +77,24 @@ function CourseNode({ data }: NodeProps<CourseNodeType>) {
 // Plain text placed on the canvas, used for section titles.
 function LabelNode({ data }: NodeProps<LabelNodeType>) {
   return (
-    <div className="whitespace-nowrap text-sm font-semibold text-zinc-600 dark:text-zinc-300">
-      {data.text}
+    <div className="whitespace-nowrap text-base font-semibold text-ink">{data.text}</div>
+  );
+}
+
+// The shaded strip behind one year of the graph, labelled on the left.
+function BandNode({ data }: NodeProps<BandNodeType>) {
+  return (
+    <div className={`h-full w-full rounded-2xl ${data.shaded ? "bg-band-a" : "bg-band-b"}`}>
+      <div className="px-5 pt-4" style={{ width: BAND_GUTTER }}>
+        <div className="text-lg font-semibold text-ink">{data.year}00-level</div>
+        <div className="text-xs text-ink-muted">Usually year {data.year}</div>
+      </div>
     </div>
   );
 }
 
 // Defined outside the component so React Flow gets the same object on every render.
-const nodeTypes = { course: CourseNode, label: LabelNode };
+const nodeTypes = { course: CourseNode, label: LabelNode, band: BandNode };
 
 // Edge colours by role. undefined keeps React Flow's default grey.
 const EDGE_COLORS: Record<EdgeRole, string | undefined> = {
@@ -115,38 +126,15 @@ function useSystemColorMode(): ColorMode {
   );
 }
 
-// The box in the top-left corner: a hint before anything is clicked, then a key
-// for the colours with counts, so the colours never carry meaning on their own.
-function InfoPanel({ highlight, title }: { highlight: Highlight | null; title?: string }) {
-  if (highlight === null) {
-    return <p>Click a course to see what it needs and what it unlocks.</p>;
-  }
-  const swatch = "inline-block h-3 w-3 rounded-sm border-2";
-  const count = (n: number) => `${n} ${n === 1 ? "course" : "courses"}`;
-  const { needs, unlocks } = highlight;
-  return (
-    <div className="space-y-1">
-      <p className="font-semibold">
-        <span className={`${swatch} mr-1.5 border-role-selected`} />
-        {highlight.selected}
-        {title && <span className="font-normal text-zinc-500 dark:text-zinc-400">: {title}</span>}
-      </p>
-      <p>
-        <span className={`${swatch} mr-1.5 border-role-needs`} />
-        {needs.size === 0 ? "No prerequisites in CPSC" : `Needs ${count(needs.size)} in CPSC`}
-      </p>
-      <p>
-        <span className={`${swatch} mr-1.5 border-role-unlocks`} />
-        {unlocks.size === 0 ? "Doesn't lead to other CPSC courses" : `Unlocks ${count(unlocks.size)}`}
-      </p>
-      <p className="text-xs text-zinc-500 dark:text-zinc-400">
-        Dashed lines are one of several options. Click the background or press Esc to clear.
-      </p>
-    </div>
-  );
-}
-
-export default function CourseGraph({ courses, edges, labels, details, calendarUrl }: CourseGraphProps) {
+export default function CourseGraph({
+  courses,
+  edges,
+  labels,
+  bands,
+  width,
+  details,
+  calendarUrl,
+}: CourseGraphProps) {
   const colorMode = useSystemColorMode();
   const [selected, setSelected] = useState<string | null>(null);
   // The React Flow instance, so we can move the view. Set once the graph has loaded.
@@ -171,15 +159,31 @@ export default function CourseGraph({ courses, edges, labels, details, calendarU
   }, []);
 
   const nodes = useMemo(() => {
-    const result: FlowNode[] = courses.map((c) => ({
-      id: c.id,
-      type: "course",
-      position: { x: c.x, y: c.y },
-      width: NODE_WIDTH,
-      height: NODE_HEIGHT,
-      zIndex: 2, // above every edge, so lines pass behind the boxes instead of over their text
-      data: { code: c.id, title: c.title, noRequirements: c.noRequirements, role: nodeRole(highlight, c.id) },
+    // Year bands go first and lowest, behind the edges. They ignore the mouse,
+    // so clicking one counts as clicking the background.
+    const result: FlowNode[] = bands.map((band, i) => ({
+      id: `band-${band.year}`,
+      type: "band",
+      position: { x: -BAND_GUTTER, y: band.top },
+      width: width + BAND_GUTTER + 30,
+      height: band.bottom - band.top,
+      zIndex: -1,
+      selectable: false,
+      focusable: false,
+      style: { pointerEvents: "none" },
+      data: { year: band.year, shaded: i % 2 === 0 },
     }));
+    for (const c of courses) {
+      result.push({
+        id: c.id,
+        type: "course",
+        position: { x: c.x, y: c.y },
+        width: NODE_WIDTH,
+        height: NODE_HEIGHT,
+        zIndex: 2, // above every edge, so lines pass behind the boxes instead of over their text
+        data: { code: c.id, title: c.title, noRequirements: c.noRequirements, role: nodeRole(highlight, c.id) },
+      });
+    }
     labels.forEach((label, i) => {
       result.push({
         id: `label-${i}`,
@@ -190,7 +194,7 @@ export default function CourseGraph({ courses, edges, labels, details, calendarU
       });
     });
     return result;
-  }, [courses, labels, highlight]);
+  }, [bands, width, courses, labels, highlight]);
 
   const flowEdges = useMemo(
     (): Edge[] =>
@@ -253,18 +257,12 @@ export default function CourseGraph({ courses, edges, labels, details, calendarU
         minZoom={0.1}
         fitView
       >
-        <Background />
         <Controls showInteractive={false} />
-        <Panel
-          position="top-left"
-          className="max-w-sm rounded-md border border-zinc-200 bg-white/90 p-3 text-sm shadow-sm dark:border-zinc-700 dark:bg-zinc-900/90"
-        >
-          <InfoPanel highlight={highlight} title={selectedCourse?.title} />
-        </Panel>
       </ReactFlow>
-      {selectedCourse && (
+      {selectedCourse && highlight && (
         <CourseDetails
           course={selectedCourse}
+          highlight={highlight}
           onMap={onMap}
           calendarUrl={calendarUrl}
           onSelect={selectFromPanel}

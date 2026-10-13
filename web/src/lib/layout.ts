@@ -1,14 +1,16 @@
 import dagre, { type GraphLabel, type RankerFunction } from "@dagrejs/dagre";
 import type { Graph, GraphNode } from "./graph";
 
-export const NODE_WIDTH = 110;
-export const NODE_HEIGHT = 52;
+export const NODE_WIDTH = 120;
+export const NODE_HEIGHT = 56;
 const GAP = 30; // between nodes side by side
 const RANK_GAP = 70; // between rows of the graph
 const MAX_PER_ROW = 14; // longer rows of the graph wrap onto extra rows
 const SECTION_COLUMNS = 8; // courses per row in the sections below the graph
 const SECTION_GAP = 100; // space above each section
 const LABEL_HEIGHT = 32; // space for a section's title
+const BAND_PADDING = 20; // space between a year band's edge and its courses (under RANK_GAP / 2)
+export const BAND_GUTTER = 150; // room on the left of each band for its label
 
 // Top-left corner, which is what React Flow expects.
 export interface Position {
@@ -28,9 +30,18 @@ export interface Label {
   y: number;
 }
 
+// The shaded strip behind one year of the graph, e.g. all the 200-level rows.
+export interface Band {
+  year: number; // 1 for 100-level, 2 for 200-level, ...
+  top: number;
+  bottom: number;
+}
+
 export interface Layout {
   positions: Map<string, Position>;
   labels: Label[]; // section titles
+  bands: Band[]; // one per year, top to bottom
+  width: number; // width of the widest row of the graph
 }
 
 function year(code: string): number {
@@ -142,6 +153,22 @@ export function layoutGraph(graph: Graph, sections: Section[] = []): Layout {
   });
   const bottom = byRow.length * (NODE_HEIGHT + RANK_GAP) - RANK_GAP;
 
+  // A band from the first row of each year to its last row, with some padding.
+  const bands: Band[] = [];
+  for (const { id } of graph.nodes) {
+    const y = year(id);
+    const top = rows.get(id)! * (NODE_HEIGHT + RANK_GAP) - BAND_PADDING;
+    const bottomEdge = top + NODE_HEIGHT + 2 * BAND_PADDING;
+    const band = bands.find((b) => b.year === y);
+    if (band) {
+      band.top = Math.min(band.top, top);
+      band.bottom = Math.max(band.bottom, bottomEdge);
+    } else {
+      bands.push({ year: y, top, bottom: bottomEdge });
+    }
+  }
+  bands.sort((a, b) => a.year - b.year);
+
   let top = graph.nodes.length > 0 ? bottom + SECTION_GAP : 0;
   for (const section of sections) {
     if (section.nodes.length === 0) continue;
@@ -157,5 +184,5 @@ export function layoutGraph(graph: Graph, sections: Section[] = []): Layout {
     top = firstRow + rowCount * (NODE_HEIGHT + GAP) - GAP + SECTION_GAP;
   }
 
-  return { positions, labels };
+  return { positions, labels, bands, width: widest };
 }

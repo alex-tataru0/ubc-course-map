@@ -82,6 +82,17 @@ describe("layoutGraph", () => {
     expect(pos("CPSC 448").y).toBeGreaterThan(other.y);
   });
 
+  it("puts a band behind each year, around its courses", () => {
+    const { bands } = layoutGraph(graph);
+    expect(bands.map((b) => b.year)).toEqual([1, 2]);
+    const [first, second] = bands;
+    expect(first.top).toBeLessThan(pos("CPSC 110").y);
+    expect(first.bottom).toBeGreaterThan(pos("CPSC 110").y + NODE_HEIGHT);
+    expect(second.top).toBeLessThan(pos("CPSC 210").y);
+    expect(second.bottom).toBeGreaterThan(pos("CPSC 213").y + NODE_HEIGHT);
+    expect(first.bottom).toBeLessThan(second.top);
+  });
+
   it("has no titles without sections", () => {
     expect(layoutGraph(graph).labels).toEqual([]);
   });
@@ -136,6 +147,17 @@ describe("layoutGraph on the real CPSC data", () => {
     const xs = coopIds.map((id) => positions.get(id)!.x);
     expect(xs).toEqual([...xs].sort((a, b) => a - b));
     expect(y("CPSC 298")).toBeGreaterThan(Math.max(...graph.nodes.map((n) => y(n.id))));
+  });
+
+  it("has four year bands, in order, each holding its year's courses", () => {
+    const { bands } = layoutGraph(graph);
+    expect(bands.map((b) => b.year)).toEqual([1, 2, 3, 4]);
+    for (let i = 1; i < bands.length; i++) expect(bands[i - 1].bottom).toBeLessThan(bands[i].top);
+    for (const { id } of graph.nodes) {
+      const band = bands.find((b) => b.year === Number(id[5]))!;
+      expect(y(id)).toBeGreaterThan(band.top);
+      expect(y(id) + NODE_HEIGHT).toBeLessThan(band.bottom);
+    }
   });
 
   it("doesn't overlap any two courses", () => {
