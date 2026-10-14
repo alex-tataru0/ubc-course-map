@@ -140,7 +140,12 @@ The site is in `web/`: Next.js, TypeScript and React Flow, exported as a plain s
 - **Three answers, not two.** Each requirement is met, not met, or "check yourself", because the site can't know your grades, your year standing or whether you took Pre-calculus 12. A "one of" group is met if any option is, an "all of" group fails if any part fails, and anything uncertain stays uncertain (three-valued logic).
 - **Five statuses.** Done, can take, check first, not yet and no credit. A corequisite can be taken at the same time, "Restricted to …" sentences make a course "check first", and "Not for students with credit for CPSC 110" makes CPSC 100 "no credit" once 110 is done.
 - **Other subjects.** The 69 courses that CPSC prerequisites or the programs mention but the map doesn't show (MATH, STAT, SCIE 113, AI 240, …) can be ticked too, from a list, right inside a course's prerequisites, or in the program panel.
-- **Shortest path.** For any course, the side panel lists the CPSC courses still needed, term by term, plus anything else it asks for (e.g. "one of MATH 152, MATH 221, MATH 223"). In each "one of" it picks the option that needs the fewest new courses, counting the ones already picked for other parts of the path. Options from other subjects come last, because their own prerequisites aren't in the data: without that rule, CPSC 340 was routed through DSCI 221. A tie goes against a course that's "not for students with credit for" the other option (CPSC 103 loses to CPSC 110), then to the course that unlocks more. Checked against an exhaustive search over every combination of choices, for all 60 courses from six different starting points, it never needs more courses. A switch shows just that path on the map, with term numbers.
+- **Shortest path.** For any course, the side panel lists the courses still needed, term by term, plus anything else it asks for (e.g. "Third-year standing"). In each "one of" it picks the option with the fewest *last resorts*, then the fewest new courses (counting the ones already picked for other parts of the path), then the fewest things to check. A last resort is something most students can't count on:
+  - a course from a subject that isn't in the data yet, since its own prerequisites are unknown (without this rule, CPSC 340 was routed through DSCI 221);
+  - a choice that's only something to check, like "advanced credit for MATH 100" or "a score of 5 in AP Calculus AB" (without this rule, the path to MATH 221 skipped MATH 100);
+  - a course only some students can take, like co-op work terms or MATH 190 (forestry and nursing).
+
+  "Fewest things to check" picks MATH 101 and 200 over the honours MATH 121 and 226, which need minimum grades. A tie goes against a course that's "not for students with credit for" the other option (CPSC 103 loses to CPSC 110), then to the course that unlocks more. For CPSC, it was checked against an exhaustive search over every combination of choices, for all 60 courses from six different starting points, and it never needs more courses. A switch shows just that path on the map, with term numbers.
 
 ### Pick a program
 
@@ -165,7 +170,7 @@ npm test
 npm run dev
 ```
 
-`npm run build` writes the static site to `web/out/`. There are 139 tests (Vitest) for the graph, layout, highlighting, course details, statuses, saving, path logic, grades, links and programs, including checks against the real CPSC data. GitHub Actions runs `pytest` and the website's tests, lint and build on every push, and [Vercel](https://vercel.com) builds and publishes the site from `main`.
+`npm run build` writes the static site to `web/out/`. There are 151 tests (Vitest) for the graph, layout, highlighting, course details, statuses, saving, path logic, grades, links and programs, including checks against the real CPSC data. GitHub Actions runs `pytest` and the website's tests, lint and build on every push, and [Vercel](https://vercel.com) builds and publishes the site from `main`.
 
 ## Data credits
 

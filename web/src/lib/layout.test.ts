@@ -96,6 +96,16 @@ describe("layoutGraph", () => {
   it("has no titles without sections", () => {
     expect(layoutGraph(graph).labels).toEqual([]);
   });
+
+  it("lays out a prereq that points up to a later year", () => {
+    // MATH 131 (first year) accepts 68% in MATH 221 (second year) as one option.
+    const upward: Graph = {
+      nodes: ["MATH 131", "MATH 221"].map(node),
+      edges: [edge("MATH 221", "MATH 131")],
+    };
+    const { positions } = layoutGraph(upward);
+    expect(positions.get("MATH 131")!.y).toBeLessThan(positions.get("MATH 221")!.y);
+  });
 });
 
 describe("layoutGraph on the real CPSC data", () => {
@@ -167,5 +177,33 @@ describe("layoutGraph on the real CPSC data", () => {
         expect(overlaps(all[i], all[j])).toBe(false);
       }
     }
+  });
+});
+
+describe.each(["math", "stat"])("layoutGraph on the real %s data", (subject) => {
+  const url = new URL(`../../../data/courses/${subject}.json`, import.meta.url);
+  const data: CourseFile = JSON.parse(readFileSync(url, "utf8"));
+  const { main } = splitCourses(undergradOnly(data.courses));
+  const graph = buildGraph(main);
+  const { positions, bands } = layoutGraph(graph);
+  const y = (id: string) => positions.get(id)!.y;
+
+  it("places every course without overlaps", () => {
+    expect(positions.size).toBe(main.length);
+    const all = [...positions.values()];
+    for (let i = 0; i < all.length; i++) {
+      for (let j = i + 1; j < all.length; j++) expect(overlaps(all[i], all[j])).toBe(false);
+    }
+  });
+
+  it("puts every prereq above the course that needs it, except MATH 221 for MATH 131", () => {
+    const upward = graph.edges.filter((e) => y(e.source) >= y(e.target));
+    expect(upward.map((e) => `${e.source} -> ${e.target}`)).toEqual(
+      subject === "math" ? ["MATH 221 -> MATH 131"] : [],
+    );
+  });
+
+  it("has a band for each year it has courses in", () => {
+    expect(bands.map((b) => b.year)).toEqual(subject === "math" ? [1, 2, 3, 4] : [2, 3, 4]);
   });
 });

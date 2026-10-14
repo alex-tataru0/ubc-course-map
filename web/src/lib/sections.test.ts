@@ -5,7 +5,9 @@ import { isCoop, splitCourses } from "./sections";
 import type { Course, CourseFile } from "./types";
 
 function course(code: string, title: string): Course {
-  return { code, title, credits: "3", description: "", prereq: null, coreq: null, equivalency: null };
+  return {
+    code, title, credits: "3", description: "", prereq: null, coreq: null, equivalency: null, recommended: null,
+  };
 }
 
 describe("isCoop", () => {

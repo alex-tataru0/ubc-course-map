@@ -2,9 +2,9 @@ import { buildGraph, descendants, prereqCourses } from "./graph";
 import { exclusionsOf, requirementStatus, restrictionOf } from "./progress";
 import type { Course, ReqNode } from "./types";
 
-// Something a path needs besides the CPSC courses on the map.
+// Something a path needs besides the courses it plans.
 export type AlsoNeeded =
-  | { kind: "course"; code: string } // a course not on the map, e.g. MATH 200
+  | { kind: "course"; code: string } // a course we have no data for, e.g. CPEN 221
   | { kind: "one-of"; codes: string[] } // pick one, e.g. MATH 152, MATH 221 or MATH 223
   | { kind: "check"; text: string }; // can't be checked from courses, e.g. "Third-year standing"
 
@@ -15,23 +15,28 @@ export interface CoursePath {
   also: AlsoNeeded[];
 }
 
-// A plan for part of a requirement tree: the courses on the map to take, what else it needs,
-// and how many courses not on the map it asks for (we don't know what those need, so a
-// plan that uses them is a last resort).
+// A plan for part of a requirement tree: the courses to take, what else it needs, and how
+// many last resorts it uses. A last resort is something most students can't count on:
+// - a course we have no data for (we don't know what it needs), e.g. CPEN 221;
+// - a choice that's only something to check, e.g. "advanced credit for MATH 100";
+// - a course only some students can take, e.g. "Restricted to students admitted to the
+//   Co-operative Education Program", or MATH 190's "registration in the B.S.F. or B.Sc.N.
+//   programs".
 interface Plan {
   courses: Set<string>;
   also: AlsoNeeded[];
-  outside: number;
+  lastResorts: number;
 }
 
-const EMPTY: Plan = { courses: new Set(), also: [], outside: 0 };
+const EMPTY: Plan = { courses: new Set(), also: [], lastResorts: 0 };
 
-// The shortest path from the courses done to `target`, using the courses on the map.
-// In each "one of", it picks the option that needs the fewest new courses, counting courses
-// already picked for other parts of the path. Options that need courses not on the map come
-// last. In a tie, a course that's "not for students with credit for" another option loses
-// to it (CPSC 103 to CPSC 110), and then the course that unlocks more wins.
-// Courses not on the map that the path can't avoid go in `also`, as do non-course
+// The shortest path from the courses done to `target`, using the courses in `courses`.
+// In each "one of", it picks the option with the fewest last resorts, then the fewest new
+// courses (counting courses already picked for other parts of the path), then the fewest
+// things to check, so MATH 101 and 200 beat the honours MATH 121 and 226, which need
+// minimum grades. In a tie, a course that's "not for students with credit for" another
+// option loses to it (CPSC 103 to CPSC 110), and then the course that unlocks more wins.
+// Courses we have no data for that the path can't avoid go in `also`, as do non-course
 // requirements, minimum grades and "Restricted to …" sentences.
 export function planPath(target: string, courses: Course[], done: ReadonlySet<string>): CoursePath {
   const byCode = new Map(courses.map((c) => [c.code, c]));
@@ -43,8 +48,9 @@ export function planPath(target: string, courses: Course[], done: ReadonlySet<st
   // Plans `code` and everything it needs, given the courses in `have` (done or already planned).
   function planCourse(code: string, have: ReadonlySet<string>): Plan {
     const course = byCode.get(code)!;
-    let plan: Plan = { courses: new Set([code]), also: [], outside: 0 };
     const restriction = restrictionOf(course.description);
+    const onlyForSome = restriction !== null || /\bregistration in\b/i.test(course.prereq?.text ?? "");
+    let plan: Plan = { courses: new Set([code]), also: [], lastResorts: onlyForSome ? 1 : 0 };
     if (restriction) plan.also.push({ kind: "check", text: restriction });
     for (const requisite of [course.prereq, course.coreq]) {
       if (requisite) plan = merge(plan, planNode(requisite.tree, union(have, plan.courses)));
@@ -71,29 +77,40 @@ export function planPath(target: string, courses: Course[], done: ReadonlySet<st
   function planCode(code: string, have: ReadonlySet<string>): Plan {
     if (have.has(code)) return EMPTY;
     if (byCode.has(code)) return planCourse(code, have);
-    return { courses: new Set(), also: [{ kind: "course", code }], outside: 1 };
+    return { courses: new Set(), also: [{ kind: "course", code }], lastResorts: 1 };
   }
 
   function planOneOf(choices: ReqNode[], have: ReadonlySet<string>): Plan {
     if (choices.some((choice) => requirementStatus(choice, have) === "met")) return EMPTY;
     // Okanagan courses are only an option when there's nothing else.
     const vancouver = choices.filter((choice) => !isOkanagan(choice));
-    const options = (vancouver.length > 0 ? vancouver : choices).map((choice) => planNode(choice, have));
-    const best = options.reduce((a, b) => (better(b, a) ? b : a));
+    const usable = vancouver.length > 0 ? vancouver : choices;
+    const options = usable.map((choice) => planNode(choice, have));
+    // A choice that's only something to check is a last resort, but only against the other
+    // choices here: when every choice is one (CPSC 121's "Principles of Mathematics 12 or
+    // Pre-calculus 12"), there's nothing better to pick.
+    const ranked = options.map((plan, i) =>
+      isCheck(usable[i]) ? { ...plan, lastResorts: plan.lastResorts + 1 } : plan,
+    );
+    const bestAt = ranked.reduce((best, plan, i) => (better(plan, ranked[best]) ? i : best), 0);
+    const best = options[bestAt];
     if (best.courses.size > 0) return best;
 
-    // The best option needs no courses on the map: it's a course from another subject or
-    // something to check. List every option that's just as good together, since we can't
-    // choose between them for you (e.g. one of MATH 152, MATH 221 or MATH 223).
-    const ties = options.filter((option) => option.courses.size === 0 && option.outside === best.outside);
+    // The best option plans no courses: it's a course we have no data for or something to
+    // check. List every option that's just as good together, since we can't choose between
+    // them for you (e.g. one of MATH 152, MATH 221 or MATH 223, when MATH isn't loaded).
+    const ties = options.filter(
+      (option, i) => option.courses.size === 0 && ranked[i].lastResorts === ranked[bestAt].lastResorts,
+    );
     return { ...best, also: [combine(ties.flatMap((option) => option.also))] };
   }
 
-  // Is plan `a` better than plan `b`? Fewer courses not on the map, then fewer courses,
-  // then not the lesser alternative, then courses that unlock more.
+  // Is plan `a` better than plan `b`? Fewer last resorts, then fewer courses, then fewer
+  // things to check, then not the lesser alternative, then courses that unlock more.
   function better(a: Plan, b: Plan): boolean {
-    if (a.outside !== b.outside) return a.outside < b.outside;
+    if (a.lastResorts !== b.lastResorts) return a.lastResorts < b.lastResorts;
     if (a.courses.size !== b.courses.size) return a.courses.size < b.courses.size;
+    if (checks(a) !== checks(b)) return checks(a) < checks(b);
     const aLesser = isLesser(a, b);
     if (aLesser !== isLesser(b, a)) return !aLesser;
     return score(a) > score(b);
@@ -118,6 +135,10 @@ export function planPath(target: string, courses: Course[], done: ReadonlySet<st
   return { terms: inTerms(plan.courses, byCode), also: unique(plan.also) };
 }
 
+function isCheck(node: ReqNode): boolean {
+  return typeof node === "object" && "other" in node;
+}
+
 function isOkanagan(node: ReqNode): boolean {
   const code = typeof node === "string" ? node : "course" in node ? node.course : null;
   return code !== null && code.includes("_O ");
@@ -131,8 +152,13 @@ function merge(a: Plan, b: Plan): Plan {
   return {
     courses: union(a.courses, b.courses),
     also: [...a.also, ...b.also],
-    outside: a.outside + b.outside,
+    lastResorts: a.lastResorts + b.lastResorts,
   };
+}
+
+// How many things a plan asks you to check: minimum grades, standing, restrictions, …
+function checks(plan: Plan): number {
+  return plan.also.filter((item) => item.kind === "check").length;
 }
 
 // Several "also needed" options that are alternatives, as one item:

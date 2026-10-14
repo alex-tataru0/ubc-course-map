@@ -132,7 +132,12 @@ export function layoutGraph(graph: Graph, sections: Section[] = []): Layout {
   });
   g.setDefaultEdgeLabel(() => ({}));
   for (const node of graph.nodes) g.setNode(node.id, { width: NODE_WIDTH, height: NODE_HEIGHT });
-  for (const edge of graph.edges) g.setEdge(edge.source, edge.target);
+  // dagre needs every edge to point down at least one row, but a few prereqs point up:
+  // MATH 131 (first year) takes 68% in MATH 221 (second year) as one option. Those are still
+  // drawn on the map; they just don't help dagre order the rows.
+  for (const edge of graph.edges) {
+    if (rows.get(edge.source)! < rows.get(edge.target)!) g.setEdge(edge.source, edge.target);
+  }
   dagre.layout(g);
 
   // Group the courses by row, each row in dagre's left-to-right order.

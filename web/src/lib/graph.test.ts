@@ -14,6 +14,7 @@ function course(code: string, tree: ReqNode | null = null): Course {
     prereq: tree === null ? null : { text: "", tree, source: "rules", problems: [] },
     coreq: null,
     equivalency: null,
+    recommended: null,
   };
 }
 

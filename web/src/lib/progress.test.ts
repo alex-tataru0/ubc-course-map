@@ -148,6 +148,7 @@ describe("courseProgress", () => {
       prereq: requisite(prereq),
       coreq: requisite(coreq),
       equivalency: null,
+      recommended: null,
     };
   }
 

@@ -23,6 +23,7 @@ export interface Course {
   prereq: Requisite | null;
   coreq: Requisite | null;
   equivalency: string | null;
+  recommended: string | null; // advice, not a requirement, e.g. "One of MATH 152, MATH 221 is recommended"
 }
 
 export interface CourseFile {

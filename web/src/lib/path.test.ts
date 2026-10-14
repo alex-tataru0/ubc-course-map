@@ -76,8 +76,66 @@ describe("planPath", () => {
     });
   });
 
+  it("lists a course we have no data for together with an equally good check", () => {
+    // CPSC 445: "either BMEG 250 or six credits of BIOL beyond BIOL 111".
+    expect(plan("CPSC 445", ...secondYear, "CPSC 320").also).toContainEqual({
+      kind: "check",
+      text: "BMEG 250 or six credits of BIOL beyond BIOL 111",
+    });
+  });
+
   it("gives an empty path for a finished course or one not on the map", () => {
     expect(plan("CPSC 221", ...secondYear)).toEqual({ terms: [], also: [] });
     expect(plan("MATH 200")).toEqual({ terms: [], also: [] });
+  });
+});
+
+describe("planPath across CPSC, MATH and STAT", () => {
+  const load = (subject: string): CourseFile =>
+    JSON.parse(readFileSync(new URL(`../../../data/courses/${subject}.json`, import.meta.url), "utf8"));
+  const all = undergradOnly(["cpsc", "math", "stat"].flatMap((subject) => load(subject).courses));
+  const planAll = (target: string, ...done: string[]) => planPath(target, all, new Set(done));
+
+  it("plans the MATH and STAT courses too, each after its own prereqs", () => {
+    expect(planAll("CPSC 340")).toEqual({
+      terms: [
+        ["CPSC 110", "CPSC 121", "MATH 100"],
+        ["CPSC 210", "MATH 101", "MATH 221"],
+        ["CPSC 221", "MATH 200", "STAT 251"],
+        ["CPSC 340"],
+      ],
+      also: [
+        { kind: "check", text: "Principles of Mathematics 12 or Pre-calculus 12" },
+        { kind: "check", text: "A score of 80% or higher in BC Pre-calculus 12" },
+      ],
+    });
+  });
+
+  it("takes a course over a choice that's only something to check", () => {
+    // MATH 221 also accepts "advanced credit for MATH 100" or "SCIE 001 as a corequisite".
+    expect(planAll("MATH 221").terms).toEqual([["MATH 100"], ["MATH 221"]]);
+  });
+
+  it("takes a course only some students can take as a last resort", () => {
+    // STAT 200 accepts MATH 190, but only for forestry and nursing students.
+    expect(planAll("STAT 200")).toEqual({
+      terms: [["STAT 200"]],
+      also: [
+        {
+          kind: "check",
+          text:
+            "any course on the MATH 100 credit exclusion list [ https://vancouver.calendar.ubc.ca/" +
+            "faculties-colleges-and-schools/facult… ] or SCIE 001",
+        },
+      ],
+    });
+  });
+
+  it("prefers fewer minimum grades to check when the number of courses is the same", () => {
+    // MATH 200 needs any of MATH 101, …; MATH 226 needs 80% in MATH 101 or 68% in MATH 121.
+    const path = planAll("CPSC 340", "MATH 100");
+    expect(path.terms.flat()).toContain("MATH 200");
+    expect(path.terms.flat()).not.toContain("MATH 226");
+    expect(path.also).toEqual([{ kind: "check", text: "Principles of Mathematics 12 or Pre-calculus 12" }]);
   });
 });
