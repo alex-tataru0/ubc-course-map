@@ -61,3 +61,44 @@ export interface GradesFile {
   buckets: string[]; // the grade ranges, lowest first: "<50%", "50-54%", …, "90-100%"
   courses: Record<string, CourseGrades>;
 }
+
+// Types for data/programs/<subject>.json, written by pipeline/build_programs.py.
+
+// One node of a program requirement tree (see pipeline/program_rules.py).
+export type ProgramNode =
+  | string // a course code, e.g. "CPSC 121"
+  | { one_of: ProgramNode[] }
+  | { all_of: ProgramNode[] }
+  | { pick: number; of: string[]; note?: string } // that many different courses from the list
+  | { credits_of: { subjects: string[]; min_level: number } } // e.g. CPSC or AI 300 and up
+  | { electives: true }
+  | { other: string }; // e.g. "Additional Communication Requirement"
+
+// One row of a program's requirement table.
+export interface ProgramRequirement {
+  text: string; // the calendar's wording, e.g. "CPSC 310, 313, 320"
+  credits: number;
+  tree: ProgramNode;
+  source: "rules" | "llm";
+  problems: string[];
+  notes: string[]; // the row's footnotes
+}
+
+export interface ProgramYear {
+  title: string; // "First Year", "Second Year", "Third and Fourth Years"
+  credits: number;
+  requirements: ProgramRequirement[];
+}
+
+export interface Program {
+  id: string; // e.g. "cpsc-major"
+  name: string; // e.g. "Computer Science Major"
+  heading: string; // the calendar's heading, e.g. "Major (0376): Computer Science (CPSC)"
+  total_credits: number;
+  years: ProgramYear[];
+}
+
+export interface ProgramFile {
+  source: string;
+  programs: Program[];
+}

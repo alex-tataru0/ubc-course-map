@@ -33,4 +33,5 @@ The live site is on Vercel: every push to `main` is built and published. The Ver
   - `outside.ts`: the courses prerequisites mention that aren't on the map, grouped by subject.
   - `path.ts`: the shortest path to a course, term by term.
   - `grades.ts`: helpers for the grade data from UBCGrades (shares, chart scale, terms offered, instructors).
+  - `program.ts`: progress through a program's requirements (which of your courses count toward which row, each course once).
   - `links.ts`: the r/ubc, Rate My Professors and UBCGrades links (plain search URLs; nothing is fetched).
