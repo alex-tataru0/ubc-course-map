@@ -1,12 +1,18 @@
 import type { ReactNode } from "react";
 import { displayCode, simplifyTree, splitDescription } from "@/lib/details";
 import type { Highlight } from "@/lib/highlight";
+import { requirementStatus } from "@/lib/progress";
+import type { CourseProgress } from "@/lib/progress";
 import type { Course, ReqNode, Requisite } from "@/lib/types";
 import { Swatch } from "./Legend";
+import { StatusSample } from "./Status";
 
 interface CourseDetailsProps {
   course: Course;
   highlight: Highlight; // what the course needs and unlocks on the map
+  progress: CourseProgress | undefined; // undefined until some course is marked done
+  done: ReadonlySet<string>; // the courses marked done
+  onToggleDone: () => void;
   onMap: Set<string>; // courses drawn on the page, which can be clicked
   calendarUrl: string;
   onSelect: (code: string) => void;
@@ -18,6 +24,9 @@ interface CourseDetailsProps {
 export default function CourseDetails({
   course,
   highlight,
+  progress,
+  done,
+  onToggleDone,
   onMap,
   calendarUrl,
   onSelect,
@@ -26,7 +35,8 @@ export default function CourseDetails({
   const { summary, hours } = splitDescription(course.description);
   const count = (n: number) => `${n} ${n === 1 ? "course" : "courses"}`;
   const { needs, unlocks } = highlight;
-  const links = { onMap, onSelect };
+  const links = { onMap, onSelect, done };
+  const isDone = done.has(course.code);
 
   return (
     <aside className="absolute inset-0 z-10 overflow-y-auto bg-surface p-5 text-sm md:static md:w-96 md:shrink-0 md:border-l md:border-line">
@@ -51,6 +61,18 @@ export default function CourseDetails({
         {course.credits} credits
         {hours && ` · Hours per week (lecture-lab-tutorial): ${hours}`}
       </p>
+
+      <button
+        type="button"
+        onClick={onToggleDone}
+        aria-pressed={isDone}
+        className={`mt-3 rounded-md border px-3 py-1.5 font-medium ${
+          isDone ? "border-ink bg-ink text-canvas hover:opacity-90" : "border-line hover:bg-canvas"
+        }`}
+      >
+        {isDone ? "✓ Done · click to unmark" : "Mark as done"}
+      </button>
+      {progress && <StatusNote course={course} progress={progress} done={done} />}
 
       {/* The key for the colours on the map, so they never carry meaning on their own. */}
       <div className="mt-3 space-y-1 rounded-lg border border-line p-3">
@@ -92,6 +114,63 @@ export default function CourseDetails({
   );
 }
 
+// What the course's status means for you, in a sentence, with what to check if anything.
+function StatusNote({
+  course,
+  progress,
+  done,
+}: {
+  course: Course;
+  progress: CourseProgress;
+  done: ReadonlySet<string>;
+}) {
+  // A coreq that isn't done yet doesn't stop you: you can take it at the same time.
+  const { coreq } = course;
+  const coreqPending = coreq !== null && requirementStatus(coreq.tree, done) !== "met";
+  const { status } = progress;
+  return (
+    <div className="mt-3 rounded-lg border border-line p-3">
+      <p>
+        <StatusSample status={status} />
+        {status === "done" && <strong>You&apos;ve finished this course.</strong>}
+        {status === "can-take" && (
+          <>
+            <strong>You can take this.</strong> Its prerequisites are done.
+          </>
+        )}
+        {status === "check" && (
+          <>
+            <strong>Check first.</strong> Your courses can&apos;t tell us if you meet:
+          </>
+        )}
+        {status === "locked" && (
+          <>
+            <strong>Not yet.</strong> Some prerequisites below aren&apos;t done.
+          </>
+        )}
+        {status === "no-credit" && (
+          <>
+            <strong>No credit.</strong> You&apos;ve done {progress.excludedBy.join(" and ")}, which
+            covers this course.
+          </>
+        )}
+      </p>
+      {status === "check" && (
+        <ul className="mt-1 ml-5 list-disc space-y-1">
+          {progress.toCheck.map((item) => (
+            <li key={item}>{item}</li>
+          ))}
+        </ul>
+      )}
+      {coreqPending && (status === "can-take" || status === "check") && (
+        <p className="mt-2 text-ink-muted">
+          Take {coreq.text.replace(/^One of/, "one of")} before or at the same time.
+        </p>
+      )}
+    </div>
+  );
+}
+
 function Section({ title, children }: { title: string; children: ReactNode }) {
   return (
     <section className="mt-5 border-t border-line pt-4">
@@ -104,6 +183,7 @@ function Section({ title, children }: { title: string; children: ReactNode }) {
 interface Links {
   onMap: Set<string>;
   onSelect: (code: string) => void;
+  done: ReadonlySet<string>; // finished courses get a tick in the requirement list
 }
 
 // The requirement as a tree, then the calendar's own wording, so nothing is hidden
@@ -148,14 +228,24 @@ function Requirement({ node, ...links }: { node: ReqNode } & Links) {
 }
 
 // A course code. Courses on the map are buttons that select them; others are plain text.
-function CourseCode({ code, onMap, onSelect }: { code: string } & Links) {
-  if (!onMap.has(code)) return <span className="font-mono text-xs">{displayCode(code)}</span>;
+function CourseCode({ code, onMap, onSelect, done }: { code: string } & Links) {
+  const tick = done.has(code) ? "✓ " : "";
+  if (!onMap.has(code)) {
+    return (
+      <span className="font-mono text-xs">
+        {tick}
+        {displayCode(code)}
+      </span>
+    );
+  }
   return (
     <button
       type="button"
       onClick={() => onSelect(code)}
+      aria-label={done.has(code) ? `${code} (done)` : undefined}
       className="rounded border border-line px-1.5 py-0.5 font-mono text-xs hover:bg-canvas"
     >
+      {tick}
       {code}
     </button>
   );

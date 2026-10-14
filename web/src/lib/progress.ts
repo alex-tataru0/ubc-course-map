@@ -141,3 +141,16 @@ function progressOf(
   ];
   return { status: "check", toCheck: items, excludedBy: [] };
 }
+
+// How many courses have each status, for the summary above the graph ("5 done · 9 you can take").
+export function countStatuses(progress: Map<string, CourseProgress>): Record<CourseStatus, number> {
+  const counts: Record<CourseStatus, number> = {
+    done: 0,
+    "no-credit": 0,
+    locked: 0,
+    check: 0,
+    "can-take": 0,
+  };
+  for (const { status } of progress.values()) counts[status]++;
+  return counts;
+}

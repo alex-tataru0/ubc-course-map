@@ -2,6 +2,7 @@ import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 import { undergradOnly } from "./graph";
 import {
+  countStatuses,
   courseProgress,
   exclusionsOf,
   requirementStatus,
@@ -217,5 +218,16 @@ describe("courseProgress", () => {
       "76% or higher in CPSC 313",
       "76% or higher in CPSC 317",
     ]);
+  });
+});
+
+describe("countStatuses", () => {
+  it("counts the courses with each status", () => {
+    const courses = undergradOnly(data.courses);
+    const counts = countStatuses(courseProgress(courses, done("CPSC 110", "CPSC 121")));
+    expect(counts.done).toBe(2);
+    expect(counts["no-credit"]).toBe(2); // CPSC 100 and 103
+    const total = Object.values(counts).reduce((sum, n) => sum + n, 0);
+    expect(total).toBe(courses.length);
   });
 });

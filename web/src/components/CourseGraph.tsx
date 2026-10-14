@@ -22,9 +22,14 @@ import { edgeRole, highlightFor, nodeRole } from "@/lib/highlight";
 import type { EdgeRole, Role } from "@/lib/highlight";
 import { BAND_GUTTER, NODE_HEIGHT, NODE_WIDTH } from "@/lib/layout";
 import type { Band, Label, Position as Point } from "@/lib/layout";
+import { useDoneCourses } from "@/lib/doneCourses";
+import { countStatuses, courseProgress } from "@/lib/progress";
+import type { CourseStatus } from "@/lib/progress";
 import type { Course } from "@/lib/types";
 import CourseDetails from "./CourseDetails";
+import ProgressBar from "./ProgressBar";
 import SelectionBar from "./SelectionBar";
+import { FADED, PLAIN_BOX, STATUS_BOX, STATUS_TEXT, TickBox } from "./Status";
 
 // A course with its position, worked out at build time by layoutGraph.
 export type PlacedCourse = GraphNode & Point;
@@ -39,39 +44,62 @@ interface CourseGraphProps {
   calendarUrl: string;
 }
 
-type CourseData = { code: string; title: string; noRequirements: boolean; role: Role };
+type CourseData = {
+  code: string;
+  title: string;
+  noRequirements: boolean;
+  role: Role;
+  status: CourseStatus | null; // null when no courses are marked done yet
+  marking: boolean; // quick mode: show a tick box on every course
+};
 type CourseNodeType = Node<CourseData, "course">;
 type LabelNodeType = Node<{ text: string }, "label">;
 type BandNodeType = Node<{ year: number; shaded: boolean }, "band">;
 type FlowNode = CourseNodeType | LabelNodeType | BandNodeType;
 
-// The box style for each role. The colours come from globals.css (--role-*).
-const ROLE_CLASSES: Record<Role, string> = {
-  normal: "border-line",
+// The border for each highlight role, replacing the status border while a course is
+// clicked. The colours come from globals.css (--role-*). null keeps the status border.
+const ROLE_BORDERS: Record<Role, string | null> = {
+  normal: null,
   selected: "border-2 border-role-selected ring-4 ring-role-selected/30",
   needs: "border-2 border-role-needs",
   unlocks: "border-2 border-role-unlocks",
-  dimmed: "border-line opacity-25",
+  dimmed: null,
 };
 
-// One course box: the code, the title cut off with "…" if it's too long,
-// and "No requirements" for courses anyone can take.
+// One course box: the code, the title cut off with "…" if it's too long, and a third line:
+// the course's status once some courses are marked done, otherwise "No requirements"
+// for courses anyone can take. While marking courses, a tick box sits in the corner.
 // The handles are where edges attach. They're invisible because nobody draws new edges here.
 function CourseNode({ data }: NodeProps<CourseNodeType>) {
+  const { role, status } = data;
+  const box = status ? STATUS_BOX[status] : PLAIN_BOX;
+  const border = ROLE_BORDERS[role] ?? box.border;
+  // Dimmed by a click wins over faded by status, so the lit-up path stays clear.
+  const opacity = role === "dimmed" ? "opacity-25" : status && FADED.has(status) ? "opacity-50" : "";
   return (
     <div
-      className={`flex h-full w-full cursor-pointer flex-col justify-center rounded-lg border bg-surface px-2.5 text-ink shadow-sm transition-opacity ${ROLE_CLASSES[data.role]}`}
+      className={`relative flex h-full w-full cursor-pointer flex-col justify-center rounded-lg px-2.5 shadow-sm transition-opacity ${box.fill} ${border} ${opacity}`}
     >
       <Handle type="target" position={Position.Top} isConnectable={false} className="opacity-0" />
       <div className="text-[15px] font-semibold leading-tight">{data.code}</div>
-      <div className="truncate text-[11px] leading-tight text-ink-muted" title={data.title}>
+      <div
+        className={`truncate pr-3 text-[11px] leading-tight ${status === "done" ? "opacity-75" : "text-ink-muted"}`}
+        title={data.title}
+      >
         {data.title}
       </div>
-      {data.noRequirements && (
-        <div className="mt-0.5 text-[11px] font-medium leading-tight text-ink">
-          No requirements
+      {status ? (
+        <div className="mt-0.5 text-[11px] font-medium leading-tight">
+          {status === "done" && "✓ "}
+          {STATUS_TEXT[status]}
         </div>
+      ) : (
+        data.noRequirements && (
+          <div className="mt-0.5 text-[11px] font-medium leading-tight">No requirements</div>
+        )
       )}
+      {data.marking && <TickBox checked={status === "done"} />}
       <Handle type="source" position={Position.Bottom} isConnectable={false} className="opacity-0" />
     </div>
   );
@@ -102,14 +130,20 @@ const nodeTypes = { course: CourseNode, label: LabelNode, band: BandNode };
 // What screen readers announce on a focused course, replacing React Flow's default
 // (which talks about moving and deleting nodes, which this site doesn't do).
 const KEYBOARD_HINT = "Press Enter or Space to see what this course needs and unlocks. Press Escape to clear.";
+const MARKING_HINT = "Press Enter or Space to mark or unmark this course as done. Press Escape to finish.";
 // Below this zoom the course codes get hard to read, so narrow screens (phones) start
 // on the first two years instead of the whole width of the graph.
 const MIN_START_ZOOM = 0.5;
+// Room left above the first year at the start, so the bar over the top-left of the graph
+// doesn't cover the "100-level" label. On phones the bar wraps onto two lines.
+const TOP_ROOM = 72;
+const TOP_ROOM_PHONE = 104;
 
-const ariaLabelConfig = {
-  "node.a11yDescription.default": KEYBOARD_HINT,
-  "node.a11yDescription.keyboardDisabled": KEYBOARD_HINT,
-};
+function hintConfig(hint: string) {
+  return { "node.a11yDescription.default": hint, "node.a11yDescription.keyboardDisabled": hint };
+}
+const exploreHints = hintConfig(KEYBOARD_HINT);
+const markingHints = hintConfig(MARKING_HINT);
 
 // Edge colours by role. undefined keeps React Flow's default grey.
 const EDGE_COLORS: Record<EdgeRole, string | undefined> = {
@@ -159,9 +193,19 @@ export default function CourseGraph({
   const [flow, setFlow] = useState<ReactFlowInstance<FlowNode, Edge> | null>(null);
   const canvasRef = useRef<HTMLDivElement>(null);
 
+  // The courses marked done (saved in the browser), and quick mode, where a click ticks
+  // a course instead of opening it.
+  const { done, toggle, clear } = useDoneCourses();
+  const [marking, setMarking] = useState(false);
+
   const placed = useMemo(() => new Map(courses.map((c) => [c.id, c])), [courses]);
   const records = useMemo(() => new Map(details.map((c) => [c.code, c])), [details]);
   const onMap = useMemo(() => new Set(placed.keys()), [placed]);
+
+  // Every course's status. Shown on the graph once at least one course is marked done.
+  const progress = useMemo(() => courseProgress(details, done), [details, done]);
+  const counts = useMemo(() => countStatuses(progress), [progress]);
+  const showProgress = counts.done > 0;
 
   const highlight = useMemo(
     () => (selected === null ? null : highlightFor(selected, edges)),
@@ -169,8 +213,8 @@ export default function CourseGraph({
   );
 
   // The view to start with: the whole width of the graph with the year labels on the
-  // left, starting at the top of first year. On screens too narrow to show that at a
-  // readable size, it centres on the 100- and 200-level courses at MIN_START_ZOOM instead.
+  // left, starting at the top of first year, below the bar. On screens too narrow to show
+  // that at a readable size, it centres on the 100- and 200-level courses at MIN_START_ZOOM.
   // The fit-view button in the corner still shows everything.
   const showStart = (instance: ReactFlowInstance<FlowNode, Edge>) => {
     const box = canvasRef.current?.getBoundingClientRect();
@@ -180,7 +224,9 @@ export default function CourseGraph({
     let left = -BAND_GUTTER; // the year labels
     let right = width + 30; // the right end of the bands
     const fitZoom = (box.width - 2 * margin) / (right - left);
+    let room = TOP_ROOM;
     if (fitZoom < MIN_START_ZOOM) {
+      room = TOP_ROOM_PHONE;
       const endOfYear2 = bands[Math.min(1, bands.length - 1)].bottom;
       const start = courses.filter((c) => c.y < endOfYear2);
       left = Math.min(...start.map((c) => c.x));
@@ -189,7 +235,7 @@ export default function CourseGraph({
     const zoom = Math.min(1, Math.max(MIN_START_ZOOM, fitZoom));
     instance.setViewport({
       x: box.width / 2 - ((left + right) / 2) * zoom,
-      y: margin - top * zoom,
+      y: room - top * zoom,
       zoom,
     });
   };
@@ -222,10 +268,13 @@ export default function CourseGraph({
     return () => cancelAnimationFrame(frame);
   }, [selected, panelOpen, flow, placed]);
 
-  // Esc clears the selection.
+  // Esc clears the selection, and leaves quick mode.
   useEffect(() => {
     const onKeyDown = (event: KeyboardEvent) => {
-      if (event.key === "Escape") setSelected(null);
+      if (event.key === "Escape") {
+        setSelected(null);
+        setMarking(false);
+      }
     };
     window.addEventListener("keydown", onKeyDown);
     return () => window.removeEventListener("keydown", onKeyDown);
@@ -247,6 +296,12 @@ export default function CourseGraph({
       data: { year: band.year, shaded: i % 2 === 0 },
     }));
     for (const c of courses) {
+      // While marking, only "done" shows, so each box reads as ticked or not.
+      let status: CourseStatus | null = null;
+      if (marking) status = done.has(c.id) ? "done" : null;
+      else if (showProgress) status = progress.get(c.id)?.status ?? null;
+      // What screen readers say after the course name, e.g. "Can take" or "Not marked".
+      const spoken = marking ? (status ? "Marked as done" : "Not marked") : status && STATUS_TEXT[status];
       result.push({
         id: c.id,
         type: "course",
@@ -254,8 +309,15 @@ export default function CourseGraph({
         width: NODE_WIDTH,
         height: NODE_HEIGHT,
         zIndex: 2, // above every edge, so lines pass behind the boxes instead of over their text
-        ariaLabel: `${c.id}: ${c.title}`,
-        data: { code: c.id, title: c.title, noRequirements: c.noRequirements, role: nodeRole(highlight, c.id) },
+        ariaLabel: spoken ? `${c.id}: ${c.title}. ${spoken}` : `${c.id}: ${c.title}`,
+        data: {
+          code: c.id,
+          title: c.title,
+          noRequirements: c.noRequirements,
+          role: nodeRole(highlight, c.id),
+          status,
+          marking,
+        },
       });
     }
     labels.forEach((label, i) => {
@@ -269,7 +331,7 @@ export default function CourseGraph({
       });
     });
     return result;
-  }, [bands, width, courses, labels, highlight]);
+  }, [bands, width, courses, labels, highlight, progress, done, marking, showProgress]);
 
   const flowEdges = useMemo(
     (): Edge[] =>
@@ -297,8 +359,11 @@ export default function CourseGraph({
 
   // Clicking a course highlights it and opens its panel. Clicking it again clears it,
   // unless its panel was closed, in which case the panel opens again.
+  // In quick mode a click ticks or unticks the course instead.
   const choose = (id: string) => {
-    if (id === selected && panelOpen) {
+    if (marking) {
+      toggle(id);
+    } else if (id === selected && panelOpen) {
       setSelected(null);
     } else {
       setSelected(id);
@@ -322,6 +387,13 @@ export default function CourseGraph({
     }
   };
 
+  // Quick mode starts with nothing highlighted, so the only colours are the ticks.
+  const startMarking = () => {
+    setSelected(null);
+    setPanelOpen(false);
+    setMarking(true);
+  };
+
   const selectedCourse = selected === null ? undefined : records.get(selected);
 
   return (
@@ -341,24 +413,34 @@ export default function CourseGraph({
           elementsSelectable={false}
           colorMode={colorMode}
           minZoom={0.1}
-          ariaLabelConfig={ariaLabelConfig}
+          ariaLabelConfig={marking ? markingHints : exploreHints}
         >
           <Controls showInteractive={false} />
-          {highlight && !panelOpen && (
-            <Panel position="top-left">
+          <Panel position="top-left" className="flex flex-col items-start gap-2">
+            <ProgressBar
+              counts={counts}
+              marking={marking}
+              onStart={startMarking}
+              onFinish={() => setMarking(false)}
+              onClear={clear}
+            />
+            {highlight && !panelOpen && (
               <SelectionBar
                 highlight={highlight}
                 onDetails={() => setPanelOpen(true)}
                 onClear={() => setSelected(null)}
               />
-            </Panel>
-          )}
+            )}
+          </Panel>
         </ReactFlow>
       </div>
       {selectedCourse && highlight && panelOpen && (
         <CourseDetails
           course={selectedCourse}
           highlight={highlight}
+          progress={showProgress ? progress.get(selectedCourse.code) : undefined}
+          done={done}
+          onToggleDone={() => toggle(selectedCourse.code)}
           onMap={onMap}
           calendarUrl={calendarUrl}
           onSelect={setSelected}
