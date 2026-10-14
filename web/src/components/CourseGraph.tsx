@@ -474,6 +474,12 @@ export default function CourseGraph({
           elementsSelectable={false}
           colorMode={colorMode}
           minZoom={0.1}
+          // Scrolling (two fingers on a trackpad, or a mouse wheel) moves around the map like
+          // scrolling a page, at the same speed. Zooming is a pinch (trackpad or phone),
+          // Ctrl or ⌘ + scroll, or the + and − buttons.
+          panOnScroll
+          panOnScrollSpeed={1}
+          zoomOnScroll={false}
           ariaLabelConfig={marking ? markingHints : exploreHints}
         >
           <Controls showInteractive={false} />
