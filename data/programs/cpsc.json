@@ -14,49 +14,73 @@
             {
               "text": "SCIE 113",
               "credits": 3,
+              "tree": "SCIE 113",
+              "source": "rules",
+              "problems": [],
               "notes": []
             },
             {
               "text": "Additional Communication Requirement",
               "credits": 3,
-              "notes": [
-                "For a full list of acceptable courses see Communication Requirements."
-              ]
+              "tree": {
+                "other": "Additional Communication Requirement"
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["For a full list of acceptable courses see Communication Requirements."]
             },
             {
               "text": "CPSC 110 (or 103 and 107)",
               "credits": 4,
-              "notes": [
-                "While CPSC 110 is the recommended route for students pursuing a specialization in Computer Science, CPSC 103, 107 may be taken in its place using 2 credits of electives."
-              ]
+              "tree": {
+                "one_of": [
+                  "CPSC 110",
+                  {
+                    "all_of": ["CPSC 103", "CPSC 107"]
+                  }
+                ]
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["While CPSC 110 is the recommended route for students pursuing a specialization in Computer Science, CPSC 103, 107 may be taken in its place using 2 credits of electives."]
             },
             {
               "text": "CPSC 121",
               "credits": 4,
-              "notes": [
-                "Students pursuing a Co-op option in Computer Science are advised to also take CPSC 210 in their first year or in the summer following their first year. Co-op students will then be in a position to take one or both of CPSC 221 and CPSC 213 in term 1 of second year before going out on a Co-op work term."
-              ]
+              "tree": "CPSC 121",
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students pursuing a Co-op option in Computer Science are advised to also take CPSC 210 in their first year or in the summer following their first year. Co-op students will then be in a position to take one or both of CPSC 221 and CPSC 213 in term 1 of second year before going out on a Co-op work term."]
             },
             {
               "text": "MATH 100 or 102 or 104 (or 180 or 184 or 120 or 110)",
               "credits": 3,
-              "notes": [
-                "Students are permitted to move elective credits between years. Students who take courses in MATH with extra credits will require fewer elective credits in later years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."
-              ]
+              "tree": {
+                "one_of": ["MATH 100", "MATH 102", "MATH 104", "MATH 180", "MATH 184", "MATH 120", "MATH 110"]
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students are permitted to move elective credits between years. Students who take courses in MATH with extra credits will require fewer elective credits in later years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."]
             },
             {
               "text": "MATH 101 or 103 or 105 (or 121)",
               "credits": 3,
-              "notes": [
-                "Students are permitted to move elective credits between years. Students who take courses in MATH with extra credits will require fewer elective credits in later years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."
-              ]
+              "tree": {
+                "one_of": ["MATH 101", "MATH 103", "MATH 105", "MATH 121"]
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students are permitted to move elective credits between years. Students who take courses in MATH with extra credits will require fewer elective credits in later years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."]
             },
             {
               "text": "Electives",
               "credits": 10,
-              "notes": [
-                "Students are permitted to move elective credits between years. Students who take courses in MATH with extra credits will require fewer elective credits in later years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."
-              ]
+              "tree": {
+                "electives": true
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students are permitted to move elective credits between years. Students who take courses in MATH with extra credits will require fewer elective credits in later years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."]
             }
           ]
         },
@@ -67,38 +91,56 @@
             {
               "text": "CPSC 210",
               "credits": 4,
-              "notes": [
-                "Students pursuing a Co-op option in Computer Science are advised to also take CPSC 210 in their first year or in the summer following their first year. Co-op students will then be in a position to take one or both of CPSC 221 and CPSC 213 in term 1 of second year before going out on a Co-op work term."
-              ]
+              "tree": "CPSC 210",
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students pursuing a Co-op option in Computer Science are advised to also take CPSC 210 in their first year or in the summer following their first year. Co-op students will then be in a position to take one or both of CPSC 221 and CPSC 213 in term 1 of second year before going out on a Co-op work term."]
             },
             {
               "text": "CPSC 213, 221",
               "credits": 8,
+              "tree": {
+                "all_of": ["CPSC 213", "CPSC 221"]
+              },
+              "source": "rules",
+              "problems": [],
               "notes": []
             },
             {
               "text": "MATH 111 or 221",
               "credits": 3,
+              "tree": {
+                "one_of": ["MATH 111", "MATH 221"]
+              },
+              "source": "rules",
+              "problems": [],
               "notes": []
             },
             {
               "text": "MATH 200",
               "credits": 3,
+              "tree": "MATH 200",
+              "source": "rules",
+              "problems": [],
               "notes": []
             },
             {
               "text": "STAT 251",
               "credits": 3,
-              "notes": [
-                "May be replaced by STAT 200 or STAT 201 provided MATH/STAT 302 is taken as an elective in third or fourth year. STAT 200 is recommended for students with an interest in further STAT courses. STAT 201 is recommended for students with an interest in the Minor in Data Science."
-              ]
+              "tree": "STAT 251",
+              "source": "rules",
+              "problems": [],
+              "notes": ["May be replaced by STAT 200 or STAT 201 provided MATH/STAT 302 is taken as an elective in third or fourth year. STAT 200 is recommended for students with an interest in further STAT courses. STAT 201 is recommended for students with an interest in the Minor in Data Science."]
             },
             {
               "text": "Electives",
               "credits": 9,
-              "notes": [
-                "Students are permitted to move elective credits between years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."
-              ]
+              "tree": {
+                "electives": true
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students are permitted to move elective credits between years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."]
             }
           ]
         },
@@ -109,29 +151,48 @@
             {
               "text": "CPSC 310, 313, 320",
               "credits": 10,
+              "tree": {
+                "all_of": ["CPSC 310", "CPSC 313", "CPSC 320"]
+              },
+              "source": "rules",
+              "problems": [],
               "notes": []
             },
             {
               "text": "CPSC or AI courses numbered 300 or higher",
               "credits": 9,
-              "notes": [
-                "Credits gained from undergraduate Student-Directed Seminars (CPSC 490) can not be used to fulfill this requirement."
-              ]
+              "tree": {
+                "credits_of": {
+                  "subjects": ["CPSC", "AI"],
+                  "min_level": 300
+                }
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["Credits gained from undergraduate Student-Directed Seminars (CPSC 490) can not be used to fulfill this requirement."]
             },
             {
               "text": "CPSC or AI courses numbered 400 or higher",
               "credits": 9,
-              "notes": [
-                "Credits gained from undergraduate Student-Directed Seminars (CPSC 490) can not be used to fulfill this requirement.",
-                "At least 3 credits must come from lecture based course(s)."
-              ]
+              "tree": {
+                "credits_of": {
+                  "subjects": ["CPSC", "AI"],
+                  "min_level": 400
+                }
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["Credits gained from undergraduate Student-Directed Seminars (CPSC 490) can not be used to fulfill this requirement.", "At least 3 credits must come from lecture based course(s)."]
             },
             {
               "text": "Electives",
               "credits": 32,
-              "notes": [
-                "Students are permitted to move elective credits between years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."
-              ]
+              "tree": {
+                "electives": true
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students are permitted to move elective credits between years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."]
             }
           ]
         }
@@ -150,49 +211,73 @@
             {
               "text": "SCIE 113",
               "credits": 3,
+              "tree": "SCIE 113",
+              "source": "rules",
+              "problems": [],
               "notes": []
             },
             {
               "text": "Additional Communication Requirement",
               "credits": 3,
-              "notes": [
-                "For a full list of acceptable courses see Communication Requirements."
-              ]
+              "tree": {
+                "other": "Additional Communication Requirement"
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["For a full list of acceptable courses see Communication Requirements."]
             },
             {
               "text": "CPSC 110 (or 103 and 107)",
               "credits": 4,
-              "notes": [
-                "While CPSC 110 is the recommended route for students pursuing a specialization in Computer Science, CPSC 103, 107 may be taken in its place using 2 credits of electives."
-              ]
+              "tree": {
+                "one_of": [
+                  "CPSC 110",
+                  {
+                    "all_of": ["CPSC 103", "CPSC 107"]
+                  }
+                ]
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["While CPSC 110 is the recommended route for students pursuing a specialization in Computer Science, CPSC 103, 107 may be taken in its place using 2 credits of electives."]
             },
             {
               "text": "CPSC 121",
               "credits": 4,
-              "notes": [
-                "Students pursuing a Co-op option in Computer Science are advised to also take CPSC 210 in their first year or in the summer following their first year. Co-op students will then be in a position to take one or both of CPSC 221 and CPSC 213 in term 1 of second year before going out on a Co-op work term."
-              ]
+              "tree": "CPSC 121",
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students pursuing a Co-op option in Computer Science are advised to also take CPSC 210 in their first year or in the summer following their first year. Co-op students will then be in a position to take one or both of CPSC 221 and CPSC 213 in term 1 of second year before going out on a Co-op work term."]
             },
             {
               "text": "MATH 100 or 102 or 104 (or 180 or 184 or 120 or 110)",
               "credits": 3,
-              "notes": [
-                "Students are permitted to move elective credits between years. Students who take courses in MATH with extra credits will require fewer elective credits in later years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."
-              ]
+              "tree": {
+                "one_of": ["MATH 100", "MATH 102", "MATH 104", "MATH 180", "MATH 184", "MATH 120", "MATH 110"]
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students are permitted to move elective credits between years. Students who take courses in MATH with extra credits will require fewer elective credits in later years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."]
             },
             {
               "text": "MATH 101 or 103 or 105 (or 121)",
               "credits": 3,
-              "notes": [
-                "Students are permitted to move elective credits between years. Students who take courses in MATH with extra credits will require fewer elective credits in later years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."
-              ]
+              "tree": {
+                "one_of": ["MATH 101", "MATH 103", "MATH 105", "MATH 121"]
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students are permitted to move elective credits between years. Students who take courses in MATH with extra credits will require fewer elective credits in later years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."]
             },
             {
               "text": "Electives",
               "credits": 10,
-              "notes": [
-                "Students are permitted to move elective credits between years. Students who take courses in MATH with extra credits will require fewer elective credits in later years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."
-              ]
+              "tree": {
+                "electives": true
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students are permitted to move elective credits between years. Students who take courses in MATH with extra credits will require fewer elective credits in later years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."]
             }
           ]
         },
@@ -203,33 +288,52 @@
             {
               "text": "CPSC 210, 213, 221",
               "credits": 12,
-              "notes": [
-                "Students pursuing a Co-op option in Computer Science are advised to also take CPSC 210 in their first year or in the summer following their first year. Co-op students will then be in a position to take one or both of CPSC 221 and CPSC 213 in term 1 of second year before going out on a Co-op work term."
-              ]
+              "tree": {
+                "all_of": ["CPSC 210", "CPSC 213", "CPSC 221"]
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students pursuing a Co-op option in Computer Science are advised to also take CPSC 210 in their first year or in the summer following their first year. Co-op students will then be in a position to take one or both of CPSC 221 and CPSC 213 in term 1 of second year before going out on a Co-op work term."]
             },
             {
               "text": "MATH 200 or 226",
               "credits": 3,
+              "tree": {
+                "one_of": ["MATH 200", "MATH 226"]
+              },
+              "source": "rules",
+              "problems": [],
               "notes": []
             },
             {
               "text": "MATH 111 or 131 or 221 or 223",
               "credits": 3,
+              "tree": {
+                "one_of": ["MATH 111", "MATH 131", "MATH 221", "MATH 223"]
+              },
+              "source": "rules",
+              "problems": [],
               "notes": []
             },
             {
               "text": "STAT 200 or 201",
               "credits": 3,
-              "notes": [
-                "STAT 200 is recommended for students with an interest in further STAT courses. STAT 201 is recommended for students with an interest in the Minor in Data Science."
-              ]
+              "tree": {
+                "one_of": ["STAT 200", "STAT 201"]
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["STAT 200 is recommended for students with an interest in further STAT courses. STAT 201 is recommended for students with an interest in the Minor in Data Science."]
             },
             {
               "text": "Electives",
               "credits": 15,
-              "notes": [
-                "Students are permitted to move elective credits between years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."
-              ]
+              "tree": {
+                "electives": true
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students are permitted to move elective credits between years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."]
             }
           ]
         },
@@ -240,48 +344,74 @@
             {
               "text": "CPSC 310, 313, 320",
               "credits": 10,
+              "tree": {
+                "all_of": ["CPSC 310", "CPSC 313", "CPSC 320"]
+              },
+              "source": "rules",
+              "problems": [],
               "notes": []
             },
             {
               "text": "MATH 302 or STAT 302",
               "credits": 3,
+              "tree": {
+                "one_of": ["MATH 302", "STAT 302"]
+              },
+              "source": "rules",
+              "problems": [],
               "notes": []
             },
             {
               "text": "CPSC 349",
               "credits": 0,
-              "notes": [
-                "Taken in third year."
-              ]
+              "tree": "CPSC 349",
+              "source": "rules",
+              "problems": [],
+              "notes": ["Taken in third year."]
             },
             {
               "text": "CPSC 449",
               "credits": 6,
-              "notes": [
-                "Taken in fourth year. Students who have completed a research intensive experience in a computer science field may be allowed to waive this requirement. Examples of research intensive experiences include full time summer internships in a research laboratory or Undergraduate Student Research Awards. If this requirement is waived, the student must take 6 additional credits of CPSC courses numbered 400 or higher."
-              ]
+              "tree": "CPSC 449",
+              "source": "rules",
+              "problems": [],
+              "notes": ["Taken in fourth year. Students who have completed a research intensive experience in a computer science field may be allowed to waive this requirement. Examples of research intensive experiences include full time summer internships in a research laboratory or Undergraduate Student Research Awards. If this requirement is waived, the student must take 6 additional credits of CPSC courses numbered 400 or higher."]
             },
             {
               "text": "CPSC or AI courses numbered 300 or higher",
               "credits": 12,
-              "notes": [
-                "Credits gained from undergraduate Student-Directed Seminars (CPSC 490) cannot be used to fulfill this requirement."
-              ]
+              "tree": {
+                "credits_of": {
+                  "subjects": ["CPSC", "AI"],
+                  "min_level": 300
+                }
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["Credits gained from undergraduate Student-Directed Seminars (CPSC 490) cannot be used to fulfill this requirement."]
             },
             {
               "text": "CPSC or AI courses numbered 400 or higher",
               "credits": 9,
-              "notes": [
-                "Credits gained from undergraduate Student-Directed Seminars (CPSC 490) cannot be used to fulfill this requirement.",
-                "At least 6 credits must come from lecture-based course(s)."
-              ]
+              "tree": {
+                "credits_of": {
+                  "subjects": ["CPSC", "AI"],
+                  "min_level": 400
+                }
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["Credits gained from undergraduate Student-Directed Seminars (CPSC 490) cannot be used to fulfill this requirement.", "At least 6 credits must come from lecture-based course(s)."]
             },
             {
               "text": "Electives",
               "credits": 26,
-              "notes": [
-                "Students are permitted to move elective credits between years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."
-              ]
+              "tree": {
+                "electives": true
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students are permitted to move elective credits between years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."]
             }
           ]
         }
@@ -300,49 +430,73 @@
             {
               "text": "SCIE 113",
               "credits": 3,
+              "tree": "SCIE 113",
+              "source": "rules",
+              "problems": [],
               "notes": []
             },
             {
               "text": "Additional Communication Requirement",
               "credits": 3,
-              "notes": [
-                "For a full list of acceptable courses see Communication Requirements."
-              ]
+              "tree": {
+                "other": "Additional Communication Requirement"
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["For a full list of acceptable courses see Communication Requirements."]
             },
             {
               "text": "CPSC 110 (or 103 and 107)",
               "credits": 4,
-              "notes": [
-                "While CPSC 110 is the recommended route for students pursuing a specialization in Computer Science, CPSC 103, 107 may be taken in its place using 2 credits of electives."
-              ]
+              "tree": {
+                "one_of": [
+                  "CPSC 110",
+                  {
+                    "all_of": ["CPSC 103", "CPSC 107"]
+                  }
+                ]
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["While CPSC 110 is the recommended route for students pursuing a specialization in Computer Science, CPSC 103, 107 may be taken in its place using 2 credits of electives."]
             },
             {
               "text": "CPSC 121",
               "credits": 4,
-              "notes": [
-                "Students pursuing a Co-op option in Computer Science are advised to also take CPSC 210 in their first year or in the summer following their first year. Co-op students will then be in a position to take one or both of CPSC 221 and CPSC 213 in term 1 of second year before going out on a Co-op work term."
-              ]
+              "tree": "CPSC 121",
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students pursuing a Co-op option in Computer Science are advised to also take CPSC 210 in their first year or in the summer following their first year. Co-op students will then be in a position to take one or both of CPSC 221 and CPSC 213 in term 1 of second year before going out on a Co-op work term."]
             },
             {
               "text": "MATH 100 or 102 or 104 (or 180 or 184 or 120 or 110)",
               "credits": 3,
-              "notes": [
-                "Students are permitted to move elective credits between years. Students who take courses in MATH with extra credits will require fewer elective credits in later years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."
-              ]
+              "tree": {
+                "one_of": ["MATH 100", "MATH 102", "MATH 104", "MATH 180", "MATH 184", "MATH 120", "MATH 110"]
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students are permitted to move elective credits between years. Students who take courses in MATH with extra credits will require fewer elective credits in later years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."]
             },
             {
               "text": "MATH 101 or 103 or 105 (or 121)",
               "credits": 3,
-              "notes": [
-                "Students are permitted to move elective credits between years. Students who take courses in MATH with extra credits will require fewer elective credits in later years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."
-              ]
+              "tree": {
+                "one_of": ["MATH 101", "MATH 103", "MATH 105", "MATH 121"]
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students are permitted to move elective credits between years. Students who take courses in MATH with extra credits will require fewer elective credits in later years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."]
             },
             {
               "text": "Electives",
               "credits": 10,
-              "notes": [
-                "Students are permitted to move elective credits between years. Students who take courses in MATH with extra credits will require fewer elective credits in later years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."
-              ]
+              "tree": {
+                "electives": true
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students are permitted to move elective credits between years. Students who take courses in MATH with extra credits will require fewer elective credits in later years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."]
             }
           ]
         },
@@ -353,38 +507,56 @@
             {
               "text": "CPSC 210",
               "credits": 4,
-              "notes": [
-                "Students pursuing a Co-op option in Computer Science are advised to also take CPSC 210 in their first year or in the summer following their first year. Co-op students will then be in a position to take one or both of CPSC 221 and CPSC 213 in term 1 of second year before going out on a Co-op work term."
-              ]
+              "tree": "CPSC 210",
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students pursuing a Co-op option in Computer Science are advised to also take CPSC 210 in their first year or in the summer following their first year. Co-op students will then be in a position to take one or both of CPSC 221 and CPSC 213 in term 1 of second year before going out on a Co-op work term."]
             },
             {
               "text": "CPSC 213, 221",
               "credits": 8,
+              "tree": {
+                "all_of": ["CPSC 213", "CPSC 221"]
+              },
+              "source": "rules",
+              "problems": [],
               "notes": []
             },
             {
               "text": "MATH 111 or 221",
               "credits": 3,
+              "tree": {
+                "one_of": ["MATH 111", "MATH 221"]
+              },
+              "source": "rules",
+              "problems": [],
               "notes": []
             },
             {
               "text": "MATH 200",
               "credits": 3,
+              "tree": "MATH 200",
+              "source": "rules",
+              "problems": [],
               "notes": []
             },
             {
               "text": "STAT 251",
               "credits": 3,
-              "notes": [
-                "May be replaced by STAT 200 or STAT 201 provided MATH/STAT 302 is taken as an elective in third or fourth year. STAT 200 is recommended for students with an interest in further STAT courses. STAT 201 is recommended for students with an interest in the Minor in Data Science."
-              ]
+              "tree": "STAT 251",
+              "source": "rules",
+              "problems": [],
+              "notes": ["May be replaced by STAT 200 or STAT 201 provided MATH/STAT 302 is taken as an elective in third or fourth year. STAT 200 is recommended for students with an interest in further STAT courses. STAT 201 is recommended for students with an interest in the Minor in Data Science."]
             },
             {
               "text": "Electives",
               "credits": 9,
-              "notes": [
-                "Students are permitted to move elective credits between years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."
-              ]
+              "tree": {
+                "electives": true
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students are permitted to move elective credits between years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."]
             }
           ]
         },
@@ -395,51 +567,90 @@
             {
               "text": "CPSC 310, 313, 320",
               "credits": 10,
+              "tree": {
+                "all_of": ["CPSC 310", "CPSC 313", "CPSC 320"]
+              },
+              "source": "rules",
+              "problems": [],
               "notes": []
             },
             {
               "text": "AI 240 or CPSC 340",
               "credits": 4,
-              "notes": [
-                "If a lower-credit course is chosen, an additional elective credit is required."
-              ]
+              "tree": {
+                "one_of": ["AI 240", "CPSC 340"]
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["If a lower-credit course is chosen, an additional elective credit is required."]
             },
             {
               "text": "AI 322 or CPSC 322",
               "credits": 3,
+              "tree": {
+                "one_of": ["AI 322", "CPSC 322"]
+              },
+              "source": "rules",
+              "problems": [],
               "notes": []
             },
             {
               "text": "AI 360",
               "credits": 3,
+              "tree": "AI 360",
+              "source": "rules",
+              "problems": [],
               "notes": []
             },
             {
               "text": "CPSC 440",
               "credits": 3,
+              "tree": "CPSC 440",
+              "source": "rules",
+              "problems": [],
               "notes": []
             },
             {
               "text": "CPSC 430 or DSCI 430",
               "credits": 3,
+              "tree": {
+                "one_of": ["CPSC 430", "DSCI 430"]
+              },
+              "source": "rules",
+              "problems": [],
               "notes": []
             },
             {
               "text": "MATH 302 or STAT 302",
               "credits": 3,
+              "tree": {
+                "one_of": ["MATH 302", "STAT 302"]
+              },
+              "source": "rules",
+              "problems": [],
               "notes": []
             },
             {
               "text": "Three of CPSC 304, 330, 344, 368, 404, 406, 420, 423, 425, 444, 447, AI 422 at least 6 credits of which must be 400 or above",
               "credits": 9,
+              "tree": {
+                "pick": 3,
+                "of": ["CPSC 304", "CPSC 330", "CPSC 344", "CPSC 368", "CPSC 404", "CPSC 406", "CPSC 420", "CPSC 423", "CPSC 425", "CPSC 444", "CPSC 447", "AI 422"],
+                "note": "at least 6 credits of which must be 400 or above"
+              },
+              "source": "rules",
+              "problems": [],
               "notes": []
             },
             {
               "text": "Electives",
               "credits": 22,
-              "notes": [
-                "Students are permitted to move elective credits between years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."
-              ]
+              "tree": {
+                "electives": true
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students are permitted to move elective credits between years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."]
             }
           ]
         }
@@ -458,49 +669,73 @@
             {
               "text": "SCIE 113",
               "credits": 3,
+              "tree": "SCIE 113",
+              "source": "rules",
+              "problems": [],
               "notes": []
             },
             {
               "text": "Additional Communication Requirement",
               "credits": 3,
-              "notes": [
-                "For a full list of acceptable courses see Communication Requirements."
-              ]
+              "tree": {
+                "other": "Additional Communication Requirement"
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["For a full list of acceptable courses see Communication Requirements."]
             },
             {
               "text": "CPSC 110 (or 103 and 107)",
               "credits": 4,
-              "notes": [
-                "While CPSC 110 is the recommended route for students pursuing a specialization in Computer Science, CPSC 103, 107 may be taken in its place using 2 credits of electives."
-              ]
+              "tree": {
+                "one_of": [
+                  "CPSC 110",
+                  {
+                    "all_of": ["CPSC 103", "CPSC 107"]
+                  }
+                ]
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["While CPSC 110 is the recommended route for students pursuing a specialization in Computer Science, CPSC 103, 107 may be taken in its place using 2 credits of electives."]
             },
             {
               "text": "CPSC 121",
               "credits": 4,
-              "notes": [
-                "Students pursuing a Co-op option in Computer Science are advised to also take CPSC 210 in their first year or in the summer following their first year. Co-op students will then be in a position to take one or both of CPSC 221 and CPSC 213 in term 1 of second year before going out on a Co-op work term."
-              ]
+              "tree": "CPSC 121",
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students pursuing a Co-op option in Computer Science are advised to also take CPSC 210 in their first year or in the summer following their first year. Co-op students will then be in a position to take one or both of CPSC 221 and CPSC 213 in term 1 of second year before going out on a Co-op work term."]
             },
             {
               "text": "MATH 100 or 102 or 104 (or 180 or 184 or 120 or 110)",
               "credits": 3,
-              "notes": [
-                "Students are permitted to move elective credits between years. Students who take courses in MATH with extra credits will require fewer elective credits in later years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."
-              ]
+              "tree": {
+                "one_of": ["MATH 100", "MATH 102", "MATH 104", "MATH 180", "MATH 184", "MATH 120", "MATH 110"]
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students are permitted to move elective credits between years. Students who take courses in MATH with extra credits will require fewer elective credits in later years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."]
             },
             {
               "text": "MATH 101 or 103 or 105 (or 121)",
               "credits": 3,
-              "notes": [
-                "Students are permitted to move elective credits between years. Students who take courses in MATH with extra credits will require fewer elective credits in later years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."
-              ]
+              "tree": {
+                "one_of": ["MATH 101", "MATH 103", "MATH 105", "MATH 121"]
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students are permitted to move elective credits between years. Students who take courses in MATH with extra credits will require fewer elective credits in later years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."]
             },
             {
               "text": "Electives",
               "credits": 10,
-              "notes": [
-                "Students are permitted to move elective credits between years. Students who take courses in MATH with extra credits will require fewer elective credits in later years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."
-              ]
+              "tree": {
+                "electives": true
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students are permitted to move elective credits between years. Students who take courses in MATH with extra credits will require fewer elective credits in later years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."]
             }
           ]
         },
@@ -511,33 +746,52 @@
             {
               "text": "CPSC 210, 213, 221",
               "credits": 12,
-              "notes": [
-                "Students pursuing a Co-op option in Computer Science are advised to also take CPSC 210 in their first year or in the summer following their first year. Co-op students will then be in a position to take one or both of CPSC 221 and CPSC 213 in term 1 of second year before going out on a Co-op work term."
-              ]
+              "tree": {
+                "all_of": ["CPSC 210", "CPSC 213", "CPSC 221"]
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students pursuing a Co-op option in Computer Science are advised to also take CPSC 210 in their first year or in the summer following their first year. Co-op students will then be in a position to take one or both of CPSC 221 and CPSC 213 in term 1 of second year before going out on a Co-op work term."]
             },
             {
               "text": "MATH 200 or 226",
               "credits": 3,
+              "tree": {
+                "one_of": ["MATH 200", "MATH 226"]
+              },
+              "source": "rules",
+              "problems": [],
               "notes": []
             },
             {
               "text": "MATH 111 or 131 or 221 or 223",
               "credits": 3,
+              "tree": {
+                "one_of": ["MATH 111", "MATH 131", "MATH 221", "MATH 223"]
+              },
+              "source": "rules",
+              "problems": [],
               "notes": []
             },
             {
               "text": "STAT 200 or 201",
               "credits": 3,
-              "notes": [
-                "STAT 200 is recommended for students with an interest in further STAT courses. STAT 201 is recommended for students with an interest in the Minor in Data Science."
-              ]
+              "tree": {
+                "one_of": ["STAT 200", "STAT 201"]
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["STAT 200 is recommended for students with an interest in further STAT courses. STAT 201 is recommended for students with an interest in the Minor in Data Science."]
             },
             {
               "text": "Electives",
               "credits": 15,
-              "notes": [
-                "Students are permitted to move elective credits between years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."
-              ]
+              "tree": {
+                "electives": true
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students are permitted to move elective credits between years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."]
             }
           ]
         },
@@ -548,65 +802,106 @@
             {
               "text": "CPSC 310, 313, 320",
               "credits": 10,
+              "tree": {
+                "all_of": ["CPSC 310", "CPSC 313", "CPSC 320"]
+              },
+              "source": "rules",
+              "problems": [],
               "notes": []
             },
             {
               "text": "AI 240 or CPSC 340",
               "credits": 4,
-              "notes": [
-                "If a lower-credit course is chosen, an additional elective credit is required."
-              ]
+              "tree": {
+                "one_of": ["AI 240", "CPSC 340"]
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["If a lower-credit course is chosen, an additional elective credit is required."]
             },
             {
               "text": "AI 322 or CPSC 322",
               "credits": 3,
+              "tree": {
+                "one_of": ["AI 322", "CPSC 322"]
+              },
+              "source": "rules",
+              "problems": [],
               "notes": []
             },
             {
               "text": "AI 360",
               "credits": 3,
+              "tree": "AI 360",
+              "source": "rules",
+              "problems": [],
               "notes": []
             },
             {
               "text": "CPSC 440",
               "credits": 3,
+              "tree": "CPSC 440",
+              "source": "rules",
+              "problems": [],
               "notes": []
             },
             {
               "text": "CPSC 430 or DSCI 430",
               "credits": 3,
+              "tree": {
+                "one_of": ["CPSC 430", "DSCI 430"]
+              },
+              "source": "rules",
+              "problems": [],
               "notes": []
             },
             {
               "text": "MATH 302 or STAT 302",
               "credits": 3,
+              "tree": {
+                "one_of": ["MATH 302", "STAT 302"]
+              },
+              "source": "rules",
+              "problems": [],
               "notes": []
             },
             {
               "text": "Four of CPSC 304, 330, 344, 368, 404, 406, 420, 423, 425, 444, 447, AI 422 at least 3 credits of which must be 400 or above",
               "credits": 12,
+              "tree": {
+                "pick": 4,
+                "of": ["CPSC 304", "CPSC 330", "CPSC 344", "CPSC 368", "CPSC 404", "CPSC 406", "CPSC 420", "CPSC 423", "CPSC 425", "CPSC 444", "CPSC 447", "AI 422"],
+                "note": "at least 3 credits of which must be 400 or above"
+              },
+              "source": "rules",
+              "problems": [],
               "notes": []
             },
             {
               "text": "CPSC 349",
               "credits": 0,
-              "notes": [
-                "Taken in third year."
-              ]
+              "tree": "CPSC 349",
+              "source": "rules",
+              "problems": [],
+              "notes": ["Taken in third year."]
             },
             {
               "text": "CPSC 449",
               "credits": 6,
-              "notes": [
-                "Taken in fourth year. It is recommended that students select a thesis topic in artificial intelligence. Students who have completed a research intensive experience in a computer science field may be allowed to waive this requirement. Examples of research intensive experiences include full time summer internships in a research laboratory or Undergraduate Student Research Awards. If this requirement is waived, the student must take 6 additional credits of CPSC courses numbered 400 or higher."
-              ]
+              "tree": "CPSC 449",
+              "source": "rules",
+              "problems": [],
+              "notes": ["Taken in fourth year. It is recommended that students select a thesis topic in artificial intelligence. Students who have completed a research intensive experience in a computer science field may be allowed to waive this requirement. Examples of research intensive experiences include full time summer internships in a research laboratory or Undergraduate Student Research Awards. If this requirement is waived, the student must take 6 additional credits of CPSC courses numbered 400 or higher."]
             },
             {
               "text": "Electives",
               "credits": 19,
-              "notes": [
-                "Students are permitted to move elective credits between years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements"
-              ]
+              "tree": {
+                "electives": true
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students are permitted to move elective credits between years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements"]
             }
           ]
         }
@@ -625,49 +920,73 @@
             {
               "text": "SCIE 113",
               "credits": 3,
+              "tree": "SCIE 113",
+              "source": "rules",
+              "problems": [],
               "notes": []
             },
             {
               "text": "Additional Communication Requirement",
               "credits": 3,
-              "notes": [
-                "For a full list of acceptable courses see Communication Requirements."
-              ]
+              "tree": {
+                "other": "Additional Communication Requirement"
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["For a full list of acceptable courses see Communication Requirements."]
             },
             {
               "text": "CPSC 110 (or 103 and 107)",
               "credits": 4,
-              "notes": [
-                "While CPSC 110 is the recommended route for students pursuing a specialization in Computer Science, CPSC 103, 107 may be taken in its place using 2 credits of electives."
-              ]
+              "tree": {
+                "one_of": [
+                  "CPSC 110",
+                  {
+                    "all_of": ["CPSC 103", "CPSC 107"]
+                  }
+                ]
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["While CPSC 110 is the recommended route for students pursuing a specialization in Computer Science, CPSC 103, 107 may be taken in its place using 2 credits of electives."]
             },
             {
               "text": "CPSC 121",
               "credits": 4,
-              "notes": [
-                "Students pursuing a Co-op option in Computer Science are advised to also take CPSC 210 in their first year or in the summer following their first year. Co-op students will then be in a position to take one or both of CPSC 221 and CPSC 213 in term 1 of second year before going out on a Co-op work term."
-              ]
+              "tree": "CPSC 121",
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students pursuing a Co-op option in Computer Science are advised to also take CPSC 210 in their first year or in the summer following their first year. Co-op students will then be in a position to take one or both of CPSC 221 and CPSC 213 in term 1 of second year before going out on a Co-op work term."]
             },
             {
               "text": "MATH 100 or 102 or 104 (or 180 or 184 or 120 or 110)",
               "credits": 3,
-              "notes": [
-                "Students are permitted to move elective credits between years. Students who take courses in MATH with extra credits will require fewer elective credits in later years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."
-              ]
+              "tree": {
+                "one_of": ["MATH 100", "MATH 102", "MATH 104", "MATH 180", "MATH 184", "MATH 120", "MATH 110"]
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students are permitted to move elective credits between years. Students who take courses in MATH with extra credits will require fewer elective credits in later years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."]
             },
             {
               "text": "MATH 101 or 103 or 105 (or 121)",
               "credits": 3,
-              "notes": [
-                "Students are permitted to move elective credits between years. Students who take courses in MATH with extra credits will require fewer elective credits in later years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."
-              ]
+              "tree": {
+                "one_of": ["MATH 101", "MATH 103", "MATH 105", "MATH 121"]
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students are permitted to move elective credits between years. Students who take courses in MATH with extra credits will require fewer elective credits in later years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."]
             },
             {
               "text": "Electives",
               "credits": 10,
-              "notes": [
-                "Students are permitted to move elective credits between years. Students who take courses in MATH with extra credits will require fewer elective credits in later years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."
-              ]
+              "tree": {
+                "electives": true
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students are permitted to move elective credits between years. Students who take courses in MATH with extra credits will require fewer elective credits in later years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."]
             }
           ]
         },
@@ -678,31 +997,50 @@
             {
               "text": "CPSC 210",
               "credits": 4,
+              "tree": "CPSC 210",
+              "source": "rules",
+              "problems": [],
               "notes": []
             },
             {
               "text": "CPSC 213, 221",
               "credits": 8,
+              "tree": {
+                "all_of": ["CPSC 213", "CPSC 221"]
+              },
+              "source": "rules",
+              "problems": [],
               "notes": []
             },
             {
               "text": "MATH 200, 221",
               "credits": 6,
+              "tree": {
+                "all_of": ["MATH 200", "MATH 221"]
+              },
+              "source": "rules",
+              "problems": [],
               "notes": []
             },
             {
               "text": "STAT 241 or 251",
               "credits": 3,
-              "notes": [
-                "May be replaced by STAT 200 or STAT 201 provided MATH/STAT 302 is taken as an elective in third or fourth year. STAT 200 is recommended for students with an interest in further STAT courses. STAT 201 is recommended for students with an interest in the Minor in Data Science."
-              ]
+              "tree": {
+                "one_of": ["STAT 241", "STAT 251"]
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["May be replaced by STAT 200 or STAT 201 provided MATH/STAT 302 is taken as an elective in third or fourth year. STAT 200 is recommended for students with an interest in further STAT courses. STAT 201 is recommended for students with an interest in the Minor in Data Science."]
             },
             {
               "text": "Electives",
               "credits": 9,
-              "notes": [
-                "Students are permitted to move elective credits between years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."
-              ]
+              "tree": {
+                "electives": true
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students are permitted to move elective credits between years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."]
             }
           ]
         },
@@ -713,40 +1051,62 @@
             {
               "text": "CPSC 310, 311, 313, 319, 320",
               "credits": 17,
+              "tree": {
+                "all_of": ["CPSC 310", "CPSC 311", "CPSC 313", "CPSC 319", "CPSC 320"]
+              },
+              "source": "rules",
+              "problems": [],
               "notes": []
             },
             {
               "text": "CPSC 410, 411, 421",
               "credits": 9,
+              "tree": {
+                "all_of": ["CPSC 410", "CPSC 411", "CPSC 421"]
+              },
+              "source": "rules",
+              "problems": [],
               "notes": []
             },
             {
               "text": "One of CPSC 304, 317, 344",
               "credits": 3,
+              "tree": {
+                "one_of": ["CPSC 304", "CPSC 317", "CPSC 344"]
+              },
+              "source": "rules",
+              "problems": [],
               "notes": []
             },
             {
               "text": "One of CPSC 415, 416, 417, 444, CPEN 421, 432, EECE 443, 494",
               "credits": 3,
-              "notes": [
-                "Students are encouraged to consider other courses in this group as electives.",
-                "Students electing to take CPEN or EECE courses must ensure that they meet the Faculty of Science Upper-level Requirement."
-              ]
+              "tree": {
+                "one_of": ["CPSC 415", "CPSC 416", "CPSC 417", "CPSC 444", "CPEN 421", "CPEN 432", "EECE 443", "EECE 494"]
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students are encouraged to consider other courses in this group as electives.", "Students electing to take CPEN or EECE courses must ensure that they meet the Faculty of Science Upper-level Requirement."]
             },
             {
               "text": "One more of CPSC 304, 317, 344, 415, 416, 417, 444, CPEN 421, 432, EECE 443, 494",
               "credits": 3,
-              "notes": [
-                "Students are encouraged to consider other courses in this group as electives.",
-                "Students electing to take CPEN or EECE courses must ensure that they meet the Faculty of Science Upper-level Requirement."
-              ]
+              "tree": {
+                "one_of": ["CPSC 304", "CPSC 317", "CPSC 344", "CPSC 415", "CPSC 416", "CPSC 417", "CPSC 444", "CPEN 421", "CPEN 432", "EECE 443", "EECE 494"]
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students are encouraged to consider other courses in this group as electives.", "Students electing to take CPEN or EECE courses must ensure that they meet the Faculty of Science Upper-level Requirement."]
             },
             {
               "text": "Electives",
               "credits": 25,
-              "notes": [
-                "Students are permitted to move elective credits between years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."
-              ]
+              "tree": {
+                "electives": true
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students are permitted to move elective credits between years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."]
             }
           ]
         }
@@ -765,49 +1125,73 @@
             {
               "text": "SCIE 113",
               "credits": 3,
+              "tree": "SCIE 113",
+              "source": "rules",
+              "problems": [],
               "notes": []
             },
             {
               "text": "Additional Communication Requirement",
               "credits": 3,
-              "notes": [
-                "For a full list of acceptable courses see Communication Requirements."
-              ]
+              "tree": {
+                "other": "Additional Communication Requirement"
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["For a full list of acceptable courses see Communication Requirements."]
             },
             {
               "text": "CPSC 110 (or 103 and 107)",
               "credits": 4,
-              "notes": [
-                "While CPSC 110 is the recommended route for students pursuing a specialization in Computer Science, CPSC 103, 107 may be taken in its place using 2 credits of electives."
-              ]
+              "tree": {
+                "one_of": [
+                  "CPSC 110",
+                  {
+                    "all_of": ["CPSC 103", "CPSC 107"]
+                  }
+                ]
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["While CPSC 110 is the recommended route for students pursuing a specialization in Computer Science, CPSC 103, 107 may be taken in its place using 2 credits of electives."]
             },
             {
               "text": "CPSC 121",
               "credits": 4,
-              "notes": [
-                "Students pursuing a Co-op option in Computer Science are advised to also take CPSC 210 in their first year or in the summer following their first year. Co-op students will then be in a position to take one or both of CPSC 221 and CPSC 213 in term 1 of second year before going out on a Co-op work term."
-              ]
+              "tree": "CPSC 121",
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students pursuing a Co-op option in Computer Science are advised to also take CPSC 210 in their first year or in the summer following their first year. Co-op students will then be in a position to take one or both of CPSC 221 and CPSC 213 in term 1 of second year before going out on a Co-op work term."]
             },
             {
               "text": "MATH 100 or 102 or 104 (or 180 or 184 or 120 or 110)",
               "credits": 3,
-              "notes": [
-                "Students are permitted to move elective credits between years. Students who take courses in MATH with extra credits will require fewer elective credits in later years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."
-              ]
+              "tree": {
+                "one_of": ["MATH 100", "MATH 102", "MATH 104", "MATH 180", "MATH 184", "MATH 120", "MATH 110"]
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students are permitted to move elective credits between years. Students who take courses in MATH with extra credits will require fewer elective credits in later years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."]
             },
             {
               "text": "MATH 101 or 103 or 105 (or 121)",
               "credits": 3,
-              "notes": [
-                "Students are permitted to move elective credits between years. Students who take courses in MATH with extra credits will require fewer elective credits in later years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."
-              ]
+              "tree": {
+                "one_of": ["MATH 101", "MATH 103", "MATH 105", "MATH 121"]
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students are permitted to move elective credits between years. Students who take courses in MATH with extra credits will require fewer elective credits in later years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."]
             },
             {
               "text": "Electives",
               "credits": 10,
-              "notes": [
-                "Students are permitted to move elective credits between years. Students who take courses in MATH with extra credits will require fewer elective credits in later years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."
-              ]
+              "tree": {
+                "electives": true
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students are permitted to move elective credits between years. Students who take courses in MATH with extra credits will require fewer elective credits in later years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."]
             }
           ]
         },
@@ -818,33 +1202,52 @@
             {
               "text": "CPSC 210, 213, 221",
               "credits": 12,
-              "notes": [
-                "Students pursuing a Co-op option in Computer Science are advised to also take CPSC 210 in their first year or in the summer following their first year. Co-op students will then be in a position to take one or both of CPSC 221 and CPSC 213 in term 1 of second year before going out on a Co-op work term."
-              ]
+              "tree": {
+                "all_of": ["CPSC 210", "CPSC 213", "CPSC 221"]
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students pursuing a Co-op option in Computer Science are advised to also take CPSC 210 in their first year or in the summer following their first year. Co-op students will then be in a position to take one or both of CPSC 221 and CPSC 213 in term 1 of second year before going out on a Co-op work term."]
             },
             {
               "text": "MATH 200 or 226",
               "credits": 3,
+              "tree": {
+                "one_of": ["MATH 200", "MATH 226"]
+              },
+              "source": "rules",
+              "problems": [],
               "notes": []
             },
             {
               "text": "MATH 111 or 131 or 221 or 223",
               "credits": 3,
+              "tree": {
+                "one_of": ["MATH 111", "MATH 131", "MATH 221", "MATH 223"]
+              },
+              "source": "rules",
+              "problems": [],
               "notes": []
             },
             {
               "text": "STAT 200 or 201",
               "credits": 3,
-              "notes": [
-                "STAT 200 is recommended for students with an interest in further STAT courses. STAT 201 is recommended for students with an interest in the Minor in Data Science."
-              ]
+              "tree": {
+                "one_of": ["STAT 200", "STAT 201"]
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["STAT 200 is recommended for students with an interest in further STAT courses. STAT 201 is recommended for students with an interest in the Minor in Data Science."]
             },
             {
               "text": "Electives",
               "credits": 15,
-              "notes": [
-                "Students are permitted to move elective credits between years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."
-              ]
+              "tree": {
+                "electives": true
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students are permitted to move elective credits between years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."]
             }
           ]
         },
@@ -855,57 +1258,88 @@
             {
               "text": "CPSC 310, 311, 313, 319, 320",
               "credits": 17,
+              "tree": {
+                "all_of": ["CPSC 310", "CPSC 311", "CPSC 313", "CPSC 319", "CPSC 320"]
+              },
+              "source": "rules",
+              "problems": [],
               "notes": []
             },
             {
               "text": "CPSC 410, 411, 421",
               "credits": 9,
+              "tree": {
+                "all_of": ["CPSC 410", "CPSC 411", "CPSC 421"]
+              },
+              "source": "rules",
+              "problems": [],
               "notes": []
             },
             {
               "text": "One of CPSC 304, 317, 344",
               "credits": 3,
+              "tree": {
+                "one_of": ["CPSC 304", "CPSC 317", "CPSC 344"]
+              },
+              "source": "rules",
+              "problems": [],
               "notes": []
             },
             {
               "text": "One of CPSC 415, 416, 417, 444, CPEN 421, 432, EECE 443, 494",
               "credits": 3,
-              "notes": [
-                "Students are encouraged to consider other courses in this group as electives."
-              ]
+              "tree": {
+                "one_of": ["CPSC 415", "CPSC 416", "CPSC 417", "CPSC 444", "CPEN 421", "CPEN 432", "EECE 443", "EECE 494"]
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students are encouraged to consider other courses in this group as electives."]
             },
             {
               "text": "One more of CPSC 304, 317, 344, 415, 416, 417, 444, CPEN 421, 432, EECE 443, 494",
               "credits": 3,
-              "notes": [
-                "Students are encouraged to consider other courses in this group as electives."
-              ]
+              "tree": {
+                "one_of": ["CPSC 304", "CPSC 317", "CPSC 344", "CPSC 415", "CPSC 416", "CPSC 417", "CPSC 444", "CPEN 421", "CPEN 432", "EECE 443", "EECE 494"]
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students are encouraged to consider other courses in this group as electives."]
             },
             {
               "text": "CPSC 349",
               "credits": 0,
-              "notes": [
-                "Taken in third year."
-              ]
+              "tree": "CPSC 349",
+              "source": "rules",
+              "problems": [],
+              "notes": ["Taken in third year."]
             },
             {
               "text": "CPSC 449",
               "credits": 6,
-              "notes": [
-                "Taken in fourth year. It is recommended that students select a thesis topic in one of the following areas: software engineering, programming languages, or systems. Students who have completed a research intensive experience in a computer science field may be allowed to waive this requirement. Examples of research intensive experiences include full time summer internships in a research laboratory or Undergraduate Student Research Awards. If this requirement is waived, the student must take 6 additional credits of CPSC courses numbered 400 or higher."
-              ]
+              "tree": "CPSC 449",
+              "source": "rules",
+              "problems": [],
+              "notes": ["Taken in fourth year. It is recommended that students select a thesis topic in one of the following areas: software engineering, programming languages, or systems. Students who have completed a research intensive experience in a computer science field may be allowed to waive this requirement. Examples of research intensive experiences include full time summer internships in a research laboratory or Undergraduate Student Research Awards. If this requirement is waived, the student must take 6 additional credits of CPSC courses numbered 400 or higher."]
             },
             {
               "text": "MATH 302 or STAT 302",
               "credits": 3,
+              "tree": {
+                "one_of": ["MATH 302", "STAT 302"]
+              },
+              "source": "rules",
+              "problems": [],
               "notes": []
             },
             {
               "text": "Electives",
               "credits": 22,
-              "notes": [
-                "Students are permitted to move elective credits between years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."
-              ]
+              "tree": {
+                "electives": true
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students are permitted to move elective credits between years. Elective credits together with required courses must fulfill the Faculty of Science’s: a) Foundational Requirement; b) Laboratory Science Requirement; c) Science Breadth Requirement; d) Science and Arts Requirements; e) Upper-level Requirement; f) General Degree Requirements."]
             }
           ]
         }

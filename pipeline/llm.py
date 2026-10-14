@@ -64,14 +64,15 @@ Examples:
 """ + "\n".join(f"Text: {text}\nJSON: {json.dumps(tree)}" for text, tree in EXAMPLES)
 
 
-def ask_gemini(text: str, client=None, model: str = MODELS[0]):
+def ask_gemini(text: str, client=None, model: str = MODELS[0], instructions: str = INSTRUCTIONS):
     # `client` lets tests pass in a fake, so they never call the real API.
+    # `instructions` defaults to the prereq prompt; program requirements pass their own.
     client = client or genai.Client()
     response = client.models.generate_content(
         model=model,
         contents=text,
         config=types.GenerateContentConfig(
-            system_instruction=INSTRUCTIONS,
+            system_instruction=instructions,
             response_mime_type="application/json",
         ),
     )

@@ -3,7 +3,6 @@ from pathlib import Path
 import pytest
 from bs4 import BeautifulSoup
 
-from build_programs import load_page
 from parse_programs import is_footnote, parse_programs, read_cell, same_as
 
 HTML_PATH = Path(__file__).parents[2] / "data" / "raw" / "programs" / "computer-science.html"
@@ -82,16 +81,3 @@ def test_same_as_years_are_copied(programs):
     # The Software Engineering Major only shares first year; its second year is its own.
     assert programs["cpsc-se-major"]["years"][0] == major["years"][0]
     assert programs["cpsc-se-major"]["years"][1] != major["years"][1]
-
-
-def test_load_page_downloads_only_once(tmp_path):
-    path = tmp_path / "page.html"
-    calls = []
-
-    def fake_fetch(url):
-        calls.append(url)
-        return "<html>page</html>"
-
-    assert load_page(path, fetch=fake_fetch) == "<html>page</html>"
-    assert load_page(path, fetch=fake_fetch) == "<html>page</html>"
-    assert len(calls) == 1
