@@ -17,10 +17,14 @@ Then open http://localhost:3000. `npm run build` writes the finished static site
 ## Where things are
 
 - `src/app/page.tsx` runs at build time: it reads `../data/courses/cpsc.json`, builds and lays out the graph, and renders the header.
-- `src/components/` holds the React pieces: `CourseGraph` (the graph, with React Flow), `CourseDetails` (the side panel), `SelectionBar` and `Legend`.
+- `src/components/` holds the React pieces: `CourseGraph` (the graph, with React Flow), `CourseDetails` (the side panel, including "Your path here"), `ProgressBar` (marking courses and the summary), `OutsideCourses` (the list of MATH, STAT and other courses), `Status` (how each status looks, tick boxes), `SelectionBar` and `Legend`.
 - `src/lib/` holds the logic, with no React in it, and a test file next to each module:
   - `graph.ts`: course data to nodes and edges; what a course needs and unlocks.
   - `sections.ts`: which courses go in the co-op and "other" sections.
   - `layout.ts`: rows in year order, positions (with dagre) and the year bands.
   - `highlight.ts`: how each course and line is drawn when one is selected.
   - `details.ts`: tidies descriptions and prerequisite trees for the side panel.
+  - `progress.ts`: whether a requirement is met for the courses done, and each course's status.
+  - `doneCourses.ts`: saves the courses you've done in the browser (`useDoneCourses`).
+  - `outside.ts`: the courses prerequisites mention that aren't on the map, grouped by subject.
+  - `path.ts`: the shortest path to a course, term by term.

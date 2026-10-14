@@ -35,9 +35,10 @@ export default function Home() {
         <div>
           <h1 className="text-lg font-semibold tracking-tight sm:text-xl">UBC Course Map</h1>
           <p className="text-sm text-header-muted">
-            {/* The first sentence is hidden on phones to save space. */}
-            <span className="hidden sm:inline">Computer Science (CPSC) prerequisites, first year to fourth. </span>
-            Click a course to see what it needs and what it unlocks.
+            {/* Phones only get the middle part, to save space. */}
+            <span className="hidden sm:inline">Computer Science (CPSC) prerequisites. </span>
+            Click a course to see what it needs and unlocks
+            <span className="hidden sm:inline">, or mark the ones you&apos;ve taken</span>.
           </p>
         </div>
         <div className="space-y-0.5 sm:space-y-1 sm:text-right">
