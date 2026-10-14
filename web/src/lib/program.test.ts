@@ -1,6 +1,14 @@
 import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
-import { creditsLookup, programCourses, programProgress, programSummary } from "./program";
+import {
+  creditsLookup,
+  programCodes,
+  programCourses,
+  programGroups,
+  programProgress,
+  programSummary,
+  shortName,
+} from "./program";
 import type { RowProgress } from "./program";
 import type { CourseFile, Program, ProgramFile } from "./types";
 
@@ -105,5 +113,47 @@ describe("programSummary", () => {
     expect(summary.rowsDone).toBe(2);
     expect(summary.rows).toBe(13); // 17 rows minus 3 electives rows and the communication row
     expect(summary.spareCredits).toBe(3); // CPSC 100 isn't part of the major
+  });
+});
+
+describe("programCodes", () => {
+  it("lists every course the programs name, once each, sorted", () => {
+    const codes = programCodes(programs.programs);
+    expect(codes).toEqual([...new Set(codes)].sort());
+    expect(codes).toContain("SCIE 113");
+    expect(codes).toContain("AI 422");
+    expect(codes).toContain("EECE 494");
+  });
+});
+
+describe("programGroups", () => {
+  it("puts each Major next to its Honours, with plan codes where the calendar has them", () => {
+    const groups = programGroups(programs.programs);
+    expect(groups.map((g) => g.title)).toEqual([
+      "Computer Science",
+      "Computer Science, Artificial Intelligence option",
+      "Computer Science and Software Engineering",
+    ]);
+    expect(groups[0].options).toEqual([
+      { id: "cpsc-major", kind: "Major", plan: "0376", credits: 120 },
+      { id: "cpsc-honours", kind: "Honours", plan: "0154", credits: 132 },
+    ]);
+    expect(groups[1].options.map((o) => [o.kind, o.plan])).toEqual([
+      ["Major", null],
+      ["Honours", null],
+    ]);
+  });
+});
+
+describe("shortName", () => {
+  it("shortens the names for the button over the map", () => {
+    expect(programs.programs.map(shortName)).toEqual([
+      "CS Major",
+      "CS Honours",
+      "CS Major, AI option",
+      "CS Honours, AI option",
+      "CS and SE Major",
+      "CS and SE Honours",
+    ]);
   });
 });

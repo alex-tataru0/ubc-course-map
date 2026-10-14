@@ -22,6 +22,14 @@ describe("outsideCourses", () => {
     expect(outside.some((code) => code.includes("_O"))).toBe(false);
   });
 
+  it("adds other codes it's given, unless they're on the map", () => {
+    const more = outsideCourses(undergradOnly(data.courses), ["SCIE 113", "MATH 221", "CPSC 310"]);
+    expect(more).toHaveLength(54);
+    expect(more).toContain("SCIE 113");
+    expect(more).not.toContain("CPSC 310");
+    expect(more).toEqual([...more].sort());
+  });
+
   it("sorts them by code", () => {
     expect(outside).toEqual([...outside].sort());
     expect(outside.slice(0, 2)).toEqual(["AI 240", "APSC 160"]);

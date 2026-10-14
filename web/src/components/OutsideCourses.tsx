@@ -8,9 +8,9 @@ interface OutsideCoursesProps {
   onClose: () => void;
 }
 
-// The list of courses that CPSC prerequisites mention but the map doesn't show (MATH, STAT, …),
-// opened from quick mode. It sits where the course details panel goes: beside the graph on
-// wide screens, covering it on phones.
+// The list of courses that CPSC prerequisites or the programs mention but the map doesn't
+// show (MATH, STAT, SCIE 113, …), opened from quick mode. It sits where the course details
+// panel goes: beside the graph on wide screens, covering it on phones.
 export default function OutsideCourses({ groups, done, onToggle, onClose }: OutsideCoursesProps) {
   const ticked = groups.flatMap((g) => g.codes).filter((code) => done.has(code)).length;
   return (
@@ -30,7 +30,7 @@ export default function OutsideCourses({ groups, done, onToggle, onClose }: Outs
         </button>
       </div>
       <p className="mt-1 text-ink-muted">
-        CPSC prerequisites also ask for these. Tick the ones you&apos;ve finished ({ticked} ticked).
+        CPSC prerequisites and programs also ask for these. Tick the ones you&apos;ve finished ({ticked} ticked).
       </p>
       {groups.map((group) => (
         <section key={group.title} className="mt-5">

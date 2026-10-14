@@ -5,9 +5,10 @@ import type { Course } from "./types";
 // tick them as done even though they aren't on the map. Mostly other subjects (MATH 221 for
 // CPSC 340), plus CPSC 261, which is no longer offered but still counts for CPSC 404 and 418.
 // Okanagan codes (e.g. MATH_O 220) are left out, since the site is for UBC Vancouver.
-export function outsideCourses(courses: Course[]): string[] {
+// `also` adds more codes, e.g. the courses the programs name (SCIE 113, AI 240, …).
+export function outsideCourses(courses: Course[], also: string[] = []): string[] {
   const own = new Set(courses.map((c) => c.code));
-  const found = new Set<string>();
+  const found = new Set(also.filter((code) => !own.has(code)));
   for (const course of courses) {
     for (const requisite of [course.prereq, course.coreq]) {
       if (!requisite) continue;

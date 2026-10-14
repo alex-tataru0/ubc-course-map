@@ -28,6 +28,7 @@ interface CourseDetailsProps {
   calendarUrl: string;
   onSelect: (code: string) => void;
   onClose: () => void;
+  backTo?: { label: string; onBack: () => void }; // a link back to the panel underneath
 }
 
 // The panel that opens when a course is clicked: beside the graph on wide screens,
@@ -48,6 +49,7 @@ export default function CourseDetails({
   calendarUrl,
   onSelect,
   onClose,
+  backTo,
 }: CourseDetailsProps) {
   const { summary, hours } = splitDescription(course.description);
   const count = (n: number) => `${n} ${n === 1 ? "course" : "courses"}`;
@@ -68,6 +70,16 @@ export default function CourseDetails({
       ref={panelRef}
       className="absolute inset-0 z-10 overflow-y-auto bg-surface p-5 text-sm md:static md:w-96 md:shrink-0 md:border-l md:border-line"
     >
+      {backTo && (
+        <button
+          type="button"
+          onClick={backTo.onBack}
+          className="mb-3 text-xs font-medium text-ink-muted underline-offset-2 hover:text-ink hover:underline"
+        >
+          <span aria-hidden>← </span>
+          Back to {backTo.label}
+        </button>
+      )}
       <div className="flex items-start justify-between gap-3">
         <div>
           <h2 className="text-lg font-semibold">

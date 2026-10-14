@@ -25,11 +25,24 @@ import type { Band, Label, Position as Point } from "@/lib/layout";
 import { useDoneCourses } from "@/lib/doneCourses";
 import { groupBySubject, outsideCourses } from "@/lib/outside";
 import { planPath } from "@/lib/path";
+import {
+  creditsLookup,
+  programCodes,
+  programCourses,
+  programProgress,
+  programSummary,
+  shortName,
+} from "@/lib/program";
+import type { ProgramKind } from "@/lib/program";
+import { useProgramChoice } from "@/lib/programChoice";
 import { countStatuses, courseProgress } from "@/lib/progress";
 import type { CourseStatus } from "@/lib/progress";
-import type { Course, CourseGrades } from "@/lib/types";
+import type { Course, CourseGrades, Program } from "@/lib/types";
 import CourseDetails from "./CourseDetails";
 import OutsideCourses from "./OutsideCourses";
+import ProgramButton from "./ProgramButton";
+import ProgramPanel from "./ProgramPanel";
+import ProgramStripe from "./ProgramStripe";
 import ProgressBar from "./ProgressBar";
 import SelectionBar from "./SelectionBar";
 import { FADED, PLAIN_BOX, STATUS_BOX, STATUS_TEXT, TickBox } from "./Status";
@@ -47,6 +60,8 @@ interface CourseGraphProps {
   grades: Record<string, CourseGrades>; // from UBCGrades, for the courses that have any
   gradeSessions: string[]; // the terms the grade data covers, oldest first
   calendarUrl: string;
+  programs: Program[]; // the programs you can pick, e.g. the Computer Science Major
+  programUrl: string; // the calendar page they come from
 }
 
 type CourseData = {
@@ -57,6 +72,7 @@ type CourseData = {
   status: CourseStatus | null; // null when no courses are marked done yet
   marking: boolean; // quick mode: show a tick box on every course
   pathTerm: number | null; // its term on the path shown on the map (1, 2, …), if any
+  program: ProgramKind | null; // how the picked program names it, if it does
 };
 type CourseNodeType = Node<CourseData, "course">;
 type LabelNodeType = Node<{ text: string }, "label">;
@@ -76,6 +92,7 @@ const ROLE_BORDERS: Record<Role, string | null> = {
 // One course box: the code, the title cut off with "…" if it's too long, and a third line:
 // the course's status once some courses are marked done, otherwise "No requirements"
 // for courses anyone can take. While marking courses, a tick box sits in the corner.
+// Courses in the picked program get a stripe down the left edge.
 // The handles are where edges attach. They're invisible because nobody draws new edges here.
 function CourseNode({ data }: NodeProps<CourseNodeType>) {
   const { role, status } = data;
@@ -89,8 +106,14 @@ function CourseNode({ data }: NodeProps<CourseNodeType>) {
   else if (role === "normal" && status && FADED.has(status)) opacity = "opacity-50";
   return (
     <div
-      className={`relative flex h-full w-full cursor-pointer flex-col justify-center rounded-lg px-2.5 shadow-sm transition-opacity ${box.fill} ${border} ${opacity}`}
+      className={`relative flex h-full w-full cursor-pointer flex-col justify-center rounded-lg pr-2.5 shadow-sm transition-opacity ${
+        data.program ? "pl-3.5" : "pl-2.5"
+      } ${box.fill} ${border} ${opacity}`}
     >
+      {data.program && (
+        // Inside the border, so the highlight and status borders still go all the way round.
+        <ProgramStripe kind={data.program} className="absolute inset-y-0 left-0 w-[7px] rounded-l-[7px]" />
+      )}
       <Handle type="target" position={Position.Top} isConnectable={false} className="opacity-0" />
       <div className="text-[15px] font-semibold leading-tight">{data.code}</div>
       <div
@@ -155,10 +178,9 @@ const MARKING_HINT = "Press Enter or Space to mark or unmark this course as done
 // Below this zoom the course codes get hard to read, so narrow screens (phones) start
 // on the first two years instead of the whole width of the graph.
 const MIN_START_ZOOM = 0.5;
-// Room left above the first year at the start, so the bar over the top-left of the graph
-// doesn't cover the "100-level" label. On phones the bar wraps onto two lines.
-const TOP_ROOM = 72;
-const TOP_ROOM_PHONE = 104;
+// Space left between the bars over the top-left of the graph and the first year at the start,
+// so the bars don't cover the "100-level" label.
+const TOP_GAP = 12;
 
 function hintConfig(hint: string) {
   return { "node.a11yDescription.default": hint, "node.a11yDescription.keyboardDisabled": hint };
@@ -206,6 +228,8 @@ export default function CourseGraph({
   grades,
   gradeSessions,
   calendarUrl,
+  programs,
+  programUrl,
 }: CourseGraphProps) {
   const colorMode = useSystemColorMode();
   // The highlighted course, and whether its side panel is open. Closing the panel keeps
@@ -232,8 +256,9 @@ export default function CourseGraph({
   const counts = useMemo(() => countStatuses(progress), [progress]);
   const showProgress = done.size > 0;
 
-  // Courses the prerequisites mention that aren't on the map, which can be ticked too.
-  const outside = useMemo(() => outsideCourses(details), [details]);
+  // Courses the prerequisites or the programs mention that aren't on the map, which can be
+  // ticked too.
+  const outside = useMemo(() => outsideCourses(details, programCodes(programs)), [details, programs]);
   const outsideSet = useMemo(() => new Set(outside), [outside]);
   const outsideGroups = useMemo(() => groupBySubject(outside), [outside]);
   const outsideTicked = outside.filter((code) => done.has(code)).length;
@@ -263,6 +288,20 @@ export default function CourseGraph({
     return terms;
   }, [pathOnMap, path]);
 
+  // The picked program (saved in the browser) and its panel, which opens in the same place
+  // as the course details. The course details cover it while they're open, with a link
+  // back to it.
+  const { programId, pickProgram } = useProgramChoice();
+  const program = programs.find((p) => p.id === programId) ?? null; // an old, unknown id: none
+  const [programOpen, setProgramOpen] = useState(false);
+  const creditsFor = useMemo(() => creditsLookup(details), [details]);
+  const programRows = useMemo(
+    () => (program ? programProgress(program, done, creditsFor) : null),
+    [program, done, creditsFor],
+  );
+  const programSummaryNow = programRows ? programSummary(programRows, done, creditsFor) : null;
+  const programKinds = useMemo(() => (program ? programCourses(program) : null), [program]);
+
   // The view to start with: the whole width of the graph with the year labels on the
   // left, starting at the top of first year, below the bar. On screens too narrow to show
   // that at a readable size, it centres on the 100- and 200-level courses at MIN_START_ZOOM.
@@ -275,9 +314,11 @@ export default function CourseGraph({
     let left = -BAND_GUTTER; // the year labels
     let right = width + 30; // the right end of the bands
     const fitZoom = (box.width - 2 * margin) / (right - left);
-    let room = TOP_ROOM;
+    // The first year starts below the bars, however tall they are: they wrap onto more lines
+    // on phones, and grow once courses are marked or a program is picked.
+    const bars = canvasRef.current?.querySelector(".react-flow__panel.top.left");
+    const room = (bars ? bars.getBoundingClientRect().bottom - box.top : 60) + TOP_GAP;
     if (fitZoom < MIN_START_ZOOM) {
-      room = TOP_ROOM_PHONE;
       const endOfYear2 = bands[Math.min(1, bands.length - 1)].bottom;
       const start = courses.filter((c) => c.y < endOfYear2);
       left = Math.min(...start.map((c) => c.x));
@@ -352,8 +393,14 @@ export default function CourseGraph({
       let status: CourseStatus | null = null;
       if (marking) status = done.has(c.id) ? "done" : null;
       else if (showProgress) status = progress.get(c.id)?.status ?? null;
-      // What screen readers say after the course name, e.g. "Can take" or "Not marked".
-      const spoken = marking ? (status ? "Marked as done" : "Not marked") : status && STATUS_TEXT[status];
+      // What screen readers say after the course name, e.g. "Can take" or "Not marked",
+      // and how the picked program names it.
+      const kind = programKinds?.get(c.id) ?? null;
+      const parts = [marking ? (status ? "Marked as done" : "Not marked") : status && STATUS_TEXT[status]];
+      if (kind && program) {
+        parts.push(`${kind === "required" ? "Required for" : "One of the choices for"} ${program.name}`);
+      }
+      const spoken = parts.filter(Boolean).join(". ");
       result.push({
         id: c.id,
         type: "course",
@@ -370,6 +417,7 @@ export default function CourseGraph({
           status,
           marking,
           pathTerm: pathTerms.get(c.id) ?? null,
+          program: kind,
         },
       });
     }
@@ -384,7 +432,10 @@ export default function CourseGraph({
       });
     });
     return result;
-  }, [bands, width, courses, labels, highlight, progress, done, marking, showProgress, pathTerms]);
+  }, [
+    bands, width, courses, labels, highlight, progress, done, marking, showProgress, pathTerms,
+    programKinds, program,
+  ]);
 
   const flowEdges = useMemo(
     (): Edge[] =>
@@ -455,7 +506,34 @@ export default function CourseGraph({
     setOutsideOpen(false);
   };
 
+  // A course picked in the program panel. While marking, it's ticked instead, like on the map.
+  const openCourse = (code: string) => {
+    if (marking) {
+      toggle(code);
+    } else {
+      setSelected(code);
+      setPanelOpen(true);
+    }
+  };
+
   const selectedCourse = selected === null ? undefined : records.get(selected);
+  // The place beside the graph shows one panel at a time: the list of other subjects while
+  // marking, then the course details, then the program.
+  const showOutside = marking && outsideOpen;
+  const showDetails = !showOutside && selectedCourse !== undefined && highlight !== null && panelOpen;
+  const showProgram = programOpen && !showOutside && !showDetails;
+
+  // The button over the map opens the program panel, bringing it in front of the others,
+  // or closes it if it's already showing.
+  const toggleProgram = () => {
+    if (showProgram) {
+      setProgramOpen(false);
+    } else {
+      setProgramOpen(true);
+      setPanelOpen(false);
+      setOutsideOpen(false);
+    }
+  };
 
   return (
     // On wide screens the side panel sits beside the graph. On phones it covers the graph.
@@ -484,17 +562,27 @@ export default function CourseGraph({
         >
           <Controls showInteractive={false} />
           <Panel position="top-left" className="flex flex-col items-start gap-2">
-            <ProgressBar
-              counts={counts}
-              marked={done.size}
-              outsideTicked={outsideTicked}
-              marking={marking}
-              outsideOpen={outsideOpen}
-              onStart={startMarking}
-              onFinish={finishMarking}
-              onClear={clear}
-              onToggleOutside={() => setOutsideOpen(!outsideOpen)}
-            />
+            <div className="flex flex-wrap items-start gap-2">
+              <ProgressBar
+                counts={counts}
+                marked={done.size}
+                outsideTicked={outsideTicked}
+                marking={marking}
+                outsideOpen={outsideOpen}
+                onStart={startMarking}
+                onFinish={finishMarking}
+                onClear={clear}
+                onToggleOutside={() => setOutsideOpen(!outsideOpen)}
+              />
+              <ProgramButton
+                program={program}
+                rowsDone={programSummaryNow?.rowsDone ?? 0}
+                rows={programSummaryNow?.rows ?? 0}
+                open={showProgram}
+                large={done.size === 0 && !marking}
+                onClick={toggleProgram}
+              />
+            </div>
             {highlight && !panelOpen && (
               <SelectionBar
                 highlight={highlight}
@@ -505,7 +593,7 @@ export default function CourseGraph({
           </Panel>
         </ReactFlow>
       </div>
-      {selectedCourse && highlight && panelOpen && (
+      {showDetails && (
         <CourseDetails
           course={selectedCourse}
           highlight={highlight}
@@ -522,14 +610,35 @@ export default function CourseGraph({
           calendarUrl={calendarUrl}
           onSelect={setSelected}
           onClose={() => setPanelOpen(false)}
+          // Back to the program panel underneath, clearing the highlight.
+          backTo={
+            programOpen
+              ? { label: program ? shortName(program) : "Pick a program", onBack: () => setSelected(null) }
+              : undefined
+          }
         />
       )}
-      {marking && outsideOpen && (
+      {showOutside && (
         <OutsideCourses
           groups={outsideGroups}
           done={done}
           onToggle={toggle}
           onClose={() => setOutsideOpen(false)}
+        />
+      )}
+      {showProgram && (
+        <ProgramPanel
+          programs={programs}
+          program={program}
+          progress={programRows}
+          creditsFor={creditsFor}
+          calendarUrl={programUrl}
+          onPick={pickProgram}
+          onClose={() => setProgramOpen(false)}
+          onMap={onMap}
+          onOpen={openCourse}
+          done={done}
+          onToggle={toggle}
         />
       )}
     </div>

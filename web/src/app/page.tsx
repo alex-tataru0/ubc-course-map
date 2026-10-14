@@ -7,7 +7,7 @@ import { gradesFor } from "@/lib/grades";
 import { buildGraph, toGraphNode, undergradOnly } from "@/lib/graph";
 import { layoutGraph } from "@/lib/layout";
 import { splitCourses } from "@/lib/sections";
-import type { CourseFile, GradesFile } from "@/lib/types";
+import type { CourseFile, GradesFile, ProgramFile } from "@/lib/types";
 
 // This is a server component. With the static export it runs once, during `npm run build`,
 // so the finished site is plain HTML and JSON and never calls an API.
@@ -24,6 +24,10 @@ function loadGrades(subject: string): GradesFile {
   return loadJson("grades", `${subject}.json`);
 }
 
+function loadPrograms(subject: string): ProgramFile {
+  return loadJson("programs", `${subject}.json`);
+}
+
 export default function Home() {
   const data = loadCourses("cpsc");
   const { main, coop, other } = splitCourses(undergradOnly(data.courses));
@@ -38,6 +42,7 @@ export default function Home() {
   const courses: PlacedCourse[] = nodes.map((n) => ({ ...n, ...positions.get(n.id)! }));
   const details = [...main, ...coop, ...other];
   const grades = loadGrades("cpsc");
+  const programs = loadPrograms("cpsc");
 
   return (
     <main className="flex h-screen flex-col">
@@ -88,6 +93,8 @@ export default function Home() {
           grades={gradesFor(grades, details.map((c) => c.code))}
           gradeSessions={grades.sessions}
           calendarUrl={data.source}
+          programs={programs.programs}
+          programUrl={programs.source}
         />
       </div>
     </main>

@@ -158,10 +158,20 @@ function excludedCourses(notes: string[]): Set<string> {
   return new Set(codes);
 }
 
+// Every course any of these programs names, sorted, e.g. for the list of courses not on the map.
+export function programCodes(programs: Program[]): string[] {
+  const rows = programs.flatMap((p) => p.years.flatMap((y) => y.requirements));
+  const codes = rows.flatMap((r) => treeCourses(r.tree));
+  return [...new Set(codes)].sort();
+}
+
+// How a program names a course: always required, or one of a few choices.
+export type ProgramKind = "required" | "choice";
+
 // For the map: every course a program names, and whether it's always required or one of a
 // few choices. A course that's required anywhere counts as required.
-export function programCourses(program: Program): Map<string, "required" | "choice"> {
-  const kinds = new Map<string, "required" | "choice">();
+export function programCourses(program: Program): Map<string, ProgramKind> {
+  const kinds = new Map<string, ProgramKind>();
   for (const year of program.years) {
     for (const { tree } of year.requirements) {
       const required = typeof tree === "string" || "all_of" in tree;
@@ -188,4 +198,47 @@ export function programSummary(
     rows: rows.length,
     spareCredits: spare.reduce((sum, code) => sum + creditsFor(code), 0),
   };
+}
+
+// The programs as the picker shows them: one group per stream (e.g. "Computer Science and
+// Software Engineering"), with its Major and Honours side by side, in the calendar's order.
+export interface ProgramOption {
+  id: string;
+  kind: string; // "Major" or "Honours"
+  plan: string | null; // the calendar's plan code, e.g. "0376"; the AI option has none
+  credits: number;
+}
+
+export interface ProgramGroup {
+  title: string;
+  options: ProgramOption[];
+}
+
+const KIND = / (Major|Honours)\b/;
+
+export function programGroups(programs: Program[]): ProgramGroup[] {
+  const groups: ProgramGroup[] = [];
+  for (const program of programs) {
+    const title = program.name.replace(KIND, "");
+    let group = groups.find((g) => g.title === title);
+    if (!group) {
+      group = { title, options: [] };
+      groups.push(group);
+    }
+    group.options.push({
+      id: program.id,
+      kind: program.name.match(KIND)?.[1] ?? program.name,
+      plan: program.heading.match(/\((\d{4})\)/)?.[1] ?? null,
+      credits: program.total_credits,
+    });
+  }
+  return groups;
+}
+
+// A name short enough for the button over the map, e.g. "CS and SE Honours".
+export function shortName(program: Program): string {
+  return program.name
+    .replace("Computer Science", "CS")
+    .replace("Software Engineering", "SE")
+    .replace("Artificial Intelligence", "AI");
 }

@@ -20,6 +20,10 @@
   --role-selected: #2a78d6; /* blue */
   --role-needs: #eb6834; /* orange */
   --role-unlocks: #1baf7a; /* aqua */
+
+  /* The stripe on courses in the picked program. Checked with the same validator against
+     the three colours above, and it always comes with a pattern (solid or striped). */
+  --program: #c4428a; /* berry */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -39,6 +43,7 @@
     --role-selected: #3987e5;
     --role-needs: #d95926;
     --role-unlocks: #199e70;
+    --program: #b84a8c;
   }
 }
 
@@ -60,6 +65,7 @@
   --color-role-selected: var(--role-selected);
   --color-role-needs: var(--role-needs);
   --color-role-unlocks: var(--role-unlocks);
+  --color-program: var(--program);
 }
 
 body {
