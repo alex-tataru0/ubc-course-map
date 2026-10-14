@@ -18,12 +18,13 @@ import "@xyflow/react/dist/style.css";
 import { useEffect, useMemo, useRef, useState, useSyncExternalStore } from "react";
 import type { KeyboardEvent as ReactKeyboardEvent } from "react";
 import type { GraphEdge, GraphNode } from "@/lib/graph";
-import { edgeRole, highlightFor, nodeRole } from "@/lib/highlight";
+import { edgeRole, highlightFor, nodeRole, pathHighlight } from "@/lib/highlight";
 import type { EdgeRole, Role } from "@/lib/highlight";
 import { BAND_GUTTER, NODE_HEIGHT, NODE_WIDTH } from "@/lib/layout";
 import type { Band, Label, Position as Point } from "@/lib/layout";
 import { useDoneCourses } from "@/lib/doneCourses";
 import { groupBySubject, outsideCourses } from "@/lib/outside";
+import { planPath } from "@/lib/path";
 import { countStatuses, courseProgress } from "@/lib/progress";
 import type { CourseStatus } from "@/lib/progress";
 import type { Course } from "@/lib/types";
@@ -53,6 +54,7 @@ type CourseData = {
   role: Role;
   status: CourseStatus | null; // null when no courses are marked done yet
   marking: boolean; // quick mode: show a tick box on every course
+  pathTerm: number | null; // its term on the path shown on the map (1, 2, …), if any
 };
 type CourseNodeType = Node<CourseData, "course">;
 type LabelNodeType = Node<{ text: string }, "label">;
@@ -77,8 +79,12 @@ function CourseNode({ data }: NodeProps<CourseNodeType>) {
   const { role, status } = data;
   const box = status ? STATUS_BOX[status] : PLAIN_BOX;
   const border = ROLE_BORDERS[role] ?? box.border;
-  // Dimmed by a click wins over faded by status, so the lit-up path stays clear.
-  const opacity = role === "dimmed" ? "opacity-25" : status && FADED.has(status) ? "opacity-50" : "";
+  // While a course is clicked, its highlight decides what stands out: lit-up courses stay
+  // solid even if you can't take them yet, and the rest dim. Otherwise statuses fade the
+  // courses you can't take yet.
+  let opacity = "";
+  if (role === "dimmed") opacity = "opacity-25";
+  else if (role === "normal" && status && FADED.has(status)) opacity = "opacity-50";
   return (
     <div
       className={`relative flex h-full w-full cursor-pointer flex-col justify-center rounded-lg px-2.5 shadow-sm transition-opacity ${box.fill} ${border} ${opacity}`}
@@ -102,6 +108,17 @@ function CourseNode({ data }: NodeProps<CourseNodeType>) {
         )
       )}
       {data.marking && <TickBox checked={status === "done"} className="absolute right-1.5 top-1.5" />}
+      {data.pathTerm !== null && (
+        // The term number for a course on the path, on the box's top-right corner.
+        <span
+          className={`absolute -right-2 -top-2 flex h-5 w-5 items-center justify-center rounded-full text-[11px] font-bold text-white ${
+            role === "selected" ? "bg-role-selected" : "bg-role-needs"
+          }`}
+          aria-hidden
+        >
+          {data.pathTerm}
+        </span>
+      )}
       <Handle type="source" position={Position.Bottom} isConnectable={false} className="opacity-0" />
     </div>
   );
@@ -217,10 +234,30 @@ export default function CourseGraph({
   const outsideGroups = useMemo(() => groupBySubject(outside), [outside]);
   const outsideTicked = outside.filter((code) => done.has(code)).length;
 
-  const highlight = useMemo(
-    () => (selected === null ? null : highlightFor(selected, edges)),
-    [selected, edges],
+  // The shortest path to the selected course from the courses done, shown in the side panel.
+  // With "Show this path on the map" on, the map lights up just that path, with term numbers,
+  // instead of every course the selected one could need. The switch stays as it is while
+  // you click around.
+  const [showPath, setShowPath] = useState(false);
+  const path = useMemo(
+    () => (selected === null ? null : planPath(selected, details, done)),
+    [selected, details, done],
   );
+  const pathOnMap = showPath && path !== null && path.terms.length > 0;
+
+  const highlight = useMemo(() => {
+    if (selected === null) return null;
+    if (!pathOnMap) return highlightFor(selected, edges);
+    const toTake = new Set(path.terms.flat().filter((code) => code !== selected));
+    return pathHighlight(selected, toTake, edges);
+  }, [selected, edges, pathOnMap, path]);
+
+  // Each path course's term number (1, 2, …) for the badges on the map.
+  const pathTerms = useMemo(() => {
+    const terms = new Map<string, number>();
+    if (pathOnMap) path.terms.forEach((codes, i) => codes.forEach((code) => terms.set(code, i + 1)));
+    return terms;
+  }, [pathOnMap, path]);
 
   // The view to start with: the whole width of the graph with the year labels on the
   // left, starting at the top of first year, below the bar. On screens too narrow to show
@@ -328,6 +365,7 @@ export default function CourseGraph({
           role: nodeRole(highlight, c.id),
           status,
           marking,
+          pathTerm: pathTerms.get(c.id) ?? null,
         },
       });
     }
@@ -342,7 +380,7 @@ export default function CourseGraph({
       });
     });
     return result;
-  }, [bands, width, courses, labels, highlight, progress, done, marking, showProgress]);
+  }, [bands, width, courses, labels, highlight, progress, done, marking, showProgress, pathTerms]);
 
   const flowEdges = useMemo(
     (): Edge[] =>
@@ -462,6 +500,9 @@ export default function CourseGraph({
           course={selectedCourse}
           highlight={highlight}
           progress={showProgress ? progress.get(selectedCourse.code) : undefined}
+          path={path}
+          showPath={showPath}
+          onShowPath={setShowPath}
           done={done}
           onToggle={toggle}
           onMap={onMap}

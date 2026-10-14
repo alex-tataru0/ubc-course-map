@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import { displayCode, simplifyTree, splitDescription } from "@/lib/details";
 import type { Highlight } from "@/lib/highlight";
+import type { AlsoNeeded, CoursePath } from "@/lib/path";
 import { requirementStatus } from "@/lib/progress";
 import type { CourseProgress } from "@/lib/progress";
 import type { Course, ReqNode, Requisite } from "@/lib/types";
@@ -11,6 +12,9 @@ interface CourseDetailsProps {
   course: Course;
   highlight: Highlight; // what the course needs and unlocks on the map
   progress: CourseProgress | undefined; // undefined until some course is marked done
+  path: CoursePath | null; // the shortest path here from the courses done
+  showPath: boolean; // the map shows just that path
+  onShowPath: (on: boolean) => void;
   done: ReadonlySet<string>; // the courses marked done
   onToggle: (code: string) => void; // mark a course done, or unmark it
   onMap: Set<string>; // courses drawn on the page, which can be clicked
@@ -26,6 +30,9 @@ export default function CourseDetails({
   course,
   highlight,
   progress,
+  path,
+  showPath,
+  onShowPath,
   done,
   onToggle,
   onMap,
@@ -39,6 +46,7 @@ export default function CourseDetails({
   const { needs, unlocks } = highlight;
   const links = { onMap, onSelect, done, outside, onToggle };
   const isDone = done.has(course.code);
+  const hasPath = path !== null && path.terms.length > 0; // false once the course is done
 
   return (
     <aside className="absolute inset-0 z-10 overflow-y-auto bg-surface p-5 text-sm md:static md:w-96 md:shrink-0 md:border-l md:border-line">
@@ -76,19 +84,40 @@ export default function CourseDetails({
       </button>
       {progress && <StatusNote course={course} progress={progress} done={done} />}
 
-      {/* The key for the colours on the map, so they never carry meaning on their own. */}
+      {/* The key for the colours on the map, so they never carry meaning on their own,
+          and the switch between every course it could need and just your path. */}
       <div className="mt-3 space-y-1 rounded-lg border border-line p-3">
         <p>
           <Swatch className="border-role-needs" />
-          {needs.size === 0 ? "No prerequisites in CPSC" : `Needs ${count(needs.size)} in CPSC`}
+          {highlight.kind === "path"
+            ? needs.size === 0
+              ? "Your path: nothing to take first"
+              : `Your path: ${count(needs.size)} to take first`
+            : needs.size === 0
+              ? "No prerequisites in CPSC"
+              : `Needs ${count(needs.size)} in CPSC`}
         </p>
         <p>
           <Swatch className="border-role-unlocks" />
           {unlocks.size === 0 ? "Doesn't lead to other CPSC courses" : `Unlocks ${count(unlocks.size)}`}
         </p>
+        {hasPath && (
+          <label className="flex cursor-pointer items-center gap-2 pt-1">
+            <input
+              type="checkbox"
+              role="switch"
+              checked={showPath}
+              onChange={(event) => onShowPath(event.target.checked)}
+              className="h-4 w-4 accent-role-needs"
+            />
+            Show only my path on the map
+          </label>
+        )}
       </div>
 
       <p className="mt-4 leading-relaxed">{summary}</p>
+
+      {hasPath && <PathView course={course} path={path} {...links} />}
 
       <Section title="Prerequisites">
         {course.prereq ? <RequisiteView requisite={course.prereq} {...links} /> : <p>None</p>}
@@ -170,6 +199,63 @@ function StatusNote({
         </p>
       )}
     </div>
+  );
+}
+
+// The shortest path here from the courses done (see lib/path.ts): the CPSC courses term by
+// term, then anything else it needs. Courses are links or tick boxes, like in the
+// requirement lists.
+function PathView({ course, path, ...links }: { course: Course; path: CoursePath } & Links) {
+  const before = path.terms.flat().length - 1; // courses to take before this one
+  return (
+    <Section title="Your path here">
+      <p className="text-ink-muted">
+        {before === 0
+          ? "No other CPSC courses needed first."
+          : `${before} CPSC ${before === 1 ? "course" : "courses"} first. Courses in the same term can be taken together.`}
+      </p>
+      <ol className="mt-2 space-y-1.5">
+        {path.terms.map((codes, i) => (
+          <li key={i} className="flex flex-wrap items-center gap-x-2 gap-y-1">
+            <span className="w-14 shrink-0 text-xs font-medium text-ink-muted">Term {i + 1}</span>
+            {codes.map((code) =>
+              code === course.code ? (
+                <span key={code} className="font-mono text-xs font-semibold">
+                  {code} (this course)
+                </span>
+              ) : (
+                <CourseCode key={code} code={code} {...links} />
+              ),
+            )}
+          </li>
+        ))}
+      </ol>
+      {path.also.length > 0 && (
+        <>
+          <p className="mt-3 font-medium">Also needed</p>
+          <ul className="mt-1 ml-5 list-disc space-y-1.5">
+            {path.also.map((item, i) => (
+              <li key={i}>
+                <AlsoItem item={item} {...links} />
+              </li>
+            ))}
+          </ul>
+        </>
+      )}
+    </Section>
+  );
+}
+
+function AlsoItem({ item, ...links }: { item: AlsoNeeded } & Links) {
+  if (item.kind === "course") return <CourseCode code={item.code} {...links} />;
+  if (item.kind === "check") return <span>Check: {item.text}</span>;
+  return (
+    <span className="flex flex-wrap items-center gap-1.5">
+      One of:
+      {item.codes.map((code) => (
+        <CourseCode key={code} code={code} {...links} />
+      ))}
+    </span>
   );
 }
 

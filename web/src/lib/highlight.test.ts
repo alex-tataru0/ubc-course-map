@@ -2,7 +2,7 @@ import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 import { buildGraph, undergradOnly } from "./graph";
 import type { GraphEdge } from "./graph";
-import { edgeRole, highlightFor, nodeRole } from "./highlight";
+import { edgeRole, highlightFor, nodeRole, pathHighlight } from "./highlight";
 import { splitCourses } from "./sections";
 import type { CourseFile } from "./types";
 
@@ -37,6 +37,26 @@ describe("highlighting a selected course", () => {
 
   it("dims an edge from a prereq to an unrelated course", () => {
     expect(edgeRole(highlight, edge("A", "X"))).toBe("dimmed");
+  });
+});
+
+describe("highlighting a planned path", () => {
+  // A -> B -> C and D -> C, where B is on the path and D is another option for C.
+  const edges = [edge("A", "B"), edge("B", "C"), edge("D", "C"), edge("C", "E")];
+  const highlight = pathHighlight("C", new Set(["B"]), edges);
+
+  it("lights up only the courses on the path", () => {
+    expect(highlight.kind).toBe("path");
+    expect(nodeRole(highlight, "B")).toBe("needs");
+    expect(nodeRole(highlight, "D")).toBe("dimmed"); // another option, not on the path
+    expect(nodeRole(highlight, "A")).toBe("dimmed"); // e.g. already done
+    expect(nodeRole(highlight, "E")).toBe("unlocks");
+  });
+
+  it("lights up only the edges between courses on the path", () => {
+    expect(edgeRole(highlight, edge("B", "C"))).toBe("needs");
+    expect(edgeRole(highlight, edge("D", "C"))).toBe("dimmed");
+    expect(edgeRole(highlight, edge("A", "B"))).toBe("dimmed");
   });
 });
 
