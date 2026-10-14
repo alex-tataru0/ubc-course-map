@@ -27,4 +27,5 @@ venv/
 .vscode/*
 !.vscode/settings.json
 .idea/
-Claude outputs/ubc-course-map-handoff.md
+# Screenshots and notes from Claude (not part of the project)
+Claude outputs/
