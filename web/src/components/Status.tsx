@@ -47,17 +47,40 @@ export function StatusSample({ status }: { status: CourseStatus }) {
   );
 }
 
-// The round tick box in the corner of every course while marking courses:
-// empty, or blue with a tick.
-export function TickBox({ checked }: { checked: boolean }) {
+// A round tick box: empty, or blue with a tick. It sits in the corner of every course while
+// marking courses (className places it), and inside each TickChip.
+export function TickBox({ checked, className = "" }: { checked: boolean; className?: string }) {
   return (
     <span
-      className={`absolute right-1.5 top-1.5 flex h-4 w-4 items-center justify-center rounded-full border-2 text-[10px] font-bold leading-none ${
+      className={`flex h-4 w-4 shrink-0 items-center justify-center rounded-full border-2 text-[10px] font-bold leading-none ${
         checked ? "border-role-selected bg-role-selected text-white" : "border-ink-muted/60 bg-surface"
-      }`}
+      } ${className}`}
       aria-hidden
     >
       {checked && "✓"}
     </span>
+  );
+}
+
+// A course that isn't on the map (e.g. MATH 221), as a button that ticks it on or off.
+export function TickChip({
+  code,
+  checked,
+  onToggle,
+}: {
+  code: string;
+  checked: boolean;
+  onToggle: () => void;
+}) {
+  return (
+    <button
+      type="button"
+      onClick={onToggle}
+      aria-pressed={checked}
+      className="inline-flex items-center gap-1.5 rounded border border-line py-0.5 pl-1 pr-1.5 font-mono text-xs hover:bg-canvas"
+    >
+      <TickBox checked={checked} />
+      {code}
+    </button>
   );
 }

@@ -5,15 +5,16 @@ import { requirementStatus } from "@/lib/progress";
 import type { CourseProgress } from "@/lib/progress";
 import type { Course, ReqNode, Requisite } from "@/lib/types";
 import { Swatch } from "./Legend";
-import { StatusSample } from "./Status";
+import { StatusSample, TickChip } from "./Status";
 
 interface CourseDetailsProps {
   course: Course;
   highlight: Highlight; // what the course needs and unlocks on the map
   progress: CourseProgress | undefined; // undefined until some course is marked done
   done: ReadonlySet<string>; // the courses marked done
-  onToggleDone: () => void;
+  onToggle: (code: string) => void; // mark a course done, or unmark it
   onMap: Set<string>; // courses drawn on the page, which can be clicked
+  outside: ReadonlySet<string>; // courses not on the map that can be ticked (MATH 221, …)
   calendarUrl: string;
   onSelect: (code: string) => void;
   onClose: () => void;
@@ -26,8 +27,9 @@ export default function CourseDetails({
   highlight,
   progress,
   done,
-  onToggleDone,
+  onToggle,
   onMap,
+  outside,
   calendarUrl,
   onSelect,
   onClose,
@@ -35,7 +37,7 @@ export default function CourseDetails({
   const { summary, hours } = splitDescription(course.description);
   const count = (n: number) => `${n} ${n === 1 ? "course" : "courses"}`;
   const { needs, unlocks } = highlight;
-  const links = { onMap, onSelect, done };
+  const links = { onMap, onSelect, done, outside, onToggle };
   const isDone = done.has(course.code);
 
   return (
@@ -64,7 +66,7 @@ export default function CourseDetails({
 
       <button
         type="button"
-        onClick={onToggleDone}
+        onClick={() => onToggle(course.code)}
         aria-pressed={isDone}
         className={`mt-3 rounded-md border px-3 py-1.5 font-medium ${
           isDone ? "border-ink bg-ink text-canvas hover:opacity-90" : "border-line hover:bg-canvas"
@@ -184,6 +186,8 @@ interface Links {
   onMap: Set<string>;
   onSelect: (code: string) => void;
   done: ReadonlySet<string>; // finished courses get a tick in the requirement list
+  outside: ReadonlySet<string>; // courses not on the map, shown with a tick box
+  onToggle: (code: string) => void;
 }
 
 // The requirement as a tree, then the calendar's own wording, so nothing is hidden
@@ -227,16 +231,15 @@ function Requirement({ node, ...links }: { node: ReqNode } & Links) {
   );
 }
 
-// A course code. Courses on the map are buttons that select them; others are plain text.
-function CourseCode({ code, onMap, onSelect, done }: { code: string } & Links) {
+// A course code. Courses on the map are buttons that select them. Courses not on the map
+// (MATH 221, …) have a tick box to mark them done. Okanagan codes are plain text.
+function CourseCode({ code, onMap, onSelect, done, outside, onToggle }: { code: string } & Links) {
   const tick = done.has(code) ? "✓ " : "";
+  if (outside.has(code)) {
+    return <TickChip code={code} checked={done.has(code)} onToggle={() => onToggle(code)} />;
+  }
   if (!onMap.has(code)) {
-    return (
-      <span className="font-mono text-xs">
-        {tick}
-        {displayCode(code)}
-      </span>
-    );
+    return <span className="font-mono text-xs">{displayCode(code)}</span>;
   }
   return (
     <button

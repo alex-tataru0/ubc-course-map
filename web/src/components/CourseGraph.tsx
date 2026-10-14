@@ -23,10 +23,12 @@ import type { EdgeRole, Role } from "@/lib/highlight";
 import { BAND_GUTTER, NODE_HEIGHT, NODE_WIDTH } from "@/lib/layout";
 import type { Band, Label, Position as Point } from "@/lib/layout";
 import { useDoneCourses } from "@/lib/doneCourses";
+import { groupBySubject, outsideCourses } from "@/lib/outside";
 import { countStatuses, courseProgress } from "@/lib/progress";
 import type { CourseStatus } from "@/lib/progress";
 import type { Course } from "@/lib/types";
 import CourseDetails from "./CourseDetails";
+import OutsideCourses from "./OutsideCourses";
 import ProgressBar from "./ProgressBar";
 import SelectionBar from "./SelectionBar";
 import { FADED, PLAIN_BOX, STATUS_BOX, STATUS_TEXT, TickBox } from "./Status";
@@ -99,7 +101,7 @@ function CourseNode({ data }: NodeProps<CourseNodeType>) {
           <div className="mt-0.5 text-[11px] font-medium leading-tight">No requirements</div>
         )
       )}
-      {data.marking && <TickBox checked={status === "done"} />}
+      {data.marking && <TickBox checked={status === "done"} className="absolute right-1.5 top-1.5" />}
       <Handle type="source" position={Position.Bottom} isConnectable={false} className="opacity-0" />
     </div>
   );
@@ -194,9 +196,11 @@ export default function CourseGraph({
   const canvasRef = useRef<HTMLDivElement>(null);
 
   // The courses marked done (saved in the browser), and quick mode, where a click ticks
-  // a course instead of opening it.
+  // a course instead of opening it. In quick mode, the list of courses not on the map
+  // (MATH, STAT, …) can be open where the side panel goes.
   const { done, toggle, clear } = useDoneCourses();
   const [marking, setMarking] = useState(false);
+  const [outsideOpen, setOutsideOpen] = useState(false);
 
   const placed = useMemo(() => new Map(courses.map((c) => [c.id, c])), [courses]);
   const records = useMemo(() => new Map(details.map((c) => [c.code, c])), [details]);
@@ -205,7 +209,13 @@ export default function CourseGraph({
   // Every course's status. Shown on the graph once at least one course is marked done.
   const progress = useMemo(() => courseProgress(details, done), [details, done]);
   const counts = useMemo(() => countStatuses(progress), [progress]);
-  const showProgress = counts.done > 0;
+  const showProgress = done.size > 0;
+
+  // Courses the prerequisites mention that aren't on the map, which can be ticked too.
+  const outside = useMemo(() => outsideCourses(details), [details]);
+  const outsideSet = useMemo(() => new Set(outside), [outside]);
+  const outsideGroups = useMemo(() => groupBySubject(outside), [outside]);
+  const outsideTicked = outside.filter((code) => done.has(code)).length;
 
   const highlight = useMemo(
     () => (selected === null ? null : highlightFor(selected, edges)),
@@ -274,6 +284,7 @@ export default function CourseGraph({
       if (event.key === "Escape") {
         setSelected(null);
         setMarking(false);
+        setOutsideOpen(false);
       }
     };
     window.addEventListener("keydown", onKeyDown);
@@ -388,10 +399,18 @@ export default function CourseGraph({
   };
 
   // Quick mode starts with nothing highlighted, so the only colours are the ticks.
+  // On wide screens the list of other subjects opens beside the graph straight away;
+  // on phones it would cover the graph, so it waits for its button.
   const startMarking = () => {
     setSelected(null);
     setPanelOpen(false);
     setMarking(true);
+    setOutsideOpen(window.matchMedia("(min-width: 768px)").matches);
+  };
+
+  const finishMarking = () => {
+    setMarking(false);
+    setOutsideOpen(false);
   };
 
   const selectedCourse = selected === null ? undefined : records.get(selected);
@@ -419,10 +438,14 @@ export default function CourseGraph({
           <Panel position="top-left" className="flex flex-col items-start gap-2">
             <ProgressBar
               counts={counts}
+              marked={done.size}
+              outsideTicked={outsideTicked}
               marking={marking}
+              outsideOpen={outsideOpen}
               onStart={startMarking}
-              onFinish={() => setMarking(false)}
+              onFinish={finishMarking}
               onClear={clear}
+              onToggleOutside={() => setOutsideOpen(!outsideOpen)}
             />
             {highlight && !panelOpen && (
               <SelectionBar
@@ -440,11 +463,20 @@ export default function CourseGraph({
           highlight={highlight}
           progress={showProgress ? progress.get(selectedCourse.code) : undefined}
           done={done}
-          onToggleDone={() => toggle(selectedCourse.code)}
+          onToggle={toggle}
           onMap={onMap}
+          outside={outsideSet}
           calendarUrl={calendarUrl}
           onSelect={setSelected}
           onClose={() => setPanelOpen(false)}
+        />
+      )}
+      {marking && outsideOpen && (
+        <OutsideCourses
+          groups={outsideGroups}
+          done={done}
+          onToggle={toggle}
+          onClose={() => setOutsideOpen(false)}
         />
       )}
     </div>
