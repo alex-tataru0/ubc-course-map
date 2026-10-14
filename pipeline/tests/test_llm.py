@@ -59,8 +59,11 @@ class FakeAsk:
         return self.tree, "fake-model"
 
 
-CPSC_410_TEXT = "Either (a) CPSC 310 or (b) all of CPEN 321, CPEN 331"
-CPSC_410_TREE = {"one_of": ["CPSC 310", {"all_of": ["CPEN 321", "CPEN 331"]}]}
+CPSC_445_TEXT = "CPSC 320. and either BMEG 250 or six credits of BIOL beyond BIOL 111"
+CPSC_445_TREE = {"all_of": [
+    "CPSC 320",
+    {"one_of": ["BMEG 250", {"other": "six credits of BIOL beyond BIOL 111"}]},
+]}
 
 
 def test_uses_rules_without_asking_gemini():
@@ -75,34 +78,34 @@ def test_uses_rules_without_asking_gemini():
 
 
 def test_asks_gemini_when_rules_fail():
-    ask = FakeAsk(CPSC_410_TREE)
+    ask = FakeAsk(CPSC_445_TREE)
     cache = {}
-    result = parse_prereq(CPSC_410_TEXT, cache, ask)
+    result = parse_prereq(CPSC_445_TEXT, cache, ask)
     assert result["source"] == "llm"
-    assert result["tree"] == CPSC_410_TREE
+    assert result["tree"] == CPSC_445_TREE
     assert result["problems"] == []
-    assert cache[CPSC_410_TEXT]["model"] == "fake-model"
+    assert cache[CPSC_445_TEXT]["model"] == "fake-model"
 
 
 def test_only_asks_once_per_text():
-    ask = FakeAsk(CPSC_410_TREE)
+    ask = FakeAsk(CPSC_445_TREE)
     cache = {}
-    parse_prereq(CPSC_410_TEXT, cache, ask)
-    parse_prereq(CPSC_410_TEXT, cache, ask)
+    parse_prereq(CPSC_445_TEXT, cache, ask)
+    parse_prereq(CPSC_445_TEXT, cache, ask)
     assert ask.calls == 1
 
 
 def test_saves_problems_with_a_bad_answer():
-    ask = FakeAsk({"one_of": ["CPSC 310", "CPEN 321"]})
-    result = parse_prereq(CPSC_410_TEXT, {}, ask)
+    ask = FakeAsk({"one_of": ["CPSC 320", "BMEG 250"]})
+    result = parse_prereq(CPSC_445_TEXT, {}, ask)
     assert len(result["problems"]) == 1
 
 
 def test_cache_key_is_the_normalized_text():
     cache = {}
-    raw = "Either (a) CPSC_V 310 or (b) all of CPEN_V 321, CPEN_V 331"
-    parse_prereq(raw, cache, FakeAsk(CPSC_410_TREE))
-    assert list(cache) == [CPSC_410_TEXT]
+    raw = "CPSC_V 320. and either BMEG_V 250 or six credits of BIOL beyond BIOL_V 111"
+    parse_prereq(raw, cache, FakeAsk(CPSC_445_TREE))
+    assert list(cache) == [CPSC_445_TEXT]
 
 
 def test_cache_round_trip(tmp_path):

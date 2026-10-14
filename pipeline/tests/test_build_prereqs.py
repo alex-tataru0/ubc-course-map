@@ -32,8 +32,8 @@ def test_only_the_hard_prereqs_go_to_gemini(courses):
     records = build_courses(list(courses.values()), {}, counting_ask, no_save)
     assert len(records) == 112
     assert len(requisites(records)) == 51
-    assert sum(req["source"] == "rules" for req in requisites(records)) == 38
-    assert len(asked) == 13
+    assert sum(req["source"] == "rules" for req in requisites(records)) == 45
+    assert len(asked) == 6
 
 
 def test_course_record(courses):

@@ -29,7 +29,7 @@ All of this runs once, ahead of time. The website only loads the finished JSON f
 1. **Parse the calendar.** `parse_courses.py` reads the UBC Academic Calendar page for a subject and gets each course's code, title, credits and description.
 2. **Cut out the requirements.** `requisites.py` finds the "Prerequisite:", "Corequisite:" and "Equivalency:" text in each description.
 3. **Turn the text into a tree.** "One of CPSC 210, CPEN 221 and …" becomes nested `one_of` / `all_of` groups, with optional minimum grades and free-text requirements like "Third-year standing".
-   - **Rules first.** `prereq_tree.py` handles the common patterns (single courses, "One of", "All of", "Either … or", chains joined by "and"). It refuses anything it isn't sure about instead of guessing.
+   - **Rules first.** `prereq_tree.py` handles the common patterns: single courses, "One of", "All of", "Either … or", chains joined by "and", lettered options like "Either (a) … or (b) …", and minimum grades like "a score of 68% or higher in MATH 226". Text with no course codes at all (like "Permission of the Department Head") is kept whole as one thing to check. The rules refuse anything they aren't sure about instead of guessing.
    - **Gemini for the rest.** `llm.py` sends the leftover sentences to Gemini (free tier) with a short prompt and a few examples. Every answer is cached in `data/llm_cache/prereqs.json`, so each sentence is only ever sent once, and the data can be rebuilt without an API key.
    - **Every tree is checked.** A checker makes sure the tree has a valid shape and mentions exactly the courses in the sentence, with none dropped and none made up. Anything it flags is marked for review.
 4. **Write the output.** `build_prereqs.py` writes `data/courses/cpsc.json`.
@@ -40,11 +40,11 @@ Every parsed prerequisite was checked by hand against the calendar text.
 
 | | Prerequisites | Correct |
 |---|---|---|
-| Parsed by rules | 37 | 37 |
-| Parsed by Gemini | 13 | 12 on the first try, 13 after one prompt fix |
-| **Total** | **50** | **49 / 50 (98%) first try, 50 / 50 final** |
+| Parsed by rules | 44 | 44 |
+| Parsed by Gemini | 6 | 6 |
+| **Total** | **50** | **50 / 50** |
 
-The one first-try miss (CPSC 121) treated high school courses as UBC course codes. The checker flagged it automatically, and the prompt was updated.
+The first version of the rules left 13 prerequisites for Gemini, which got 12 right on the first try. The miss (CPSC 121) treated high school courses as UBC course codes; the checker flagged it automatically, and the prompt was updated. Later, rules written for MATH and STAT read 7 of those 13 too: 4 come out exactly like Gemini's checked answers, and the other 3 have no course codes, so their text is kept whole.
 
 Known gaps:
 - CPSC 448's requirement isn't labelled "Prerequisite:" in the calendar, so it isn't captured.
@@ -61,7 +61,7 @@ pytest
 python pipeline/build_prereqs.py
 ```
 
-A Gemini API key is only needed when there are prerequisites the cache doesn't have yet. Put it in a `.env` file (see `.env.example`). There are 98 `pytest` tests for the whole pipeline.
+A Gemini API key is only needed when there are prerequisites the cache doesn't have yet. Put it in a `.env` file (see `.env.example`). There are 113 `pytest` tests for the whole pipeline.
 
 ## How the grade data is built
 

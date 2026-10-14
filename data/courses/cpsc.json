@@ -51,16 +51,9 @@
       "prereq": {
         "text": "Principles of Mathematics 12 or Pre-calculus 12",
         "tree": {
-          "one_of": [
-            {
-              "other": "Principles of Mathematics 12"
-            },
-            {
-              "other": "Pre-calculus 12"
-            }
-          ]
+          "other": "Principles of Mathematics 12 or Pre-calculus 12"
         },
-        "source": "llm",
+        "source": "rules",
         "problems": []
       },
       "coreq": {
@@ -170,7 +163,7 @@
             }
           ]
         },
-        "source": "llm",
+        "source": "rules",
         "problems": []
       },
       "coreq": null,
@@ -562,7 +555,7 @@
             }
           ]
         },
-        "source": "llm",
+        "source": "rules",
         "problems": []
       },
       "coreq": null,
@@ -629,7 +622,7 @@
             }
           ]
         },
-        "source": "llm",
+        "source": "rules",
         "problems": []
       },
       "coreq": null,
@@ -785,7 +778,7 @@
             }
           ]
         },
-        "source": "llm",
+        "source": "rules",
         "problems": []
       },
       "coreq": null,
@@ -1134,16 +1127,9 @@
       "prereq": {
         "text": "3 credits of Computer Science and at least third-year standing",
         "tree": {
-          "all_of": [
-            {
-              "other": "3 credits of Computer Science"
-            },
-            {
-              "other": "at least third-year standing"
-            }
-          ]
+          "other": "3 credits of Computer Science and at least third-year standing"
         },
-        "source": "llm",
+        "source": "rules",
         "problems": []
       },
       "coreq": null,
@@ -1157,16 +1143,9 @@
       "prereq": {
         "text": "Third-year standing in a Computer Science or Computer Engineering specialization, and permission of the department",
         "tree": {
-          "all_of": [
-            {
-              "other": "Third-year standing in a Computer Science or Computer Engineering specialization"
-            },
-            {
-              "other": "permission of the department"
-            }
-          ]
+          "other": "Third-year standing in a Computer Science or Computer Engineering specialization, and permission of the department"
         },
-        "source": "llm",
+        "source": "rules",
         "problems": []
       },
       "coreq": null,
