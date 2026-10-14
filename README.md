@@ -8,7 +8,7 @@ A website for UBC students to plan courses using the prerequisite graph.
 
 > Work in progress. Unofficial, not affiliated with UBC.
 
-![Marking CPSC 110 and 121 as done, showing the path to CPSC 340 on the map, then scrolling its side panel to the grade distribution](docs/demo.gif)
+![Marking CPSC 110, CPSC 121 and MATH 100 as done, picking the Computer Science Major, ticking SCIE 113 in its requirements, then opening CPSC 310 from there to show the path to it on the map and its grade distribution](docs/demo.gif)
 
 ## Features
 
@@ -19,7 +19,8 @@ A website for UBC students to plan courses using the prerequisite graph.
 - [x] The shortest path to any course from the courses you've done, term by term, in the side panel and on the map.
 - [x] Grades for each course since 2021: the average, a chart of how grades spread, and who taught it each term (from UBCGrades).
 - [x] Links to r/ubc posts and UBCGrades for each course, and a Rate My Professors search for each instructor.
-- [ ] Pick a major and see its required courses and how they connect.
+- [x] Pick your program (the Computer Science Major or Honours, the AI option, or Software Engineering) to see its requirements year by year, which ones you've finished, and its courses marked on the map.
+- [ ] More subjects than CPSC, and combined majors.
 
 ## How the course data is built
 
@@ -60,7 +61,7 @@ pytest
 python pipeline/build_prereqs.py
 ```
 
-A Gemini API key is only needed when there are prerequisites the cache doesn't have yet. Put it in a `.env` file (see `.env.example`). There are 66 `pytest` tests for the pipeline.
+A Gemini API key is only needed when there are prerequisites the cache doesn't have yet. Put it in a `.env` file (see `.env.example`). There are 98 `pytest` tests for the whole pipeline.
 
 ## How the grade data is built
 
@@ -79,11 +80,42 @@ python pipeline/build_grades.py
 
 Add `--refresh` to download every term again. No API key is needed.
 
+## How the program data is built
+
+`build_programs.py` reads the six programs on the calendar's [Computer Science page](https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-science/bachelor-science/computer-science): the Major and Honours in Computer Science, the same two with the Artificial Intelligence option, and the Major and Honours in Computer Science and Software Engineering. Like the rest of the data, it runs ahead of time.
+
+1. **Save the page once.** The calendar page is downloaded once to `data/raw/programs/` and read from there. Deleting the file downloads it again, e.g. for a new calendar year.
+2. **Read the tables.** `parse_programs.py` finds each program's heading and table, splits it into years (First Year, Second Year, Third and Fourth Years), and keeps each requirement's credits and footnotes. The Major and Honours share a first-year table, and a year the calendar only describes as "Same as …" another program is copied from that program. A test checks that the credits add up for every year and every degree (120 for a Major, 132 for an Honours).
+3. **Turn each requirement into a tree.** `program_rules.py` reads rows like "MATH 100 or 102 or 104 (or 180 or 184 or 120 or 110)", "Three of CPSC 304, 330, …, AI 422 at least 6 credits of which must be 400 or above" and "CPSC or AI courses numbered 300 or higher" into `one_of`, `all_of`, `pick`, `credits_of`, electives and free text. Shorthand like "CPSC 310, 313, 320" is written out in full, and a checker makes sure each tree has exactly the courses in its row, like the one for prerequisites.
+4. **Gemini only if needed.** A row the rules can't read would go to Gemini, with the answer cached in `data/llm_cache/programs.json`, like the prerequisites. So far the rules read every row, so nothing has been sent.
+5. **Write the output.** `data/programs/cpsc.json`: 6 programs, 120 requirements.
+
+### Accuracy (October 2026)
+
+The 120 requirements use 36 different wordings, since most rows repeat across programs (the first year is the same for all six). Every wording was checked by hand against the calendar.
+
+| | Wordings | Correct |
+|---|---|---|
+| Parsed by rules | 36 | 36 |
+| Parsed by Gemini | 0 | – |
+| **Total** | **36** | **36 / 36** |
+
+Known gaps:
+- Only the six programs on the Computer Science page. Combined majors and honours (Computer Science with another subject) will come with more subjects.
+- Footnotes that aren't about which courses count are shown, not checked, e.g. "At least 3 credits must come from lecture-based course(s)" or when CPSC 449 can be waived.
+- Electives, the communication requirement and the Faculty of Science's own requirements (breadth, lab science, upper-level credits) aren't tracked. The site shows them as "any courses" or "check yourself".
+
+```
+python pipeline/build_programs.py
+```
+
+No API key is needed unless the calendar adds a wording the rules don't know.
+
 ## The website
 
 The site is in `web/`: Next.js, TypeScript and React Flow, exported as a plain static site. It never calls an API for its data: everything is worked out when the site is built. The only thing it sends is an anonymous page view to [Vercel Web Analytics](https://vercel.com/docs/analytics), which uses no cookies.
 
-- **Built ahead of time.** A server component reads `data/courses/cpsc.json` and `data/grades/cpsc.json` during `npm run build`, turns the courses into a graph and lays it out. The browser only gets the finished positions, so the layout library never ships to it.
+- **Built ahead of time.** A server component reads `data/courses/cpsc.json`, `data/grades/cpsc.json` and `data/programs/cpsc.json` during `npm run build`, turns the courses into a graph and lays it out. The browser only gets the finished positions, so the layout library never ships to it.
 - **Laid out in course order.** Rows go by year (all 100-level courses above all 200-level ones, and so on), and a course sits below any prerequisite from its own year (CPSC 103 → 107). [dagre](https://github.com/dagrejs/dagre) only picks the left-to-right order inside each row, through a custom ranker, to keep lines from crossing. The rows are then packed tightly: dagre's own spacing made the graph about 4,000px wide, packed it's about 1,800px.
 - **What a course needs and unlocks** is a breadth-first search over the prerequisite edges, in each direction. Solid lines are required, dashed lines are one of several options.
 - **Colours** for "needs" and "unlocks" were checked with a colour-blindness validator, and always come with text labels. There's a dark mode, and it works with the keyboard (Tab, Enter, Esc) and screen readers.
@@ -93,8 +125,16 @@ The site is in `web/`: Next.js, TypeScript and React Flow, exported as a plain s
 - **Your courses stay in your browser.** Ticks are saved in localStorage. There are no accounts, and your courses are never sent anywhere.
 - **Three answers, not two.** Each requirement is met, not met, or "check yourself", because the site can't know your grades, your year standing or whether you took Pre-calculus 12. A "one of" group is met if any option is, an "all of" group fails if any part fails, and anything uncertain stays uncertain (three-valued logic).
 - **Five statuses.** Done, can take, check first, not yet and no credit. A corequisite can be taken at the same time, "Restricted to …" sentences make a course "check first", and "Not for students with credit for CPSC 110" makes CPSC 100 "no credit" once 110 is done.
-- **Other subjects.** The 53 courses that CPSC prerequisites mention but the map doesn't show (MATH, STAT, CPEN, …) can be ticked too, from a list or right inside a course's prerequisites.
+- **Other subjects.** The 69 courses that CPSC prerequisites or the programs mention but the map doesn't show (MATH, STAT, SCIE 113, AI 240, …) can be ticked too, from a list, right inside a course's prerequisites, or in the program panel.
 - **Shortest path.** For any course, the side panel lists the CPSC courses still needed, term by term, plus anything else it asks for (e.g. "one of MATH 152, MATH 221, MATH 223"). In each "one of" it picks the option that needs the fewest new courses, counting the ones already picked for other parts of the path. Options from other subjects come last, because their own prerequisites aren't in the data: without that rule, CPSC 340 was routed through DSCI 221. A tie goes against a course that's "not for students with credit for" the other option (CPSC 103 loses to CPSC 110), then to the course that unlocks more. Checked against an exhaustive search over every combination of choices, for all 60 courses from six different starting points, it never needs more courses. A switch shows just that path on the map, with term numbers.
+
+### Pick a program
+
+- **Requirements by year.** Pick one of the six programs and a panel lists its requirements year by year, in the calendar's words, each marked done, partly done, to do or "check yourself". It shows which of your courses fill each one, and the courses you could still take for it.
+- **A course counts once.** Each finished course fills one requirement only, so nothing is counted twice. Requirements that name exact courses pick first, then "one of" lists (shortest first), then "three of", then credit counts like "9 credits of CPSC 300 or higher" (the 400-level one first, so a 400-level course isn't used up too early). With CPSC 304 and 317 done, the Software Engineering Major's "One of CPSC 304, 317, 344" gets 304 and "One more of …" gets 317.
+- **Conditions in the wording.** "At least 6 credits of which must be 400 or above" is checked, and the footnote saying CPSC 490 "cannot be used" keeps it out of the credit count. Any other condition is shown for you to check.
+- **On the map.** The program's courses get a stripe down the left edge: solid for required, striped for one of a few choices. Its colour passed the same colour-blindness check against the three highlight colours, and the pattern means it never relies on colour alone.
+- **Remembered.** The picked program is saved in localStorage next to your courses.
 
 ### Grades and links
 
@@ -111,7 +151,7 @@ npm test
 npm run dev
 ```
 
-`npm run build` writes the static site to `web/out/`. There are 119 tests (Vitest) for the graph, layout, highlighting, course details, statuses, saving, path logic, grades and links, including checks against the real CPSC data. GitHub Actions runs `pytest` and the website's tests, lint and build on every push, and [Vercel](https://vercel.com) builds and publishes the site from `main`.
+`npm run build` writes the static site to `web/out/`. There are 139 tests (Vitest) for the graph, layout, highlighting, course details, statuses, saving, path logic, grades, links and programs, including checks against the real CPSC data. GitHub Actions runs `pytest` and the website's tests, lint and build on every push, and [Vercel](https://vercel.com) builds and publishes the site from `main`.
 
 ## Data credits
 
