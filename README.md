@@ -69,24 +69,30 @@ python pipeline/build_prereqs.py
 
 With no arguments, `build_prereqs.py` builds every subject (CPSC, MATH, STAT). To build only some, name them: `python pipeline/build_prereqs.py MATH STAT`.
 
-A Gemini API key is only needed when there are prerequisites the cache doesn't have yet. Put it in a `.env` file (see `.env.example`). There are 124 `pytest` tests for the whole pipeline.
+A Gemini API key is only needed when there are prerequisites the cache doesn't have yet. Put it in a `.env` file (see `.env.example`). There are 127 `pytest` tests for the whole pipeline.
 
 ## How the grade data is built
 
 `build_grades.py` pulls grade distributions from the [UBCGrades](https://ubcgrades.com) API, which republishes UBC PAIR's data. Like the course data, it runs ahead of time, about once a term.
 
-1. **Download each term once.** One request per term gets every CPSC section: 10 terms, 2021 Summer to 2025 Winter. The responses are saved as they are in `data/raw/grades/`. A term that's already saved isn't downloaded again, so a new term means one new request.
+1. **Download each term once.** One request per term and subject gets every section: 10 terms, 2021 Summer to 2025 Winter, for CPSC, MATH and STAT. The responses are saved as they are in `data/raw/grades/`. A term that's already saved isn't downloaded again, so a new term means one new request per subject.
 2. **Add up the sections.** For each course and term: the number of students, the average weighted by students, the count in each grade range, and every instructor. Topics courses like CPSC 436N (NLP) and 436C (Cloud Computing) get a row each.
-3. **Check against UBCGrades' own totals.** UBCGrades sends its own total for most course-terms, but not for 2021, so every term is added up from its sections instead. The 333 totals it does send match ours exactly, and a test checks this.
-4. **Write the output.** `data/grades/cpsc.json`: 79 courses, 408 course-terms, 80,088 grades.
+3. **Check against UBCGrades' own totals.** UBCGrades sends its own total for most course-terms, but not for 2021, so every term is added up from its sections instead. The 872 totals it does send (CPSC 333, MATH 407, STAT 132) match ours exactly, and a test checks this.
+4. **Write the output.** One file per subject, like `data/grades/cpsc.json`:
 
-About 2% of students are in a grade range whose count UBC PAIR doesn't give. They're still counted in each course's total, and the chart says how many it leaves out.
+| Subject | Courses | Course-terms | Grades |
+|---|---|---|---|
+| CPSC | 79 | 408 | 80,088 |
+| MATH | 136 | 516 | 99,478 |
+| STAT | 33 | 166 | 25,599 |
+
+About 1–3% of students (depending on the subject) are in a grade range whose count UBC PAIR doesn't give. They're still counted in each course's total, and the chart says how many it leaves out.
 
 ```
 python pipeline/build_grades.py
 ```
 
-Add `--refresh` to download every term again. No API key is needed.
+With no arguments it does every subject; `python pipeline/build_grades.py MATH` does just one. Add `--refresh` to download every term again. No API key is needed.
 
 ## How the program data is built
 

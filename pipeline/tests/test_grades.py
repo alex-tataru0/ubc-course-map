@@ -123,20 +123,18 @@ def test_lists_of_plain_values_go_on_one_line():
 
 # The tests below use the real data saved in data/raw/grades.
 
-@pytest.fixture(scope="module")
-def real_rows():
-    return load_rows("CPSC", RAW_DIR)
-
-
-def test_terms_match_ubcgrades_own_totals(real_rows):
+# How many "OVERALL" rows UBCGrades sends for each subject.
+@pytest.mark.parametrize("subject, overall_rows", [("CPSC", 333), ("MATH", 407), ("STAT", 132)])
+def test_terms_match_ubcgrades_own_totals(subject, overall_rows):
     # Wherever UBCGrades gives an "OVERALL" row, adding up the sections must give the same
     # student count, average and grade counts.
-    courses = summarize(real_rows)
+    rows = load_rows(subject, RAW_DIR)
+    courses = summarize(rows)
     checked = 0
-    for row in real_rows:
+    for row in rows:
         if row["section"] != "OVERALL":
             continue
-        terms = courses[f"CPSC {row['course']}"]["terms"]
+        terms = courses[f"{subject} {row['course']}"]["terms"]
         term = next(t for t in terms
                     if t["session"] == row["year"] + row["session"]
                     and t.get("topic", "") == row["detail"])
@@ -144,7 +142,7 @@ def test_terms_match_ubcgrades_own_totals(real_rows):
         assert term["average"] == pytest.approx(row["average"], abs=0.05)
         assert term["grades"] == [row["grades"][bucket] or 0 for bucket in BUCKETS]
         checked += 1
-    assert checked == 333
+    assert checked == overall_rows
 
 
 def test_real_summary():
@@ -158,3 +156,15 @@ def test_real_summary():
     assert term["reported"] == 926
     assert term["average"] == 82.4
     assert term["instructors"] == ["Cinda Heeren", "Geoffrey Tien"]
+
+
+def test_real_math_and_stat_summaries():
+    math = build_summary("MATH", RAW_DIR)
+    assert len(math["courses"]) == 136
+    term = next(t for t in math["courses"]["MATH 100"]["terms"] if t["session"] == "2025W")
+    assert term["reported"] == 3641
+    assert term["average"] == 66.3
+
+    stat = build_summary("STAT", RAW_DIR)
+    assert len(stat["courses"]) == 33
+    assert stat["sessions"] == math["sessions"]

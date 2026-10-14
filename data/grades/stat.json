@@ -1,0 +1,1485 @@
+{
+  "subject": "STAT",
+  "campus": "UBCV",
+  "source": "https://ubcgrades.com",
+  "credit": "UBCGrades.com / UBC PAIR",
+  "sessions": ["2021S", "2021W", "2022S", "2022W", "2023S", "2023W", "2024S", "2024W", "2025S", "2025W"],
+  "buckets": ["<50%", "50-54%", "55-59%", "60-63%", "64-67%", "68-71%", "72-75%", "76-79%", "80-84%", "85-89%", "90-100%"],
+  "courses": {
+    "STAT 200": {
+      "reported": 4983,
+      "average": 74.0,
+      "grades": [219, 156, 228, 273, 407, 469, 627, 610, 807, 641, 516],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 911,
+          "average": 71.9,
+          "grades": [55, 27, 55, 63, 91, 93, 129, 95, 138, 98, 67],
+          "instructors": ["Jonathan Agyeman", "Kenny Chiu", "Lasantha Premarathna Wijendra Acharige"]
+        },
+        {
+          "session": "2025S",
+          "reported": 66,
+          "average": 73.3,
+          "grades": [3, 1, 2, 5, 7, 8, 7, 10, 12, 5, 6],
+          "instructors": ["Lasantha Premarathna Wijendra Acharige"]
+        },
+        {
+          "session": "2024W",
+          "reported": 869,
+          "average": 72.7,
+          "grades": [28, 46, 64, 75, 78, 88, 94, 105, 104, 94, 93],
+          "instructors": ["Vivian Meng", "Rodolfo Lourenzutti", "Melissa Lee"]
+        },
+        {
+          "session": "2024S",
+          "reported": 115,
+          "average": 76.1,
+          "grades": [2, 1, 5, 7, 13, 5, 16, 14, 23, 20, 9],
+          "instructors": ["Hoi Yin Eugenia Yu"]
+        },
+        {
+          "session": "2023W",
+          "reported": 889,
+          "average": 74.5,
+          "grades": [39, 33, 31, 32, 71, 77, 105, 110, 148, 109, 113],
+          "instructors": ["Jonathan Agyeman", "Rodolfo Lourenzutti", "Melissa Lee"]
+        },
+        {
+          "session": "2023S",
+          "reported": 77,
+          "average": 83.9,
+          "grades": [1, 0, 0, 3, 6, 1, 4, 2, 9, 19, 30],
+          "instructors": ["Benjamin Burr"]
+        },
+        {
+          "session": "2022W",
+          "reported": 855,
+          "average": 74.6,
+          "grades": [29, 12, 31, 45, 70, 98, 123, 124, 154, 98, 71],
+          "instructors": ["Benjamin Burr", "Rodolfo Lourenzutti", "Jonathan Agyeman", "Hoi Yin Eugenia Yu"]
+        },
+        {
+          "session": "2022S",
+          "reported": 87,
+          "average": 76.9,
+          "grades": [4, 1, 1, 6, 8, 5, 5, 14, 15, 17, 11],
+          "instructors": ["Hoi Yin Eugenia Yu"]
+        },
+        {
+          "session": "2021W",
+          "reported": 952,
+          "average": 74.3,
+          "grades": [51, 29, 39, 37, 57, 78, 125, 121, 169, 151, 95],
+          "instructors": ["Melissa Lee", "Rodolfo Lourenzutti", "Hoi Yin Eugenia Yu"]
+        },
+        {
+          "session": "2021S",
+          "reported": 162,
+          "average": 77.3,
+          "grades": [7, 6, 0, 0, 6, 16, 19, 15, 35, 30, 21],
+          "instructors": ["Hoi Yin Eugenia Yu"]
+        }
+      ]
+    },
+    "STAT 201": {
+      "reported": 2674,
+      "average": 78.7,
+      "grades": [69, 48, 64, 72, 138, 189, 233, 310, 528, 525, 473],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 545,
+          "average": 75.7,
+          "grades": [20, 12, 20, 21, 38, 66, 54, 65, 102, 80, 67],
+          "instructors": ["Jonathan Agyeman", "Marie Auger-Methe"]
+        },
+        {
+          "session": "2025S",
+          "reported": 103,
+          "average": 75.8,
+          "grades": [7, 0, 2, 0, 9, 17, 10, 6, 18, 15, 19],
+          "instructors": ["Rodolfo Lourenzutti"]
+        },
+        {
+          "session": "2024W",
+          "reported": 571,
+          "average": 77.1,
+          "grades": [12, 20, 25, 22, 46, 39, 55, 69, 93, 80, 110],
+          "instructors": ["Rodolfo Lourenzutti", "Marie Auger-Methe"]
+        },
+        {
+          "session": "2024S",
+          "reported": 91,
+          "average": 75.7,
+          "grades": [3, 3, 6, 2, 6, 8, 10, 11, 19, 14, 9],
+          "instructors": ["Melissa Lee"]
+        },
+        {
+          "session": "2023W",
+          "reported": 575,
+          "average": 78.7,
+          "grades": [24, 10, 6, 17, 28, 38, 50, 68, 109, 116, 102],
+          "instructors": ["Rodolfo Lourenzutti", "Marie Auger-Methe"]
+        },
+        {
+          "session": "2023S",
+          "reported": 125,
+          "average": 79.4,
+          "grades": [0, 2, 2, 4, 4, 6, 18, 25, 25, 25, 14],
+          "instructors": ["Melissa Lee"]
+        },
+        {
+          "session": "2022W",
+          "reported": 351,
+          "average": 82.9,
+          "grades": [3, 1, 3, 4, 6, 12, 21, 43, 84, 107, 67],
+          "instructors": ["Lasantha Premarathna Wijendra Acharige", "Le Quan Nguyen"]
+        },
+        {
+          "session": "2022S",
+          "reported": 121,
+          "average": 83.4,
+          "grades": [0, 0, 0, 2, 1, 3, 9, 17, 34, 31, 24],
+          "instructors": ["Melissa Lee"]
+        },
+        {
+          "session": "2021W",
+          "reported": 144,
+          "average": 86.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 6, 33, 46, 54],
+          "instructors": ["Vincenzo Coia"]
+        },
+        {
+          "session": "2021S",
+          "reported": 48,
+          "average": 77.5,
+          "grades": [0, 0, 0, 0, 0, 0, 6, 0, 11, 11, 7],
+          "instructors": ["Rodolfo Lourenzutti"]
+        }
+      ]
+    },
+    "STAT 203": {
+      "reported": 590,
+      "average": 74.1,
+      "grades": [20, 30, 34, 32, 52, 53, 74, 69, 89, 65, 69],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 141,
+          "average": 73.4,
+          "grades": [5, 5, 8, 4, 16, 14, 29, 18, 15, 16, 11],
+          "instructors": ["Jonathan Agyeman"]
+        },
+        {
+          "session": "2024W",
+          "reported": 114,
+          "average": 74.8,
+          "grades": [5, 6, 5, 7, 9, 12, 7, 17, 20, 12, 14],
+          "instructors": ["Melissa Lee"]
+        },
+        {
+          "session": "2023W",
+          "reported": 114,
+          "average": 72.5,
+          "grades": [5, 7, 8, 6, 10, 12, 12, 13, 20, 7, 11],
+          "instructors": ["Melissa Lee"]
+        },
+        {
+          "session": "2022W",
+          "reported": 110,
+          "average": 75.7,
+          "grades": [2, 3, 7, 9, 8, 7, 15, 9, 19, 16, 15],
+          "instructors": ["Hoi Yin Eugenia Yu", "M.D. Jahurul Islam"]
+        },
+        {
+          "session": "2021W",
+          "reported": 111,
+          "average": 74.4,
+          "grades": [3, 9, 6, 6, 9, 8, 11, 12, 15, 14, 18],
+          "instructors": ["Hoi Yin Eugenia Yu"]
+        }
+      ]
+    },
+    "STAT 251": {
+      "reported": 4683,
+      "average": 75.5,
+      "grades": [129, 187, 218, 249, 325, 463, 540, 573, 692, 657, 629],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 705,
+          "average": 73.1,
+          "grades": [23, 44, 41, 60, 55, 76, 79, 78, 91, 78, 80],
+          "instructors": ["Lasantha Premarathna Wijendra Acharige"]
+        },
+        {
+          "session": "2025S",
+          "reported": 216,
+          "average": 77.9,
+          "grades": [8, 6, 2, 8, 12, 13, 24, 37, 37, 33, 36],
+          "instructors": ["Lasantha Premarathna Wijendra Acharige"]
+        },
+        {
+          "session": "2024W",
+          "reported": 685,
+          "average": 77.6,
+          "grades": [8, 22, 24, 34, 39, 52, 88, 92, 106, 113, 107],
+          "instructors": ["Lasantha Premarathna Wijendra Acharige"]
+        },
+        {
+          "session": "2024S",
+          "reported": 188,
+          "average": 80.5,
+          "grades": [2, 3, 2, 2, 8, 11, 27, 21, 39, 37, 36],
+          "instructors": ["Lasantha Premarathna Wijendra Acharige"]
+        },
+        {
+          "session": "2023W",
+          "reported": 736,
+          "average": 76.7,
+          "grades": [20, 18, 29, 37, 58, 73, 72, 74, 99, 121, 121],
+          "instructors": ["Lasantha Premarathna Wijendra Acharige"]
+        },
+        {
+          "session": "2023S",
+          "reported": 248,
+          "average": 77.2,
+          "grades": [1, 7, 11, 13, 23, 22, 31, 29, 28, 33, 43],
+          "instructors": ["Lasantha Premarathna Wijendra Acharige"]
+        },
+        {
+          "session": "2022W",
+          "reported": 715,
+          "average": 74.1,
+          "grades": [23, 27, 34, 46, 51, 81, 82, 94, 126, 94, 57],
+          "instructors": ["Lasantha Premarathna Wijendra Acharige"]
+        },
+        {
+          "session": "2022S",
+          "reported": 203,
+          "average": 75.0,
+          "grades": [3, 14, 14, 10, 15, 20, 26, 22, 18, 25, 36],
+          "instructors": ["Lasantha Premarathna Wijendra Acharige"]
+        },
+        {
+          "session": "2021W",
+          "reported": 725,
+          "average": 73.7,
+          "grades": [39, 37, 46, 32, 41, 85, 63, 86, 101, 93, 102],
+          "instructors": ["Lasantha Premarathna Wijendra Acharige"]
+        },
+        {
+          "session": "2021S",
+          "reported": 262,
+          "average": 74.4,
+          "grades": [2, 9, 15, 7, 23, 30, 48, 40, 47, 30, 11],
+          "instructors": ["Lasantha Premarathna Wijendra Acharige"]
+        }
+      ]
+    },
+    "STAT 300": {
+      "reported": 1532,
+      "average": 78.5,
+      "grades": [32, 36, 43, 55, 86, 125, 154, 173, 249, 284, 283],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 319,
+          "average": 75.5,
+          "grades": [4, 10, 18, 13, 24, 40, 36, 40, 52, 59, 23],
+          "instructors": ["Lasantha Premarathna Wijendra Acharige", "Bruce Dunham"]
+        },
+        {
+          "session": "2024W",
+          "reported": 334,
+          "average": 76.3,
+          "grades": [6, 17, 16, 13, 20, 28, 45, 39, 55, 43, 52],
+          "instructors": ["Lasantha Premarathna Wijendra Acharige"]
+        },
+        {
+          "session": "2023W",
+          "reported": 345,
+          "average": 77.3,
+          "grades": [13, 8, 7, 15, 27, 33, 25, 43, 46, 82, 43],
+          "instructors": ["Lasantha Premarathna Wijendra Acharige"]
+        },
+        {
+          "session": "2022W",
+          "reported": 361,
+          "average": 85.2,
+          "grades": [3, 1, 2, 6, 4, 14, 27, 31, 60, 67, 146],
+          "instructors": ["Marie Auger-Methe", "Benjamin Burr"]
+        },
+        {
+          "session": "2021W",
+          "reported": 173,
+          "average": 76.6,
+          "grades": [6, 0, 0, 8, 11, 10, 21, 20, 36, 33, 19],
+          "instructors": ["Lasantha Premarathna Wijendra Acharige"]
+        }
+      ]
+    },
+    "STAT 301": {
+      "reported": 1251,
+      "average": 81.4,
+      "grades": [16, 11, 25, 26, 46, 71, 107, 140, 227, 235, 336],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 295,
+          "average": 80.7,
+          "grades": [6, 1, 10, 8, 13, 21, 26, 33, 37, 58, 82],
+          "instructors": ["Vivian Meng", "Gabriela Cohen Freue"]
+        },
+        {
+          "session": "2025S",
+          "reported": 62,
+          "average": 77.9,
+          "grades": [1, 1, 1, 2, 7, 4, 5, 12, 11, 9, 9],
+          "instructors": ["Vivian Meng"]
+        },
+        {
+          "session": "2024W",
+          "reported": 332,
+          "average": 80.7,
+          "grades": [1, 4, 9, 7, 12, 24, 38, 40, 62, 56, 79],
+          "instructors": ["Lasantha Premarathna Wijendra Acharige", "Gabriela Cohen Freue"]
+        },
+        {
+          "session": "2024S",
+          "reported": 69,
+          "average": 77.9,
+          "grades": [1, 2, 2, 2, 5, 8, 2, 8, 13, 14, 12],
+          "instructors": ["Rodolfo Lourenzutti"]
+        },
+        {
+          "session": "2023W",
+          "reported": 300,
+          "average": 82.6,
+          "grades": [6, 2, 3, 4, 9, 12, 23, 32, 58, 64, 86],
+          "instructors": ["Gabriela Cohen Freue", "Lasantha Premarathna Wijendra Acharige"]
+        },
+        {
+          "session": "2022W",
+          "reported": 163,
+          "average": 84.8,
+          "grades": [1, 1, 0, 3, 0, 2, 13, 15, 37, 34, 57],
+          "instructors": ["Gabriela Cohen Freue"]
+        },
+        {
+          "session": "2021W",
+          "reported": 30,
+          "average": 82.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 9, 0, 11],
+          "instructors": ["Rodolfo Lourenzutti", "Gabriela Cohen Freue"]
+        }
+      ]
+    },
+    "STAT 302": {
+      "reported": 2617,
+      "average": 72.3,
+      "grades": [222, 75, 123, 161, 211, 271, 267, 302, 360, 256, 339],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 431,
+          "average": 72.6,
+          "grades": [14, 12, 30, 29, 36, 63, 59, 62, 55, 47, 24],
+          "instructors": ["Matias Salibian-Barrera", "Daniel McDonald", "Trevor Campbell"]
+        },
+        {
+          "session": "2025S",
+          "reported": 121,
+          "average": 68.8,
+          "grades": [10, 5, 6, 10, 13, 16, 18, 7, 20, 7, 9],
+          "instructors": ["Andy Tai"]
+        },
+        {
+          "session": "2024W",
+          "reported": 422,
+          "average": 72.0,
+          "grades": [40, 7, 14, 32, 38, 39, 49, 50, 56, 45, 52],
+          "instructors": ["Jiahua Chen", "Haodi Liang", "Vivian Meng"]
+        },
+        {
+          "session": "2024S",
+          "reported": 119,
+          "average": 77.9,
+          "grades": [10, 2, 1, 4, 1, 4, 4, 16, 23, 22, 32],
+          "instructors": ["Xiaoting Li"]
+        },
+        {
+          "session": "2023W",
+          "reported": 440,
+          "average": 72.6,
+          "grades": [35, 21, 29, 26, 34, 40, 37, 44, 47, 36, 77],
+          "instructors": ["Matias Salibian-Barrera", "Vivian Meng"]
+        },
+        {
+          "session": "2023S",
+          "reported": 90,
+          "average": 73.5,
+          "grades": [5, 3, 6, 7, 6, 6, 13, 9, 12, 5, 16],
+          "instructors": ["Hoi Yin Eugenia Yu"]
+        },
+        {
+          "session": "2022W",
+          "reported": 359,
+          "average": 71.2,
+          "grades": [45, 11, 14, 20, 26, 38, 31, 44, 54, 29, 47],
+          "instructors": ["Matias Salibian-Barrera", "Jiahua Chen", "Vivian Meng"]
+        },
+        {
+          "session": "2022S",
+          "reported": 118,
+          "average": 76.5,
+          "grades": [1, 3, 2, 5, 10, 17, 15, 18, 15, 13, 19],
+          "instructors": ["Benjamin Burr"]
+        },
+        {
+          "session": "2021W",
+          "reported": 401,
+          "average": 69.5,
+          "grades": [56, 11, 21, 28, 38, 36, 32, 44, 56, 33, 42],
+          "instructors": ["Matias Salibian-Barrera", "Jiahua Chen", "Michael Davis"]
+        },
+        {
+          "session": "2021S",
+          "reported": 116,
+          "average": 77.0,
+          "grades": [6, 0, 0, 0, 9, 12, 9, 8, 22, 19, 21],
+          "instructors": ["Ruben Zamar"]
+        }
+      ]
+    },
+    "STAT 305": {
+      "reported": 1551,
+      "average": 76.5,
+      "grades": [46, 34, 61, 83, 91, 153, 164, 176, 256, 193, 269],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 250,
+          "average": 76.2,
+          "grades": [6, 9, 11, 14, 15, 30, 22, 30, 38, 25, 50],
+          "instructors": ["Natalia Nolde", "Benjamin Bloem-Reddy", "Saifuddin Syed"]
+        },
+        {
+          "session": "2025S",
+          "reported": 64,
+          "average": 75.4,
+          "grades": [1, 0, 2, 4, 5, 10, 13, 7, 9, 6, 7],
+          "instructors": ["Lily Xia"]
+        },
+        {
+          "session": "2024W",
+          "reported": 260,
+          "average": 76.3,
+          "grades": [8, 5, 10, 10, 14, 28, 34, 30, 52, 39, 30],
+          "instructors": ["Natalia Nolde", "Alexander Sharp", "Benjamin Bloem-Reddy"]
+        },
+        {
+          "session": "2024S",
+          "reported": 37,
+          "average": 74.5,
+          "grades": [2, 2, 0, 2, 2, 5, 5, 4, 7, 2, 6],
+          "instructors": ["Vivian Meng"]
+        },
+        {
+          "session": "2023W",
+          "reported": 229,
+          "average": 75.3,
+          "grades": [10, 3, 11, 13, 20, 19, 24, 28, 40, 27, 32],
+          "instructors": ["Vivian Meng", "Benjamin Bloem-Reddy"]
+        },
+        {
+          "session": "2023S",
+          "reported": 54,
+          "average": 76.0,
+          "grades": [2, 6, 2, 3, 4, 2, 2, 4, 4, 6, 15],
+          "instructors": ["Rodolfo Lourenzutti"]
+        },
+        {
+          "session": "2022W",
+          "reported": 206,
+          "average": 77.7,
+          "grades": [6, 6, 7, 13, 12, 14, 22, 19, 39, 29, 39],
+          "instructors": ["William Welch", "Benjamin Bloem-Reddy"]
+        },
+        {
+          "session": "2022S",
+          "reported": 75,
+          "average": 79.2,
+          "grades": [1, 3, 4, 3, 5, 9, 6, 7, 9, 4, 24],
+          "instructors": ["Anthony-Alexander Christidis"]
+        },
+        {
+          "session": "2021W",
+          "reported": 277,
+          "average": 76.2,
+          "grades": [10, 0, 14, 14, 8, 26, 26, 35, 45, 34, 51],
+          "instructors": ["Alexandre Bouchard-Cote", "Benjamin Bloem-Reddy"]
+        },
+        {
+          "session": "2021S",
+          "reported": 99,
+          "average": 78.6,
+          "grades": [0, 0, 0, 7, 6, 10, 10, 12, 13, 21, 15],
+          "instructors": ["William Welch"]
+        }
+      ]
+    },
+    "STAT 306": {
+      "reported": 1334,
+      "average": 75.7,
+      "grades": [47, 22, 35, 49, 87, 121, 162, 176, 279, 205, 122],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 251,
+          "average": 72.8,
+          "grades": [24, 1, 8, 11, 19, 26, 28, 28, 50, 39, 17],
+          "instructors": ["Rodolfo Lourenzutti", "Kenny Chiu"]
+        },
+        {
+          "session": "2025S",
+          "reported": 37,
+          "average": 79.1,
+          "grades": [0, 0, 0, 1, 2, 4, 4, 6, 12, 6, 2],
+          "instructors": ["Bruce Dunham"]
+        },
+        {
+          "session": "2024W",
+          "reported": 245,
+          "average": 75.1,
+          "grades": [13, 1, 4, 10, 13, 22, 44, 39, 54, 27, 18],
+          "instructors": ["Kenny Chiu"]
+        },
+        {
+          "session": "2024S",
+          "reported": 30,
+          "average": 78.0,
+          "grades": [0, 1, 2, 2, 1, 1, 2, 1, 10, 7, 3],
+          "instructors": ["Bruce Dunham"]
+        },
+        {
+          "session": "2023W",
+          "reported": 215,
+          "average": 72.1,
+          "grades": [4, 10, 11, 17, 20, 34, 29, 28, 34, 18, 7],
+          "instructors": ["Xinglong Li", "Bruce Dunham"]
+        },
+        {
+          "session": "2023S",
+          "reported": 58,
+          "average": 70.6,
+          "grades": [3, 6, 3, 3, 7, 3, 9, 9, 4, 5, 4],
+          "instructors": ["Benjamin Burr"]
+        },
+        {
+          "session": "2022W",
+          "reported": 223,
+          "average": 81.1,
+          "grades": [2, 2, 5, 5, 8, 14, 14, 30, 53, 45, 45],
+          "instructors": ["Bruce Dunham", "Benjamin Burr"]
+        },
+        {
+          "session": "2022S",
+          "reported": 44,
+          "average": 78.5,
+          "grades": [1, 1, 2, 0, 2, 2, 8, 5, 6, 8, 9],
+          "instructors": ["Benjamin Burr"]
+        },
+        {
+          "session": "2021W",
+          "reported": 231,
+          "average": 77.7,
+          "grades": [0, 0, 0, 0, 15, 15, 24, 30, 56, 50, 17],
+          "instructors": ["Lasantha Premarathna Wijendra Acharige", "Bruce Dunham"]
+        }
+      ]
+    },
+    "STAT 321": {
+      "reported": 153,
+      "average": 69.9,
+      "grades": [9, 18, 6, 18, 7, 8, 12, 15, 3, 19, 21],
+      "terms": [
+        {
+          "session": "2022W",
+          "reported": 58,
+          "average": 70.3,
+          "grades": [2, 5, 6, 5, 7, 8, 5, 3, 3, 6, 8],
+          "instructors": ["Cyril Leung", "Natalia Nolde"]
+        },
+        {
+          "session": "2021W",
+          "reported": 95,
+          "average": 69.7,
+          "grades": [7, 13, 0, 13, 0, 0, 7, 12, 0, 13, 13],
+          "instructors": ["Anthony-Alexander Christidis", "Lele Wang"]
+        }
+      ]
+    },
+    "STAT 344": {
+      "reported": 629,
+      "average": 73.5,
+      "grades": [9, 25, 32, 48, 48, 79, 97, 72, 111, 62, 40],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 125,
+          "average": 74.0,
+          "grades": [1, 6, 8, 6, 12, 11, 22, 14, 22, 14, 9],
+          "instructors": ["Lang Wu"]
+        },
+        {
+          "session": "2024W",
+          "reported": 97,
+          "average": 72.9,
+          "grades": [4, 6, 6, 8, 10, 14, 11, 8, 7, 5, 18],
+          "instructors": ["Lang Wu"]
+        },
+        {
+          "session": "2023W",
+          "reported": 133,
+          "average": 73.5,
+          "grades": [2, 9, 3, 10, 11, 15, 15, 19, 24, 17, 8],
+          "instructors": ["Lang Wu"]
+        },
+        {
+          "session": "2022W",
+          "reported": 136,
+          "average": 71.6,
+          "grades": [2, 4, 9, 15, 9, 24, 26, 9, 23, 10, 5],
+          "instructors": ["Lang Wu"]
+        },
+        {
+          "session": "2021W",
+          "reported": 138,
+          "average": 75.4,
+          "grades": [0, 0, 6, 9, 6, 15, 23, 22, 35, 16, 0],
+          "instructors": ["Lang Wu"]
+        }
+      ]
+    },
+    "STAT 404": {
+      "reported": 611,
+      "average": 77.0,
+      "grades": [17, 7, 12, 20, 36, 59, 69, 84, 130, 90, 77],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 126,
+          "average": 80.2,
+          "grades": [1, 0, 1, 2, 1, 13, 13, 25, 29, 22, 19],
+          "instructors": ["William Welch"]
+        },
+        {
+          "session": "2024W",
+          "reported": 121,
+          "average": 73.1,
+          "grades": [1, 4, 5, 12, 15, 22, 13, 17, 15, 8, 9],
+          "instructors": ["William Welch"]
+        },
+        {
+          "session": "2023W",
+          "reported": 113,
+          "average": 75.4,
+          "grades": [8, 1, 2, 2, 7, 8, 13, 19, 22, 14, 15],
+          "instructors": ["Jiahua Chen"]
+        },
+        {
+          "session": "2022W",
+          "reported": 106,
+          "average": 75.1,
+          "grades": [7, 2, 4, 4, 7, 9, 17, 9, 23, 13, 11],
+          "instructors": ["Jiahua Chen"]
+        },
+        {
+          "session": "2021W",
+          "reported": 145,
+          "average": 80.3,
+          "grades": [0, 0, 0, 0, 6, 7, 13, 14, 41, 33, 23],
+          "instructors": ["Jiahua Chen"]
+        }
+      ]
+    },
+    "STAT 405": {
+      "reported": 72,
+      "average": 79.1,
+      "grades": [0, 0, 0, 3, 4, 6, 13, 11, 11, 14, 10],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 72,
+          "average": 79.1,
+          "grades": [0, 0, 0, 3, 4, 6, 13, 11, 11, 14, 10],
+          "instructors": ["Alexandre Bouchard-Cote", "Charles Margossian"]
+        }
+      ]
+    },
+    "STAT 406": {
+      "reported": 679,
+      "average": 81.6,
+      "grades": [6, 3, 2, 5, 17, 9, 38, 116, 216, 180, 80],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 138,
+          "average": 83.6,
+          "grades": [1, 0, 0, 0, 2, 1, 4, 17, 48, 41, 24],
+          "instructors": ["Geoffrey Pleiss"]
+        },
+        {
+          "session": "2024W",
+          "reported": 144,
+          "average": 80.5,
+          "grades": [2, 1, 1, 1, 3, 4, 10, 29, 50, 34, 9],
+          "instructors": ["Trevor Campbell", "Geoffrey Pleiss"]
+        },
+        {
+          "session": "2023W",
+          "reported": 139,
+          "average": 80.7,
+          "grades": [3, 0, 0, 2, 3, 1, 9, 36, 37, 34, 14],
+          "instructors": ["Daniel McDonald"]
+        },
+        {
+          "session": "2022W",
+          "reported": 140,
+          "average": 82.5,
+          "grades": [0, 2, 1, 2, 2, 3, 8, 10, 50, 48, 14],
+          "instructors": ["Daniel McDonald"]
+        },
+        {
+          "session": "2021W",
+          "reported": 118,
+          "average": 80.7,
+          "grades": [0, 0, 0, 0, 7, 0, 7, 24, 31, 23, 19],
+          "instructors": ["Daniel Mcdonald"]
+        }
+      ]
+    },
+    "STAT 443": {
+      "reported": 707,
+      "average": 70.1,
+      "grades": [38, 52, 62, 50, 58, 58, 77, 69, 108, 72, 48],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 127,
+          "average": 66.7,
+          "grades": [6, 13, 26, 9, 15, 7, 18, 10, 7, 7, 9],
+          "instructors": ["Harry Sue Wah Joe"]
+        },
+        {
+          "session": "2024W",
+          "reported": 129,
+          "average": 64.8,
+          "grades": [10, 17, 20, 9, 14, 16, 10, 15, 6, 5, 7],
+          "instructors": ["Natalia Nolde"]
+        },
+        {
+          "session": "2023W",
+          "reported": 144,
+          "average": 68.5,
+          "grades": [17, 9, 6, 9, 11, 12, 18, 12, 27, 12, 8],
+          "instructors": ["Natalia Nolde"]
+        },
+        {
+          "session": "2022W",
+          "reported": 150,
+          "average": 70.9,
+          "grades": [5, 13, 10, 17, 11, 13, 17, 10, 30, 15, 9],
+          "instructors": ["Natalia Nolde"]
+        },
+        {
+          "session": "2021W",
+          "reported": 157,
+          "average": 77.7,
+          "grades": [0, 0, 0, 6, 7, 10, 14, 22, 38, 33, 15],
+          "instructors": ["Natalia Nolde"]
+        }
+      ]
+    },
+    "STAT 447": {
+      "reported": 166,
+      "average": 77.8,
+      "grades": [3, 1, 3, 5, 10, 9, 19, 32, 31, 28, 16],
+      "terms": [
+        {
+          "session": "2024W",
+          "topic": "C",
+          "title": "BAYESIAN STATS",
+          "reported": 54,
+          "average": 77.1,
+          "grades": [1, 1, 1, 3, 3, 5, 7, 8, 8, 8, 9],
+          "instructors": ["Alexandre Bouchard-Cote"]
+        },
+        {
+          "session": "2023W",
+          "topic": "C",
+          "title": "Special Topics in Statistics",
+          "reported": 38,
+          "average": 76.8,
+          "grades": [1, 0, 2, 2, 2, 2, 5, 5, 8, 7, 4],
+          "instructors": ["Alexandre Bouchard-Cote"]
+        },
+        {
+          "session": "2022W",
+          "topic": "B",
+          "title": "Special Topics in Statistics",
+          "reported": 42,
+          "average": 76.5,
+          "grades": [1, 0, 0, 0, 5, 2, 7, 13, 6, 5, 3],
+          "instructors": ["Harry Sue Wah Joe"]
+        },
+        {
+          "session": "2021W",
+          "topic": "B",
+          "title": "Special Topics in Statistics",
+          "reported": 32,
+          "average": 82.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 6, 9, 8, 0],
+          "instructors": ["Harry Sue Wah Joe"]
+        }
+      ]
+    },
+    "STAT 450": {
+      "reported": 126,
+      "average": 91.0,
+      "grades": [0, 0, 0, 0, 0, 1, 0, 0, 6, 24, 91],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 26,
+          "average": 90.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 6, 19],
+          "instructors": ["Bruce Dunham", "Grace Tompkins", "Rodolfo Lourenzutti"]
+        },
+        {
+          "session": "2024W",
+          "reported": 27,
+          "average": 92.9,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 0, 0, 3, 23],
+          "instructors": ["Rodolfo Lourenzutti", "Keegan Korthauer", "Melissa Lee"]
+        },
+        {
+          "session": "2023W",
+          "reported": 28,
+          "average": 89.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 4, 9, 15],
+          "instructors": ["Rodolfo Lourenzutti", "Hongxing Estella Qi", "Keegan Korthauer", "Melissa Lee"]
+        },
+        {
+          "session": "2022W",
+          "reported": 26,
+          "average": 91.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 6, 19],
+          "instructors": ["Rodolfo Lourenzutti", "Hongxing Estella Qi", "Keegan Korthauer", "Melissa Lee"]
+        },
+        {
+          "session": "2021W",
+          "reported": 19,
+          "average": 89.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 15],
+          "instructors": ["Rodolfo Lourenzutti", "Nancy Heckman", "Hongxing Estella Qi", "Melissa Lee"]
+        }
+      ]
+    },
+    "STAT 460": {
+      "reported": 24,
+      "average": 86.8,
+      "grades": [0, 0, 1, 0, 0, 0, 0, 1, 4, 2, 10],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 11,
+          "average": 90.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 4, 1, 6],
+          "instructors": ["Benjamin Bloem-Reddy", "Daniel McDonald"]
+        },
+        {
+          "session": "2022W",
+          "reported": 7,
+          "average": 83.7,
+          "grades": [0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 4],
+          "instructors": ["Anthony-Alexander Christidis"]
+        },
+        {
+          "session": "2021W",
+          "reported": 6,
+          "average": 84.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Ruben Zamar"]
+        }
+      ]
+    },
+    "STAT 461": {
+      "reported": 9,
+      "average": 86.2,
+      "grades": [0, 0, 0, 0, 0, 0, 1, 2, 0, 2, 4],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 9,
+          "average": 86.2,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 2, 0, 2, 4],
+          "instructors": ["Jiahua Chen"]
+        }
+      ]
+    },
+    "STAT 520": {
+      "reported": 42,
+      "average": 91.1,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 17, 20],
+      "terms": [
+        {
+          "session": "2023W",
+          "topic": "P",
+          "title": "Topics in Bayesian Analysis and Decision Theory",
+          "reported": 10,
+          "average": 95.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 6],
+          "instructors": ["Geoffrey Pleiss"]
+        },
+        {
+          "session": "2022W",
+          "topic": "C",
+          "title": "Topics in Bayesian Analysis and Decision Theory",
+          "reported": 18,
+          "average": 90.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 8, 8],
+          "instructors": ["Paul Gustafson"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Topics in Bayesian Analysis and Decision Theory",
+          "reported": 14,
+          "average": 89.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 6],
+          "instructors": ["Alexandre Bouchard-Cote"]
+        }
+      ]
+    },
+    "STAT 522": {
+      "reported": 8,
+      "average": 89.6,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 5],
+      "terms": [
+        {
+          "session": "2024W",
+          "topic": "B",
+          "title": "Topics in Asymptotic Theory and Statistical Inference",
+          "reported": 8,
+          "average": 89.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 5],
+          "instructors": ["Jiahua Chen"]
+        }
+      ]
+    },
+    "STAT 535": {
+      "reported": 11,
+      "average": 91.5,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 8],
+      "terms": [
+        {
+          "session": "2024W",
+          "topic": "C",
+          "title": "STATISTCAL COMPU",
+          "reported": 11,
+          "average": 91.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 8],
+          "instructors": ["Benjamin Bloem-Reddy", "William Welch"]
+        }
+      ]
+    },
+    "STAT 536": {
+      "reported": 60,
+      "average": 84.7,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 16, 26, 6],
+      "terms": [
+        {
+          "session": "2024W",
+          "topic": "E",
+          "title": "BIOSTAT METHODS",
+          "reported": 11,
+          "average": 84.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 8, 3, 0],
+          "instructors": ["Vivian Meng"]
+        },
+        {
+          "session": "2024W",
+          "topic": "F",
+          "title": "BIOSTAT PART 2",
+          "reported": 7,
+          "average": 84.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 6, 0],
+          "instructors": ["Vivian Meng"]
+        },
+        {
+          "session": "2023W",
+          "topic": "E",
+          "title": "Statistical Theory for the Design and Analysis of Clinical Studies",
+          "reported": 8,
+          "average": 86.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 2],
+          "instructors": ["Lang Wu"]
+        },
+        {
+          "session": "2023W",
+          "topic": "F",
+          "title": "Statistical Theory for the Design and Analysis of Clinical Studies",
+          "reported": 6,
+          "average": 86.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 1],
+          "instructors": ["Harry Sue Wah Joe"]
+        },
+        {
+          "session": "2022W",
+          "topic": "E",
+          "title": "Statistical Theory for the Design and Analysis of Clinical Studies",
+          "reported": 10,
+          "average": 87.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 5, 3],
+          "instructors": ["Lang Wu"]
+        },
+        {
+          "session": "2021W",
+          "topic": "D",
+          "title": "Statistical Theory for the Design and Analysis of Clinical Studies",
+          "reported": 10,
+          "average": 86.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 0],
+          "instructors": ["Paul Gustafson"]
+        },
+        {
+          "session": "2021W",
+          "topic": "E",
+          "title": "Statistical Theory for the Design and Analysis of Clinical Studies",
+          "reported": 8,
+          "average": 77.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Harry Sue Wah Joe"]
+        }
+      ]
+    },
+    "STAT 538": {
+      "reported": 38,
+      "average": 93.9,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 1, 0, 3, 33],
+      "terms": [
+        {
+          "session": "2024W",
+          "topic": "A",
+          "title": "Generalized Linear Models",
+          "reported": 7,
+          "average": 91.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 6],
+          "instructors": ["Gabriela Cohen Freue"]
+        },
+        {
+          "session": "2023W",
+          "topic": "A",
+          "title": "Generalized Linear Models",
+          "reported": 9,
+          "average": 93.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 6],
+          "instructors": ["Gabriela Cohen Freue"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Generalized Linear Models",
+          "reported": 8,
+          "average": 93.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 7],
+          "instructors": ["Gabriela Cohen Freue"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Generalized Linear Models",
+          "reported": 14,
+          "average": 95.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14],
+          "instructors": ["Gabriela Cohen Freue"]
+        }
+      ]
+    },
+    "STAT 540": {
+      "reported": 57,
+      "average": 93.0,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 4, 50],
+      "terms": [
+        {
+          "session": "2024W",
+          "topic": "A",
+          "title": "Statistical Methods for High Dimensional Biology",
+          "reported": 11,
+          "average": 94.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 9],
+          "instructors": ["Keegan Korthauer", "Yongjin Park"]
+        },
+        {
+          "session": "2023W",
+          "reported": 12,
+          "average": 90.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 9],
+          "instructors": ["Keegan Korthauer", "Yongjin Park"]
+        },
+        {
+          "session": "2022W",
+          "reported": 13,
+          "average": 92.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 12],
+          "instructors": ["Keegan Korthauer", "Yongjin Park"]
+        },
+        {
+          "session": "2021W",
+          "reported": 21,
+          "average": 94.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20],
+          "instructors": ["Keegan Korthauer", "Yongjin Park"]
+        }
+      ]
+    },
+    "STAT 545": {
+      "reported": 697,
+      "average": 96.5,
+      "grades": [2, 0, 0, 0, 0, 1, 0, 1, 2, 10, 662],
+      "terms": [
+        {
+          "session": "2024W",
+          "topic": "A",
+          "title": "DATA ANALYSIS I",
+          "reported": 88,
+          "average": 96.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 84],
+          "instructors": ["Lucy Gao", "Katherine Burak"]
+        },
+        {
+          "session": "2024W",
+          "topic": "B",
+          "title": "DATA ANALYSIS II",
+          "reported": 75,
+          "average": 97.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 74],
+          "instructors": ["Lucy Gao", "Katherine Burak"]
+        },
+        {
+          "session": "2023W",
+          "topic": "A",
+          "title": "Exploratory Data Analysis",
+          "reported": 97,
+          "average": 96.0,
+          "grades": [1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 89],
+          "instructors": ["Lucy Gao"]
+        },
+        {
+          "session": "2023W",
+          "topic": "B",
+          "title": "Exploratory Data Analysis",
+          "reported": 78,
+          "average": 97.2,
+          "grades": [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 75],
+          "instructors": ["Lucy Gao"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Exploratory Data Analysis",
+          "reported": 94,
+          "average": 97.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 91],
+          "instructors": ["Lucy Gao"]
+        },
+        {
+          "session": "2022W",
+          "topic": "B",
+          "title": "Exploratory Data Analysis",
+          "reported": 71,
+          "average": 96.6,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 0, 1, 3, 66],
+          "instructors": ["Lucy Gao"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Exploratory Data Analysis",
+          "reported": 107,
+          "average": 95.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 100],
+          "instructors": ["Vincenzo Coia"]
+        },
+        {
+          "session": "2021W",
+          "topic": "B",
+          "title": "Exploratory Data Analysis",
+          "reported": 87,
+          "average": 96.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 83],
+          "instructors": ["Vincenzo Coia"]
+        }
+      ]
+    },
+    "STAT 547": {
+      "reported": 115,
+      "average": 90.3,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 2, 9, 27, 58],
+      "terms": [
+        {
+          "session": "2024W",
+          "topic": "C",
+          "title": "PROB OF STATS",
+          "reported": 9,
+          "average": 87.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 2, 0, 4, 3],
+          "instructors": ["Alexandre Bouchard-Cote"]
+        },
+        {
+          "session": "2024W",
+          "topic": "U",
+          "title": "NNTheory",
+          "reported": 9,
+          "average": 92.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 6],
+          "instructors": ["Geoffrey Pleiss"]
+        },
+        {
+          "session": "2023W",
+          "topic": "C",
+          "title": "Topics in Statistics",
+          "reported": 17,
+          "average": 86.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 3, 9, 2],
+          "instructors": ["Alexandre Bouchard-Cote"]
+        },
+        {
+          "session": "2023W",
+          "topic": "M",
+          "title": "Topics in Statistics",
+          "reported": 8,
+          "average": 89.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 4],
+          "instructors": ["Natalia Nolde"]
+        },
+        {
+          "session": "2023W",
+          "topic": "T",
+          "title": "Topics in Statistics",
+          "reported": 10,
+          "average": 99.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10],
+          "instructors": ["Lucy Gao"]
+        },
+        {
+          "session": "2022W",
+          "topic": "C",
+          "title": "Topics in Statistics",
+          "reported": 15,
+          "average": 88.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 3, 5, 7],
+          "instructors": ["Benjamin Bloem-Reddy"]
+        },
+        {
+          "session": "2022W",
+          "topic": "N",
+          "title": "Topics in Statistics",
+          "reported": 7,
+          "average": 91.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 5],
+          "instructors": ["Marie Auger-Methe"]
+        },
+        {
+          "session": "2022W",
+          "topic": "S",
+          "title": "Topics in Statistics",
+          "reported": 17,
+          "average": 91.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 13],
+          "instructors": ["Benjamin Bloem-Reddy"]
+        },
+        {
+          "session": "2021W",
+          "topic": "C",
+          "title": "Topics in Statistics",
+          "reported": 16,
+          "average": 90.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8],
+          "instructors": ["Benjamin Bloem-Reddy"]
+        },
+        {
+          "session": "2021W",
+          "topic": "M",
+          "title": "Topics in Statistics",
+          "reported": 7,
+          "average": 88.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Natalia Nolde"]
+        }
+      ]
+    },
+    "STAT 548": {
+      "reported": 6,
+      "average": 85.2,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      "terms": [
+        {
+          "session": "2023W",
+          "topic": "B",
+          "title": "Directed Studies in Statistics",
+          "reported": 6,
+          "average": 85.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": []
+        }
+      ]
+    },
+    "STAT 549": {
+      "reported": 8,
+      "average": 90.3,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 4],
+      "terms": [
+        {
+          "session": "2023S",
+          "topic": "A",
+          "title": "Thesis for Master's Degree",
+          "reported": 8,
+          "average": 90.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 4],
+          "instructors": []
+        }
+      ]
+    },
+    "STAT 550": {
+      "reported": 52,
+      "average": 87.9,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 5, 24, 16],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 11,
+          "average": 87.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 7, 3],
+          "instructors": ["Hongxing Estella Qi", "Lang Wu"]
+        },
+        {
+          "session": "2023W",
+          "reported": 15,
+          "average": 86.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 12, 0],
+          "instructors": ["Lang Wu", "Hongxing Estella Qi", "Daniel McDonald"]
+        },
+        {
+          "session": "2022W",
+          "reported": 12,
+          "average": 88.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 5, 5],
+          "instructors": ["Lang Wu", "Hongxing Estella Qi", "Daniel McDonald"]
+        },
+        {
+          "session": "2021W",
+          "reported": 14,
+          "average": 90.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8],
+          "instructors": ["Daniel Mcdonald"]
+        }
+      ]
+    },
+    "STAT 551": {
+      "reported": 22,
+      "average": 80.1,
+      "grades": [0, 0, 0, 0, 0, 0, 1, 6, 14, 1, 0],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 14,
+          "average": 80.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 3, 11, 0, 0],
+          "instructors": ["Harry Sue Wah Joe"]
+        },
+        {
+          "session": "2023W",
+          "reported": 8,
+          "average": 80.1,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 3, 3, 1, 0],
+          "instructors": ["Harry Sue Wah Joe"]
+        }
+      ]
+    },
+    "STAT 560": {
+      "reported": 53,
+      "average": 89.1,
+      "grades": [0, 0, 0, 0, 0, 0, 1, 0, 6, 11, 30],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 11,
+          "average": 89.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 4, 2, 5],
+          "instructors": ["Benjamin Bloem-Reddy"]
+        },
+        {
+          "session": "2023W",
+          "reported": 13,
+          "average": 88.5,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 1, 5, 6],
+          "instructors": ["Benjamin Bloem-Reddy"]
+        },
+        {
+          "session": "2022W",
+          "reported": 12,
+          "average": 89.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 4, 7],
+          "instructors": ["Anthony-Alexander Christidis"]
+        },
+        {
+          "session": "2021W",
+          "reported": 17,
+          "average": 88.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12],
+          "instructors": ["Ruben Zamar"]
+        }
+      ]
+    },
+    "STAT 561": {
+      "reported": 39,
+      "average": 88.8,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 2, 5, 1, 20],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 10,
+          "average": 83.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 2, 4, 1, 3],
+          "instructors": ["Matias Salibian-Barrera"]
+        },
+        {
+          "session": "2023W",
+          "reported": 9,
+          "average": 92.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7],
+          "instructors": ["Jiahua Chen"]
+        },
+        {
+          "session": "2022W",
+          "reported": 11,
+          "average": 93.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 10],
+          "instructors": ["Matias Salibian-Barrera"]
+        },
+        {
+          "session": "2021W",
+          "reported": 9,
+          "average": 84.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Matias Salibian-Barrera"]
+        }
+      ]
+    }
+  }
+}
