@@ -1,10 +1,13 @@
+import { useEffect, useRef } from "react";
 import type { ReactNode } from "react";
 import { displayCode, simplifyTree, splitDescription } from "@/lib/details";
+import { sessionRange } from "@/lib/grades";
 import type { Highlight } from "@/lib/highlight";
 import type { AlsoNeeded, CoursePath } from "@/lib/path";
 import { requirementStatus } from "@/lib/progress";
 import type { CourseProgress } from "@/lib/progress";
-import type { Course, ReqNode, Requisite } from "@/lib/types";
+import type { Course, CourseGrades, ReqNode, Requisite } from "@/lib/types";
+import { GradeSummary, TeachingHistory } from "./Grades";
 import { Swatch } from "./Legend";
 import { StatusSample, TickChip } from "./Status";
 
@@ -19,6 +22,8 @@ interface CourseDetailsProps {
   onToggle: (code: string) => void; // mark a course done, or unmark it
   onMap: Set<string>; // courses drawn on the page, which can be clicked
   outside: ReadonlySet<string>; // courses not on the map that can be ticked (MATH 221, …)
+  grades: CourseGrades | undefined; // from UBCGrades; undefined if it has none for this course
+  gradeSessions: string[]; // the terms the grade data covers, oldest first
   calendarUrl: string;
   onSelect: (code: string) => void;
   onClose: () => void;
@@ -37,6 +42,8 @@ export default function CourseDetails({
   onToggle,
   onMap,
   outside,
+  grades,
+  gradeSessions,
   calendarUrl,
   onSelect,
   onClose,
@@ -48,8 +55,18 @@ export default function CourseDetails({
   const isDone = done.has(course.code);
   const hasPath = path !== null && path.terms.length > 0; // false once the course is done
 
+  // The panel scrolls on its own. A newly picked course starts at the top, not wherever the
+  // last one was scrolled to.
+  const panelRef = useRef<HTMLElement>(null);
+  useEffect(() => {
+    panelRef.current?.scrollTo({ top: 0 });
+  }, [course.code]);
+
   return (
-    <aside className="absolute inset-0 z-10 overflow-y-auto bg-surface p-5 text-sm md:static md:w-96 md:shrink-0 md:border-l md:border-line">
+    <aside
+      ref={panelRef}
+      className="absolute inset-0 z-10 overflow-y-auto bg-surface p-5 text-sm md:static md:w-96 md:shrink-0 md:border-l md:border-line"
+    >
       <div className="flex items-start justify-between gap-3">
         <div>
           <h2 className="text-lg font-semibold">
@@ -130,6 +147,19 @@ export default function CourseDetails({
       {course.equivalency && (
         <Section title="Equivalent courses">
           <p>{course.equivalency}. Credit is given for only one of them.</p>
+        </Section>
+      )}
+
+      <Section title="Grades" note={`${sessionRange(gradeSessions)}, from UBCGrades`}>
+        {grades ? (
+          <GradeSummary grades={grades} />
+        ) : (
+          <p className="text-ink-muted">UBCGrades has no grades for this course in these terms.</p>
+        )}
+      </Section>
+      {grades && (
+        <Section title="Teaching history">
+          <TeachingHistory course={course} terms={grades.terms} />
         </Section>
       )}
 
@@ -259,10 +289,14 @@ function AlsoItem({ item, ...links }: { item: AlsoNeeded } & Links) {
   );
 }
 
-function Section({ title, children }: { title: string; children: ReactNode }) {
+// A titled part of the panel. The note is a short aside after the title, in grey.
+function Section({ title, note, children }: { title: string; note?: string; children: ReactNode }) {
   return (
     <section className="mt-5 border-t border-line pt-4">
-      <h3 className="mb-2 font-semibold">{title}</h3>
+      <h3 className="mb-2 font-semibold">
+        {title}
+        {note && <span className="font-normal text-ink-muted"> · {note}</span>}
+      </h3>
       {children}
     </section>
   );

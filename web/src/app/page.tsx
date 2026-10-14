@@ -3,17 +3,25 @@ import path from "node:path";
 import CourseGraph from "@/components/CourseGraph";
 import EdgeLegend from "@/components/Legend";
 import type { PlacedCourse } from "@/components/CourseGraph";
+import { gradesFor } from "@/lib/grades";
 import { buildGraph, toGraphNode, undergradOnly } from "@/lib/graph";
 import { layoutGraph } from "@/lib/layout";
 import { splitCourses } from "@/lib/sections";
-import type { CourseFile } from "@/lib/types";
+import type { CourseFile, GradesFile } from "@/lib/types";
 
 // This is a server component. With the static export it runs once, during `npm run build`,
 // so the finished site is plain HTML and JSON and never calls an API.
+// process.cwd() is web/ during the build, and the pipeline's output sits next to it.
+function loadJson(...parts: string[]) {
+  return JSON.parse(readFileSync(path.join(process.cwd(), "..", "data", ...parts), "utf8"));
+}
+
 function loadCourses(subject: string): CourseFile {
-  // process.cwd() is web/ during the build, and the pipeline's output sits next to it.
-  const file = path.join(process.cwd(), "..", "data", "courses", `${subject}.json`);
-  return JSON.parse(readFileSync(file, "utf8"));
+  return loadJson("courses", `${subject}.json`);
+}
+
+function loadGrades(subject: string): GradesFile {
+  return loadJson("grades", `${subject}.json`);
 }
 
 export default function Home() {
@@ -28,6 +36,8 @@ export default function Home() {
 
   const nodes = [...graph.nodes, ...sections.flatMap((s) => s.nodes)];
   const courses: PlacedCourse[] = nodes.map((n) => ({ ...n, ...positions.get(n.id)! }));
+  const details = [...main, ...coop, ...other];
+  const grades = loadGrades("cpsc");
 
   return (
     <main className="flex h-screen flex-col">
@@ -60,14 +70,18 @@ export default function Home() {
           </p>
         </div>
       </header>
-      <div className="flex-1">
+      {/* min-h-0 lets this area be shorter than what's in it, so a long side panel scrolls
+          on its own instead of stretching the page. */}
+      <div className="min-h-0 flex-1">
         <CourseGraph
           courses={courses}
           edges={graph.edges}
           labels={labels}
           bands={bands}
           width={width}
-          details={[...main, ...coop, ...other]}
+          details={details}
+          grades={gradesFor(grades, details.map((c) => c.code))}
+          gradeSessions={grades.sessions}
           calendarUrl={data.source}
         />
       </div>

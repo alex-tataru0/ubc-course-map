@@ -27,7 +27,7 @@ import { groupBySubject, outsideCourses } from "@/lib/outside";
 import { planPath } from "@/lib/path";
 import { countStatuses, courseProgress } from "@/lib/progress";
 import type { CourseStatus } from "@/lib/progress";
-import type { Course } from "@/lib/types";
+import type { Course, CourseGrades } from "@/lib/types";
 import CourseDetails from "./CourseDetails";
 import OutsideCourses from "./OutsideCourses";
 import ProgressBar from "./ProgressBar";
@@ -44,6 +44,8 @@ interface CourseGraphProps {
   bands: Band[]; // the shaded strip behind each year
   width: number; // width of the graph's widest row
   details: Course[]; // the full calendar records, for the side panel
+  grades: Record<string, CourseGrades>; // from UBCGrades, for the courses that have any
+  gradeSessions: string[]; // the terms the grade data covers, oldest first
   calendarUrl: string;
 }
 
@@ -201,6 +203,8 @@ export default function CourseGraph({
   bands,
   width,
   details,
+  grades,
+  gradeSessions,
   calendarUrl,
 }: CourseGraphProps) {
   const colorMode = useSystemColorMode();
@@ -507,6 +511,8 @@ export default function CourseGraph({
           onToggle={toggle}
           onMap={onMap}
           outside={outsideSet}
+          grades={grades[selectedCourse.code]}
+          gradeSessions={gradeSessions}
           calendarUrl={calendarUrl}
           onSelect={setSelected}
           onClose={() => setPanelOpen(false)}
