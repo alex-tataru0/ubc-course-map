@@ -1,0 +1,3619 @@
+{
+  "subject": "CPSC",
+  "campus": "UBCV",
+  "source": "https://ubcgrades.com",
+  "credit": "UBCGrades.com / UBC PAIR",
+  "sessions": ["2021S", "2021W", "2022S", "2022W", "2023S", "2023W", "2024S", "2024W", "2025S", "2025W"],
+  "buckets": ["<50%", "50-54%", "55-59%", "60-63%", "64-67%", "68-71%", "72-75%", "76-79%", "80-84%", "85-89%", "90-100%"],
+  "courses": {
+    "CPSC 100": {
+      "reported": 1585,
+      "average": 83.0,
+      "grades": [28, 11, 9, 14, 21, 39, 108, 115, 293, 341, 545],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 204,
+          "average": 85.5,
+          "grades": [4, 4, 1, 2, 3, 4, 6, 4, 33, 37, 106],
+          "instructors": ["Firas Moosvi"]
+        },
+        {
+          "session": "2024W",
+          "reported": 216,
+          "average": 81.6,
+          "grades": [2, 1, 2, 2, 8, 7, 19, 29, 41, 60, 45],
+          "instructors": ["Vsevolod Lynov", "Parsa Rajabi"]
+        },
+        {
+          "session": "2024S",
+          "reported": 34,
+          "average": 82.4,
+          "grades": [3, 0, 0, 2, 1, 0, 2, 1, 5, 5, 15],
+          "instructors": ["Hendrik Blok"]
+        },
+        {
+          "session": "2023W",
+          "reported": 216,
+          "average": 80.1,
+          "grades": [7, 2, 2, 4, 6, 14, 25, 21, 35, 41, 53],
+          "instructors": ["Oluwakemi Ola"]
+        },
+        {
+          "session": "2023S",
+          "reported": 65,
+          "average": 82.3,
+          "grades": [5, 0, 1, 0, 0, 1, 2, 2, 16, 19, 17],
+          "instructors": ["Hendrik Blok"]
+        },
+        {
+          "session": "2022W",
+          "reported": 297,
+          "average": 82.5,
+          "grades": [6, 4, 3, 1, 3, 10, 23, 28, 55, 70, 94],
+          "instructors": ["Hendrik Blok", "Vsevolod Lynov"]
+        },
+        {
+          "session": "2022S",
+          "reported": 84,
+          "average": 85.5,
+          "grades": [1, 0, 0, 3, 0, 3, 5, 5, 9, 17, 41],
+          "instructors": ["Hendrik Blok"]
+        },
+        {
+          "session": "2021W",
+          "reported": 385,
+          "average": 83.4,
+          "grades": [0, 0, 0, 0, 0, 0, 26, 25, 81, 77, 135],
+          "instructors": ["Hendrik Blok", "Oluwakemi Ola", "Paul Bucci"]
+        },
+        {
+          "session": "2021S",
+          "reported": 84,
+          "average": 86.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 18, 15, 39],
+          "instructors": ["Hendrik Blok"]
+        }
+      ]
+    },
+    "CPSC 103": {
+      "reported": 5466,
+      "average": 76.1,
+      "grades": [787, 23, 54, 76, 148, 248, 387, 510, 782, 974, 1343],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 925,
+          "average": 72.2,
+          "grades": [183, 5, 19, 22, 45, 51, 70, 76, 128, 131, 195],
+          "instructors": ["Meghan Allen", "Jessica Wong", "Laura Cang"]
+        },
+        {
+          "session": "2025S",
+          "reported": 106,
+          "average": 82.9,
+          "grades": [8, 0, 1, 1, 3, 6, 3, 3, 11, 23, 47],
+          "instructors": ["Laura Cang"]
+        },
+        {
+          "session": "2024W",
+          "reported": 876,
+          "average": 76.3,
+          "grades": [91, 11, 14, 27, 21, 62, 84, 92, 145, 155, 174],
+          "instructors": ["Ian Mitchell", "Vsevolod Lynov", "Jessica Wong", "Yi Nian Niu", "Laura Cang", "Meghan Allen"]
+        },
+        {
+          "session": "2024S",
+          "reported": 91,
+          "average": 72.9,
+          "grades": [17, 0, 0, 2, 6, 6, 7, 9, 15, 15, 14],
+          "instructors": ["Jessica Wong"]
+        },
+        {
+          "session": "2023W",
+          "reported": 1095,
+          "average": 78.0,
+          "grades": [128, 5, 8, 12, 35, 53, 52, 108, 137, 217, 298],
+          "instructors": ["Ian Mitchell", "Jessica Wong", "Hendrik Blok", "Giulia Toti"]
+        },
+        {
+          "session": "2023S",
+          "reported": 134,
+          "average": 74.9,
+          "grades": [20, 0, 1, 3, 11, 8, 12, 9, 11, 15, 32],
+          "instructors": ["Jessica Wong", "Meghan Allen"]
+        },
+        {
+          "session": "2022W",
+          "reported": 959,
+          "average": 78.0,
+          "grades": [123, 2, 10, 5, 20, 40, 64, 83, 145, 196, 271],
+          "instructors": ["Giulia Toti", "Jessica Wong", "Hendrik Blok"]
+        },
+        {
+          "session": "2022S",
+          "reported": 184,
+          "average": 76.7,
+          "grades": [26, 0, 1, 4, 7, 8, 11, 16, 25, 37, 49],
+          "instructors": ["Ashish Chopra", "Meghan Allen"]
+        },
+        {
+          "session": "2021W",
+          "reported": 955,
+          "average": 75.0,
+          "grades": [177, 0, 0, 0, 0, 14, 77, 105, 150, 165, 214],
+          "instructors": ["Karina Mochetti De Magalhaes", "Jessica Wong", "Giulia Toti"]
+        },
+        {
+          "session": "2021S",
+          "reported": 141,
+          "average": 77.6,
+          "grades": [14, 0, 0, 0, 0, 0, 7, 9, 15, 20, 49],
+          "instructors": ["Ashish Chopra", "Jessica Wong"]
+        }
+      ]
+    },
+    "CPSC 107": {
+      "reported": 674,
+      "average": 72.0,
+      "grades": [113, 2, 20, 21, 49, 78, 49, 66, 86, 61, 111],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 94,
+          "average": 73.4,
+          "grades": [11, 0, 4, 5, 10, 9, 6, 10, 15, 11, 13],
+          "instructors": ["Rik Blok"]
+        },
+        {
+          "session": "2025S",
+          "reported": 37,
+          "average": 75.8,
+          "grades": [2, 0, 2, 3, 1, 7, 3, 3, 2, 6, 8],
+          "instructors": ["Vsevolod Lynov"]
+        },
+        {
+          "session": "2024W",
+          "reported": 110,
+          "average": 74.9,
+          "grades": [8, 0, 4, 3, 15, 18, 9, 12, 14, 6, 21],
+          "instructors": ["Hendrik Blok"]
+        },
+        {
+          "session": "2024S",
+          "reported": 38,
+          "average": 68.6,
+          "grades": [10, 0, 1, 2, 4, 2, 3, 4, 5, 0, 7],
+          "instructors": ["Meghan Allen"]
+        },
+        {
+          "session": "2023W",
+          "reported": 124,
+          "average": 69.4,
+          "grades": [21, 2, 8, 4, 8, 14, 16, 13, 11, 7, 14],
+          "instructors": ["Hendrik Blok"]
+        },
+        {
+          "session": "2022W",
+          "reported": 149,
+          "average": 71.5,
+          "grades": [35, 0, 1, 4, 4, 13, 12, 10, 24, 19, 27],
+          "instructors": ["Meghan Allen"]
+        },
+        {
+          "session": "2021W",
+          "reported": 122,
+          "average": 71.5,
+          "grades": [26, 0, 0, 0, 7, 15, 0, 14, 15, 12, 21],
+          "instructors": ["Meghan Allen"]
+        }
+      ]
+    },
+    "CPSC 110": {
+      "reported": 6910,
+      "average": 75.6,
+      "grades": [1109, 57, 102, 147, 221, 315, 451, 560, 817, 1008, 1929],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 1052,
+          "average": 72.9,
+          "grades": [154, 26, 34, 56, 63, 78, 62, 78, 111, 121, 269],
+          "instructors": ["Nick Bradley", "Ronald Garcia", "Vsevolod Lynov"]
+        },
+        {
+          "session": "2024W",
+          "reported": 1199,
+          "average": 75.7,
+          "grades": [167, 20, 30, 39, 54, 69, 79, 73, 101, 148, 419],
+          "instructors": ["Gregor Kiczales", "Hendrik Blok", "Ronald Garcia", "Nicholas Bradley", "Vsevolod Lynov"]
+        },
+        {
+          "session": "2023W",
+          "reported": 1630,
+          "average": 76.6,
+          "grades": [194, 11, 29, 39, 62, 74, 106, 131, 203, 222, 435],
+          "instructors": ["Gregor Kiczales", "Norman Hutchinson"]
+        },
+        {
+          "session": "2023S",
+          "reported": 108,
+          "average": 79.7,
+          "grades": [9, 0, 1, 0, 3, 3, 6, 9, 18, 22, 27],
+          "instructors": ["Paulette Koronkevich"]
+        },
+        {
+          "session": "2022W",
+          "reported": 1560,
+          "average": 76.8,
+          "grades": [275, 0, 8, 13, 25, 45, 101, 147, 229, 313, 404],
+          "instructors": ["Gregor Kiczales", "Oluwakemi Ola"]
+        },
+        {
+          "session": "2021W",
+          "reported": 1361,
+          "average": 74.4,
+          "grades": [310, 0, 0, 0, 14, 46, 97, 122, 155, 182, 375],
+          "instructors": ["Gregor Kiczales", "William Bowman", "Joanna Mcgrenere", "Paul Carter", "Oluwakemi Ola"]
+        }
+      ]
+    },
+    "CPSC 121": {
+      "reported": 5308,
+      "average": 76.9,
+      "grades": [547, 20, 81, 137, 288, 393, 407, 538, 742, 742, 1219],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 821,
+          "average": 79.7,
+          "grades": [86, 1, 12, 11, 40, 40, 61, 65, 108, 111, 286],
+          "instructors": ["Karina Mochetti", "Seyyed Hosseini", "Jordon Johnson"]
+        },
+        {
+          "session": "2025S",
+          "reported": 98,
+          "average": 76.1,
+          "grades": [13, 0, 0, 3, 5, 6, 4, 18, 15, 15, 19],
+          "instructors": ["Seyyed Hosseini", "Jordon Johnson"]
+        },
+        {
+          "session": "2024W",
+          "reported": 1019,
+          "average": 75.2,
+          "grades": [107, 11, 29, 53, 81, 89, 75, 84, 135, 142, 213],
+          "instructors": ["Seyyed Hosseini", "Karina Mochetti de Magalhaes", "Steven Wolfman"]
+        },
+        {
+          "session": "2024S",
+          "reported": 137,
+          "average": 79.6,
+          "grades": [13, 0, 1, 2, 4, 8, 14, 12, 21, 26, 36],
+          "instructors": ["Seyyed Hosseini"]
+        },
+        {
+          "session": "2023W",
+          "reported": 1245,
+          "average": 77.4,
+          "grades": [146, 3, 10, 22, 56, 82, 96, 126, 192, 180, 294],
+          "instructors": ["Seyyed Hosseini", "Karina Mochetti de Magalhaes"]
+        },
+        {
+          "session": "2023S",
+          "reported": 167,
+          "average": 83.2,
+          "grades": [4, 0, 1, 1, 3, 11, 13, 22, 29, 33, 50],
+          "instructors": ["Seyyed Hosseini", "Izabelle Janzen"]
+        },
+        {
+          "session": "2022W",
+          "reported": 1183,
+          "average": 75.3,
+          "grades": [143, 5, 28, 34, 70, 114, 107, 128, 176, 162, 216],
+          "instructors": ["Karina Mochetti de Magalhaes", "Geoffrey Tien", "Patrice Belleville"]
+        },
+        {
+          "session": "2022S",
+          "reported": 118,
+          "average": 85.5,
+          "grades": [1, 0, 0, 1, 1, 7, 7, 12, 12, 34, 43],
+          "instructors": ["Seyyed Hosseini"]
+        },
+        {
+          "session": "2021W",
+          "reported": 345,
+          "average": 72.8,
+          "grades": [24, 0, 0, 10, 15, 18, 14, 42, 18, 17, 44],
+          "instructors": ["Karina Mochetti De Magalhaes", "Patrice Belleville"]
+        },
+        {
+          "session": "2021S",
+          "reported": 175,
+          "average": 76.5,
+          "grades": [10, 0, 0, 0, 13, 18, 16, 29, 36, 22, 18],
+          "instructors": ["Jordon Johnson"]
+        }
+      ]
+    },
+    "CPSC 203": {
+      "reported": 709,
+      "average": 90.4,
+      "grades": [8, 1, 0, 3, 1, 8, 11, 17, 66, 96, 488],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 268,
+          "average": 90.3,
+          "grades": [3, 0, 0, 0, 1, 3, 4, 8, 36, 38, 175],
+          "instructors": ["Cinda Heeren"]
+        },
+        {
+          "session": "2024W",
+          "reported": 139,
+          "average": 90.7,
+          "grades": [1, 0, 0, 2, 0, 0, 2, 6, 11, 20, 97],
+          "instructors": ["Ian Mitchell"]
+        },
+        {
+          "session": "2023W",
+          "reported": 118,
+          "average": 88.9,
+          "grades": [3, 0, 0, 1, 0, 5, 4, 1, 8, 16, 79],
+          "instructors": ["Firas Moosvi"]
+        },
+        {
+          "session": "2022W",
+          "reported": 102,
+          "average": 93.4,
+          "grades": [1, 1, 0, 0, 0, 0, 1, 2, 5, 9, 83],
+          "instructors": ["Cinda Heeren"]
+        },
+        {
+          "session": "2021W",
+          "reported": 82,
+          "average": 88.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 6, 13, 54],
+          "instructors": ["Cinda Heeren"]
+        }
+      ]
+    },
+    "CPSC 210": {
+      "reported": 5722,
+      "average": 76.9,
+      "grades": [527, 47, 113, 184, 293, 433, 465, 580, 846, 855, 1272],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 808,
+          "average": 74.0,
+          "grades": [109, 10, 13, 42, 47, 80, 73, 80, 104, 115, 135],
+          "instructors": ["Reid Holmes", "Paul Carter", "Norman Hutchinson", "Katharine Kerr"]
+        },
+        {
+          "session": "2025S",
+          "reported": 127,
+          "average": 73.1,
+          "grades": [23, 1, 2, 7, 6, 11, 12, 12, 14, 14, 25],
+          "instructors": ["Mehrdad Oveisi"]
+        },
+        {
+          "session": "2024W",
+          "reported": 1105,
+          "average": 77.9,
+          "grades": [72, 16, 48, 40, 64, 71, 78, 122, 142, 174, 278],
+          "instructors": ["Paul Carter", "Firas Moosvi", "Mehrdad Oveisi-Fordoei", "Norman Hutchinson"]
+        },
+        {
+          "session": "2024S",
+          "reported": 145,
+          "average": 74.3,
+          "grades": [17, 1, 1, 10, 7, 8, 16, 15, 26, 19, 25],
+          "instructors": ["Paul Carter"]
+        },
+        {
+          "session": "2023W",
+          "reported": 1241,
+          "average": 77.7,
+          "grades": [94, 15, 27, 40, 59, 93, 107, 95, 170, 134, 333],
+          "instructors": ["Paul Carter", "Mehrdad Oveisi-Fordoei", "Felix Grund", "Firas Moosvi"]
+        },
+        {
+          "session": "2023S",
+          "reported": 194,
+          "average": 77.5,
+          "grades": [20, 0, 0, 3, 12, 14, 16, 17, 27, 32, 38],
+          "instructors": ["Paul Carter"]
+        },
+        {
+          "session": "2022W",
+          "reported": 1148,
+          "average": 77.0,
+          "grades": [105, 3, 14, 26, 54, 86, 99, 133, 216, 203, 209],
+          "instructors": ["Felix Grund", "Steven Wolfman", "Mehrdad Oveisi-Fordoei", "Meghan Allen"]
+        },
+        {
+          "session": "2022S",
+          "reported": 151,
+          "average": 78.9,
+          "grades": [7, 0, 2, 3, 9, 14, 16, 23, 20, 27, 30],
+          "instructors": ["Felix Grund"]
+        },
+        {
+          "session": "2021W",
+          "reported": 643,
+          "average": 77.0,
+          "grades": [73, 1, 6, 13, 35, 46, 34, 61, 99, 104, 162],
+          "instructors": ["Paul Carter", "Jessica Wong"]
+        },
+        {
+          "session": "2021S",
+          "reported": 160,
+          "average": 80.7,
+          "grades": [7, 0, 0, 0, 0, 10, 14, 22, 28, 33, 37],
+          "instructors": ["Felix Grund"]
+        }
+      ]
+    },
+    "CPSC 213": {
+      "reported": 4482,
+      "average": 74.3,
+      "grades": [397, 49, 158, 233, 329, 403, 475, 456, 562, 578, 757],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 685,
+          "average": 73.5,
+          "grades": [66, 17, 24, 36, 47, 82, 72, 72, 82, 84, 103],
+          "instructors": ["Jordon Johnson", "Oluwakemi Ola"]
+        },
+        {
+          "session": "2025S",
+          "reported": 106,
+          "average": 74.7,
+          "grades": [13, 0, 2, 6, 12, 8, 10, 7, 14, 12, 22],
+          "instructors": ["Jordon Johnson"]
+        },
+        {
+          "session": "2024W",
+          "reported": 800,
+          "average": 73.7,
+          "grades": [90, 7, 38, 41, 50, 65, 91, 79, 109, 92, 138],
+          "instructors": ["Jordon Johnson", "Geoffrey Tien"]
+        },
+        {
+          "session": "2024S",
+          "reported": 137,
+          "average": 75.8,
+          "grades": [12, 0, 0, 4, 9, 19, 21, 14, 18, 18, 22],
+          "instructors": ["Jordon Johnson"]
+        },
+        {
+          "session": "2023W",
+          "reported": 868,
+          "average": 76.0,
+          "grades": [79, 2, 15, 41, 65, 81, 70, 86, 118, 97, 186],
+          "instructors": ["Jordon Johnson", "Michael Feeley", "Geoffrey Tien"]
+        },
+        {
+          "session": "2023S",
+          "reported": 127,
+          "average": 74.5,
+          "grades": [8, 3, 6, 8, 10, 7, 11, 17, 13, 17, 24],
+          "instructors": ["Jordon Johnson"]
+        },
+        {
+          "session": "2022W",
+          "reported": 781,
+          "average": 73.9,
+          "grades": [68, 15, 38, 40, 74, 66, 91, 68, 79, 120, 122],
+          "instructors": ["Michael Feeley", "Geoffrey Tien", "Jordon Johnson"]
+        },
+        {
+          "session": "2022S",
+          "reported": 100,
+          "average": 71.3,
+          "grades": [12, 2, 5, 7, 11, 11, 9, 6, 11, 14, 12],
+          "instructors": ["Jordon Johnson"]
+        },
+        {
+          "session": "2021W",
+          "reported": 751,
+          "average": 74.6,
+          "grades": [49, 3, 18, 37, 41, 53, 79, 88, 107, 111, 119],
+          "instructors": ["Michael Feeley", "Priyaa Srinivasan", "Steven Wolfman", "Bo Robert Xiao", "Jordon Johnson"]
+        },
+        {
+          "session": "2021S",
+          "reported": 127,
+          "average": 71.8,
+          "grades": [0, 0, 12, 13, 10, 11, 21, 19, 11, 13, 9],
+          "instructors": ["Jonatan Schroeder"]
+        }
+      ]
+    },
+    "CPSC 221": {
+      "reported": 5165,
+      "average": 80.7,
+      "grades": [98, 29, 65, 132, 159, 323, 445, 599, 991, 989, 1172],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 859,
+          "average": 80.2,
+          "grades": [15, 5, 12, 17, 32, 67, 70, 134, 173, 161, 173],
+          "instructors": ["Vsevolod Lynov", "Geoffrey Tien"]
+        },
+        {
+          "session": "2025S",
+          "reported": 122,
+          "average": 74.8,
+          "grades": [9, 0, 1, 6, 6, 13, 23, 26, 17, 10, 11],
+          "instructors": ["Geoffrey Tien"]
+        },
+        {
+          "session": "2024W",
+          "reported": 926,
+          "average": 82.4,
+          "grades": [19, 3, 9, 20, 27, 43, 66, 84, 196, 204, 255],
+          "instructors": ["Cinda Heeren", "Geoffrey Tien"]
+        },
+        {
+          "session": "2024S",
+          "reported": 146,
+          "average": 77.4,
+          "grades": [4, 2, 2, 4, 4, 10, 24, 36, 31, 16, 13],
+          "instructors": ["Geoffrey Tien"]
+        },
+        {
+          "session": "2023W",
+          "reported": 991,
+          "average": 79.8,
+          "grades": [18, 3, 14, 26, 37, 69, 95, 105, 234, 211, 159],
+          "instructors": ["Vsevolod Lynov", "Geoffrey Tien"]
+        },
+        {
+          "session": "2023S",
+          "reported": 158,
+          "average": 74.5,
+          "grades": [8, 2, 3, 11, 10, 17, 19, 21, 23, 11, 17],
+          "instructors": ["Geoffrey Tien"]
+        },
+        {
+          "session": "2022W",
+          "reported": 983,
+          "average": 82.2,
+          "grades": [21, 10, 17, 29, 30, 51, 67, 94, 172, 190, 302],
+          "instructors": ["Cinda Heeren", "Tom Magliery"]
+        },
+        {
+          "session": "2022S",
+          "reported": 139,
+          "average": 76.3,
+          "grades": [4, 4, 1, 4, 2, 16, 22, 33, 27, 18, 8],
+          "instructors": ["Geoffrey Tien"]
+        },
+        {
+          "session": "2021W",
+          "reported": 841,
+          "average": 82.0,
+          "grades": [0, 0, 6, 15, 11, 37, 59, 66, 118, 168, 234],
+          "instructors": ["Cinda Heeren", "Steven Wolfman", "Geoffrey Tien"]
+        }
+      ]
+    },
+    "CPSC 259": {
+      "reported": 1019,
+      "average": 75.6,
+      "grades": [60, 6, 16, 31, 65, 120, 148, 159, 190, 100, 107],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 210,
+          "average": 76.7,
+          "grades": [22, 0, 2, 2, 6, 14, 28, 37, 47, 25, 27],
+          "instructors": ["Geoffrey Tien"]
+        },
+        {
+          "session": "2024W",
+          "reported": 218,
+          "average": 76.4,
+          "grades": [21, 1, 2, 0, 5, 21, 40, 38, 36, 22, 32],
+          "instructors": ["Geoffrey Tien"]
+        },
+        {
+          "session": "2023W",
+          "reported": 216,
+          "average": 75.9,
+          "grades": [10, 3, 2, 7, 10, 17, 34, 34, 53, 21, 14],
+          "instructors": ["Geoffrey Tien"]
+        },
+        {
+          "session": "2022W",
+          "reported": 192,
+          "average": 73.1,
+          "grades": [7, 2, 10, 11, 22, 33, 24, 28, 31, 14, 10],
+          "instructors": ["Geoffrey Tien"]
+        },
+        {
+          "session": "2021W",
+          "reported": 183,
+          "average": 75.7,
+          "grades": [0, 0, 0, 11, 22, 35, 22, 22, 23, 18, 24],
+          "instructors": ["Geoffrey Tien"]
+        }
+      ]
+    },
+    "CPSC 302": {
+      "reported": 502,
+      "average": 77.8,
+      "grades": [16, 12, 9, 18, 20, 32, 44, 49, 78, 72, 125],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 97,
+          "average": 77.3,
+          "grades": [2, 6, 5, 4, 8, 3, 8, 8, 14, 13, 26],
+          "instructors": ["Rik Blok"]
+        },
+        {
+          "session": "2024W",
+          "reported": 98,
+          "average": 78.3,
+          "grades": [3, 1, 2, 3, 7, 6, 7, 17, 13, 13, 26],
+          "instructors": ["Avleen Ghattahode"]
+        },
+        {
+          "session": "2023W",
+          "reported": 98,
+          "average": 76.5,
+          "grades": [5, 3, 1, 6, 3, 15, 9, 5, 10, 11, 25],
+          "instructors": ["Chen Greif"]
+        },
+        {
+          "session": "2022W",
+          "reported": 108,
+          "average": 78.0,
+          "grades": [6, 2, 1, 5, 2, 8, 10, 9, 22, 20, 23],
+          "instructors": ["Chen Greif"]
+        },
+        {
+          "session": "2021W",
+          "reported": 101,
+          "average": 78.6,
+          "grades": [0, 0, 0, 0, 0, 0, 10, 10, 19, 15, 25],
+          "instructors": ["Hendrik Blok"]
+        }
+      ]
+    },
+    "CPSC 303": {
+      "reported": 334,
+      "average": 74.9,
+      "grades": [26, 4, 12, 13, 26, 32, 24, 31, 35, 31, 77],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 68,
+          "average": 78.1,
+          "grades": [3, 0, 2, 3, 8, 6, 2, 5, 12, 11, 16],
+          "instructors": ["Chen Greif"]
+        },
+        {
+          "session": "2024W",
+          "reported": 73,
+          "average": 76.8,
+          "grades": [2, 2, 2, 6, 3, 8, 8, 6, 10, 10, 16],
+          "instructors": ["Chen Greif"]
+        },
+        {
+          "session": "2023W",
+          "reported": 58,
+          "average": 76.7,
+          "grades": [3, 1, 1, 1, 4, 5, 8, 5, 9, 4, 14],
+          "instructors": ["Joel Friedman"]
+        },
+        {
+          "session": "2022W",
+          "reported": 47,
+          "average": 74.9,
+          "grades": [6, 1, 1, 3, 3, 6, 0, 5, 4, 6, 12],
+          "instructors": ["Alexandra Bunger"]
+        },
+        {
+          "session": "2021W",
+          "reported": 88,
+          "average": 69.8,
+          "grades": [12, 0, 6, 0, 8, 7, 6, 10, 0, 0, 19],
+          "instructors": ["Kwang Moo Yi"]
+        }
+      ]
+    },
+    "CPSC 304": {
+      "reported": 3807,
+      "average": 79.9,
+      "grades": [76, 23, 44, 83, 151, 288, 417, 431, 825, 727, 722],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 654,
+          "average": 76.8,
+          "grades": [24, 8, 15, 32, 43, 67, 74, 99, 104, 102, 86],
+          "instructors": ["Jessica Wong", "Ivan Beschastnikh", "Jianhao Cao"]
+        },
+        {
+          "session": "2025S",
+          "reported": 131,
+          "average": 82.0,
+          "grades": [2, 0, 2, 1, 3, 9, 11, 10, 25, 27, 41],
+          "instructors": ["Gittu George"]
+        },
+        {
+          "session": "2024W",
+          "reported": 735,
+          "average": 80.5,
+          "grades": [12, 2, 4, 19, 28, 51, 83, 80, 178, 137, 141],
+          "instructors": ["Rachel Pottinger", "Vsevolod Lynov", "Raymond Tak-Yan Ng"]
+        },
+        {
+          "session": "2024S",
+          "reported": 134,
+          "average": 81.3,
+          "grades": [5, 0, 0, 1, 6, 6, 11, 17, 23, 31, 34],
+          "instructors": ["Vsevolod Lynov"]
+        },
+        {
+          "session": "2023W",
+          "reported": 784,
+          "average": 79.1,
+          "grades": [16, 6, 13, 13, 31, 73, 96, 84, 194, 126, 130],
+          "instructors": ["Rachel Pottinger", "Gittu George", "Jessica Wong", "Vsevolod Lynov", "Raymond Tak-Yan Ng"]
+        },
+        {
+          "session": "2023S",
+          "reported": 227,
+          "average": 80.6,
+          "grades": [8, 0, 1, 2, 4, 12, 29, 18, 43, 61, 47],
+          "instructors": ["Vsevolod Lynov", "Gittu George"]
+        },
+        {
+          "session": "2022W",
+          "reported": 680,
+          "average": 79.6,
+          "grades": [9, 6, 8, 13, 33, 53, 80, 79, 151, 140, 108],
+          "instructors": ["Rachel Pottinger", "Jessica Wong", "Raymond Tak-Yan Ng"]
+        },
+        {
+          "session": "2022S",
+          "reported": 151,
+          "average": 83.3,
+          "grades": [0, 1, 1, 2, 3, 10, 10, 15, 31, 30, 48],
+          "instructors": ["Gittu George"]
+        },
+        {
+          "session": "2021W",
+          "reported": 170,
+          "average": 84.2,
+          "grades": [0, 0, 0, 0, 0, 7, 15, 8, 44, 34, 55],
+          "instructors": ["Rachel Pottinger"]
+        },
+        {
+          "session": "2021S",
+          "reported": 141,
+          "average": 82.9,
+          "grades": [0, 0, 0, 0, 0, 0, 8, 21, 32, 39, 32],
+          "instructors": ["Hazra Imran"]
+        }
+      ]
+    },
+    "CPSC 310": {
+      "reported": 3486,
+      "average": 82.3,
+      "grades": [15, 19, 19, 43, 89, 187, 286, 423, 703, 908, 762],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 704,
+          "average": 81.1,
+          "grades": [3, 3, 2, 3, 20, 47, 67, 106, 187, 180, 86],
+          "instructors": ["Katharine Kerr", "Kyle Chin", "Nick Bradley"]
+        },
+        {
+          "session": "2025S",
+          "reported": 70,
+          "average": 79.9,
+          "grades": [1, 0, 2, 1, 6, 4, 5, 8, 17, 13, 13],
+          "instructors": ["Nick Bradley"]
+        },
+        {
+          "session": "2024W",
+          "reported": 669,
+          "average": 82.3,
+          "grades": [0, 2, 4, 9, 21, 30, 58, 89, 137, 198, 121],
+          "instructors": ["Reid Holmes", "Nicholas Bradley", "Katharine Kerr"]
+        },
+        {
+          "session": "2024S",
+          "reported": 68,
+          "average": 80.2,
+          "grades": [2, 0, 1, 0, 0, 4, 7, 18, 8, 17, 11],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "reported": 720,
+          "average": 82.0,
+          "grades": [2, 11, 2, 15, 22, 34, 56, 94, 136, 202, 136],
+          "instructors": ["Reid Holmes", "Katharine Kerr", "Nicholas Bradley"]
+        },
+        {
+          "session": "2022W",
+          "reported": 672,
+          "average": 81.1,
+          "grades": [7, 3, 8, 15, 20, 51, 65, 74, 142, 164, 123],
+          "instructors": ["Reid Holmes", "Ivan Beschastnikh", "Felix Grund"]
+        },
+        {
+          "session": "2021W",
+          "reported": 583,
+          "average": 86.1,
+          "grades": [0, 0, 0, 0, 0, 17, 28, 34, 76, 134, 272],
+          "instructors": ["Elisa Baniassad"]
+        }
+      ]
+    },
+    "CPSC 311": {
+      "reported": 334,
+      "average": 79.3,
+      "grades": [27, 4, 10, 9, 13, 10, 11, 33, 38, 41, 119],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 80,
+          "average": 81.2,
+          "grades": [8, 1, 1, 2, 4, 4, 4, 3, 6, 7, 40],
+          "instructors": ["Steven Wolfman"]
+        },
+        {
+          "session": "2024W",
+          "reported": 71,
+          "average": 77.0,
+          "grades": [8, 0, 0, 6, 4, 2, 4, 8, 6, 13, 20],
+          "instructors": ["Ronald Garcia"]
+        },
+        {
+          "session": "2023W",
+          "reported": 96,
+          "average": 77.3,
+          "grades": [5, 3, 9, 1, 5, 4, 3, 10, 8, 11, 26],
+          "instructors": ["Ronald Garcia"]
+        },
+        {
+          "session": "2021W",
+          "reported": 87,
+          "average": 81.8,
+          "grades": [6, 0, 0, 0, 0, 0, 0, 12, 18, 10, 33],
+          "instructors": ["Ronald Garcia"]
+        }
+      ]
+    },
+    "CPSC 312": {
+      "reported": 291,
+      "average": 79.1,
+      "grades": [7, 3, 3, 6, 11, 35, 34, 33, 55, 31, 70],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 94,
+          "average": 83.5,
+          "grades": [2, 1, 0, 1, 3, 3, 7, 6, 18, 13, 40],
+          "instructors": ["Steven Wolfman"]
+        },
+        {
+          "session": "2023W",
+          "reported": 89,
+          "average": 77.4,
+          "grades": [3, 0, 1, 3, 4, 11, 10, 13, 20, 7, 14],
+          "instructors": ["David Poole"]
+        },
+        {
+          "session": "2022W",
+          "reported": 108,
+          "average": 76.7,
+          "grades": [2, 2, 2, 2, 4, 21, 17, 14, 17, 11, 16],
+          "instructors": ["David Poole"]
+        }
+      ]
+    },
+    "CPSC 313": {
+      "reported": 3400,
+      "average": 77.3,
+      "grades": [124, 27, 63, 153, 181, 278, 363, 473, 677, 557, 437],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 663,
+          "average": 76.6,
+          "grades": [25, 8, 17, 45, 37, 65, 68, 100, 116, 94, 88],
+          "instructors": ["Norman Hutchinson", "Thomas Pasquier", "Patrice Belleville"]
+        },
+        {
+          "session": "2024W",
+          "reported": 750,
+          "average": 76.0,
+          "grades": [27, 8, 22, 41, 66, 78, 78, 109, 148, 90, 83],
+          "instructors": ["Reto Achermann", "Patrice Belleville", "Steven Wolfman"]
+        },
+        {
+          "session": "2023W",
+          "reported": 752,
+          "average": 76.9,
+          "grades": [39, 5, 15, 28, 34, 67, 89, 99, 149, 122, 92],
+          "instructors": ["Norman Hutchinson", "Steven Wolfman"]
+        },
+        {
+          "session": "2022W",
+          "reported": 629,
+          "average": 77.8,
+          "grades": [27, 6, 9, 26, 28, 42, 76, 91, 135, 110, 79],
+          "instructors": ["Patrice Belleville", "Norman Hutchinson", "Margo Seltzer"]
+        },
+        {
+          "session": "2021W",
+          "reported": 606,
+          "average": 79.5,
+          "grades": [6, 0, 0, 13, 16, 26, 52, 74, 129, 141, 95],
+          "instructors": ["Margo Seltzer", "Norman Hutchinson", "Amee Trivedi", "Michael Feeley"]
+        }
+      ]
+    },
+    "CPSC 314": {
+      "reported": 1116,
+      "average": 82.7,
+      "grades": [11, 10, 13, 13, 18, 35, 87, 112, 215, 267, 307],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 198,
+          "average": 80.5,
+          "grades": [3, 3, 1, 4, 3, 10, 18, 33, 53, 39, 31],
+          "instructors": ["Dinesh Pai", "Xingguang Yan"]
+        },
+        {
+          "session": "2024W",
+          "reported": 180,
+          "average": 82.3,
+          "grades": [3, 3, 3, 2, 3, 11, 15, 14, 37, 33, 56],
+          "instructors": ["Congyi Zhang", "Dinesh Pai"]
+        },
+        {
+          "session": "2023W",
+          "reported": 268,
+          "average": 83.2,
+          "grades": [3, 3, 1, 3, 7, 8, 15, 27, 53, 78, 65],
+          "instructors": ["Michiel van de Panne", "Dinesh Pai"]
+        },
+        {
+          "session": "2022W",
+          "reported": 245,
+          "average": 83.7,
+          "grades": [2, 1, 8, 4, 5, 6, 19, 20, 34, 63, 83],
+          "instructors": ["Michiel van de Panne"]
+        },
+        {
+          "session": "2021W",
+          "reported": 225,
+          "average": 83.2,
+          "grades": [0, 0, 0, 0, 0, 0, 20, 18, 38, 54, 72],
+          "instructors": ["Dinesh Pai"]
+        }
+      ]
+    },
+    "CPSC 317": {
+      "reported": 2527,
+      "average": 81.1,
+      "grades": [72, 13, 31, 58, 103, 149, 189, 285, 451, 470, 659],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 529,
+          "average": 84.8,
+          "grades": [9, 3, 4, 8, 11, 17, 28, 50, 87, 109, 203],
+          "instructors": ["Ibtissem Bouacheria", "Norman Hutchinson", "Maryam Raiyat Aliabadi"]
+        },
+        {
+          "session": "2025S",
+          "reported": 63,
+          "average": 84.7,
+          "grades": [3, 0, 0, 1, 1, 4, 2, 5, 10, 9, 28],
+          "instructors": ["Ibtissem Bouacheria"]
+        },
+        {
+          "session": "2024W",
+          "reported": 448,
+          "average": 85.6,
+          "grades": [19, 0, 4, 5, 10, 17, 27, 30, 51, 58, 227],
+          "instructors": ["Maryam Raiyat Aliabadi"]
+        },
+        {
+          "session": "2024S",
+          "reported": 71,
+          "average": 87.5,
+          "grades": [0, 1, 1, 0, 3, 4, 5, 2, 8, 7, 40],
+          "instructors": ["Maryam Raiyat Aliabadi"]
+        },
+        {
+          "session": "2023W",
+          "reported": 484,
+          "average": 78.1,
+          "grades": [11, 3, 10, 18, 32, 42, 46, 62, 99, 93, 55],
+          "instructors": ["Norman Hutchinson", "Aastha Mehta"]
+        },
+        {
+          "session": "2022W",
+          "reported": 472,
+          "average": 76.0,
+          "grades": [16, 6, 12, 19, 32, 44, 43, 78, 117, 77, 28],
+          "instructors": ["Alan Wagner", "Aastha Mehta", "Norman Hutchinson"]
+        },
+        {
+          "session": "2021W",
+          "reported": 460,
+          "average": 79.4,
+          "grades": [14, 0, 0, 7, 14, 21, 38, 58, 79, 117, 78],
+          "instructors": ["Jonatan Schroeder", "Norman Hutchinson"]
+        }
+      ]
+    },
+    "CPSC 319": {
+      "reported": 372,
+      "average": 87.8,
+      "grades": [0, 0, 0, 0, 0, 6, 11, 19, 55, 98, 175],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 69,
+          "average": 89.9,
+          "grades": [0, 0, 0, 0, 0, 2, 1, 1, 5, 19, 41],
+          "instructors": ["Parsa Rajabi"]
+        },
+        {
+          "session": "2024W",
+          "reported": 69,
+          "average": 86.8,
+          "grades": [0, 0, 0, 0, 0, 3, 2, 5, 8, 22, 29],
+          "instructors": ["Jerry Jim"]
+        },
+        {
+          "session": "2023W",
+          "reported": 66,
+          "average": 87.4,
+          "grades": [0, 0, 0, 0, 0, 1, 2, 4, 10, 18, 30],
+          "instructors": ["Jerry Jim"]
+        },
+        {
+          "session": "2022W",
+          "reported": 78,
+          "average": 87.3,
+          "grades": [0, 0, 0, 0, 0, 0, 6, 9, 13, 14, 36],
+          "instructors": ["Jerry Jim"]
+        },
+        {
+          "session": "2021W",
+          "reported": 90,
+          "average": 87.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 19, 25, 39],
+          "instructors": ["Jerry Jim"]
+        }
+      ]
+    },
+    "CPSC 320": {
+      "reported": 4649,
+      "average": 76.1,
+      "grades": [240, 30, 94, 219, 343, 447, 528, 612, 772, 625, 677],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 721,
+          "average": 74.8,
+          "grades": [35, 2, 20, 51, 73, 77, 87, 95, 108, 87, 86],
+          "instructors": ["Steven Wolfman", "Patrice Belleville", "Gautam Luhana"]
+        },
+        {
+          "session": "2025S",
+          "reported": 152,
+          "average": 82.3,
+          "grades": [0, 0, 1, 6, 5, 10, 14, 20, 19, 39, 38],
+          "instructors": ["Gautam Luhana"]
+        },
+        {
+          "session": "2024W",
+          "reported": 890,
+          "average": 78.1,
+          "grades": [28, 11, 12, 38, 60, 73, 91, 112, 158, 131, 176],
+          "instructors": ["Susanne Bradley", "Anne Condon", "Alan Hu", "Yuanhao Wei"]
+        },
+        {
+          "session": "2024S",
+          "reported": 133,
+          "average": 78.6,
+          "grades": [4, 1, 1, 6, 8, 18, 5, 16, 24, 25, 25],
+          "instructors": ["Susanne Bradley"]
+        },
+        {
+          "session": "2023W",
+          "reported": 966,
+          "average": 76.0,
+          "grades": [52, 5, 24, 38, 64, 99, 116, 135, 159, 120, 127],
+          "instructors": ["Anne Condon", "Jordan Kari Lovrod", "Mehrdad Oveisi-Fordoei", "Susanne Bradley", "Frederick Shepherd"]
+        },
+        {
+          "session": "2023S",
+          "reported": 144,
+          "average": 77.8,
+          "grades": [4, 3, 2, 4, 11, 9, 19, 21, 25, 21, 20],
+          "instructors": ["Anne Condon"]
+        },
+        {
+          "session": "2022W",
+          "reported": 811,
+          "average": 74.2,
+          "grades": [69, 7, 26, 44, 63, 81, 101, 93, 128, 99, 100],
+          "instructors": ["Patrice Belleville", "Susanne Bradley", "Alan Hu"]
+        },
+        {
+          "session": "2021W",
+          "reported": 659,
+          "average": 74.8,
+          "grades": [48, 1, 8, 32, 48, 61, 73, 88, 114, 81, 86],
+          "instructors": ["Alan Hu", "Anne Condon", "Patrice Belleville"]
+        },
+        {
+          "session": "2021S",
+          "reported": 173,
+          "average": 77.4,
+          "grades": [0, 0, 0, 0, 11, 19, 22, 32, 37, 22, 19],
+          "instructors": ["Anne Condon"]
+        }
+      ]
+    },
+    "CPSC 322": {
+      "reported": 2088,
+      "average": 76.2,
+      "grades": [79, 29, 88, 95, 161, 177, 231, 249, 346, 315, 299],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 389,
+          "average": 78.9,
+          "grades": [4, 3, 10, 13, 30, 41, 37, 47, 68, 61, 75],
+          "instructors": ["Mehrdad Oveisi", "Giuseppe Carenini"]
+        },
+        {
+          "session": "2024W",
+          "reported": 342,
+          "average": 80.9,
+          "grades": [3, 5, 3, 8, 9, 18, 39, 50, 61, 82, 64],
+          "instructors": ["Mehrdad Oveisi-Fordoei"]
+        },
+        {
+          "session": "2023W",
+          "reported": 411,
+          "average": 75.7,
+          "grades": [17, 5, 16, 22, 34, 33, 52, 52, 73, 46, 52],
+          "instructors": ["Jordon Johnson", "Mehrdad Oveisi-Fordoei"]
+        },
+        {
+          "session": "2022W",
+          "reported": 386,
+          "average": 74.9,
+          "grades": [19, 8, 27, 24, 26, 27, 40, 42, 63, 56, 54],
+          "instructors": ["Jordon Johnson", "Mehrdad Oveisi-Fordoei"]
+        },
+        {
+          "session": "2022S",
+          "reported": 133,
+          "average": 74.3,
+          "grades": [5, 2, 14, 10, 14, 6, 11, 15, 20, 19, 17],
+          "instructors": ["Jordon Johnson"]
+        },
+        {
+          "session": "2021W",
+          "reported": 427,
+          "average": 72.4,
+          "grades": [31, 6, 18, 18, 48, 52, 52, 43, 61, 51, 37],
+          "instructors": ["Jordon Johnson"]
+        }
+      ]
+    },
+    "CPSC 330": {
+      "reported": 3684,
+      "average": 80.0,
+      "grades": [65, 32, 52, 88, 171, 254, 322, 512, 711, 742, 701],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 760,
+          "average": 78.5,
+          "grades": [24, 9, 20, 24, 45, 58, 74, 111, 133, 120, 142],
+          "instructors": ["Giulia Toti", "Varada Kolhatkar", "Firas Moosvi", "Mehrdad Oveisi"]
+        },
+        {
+          "session": "2025S",
+          "reported": 121,
+          "average": 81.6,
+          "grades": [3, 2, 0, 1, 3, 8, 11, 9, 23, 24, 37],
+          "instructors": ["Firas Moosvi"]
+        },
+        {
+          "session": "2024W",
+          "reported": 904,
+          "average": 78.3,
+          "grades": [15, 9, 16, 33, 57, 84, 87, 135, 176, 162, 130],
+          "instructors": ["Giulia Toti", "Varada Kolhatkar", "Firas Moosvi", "Mathias Lecuyer", "Andrew Roth"]
+        },
+        {
+          "session": "2024S",
+          "reported": 184,
+          "average": 84.0,
+          "grades": [0, 0, 3, 4, 4, 13, 8, 20, 31, 35, 66],
+          "instructors": ["Mehrdad Oveisi-Fordoei"]
+        },
+        {
+          "session": "2023W",
+          "reported": 674,
+          "average": 80.7,
+          "grades": [10, 7, 6, 9, 34, 42, 60, 85, 134, 150, 127],
+          "instructors": ["Andrew Roth", "Varada Kolhatkar", "Mathias Lecuyer", "Mehrdad Oveisi-Fordoei"]
+        },
+        {
+          "session": "2023S",
+          "reported": 183,
+          "average": 82.3,
+          "grades": [1, 1, 2, 2, 4, 7, 12, 24, 45, 46, 34],
+          "instructors": ["Mehrdad Oveisi-Fordoei"]
+        },
+        {
+          "session": "2022W",
+          "reported": 481,
+          "average": 80.5,
+          "grades": [10, 4, 5, 9, 12, 31, 46, 78, 91, 115, 80],
+          "instructors": ["Varada Kolhatkar", "Giulia Toti", "Mathias Lecuyer", "Amir Abdi"]
+        },
+        {
+          "session": "2022S",
+          "reported": 132,
+          "average": 82.5,
+          "grades": [2, 0, 0, 0, 2, 5, 12, 15, 31, 35, 30],
+          "instructors": ["Mehrdad Oveisi-Fordoei"]
+        },
+        {
+          "session": "2021W",
+          "reported": 245,
+          "average": 81.5,
+          "grades": [0, 0, 0, 6, 10, 6, 12, 35, 47, 55, 55],
+          "instructors": ["Varada Kolhatkar", "Giulia Toti"]
+        }
+      ]
+    },
+    "CPSC 340": {
+      "reported": 1960,
+      "average": 78.9,
+      "grades": [40, 20, 56, 62, 73, 127, 196, 191, 344, 395, 377],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 428,
+          "average": 75.6,
+          "grades": [13, 5, 18, 22, 34, 44, 57, 58, 75, 62, 40],
+          "instructors": ["Mathias Lecuyer", "Prajeet Bajpai", "Mi Jung Park", "Frank Donald Wood"]
+        },
+        {
+          "session": "2024W",
+          "reported": 428,
+          "average": 78.7,
+          "grades": [13, 8, 17, 19, 24, 28, 26, 45, 72, 82, 94],
+          "instructors": ["Jeffrey Clune", "Cong Lu", "Mi Jung Park", "Jiarui Ding"]
+        },
+        {
+          "session": "2023W",
+          "reported": 403,
+          "average": 81.1,
+          "grades": [7, 7, 8, 7, 7, 20, 37, 42, 82, 89, 87],
+          "instructors": ["Jeffrey Clune", "Mark Schmidt", "Jiarui Ding"]
+        },
+        {
+          "session": "2022W",
+          "reported": 331,
+          "average": 79.2,
+          "grades": [7, 0, 6, 14, 8, 21, 50, 19, 59, 91, 56],
+          "instructors": ["Andreas Lehrmann", "Mark Schmidt", "Jeffrey Clune"]
+        },
+        {
+          "session": "2021W",
+          "reported": 370,
+          "average": 80.2,
+          "grades": [0, 0, 7, 0, 0, 14, 26, 27, 56, 71, 100],
+          "instructors": ["Danica Sutherland", "Michael Gelbart", "Jeffrey Clune", "Mi Jung Park"]
+        }
+      ]
+    },
+    "CPSC 344": {
+      "reported": 1067,
+      "average": 84.6,
+      "grades": [0, 0, 2, 1, 4, 20, 53, 100, 285, 371, 230],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 290,
+          "average": 84.6,
+          "grades": [0, 0, 0, 0, 3, 9, 14, 24, 84, 90, 66],
+          "instructors": ["Dongwook Yoon", "Laura Cang", "Teerapaun Tanprasert"]
+        },
+        {
+          "session": "2024W",
+          "reported": 238,
+          "average": 83.6,
+          "grades": [0, 0, 1, 0, 1, 6, 19, 26, 65, 83, 37],
+          "instructors": ["Parsa Rajabi", "Sang-Wha Sien", "Thitaree Tanprasert"]
+        },
+        {
+          "session": "2023W",
+          "reported": 227,
+          "average": 86.2,
+          "grades": [0, 0, 0, 1, 0, 1, 4, 12, 42, 94, 73],
+          "instructors": ["Thitaree Tanprasert", "Anika Sayara", "Laura Cang"]
+        },
+        {
+          "session": "2022W",
+          "reported": 237,
+          "average": 84.9,
+          "grades": [0, 0, 1, 0, 0, 4, 10, 25, 65, 84, 48],
+          "instructors": ["Izabelle Janzen", "Dongwook Yoon"]
+        },
+        {
+          "session": "2021W",
+          "reported": 75,
+          "average": 82.4,
+          "grades": [0, 0, 0, 0, 0, 0, 6, 13, 29, 20, 6],
+          "instructors": ["Izabelle Janzen"]
+        }
+      ]
+    },
+    "CPSC 368": {
+      "reported": 296,
+      "average": 74.7,
+      "grades": [14, 3, 3, 7, 23, 20, 50, 45, 42, 37, 21],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 87,
+          "average": 78.1,
+          "grades": [1, 2, 1, 3, 5, 5, 11, 17, 16, 17, 9],
+          "instructors": ["Jessica Wong"]
+        },
+        {
+          "session": "2024W",
+          "reported": 73,
+          "average": 73.0,
+          "grades": [7, 0, 2, 3, 5, 7, 14, 7, 14, 11, 3],
+          "instructors": ["Jessica Wong"]
+        },
+        {
+          "session": "2023W",
+          "reported": 58,
+          "average": 75.1,
+          "grades": [3, 0, 0, 0, 3, 4, 12, 14, 10, 7, 3],
+          "instructors": ["Jessica Wong"]
+        },
+        {
+          "session": "2022W",
+          "reported": 36,
+          "average": 73.6,
+          "grades": [3, 1, 0, 1, 3, 4, 7, 7, 2, 2, 6],
+          "instructors": ["Jessica Wong"]
+        },
+        {
+          "session": "2021W",
+          "reported": 42,
+          "average": 70.7,
+          "grades": [0, 0, 0, 0, 7, 0, 6, 0, 0, 0, 0],
+          "instructors": ["Rachel Pottinger", "Jessica Wong"]
+        }
+      ]
+    },
+    "CPSC 402": {
+      "reported": 43,
+      "average": 71.4,
+      "grades": [2, 4, 3, 5, 3, 6, 3, 1, 4, 3, 9],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 21,
+          "average": 79.7,
+          "grades": [1, 1, 0, 0, 0, 3, 3, 0, 3, 2, 8],
+          "instructors": ["Chen Greif"]
+        },
+        {
+          "session": "2022W",
+          "reported": 22,
+          "average": 63.4,
+          "grades": [1, 3, 3, 5, 3, 3, 0, 1, 1, 1, 1],
+          "instructors": ["Yunhui He"]
+        }
+      ]
+    },
+    "CPSC 404": {
+      "reported": 1594,
+      "average": 78.5,
+      "grades": [30, 42, 41, 74, 93, 112, 164, 171, 266, 239, 346],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 388,
+          "average": 78.7,
+          "grades": [12, 4, 13, 17, 25, 25, 33, 35, 71, 69, 84],
+          "instructors": ["Rachel Pottinger", "Ed Knorr", "Laks Lakshmanan"]
+        },
+        {
+          "session": "2024W",
+          "reported": 345,
+          "average": 78.9,
+          "grades": [4, 10, 8, 15, 22, 26, 45, 35, 54, 41, 85],
+          "instructors": ["Edwin Max Knorr", "Laks Lakshmanan"]
+        },
+        {
+          "session": "2023W",
+          "reported": 245,
+          "average": 78.3,
+          "grades": [5, 5, 5, 12, 13, 14, 29, 34, 38, 46, 40],
+          "instructors": ["Edwin Max Knorr", "Jianhao Cao"]
+        },
+        {
+          "session": "2022W",
+          "reported": 323,
+          "average": 77.2,
+          "grades": [8, 17, 9, 13, 23, 28, 29, 39, 48, 41, 68],
+          "instructors": ["Edwin Max Knorr", "Laks Lakshmanan"]
+        },
+        {
+          "session": "2021W",
+          "reported": 293,
+          "average": 79.1,
+          "grades": [1, 6, 6, 17, 10, 19, 28, 28, 55, 42, 69],
+          "instructors": ["Edwin Max Knorr"]
+        }
+      ]
+    },
+    "CPSC 406": {
+      "reported": 346,
+      "average": 81.0,
+      "grades": [6, 2, 10, 7, 15, 16, 22, 42, 56, 64, 93],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 85,
+          "average": 78.0,
+          "grades": [1, 1, 4, 3, 8, 8, 7, 12, 9, 14, 18],
+          "instructors": ["Susanne Bradley"]
+        },
+        {
+          "session": "2024W",
+          "reported": 54,
+          "average": 80.5,
+          "grades": [0, 1, 3, 1, 0, 3, 8, 3, 16, 8, 11],
+          "instructors": ["Michael Friedlander"]
+        },
+        {
+          "session": "2023W",
+          "reported": 75,
+          "average": 81.1,
+          "grades": [3, 0, 0, 3, 4, 2, 6, 8, 13, 17, 16],
+          "instructors": ["Michael Friedlander"]
+        },
+        {
+          "session": "2022W",
+          "reported": 61,
+          "average": 80.0,
+          "grades": [2, 0, 3, 0, 3, 3, 1, 12, 10, 16, 11],
+          "instructors": ["Michael Friedlander"]
+        },
+        {
+          "session": "2021W",
+          "reported": 71,
+          "average": 85.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 7, 8, 9, 37],
+          "instructors": ["Michael Friedlander"]
+        }
+      ]
+    },
+    "CPSC 410": {
+      "reported": 418,
+      "average": 78.0,
+      "grades": [2, 6, 8, 10, 26, 44, 49, 62, 103, 75, 30],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 66,
+          "average": 79.4,
+          "grades": [0, 1, 0, 1, 3, 4, 9, 12, 18, 15, 3],
+          "instructors": ["Caroline Lemieux"]
+        },
+        {
+          "session": "2024W",
+          "reported": 63,
+          "average": 78.4,
+          "grades": [0, 0, 1, 0, 3, 7, 10, 12, 16, 9, 5],
+          "instructors": ["Caroline Lemieux"]
+        },
+        {
+          "session": "2023W",
+          "reported": 113,
+          "average": 76.2,
+          "grades": [1, 3, 2, 4, 9, 14, 13, 16, 28, 15, 5],
+          "instructors": ["Caroline Lemieux", "Alexander Summers"]
+        },
+        {
+          "session": "2022W",
+          "reported": 124,
+          "average": 77.1,
+          "grades": [0, 2, 5, 5, 10, 11, 15, 17, 29, 23, 7],
+          "instructors": ["Alexander Summers"]
+        },
+        {
+          "session": "2022S",
+          "reported": 52,
+          "average": 81.6,
+          "grades": [1, 0, 0, 0, 1, 8, 2, 5, 12, 13, 10],
+          "instructors": ["Nico Ritschel"]
+        }
+      ]
+    },
+    "CPSC 411": {
+      "reported": 207,
+      "average": 83.3,
+      "grades": [10, 2, 3, 1, 7, 6, 14, 15, 25, 35, 84],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 35,
+          "average": 78.8,
+          "grades": [4, 0, 1, 1, 3, 0, 0, 4, 7, 6, 9],
+          "instructors": ["William Bowman"]
+        },
+        {
+          "session": "2024W",
+          "reported": 42,
+          "average": 78.9,
+          "grades": [2, 1, 1, 0, 0, 5, 1, 7, 7, 9, 9],
+          "instructors": ["Paulette Koronkevich", "William Bowman"]
+        },
+        {
+          "session": "2022W",
+          "reported": 83,
+          "average": 82.0,
+          "grades": [4, 1, 1, 0, 4, 1, 13, 4, 11, 13, 31],
+          "instructors": ["William Bowman"]
+        },
+        {
+          "session": "2021W",
+          "reported": 47,
+          "average": 93.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 35],
+          "instructors": ["William Bowman"]
+        }
+      ]
+    },
+    "CPSC 416": {
+      "reported": 751,
+      "average": 85.0,
+      "grades": [3, 2, 5, 9, 15, 27, 52, 73, 123, 151, 280],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 172,
+          "average": 87.7,
+          "grades": [0, 0, 0, 2, 0, 5, 14, 8, 26, 35, 82],
+          "instructors": ["Arpan Gujarati", "Tony Mason"]
+        },
+        {
+          "session": "2025S",
+          "reported": 34,
+          "average": 79.8,
+          "grades": [1, 0, 0, 0, 2, 1, 3, 7, 9, 8, 3],
+          "instructors": ["Michael Feeley"]
+        },
+        {
+          "session": "2024W",
+          "reported": 181,
+          "average": 80.1,
+          "grades": [0, 1, 1, 4, 7, 11, 20, 38, 42, 34, 23],
+          "instructors": ["Michael Feeley"]
+        },
+        {
+          "session": "2023W",
+          "reported": 183,
+          "average": 84.4,
+          "grades": [1, 1, 3, 3, 6, 6, 14, 12, 22, 37, 73],
+          "instructors": ["William Mason", "Arpan Gujarati"]
+        },
+        {
+          "session": "2022W",
+          "reported": 70,
+          "average": 87.7,
+          "grades": [1, 0, 1, 0, 0, 4, 1, 8, 9, 15, 31],
+          "instructors": ["William Mason"]
+        },
+        {
+          "session": "2021W",
+          "reported": 111,
+          "average": 90.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 15, 22, 68],
+          "instructors": ["Ivan Beschastnikh"]
+        }
+      ]
+    },
+    "CPSC 417": {
+      "reported": 42,
+      "average": 94.4,
+      "grades": [0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 36],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 42,
+          "average": 94.4,
+          "grades": [0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 36],
+          "instructors": ["Nguyen Phong Hoang"]
+        }
+      ]
+    },
+    "CPSC 418": {
+      "reported": 421,
+      "average": 84.0,
+      "grades": [2, 2, 4, 3, 7, 24, 24, 41, 92, 85, 133],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 201,
+          "average": 82.1,
+          "grades": [0, 1, 3, 3, 5, 13, 18, 21, 47, 46, 44],
+          "instructors": ["Susanne Bradley", "Mark Greenstreet"]
+        },
+        {
+          "session": "2024W",
+          "reported": 113,
+          "average": 83.1,
+          "grades": [1, 0, 1, 0, 1, 8, 4, 14, 37, 20, 27],
+          "instructors": ["Susanne Bradley", "Mark Greenstreet"]
+        },
+        {
+          "session": "2023W",
+          "reported": 69,
+          "average": 88.5,
+          "grades": [1, 0, 0, 0, 1, 1, 1, 4, 4, 12, 41],
+          "instructors": ["Mark Greenstreet"]
+        },
+        {
+          "session": "2022W",
+          "reported": 38,
+          "average": 88.0,
+          "grades": [0, 1, 0, 0, 0, 2, 1, 2, 4, 7, 21],
+          "instructors": ["Mark Greenstreet"]
+        }
+      ]
+    },
+    "CPSC 420": {
+      "reported": 426,
+      "average": 76.5,
+      "grades": [9, 14, 14, 27, 29, 32, 36, 53, 56, 64, 76],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 70,
+          "average": 77.4,
+          "grades": [0, 0, 2, 6, 6, 10, 8, 10, 7, 8, 13],
+          "instructors": ["Bruce Shepherd"]
+        },
+        {
+          "session": "2024W",
+          "reported": 76,
+          "average": 74.8,
+          "grades": [3, 2, 2, 5, 8, 7, 12, 6, 13, 9, 9],
+          "instructors": ["William Evans"]
+        },
+        {
+          "session": "2023W",
+          "reported": 80,
+          "average": 75.2,
+          "grades": [3, 1, 1, 6, 7, 8, 8, 11, 4, 17, 10],
+          "instructors": ["William Evans"]
+        },
+        {
+          "session": "2023S",
+          "reported": 30,
+          "average": 83.0,
+          "grades": [1, 1, 1, 1, 1, 0, 0, 2, 4, 3, 14],
+          "instructors": ["Abner Turkieltaub Melo"]
+        },
+        {
+          "session": "2022W",
+          "reported": 101,
+          "average": 78.7,
+          "grades": [2, 2, 2, 2, 7, 7, 8, 18, 17, 15, 21],
+          "instructors": ["William Evans"]
+        },
+        {
+          "session": "2021W",
+          "reported": 69,
+          "average": 73.1,
+          "grades": [0, 8, 6, 7, 0, 0, 0, 6, 11, 12, 9],
+          "instructors": ["Frederick Shepherd"]
+        }
+      ]
+    },
+    "CPSC 421": {
+      "reported": 337,
+      "average": 81.1,
+      "grades": [2, 7, 8, 15, 10, 21, 24, 23, 74, 33, 107],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 56,
+          "average": 79.7,
+          "grades": [0, 0, 2, 5, 3, 6, 5, 4, 10, 7, 14],
+          "instructors": ["Joel Friedman"]
+        },
+        {
+          "session": "2024W",
+          "reported": 79,
+          "average": 81.8,
+          "grades": [0, 1, 3, 3, 4, 5, 5, 4, 18, 9, 27],
+          "instructors": ["Joel Friedman"]
+        },
+        {
+          "session": "2023W",
+          "reported": 78,
+          "average": 82.4,
+          "grades": [1, 2, 0, 1, 0, 4, 8, 7, 22, 9, 24],
+          "instructors": ["Joel Friedman"]
+        },
+        {
+          "session": "2022W",
+          "reported": 73,
+          "average": 76.9,
+          "grades": [1, 4, 3, 6, 3, 6, 6, 8, 14, 8, 14],
+          "instructors": ["Nicholas Harvey"]
+        },
+        {
+          "session": "2021W",
+          "reported": 51,
+          "average": 85.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 10, 0, 28],
+          "instructors": ["Joel Friedman"]
+        }
+      ]
+    },
+    "CPSC 422": {
+      "reported": 538,
+      "average": 74.2,
+      "grades": [33, 7, 18, 27, 49, 53, 65, 50, 92, 67, 67],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 85,
+          "average": 74.2,
+          "grades": [10, 1, 0, 2, 7, 9, 8, 7, 17, 12, 12],
+          "instructors": ["Jordon Johnson"]
+        },
+        {
+          "session": "2024W",
+          "reported": 117,
+          "average": 72.4,
+          "grades": [8, 3, 7, 8, 11, 14, 13, 7, 24, 12, 10],
+          "instructors": ["Jordon Johnson", "Giuseppe Carenini"]
+        },
+        {
+          "session": "2023W",
+          "reported": 127,
+          "average": 75.2,
+          "grades": [6, 2, 2, 4, 8, 11, 24, 15, 23, 16, 13],
+          "instructors": ["Jordon Johnson"]
+        },
+        {
+          "session": "2022W",
+          "reported": 118,
+          "average": 74.9,
+          "grades": [9, 1, 3, 7, 14, 11, 13, 9, 15, 18, 18],
+          "instructors": ["Jordon Johnson"]
+        },
+        {
+          "session": "2021W",
+          "reported": 91,
+          "average": 74.2,
+          "grades": [0, 0, 6, 6, 9, 8, 7, 12, 13, 9, 14],
+          "instructors": ["Jordon Johnson"]
+        }
+      ]
+    },
+    "CPSC 424": {
+      "reported": 85,
+      "average": 81.0,
+      "grades": [3, 1, 6, 1, 0, 3, 6, 6, 17, 10, 32],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 35,
+          "average": 80.1,
+          "grades": [2, 0, 2, 0, 0, 1, 3, 2, 6, 6, 13],
+          "instructors": ["Alla Sheffer"]
+        },
+        {
+          "session": "2022W",
+          "reported": 50,
+          "average": 81.7,
+          "grades": [1, 1, 4, 1, 0, 2, 3, 4, 11, 4, 19],
+          "instructors": ["Alla Sheffer"]
+        }
+      ]
+    },
+    "CPSC 425": {
+      "reported": 1170,
+      "average": 79.5,
+      "grades": [9, 4, 13, 29, 30, 78, 141, 152, 305, 235, 145],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 255,
+          "average": 81.2,
+          "grades": [1, 0, 4, 4, 4, 12, 29, 31, 76, 54, 40],
+          "instructors": ["Leonid Sigal", "Kwang Moo Yi", "Adrian Lindsay"]
+        },
+        {
+          "session": "2024W",
+          "reported": 273,
+          "average": 80.2,
+          "grades": [1, 0, 3, 6, 10, 20, 31, 41, 67, 58, 36],
+          "instructors": ["Leonid Sigal", "Kwang Moo Yi", "Matthew Brown"]
+        },
+        {
+          "session": "2023W",
+          "reported": 191,
+          "average": 80.0,
+          "grades": [2, 2, 3, 3, 2, 8, 23, 27, 49, 45, 17],
+          "instructors": ["Matthew Brown", "Kwang Moo Yi"]
+        },
+        {
+          "session": "2022W",
+          "reported": 188,
+          "average": 79.3,
+          "grades": [5, 2, 3, 1, 6, 14, 24, 28, 41, 40, 24],
+          "instructors": ["Matthew Brown", "Leonid Sigal"]
+        },
+        {
+          "session": "2021W",
+          "reported": 263,
+          "average": 76.9,
+          "grades": [0, 0, 0, 15, 8, 24, 34, 25, 72, 38, 28],
+          "instructors": ["James Little"]
+        }
+      ]
+    },
+    "CPSC 426": {
+      "reported": 192,
+      "average": 82.7,
+      "grades": [1, 0, 0, 8, 4, 7, 12, 16, 26, 59, 48],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 47,
+          "average": 83.7,
+          "grades": [1, 0, 0, 2, 3, 3, 1, 1, 5, 17, 14],
+          "instructors": ["Dinesh Pai"]
+        },
+        {
+          "session": "2024W",
+          "reported": 71,
+          "average": 85.2,
+          "grades": [0, 0, 0, 0, 1, 4, 5, 5, 10, 27, 19],
+          "instructors": ["Michiel van de Panne"]
+        },
+        {
+          "session": "2021W",
+          "reported": 74,
+          "average": 79.6,
+          "grades": [0, 0, 0, 6, 0, 0, 6, 10, 11, 15, 15],
+          "instructors": ["Michiel Van De Panne"]
+        }
+      ]
+    },
+    "CPSC 427": {
+      "reported": 659,
+      "average": 88.0,
+      "grades": [4, 0, 2, 0, 5, 12, 16, 38, 85, 137, 342],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 104,
+          "average": 88.6,
+          "grades": [0, 0, 0, 0, 1, 1, 1, 5, 13, 34, 49],
+          "instructors": ["Chris Kerslake"]
+        },
+        {
+          "session": "2024W",
+          "reported": 203,
+          "average": 85.8,
+          "grades": [3, 0, 1, 0, 3, 3, 11, 10, 37, 47, 88],
+          "instructors": ["Chris Kerslake"]
+        },
+        {
+          "session": "2023W",
+          "reported": 197,
+          "average": 89.9,
+          "grades": [1, 0, 1, 0, 1, 8, 4, 10, 20, 30, 121],
+          "instructors": ["Helge Rhodin", "Chris Kerslake"]
+        },
+        {
+          "session": "2021W",
+          "reported": 155,
+          "average": 87.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 13, 15, 26, 84],
+          "instructors": ["Helge Rhodin", "Alla Sheffer"]
+        }
+      ]
+    },
+    "CPSC 430": {
+      "reported": 937,
+      "average": 81.4,
+      "grades": [11, 2, 3, 9, 15, 37, 89, 123, 242, 275, 117],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 165,
+          "average": 80.2,
+          "grades": [2, 0, 1, 1, 6, 6, 18, 35, 44, 38, 14],
+          "instructors": ["Kevin Leyton-Brown"]
+        },
+        {
+          "session": "2024W",
+          "reported": 168,
+          "average": 81.5,
+          "grades": [2, 2, 0, 2, 3, 6, 18, 19, 38, 52, 26],
+          "instructors": ["Kevin Leyton-Brown"]
+        },
+        {
+          "session": "2024S",
+          "reported": 97,
+          "average": 85.7,
+          "grades": [1, 0, 0, 1, 2, 5, 4, 8, 15, 22, 39],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "reported": 203,
+          "average": 82.5,
+          "grades": [4, 0, 0, 3, 2, 6, 16, 16, 48, 73, 33],
+          "instructors": ["Giulia Toti", "Hedayat Zarkoob"]
+        },
+        {
+          "session": "2022W",
+          "reported": 192,
+          "average": 80.4,
+          "grades": [2, 0, 2, 2, 2, 5, 23, 32, 63, 56, 5],
+          "instructors": ["Kevin Leyton-Brown", "Giulia Toti", "Melissa Lee"]
+        },
+        {
+          "session": "2021W",
+          "reported": 112,
+          "average": 79.4,
+          "grades": [0, 0, 0, 0, 0, 9, 10, 13, 34, 34, 0],
+          "instructors": ["Kevin Leyton-Brown"]
+        }
+      ]
+    },
+    "CPSC 436": {
+      "reported": 1334,
+      "average": 84.5,
+      "grades": [7, 4, 9, 15, 37, 50, 109, 116, 190, 282, 485],
+      "terms": [
+        {
+          "session": "2025W",
+          "topic": "A",
+          "title": "OS DESIGN & IMPL",
+          "reported": 48,
+          "average": 85.6,
+          "grades": [0, 0, 0, 1, 0, 1, 1, 2, 13, 18, 12],
+          "instructors": ["Reto Achermann"]
+        },
+        {
+          "session": "2025W",
+          "topic": "C",
+          "title": "CLOUD COMPUTING",
+          "reported": 119,
+          "average": 90.2,
+          "grades": [0, 1, 0, 0, 1, 2, 0, 2, 8, 20, 85],
+          "instructors": ["Tony Mason"]
+        },
+        {
+          "session": "2025W",
+          "topic": "N",
+          "title": "NLP",
+          "reported": 69,
+          "average": 83.1,
+          "grades": [0, 0, 0, 1, 2, 1, 10, 9, 12, 18, 16],
+          "instructors": ["Vered Shwartz"]
+        },
+        {
+          "session": "2025W",
+          "topic": "Q",
+          "title": "QUANTUM COMPUTING",
+          "reported": 33,
+          "average": 85.3,
+          "grades": [0, 0, 0, 1, 1, 0, 1, 7, 3, 9, 11],
+          "instructors": ["Daochen Wang"]
+        },
+        {
+          "session": "2025W",
+          "topic": "R",
+          "title": "RANDOMIZED ALGS",
+          "reported": 47,
+          "average": 78.7,
+          "grades": [2, 0, 2, 1, 4, 5, 4, 3, 4, 10, 12],
+          "instructors": ["Nicholas Harvey"]
+        },
+        {
+          "session": "2025W",
+          "topic": "S",
+          "title": "COMP SECURITY",
+          "reported": 87,
+          "average": 79.6,
+          "grades": [1, 0, 1, 3, 8, 5, 13, 11, 10, 22, 13],
+          "instructors": ["Michael Feeley"]
+        },
+        {
+          "session": "2024W",
+          "topic": "A",
+          "title": "OS DESIGN & IMPL",
+          "reported": 41,
+          "average": 85.8,
+          "grades": [0, 0, 0, 0, 0, 1, 1, 3, 10, 16, 10],
+          "instructors": ["Thomas Pasquier"]
+        },
+        {
+          "session": "2024W",
+          "topic": "C",
+          "title": "CLOUD COMPUTING",
+          "reported": 66,
+          "average": 89.7,
+          "grades": [0, 0, 0, 1, 0, 0, 0, 2, 8, 14, 41],
+          "instructors": ["Maryam Raiyat Aliabadi"]
+        },
+        {
+          "session": "2024W",
+          "topic": "N",
+          "title": "NLP",
+          "reported": 71,
+          "average": 83.2,
+          "grades": [0, 0, 0, 1, 1, 4, 7, 11, 14, 15, 18],
+          "instructors": ["Vered Shwartz"]
+        },
+        {
+          "session": "2024W",
+          "topic": "Q",
+          "title": "QUANTUM COMPUTING",
+          "reported": 19,
+          "average": 78.2,
+          "grades": [0, 0, 0, 1, 1, 3, 2, 4, 4, 3, 1],
+          "instructors": ["Daochen Wang"]
+        },
+        {
+          "session": "2024W",
+          "topic": "R",
+          "title": "RANDOMIZED ALGS",
+          "reported": 44,
+          "average": 85.5,
+          "grades": [0, 0, 0, 0, 2, 4, 5, 5, 4, 6, 18],
+          "instructors": ["Abner Turkieltaub Melo"]
+        },
+        {
+          "session": "2024W",
+          "topic": "S",
+          "title": "COMP SECURITY",
+          "reported": 72,
+          "average": 79.1,
+          "grades": [2, 0, 2, 3, 8, 5, 6, 10, 10, 8, 18],
+          "instructors": ["Bo Robert Xiao"]
+        },
+        {
+          "session": "2023W",
+          "topic": "A",
+          "title": "Topics in Computer Science",
+          "reported": 23,
+          "average": 82.3,
+          "grades": [0, 0, 0, 0, 1, 1, 2, 3, 7, 4, 5],
+          "instructors": ["Thomas Pasquier"]
+        },
+        {
+          "session": "2023W",
+          "topic": "C",
+          "title": "Topics in Computer Science",
+          "reported": 89,
+          "average": 90.5,
+          "grades": [1, 0, 0, 0, 0, 0, 1, 5, 10, 16, 56],
+          "instructors": ["Maryam Raiyat Aliabadi"]
+        },
+        {
+          "session": "2023W",
+          "topic": "E",
+          "title": "Topics in Computer Science",
+          "reported": 31,
+          "average": 82.5,
+          "grades": [0, 0, 0, 0, 0, 0, 8, 4, 4, 12, 3],
+          "instructors": ["Frank Donald Wood"]
+        },
+        {
+          "session": "2023W",
+          "topic": "N",
+          "title": "Topics in Computer Science",
+          "reported": 73,
+          "average": 86.7,
+          "grades": [0, 0, 0, 0, 0, 4, 4, 7, 6, 19, 31],
+          "instructors": ["Vered Shwartz"]
+        },
+        {
+          "session": "2023W",
+          "topic": "R",
+          "title": "Topics in Computer Science",
+          "reported": 48,
+          "average": 81.6,
+          "grades": [0, 1, 2, 0, 2, 4, 4, 2, 10, 11, 11],
+          "instructors": ["Nicholas Harvey"]
+        },
+        {
+          "session": "2023W",
+          "topic": "S",
+          "title": "Topics in Computer Science",
+          "reported": 89,
+          "average": 80.4,
+          "grades": [1, 1, 1, 2, 2, 6, 12, 11, 21, 14, 17],
+          "instructors": ["Bo Robert Xiao"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Topics in Computer Science",
+          "reported": 37,
+          "average": 82.7,
+          "grades": [0, 0, 0, 0, 0, 3, 2, 5, 12, 9, 6],
+          "instructors": ["Reto Achermann", "Thomas Pasquier"]
+        },
+        {
+          "session": "2022W",
+          "topic": "N",
+          "title": "Topics in Computer Science",
+          "reported": 58,
+          "average": 88.9,
+          "grades": [0, 1, 0, 0, 1, 0, 0, 3, 9, 13, 31],
+          "instructors": ["Vered Shwartz"]
+        },
+        {
+          "session": "2022W",
+          "topic": "R",
+          "title": "Topics in Computer Science",
+          "reported": 63,
+          "average": 84.7,
+          "grades": [0, 0, 1, 0, 3, 1, 6, 7, 11, 7, 27],
+          "instructors": ["Nicholas Harvey"]
+        },
+        {
+          "session": "2021W",
+          "topic": "R",
+          "title": "Topics in Computer Science",
+          "reported": 32,
+          "average": 80.0,
+          "grades": [0, 0, 0, 0, 0, 0, 9, 0, 0, 0, 9],
+          "instructors": ["Nicholas Harvey"]
+        },
+        {
+          "session": "2021W",
+          "topic": "V",
+          "title": "Topics in Computer Science",
+          "reported": 75,
+          "average": 85.6,
+          "grades": [0, 0, 0, 0, 0, 0, 11, 0, 0, 18, 34],
+          "instructors": ["Tamara Munzner"]
+        }
+      ]
+    },
+    "CPSC 440": {
+      "reported": 440,
+      "average": 88.3,
+      "grades": [2, 0, 3, 4, 4, 3, 14, 18, 42, 95, 246],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 139,
+          "average": 91.9,
+          "grades": [0, 0, 0, 2, 2, 2, 3, 3, 6, 12, 109],
+          "instructors": ["Danica Sutherland"]
+        },
+        {
+          "session": "2024W",
+          "reported": 66,
+          "average": 90.0,
+          "grades": [0, 0, 1, 0, 0, 0, 0, 2, 7, 13, 43],
+          "instructors": ["Danica Sutherland"]
+        },
+        {
+          "session": "2023W",
+          "reported": 96,
+          "average": 85.9,
+          "grades": [0, 0, 2, 1, 2, 1, 2, 5, 18, 33, 31],
+          "instructors": ["Danica Sutherland"]
+        },
+        {
+          "session": "2022W",
+          "reported": 69,
+          "average": 84.1,
+          "grades": [2, 0, 0, 1, 0, 0, 3, 8, 11, 20, 24],
+          "instructors": ["Danica Sutherland"]
+        },
+        {
+          "session": "2021W",
+          "reported": 70,
+          "average": 87.1,
+          "grades": [0, 0, 0, 0, 0, 0, 6, 0, 0, 17, 39],
+          "instructors": ["Mark Schmidt"]
+        }
+      ]
+    },
+    "CPSC 444": {
+      "reported": 234,
+      "average": 83.6,
+      "grades": [1, 0, 0, 0, 2, 12, 7, 18, 63, 66, 50],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 70,
+          "average": 84.9,
+          "grades": [0, 0, 0, 0, 1, 2, 1, 3, 26, 19, 18],
+          "instructors": ["Karon MacLean", "Laura Cang"]
+        },
+        {
+          "session": "2024W",
+          "reported": 37,
+          "average": 85.3,
+          "grades": [0, 0, 0, 0, 0, 2, 2, 4, 7, 10, 12],
+          "instructors": ["Preeti Vyas"]
+        },
+        {
+          "session": "2023W",
+          "reported": 43,
+          "average": 81.3,
+          "grades": [1, 0, 0, 0, 1, 2, 3, 7, 12, 13, 4],
+          "instructors": ["Sang-Wha Sien"]
+        },
+        {
+          "session": "2022W",
+          "reported": 48,
+          "average": 86.2,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 4, 10, 17, 16],
+          "instructors": ["Izabelle Janzen"]
+        },
+        {
+          "session": "2021W",
+          "reported": 36,
+          "average": 78.3,
+          "grades": [0, 0, 0, 0, 0, 6, 0, 0, 8, 7, 0],
+          "instructors": ["Joanna Mcgrenere"]
+        }
+      ]
+    },
+    "CPSC 445": {
+      "reported": 65,
+      "average": 82.2,
+      "grades": [0, 0, 0, 0, 1, 1, 5, 4, 4, 9, 21],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 27,
+          "average": 85.8,
+          "grades": [0, 0, 0, 0, 1, 1, 2, 2, 4, 6, 11],
+          "instructors": ["Jiarui Ding"]
+        },
+        {
+          "session": "2022W",
+          "reported": 18,
+          "average": 86.7,
+          "grades": [0, 0, 0, 0, 0, 0, 3, 2, 0, 3, 10],
+          "instructors": ["Jiarui Ding"]
+        },
+        {
+          "session": "2021W",
+          "reported": 20,
+          "average": 73.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Faraz Hach"]
+        }
+      ]
+    },
+    "CPSC 447": {
+      "reported": 359,
+      "average": 84.2,
+      "grades": [1, 1, 2, 4, 9, 5, 16, 35, 77, 106, 100],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 78,
+          "average": 84.9,
+          "grades": [0, 0, 0, 2, 0, 2, 2, 7, 18, 25, 22],
+          "instructors": ["Tamara Munzner"]
+        },
+        {
+          "session": "2024W",
+          "reported": 78,
+          "average": 84.2,
+          "grades": [1, 0, 0, 0, 1, 1, 3, 8, 16, 33, 15],
+          "instructors": ["Tamara Munzner"]
+        },
+        {
+          "session": "2023W",
+          "reported": 86,
+          "average": 82.9,
+          "grades": [0, 1, 0, 0, 3, 2, 7, 10, 23, 17, 20],
+          "instructors": ["Tamara Munzner"]
+        },
+        {
+          "session": "2022W",
+          "reported": 117,
+          "average": 84.8,
+          "grades": [0, 0, 2, 2, 5, 0, 4, 10, 20, 31, 43],
+          "instructors": ["Tamara Munzner"]
+        }
+      ]
+    },
+    "CPSC 448": {
+      "reported": 189,
+      "average": 93.7,
+      "grades": [0, 0, 0, 0, 0, 0, 1, 1, 6, 21, 159],
+      "terms": [
+        {
+          "session": "2025W",
+          "topic": "A",
+          "title": "Directed Studies in Computer Science",
+          "reported": 62,
+          "average": 93.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 4, 5, 53],
+          "instructors": []
+        },
+        {
+          "session": "2025W",
+          "topic": "B",
+          "title": "Directed Studies in Computer Science",
+          "reported": 21,
+          "average": 94.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 19],
+          "instructors": []
+        },
+        {
+          "session": "2024W",
+          "topic": "A",
+          "title": "Directed Studies in Computer Science",
+          "reported": 36,
+          "average": 93.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 30],
+          "instructors": []
+        },
+        {
+          "session": "2024S",
+          "topic": "B",
+          "title": "Directed Studies in Computer Science",
+          "reported": 6,
+          "average": 95.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "topic": "A",
+          "title": "Directed Studies in Computer Science",
+          "reported": 26,
+          "average": 92.6,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 0, 5, 19],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "topic": "B",
+          "title": "Directed Studies in Computer Science",
+          "reported": 6,
+          "average": 94.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 5],
+          "instructors": []
+        },
+        {
+          "session": "2023S",
+          "topic": "A",
+          "title": "Directed Studies in Computer Science",
+          "reported": 7,
+          "average": 91.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 4],
+          "instructors": []
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Directed Studies in Computer Science",
+          "reported": 25,
+          "average": 94.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 23],
+          "instructors": []
+        }
+      ]
+    },
+    "CPSC 449": {
+      "reported": 87,
+      "average": 92.9,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 4, 3, 14, 65],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 22,
+          "average": 91.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 2, 1, 5, 14],
+          "instructors": []
+        },
+        {
+          "session": "2024W",
+          "reported": 24,
+          "average": 94.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 21],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "reported": 15,
+          "average": 92.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 0, 3, 11],
+          "instructors": []
+        },
+        {
+          "session": "2022W",
+          "reported": 17,
+          "average": 92.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 4, 11],
+          "instructors": []
+        },
+        {
+          "session": "2021W",
+          "reported": 9,
+          "average": 95.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8],
+          "instructors": ["James Little"]
+        }
+      ]
+    },
+    "CPSC 455": {
+      "reported": 580,
+      "average": 88.2,
+      "grades": [1, 0, 0, 1, 2, 3, 17, 24, 77, 159, 288],
+      "terms": [
+        {
+          "session": "2025S",
+          "reported": 98,
+          "average": 89.6,
+          "grades": [0, 0, 0, 0, 0, 0, 3, 5, 8, 22, 60],
+          "instructors": ["Chris Kerslake"]
+        },
+        {
+          "session": "2024S",
+          "reported": 112,
+          "average": 89.8,
+          "grades": [0, 0, 0, 0, 1, 0, 3, 4, 11, 19, 74],
+          "instructors": []
+        },
+        {
+          "session": "2023S",
+          "reported": 157,
+          "average": 88.2,
+          "grades": [1, 0, 0, 1, 0, 2, 2, 5, 19, 51, 73],
+          "instructors": ["Ian McLean", "Stephanie Mah", "Danya Karras"]
+        },
+        {
+          "session": "2022S",
+          "reported": 92,
+          "average": 86.4,
+          "grades": [0, 0, 0, 0, 1, 1, 2, 10, 19, 25, 34],
+          "instructors": ["Ian McLean", "Stephanie Mah", "Danya Karras"]
+        },
+        {
+          "session": "2021S",
+          "reported": 121,
+          "average": 87.0,
+          "grades": [0, 0, 0, 0, 0, 0, 7, 0, 20, 42, 47],
+          "instructors": ["Ian Mclean", "Danya Karras"]
+        }
+      ]
+    },
+    "CPSC 490": {
+      "reported": 19,
+      "average": 94.1,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 18],
+      "terms": [
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Student Directed Seminars",
+          "reported": 19,
+          "average": 94.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 18],
+          "instructors": []
+        }
+      ]
+    },
+    "CPSC 491": {
+      "reported": 23,
+      "average": 90.5,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 8, 14],
+      "terms": [
+        {
+          "session": "2025S",
+          "reported": 6,
+          "average": 91.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 4],
+          "instructors": ["Steven Wolfman"]
+        },
+        {
+          "session": "2024W",
+          "reported": 9,
+          "average": 90.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 6],
+          "instructors": []
+        },
+        {
+          "session": "2023S",
+          "reported": 8,
+          "average": 89.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 4],
+          "instructors": ["Steven Wolfman"]
+        }
+      ]
+    },
+    "CPSC 503": {
+      "reported": 25,
+      "average": 90.2,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 12],
+      "terms": [
+        {
+          "session": "2021W",
+          "reported": 25,
+          "average": 90.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 12],
+          "instructors": ["Giuseppe Carenini"]
+        }
+      ]
+    },
+    "CPSC 504": {
+      "reported": 32,
+      "average": 92.7,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 1, 1, 4, 25],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 18,
+          "average": 92.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 1, 2, 13],
+          "instructors": ["Rachel Pottinger"]
+        },
+        {
+          "session": "2022W",
+          "reported": 14,
+          "average": 93.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 12],
+          "instructors": ["Rachel Pottinger"]
+        }
+      ]
+    },
+    "CPSC 507": {
+      "reported": 9,
+      "average": 89.1,
+      "grades": [0, 0, 0, 0, 0, 0, 1, 0, 0, 2, 6],
+      "terms": [
+        {
+          "session": "2022W",
+          "reported": 9,
+          "average": 89.1,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 0, 2, 6],
+          "instructors": ["Reid Holmes"]
+        }
+      ]
+    },
+    "CPSC 508": {
+      "reported": 33,
+      "average": 88.0,
+      "grades": [1, 0, 0, 0, 0, 1, 0, 1, 3, 3, 23],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 6,
+          "average": 93.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 5],
+          "instructors": ["Reto Achermann"]
+        },
+        {
+          "session": "2023W",
+          "reported": 13,
+          "average": 90.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 9],
+          "instructors": ["Reto Achermann"]
+        },
+        {
+          "session": "2022W",
+          "reported": 14,
+          "average": 83.4,
+          "grades": [1, 0, 0, 0, 0, 1, 0, 1, 2, 0, 9],
+          "instructors": ["Margo Seltzer"]
+        }
+      ]
+    },
+    "CPSC 509": {
+      "reported": 31,
+      "average": 86.4,
+      "grades": [0, 0, 0, 1, 0, 1, 2, 0, 0, 2, 16],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 12,
+          "average": 83.7,
+          "grades": [0, 0, 0, 1, 0, 1, 2, 0, 0, 2, 5],
+          "instructors": ["Ronald Garcia"]
+        },
+        {
+          "session": "2021W",
+          "reported": 19,
+          "average": 88.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11],
+          "instructors": ["Ronald Garcia"]
+        }
+      ]
+    },
+    "CPSC 513": {
+      "reported": 36,
+      "average": 86.9,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 21, 4],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 12,
+          "average": 87.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 6, 4],
+          "instructors": ["Alan Hu"]
+        },
+        {
+          "session": "2021W",
+          "reported": 24,
+          "average": 86.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 15, 0],
+          "instructors": ["Alan Hu"]
+        }
+      ]
+    },
+    "CPSC 516": {
+      "reported": 6,
+      "average": 96.3,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6],
+      "terms": [
+        {
+          "session": "2022W",
+          "reported": 6,
+          "average": 96.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6],
+          "instructors": ["William Evans"]
+        }
+      ]
+    },
+    "CPSC 517": {
+      "reported": 12,
+      "average": 88.3,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 2, 0, 5, 5],
+      "terms": [
+        {
+          "session": "2022W",
+          "reported": 12,
+          "average": 88.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 2, 0, 5, 5],
+          "instructors": ["Chen Greif"]
+        }
+      ]
+    },
+    "CPSC 521": {
+      "reported": 9,
+      "average": 86.7,
+      "grades": [0, 0, 0, 0, 0, 0, 1, 0, 1, 4, 3],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 9,
+          "average": 86.7,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 1, 4, 3],
+          "instructors": ["Mark Greenstreet"]
+        }
+      ]
+    },
+    "CPSC 522": {
+      "reported": 9,
+      "average": 90.8,
+      "grades": [0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 7],
+      "terms": [
+        {
+          "session": "2022W",
+          "reported": 9,
+          "average": 90.8,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 7],
+          "instructors": ["David Poole"]
+        }
+      ]
+    },
+    "CPSC 524": {
+      "reported": 26,
+      "average": 92.1,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 15],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 14,
+          "average": 91.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 6],
+          "instructors": ["Alla Sheffer"]
+        },
+        {
+          "session": "2021W",
+          "reported": 12,
+          "average": 93.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9],
+          "instructors": ["Alla Sheffer"]
+        }
+      ]
+    },
+    "CPSC 530": {
+      "reported": 9,
+      "average": 87.6,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      "terms": [
+        {
+          "session": "2021W",
+          "topic": "L",
+          "title": "Topics in Information Processing",
+          "reported": 9,
+          "average": 87.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Kevin Leyton-Brown"]
+        }
+      ]
+    },
+    "CPSC 531": {
+      "reported": 9,
+      "average": 93.7,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 6],
+      "terms": [
+        {
+          "session": "2024W",
+          "topic": "F",
+          "title": "ALG METHOD",
+          "reported": 9,
+          "average": 93.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 6],
+          "instructors": ["Joel Friedman"]
+        }
+      ]
+    },
+    "CPSC 532": {
+      "reported": 425,
+      "average": 89.3,
+      "grades": [3, 0, 0, 2, 1, 3, 12, 7, 36, 90, 234],
+      "terms": [
+        {
+          "session": "2024W",
+          "topic": "D",
+          "title": "STAT LEARN THRY",
+          "reported": 9,
+          "average": 86.8,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 5],
+          "instructors": ["Danica Sutherland"]
+        },
+        {
+          "session": "2024W",
+          "topic": "G",
+          "title": "NLP meets HCI",
+          "reported": 9,
+          "average": 89.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 4],
+          "instructors": ["Giuseppe Carenini"]
+        },
+        {
+          "session": "2024W",
+          "topic": "P",
+          "title": "Synthetic Data in the Era of Generative AI",
+          "reported": 15,
+          "average": 89.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 6, 8],
+          "instructors": ["Mi Jung Park"]
+        },
+        {
+          "session": "2024W",
+          "topic": "V",
+          "title": "NLP COMMONSENSE",
+          "reported": 38,
+          "average": 95.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 38],
+          "instructors": ["Vered Shwartz"]
+        },
+        {
+          "session": "2024W",
+          "topic": "Y",
+          "title": "CAUSAL ML",
+          "reported": 21,
+          "average": 86.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 3, 1, 13, 4],
+          "instructors": ["Mathias Lecuyer"]
+        },
+        {
+          "session": "2023W",
+          "topic": "C",
+          "title": "Topics in Artificial Intelligence",
+          "reported": 12,
+          "average": 85.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 3, 7, 1],
+          "instructors": ["Cristina Conati"]
+        },
+        {
+          "session": "2023W",
+          "topic": "D",
+          "title": "Topics in Artificial Intelligence",
+          "reported": 15,
+          "average": 86.0,
+          "grades": [0, 0, 0, 0, 0, 1, 1, 0, 2, 5, 5],
+          "instructors": ["Danica Sutherland"]
+        },
+        {
+          "session": "2023W",
+          "topic": "V",
+          "title": "Topics in Artificial Intelligence",
+          "reported": 36,
+          "average": 96.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 31],
+          "instructors": ["Vered Shwartz"]
+        },
+        {
+          "session": "2023W",
+          "topic": "Y",
+          "title": "Topics in Artificial Intelligence",
+          "reported": 11,
+          "average": 83.9,
+          "grades": [1, 0, 0, 0, 0, 0, 2, 0, 0, 2, 4],
+          "instructors": ["Mathias Lecuyer"]
+        },
+        {
+          "session": "2022W",
+          "topic": "D",
+          "title": "Topics in Artificial Intelligence",
+          "reported": 21,
+          "average": 89.5,
+          "grades": [2, 0, 0, 0, 0, 0, 0, 0, 0, 2, 17],
+          "instructors": ["Danica Sutherland"]
+        },
+        {
+          "session": "2022W",
+          "topic": "G",
+          "title": "Topics in Artificial Intelligence",
+          "reported": 9,
+          "average": 88.6,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 8],
+          "instructors": ["Giuseppe Carenini"]
+        },
+        {
+          "session": "2022W",
+          "topic": "J",
+          "title": "Topics in Artificial Intelligence",
+          "reported": 16,
+          "average": 83.0,
+          "grades": [0, 0, 0, 0, 1, 0, 2, 0, 4, 8, 1],
+          "instructors": ["Jeffrey Clune"]
+        },
+        {
+          "session": "2022W",
+          "topic": "L",
+          "title": "Topics in Artificial Intelligence",
+          "reported": 11,
+          "average": 88.5,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 2, 3, 5],
+          "instructors": ["Kevin Leyton-Brown"]
+        },
+        {
+          "session": "2022W",
+          "topic": "M",
+          "title": "Topics in Artificial Intelligence",
+          "reported": 49,
+          "average": 85.8,
+          "grades": [0, 0, 0, 0, 0, 1, 3, 1, 10, 16, 18],
+          "instructors": ["Andreas Lehrmann", "Mark Schmidt"]
+        },
+        {
+          "session": "2022W",
+          "topic": "P",
+          "title": "Topics in Artificial Intelligence",
+          "reported": 10,
+          "average": 89.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 4],
+          "instructors": ["Mi Jung Park"]
+        },
+        {
+          "session": "2022W",
+          "topic": "S",
+          "title": "Topics in Artificial Intelligence",
+          "reported": 31,
+          "average": 94.1,
+          "grades": [0, 0, 0, 1, 0, 0, 0, 1, 2, 1, 26],
+          "instructors": ["Leonid Sigal"]
+        },
+        {
+          "session": "2022W",
+          "topic": "V",
+          "title": "Topics in Artificial Intelligence",
+          "reported": 12,
+          "average": 95.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12],
+          "instructors": ["Vered Shwartz"]
+        },
+        {
+          "session": "2022W",
+          "topic": "Y",
+          "title": "Topics in Artificial Intelligence",
+          "reported": 13,
+          "average": 82.4,
+          "grades": [0, 0, 0, 1, 0, 0, 2, 0, 4, 4, 2],
+          "instructors": ["Mathias Lecuyer"]
+        },
+        {
+          "session": "2021W",
+          "topic": "C",
+          "title": "Topics in Artificial Intelligence",
+          "reported": 9,
+          "average": 87.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Cristina Conati"]
+        },
+        {
+          "session": "2021W",
+          "topic": "J",
+          "title": "Topics in Artificial Intelligence",
+          "reported": 19,
+          "average": 80.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 0],
+          "instructors": ["Jeffrey Clune"]
+        },
+        {
+          "session": "2021W",
+          "topic": "S",
+          "title": "Topics in Artificial Intelligence",
+          "reported": 22,
+          "average": 91.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16],
+          "instructors": ["Danica Sutherland"]
+        },
+        {
+          "session": "2021W",
+          "topic": "V",
+          "title": "Topics in Artificial Intelligence",
+          "reported": 19,
+          "average": 93.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 13],
+          "instructors": ["Vered Shwartz"]
+        },
+        {
+          "session": "2021W",
+          "topic": "W",
+          "title": "Topics in Artificial Intelligence",
+          "reported": 18,
+          "average": 87.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12],
+          "instructors": ["Frank Donald Wood"]
+        }
+      ]
+    },
+    "CPSC 533": {
+      "reported": 196,
+      "average": 90.1,
+      "grades": [2, 0, 0, 1, 0, 2, 0, 3, 15, 27, 123],
+      "terms": [
+        {
+          "session": "2024W",
+          "topic": "V",
+          "title": "LEARNING TO MOVE",
+          "reported": 24,
+          "average": 90.6,
+          "grades": [0, 0, 0, 1, 0, 0, 0, 1, 0, 6, 16],
+          "instructors": ["Michiel van de Panne"]
+        },
+        {
+          "session": "2024W",
+          "topic": "Y",
+          "title": "3D Computer Vision with Deep Learning",
+          "reported": 21,
+          "average": 92.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 4, 16],
+          "instructors": ["Kwang Moo Yi"]
+        },
+        {
+          "session": "2023W",
+          "topic": "V",
+          "title": "Topics in Computer Graphics",
+          "reported": 32,
+          "average": 87.1,
+          "grades": [1, 0, 0, 0, 0, 0, 0, 1, 5, 9, 15],
+          "instructors": ["Michiel van de Panne"]
+        },
+        {
+          "session": "2023W",
+          "topic": "Y",
+          "title": "Topics in Computer Graphics",
+          "reported": 14,
+          "average": 92.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 10],
+          "instructors": ["Kwang Moo Yi"]
+        },
+        {
+          "session": "2022W",
+          "topic": "R",
+          "title": "Topics in Computer Graphics",
+          "reported": 18,
+          "average": 92.1,
+          "grades": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 16],
+          "instructors": ["Helge Rhodin"]
+        },
+        {
+          "session": "2022W",
+          "topic": "Y",
+          "title": "Topics in Computer Graphics",
+          "reported": 9,
+          "average": 93.7,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 8],
+          "instructors": ["Kwang Moo Yi"]
+        },
+        {
+          "session": "2021W",
+          "topic": "R",
+          "title": "Topics in Computer Graphics",
+          "reported": 25,
+          "average": 91.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 18],
+          "instructors": ["Helge Rhodin"]
+        },
+        {
+          "session": "2021W",
+          "topic": "V",
+          "title": "Topics in Computer Graphics",
+          "reported": 39,
+          "average": 86.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 9, 7, 15],
+          "instructors": ["Michiel Van De Panne"]
+        },
+        {
+          "session": "2021W",
+          "topic": "Y",
+          "title": "Topics in Computer Graphics",
+          "reported": 14,
+          "average": 92.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9],
+          "instructors": ["Kwang Moo Yi"]
+        }
+      ]
+    },
+    "CPSC 535": {
+      "reported": 17,
+      "average": 87.3,
+      "grades": [0, 0, 0, 0, 0, 1, 1, 0, 4, 2, 9],
+      "terms": [
+        {
+          "session": "2024W",
+          "topic": "P",
+          "title": "DIGITAL HUMANS",
+          "reported": 11,
+          "average": 88.3,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 2, 2, 6],
+          "instructors": ["Dinesh Pai"]
+        },
+        {
+          "session": "2022W",
+          "topic": "P",
+          "title": "Topics in Simulation and Optimization",
+          "reported": 6,
+          "average": 85.5,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 0, 2, 0, 3],
+          "instructors": ["Dinesh Pai"]
+        }
+      ]
+    },
+    "CPSC 536": {
+      "reported": 100,
+      "average": 92.4,
+      "grades": [0, 0, 0, 0, 0, 1, 1, 2, 3, 17, 72],
+      "terms": [
+        {
+          "session": "2024W",
+          "topic": "M",
+          "title": "CONVEX OPTIM",
+          "reported": 17,
+          "average": 99.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 17],
+          "instructors": ["Michael Friedlander"]
+        },
+        {
+          "session": "2023W",
+          "topic": "E",
+          "title": "Topics in Algorithms and Complexity",
+          "reported": 6,
+          "average": 94.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6],
+          "instructors": ["William Evans"]
+        },
+        {
+          "session": "2023W",
+          "topic": "M",
+          "title": "Topics in Algorithms and Complexity",
+          "reported": 16,
+          "average": 92.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14],
+          "instructors": ["Michael Friedlander"]
+        },
+        {
+          "session": "2023W",
+          "topic": "W",
+          "title": "Topics in Algorithms and Complexity",
+          "reported": 17,
+          "average": 88.4,
+          "grades": [0, 0, 0, 0, 0, 1, 1, 2, 1, 5, 7],
+          "instructors": ["Daochen Wang"]
+        },
+        {
+          "session": "2022W",
+          "topic": "R",
+          "title": "Topics in Algorithms and Complexity",
+          "reported": 8,
+          "average": 92.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 6],
+          "instructors": ["Andrew Roth"]
+        },
+        {
+          "session": "2022W",
+          "topic": "S",
+          "title": "Topics in Algorithms and Complexity",
+          "reported": 10,
+          "average": 91.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 7],
+          "instructors": ["Frederick Shepherd"]
+        },
+        {
+          "session": "2021W",
+          "topic": "N",
+          "title": "Topics in Algorithms and Complexity",
+          "reported": 26,
+          "average": 89.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 15],
+          "instructors": ["Nicholas Harvey"]
+        }
+      ]
+    },
+    "CPSC 538": {
+      "reported": 105,
+      "average": 89.3,
+      "grades": [0, 0, 0, 0, 0, 1, 1, 4, 9, 20, 52],
+      "terms": [
+        {
+          "session": "2024W",
+          "topic": "G",
+          "title": "REAL-TIME COMP.",
+          "reported": 6,
+          "average": 91.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 5],
+          "instructors": ["Arpan Gujarati"]
+        },
+        {
+          "session": "2024W",
+          "topic": "M",
+          "title": "SYSTEMS SECURITY",
+          "reported": 6,
+          "average": 85.2,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 0, 2, 1, 2],
+          "instructors": ["Aastha Mehta"]
+        },
+        {
+          "session": "2024W",
+          "topic": "P",
+          "title": "CMP SECURITY",
+          "reported": 10,
+          "average": 89.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 6],
+          "instructors": ["Thomas Pasquier"]
+        },
+        {
+          "session": "2023W",
+          "topic": "G",
+          "title": "Topics in Computer Systems",
+          "reported": 10,
+          "average": 86.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 2, 4, 3],
+          "instructors": ["Arpan Gujarati"]
+        },
+        {
+          "session": "2023W",
+          "topic": "L",
+          "title": "Topics in Computer Systems",
+          "reported": 7,
+          "average": 94.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6],
+          "instructors": ["Mathias Lecuyer"]
+        },
+        {
+          "session": "2023W",
+          "topic": "S",
+          "title": "Topics in Computer Systems",
+          "reported": 9,
+          "average": 82.4,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 3, 2, 2, 1],
+          "instructors": ["Kristen Thomasen", "Cristie Ford", "Benjamin Goold", "Thomas Pasquier"]
+        },
+        {
+          "session": "2022W",
+          "topic": "M",
+          "title": "Topics in Computer Systems",
+          "reported": 10,
+          "average": 89.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 6],
+          "instructors": ["Aastha Mehta"]
+        },
+        {
+          "session": "2022W",
+          "topic": "P",
+          "title": "Topics in Computer Systems",
+          "reported": 9,
+          "average": 86.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 6, 2],
+          "instructors": ["Thomas Pasquier"]
+        },
+        {
+          "session": "2021W",
+          "topic": "B",
+          "title": "Topics in Computer Systems",
+          "reported": 24,
+          "average": 93.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 21],
+          "instructors": ["Ivan Beschastnikh"]
+        },
+        {
+          "session": "2021W",
+          "topic": "L",
+          "title": "Topics in Computer Systems",
+          "reported": 8,
+          "average": 90.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Mathias Lecuyer"]
+        },
+        {
+          "session": "2021W",
+          "topic": "M",
+          "title": "Topics in Computer Systems",
+          "reported": 6,
+          "average": 86.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Aastha Mehta"]
+        }
+      ]
+    },
+    "CPSC 539": {
+      "reported": 68,
+      "average": 92.0,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 2, 1, 8, 45],
+      "terms": [
+        {
+          "session": "2024W",
+          "topic": "L",
+          "title": "AUTOMATEDTESTING",
+          "reported": 12,
+          "average": 90.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 2, 0, 3, 7],
+          "instructors": ["Caroline Lemieux"]
+        },
+        {
+          "session": "2023W",
+          "topic": "B",
+          "title": "Topics in Programming Languages",
+          "reported": 9,
+          "average": 97.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9],
+          "instructors": ["William Bowman"]
+        },
+        {
+          "session": "2023W",
+          "topic": "S",
+          "title": "Topics in Programming Languages",
+          "reported": 10,
+          "average": 90.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 4, 5],
+          "instructors": ["Alexander Summers"]
+        },
+        {
+          "session": "2022W",
+          "topic": "B",
+          "title": "Topics in Programming Languages",
+          "reported": 10,
+          "average": 97.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10],
+          "instructors": ["William Bowman"]
+        },
+        {
+          "session": "2022W",
+          "topic": "L",
+          "title": "Topics in Programming Languages",
+          "reported": 15,
+          "average": 93.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 14],
+          "instructors": ["Caroline Lemieux"]
+        },
+        {
+          "session": "2021W",
+          "topic": "S",
+          "title": "Topics in Programming Languages",
+          "reported": 12,
+          "average": 84.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Alexander Summers"]
+        }
+      ]
+    },
+    "CPSC 540": {
+      "reported": 116,
+      "average": 88.7,
+      "grades": [0, 0, 0, 0, 0, 1, 3, 7, 4, 40, 54],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 12,
+          "average": 90.2,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 0, 0, 4, 7],
+          "instructors": ["Jeffrey Clune", "Cong Lu"]
+        },
+        {
+          "session": "2023W",
+          "reported": 56,
+          "average": 86.2,
+          "grades": [0, 0, 0, 0, 0, 0, 2, 6, 4, 24, 13],
+          "instructors": ["Jeffrey Clune", "Mark Schmidt"]
+        },
+        {
+          "session": "2022W",
+          "reported": 22,
+          "average": 89.2,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 1, 0, 6, 14],
+          "instructors": ["Danica Sutherland"]
+        },
+        {
+          "session": "2021W",
+          "reported": 26,
+          "average": 93.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 20],
+          "instructors": ["Mark Schmidt"]
+        }
+      ]
+    },
+    "CPSC 543": {
+      "reported": 14,
+      "average": 89.4,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 6],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 8,
+          "average": 90.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 6],
+          "instructors": ["Karon MacLean"]
+        },
+        {
+          "session": "2021W",
+          "reported": 6,
+          "average": 88.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Karon Maclean"]
+        }
+      ]
+    },
+    "CPSC 544": {
+      "reported": 81,
+      "average": 88.4,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 6, 45, 23],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 17,
+          "average": 92.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 16],
+          "instructors": ["Karon MacLean"]
+        },
+        {
+          "session": "2022W",
+          "reported": 26,
+          "average": 86.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 6, 13, 7],
+          "instructors": ["Karon MacLean"]
+        },
+        {
+          "session": "2021W",
+          "reported": 38,
+          "average": 87.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 31, 0],
+          "instructors": ["Heather O'Brien"]
+        }
+      ]
+    },
+    "CPSC 545": {
+      "reported": 43,
+      "average": 88.5,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 1, 7, 14, 21],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 16,
+          "average": 89.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 6, 8],
+          "instructors": ["Jiarui Ding"]
+        },
+        {
+          "session": "2023W",
+          "reported": 17,
+          "average": 87.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 5, 5, 7],
+          "instructors": ["Jiarui Ding"]
+        },
+        {
+          "session": "2022W",
+          "reported": 10,
+          "average": 88.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 0, 3, 6],
+          "instructors": ["Jiarui Ding"]
+        }
+      ]
+    },
+    "CPSC 547": {
+      "reported": 61,
+      "average": 89.4,
+      "grades": [0, 0, 0, 0, 1, 0, 3, 3, 2, 11, 39],
+      "terms": [
+        {
+          "session": "2022W",
+          "reported": 28,
+          "average": 86.5,
+          "grades": [0, 0, 0, 0, 1, 0, 3, 3, 2, 5, 14],
+          "instructors": ["Tamara Munzner"]
+        },
+        {
+          "session": "2021W",
+          "reported": 33,
+          "average": 91.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 25],
+          "instructors": ["Tamara Munzner"]
+        }
+      ]
+    },
+    "CPSC 548": {
+      "reported": 7,
+      "average": 91.6,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 5],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 7,
+          "average": 91.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 5],
+          "instructors": []
+        }
+      ]
+    },
+    "CPSC 550": {
+      "reported": 33,
+      "average": 89.9,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 6, 8, 16],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 17,
+          "average": 91.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 6, 10],
+          "instructors": ["Danica Sutherland"]
+        },
+        {
+          "session": "2023W",
+          "reported": 16,
+          "average": 88.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 5, 2, 6],
+          "instructors": ["Danica Sutherland"]
+        }
+      ]
+    },
+    "CPSC 554": {
+      "reported": 127,
+      "average": 89.5,
+      "grades": [0, 0, 0, 0, 0, 1, 1, 6, 10, 34, 64],
+      "terms": [
+        {
+          "session": "2024W",
+          "topic": "Y",
+          "title": "ADV_DSGN_MTHD",
+          "reported": 11,
+          "average": 89.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 6],
+          "instructors": ["Dongwook Yoon"]
+        },
+        {
+          "session": "2023W",
+          "topic": "X",
+          "title": "Topics in Human-Computer Interaction",
+          "reported": 15,
+          "average": 86.9,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 1, 3, 5, 5],
+          "instructors": ["Bo Robert Xiao"]
+        },
+        {
+          "session": "2022W",
+          "topic": "K",
+          "title": "Topics in Human-Computer Interaction",
+          "reported": 20,
+          "average": 83.8,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 3, 5, 8, 3],
+          "instructors": ["Antony Hodgson"]
+        },
+        {
+          "session": "2022W",
+          "topic": "X",
+          "title": "Topics in Human-Computer Interaction",
+          "reported": 11,
+          "average": 89.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 1, 4, 5],
+          "instructors": ["Bo Robert Xiao"]
+        },
+        {
+          "session": "2022W",
+          "topic": "Y",
+          "title": "Topics in Human-Computer Interaction",
+          "reported": 13,
+          "average": 89.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 1, 5, 6],
+          "instructors": ["Dongwook Yoon"]
+        },
+        {
+          "session": "2021W",
+          "topic": "K",
+          "title": "Topics in Human-Computer Interaction",
+          "reported": 27,
+          "average": 91.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24],
+          "instructors": ["Laura Ballay", "Antony Hodgson"]
+        },
+        {
+          "session": "2021W",
+          "topic": "X",
+          "title": "Topics in Human-Computer Interaction",
+          "reported": 17,
+          "average": 94.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 15],
+          "instructors": ["Bo Robert Xiao"]
+        },
+        {
+          "session": "2021W",
+          "topic": "Y",
+          "title": "Topics in Human-Computer Interaction",
+          "reported": 13,
+          "average": 89.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 0],
+          "instructors": ["Dongwook Yoon"]
+        }
+      ]
+    }
+  }
+}
