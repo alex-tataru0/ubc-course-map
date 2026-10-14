@@ -1,4 +1,4 @@
-import type { CourseGrades, GradesFile } from "./types";
+import type { CourseGrades, GradeTerm, GradesFile } from "./types";
 
 // The grade ranges in data/grades/*.json, lowest first (BUCKETS in pipeline/grades.py),
 // with a short label for the chart's axis and a phrase for its tooltips.
@@ -40,6 +40,12 @@ export function notShown({ grades, reported }: { grades: number[]; reported: num
 // How many terms the course ran in. A topics course like CPSC 436 has several rows per term.
 export function termsOffered(course: CourseGrades): number {
   return new Set(course.terms.map((term) => term.session)).size;
+}
+
+// Everyone who taught the course, most recent first, each name once.
+// (The terms are newest first, and a Set keeps the order names were first added in.)
+export function recentInstructors(terms: GradeTerm[]): string[] {
+  return [...new Set(terms.flatMap((term) => term.instructors))];
 }
 
 // "2021S–2025W": the first and last term in the data.

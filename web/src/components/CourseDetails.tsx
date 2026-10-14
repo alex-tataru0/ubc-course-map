@@ -1,8 +1,9 @@
 import { useEffect, useRef } from "react";
 import type { ReactNode } from "react";
 import { displayCode, simplifyTree, splitDescription } from "@/lib/details";
-import { sessionRange } from "@/lib/grades";
+import { recentInstructors, sessionRange } from "@/lib/grades";
 import type { Highlight } from "@/lib/highlight";
+import { rateMyProfUrl, redditSearchUrl, ubcGradesUrl } from "@/lib/links";
 import type { AlsoNeeded, CoursePath } from "@/lib/path";
 import { requirementStatus } from "@/lib/progress";
 import type { CourseProgress } from "@/lib/progress";
@@ -163,15 +164,72 @@ export default function CourseDetails({
         </Section>
       )}
 
-      <a
-        href={calendarUrl}
-        target="_blank"
-        rel="noreferrer"
-        className="mt-6 inline-block text-ink-muted underline hover:text-ink"
-      >
-        All CPSC courses in the UBC Academic Calendar ↗
-      </a>
+      <Links course={course} grades={grades} calendarUrl={calendarUrl} />
     </aside>
+  );
+}
+
+// The last section: searches and pages on other sites about this course, then a Rate My
+// Professors search for everyone who has taught it. These are only links; the site never
+// fetches anything from Reddit or Rate My Professors.
+function Links({
+  course,
+  grades,
+  calendarUrl,
+}: {
+  course: Course;
+  grades: CourseGrades | undefined;
+  calendarUrl: string;
+}) {
+  const instructors = grades ? recentInstructors(grades.terms) : [];
+  return (
+    <Section title="Links">
+      <ul className="space-y-1.5">
+        <li>
+          <ExternalLink href={redditSearchUrl(course.code)}>Search r/ubc for {course.code}</ExternalLink>
+        </li>
+        {grades && (
+          <li>
+            <ExternalLink href={ubcGradesUrl(course.code)}>{course.code} on UBCGrades</ExternalLink>
+          </li>
+        )}
+        <li>
+          <ExternalLink href={calendarUrl}>All CPSC courses in the UBC Academic Calendar</ExternalLink>
+        </li>
+      </ul>
+      {instructors.length > 0 && (
+        <>
+          <p id="rmp-label" className="mt-4 mb-1.5 text-xs text-ink-muted">
+            Instructors on Rate My Professors:
+          </p>
+          <ul aria-labelledby="rmp-label" className="flex flex-wrap gap-1.5">
+            {instructors.map((name) => (
+              <li key={name}>
+                <a
+                  href={rateMyProfUrl(name)}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-block rounded-full border border-line px-2.5 py-0.5 text-[13px] hover:bg-canvas"
+                >
+                  {name}
+                  <span aria-hidden> ↗</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </>
+      )}
+    </Section>
+  );
+}
+
+// Opens in a new tab. The arrow is only a visual hint, so screen readers skip it.
+function ExternalLink({ href, children }: { href: string; children: ReactNode }) {
+  return (
+    <a href={href} target="_blank" rel="noreferrer" className="underline underline-offset-2 hover:text-ink-muted">
+      {children}
+      <span aria-hidden> ↗</span>
+    </a>
   );
 }
 

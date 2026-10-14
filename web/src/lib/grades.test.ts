@@ -1,7 +1,8 @@
 import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 import {
-  RANGES, chartScale, gradesFor, notShown, percentLabel, sessionRange, shares, termsOffered,
+  RANGES, chartScale, gradesFor, notShown, percentLabel, recentInstructors, sessionRange, shares,
+  termsOffered,
 } from "./grades";
 import { undergradOnly } from "./graph";
 import type { CourseFile, GradesFile } from "./types";
@@ -56,6 +57,14 @@ describe("termsOffered", () => {
     // CPSC 436 has 23 rows (one per topic per term) in 5 terms.
     expect(grades.courses["CPSC 436"].terms).toHaveLength(23);
     expect(termsOffered(grades.courses["CPSC 436"])).toBe(5);
+  });
+});
+
+describe("recentInstructors", () => {
+  it("lists each instructor once, most recent first", () => {
+    expect(recentInstructors(grades.courses["CPSC 221"].terms)).toEqual([
+      "Vsevolod Lynov", "Geoffrey Tien", "Cinda Heeren", "Tom Magliery", "Steven Wolfman",
+    ]);
   });
 });
 

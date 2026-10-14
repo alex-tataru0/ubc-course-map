@@ -54,9 +54,14 @@ export default function Home() {
         <div className="space-y-0.5 sm:space-y-1 sm:text-right">
           <EdgeLegend />
           <p className="text-xs text-header-muted">
-            Unofficial student project, not affiliated with UBC. Data from the{" "}
+            {/* Short enough to keep the header on one row at 1440px. */}
+            Unofficial student project, not affiliated with UBC. Data:{" "}
             <a href={data.source} target="_blank" rel="noreferrer" className="underline hover:text-header-ink">
-              UBC Academic Calendar
+              UBC Calendar
+            </a>{" "}
+            and{" "}
+            <a href="https://ubcgrades.com" target="_blank" rel="noreferrer" className="underline hover:text-header-ink">
+              UBCGrades
             </a>
             {" · "}
             <a
