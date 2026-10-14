@@ -4,10 +4,11 @@ import pytest
 from google.genai import errors
 
 from build_prereqs import (
-    RETRY_WAITS, SECONDS_BETWEEN_CALLS, SUBJECTS, ask_slowly, build_courses, load_page,
-    pick_subjects, print_summary, source_url, write_courses,
+    RETRY_WAITS, SECONDS_BETWEEN_CALLS, SUBJECTS, ask_slowly, build_courses, html_path,
+    load_page, pick_subjects, print_summary, source_url, write_courses,
 )
 from llm import MODELS, load_cache
+from parse_courses import parse_course_list
 from prereq_tree import normalize_codes
 
 
@@ -23,18 +24,30 @@ def requisites(records):
     return [r[key] for r in records for key in ("prereq", "coreq") if r[key]]
 
 
-def test_only_the_hard_prereqs_go_to_gemini(courses):
+def saved_courses(subject):
+    # Every course on the subject's saved calendar page.
+    return parse_course_list(html_path(subject).read_text(encoding="utf-8"))
+
+
+# For each subject: courses, prereqs + coreqs, how many the rules read, and how many
+# different texts go to Gemini. If a re-downloaded calendar changes these, check why.
+@pytest.mark.parametrize("subject, n_courses, n_requisites, n_rules, n_asked", [
+    ("CPSC", 112, 51, 45, 6),
+    ("MATH", 177, 110, 97, 13),
+    ("STAT", 54, 30, 26, 4),
+])
+def test_only_the_hard_prereqs_go_to_gemini(subject, n_courses, n_requisites, n_rules, n_asked):
     asked = []
 
     def counting_ask(text):
         asked.append(text)
         return fake_ask(text)
 
-    records = build_courses(list(courses.values()), {}, counting_ask, no_save)
-    assert len(records) == 112
-    assert len(requisites(records)) == 51
-    assert sum(req["source"] == "rules" for req in requisites(records)) == 45
-    assert len(asked) == 6
+    records = build_courses(saved_courses(subject), {}, counting_ask, no_save)
+    assert len(records) == n_courses
+    assert len(requisites(records)) == n_requisites
+    assert sum(req["source"] == "rules" for req in requisites(records)) == n_rules
+    assert len(asked) == n_asked
 
 
 def test_course_record(courses):
@@ -75,14 +88,30 @@ def test_recommendation_is_kept_apart_with_normalized_codes():
     assert record["recommended"] == "One of MATH 152, MATH 221 is recommended"
 
 
-def test_committed_cache_answers_every_hard_prereq(courses):
+@pytest.mark.parametrize("subject", SUBJECTS)
+def test_committed_cache_answers_every_hard_prereq(subject):
     # The saved Gemini answers are enough to build everything without an API key,
     # and none of them was flagged by the checker.
     def no_gemini(text):
         raise AssertionError(f"Not in the cache: {text}")
 
-    records = build_courses(list(courses.values()), load_cache(), no_gemini, no_save)
+    records = build_courses(saved_courses(subject), load_cache(), no_gemini, no_save)
     assert all(req["problems"] == [] for req in requisites(records))
+
+
+def test_recommendations_in_math_and_stat():
+    recommended = {
+        r["code"]: r["recommended"]
+        for subject in ["MATH", "STAT"]
+        for r in build_courses(saved_courses(subject), load_cache(), fake_ask, no_save)
+        if r["recommended"]
+    }
+    assert recommended == {
+        "MATH 100": "High school calculus is strongly recommended",
+        "MATH 317": "One of MATH 152, MATH 221, MATH 223 is recommended",
+        "STAT 305": "The Department recommends that students meet the prerequisite "
+                    "through option (a) or (b)",
+    }
 
 
 def test_write_courses(tmp_path):

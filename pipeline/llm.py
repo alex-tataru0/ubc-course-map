@@ -38,6 +38,16 @@ EXAMPLES = [
         "Chemistry 12 and one of PHYS 101, PHYS 117",
         {"all_of": [{"other": "Chemistry 12"}, {"one_of": ["PHYS 101", "PHYS 117"]}]},
     ),
+    # Added for MATH and STAT, after Gemini made STAT 321's note a requirement and
+    # dropped the "MATH 550." at the start of MATH 551's prereq.
+    (
+        "One of PHYS 216, PHYS 218. PHYS 218 may be taken concurrently",
+        {"one_of": ["PHYS 216", "PHYS 218", {"other": "PHYS 218 may be taken concurrently"}]},
+    ),
+    (
+        "PHYS 301. Classical mechanics (PHYS 216 or equivalent)",
+        {"all_of": ["PHYS 301", {"one_of": ["PHYS 216", {"other": "equivalent"}]}]},
+    ),
 ]
 
 INSTRUCTIONS = """You turn UBC course prerequisite text into a JSON tree.
@@ -56,6 +66,10 @@ Rules:
 - Never add a course that isn't in the text.
 - "and" means all_of. "or", "one of" and "either" mean one_of.
 - (a), (b), (c) mark groups. Keep that grouping.
+- A note that allows more, like "MATH 226 may be taken concurrently", is one more choice in a
+  one_of. It is never an extra requirement.
+- Every sentence counts. A course alone before a full stop, like "MATH 300." at the start,
+  is needed too.
 - "N% or higher in X" becomes {"course": "X", "min_grade": N}. "A minimum grade of N% in each of"
   applies to every course it covers.
 - Reply with only the JSON tree.

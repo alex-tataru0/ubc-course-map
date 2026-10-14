@@ -34,17 +34,23 @@ All of this runs once, ahead of time. The website only loads the finished JSON f
    - **Every tree is checked.** A checker makes sure the tree has a valid shape and mentions exactly the courses in the sentence, with none dropped and none made up. Anything it flags is marked for review.
 4. **Write the output.** `build_prereqs.py` writes one file per subject, like `data/courses/cpsc.json`. It downloads each subject's calendar page once and keeps it in `data/raw/`.
 
-### Accuracy (CPSC, October 2026)
+### Accuracy (October 2026)
 
-Every parsed prerequisite was checked by hand against the calendar text.
+Every prerequisite and corequisite was checked by hand against the calendar text.
 
-| | Prerequisites | Correct |
-|---|---|---|
-| Parsed by rules | 44 | 44 |
-| Parsed by Gemini | 6 | 6 |
-| **Total** | **50** | **50 / 50** |
+| Subject | Courses | Prereqs and coreqs | Read by rules | Read by Gemini | Correct |
+|---|---|---|---|---|---|
+| CPSC | 112 | 51 | 45 | 6 | 51 / 51 |
+| MATH | 177 | 110 | 97 | 13 | 110 / 110 |
+| STAT | 54 | 30 | 26 | 4 | 30 / 30 |
+| **Total** | **343** | **191** | **168 (88%)** | **23** | **191 / 191** |
 
-The first version of the rules left 13 prerequisites for Gemini, which got 12 right on the first try. The miss (CPSC 121) treated high school courses as UBC course codes; the checker flagged it automatically, and the prompt was updated. Later, rules written for MATH and STAT read 7 of those 13 too: 4 come out exactly like Gemini's checked answers, and the other 3 have no course codes, so their text is kept whole.
+Gemini wasn't always right on the first try, and the checker can't catch every kind of mistake, so every answer is checked by hand:
+- **CPSC:** the first version of the rules sent 13 prerequisites to Gemini, and it got 12 right on the first try. CPSC 121 treated high school courses as UBC course codes, which the checker flagged.
+- **MATH and STAT:** 17 sent, 15 right on the first try. MATH 551 dropped the "MATH 550." at the start, which the checker flagged. STAT 321 turned "STAT 305 may be taken concurrently" into an extra requirement instead of another choice. The checker can't see that kind of mistake; the hand check did.
+- Each time, the prompt got a new rule and an example, only the wrong answers were asked again, and they came back right.
+
+The rules written for MATH and STAT also read 7 of the 13 CPSC prerequisites Gemini had answered: 4 come out exactly like Gemini's checked answers, and the other 3 have no course codes, so their text is kept whole.
 
 Known gaps:
 - CPSC 448's requirement isn't labelled "Prerequisite:" in the calendar, so it isn't captured.
@@ -61,7 +67,9 @@ pytest
 python pipeline/build_prereqs.py
 ```
 
-A Gemini API key is only needed when there are prerequisites the cache doesn't have yet. Put it in a `.env` file (see `.env.example`). There are 119 `pytest` tests for the whole pipeline.
+With no arguments, `build_prereqs.py` builds every subject (CPSC, MATH, STAT). To build only some, name them: `python pipeline/build_prereqs.py MATH STAT`.
+
+A Gemini API key is only needed when there are prerequisites the cache doesn't have yet. Put it in a `.env` file (see `.env.example`). There are 124 `pytest` tests for the whole pipeline.
 
 ## How the grade data is built
 

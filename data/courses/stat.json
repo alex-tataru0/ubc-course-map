@@ -1,0 +1,1032 @@
+{
+  "subject": "STAT",
+  "source": "https://vancouver.calendar.ubc.ca/course-descriptions/subject/statv",
+  "courses": [
+    {
+      "code": "STAT 200",
+      "title": "Elementary Statistics for Applications",
+      "credits": "3",
+      "description": "Classical, nonparametric, and robust inferences about means, variances, and analysis of variance, using computers. Emphasis on problem formulation, assumptions, and interpretation. See the Faculty of Science Credit Exclusion Lists: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… [3-1-0] Prerequisite: One of any course on the MATH 100 credit exclusion list [ https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… ], MATH 190, SCIE 001, MATH_O 100.",
+      "prereq": {
+        "text": "One of any course on the MATH 100 credit exclusion list [ https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… ], MATH 190, SCIE 001, MATH_O 100",
+        "tree": {
+          "one_of": [
+            {
+              "other": "any course on the MATH 100 credit exclusion list [ https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… ]"
+            },
+            "MATH 190",
+            "SCIE 001",
+            "MATH_O 100"
+          ]
+        },
+        "source": "llm",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "STAT 201",
+      "title": "Statistical Inference for Data Science",
+      "credits": "3",
+      "description": "Classical and simulation-based techniques for estimation and hypothesis testing, including inference for means and proportions. Emphasis on case studies and real data sets, as well as reproducible and transparent workflows when writing computer scripts for analysis and reports. [3-0-1] Prerequisite: DSCI 100.",
+      "prereq": {
+        "text": "DSCI 100",
+        "tree": "DSCI 100",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "STAT 203",
+      "title": "Statistical Methods",
+      "credits": "3",
+      "description": "Organizing, displaying and summarizing data. Inference estimation and testing for elementary probability models. Not for credit towards a B.Sc. (Consult the Credit Exclusion list within the Faculty of Science section in the Calendar.) [3-1-0] Prerequisite: MATH 11. Or Pre-calculus 11.",
+      "prereq": {
+        "text": "MATH 11. Or Pre-calculus 11",
+        "tree": {
+          "other": "MATH 11. Or Pre-calculus 11"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "STAT 251",
+      "title": "Introductory Probability and Statistics",
+      "credits": "3",
+      "description": "Probability, discrete and continuous random variables, joint probability distributions, estimation, hypothesis testing, regression, analysis of variance. (Consult the Credit Exclusion list within the Faculty of Science section of the Calendar). [3-1-0] Prerequisite: One of APSC 173, MATH 101, MATH 103, MATH 105, MATH 121, SCIE 001, MATH_O 101, MATH_O 103.",
+      "prereq": {
+        "text": "One of APSC 173, MATH 101, MATH 103, MATH 105, MATH 121, SCIE 001, MATH_O 101, MATH_O 103",
+        "tree": {
+          "one_of": [
+            "APSC 173",
+            "MATH 101",
+            "MATH 103",
+            "MATH 105",
+            "MATH 121",
+            "SCIE 001",
+            "MATH_O 101",
+            "MATH_O 103"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "STAT 300",
+      "title": "Intermediate Statistics for Applications",
+      "credits": "3",
+      "description": "Further topics in statistical inference, including parametric and non-parametric methods, goodness-of-fit methods, analysis of variance and covariance, regression analysis, categorical data analysis, experimental designs, time series, model fitting, and statistical computing. [3-1-0] Prerequisite: One of STAT 200, STAT 203, STAT 241, STAT 251, BIOL 300, BUSI 291, COMM 191, COMM 291, ECON 325, ECON 327, FRST 231, KIN 206, LFS 252, POLI 380, PSYC 218, PSYC 278, HES_O 340, POLI_O 400, STAT_O 121, STAT_O 121, STAT_O 205, STAT_O 230. Equivalency: COMM 411.",
+      "prereq": {
+        "text": "One of STAT 200, STAT 203, STAT 241, STAT 251, BIOL 300, BUSI 291, COMM 191, COMM 291, ECON 325, ECON 327, FRST 231, KIN 206, LFS 252, POLI 380, PSYC 218, PSYC 278, HES_O 340, POLI_O 400, STAT_O 121, STAT_O 121, STAT_O 205, STAT_O 230",
+        "tree": {
+          "one_of": [
+            "STAT 200",
+            "STAT 203",
+            "STAT 241",
+            "STAT 251",
+            "BIOL 300",
+            "BUSI 291",
+            "COMM 191",
+            "COMM 291",
+            "ECON 325",
+            "ECON 327",
+            "FRST 231",
+            "KIN 206",
+            "LFS 252",
+            "POLI 380",
+            "PSYC 218",
+            "PSYC 278",
+            "HES_O 340",
+            "POLI_O 400",
+            "STAT_O 121",
+            "STAT_O 121",
+            "STAT_O 205",
+            "STAT_O 230"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": "COMM 411",
+      "recommended": null
+    },
+    {
+      "code": "STAT 301",
+      "title": "Statistical Modelling for Data Science",
+      "credits": "3",
+      "description": "Data analysis using statistical models and algorithms (e.g., linear and logistic regression, peeking, bandit, and variable selection algorithms) in case studies from different disciplines. Generative versus out-of-sample predictive models. Reproducible and transparent workflows for computer scripts and reports. [3-0-1] Prerequisite: STAT 201 and one of MATH 100, MATH 102, MATH 104, MATH 110, MATH 120, MATH 180, MATH 184, SCIE 001, MATH_O 100.",
+      "prereq": {
+        "text": "STAT 201 and one of MATH 100, MATH 102, MATH 104, MATH 110, MATH 120, MATH 180, MATH 184, SCIE 001, MATH_O 100",
+        "tree": {
+          "all_of": [
+            "STAT 201",
+            {
+              "one_of": [
+                "MATH 100",
+                "MATH 102",
+                "MATH 104",
+                "MATH 110",
+                "MATH 120",
+                "MATH 180",
+                "MATH 184",
+                "SCIE 001",
+                "MATH_O 100"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "STAT 302",
+      "title": "Introduction to Probability",
+      "credits": "3",
+      "description": "Basic notions of probability, random variables, expectation and conditional expectation, limit theorems. (Consult the Credit Exclusion list within the Faculty of Science section in the Calendar.) [3-0-0] Prerequisite: One of MATH 200, MATH 226, MATH 217, MATH 253, MATH 254, MATH_O 200. Equivalency: MATH 302.",
+      "prereq": {
+        "text": "One of MATH 200, MATH 226, MATH 217, MATH 253, MATH 254, MATH_O 200",
+        "tree": {
+          "one_of": [
+            "MATH 200",
+            "MATH 226",
+            "MATH 217",
+            "MATH 253",
+            "MATH 254",
+            "MATH_O 200"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": "MATH 302",
+      "recommended": null
+    },
+    {
+      "code": "STAT 303",
+      "title": "Introduction to Probabilistic Modelling and Simulation",
+      "credits": "3",
+      "description": "Core concepts in probability taught through probabilistic generative modelling, simulation of random variables, basic Monte Carlo, common probability distributions and models, basic probabilistic model design and inference. [3-0-0] Prerequisites: All of (a) one of MATH 101, MATH 103, MATH 105, MATH 121, SCIE 001, (b) one of CPSC 103, CPSC 110, and (c) one of DSCI 100, ECON 325, STAT 200, STAT 251.",
+      "prereq": {
+        "text": "All of (a) one of MATH 101, MATH 103, MATH 105, MATH 121, SCIE 001, (b) one of CPSC 103, CPSC 110, and (c) one of DSCI 100, ECON 325, STAT 200, STAT 251",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "MATH 101",
+                "MATH 103",
+                "MATH 105",
+                "MATH 121",
+                "SCIE 001"
+              ]
+            },
+            {
+              "one_of": [
+                "CPSC 103",
+                "CPSC 110"
+              ]
+            },
+            {
+              "one_of": [
+                "DSCI 100",
+                "ECON 325",
+                "STAT 200",
+                "STAT 251"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "STAT 305",
+      "title": "Introduction to Statistical Inference",
+      "credits": "3",
+      "description": "Review of probability theory. Sampling distribution theory, large sample theory and methods of estimation and hypothesis testing, including maximum likelihood estimation, likelihood ratio testing and confidence interval construction. [3-0-1] Prerequisite: Either (a) one of STAT 200, STAT 203, BIOL 300, STAT 251, COMM 291, ECON 325, FRST 231, PSYC 218, PSYC 366, PSYO_O 271, STAT_O 121, STAT_O 124, STAT_O 205, STAT_O 230 and one of MATH 302, STAT 302, STAT_O 203; or (b) DSCI 200 and STAT 201 and one of MATH 302, STAT 302, STAT_O 203; or (c) a score of 65% or higher in one of MATH 302, STAT 302, STAT_O 203. The Department recommends that students meet the prerequisite through option (a) or (b).",
+      "prereq": {
+        "text": "Either (a) one of STAT 200, STAT 203, BIOL 300, STAT 251, COMM 291, ECON 325, FRST 231, PSYC 218, PSYC 366, PSYO_O 271, STAT_O 121, STAT_O 124, STAT_O 205, STAT_O 230 and one of MATH 302, STAT 302, STAT_O 203; or (b) DSCI 200 and STAT 201 and one of MATH 302, STAT 302, STAT_O 203; or (c) a score of 65% or higher in one of MATH 302, STAT 302, STAT_O 203",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                {
+                  "one_of": [
+                    "STAT 200",
+                    "STAT 203",
+                    "BIOL 300",
+                    "STAT 251",
+                    "COMM 291",
+                    "ECON 325",
+                    "FRST 231",
+                    "PSYC 218",
+                    "PSYC 366",
+                    "PSYO_O 271",
+                    "STAT_O 121",
+                    "STAT_O 124",
+                    "STAT_O 205",
+                    "STAT_O 230"
+                  ]
+                },
+                {
+                  "one_of": [
+                    "MATH 302",
+                    "STAT 302",
+                    "STAT_O 203"
+                  ]
+                }
+              ]
+            },
+            {
+              "all_of": [
+                "DSCI 200",
+                "STAT 201",
+                {
+                  "one_of": [
+                    "MATH 302",
+                    "STAT 302",
+                    "STAT_O 203"
+                  ]
+                }
+              ]
+            },
+            {
+              "one_of": [
+                {
+                  "course": "MATH 302",
+                  "min_grade": 65
+                },
+                {
+                  "course": "STAT 302",
+                  "min_grade": 65
+                },
+                {
+                  "course": "STAT_O 203",
+                  "min_grade": 65
+                }
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": "The Department recommends that students meet the prerequisite through option (a) or (b)"
+    },
+    {
+      "code": "STAT 306",
+      "title": "Finding Relationships in Data",
+      "credits": "3",
+      "description": "Modelling a response (output) variable as a function of several explanatory (input) variables: multiple regression for a continuous response, logistic regression for a binary response, and log-linear models for count data. Finding low-dimensional structure: principal components analysis. Cluster analysis. (Consult the Credit Exclusion List within the Faculty of Science section in the Calendar). [3-0-1] Prerequisite: One of MATH 152, MATH 221, MATH 223, MATH_O 222 and one of STAT 200, STAT 241, STAT 251, STAT 300, BIOL 300, BUSI 291, COMM 191, COMM 291, ECON 325, ECON 327, FRST 231, PSYC 218, PSYC 278, PSYO_O 271, STAT_O 124, STAT_O 205, STAT_O 230 and one of MATH 302, STAT 302, STAT_O 203.",
+      "prereq": {
+        "text": "One of MATH 152, MATH 221, MATH 223, MATH_O 222 and one of STAT 200, STAT 241, STAT 251, STAT 300, BIOL 300, BUSI 291, COMM 191, COMM 291, ECON 325, ECON 327, FRST 231, PSYC 218, PSYC 278, PSYO_O 271, STAT_O 124, STAT_O 205, STAT_O 230 and one of MATH 302, STAT 302, STAT_O 203",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "MATH 152",
+                "MATH 221",
+                "MATH 223",
+                "MATH_O 222"
+              ]
+            },
+            {
+              "one_of": [
+                "STAT 200",
+                "STAT 241",
+                "STAT 251",
+                "STAT 300",
+                "BIOL 300",
+                "BUSI 291",
+                "COMM 191",
+                "COMM 291",
+                "ECON 325",
+                "ECON 327",
+                "FRST 231",
+                "PSYC 218",
+                "PSYC 278",
+                "PSYO_O 271",
+                "STAT_O 124",
+                "STAT_O 205",
+                "STAT_O 230"
+              ]
+            },
+            {
+              "one_of": [
+                "MATH 302",
+                "STAT 302",
+                "STAT_O 203"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "STAT 321",
+      "title": "Stochastic Signals and Systems",
+      "credits": "4",
+      "description": "Stochastic behaviour of signals and systems (e.g., communication systems); discrete and continuous probability; random processes; modelling and identification of linear time-invariant systems; binary hypothesis testing and decision making. [3-0-2] Prerequisite: One of ELEC 221, STAT 305. STAT 305 may be taken concurrently, with registration assistance from the Student Programs Coordinator in the Department of Statistics. Equivalency: ELEC321",
+      "prereq": {
+        "text": "One of ELEC 221, STAT 305. STAT 305 may be taken concurrently, with registration assistance from the Student Programs Coordinator in the Department of Statistics",
+        "tree": {
+          "one_of": [
+            "ELEC 221",
+            "STAT 305",
+            {
+              "other": "STAT 305 may be taken concurrently, with registration assistance from the Student Programs Coordinator in the Department of Statistics"
+            }
+          ]
+        },
+        "source": "llm",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": "ELEC321",
+      "recommended": null
+    },
+    {
+      "code": "STAT 335",
+      "title": "Statistics in Quality Assurance",
+      "credits": "3",
+      "description": "Philosophy of quality improvement and total quality control. Definitions of quality. Deming's principles, Ishikawa's tools, control charts, acceptance sampling, continuous improvement, quality design. Credit cannot be obtained for both STAT 335 and WOOD 335. [3-0-1] Prerequisite: One of STAT 200, STAT 241, STAT 251, BIOL 300.",
+      "prereq": {
+        "text": "One of STAT 200, STAT 241, STAT 251, BIOL 300",
+        "tree": {
+          "one_of": [
+            "STAT 200",
+            "STAT 241",
+            "STAT 251",
+            "BIOL 300"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "STAT 344",
+      "title": "Sample Surveys",
+      "credits": "3",
+      "description": "Planning and practice of sample surveys. Random sampling, bias and variance, unequal probability sampling, systematic, multistage and stratified sampling, ratio and regression estimators, post-stratification, establishing a frame, pretesting, pilot studies, nonresponse and additional topics. [3-0-1] Prerequisite: One of STAT 200, STAT 241, STAT 251, BIOL 300, COMM 291, ECON 325, ECON 327, FRST 231, PSYC 218, PSYC 278, PSYC 366. Corequisite: One of MATH 302, STAT 302.",
+      "prereq": {
+        "text": "One of STAT 200, STAT 241, STAT 251, BIOL 300, COMM 291, ECON 325, ECON 327, FRST 231, PSYC 218, PSYC 278, PSYC 366",
+        "tree": {
+          "one_of": [
+            "STAT 200",
+            "STAT 241",
+            "STAT 251",
+            "BIOL 300",
+            "COMM 291",
+            "ECON 325",
+            "ECON 327",
+            "FRST 231",
+            "PSYC 218",
+            "PSYC 278",
+            "PSYC 366"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": {
+        "text": "One of MATH 302, STAT 302",
+        "tree": {
+          "one_of": [
+            "MATH 302",
+            "STAT 302"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "STAT 398",
+      "title": "Co-operative Work Placement I",
+      "credits": "3",
+      "description": "Work experience in an industrial research setting. Normally taken during Winter Session of third year. Restricted to students admitted to the Co-operative Education Program in Statistics. Prerequisite: Registration in Statistics Honours or Major Program. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "Registration in Statistics Honours or Major Program",
+        "tree": {
+          "other": "Registration in Statistics Honours or Major Program"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "STAT 399",
+      "title": "Co-operative Work Placement II",
+      "credits": "3",
+      "description": "Work experience in an industrial research setting. Normally taken during Summer Session following third year. Restricted to students admitted to the Co-operative Education Program in Statistics. Prerequisite: STAT 398. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "STAT 398",
+        "tree": "STAT 398",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "STAT 404",
+      "title": "Design and Analysis of Experiments",
+      "credits": "3",
+      "description": "Theory and application of analysis of variance for standard experimental designs, including blocked, nested, factorial and split plot designs. Fixed and random effects, multiple comparisons, analysis of covariance. (Consult the Credit Exclusion list within the Faculty of Science section in the Calendar.) [3-0-1] Prerequisite: STAT 305, one of MATH 152, MATH 221, or MATH 223. Corequisite: ECON 326 or STAT 306.",
+      "prereq": {
+        "text": "STAT 305, one of MATH 152, MATH 221, or MATH 223",
+        "tree": {
+          "all_of": [
+            "STAT 305",
+            {
+              "one_of": [
+                "MATH 152",
+                "MATH 221",
+                "MATH 223"
+              ]
+            }
+          ]
+        },
+        "source": "llm",
+        "problems": []
+      },
+      "coreq": {
+        "text": "ECON 326 or STAT 306",
+        "tree": {
+          "one_of": [
+            "ECON 326",
+            "STAT 306"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "STAT 405",
+      "title": "Bayesian Statistics",
+      "credits": "3",
+      "description": "Bayesian approaches to statistical inference: probabilistic modelling, Bayesian inference workflows, approximation of posterior distributions supported by modelling languages, analysis of Bayesian procedures and posterior approximation methods. [3-0-1] Prerequisites: One of MATH 302, STAT 302, or MATH 418, and either STAT 305 or STAT 460.",
+      "prereq": {
+        "text": "One of MATH 302, STAT 302, or MATH 418, and either STAT 305 or STAT 460",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "MATH 302",
+                "STAT 302",
+                "MATH 418"
+              ]
+            },
+            {
+              "one_of": [
+                "STAT 305",
+                "STAT 460"
+              ]
+            }
+          ]
+        },
+        "source": "llm",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "STAT 406",
+      "title": "Methods for Statistical Learning",
+      "credits": "3",
+      "description": "Flexible, data-adaptive methods for regression and classification models; regression smoothers; penalty methods; assessing accuracy of prediction; model selection; robustness; classification and regression trees; nearest-neighbour methods; neural networks; model averaging and ensembles; computational time and visualization for large data sets. [3-0-1] Prerequisite: a) One of STAT 306, CPSC 340, or b) STAT 301 and one of MATH 152, MATH 221, MATH 223 and one of MATH 302, STAT 302.",
+      "prereq": {
+        "text": "a) One of STAT 306, CPSC 340, or b) STAT 301 and one of MATH 152, MATH 221, MATH 223 and one of MATH 302, STAT 302",
+        "tree": {
+          "one_of": [
+            {
+              "one_of": [
+                "STAT 306",
+                "CPSC 340"
+              ]
+            },
+            {
+              "all_of": [
+                "STAT 301",
+                {
+                  "one_of": [
+                    "MATH 152",
+                    "MATH 221",
+                    "MATH 223"
+                  ]
+                },
+                {
+                  "one_of": [
+                    "MATH 302",
+                    "STAT 302"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "STAT 416",
+      "title": "Advanced Linear Modelling",
+      "credits": "3",
+      "description": "Advanced topics in linear modelling, including weighted least squares, model selection, robust methods, splines, Bayesian methods, mixed effects models, and generalized linear models. [3-0-1] Prerequisites: Both STAT 305 and STAT 306.",
+      "prereq": {
+        "text": "Both STAT 305 and STAT 306",
+        "tree": {
+          "all_of": [
+            "STAT 305",
+            "STAT 306"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "STAT 443",
+      "title": "Time Series and Forecasting",
+      "credits": "3",
+      "description": "Trend and seasonality, autocorrelation, stationarity, stochastic models, exponential smoothing, Holt-Winters methods, Box-Jenkins approach, frequency domain analysis. [3-0-1] Prerequisite: Both (a) one of MATH 302, MATH 318, STAT 302 and (b) one of ECON 326, ECON 328, STAT 300, STAT 301, STAT 306. Corequisite: STAT 305.",
+      "prereq": {
+        "text": "Both (a) one of MATH 302, MATH 318, STAT 302 and (b) one of ECON 326, ECON 328, STAT 300, STAT 301, STAT 306",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "MATH 302",
+                "MATH 318",
+                "STAT 302"
+              ]
+            },
+            {
+              "one_of": [
+                "ECON 326",
+                "ECON 328",
+                "STAT 300",
+                "STAT 301",
+                "STAT 306"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": {
+        "text": "STAT 305",
+        "tree": "STAT 305",
+        "source": "rules",
+        "problems": []
+      },
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "STAT 445",
+      "title": "Introduction to Exploratory Data Analysis",
+      "credits": "3",
+      "description": "Methods for exploring and presenting the structure of data: one group of numbers, several groups, bivariate data, time series data and two-way tables. Data displays, outlier identification, transformations, resistant regression, several types of data smoothing, comparisons with standard statistical methods. [3-0-1] Prerequisite: STAT 306",
+      "prereq": {
+        "text": "STAT 306",
+        "tree": "STAT 306",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "STAT 447",
+      "title": "Special Topics in Statistics",
+      "credits": "2-6",
+      "description": "Students should consult the Statistics Department for the particular topics offered in a given year. Prerequisite: STAT 305.",
+      "prereq": {
+        "text": "STAT 305",
+        "tree": "STAT 305",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "STAT 449",
+      "title": "Statistics Honours Project",
+      "credits": "3-6",
+      "description": "A research project, undertaken under the supervision of a faculty member, resulting in a written report. Prerequisite: Open to students enrolled in a Statistics Honours specialization and at class standing 4. Permission of the Undergraduate Advisor and supervising faculty member is required.",
+      "prereq": {
+        "text": "Open to students enrolled in a Statistics Honours specialization and at class standing 4. Permission of the Undergraduate Advisor and supervising faculty member is required",
+        "tree": {
+          "other": "Open to students enrolled in a Statistics Honours specialization and at class standing 4. Permission of the Undergraduate Advisor and supervising faculty member is required"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "STAT 450",
+      "title": "Case Studies in Statistics",
+      "credits": "3",
+      "description": "Readings and projects in areas of current statistical application including environmental science, industrial statistics, official statistics, actuarial statistics, and medical statistics. [3-0-1] Prerequisite: STAT 306",
+      "prereq": {
+        "text": "STAT 306",
+        "tree": "STAT 306",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "STAT 460",
+      "title": "Statistical Inference I",
+      "credits": "3",
+      "description": "Statistical models and their properties, estimation methods, properties of point and interval estimation, likelihood, Bayesian inference. Intended for Honours students. [3-0-0] Prerequisite: All of MATH 320, STAT 305 and one of MATH 152, MATH 221, MATH 223.",
+      "prereq": {
+        "text": "All of MATH 320, STAT 305 and one of MATH 152, MATH 221, MATH 223",
+        "tree": {
+          "all_of": [
+            {
+              "all_of": [
+                "MATH 320",
+                "STAT 305"
+              ]
+            },
+            {
+              "one_of": [
+                "MATH 152",
+                "MATH 221",
+                "MATH 223"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "STAT 461",
+      "title": "Statistical Inference II",
+      "credits": "3",
+      "description": "Hypothesis testing and model selection in modern statistics, confidence regions, multiple testing, model comparison criteria. Intended for Honours students. [3-0-0] Prerequisite: STAT 460",
+      "prereq": {
+        "text": "STAT 460",
+        "tree": "STAT 460",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "STAT 498",
+      "title": "Co-operative Work Placement III",
+      "credits": "3",
+      "description": "Work experience in an industrial research setting. Normally taken during Summer Session following fourth year. Restricted to students admitted to the Co-operative Education Program in Statistics. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "STAT 499",
+      "title": "Co-operative Work Placement IV",
+      "credits": "3",
+      "description": "Work experience in an industrial research setting. Normally taken during Term 1 of Winter Session of fifth year. Restricted to students admitted to the Co-operative Education Program in Statistics. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "STAT 518",
+      "title": "Theoretical Statistics",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "STAT 520",
+      "title": "Topics in Bayesian Analysis and Decision Theory",
+      "credits": "1-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "STAT 521",
+      "title": "Topics in Multivariate Analysis",
+      "credits": "1-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "STAT 522",
+      "title": "Topics in Asymptotic Theory and Statistical Inference",
+      "credits": "1-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "STAT 526",
+      "title": "Topics in Smoothing Methods",
+      "credits": "1-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "STAT 527",
+      "title": "Topics in Biostatistics",
+      "credits": "1-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "STAT 530",
+      "title": "Bayesian Inference and Decision",
+      "credits": "1-3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "STAT 533",
+      "title": "Survival Analysis",
+      "credits": "1-3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "STAT 535",
+      "title": "Statistical Computing",
+      "credits": "1-3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "STAT 536",
+      "title": "Statistical Theory for the Design and Analysis of Clinical Studies",
+      "credits": "1-3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "STAT 538",
+      "title": "Generalized Linear Models",
+      "credits": "1-3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "STAT 540",
+      "title": "Statistical Methods for High Dimensional Biology",
+      "credits": "1-3",
+      "description": "Equivalency: BIOF 540, GSAT 540. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "BIOF 540, GSAT 540",
+      "recommended": null
+    },
+    {
+      "code": "STAT 541",
+      "title": "Applied Multivariate Analysis",
+      "credits": "1-3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "STAT 543",
+      "title": "Time Series Analysis",
+      "credits": "1-3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "STAT 545",
+      "title": "Exploratory Data Analysis",
+      "credits": "1-3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "STAT 547",
+      "title": "Topics in Statistics",
+      "credits": "1-6",
+      "description": "Students should consult the Statistics Department for the particular advanced topics offered in a given year. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "STAT 548",
+      "title": "Directed Studies in Statistics",
+      "credits": "1-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "STAT 549",
+      "title": "Thesis for Master's Degree",
+      "credits": "6-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "STAT 550",
+      "title": "Techniques of Statistical Consulting",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "STAT 551",
+      "title": "Statistical Consulting Practicum",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "STAT 560",
+      "title": "Statistical Theory I",
+      "credits": "3",
+      "description": "Credit will not be given for both STAT 460 and STAT 560. [3-0-0]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "STAT 561",
+      "title": "Statistical Theory II",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "STAT 589",
+      "title": "M.Sc. Project",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "STAT 598",
+      "title": "Co-operative Work Placement I",
+      "credits": "3",
+      "description": "Restricted to students admitted to the Co-operative M.Sc. Education Program in Statistics. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "STAT 599",
+      "title": "Co-operative Work Placement II",
+      "credits": "3",
+      "description": "Restricted to students admitted to the Co-operative M.Sc. Education Program in Statistics. Prerequisite: STAT 598. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "STAT 598",
+        "tree": "STAT 598",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "STAT 649",
+      "title": "Doctoral Dissertation",
+      "credits": "0",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    }
+  ]
+}

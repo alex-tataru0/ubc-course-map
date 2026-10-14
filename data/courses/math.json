@@ -1,0 +1,3758 @@
+{
+  "subject": "MATH",
+  "source": "https://vancouver.calendar.ubc.ca/course-descriptions/subject/mathv",
+  "courses": [
+    {
+      "code": "MATH 100",
+      "title": "Differential Calculus with Applications",
+      "credits": "3",
+      "description": "Derivatives of elementary functions. Applications and modelling: graphing, optimization. Consult the Faculty of Science Credit Exclusion List: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… [3-0-0] Prerequisite: A score of 80% or higher in BC Pre-calculus 12. High school calculus is strongly recommended.",
+      "prereq": {
+        "text": "A score of 80% or higher in BC Pre-calculus 12",
+        "tree": {
+          "other": "A score of 80% or higher in BC Pre-calculus 12"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": "High school calculus is strongly recommended"
+    },
+    {
+      "code": "MATH 101",
+      "title": "Integral Calculus with Applications",
+      "credits": "3",
+      "description": "The definite integral, integration techniques, applications, modelling, infinite series. Equivalency: MATH 103, MATH 105. [3-0-0] Prerequisite: One of MATH 100, MATH 102, MATH 104, MATH 110, MATH 120, MATH 180, MATH 184, MATH_O 100.",
+      "prereq": {
+        "text": "One of MATH 100, MATH 102, MATH 104, MATH 110, MATH 120, MATH 180, MATH 184, MATH_O 100",
+        "tree": {
+          "one_of": [
+            "MATH 100",
+            "MATH 102",
+            "MATH 104",
+            "MATH 110",
+            "MATH 120",
+            "MATH 180",
+            "MATH 184",
+            "MATH_O 100"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": "MATH 103, MATH 105. [3-0-0]",
+      "recommended": null
+    },
+    {
+      "code": "MATH 102",
+      "title": "Differential Calculus with Applications to Life Sciences",
+      "credits": "3",
+      "description": "Functions, derivatives, optimization, growth and decay, discrete probability. Equivalency: MATH 100, 104. [3-0-0] Prerequisite: High-school calculus and a score of 80% or higher in BC Principles of Mathematics 12 or Pre-calculus 12.",
+      "prereq": {
+        "text": "High-school calculus and a score of 80% or higher in BC Principles of Mathematics 12 or Pre-calculus 12",
+        "tree": {
+          "other": "High-school calculus and a score of 80% or higher in BC Principles of Mathematics 12 or Pre-calculus 12"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": "MATH 100, 104. [3-0-0]",
+      "recommended": null
+    },
+    {
+      "code": "MATH 103",
+      "title": "Integral Calculus with Applications to Life Sciences",
+      "credits": "3",
+      "description": "Antiderivatives and definite integrals, infinite series, applications to probability and dynamical systems. Equivalency: MATH 101, 105. [3-0-0] Prerequisite: One of MATH 100, MATH 102, MATH 104, MATH 110, MATH 120, MATH 180, MATH 184.",
+      "prereq": {
+        "text": "One of MATH 100, MATH 102, MATH 104, MATH 110, MATH 120, MATH 180, MATH 184",
+        "tree": {
+          "one_of": [
+            "MATH 100",
+            "MATH 102",
+            "MATH 104",
+            "MATH 110",
+            "MATH 120",
+            "MATH 180",
+            "MATH 184"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": "MATH 101, 105. [3-0-0]",
+      "recommended": null
+    },
+    {
+      "code": "MATH 104",
+      "title": "Differential Calculus with Applications to Commerce and Social Sciences",
+      "credits": "3",
+      "description": "Derivatives and rates of change, exponential and trigonometric functions, Newton's method, Taylor polynomials, maxima and minima, and graphing. Equivalency: MATH 100, 102. [3-0-0] Prerequisite: High-school calculus and a score of 80% or higher in BC Principles of Mathematics 12 or Pre-calculus 12.",
+      "prereq": {
+        "text": "High-school calculus and a score of 80% or higher in BC Principles of Mathematics 12 or Pre-calculus 12",
+        "tree": {
+          "other": "High-school calculus and a score of 80% or higher in BC Principles of Mathematics 12 or Pre-calculus 12"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": "MATH 100, 102. [3-0-0]",
+      "recommended": null
+    },
+    {
+      "code": "MATH 105",
+      "title": "Integral Calculus with Applications to Commerce and Social Sciences",
+      "credits": "3",
+      "description": "Antiderivatives, the definite integral, techniques of integration, infinite series, partial derivatives, maxima and minima with constraints, discrete and continuous random variables. Equivalency: MATH 101, 103. [3-0-0] Prerequisite: One of MATH 100, MATH 102, MATH 104, MATH 110, MATH 120, MATH 180, MATH 184.",
+      "prereq": {
+        "text": "One of MATH 100, MATH 102, MATH 104, MATH 110, MATH 120, MATH 180, MATH 184",
+        "tree": {
+          "one_of": [
+            "MATH 100",
+            "MATH 102",
+            "MATH 104",
+            "MATH 110",
+            "MATH 120",
+            "MATH 180",
+            "MATH 184"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": "MATH 101, 103. [3-0-0]",
+      "recommended": null
+    },
+    {
+      "code": "MATH 110",
+      "title": "Differential Calculus",
+      "credits": "6",
+      "description": "Topics as for MATH 100, but including relevant topics from algebra, geometry, functions, trigonometry, logarithms, and exponentials. [3-0-1.5; 3-0-1.5] Prerequisite: A grade of 65% or higher in BC Principles of Mathematics 12 or Pre-calculus 12.",
+      "prereq": {
+        "text": "A grade of 65% or higher in BC Principles of Mathematics 12 or Pre-calculus 12",
+        "tree": {
+          "other": "A grade of 65% or higher in BC Principles of Mathematics 12 or Pre-calculus 12"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 111",
+      "title": "Matrix Algebra",
+      "credits": "3",
+      "description": "Systems of linear equations, operations on matrices, determinants, eigenvalues and eigenvectors, diagonalization of symmetric matrices. Please consult the Faculty of Science Credit Exclusion List: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… . [3-0-0] Equivalency: MATH 221. Prerequisite: Either (a) one of MATH 100, MATH 102, MATH 104, MATH 110, MATH 120, MATH 180, MATH 184, MATH_O 100 or (b) advanced credit for MATH 100, or (c) SCIE 001 as a co-requisite.",
+      "prereq": {
+        "text": "Either (a) one of MATH 100, MATH 102, MATH 104, MATH 110, MATH 120, MATH 180, MATH 184, MATH_O 100 or (b) advanced credit for MATH 100, or (c) SCIE 001 as a co-requisite",
+        "tree": {
+          "one_of": [
+            {
+              "one_of": [
+                "MATH 100",
+                "MATH 102",
+                "MATH 104",
+                "MATH 110",
+                "MATH 120",
+                "MATH 180",
+                "MATH 184",
+                "MATH_O 100"
+              ]
+            },
+            {
+              "other": "advanced credit for MATH 100"
+            },
+            {
+              "other": "SCIE 001 as a co-requisite"
+            }
+          ]
+        },
+        "source": "llm",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": "MATH 221",
+      "recommended": null
+    },
+    {
+      "code": "MATH 120",
+      "title": "Honours Differential Calculus",
+      "credits": "4",
+      "description": "Limits, derivatives, Mean Value Theorem and applications, elementary functions, optimization, Taylor series, approximation. Please consult the Faculty of Science Credit Exclusion List: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… [4-0-0] Prerequisite: High-school calculus and one of (a) a score of 95% or higher in BC Principles of Mathematics 12 or Pre-calculus 12; or (b) permission from the Mathematics Department Head.",
+      "prereq": {
+        "text": "High-school calculus and one of (a) a score of 95% or higher in BC Principles of Mathematics 12 or Pre-calculus 12; or (b) permission from the Mathematics Department Head",
+        "tree": {
+          "other": "High-school calculus and one of (a) a score of 95% or higher in BC Principles of Mathematics 12 or Pre-calculus 12; or (b) permission from the Mathematics Department Head"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 121",
+      "title": "Honours Integral Calculus",
+      "credits": "4",
+      "description": "Definite integrals and the Fundamental Theorem of Calculus, techniques and applications of integration, infinite series. Please consult the Faculty of Science Credit Exclusion List: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… . [4-0-0] Prerequisite: Either a) a score of 68% or higher in MATH 120, b) a score of 80% or higher in MATH 100, MATH 102, MATH 104, MATH 180, MATH 184, or c) a score of 5 in AP Calculus AB.",
+      "prereq": {
+        "text": "Either a) a score of 68% or higher in MATH 120, b) a score of 80% or higher in MATH 100, MATH 102, MATH 104, MATH 180, MATH 184, or c) a score of 5 in AP Calculus AB",
+        "tree": {
+          "one_of": [
+            {
+              "course": "MATH 120",
+              "min_grade": 68
+            },
+            {
+              "one_of": [
+                {
+                  "course": "MATH 100",
+                  "min_grade": 80
+                },
+                {
+                  "course": "MATH 102",
+                  "min_grade": 80
+                },
+                {
+                  "course": "MATH 104",
+                  "min_grade": 80
+                },
+                {
+                  "course": "MATH 180",
+                  "min_grade": 80
+                },
+                {
+                  "course": "MATH 184",
+                  "min_grade": 80
+                }
+              ]
+            },
+            {
+              "other": "a score of 5 in AP Calculus AB"
+            }
+          ]
+        },
+        "source": "llm",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 131",
+      "title": "Honours Linear Algebra",
+      "credits": "3",
+      "description": "Matrices, eigenvectors, diagonalization, orthogonality, linear systems, applications. Students who obtain credit for MATH 131 cannot in the same or later terms obtain credit for MATH 111, MATH 152, or MATH 221. [3-0-0] Equivalency: MATH 223. Prerequisite: One of (a) one of MATH 120, MATH 121, SCIE 001, or (b) a score of 80% or higher in one of MATH 100, MATH 102, MATH 104, MATH 110, MATH 180, MATH 184, or (c) a score of 68% or higher in one of MATH 101, MATH 103, MATH 105, MATH 152, MATH 111, MATH 221, or (d) SCIE 001 as a corequisite.",
+      "prereq": {
+        "text": "One of (a) one of MATH 120, MATH 121, SCIE 001, or (b) a score of 80% or higher in one of MATH 100, MATH 102, MATH 104, MATH 110, MATH 180, MATH 184, or (c) a score of 68% or higher in one of MATH 101, MATH 103, MATH 105, MATH 152, MATH 111, MATH 221, or (d) SCIE 001 as a corequisite",
+        "tree": {
+          "one_of": [
+            {
+              "one_of": [
+                "MATH 120",
+                "MATH 121",
+                "SCIE 001"
+              ]
+            },
+            {
+              "one_of": [
+                {
+                  "course": "MATH 100",
+                  "min_grade": 80
+                },
+                {
+                  "course": "MATH 102",
+                  "min_grade": 80
+                },
+                {
+                  "course": "MATH 104",
+                  "min_grade": 80
+                },
+                {
+                  "course": "MATH 110",
+                  "min_grade": 80
+                },
+                {
+                  "course": "MATH 180",
+                  "min_grade": 80
+                },
+                {
+                  "course": "MATH 184",
+                  "min_grade": 80
+                }
+              ]
+            },
+            {
+              "one_of": [
+                {
+                  "course": "MATH 101",
+                  "min_grade": 68
+                },
+                {
+                  "course": "MATH 103",
+                  "min_grade": 68
+                },
+                {
+                  "course": "MATH 105",
+                  "min_grade": 68
+                },
+                {
+                  "course": "MATH 152",
+                  "min_grade": 68
+                },
+                {
+                  "course": "MATH 111",
+                  "min_grade": 68
+                },
+                {
+                  "course": "MATH 221",
+                  "min_grade": 68
+                }
+              ]
+            },
+            {
+              "other": "SCIE 001 as a corequisite"
+            }
+          ]
+        },
+        "source": "llm",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": "MATH 223",
+      "recommended": null
+    },
+    {
+      "code": "MATH 152",
+      "title": "Linear Systems",
+      "credits": "3",
+      "description": "2D and 3D geometry, vectors and matrices, eigenvalues and vibration, physical applications. Laboratories demonstrate computer solutions of large systems. Please consult the Faculty of Science Credit Exclusion List: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… [3-1*-0] Corequisite: MATH 101.",
+      "prereq": null,
+      "coreq": {
+        "text": "MATH 101",
+        "tree": "MATH 101",
+        "source": "rules",
+        "problems": []
+      },
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 180",
+      "title": "Differential Calculus with Applications",
+      "credits": "4",
+      "description": "Topics as for Math 100; intended for students with no previous knowledge of Calculus. Please consult the Faculty of Science Credit Exclusion List: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… . Not for credit for students with AP Calculus AB, AP Calculus BC, or a passing score on the UBC-SFU-UVIC-UNBC Calculus Challenge Examination. [3-0-1.5] Prerequisite: A grade of 80% or higher in BC Principles of Mathematics 12 or Pre-calculus 12.",
+      "prereq": {
+        "text": "A grade of 80% or higher in BC Principles of Mathematics 12 or Pre-calculus 12",
+        "tree": {
+          "other": "A grade of 80% or higher in BC Principles of Mathematics 12 or Pre-calculus 12"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 184",
+      "title": "Differential Calculus for Social Science and Commerce",
+      "credits": "4",
+      "description": "Topics as for Math 104; intended for students with no previous knowledge of Calculus. Please consult the Faculty of Science Credit Exclusion List: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… . Not for credit for students with AP Calculus AB, AP Calculus BC, or a passing score on the UBC-SFU-UVIC-UNBC Calculus Challenge Examination. [3-0-1.5] Prerequisite: A grade of 80% or higher in BC Principles of Mathematics 12 or Pre-calculus 12.",
+      "prereq": {
+        "text": "A grade of 80% or higher in BC Principles of Mathematics 12 or Pre-calculus 12",
+        "tree": {
+          "other": "A grade of 80% or higher in BC Principles of Mathematics 12 or Pre-calculus 12"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 190",
+      "title": "Calculus Survey",
+      "credits": "4",
+      "description": "Functions, derivatives, integrals, curve sketching growth functions, volume calculations. Only for credit in the Faculty of Forestry and Environmental Stewardship. Students with credit for MATH 100, 102, 104, 120, 180, or 184 cannot in the same term or later terms obtain credit for MATH 190. [3-0-2] Prerequisite: Principles of Mathematics 12 or Pre-calculus 12 and registration in the B.S.F. or B.Sc.N. programs.",
+      "prereq": {
+        "text": "Principles of Mathematics 12 or Pre-calculus 12 and registration in the B.S.F. or B.Sc.N. programs",
+        "tree": {
+          "other": "Principles of Mathematics 12 or Pre-calculus 12 and registration in the B.S.F. or B.Sc.N. programs"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 200",
+      "title": "Calculus III",
+      "credits": "3",
+      "description": "Analytic geometry in 2 and 3 dimensions, partial and directional derivatives, chain rule, maxima and minima, second derivative test, Lagrange multipliers, multiple integrals with applications. Please consult the Faculty of Science Credit Exclusion List: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… . [3-0-0] Prerequisite: One of MATH 101, MATH 103, MATH 105, MATH 121, SCIE 001, MATH_O 101, MATH_O 103.",
+      "prereq": {
+        "text": "One of MATH 101, MATH 103, MATH 105, MATH 121, SCIE 001, MATH_O 101, MATH_O 103",
+        "tree": {
+          "one_of": [
+            "MATH 101",
+            "MATH 103",
+            "MATH 105",
+            "MATH 121",
+            "SCIE 001",
+            "MATH_O 101",
+            "MATH_O 103"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 210",
+      "title": "Introduction to Mathematical Computing",
+      "credits": "3",
+      "description": "Introduction to mathematical software and numerical methods. Numbers, arrays, functions, vectorization and iteration.  Sequences and series, root finding, numerical integration, numerical methods for differential equations, systems of linear equations, mathematical graphics. [3-0-0] Prerequisite: One of MATH 101, MATH 103, MATH 105, MATH 121, SCIE 001, MATH_O 101, MATH_O 103. Corequisite: One of MATH 215, MATH 255, MATH 256, MATH 258, MATH_O 225 and one of MATH 152, MATH 221, MATH 223, MATH_O 222.",
+      "prereq": {
+        "text": "One of MATH 101, MATH 103, MATH 105, MATH 121, SCIE 001, MATH_O 101, MATH_O 103",
+        "tree": {
+          "one_of": [
+            "MATH 101",
+            "MATH 103",
+            "MATH 105",
+            "MATH 121",
+            "SCIE 001",
+            "MATH_O 101",
+            "MATH_O 103"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": {
+        "text": "One of MATH 215, MATH 255, MATH 256, MATH 258, MATH_O 225 and one of MATH 152, MATH 221, MATH 223, MATH_O 222",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "MATH 215",
+                "MATH 255",
+                "MATH 256",
+                "MATH 258",
+                "MATH_O 225"
+              ]
+            },
+            {
+              "one_of": [
+                "MATH 152",
+                "MATH 221",
+                "MATH 223",
+                "MATH_O 222"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 215",
+      "title": "Elementary Differential Equations I",
+      "credits": "3",
+      "description": "First-order equations; linear equations; linear systems; Laplace transforms; numerical methods; trajectory analysis of plane nonlinear systems. Applications of these topics will be emphasized. Please consult the Faculty of Science Credit Exclusion List: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… . [3-0-0] Prerequisite: One of MATH 101, MATH 103, MATH 105, MATH 121, SCIE 001, MATH_O 101, MATH_O 103 and one of MATH 152, MATH 221, MATH 223, MATH_O 222. Corequisite: One of MATH 200, MATH 217, MATH 226, MATH 253, MATH 254, MATH_O 200.",
+      "prereq": {
+        "text": "One of MATH 101, MATH 103, MATH 105, MATH 121, SCIE 001, MATH_O 101, MATH_O 103 and one of MATH 152, MATH 221, MATH 223, MATH_O 222",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "MATH 101",
+                "MATH 103",
+                "MATH 105",
+                "MATH 121",
+                "SCIE 001",
+                "MATH_O 101",
+                "MATH_O 103"
+              ]
+            },
+            {
+              "one_of": [
+                "MATH 152",
+                "MATH 221",
+                "MATH 223",
+                "MATH_O 222"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": {
+        "text": "One of MATH 200, MATH 217, MATH 226, MATH 253, MATH 254, MATH_O 200",
+        "tree": {
+          "one_of": [
+            "MATH 200",
+            "MATH 217",
+            "MATH 226",
+            "MATH 253",
+            "MATH 254",
+            "MATH_O 200"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 217",
+      "title": "Multivariable and Vector Calculus",
+      "credits": "4",
+      "description": "Partial differentiation, extreme values, multiple integration, vector fields, line and surface integrals, the divergence theorem, Green's and Stokes' theorems. Intended for students in Honours Physics and Engineering Physics. Please consult the Faculty of Science Credit Exclusion List: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… [4-0-0] Prerequisite: A score of 68% or higher in one of PHYS 102, PHYS 108, PHYS 118, PHYS 153, PHYS 158, SCIE 001 and a score of 68% or higher in one of MATH 101, MATH 103, MATH 105, MATH 121, SCIE 001, MATH_O 101, MATH_O 103. Corequisite: One of MATH 152, MATH 221, MATH 223, MATH_O 222.",
+      "prereq": {
+        "text": "A score of 68% or higher in one of PHYS 102, PHYS 108, PHYS 118, PHYS 153, PHYS 158, SCIE 001 and a score of 68% or higher in one of MATH 101, MATH 103, MATH 105, MATH 121, SCIE 001, MATH_O 101, MATH_O 103",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                {
+                  "course": "PHYS 102",
+                  "min_grade": 68
+                },
+                {
+                  "course": "PHYS 108",
+                  "min_grade": 68
+                },
+                {
+                  "course": "PHYS 118",
+                  "min_grade": 68
+                },
+                {
+                  "course": "PHYS 153",
+                  "min_grade": 68
+                },
+                {
+                  "course": "PHYS 158",
+                  "min_grade": 68
+                },
+                {
+                  "course": "SCIE 001",
+                  "min_grade": 68
+                }
+              ]
+            },
+            {
+              "one_of": [
+                {
+                  "course": "MATH 101",
+                  "min_grade": 68
+                },
+                {
+                  "course": "MATH 103",
+                  "min_grade": 68
+                },
+                {
+                  "course": "MATH 105",
+                  "min_grade": 68
+                },
+                {
+                  "course": "MATH 121",
+                  "min_grade": 68
+                },
+                {
+                  "course": "SCIE 001",
+                  "min_grade": 68
+                },
+                {
+                  "course": "MATH_O 101",
+                  "min_grade": 68
+                },
+                {
+                  "course": "MATH_O 103",
+                  "min_grade": 68
+                }
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": {
+        "text": "One of MATH 152, MATH 221, MATH 223, MATH_O 222",
+        "tree": {
+          "one_of": [
+            "MATH 152",
+            "MATH 221",
+            "MATH 223",
+            "MATH_O 222"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 220",
+      "title": "Mathematical Proof",
+      "credits": "3",
+      "description": "Sets and functions; induction; cardinality;  properties of the real numbers; sequences, series, and limits. Logic, structure, style, and clarity of proofs emphasized throughout. [3-0-0] Prerequisite: Either (a) a score of 64% or higher in one of MATH 101, MATH 103, MATH 105, SCIE 001, MATH_O 101, MATH_O 103 or (b) one of MATH 121, MATH 200, MATH 217, MATH 226, MATH 253, MATH 254, MATH_O 200.",
+      "prereq": {
+        "text": "Either (a) a score of 64% or higher in one of MATH 101, MATH 103, MATH 105, SCIE 001, MATH_O 101, MATH_O 103 or (b) one of MATH 121, MATH 200, MATH 217, MATH 226, MATH 253, MATH 254, MATH_O 200",
+        "tree": {
+          "one_of": [
+            {
+              "one_of": [
+                {
+                  "course": "MATH 101",
+                  "min_grade": 64
+                },
+                {
+                  "course": "MATH 103",
+                  "min_grade": 64
+                },
+                {
+                  "course": "MATH 105",
+                  "min_grade": 64
+                },
+                {
+                  "course": "SCIE 001",
+                  "min_grade": 64
+                },
+                {
+                  "course": "MATH_O 101",
+                  "min_grade": 64
+                },
+                {
+                  "course": "MATH_O 103",
+                  "min_grade": 64
+                }
+              ]
+            },
+            {
+              "one_of": [
+                "MATH 121",
+                "MATH 200",
+                "MATH 217",
+                "MATH 226",
+                "MATH 253",
+                "MATH 254",
+                "MATH_O 200"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 221",
+      "title": "Matrix Algebra",
+      "credits": "3",
+      "description": "Systems of linear equations, operations on matrices, determinants, eigenvalues and eigenvectors, diagonalization of symmetric matrices. This course is intended for first and second year students. Please consult the Faculty of Science Credit Exclusion List: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… [3-0-0] Equivalency: MATH 111. Prerequisite: Either (a) one of MATH 100, MATH 102, MATH 104, MATH 110, MATH 120, MATH 180, MATH 184, SCIE 001, MATH_O 100 or (b) advanced credit for MATH 100, or (c) SCIE 001 as a corequisite.",
+      "prereq": {
+        "text": "Either (a) one of MATH 100, MATH 102, MATH 104, MATH 110, MATH 120, MATH 180, MATH 184, SCIE 001, MATH_O 100 or (b) advanced credit for MATH 100, or (c) SCIE 001 as a corequisite",
+        "tree": {
+          "one_of": [
+            {
+              "one_of": [
+                "MATH 100",
+                "MATH 102",
+                "MATH 104",
+                "MATH 110",
+                "MATH 120",
+                "MATH 180",
+                "MATH 184",
+                "SCIE 001",
+                "MATH_O 100"
+              ]
+            },
+            {
+              "other": "advanced credit for MATH 100"
+            },
+            {
+              "other": "SCIE 001 as a corequisite"
+            }
+          ]
+        },
+        "source": "llm",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": "MATH 111",
+      "recommended": null
+    },
+    {
+      "code": "MATH 223",
+      "title": "Honours Linear Algebra",
+      "credits": "3",
+      "description": "Matrices, eigenvectors, diagonalization, orthogonality, linear systems, applications. This course is intended for first and second year students. Students who obtain credit for MATH 223 cannot in the same or later terms obtain credit for MATH 111, MATH 152, or MATH 221. [3-0-0] Equivalency: MATH 131. Prerequisite: One of (a) one of MATH 120, MATH 121, SCIE 001, or (b) a score of 80% or higher in one of MATH 100, MATH 102, MATH 104, MATH 110, MATH 180, MATH 184, MATH_O 100, or (c) a score of 68% or higher in one of MATH 101, MATH 103, MATH 105, MATH 111, MATH 152, MATH 221, MATH_O 101, MATH_O 103, MATH_O 221, or (d) SCIE 001 as a corequisite.",
+      "prereq": {
+        "text": "One of (a) one of MATH 120, MATH 121, SCIE 001, or (b) a score of 80% or higher in one of MATH 100, MATH 102, MATH 104, MATH 110, MATH 180, MATH 184, MATH_O 100, or (c) a score of 68% or higher in one of MATH 101, MATH 103, MATH 105, MATH 111, MATH 152, MATH 221, MATH_O 101, MATH_O 103, MATH_O 221, or (d) SCIE 001 as a corequisite",
+        "tree": {
+          "one_of": [
+            {
+              "one_of": [
+                "MATH 120",
+                "MATH 121",
+                "SCIE 001"
+              ]
+            },
+            {
+              "one_of": [
+                {
+                  "course": "MATH 100",
+                  "min_grade": 80
+                },
+                {
+                  "course": "MATH 102",
+                  "min_grade": 80
+                },
+                {
+                  "course": "MATH 104",
+                  "min_grade": 80
+                },
+                {
+                  "course": "MATH 110",
+                  "min_grade": 80
+                },
+                {
+                  "course": "MATH 180",
+                  "min_grade": 80
+                },
+                {
+                  "course": "MATH 184",
+                  "min_grade": 80
+                },
+                {
+                  "course": "MATH_O 100",
+                  "min_grade": 80
+                }
+              ]
+            },
+            {
+              "one_of": [
+                {
+                  "course": "MATH 101",
+                  "min_grade": 68
+                },
+                {
+                  "course": "MATH 103",
+                  "min_grade": 68
+                },
+                {
+                  "course": "MATH 105",
+                  "min_grade": 68
+                },
+                {
+                  "course": "MATH 111",
+                  "min_grade": 68
+                },
+                {
+                  "course": "MATH 152",
+                  "min_grade": 68
+                },
+                {
+                  "course": "MATH 221",
+                  "min_grade": 68
+                },
+                {
+                  "course": "MATH_O 101",
+                  "min_grade": 68
+                },
+                {
+                  "course": "MATH_O 103",
+                  "min_grade": 68
+                },
+                {
+                  "course": "MATH_O 221",
+                  "min_grade": 68
+                }
+              ]
+            },
+            {
+              "other": "SCIE 001 as a corequisite"
+            }
+          ]
+        },
+        "source": "llm",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": "MATH 131",
+      "recommended": null
+    },
+    {
+      "code": "MATH 226",
+      "title": "Advanced Calculus I",
+      "credits": "3",
+      "description": "Functions of several variables: limits, continuity, differentiability; implicit functions; Taylor's theorem; extrema; Lagrange multipliers; multiple integration, Fubini's theorem; improper integrals. Please consult the Faculty of Science Credit Exclusion List: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… [3-0-0] Prerequisite: Either (a) a score of 68% or higher in MATH 121 or (b) a score of 80% or higher in one of MATH 101, MATH 103, MATH 105, SCIE 001, MATH_O 101, MATH_O 103. Corequisite: One of MATH 152, MATH 221, MATH 223, MATH_O 222.",
+      "prereq": {
+        "text": "Either (a) a score of 68% or higher in MATH 121 or (b) a score of 80% or higher in one of MATH 101, MATH 103, MATH 105, SCIE 001, MATH_O 101, MATH_O 103",
+        "tree": {
+          "one_of": [
+            {
+              "course": "MATH 121",
+              "min_grade": 68
+            },
+            {
+              "one_of": [
+                {
+                  "course": "MATH 101",
+                  "min_grade": 80
+                },
+                {
+                  "course": "MATH 103",
+                  "min_grade": 80
+                },
+                {
+                  "course": "MATH 105",
+                  "min_grade": 80
+                },
+                {
+                  "course": "SCIE 001",
+                  "min_grade": 80
+                },
+                {
+                  "course": "MATH_O 101",
+                  "min_grade": 80
+                },
+                {
+                  "course": "MATH_O 103",
+                  "min_grade": 80
+                }
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": {
+        "text": "One of MATH 152, MATH 221, MATH 223, MATH_O 222",
+        "tree": {
+          "one_of": [
+            "MATH 152",
+            "MATH 221",
+            "MATH 223",
+            "MATH_O 222"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 227",
+      "title": "Advanced Calculus II",
+      "credits": "3",
+      "description": "Parametrization of curves and surfaces; line and surface integrals; theorems of Green, Gauss, Stokes; applications to physics and/or introduction to differential forms. Please consult the Faculty of Science Credit Exclusion List: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… [3-0-0] Prerequisite: MATH 226. Prerequisite grade requirement: 68% in MATH226.",
+      "prereq": {
+        "text": "MATH 226. Prerequisite grade requirement: 68% in MATH226",
+        "tree": {
+          "course": "MATH 226",
+          "min_grade": 68
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 230",
+      "title": "Marvels of Mathematics",
+      "credits": "3",
+      "description": "A variety of topics in mathematics, showcasing its beauty and utility. Intended for a general audience of students whose degrees have no mathematics requirements, but who may be curious about practical and recreational mathematics. Not for credit in the Faculty of Science. Students who obtain UBC credit for any other mathematics course cannot in the same or later years obtain credit for MATH 230. [3-0-0]",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 253",
+      "title": "Multivariable Calculus",
+      "credits": "3",
+      "description": "Partial and directional derivatives; maxima and minima; Lagrange multipliers and second derivative test; multiple integrals and applications. Please consult the Faculty of Science Credit Exclusion List: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… [3-0-0] Prerequisite: One of MATH 101, MATH 103, MATH 105, MATH 121, SCIE 001, MATH_O 101, MATH_O 103.",
+      "prereq": {
+        "text": "One of MATH 101, MATH 103, MATH 105, MATH 121, SCIE 001, MATH_O 101, MATH_O 103",
+        "tree": {
+          "one_of": [
+            "MATH 101",
+            "MATH 103",
+            "MATH 105",
+            "MATH 121",
+            "SCIE 001",
+            "MATH_O 101",
+            "MATH_O 103"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 254",
+      "title": "Multivariable and Vector Calculus for Mechanical Engineering",
+      "credits": "3",
+      "description": "Partial differentiation, extreme values, multiple integration, vector fields, line and surface integrals, the divergence and Stokes' theorems; applications to fluid mechanics: buoyancy, hydrostatic force, pipe flow, drag; applications to thermodynamics: work, entropy, heat transfer; numerical methods. Emphasis on mechanical engineering applications. [3-0-1*] Prerequisite: MATH 101 and one of MATH 152, MATH 221, MATH 223. Corequisite: All of MECH 222, MECH 225.",
+      "prereq": {
+        "text": "MATH 101 and one of MATH 152, MATH 221, MATH 223",
+        "tree": {
+          "all_of": [
+            "MATH 101",
+            {
+              "one_of": [
+                "MATH 152",
+                "MATH 221",
+                "MATH 223"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": {
+        "text": "All of MECH 222, MECH 225",
+        "tree": {
+          "all_of": [
+            "MECH 222",
+            "MECH 225"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 255",
+      "title": "Ordinary Differential Equations",
+      "credits": "3",
+      "description": "Review of linear systems; nonlinear equations and applications; phase plane analysis; Laplace transforms; numerical methods. Please consult the Faculty of Science Credit Exclusion List: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… [3-0-0] Prerequisite: One of MATH 101, MATH 103, MATH 105, MATH 121, SCIE 001 and one of MATH 152, MATH 221, MATH 223. Corequisite: One of MATH 200, MATH 217, MATH 226, MATH 253, MATH 254.",
+      "prereq": {
+        "text": "One of MATH 101, MATH 103, MATH 105, MATH 121, SCIE 001 and one of MATH 152, MATH 221, MATH 223",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "MATH 101",
+                "MATH 103",
+                "MATH 105",
+                "MATH 121",
+                "SCIE 001"
+              ]
+            },
+            {
+              "one_of": [
+                "MATH 152",
+                "MATH 221",
+                "MATH 223"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": {
+        "text": "One of MATH 200, MATH 217, MATH 226, MATH 253, MATH 254",
+        "tree": {
+          "one_of": [
+            "MATH 200",
+            "MATH 217",
+            "MATH 226",
+            "MATH 253",
+            "MATH 254"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 256",
+      "title": "Differential Equations",
+      "credits": "3",
+      "description": "Linear ordinary differential equations, Laplace transforms, Fourier series and separation of variables for linear partial differential equations. Consult the Faculty of Science Credit Exclusion List: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… . [3-0-0] Prerequisite: One of MATH 101, MATH 103, MATH 105, MATH 121, SCIE 001, MATH_O 101, MATH_O 103 and one of MATH 152, MATH 221, MATH 223, MATH_O 222. Corequisite: One of MATH 200, MATH 217, MATH 226, MATH 253, MATH_O 200.",
+      "prereq": {
+        "text": "One of MATH 101, MATH 103, MATH 105, MATH 121, SCIE 001, MATH_O 101, MATH_O 103 and one of MATH 152, MATH 221, MATH 223, MATH_O 222",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "MATH 101",
+                "MATH 103",
+                "MATH 105",
+                "MATH 121",
+                "SCIE 001",
+                "MATH_O 101",
+                "MATH_O 103"
+              ]
+            },
+            {
+              "one_of": [
+                "MATH 152",
+                "MATH 221",
+                "MATH 223",
+                "MATH_O 222"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": {
+        "text": "One of MATH 200, MATH 217, MATH 226, MATH 253, MATH_O 200",
+        "tree": {
+          "one_of": [
+            "MATH 200",
+            "MATH 217",
+            "MATH 226",
+            "MATH 253",
+            "MATH_O 200"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 257",
+      "title": "Partial Differential Equations",
+      "credits": "3",
+      "description": "Introduction to partial differential equations; Fourier series; the heat, wave and potential equations; boundary-value problems; numerical methods. Please consult the Faculty of Science Credit Exclusion List: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… [3-0-0] Prerequisite: One of MATH 215, MATH 255, MATH 256, MATH 258.",
+      "prereq": {
+        "text": "One of MATH 215, MATH 255, MATH 256, MATH 258",
+        "tree": {
+          "one_of": [
+            "MATH 215",
+            "MATH 255",
+            "MATH 256",
+            "MATH 258"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 258",
+      "title": "Differential Equations for Mechanical Engineering",
+      "credits": "3",
+      "description": "First-order equations; linear equations; linear systems; Laplace transforms; trajectory analysis of plane nonlinear systems; translational and rotational vibrations; applications to RLC circuit analysis; numerical and graphical methods. Emphasis on mechanical engineering applications. [3-0-1*] Prerequisite: MATH 101 and one of MATH 152, MATH 221, MATH 223. Corequisite: All of MECH 221, MECH 224.",
+      "prereq": {
+        "text": "MATH 101 and one of MATH 152, MATH 221, MATH 223",
+        "tree": {
+          "all_of": [
+            "MATH 101",
+            {
+              "one_of": [
+                "MATH 152",
+                "MATH 221",
+                "MATH 223"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": {
+        "text": "All of MECH 221, MECH 224",
+        "tree": {
+          "all_of": [
+            "MECH 221",
+            "MECH 224"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 264",
+      "title": "Vector Calculus for Electrical Engineering",
+      "credits": "1",
+      "description": "Divergence, gradient, curl, theorems of Gauss and Stokes. Applications to Electrostatics and Magnetostatics. MATH 264 content is strongly coupled to BMEG 220 and ELEC 211 with topics and student evaluations weighted accordingly. Prerequisite: One of MATH 200, MATH 217, MATH 226, MATH 253, MATH 254. Corequisite: One of BMEG 220, ELEC 211. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "One of MATH 200, MATH 217, MATH 226, MATH 253, MATH 254",
+        "tree": {
+          "one_of": [
+            "MATH 200",
+            "MATH 217",
+            "MATH 226",
+            "MATH 253",
+            "MATH 254"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": {
+        "text": "One of BMEG 220, ELEC 211",
+        "tree": {
+          "one_of": [
+            "BMEG 220",
+            "ELEC 211"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 300",
+      "title": "Introduction to Complex Variables",
+      "credits": "3",
+      "description": "Functions of a complex variable, Cauchy-Riemann equations, elementary functions, Cauchy's theorem and contour integration, Laurent series, poles and residues. Please consult the Faculty of Science Credit Exclusion List: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… [3-0-0] Corequisite: One of MATH 217, MATH 227, MATH 254, MATH 317.",
+      "prereq": null,
+      "coreq": {
+        "text": "One of MATH 217, MATH 227, MATH 254, MATH 317",
+        "tree": {
+          "one_of": [
+            "MATH 217",
+            "MATH 227",
+            "MATH 254",
+            "MATH 317"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 301",
+      "title": "Applied Analysis",
+      "credits": "3",
+      "description": "Integrals involving multi-valued functions, conformal mapping and applications, analytic continuation, Laplace and Fourier transforms. [3-0-0] Prerequisite: One of MATH 300, MATH 305. Corequisite: One of MATH 256, MATH 257, MATH 316, MATH 358, MECH 358, PHYS 312.",
+      "prereq": {
+        "text": "One of MATH 300, MATH 305",
+        "tree": {
+          "one_of": [
+            "MATH 300",
+            "MATH 305"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": {
+        "text": "One of MATH 256, MATH 257, MATH 316, MATH 358, MECH 358, PHYS 312",
+        "tree": {
+          "one_of": [
+            "MATH 256",
+            "MATH 257",
+            "MATH 316",
+            "MATH 358",
+            "MECH 358",
+            "PHYS 312"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 302",
+      "title": "Introduction to Probability",
+      "credits": "3",
+      "description": "Basic notions of probability, random variables, expectation and conditional expectation, limit theorems. Please consult the Faculty of Science Credit Exclusion List: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… [3-0-0] Prerequisite: One of MATH 200, MATH 217, MATH 226, MATH 253, MATH 254. Equivalency: STAT 302.",
+      "prereq": {
+        "text": "One of MATH 200, MATH 217, MATH 226, MATH 253, MATH 254",
+        "tree": {
+          "one_of": [
+            "MATH 200",
+            "MATH 217",
+            "MATH 226",
+            "MATH 253",
+            "MATH 254"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": "STAT 302",
+      "recommended": null
+    },
+    {
+      "code": "MATH 303",
+      "title": "Introduction to Stochastic Processes",
+      "credits": "3",
+      "description": "Discrete-time Markov chains, Poisson processes, continuous time Markov chains, renewal theory. Please consult the Faculty of Science Credit Exclusion List: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… [3-0-0] Prerequisite: One of MATH 302, STAT 302, STAT_O 203.",
+      "prereq": {
+        "text": "One of MATH 302, STAT 302, STAT_O 203",
+        "tree": {
+          "one_of": [
+            "MATH 302",
+            "STAT 302",
+            "STAT_O 203"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 305",
+      "title": "Applied Complex Analysis",
+      "credits": "3",
+      "description": "Functions of a complex variable, Cauchy-Riemann equations, contour integration, Laurent series, residues, integrals of multi-valued functions, Fourier transforms. Please consult the Faculty of Science Credit Exclusion List: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… [3-0-0] Prerequisite: One of MATH 200, MATH 217, MATH 226, MATH 253, MATH 254. Corequisite: One of MATH 256, MATH 257, MATH 316, MATH 358, MECH 358, PHYS 312.",
+      "prereq": {
+        "text": "One of MATH 200, MATH 217, MATH 226, MATH 253, MATH 254",
+        "tree": {
+          "one_of": [
+            "MATH 200",
+            "MATH 217",
+            "MATH 226",
+            "MATH 253",
+            "MATH 254"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": {
+        "text": "One of MATH 256, MATH 257, MATH 316, MATH 358, MECH 358, PHYS 312",
+        "tree": {
+          "one_of": [
+            "MATH 256",
+            "MATH 257",
+            "MATH 316",
+            "MATH 358",
+            "MECH 358",
+            "PHYS 312"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 307",
+      "title": "Applied Linear Algebra",
+      "credits": "3",
+      "description": "Applications of linear algebra to problems in science and engineering; use of computer algebra systems for solving problems in linear algebra. [3-0-0] Prerequisite: One of MATH 152, MATH 221, MATH 223, MATH_O 222 and one of MATH 200, MATH 217, MATH 226, MATH 253, MATH 254, MATH_O 200.",
+      "prereq": {
+        "text": "One of MATH 152, MATH 221, MATH 223, MATH_O 222 and one of MATH 200, MATH 217, MATH 226, MATH 253, MATH 254, MATH_O 200",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "MATH 152",
+                "MATH 221",
+                "MATH 223",
+                "MATH_O 222"
+              ]
+            },
+            {
+              "one_of": [
+                "MATH 200",
+                "MATH 217",
+                "MATH 226",
+                "MATH 253",
+                "MATH 254",
+                "MATH_O 200"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 308",
+      "title": "Euclidean Geometry",
+      "credits": "3",
+      "description": "Classical plane geometry, solid geometry, spherical trigonometry, polyhedra, linear and affine transformations. Linear algebra proofs are used. It is suggested that MATH 307 be taken concurrently. [3-0-0] Prerequisite: Either (a) one of MATH 152, MATH 221 and one of MATH 220, MATH 226, CPSC 121; or (b) MATH 223.",
+      "prereq": {
+        "text": "Either (a) one of MATH 152, MATH 221 and one of MATH 220, MATH 226, CPSC 121; or (b) MATH 223",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                {
+                  "one_of": [
+                    "MATH 152",
+                    "MATH 221"
+                  ]
+                },
+                {
+                  "one_of": [
+                    "MATH 220",
+                    "MATH 226",
+                    "CPSC 121"
+                  ]
+                }
+              ]
+            },
+            "MATH 223"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 309",
+      "title": "Topics in Geometry",
+      "credits": "3",
+      "description": "Topics chosen by the instructor. These may include conic sections, projective configuration, convexity, non-Euclidean geometries, fractal geometry, combinatorial problems of points in the plane. [3-0-0] Prerequisite: Either (a) one of MATH 152, MATH 221 and one of MATH 220, MATH 226, CPSC 121, MATH_O 220; or (b) MATH 223 or MATH_O 222.",
+      "prereq": {
+        "text": "Either (a) one of MATH 152, MATH 221 and one of MATH 220, MATH 226, CPSC 121, MATH_O 220; or (b) MATH 223 or MATH_O 222",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                {
+                  "one_of": [
+                    "MATH 152",
+                    "MATH 221"
+                  ]
+                },
+                {
+                  "one_of": [
+                    "MATH 220",
+                    "MATH 226",
+                    "CPSC 121",
+                    "MATH_O 220"
+                  ]
+                }
+              ]
+            },
+            {
+              "one_of": [
+                "MATH 223",
+                "MATH_O 222"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 310",
+      "title": "Abstract Linear Algebra",
+      "credits": "3",
+      "description": "Linear spaces, duality, linear mappings, matrices, determinant and trace, spectral theory, Euclidean structure. Consult the Faculty of Science Credit Exclusion List: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… [3-0-0] Prerequisite: One of MATH 152, MATH 221 and one of MATH 220, MATH 226, CPSC 121.",
+      "prereq": {
+        "text": "One of MATH 152, MATH 221 and one of MATH 220, MATH 226, CPSC 121",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "MATH 152",
+                "MATH 221"
+              ]
+            },
+            {
+              "one_of": [
+                "MATH 220",
+                "MATH 226",
+                "CPSC 121"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 312",
+      "title": "Introduction to Number Theory",
+      "credits": "3",
+      "description": "Euclidean algorithm, congruences, Fermat's theorem, applications. Some diophantine equations. Distribution of the prime numbers. Please consult the Faculty of Science Credit Exclusion List: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… Prerequisite: One of MATH 220, MATH 223, MATH 226, CPSC 121. and 9 additional credits of mathematics courses.",
+      "prereq": {
+        "text": "One of MATH 220, MATH 223, MATH 226, CPSC 121. and 9 additional credits of mathematics courses",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "MATH 220",
+                "MATH 223",
+                "MATH 226",
+                "CPSC 121"
+              ]
+            },
+            {
+              "other": "9 additional credits of mathematics courses"
+            }
+          ]
+        },
+        "source": "llm",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 313",
+      "title": "Topics in Number Theory",
+      "credits": "3",
+      "description": "Topics chosen by the instructor. These might include: division algorithms, group theory, continued fractions, primality testing, factoring. Please consult the Faculty of Science Credit Exclusion List: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… . [3-0-0] Prerequisite: MATH 312.",
+      "prereq": {
+        "text": "MATH 312",
+        "tree": "MATH 312",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 316",
+      "title": "Elementary Differential Equations II",
+      "credits": "3",
+      "description": "Power series methods (ordinary and regular singular points, Bessel's equation); boundary value problems and separation of variables (Fourier series and other orthogonal series), applications to the vibrating string, heat flow, potentials. Please consult the Faculty of Science Credit Exclusion List: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… [3-0-0] Prerequisite: One of MATH 215, MATH 255, MATH 256, MATH 258, MATH_O 225.",
+      "prereq": {
+        "text": "One of MATH 215, MATH 255, MATH 256, MATH 258, MATH_O 225",
+        "tree": {
+          "one_of": [
+            "MATH 215",
+            "MATH 255",
+            "MATH 256",
+            "MATH 258",
+            "MATH_O 225"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 317",
+      "title": "Calculus IV",
+      "credits": "3",
+      "description": "Parametrizations, inverse and implicit functions, integrals with respect to length and area; grad, div, and curl, theorems of Green, Gauss, and Stokes. Please consult the Faculty of Science Credit Exclusion List: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… [3-0-0] Prerequisite: One of MATH 200, MATH 226, MATH 253. One of MATH 152, MATH 221, MATH 223 is recommended.",
+      "prereq": {
+        "text": "One of MATH 200, MATH 226, MATH 253",
+        "tree": {
+          "one_of": [
+            "MATH 200",
+            "MATH 226",
+            "MATH 253"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": "One of MATH 152, MATH 221, MATH 223 is recommended"
+    },
+    {
+      "code": "MATH 318",
+      "title": "Probability with Physical Applications",
+      "credits": "3",
+      "description": "Random variables, discrete and continuous distributions. Random walk, Markov chains, Monte Carlo methods. Characteristic functions, limit laws. Please consult the Faculty of Science Credit Exclusion List: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… [3-0-0] Prerequisite: One of MATH 152, MATH 221, MATH 223. Corequisite: One of MATH 256, MATH 257, MATH 316, MATH 358, MECH 358, PHYS 312.",
+      "prereq": {
+        "text": "One of MATH 152, MATH 221, MATH 223",
+        "tree": {
+          "one_of": [
+            "MATH 152",
+            "MATH 221",
+            "MATH 223"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": {
+        "text": "One of MATH 256, MATH 257, MATH 316, MATH 358, MECH 358, PHYS 312",
+        "tree": {
+          "one_of": [
+            "MATH 256",
+            "MATH 257",
+            "MATH 316",
+            "MATH 358",
+            "MECH 358",
+            "PHYS 312"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 319",
+      "title": "Introduction to Real Analysis",
+      "credits": "3",
+      "description": "Ideas and methods of real analysis and their application. Countability and topology of the reals; convergence, continuity and differentiability of functions; metric spaces. Please consult the Faculty of Science credit exclusion list: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… [3-0-0] Prerequisite: Either (a) a score of 68% or higher in MATH 220 or (b) a score of 55% or higher in one of MATH 223, MATH 226.",
+      "prereq": {
+        "text": "Either (a) a score of 68% or higher in MATH 220 or (b) a score of 55% or higher in one of MATH 223, MATH 226",
+        "tree": {
+          "one_of": [
+            {
+              "course": "MATH 220",
+              "min_grade": 68
+            },
+            {
+              "one_of": [
+                {
+                  "course": "MATH 223",
+                  "min_grade": 55
+                },
+                {
+                  "course": "MATH 226",
+                  "min_grade": 55
+                }
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 320",
+      "title": "Real Variables I",
+      "credits": "3",
+      "description": "The real number system; real Euclidean n-space; open, closed, compact, and connected sets; Bolzano-Weierstrass theorem; sequences and series. Continuity and uniform continuity. Differentiability and mean-value theorems. Please consult the Faculty of Science credit exclusion list: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… . [3-0-0] Prerequisite: Either (a) a score of 68% or higher in MATH 226 or (b) one of MATH 200, MATH 217, MATH 226, MATH 253, MATH 254 and a score of 80% or higher in MATH 220.",
+      "prereq": {
+        "text": "Either (a) a score of 68% or higher in MATH 226 or (b) one of MATH 200, MATH 217, MATH 226, MATH 253, MATH 254 and a score of 80% or higher in MATH 220",
+        "tree": {
+          "one_of": [
+            {
+              "course": "MATH 226",
+              "min_grade": 68
+            },
+            {
+              "all_of": [
+                {
+                  "one_of": [
+                    "MATH 200",
+                    "MATH 217",
+                    "MATH 226",
+                    "MATH 253",
+                    "MATH 254"
+                  ]
+                },
+                {
+                  "course": "MATH 220",
+                  "min_grade": 80
+                }
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 321",
+      "title": "Real Variables II",
+      "credits": "3",
+      "description": "The Riemann or Riemann-Stieltjes integrals. Sequences and series of functions, uniform convergence. Approximation of continuous functions by polynomials. Fourier series. Functions from Rm to Rn , inverse and implicit function theorems. [3-0-0] Prerequisite: MATH 320.",
+      "prereq": {
+        "text": "MATH 320",
+        "tree": "MATH 320",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 322",
+      "title": "Introduction to Group Theory",
+      "credits": "3",
+      "description": "Groups, cosets, homomorphisms, group actions, p-groups, Sylow theorems, composition series, finitely generated Abelian groups. Please consult the Faculty of Science credit exclusion list: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… . [3-0-0] Prerequisite: Either (a) a score of 68% or higher in one of MATH 223, MATH 310 or (b) one of MATH 152, MATH 221, MATH 223 and a score of 80% or higher in MATH 220.",
+      "prereq": {
+        "text": "Either (a) a score of 68% or higher in one of MATH 223, MATH 310 or (b) one of MATH 152, MATH 221, MATH 223 and a score of 80% or higher in MATH 220",
+        "tree": {
+          "one_of": [
+            {
+              "one_of": [
+                {
+                  "course": "MATH 223",
+                  "min_grade": 68
+                },
+                {
+                  "course": "MATH 310",
+                  "min_grade": 68
+                }
+              ]
+            },
+            {
+              "all_of": [
+                {
+                  "one_of": [
+                    "MATH 152",
+                    "MATH 221",
+                    "MATH 223"
+                  ]
+                },
+                {
+                  "course": "MATH 220",
+                  "min_grade": 80
+                }
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 323",
+      "title": "Introduction to Rings and Modules",
+      "credits": "3",
+      "description": "Rings, ideals, unique factorization, Euclidean rings, fields, polynomial rings, modules; structure theory of modules over a principal ideal domain. [3-0-0] Prerequisite: MATH 322.",
+      "prereq": {
+        "text": "MATH 322",
+        "tree": "MATH 322",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 329",
+      "title": "Introduction to Abstract Algebra",
+      "credits": "3",
+      "description": "Ideas and methods of group theory and their applications. Groups, subgroups, and cosets; homomorphisms, isomorphisms, and associated theorems. Consult the Faculty of Science Credit Exclusion List: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… [3-0-0] Prerequisite: Either (a) one of MATH 152, MATH 221, and one of MATH 220, MATH 226, CPSC 121, or (b) MATH 223",
+      "prereq": {
+        "text": "Either (a) one of MATH 152, MATH 221, and one of MATH 220, MATH 226, CPSC 121, or (b) MATH 223",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                {
+                  "one_of": [
+                    "MATH 152",
+                    "MATH 221"
+                  ]
+                },
+                {
+                  "one_of": [
+                    "MATH 220",
+                    "MATH 226",
+                    "CPSC 121"
+                  ]
+                }
+              ]
+            },
+            "MATH 223"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 335",
+      "title": "Introduction to Mathematics",
+      "credits": "4",
+      "description": "Intensive course with required tutorial. Combinatorics, probability, geometry and elementary number theory. Not for credit in the Faculty of Science. Students who obtain credit at UBC for any other mathematics course cannot in the same or later years obtain credit for MATH 335. Please consult the Faculty of Science Credit Exclusion List: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… [3-0-2]",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 340",
+      "title": "Introduction to Linear Programming",
+      "credits": "3",
+      "description": "Linear programming problems, dual problems, the simplex algorithm, solution of primal and dual problems, sensitivity analysis. Additional topics chosen from: Karmarkar's algorithm, non-linear programming, game theory, applications. [3-0-0] Prerequisite: One of MATH 152, MATH 221, MATH 223, MATH_O 222.",
+      "prereq": {
+        "text": "One of MATH 152, MATH 221, MATH 223, MATH_O 222",
+        "tree": {
+          "one_of": [
+            "MATH 152",
+            "MATH 221",
+            "MATH 223",
+            "MATH_O 222"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 341",
+      "title": "Introduction to Discrete Mathematics",
+      "credits": "3",
+      "description": "Introduction to ideas and methods of discrete mathematics and their application. [3-0-0] Prerequisite: One of MATH 220, MATH 223, MATH 226, CPSC 121, MATH_O 220, MATH_O 222.",
+      "prereq": {
+        "text": "One of MATH 220, MATH 223, MATH 226, CPSC 121, MATH_O 220, MATH_O 222",
+        "tree": {
+          "one_of": [
+            "MATH 220",
+            "MATH 223",
+            "MATH 226",
+            "CPSC 121",
+            "MATH_O 220",
+            "MATH_O 222"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 342",
+      "title": "Algebra and Coding Theory",
+      "credits": "3",
+      "description": "Error-correcting codes via abstract and linear algebra. Emphasis on proofs and computation. Finite fields, Hamming distance and error-correction, upper and lower bounds on the size of a code, linear codes, groups and cosets, encoding and decoding schemes. [3-0-0] Prerequisite: Either (a) one of MATH 152, MATH 221 and one of MATH 220, MATH 226, CPSC 121, MATH_O 220; or (b) one of MATH 223, MATH_O 222.",
+      "prereq": {
+        "text": "Either (a) one of MATH 152, MATH 221 and one of MATH 220, MATH 226, CPSC 121, MATH_O 220; or (b) one of MATH 223, MATH_O 222",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                {
+                  "one_of": [
+                    "MATH 152",
+                    "MATH 221"
+                  ]
+                },
+                {
+                  "one_of": [
+                    "MATH 220",
+                    "MATH 226",
+                    "CPSC 121",
+                    "MATH_O 220"
+                  ]
+                }
+              ]
+            },
+            {
+              "one_of": [
+                "MATH 223",
+                "MATH_O 222"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 344",
+      "title": "Mathematical Game Theory",
+      "credits": "3",
+      "description": "Introduction to mathematical game theory and its applications. [3-0-0] Prerequisite: Either (a) one of MATH 152, MATH 221 and one of MATH 220, MATH 226, CPSC 121, MATH_O 220; or (b) one of MATH 223, MATH_O 222.",
+      "prereq": {
+        "text": "Either (a) one of MATH 152, MATH 221 and one of MATH 220, MATH 226, CPSC 121, MATH_O 220; or (b) one of MATH 223, MATH_O 222",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                {
+                  "one_of": [
+                    "MATH 152",
+                    "MATH 221"
+                  ]
+                },
+                {
+                  "one_of": [
+                    "MATH 220",
+                    "MATH 226",
+                    "CPSC 121",
+                    "MATH_O 220"
+                  ]
+                }
+              ]
+            },
+            {
+              "one_of": [
+                "MATH 223",
+                "MATH_O 222"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 345",
+      "title": "Applied Nonlinear Dynamics and Chaos",
+      "credits": "3",
+      "description": "Phase plane methods, bifurcation and stability theory, limit-cycle behavior and chaos for nonlinear differential equations with applications to the sciences. Assignments involve the use of computers. [3-1-0] Prerequisite: A score of 68% or higher in one of MATH 215, MATH 255, MATH 256, MATH 258.",
+      "prereq": {
+        "text": "A score of 68% or higher in one of MATH 215, MATH 255, MATH 256, MATH 258",
+        "tree": {
+          "one_of": [
+            {
+              "course": "MATH 215",
+              "min_grade": 68
+            },
+            {
+              "course": "MATH 255",
+              "min_grade": 68
+            },
+            {
+              "course": "MATH 256",
+              "min_grade": 68
+            },
+            {
+              "course": "MATH 258",
+              "min_grade": 68
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 358",
+      "title": "Engineering Analysis",
+      "credits": "3",
+      "description": "Fourier series; auto- and cross-correlation; power spectra; discrete Fourier transform; boundary-value problems; numerical methods; partial differential equations; heat, wave, Laplace, Poisson, and wave equations. Applications to mechanical engineering and practical computing applications emphasized. Credit will be granted for only one of MECH 358 or MATH 358. [3-2*-0] Prerequisite: All of MECH 224, MECH 225. Equivalency: MECH358",
+      "prereq": {
+        "text": "All of MECH 224, MECH 225",
+        "tree": {
+          "all_of": [
+            "MECH 224",
+            "MECH 225"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": "MECH358",
+      "recommended": null
+    },
+    {
+      "code": "MATH 360",
+      "title": "Introduction to Mathematical Modelling",
+      "credits": "3",
+      "description": "Construction and evaluation of deterministic, stochastic, and data-driven models. Software-assisted simulations and numerical solutions involving ordinary differential equations, stochastic processes, and basic machine learning algorithms. Examples from science, engineering, and economics. [3-0-0] Prerequisite: One of MATH 200, MATH 217, MATH 226, MATH 253, MATH 254 and one of MATH 210, CPSC 203, CPSC 210 and one of MATH 215, MATH 255, MATH 256, MATH 258.",
+      "prereq": {
+        "text": "One of MATH 200, MATH 217, MATH 226, MATH 253, MATH 254 and one of MATH 210, CPSC 203, CPSC 210 and one of MATH 215, MATH 255, MATH 256, MATH 258",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "MATH 200",
+                "MATH 217",
+                "MATH 226",
+                "MATH 253",
+                "MATH 254"
+              ]
+            },
+            {
+              "one_of": [
+                "MATH 210",
+                "CPSC 203",
+                "CPSC 210"
+              ]
+            },
+            {
+              "one_of": [
+                "MATH 215",
+                "MATH 255",
+                "MATH 256",
+                "MATH 258"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 361",
+      "title": "Introduction to Mathematical Biology",
+      "credits": "3",
+      "description": "Mathematical modelling of basic biological processes in ecology, physiology, neuroscience and genetics. Dynamic behavior of difference equations, differential equations, and partial differential equations, explained with reference to concrete biological examples. [3-0-0] Prerequisite: One of BIOL 301, MATH 215, MATH 255, MATH 256, MATH 258.",
+      "prereq": {
+        "text": "One of BIOL 301, MATH 215, MATH 255, MATH 256, MATH 258",
+        "tree": {
+          "one_of": [
+            "BIOL 301",
+            "MATH 215",
+            "MATH 255",
+            "MATH 256",
+            "MATH 258"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 398",
+      "title": "Co-operative Work Placement I",
+      "credits": "3",
+      "description": "Approved and supervised technical work experience involving mathematics in industry for a minimum of 3.5 months. Technical report required. Restricted to students admitted to the Mathematics Co-operative Education Program. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 399",
+      "title": "Co-operative Work Placement II",
+      "credits": "3",
+      "description": "Approved and supervised technical work experience involving mathematics in industry for a minimum of 3.5 months. Technical report required. Restricted to students admitted to the Mathematics Co-operative Education Program. Prerequisite: MATH 398. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "MATH 398",
+        "tree": "MATH 398",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 400",
+      "title": "Applied Partial Differential Equations",
+      "credits": "3",
+      "description": "Separation of variables, first order equations, Sturm-Liouville theory, integral transform methods. [3-0-0] Prerequisite: One of MATH 300, MATH 305 and one of MATH 256, MATH 257, MATH 316, MATH 358, MECH 358, PHYS 312.",
+      "prereq": {
+        "text": "One of MATH 300, MATH 305 and one of MATH 256, MATH 257, MATH 316, MATH 358, MECH 358, PHYS 312",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "MATH 300",
+                "MATH 305"
+              ]
+            },
+            {
+              "one_of": [
+                "MATH 256",
+                "MATH 257",
+                "MATH 316",
+                "MATH 358",
+                "MECH 358",
+                "PHYS 312"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 401",
+      "title": "Green's Functions and Variational Methods",
+      "credits": "3",
+      "description": "Green's functions for partial differential equations. Calculus of variations. Eigenfunction expansions. Rayleigh-Ritz and finite element methods. See Faculty of Science credit exclusion list: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… [3-0-0] Prerequisite: Either (a) a score of 80% or higher in one of MATH 256, MATH 257, MATH 316, MATH 358, MECH 358, PHYS 312 or (b) MATH 400.",
+      "prereq": {
+        "text": "Either (a) a score of 80% or higher in one of MATH 256, MATH 257, MATH 316, MATH 358, MECH 358, PHYS 312 or (b) MATH 400",
+        "tree": {
+          "one_of": [
+            {
+              "one_of": [
+                {
+                  "course": "MATH 256",
+                  "min_grade": 80
+                },
+                {
+                  "course": "MATH 257",
+                  "min_grade": 80
+                },
+                {
+                  "course": "MATH 316",
+                  "min_grade": 80
+                },
+                {
+                  "course": "MATH 358",
+                  "min_grade": 80
+                },
+                {
+                  "course": "MECH 358",
+                  "min_grade": 80
+                },
+                {
+                  "course": "PHYS 312",
+                  "min_grade": 80
+                }
+              ]
+            },
+            "MATH 400"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 402",
+      "title": "Calculus of Variations",
+      "credits": "3",
+      "description": "Classical variational problems; necessary conditions of Euler, Weierstrass, Legendre, and Jacobi; Erdmann corner conditions, transversality, convex Lagrangians, fields of extremals, sufficient conditions for optimality, numerical methods; applications to classical mechanics, engineering and economics. Recommended pre-requisites: a score of 68% or higher in one of MATH 301, MATH 320, or, a score of 80% or higher in MATH 319. [3-0-0]",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 403",
+      "title": "Stabilization and Optimal Control of Dynamical Systems",
+      "credits": "3",
+      "description": "Dynamical systems; stability by Liapunov's direct method; controllability and eigenvalue assignment for autonomous linear systems; linear-quadratic regulator, time optimal control, Pontryagin maximum principle, dynamic programming; applications in engineering, economics and resource management. Recommended pre-requisites: MATH 402, and one of (a) a score of 68% or higher in one of MATH 301, MATH 320, or (b) a score of 80% or higher in MATH 319. [3-0-0]",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 404",
+      "title": "Harmonic Analysis I",
+      "credits": "3",
+      "description": "Harmonic analysis on Euclidean spaces, with applications to number theory, partial differential equations and geometric measure theory. [3-0-0] Prerequisite: MATH 300 and a score of 68% or higher in MATH 321. Corequisite: MATH 420.",
+      "prereq": {
+        "text": "MATH 300 and a score of 68% or higher in MATH 321",
+        "tree": {
+          "all_of": [
+            "MATH 300",
+            {
+              "course": "MATH 321",
+              "min_grade": 68
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": {
+        "text": "MATH 420",
+        "tree": "MATH 420",
+        "source": "rules",
+        "problems": []
+      },
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 405",
+      "title": "Numerical Methods for Differential Equations",
+      "credits": "3",
+      "description": "Interpolation, numerical integration, numerical solution of ordinary and partial differential equations. Practical computational methods emphasized and basic theory developed through simple models. See Faculty of Science credit exclusion list: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… [3-0-0] Prerequisite: One of MATH 256, MATH 257, MATH 316, MATH 358, MECH 358, PHYS 312.",
+      "prereq": {
+        "text": "One of MATH 256, MATH 257, MATH 316, MATH 358, MECH 358, PHYS 312",
+        "tree": {
+          "one_of": [
+            "MATH 256",
+            "MATH 257",
+            "MATH 316",
+            "MATH 358",
+            "MECH 358",
+            "PHYS 312"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 406",
+      "title": "Variational and Approximate Methods in Applied Mathematics",
+      "credits": "3",
+      "description": "Variational and Green's function methods for ordinary and partial differential equations, introduction to finite difference, finite element and boundary element methods. See Faculty of Science Credit exclusion list: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… [3-0-0] Prerequisite: One of MATH 307, CPSC 302 and either (a) a score of 80% or higher in one of MATH 256, MATH 257, MATH 316, MATH 358, MECH 358, PHYS 312 or (b) MATH 400.",
+      "prereq": {
+        "text": "One of MATH 307, CPSC 302 and either (a) a score of 80% or higher in one of MATH 256, MATH 257, MATH 316, MATH 358, MECH 358, PHYS 312 or (b) MATH 400",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "MATH 307",
+                "CPSC 302"
+              ]
+            },
+            {
+              "one_of": [
+                {
+                  "one_of": [
+                    {
+                      "course": "MATH 256",
+                      "min_grade": 80
+                    },
+                    {
+                      "course": "MATH 257",
+                      "min_grade": 80
+                    },
+                    {
+                      "course": "MATH 316",
+                      "min_grade": 80
+                    },
+                    {
+                      "course": "MATH 358",
+                      "min_grade": 80
+                    },
+                    {
+                      "course": "MECH 358",
+                      "min_grade": 80
+                    },
+                    {
+                      "course": "PHYS 312",
+                      "min_grade": 80
+                    }
+                  ]
+                },
+                "MATH 400"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 412",
+      "title": "Advanced Linear Algebra",
+      "credits": "3",
+      "description": "Topics include decompositions of linear operators, multilinear algebra, bilinear forms, metric spaces. [3-0-0] Prerequisite: A score of 68% or higher in MATH 322 and either (a) a score of 68% or higher in MATH 320 or (b) a score of 80% or higher in MATH 319.",
+      "prereq": {
+        "text": "A score of 68% or higher in MATH 322 and either (a) a score of 68% or higher in MATH 320 or (b) a score of 80% or higher in MATH 319",
+        "tree": {
+          "all_of": [
+            {
+              "course": "MATH 322",
+              "min_grade": 68
+            },
+            {
+              "one_of": [
+                {
+                  "course": "MATH 320",
+                  "min_grade": 68
+                },
+                {
+                  "course": "MATH 319",
+                  "min_grade": 80
+                }
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 414",
+      "title": "Mathematical Demonstrations",
+      "credits": "3",
+      "description": "Students will prepare material illustrating ideas and applications of mathematics and present it to audiences outside the University. Intended for third or fourth year Mathematics students and Math/Science Education students. [2-0-0; 1-0-0] or [3-0-0] Prerequisite: 24 credits in MATH.",
+      "prereq": {
+        "text": "24 credits in MATH",
+        "tree": {
+          "other": "24 credits in MATH"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 418",
+      "title": "Probability",
+      "credits": "3",
+      "description": "Probability spaces, random variables, distributions, expectation, conditional probabilities, convergence of random variables, generating and characteristic functions, weak and strong laws of large numbers, central limit theorem. [3-0-0] Prerequisite: MATH 321. Prerequisite grade requirement: 68% in MATH321.",
+      "prereq": {
+        "text": "MATH 321. Prerequisite grade requirement: 68% in MATH321",
+        "tree": {
+          "course": "MATH 321",
+          "min_grade": 68
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 419",
+      "title": "Stochastic Processes",
+      "credits": "3",
+      "description": "Random walks, Markov chains, branching processes, Poisson processes, continuous time Markov chains, martingales, Brownian motion. [3-0-0] Prerequisite: MATH 418.",
+      "prereq": {
+        "text": "MATH 418",
+        "tree": "MATH 418",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 420",
+      "title": "Real Analysis I",
+      "credits": "3",
+      "description": "Sigma-algebras, Lebesgue measure, Borel measures, measurable functions, integration, convergence theorems, Lp spaces, Holder and Minkowski inequalities, Lebesgue and/or Radon-Nikodym differentiation. [3-0-0] Prerequisite: MATH 321. Prerequisite grade requirement: 68% in MATH321.",
+      "prereq": {
+        "text": "MATH 321. Prerequisite grade requirement: 68% in MATH321",
+        "tree": {
+          "course": "MATH 321",
+          "min_grade": 68
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 421",
+      "title": "Real Analysis II",
+      "credits": "3",
+      "description": "Banach spaces, linear operators, bounded and compact operators, strong, weak, and weak* topology. Hahn-Banach, open mapping, and closed graph theorems. Hilbert spaces, symmetric and self-adjoint operators, spectral theory for bounded operators. [3-0-0] Prerequisite: MATH 420.",
+      "prereq": {
+        "text": "MATH 420",
+        "tree": "MATH 420",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 422",
+      "title": "Fields and Galois Theory",
+      "credits": "3",
+      "description": "Field extensions, the Galois correspondence, finite fields, insolvability in radicals, ruler and compass constructions, additional topics chosen by instructor. [3-0-0] Prerequisite: MATH 323.",
+      "prereq": {
+        "text": "MATH 323",
+        "tree": "MATH 323",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 423",
+      "title": "Commutative Algebra",
+      "credits": "3",
+      "description": "Commutative algebra; homological algebra or representation theory of finite groups. [3-0-0] Prerequisite: MATH 323 and a score of 68% or higher in one of MATH 412, MATH 422.",
+      "prereq": {
+        "text": "MATH 323 and a score of 68% or higher in one of MATH 412, MATH 422",
+        "tree": {
+          "all_of": [
+            "MATH 323",
+            {
+              "one_of": [
+                {
+                  "course": "MATH 412",
+                  "min_grade": 68
+                },
+                {
+                  "course": "MATH 422",
+                  "min_grade": 68
+                }
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 424",
+      "title": "Classical Differential Geometry",
+      "credits": "3",
+      "description": "The differential geometry of curves and surfaces in three-dimensional Euclidean space. Mean curvature and Gaussian curvature. Geodesics. Gauss's Theorema Egregium. [3-0-0] Prerequisite: Either (a) a score of 68% or higher in MATH 223 or (b) a score of 80% or higher in one of MATH 152, MATH 221; and either (a) a score of 68% or higher in MATH 227 or (b) a score of 80% or higher in one of MATH 217, MATH 254, MATH 264, MATH 317.",
+      "prereq": {
+        "text": "Either (a) a score of 68% or higher in MATH 223 or (b) a score of 80% or higher in one of MATH 152, MATH 221; and either (a) a score of 68% or higher in MATH 227 or (b) a score of 80% or higher in one of MATH 217, MATH 254, MATH 264, MATH 317",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                {
+                  "course": "MATH 223",
+                  "min_grade": 68
+                },
+                {
+                  "one_of": [
+                    {
+                      "course": "MATH 152",
+                      "min_grade": 80
+                    },
+                    {
+                      "course": "MATH 221",
+                      "min_grade": 80
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "one_of": [
+                {
+                  "course": "MATH 227",
+                  "min_grade": 68
+                },
+                {
+                  "one_of": [
+                    {
+                      "course": "MATH 217",
+                      "min_grade": 80
+                    },
+                    {
+                      "course": "MATH 254",
+                      "min_grade": 80
+                    },
+                    {
+                      "course": "MATH 264",
+                      "min_grade": 80
+                    },
+                    {
+                      "course": "MATH 317",
+                      "min_grade": 80
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 425",
+      "title": "Introduction to Modern Differential Geometry",
+      "credits": "3",
+      "description": "Smooth manifolds, smooth maps, immersions and submersions, vector fields, vector bundles, tangent and cotangent bundles, tensors and differential forms, orientation of manifolds, integration of forms, and selected topics. [3-0-0] Prerequisite: One of MATH 221, MATH 223 and one of MATH 217, MATH 227, MATH 254, MATH 264, MATH 317 and one of MATH 319, MATH 320.",
+      "prereq": {
+        "text": "One of MATH 221, MATH 223 and one of MATH 217, MATH 227, MATH 254, MATH 264, MATH 317 and one of MATH 319, MATH 320",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "MATH 221",
+                "MATH 223"
+              ]
+            },
+            {
+              "one_of": [
+                "MATH 217",
+                "MATH 227",
+                "MATH 254",
+                "MATH 264",
+                "MATH 317"
+              ]
+            },
+            {
+              "one_of": [
+                "MATH 319",
+                "MATH 320"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 426",
+      "title": "Introduction to Topology",
+      "credits": "3",
+      "description": "General topology, combinatorial topology, fundamental group and covering spaces, topics chosen by the instructor. [3-0-0] Prerequisite: All of MATH 321, MATH 322. Prerequisite grade requirement: 68% in MATH322,MATH321.",
+      "prereq": {
+        "text": "All of MATH 321, MATH 322. Prerequisite grade requirement: 68% in MATH322,MATH321",
+        "tree": {
+          "all_of": [
+            {
+              "course": "MATH 321",
+              "min_grade": 68
+            },
+            {
+              "course": "MATH 322",
+              "min_grade": 68
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 427",
+      "title": "Topics in Topology",
+      "credits": "3",
+      "description": "Homology theory, homotopy theory, manifolds, and other topics chosen by the instructor. [3-0-0] Prerequisite: MATH 426.",
+      "prereq": {
+        "text": "MATH 426",
+        "tree": "MATH 426",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 428",
+      "title": "Mathematical Classical Mechanics I",
+      "credits": "3",
+      "description": "Newton's equation, conservation laws, the Euler-Lagrange equation; Hamilton's principle of least action, Hamilton's equations, Lagrangian mechanics on manifolds. [3-0-0] Prerequisite: One of MATH 215, MATH 255, MATH 256, MATH 258 and one of PHYS 216, PHYS 306, ENPH 270. Corequisite: MATH 320 (waived for students with a score of 80% or higher in MATH 319).",
+      "prereq": {
+        "text": "One of MATH 215, MATH 255, MATH 256, MATH 258 and one of PHYS 216, PHYS 306, ENPH 270",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "MATH 215",
+                "MATH 255",
+                "MATH 256",
+                "MATH 258"
+              ]
+            },
+            {
+              "one_of": [
+                "PHYS 216",
+                "PHYS 306",
+                "ENPH 270"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": {
+        "text": "MATH 320 (waived for students with a score of 80% or higher in MATH 319)",
+        "tree": {
+          "one_of": [
+            "MATH 320",
+            {
+              "course": "MATH 319",
+              "min_grade": 80
+            }
+          ]
+        },
+        "source": "llm",
+        "problems": []
+      },
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 430",
+      "title": "Special Topics in Analysis",
+      "credits": "2-6",
+      "description": "The student should consult the Mathematics Department for the particular topics offered in a given year. [3-0-0]",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 432",
+      "title": "Special Topics in Algebra",
+      "credits": "2-6",
+      "description": "The student should consult the Mathematics Department for the particular topics offered in a given year. [3-0-0]",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 437",
+      "title": "Number Theory",
+      "credits": "3",
+      "description": "Divisibility, congruences, Diophantine equations, arithmetic functions, quadratic reciprocity, advanced topics. Please consult the Faculty of Science Credit Exclusion List: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… . [3-0-0] Corequisite: One of MATH 320 (waived for students with a score of 80% or higher in MATH 319), MATH 322.",
+      "prereq": null,
+      "coreq": {
+        "text": "One of MATH 320 (waived for students with a score of 80% or higher in MATH 319), MATH 322",
+        "tree": {
+          "one_of": [
+            "MATH 320",
+            {
+              "course": "MATH 319",
+              "min_grade": 80
+            },
+            "MATH 322"
+          ]
+        },
+        "source": "llm",
+        "problems": []
+      },
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 440",
+      "title": "Complex Analysis",
+      "credits": "3",
+      "description": "The residue theorem, the argument principle, conformal mapping, the maximum modulus principle, harmonic functions, representation of functions by integrals, series, and products. Other topics at the discretion of the instructor. [3-0-0] Prerequisite: MATH 300 and either (a) a score of 68% or higher in MATH 320 or (b) a score of 80% or higher in MATH 319 and permission of the Department Head in Mathematics.",
+      "prereq": {
+        "text": "MATH 300 and either (a) a score of 68% or higher in MATH 320 or (b) a score of 80% or higher in MATH 319 and permission of the Department Head in Mathematics",
+        "tree": {
+          "all_of": [
+            "MATH 300",
+            {
+              "one_of": [
+                {
+                  "course": "MATH 320",
+                  "min_grade": 68
+                },
+                {
+                  "all_of": [
+                    {
+                      "course": "MATH 319",
+                      "min_grade": 80
+                    },
+                    {
+                      "other": "permission of the Department Head in Mathematics"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "source": "llm",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 441",
+      "title": "Mathematical Modelling: Discrete Optimization Problems",
+      "credits": "3",
+      "description": "Formulation of real-world optimization problems using techniques such as linear programming, network flows, integer programming, dynamic programming. Solution by appropriate software. [3-0-0] Prerequisite: MATH 340.",
+      "prereq": {
+        "text": "MATH 340",
+        "tree": "MATH 340",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 442",
+      "title": "Graphs and Networks",
+      "credits": "3",
+      "description": "Graph theory, emphasizing trees, tree growing algorithms, and proof techniques. Other topics chosen from shortest paths, maximum flows, minimum cost flows, matchings, and graph colouring. [3-0-0] Prerequisite: 3rd year standing and one of MATH 220, MATH 223, MATH 226 or CPSC 221.",
+      "prereq": {
+        "text": "3rd year standing and one of MATH 220, MATH 223, MATH 226 or CPSC 221",
+        "tree": {
+          "all_of": [
+            {
+              "other": "3rd year standing"
+            },
+            {
+              "one_of": [
+                "MATH 220",
+                "MATH 223",
+                "MATH 226",
+                "CPSC 221"
+              ]
+            }
+          ]
+        },
+        "source": "llm",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 443",
+      "title": "Graph Theory",
+      "credits": "3",
+      "description": "Introductory course in mostly non-algorithmic topics including: planarity and Kuratowski's theorem, graph colouring, graph minors, random graphs, cycles in graphs, Ramsey theory, extremal graph theory. Proofs emphasized. Intended for Honours students. [3-0-0] Prerequisite: A score of 68% or higher in one of MATH 220, MATH 223, MATH 226, CPSC 121. And 6 credits of MATH numbered 300 or above.",
+      "prereq": {
+        "text": "A score of 68% or higher in one of MATH 220, MATH 223, MATH 226, CPSC 121. And 6 credits of MATH numbered 300 or above",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                {
+                  "course": "MATH 220",
+                  "min_grade": 68
+                },
+                {
+                  "course": "MATH 223",
+                  "min_grade": 68
+                },
+                {
+                  "course": "MATH 226",
+                  "min_grade": 68
+                },
+                {
+                  "course": "CPSC 121",
+                  "min_grade": 68
+                }
+              ]
+            },
+            {
+              "other": "6 credits of MATH numbered 300 or above"
+            }
+          ]
+        },
+        "source": "llm",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 444",
+      "title": "Mathematical Research and Writing",
+      "credits": "3",
+      "description": "Current research topics in pure and applied mathematics are explored at the undergraduate level. Technical communication and research skills are developed. [3-0-0] Prerequisite: One of MATH 220, MATH 223, MATH 226, and 6 credits of MATH courses numbered 300 or higher.",
+      "prereq": {
+        "text": "One of MATH 220, MATH 223, MATH 226, and 6 credits of MATH courses numbered 300 or higher",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "MATH 220",
+                "MATH 223",
+                "MATH 226"
+              ]
+            },
+            {
+              "other": "6 credits of MATH courses numbered 300 or higher"
+            }
+          ]
+        },
+        "source": "llm",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 446",
+      "title": "Topics in the History of Mathematics I",
+      "credits": "3",
+      "description": "Historical development of concepts and techniques in areas chosen from Geometry, Number Theory, Algebra, Calculus, Probability, Analysis. The focus is on historically significant writings of important contributors and on famous problems of Mathematics. [3-0-0] Prerequisite: 21 credits of MATH.",
+      "prereq": {
+        "text": "21 credits of MATH",
+        "tree": {
+          "other": "21 credits of MATH"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 448",
+      "title": "Directed Studies in Mathematics",
+      "credits": "1-6",
+      "description": "Introduction to the methods of mathematical research through an exploration of a mathematical topic under the supervision of a faculty member. Written report required. Prerequisite: Third- or fourth-year class standing and permission of the Department Head.",
+      "prereq": {
+        "text": "Third- or fourth-year class standing and permission of the Department Head",
+        "tree": {
+          "other": "Third- or fourth-year class standing and permission of the Department Head"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 449",
+      "title": "Honours Reading",
+      "credits": "1-6",
+      "description": "Independent reading and research on a mathematical topic under the supervision of a faculty member. Intended for Honours students. Written report required. Prerequisite: Permission of the Department Head.",
+      "prereq": {
+        "text": "Permission of the Department Head",
+        "tree": {
+          "other": "Permission of the Department Head"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 450",
+      "title": "Asymptotic and Perturbation Methods",
+      "credits": "3",
+      "description": "Asymptotic expansions. Asymptotic evaluation of integrals; WKBJ methods. Regular and singular expansions. Boundary layer theory; matched asymptotic expansions. Multiple scale techniques. [3-0-0] Prerequisite: MATH 400.",
+      "prereq": {
+        "text": "MATH 400",
+        "tree": "MATH 400",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 461",
+      "title": "Projects in Mathematical Modelling",
+      "credits": "3",
+      "description": "Computational methods for mathematical modelling. Numerical methods for partial differential equations, stochastic processes, and data-driven models. Includes student-directed projects on current research and applications. [3-0-0] Prerequisite: Either (a) MATH 360 or (b) one of MATH 210, CPSC 203, CPSC 210 and one of MATH 345, MATH 361.",
+      "prereq": {
+        "text": "Either (a) MATH 360 or (b) one of MATH 210, CPSC 203, CPSC 210 and one of MATH 345, MATH 361",
+        "tree": {
+          "one_of": [
+            "MATH 360",
+            {
+              "all_of": [
+                {
+                  "one_of": [
+                    "MATH 210",
+                    "CPSC 203",
+                    "CPSC 210"
+                  ]
+                },
+                {
+                  "one_of": [
+                    "MATH 345",
+                    "MATH 361"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 462",
+      "title": "Projects in Mathematical Biology",
+      "credits": "3",
+      "description": "Development and analysis of mathematical models for complex systems in ecology, evolution, cell biology, neurophysiology, and other biological and medical disciplines. [3-0-0] Prerequisite: One of MATH 361, MATH 345.",
+      "prereq": {
+        "text": "One of MATH 361, MATH 345",
+        "tree": {
+          "one_of": [
+            "MATH 361",
+            "MATH 345"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 498",
+      "title": "Co-operative Work Placement III",
+      "credits": "3",
+      "description": "Approved and supervised technical work experience involving mathematics in industry for a minimum of 3 1/2 months. Technical report required. Restricted to students admitted to the Mathematics Co-operative Education Program. Prerequisite: MATH 399. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "MATH 399",
+        "tree": "MATH 399",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 499",
+      "title": "Co-operative Work Placement IV",
+      "credits": "3",
+      "description": "Approved and supervised technical work experience involving mathematics in industry for a minimum of 3 1/2 months. Technical report required. Restricted to students admitted to the Mathematics Co-operative Education Program. Prerequisite: MATH 498. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "MATH 498",
+        "tree": "MATH 498",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 501",
+      "title": "Algebra I",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 502",
+      "title": "Algebra II",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 503",
+      "title": "Discrete Mathematics",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 507",
+      "title": "Measure Theory and Integration",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 508",
+      "title": "Complex Analysis",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 510",
+      "title": "Functional Analysis",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 511",
+      "title": "Operator Theory and Applications",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 512",
+      "title": "Quantum Theory",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 513",
+      "title": "Mathematical Classical Mechanics",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 514",
+      "title": "Ordinary Differential Equations",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 515",
+      "title": "Partial Differential Equations of Fluid Mechanics",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 516",
+      "title": "Partial Differential Equations I",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 517",
+      "title": "Partial Differential Equations II",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 519",
+      "title": "Fluid Mechanics I",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 520",
+      "title": "Fluid Mechanics II",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 521",
+      "title": "Numerical Analysis of Partial Differential Equations",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 522",
+      "title": "Numerical Analysis",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 523",
+      "title": "Combinatorial Optimization",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 525",
+      "title": "Differential Geometry I",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 526",
+      "title": "Differential Geometry II",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 527",
+      "title": "Algebraic Topology I",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 528",
+      "title": "Algebraic Topology II",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 529",
+      "title": "Differential Topology",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 530",
+      "title": "Geometric Topology",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 532",
+      "title": "Algebraic Geometry I",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 533",
+      "title": "Algebraic Geometry II",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 534",
+      "title": "Lie Theory I",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 535",
+      "title": "Lie Theory II",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 537",
+      "title": "Elementary Number Theory",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 538",
+      "title": "Algebraic Number Theory",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 539",
+      "title": "Analytic Number Theory",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 541",
+      "title": "Harmonic Analysis I",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 542",
+      "title": "Harmonic Analysis II",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 543",
+      "title": "Discrete Harmonic Analysis",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 544",
+      "title": "Probability I",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 545",
+      "title": "Probability II",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 546",
+      "title": "Continuous Time Stochastic Processes",
+      "credits": "3",
+      "description": "Prerequisite: All of MATH 544, MATH 545. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "All of MATH 544, MATH 545",
+        "tree": {
+          "all_of": [
+            "MATH 544",
+            "MATH 545"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 547",
+      "title": "Optimal Control Theory",
+      "credits": "3",
+      "description": "Optimal control of systems governed by ordinary differential equations. The control problem will be carefully stated, and existence results and necessary conditions will be established. Hamilton-Jacobi-Bellman theory will be introduced. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 548",
+      "title": "Discrete Random Processes",
+      "credits": "3",
+      "description": "Prerequisite: All of MATH 544, MATH 545. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "All of MATH 544, MATH 545",
+        "tree": {
+          "all_of": [
+            "MATH 544",
+            "MATH 545"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 549",
+      "title": "Thesis for Master's Degree",
+      "credits": "6-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 550",
+      "title": "Methods of Asymptotic Analysis",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 551",
+      "title": "Perturbation Methods for Differential Equations",
+      "credits": "3",
+      "description": "Prerequisite: MATH 550. Ordinary and partial differential equations (MATH 400 or equivalent). This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "MATH 550. Ordinary and partial differential equations (MATH 400 or equivalent)",
+        "tree": {
+          "all_of": [
+            "MATH 550",
+            {
+              "one_of": [
+                "MATH 400",
+                {
+                  "other": "equivalent"
+                }
+              ]
+            }
+          ]
+        },
+        "source": "llm",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 552",
+      "title": "Introduction to Dynamical Systems",
+      "credits": "3",
+      "description": "Ideas, methods and applications of bifurcation theory and dynamical systems: differential and difference equations, local bifurcations, perturbation methods, chaos. Recommended pre-requisites: one of MATH 215, MATH 255, MATH 256 and one of MATH 256, MATH 257, MATH 316. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 553",
+      "title": "Advanced Dynamical Systems",
+      "credits": "3",
+      "description": "Topics from: hyperbolic invariant sets and symbolic dynamics, global bifurcations, local bifurcations for partial differential equations, multiple bifurcations, bifurcations and symmetry, applications. Prerequisite: MATH 552. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "MATH 552",
+        "tree": "MATH 552",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 554",
+      "title": "Symmetries and Differential Equations",
+      "credits": "3",
+      "description": "Dimensional analysis, modelling, and invariance. Lie groups of transformations, infinitesimal transformations. Applications to ordinary and partial differential equations. No knowledge of group theory will be assumed. Recommended pre-requisite: elementary courses in differential equations and linear algebra. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 555",
+      "title": "Compressed Sensing",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 556",
+      "title": "Industrial Mathematical Modelling",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 557",
+      "title": "Linear and Nonlinear Waves",
+      "credits": "3",
+      "description": "Classical and recent results in linear and nonlinear waves. Geometrical acoustics and kinematic waves; large amplitude waves in weakly stratified media; small amplitude waves in strongly stratified media. Dispersive waves; group velocity; applications. Recommended pre-requisites: MATH 400 and some knowledge of either fluid mechanics or elasticity. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 559",
+      "title": "Complex Fluids",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 560",
+      "title": "Mathematical Biology",
+      "credits": "3",
+      "description": "Mathematical methods in modelling biological processes, at levels from cell biochemistry to community ecology. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 561",
+      "title": "Mathematics of Infectious Diseases and Immunology",
+      "credits": "3",
+      "description": "Mathematical models for disease spread in populations. Within-host infectious disease dynamics. Models of the immune system and immune cells. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 562",
+      "title": "Mathematical Electrophysiology",
+      "credits": "3",
+      "description": "Formulation and analysis of models of excitable media. FitzHugh-Nagumo model, ionic models of membrane excitability (e.g., Hodgkin-Huxley), calcium excitability, bursting phenomena. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 563",
+      "title": "Modelling of Cell-Scale Biology",
+      "credits": "3",
+      "description": "Concepts and techniques for modelling cellular and subcellular dynamics in biological systems. Topics may include complex biochemical systems, biopolymers in cell motility and division, continuum mechanics, and membrane dynamics. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 564",
+      "title": "Evolutionary Dynamics",
+      "credits": "3",
+      "description": "Mathematical models of evolution and evolutionary game theory. Stochastic dynamics in finite populations, dynamics in spatially structured populations, and adaptive dynamics. Applications include the origin of species and the problem of cooperation. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 566",
+      "title": "Theory of Optimal Transportation",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 567",
+      "title": "Nonlinear Wave Equations",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 589",
+      "title": "M.Sc. Major Essay",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 590",
+      "title": "Graduate Seminar",
+      "credits": "2-6",
+      "description": "Presentation and discussion of recent results in the mathematical literature. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 591",
+      "title": "Graduate Seminar in Applied Mathematics",
+      "credits": "2",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 592",
+      "title": "Topics in Automorphic Forms",
+      "credits": "2-15",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 599",
+      "title": "Mathematics Teaching Techniques",
+      "credits": "1",
+      "description": "[3-0-0]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 600",
+      "title": "Topics in Algebra",
+      "credits": "2-15",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 601",
+      "title": "Topics in Analysis",
+      "credits": "2-15",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 602",
+      "title": "Topics in Geometry",
+      "credits": "2-15",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 603",
+      "title": "Topics in Topology",
+      "credits": "2-15",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 604",
+      "title": "Topics in Optimization",
+      "credits": "2-15",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 605",
+      "title": "Topics in Applied Mathematics",
+      "credits": "2-15",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 606",
+      "title": "Topics in Differential Equations",
+      "credits": "2-15",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 607",
+      "title": "Topics in Numerical Analysis",
+      "credits": "2-15",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 608",
+      "title": "Topics in Probability",
+      "credits": "2-15",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 609",
+      "title": "Topics in Mathematical Physics",
+      "credits": "2-15",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 610",
+      "title": "Topics in Pure Mathematics",
+      "credits": "2-15",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 612",
+      "title": "Topics in Mathematical Biology",
+      "credits": "2-15",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 613",
+      "title": "Topics in Number Theory",
+      "credits": "2-15",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 615",
+      "title": "Topics in Algebraic Geometry",
+      "credits": "2-15",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 616",
+      "title": "Topics in Discrete Mathematics",
+      "credits": "2-15",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 620",
+      "title": "Directed Studies in Mathematics",
+      "credits": "1-15",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MATH 649",
+      "title": "Doctoral Dissertation",
+      "credits": "0",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    }
+  ]
+}

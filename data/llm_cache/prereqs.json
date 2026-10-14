@@ -13,6 +13,56 @@
       ]
     }
   },
+  "3rd year standing and one of MATH 220, MATH 223, MATH 226 or CPSC 221": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "all_of": [
+        {
+          "other": "3rd year standing"
+        },
+        {
+          "one_of": [
+            "MATH 220",
+            "MATH 223",
+            "MATH 226",
+            "CPSC 221"
+          ]
+        }
+      ]
+    }
+  },
+  "A score of 68% or higher in one of MATH 220, MATH 223, MATH 226, CPSC 121. And 6 credits of MATH numbered 300 or above": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "all_of": [
+        {
+          "one_of": [
+            {
+              "course": "MATH 220",
+              "min_grade": 68
+            },
+            {
+              "course": "MATH 223",
+              "min_grade": 68
+            },
+            {
+              "course": "MATH 226",
+              "min_grade": 68
+            },
+            {
+              "course": "CPSC 121",
+              "min_grade": 68
+            }
+          ]
+        },
+        {
+          "other": "6 credits of MATH numbered 300 or above"
+        }
+      ]
+    }
+  },
   "All of (a) CPSC 221 or DSCI 221, (b) at least 3 credits from MATH or STAT at 200 level or above or MATH_O 200, MATH_O 220, MATH_O 222, MATH_O 225, MATH_O 307, STAT_O 121, STAT_O 203, STAT_O 205, STAT_O 230, STAT_O 303 or any course on the STAT 200 credit exclusion: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult\u2026 or HES_O 340, HMKN_O 205, POLI_O 400, PSYO_O 271, STAT_O 124": {
     "model": "gemini-3.8-flash",
     "problems": [],
@@ -213,6 +263,59 @@
       ]
     }
   },
+  "Either (a) one of MATH 100, MATH 102, MATH 104, MATH 110, MATH 120, MATH 180, MATH 184, MATH_O 100 or (b) advanced credit for MATH 100, or (c) SCIE 001 as a co-requisite": {
+    "model": "gemini-3.8-flash",
+    "problems": [],
+    "tree": {
+      "one_of": [
+        {
+          "one_of": [
+            "MATH 100",
+            "MATH 102",
+            "MATH 104",
+            "MATH 110",
+            "MATH 120",
+            "MATH 180",
+            "MATH 184",
+            "MATH_O 100"
+          ]
+        },
+        {
+          "other": "advanced credit for MATH 100"
+        },
+        {
+          "other": "SCIE 001 as a co-requisite"
+        }
+      ]
+    }
+  },
+  "Either (a) one of MATH 100, MATH 102, MATH 104, MATH 110, MATH 120, MATH 180, MATH 184, SCIE 001, MATH_O 100 or (b) advanced credit for MATH 100, or (c) SCIE 001 as a corequisite": {
+    "model": "gemini-3.8-flash",
+    "problems": [],
+    "tree": {
+      "one_of": [
+        {
+          "one_of": [
+            "MATH 100",
+            "MATH 102",
+            "MATH 104",
+            "MATH 110",
+            "MATH 120",
+            "MATH 180",
+            "MATH 184",
+            "SCIE 001",
+            "MATH_O 100"
+          ]
+        },
+        {
+          "other": "advanced credit for MATH 100"
+        },
+        {
+          "other": "SCIE 001 as a corequisite"
+        }
+      ]
+    }
+  },
   "Either CPSC 340 or both (a) AI 240 and (b) one of STAT 251, ECON 325, ECON 327, MATH 302, STAT 302, MATH 318": {
     "model": "gemini-3.5-flash-lite",
     "problems": [],
@@ -267,6 +370,267 @@
       ]
     }
   },
+  "Either a) a score of 68% or higher in MATH 120, b) a score of 80% or higher in MATH 100, MATH 102, MATH 104, MATH 180, MATH 184, or c) a score of 5 in AP Calculus AB": {
+    "model": "gemini-3.8-flash",
+    "problems": [],
+    "tree": {
+      "one_of": [
+        {
+          "course": "MATH 120",
+          "min_grade": 68
+        },
+        {
+          "one_of": [
+            {
+              "course": "MATH 100",
+              "min_grade": 80
+            },
+            {
+              "course": "MATH 102",
+              "min_grade": 80
+            },
+            {
+              "course": "MATH 104",
+              "min_grade": 80
+            },
+            {
+              "course": "MATH 180",
+              "min_grade": 80
+            },
+            {
+              "course": "MATH 184",
+              "min_grade": 80
+            }
+          ]
+        },
+        {
+          "other": "a score of 5 in AP Calculus AB"
+        }
+      ]
+    }
+  },
+  "MATH 300 and either (a) a score of 68% or higher in MATH 320 or (b) a score of 80% or higher in MATH 319 and permission of the Department Head in Mathematics": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "all_of": [
+        "MATH 300",
+        {
+          "one_of": [
+            {
+              "course": "MATH 320",
+              "min_grade": 68
+            },
+            {
+              "all_of": [
+                {
+                  "course": "MATH 319",
+                  "min_grade": 80
+                },
+                {
+                  "other": "permission of the Department Head in Mathematics"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "MATH 320 (waived for students with a score of 80% or higher in MATH 319)": {
+    "model": "gemini-3.8-flash",
+    "problems": [],
+    "tree": {
+      "one_of": [
+        "MATH 320",
+        {
+          "course": "MATH 319",
+          "min_grade": 80
+        }
+      ]
+    }
+  },
+  "MATH 550. Ordinary and partial differential equations (MATH 400 or equivalent)": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "all_of": [
+        "MATH 550",
+        {
+          "one_of": [
+            "MATH 400",
+            {
+              "other": "equivalent"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "One of (a) one of MATH 120, MATH 121, SCIE 001, or (b) a score of 80% or higher in one of MATH 100, MATH 102, MATH 104, MATH 110, MATH 180, MATH 184, MATH_O 100, or (c) a score of 68% or higher in one of MATH 101, MATH 103, MATH 105, MATH 111, MATH 152, MATH 221, MATH_O 101, MATH_O 103, MATH_O 221, or (d) SCIE 001 as a corequisite": {
+    "model": "gemini-3.8-flash",
+    "problems": [],
+    "tree": {
+      "one_of": [
+        {
+          "one_of": [
+            "MATH 120",
+            "MATH 121",
+            "SCIE 001"
+          ]
+        },
+        {
+          "one_of": [
+            {
+              "course": "MATH 100",
+              "min_grade": 80
+            },
+            {
+              "course": "MATH 102",
+              "min_grade": 80
+            },
+            {
+              "course": "MATH 104",
+              "min_grade": 80
+            },
+            {
+              "course": "MATH 110",
+              "min_grade": 80
+            },
+            {
+              "course": "MATH 180",
+              "min_grade": 80
+            },
+            {
+              "course": "MATH 184",
+              "min_grade": 80
+            },
+            {
+              "course": "MATH_O 100",
+              "min_grade": 80
+            }
+          ]
+        },
+        {
+          "one_of": [
+            {
+              "course": "MATH 101",
+              "min_grade": 68
+            },
+            {
+              "course": "MATH 103",
+              "min_grade": 68
+            },
+            {
+              "course": "MATH 105",
+              "min_grade": 68
+            },
+            {
+              "course": "MATH 111",
+              "min_grade": 68
+            },
+            {
+              "course": "MATH 152",
+              "min_grade": 68
+            },
+            {
+              "course": "MATH 221",
+              "min_grade": 68
+            },
+            {
+              "course": "MATH_O 101",
+              "min_grade": 68
+            },
+            {
+              "course": "MATH_O 103",
+              "min_grade": 68
+            },
+            {
+              "course": "MATH_O 221",
+              "min_grade": 68
+            }
+          ]
+        },
+        {
+          "other": "SCIE 001 as a corequisite"
+        }
+      ]
+    }
+  },
+  "One of (a) one of MATH 120, MATH 121, SCIE 001, or (b) a score of 80% or higher in one of MATH 100, MATH 102, MATH 104, MATH 110, MATH 180, MATH 184, or (c) a score of 68% or higher in one of MATH 101, MATH 103, MATH 105, MATH 152, MATH 111, MATH 221, or (d) SCIE 001 as a corequisite": {
+    "model": "gemini-3.8-flash",
+    "problems": [],
+    "tree": {
+      "one_of": [
+        {
+          "one_of": [
+            "MATH 120",
+            "MATH 121",
+            "SCIE 001"
+          ]
+        },
+        {
+          "one_of": [
+            {
+              "course": "MATH 100",
+              "min_grade": 80
+            },
+            {
+              "course": "MATH 102",
+              "min_grade": 80
+            },
+            {
+              "course": "MATH 104",
+              "min_grade": 80
+            },
+            {
+              "course": "MATH 110",
+              "min_grade": 80
+            },
+            {
+              "course": "MATH 180",
+              "min_grade": 80
+            },
+            {
+              "course": "MATH 184",
+              "min_grade": 80
+            }
+          ]
+        },
+        {
+          "one_of": [
+            {
+              "course": "MATH 101",
+              "min_grade": 68
+            },
+            {
+              "course": "MATH 103",
+              "min_grade": 68
+            },
+            {
+              "course": "MATH 105",
+              "min_grade": 68
+            },
+            {
+              "course": "MATH 152",
+              "min_grade": 68
+            },
+            {
+              "course": "MATH 111",
+              "min_grade": 68
+            },
+            {
+              "course": "MATH 221",
+              "min_grade": 68
+            }
+          ]
+        },
+        {
+          "other": "SCIE 001 as a corequisite"
+        }
+      ]
+    }
+  },
   "One of CPSC 210, CPEN 221 and either (a) one of CPSC 121, MATH 220, MATH_O 220 or (b) a score of 68% or higher in MATH 226": {
     "model": "gemini-3.8-flash",
     "problems": [],
@@ -296,6 +660,105 @@
       ]
     }
   },
+  "One of ELEC 221, STAT 305. STAT 305 may be taken concurrently, with registration assistance from the Student Programs Coordinator in the Department of Statistics": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "one_of": [
+        "ELEC 221",
+        "STAT 305",
+        {
+          "other": "STAT 305 may be taken concurrently, with registration assistance from the Student Programs Coordinator in the Department of Statistics"
+        }
+      ]
+    }
+  },
+  "One of MATH 220, MATH 223, MATH 226, CPSC 121. and 9 additional credits of mathematics courses": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "all_of": [
+        {
+          "one_of": [
+            "MATH 220",
+            "MATH 223",
+            "MATH 226",
+            "CPSC 121"
+          ]
+        },
+        {
+          "other": "9 additional credits of mathematics courses"
+        }
+      ]
+    }
+  },
+  "One of MATH 220, MATH 223, MATH 226, and 6 credits of MATH courses numbered 300 or higher": {
+    "model": "gemini-3.8-flash",
+    "problems": [],
+    "tree": {
+      "all_of": [
+        {
+          "one_of": [
+            "MATH 220",
+            "MATH 223",
+            "MATH 226"
+          ]
+        },
+        {
+          "other": "6 credits of MATH courses numbered 300 or higher"
+        }
+      ]
+    }
+  },
+  "One of MATH 302, STAT 302, or MATH 418, and either STAT 305 or STAT 460": {
+    "model": "gemini-3.8-flash",
+    "problems": [],
+    "tree": {
+      "all_of": [
+        {
+          "one_of": [
+            "MATH 302",
+            "STAT 302",
+            "MATH 418"
+          ]
+        },
+        {
+          "one_of": [
+            "STAT 305",
+            "STAT 460"
+          ]
+        }
+      ]
+    }
+  },
+  "One of MATH 320 (waived for students with a score of 80% or higher in MATH 319), MATH 322": {
+    "model": "gemini-3.8-flash",
+    "problems": [],
+    "tree": {
+      "one_of": [
+        "MATH 320",
+        {
+          "course": "MATH 319",
+          "min_grade": 80
+        },
+        "MATH 322"
+      ]
+    }
+  },
+  "One of any course on the MATH 100 credit exclusion list [ https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult\u2026 ], MATH 190, SCIE 001, MATH_O 100": {
+    "model": "gemini-3.8-flash",
+    "problems": [],
+    "tree": {
+      "one_of": [
+        {
+          "other": "any course on the MATH 100 credit exclusion list [ https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult\u2026 ]"
+        },
+        "MATH 190",
+        "SCIE 001",
+        "MATH_O 100"
+      ]
+    }
+  },
   "Principles of Mathematics 12 or Pre-calculus 12": {
     "model": "gemini-3.8-flash",
     "problems": [],
@@ -306,6 +769,22 @@
         },
         {
           "other": "Pre-calculus 12"
+        }
+      ]
+    }
+  },
+  "STAT 305, one of MATH 152, MATH 221, or MATH 223": {
+    "model": "gemini-3.8-flash",
+    "problems": [],
+    "tree": {
+      "all_of": [
+        "STAT 305",
+        {
+          "one_of": [
+            "MATH 152",
+            "MATH 221",
+            "MATH 223"
+          ]
         }
       ]
     }
