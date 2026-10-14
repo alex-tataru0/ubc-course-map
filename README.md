@@ -81,7 +81,7 @@ Add `--refresh` to download every term again. No API key is needed.
 
 ## The website
 
-The site is in `web/`: Next.js, TypeScript and React Flow, exported as a plain static site. It never calls an API. Everything is worked out when the site is built.
+The site is in `web/`: Next.js, TypeScript and React Flow, exported as a plain static site. It never calls an API for its data: everything is worked out when the site is built. The only thing it sends is an anonymous page view to [Vercel Web Analytics](https://vercel.com/docs/analytics), which uses no cookies.
 
 - **Built ahead of time.** A server component reads `data/courses/cpsc.json` and `data/grades/cpsc.json` during `npm run build`, turns the courses into a graph and lays it out. The browser only gets the finished positions, so the layout library never ships to it.
 - **Laid out in course order.** Rows go by year (all 100-level courses above all 200-level ones, and so on), and a course sits below any prerequisite from its own year (CPSC 103 → 107). [dagre](https://github.com/dagrejs/dagre) only picks the left-to-right order inside each row, through a custom ranker, to keep lines from crossing. The rows are then packed tightly: dagre's own spacing made the graph about 4,000px wide, packed it's about 1,800px.
@@ -90,7 +90,7 @@ The site is in `web/`: Next.js, TypeScript and React Flow, exported as a plain s
 
 ### What can I take next?
 
-- **Your courses stay in your browser.** Ticks are saved in localStorage. There are no accounts, and nothing is sent anywhere.
+- **Your courses stay in your browser.** Ticks are saved in localStorage. There are no accounts, and your courses are never sent anywhere.
 - **Three answers, not two.** Each requirement is met, not met, or "check yourself", because the site can't know your grades, your year standing or whether you took Pre-calculus 12. A "one of" group is met if any option is, an "all of" group fails if any part fails, and anything uncertain stays uncertain (three-valued logic).
 - **Five statuses.** Done, can take, check first, not yet and no credit. A corequisite can be taken at the same time, "Restricted to …" sentences make a course "check first", and "Not for students with credit for CPSC 110" makes CPSC 100 "no credit" once 110 is done.
 - **Other subjects.** The 53 courses that CPSC prerequisites mention but the map doesn't show (MATH, STAT, CPEN, …) can be ticked too, from a list or right inside a course's prerequisites.
