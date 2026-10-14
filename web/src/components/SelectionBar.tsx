@@ -1,4 +1,5 @@
 import type { Highlight } from "@/lib/highlight";
+import { subjectOf } from "@/lib/subjects";
 import { Swatch } from "./Legend";
 
 interface SelectionBarProps {
@@ -12,7 +13,8 @@ interface SelectionBarProps {
 // the colours on screen, and gives touch screens a way to clear (they have no Esc key).
 export default function SelectionBar({ highlight, onDetails, onClear }: SelectionBarProps) {
   const { selected, kind, needs, unlocks } = highlight;
-  let needsText = needs.size === 0 ? "No CPSC prereqs" : `Needs ${needs.size}`;
+  // The map only shows its own subject, e.g. "No MATH prereqs" for MATH 100.
+  let needsText = needs.size === 0 ? `No ${subjectOf(selected)} prereqs` : `Needs ${needs.size}`;
   if (kind === "path") needsText = needs.size === 0 ? "Path: none first" : `Path: ${needs.size} to take`;
   const button = "rounded-md border border-line px-2.5 py-1 font-medium hover:bg-canvas";
   return (

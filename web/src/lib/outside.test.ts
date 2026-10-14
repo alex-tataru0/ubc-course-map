@@ -37,17 +37,20 @@ describe("outsideCourses", () => {
 });
 
 describe("groupBySubject", () => {
-  it("puts MATH, STAT and CPEN first and the rest together", () => {
+  it("gives subjects with three or more courses a group each, biggest first, and the rest one", () => {
     const groups = groupBySubject(outside);
-    expect(groups.map((g) => g.title)).toEqual(["MATH", "STAT", "CPEN", "Everything else"]);
-    expect(groups.map((g) => g.codes.length)).toEqual([19, 6, 5, 23]);
-    expect(groups[3].codes).toContain("DSCI 221");
+    expect(groups.map((g) => g.title)).toEqual(["MATH", "STAT", "CPEN", "PSYC", "Everything else"]);
+    expect(groups.map((g) => g.codes.length)).toEqual([19, 6, 5, 3, 20]);
+    expect(groups[4].codes).toContain("DSCI 221");
   });
 
-  it("skips groups with no courses", () => {
-    expect(groupBySubject(["MATH 200", "PHYS 210"])).toEqual([
-      { title: "MATH", codes: ["MATH 200"] },
+  it("leaves out the last group when every subject has its own", () => {
+    expect(groupBySubject(["MATH 200", "MATH 221", "MATH 226", "PHYS 210"])).toEqual([
+      { title: "MATH", codes: ["MATH 200", "MATH 221", "MATH 226"] },
       { title: "Everything else", codes: ["PHYS 210"] },
+    ]);
+    expect(groupBySubject(["STAT 200", "STAT 251", "STAT 302"])).toEqual([
+      { title: "STAT", codes: ["STAT 200", "STAT 251", "STAT 302"] },
     ]);
   });
 });

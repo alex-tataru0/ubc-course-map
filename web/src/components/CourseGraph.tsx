@@ -17,11 +17,9 @@ import {
 import "@xyflow/react/dist/style.css";
 import { useEffect, useMemo, useRef, useState, useSyncExternalStore } from "react";
 import type { KeyboardEvent as ReactKeyboardEvent } from "react";
-import type { GraphEdge, GraphNode } from "@/lib/graph";
 import { edgeRole, highlightFor, nodeRole, pathHighlight } from "@/lib/highlight";
 import type { EdgeRole, Role } from "@/lib/highlight";
 import { BAND_GUTTER, NODE_HEIGHT, NODE_WIDTH } from "@/lib/layout";
-import type { Band, Label, Position as Point } from "@/lib/layout";
 import { useDoneCourses } from "@/lib/doneCourses";
 import { groupBySubject, outsideCourses } from "@/lib/outside";
 import { planPath } from "@/lib/path";
@@ -37,6 +35,7 @@ import type { ProgramKind } from "@/lib/program";
 import { useProgramChoice } from "@/lib/programChoice";
 import { countStatuses, courseProgress } from "@/lib/progress";
 import type { CourseStatus } from "@/lib/progress";
+import type { SubjectMap } from "@/lib/subjectMap";
 import type { Course, CourseGrades, Program } from "@/lib/types";
 import CourseDetails from "./CourseDetails";
 import OutsideCourses from "./OutsideCourses";
@@ -47,21 +46,16 @@ import ProgressBar from "./ProgressBar";
 import SelectionBar from "./SelectionBar";
 import { FADED, PLAIN_BOX, STATUS_BOX, STATUS_TEXT, TickBox } from "./Status";
 
-// A course with its position, worked out at build time by layoutGraph.
-export type PlacedCourse = GraphNode & Point;
-
 interface CourseGraphProps {
-  courses: PlacedCourse[];
-  edges: GraphEdge[];
-  labels: Label[]; // section titles, e.g. "Co-op work terms"
-  bands: Band[]; // the shaded strip behind each year
-  width: number; // width of the graph's widest row
-  details: Course[]; // the full calendar records, for the side panel
+  map: SubjectMap; // the subject shown, with its courses already placed
+  maps: SubjectMap[]; // every subject's map, to know where a course from another subject is
+  onSubject: (code: string) => void; // show another subject's map
+  details: Course[]; // the full calendar records of every subject, for the side panel
   grades: Record<string, CourseGrades>; // from UBCGrades, for the courses that have any
   gradeSessions: string[]; // the terms the grade data covers, oldest first
-  calendarUrl: string;
   programs: Program[]; // the programs you can pick, e.g. the Computer Science Major
   programUrl: string; // the calendar page they come from
+  programSubject: string; // the subject the programs belong to, e.g. "CPSC"
 }
 
 type CourseData = {
@@ -219,18 +213,17 @@ function useSystemColorMode(): ColorMode {
 }
 
 export default function CourseGraph({
-  courses,
-  edges,
-  labels,
-  bands,
-  width,
+  map,
+  maps,
+  onSubject,
   details,
   grades,
   gradeSessions,
-  calendarUrl,
   programs,
   programUrl,
+  programSubject,
 }: CourseGraphProps) {
+  const { subject, courses, edges, labels, bands, width, calendarUrl } = map;
   const colorMode = useSystemColorMode();
   // The highlighted course, and whether its side panel is open. Closing the panel keeps
   // the highlight, so the lines can be seen on a phone (where the panel covers the graph).
@@ -250,15 +243,34 @@ export default function CourseGraph({
   const placed = useMemo(() => new Map(courses.map((c) => [c.id, c])), [courses]);
   const records = useMemo(() => new Map(details.map((c) => [c.code, c])), [details]);
   const onMap = useMemo(() => new Set(placed.keys()), [placed]);
+  // The subject whose map each course is on, so a course from another subject (MATH 221 in
+  // CPSC 340's panel) can be opened on its own map.
+  const mapOf = useMemo(
+    () => new Map(maps.flatMap((m) => m.courses.map((c) => [c.id, m.subject] as const))),
+    [maps],
+  );
+  const onAnyMap = useMemo(() => new Set(mapOf.keys()), [mapOf]);
 
-  // Every course's status. Shown on the graph once at least one course is marked done.
+  // Every course's status, in every subject, since prerequisites cross subjects.
+  // Shown on the graph once at least one course is marked done. The bar counts this map's.
   const progress = useMemo(() => courseProgress(details, done), [details, done]);
-  const counts = useMemo(() => countStatuses(progress), [progress]);
+  const counts = useMemo(
+    () => countStatuses(new Map([...progress].filter(([code]) => onMap.has(code)))),
+    [progress, onMap],
+  );
   const showProgress = done.size > 0;
 
-  // Courses the prerequisites or the programs mention that aren't on the map, which can be
-  // ticked too.
-  const outside = useMemo(() => outsideCourses(details, programCodes(programs)), [details, programs]);
+  // Courses that the prerequisites on this map mention but that aren't on it, which can be
+  // ticked without switching maps (MATH 221 on the CPSC map). The programs' own map also lists
+  // the other courses they need (MATH 100, SCIE 113, …).
+  const outside = useMemo(
+    () =>
+      outsideCourses(
+        details.filter((c) => onMap.has(c.code)),
+        subject === programSubject ? programCodes(programs) : [],
+      ),
+    [details, onMap, subject, programSubject, programs],
+  );
   const outsideSet = useMemo(() => new Set(outside), [outside]);
   const outsideGroups = useMemo(() => groupBySubject(outside), [outside]);
   const outsideTicked = outside.filter((code) => done.has(code)).length;
@@ -274,12 +286,21 @@ export default function CourseGraph({
   );
   const pathOnMap = showPath && path !== null && path.terms.length > 0;
 
+  // On another subject's map, a course picked on the old one is let go, unless the new map
+  // has it too. Adjusting state while rendering is how React suggests following a prop change.
+  const [shownSubject, setShownSubject] = useState(subject);
+  if (shownSubject !== subject) {
+    setShownSubject(subject);
+    if (selected !== null && !onMap.has(selected)) setSelected(null);
+  }
+
   const highlight = useMemo(() => {
-    if (selected === null) return null;
+    // A course from another map has nothing to light up on this one.
+    if (selected === null || !onMap.has(selected)) return null;
     if (!pathOnMap) return highlightFor(selected, edges);
     const toTake = new Set(path.terms.flat().filter((code) => code !== selected));
     return pathHighlight(selected, toTake, edges);
-  }, [selected, edges, pathOnMap, path]);
+  }, [selected, onMap, edges, pathOnMap, path]);
 
   // Each path course's term number (1, 2, …) for the badges on the map.
   const pathTerms = useMemo(() => {
@@ -336,6 +357,17 @@ export default function CourseGraph({
     setFlow(instance);
     showStart(instance);
   };
+
+  // Another subject's map starts at its own start view. The effect below then brings a course
+  // opened from another map (MATH 221 from CPSC 340's panel) into view.
+  const viewSubject = useRef(subject);
+  useEffect(() => {
+    if (flow === null || viewSubject.current === subject) return;
+    viewSubject.current = subject;
+    showStart(flow);
+    // Only a new subject should move the view, so showStart isn't a dependency.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [subject, flow]);
 
   // When a course is selected, make sure it's on screen. The side panel takes room from the
   // graph, and a course picked in the panel can be anywhere. Waits one frame so the graph
@@ -506,14 +538,18 @@ export default function CourseGraph({
     setOutsideOpen(false);
   };
 
+  // Opens a course's details, on its own subject's map if it's on another one.
+  const openAnywhere = (code: string) => {
+    const where = mapOf.get(code);
+    if (where !== undefined && where !== subject) onSubject(where);
+    setSelected(code);
+    setPanelOpen(true);
+  };
+
   // A course picked in the program panel. While marking, it's ticked instead, like on the map.
   const openCourse = (code: string) => {
-    if (marking) {
-      toggle(code);
-    } else {
-      setSelected(code);
-      setPanelOpen(true);
-    }
+    if (marking) toggle(code);
+    else openAnywhere(code);
   };
 
   const selectedCourse = selected === null ? undefined : records.get(selected);
@@ -603,12 +639,13 @@ export default function CourseGraph({
           onShowPath={setShowPath}
           done={done}
           onToggle={toggle}
-          onMap={onMap}
+          subject={subject}
+          onMap={onAnyMap}
           outside={outsideSet}
           grades={grades[selectedCourse.code]}
           gradeSessions={gradeSessions}
           calendarUrl={calendarUrl}
-          onSelect={setSelected}
+          onSelect={openAnywhere}
           onClose={() => setPanelOpen(false)}
           // Back to the program panel underneath, clearing the highlight.
           backTo={
@@ -620,6 +657,8 @@ export default function CourseGraph({
       )}
       {showOutside && (
         <OutsideCourses
+          subject={subject}
+          withPrograms={subject === programSubject}
           groups={outsideGroups}
           done={done}
           onToggle={toggle}
@@ -635,7 +674,7 @@ export default function CourseGraph({
           calendarUrl={programUrl}
           onPick={pickProgram}
           onClose={() => setProgramOpen(false)}
-          onMap={onMap}
+          onMap={onAnyMap}
           onOpen={openCourse}
           done={done}
           onToggle={toggle}

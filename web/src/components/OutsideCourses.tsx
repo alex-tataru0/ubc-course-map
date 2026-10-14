@@ -2,16 +2,26 @@ import type { SubjectGroup } from "@/lib/outside";
 import { TickChip } from "./Status";
 
 interface OutsideCoursesProps {
+  subject: string; // the subject of the map shown, e.g. "CPSC"
+  withPrograms: boolean; // the list includes what the programs need too
   groups: SubjectGroup[]; // the courses not on the map, by subject
   done: ReadonlySet<string>;
   onToggle: (code: string) => void;
   onClose: () => void;
 }
 
-// The list of courses that CPSC prerequisites or the programs mention but the map doesn't
-// show (MATH, STAT, SCIE 113, …), opened from quick mode. It sits where the course details
-// panel goes: beside the graph on wide screens, covering it on phones.
-export default function OutsideCourses({ groups, done, onToggle, onClose }: OutsideCoursesProps) {
+// The list of courses that the prerequisites on this map or the programs mention but the map
+// doesn't show (MATH, STAT, SCIE 113, … on the CPSC map), opened from quick mode, so they can
+// be ticked without switching maps. It sits where the course details panel goes: beside the
+// graph on wide screens, covering it on phones.
+export default function OutsideCourses({
+  subject,
+  withPrograms,
+  groups,
+  done,
+  onToggle,
+  onClose,
+}: OutsideCoursesProps) {
   const ticked = groups.flatMap((g) => g.codes).filter((code) => done.has(code)).length;
   return (
     <aside
@@ -30,7 +40,8 @@ export default function OutsideCourses({ groups, done, onToggle, onClose }: Outs
         </button>
       </div>
       <p className="mt-1 text-ink-muted">
-        CPSC prerequisites and programs also ask for these. Tick the ones you&apos;ve finished ({ticked} ticked).
+        {subject} prerequisites{withPrograms && " and the programs"} also ask for these. Tick the ones
+        you&apos;ve finished ({ticked} ticked).
       </p>
       {groups.map((group) => (
         <section key={group.title} className="mt-5">

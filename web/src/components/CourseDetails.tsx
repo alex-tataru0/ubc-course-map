@@ -21,8 +21,9 @@ interface CourseDetailsProps {
   onShowPath: (on: boolean) => void;
   done: ReadonlySet<string>; // the courses marked done
   onToggle: (code: string) => void; // mark a course done, or unmark it
-  onMap: Set<string>; // courses drawn on the page, which can be clicked
-  outside: ReadonlySet<string>; // courses not on the map that can be ticked (MATH 221, …)
+  subject: string; // the subject of the map shown, e.g. "CPSC"
+  onMap: Set<string>; // courses on any subject's map, which can be clicked to open them
+  outside: ReadonlySet<string>; // courses on no map that can be ticked (SCIE 113, …)
   grades: CourseGrades | undefined; // from UBCGrades; undefined if it has none for this course
   gradeSessions: string[]; // the terms the grade data covers, oldest first
   calendarUrl: string;
@@ -42,6 +43,7 @@ export default function CourseDetails({
   onShowPath,
   done,
   onToggle,
+  subject,
   onMap,
   outside,
   grades,
@@ -124,12 +126,12 @@ export default function CourseDetails({
               ? "Your path: nothing to take first"
               : `Your path: ${count(needs.size)} to take first`
             : needs.size === 0
-              ? "No prerequisites in CPSC"
-              : `Needs ${count(needs.size)} in CPSC`}
+              ? `No prerequisites in ${subject}`
+              : `Needs ${count(needs.size)} in ${subject}`}
         </p>
         <p>
           <Swatch className="border-role-unlocks" />
-          {unlocks.size === 0 ? "Doesn't lead to other CPSC courses" : `Unlocks ${count(unlocks.size)}`}
+          {unlocks.size === 0 ? `Doesn't lead to other ${subject} courses` : `Unlocks ${count(unlocks.size)}`}
         </p>
         {hasPath && (
           <label className="flex cursor-pointer items-center gap-2 pt-1">
@@ -151,6 +153,12 @@ export default function CourseDetails({
 
       <Section title="Prerequisites">
         {course.prereq ? <RequisiteView requisite={course.prereq} {...links} /> : <p>None</p>}
+        {course.recommended && (
+          // Advice, not a requirement, so it doesn't change the course's status.
+          <p className="mt-3">
+            <span className="font-medium">Recommended, not required:</span> {course.recommended}.
+          </p>
+        )}
       </Section>
       {course.coreq && (
         <Section title="Corequisites (before or at the same time)">
@@ -176,7 +184,7 @@ export default function CourseDetails({
         </Section>
       )}
 
-      <Links course={course} grades={grades} calendarUrl={calendarUrl} />
+      <Links course={course} subject={subject} grades={grades} calendarUrl={calendarUrl} />
     </aside>
   );
 }
@@ -186,10 +194,12 @@ export default function CourseDetails({
 // fetches anything from Reddit or Rate My Professors.
 function Links({
   course,
+  subject,
   grades,
   calendarUrl,
 }: {
   course: Course;
+  subject: string;
   grades: CourseGrades | undefined;
   calendarUrl: string;
 }) {
@@ -206,7 +216,7 @@ function Links({
           </li>
         )}
         <li>
-          <ExternalLink href={calendarUrl}>All CPSC courses in the UBC Academic Calendar</ExternalLink>
+          <ExternalLink href={calendarUrl}>All {subject} courses in the UBC Academic Calendar</ExternalLink>
         </li>
       </ul>
       {instructors.length > 0 && (
@@ -302,8 +312,8 @@ function StatusNote({
   );
 }
 
-// The shortest path here from the courses done (see lib/path.ts): the CPSC courses term by
-// term, then anything else it needs. Courses are links or tick boxes, like in the
+// The shortest path here from the courses done (see lib/path.ts): the courses term by term,
+// in any subject, then anything else it needs. Courses are links or tick boxes, like in the
 // requirement lists.
 function PathView({ course, path, ...links }: { course: Course; path: CoursePath } & Links) {
   const before = path.terms.flat().length - 1; // courses to take before this one
@@ -311,8 +321,8 @@ function PathView({ course, path, ...links }: { course: Course; path: CoursePath
     <Section title="Your path here">
       <p className="text-ink-muted">
         {before === 0
-          ? "No other CPSC courses needed first."
-          : `${before} CPSC ${before === 1 ? "course" : "courses"} first. Courses in the same term can be taken together.`}
+          ? "No other courses needed first."
+          : `${before} ${before === 1 ? "course" : "courses"} first. Courses in the same term can be taken together.`}
       </p>
       <ol className="mt-2 space-y-1.5">
         {path.terms.map((codes, i) => (
@@ -373,10 +383,10 @@ function Section({ title, note, children }: { title: string; note?: string; chil
 }
 
 interface Links {
-  onMap: Set<string>;
-  onSelect: (code: string) => void;
+  onMap: Set<string>; // courses on any subject's map
+  onSelect: (code: string) => void; // opens a course, on its own subject's map
   done: ReadonlySet<string>; // finished courses get a tick in the requirement list
-  outside: ReadonlySet<string>; // courses not on the map, shown with a tick box
+  outside: ReadonlySet<string>; // courses on no map, shown with a tick box
   onToggle: (code: string) => void;
 }
 
@@ -421,11 +431,12 @@ function Requirement({ node, ...links }: { node: ReqNode } & Links) {
   );
 }
 
-// A course code. Courses on the map are buttons that select them. Courses not on the map
-// (MATH 221, …) have a tick box to mark them done. Okanagan codes are plain text.
+// A course code. Courses on a map are buttons that open them, switching to their subject's
+// map if needed (MATH 221 from CPSC 340). Courses on no map (SCIE 113, …) have a tick box to
+// mark them done. Okanagan codes are plain text.
 function CourseCode({ code, onMap, onSelect, done, outside, onToggle }: { code: string } & Links) {
   const tick = done.has(code) ? "✓ " : "";
-  if (outside.has(code)) {
+  if (!onMap.has(code) && outside.has(code)) {
     return <TickChip code={code} checked={done.has(code)} onToggle={() => onToggle(code)} />;
   }
   if (!onMap.has(code)) {

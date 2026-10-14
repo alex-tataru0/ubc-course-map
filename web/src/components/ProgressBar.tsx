@@ -41,7 +41,7 @@ export default function ProgressBar({
         </span>
         <span className="flex flex-wrap gap-2">
           <button type="button" onClick={onToggleOutside} aria-expanded={outsideOpen} className={button}>
-            MATH, STAT and others{outsideTicked > 0 && ` (${outsideTicked})`}
+            Courses not on the map{outsideTicked > 0 && ` (${outsideTicked})`}
           </button>
           {marked > 0 && (
             <button type="button" onClick={onClear} className={button}>
