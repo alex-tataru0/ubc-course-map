@@ -9,7 +9,8 @@
       "description": "Meaning and impact of computational thinking. Solving problems using computational thinking, testing, debugging. How computers work. No prior computing experience required. Not for students with existing credit for or exemption from CPSC 107, CPSC 110 or APSC 160. [3-1-0]",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 103",
@@ -18,7 +19,8 @@
       "description": "Computation as a tool for systematic problem solving in non-computer-science disciplines. Introductory programming skills. Not for credit for students who have credit for, or exemption from, or are concurrently taking CPSC 110 or APSC 160. No programming experience expected. [3-0-1]",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 107",
@@ -32,7 +34,8 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 110",
@@ -41,7 +44,8 @@
       "description": "Fundamental program and computation structures. Introductory programming skills. Computation as a tool for information processing, simulation and modelling, and interacting with the world. [3-3-0]",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 121",
@@ -67,7 +71,8 @@
         "source": "rules",
         "problems": []
       },
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 203",
@@ -91,7 +96,8 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 210",
@@ -110,7 +116,8 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 213",
@@ -129,7 +136,8 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 221",
@@ -167,7 +175,8 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 259",
@@ -181,7 +190,8 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 298",
@@ -190,7 +200,8 @@
       "description": "Approved and supervised technical work experience in the computing industry for a minimum of 3.5 months. Normally taken during Winter Session of second year. Technical report required. Restricted to students admitted to the Co-operative Education Program in Computer Science. This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 299",
@@ -204,7 +215,8 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 302",
@@ -246,7 +258,8 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 303",
@@ -288,7 +301,8 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 304",
@@ -307,7 +321,8 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 310",
@@ -326,7 +341,8 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 311",
@@ -340,7 +356,8 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 312",
@@ -359,7 +376,8 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 313",
@@ -383,7 +401,8 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 314",
@@ -418,7 +437,8 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 317",
@@ -442,7 +462,8 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 319",
@@ -456,7 +477,8 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 320",
@@ -504,7 +526,8 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 322",
@@ -523,7 +546,8 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": "AI 322"
+      "equivalency": "AI 322",
+      "recommended": null
     },
     {
       "code": "CPSC 330",
@@ -559,7 +583,8 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 337",
@@ -573,7 +598,8 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 340",
@@ -626,7 +652,8 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 344",
@@ -645,7 +672,8 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 349",
@@ -654,7 +682,8 @@
       "description": "Students will attend a series of research seminars presented by faculty members, produce a thesis proposal, and choose their honours thesis supervisor. Available to Honours students. Majors students with satisfactory standing may also be permitted to enrol. [1-0-0] This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 368",
@@ -675,7 +704,8 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 398",
@@ -684,7 +714,8 @@
       "description": "Approved and supervised technical work experience in the computing industry for a minimum of 3.5 months. Normally taken during the summer following the third year. Technical report required. Restricted to students admitted to the Co-operative Education Program in Computer Science. This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 399",
@@ -693,7 +724,8 @@
       "description": "Approved and supervised technical work experience in the computing industry for a minimum of 3.5 months. Normally taken during the fall term of the fourth year. Technical report required. Restricted to students admitted to the Co-operative Education Program in Computer Science. This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 402",
@@ -713,7 +745,8 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 404",
@@ -738,7 +771,8 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 406",
@@ -758,7 +792,8 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 410",
@@ -782,7 +817,8 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 411",
@@ -802,7 +838,8 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 415",
@@ -855,7 +892,8 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 416",
@@ -884,7 +922,8 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 417",
@@ -903,7 +942,8 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 418",
@@ -929,7 +969,8 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 420",
@@ -943,7 +984,8 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 421",
@@ -963,7 +1005,8 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 423",
@@ -1002,7 +1045,8 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 424",
@@ -1034,7 +1078,8 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 425",
@@ -1070,7 +1115,8 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 426",
@@ -1084,7 +1130,8 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 427",
@@ -1117,7 +1164,8 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 430",
@@ -1133,7 +1181,8 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 436",
@@ -1149,7 +1198,8 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 440",
@@ -1182,7 +1232,8 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 444",
@@ -1222,7 +1273,8 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 445",
@@ -1248,7 +1300,8 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 447",
@@ -1267,7 +1320,8 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 448",
@@ -1276,7 +1330,8 @@
       "description": "Open ordinarily to students in Computer Science with at least a 72% average and permission of the department. The course may consist of supervised reading, participation in a seminar, and one or more programming projects. This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 449",
@@ -1290,7 +1345,8 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 455",
@@ -1309,7 +1365,8 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 490",
@@ -1318,7 +1375,8 @@
       "description": "Self-directed, collaborative studies, in a group-learning environment, initiated and coordinated by senior undergraduate students with the supervision of a faculty advisor. Course structure, enrolment and delivery methods will comply with the Handbook for Student Directed Seminars. [3-0-0]",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 491",
@@ -1341,7 +1399,8 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 499",
@@ -1350,7 +1409,8 @@
       "description": "Approved and supervised technical work experience in the computing industry for a minimum of 3.5 months. Normally taken during the summer following the fourth year. Technical report required. Restricted to students admitted to the Co-operative Education Program in Computer Science. This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 500",
@@ -1359,7 +1419,8 @@
       "description": "This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 501",
@@ -1368,7 +1429,8 @@
       "description": "This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 502",
@@ -1377,7 +1439,8 @@
       "description": "This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 503",
@@ -1386,7 +1449,8 @@
       "description": "This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 504",
@@ -1395,7 +1459,8 @@
       "description": "This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 505",
@@ -1404,7 +1469,8 @@
       "description": "This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 506",
@@ -1413,7 +1479,8 @@
       "description": "This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 507",
@@ -1422,7 +1489,8 @@
       "description": "This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 508",
@@ -1431,7 +1499,8 @@
       "description": "This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 509",
@@ -1440,7 +1509,8 @@
       "description": "This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 511",
@@ -1449,7 +1519,8 @@
       "description": "This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 513",
@@ -1458,7 +1529,8 @@
       "description": "This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 514",
@@ -1467,7 +1539,8 @@
       "description": "This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 515",
@@ -1476,7 +1549,8 @@
       "description": "This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 516",
@@ -1485,7 +1559,8 @@
       "description": "This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 517",
@@ -1494,7 +1569,8 @@
       "description": "This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 519",
@@ -1503,7 +1579,8 @@
       "description": "This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 520",
@@ -1512,7 +1589,8 @@
       "description": "This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 521",
@@ -1521,7 +1599,8 @@
       "description": "This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 522",
@@ -1530,7 +1609,8 @@
       "description": "This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 524",
@@ -1539,7 +1619,8 @@
       "description": "This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 525",
@@ -1548,7 +1629,8 @@
       "description": "This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 526",
@@ -1557,7 +1639,8 @@
       "description": "This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 527",
@@ -1566,7 +1649,8 @@
       "description": "This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 528",
@@ -1575,7 +1659,8 @@
       "description": "This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 529",
@@ -1584,7 +1669,8 @@
       "description": "This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 530",
@@ -1593,7 +1679,8 @@
       "description": "This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 531",
@@ -1602,7 +1689,8 @@
       "description": "This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 532",
@@ -1611,7 +1699,8 @@
       "description": "This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 533",
@@ -1620,7 +1709,8 @@
       "description": "This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 534",
@@ -1629,7 +1719,8 @@
       "description": "This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 535",
@@ -1638,7 +1729,8 @@
       "description": "This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 536",
@@ -1647,7 +1739,8 @@
       "description": "This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 537",
@@ -1656,7 +1749,8 @@
       "description": "This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 538",
@@ -1665,7 +1759,8 @@
       "description": "This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 539",
@@ -1674,7 +1769,8 @@
       "description": "This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 540",
@@ -1683,7 +1779,8 @@
       "description": "This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 541",
@@ -1692,7 +1789,8 @@
       "description": "This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 542",
@@ -1701,7 +1799,8 @@
       "description": "This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 543",
@@ -1710,7 +1809,8 @@
       "description": "This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 544",
@@ -1719,7 +1819,8 @@
       "description": "This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 545",
@@ -1728,7 +1829,8 @@
       "description": "This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 546",
@@ -1737,7 +1839,8 @@
       "description": "This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 547",
@@ -1746,7 +1849,8 @@
       "description": "This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 548",
@@ -1755,7 +1859,8 @@
       "description": "This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 549",
@@ -1764,7 +1869,8 @@
       "description": "This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 550",
@@ -1773,7 +1879,8 @@
       "description": "This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 554",
@@ -1782,7 +1889,8 @@
       "description": "This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 564",
@@ -1791,7 +1899,8 @@
       "description": "This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 589",
@@ -1800,7 +1909,8 @@
       "description": "This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 590",
@@ -1809,7 +1919,8 @@
       "description": "This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     },
     {
       "code": "CPSC 649",
@@ -1818,7 +1929,8 @@
       "description": "This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
-      "equivalency": null
+      "equivalency": null,
+      "recommended": null
     }
   ]
 }

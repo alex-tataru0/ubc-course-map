@@ -4,7 +4,8 @@ import pytest
 from google.genai import errors
 
 from build_prereqs import (
-    RETRY_WAITS, SECONDS_BETWEEN_CALLS, ask_slowly, build_courses, print_summary, write_courses,
+    RETRY_WAITS, SECONDS_BETWEEN_CALLS, SUBJECTS, ask_slowly, build_courses, load_page,
+    pick_subjects, print_summary, source_url, write_courses,
 )
 from llm import MODELS, load_cache
 from prereq_tree import normalize_codes
@@ -51,12 +52,27 @@ def test_course_record(courses):
         },
         "coreq": None,
         "equivalency": None,
+        "recommended": None,
     }]
 
 
 def test_equivalency_codes_are_normalized(courses):
     records = build_courses([courses["CPSC 322"]], {}, fake_ask, no_save)
     assert records[0]["equivalency"] == "AI 322"
+
+
+def test_recommendation_is_kept_apart_with_normalized_codes():
+    course = {
+        "code": "MATH 317",
+        "title": "Calculus IV",
+        "credits": "3",
+        "description": "Prerequisite: One of MATH_V 200, MATH_V 226. "
+                       "One of MATH_V 152, MATH_V 221 is recommended.",
+    }
+    record = build_courses([course], {}, fake_ask, no_save)[0]
+    assert record["prereq"]["tree"] == {"one_of": ["MATH 200", "MATH 226"]}
+    assert record["prereq"]["source"] == "rules"
+    assert record["recommended"] == "One of MATH 152, MATH 221 is recommended"
 
 
 def test_committed_cache_answers_every_hard_prereq(courses):
@@ -71,9 +87,10 @@ def test_committed_cache_answers_every_hard_prereq(courses):
 
 def test_write_courses(tmp_path):
     path = tmp_path / "cpsc.json"
-    write_courses([{"code": "CPSC 427", "description": "[1.5–1.5-1]"}], path)
+    write_courses("CPSC", [{"code": "CPSC 427", "description": "[1.5–1.5-1]"}], path)
     data = json.loads(path.read_text(encoding="utf-8"))
     assert data["subject"] == "CPSC"
+    assert data["source"] == "https://vancouver.calendar.ubc.ca/course-descriptions/subject/cpscv"
     assert data["courses"][0]["code"] == "CPSC 427"
     assert "1.5–1.5-1" in path.read_text(encoding="utf-8")
 
@@ -87,11 +104,37 @@ def test_summary_lists_answers_that_need_review(capsys):
         {"code": "CPSC 210", "prereq": ok, "coreq": None},
         {"code": "CPSC 999", "prereq": bad, "coreq": None},
     ]
-    print_summary(records)
+    print_summary("CPSC", records)
     out = capsys.readouterr().out
-    assert "3 courses, 2 requisites: 1 by rules, 1 by Gemini" in out
+    assert "CPSC: 3 courses, 2 requisites: 1 by rules, 1 by Gemini" in out
     assert "NEEDS REVIEW  CPSC 999 prereq" in out
     assert "CPSC 210" not in out
+
+
+def test_source_url():
+    assert source_url("MATH") == (
+        "https://vancouver.calendar.ubc.ca/course-descriptions/subject/mathv"
+    )
+
+
+def test_load_page_downloads_only_once(tmp_path):
+    path = tmp_path / "math.html"
+    urls = []
+
+    def fake_fetch(url):
+        urls.append(url)
+        return "<html>page</html>"
+
+    assert load_page("MATH", path, fake_fetch) == "<html>page</html>"
+    assert load_page("MATH", path, fake_fetch) == "<html>page</html>"
+    assert urls == [source_url("MATH")]
+
+
+def test_pick_subjects():
+    assert pick_subjects([]) == SUBJECTS
+    assert pick_subjects(["math", "STAT"]) == ["MATH", "STAT"]
+    with pytest.raises(SystemExit):
+        pick_subjects(["MAHT"])
 
 
 class FakeGemini:

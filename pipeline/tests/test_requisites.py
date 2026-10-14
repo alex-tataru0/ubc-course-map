@@ -11,6 +11,7 @@ def test_simple_prereq(courses):
         "prereq": "One of CPSC 107, CPSC 110",
         "coreq": None,
         "equivalency": None,
+        "recommended": None,
     }
 
 
@@ -46,6 +47,7 @@ def test_no_requisites(courses):
         "prereq": None,
         "coreq": None,
         "equivalency": None,
+        "recommended": None,
     }
 
 
@@ -55,6 +57,29 @@ def test_counts_across_all_courses(courses):
     assert sum(r["prereq"] is not None for r in all_reqs) == 50
     assert sum(r["coreq"] is not None for r in all_reqs) == 1
     assert sum(r["equivalency"] is not None for r in all_reqs) == 1
+    assert sum(r["recommended"] is not None for r in all_reqs) == 0
+
+
+def test_keeps_a_recommendation_apart():
+    # MATH 317: the second sentence is advice, not something you need.
+    r = extract_requisites(
+        "Prerequisite: One of MATH_V 200, MATH_V 226, MATH_V 253. "
+        "One of MATH_V 152, MATH_V 221, MATH_V 223 is recommended."
+    )
+    assert r["prereq"] == "One of MATH_V 200, MATH_V 226, MATH_V 253"
+    assert r["recommended"] == "One of MATH_V 152, MATH_V 221, MATH_V 223 is recommended"
+
+
+def test_department_recommendation():
+    # Shortened from STAT 305
+    r = extract_requisites(
+        "Prerequisite: Either (a) STAT_V 200 or (b) STAT_V 251. "
+        "The Department recommends that students meet the prerequisite through option (a)."
+    )
+    assert r["prereq"] == "Either (a) STAT_V 200 or (b) STAT_V 251"
+    assert r["recommended"] == (
+        "The Department recommends that students meet the prerequisite through option (a)"
+    )
 
 
 def test_two_prereq_sections_raises():
