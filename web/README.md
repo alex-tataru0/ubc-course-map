@@ -14,6 +14,10 @@ npm run dev
 
 Then open http://localhost:3000. `npm run build` writes the finished static site to `out/`.
 
+## Deploying
+
+The live site is on Vercel: every push to `main` is built and published. The Vercel project uses this folder as its Root Directory, with the Next.js preset and default settings. The build can read `../data` because Vercel includes files outside the Root Directory by default. No environment variables are needed.
+
 ## Where things are
 
 - `src/app/page.tsx` runs at build time: it reads `../data/courses/cpsc.json`, builds and lays out the graph, and renders the header.

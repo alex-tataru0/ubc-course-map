@@ -4,9 +4,11 @@
 
 A website for UBC students to plan courses using the prerequisite graph.
 
+**Try it: [ubc-course-map.vercel.app](https://ubc-course-map.vercel.app)**
+
 > Work in progress. Unofficial, not affiliated with UBC.
 
-![A first-year student's courses marked done, with the path to CPSC 340 on the map and in the side panel](docs/what-can-i-take-next.png)
+![Marking CPSC 110 and 121 as done, then clicking CPSC 340 and showing the path to it on the map](docs/demo.gif)
 
 ## Features
 
@@ -86,7 +88,7 @@ npm test
 npm run dev
 ```
 
-`npm run build` writes the static site to `web/out/`. There are 104 tests (Vitest) for the graph, layout, highlighting, course details, statuses, saving and path logic, including checks against the real CPSC data. GitHub Actions runs `pytest` and the website's tests, lint and build on every push.
+`npm run build` writes the static site to `web/out/`. There are 104 tests (Vitest) for the graph, layout, highlighting, course details, statuses, saving and path logic, including checks against the real CPSC data. GitHub Actions runs `pytest` and the website's tests, lint and build on every push, and [Vercel](https://vercel.com) builds and publishes the site from `main`.
 
 ## Data credits
 
