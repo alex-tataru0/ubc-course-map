@@ -8,19 +8,19 @@ A website for UBC students to plan courses using the prerequisite graph.
 
 > Work in progress. Unofficial, not affiliated with UBC.
 
-![Marking CPSC 110, CPSC 121 and MATH 100 as done, picking the Computer Science Major, ticking SCIE 113 in its requirements, then opening CPSC 310 from there to show the path to it on the map and its grade distribution](docs/demo.gif)
+![Opening CPSC 340, whose path now includes MATH 100, 101, 221, 200 and STAT 251, clicking MATH 221 to open it on the Mathematics map and show its grade distribution, then picking Statistics from the menu and opening STAT 305, which shows the calendar's recommendation](docs/demo.gif)
 
 ## Features
 
-- [x] Prerequisite graph for Computer Science (CPSC), laid out from first year to fourth.
+- [x] Prerequisite maps for Computer Science (CPSC), Mathematics (MATH) and Statistics (STAT), one per subject on a Faculty of Science page, laid out from first year to fourth.
 - [x] Click a course to highlight everything it needs and everything it unlocks.
-- [x] Course details: description, credits, and the exact prerequisite rule, including courses from other departments.
+- [x] Course details: description, credits, and the exact prerequisite rule, including courses from other departments. A course from another subject opens on that subject's map.
 - [x] "What can I take next?": mark the courses you've done (MATH, STAT and other subjects too) and every course shows whether you can take it.
-- [x] The shortest path to any course from the courses you've done, term by term, in the side panel and on the map.
+- [x] The shortest path to any course from the courses you've done, term by term and across subjects, in the side panel and on the map.
 - [x] Grades for each course since 2021: the average, a chart of how grades spread, and who taught it each term (from UBCGrades).
 - [x] Links to r/ubc posts and UBCGrades for each course, and a Rate My Professors search for each instructor.
 - [x] Pick your program (the Computer Science Major or Honours, the AI option, or Software Engineering) to see its requirements year by year, which ones you've finished, and its courses marked on the map.
-- [ ] More subjects than CPSC, and combined majors.
+- [ ] More faculties and subjects, and combined majors.
 
 ## How the course data is built
 
@@ -129,17 +129,24 @@ No API key is needed unless the calendar adds a wording the rules don't know.
 
 The site is in `web/`: Next.js, TypeScript and React Flow, exported as a plain static site. It never calls an API for its data: everything is worked out when the site is built. The only thing it sends is an anonymous page view to [Vercel Web Analytics](https://vercel.com/docs/analytics), which uses no cookies.
 
-- **Built ahead of time.** A server component reads `data/courses/cpsc.json`, `data/grades/cpsc.json` and `data/programs/cpsc.json` during `npm run build`, turns the courses into a graph and lays it out. The browser only gets the finished positions, so the layout library never ships to it.
+- **Built ahead of time.** A server component reads every subject's course and grade files (`data/courses/cpsc.json`, `math.json`, …) and the program file during `npm run build`, turns each subject's courses into a graph and lays it out. The browser only gets the finished positions, so the layout library never ships to it.
 - **Laid out in course order.** Rows go by year (all 100-level courses above all 200-level ones, and so on), and a course sits below any prerequisite from its own year (CPSC 103 → 107). [dagre](https://github.com/dagrejs/dagre) only picks the left-to-right order inside each row, through a custom ranker, to keep lines from crossing. The rows are then packed tightly: dagre's own spacing made the graph about 4,000px wide, packed it's about 1,800px.
 - **What a course needs and unlocks** is a breadth-first search over the prerequisite edges, in each direction. Solid lines are required, dashed lines are one of several options.
 - **Colours** for "needs" and "unlocks" were checked with a colour-blindness validator, and always come with text labels. There's a dark mode, and it works with the keyboard (Tab, Enter, Esc) and screen readers.
+
+### One map per subject
+
+- **A page per faculty.** The home page is the Faculty of Science, with its subjects (CPSC, MATH, STAT) in a menu next to the title. The subject is kept in the address (`#math`), so links, refreshing and the back button work, and old links to the home page still open CPSC. Each faculty will get its own page as more are added, so a page only carries one faculty's data.
+- **Why not one big map?** Three layouts were tried with the real data: one map per subject; each map plus the courses it needs from other subjects as extra boxes; and all three subjects on one map. The extra boxes added 24 courses to the CPSC map and pushed CPSC 221 down a row, and the combined map (175 courses) was unreadable without zooming in. One map per subject stays readable and works for any number of subjects.
+- **Across subjects.** Ticks, statuses, paths and the picked program cover every subject. A MATH course in CPSC 340's panel opens on the MATH map, and the Computer Science Major marks its MATH courses there too.
+- **A prerequisite that points up.** MATH 131 (first year) accepts 68% in MATH 221 (second year) as one option. dagre needs every line to go down a row, so a line like that is drawn but left out of the layout.
 
 ### What can I take next?
 
 - **Your courses stay in your browser.** Ticks are saved in localStorage. There are no accounts, and your courses are never sent anywhere.
 - **Three answers, not two.** Each requirement is met, not met, or "check yourself", because the site can't know your grades, your year standing or whether you took Pre-calculus 12. A "one of" group is met if any option is, an "all of" group fails if any part fails, and anything uncertain stays uncertain (three-valued logic).
 - **Five statuses.** Done, can take, check first, not yet and no credit. A corequisite can be taken at the same time, "Restricted to …" sentences make a course "check first", and "Not for students with credit for CPSC 110" makes CPSC 100 "no credit" once 110 is done.
-- **Other subjects.** The 69 courses that CPSC prerequisites or the programs mention but the map doesn't show (MATH, STAT, SCIE 113, AI 240, …) can be ticked too, from a list, right inside a course's prerequisites, or in the program panel.
+- **Courses not on the map.** Each map lists the courses its prerequisites mention but it doesn't show, so they can be ticked without switching maps: 69 on the CPSC map, including the MATH courses and others (SCIE 113, AI 240, …) the programs need. Courses from subjects that aren't in the data yet can also be ticked right inside a course's prerequisites or in the program panel.
 - **Shortest path.** For any course, the side panel lists the courses still needed, term by term, plus anything else it asks for (e.g. "Third-year standing"). In each "one of" it picks the option with the fewest *last resorts*, then the fewest new courses (counting the ones already picked for other parts of the path), then the fewest things to check. A last resort is something most students can't count on:
   - a course from a subject that isn't in the data yet, since its own prerequisites are unknown (without this rule, CPSC 340 was routed through DSCI 221);
   - a choice that's only something to check, like "advanced credit for MATH 100" or "a score of 5 in AP Calculus AB" (without this rule, the path to MATH 221 skipped MATH 100);
@@ -152,7 +159,7 @@ The site is in `web/`: Next.js, TypeScript and React Flow, exported as a plain s
 - **Requirements by year.** Pick one of the six programs and a panel lists its requirements year by year, in the calendar's words, each marked done, partly done, to do or "check yourself". It shows which of your courses fill each one, and the courses you could still take for it.
 - **A course counts once.** Each finished course fills one requirement only, so nothing is counted twice. Requirements that name exact courses pick first, then "one of" lists (shortest first), then "three of", then credit counts like "9 credits of CPSC 300 or higher" (the 400-level one first, so a 400-level course isn't used up too early). With CPSC 304 and 317 done, the Software Engineering Major's "One of CPSC 304, 317, 344" gets 304 and "One more of …" gets 317.
 - **Conditions in the wording.** "At least 6 credits of which must be 400 or above" is checked, and the footnote saying CPSC 490 "cannot be used" keeps it out of the credit count. Any other condition is shown for you to check.
-- **On the map.** The program's courses get a stripe down the left edge: solid for required, striped for one of a few choices. Its colour passed the same colour-blindness check against the three highlight colours, and the pattern means it never relies on colour alone.
+- **On the map.** The program's courses get a stripe down the left edge, on every subject's map: solid for required, striped for one of a few choices. Its colour passed the same colour-blindness check against the three highlight colours, and the pattern means it never relies on colour alone.
 - **Remembered.** The picked program is saved in localStorage next to your courses.
 
 ### Grades and links
@@ -170,7 +177,7 @@ npm test
 npm run dev
 ```
 
-`npm run build` writes the static site to `web/out/`. There are 151 tests (Vitest) for the graph, layout, highlighting, course details, statuses, saving, path logic, grades, links and programs, including checks against the real CPSC data. GitHub Actions runs `pytest` and the website's tests, lint and build on every push, and [Vercel](https://vercel.com) builds and publishes the site from `main`.
+`npm run build` writes the static site to `web/out/`. There are 159 tests (Vitest) for the graph, layout, highlighting, course details, statuses, saving, path logic, grades, links, programs and subjects, including checks against the real CPSC, MATH and STAT data. GitHub Actions runs `pytest` and the website's tests, lint and build on every push, and [Vercel](https://vercel.com) builds and publishes the site from `main`.
 
 ## Data credits
 
