@@ -1,5 +1,6 @@
 import json
 
+import httpx
 import pytest
 from google.genai import errors
 
@@ -32,8 +33,19 @@ def saved_courses(subject):
 # For each subject: courses, prereqs + coreqs, how many the rules read, and how many
 # different texts go to Gemini. If a re-downloaded calendar changes these, check why.
 @pytest.mark.parametrize("subject, n_courses, n_requisites, n_rules, n_asked", [
+    ("ASTR", 28, 13, 13, 0),
+    ("ATSC", 26, 15, 15, 0),
+    ("BIOL", 136, 119, 112, 7),
+    ("CHEM", 115, 75, 73, 2),
     ("CPSC", 112, 51, 46, 5),
+    ("DSCI", 32, 25, 23, 2),
+    ("ENVR", 21, 19, 18, 1),
+    ("EOSC", 144, 74, 71, 3),
+    ("ISCI", 24, 21, 21, 0),
     ("MATH", 177, 110, 103, 7),
+    ("MICB", 47, 36, 34, 2),
+    ("PHYS", 116, 96, 93, 3),
+    ("SCIE", 15, 9, 9, 0),
     ("STAT", 54, 30, 26, 4),
 ])
 def test_only_the_hard_prereqs_go_to_gemini(subject, n_courses, n_requisites, n_rules, n_asked):
@@ -86,6 +98,25 @@ def test_recommendation_is_kept_apart_with_normalized_codes():
     assert record["prereq"]["tree"] == {"one_of": ["MATH 200", "MATH 226"]}
     assert record["prereq"]["source"] == "rules"
     assert record["recommended"] == "One of MATH 152, MATH 221 is recommended"
+
+
+def test_bare_numbers_are_filled_in_before_parsing():
+    # ENVR 240's corequisite: "201" is STAT 201, so the rules can read it. The description
+    # keeps the calendar's wording.
+    course = {
+        "code": "ENVR 240",
+        "title": "Environmental Problem Solving",
+        "credits": "3",
+        "description": "Corequisite: One of STAT_V 200, 201, BIOL_V 300.",
+    }
+    record = build_courses([course], {}, fake_ask, no_save)[0]
+    assert record["coreq"] == {
+        "text": "One of STAT 200, STAT 201, BIOL 300",
+        "tree": {"one_of": ["STAT 200", "STAT 201", "BIOL 300"]},
+        "source": "rules",
+        "problems": [],
+    }
+    assert record["description"] == "Corequisite: One of STAT 200, 201, BIOL 300."
 
 
 @pytest.mark.parametrize("subject", SUBJECTS)
@@ -188,6 +219,10 @@ def out_of_quota():
     return errors.ClientError(429, {"error": {"code": 429, "status": "RESOURCE_EXHAUSTED"}})
 
 
+def dropped():
+    return httpx.ReadError("[Errno 54] Connection reset by peer")
+
+
 def test_retries_when_the_model_is_busy():
     waits = []
     ask = FakeGemini(busy())
@@ -208,6 +243,28 @@ def test_switches_model_when_busy_retries_run_out():
     ask = FakeGemini(*[busy() for _ in range(len(RETRY_WAITS) + 1)])
     assert ask_slowly("CPSC 110", ask, waits.append) == ("CPSC 110", MODELS[1])
     assert waits == [SECONDS_BETWEEN_CALLS, *RETRY_WAITS]
+
+
+def test_dropped_connection_counts_as_busy():
+    waits = []
+    ask = FakeGemini(dropped())
+    assert ask_slowly("CPSC 110", ask, waits.append) == ("CPSC 110", MODELS[0])
+    assert waits == [SECONDS_BETWEEN_CALLS, RETRY_WAITS[0]]
+
+
+def test_switches_model_when_the_last_retry_drops():
+    # What crashed the first BIOL run: busy on every retry, then the connection dropped.
+    ask = FakeGemini(*[busy() for _ in RETRY_WAITS], dropped())
+    assert ask_slowly("CPSC 110", ask, lambda seconds: None) == ("CPSC 110", MODELS[1])
+
+
+def test_a_model_that_gave_up_is_skipped_for_the_rest_of_the_run():
+    models = list(MODELS)
+    ask = FakeGemini(out_of_quota())
+    assert ask_slowly("CPSC 110", ask, lambda seconds: None, models) == ("CPSC 110", MODELS[1])
+    assert ask_slowly("CPSC 210", ask, lambda seconds: None, models) == ("CPSC 110", MODELS[1])
+    assert ask.models == [MODELS[0], MODELS[1], MODELS[1]]
+    assert models == [MODELS[1]]
 
 
 def test_gives_up_when_every_model_is_out_of_quota():

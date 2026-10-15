@@ -1,0 +1,549 @@
+{
+  "subject": "ASTR",
+  "source": "https://vancouver.calendar.ubc.ca/course-descriptions/subject/astrv",
+  "courses": [
+    {
+      "code": "ASTR 101",
+      "title": "Introduction to the Solar System",
+      "credits": "3",
+      "description": "General principles of the celestial sphere, laws of motion and light, optics, and telescopes; current knowledge of the Sun and Solar System. [3-2*-0] Prerequisite: One of PHYS 11, PHYS 12, PHYS 100, PHYS_O 112 and Principles of Mathematics 12.",
+      "prereq": {
+        "text": "One of PHYS 11, PHYS 12, PHYS 100, PHYS_O 112 and Principles of Mathematics 12",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                {
+                  "other": "PHYS 11"
+                },
+                {
+                  "other": "PHYS 12"
+                },
+                "PHYS 100",
+                "PHYS_O 112"
+              ]
+            },
+            {
+              "other": "Principles of Mathematics 12"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ASTR 102",
+      "title": "Introduction to Stars and Galaxies",
+      "credits": "3",
+      "description": "Modern stellar and extragalactic astronomy. Stars and stellar evolution from protostars to black holes; galaxies and quasars; cosmology. ASTR 200/205 rather than ASTR 102 are recommended for students who intend to pursue studies in Astronomy. [3-2*-0] Prerequisite: One of PHYS 11, PHYS 12, PHYS 100, PHYS_O 112 and Principles of Mathematics 12.",
+      "prereq": {
+        "text": "One of PHYS 11, PHYS 12, PHYS 100, PHYS_O 112 and Principles of Mathematics 12",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                {
+                  "other": "PHYS 11"
+                },
+                {
+                  "other": "PHYS 12"
+                },
+                "PHYS 100",
+                "PHYS_O 112"
+              ]
+            },
+            {
+              "other": "Principles of Mathematics 12"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ASTR 200",
+      "title": "Frontiers of Astrophysics",
+      "credits": "3",
+      "description": "Stellar masses and evolution. White dwarfs, neutron stars, and black holes. Extrasolar planet formation and detection. Dark matter in the Milky Way and other galaxies. Cosmological observations and principles. [3-0-0] Prerequisite: Either (a) one of PHYS 101, PHYS 106, PHYS 107, PHYS 117, PHYS 131, PHYS 153, PHYS 157, PHYS_O 111 and one of MATH 101, MATH 103, MATH 105, MATH 121, MATH_O 101, MATH_O 103; or (b) SCIE 001.",
+      "prereq": {
+        "text": "Either (a) one of PHYS 101, PHYS 106, PHYS 107, PHYS 117, PHYS 131, PHYS 153, PHYS 157, PHYS_O 111 and one of MATH 101, MATH 103, MATH 105, MATH 121, MATH_O 101, MATH_O 103; or (b) SCIE 001",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                {
+                  "one_of": [
+                    "PHYS 101",
+                    "PHYS 106",
+                    "PHYS 107",
+                    "PHYS 117",
+                    "PHYS 131",
+                    "PHYS 153",
+                    "PHYS 157",
+                    "PHYS_O 111"
+                  ]
+                },
+                {
+                  "one_of": [
+                    "MATH 101",
+                    "MATH 103",
+                    "MATH 105",
+                    "MATH 121",
+                    "MATH_O 101",
+                    "MATH_O 103"
+                  ]
+                }
+              ]
+            },
+            "SCIE 001"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ASTR 205",
+      "title": "Stars and Stellar Populations",
+      "credits": "3",
+      "description": "Measurement of positions, motions, and distances in astronomy. Temperature, masses, and spectra of stars. Hertzsprung-Russell diagram. Quantitative stellar structure and evolution. Chemical composition of stars in different Galactic populations. Globular and open star clusters. [3-0-0] Prerequisite: ASTR 200 and one of PHYS 210, EOSC 211, CPSC 302, CPSC 303.",
+      "prereq": {
+        "text": "ASTR 200 and one of PHYS 210, EOSC 211, CPSC 302, CPSC 303",
+        "tree": {
+          "all_of": [
+            "ASTR 200",
+            {
+              "one_of": [
+                "PHYS 210",
+                "EOSC 211",
+                "CPSC 302",
+                "CPSC 303"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ASTR 300",
+      "title": "Galaxies",
+      "credits": "3",
+      "description": "Structure and kinematics of our galaxy. Spiral arms and dynamics of stars in spiral and elliptical galaxies. Galactic formation, evolution, dynamics, and groups. Active galaxies and quasars. [3-0-0]. Prerequisite: ASTR 205 and one of PHYS 210, EOSC 211, CPSC 302, CPSC 303. Corequisite: One of MATH 217, MATH 227, MATH 317. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "ASTR 205 and one of PHYS 210, EOSC 211, CPSC 302, CPSC 303",
+        "tree": {
+          "all_of": [
+            "ASTR 205",
+            {
+              "one_of": [
+                "PHYS 210",
+                "EOSC 211",
+                "CPSC 302",
+                "CPSC 303"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": {
+        "text": "One of MATH 217, MATH 227, MATH 317",
+        "tree": {
+          "one_of": [
+            "MATH 217",
+            "MATH 227",
+            "MATH 317"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ASTR 310",
+      "title": "Exploring the Universe: The Solar System",
+      "credits": "3",
+      "description": "A survey of recent discoveries about the planets and other objects in the solar system, without the use of advanced mathematics. The Sun, the existence of planetary systems around other stars, and the search for life. Not open to first year students and not for credit for students in Physics & Astronomy specializations. [3-0-1*]",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ASTR 311",
+      "title": "Exploring the Universe: Stars and Galaxies",
+      "credits": "3",
+      "description": "A survey of recent discoveries in modern astronomy without the use of advanced mathematics. Stars, pulsars, black holes, galaxies, quasars and the origin and evolution of the Universe. Not open to first year students and not for credit for students in Physics & Astronomy specializations. [3-0-1*]",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ASTR 333",
+      "title": "Exoplanets and Astrobiology",
+      "credits": "3",
+      "description": "Observations and basic characteristics of extrasolar planets, including their formation, evolution, and potential for supporting life. [3-0-0] Prerequisite: One of PHYS 101, PHYS 102, PHYS 106, PHYS 107, PHYS 108, PHYS 117, PHYS 118, PHYS 131, PHYS 153, PHYS 157, PHYS 158, SCIE 001 and one of MATH 200, MATH 217, MATH 253, STAT 200, STAT 203, STAT 241, BIOL 300, COMM 291, ECON 325, EPSE 482, EPSE 483, FRST 231, GEOG 374, KIN 371, POLI 380, PSYC 217, PSYC 218, PSYC 277, PSYC 278, PSYC 366, SOCI 328.",
+      "prereq": {
+        "text": "One of PHYS 101, PHYS 102, PHYS 106, PHYS 107, PHYS 108, PHYS 117, PHYS 118, PHYS 131, PHYS 153, PHYS 157, PHYS 158, SCIE 001 and one of MATH 200, MATH 217, MATH 253, STAT 200, STAT 203, STAT 241, BIOL 300, COMM 291, ECON 325, EPSE 482, EPSE 483, FRST 231, GEOG 374, KIN 371, POLI 380, PSYC 217, PSYC 218, PSYC 277, PSYC 278, PSYC 366, SOCI 328",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "PHYS 101",
+                "PHYS 102",
+                "PHYS 106",
+                "PHYS 107",
+                "PHYS 108",
+                "PHYS 117",
+                "PHYS 118",
+                "PHYS 131",
+                "PHYS 153",
+                "PHYS 157",
+                "PHYS 158",
+                "SCIE 001"
+              ]
+            },
+            {
+              "one_of": [
+                "MATH 200",
+                "MATH 217",
+                "MATH 253",
+                "STAT 200",
+                "STAT 203",
+                "STAT 241",
+                "BIOL 300",
+                "COMM 291",
+                "ECON 325",
+                "EPSE 482",
+                "EPSE 483",
+                "FRST 231",
+                "GEOG 374",
+                "KIN 371",
+                "POLI 380",
+                "PSYC 217",
+                "PSYC 218",
+                "PSYC 277",
+                "PSYC 278",
+                "PSYC 366",
+                "SOCI 328"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ASTR 349",
+      "title": "Directed Research Project in Astronomy",
+      "credits": "3",
+      "description": "A research project, undertaken under the direction of a faculty member, culminating in a written report. Requires approval of the course instructor and program advisor in the Department of Physics and Astronomy. [1*-6-0]",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ASTR 403",
+      "title": "Cosmology",
+      "credits": "3",
+      "description": "Introduction to the study of the Universe as a whole. Foundations of the Hot Big Bang model, the early Universe, nucleosynthesis, the cosmic microwave background, large-scale structure, galaxy formation and quasars. Credit will be granted for only one of ASTR 403 or PHYS 571. [3-0-0] Prerequisite: One of PHYS 200, PHYS 250. ASTR 300 is recommended.",
+      "prereq": {
+        "text": "One of PHYS 200, PHYS 250",
+        "tree": {
+          "one_of": [
+            "PHYS 200",
+            "PHYS 250"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": "ASTR 300 is recommended"
+    },
+    {
+      "code": "ASTR 404",
+      "title": "Astronomical and Astrophysical Measurements",
+      "credits": "3",
+      "description": "Astronomical instrumentation and techniques for ground and space-based observations. Theory of measurement, imaging, interferometry and spectroscopy of electromagnetic radiation at optical, radio, infrared, and X-ray wavelengths. Astronomical data analysis. [3-0-0] Prerequisite: All of PHYS 210, PHYS 408 and one of PHYS 312, MATH 316.",
+      "prereq": {
+        "text": "All of PHYS 210, PHYS 408 and one of PHYS 312, MATH 316",
+        "tree": {
+          "all_of": [
+            "PHYS 210",
+            "PHYS 408",
+            {
+              "one_of": [
+                "PHYS 312",
+                "MATH 316"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ASTR 405",
+      "title": "Astronomical Laboratory",
+      "credits": "3",
+      "description": "Experiments in the use of astronomical instrumentation and data analysis. Use of the 40-cm reflector, spectrograph and electronic detectors. Photometric and spectroscopic analysis of digital data. [0-0-3] Prerequisite: ASTR 404",
+      "prereq": {
+        "text": "ASTR 404",
+        "tree": "ASTR 404",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ASTR 406",
+      "title": "High-Energy Astrophysics",
+      "credits": "3",
+      "description": "Radiative processes. White dwarfs, neutron stars, and black holes. Accreting systems. Gamma-ray bursts. [3-0-0] Prerequisite: All of PHYS 203, PHYS 301, MATH 215 and ASTR 300.",
+      "prereq": {
+        "text": "All of PHYS 203, PHYS 301, MATH 215 and ASTR 300",
+        "tree": {
+          "all_of": [
+            "PHYS 203",
+            "PHYS 301",
+            "MATH 215",
+            "ASTR 300"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ASTR 407",
+      "title": "Planetary Science",
+      "credits": "3",
+      "description": "Structure of planetary systems, planetary interiors, planet formation, planetary atmospheres, meteoritics, impact cratering. [3-0-0] Prerequisite: One of PHYS 210, EOSC 211 and one of MATH 217, MATH 227, MATH 317 and one of MATH 316, PHYS 312 and one of ASTR 200, EOSC 212. Corequisite: One of PHYS 206, PHYS 216, PHYS 306, EOSC 352.",
+      "prereq": {
+        "text": "One of PHYS 210, EOSC 211 and one of MATH 217, MATH 227, MATH 317 and one of MATH 316, PHYS 312 and one of ASTR 200, EOSC 212",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "PHYS 210",
+                "EOSC 211"
+              ]
+            },
+            {
+              "one_of": [
+                "MATH 217",
+                "MATH 227",
+                "MATH 317"
+              ]
+            },
+            {
+              "one_of": [
+                "MATH 316",
+                "PHYS 312"
+              ]
+            },
+            {
+              "one_of": [
+                "ASTR 200",
+                "EOSC 212"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": {
+        "text": "One of PHYS 206, PHYS 216, PHYS 306, EOSC 352",
+        "tree": {
+          "one_of": [
+            "PHYS 206",
+            "PHYS 216",
+            "PHYS 306",
+            "EOSC 352"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ASTR 449",
+      "title": "Honours Thesis in Astronomy",
+      "credits": "6",
+      "description": "A research project in astronomy, undertaken under the direction of a faculty member, culminating in a thesis. [1*-6-0]",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ASTR 500",
+      "title": "Principles of Modern Astronomy",
+      "credits": "3",
+      "description": "An introduction to the physical processes occurring in the stars, the interstellar medium, and in our own and other galaxies (fourth-year Honours students in the Physics and Astronomy Department may elect this course with special permission of the Department Head). This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ASTR 502",
+      "title": "Astronomical Dynamics",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ASTR 505",
+      "title": "Galactic Astronomy",
+      "credits": "2-6",
+      "description": "The study of the structure, content and evolution of our own and other galaxies, including the study of the physical processes occurring in the interstellar medium and galactic nuclei. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ASTR 506",
+      "title": "High-Energy Astrophysics",
+      "credits": "2-3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ASTR 507",
+      "title": "Planetary Sciences",
+      "credits": "2-3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ASTR 508",
+      "title": "Stellar Astronomy",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ASTR 509",
+      "title": "Astronomical Statistics",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ASTR 514",
+      "title": "Observational Astronomy",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ASTR 520",
+      "title": "Astronomy/Astrophysics Research Seminar",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ASTR 530",
+      "title": "Directed Studies in Astronomy",
+      "credits": "2-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ASTR 536",
+      "title": "Studies of the Interstellar Medium",
+      "credits": "2-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ASTR 549",
+      "title": "M.Sc. Thesis",
+      "credits": "12-18",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ASTR 649",
+      "title": "Doctoral Dissertation",
+      "credits": "0",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    }
+  ]
+}

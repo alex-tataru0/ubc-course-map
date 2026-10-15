@@ -1,15 +1,17 @@
 import json
 import sys
 import time
+from functools import partial
 from pathlib import Path
 
+import httpx
 from dotenv import load_dotenv
 from google.genai import errors
 
 from grades import fetch_text
 from llm import MODELS, ask_gemini, load_cache, parse_prereq, save_cache
 from parse_courses import parse_course_list
-from prereq_tree import normalize_codes
+from prereq_tree import expand_shorthand, normalize_codes
 from requisites import extract_requisites
 
 # Reads each subject's course list from the calendar and writes data/courses/<subject>.json.
@@ -19,7 +21,10 @@ from requisites import extract_requisites
 # it again (e.g. when a new calendar year comes out).
 
 ROOT = Path(__file__).parents[1]
-SUBJECTS = ["CPSC", "MATH", "STAT"]
+SUBJECTS = [
+    "ASTR", "ATSC", "BIOL", "CHEM", "CPSC", "DSCI", "ENVR",
+    "EOSC", "ISCI", "MATH", "MICB", "PHYS", "SCIE", "STAT",
+]
 
 # The free tier only allows a few requests a minute, so space the calls out.
 SECONDS_BETWEEN_CALLS = 15
@@ -30,6 +35,9 @@ RETRY_WAITS = [30, 60, 120]
 # 503 = the model is overloaded right now. 429 = we've used up our quota for that model.
 BUSY = 503
 OUT_OF_QUOTA = 429
+
+# What a call to Gemini can fail with: an error from the API, or the connection dropping.
+GEMINI_ERRORS = (errors.APIError, httpx.TransportError)
 
 
 def source_url(subject: str) -> str:
@@ -63,44 +71,59 @@ def pick_subjects(args: list[str]) -> list[str]:
     return subjects
 
 
+def is_busy(error: Exception) -> bool:
+    # A 503, or the connection dropping mid-call, which an overloaded model also does.
+    if isinstance(error, httpx.TransportError):
+        return True
+    return isinstance(error, errors.APIError) and error.code == BUSY
+
+
 def ask_with_retries(text: str, model: str, ask, sleep):
     # Waits and retries when the model is overloaded. Any other error, including running out
     # of quota (waiting won't fix that until the daily reset), goes straight to the caller.
     for wait in RETRY_WAITS:
         try:
             return ask(text, model=model)
-        except errors.APIError as e:
-            if e.code != BUSY:
+        except GEMINI_ERRORS as e:
+            if not is_busy(e):
                 raise
             print(f"  {model} is busy. Trying again in {wait} seconds...")
             sleep(wait)
     return ask(text, model=model)
 
 
-def ask_slowly(text: str, ask=ask_gemini, sleep=time.sleep):
-    # Returns (tree, model that answered). Tries each model in MODELS in order: if one is out
-    # of quota or stays busy, the next one gets a turn. If the last one fails, the error stops
-    # the script (answers saved so far are kept).
+def ask_slowly(text: str, ask=ask_gemini, sleep=time.sleep, models: list[str] | None = None):
+    # Returns (tree, model that answered). Tries each model in `models` in order: if one is
+    # out of quota or stays busy, it's taken out of `models` and the next one gets a turn.
+    # The script passes the same list for the whole run, so a model that gave up isn't tried
+    # again (each try costs minutes of waiting). If the last one fails, the error stops the
+    # script (answers saved so far are kept).
     # `ask` and `sleep` can be swapped for fakes in tests, so tests don't really wait.
+    models = list(MODELS) if models is None else models
     sleep(SECONDS_BETWEEN_CALLS)
-    for i, model in enumerate(MODELS):
+    for model in list(models):
         print(f"Asking {model}:", text)
         try:
             return ask_with_retries(text, model, ask, sleep), model
-        except errors.APIError as e:
-            is_last = i == len(MODELS) - 1
-            if e.code not in (BUSY, OUT_OF_QUOTA) or is_last:
+        except GEMINI_ERRORS as e:
+            out_of_quota = isinstance(e, errors.APIError) and e.code == OUT_OF_QUOTA
+            if not (is_busy(e) or out_of_quota) or model == models[-1]:
                 raise
-            print(f"  {model} can't answer right now ({e.code}). Switching to {MODELS[i + 1]}.")
+            models.remove(model)
+            reason = "out of quota" if out_of_quota else "busy"
+            print(f"  {model} is {reason}. Using {models[0]} for the rest of this run.")
 
 
 def requisite(text, cache: dict, ask):
     # One prereq or coreq as it goes in the output file, or None if the course has none.
     if text is None:
         return None
+    # Bare numbers are filled in here, not in normalize_codes, because program rows keep
+    # their short form ("CPSC 110 (or 103 and 107)") and their own rules read it.
+    text = expand_shorthand(normalize_codes(text))
     result = parse_prereq(text, cache, ask)
     return {
-        "text": normalize_codes(text),
+        "text": text,
         "tree": result["tree"],
         "source": result["source"],
         "problems": result["problems"],
@@ -150,8 +173,10 @@ def print_summary(subject: str, records: list[dict]) -> None:
 if __name__ == "__main__":
     load_dotenv()  # the Gemini key, only needed for prereqs that aren't in the rules or the cache
     cache = load_cache()
+    # One list of models for the whole run, so a model that gave up stays skipped.
+    ask = partial(ask_slowly, models=list(MODELS))
     for subject in pick_subjects(sys.argv[1:]):
-        records = build_courses(parse_course_list(load_page(subject)), cache)
+        records = build_courses(parse_course_list(load_page(subject)), cache, ask)
         write_courses(subject, records)
         print_summary(subject, records)
         print("Wrote", output_path(subject).relative_to(ROOT))

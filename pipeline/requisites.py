@@ -1,8 +1,10 @@
 import re
 
 # Finds the label that starts each requisite section, e.g. "Prerequisite: ".
-# "s?" makes the trailing s optional, so "Prerequisites:" matches too.
-LABEL = re.compile(r"\b(Prerequisites?|Corequisites?|Equivalency):\s*")
+# "s?" makes the trailing s optional, so "Prerequisites:" matches too, and "-?" lets in
+# BIOL 307's "Pre-requisites:". It's case-sensitive, so "Recommended pre-requisite:" (advice,
+# as in PHYS 500) doesn't count.
+LABEL = re.compile(r"\b(Pre-?requisites?|Co-?requisites?|Equivalency):\s*")
 
 # Maps each label (singular or plural) to the key we store it under.
 KEYS = {
@@ -30,7 +32,7 @@ def extract_requisites(description: str) -> dict:
     for i, match in enumerate(matches):
         # A section runs until the next label, or to the end of the text.
         end = matches[i + 1].start() if i + 1 < len(matches) else len(text)
-        key = KEYS[match.group(1)]
+        key = KEYS[match.group(1).replace("-", "")]
         if result[key] is not None:
             raise ValueError(f"Two {key} sections in: {description}")
         section = text[match.end():end].strip().rstrip(".")

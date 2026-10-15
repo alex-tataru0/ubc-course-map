@@ -1,0 +1,2451 @@
+{
+  "subject": "EOSC",
+  "source": "https://vancouver.calendar.ubc.ca/course-descriptions/subject/eoscv",
+  "courses": [
+    {
+      "code": "EOSC 110",
+      "title": "The Solid Earth: A Dynamic Planet",
+      "credits": "3",
+      "description": "Earth's origin, composition, structure, and natural resources. Plate tectonics as the driving force for volcanism, mountain building, and earthquakes. Imaging Earth's interior. Environmental geoscience and sustainability. (Consult the Credit Exclusion list for the Faculty of Science section of the Calendar.) [3-0-0]",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 111",
+      "title": "Laboratory Exploration of Planet Earth",
+      "credits": "1",
+      "description": "An examination of the processes that shape and change the planet earth. This laboratory course is an appropriate complement to EOSC 110, EOSC 112, EOSC 114, EOSC 116 but can also be taken independently. [0-3-0]",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 112",
+      "title": "The Climate System",
+      "credits": "3",
+      "description": "Introduction to Earth's climate system: radiation balance, greenhouse effect, atmosphere and ocean circulation, plate tectonics, biosphere interactions, and the carbon cycle. Applications to understand the causes of climate change, from long-term climate evolution to modern human-induced climate change. (Consult the Credit Exclusion list, within the Faculty of Science section in the Calendar.) [3-0-0]",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 114",
+      "title": "The Catastrophic Earth: Natural Disasters",
+      "credits": "3",
+      "description": "Introduction to causes and physical characteristics of disasters such as volcanic eruptions, earthquakes, tsunamis, hurricanes, storm surge, thunderstorms, tornadoes, landslides, wind waves, meteor impacts, mass extinctions. [3-0-0]",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 116",
+      "title": "Mesozoic Earth: Time of the Dinosaurs.",
+      "credits": "3",
+      "description": "Earth's tectonics, climate, and oceans during the time of the dinosaurs. Reading the fossil record of Earth from its earliest origins up to and including the Mesozoic, 250 - 65 million years ago. [3-0-0]",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 118",
+      "title": "Earth's Treasures: Gold and Gems",
+      "credits": "3",
+      "description": "Origin, properties, valuation, prospecting and geology of gold, platinum, silver, diamonds, rubies, emeralds, and other precious metals and gems. [3-0-0]",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 210",
+      "title": "Earth Science for Engineers",
+      "credits": "3",
+      "description": "Focus on the interaction between society and the geologic environment. Locating, assessing and developing natural resources; understanding and preparing for natural hazards, design of structures and waste disposal sites. [3-2-0] Corequisite: One of CIVL 215, MINE 200.",
+      "prereq": null,
+      "coreq": {
+        "text": "One of CIVL 215, MINE 200",
+        "tree": {
+          "one_of": [
+            "CIVL 215",
+            "MINE 200"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 211",
+      "title": "Computer Methods in Earth, Ocean and Atmospheric Sciences",
+      "credits": "3",
+      "description": "Mathematical computer-based problem solving in the physical, chemical, and biological sciences. Problems drawn from studies of the earth, the oceans and the atmosphere. Credit will be granted for only one of APSC 160 or EOSC 211. [2-0-2] Prerequisite: One of MATH 101, MATH 103, MATH 105, MATH 121, SCIE 001.",
+      "prereq": {
+        "text": "One of MATH 101, MATH 103, MATH 105, MATH 121, SCIE 001",
+        "tree": {
+          "one_of": [
+            "MATH 101",
+            "MATH 103",
+            "MATH 105",
+            "MATH 121",
+            "SCIE 001"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 212",
+      "title": "Topics in the Earth and Planetary Sciences.",
+      "credits": "3",
+      "description": "Cutting edge problems in earth, ocean, atmospheric and planetary sciences. Topics will be introduced through discussions of the current literature. [3-0-0] Prerequisite: Second-year standing in science or engineering.",
+      "prereq": {
+        "text": "Second-year standing in science or engineering",
+        "tree": {
+          "other": "Second-year standing in science or engineering"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 213",
+      "title": "Computational Methods in Geological Engineering",
+      "credits": "3",
+      "description": "Combining basic physical principles with their mathematical description and generating computational models that describe them. Introduction to basic building blocks in modelling, simulation and parameter estimation. [3-1-0] Prerequisite: One of MATH 200, MATH 253 and one of MATH 111, MATH 131, MATH 152, MATH 221, MATH 223 and one of APSC 160, CPSC 103, CPSC 110, EOSC 211.",
+      "prereq": {
+        "text": "One of MATH 200, MATH 253 and one of MATH 111, MATH 131, MATH 152, MATH 221, MATH 223 and one of APSC 160, CPSC 103, CPSC 110, EOSC 211",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "MATH 200",
+                "MATH 253"
+              ]
+            },
+            {
+              "one_of": [
+                "MATH 111",
+                "MATH 131",
+                "MATH 152",
+                "MATH 221",
+                "MATH 223"
+              ]
+            },
+            {
+              "one_of": [
+                "APSC 160",
+                "CPSC 103",
+                "CPSC 110",
+                "EOSC 211"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 220",
+      "title": "Introductory Mineralogy",
+      "credits": "3",
+      "description": "Introduction to crystallography, physical and chemical properties of minerals. Recognition and identification of common minerals. Please consult the Faculty of Science Credit Exclusion List: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… . [2-3-0] Prerequisite: One of CHEM 110, CHEM 111, CHEM 120, CHEM 121, CHEM 141, CHEM 154, SCIE 001.",
+      "prereq": {
+        "text": "One of CHEM 110, CHEM 111, CHEM 120, CHEM 121, CHEM 141, CHEM 154, SCIE 001",
+        "tree": {
+          "one_of": [
+            "CHEM 110",
+            "CHEM 111",
+            "CHEM 120",
+            "CHEM 121",
+            "CHEM 141",
+            "CHEM 154",
+            "SCIE 001"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 221",
+      "title": "Introductory Petrology",
+      "credits": "3",
+      "description": "Optical mineralogy and the classification and genesis of igneous, metamorphic and sedimentary rocks. [2-3-0] Prerequisite: EOSC 220",
+      "prereq": {
+        "text": "EOSC 220",
+        "tree": "EOSC 220",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 222",
+      "title": "Geological Time and Stratigraphy",
+      "credits": "3",
+      "description": "Measuring geological time and understanding Earth history using stratigraphic principles, paleontology and radioactive decay. Please consult the Faculty of Science Credit Exclusion List: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… . [2-2-0] Prerequisite: Second-year standing in Science. One of EOSC 1**, EOSC 210, GEOB 103 is recommended.",
+      "prereq": {
+        "text": "Second-year standing in Science",
+        "tree": {
+          "other": "Second-year standing in Science"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": "One of EOSC 1**, EOSC 210, GEOB 103 is recommended"
+    },
+    {
+      "code": "EOSC 223",
+      "title": "Field Techniques",
+      "credits": "3",
+      "description": "Introduction to the techniques of geological mapping and the interpretation of field data. Includes three one-day field trips on weekends plus a seven-day field school after Spring examinations. A fee is to be paid by January 31. [2-2-0] Corequisite: EOSC 221.",
+      "prereq": null,
+      "coreq": {
+        "text": "EOSC 221",
+        "tree": "EOSC 221",
+        "source": "rules",
+        "problems": []
+      },
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 240",
+      "title": "Site Investigation",
+      "credits": "3",
+      "description": "Theory and practice of site investigation for geological engineers, including background studies, field work, remote sensing, development of ground models, importance of geological variability and uncertainty. Impacts on design, project risk and decision making. [2-2-0] Prerequisite: EOSC 210. Corequisite: CIVL 210.",
+      "prereq": {
+        "text": "EOSC 210",
+        "tree": "EOSC 210",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": {
+        "text": "CIVL 210",
+        "tree": "CIVL 210",
+        "source": "rules",
+        "problems": []
+      },
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 250",
+      "title": "Fields and Fluxes",
+      "credits": "3",
+      "description": "Application of classical theory of scalar and vector fields to geophysical sciences. Conductive, convective and radiative energy flux, gravitation, electrostatics, and magnetostatics. Gauss' and Stokes' theorems. [3-0-0] Prerequisite: MATH 200 and one of PHYS 101, PHYS 106, PHYS 107, PHYS 117, PHYS 131, PHYS 157. One of PHYS 108, PHYS 118, PHYS 158 is recommended.",
+      "prereq": {
+        "text": "MATH 200 and one of PHYS 101, PHYS 106, PHYS 107, PHYS 117, PHYS 131, PHYS 157",
+        "tree": {
+          "all_of": [
+            "MATH 200",
+            {
+              "one_of": [
+                "PHYS 101",
+                "PHYS 106",
+                "PHYS 107",
+                "PHYS 117",
+                "PHYS 131",
+                "PHYS 157"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": "One of PHYS 108, PHYS 118, PHYS 158 is recommended"
+    },
+    {
+      "code": "EOSC 256",
+      "title": "Earthquakes",
+      "credits": "3",
+      "description": "Characteristics, types, plate tectonics, faults, earth stresses and strains, seismic waves, magnitude scales, instrumentation, hazard mapping, prediction, and forecasting. [3-0-0] Prerequisite: Either (a) one of MATH 101, MATH 103, MATH 105, MATH 121 and one of PHYS 101, PHYS 106, PHYS 107, PHYS 117, PHYS 131, PHYS 157; or (b) SCIE 001.",
+      "prereq": {
+        "text": "Either (a) one of MATH 101, MATH 103, MATH 105, MATH 121 and one of PHYS 101, PHYS 106, PHYS 107, PHYS 117, PHYS 131, PHYS 157; or (b) SCIE 001",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                {
+                  "one_of": [
+                    "MATH 101",
+                    "MATH 103",
+                    "MATH 105",
+                    "MATH 121"
+                  ]
+                },
+                {
+                  "one_of": [
+                    "PHYS 101",
+                    "PHYS 106",
+                    "PHYS 107",
+                    "PHYS 117",
+                    "PHYS 131",
+                    "PHYS 157"
+                  ]
+                }
+              ]
+            },
+            "SCIE 001"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 270",
+      "title": "Marine Ecosystems",
+      "credits": "3",
+      "description": "Introduction to diversity of marine habitats and ecosystems; hydrothermal vent, intertidal, coral reef, estuarine, deep sea, and polar ecosystems; impacts of ecosystem change; evolution of ocean plankton; invasive species; climate change; pollution. [3-0-0] Prerequisite: One of SCIE 001, CHEM 110, CHEM 111, CHEM 120, CHEM 121, CHEM 141, CHEM 154.",
+      "prereq": {
+        "text": "One of SCIE 001, CHEM 110, CHEM 111, CHEM 120, CHEM 121, CHEM 141, CHEM 154",
+        "tree": {
+          "one_of": [
+            "SCIE 001",
+            "CHEM 110",
+            "CHEM 111",
+            "CHEM 120",
+            "CHEM 121",
+            "CHEM 141",
+            "CHEM 154"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 310",
+      "title": "The Earth and the Solar System",
+      "credits": "3",
+      "description": "The Earth as a planet: its composition, internal dynamics, and surface evolution. Rotation, magnetic field, plate tectonics, earthquakes, volcanoes. The ocean, atmosphere, and biosphere as components of a varying geo-environment. Not for credit for students in specializations administered by the Department of Earth, Ocean, and Atmospheric Sciences. ( https://www.eoas.ubc.ca/undergrad/degrees ). No background in science or mathematics is required. Please consult the Faculty of Science Credit Exclusion List: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… [3-0-0] Prerequisite: 2nd-year class standing or higher.",
+      "prereq": {
+        "text": "2nd-year class standing or higher",
+        "tree": {
+          "other": "2nd-year class standing or higher"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 311",
+      "title": "The Earth and its Resources",
+      "credits": "3",
+      "description": "An introduction to the Earth with emphasis on its industrial and aesthetic resources. Rocks, minerals, gold, diamonds, sediments, fossils, oil and gas, canyons, and volcanoes and the processes that create them. Not for credit for students in specializations administered by the Department of Earth, Ocean, and Atmospheric Sciences. ( https://www.eoas.ubc.ca/undergrad/degrees ). No background in science or mathematics is required. [3-0-0] Prerequisite: Class standing 2.",
+      "prereq": {
+        "text": "Class standing 2",
+        "tree": {
+          "other": "Class standing 2"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 314",
+      "title": "The Ocean Environment",
+      "credits": "3",
+      "description": "An introduction to the oceans and the processes that have shaped them, their composition and movement, waves, tides, beaches, interactions with the atmosphere and human exploitation of the non-living resources. Not for credit for students in specializations administered by the Department of Earth, Ocean, and Atmospheric Sciences. ( https://www.eoas.ubc.ca/undergrad/degrees ). No background in science or mathematics is required. [3-0-0] Prerequisite: Class standing 2.",
+      "prereq": {
+        "text": "Class standing 2",
+        "tree": {
+          "other": "Class standing 2"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 315",
+      "title": "The Ocean Ecosystem",
+      "credits": "3",
+      "description": "An introduction to life in the oceans, its variety and evolution; primary producers and their links to the environment, zooplankton, marine communities, living marine resources and their role in today's world. Not for credit for students in specializations administered by the Department of Earth, Ocean, and Atmospheric Sciences. ( https://www.eoas.ubc.ca/undergrad/degrees ). No background in science or mathematics is required. [3-0-0] Prerequisite: Class standing 2.",
+      "prereq": {
+        "text": "Class standing 2",
+        "tree": {
+          "other": "Class standing 2"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 320",
+      "title": "Sedimentology",
+      "credits": "3",
+      "description": "Origin, diagenesis and geochemistry of sediments and sedimentary rocks. [2-2-0] Prerequisite: EOSC 221 and one of EOSC 210, EOSC 222.",
+      "prereq": {
+        "text": "EOSC 221 and one of EOSC 210, EOSC 222",
+        "tree": {
+          "all_of": [
+            "EOSC 221",
+            {
+              "one_of": [
+                "EOSC 210",
+                "EOSC 222"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 321",
+      "title": "Igneous Petrology",
+      "credits": "3",
+      "description": "The origin and formation of igneous rocks. [2-3-0] Prerequisite: EOSC 221.",
+      "prereq": {
+        "text": "EOSC 221",
+        "tree": "EOSC 221",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 322",
+      "title": "Metamorphic Petrology",
+      "credits": "3",
+      "description": "Deciphering lithospheric processes as recorded by the mineralogy, chemistry and textures of metamorphosed rocks. [2-3-0] Prerequisite: EOSC 221.",
+      "prereq": {
+        "text": "EOSC 221",
+        "tree": "EOSC 221",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 323",
+      "title": "Structural Geology I",
+      "credits": "3",
+      "description": "Analysis and interpretation of natural deformation. [2-3-0] Prerequisite: All of EOSC 221, EOSC 223 and one of EOSC 210, EOSC 222.",
+      "prereq": {
+        "text": "All of EOSC 221, EOSC 223 and one of EOSC 210, EOSC 222",
+        "tree": {
+          "all_of": [
+            "EOSC 221",
+            "EOSC 223",
+            {
+              "one_of": [
+                "EOSC 210",
+                "EOSC 222"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 325",
+      "title": "Principles of Physical Hydrogeology",
+      "credits": "3",
+      "description": "Theories of storage and movement of water within groundwater systems; Groundwater-surface water interaction; Role of groundwater systems in watershed management and regulating the environmental impacts of global change; Groundwater sustainability; Impacts of climate & land use changes on groundwater resources. [3-0-1]. Prerequisite: (a) 3rd year standing in Science, Land and Food Systems, or Forestry and Environmental Stewardship; and (b) One of MATH 101, MATH 103, MATH 105, MATH 121, SCIE 001. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "(a) 3rd year standing in Science, Land and Food Systems, or Forestry and Environmental Stewardship; and (b) One of MATH 101, MATH 103, MATH 105, MATH 121, SCIE 001",
+        "tree": {
+          "all_of": [
+            {
+              "other": "3rd year standing in Science, Land and Food Systems, or Forestry and Environmental Stewardship"
+            },
+            {
+              "one_of": [
+                "MATH 101",
+                "MATH 103",
+                "MATH 105",
+                "MATH 121",
+                "SCIE 001"
+              ]
+            }
+          ]
+        },
+        "source": "llm",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 326",
+      "title": "Earth and Life Through Time",
+      "credits": "3",
+      "description": "The fossil record of adaptation and extinction emphasizing the interaction of biological and geological processes. Not for credit in Geological Sciences and Geophysics specializations. Please consult the Faculty of Science Credit Exclusion List: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… . Second-year class standing or higher. [3-0-0] Prerequisite: Biology 12 or BIOL 100-level.",
+      "prereq": {
+        "text": "Biology 12 or BIOL 100-level",
+        "tree": {
+          "one_of": [
+            {
+              "other": "Biology 12"
+            },
+            {
+              "other": "BIOL 100-level"
+            }
+          ]
+        },
+        "source": "llm",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 327",
+      "title": "Geochemical Thermodynamics",
+      "credits": "3",
+      "description": "Application of chemical thermodynamics to problem solving in the earth sciences. Geochemical tools are developed for: low-T aqueous geochemistry, high-T, high-P processes in the lithosphere, ore-deposit formation, and for prediction of geochemical reaction rates in all environments. [2-2-0] Prerequisite: EOSC 220 Corequisite: CHEM 205.",
+      "prereq": {
+        "text": "EOSC 220",
+        "tree": "EOSC 220",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": {
+        "text": "CHEM 205",
+        "tree": "CHEM 205",
+        "source": "rules",
+        "problems": []
+      },
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 328",
+      "title": "Field Geology",
+      "credits": "3",
+      "description": "Recording and processing geological data in the field. Held within the three weeks following April examinations after third year. A special fee is to be paid by January 31. Prerequisite: All of EOSC 323, EOSC 330 and one of EOSC 321, EOSC 322.",
+      "prereq": {
+        "text": "All of EOSC 323, EOSC 330 and one of EOSC 321, EOSC 322",
+        "tree": {
+          "all_of": [
+            "EOSC 323",
+            "EOSC 330",
+            {
+              "one_of": [
+                "EOSC 321",
+                "EOSC 322"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 329",
+      "title": "Quantitative Groundwater Hydrology",
+      "credits": "3",
+      "description": "Introduction to theory of groundwater flow; flow nets; regional groundwater resource evaluation; well hydraulics; role of groundwater in geologic processes, case studies. [2-3*-3*] Prerequisite: One of MATH 101, MATH 103, MATH 105, MATH 121, SCIE 001.",
+      "prereq": {
+        "text": "One of MATH 101, MATH 103, MATH 105, MATH 121, SCIE 001",
+        "tree": {
+          "one_of": [
+            "MATH 101",
+            "MATH 103",
+            "MATH 105",
+            "MATH 121",
+            "SCIE 001"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 330",
+      "title": "Principles of Geomorphology",
+      "credits": "3",
+      "description": "Landform development; morphological and historical analysis of landforms; applications in engineering and resource development. Please consult the Faculty of Science Credit Exclusion List: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… . [3-2-0] Prerequisite: One of GEOB 103, EOSC 110, EOSC 210.",
+      "prereq": {
+        "text": "One of GEOB 103, EOSC 110, EOSC 210",
+        "tree": {
+          "one_of": [
+            "GEOB 103",
+            "EOSC 110",
+            "EOSC 210"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 331",
+      "title": "Introduction to Mineral Deposits",
+      "credits": "3",
+      "description": "Introduction to economic geology and models related to mineral exploration. Study includes typical deposit types and their plate tectonic setting. [2-3-0] Prerequisite: EOSC 221.",
+      "prereq": {
+        "text": "EOSC 221",
+        "tree": "EOSC 221",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 332",
+      "title": "Tectonic Evolution of North America",
+      "credits": "3",
+      "description": "An overview of the geology and tectonic evolution of North America; comparisons and contrasts between Precambrian rocks of the North American craton and Phanerozoic belts of the Cordilleran, Appalachian, Ouachita and Innuitian orogens; interrelations between sedimentation, deformation, metamorphism and magmatism in a plate tectonic context. [3-0-0] Prerequisite: EOSC 323 or permission of the instructor.",
+      "prereq": {
+        "text": "EOSC 323 or permission of the instructor",
+        "tree": {
+          "one_of": [
+            "EOSC 323",
+            {
+              "other": "permission of the instructor"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 333",
+      "title": "Elemental and Isotopic Geochemistry",
+      "credits": "3",
+      "description": "Analytical methods in geochemistry, major and trace element geochemistry, radiogenic isotopes, geochemistry of seawater, the mantle, basalts, subduction zones, sedimentary rocks, continental crust. [2-3-0] Prerequisite: EOSC 221.",
+      "prereq": {
+        "text": "EOSC 221",
+        "tree": "EOSC 221",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 340",
+      "title": "Climate Change: Causes and Solutions",
+      "credits": "3",
+      "description": "Mechanisms and processes of past and future global climate change. Climate models and projected impacts. Climate solutions including carbon sequestration, adaptation and geoengineering. [3-0-0] Prerequisite: Either (a) SCIE 001 or (b) one of CHEM 110, CHEM 111, CHEM 120, CHEM 121, CHEM 141, CHEM 154 and one of MATH 101, MATH 103, MATH 105, MATH 121, MATH_O 101, MATH_O 103 and one of PHYS 101, PHYS 106, PHYS 107, PHYS 117, PHYS 131, PHYS 153, PHYS 157, PHYS_O 111.",
+      "prereq": {
+        "text": "Either (a) SCIE 001 or (b) one of CHEM 110, CHEM 111, CHEM 120, CHEM 121, CHEM 141, CHEM 154 and one of MATH 101, MATH 103, MATH 105, MATH 121, MATH_O 101, MATH_O 103 and one of PHYS 101, PHYS 106, PHYS 107, PHYS 117, PHYS 131, PHYS 153, PHYS 157, PHYS_O 111",
+        "tree": {
+          "one_of": [
+            "SCIE 001",
+            {
+              "all_of": [
+                {
+                  "one_of": [
+                    "CHEM 110",
+                    "CHEM 111",
+                    "CHEM 120",
+                    "CHEM 121",
+                    "CHEM 141",
+                    "CHEM 154"
+                  ]
+                },
+                {
+                  "one_of": [
+                    "MATH 101",
+                    "MATH 103",
+                    "MATH 105",
+                    "MATH 121",
+                    "MATH_O 101",
+                    "MATH_O 103"
+                  ]
+                },
+                {
+                  "one_of": [
+                    "PHYS 101",
+                    "PHYS 106",
+                    "PHYS 107",
+                    "PHYS 117",
+                    "PHYS 131",
+                    "PHYS 153",
+                    "PHYS 157",
+                    "PHYS_O 111"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 345",
+      "title": "Climate Change: Evidence and Impacts",
+      "credits": "3",
+      "description": "Climate science fundamentals: Energy balance, ocean and atmospheric circulation. Future climate scenarios. Processes driving spatial and temporal climate variability. Analysis of observations and climate projection data to evaluate the anthropogenic impact on climate. [3-0-0] Prerequisite: 3rd year class standing",
+      "prereq": {
+        "text": "3rd year class standing",
+        "tree": {
+          "other": "3rd year class standing"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 350",
+      "title": "Environmental, Geotechnical, and Exploration Geophysics I",
+      "credits": "3",
+      "description": "Principles of geophysical survey design, data acquisition, processing and interpretation with emphasis on near-surface problems. Magnetic, seismic reflection/refraction, electromagnetic and ground penetrating radar surveys. Case history analysis of environmental and geotechnical problems. [3-2-0] Prerequisite: One of MATH 200, MATH 253 and third-year standing or higher in Science or Applied Science.",
+      "prereq": {
+        "text": "One of MATH 200, MATH 253 and third-year standing or higher in Science or Applied Science",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "MATH 200",
+                "MATH 253"
+              ]
+            },
+            {
+              "other": "third-year standing or higher in Science or Applied Science"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 352",
+      "title": "Geophysical Continuum Dynamics",
+      "credits": "3",
+      "description": "Introduction to tensor calculus and continuum mechanics. Stress, strain and strain-rate tensors. Mass, momentum and energy balance. Applications to problems of geophysical heat transport, elasticity and fluid dynamics. [3-0-0] Prerequisite: One of EOSC 250, MATH 317.",
+      "prereq": {
+        "text": "One of EOSC 250, MATH 317",
+        "tree": {
+          "one_of": [
+            "EOSC 250",
+            "MATH 317"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 353",
+      "title": "Seismology",
+      "credits": "3",
+      "description": "Hooke's law for isotropic continua, elastic wave equation, reflection and refraction methods for imaging the Earth's internal structure, plane waves in an infinite medium and interaction with boundaries, body wave seismology, inversion of travel-time curves, generalized ray theory, crustal seismology, surface waves and earthquake source studies. [3-3*] Prerequisite: EOSC 352",
+      "prereq": {
+        "text": "EOSC 352",
+        "tree": "EOSC 352",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 354",
+      "title": "Analysis of Time Series and Inverse Theory for Earth Scientists",
+      "credits": "3",
+      "description": "Continuous and discrete Fourier transforms, correlation and convolution, spectral estimates, optimum least-squares filters, deconvolution and prediction, frequency-wave number filtering. A practical course on computer techniques applied to the analysis of a wide range of geophysical phenomena. [3-2-0] Prerequisite: Either (a) SCIE 001 or (b) one of MATH 101, MATH 103, MATH 105, MATH 121 and one of PHYS 101, PHYS 106, PHYS 107, PHYS 117, PHYS 131, PHYS 157.",
+      "prereq": {
+        "text": "Either (a) SCIE 001 or (b) one of MATH 101, MATH 103, MATH 105, MATH 121 and one of PHYS 101, PHYS 106, PHYS 107, PHYS 117, PHYS 131, PHYS 157",
+        "tree": {
+          "one_of": [
+            "SCIE 001",
+            {
+              "all_of": [
+                {
+                  "one_of": [
+                    "MATH 101",
+                    "MATH 103",
+                    "MATH 105",
+                    "MATH 121"
+                  ]
+                },
+                {
+                  "one_of": [
+                    "PHYS 101",
+                    "PHYS 106",
+                    "PHYS 107",
+                    "PHYS 117",
+                    "PHYS 131",
+                    "PHYS 157"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 355",
+      "title": "The Planets",
+      "credits": "3",
+      "description": "Diversity among the planets and moons of the solar system; integrating concepts across scientific disciplines, including geology, geophysics, and atmospheric science to understand how planets evolve. [3-0-0] Prerequisite: Either (a) SCIE 001 or (b) one of MATH 101, MATH 103, MATH 105, MATH 121; and one of CHEM 110, CHEM 111, CHEM 120, CHEM 121, CHEM 141, CHEM 154 and one of PHYS 101, PHYS 106, PHYS 107, PHYS 117, PHYS 131, PHYS 153, PHYS 157.",
+      "prereq": {
+        "text": "Either (a) SCIE 001 or (b) one of MATH 101, MATH 103, MATH 105, MATH 121; and one of CHEM 110, CHEM 111, CHEM 120, CHEM 121, CHEM 141, CHEM 154 and one of PHYS 101, PHYS 106, PHYS 107, PHYS 117, PHYS 131, PHYS 153, PHYS 157",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "SCIE 001",
+                {
+                  "one_of": [
+                    "MATH 101",
+                    "MATH 103",
+                    "MATH 105",
+                    "MATH 121"
+                  ]
+                }
+              ]
+            },
+            {
+              "one_of": [
+                "CHEM 110",
+                "CHEM 111",
+                "CHEM 120",
+                "CHEM 121",
+                "CHEM 141",
+                "CHEM 154"
+              ]
+            },
+            {
+              "one_of": [
+                "PHYS 101",
+                "PHYS 106",
+                "PHYS 107",
+                "PHYS 117",
+                "PHYS 131",
+                "PHYS 153",
+                "PHYS 157"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 372",
+      "title": "Introductory Oceanography: Circulation and Plankton",
+      "credits": "3",
+      "description": "Physical and chemical processes and their controls on the distribution of plankton in the ocean. [3-0-0] Prerequisite: Either (a) SCIE 001 or (b) one of CHEM 110, CHEM 111, CHEM 120, CHEM 121, CHEM 141, CHEM 154 and one of MATH 101, MATH 103, MATH 105, MATH 121 and one of PHYS 101, PHYS 106, PHYS 107, PHYS 117, PHYS 131, PHYS 153, PHYS 157.",
+      "prereq": {
+        "text": "Either (a) SCIE 001 or (b) one of CHEM 110, CHEM 111, CHEM 120, CHEM 121, CHEM 141, CHEM 154 and one of MATH 101, MATH 103, MATH 105, MATH 121 and one of PHYS 101, PHYS 106, PHYS 107, PHYS 117, PHYS 131, PHYS 153, PHYS 157",
+        "tree": {
+          "one_of": [
+            "SCIE 001",
+            {
+              "all_of": [
+                {
+                  "one_of": [
+                    "CHEM 110",
+                    "CHEM 111",
+                    "CHEM 120",
+                    "CHEM 121",
+                    "CHEM 141",
+                    "CHEM 154"
+                  ]
+                },
+                {
+                  "one_of": [
+                    "MATH 101",
+                    "MATH 103",
+                    "MATH 105",
+                    "MATH 121"
+                  ]
+                },
+                {
+                  "one_of": [
+                    "PHYS 101",
+                    "PHYS 106",
+                    "PHYS 107",
+                    "PHYS 117",
+                    "PHYS 131",
+                    "PHYS 153",
+                    "PHYS 157"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 373",
+      "title": "Introductory Oceanography: Climate and Ecosystems",
+      "credits": "3",
+      "description": "Physical, chemical, and biological processes in the ocean and their interaction with climate and marine food-webs. [3-0-0] Prerequisite: EOSC 372.",
+      "prereq": {
+        "text": "EOSC 372",
+        "tree": "EOSC 372",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 398",
+      "title": "Co-operative Work Placement I",
+      "credits": "3",
+      "description": "Approved and supervised technical work experience in an industrial, university or government setting for a minimum of 14 weeks. Normally taken in the Summer Session (Terms 1 and 2) following second year. Technical report required. Restricted to students admitted to the Co-operative Education Option in Earth, Ocean and Atmospheric Sciences. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 399",
+      "title": "Co-operative Work Placement II",
+      "credits": "3",
+      "description": "Approved and supervised technical work experience in an industrial, university or government setting for a minimum of 14 weeks. Normally taken in Winter Session (Term 1) in third year. Technical report required. Restricted to students admitted to the Co-operative Education Option in Earth, Ocean and Atmospheric Sciences. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 410",
+      "title": "Geoscientific Data Analysis and Empirical Modelling",
+      "credits": "3",
+      "description": "Application of data analysis and empirical modelling strategies for conducting a data-oriented research in geosciences; from setting research questions and hypothesis to delivering and interpreting results. Examples are drawn from across the Earth, ocean, atmospheric and planetary sciences. [3-0-0] Prerequisite: One of STAT 200, BIOL 300 and one of MATH 111, MATH 131, MATH 200, MATH 221, MATH 223, EOSC 250 and one of EOSC 211, CPSC 203, CPSC 210.",
+      "prereq": {
+        "text": "One of STAT 200, BIOL 300 and one of MATH 111, MATH 131, MATH 200, MATH 221, MATH 223, EOSC 250 and one of EOSC 211, CPSC 203, CPSC 210",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "STAT 200",
+                "BIOL 300"
+              ]
+            },
+            {
+              "one_of": [
+                "MATH 111",
+                "MATH 131",
+                "MATH 200",
+                "MATH 221",
+                "MATH 223",
+                "EOSC 250"
+              ]
+            },
+            {
+              "one_of": [
+                "EOSC 211",
+                "CPSC 203",
+                "CPSC 210"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 417",
+      "title": "Stable Isotopes in Earth, Ocean, and Environmental Sciences",
+      "credits": "3",
+      "description": "Principles of stable isotope geochemistry applied to environmental systems, including instrumentation, data and sample analysis, and applications to (paleo) climate, oceanographic and environmental research. [3-0-0] Prerequisite: 3rd-year class standing or higher and either (a) SCIE 001 or (b) one of CHEM 111, CHEM 121, CHEM 141, CHEM 154 and one of MATH 101, MATH 103, MATH 105 or MATH 121.",
+      "prereq": {
+        "text": "3rd-year class standing or higher and either (a) SCIE 001 or (b) one of CHEM 111, CHEM 121, CHEM 141, CHEM 154 and one of MATH 101, MATH 103, MATH 105 or MATH 121",
+        "tree": {
+          "all_of": [
+            {
+              "other": "3rd-year class standing or higher"
+            },
+            {
+              "one_of": [
+                "SCIE 001",
+                {
+                  "all_of": [
+                    {
+                      "one_of": [
+                        "CHEM 111",
+                        "CHEM 121",
+                        "CHEM 141",
+                        "CHEM 154"
+                      ]
+                    },
+                    {
+                      "one_of": [
+                        "MATH 101",
+                        "MATH 103",
+                        "MATH 105",
+                        "MATH 121"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 420",
+      "title": "Volcanology",
+      "credits": "3",
+      "description": "Field and lab-based studies in volcanology concentrating on physical and chemical aspects of volcanic processes. [2-3-0] Prerequisite: All of EOSC 220, EOSC 221.",
+      "prereq": {
+        "text": "All of EOSC 220, EOSC 221",
+        "tree": {
+          "all_of": [
+            "EOSC 220",
+            "EOSC 221"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 421",
+      "title": "Advanced Sedimentology",
+      "credits": "3",
+      "description": "Description and interpretation of ancient and modern sediments, with emphasis on the origin, composition, textures, structures, diagenesis and chemistry of biogenic sediments. [2-2-0] Prerequisite: EOSC 320 or permission of instructor.",
+      "prereq": {
+        "text": "EOSC 320 or permission of instructor",
+        "tree": {
+          "one_of": [
+            "EOSC 320",
+            {
+              "other": "permission of instructor"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 422",
+      "title": "Structural Geology II",
+      "credits": "3",
+      "description": "Studies of natural deformation using advanced techniques. [2-3-0] Prerequisite: EOSC 323",
+      "prereq": {
+        "text": "EOSC 323",
+        "tree": "EOSC 323",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 424",
+      "title": "Advanced Mineral Deposits",
+      "credits": "3",
+      "description": "Advanced concepts in the processes that lead to the formation of mineral deposits. Introduction to the study of ore minerals using reflected light microscopy. [2-3-0] Prerequisite: EOSC 331.",
+      "prereq": {
+        "text": "EOSC 331",
+        "tree": "EOSC 331",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 425",
+      "title": "Paleontology",
+      "credits": "3",
+      "description": "Paleobiogeography in the context of plate tectonics. Mass extinction events. Fossilization and biases in the fossil record. Species concepts in paleontology. Biostratigraphy. Paleontological evidence for early life; the colonization of oceanic and terrestrial environments and; the evolution of the primates. [2-3-0] Prerequisite: EOSC 222.",
+      "prereq": {
+        "text": "EOSC 222",
+        "tree": "EOSC 222",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 426",
+      "title": "Fundamentals of Geomicrobiology",
+      "credits": "3",
+      "description": "Foundational knowledge of the interactions between microorganisms and Earth's surface chemistry. [3-0-0]. Prerequisite: One of BIOL 111, BIOL 112, BIOL 121, CHEM 110, CHEM 111, CHEM 120, CHEM 121, CHEM 141, EOSC 110, EOSC 112. Third year standing in Science. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "One of BIOL 111, BIOL 112, BIOL 121, CHEM 110, CHEM 111, CHEM 120, CHEM 121, CHEM 141, EOSC 110, EOSC 112. Third year standing in Science",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "BIOL 111",
+                "BIOL 112",
+                "BIOL 121",
+                "CHEM 110",
+                "CHEM 111",
+                "CHEM 120",
+                "CHEM 121",
+                "CHEM 141",
+                "EOSC 110",
+                "EOSC 112"
+              ]
+            },
+            {
+              "other": "Third year standing in Science"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 428",
+      "title": "Field Techniques in Groundwater Hydrology",
+      "credits": "3",
+      "description": "Hydraulic head measurements, water-quality sampling, pump and slug testing, infiltration measurements, profiling techniques. Held over five days after spring term at the Richmond groundwater hydrology field-school site. Enrolment limitations. Prerequisite: One of EOSC 325, EOSC 329.",
+      "prereq": {
+        "text": "One of EOSC 325, EOSC 329",
+        "tree": {
+          "one_of": [
+            "EOSC 325",
+            "EOSC 329"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 429",
+      "title": "Groundwater Contamination",
+      "credits": "3",
+      "description": "Contaminant transport processes in groundwater flow systems; aqueous and multiphase transport; mathematical models describing migration and chemical evolution of contaminant plumes; case studies. [2-2-0] Prerequisite: One of EOSC 325, EOSC 329.",
+      "prereq": {
+        "text": "One of EOSC 325, EOSC 329",
+        "tree": {
+          "one_of": [
+            "EOSC 325",
+            "EOSC 329"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 430",
+      "title": "Aqueous Geochemistry",
+      "credits": "3",
+      "description": "Quantitative approaches to practical aqueous geochemistry problems. Equilibrium thermodynamics, kinetics, complexation, oxidation reduction, cation exchange, sorption and partitioning of organics. Case Studies. [2-2-0] Prerequisite: One of CHEM 123, CHEM 130, CHEM 154, SCIE 001. Corequisite: One of EOSC 325, EOSC 329.",
+      "prereq": {
+        "text": "One of CHEM 123, CHEM 130, CHEM 154, SCIE 001",
+        "tree": {
+          "one_of": [
+            "CHEM 123",
+            "CHEM 130",
+            "CHEM 154",
+            "SCIE 001"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": {
+        "text": "One of EOSC 325, EOSC 329",
+        "tree": {
+          "one_of": [
+            "EOSC 325",
+            "EOSC 329"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 431",
+      "title": "Groundwater Remediation",
+      "credits": "3",
+      "description": "Methods for containment and remediation of subsurface contaminants; including groundwater control, groundwater extraction, and in situ treatment. Experience with common design approaches. [2-2-0] Prerequisite: EOSC 429",
+      "prereq": {
+        "text": "EOSC 429",
+        "tree": "EOSC 429",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 432",
+      "title": "Fossil Fuels",
+      "credits": "3",
+      "description": "Origin, geochemistry and distribution of petroleum and coal in the stratigraphic record. Sedimentation of organic matter, organic diagenesis, migration and accumulation of hydrocarbons. Principles of exploration and development. Techniques for measurement of organic maturation and source rock analyses. [2-2-0] Corequisite: EOSC 320.",
+      "prereq": null,
+      "coreq": {
+        "text": "EOSC 320",
+        "tree": "EOSC 320",
+        "source": "rules",
+        "problems": []
+      },
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 433",
+      "title": "Geological Engineering Practice I - Rock Engineering",
+      "credits": "3",
+      "description": "Application of rock mechanics, hydrogeology, and engineering design tools in realistically complex geological environments. Influence and treatment of geological uncertainty, and use of field data, geotechnical monitoring, and numerical analyses for tunnelling, mining and rock slope engineering projects. Case histories. [2-2-0] Prerequisite: All of EOSC 329, CIVL 210, MINE 303.",
+      "prereq": {
+        "text": "All of EOSC 329, CIVL 210, MINE 303",
+        "tree": {
+          "all_of": [
+            "EOSC 329",
+            "CIVL 210",
+            "MINE 303"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 434",
+      "title": "Geological Engineering Practice II - Soil Engineering",
+      "credits": "3",
+      "description": "Application of geomorphology, hydrogeology, and soil mechanics to geotechnical design. Influence and treatment of geological uncertainty in geotechnical hazard and risk assessments; multi-disciplinary approaches to geotechnical engineering problems in realistically complex geological environments. Case histories. [2-2-0] Prerequisite: All of EOSC 329, EOSC 330, CIVL 210.",
+      "prereq": {
+        "text": "All of EOSC 329, EOSC 330, CIVL 210",
+        "tree": {
+          "all_of": [
+            "EOSC 329",
+            "EOSC 330",
+            "CIVL 210"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 440",
+      "title": "Physical Climate Modelling",
+      "credits": "3",
+      "description": "Understanding climate models from 1D energy balance to fully coupled atmosphereocean general circulation models. Physics and thermodynamics of radiative balance and clouds. Spatial and temporal climate variability. Run simple climate models and analyze data from complex models. [3-0-0] Prerequisites: 3rd year class standing, and one of EOSC 211, EOSC 213, CPSC 203, CPSC 210, and MATH 200, and one of EOSC 112, ATSC 201, EOSC 340, EOSC 345, GEOS 102,GEOG 312, PHYS 333.",
+      "prereq": {
+        "text": "3rd year class standing, and one of EOSC 211, EOSC 213, CPSC 203, CPSC 210, and MATH 200, and one of EOSC 112, ATSC 201, EOSC 340, EOSC 345, GEOS 102,GEOG 312, PHYS 333",
+        "tree": {
+          "all_of": [
+            {
+              "other": "3rd year class standing"
+            },
+            {
+              "one_of": [
+                "EOSC 211",
+                "EOSC 213",
+                "CPSC 203",
+                "CPSC 210"
+              ]
+            },
+            "MATH 200",
+            {
+              "one_of": [
+                "EOSC 112",
+                "ATSC 201",
+                "EOSC 340",
+                "EOSC 345",
+                "GEOS 102",
+                "GEOG 312",
+                "PHYS 333"
+              ]
+            }
+          ]
+        },
+        "source": "llm",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 442",
+      "title": "Climate Measurement and Analysis",
+      "credits": "1",
+      "description": "Local climate time series collection and analysis. Retrieval and analysis of online climate data and model output. [0-3-0] Prerequisite: One of EOSC 340, EOSC 345 and one of CPSC 103, CPSC 110, EOSC 211, MATH 210, PHYS 210 and one of STAT 200, STAT 201, STAT 251, BIOL 300.",
+      "prereq": {
+        "text": "One of EOSC 340, EOSC 345 and one of CPSC 103, CPSC 110, EOSC 211, MATH 210, PHYS 210 and one of STAT 200, STAT 201, STAT 251, BIOL 300",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "EOSC 340",
+                "EOSC 345"
+              ]
+            },
+            {
+              "one_of": [
+                "CPSC 103",
+                "CPSC 110",
+                "EOSC 211",
+                "MATH 210",
+                "PHYS 210"
+              ]
+            },
+            {
+              "one_of": [
+                "STAT 200",
+                "STAT 201",
+                "STAT 251",
+                "BIOL 300"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 445",
+      "title": "Engineering Design Project",
+      "credits": "6",
+      "description": "Geological engineering design project from scope definition to final design. Based on a problem from industry. [2*-3-0, 2*-3-0] Prerequisite: All of EOSC 323, EOSC 330, CIVL 316. Corequisite: All of EOSC 433, CIVL 410.",
+      "prereq": {
+        "text": "All of EOSC 323, EOSC 330, CIVL 316",
+        "tree": {
+          "all_of": [
+            "EOSC 323",
+            "EOSC 330",
+            "CIVL 316"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": {
+        "text": "All of EOSC 433, CIVL 410",
+        "tree": {
+          "all_of": [
+            "EOSC 433",
+            "CIVL 410"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 447",
+      "title": "Thesis",
+      "credits": "6",
+      "description": "For B.A.Sc. Topic to be approved by the Department. [0-3-0]",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 448",
+      "title": "Directed Studies",
+      "credits": "3-6",
+      "description": "Investigation of a topic to be agreed upon by a member of the faculty and the student. Permission of an undergraduate advisor and of the supervising faculty member is required before registration.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 449",
+      "title": "Thesis",
+      "credits": "6",
+      "description": "Original research work under the direction of a faculty member. Required of all honours students. Open to major students with a satisfactory standing, appropriate background courses and permission of the course instructor and the directing faculty member.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 450",
+      "title": "Interior Structure of Earth and Planets",
+      "credits": "3",
+      "description": "Theory, application and quantitative interpretation of potential field methods for use in exploring the interior structure of Earth and planets. Topics drawn from problems in geophysical exploration, geodesy, geodynamics, geomagnetism, planetary magnetic fields, heat flow and fluid flow. [3-0-0] Prerequisite: One of PHYS 312, MATH 316, MATH 257 and one of PHYS 102, PHYS 108, PHYS 118, PHYS 158, SCIE 001.",
+      "prereq": {
+        "text": "One of PHYS 312, MATH 316, MATH 257 and one of PHYS 102, PHYS 108, PHYS 118, PHYS 158, SCIE 001",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "PHYS 312",
+                "MATH 316",
+                "MATH 257"
+              ]
+            },
+            {
+              "one_of": [
+                "PHYS 102",
+                "PHYS 108",
+                "PHYS 118",
+                "PHYS 158",
+                "SCIE 001"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 453",
+      "title": "Physics of the Earth and Other Planets",
+      "credits": "3",
+      "description": "Identification and quantitative analysis of diverse physical problems in the earth, ocean, atmospheric, and planetary sciences. [3-0-0] Prerequisite: One of PHYS 312, MATH 316, MATH 257.",
+      "prereq": {
+        "text": "One of PHYS 312, MATH 316, MATH 257",
+        "tree": {
+          "one_of": [
+            "PHYS 312",
+            "MATH 316",
+            "MATH 257"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 454",
+      "title": "Applied Geophysics",
+      "credits": "4",
+      "description": "Using geophysics to characterize the Earth's subsurface for resource exploration, engineering, or environmental applications. Data acquisition, processing, and interpretation of geophysical surveys. Inversion examples drawn from potential (electrical, magnetic, gravity) or wave field (seismic, ground penetrating radar) surveys. [3-2-0] Prerequisite: One of MATH 111, MATH 131, MATH 152, MATH 221, MATH 223, and one of EOSC 211, CPSC 203, CPSC 210, and one of MATH 316, PHYS 312, EOSC 350, EOSC 352.",
+      "prereq": {
+        "text": "One of MATH 111, MATH 131, MATH 152, MATH 221, MATH 223, and one of EOSC 211, CPSC 203, CPSC 210, and one of MATH 316, PHYS 312, EOSC 350, EOSC 352",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "MATH 111",
+                "MATH 131",
+                "MATH 152",
+                "MATH 221",
+                "MATH 223"
+              ]
+            },
+            {
+              "one_of": [
+                "EOSC 211",
+                "CPSC 203",
+                "CPSC 210"
+              ]
+            },
+            {
+              "one_of": [
+                "MATH 316",
+                "PHYS 312",
+                "EOSC 350",
+                "EOSC 352"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 470",
+      "title": "Biological Oceanography",
+      "credits": "3",
+      "description": "A quantitative examination of processes regulating the abundance, distribution and production of phytoplankton, zooplankton, microbes and fish. Controls of primary and secondary production, ecosystem dynamics and foodwebs. [3-0-0] Prerequisite: One of EOSC 372, EOSC 373.",
+      "prereq": {
+        "text": "One of EOSC 372, EOSC 373",
+        "tree": {
+          "one_of": [
+            "EOSC 372",
+            "EOSC 373"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 471",
+      "title": "Waves, Currents and Ocean Mixing",
+      "credits": "3",
+      "description": "Use of observations, theory and model results to solve physical oceanographic problems including applications to transport and mixing of pollutants or nutrients. [3-0-0] Prerequisite: EOSC 211 and one of ATSC 201, EOSC 372, GEOB 200 and one of SCIE 001, PHYS 101, PHYS 106, PHYS 107, PHYS 117, PHYS 131, PHYS 157.",
+      "prereq": {
+        "text": "EOSC 211 and one of ATSC 201, EOSC 372, GEOB 200 and one of SCIE 001, PHYS 101, PHYS 106, PHYS 107, PHYS 117, PHYS 131, PHYS 157",
+        "tree": {
+          "all_of": [
+            "EOSC 211",
+            {
+              "one_of": [
+                "ATSC 201",
+                "EOSC 372",
+                "GEOB 200"
+              ]
+            },
+            {
+              "one_of": [
+                "SCIE 001",
+                "PHYS 101",
+                "PHYS 106",
+                "PHYS 107",
+                "PHYS 117",
+                "PHYS 131",
+                "PHYS 157"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 472",
+      "title": "Chemical Oceanography and Marine Geochemistry",
+      "credits": "3",
+      "description": "Controls on chemical composition and elemental distributions in seawater and marine sediments (including nutrient elements, dissolved gases, the carbonate system, marine organic matter, and trace metals); solution chemistry of seawater; isotopic tracers of rates and dates in marine systems; geochemical balance in the oceans. [3-0-2*] Prerequisite: EOSC 373.",
+      "prereq": {
+        "text": "EOSC 373",
+        "tree": "EOSC 373",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 473",
+      "title": "Methods in Oceanography",
+      "credits": "3",
+      "description": "Methods of data acquisition, study and analysis required in solving oceanographic problems. Includes a field school held during the mid-term break. A fee is to be paid by January 31. Open to third- and fourth-year students in Oceanography, or with permission of the Department Head. [0-3-0] Prerequisite: One of EOSC 372, EOSC 373.",
+      "prereq": {
+        "text": "One of EOSC 372, EOSC 373",
+        "tree": {
+          "one_of": [
+            "EOSC 372",
+            "EOSC 373"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 474",
+      "title": "Marine Pollution",
+      "credits": "3",
+      "description": "An interdisciplinary study of pollution, with examples drawn from coastal and oceanic environments, including areas of local interest. Intended for third and fourth-year students with a background in the sciences. [3-0-0] Prerequisite: Third-year standing in Science.",
+      "prereq": {
+        "text": "Third-year standing in Science",
+        "tree": {
+          "other": "Third-year standing in Science"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 475",
+      "title": "Marine Microbiology",
+      "credits": "3",
+      "description": "Advanced biology, ecology and diversity of marine microbes. Emphasis on the roles of bacteria and viruses in marine foodwebs and geochemical cycles. [3-0-0] Prerequisite: A minimum of 6 credits of third-year level life science courses.",
+      "prereq": {
+        "text": "A minimum of 6 credits of third-year level life science courses",
+        "tree": {
+          "other": "A minimum of 6 credits of third-year level life science courses"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 478",
+      "title": "Introduction to Fisheries Science",
+      "credits": "3",
+      "description": "An introduction to the ecology and management of freshwater and marine fisheries. Topics include: population dynamics, species interactions, communities, environmental influences, stock assessment, economics and sociology of fisheries. Laboratories will consist of numerical analyses and simulations. [2-0-3]",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 490",
+      "title": "Student Directed Seminars in Earth, Ocean and Atmospheric Sciences",
+      "credits": "3",
+      "description": "Self-directed, collaborative studies in earth, ocean and atmospheric sciences, in a group-learning environment, initiated and coordinated by senior undergraduate students with the supervision of a faculty advisor. Course structure, enrolment, and delivery methods will comply with the Handbook for Student Directed Seminars. Prerequisite: Third-year standing. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "Third-year standing",
+        "tree": {
+          "other": "Third-year standing"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 498",
+      "title": "Co-operative Work Placement III",
+      "credits": "3",
+      "description": "Approved and supervised technical work experience in an industrial, university of government setting for a minimum of 14 weeks. Normally taken in the Summer Session (Terms 1 and 2) following third year. Technical report required. Restricted to students admitted to the Co-operative Education Option in Earth, Ocean and Atmospheric Sciences. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 499",
+      "title": "Co-operative Work Placement IV",
+      "credits": "3",
+      "description": "Approved and supervised technical work experience in an industrial, university or government setting for a minimum of 14 weeks. Normally taken in the Summer Session (Terms 1 and 2) following fourth year. Technical report required. Restricted to students admitted to the Co-operative Education Option in Earth, Ocean and Atmospheric Sciences. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 510",
+      "title": "Data Analysis in Atmospheric, Earth and Ocean Sciences",
+      "credits": "3",
+      "description": "[3-0-0]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 511",
+      "title": "Numerical Techniques for Ocean, Atmosphere and Earth Scientists",
+      "credits": "3",
+      "description": "This course is Web-based. Credit will not be granted for both ATSC 409 and ATSC 506/EOSC 511. Equivalency: ATSC 506. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "ATSC 506",
+      "recommended": null
+    },
+    {
+      "code": "EOSC 512",
+      "title": "Advanced Geophysical Fluid Dynamics",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 513",
+      "title": "Imaging and estimation with wavelets",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 514",
+      "title": "Introduction to Geological Fluid Mechanics",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 515",
+      "title": "Graduate Seminar Course",
+      "credits": "1",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 516",
+      "title": "Teaching and Learning in Earth, Ocean and Atmospheric Sciences",
+      "credits": "2",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 517",
+      "title": "Stable Isotopes in Earth, Ocean, and Environmental Sciences",
+      "credits": "3",
+      "description": "Principles of stable isotope geochemistry applied to environmental systems, including instrumentation, data and sample analysis, and applications to (paleo) climate, oceanographic and environmental research. [3-0-0] This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 518",
+      "title": "Science Communication and Outreach in Museum and Other Informal Learning Settings",
+      "credits": "3",
+      "description": "Theory and best practices for effective science communication in informal learning environments; common obstacles in communicating science to children and adults; design and rhetorical theory in the context of outreach development and communication; presentation of scientific phenomena to the public. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 519",
+      "title": "Carbonate-rich Magmas and Their Mineral Deposits",
+      "credits": "3",
+      "description": "Carbonate-rich magmas—specifically carbonatites and kimberlites—as sources of iron ores, phosphates, rare earth elements, niobium, and diamonds. Origins, geological characteristics, and exploration strategies of carbonatites and kimberlites as potential hosts of economically significant mineral deposits. Open to students with appropriate background courses (ex. one of EOSC 321, EOSC 322, or a course in Igneous or/and Metamorphic Petrology with a lab component from another university). This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 520",
+      "title": "Advanced Mineralogy",
+      "credits": "3",
+      "description": "Crystal structure, chemistry, origin and paragenesis of major rock-forming and ore minerals. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 521",
+      "title": "Microbeam and Diffraction Methods for the Characterization of Minerals and Materials",
+      "credits": "3",
+      "description": "[2-3-0]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 522",
+      "title": "Methods and Modelling in Petrology and Geochemistry",
+      "credits": "3",
+      "description": "[3-0-2]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 523",
+      "title": "Isotope Geology",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 524",
+      "title": "Problems in Paleontology",
+      "credits": "3",
+      "description": "Seminar. Given in alternate years. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 525",
+      "title": "Magmatic Ore Deposits",
+      "credits": "3",
+      "description": "Magmatic ore deposits and associated ore-forming systems with a focus on the petrology and geochemistry of mineralized intrusions and volcanic rocks. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 526",
+      "title": "Mechanics of Natural Deformation",
+      "credits": "3",
+      "description": "Lectures and laboratory problems. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 527",
+      "title": "Instrumentation and Monitoring in Geological Engineering Practice",
+      "credits": "3",
+      "description": "Investigative versus performance monitoring. Monitoring requirements, limitations and system support. Tactical versus strategic monitoring. Data analysis, utilization and communication. Integration of monitoring with geotechnical and groundwater modelling. Case histories. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 528",
+      "title": "Advanced Coal Geology",
+      "credits": "3",
+      "description": "The origin and character of coal and associated strata. Petrology, chemistry and physical properties of coal. Sedimentology of peat, biochemical and geochemical stages of coalification and oxidation of coal. Use of organic matter as a geothermometer and inbasinal analysis. Structural analysis and character of coal deposits. Analytical methods applied to coal. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 529",
+      "title": "Topics in Geohazard Risk Management",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 530",
+      "title": "Advanced Igneous Petrology",
+      "credits": "3",
+      "description": "Lectures, seminars and laboratories on the application of physical chemistry to the origin of igneous rocks; crystallization processes in silicate magmas; melt physical properties, heat transfer and fluid flow. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 531",
+      "title": "Exploration Methodology",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 532",
+      "title": "Field Laboratory in Groundwater Hydrology",
+      "credits": "3",
+      "description": "Hydraulic head measurements, water-quality sampling, pump and slug testing, infiltration measurements, profiling techniques. Computer analysis of field data. Held after spring term at the Richmond groundwater hydrology field site. Enrolment limitations. Prerequisite: EOSC 533. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "EOSC 533",
+        "tree": "EOSC 533",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 533",
+      "title": "Groundwater Modelling in Practice",
+      "credits": "3",
+      "description": "Models of steady-state and transient groundwater flow in the saturated and unsaturated zones; applications to regional groundwater flow, groundwater recharge, subsurface contributions to streamflow, aquifer evaluation; model calibration. Case histories. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 534",
+      "title": "Geological Engineering: Soils and Weak Rocks",
+      "credits": "3",
+      "description": "Consult the credit exclusion list in the Faculty of Science section of the Calendar. https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… . This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 535",
+      "title": "Transport Processes in Porous Media",
+      "credits": "3",
+      "description": "Transport of mass and heat in groundwater flow systems; modelling techniques including an introduction to the finite-element method; modelling of groundwater contamination. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 536",
+      "title": "Geotechnical Modelling in Practice",
+      "credits": "3",
+      "description": "Application of geomechanics and engineering design tools in complex geological environments. Influence and treatment of geological uncertainty; use of field data, geotechnical monitoring and numerical analyses for tunnelling, mining and rock slope engineering projects. Case histories. See credit exclusion list www.vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-sc… . This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 538",
+      "title": "Diamond Exploration",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 539",
+      "title": "Hydrothermal Ore Deposits",
+      "credits": "3",
+      "description": "Prerequisite: Completion of a course in Economic Geology. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "Completion of a course in Economic Geology",
+        "tree": {
+          "other": "Completion of a course in Economic Geology"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 540",
+      "title": "Advanced Groundwater Geochemistry",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 541",
+      "title": "Multi-component Reactive Transport Modelling in Groundwater",
+      "credits": "3",
+      "description": "Prerequisite: Either (a) EOSC 430 or (b) EOSC 540; and EOSC 533. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "Either (a) EOSC 430 or (b) EOSC 540; and EOSC 533",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "EOSC 430",
+                "EOSC 540"
+              ]
+            },
+            "EOSC 533"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 542",
+      "title": "Advanced Volcanology",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 543",
+      "title": "Topics in Solid Earth Sciences",
+      "credits": "1-3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 544",
+      "title": "Geodynamics",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 545",
+      "title": "Advanced Models in Mineral Deposits",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 546",
+      "title": "Advanced Field Methods in Earth Science",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 547",
+      "title": "Tunneling and Underground Engineering",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 548",
+      "title": "Graduating Paper for Masters Candidates without Thesis",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 549",
+      "title": "Master's Thesis",
+      "credits": "12-18",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 550",
+      "title": "Linear Inverse Theory",
+      "credits": "3",
+      "description": "Model construction, appraisal of nonuniqueness, and inference in linear problems. Tomographic inversions. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 551",
+      "title": "Streamflow Generation Mechanisms",
+      "credits": "3",
+      "description": "Streamflow generation mechanisms, hydrologic processes, transit time distribution, environmental changes, landscape evolution and ecohydrology. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 552",
+      "title": "Geomagnetism and Aeronomy",
+      "credits": "2-4",
+      "description": "Description of the geomagnetic field, dynamo theory of the origin of the geomagnetic field, transient magnetic variations, magnetic storms and ionospheric disturbances. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 554",
+      "title": "Theoretical Glaciology",
+      "credits": "2-4",
+      "description": "Lectures and seminars on theoretical aspects of glacier mechanics; flow, stress and temperature fields, sliding theory, flow instabilities. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 555",
+      "title": "Nonlinear Inverse Theory",
+      "credits": "2-4",
+      "description": "Model construction, appraisal of nonuniqueness, and inference in nonlinear problems. Stochastic inverses, constrained optimization, joint inversions and image processing. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 556",
+      "title": "Studies in Applied Geophysics",
+      "credits": "2-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 561",
+      "title": "Theory and Methods in Seismic Interpretation",
+      "credits": "2-6",
+      "description": "Topics to be selected from the following: forward modelling, analysis and inversion procedures as used in multichannel reflection, wide-angle reflection and refraction studies of the lithosphere. Velocity analyses, wave equation migration, dip moveout, synthetic seismograms, tomographic inversion, one-dimensional synthetic seismograms, tau-p methods, waveform inversion, two-dimensional ray tracing and synthetic seismograms, tomographic inversion. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 562",
+      "title": "Mechanics of Earthquakes and Faulting",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 570",
+      "title": "Paleoceanography",
+      "credits": "3",
+      "description": "[3-0-0]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 571",
+      "title": "Seminar in Physical Oceanography and Atmospheric Science",
+      "credits": "2-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 573",
+      "title": "Methods in Oceanography",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 575",
+      "title": "The Biology and Ecology of Marine Zooplanktonic Organisms",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 576",
+      "title": "Inorganic Chemical Tracers in the Study of Marine Systems",
+      "credits": "3",
+      "description": "The chemical composition of seawater, cycles of gases, trace metals and radionuclides within the sea, chemical tracers in the study of water mixing, water movement and changes in ocean currents over time. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 578",
+      "title": "Seminal Papers in Biological Oceanography",
+      "credits": "5",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 579",
+      "title": "Dynamic Oceanography",
+      "credits": "1",
+      "description": "Consult the Credit Exclusion List in the Faculty of Science section of the Calendar. Prerequisite: EOSC 512. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "EOSC 512",
+        "tree": "EOSC 512",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 580",
+      "title": "Physical Climate Modelling",
+      "credits": "3",
+      "description": "Climate models from 1D energy balance to fully coupled atmosphere-ocean general circulation models. Physics and thermodynamics of radiative balance and clouds. Spatial and temporal climate variability. Running simple climate models and data analysis from complex models. [3-0-0] This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 582",
+      "title": "Satellite Remote Sensing: Applications to Oceanography and Meteorology",
+      "credits": "3",
+      "description": "A review of the satellite-sensed data products used in research and operational aspects of oceanography and meteorology. Equivalency: GEOG 515. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "GEOG 515",
+      "recommended": null
+    },
+    {
+      "code": "EOSC 583",
+      "title": "Circulation Processes and Transport Mechanisms in Observational Oceanography",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 584",
+      "title": "Topics in Biological Oceanography",
+      "credits": "2-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 585",
+      "title": "Topics in Physical Oceanography",
+      "credits": "2-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 595",
+      "title": "Directed Studies",
+      "credits": "1-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 598",
+      "title": "M.Eng. Graduating Paper",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 599",
+      "title": "Thesis",
+      "credits": "12-18",
+      "description": "For M.A.Sc. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 649",
+      "title": "Doctoral Dissertation",
+      "credits": "0",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "EOSC 699",
+      "title": "Doctoral Dissertation",
+      "credits": "0",
+      "description": "For Ph.D. (Engineering). This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    }
+  ]
+}

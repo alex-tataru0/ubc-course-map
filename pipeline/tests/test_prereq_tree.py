@@ -1,9 +1,9 @@
 import pytest
 
-from build_prereqs import html_path
+from build_prereqs import SUBJECTS, html_path
 from llm import load_cache
 from parse_courses import parse_course_list
-from prereq_tree import normalize_codes, parse_with_rules, tree_problems
+from prereq_tree import expand_shorthand, normalize_codes, parse_with_rules, tree_problems
 from requisites import extract_requisites
 
 
@@ -23,6 +23,32 @@ def test_keeps_okanagan_suffix():
 
 def test_unwraps_brackets():
     assert normalize_codes("[CPSC320]") == "CPSC 320"
+
+
+def test_adds_a_missing_space():
+    # MICB 407's prerequisite and BIOL 351's equivalency
+    assert normalize_codes("MICB306") == "MICB 306"
+    assert normalize_codes("APBI351, FRST311") == "APBI 351, FRST 311"
+
+
+def test_fills_in_bare_numbers():
+    # ENVR 240 and MICB 322
+    assert expand_shorthand("One of STAT 200, 201, BIOL 300") == (
+        "One of STAT 200, STAT 201, BIOL 300"
+    )
+    assert expand_shorthand("MICB 211 (or 201)") == "MICB 211 (or MICB 201)"
+
+
+def test_fills_in_a_long_list():
+    # From MATH 190's description
+    assert expand_shorthand("MATH 100, 102, 104, 120, 180, or 184") == (
+        "MATH 100, MATH 102, MATH 104, MATH 120, MATH 180, or MATH 184"
+    )
+
+
+def test_leaves_levels_and_high_school_courses_alone():
+    for text in ["MATH 100, 200-level", "PHYS 12, 100", "Biology 12 or BIOL 100-level"]:
+        assert expand_shorthand(text) == text
 
 
 def test_leaves_non_courses_alone():
@@ -173,6 +199,13 @@ def test_lettered_option_after_a_full_stop():
     ]}
 
 
+def test_capitalized_and():
+    # BIOL 431
+    assert parse_with_rules("BIOL 200 And fourth-year standing") == {"all_of": [
+        "BIOL 200", {"other": "fourth-year standing"},
+    ]}
+
+
 def test_all_of_inside_all_of_is_flattened():
     # STAT 460
     text = "All of MATH 320, STAT 305 and one of MATH 152, MATH 221, MATH 223"
@@ -182,7 +215,8 @@ def test_all_of_inside_all_of_is_flattened():
 
 
 def test_gives_up_on_a_bare_number():
-    # MICB 322 and ENVR 240: "201" is short for a course code.
+    # MICB 322 and ENVR 240 as the calendar writes them: "201" is short for a course code.
+    # build_prereqs fills these in with expand_shorthand before the rules see them.
     assert parse_with_rules("MICB 211 (or 201)") is None
     assert parse_with_rules("One of STAT 200, 201, BIOL 300") is None
 
@@ -339,15 +373,17 @@ CPSC_221_TEXT = (
 )
 
 
-def test_every_rule_tree_passes_the_checker(courses):
-    for c in courses.values():
-        prereq = extract_requisites(c["description"])["prereq"]
-        if prereq is None:
-            continue
-        text = normalize_codes(prereq)
-        tree = parse_with_rules(text)
-        if tree is not None:
-            assert tree_problems(tree, text) == [], c["code"]
+@pytest.mark.parametrize("subject", SUBJECTS)
+def test_every_rule_tree_passes_the_checker(subject):
+    for c in subject_courses(subject).values():
+        reqs = extract_requisites(c["description"])
+        for key in ("prereq", "coreq"):
+            if reqs[key] is None:
+                continue
+            text = expand_shorthand(normalize_codes(reqs[key]))
+            tree = parse_with_rules(text)
+            if tree is not None:
+                assert tree_problems(tree, text) == [], (c["code"], key)
 
 
 def test_correct_hand_written_tree_passes():

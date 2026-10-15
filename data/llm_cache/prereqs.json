@@ -1,4 +1,24 @@
 {
+  "(a) 3rd year standing in Science, Land and Food Systems, or Forestry and Environmental Stewardship; and (b) One of MATH 101, MATH 103, MATH 105, MATH 121, SCIE 001": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "all_of": [
+        {
+          "other": "3rd year standing in Science, Land and Food Systems, or Forestry and Environmental Stewardship"
+        },
+        {
+          "one_of": [
+            "MATH 101",
+            "MATH 103",
+            "MATH 105",
+            "MATH 121",
+            "SCIE 001"
+          ]
+        }
+      ]
+    }
+  },
   "3 credits of Computer Science and at least third-year standing": {
     "model": "gemini-3.8-flash",
     "problems": [],
@@ -9,6 +29,37 @@
         },
         {
           "other": "at least third-year standing"
+        }
+      ]
+    }
+  },
+  "3rd year class standing, and one of EOSC 211, EOSC 213, CPSC 203, CPSC 210, and MATH 200, and one of EOSC 112, ATSC 201, EOSC 340, EOSC 345, GEOS 102,GEOG 312, PHYS 333": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "all_of": [
+        {
+          "other": "3rd year class standing"
+        },
+        {
+          "one_of": [
+            "EOSC 211",
+            "EOSC 213",
+            "CPSC 203",
+            "CPSC 210"
+          ]
+        },
+        "MATH 200",
+        {
+          "one_of": [
+            "EOSC 112",
+            "ATSC 201",
+            "EOSC 340",
+            "EOSC 345",
+            "GEOS 102",
+            "GEOG 312",
+            "PHYS 333"
+          ]
         }
       ]
     }
@@ -160,6 +211,36 @@
       ]
     }
   },
+  "All of a) DSCI 100 or DATA_O 101; b) MATH 100, MATH 110, MATH 120, MATH 180, SCIE 001 or MATH_O 100; and c) CPSC 103 or CPSC 110": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "all_of": [
+        {
+          "one_of": [
+            "DSCI 100",
+            "DATA_O 101"
+          ]
+        },
+        {
+          "one_of": [
+            "MATH 100",
+            "MATH 110",
+            "MATH 120",
+            "MATH 180",
+            "SCIE 001",
+            "MATH_O 100"
+          ]
+        },
+        {
+          "one_of": [
+            "CPSC 103",
+            "CPSC 110"
+          ]
+        }
+      ]
+    }
+  },
   "All of the following with a minimum grade of 76% in each of: (a) CPSC 310 or CPEN 321, (b) CPSC 313 or CPEN 331, and (c) CPSC 317 or ELEC 331": {
     "model": "gemini-3.8-flash",
     "problems": [],
@@ -204,6 +285,87 @@
       ]
     }
   },
+  "BIOL 200 and 3rd-year class standing or higher in Science and one of (a) BIOL 180 (or BIOL 140), or (b) SCIE 001, or (c) 3rd-year class standing in Combined Honours Biophysics": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "all_of": [
+        "BIOL 200",
+        {
+          "other": "3rd-year class standing or higher in Science"
+        },
+        {
+          "one_of": [
+            {
+              "one_of": [
+                "BIOL 180",
+                "BIOL 140"
+              ]
+            },
+            "SCIE 001",
+            {
+              "other": "3rd-year class standing in Combined Honours Biophysics"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "BIOL 200 or BIOL_O 200 and one of CHEM 233, CHEM 260, CHEM_O 213; or BIOL 200 or BIOL_O 200 and a corequisite of CHEM 213 or CHEM_O 204; or a corequisite of either CHEM 313 or CHEM 330": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "one_of": [
+        {
+          "all_of": [
+            {
+              "one_of": [
+                "BIOL 200",
+                "BIOL_O 200"
+              ]
+            },
+            {
+              "one_of": [
+                "CHEM 233",
+                "CHEM 260",
+                "CHEM_O 213"
+              ]
+            }
+          ]
+        },
+        {
+          "all_of": [
+            {
+              "one_of": [
+                "BIOL 200",
+                "BIOL_O 200"
+              ]
+            },
+            {
+              "other": "a corequisite of CHEM 213 or CHEM_O 204"
+            }
+          ]
+        },
+        {
+          "other": "a corequisite of either CHEM 313 or CHEM 330"
+        }
+      ]
+    }
+  },
+  "Biology 12 or BIOL 100-level": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "one_of": [
+        {
+          "other": "Biology 12"
+        },
+        {
+          "other": "BIOL 100-level"
+        }
+      ]
+    }
+  },
   "CPSC 320. and either BMEG 250 or six credits of BIOL beyond BIOL 111": {
     "model": "gemini-3.5-flash-lite",
     "problems": [],
@@ -221,6 +383,74 @@
       ]
     }
   },
+  "Class standing 3, and either (1) one of ENVR 300, BIOL 230, FRST 201 or (2) other demonstrated ecology background": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "all_of": [
+        {
+          "other": "Class standing 3"
+        },
+        {
+          "one_of": [
+            {
+              "one_of": [
+                "ENVR 300",
+                "BIOL 230",
+                "FRST 201"
+              ]
+            },
+            {
+              "other": "other demonstrated ecology background"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "Either (a) BIOL 112 and one of CHEM 123, CHEM 130 or (b) SCIE 001 or (c) 8 transfer credits of first-year BIOL and 6 credits of first-year CHEM or (d) one of BIOL 112 or BIOL 121 and a corequisite of one of CHEM 203, CHEM 223, CHEM_O 203": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "one_of": [
+        {
+          "all_of": [
+            "BIOL 112",
+            {
+              "one_of": [
+                "CHEM 123",
+                "CHEM 130"
+              ]
+            }
+          ]
+        },
+        "SCIE 001",
+        {
+          "all_of": [
+            {
+              "other": "8 transfer credits of first-year BIOL"
+            },
+            {
+              "other": "6 credits of first-year CHEM"
+            }
+          ]
+        },
+        {
+          "all_of": [
+            {
+              "one_of": [
+                "BIOL 112",
+                "BIOL 121"
+              ]
+            },
+            {
+              "other": "a corequisite of one of CHEM 203, CHEM 223, CHEM_O 203"
+            }
+          ]
+        }
+      ]
+    }
+  },
   "Either (a) CPSC 310 or (b) all of CPEN 321, CPEN 331": {
     "model": "gemini-3.8-flash",
     "problems": [],
@@ -231,6 +461,187 @@
           "all_of": [
             "CPEN 321",
             "CPEN 331"
+          ]
+        }
+      ]
+    }
+  },
+  "Either (a) a score more than 85% in all of PHYS 12, MATH 12 or (b) a score more than 85% in all of PHYS 12, PREC 12 or (c) a score more than 85% in all of PHYS 12, CALC 12 or (d) a score more than 85% in PHYS 100. PHYS 12 = Physics 12; MATH 12 = Principles of Mathematics 12; PREC 12 = Pre-Calculus 12; CALC 12 = Calculus 12": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "one_of": [
+        {
+          "all_of": [
+            {
+              "other": "a score more than 85% in Physics 12"
+            },
+            {
+              "other": "a score more than 85% in Principles of Mathematics 12"
+            }
+          ]
+        },
+        {
+          "all_of": [
+            {
+              "other": "a score more than 85% in Physics 12"
+            },
+            {
+              "other": "a score more than 85% in Pre-Calculus 12"
+            }
+          ]
+        },
+        {
+          "all_of": [
+            {
+              "other": "a score more than 85% in Physics 12"
+            },
+            {
+              "other": "a score more than 85% in Calculus 12"
+            }
+          ]
+        },
+        {
+          "other": "a score more than 85% in PHYS 100"
+        }
+      ]
+    }
+  },
+  "Either (a) a score of 85% or higher in all of PHYS 12, MATH 12 or (b) a score of 85% or higher in all of PHYS 12, PREC 12 or (c) a score of 85% or higher in all of PHYS 12, CALC 12 or (d) a score of 85% or higher in PHYS 100. MATH 12 = Principles of Mathematics 12; PREC 12 = Pre-Calculus 12; CALC 12 = Calculus 12; PHYS 12 = Physics 12": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "one_of": [
+        {
+          "all_of": [
+            {
+              "other": "85% or higher in Physics 12"
+            },
+            {
+              "other": "85% or higher in Principles of Mathematics 12"
+            }
+          ]
+        },
+        {
+          "all_of": [
+            {
+              "other": "85% or higher in Physics 12"
+            },
+            {
+              "other": "85% or higher in Pre-Calculus 12"
+            }
+          ]
+        },
+        {
+          "all_of": [
+            {
+              "other": "85% or higher in Physics 12"
+            },
+            {
+              "other": "85% or higher in Calculus 12"
+            }
+          ]
+        },
+        {
+          "course": "PHYS 100",
+          "min_grade": 85
+        }
+      ]
+    }
+  },
+  "Either (a) all of BIOL 112, BIOL 121 or (b) SCIE 001 or (c) a corequisite of one of CHEM 203 or CHEM 223 or CHEM_O 203 and one of BIOL 112 or BIOL 121 or (d) 8 transfer credits of first-year BIOL": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "one_of": [
+        {
+          "all_of": [
+            "BIOL 112",
+            "BIOL 121"
+          ]
+        },
+        "SCIE 001",
+        {
+          "all_of": [
+            {
+              "other": "a corequisite of one of CHEM 203 or CHEM 223 or CHEM_O 203"
+            },
+            {
+              "one_of": [
+                "BIOL 112",
+                "BIOL 121"
+              ]
+            }
+          ]
+        },
+        {
+          "other": "8 transfer credits of first-year BIOL"
+        }
+      ]
+    }
+  },
+  "Either (a) all of BIOL 112, BIOL 121 or (b) SCIE 001. ; or (c) a corequisite of one of CHEM 203 or CHEM 223 and one of BIOL 112 or BIOL 121": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "one_of": [
+        {
+          "all_of": [
+            "BIOL 112",
+            "BIOL 121"
+          ]
+        },
+        "SCIE 001",
+        {
+          "all_of": [
+            {
+              "other": "a corequisite of one of CHEM 203 or CHEM 223"
+            },
+            {
+              "one_of": [
+                "BIOL 112",
+                "BIOL 121"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "Either (a) all of PHYS 108, PHYS 109 or (b) one of PHYS 102, PHYS 153 or (c) SCIE 001 or (d) all of PHYS 158, PHYS 159 or (e) all of PHYS 118, PHYS 119 or (f) all of PHYS 108, PHYS 119": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "one_of": [
+        {
+          "all_of": [
+            "PHYS 108",
+            "PHYS 109"
+          ]
+        },
+        {
+          "one_of": [
+            "PHYS 102",
+            "PHYS 153"
+          ]
+        },
+        "SCIE 001",
+        {
+          "all_of": [
+            "PHYS 158",
+            "PHYS 159"
+          ]
+        },
+        {
+          "all_of": [
+            "PHYS 118",
+            "PHYS 119"
+          ]
+        },
+        {
+          "all_of": [
+            "PHYS 108",
+            "PHYS 119"
           ]
         }
       ]
@@ -370,6 +781,26 @@
       ]
     }
   },
+  "Either a) BIOL 200 and one of either BIOL 201 or BIOC 202, or b) BIOT 380": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "one_of": [
+        {
+          "all_of": [
+            "BIOL 200",
+            {
+              "one_of": [
+                "BIOL 201",
+                "BIOC 202"
+              ]
+            }
+          ]
+        },
+        "BIOT 380"
+      ]
+    }
+  },
   "Either a) a score of 68% or higher in MATH 120, b) a score of 80% or higher in MATH 100, MATH 102, MATH 104, MATH 180, MATH 184, or c) a score of 5 in AP Calculus AB": {
     "model": "gemini-3.8-flash",
     "problems": [],
@@ -461,6 +892,54 @@
             "MATH 400",
             {
               "other": "equivalent"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "MICB 211 (or MICB 201)": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "one_of": [
+        "MICB 211",
+        "MICB 201"
+      ]
+    }
+  },
+  "One of (a) DSCI 221, (b) DSCI 100 and one of CPSC 203, CPSC 210, CPEN 221, or (c) DSCI 100, either MATH 210 or ECON 323, and either CPSC 107 or CPSC 110": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "one_of": [
+        "DSCI 221",
+        {
+          "all_of": [
+            "DSCI 100",
+            {
+              "one_of": [
+                "CPSC 203",
+                "CPSC 210",
+                "CPEN 221"
+              ]
+            }
+          ]
+        },
+        {
+          "all_of": [
+            "DSCI 100",
+            {
+              "one_of": [
+                "MATH 210",
+                "ECON 323"
+              ]
+            },
+            {
+              "one_of": [
+                "CPSC 107",
+                "CPSC 110"
+              ]
             }
           ]
         }
@@ -631,6 +1110,36 @@
       ]
     }
   },
+  "One of CHEM 312, PHYS 304. Students with CHEM 205 with a minimum grade of 76% may be admitted with permission of the instructor": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "one_of": [
+        "CHEM 312",
+        "PHYS 304",
+        {
+          "other": "Students with CHEM 205 with a minimum grade of 76% may be admitted with permission of the instructor"
+        }
+      ]
+    }
+  },
+  "One of CHEM 345, CHEM 335. Students satisfying the prerequisite requirement using CHEM 335 must have 4th-year class standing in a Chemistry Combined Major specialization": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "one_of": [
+        "CHEM 345",
+        {
+          "all_of": [
+            "CHEM 335",
+            {
+              "other": "Students satisfying the prerequisite requirement using CHEM 335 must have 4th-year class standing in a Chemistry Combined Major specialization"
+            }
+          ]
+        }
+      ]
+    }
+  },
   "One of CPSC 210, CPEN 221 and either (a) one of CPSC 121, MATH 220, MATH_O 220 or (b) a score of 68% or higher in MATH 226": {
     "model": "gemini-3.8-flash",
     "problems": [],
@@ -745,6 +1254,23 @@
       ]
     }
   },
+  "One of MICB 302, BIOT 380. If MICB 302 is used as the prerequisite for MICB 402, students are required to take one of the following as a corequisite: BIOL 234, BIOL 335, MICB 325": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "all_of": [
+        {
+          "one_of": [
+            "MICB 302",
+            "BIOT 380"
+          ]
+        },
+        {
+          "other": "If MICB 302 is used as the prerequisite for MICB 402, students are required to take one of the following as a corequisite: BIOL 234, BIOL 335, MICB 325"
+        }
+      ]
+    }
+  },
   "One of any course on the MATH 100 credit exclusion list [ https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult\u2026 ], MATH 190, SCIE 001, MATH_O 100": {
     "model": "gemini-3.8-flash",
     "problems": [],
@@ -799,6 +1325,36 @@
         },
         {
           "other": "permission of the department"
+        }
+      ]
+    }
+  },
+  "Third-year standing or higher in Combined Major in Science, and one of (a) BIOL 121 and BIOL 180 (or BIOL 140), or (b) SCIE 001, or (c) 8 transfer credits of first-year biology": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "all_of": [
+        {
+          "other": "Third-year standing or higher in Combined Major in Science"
+        },
+        {
+          "one_of": [
+            {
+              "all_of": [
+                "BIOL 121",
+                {
+                  "one_of": [
+                    "BIOL 180",
+                    "BIOL 140"
+                  ]
+                }
+              ]
+            },
+            "SCIE 001",
+            {
+              "other": "8 transfer credits of first-year biology"
+            }
+          ]
         }
       ]
     }

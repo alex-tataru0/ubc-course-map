@@ -355,7 +355,7 @@
       "code": "STAT 321",
       "title": "Stochastic Signals and Systems",
       "credits": "4",
-      "description": "Stochastic behaviour of signals and systems (e.g., communication systems); discrete and continuous probability; random processes; modelling and identification of linear time-invariant systems; binary hypothesis testing and decision making. [3-0-2] Prerequisite: One of ELEC 221, STAT 305. STAT 305 may be taken concurrently, with registration assistance from the Student Programs Coordinator in the Department of Statistics. Equivalency: ELEC321",
+      "description": "Stochastic behaviour of signals and systems (e.g., communication systems); discrete and continuous probability; random processes; modelling and identification of linear time-invariant systems; binary hypothesis testing and decision making. [3-0-2] Prerequisite: One of ELEC 221, STAT 305. STAT 305 may be taken concurrently, with registration assistance from the Student Programs Coordinator in the Department of Statistics. Equivalency: ELEC 321",
       "prereq": {
         "text": "One of ELEC 221, STAT 305. STAT 305 may be taken concurrently, with registration assistance from the Student Programs Coordinator in the Department of Statistics",
         "tree": {
@@ -371,7 +371,7 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": "ELEC321",
+      "equivalency": "ELEC 321",
       "recommended": null
     },
     {

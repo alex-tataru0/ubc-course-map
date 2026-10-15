@@ -1,0 +1,475 @@
+{
+  "subject": "ATSC",
+  "source": "https://vancouver.calendar.ubc.ca/course-descriptions/subject/atscv",
+  "courses": [
+    {
+      "code": "ATSC 113",
+      "title": "Weather Science for Sailing, Flying, and Snow Sports",
+      "credits": "3",
+      "description": "Atmospheric-science principles elucidated by case studies applied to sailing, soaring, flying and snow sports. [3-0-0]",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ATSC 201",
+      "title": "Meteorology of Storms",
+      "credits": "3",
+      "description": "Characteristics and physical processes of thunderstorms, tornadoes, lightning, hail, hurricanes, blizzards, cyclones and other storms. Recommended pre-requisite: completion of first-year science. [3-0-0]",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ATSC 212",
+      "title": "Earth and Atmospheric Science Introductory Computing Laboratory",
+      "credits": "1",
+      "description": "Computing tools, including Unix/Linux, Web page creation, programming languages used for numerical calculation, database programs. Recommended pre-requisites: one of CPSC 103, CPSC 110. [0-2]",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ATSC 301",
+      "title": "Atmospheric Radiation and Remote Sensing",
+      "credits": "3",
+      "description": "Energy transfer at infrared, visible, and microwave wavelengths. Analysis of satellite measurements of the atmosphere and surface. [3-0-0] Prerequisite: One of PHYS 102, PHYS 108, PHYS 118, PHYS 158. and familiarity with a programming language.",
+      "prereq": {
+        "text": "One of PHYS 102, PHYS 108, PHYS 118, PHYS 158. and familiarity with a programming language",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "PHYS 102",
+                "PHYS 108",
+                "PHYS 118",
+                "PHYS 158"
+              ]
+            },
+            {
+              "other": "familiarity with a programming language"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ATSC 303",
+      "title": "Methods in Atmospheric Science",
+      "credits": "3",
+      "description": "An introduction to instrumentation used in monitoring the state of the atmosphere; a brief survey of methods of analysis of meteorological data. [2-2-0] Prerequisite: One of EOSC 211, CPSC 103, CPSC 110 and one of ATSC 201, GEOB 200, GEOS 200.",
+      "prereq": {
+        "text": "One of EOSC 211, CPSC 103, CPSC 110 and one of ATSC 201, GEOB 200, GEOS 200",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "EOSC 211",
+                "CPSC 103",
+                "CPSC 110"
+              ]
+            },
+            {
+              "one_of": [
+                "ATSC 201",
+                "GEOB 200",
+                "GEOS 200"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ATSC 313",
+      "title": "Renewable Energy Meteorology",
+      "credits": "3",
+      "description": "The meteorology of hydro, wind, and solar power. Atmospheric processes affecting renewable energy on global, regional & local weather scales. [3-0-0] Prerequisite: One of MATH 101, MATH 103, MATH 105, MATH 121 and one of PHYS 101, PHYS 106, PHYS 107, PHYS 117, PHYS 131, PHYS 157 and one of APSC 160, CPSC 103, CPSC 110, DSCI 100, EOSC 211.",
+      "prereq": {
+        "text": "One of MATH 101, MATH 103, MATH 105, MATH 121 and one of PHYS 101, PHYS 106, PHYS 107, PHYS 117, PHYS 131, PHYS 157 and one of APSC 160, CPSC 103, CPSC 110, DSCI 100, EOSC 211",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "MATH 101",
+                "MATH 103",
+                "MATH 105",
+                "MATH 121"
+              ]
+            },
+            {
+              "one_of": [
+                "PHYS 101",
+                "PHYS 106",
+                "PHYS 107",
+                "PHYS 117",
+                "PHYS 131",
+                "PHYS 157"
+              ]
+            },
+            {
+              "one_of": [
+                "APSC 160",
+                "CPSC 103",
+                "CPSC 110",
+                "DSCI 100",
+                "EOSC 211"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ATSC 398",
+      "title": "Co-operative Work Placement I",
+      "credits": "3",
+      "description": "Approved and supervised technical work experience in an industrial, university or government setting for a minimum of 14 weeks. Normally taken in the Winter Session (Term 2) in third year. Technical report required. Restricted to students admitted to Co-operative Education Program in Atmospheric Science. Prerequisite: ATSC 201 and one of GEOB 300, GEOS 300. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "ATSC 201 and one of GEOB 300, GEOS 300",
+        "tree": {
+          "all_of": [
+            "ATSC 201",
+            {
+              "one_of": [
+                "GEOB 300",
+                "GEOS 300"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ATSC 399",
+      "title": "Co-operative Work Placement II",
+      "credits": "3",
+      "description": "Approved and supervised technical work experience in an industrial, university or government setting for a minimum of 14 weeks. Normally taken in the Summer Session (Terms 1 and 2) following third year. Technical report required. Restricted to students admitted to the Co-operative Education Program in Atmospheric Science. Prerequisite: ATSC 398. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "ATSC 398",
+        "tree": "ATSC 398",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ATSC 404",
+      "title": "Dynamic Meteorology",
+      "credits": "3",
+      "description": "Dynamic principles governing atmospheric motions on a rotating planet. Simplified mathematical models of atmospheric flow based on scale analysis. Application to synoptic-scale and general circulation of the troposphere. [3-0-0] Prerequisite: One of EOSC 352, MATH 316, PHYS 312 and one of EOSC 250, MATH 217, MATH 317.",
+      "prereq": {
+        "text": "One of EOSC 352, MATH 316, PHYS 312 and one of EOSC 250, MATH 217, MATH 317",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "EOSC 352",
+                "MATH 316",
+                "PHYS 312"
+              ]
+            },
+            {
+              "one_of": [
+                "EOSC 250",
+                "MATH 217",
+                "MATH 317"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ATSC 405",
+      "title": "Cloud Physics and Chemistry",
+      "credits": "3",
+      "description": "Cloud thermodynamics, chemistry and microphysics. Computer modelling of droplet growth, convection, and mixing. Application of differential equations to atmospheric problems. [3-0-0] Prerequisite: MATH 215. Familiarity with a programming language is required. Corequisite: One of PHYS 203, CHEM 304.",
+      "prereq": {
+        "text": "MATH 215. Familiarity with a programming language is required",
+        "tree": {
+          "all_of": [
+            "MATH 215",
+            {
+              "other": "Familiarity with a programming language is required"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": {
+        "text": "One of PHYS 203, CHEM 304",
+        "tree": {
+          "one_of": [
+            "PHYS 203",
+            "CHEM 304"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ATSC 409",
+      "title": "Numerical Techniques for Ocean, Atmosphere and Earth Scientists",
+      "credits": "3",
+      "description": "Web-based introduction to the practical numerical solution of ordinary and partial differential equations including considerations of stability and accuracy. Credit will be granted for only one of ATSC 409 or ATSC 506/EOSC 511. [0-0-3] Prerequisite: One of MATH 215, MATH 255, MATH 256, MATH 265. Familiarity with a programming language is required.",
+      "prereq": {
+        "text": "One of MATH 215, MATH 255, MATH 256, MATH 265. Familiarity with a programming language is required",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "MATH 215",
+                "MATH 255",
+                "MATH 256",
+                "MATH 265"
+              ]
+            },
+            {
+              "other": "Familiarity with a programming language is required"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ATSC 413",
+      "title": "Forest-fire Weather and Climate",
+      "credits": "3",
+      "description": "Synoptic and mesoscale meteorology and weather forecasting applied to wildfires. Effect of weather on fire behaviour, danger, smoke, climate and sustainability at the urban-forest interface. [2-2-0] Prerequisite: One of ATSC 201, GEOS 200.",
+      "prereq": {
+        "text": "One of ATSC 201, GEOS 200",
+        "tree": {
+          "one_of": [
+            "ATSC 201",
+            "GEOS 200"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ATSC 448",
+      "title": "Directed Studies",
+      "credits": "3-6",
+      "description": "Investigation of a topic to be agreed upon by a member of the faculty and the student. Permission of the undergraduate advisor and of the supervising faculty member is required before registration.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ATSC 449",
+      "title": "Honours Project",
+      "credits": "6",
+      "description": "Honours students must submit a graduating report based on a project undertaken with the approval of the Associate Chair of the Atmospheric Science Program.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ATSC 490",
+      "title": "Student Directed Seminars in Atmospheric Science",
+      "credits": "3",
+      "description": "Self-directed, collaborative studies in atmospheric science, in a group-learning environment, initiated and coordinated by senior undergraduate students with the supervision of a faculty advisor. Course structure, enrolment, and delivery methods will comply with the Handbook for Student Directed Seminars. Prerequisite: Third-year standing. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "Third-year standing",
+        "tree": {
+          "other": "Third-year standing"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ATSC 498",
+      "title": "Co-operative Work Placement III",
+      "credits": "3",
+      "description": "Approved and supervised technical work experience in an industrial, university or government setting for a minimum of 14 weeks. Normally taken in the Summer Session (Terms 1 and 2) after fourth year. Technical report required. Restricted to students admitted to the Co-operative Education Program in Atmospheric Science. Prerequisite: ATSC 399 and one of ATSC 303, GEOB 304, GEOS 304. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "ATSC 399 and one of ATSC 303, GEOB 304, GEOS 304",
+        "tree": {
+          "all_of": [
+            "ATSC 399",
+            {
+              "one_of": [
+                "ATSC 303",
+                "GEOB 304",
+                "GEOS 304"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ATSC 499",
+      "title": "Co-operative Work Placement IV",
+      "credits": "3",
+      "description": "Approved and supervised technical work experience in an industrial, university or government setting for a minimum of 14 weeks. Normally taken in Winter Session (Term 1) of the fifth year. Technical report required. Restricted to students admitted to the Co-operative Education Program in Atmospheric Science. Prerequisite: ATSC 498. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "ATSC 498",
+        "tree": "ATSC 498",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ATSC 500",
+      "title": "Boundary-Layer Meteorology",
+      "credits": "3",
+      "description": "Theoretical and empirical analysis of the atmospheric boundary layer with particular emphasis on energy and mass exchanges near the Earth's surface. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ATSC 506",
+      "title": "Numerical Techniques for Ocean, Atmosphere and Earth Scientists",
+      "credits": "3",
+      "description": "Credit will be granted for only one of ATSC 409 or ATSC 506/EOSC 511. Equivalency: EOSC 511. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "EOSC 511",
+      "recommended": null
+    },
+    {
+      "code": "ATSC 507",
+      "title": "Numerical Weather Prediction",
+      "credits": "3",
+      "description": "Prerequisite: All of a fluid-dynamics course, a numerical-methods course, as well as computer-programming skills. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "All of a fluid-dynamics course, a numerical-methods course, as well as computer-programming skills",
+        "tree": {
+          "other": "All of a fluid-dynamics course, a numerical-methods course, as well as computer-programming skills"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ATSC 548",
+      "title": "Master's Graduation Essay",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ATSC 595",
+      "title": "Directed Studies",
+      "credits": "2-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ATSC 597",
+      "title": "Co-operative Work Placement I",
+      "credits": "3",
+      "description": "Restricted to students admitted to the M.Sc. Co-operative Education Option in Atmospheric Science. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ATSC 598",
+      "title": "Co-operative Work Placement II",
+      "credits": "3",
+      "description": "Restricted to students admitted to the M.Sc. Co-operative Education Option in Atmospheric Science. Prerequisite: ATSC 597. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "ATSC 597",
+        "tree": "ATSC 597",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ATSC 599",
+      "title": "Master's Thesis",
+      "credits": "12-18",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ATSC 699",
+      "title": "Doctoral Dissertation",
+      "credits": "0",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    }
+  ]
+}

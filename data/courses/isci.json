@@ -1,0 +1,385 @@
+{
+  "subject": "ISCI",
+  "source": "https://vancouver.calendar.ubc.ca/course-descriptions/subject/isciv",
+  "courses": [
+    {
+      "code": "ISCI 300",
+      "title": "Interdisciplinary Seminar",
+      "credits": "1",
+      "description": "Critical analysis of recent scientific literature that combines disciplines that students are integrating in their Integrated Sciences Curriculum. [0-0-1.5]. Prerequisite: Registration in Integrated Sciences Program. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "Registration in Integrated Sciences Program",
+        "tree": {
+          "other": "Registration in Integrated Sciences Program"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ISCI 311",
+      "title": "The Size of Things",
+      "credits": "3",
+      "description": "Scaling as a general approach to laws governing the geometry, kinematics and dynamics of systems. Dimensional analysis, isometry and allometry applied to topics from Biology, Physics, Earth Science and Economics. Priority to students in the Integrated Sciences Program. [2-0-2] Prerequisite: Third-year standing in the Faculty of Science.",
+      "prereq": {
+        "text": "Third-year standing in the Faculty of Science",
+        "tree": {
+          "other": "Third-year standing in the Faculty of Science"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ISCI 312",
+      "title": "Symmetry",
+      "credits": "3",
+      "description": "Recognizing symmetry; point groups in 2D and 3D; plane groups in 2D; space groups in 3D; the role of symmetry in the natural and human world. [3-0-0] Prerequisite: Third-year standing in the Faculty of Science.",
+      "prereq": {
+        "text": "Third-year standing in the Faculty of Science",
+        "tree": {
+          "other": "Third-year standing in the Faculty of Science"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ISCI 320",
+      "title": "Research Development Project",
+      "credits": "3",
+      "description": "Retreat to develop skills in writing scientific research proposals. Emphasis on formulating and testing hypotheses to explain observations. Course location will vary; fee payable prior to retreat. Prerequisite: Third-year standing in the Faculty of Science.",
+      "prereq": {
+        "text": "Third-year standing in the Faculty of Science",
+        "tree": {
+          "other": "Third-year standing in the Faculty of Science"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ISCI 322",
+      "title": "Science of Measurement and Instrumentation",
+      "credits": "3",
+      "description": "Interactive course integrating diverse aspects of science: semi-quantitative overview of physical principles underlying modern measurement technology; philosophy of measurement; accuracy and limits to measurement, and resultant scientific, sociological and economic consequences. Priority to students in the Integrated Sciences Program. Prerequisite: Third-year standing in the Faculty of Science.",
+      "prereq": {
+        "text": "Third-year standing in the Faculty of Science",
+        "tree": {
+          "other": "Third-year standing in the Faculty of Science"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ISCI 330",
+      "title": "Topics in Integrated Sciences",
+      "credits": "3-6",
+      "description": "Interactive examination of a theme common to all areas of science. Themes will change from year to year. Priority to students in the Integrated Sciences Program. [3-0-0] Prerequisite: Third-year standing in the Faculty of Science",
+      "prereq": {
+        "text": "Third-year standing in the Faculty of Science",
+        "tree": {
+          "other": "Third-year standing in the Faculty of Science"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ISCI 344",
+      "title": "Theory and Practice of Games in Economics and Evolution",
+      "credits": "3",
+      "description": "Exploration of human and animal interactions: integrating evolutionary and economic perspectives to investigate individual and social behaviour. Credit will be granted for only one of ECON 221 or ISCI 344. [3-0-0] Prerequisite: Third-year standing.",
+      "prereq": {
+        "text": "Third-year standing",
+        "tree": {
+          "other": "Third-year standing"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ISCI 345",
+      "title": "Integrative Bioinformatics",
+      "credits": "3",
+      "description": "Storage and processing of information in biological systems. Computational methods for recovering and interpreting stored genetic information. Priority to students in the Integrated Sciences Program. [2-0-2] Prerequisite: Third-year standing in the Faculty of Science.",
+      "prereq": {
+        "text": "Third-year standing in the Faculty of Science",
+        "tree": {
+          "other": "Third-year standing in the Faculty of Science"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ISCI 350",
+      "title": "Darwinian Medicine",
+      "credits": "3",
+      "description": "Using the Darwinian theory of natural selection to explore explanations of infectious diseases, allergies, cancer, mental illness, and other human diseases. Priority to students in the Integrated Sciences Program. Please consult the Faculty of Science Credit Exclusion Lists: www.vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-sc… [2-0-2] Prerequisite: Third-year standing in the Faculty of Science. Equivalency: BIOL 350",
+      "prereq": {
+        "text": "Third-year standing in the Faculty of Science",
+        "tree": {
+          "other": "Third-year standing in the Faculty of Science"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": "BIOL 350",
+      "recommended": null
+    },
+    {
+      "code": "ISCI 351",
+      "title": "Why the Big Brain? The Evolution of Human Cognition",
+      "credits": "3",
+      "description": "Evolutionary causes, consequences and constraints of human cognition; enhanced encephalization and mentalizing capabilities throughout the Primate Order, and the emergence of cognitive faculties that define the human species. [3-0-0] Prerequisite: Third-year or higher standing in the Faculty of Science.",
+      "prereq": {
+        "text": "Third-year or higher standing in the Faculty of Science",
+        "tree": {
+          "other": "Third-year or higher standing in the Faculty of Science"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ISCI 360",
+      "title": "Systems Approaches to Regional Sustainability",
+      "credits": "3",
+      "description": "Application of systems science encompassing geological, hydrological, ecological, atmospheric sciences, and energy systems approaches to study regional sustainability. [3-0-0] Prerequisite: Third-year or higher standing in the Faculty of Science.",
+      "prereq": {
+        "text": "Third-year or higher standing in the Faculty of Science",
+        "tree": {
+          "other": "Third-year or higher standing in the Faculty of Science"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ISCI 361",
+      "title": "Field Course: Systems Approaches to Regional Sustainability",
+      "credits": "3",
+      "description": "Systems science approaches encompassing geological, hydrological, ecological, atmospheric sciences, and energy systems to investigate a selected region of the world. Course location will vary; fee payable prior to field course.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ISCI 398",
+      "title": "Co-operative Work Placement I",
+      "credits": "3",
+      "description": "Industrial or academic work experience for a minimum of 4 months. Normally taken in Winter Session of third year or Summer Session after third year. Technical report required. Restricted to students in the ISP Co-op program. Prerequisite: One term in ISP.",
+      "prereq": {
+        "text": "One term in ISP",
+        "tree": {
+          "other": "One term in ISP"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ISCI 399",
+      "title": "Co-operative Work Placement II",
+      "credits": "3",
+      "description": "Industrial or academic work experience for a minimum of 4 months. Technical report required. Restricted to students admitted to the Co-op Program in ISP. Prerequisite: ISCI 398.",
+      "prereq": {
+        "text": "ISCI 398",
+        "tree": "ISCI 398",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ISCI 400",
+      "title": "Integrated Sciences Graduating Seminar",
+      "credits": "1",
+      "description": "Reflection of Integrated Sciences degree experience, development of professional skills, and a showcase of degree integrations to the community. Pass/Fail. [0-0-2.5] Prerequisite: Fourth-year standing in the Integrated Sciences specialization. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "Fourth-year standing in the Integrated Sciences specialization",
+        "tree": {
+          "other": "Fourth-year standing in the Integrated Sciences specialization"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ISCI 422",
+      "title": "Models in Science",
+      "credits": "3",
+      "description": "Meaning, nature, use, strengths and limitations of models as investigative tools in all scientific disciplines. Detailed investigation of selected model systems from different scientific disciplines. Priority to students in the Integrated Sciences Program. [2-0-2] Prerequisite: Third-year standing in the Faculty of Science.",
+      "prereq": {
+        "text": "Third-year standing in the Faculty of Science",
+        "tree": {
+          "other": "Third-year standing in the Faculty of Science"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ISCI 433",
+      "title": "Ethical Issues in Science",
+      "credits": "3",
+      "description": "Theoretical and practical consideration of ethics in the practice, reporting, public impact and accountability of science. [3-0-0] Prerequisite: Third-year standing in any faculty.",
+      "prereq": {
+        "text": "Third-year standing in any faculty",
+        "tree": {
+          "other": "Third-year standing in any faculty"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ISCI 434",
+      "title": "Non-Animal Methods in Biomedical Science",
+      "credits": "3",
+      "description": "Interdisciplinary non-animal methods (e.g., organoids, organ-on-a-chip, 3D bioprinting) for research, testing, and education; the regulatory landscape. [3-0-0] Prerequisite: Third-year standing.",
+      "prereq": {
+        "text": "Third-year standing",
+        "tree": {
+          "other": "Third-year standing"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ISCI 448",
+      "title": "Directed Studies",
+      "credits": "3-6",
+      "description": "Permission of the Director is required.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ISCI 449",
+      "title": "Interdisciplinary Honours Thesis",
+      "credits": "6",
+      "description": "Original research work under the guidance of a faculty member. Registration by approval of the Integrated Sciences Director. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ISCI 461",
+      "title": "Comparative Field Research Course: Systems Approaches to Regional Sustainability",
+      "credits": "3",
+      "description": "Systems science approaches encompassing geological, hydrological, ecological, atmospheric sciences, and energy systems to investigate, analyze and research two unique regions of the world. Course location may vary; course location must be different than ISCI 361; fee payable prior to field course. [3-0-0] Prerequisite: ISCI 361.",
+      "prereq": {
+        "text": "ISCI 361",
+        "tree": "ISCI 361",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ISCI 490",
+      "title": "Student Directed Seminars",
+      "credits": "3",
+      "description": "Self-directed, collaborative studies, in a group-learning environment, initiated and coordinated by senior undergraduate students with the supervision of a faculty advisor. Course structure, enrolment and delivery methods will comply with the Handbook for Student Directed Seminars. [3-0-0] Prerequisite: Third-year standing in the Faculty of Science.",
+      "prereq": {
+        "text": "Third-year standing in the Faculty of Science",
+        "tree": {
+          "other": "Third-year standing in the Faculty of Science"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ISCI 498",
+      "title": "Co-operative Work Placement III",
+      "credits": "3",
+      "description": "Industrial or academic work experience for a minimum of 4 months. Technical report required. Restricted to students admitted to the Co-op Program in ISP. Prerequisite: ISCI 399.",
+      "prereq": {
+        "text": "ISCI 399",
+        "tree": "ISCI 399",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ISCI 499",
+      "title": "Co-Operative Work Placement IV",
+      "credits": "3",
+      "description": "Industrial or academic work experience for a minimum of 4 months. Technical report required. Restricted to students admitted to the Co-op Program in ISP. Prerequisite: ISCI 498.",
+      "prereq": {
+        "text": "ISCI 498",
+        "tree": "ISCI 498",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    }
+  ]
+}

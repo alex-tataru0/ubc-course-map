@@ -1,0 +1,264 @@
+{
+  "subject": "SCIE",
+  "source": "https://vancouver.calendar.ubc.ca/course-descriptions/subject/sciev",
+  "courses": [
+    {
+      "code": "SCIE 001",
+      "title": "Science One",
+      "credits": "28",
+      "description": "An innovative first-year multi-disciplinary course incorporating biology, chemistry, mathematics, and physics with a strong focus on the connections between these traditional disciplines. Students with credit for SCIE 001 will be deemed to have satisfied all BIOL 112, BIOL 121, BIOL 180, CHEM 121, CHEM 123, MATH 100, MATH 101, PHYS 117, PHYS 118, PHYS 119, and PHYS 129 requirements. See the Science One website ( www.scienceone.ubc.ca ) for further information and the application process for admission to SCIE 001. [12-6-4;12-6-4] Prerequisite: All of: CALC 12, ENGL 12, and Pre-calculus 12; two of: CHEM 12, PHYS 12, High School Biology (either BIOL 11 or BIOL 12). This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "All of: CALC 12, ENGL 12, and Pre-calculus 12; two of: CHEM 12, PHYS 12, High School Biology (either BIOL 11 or BIOL 12)",
+        "tree": {
+          "other": "All of: CALC 12, ENGL 12, and Pre-calculus 12; two of: CHEM 12, PHYS 12, High School Biology (either BIOL 11 or BIOL 12)"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SCIE 010",
+      "title": "Science One A",
+      "credits": "0",
+      "description": "Block registration marker for the biology, chemistry, mathematics and physics components of the Science One program. Restricted to students in the Science One program. [12-6-4] Prerequisite: Either (a) BIOL 11 or (b) BIOL 12; and all of CHEM 12, CALC 12, PHYS 12, ENGL 12. and Principles of Mathematics 12 or Pre-calculus 12.",
+      "prereq": {
+        "text": "Either (a) BIOL 11 or (b) BIOL 12; and all of CHEM 12, CALC 12, PHYS 12, ENGL 12. and Principles of Mathematics 12 or Pre-calculus 12",
+        "tree": {
+          "other": "Either (a) BIOL 11 or (b) BIOL 12; and all of CHEM 12, CALC 12, PHYS 12, ENGL 12. and Principles of Mathematics 12 or Pre-calculus 12"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SCIE 100",
+      "title": "First-Year Focus Seminar",
+      "credits": "1",
+      "description": "Seminar for First-Year Focus option focused on discipline-specific learning strategies for academic success and community and scholarly engagement. This course is restricted to first-year students in the First-Year Focus option. Pass/Fail. [1*-0-1*]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SCIE 104",
+      "title": "Pre-Calculus Mathematics",
+      "credits": "3",
+      "description": "Algebra, functions and graphing, expone ntial and logarithmic functions, trigonometry. Restricted to students enrolled in the Indigenous STEM Bridging Pathway. [3-0-1] This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SCIE 113",
+      "title": "First-Year Seminar in Science",
+      "credits": "3",
+      "description": "Small-group experience where students study science in society, scientific process, and how to communicate scientific concepts. Enrolment limited to students in the B.Sc. program in Science. [3-0-0]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SCIE 300",
+      "title": "Communicating Science",
+      "credits": "3",
+      "description": "Effective communication and presentation skills in science. [1-0-3] Corequisite: One of BIOL 300, STAT 200, STAT 241 and 3rd or 4th year standing in Combined Major in Science.",
+      "prereq": null,
+      "coreq": {
+        "text": "One of BIOL 300, STAT 200, STAT 241 and 3rd or 4th year standing in Combined Major in Science",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "BIOL 300",
+                "STAT 200",
+                "STAT 241"
+              ]
+            },
+            {
+              "other": "3rd or 4th year standing in Combined Major in Science"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SCIE 320",
+      "title": "Socio-Ecological Systems Research",
+      "credits": "3",
+      "description": "Research design and methods for socio-ecological systems research. Students work directly with faculty mentors to conduct research on contemporary topics such as climate resilience, food security, and environmental sustainability. [1.5-0-1] Prerequisite: Third-year standing and instructor's permission",
+      "prereq": {
+        "text": "Third-year standing and instructor's permission",
+        "tree": {
+          "other": "Third-year standing and instructor's permission"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SCIE 400",
+      "title": "Discipline-based Education Research Methodology",
+      "credits": "3",
+      "description": "Overview of methodological approaches to education research in disciplines having natural, physical, and life-science foundations. Prerequisite: Third-year standing and permission of the instructor. Equivalency: SCIE 500",
+      "prereq": {
+        "text": "Third-year standing and permission of the instructor",
+        "tree": {
+          "other": "Third-year standing and permission of the instructor"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": "SCIE 500",
+      "recommended": null
+    },
+    {
+      "code": "SCIE 420",
+      "title": "Sustainability for Community and the World",
+      "credits": "3",
+      "description": "Explores systems thinking in the context of sustainability and also re-examines the familiar three pillar model of sustainability - society, ecology, and economics - highlighting its uses and limitations. [3-0-0] Prerequisite: One of ASIC 200, ASIC 220, APBI 260, APBI 265, ARCL 309, BIOL 230, CHEM 301, CHEM 302, CHEM 341, CIVL 200, CONS 330, ECON 210, ENDS 221, ENVR 200, ENVR 300, EOSC 270, EOSC 340, EOSC 345, FRST 100, GEOG 211, GEOG 310, HIST 106, ISCI 360, ISCI 361, LAW 386, LFS 250, PHYS 333, POLI 351, PSYC 321, PSYC 421, SCIE 120, SCIE 320. Fourth-year standing or permission of the instructor.",
+      "prereq": {
+        "text": "One of ASIC 200, ASIC 220, APBI 260, APBI 265, ARCL 309, BIOL 230, CHEM 301, CHEM 302, CHEM 341, CIVL 200, CONS 330, ECON 210, ENDS 221, ENVR 200, ENVR 300, EOSC 270, EOSC 340, EOSC 345, FRST 100, GEOG 211, GEOG 310, HIST 106, ISCI 360, ISCI 361, LAW 386, LFS 250, PHYS 333, POLI 351, PSYC 321, PSYC 421, SCIE 120, SCIE 320. Fourth-year standing or permission of the instructor",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "ASIC 200",
+                "ASIC 220",
+                "APBI 260",
+                "APBI 265",
+                "ARCL 309",
+                "BIOL 230",
+                "CHEM 301",
+                "CHEM 302",
+                "CHEM 341",
+                "CIVL 200",
+                "CONS 330",
+                "ECON 210",
+                "ENDS 221",
+                "ENVR 200",
+                "ENVR 300",
+                "EOSC 270",
+                "EOSC 340",
+                "EOSC 345",
+                "FRST 100",
+                "GEOG 211",
+                "GEOG 310",
+                "HIST 106",
+                "ISCI 360",
+                "ISCI 361",
+                "LAW 386",
+                "LFS 250",
+                "PHYS 333",
+                "POLI 351",
+                "PSYC 321",
+                "PSYC 421",
+                "SCIE 120",
+                "SCIE 320"
+              ]
+            },
+            {
+              "other": "Fourth-year standing or permission of the instructor"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SCIE 466",
+      "title": "New Venture Design",
+      "credits": "6",
+      "description": "Teams comprising students in SCIE 466 and COMM 466 create a business plan and a prototype or scientific solution of a novel product, process, or process component. [3-0-0; 3-0-0] This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SCIE 500",
+      "title": "Discipline-based Education Research Methodology",
+      "credits": "3",
+      "description": "Overview of methodological approaches to education research in disciplines having natural, physical, and life-science foundations. Equivalency: SCIE 400 This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "SCIE 400",
+      "recommended": null
+    },
+    {
+      "code": "SCIE 596",
+      "title": "Co-operative Work Placement I",
+      "credits": "3",
+      "description": "Restricted to students admitted to the Master of Science Co-operative Education Option or Doctor of Philosophy Co-operative Education Option. Pass/Fail. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SCIE 597",
+      "title": "Co-operative Work Placement II",
+      "credits": "3",
+      "description": "Restricted to students admitted to the Master of Science Co-operative Education Option or Doctor of Philosophy Co-operative Education Option. Pass/Fail. Prerequisite: SCIE 596. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "SCIE 596",
+        "tree": "SCIE 596",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SCIE 598",
+      "title": "Co-operative Work Placement III",
+      "credits": "3",
+      "description": "Restricted to students admitted to the Master of Science Co-operative Education Option or Doctor of Philosophy Co-operative Education Option. Pass/Fail. Prerequisite: SCIE 597. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "SCIE 597",
+        "tree": "SCIE 597",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SCIE 599",
+      "title": "Co-operative Work Placement IV",
+      "credits": "3",
+      "description": "Restricted to students admitted to the Master of Science Co-operative Education Option or Doctor of Philosophy Co-operative Education Option. Pass/Fail. Prerequisite: SCIE 598. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "SCIE 598",
+        "tree": "SCIE 598",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    }
+  ]
+}

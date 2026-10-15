@@ -107,6 +107,20 @@ def test_sentence_that_says_required_is_not_advice():
     assert r["recommended"] is None
 
 
+def test_hyphenated_label():
+    # BIOL 307
+    r = extract_requisites(
+        "[2-3-0] Pre-requisites: A minimum of 3rd-year class standing or higher."
+    )
+    assert r["prereq"] == "A minimum of 3rd-year class standing or higher"
+
+
+def test_recommended_prerequisite_is_not_a_requirement():
+    # PHYS 500: "Recommended pre-requisite:" is advice, so it isn't read as a prerequisite.
+    r = extract_requisites("Scattering theory. Recommended pre-requisite: PHYS_V 402.")
+    assert r["prereq"] is None
+
+
 def test_two_prereq_sections_raises():
     with pytest.raises(ValueError):
         extract_requisites("Prerequisite: CPSC 110. Prerequisite: CPSC 210.")

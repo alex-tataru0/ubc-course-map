@@ -1,0 +1,603 @@
+{
+  "subject": "DSCI",
+  "source": "https://vancouver.calendar.ubc.ca/course-descriptions/subject/dsciv",
+  "courses": [
+    {
+      "code": "DSCI 100",
+      "title": "Introduction to Data Science",
+      "credits": "3",
+      "description": "Use of data science tools to summarize, visualize, and analyze data. Sensible workflows and clear interpretations are emphasized. [3-0-1].",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "DSCI 200",
+      "title": "Navigating Data: Acquisition, Exploration and Management",
+      "credits": "3",
+      "description": "Acquiring data through web scraping and generating synthetic data via simulations. Sampling and experimental designs. Reporting and visualizing data and data quality. Data privacy and ownership. Emphasis on case studies and real data sets. [3-0-0] Prerequisite: DSCI 100 or DATA_O 101.",
+      "prereq": {
+        "text": "DSCI 100 or DATA_O 101",
+        "tree": {
+          "one_of": [
+            "DSCI 100",
+            "DATA_O 101"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "DSCI 220",
+      "title": "Discrete Mathematics for Data Science",
+      "credits": "4",
+      "description": "Boolean algebra and logical inference, proof techniques, sets, relations and functions, regular expressions, and data filtering. [3-2-0] Prerequisite: All of a) DSCI 100 or DATA_O 101; b) MATH 100, MATH 110, MATH 120, MATH 180, SCIE 001 or MATH_O 100; and c) CPSC 103 or CPSC 110.",
+      "prereq": {
+        "text": "All of a) DSCI 100 or DATA_O 101; b) MATH 100, MATH 110, MATH 120, MATH 180, SCIE 001 or MATH_O 100; and c) CPSC 103 or CPSC 110",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "DSCI 100",
+                "DATA_O 101"
+              ]
+            },
+            {
+              "one_of": [
+                "MATH 100",
+                "MATH 110",
+                "MATH 120",
+                "MATH 180",
+                "SCIE 001",
+                "MATH_O 100"
+              ]
+            },
+            {
+              "one_of": [
+                "CPSC 103",
+                "CPSC 110"
+              ]
+            }
+          ]
+        },
+        "source": "llm",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "DSCI 221",
+      "title": "Data Structures for Data Science",
+      "credits": "4",
+      "description": "Object-oriented programming. Design and analysis of basic algorithms and data structures especially relevant to data science. Algorithm analysis methods, basic data structures, graphs and graph algorithms. [3-2-0] Prerequisite: (a) DSCI 220, or (b) CPSC 121 and one of CPSC 203, CPSC 210, CPEN 221.",
+      "prereq": {
+        "text": "(a) DSCI 220, or (b) CPSC 121 and one of CPSC 203, CPSC 210, CPEN 221",
+        "tree": {
+          "one_of": [
+            "DSCI 220",
+            {
+              "all_of": [
+                "CPSC 121",
+                {
+                  "one_of": [
+                    "CPSC 203",
+                    "CPSC 210",
+                    "CPEN 221"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "DSCI 310",
+      "title": "Reproducible and Trustworthy Workflows for Data Science",
+      "credits": "3",
+      "description": "Data science methods to automate the running and testing of code and analytic reports, manage data analysis software dependencies, package and deploy software for data analysis, and collaborate with others using version control. [3-0-1] Prerequisite: One of (a) DSCI 221, (b) DSCI 100 and one of CPSC 203, CPSC 210, CPEN 221, or (c) DSCI 100, either MATH 210 or ECON 323, and either CPSC 107 or CPSC 110.",
+      "prereq": {
+        "text": "One of (a) DSCI 221, (b) DSCI 100 and one of CPSC 203, CPSC 210, CPEN 221, or (c) DSCI 100, either MATH 210 or ECON 323, and either CPSC 107 or CPSC 110",
+        "tree": {
+          "one_of": [
+            "DSCI 221",
+            {
+              "all_of": [
+                "DSCI 100",
+                {
+                  "one_of": [
+                    "CPSC 203",
+                    "CPSC 210",
+                    "CPEN 221"
+                  ]
+                }
+              ]
+            },
+            {
+              "all_of": [
+                "DSCI 100",
+                {
+                  "one_of": [
+                    "MATH 210",
+                    "ECON 323"
+                  ]
+                },
+                {
+                  "one_of": [
+                    "CPSC 107",
+                    "CPSC 110"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "source": "llm",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "DSCI 320",
+      "title": "Visualization for Data Science",
+      "credits": "3",
+      "description": "Analysis, design, and implementation of static and interactive visual representations; visualization literacy; data communication; exploratory Data Analysis; application of theoretical principles to visualization development. [3-1.5-0] Prerequisite: STAT 201 and one of CPSC 203, CPSC 210, CPEN 221, DSCI 221.",
+      "prereq": {
+        "text": "STAT 201 and one of CPSC 203, CPSC 210, CPEN 221, DSCI 221",
+        "tree": {
+          "all_of": [
+            "STAT 201",
+            {
+              "one_of": [
+                "CPSC 203",
+                "CPSC 210",
+                "CPEN 221",
+                "DSCI 221"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "DSCI 430",
+      "title": "Fairness, Accountability, Transparency and Ethics (FATE) in Data Science",
+      "credits": "3",
+      "description": "Ethical application of data science and machine learning algorithms. Application of ethical theories in real-world case studies. Data ownership, collection, and validity. Algorithm auditing, fairness and transparency. Reducing unfairness in algorithms. Deployment of predictive models and dissemination of results. [3-0-0] Prerequisite: One of CPSC 330, CPSC 340, STAT 301, STAT 406.",
+      "prereq": {
+        "text": "One of CPSC 330, CPSC 340, STAT 301, STAT 406",
+        "tree": {
+          "one_of": [
+            "CPSC 330",
+            "CPSC 340",
+            "STAT 301",
+            "STAT 406"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "DSCI 511",
+      "title": "Programming for Data Science",
+      "credits": "1",
+      "description": "Pseudo-code. Program design and structure. Flow control. Iteration. Lists (arrays). Functions. File I/O. Classes, objects, methods, and libraries. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "DSCI 512",
+      "title": "Algorithms and Data Structures",
+      "credits": "1",
+      "description": "Basic algorithms. Recursion. Data structures including linked lists, queues, stacks, trees, graphs, and hash tables. Searching and sorting. Introduction to complexity including Big-O notation, efficiency, and scalability. Prerequisite: All of DSCI 511, DSCI 521. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "All of DSCI 511, DSCI 521",
+        "tree": {
+          "all_of": [
+            "DSCI 511",
+            "DSCI 521"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "DSCI 513",
+      "title": "Databases and Data Retrieval",
+      "credits": "1",
+      "description": "Relational schemas. SQL queries. Database programming using embedded SQL. XML and XQuery. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "DSCI 521",
+      "title": "Computing Platforms for Data Science",
+      "credits": "1",
+      "description": "Introduction to software, shells, tools, and file systems for use in the Data Science program. Installation, configuration, and use of statistical and programming software including Integrated Development Environments (IDEs). Problem resolution skills. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "DSCI 522",
+      "title": "Data Science Workflows",
+      "credits": "1",
+      "description": "Interactive and non-interactive data analysis. Scripting. Dynamic reporting. Reproducibility. Project and file management. Version control. Automated workflows. Prerequisite: All of DSCI 511, DSCI 521. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "All of DSCI 511, DSCI 521",
+        "tree": {
+          "all_of": [
+            "DSCI 511",
+            "DSCI 521"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "DSCI 523",
+      "title": "Programming for Data Manipulation",
+      "credits": "1",
+      "description": "Program design and data manipulation using industry-standard software tools designed for statistical work. Organizing, filtering, sorting, grouping, reformatting, converting, and cleaning data to prepare it for further analysis. Corequisite: All of DSCI 511, DSCI 521. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": {
+        "text": "All of DSCI 511, DSCI 521",
+        "tree": {
+          "all_of": [
+            "DSCI 511",
+            "DSCI 521"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "DSCI 524",
+      "title": "Collaborative Software Development",
+      "credits": "1",
+      "description": "Software life cycle. Unit testing. Continuous integration. Submission to a relevant repository for distribution. Packaging for installation and use by others. Software licenses. Classes and abstraction. Prerequisite: DSCI 522. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "DSCI 522",
+        "tree": "DSCI 522",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "DSCI 525",
+      "title": "Web and Cloud Computing",
+      "credits": "1",
+      "description": "Networks and the Internet, scraping data, APIs, cloud computing, Web services for scalable computing, Web hosting, Web publication platforms, introduction to parallel computing. Prerequisite: All of DSCI 522, DSCI 523. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "All of DSCI 522, DSCI 523",
+        "tree": {
+          "all_of": [
+            "DSCI 522",
+            "DSCI 523"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "DSCI 531",
+      "title": "Data Visualization I",
+      "credits": "1",
+      "description": "Descriptive plots using statistical and programming software. Basics, mechanics, and principles of data visualization. Prerequisite: All of DSCI 511, DSCI 521. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "All of DSCI 511, DSCI 521",
+        "tree": {
+          "all_of": [
+            "DSCI 511",
+            "DSCI 521"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "DSCI 532",
+      "title": "Data Visualization II",
+      "credits": "1",
+      "description": "Interactive visualization, design choices, dynamic change over time, multiple views, data reduction, dealing with complexity. Prerequisite: DSCI 531. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "DSCI 531",
+        "tree": "DSCI 531",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "DSCI 541",
+      "title": "Privacy, Ethics, and Security",
+      "credits": "1",
+      "description": "Privacy and data. Ethics boards, legal issues, licensing. Physical and logical data security, social engineering. Encryption, data anonymization, privacy-preserving techniques. Case studies. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "DSCI 542",
+      "title": "Communication and Argumentation",
+      "credits": "1",
+      "description": "Claims, reasons, and evidence. Strengths and weaknesses of models. Effective oral and written presentation of scientific results, including interpretation of data and recognition of assumptions, bias, validity, and reliability. Citations, references, and peer-review. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "DSCI 551",
+      "title": "Descriptive Statistics and Probability for Data Science",
+      "credits": "1",
+      "description": "Descriptive statistics including measures of location and spread. Random variables, distributions, and parameters. Categorical variables. Uncertainty. Missing data. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "DSCI 552",
+      "title": "Statistical Inference and Computation I",
+      "credits": "1",
+      "description": "Random variables, parameters, observed data, statistics (distinctions and connections). Estimation: point and interval. Two-group comparisons, frequentist version. Simulation-based approaches. Prerequisite: DSCI 551. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "DSCI 551",
+        "tree": "DSCI 551",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "DSCI 553",
+      "title": "Statistical Inference and Computation II",
+      "credits": "1",
+      "description": "Multiple hypothesis testing, false discovery rate. Two-group comparisons, Bayesian paradigm. Prerequisite: DSCI 552. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "DSCI 552",
+        "tree": "DSCI 552",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "DSCI 554",
+      "title": "Experimentation and Causal Inference",
+      "credits": "1",
+      "description": "Randomization. A/B testing. Blocked designs. Orthogonality. Batch effects, confounding. Causality. Contemporary examples. Simulations. Prerequisite: All of DSCI 553, DSCI 561. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "All of DSCI 553, DSCI 561",
+        "tree": {
+          "all_of": [
+            "DSCI 553",
+            "DSCI 561"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "DSCI 561",
+      "title": "Regression I",
+      "credits": "1",
+      "description": "Linear models: continuous response; one or more categorical covariates and/or one or more continuous covariates. Prerequisite: DSCI 552. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "DSCI 552",
+        "tree": "DSCI 552",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "DSCI 562",
+      "title": "Regression II",
+      "credits": "1",
+      "description": "Non-parametric regression and smoothing. Data-driven parameter selection. Robust regression. Mixed effects. Prerequisite: DSCI 561. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "DSCI 561",
+        "tree": "DSCI 561",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "DSCI 563",
+      "title": "Unsupervised Learning",
+      "credits": "1",
+      "description": "Unsupervised learning. K-means/medoids. Model-based clustering. Expectation-maximization algorithm. Hierarchical clustering. Dimension reduction. Matrix decomposition. Heatmaps, contour plots, dendograms. Prerequisite: All of DSCI 511, DSCI 521. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "All of DSCI 511, DSCI 521",
+        "tree": {
+          "all_of": [
+            "DSCI 511",
+            "DSCI 521"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "DSCI 571",
+      "title": "Supervised Learning I",
+      "credits": "1",
+      "description": "Decision trees. k-th nearest neighbour classifiers. Naive Bayes classifiers. Logistic regression. Prerequisite: All of DSCI 511, DSCI 521. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "All of DSCI 511, DSCI 521",
+        "tree": {
+          "all_of": [
+            "DSCI 511",
+            "DSCI 521"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "DSCI 572",
+      "title": "Supervised Learning II",
+      "credits": "1",
+      "description": "Support Vector Machines. Random Forests. Ensemble Classifiers. Graphical models. Prerequisite: DSCI 571. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "DSCI 571",
+        "tree": "DSCI 571",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "DSCI 573",
+      "title": "Feature and Model Selection",
+      "credits": "1",
+      "description": "Performance of a classification model. Generalization error, overfitting of training data. Shrinkage, feature selection, Akaike Information Criterion, Bayesian Information Criterion. k-fold cross validation. Bootstrapping. Receiver Operating Characteristic curve. Elastic nets, regularization. Prerequisite: DSCI 571. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "DSCI 571",
+        "tree": "DSCI 571",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "DSCI 574",
+      "title": "Spatial and Temporal Models",
+      "credits": "1",
+      "description": "Time series. State space and change point detection. Hidden Markov Models. Gaussian processes. Prerequisite: DSCI 572. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "DSCI 572",
+        "tree": "DSCI 572",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "DSCI 575",
+      "title": "Advanced Machine Learning",
+      "credits": "1",
+      "description": "Neural networks trained with backpropagation. Deep learning. Overfitting and underfitting. Active data acquisition. Hyperparameter optimization. Prerequisite: DSCI 572. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "DSCI 572",
+        "tree": "DSCI 572",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "DSCI 591",
+      "title": "Capstone Project",
+      "credits": "6",
+      "description": "A capstone design project designed to give students experience in leading complex multidisciplinary projects relevant to data science. Prerequisite: All of DSCI 513, DSCI 524, DSCI 525, DSCI 532, DSCI 541, DSCI 542, DSCI 554, DSCI 563, DSCI 573, DSCI 574, DSCI 575. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "All of DSCI 513, DSCI 524, DSCI 525, DSCI 532, DSCI 541, DSCI 542, DSCI 554, DSCI 563, DSCI 573, DSCI 574, DSCI 575",
+        "tree": {
+          "all_of": [
+            "DSCI 513",
+            "DSCI 524",
+            "DSCI 525",
+            "DSCI 532",
+            "DSCI 541",
+            "DSCI 542",
+            "DSCI 554",
+            "DSCI 563",
+            "DSCI 573",
+            "DSCI 574",
+            "DSCI 575"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    }
+  ]
+}

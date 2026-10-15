@@ -48,6 +48,34 @@ EXAMPLES = [
         "PHYS 301. Classical mechanics (PHYS 216 or equivalent)",
         {"all_of": ["PHYS 301", {"one_of": ["PHYS 216", {"other": "equivalent"}]}]},
     ),
+    # Added for the 11 Science subjects, after Gemini made BIOL 201's and BIOL 234's
+    # corequisites into prerequisites, put EOSC 440's "and MATH 200" inside the one_of before
+    # it, and wrote PHYS 107's "85% or higher in PHYS 100" as text.
+    (
+        "MATH 220 and a corequisite of one of STAT 302, MATH 302",
+        {"all_of": ["MATH 220", {"other": "a corequisite of one of STAT 302, MATH 302"}]},
+    ),
+    (
+        "Second-year standing, and one of CPSC 103, CPSC 110, and MATH 101, and one of "
+        "STAT 200, STAT 201",
+        {"all_of": [
+            {"other": "Second-year standing"},
+            {"one_of": ["CPSC 103", "CPSC 110"]},
+            "MATH 101",
+            {"one_of": ["STAT 200", "STAT 201"]},
+        ]},
+    ),
+    (
+        "Either (a) a score of 80% or higher in all of CHEM 12, MATH 12 or (b) a score of 80% "
+        "or higher in CHEM 100. CHEM 12 = Chemistry 12; MATH 12 = Principles of Mathematics 12",
+        {"one_of": [
+            {"all_of": [
+                {"other": "80% or higher in Chemistry 12"},
+                {"other": "80% or higher in Principles of Mathematics 12"},
+            ]},
+            {"course": "CHEM 100", "min_grade": 80},
+        ]},
+    ),
 ]
 
 INSTRUCTIONS = """You turn UBC course prerequisite text into a JSON tree.
@@ -70,6 +98,12 @@ Rules:
   one_of. It is never an extra requirement.
 - Every sentence counts. A course alone before a full stop, like "MATH 300." at the start,
   is needed too.
+- A corequisite can be taken at the same time, so it is never a plain course code in the
+  tree. Keep "a corequisite of one of CHEM 203, CHEM 223" whole, as one "other" text.
+- ", and" can start a new requirement in the middle of a list: in "one of A, B, and C, and
+  one of D, E", C is needed on its own.
+- High school codes like "PHYS 12" are text. With a grade, write one text per course with the
+  grade in it, using the names the text gives for the codes.
 - "N% or higher in X" becomes {"course": "X", "min_grade": N}. "A minimum grade of N% in each of"
   applies to every course it covers.
 - Reply with only the JSON tree.

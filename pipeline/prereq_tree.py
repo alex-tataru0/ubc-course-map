@@ -7,9 +7,31 @@ BRACKETED = re.compile(r"\[([A-Z]{2,4})(\d{3})\]")
 VANCOUVER = re.compile(r"\b([A-Z]{2,4})_V\b")
 
 
+# "MICB306" → "MICB 306". A few courses leave out the space (MICB 407, EOSC 327, BIOL 431).
+MISSING_SPACE = re.compile(r"\b([A-Z]{2,4})(\d{3}[A-Z]?)\b")
+
+
 def normalize_codes(text: str) -> str:
     text = BRACKETED.sub(r"\1 \2", text)
-    return VANCOUVER.sub(r"\1", text)
+    text = VANCOUVER.sub(r"\1", text)
+    return MISSING_SPACE.sub(r"\1 \2", text)
+
+
+# A bare number right after a course code, like the "201" in "STAT 200, 201". Groups: the
+# subject, the number before, what joins them, the bare number. The (?!-) keeps out levels
+# like "MATH 100, 200-level".
+SHORTHAND = re.compile(
+    r"\b([A-Z]{2,4}(?:_O)?) (\d{3}[A-Z]?)(, or |, | or | and | \(or |/)(\d{3}[A-Z]?)\b(?!-)"
+)
+
+
+def expand_shorthand(text: str) -> str:
+    # "STAT 200, 201" → "STAT 200, STAT 201" (ENVR 240), "MICB 211 (or 201)" → "MICB 211
+    # (or MICB 201)" (MICB 322): the bare number is a course in the same subject.
+    # Each pass fills in one number per list, so "MATH 100, 102, 104" takes two passes.
+    while SHORTHAND.search(text):
+        text = SHORTHAND.sub(r"\1 \2\3\1 \4", text)
+    return text
 
 
 # One whole course code, e.g. "CPSC 221", "MATH_O 220", "SCIE 001".
@@ -137,8 +159,10 @@ def _parse(text: str):
     if text.lower().startswith("both "):
         # "Both STAT 305 and STAT 306" means the same as "STAT 305 and STAT 306".
         text = text[len("both "):]
-    # "A and one of B, C and one of D, E" = you need every clause.
-    return _combine("all_of", [parse_clause(c) for c in text.split(" and ")])
+    # "A and one of B, C and one of D, E" = you need every clause. "And" can be capitalized,
+    # as in BIOL 431's "BIOL 200 And fourth-year standing".
+    clauses = re.split(" and ", text, flags=re.IGNORECASE)
+    return _combine("all_of", [parse_clause(c) for c in clauses])
 
 
 def _parse_lettered(lead: str, text: str):

@@ -874,9 +874,9 @@
       "code": "MATH 227",
       "title": "Advanced Calculus II",
       "credits": "3",
-      "description": "Parametrization of curves and surfaces; line and surface integrals; theorems of Green, Gauss, Stokes; applications to physics and/or introduction to differential forms. Please consult the Faculty of Science Credit Exclusion List: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… [3-0-0] Prerequisite: MATH 226. Prerequisite grade requirement: 68% in MATH226.",
+      "description": "Parametrization of curves and surfaces; line and surface integrals; theorems of Green, Gauss, Stokes; applications to physics and/or introduction to differential forms. Please consult the Faculty of Science Credit Exclusion List: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… [3-0-0] Prerequisite: MATH 226. Prerequisite grade requirement: 68% in MATH 226.",
       "prereq": {
-        "text": "MATH 226. Prerequisite grade requirement: 68% in MATH226",
+        "text": "MATH 226. Prerequisite grade requirement: 68% in MATH 226",
         "tree": {
           "course": "MATH 226",
           "min_grade": 68
@@ -1914,7 +1914,7 @@
       "code": "MATH 358",
       "title": "Engineering Analysis",
       "credits": "3",
-      "description": "Fourier series; auto- and cross-correlation; power spectra; discrete Fourier transform; boundary-value problems; numerical methods; partial differential equations; heat, wave, Laplace, Poisson, and wave equations. Applications to mechanical engineering and practical computing applications emphasized. Credit will be granted for only one of MECH 358 or MATH 358. [3-2*-0] Prerequisite: All of MECH 224, MECH 225. Equivalency: MECH358",
+      "description": "Fourier series; auto- and cross-correlation; power spectra; discrete Fourier transform; boundary-value problems; numerical methods; partial differential equations; heat, wave, Laplace, Poisson, and wave equations. Applications to mechanical engineering and practical computing applications emphasized. Credit will be granted for only one of MECH 358 or MATH 358. [3-2*-0] Prerequisite: All of MECH 224, MECH 225. Equivalency: MECH 358",
       "prereq": {
         "text": "All of MECH 224, MECH 225",
         "tree": {
@@ -1927,7 +1927,7 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": "MECH358",
+      "equivalency": "MECH 358",
       "recommended": null
     },
     {
@@ -2285,9 +2285,9 @@
       "code": "MATH 418",
       "title": "Probability",
       "credits": "3",
-      "description": "Probability spaces, random variables, distributions, expectation, conditional probabilities, convergence of random variables, generating and characteristic functions, weak and strong laws of large numbers, central limit theorem. [3-0-0] Prerequisite: MATH 321. Prerequisite grade requirement: 68% in MATH321.",
+      "description": "Probability spaces, random variables, distributions, expectation, conditional probabilities, convergence of random variables, generating and characteristic functions, weak and strong laws of large numbers, central limit theorem. [3-0-0] Prerequisite: MATH 321. Prerequisite grade requirement: 68% in MATH 321.",
       "prereq": {
-        "text": "MATH 321. Prerequisite grade requirement: 68% in MATH321",
+        "text": "MATH 321. Prerequisite grade requirement: 68% in MATH 321",
         "tree": {
           "course": "MATH 321",
           "min_grade": 68
@@ -2318,9 +2318,9 @@
       "code": "MATH 420",
       "title": "Real Analysis I",
       "credits": "3",
-      "description": "Sigma-algebras, Lebesgue measure, Borel measures, measurable functions, integration, convergence theorems, Lp spaces, Holder and Minkowski inequalities, Lebesgue and/or Radon-Nikodym differentiation. [3-0-0] Prerequisite: MATH 321. Prerequisite grade requirement: 68% in MATH321.",
+      "description": "Sigma-algebras, Lebesgue measure, Borel measures, measurable functions, integration, convergence theorems, Lp spaces, Holder and Minkowski inequalities, Lebesgue and/or Radon-Nikodym differentiation. [3-0-0] Prerequisite: MATH 321. Prerequisite grade requirement: 68% in MATH 321.",
       "prereq": {
-        "text": "MATH 321. Prerequisite grade requirement: 68% in MATH321",
+        "text": "MATH 321. Prerequisite grade requirement: 68% in MATH 321",
         "tree": {
           "course": "MATH 321",
           "min_grade": 68
@@ -2502,9 +2502,9 @@
       "code": "MATH 426",
       "title": "Introduction to Topology",
       "credits": "3",
-      "description": "General topology, combinatorial topology, fundamental group and covering spaces, topics chosen by the instructor. [3-0-0] Prerequisite: All of MATH 321, MATH 322. Prerequisite grade requirement: 68% in MATH322,MATH321.",
+      "description": "General topology, combinatorial topology, fundamental group and covering spaces, topics chosen by the instructor. [3-0-0] Prerequisite: All of MATH 321, MATH 322. Prerequisite grade requirement: 68% in MATH 322,MATH 321.",
       "prereq": {
-        "text": "All of MATH 321, MATH 322. Prerequisite grade requirement: 68% in MATH322,MATH321",
+        "text": "All of MATH 321, MATH 322. Prerequisite grade requirement: 68% in MATH 322,MATH 321",
         "tree": {
           "all_of": [
             {
