@@ -44,8 +44,10 @@ export interface Layout {
   width: number; // width of the widest row of the graph
 }
 
+// 1 for a 100-level course, 2 for 200-level, ... Courses numbered below 100, like SCIE 001
+// (Science One), are first-year courses too, so they go with the 100-level ones.
 function year(code: string): number {
-  return Math.floor(Number(code.match(/\d{3}/)![0]) / 100);
+  return Math.max(1, Math.floor(Number(code.match(/\d{3}/)![0]) / 100));
 }
 
 // Splits a list into the fewest pieces of at most `max`, keeping the pieces about the same size.

@@ -2,6 +2,7 @@ import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 import { undergradOnly } from "./graph";
 import { planPath } from "./path";
+import { SCIENCE } from "./subjects";
 import type { CourseFile } from "./types";
 
 const url = new URL("../../../data/courses/cpsc.json", import.meta.url);
@@ -137,5 +138,46 @@ describe("planPath across CPSC, MATH and STAT", () => {
     expect(path.terms.flat()).toContain("MATH 200");
     expect(path.terms.flat()).not.toContain("MATH 226");
     expect(path.also).toEqual([{ kind: "check", text: "Principles of Mathematics 12 or Pre-calculus 12" }]);
+  });
+});
+
+describe("planPath across the Faculty of Science", () => {
+  const load = (subject: string): CourseFile =>
+    JSON.parse(readFileSync(new URL(`../../../data/courses/${subject}.json`, import.meta.url), "utf8"));
+  const all = undergradOnly(SCIENCE.subjects.flatMap((s) => load(s.code.toLowerCase()).courses));
+  const planAll = (target: string, ...done: string[]) => planPath(target, all, new Set(done));
+
+  it("plans CPSC 340 the same way with every Science subject loaded", () => {
+    expect(planAll("CPSC 340").terms).toEqual([
+      ["CPSC 110", "CPSC 121", "MATH 100"],
+      ["CPSC 210", "MATH 101", "MATH 221"],
+      ["CPSC 221", "MATH 200", "STAT 251"],
+      ["CPSC 340"],
+    ]);
+  });
+
+  it("leaves Science One for last, since it takes students by application", () => {
+    // EOSC 211 takes one of MATH 101, 103, 105, 121 or SCIE 001.
+    expect(planAll("EOSC 211").terms).toEqual([["MATH 100"], ["MATH 101"], ["EOSC 211"]]);
+  });
+
+  it("counts on high school courses instead of courses for students without them", () => {
+    // CHEM 123 takes CHEM 111 or 121. CHEM 111 isn't for students with Chemistry 12, and
+    // CHEM 121 takes Chemistry 12 or CHEM 100.
+    expect(planAll("CHEM 123")).toEqual({
+      terms: [["CHEM 121"], ["CHEM 123"]],
+      also: [{ kind: "check", text: "CHEM 12" }],
+    });
+  });
+
+  it("takes courses over a choice that's several things to check", () => {
+    // BIOL 200's option (c) is "8 transfer credits of first-year BIOL and 6 credits of
+    // first-year CHEM".
+    expect(planAll("BIOL 200").terms).toEqual([["BIOL 121"], ["BIOL 200"]]);
+  });
+
+  it("doesn't count on a high grade in a high school course", () => {
+    // ASTR 200 takes PHYS 107 too, which needs 85% or higher in Physics 12.
+    expect(planAll("ASTR 200").terms.flat()).not.toContain("PHYS 107");
   });
 });

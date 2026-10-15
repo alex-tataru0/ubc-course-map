@@ -33,15 +33,15 @@ function subscribe(onChange: () => void): () => void {
 // A faculty's page: the header with the subject menu, and the map of the subject picked.
 // The subject is kept in the address (#math), so a link or a refresh opens the same map.
 export default function FacultyView({ faculty, maps, ...data }: FacultyViewProps) {
-  // While the page is built there's no address, so the first subject is pre-rendered.
+  // While the page is built there's no address, so the home subject is pre-rendered.
   const hash = useSyncExternalStore(subscribe, () => window.location.hash, () => "");
-  const subject = subjectFromHash(hash, faculty.subjects);
+  const subject = subjectFromHash(hash, faculty);
   const map = maps.find((m) => m.subject === subject)!;
 
   const pickSubject = (code: string) => {
     if (code === subject) return;
     const { pathname, search } = window.location;
-    window.history.pushState(null, "", `${pathname}${search}${hashFor(code, faculty.subjects)}`);
+    window.history.pushState(null, "", `${pathname}${search}${hashFor(code, faculty)}`);
     window.dispatchEvent(new HashChangeEvent("hashchange"));
   };
 

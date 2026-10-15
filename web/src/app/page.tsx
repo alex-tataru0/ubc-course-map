@@ -10,7 +10,8 @@ import type { CourseFile, GradesFile, ProgramFile } from "@/lib/types";
 
 export const metadata: Metadata = {
   title: "Faculty of Science · UBC Course Map",
-  description: "Plan UBC Computer Science, Mathematics and Statistics courses with the prerequisite graph.",
+  description:
+    "Plan UBC Faculty of Science courses, from Astronomy to Statistics, with the prerequisite graph.",
 };
 
 // This is a server component. With the static export it runs once, during `npm run build`,
@@ -40,6 +41,9 @@ export default function Home() {
   const details = files.flatMap((file) => undergradOnly(file.courses));
   const codes = details.map((c) => c.code);
   const gradeFiles = SCIENCE.subjects.map((s) => loadGrades(s.code));
+  // Every term any subject has grades for. A subject can skip a term (ENVR has no summer
+  // courses most years). "2021S" sorts before "2021W", so plain sorting is time order.
+  const gradeSessions = [...new Set(gradeFiles.flatMap((file) => file.sessions))].sort();
   const programs = loadPrograms("CPSC");
 
   return (
@@ -48,7 +52,7 @@ export default function Home() {
       maps={files.map(subjectMap)}
       details={details}
       grades={Object.assign({}, ...gradeFiles.map((file) => gradesFor(file, codes)))}
-      gradeSessions={gradeFiles[0].sessions}
+      gradeSessions={gradeSessions}
       programs={programs.programs}
       programUrl={programs.source}
       programSubject="CPSC"

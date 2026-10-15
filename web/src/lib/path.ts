@@ -20,8 +20,10 @@ export interface CoursePath {
 // - a course we have no data for (we don't know what it needs), e.g. CPEN 221;
 // - a choice that's only something to check, e.g. "advanced credit for MATH 100";
 // - a course only some students can take, e.g. "Restricted to students admitted to the
-//   Co-operative Education Program", or MATH 190's "registration in the B.S.F. or B.Sc.N.
-//   programs".
+//   Co-operative Education Program", MATH 190's "registration in the B.S.F. or B.Sc.N.
+//   programs", Science One (SCIE 001), which takes students by application, or CHEM 111's
+//   "Not open to students with credit for CHEM 12".
+// High school courses like "Chemistry 12" aren't last resorts (see HIGH_SCHOOL).
 interface Plan {
   courses: Set<string>;
   also: AlsoNeeded[];
@@ -49,7 +51,11 @@ export function planPath(target: string, courses: Course[], done: ReadonlySet<st
   function planCourse(code: string, have: ReadonlySet<string>): Plan {
     const course = byCode.get(code)!;
     const restriction = restrictionOf(course.description);
-    const onlyForSome = restriction !== null || /\bregistration in\b/i.test(course.prereq?.text ?? "");
+    const prereqText = course.prereq?.text ?? "";
+    const onlyForSome =
+      restriction !== null ||
+      /\bregistration in\b|\bnot open to\b/i.test(prereqText) ||
+      /\bapplication process\b/i.test(course.description);
     let plan: Plan = { courses: new Set([code]), also: [], lastResorts: onlyForSome ? 1 : 0 };
     if (restriction) plan.also.push({ kind: "check", text: restriction });
     for (const requisite of [course.prereq, course.coreq]) {
@@ -86,14 +92,13 @@ export function planPath(target: string, courses: Course[], done: ReadonlySet<st
     const vancouver = choices.filter((choice) => !isOkanagan(choice));
     const usable = vancouver.length > 0 ? vancouver : choices;
     const options = usable.map((choice) => planNode(choice, have));
-    // A choice that's only something to check is a last resort, but only against the other
-    // choices here: when every choice is one (CPSC 121's "Principles of Mathematics 12 or
-    // Pre-calculus 12"), there's nothing better to pick.
+    // A choice that's only things to check is a last resort, but only against the other
+    // choices here: when every choice is one, there's nothing better to pick.
     const ranked = options.map((plan, i) =>
-      isCheck(usable[i]) ? { ...plan, lastResorts: plan.lastResorts + 1 } : plan,
+      isLastResortCheck(usable[i]) ? { ...plan, lastResorts: plan.lastResorts + 1 } : plan,
     );
     const bestAt = ranked.reduce((best, plan, i) => (better(plan, ranked[best]) ? i : best), 0);
-    const best = options[bestAt];
+    const best = ranked[bestAt];
     if (best.courses.size > 0) return best;
 
     // The best option plans no courses: it's a course we have no data for or something to
@@ -135,8 +140,31 @@ export function planPath(target: string, courses: Course[], done: ReadonlySet<st
   return { terms: inTerms(plan.courses, byCode), also: unique(plan.also) };
 }
 
-function isCheck(node: ReqNode): boolean {
-  return typeof node === "object" && "other" in node;
+// A high school course, like "PHYS 12", "Chemistry 12", "Pre-calculus 12" or "BIOL 11".
+// Most students start UBC with these, so a path counts on them (and lists them to check)
+// instead of adding PHYS 100 or BIOL 111, which are for students without them. A minimum
+// grade ("85% or higher in Physics 12") isn't something most students can count on.
+const HIGH_SCHOOL =
+  /\b(?:PHYS|CHEM|BIOL|MATH|CALC|PREC|ENGL|Physics|Chemistry|Biology|Mathematics|Pre-[Cc]alculus|Calculus|English) 1[12]\b/;
+
+function isHighSchool(text: string): boolean {
+  return HIGH_SCHOOL.test(text) && !text.includes("%");
+}
+
+// The texts in a choice that's only things to check, with no course in it, like BIOL 200's
+// "8 transfer credits of first-year BIOL and 6 credits of first-year CHEM". null if it has a course.
+function checksOnly(node: ReqNode): string[] | null {
+  if (typeof node === "string" || "course" in node) return null;
+  if ("other" in node) return [node.other];
+  const parts = ("all_of" in node ? node.all_of : node.one_of).map(checksOnly);
+  return parts.every((part) => part !== null) ? parts.flat() : null;
+}
+
+// A choice that's a last resort next to courses: only things to check, like "Third-year
+// standing" or "advanced credit for MATH 100", unless they're all high school courses.
+function isLastResortCheck(node: ReqNode): boolean {
+  const texts = checksOnly(node);
+  return texts !== null && !texts.every(isHighSchool);
 }
 
 function isOkanagan(node: ReqNode): boolean {

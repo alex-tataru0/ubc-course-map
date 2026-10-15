@@ -43,6 +43,16 @@ describe("yearRows", () => {
     expect(rows.get("CPSC 210")).toBe(2);
   });
 
+  it("puts courses numbered below 100 with the first year", () => {
+    // SCIE 001 (Science One) is a first-year course.
+    const graph: Graph = { nodes: ["SCIE 300", "SCIE 113", "SCIE 001"].map(node), edges: [] };
+    const rows = yearRows(graph);
+    expect(rows.get("SCIE 001")).toBe(0);
+    expect(rows.get("SCIE 113")).toBe(0);
+    expect(rows.get("SCIE 300")).toBe(1);
+    expect(layoutGraph(graph).bands.map((b) => b.year)).toEqual([1, 3]);
+  });
+
   it("wraps a long row into even pieces of at most 14", () => {
     const ids = Array.from({ length: 15 }, (_, i) => `CPSC ${401 + i}`);
     const rows = yearRows({ nodes: ids.map(node), edges: [] });

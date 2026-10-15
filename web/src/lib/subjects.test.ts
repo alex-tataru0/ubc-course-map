@@ -1,8 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { hashFor, SCIENCE, subjectFromHash, subjectOf } from "./subjects";
 
-const { subjects } = SCIENCE;
-
 describe("subjects", () => {
   it("reads the subject from a course code", () => {
     expect(subjectOf("MATH 221")).toBe("MATH");
@@ -10,18 +8,25 @@ describe("subjects", () => {
   });
 
   it("reads the subject from the address, in any case", () => {
-    expect(subjectFromHash("#math", subjects)).toBe("MATH");
-    expect(subjectFromHash("#STAT", subjects)).toBe("STAT");
+    expect(subjectFromHash("#math", SCIENCE)).toBe("MATH");
+    expect(subjectFromHash("#STAT", SCIENCE)).toBe("STAT");
+    expect(subjectFromHash("#astr", SCIENCE)).toBe("ASTR");
   });
 
-  it("falls back to the first subject for no hash or an unknown one", () => {
-    expect(subjectFromHash("", subjects)).toBe("CPSC");
-    expect(subjectFromHash("#phys", subjects)).toBe("CPSC");
+  it("falls back to the home subject for no hash or an unknown one", () => {
+    expect(subjectFromHash("", SCIENCE)).toBe("CPSC");
+    expect(subjectFromHash("#zool", SCIENCE)).toBe("CPSC");
   });
 
-  it("writes the hash for a subject, and none for the first", () => {
-    expect(hashFor("MATH", subjects)).toBe("#math");
-    expect(hashFor("CPSC", subjects)).toBe("");
-    expect(subjectFromHash(hashFor("STAT", subjects), subjects)).toBe("STAT");
+  it("writes the hash for a subject, and none for the home subject", () => {
+    expect(hashFor("MATH", SCIENCE)).toBe("#math");
+    expect(hashFor("CPSC", SCIENCE)).toBe("");
+    expect(subjectFromHash(hashFor("STAT", SCIENCE), SCIENCE)).toBe("STAT");
+  });
+
+  it("lists the subjects A to Z by name, with the home subject among them", () => {
+    const names = SCIENCE.subjects.map((s) => s.name);
+    expect(names).toEqual([...names].sort());
+    expect(SCIENCE.subjects.map((s) => s.code)).toContain(SCIENCE.home);
   });
 });
