@@ -2,6 +2,7 @@ import json
 import re
 import time
 from pathlib import Path
+from urllib.error import HTTPError
 from urllib.request import Request, urlopen
 
 # Grade distributions and teaching history from UBCGrades (https://ubcgrades.com), which
@@ -33,6 +34,18 @@ def raw_path(raw_dir: Path, session: str, subject: str) -> Path:
     return raw_dir / f"{CAMPUS}-{session}-{subject}.json"
 
 
+def fetch_term(url: str, fetch=fetch_text) -> str:
+    # One term's sections. UBCGrades answers 404 when a subject had no sections that term
+    # (ENVR has none in most summers), which is saved as an empty list, so the term isn't
+    # asked for again.
+    try:
+        return fetch(url)
+    except HTTPError as e:
+        if e.code != 404:
+            raise
+        return "[]"
+
+
 def download_grades(subject: str, raw_dir: Path, fetch=fetch_text, sleep=time.sleep,
                     refresh: bool = False) -> list[str]:
     # Saves one file per term. Past terms don't change, so only terms that aren't saved yet
@@ -46,7 +59,8 @@ def download_grades(subject: str, raw_dir: Path, fetch=fetch_text, sleep=time.sl
         if path.exists() and not refresh:
             continue
         sleep(SECONDS_BETWEEN_REQUESTS)
-        path.write_text(fetch(f"{API}/grades/{CAMPUS}/{session}/{subject}"), encoding="utf-8")
+        text = fetch_term(f"{API}/grades/{CAMPUS}/{session}/{subject}", fetch)
+        path.write_text(text, encoding="utf-8")
         downloaded.append(session)
     return downloaded
 

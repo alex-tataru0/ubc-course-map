@@ -1,0 +1,568 @@
+{
+  "subject": "ISCI",
+  "campus": "UBCV",
+  "source": "https://ubcgrades.com",
+  "credit": "UBCGrades.com / UBC PAIR",
+  "sessions": ["2021S", "2021W", "2022S", "2022W", "2023S", "2023W", "2024S", "2024W", "2025S", "2025W"],
+  "buckets": ["<50%", "50-54%", "55-59%", "60-63%", "64-67%", "68-71%", "72-75%", "76-79%", "80-84%", "85-89%", "90-100%"],
+  "courses": {
+    "ISCI 311": {
+      "reported": 309,
+      "average": 97.2,
+      "grades": [0, 0, 1, 0, 0, 0, 1, 2, 0, 4, 292],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 73,
+          "average": 97.8,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 0, 2, 70],
+          "instructors": ["Jim Evans"]
+        },
+        {
+          "session": "2024W",
+          "reported": 60,
+          "average": 99.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 60],
+          "instructors": ["Robert James Evans"]
+        },
+        {
+          "session": "2023W",
+          "reported": 62,
+          "average": 98.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 62],
+          "instructors": ["Robert James Evans"]
+        },
+        {
+          "session": "2022W",
+          "reported": 68,
+          "average": 96.5,
+          "grades": [0, 0, 1, 0, 0, 0, 0, 2, 0, 2, 63],
+          "instructors": ["Robert James Evans"]
+        },
+        {
+          "session": "2021W",
+          "reported": 46,
+          "average": 92.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 37],
+          "instructors": ["Robert James Evans"]
+        }
+      ]
+    },
+    "ISCI 312": {
+      "reported": 313,
+      "average": 94.8,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 3, 2, 40, 264],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 74,
+          "average": 97.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 72],
+          "instructors": ["Jim Evans"]
+        },
+        {
+          "session": "2024W",
+          "reported": 65,
+          "average": 97.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 61],
+          "instructors": ["Robert James Evans"]
+        },
+        {
+          "session": "2023W",
+          "reported": 61,
+          "average": 96.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 2, 1, 1, 57],
+          "instructors": ["Robert James Evans"]
+        },
+        {
+          "session": "2022W",
+          "reported": 56,
+          "average": 92.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 9, 46],
+          "instructors": ["Robert James Evans"]
+        },
+        {
+          "session": "2021W",
+          "reported": 57,
+          "average": 89.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 25, 28],
+          "instructors": ["Robert James Evans"]
+        }
+      ]
+    },
+    "ISCI 320": {
+      "reported": 73,
+      "average": 85.6,
+      "grades": [0, 1, 0, 0, 0, 0, 1, 0, 16, 25, 15],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 14,
+          "average": 86.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 6, 4, 4],
+          "instructors": ["Rik Blok"]
+        },
+        {
+          "session": "2024W",
+          "reported": 15,
+          "average": 83.7,
+          "grades": [0, 1, 0, 0, 0, 0, 0, 0, 6, 3, 5],
+          "instructors": ["Hendrik Blok"]
+        },
+        {
+          "session": "2023W",
+          "reported": 15,
+          "average": 86.6,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 2, 9, 3],
+          "instructors": ["Hendrik Blok"]
+        },
+        {
+          "session": "2022W",
+          "reported": 14,
+          "average": 87.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 9, 3],
+          "instructors": ["Hendrik Blok"]
+        },
+        {
+          "session": "2021W",
+          "reported": 15,
+          "average": 84.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Hendrik Blok"]
+        }
+      ]
+    },
+    "ISCI 330": {
+      "reported": 40,
+      "average": 87.8,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 16],
+      "terms": [
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Topics in Integrated Sciences",
+          "reported": 25,
+          "average": 89.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16],
+          "instructors": ["Denise Gabriel"]
+        },
+        {
+          "session": "2021W",
+          "topic": "B",
+          "title": "Topics in Integrated Sciences",
+          "reported": 15,
+          "average": 85.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 0],
+          "instructors": ["Elisabeth Ormandy"]
+        }
+      ]
+    },
+    "ISCI 350": {
+      "reported": 163,
+      "average": 87.5,
+      "grades": [1, 0, 0, 0, 1, 2, 6, 6, 20, 44, 77],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 25,
+          "average": 83.4,
+          "grades": [1, 0, 0, 0, 1, 2, 4, 0, 1, 4, 12],
+          "instructors": ["Leticia Aviles"]
+        },
+        {
+          "session": "2024W",
+          "reported": 22,
+          "average": 88.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 3, 2, 8, 9],
+          "instructors": ["Leticia Aviles"]
+        },
+        {
+          "session": "2023W",
+          "reported": 42,
+          "average": 88.5,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 3, 5, 13, 20],
+          "instructors": ["Leticia Aviles"]
+        },
+        {
+          "session": "2022W",
+          "reported": 41,
+          "average": 89.2,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 6, 12, 22],
+          "instructors": ["Leticia Aviles"]
+        },
+        {
+          "session": "2021W",
+          "reported": 33,
+          "average": 86.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 6, 7, 14],
+          "instructors": ["Leticia Aviles"]
+        }
+      ]
+    },
+    "ISCI 351": {
+      "reported": 189,
+      "average": 87.1,
+      "grades": [1, 0, 2, 0, 4, 1, 5, 10, 31, 46, 88],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 54,
+          "average": 87.6,
+          "grades": [1, 0, 0, 0, 1, 0, 3, 2, 11, 6, 30],
+          "instructors": ["Denise Gabriel"]
+        },
+        {
+          "session": "2024W",
+          "reported": 47,
+          "average": 86.7,
+          "grades": [0, 0, 1, 0, 1, 0, 0, 3, 9, 17, 16],
+          "instructors": ["Denise Gabriel"]
+        },
+        {
+          "session": "2023W",
+          "reported": 43,
+          "average": 87.5,
+          "grades": [0, 0, 1, 0, 0, 0, 1, 2, 5, 13, 20],
+          "instructors": ["Denise Gabriel"]
+        },
+        {
+          "session": "2022W",
+          "reported": 45,
+          "average": 86.4,
+          "grades": [0, 0, 0, 0, 2, 1, 1, 3, 6, 10, 22],
+          "instructors": ["Denise Gabriel"]
+        }
+      ]
+    },
+    "ISCI 360": {
+      "reported": 332,
+      "average": 88.1,
+      "grades": [0, 0, 1, 0, 2, 2, 3, 12, 45, 106, 153],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 66,
+          "average": 89.8,
+          "grades": [0, 0, 0, 0, 1, 1, 0, 0, 6, 19, 39],
+          "instructors": ["Denise Gabriel"]
+        },
+        {
+          "session": "2024W",
+          "reported": 61,
+          "average": 90.2,
+          "grades": [0, 0, 0, 0, 1, 0, 0, 0, 6, 15, 39],
+          "instructors": ["Denise Gabriel"]
+        },
+        {
+          "session": "2023W",
+          "reported": 60,
+          "average": 87.2,
+          "grades": [0, 0, 1, 0, 0, 0, 1, 6, 4, 26, 22],
+          "instructors": ["Denise Gabriel"]
+        },
+        {
+          "session": "2022W",
+          "reported": 76,
+          "average": 86.7,
+          "grades": [0, 0, 0, 0, 0, 1, 2, 6, 20, 21, 26],
+          "instructors": ["Denise Gabriel"]
+        },
+        {
+          "session": "2021W",
+          "reported": 69,
+          "average": 86.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 9, 25, 27],
+          "instructors": ["Denise Gabriel"]
+        }
+      ]
+    },
+    "ISCI 361": {
+      "reported": 143,
+      "average": 91.2,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 1, 5, 28, 105],
+      "terms": [
+        {
+          "session": "2025S",
+          "reported": 18,
+          "average": 94.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 18],
+          "instructors": ["Steven Quane", "Denise Gabriel", "Lee Groat"]
+        },
+        {
+          "session": "2024W",
+          "reported": 11,
+          "average": 92.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 9],
+          "instructors": ["Lee Groat", "Steven Quane", "Denise Gabriel"]
+        },
+        {
+          "session": "2024S",
+          "reported": 17,
+          "average": 93.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 17],
+          "instructors": ["Denise Gabriel"]
+        },
+        {
+          "session": "2023W",
+          "reported": 9,
+          "average": 89.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 6],
+          "instructors": ["Steven Quane", "Denise Gabriel"]
+        },
+        {
+          "session": "2023S",
+          "reported": 44,
+          "average": 90.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 2, 11, 30],
+          "instructors": ["Lee Groat", "Steven Quane", "Denise Gabriel"]
+        },
+        {
+          "session": "2022W",
+          "reported": 11,
+          "average": 89.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 4, 5],
+          "instructors": ["Lee Groat", "Steven Quane", "Denise Gabriel"]
+        },
+        {
+          "session": "2022S",
+          "reported": 19,
+          "average": 89.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 10],
+          "instructors": ["Steven Quane", "Denise Gabriel"]
+        },
+        {
+          "session": "2021S",
+          "reported": 14,
+          "average": 90.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10],
+          "instructors": ["Lee Groat", "Steven Quane", "Denise Gabriel"]
+        }
+      ]
+    },
+    "ISCI 433": {
+      "reported": 153,
+      "average": 85.6,
+      "grades": [0, 0, 0, 0, 0, 0, 4, 3, 37, 76, 25],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 31,
+          "average": 86.5,
+          "grades": [0, 0, 0, 0, 0, 0, 3, 1, 2, 15, 10],
+          "instructors": ["Rana Ahmad"]
+        },
+        {
+          "session": "2024W",
+          "reported": 33,
+          "average": 87.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 6, 17, 10],
+          "instructors": ["Rana Ahmad"]
+        },
+        {
+          "session": "2023W",
+          "reported": 34,
+          "average": 86.2,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 7, 22, 3],
+          "instructors": ["Rana Ahmad"]
+        },
+        {
+          "session": "2022W",
+          "reported": 30,
+          "average": 83.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 2, 14, 12, 2],
+          "instructors": ["Elisabeth Ormandy", "Rana Ahmad"]
+        },
+        {
+          "session": "2021W",
+          "reported": 25,
+          "average": 84.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 8, 10, 0],
+          "instructors": ["Elisabeth Ormandy", "Rana Ahmad"]
+        }
+      ]
+    },
+    "ISCI 434": {
+      "reported": 176,
+      "average": 92.5,
+      "grades": [0, 0, 0, 0, 0, 0, 1, 1, 4, 25, 145],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 44,
+          "average": 93.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 7, 36],
+          "instructors": ["Sukhneet Kaur Dhillon"]
+        },
+        {
+          "session": "2024W",
+          "reported": 45,
+          "average": 93.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 39],
+          "instructors": ["Sukhneet Kaur Dhillon"]
+        },
+        {
+          "session": "2023W",
+          "reported": 48,
+          "average": 92.8,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 1, 4, 42],
+          "instructors": ["Sukhneet Kaur Dhillon"]
+        },
+        {
+          "session": "2022W",
+          "reported": 39,
+          "average": 90.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 2, 8, 28],
+          "instructors": ["Sukhneet Kaur Dhillon"]
+        }
+      ]
+    },
+    "ISCI 448": {
+      "reported": 198,
+      "average": 93.5,
+      "grades": [0, 0, 0, 0, 0, 1, 1, 0, 6, 18, 164],
+      "terms": [
+        {
+          "session": "2025W",
+          "topic": "A",
+          "title": "DIRECTED STUDIES",
+          "reported": 7,
+          "average": 94.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7],
+          "instructors": []
+        },
+        {
+          "session": "2025W",
+          "topic": "C",
+          "title": "DIRECTED STUDIES",
+          "reported": 17,
+          "average": 93.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 13],
+          "instructors": ["Lee Groat"]
+        },
+        {
+          "session": "2025W",
+          "topic": "D",
+          "title": "DIRECTED STUDIES",
+          "reported": 45,
+          "average": 93.7,
+          "grades": [0, 0, 0, 0, 0, 1, 1, 0, 1, 4, 38],
+          "instructors": ["Lee Groat"]
+        },
+        {
+          "session": "2024W",
+          "topic": "C",
+          "title": "DIRECTED STUDIES",
+          "reported": 10,
+          "average": 92.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 9],
+          "instructors": ["Lee Groat"]
+        },
+        {
+          "session": "2024W",
+          "topic": "D",
+          "title": "DIRECTED STUDIES",
+          "reported": 26,
+          "average": 94.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 25],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "topic": "A",
+          "title": "Directed Studies",
+          "reported": 9,
+          "average": 93.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 7],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "topic": "C",
+          "title": "Directed Studies",
+          "reported": 6,
+          "average": 92.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 4],
+          "instructors": ["Lee Groat"]
+        },
+        {
+          "session": "2023W",
+          "topic": "D",
+          "title": "Directed Studies",
+          "reported": 25,
+          "average": 94.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 21],
+          "instructors": ["Lee Groat"]
+        },
+        {
+          "session": "2022W",
+          "topic": "D",
+          "title": "Directed Studies",
+          "reported": 20,
+          "average": 93.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 15],
+          "instructors": ["Lee Groat"]
+        },
+        {
+          "session": "2021W",
+          "topic": "C",
+          "title": "Directed Studies",
+          "reported": 9,
+          "average": 95.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8],
+          "instructors": ["Lee Groat"]
+        },
+        {
+          "session": "2021W",
+          "topic": "D",
+          "title": "Directed Studies",
+          "reported": 24,
+          "average": 90.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 17],
+          "instructors": ["Lee Groat"]
+        }
+      ]
+    },
+    "ISCI 461": {
+      "reported": 6,
+      "average": 92.3,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 5],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 6,
+          "average": 92.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 5],
+          "instructors": ["Steven Quane", "Denise Gabriel"]
+        }
+      ]
+    },
+    "ISCI 490": {
+      "reported": 69,
+      "average": 96.8,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 68],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 20,
+          "average": 99.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20],
+          "instructors": []
+        },
+        {
+          "session": "2024W",
+          "reported": 29,
+          "average": 96.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 28],
+          "instructors": []
+        },
+        {
+          "session": "2022W",
+          "reported": 20,
+          "average": 95.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20],
+          "instructors": []
+        }
+      ]
+    }
+  }
+}

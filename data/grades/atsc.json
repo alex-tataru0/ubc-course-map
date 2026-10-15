@@ -1,0 +1,338 @@
+{
+  "subject": "ATSC",
+  "campus": "UBCV",
+  "source": "https://ubcgrades.com",
+  "credit": "UBCGrades.com / UBC PAIR",
+  "sessions": ["2021S", "2021W", "2022S", "2022W", "2023S", "2023W", "2024S", "2024W", "2025S", "2025W"],
+  "buckets": ["<50%", "50-54%", "55-59%", "60-63%", "64-67%", "68-71%", "72-75%", "76-79%", "80-84%", "85-89%", "90-100%"],
+  "courses": {
+    "ATSC 113": {
+      "reported": 5110,
+      "average": 76.7,
+      "grades": [538, 27, 68, 92, 158, 296, 454, 605, 874, 916, 1030],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 553,
+          "average": 72.6,
+          "grades": [93, 3, 6, 10, 15, 38, 55, 79, 105, 91, 58],
+          "instructors": ["Douglas McCollor", "Roland Stull"]
+        },
+        {
+          "session": "2025S",
+          "reported": 92,
+          "average": 76.6,
+          "grades": [10, 0, 1, 1, 3, 5, 5, 18, 20, 15, 14],
+          "instructors": ["Douglas McCollor", "Roland Stull"]
+        },
+        {
+          "session": "2024W",
+          "reported": 574,
+          "average": 73.6,
+          "grades": [94, 2, 5, 12, 21, 28, 59, 73, 109, 102, 69],
+          "instructors": ["Douglas McCollor", "Roland Stull"]
+        },
+        {
+          "session": "2024S",
+          "reported": 73,
+          "average": 79.4,
+          "grades": [5, 1, 2, 1, 2, 0, 6, 12, 17, 15, 12],
+          "instructors": ["Roland Stull"]
+        },
+        {
+          "session": "2023W",
+          "reported": 643,
+          "average": 72.9,
+          "grades": [96, 1, 13, 13, 20, 30, 53, 82, 135, 121, 61],
+          "instructors": ["Douglas McCollor", "Roland Stull"]
+        },
+        {
+          "session": "2023S",
+          "reported": 81,
+          "average": 71.4,
+          "grades": [13, 1, 0, 1, 7, 7, 4, 8, 20, 11, 5],
+          "instructors": ["Douglas McCollor", "Roland Stull"]
+        },
+        {
+          "session": "2022W",
+          "reported": 576,
+          "average": 74.6,
+          "grades": [88, 5, 7, 11, 26, 34, 43, 51, 88, 120, 103],
+          "instructors": ["Douglas McCollor", "Roland Stull"]
+        },
+        {
+          "session": "2022S",
+          "reported": 208,
+          "average": 75.9,
+          "grades": [16, 1, 5, 10, 6, 25, 21, 25, 30, 35, 34],
+          "instructors": ["Douglas McCollor", "Roland Stull"]
+        },
+        {
+          "session": "2021W",
+          "reported": 1891,
+          "average": 78.7,
+          "grades": [115, 13, 29, 33, 58, 122, 193, 240, 311, 330, 435],
+          "instructors": ["Roland Stull", "Douglas Mccollor"]
+        },
+        {
+          "session": "2021S",
+          "reported": 419,
+          "average": 87.4,
+          "grades": [8, 0, 0, 0, 0, 7, 15, 17, 39, 76, 239],
+          "instructors": ["Roland Stull", "Douglas Mccollor"]
+        }
+      ]
+    },
+    "ATSC 201": {
+      "reported": 460,
+      "average": 81.4,
+      "grades": [13, 8, 9, 7, 11, 17, 37, 39, 74, 65, 163],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 71,
+          "average": 83.9,
+          "grades": [1, 1, 1, 1, 4, 3, 3, 6, 7, 14, 30],
+          "instructors": ["Roland Stull"]
+        },
+        {
+          "session": "2024W",
+          "reported": 79,
+          "average": 81.9,
+          "grades": [3, 1, 0, 1, 3, 3, 9, 7, 11, 10, 31],
+          "instructors": ["Roland Stull"]
+        },
+        {
+          "session": "2023W",
+          "reported": 121,
+          "average": 80.1,
+          "grades": [3, 4, 2, 3, 3, 7, 6, 14, 22, 13, 37],
+          "instructors": ["Roland Stull"]
+        },
+        {
+          "session": "2022W",
+          "reported": 95,
+          "average": 81.9,
+          "grades": [0, 2, 6, 2, 1, 4, 10, 5, 21, 14, 30],
+          "instructors": ["Roland Stull"]
+        },
+        {
+          "session": "2021W",
+          "reported": 94,
+          "average": 80.5,
+          "grades": [6, 0, 0, 0, 0, 0, 9, 7, 13, 14, 35],
+          "instructors": ["Roland Stull"]
+        }
+      ]
+    },
+    "ATSC 301": {
+      "reported": 32,
+      "average": 78.6,
+      "grades": [1, 0, 2, 2, 1, 4, 1, 1, 6, 0, 14],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 11,
+          "average": 82.6,
+          "grades": [0, 0, 0, 1, 0, 3, 0, 1, 0, 0, 6],
+          "instructors": ["Philip Austin"]
+        },
+        {
+          "session": "2022W",
+          "reported": 21,
+          "average": 76.5,
+          "grades": [1, 0, 2, 1, 1, 1, 1, 0, 6, 0, 8],
+          "instructors": ["Philip Austin"]
+        }
+      ]
+    },
+    "ATSC 303": {
+      "reported": 41,
+      "average": 86.7,
+      "grades": [0, 0, 0, 1, 2, 0, 1, 2, 6, 7, 22],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 26,
+          "average": 84.2,
+          "grades": [0, 0, 0, 1, 2, 0, 1, 2, 4, 4, 12],
+          "instructors": ["Roland Stull"]
+        },
+        {
+          "session": "2022W",
+          "reported": 15,
+          "average": 91.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 10],
+          "instructors": ["Roland Stull"]
+        }
+      ]
+    },
+    "ATSC 313": {
+      "reported": 378,
+      "average": 79.5,
+      "grades": [15, 4, 3, 1, 9, 21, 24, 30, 63, 90, 89],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 73,
+          "average": 85.4,
+          "grades": [3, 0, 0, 0, 0, 2, 2, 4, 6, 21, 35],
+          "instructors": ["Douglas McCollor"]
+        },
+        {
+          "session": "2024W",
+          "reported": 58,
+          "average": 76.1,
+          "grades": [6, 3, 2, 0, 1, 2, 6, 6, 8, 8, 16],
+          "instructors": ["Douglas McCollor", "Roland Stull"]
+        },
+        {
+          "session": "2023W",
+          "reported": 96,
+          "average": 80.6,
+          "grades": [2, 1, 0, 1, 3, 9, 9, 4, 19, 26, 17],
+          "instructors": ["Douglas McCollor", "Roland Stull"]
+        },
+        {
+          "session": "2022W",
+          "reported": 72,
+          "average": 76.7,
+          "grades": [4, 0, 1, 0, 5, 8, 7, 10, 14, 14, 9],
+          "instructors": ["Douglas McCollor", "Roland Stull"]
+        },
+        {
+          "session": "2021W",
+          "reported": 79,
+          "average": 77.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 6, 16, 21, 12],
+          "instructors": ["Roland Stull", "Douglas Mccollor"]
+        }
+      ]
+    },
+    "ATSC 404": {
+      "reported": 19,
+      "average": 79.3,
+      "grades": [0, 0, 1, 1, 0, 2, 2, 2, 1, 1, 3],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 13,
+          "average": 77.5,
+          "grades": [0, 0, 1, 1, 0, 2, 2, 2, 1, 1, 3],
+          "instructors": ["Christian Schoof"]
+        },
+        {
+          "session": "2021W",
+          "reported": 6,
+          "average": 83.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Christian Schoof"]
+        }
+      ]
+    },
+    "ATSC 405": {
+      "reported": 13,
+      "average": 83.5,
+      "grades": [0, 0, 0, 0, 0, 1, 0, 2, 4, 3, 2],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 13,
+          "average": 83.5,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 2, 4, 3, 2],
+          "instructors": ["Philip Austin"]
+        }
+      ]
+    },
+    "ATSC 409": {
+      "reported": 19,
+      "average": 84.2,
+      "grades": [0, 0, 0, 0, 1, 1, 3, 2, 2, 3, 7],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 12,
+          "average": 79.0,
+          "grades": [0, 0, 0, 0, 1, 1, 3, 2, 2, 2, 1],
+          "instructors": ["Susan Allen", "Rachel White"]
+        },
+        {
+          "session": "2023W",
+          "reported": 7,
+          "average": 93.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 6],
+          "instructors": ["Susan Elizabeth Allen", "Rachel White"]
+        }
+      ]
+    },
+    "ATSC 413": {
+      "reported": 70,
+      "average": 87.2,
+      "grades": [0, 0, 0, 1, 0, 1, 2, 2, 12, 19, 33],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 22,
+          "average": 84.9,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 1, 6, 9, 5],
+          "instructors": ["Douglas McCollor", "Roland Stull"]
+        },
+        {
+          "session": "2024W",
+          "reported": 14,
+          "average": 87.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 3, 4, 6],
+          "instructors": ["Douglas McCollor", "Roland Stull"]
+        },
+        {
+          "session": "2023W",
+          "reported": 34,
+          "average": 88.6,
+          "grades": [0, 0, 0, 1, 0, 1, 1, 0, 3, 6, 22],
+          "instructors": ["Christopher Rodell", "Roland Stull"]
+        }
+      ]
+    },
+    "ATSC 448": {
+      "reported": 14,
+      "average": 82.2,
+      "grades": [0, 0, 1, 0, 0, 0, 0, 1, 4, 7, 1],
+      "terms": [
+        {
+          "session": "2024W",
+          "topic": "B",
+          "title": "Directed Studies",
+          "reported": 8,
+          "average": 84.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 4, 3, 1],
+          "instructors": ["Rachel White", "Philip Austin"]
+        },
+        {
+          "session": "2022W",
+          "topic": "B",
+          "title": "Directed Studies",
+          "reported": 6,
+          "average": 79.0,
+          "grades": [0, 0, 1, 0, 0, 0, 0, 1, 0, 4, 0],
+          "instructors": ["Rachel White", "Philip Austin"]
+        }
+      ]
+    },
+    "ATSC 595": {
+      "reported": 10,
+      "average": 96.1,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 7],
+      "terms": [
+        {
+          "session": "2023W",
+          "topic": "D",
+          "title": "Directed Studies",
+          "reported": 10,
+          "average": 96.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 7],
+          "instructors": ["Roland Stull"]
+        }
+      ]
+    }
+  }
+}

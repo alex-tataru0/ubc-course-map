@@ -1,0 +1,2669 @@
+{
+  "subject": "PHYS",
+  "campus": "UBCV",
+  "source": "https://ubcgrades.com",
+  "credit": "UBCGrades.com / UBC PAIR",
+  "sessions": ["2021S", "2021W", "2022S", "2022W", "2023S", "2023W", "2024S", "2024W", "2025S", "2025W"],
+  "buckets": ["<50%", "50-54%", "55-59%", "60-63%", "64-67%", "68-71%", "72-75%", "76-79%", "80-84%", "85-89%", "90-100%"],
+  "courses": {
+    "PHYS 100": {
+      "reported": 4267,
+      "average": 77.6,
+      "grades": [245, 98, 54, 106, 140, 264, 544, 362, 829, 649, 912],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 764,
+          "average": 80.4,
+          "grades": [33, 13, 16, 24, 26, 37, 79, 51, 135, 115, 235],
+          "instructors": ["Marina Litinskaya", "Amali Priyanka Jambuge", "Marcello Pavan"]
+        },
+        {
+          "session": "2025S",
+          "reported": 188,
+          "average": 80.9,
+          "grades": [6, 2, 0, 7, 5, 8, 18, 12, 35, 47, 48],
+          "instructors": ["Jonathan Massey Allard"]
+        },
+        {
+          "session": "2024W",
+          "reported": 706,
+          "average": 78.6,
+          "grades": [33, 18, 10, 6, 20, 35, 101, 54, 169, 111, 149],
+          "instructors": ["Marina Litinskaya", "Amali Priyanka Jambuge", "Marcello Pavan"]
+        },
+        {
+          "session": "2024S",
+          "reported": 158,
+          "average": 76.9,
+          "grades": [5, 2, 3, 6, 11, 14, 20, 20, 30, 28, 19],
+          "instructors": ["Jonathan Massey Allard"]
+        },
+        {
+          "session": "2023W",
+          "reported": 685,
+          "average": 75.3,
+          "grades": [49, 16, 8, 22, 29, 57, 115, 67, 124, 64, 112],
+          "instructors": ["Marina Litinskaya", "Amali Priyanka Jambuge", "Marcello Pavan"]
+        },
+        {
+          "session": "2023S",
+          "reported": 140,
+          "average": 74.0,
+          "grades": [11, 0, 2, 9, 6, 17, 13, 18, 22, 15, 15],
+          "instructors": ["Jonathan Massey Allard"]
+        },
+        {
+          "session": "2022W",
+          "reported": 667,
+          "average": 80.2,
+          "grades": [23, 19, 9, 9, 12, 26, 83, 56, 136, 101, 193],
+          "instructors": ["Marina Litinskaya", "Erfan Rezaie", "Marcello Pavan"]
+        },
+        {
+          "session": "2022S",
+          "reported": 173,
+          "average": 72.7,
+          "grades": [19, 4, 4, 11, 8, 12, 25, 12, 23, 26, 29],
+          "instructors": ["Erfan Rezaie"]
+        },
+        {
+          "session": "2021W",
+          "reported": 637,
+          "average": 75.0,
+          "grades": [56, 24, 2, 12, 23, 43, 70, 64, 126, 113, 91],
+          "instructors": ["Erfan Rezaie", "Marcello Pavan", "Marina Litinskaya"]
+        },
+        {
+          "session": "2021S",
+          "reported": 149,
+          "average": 75.1,
+          "grades": [10, 0, 0, 0, 0, 15, 20, 8, 29, 29, 21],
+          "instructors": ["Erfan Rezaie"]
+        }
+      ]
+    },
+    "PHYS 106": {
+      "reported": 664,
+      "average": 82.1,
+      "grades": [7, 1, 4, 8, 12, 41, 47, 52, 161, 96, 145],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 130,
+          "average": 80.8,
+          "grades": [4, 1, 0, 4, 2, 10, 13, 12, 29, 23, 32],
+          "instructors": ["Carl Michal"]
+        },
+        {
+          "session": "2024W",
+          "reported": 134,
+          "average": 82.1,
+          "grades": [0, 0, 2, 0, 6, 10, 9, 13, 35, 26, 33],
+          "instructors": ["Mark Van Raamsdonk"]
+        },
+        {
+          "session": "2023W",
+          "reported": 136,
+          "average": 82.4,
+          "grades": [2, 0, 1, 3, 3, 6, 13, 12, 33, 14, 44],
+          "instructors": ["Mark van Raamsdonk"]
+        },
+        {
+          "session": "2022W",
+          "reported": 133,
+          "average": 83.4,
+          "grades": [1, 0, 1, 1, 1, 8, 12, 15, 25, 33, 36],
+          "instructors": ["Mark van Raamsdonk"]
+        },
+        {
+          "session": "2021W",
+          "reported": 131,
+          "average": 81.6,
+          "grades": [0, 0, 0, 0, 0, 7, 0, 0, 39, 0, 0],
+          "instructors": ["Mark Van Raamsdonk"]
+        }
+      ]
+    },
+    "PHYS 108": {
+      "reported": 476,
+      "average": 78.0,
+      "grades": [12, 6, 11, 23, 12, 50, 49, 38, 65, 78, 111],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 96,
+          "average": 77.3,
+          "grades": [3, 2, 1, 8, 2, 6, 10, 13, 15, 14, 22],
+          "instructors": ["Janis McKenna"]
+        },
+        {
+          "session": "2024W",
+          "reported": 101,
+          "average": 80.9,
+          "grades": [1, 0, 2, 2, 2, 12, 11, 9, 21, 20, 21],
+          "instructors": ["Janis McKenna"]
+        },
+        {
+          "session": "2023W",
+          "reported": 88,
+          "average": 77.3,
+          "grades": [5, 2, 5, 3, 2, 11, 8, 5, 2, 15, 26],
+          "instructors": ["Janis McKenna"]
+        },
+        {
+          "session": "2022W",
+          "reported": 116,
+          "average": 78.4,
+          "grades": [3, 2, 3, 4, 6, 15, 11, 11, 17, 18, 26],
+          "instructors": ["Janis McKenna"]
+        },
+        {
+          "session": "2021W",
+          "reported": 75,
+          "average": 75.1,
+          "grades": [0, 0, 0, 6, 0, 6, 9, 0, 10, 11, 16],
+          "instructors": ["Janis Mckenna"]
+        }
+      ]
+    },
+    "PHYS 117": {
+      "reported": 2532,
+      "average": 73.3,
+      "grades": [221, 47, 93, 114, 147, 258, 233, 189, 324, 278, 364],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 440,
+          "average": 68.9,
+          "grades": [49, 29, 34, 31, 21, 48, 51, 41, 70, 39, 27],
+          "instructors": ["Joanna Karczmarek", "Stefan Reinsberg", "Georg Rieger"]
+        },
+        {
+          "session": "2025S",
+          "reported": 56,
+          "average": 74.3,
+          "grades": [7, 0, 0, 2, 1, 8, 7, 5, 10, 9, 7],
+          "instructors": ["Nicola Fameli"]
+        },
+        {
+          "session": "2024W",
+          "reported": 514,
+          "average": 72.6,
+          "grades": [57, 7, 14, 24, 39, 70, 69, 40, 89, 56, 49],
+          "instructors": ["Stefan Reinsberg", "Joanna Karczmarek", "Georg Rieger"]
+        },
+        {
+          "session": "2023W",
+          "reported": 569,
+          "average": 74.0,
+          "grades": [43, 3, 19, 31, 32, 75, 57, 44, 103, 82, 47],
+          "instructors": ["Stefan Reinsberg", "Joanna Karczmarek", "Georg Rieger"]
+        },
+        {
+          "session": "2022W",
+          "reported": 571,
+          "average": 78.5,
+          "grades": [49, 8, 12, 26, 32, 46, 39, 59, 52, 61, 187],
+          "instructors": ["Joss Ives", "Stefan Reinsberg", "Georg Rieger"]
+        },
+        {
+          "session": "2021W",
+          "reported": 382,
+          "average": 70.4,
+          "grades": [16, 0, 14, 0, 22, 11, 10, 0, 0, 31, 47],
+          "instructors": ["Ziliang Ye", "Joss Ives"]
+        }
+      ]
+    },
+    "PHYS 118": {
+      "reported": 2058,
+      "average": 75.3,
+      "grades": [165, 43, 52, 86, 98, 230, 208, 187, 321, 229, 414],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 193,
+          "average": 69.5,
+          "grades": [47, 1, 2, 5, 6, 21, 14, 15, 18, 29, 35],
+          "instructors": ["Simin Bagheri Najmi"]
+        },
+        {
+          "session": "2025S",
+          "reported": 195,
+          "average": 73.2,
+          "grades": [18, 3, 5, 3, 13, 26, 27, 27, 40, 17, 16],
+          "instructors": ["Simin Bagheri Najmi", "Georg Rieger"]
+        },
+        {
+          "session": "2024W",
+          "reported": 168,
+          "average": 73.2,
+          "grades": [19, 3, 6, 6, 12, 15, 18, 15, 25, 15, 34],
+          "instructors": ["Simin Bagheri Najmi"]
+        },
+        {
+          "session": "2024S",
+          "reported": 205,
+          "average": 74.4,
+          "grades": [8, 9, 8, 18, 10, 26, 20, 20, 32, 16, 38],
+          "instructors": ["Marina Litinskaya"]
+        },
+        {
+          "session": "2023W",
+          "reported": 216,
+          "average": 73.8,
+          "grades": [23, 4, 6, 12, 6, 32, 22, 14, 31, 20, 40],
+          "instructors": ["Julio Parra Martinez", "Georg Rieger"]
+        },
+        {
+          "session": "2023S",
+          "reported": 233,
+          "average": 77.3,
+          "grades": [11, 8, 5, 7, 7, 28, 33, 16, 34, 24, 57],
+          "instructors": ["Marina Litinskaya", "Georg Rieger"]
+        },
+        {
+          "session": "2022W",
+          "reported": 144,
+          "average": 77.4,
+          "grades": [15, 1, 2, 2, 4, 10, 21, 23, 15, 19, 32],
+          "instructors": ["Andrew Potter"]
+        },
+        {
+          "session": "2022S",
+          "reported": 207,
+          "average": 76.6,
+          "grades": [11, 5, 6, 7, 19, 25, 16, 16, 36, 20, 46],
+          "instructors": ["Marina Litinskaya", "Georg Rieger"]
+        },
+        {
+          "session": "2021W",
+          "reported": 193,
+          "average": 77.6,
+          "grades": [8, 0, 0, 10, 10, 20, 15, 15, 37, 30, 40],
+          "instructors": ["Andrew Potter", "Georg Rieger"]
+        },
+        {
+          "session": "2021S",
+          "reported": 304,
+          "average": 78.2,
+          "grades": [5, 9, 12, 16, 11, 27, 22, 26, 53, 39, 76],
+          "instructors": ["Marina Litinskaya", "Joss Ives"]
+        }
+      ]
+    },
+    "PHYS 119": {
+      "reported": 2740,
+      "average": 85.6,
+      "grades": [29, 15, 17, 28, 22, 49, 83, 122, 374, 676, 1141],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 530,
+          "average": 85.4,
+          "grades": [10, 1, 2, 7, 6, 16, 12, 23, 89, 136, 228],
+          "instructors": ["Paul Ripoche", "Jonathan Massey Allard", "Joss Ives", "Erfan Rezaie", "Amali Priyanka Jambuge"]
+        },
+        {
+          "session": "2025S",
+          "reported": 82,
+          "average": 89.4,
+          "grades": [1, 0, 1, 0, 0, 0, 1, 3, 9, 12, 55],
+          "instructors": ["Ke Zou"]
+        },
+        {
+          "session": "2024W",
+          "reported": 481,
+          "average": 86.1,
+          "grades": [4, 6, 4, 7, 5, 11, 14, 25, 60, 124, 221],
+          "instructors": ["Paul Ripoche", "Joss Ives", "Jonathan Massey Allard", "Erfan Rezaie", "Alison Lister"]
+        },
+        {
+          "session": "2024S",
+          "reported": 66,
+          "average": 88.3,
+          "grades": [1, 0, 0, 0, 0, 0, 0, 2, 6, 20, 37],
+          "instructors": ["Joss Ives"]
+        },
+        {
+          "session": "2023W",
+          "reported": 488,
+          "average": 84.9,
+          "grades": [2, 3, 7, 8, 4, 9, 15, 33, 90, 162, 142],
+          "instructors": ["Carl Michal", "Ke Zou", "Alison Lister", "Douglas Andrew Bonn", "Joss Ives"]
+        },
+        {
+          "session": "2023S",
+          "reported": 61,
+          "average": 85.5,
+          "grades": [0, 0, 0, 0, 1, 2, 8, 4, 8, 13, 24],
+          "instructors": ["Joss Ives"]
+        },
+        {
+          "session": "2022W",
+          "reported": 479,
+          "average": 83.8,
+          "grades": [11, 4, 2, 6, 6, 11, 24, 31, 91, 126, 167],
+          "instructors": ["Carl Michal", "Ke Zou", "Alison Lister", "Joss Ives"]
+        },
+        {
+          "session": "2022S",
+          "reported": 41,
+          "average": 88.5,
+          "grades": [0, 1, 1, 0, 0, 0, 2, 1, 1, 10, 25],
+          "instructors": ["Joss Ives"]
+        },
+        {
+          "session": "2021W",
+          "reported": 445,
+          "average": 85.7,
+          "grades": [0, 0, 0, 0, 0, 0, 7, 0, 20, 67, 197],
+          "instructors": ["Joss Ives", "Ke Zou", "Erfan Rezaie", "Stefan Reinsberg"]
+        },
+        {
+          "session": "2021S",
+          "reported": 67,
+          "average": 90.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 45],
+          "instructors": ["Joss Ives"]
+        }
+      ]
+    },
+    "PHYS 129": {
+      "reported": 206,
+      "average": 88.0,
+      "grades": [0, 1, 1, 3, 1, 3, 2, 7, 19, 39, 122],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 70,
+          "average": 91.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 3, 13, 53],
+          "instructors": ["Douglas Bryman"]
+        },
+        {
+          "session": "2024W",
+          "reported": 42,
+          "average": 92.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 36],
+          "instructors": ["Douglas Bryman"]
+        },
+        {
+          "session": "2023W",
+          "reported": 40,
+          "average": 87.9,
+          "grades": [0, 0, 1, 1, 0, 0, 0, 2, 4, 7, 25],
+          "instructors": ["Douglas Bryman"]
+        },
+        {
+          "session": "2022W",
+          "reported": 40,
+          "average": 80.1,
+          "grades": [0, 1, 0, 2, 1, 3, 2, 4, 12, 7, 8],
+          "instructors": ["Douglas Bryman", "Carl Michal"]
+        },
+        {
+          "session": "2021W",
+          "reported": 14,
+          "average": 78.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 0],
+          "instructors": ["Douglas Bryman"]
+        }
+      ]
+    },
+    "PHYS 131": {
+      "reported": 7475,
+      "average": 80.2,
+      "grades": [490, 56, 65, 148, 229, 442, 593, 548, 1212, 1081, 2401],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 1445,
+          "average": 79.8,
+          "grades": [129, 13, 14, 48, 61, 111, 120, 73, 192, 148, 536],
+          "instructors": ["Georg Rieger", "Javed Iqbal", "Vesna Sossi", "Marcello Pavan"]
+        },
+        {
+          "session": "2025S",
+          "reported": 146,
+          "average": 81.0,
+          "grades": [4, 0, 1, 2, 4, 9, 15, 16, 39, 19, 37],
+          "instructors": ["Amali Priyanka Jambuge"]
+        },
+        {
+          "session": "2024W",
+          "reported": 1328,
+          "average": 82.8,
+          "grades": [61, 14, 9, 18, 32, 70, 107, 73, 214, 197, 533],
+          "instructors": ["Georg Rieger", "Mohammed Iqbal", "Amali Priyanka Jambuge", "Marcello Pavan"]
+        },
+        {
+          "session": "2024S",
+          "reported": 146,
+          "average": 78.6,
+          "grades": [5, 0, 1, 4, 2, 13, 27, 15, 32, 21, 26],
+          "instructors": ["Amali Priyanka Jambuge"]
+        },
+        {
+          "session": "2023W",
+          "reported": 1345,
+          "average": 78.3,
+          "grades": [131, 17, 14, 36, 47, 96, 120, 105, 182, 159, 405],
+          "instructors": ["Mohammed Iqbal", "Steven Plotkin", "Vesna Sossi", "Amali Priyanka Jambuge"]
+        },
+        {
+          "session": "2023S",
+          "reported": 165,
+          "average": 85.1,
+          "grades": [4, 0, 1, 0, 1, 5, 10, 16, 21, 40, 63],
+          "instructors": ["Amali Priyanka Jambuge"]
+        },
+        {
+          "session": "2022W",
+          "reported": 1263,
+          "average": 82.0,
+          "grades": [72, 10, 6, 13, 26, 52, 94, 87, 245, 213, 445],
+          "instructors": ["Erfan Rezaie", "Mohammed Iqbal", "Vesna Sossi", "Georg Rieger"]
+        },
+        {
+          "session": "2022S",
+          "reported": 182,
+          "average": 76.1,
+          "grades": [20, 2, 7, 5, 7, 7, 11, 23, 34, 26, 40],
+          "instructors": ["Seyed Ali Nasseri"]
+        },
+        {
+          "session": "2021W",
+          "reported": 1214,
+          "average": 78.4,
+          "grades": [64, 0, 6, 15, 35, 62, 66, 102, 217, 223, 261],
+          "instructors": ["Mohammed Iqbal", "Steven Plotkin", "Alannah Hallas", "Erfan Rezaie", "Silvan Kuttimalai"]
+        },
+        {
+          "session": "2021S",
+          "reported": 241,
+          "average": 79.1,
+          "grades": [0, 0, 6, 7, 14, 17, 23, 38, 36, 35, 55],
+          "instructors": ["Arthur Charbonneau"]
+        }
+      ]
+    },
+    "PHYS 157": {
+      "reported": 4986,
+      "average": 76.9,
+      "grades": [206, 77, 100, 151, 196, 431, 482, 478, 787, 735, 618],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 1108,
+          "average": 75.4,
+          "grades": [113, 9, 9, 23, 36, 138, 124, 117, 232, 176, 131],
+          "instructors": ["Amali Priyanka Jambuge", "Simin Bagheri Najmi", "Nicola Fameli"]
+        },
+        {
+          "session": "2024W",
+          "reported": 964,
+          "average": 79.7,
+          "grades": [18, 17, 31, 32, 31, 81, 95, 73, 194, 176, 216],
+          "instructors": ["Amali Priyanka Jambuge", "Simin Bagheri Najmi", "Nicola Fameli"]
+        },
+        {
+          "session": "2023W",
+          "reported": 967,
+          "average": 75.7,
+          "grades": [24, 24, 33, 40, 60, 107, 127, 115, 187, 138, 92],
+          "instructors": ["Amali Priyanka Jambuge", "Steven Dierker", "Marina Litinskaya", "William H. McCutcheon"]
+        },
+        {
+          "session": "2022W",
+          "reported": 941,
+          "average": 79.3,
+          "grades": [33, 19, 13, 26, 34, 55, 78, 120, 174, 210, 179],
+          "instructors": ["Steven Dierker", "Robert Raussendorf", "Amali Priyanka Jambuge", "William H. McCutcheon"]
+        },
+        {
+          "session": "2021W",
+          "reported": 1006,
+          "average": 74.8,
+          "grades": [18, 8, 14, 30, 35, 50, 58, 53, 0, 35, 0],
+          "instructors": ["Robert Raussendorf", "Steven Dierker", "Fei Zhou", "William H. Mccutcheon"]
+        }
+      ]
+    },
+    "PHYS 158": {
+      "reported": 4436,
+      "average": 66.8,
+      "grades": [687, 376, 367, 323, 338, 469, 344, 325, 436, 300, 447],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 909,
+          "average": 68.3,
+          "grades": [142, 67, 45, 71, 54, 106, 81, 69, 104, 73, 97],
+          "instructors": ["Nicola Fameli", "Michael Hasinoff", "Marina Litinskaya"]
+        },
+        {
+          "session": "2024W",
+          "reported": 901,
+          "average": 66.7,
+          "grades": [148, 95, 79, 48, 44, 98, 59, 56, 99, 67, 108],
+          "instructors": ["Nicola Fameli", "Michael Hasinoff", "Marina Litinskaya"]
+        },
+        {
+          "session": "2023W",
+          "reported": 939,
+          "average": 66.4,
+          "grades": [131, 76, 74, 71, 86, 104, 90, 89, 79, 44, 71],
+          "instructors": ["Marina Litinskaya", "Michael Hasinoff", "Marcel Franz"]
+        },
+        {
+          "session": "2022W",
+          "reported": 815,
+          "average": 68.3,
+          "grades": [123, 59, 77, 60, 56, 76, 51, 43, 72, 76, 122],
+          "instructors": ["Thomas Mattison", "Michael Hasinoff", "Marcel Franz"]
+        },
+        {
+          "session": "2021W",
+          "reported": 872,
+          "average": 64.1,
+          "grades": [143, 79, 92, 73, 98, 85, 63, 68, 82, 40, 49],
+          "instructors": ["Seyed Ali Nasseri", "Michael Hasinoff", "Vesna Sossi"]
+        }
+      ]
+    },
+    "PHYS 159": {
+      "reported": 4311,
+      "average": 81.6,
+      "grades": [28, 29, 39, 69, 126, 184, 352, 535, 917, 954, 911],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 894,
+          "average": 83.5,
+          "grades": [3, 6, 3, 7, 14, 26, 58, 113, 211, 239, 214],
+          "instructors": ["Steve Dierker", "Kris Sigurdson", "Maximilian Swiatlowski", "Amali Priyanka Jambuge", "Chironjeev Kanjilal", "Meigan Aronson"]
+        },
+        {
+          "session": "2024W",
+          "reported": 852,
+          "average": 83.7,
+          "grades": [8, 3, 7, 9, 10, 21, 45, 67, 222, 247, 213],
+          "instructors": ["Chironjeev Kanjilal", "Amali Priyanka Jambuge", "Maximilian Swiatlowski", "Joss Ives", "Kris Sigurdson"]
+        },
+        {
+          "session": "2023W",
+          "reported": 862,
+          "average": 79.8,
+          "grades": [3, 7, 12, 19, 40, 54, 108, 132, 192, 181, 108],
+          "instructors": ["Steven Dierker", "Jonathan Massey Allard", "Chironjeev Kanjilal", "Erfan Rezaie", "Amali Priyanka Jambuge"]
+        },
+        {
+          "session": "2022W",
+          "reported": 837,
+          "average": 76.6,
+          "grades": [14, 13, 17, 34, 62, 83, 115, 152, 151, 122, 74],
+          "instructors": ["Sarah Burke", "Ziliang Ye", "Erfan Rezaie", "Chironjeev Kanjilal", "Jonathan Massey Allard", "Steven Dierker"]
+        },
+        {
+          "session": "2021W",
+          "reported": 866,
+          "average": 84.2,
+          "grades": [0, 0, 0, 0, 0, 0, 26, 71, 141, 165, 302],
+          "instructors": ["Sarah Burke", "Ziliang Ye", "William H. Mccutcheon", "David Jones", "Steven Dierker", "Chironjeev Kanjilal", "Amine Abouzaid"]
+        }
+      ]
+    },
+    "PHYS 170": {
+      "reported": 5158,
+      "average": 76.0,
+      "grades": [338, 288, 249, 232, 208, 387, 399, 325, 649, 609, 1452],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 1164,
+          "average": 74.8,
+          "grades": [83, 81, 58, 53, 52, 86, 97, 76, 145, 122, 311],
+          "instructors": ["Thomas Mattison", "Matthew Choptuik", "Mona Berciu", "Marina Litinskaya"]
+        },
+        {
+          "session": "2024W",
+          "reported": 1046,
+          "average": 78.4,
+          "grades": [50, 42, 42, 43, 43, 65, 81, 61, 137, 155, 327],
+          "instructors": ["Thomas Mattison", "Marina Litinskaya", "Mona Berciu", "Matthew Choptuik"]
+        },
+        {
+          "session": "2023W",
+          "reported": 1052,
+          "average": 75.7,
+          "grades": [67, 53, 53, 62, 38, 81, 74, 72, 135, 116, 279],
+          "instructors": ["Thomas Mattison", "Marina Litinskaya", "Matthew Choptuik", "Mona Berciu"]
+        },
+        {
+          "session": "2022W",
+          "reported": 1029,
+          "average": 74.5,
+          "grades": [77, 68, 53, 42, 33, 94, 91, 60, 139, 138, 234],
+          "instructors": ["Thomas Mattison", "Marina Litinskaya", "Matthew Choptuik"]
+        },
+        {
+          "session": "2021W",
+          "reported": 867,
+          "average": 76.9,
+          "grades": [61, 44, 43, 32, 42, 61, 56, 56, 93, 78, 301],
+          "instructors": ["Marina Litinskaya", "Matthew Choptuik"]
+        }
+      ]
+    },
+    "PHYS 200": {
+      "reported": 809,
+      "average": 75.6,
+      "grades": [65, 24, 24, 37, 51, 85, 61, 77, 114, 90, 177],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 183,
+          "average": 76.6,
+          "grades": [15, 2, 6, 11, 13, 20, 10, 14, 26, 21, 45],
+          "instructors": ["Ingrid Stairs"]
+        },
+        {
+          "session": "2024W",
+          "reported": 168,
+          "average": 74.9,
+          "grades": [19, 0, 6, 8, 10, 24, 14, 17, 17, 11, 42],
+          "instructors": ["Alison Lister"]
+        },
+        {
+          "session": "2023W",
+          "reported": 170,
+          "average": 79.1,
+          "grades": [13, 2, 1, 6, 4, 15, 12, 12, 32, 23, 46],
+          "instructors": ["Alison Lister"]
+        },
+        {
+          "session": "2022W",
+          "reported": 142,
+          "average": 76.7,
+          "grades": [7, 6, 7, 5, 8, 12, 12, 10, 24, 19, 32],
+          "instructors": ["Alison Lister", "Steven Dierker"]
+        },
+        {
+          "session": "2021W",
+          "reported": 146,
+          "average": 70.1,
+          "grades": [11, 14, 4, 7, 16, 14, 13, 24, 15, 16, 12],
+          "instructors": ["Douglas Scott"]
+        }
+      ]
+    },
+    "PHYS 203": {
+      "reported": 685,
+      "average": 71.7,
+      "grades": [61, 28, 31, 44, 39, 53, 69, 69, 122, 74, 73],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 139,
+          "average": 72.5,
+          "grades": [6, 8, 9, 14, 11, 12, 15, 15, 24, 12, 13],
+          "instructors": ["Moshe Rozali"]
+        },
+        {
+          "session": "2024W",
+          "reported": 128,
+          "average": 72.9,
+          "grades": [6, 8, 1, 10, 10, 11, 17, 19, 24, 12, 10],
+          "instructors": ["Moshe Rozali"]
+        },
+        {
+          "session": "2023W",
+          "reported": 109,
+          "average": 67.6,
+          "grades": [21, 2, 5, 6, 8, 11, 9, 10, 13, 4, 16],
+          "instructors": ["Steven Plotkin"]
+        },
+        {
+          "session": "2022W",
+          "reported": 87,
+          "average": 62.4,
+          "grades": [20, 10, 6, 7, 7, 6, 6, 7, 7, 2, 9],
+          "instructors": ["Steven Plotkin"]
+        },
+        {
+          "session": "2022S",
+          "reported": 77,
+          "average": 81.1,
+          "grades": [1, 0, 0, 1, 3, 3, 5, 11, 19, 24, 10],
+          "instructors": ["Joshua Folk"]
+        },
+        {
+          "session": "2021W",
+          "reported": 83,
+          "average": 70.7,
+          "grades": [7, 0, 10, 6, 0, 10, 10, 0, 16, 8, 8],
+          "instructors": ["Joanna Karczmarek"]
+        },
+        {
+          "session": "2021S",
+          "reported": 62,
+          "average": 77.7,
+          "grades": [0, 0, 0, 0, 0, 0, 7, 7, 19, 12, 7],
+          "instructors": ["Joshua Folk"]
+        }
+      ]
+    },
+    "PHYS 210": {
+      "reported": 482,
+      "average": 84.1,
+      "grades": [9, 3, 5, 3, 5, 14, 16, 20, 59, 140, 174],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 121,
+          "average": 83.0,
+          "grades": [0, 2, 1, 0, 1, 5, 5, 3, 22, 67, 15],
+          "instructors": ["Joss Ives"]
+        },
+        {
+          "session": "2024W",
+          "reported": 110,
+          "average": 79.3,
+          "grades": [8, 1, 2, 2, 1, 4, 6, 12, 20, 34, 20],
+          "instructors": ["Joss Ives"]
+        },
+        {
+          "session": "2023W",
+          "reported": 94,
+          "average": 90.7,
+          "grades": [0, 0, 2, 1, 1, 0, 3, 2, 4, 8, 69],
+          "instructors": ["Joss Ives"]
+        },
+        {
+          "session": "2022W",
+          "reported": 83,
+          "average": 89.2,
+          "grades": [1, 0, 0, 0, 2, 5, 2, 3, 6, 13, 51],
+          "instructors": ["Joss Ives"]
+        },
+        {
+          "session": "2021W",
+          "reported": 74,
+          "average": 79.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 7, 18, 19],
+          "instructors": ["Carl Michal"]
+        }
+      ]
+    },
+    "PHYS 216": {
+      "reported": 545,
+      "average": 71.1,
+      "grades": [68, 30, 28, 25, 36, 39, 44, 33, 73, 57, 91],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 136,
+          "average": 70.1,
+          "grades": [26, 6, 9, 5, 4, 7, 11, 12, 22, 12, 22],
+          "instructors": ["Kristin Schleich"]
+        },
+        {
+          "session": "2024W",
+          "reported": 96,
+          "average": 71.2,
+          "grades": [9, 7, 3, 5, 7, 12, 10, 6, 11, 14, 12],
+          "instructors": ["Kristin Schleich"]
+        },
+        {
+          "session": "2023W",
+          "reported": 128,
+          "average": 71.0,
+          "grades": [12, 4, 11, 7, 5, 11, 13, 11, 19, 9, 19],
+          "instructors": ["Kristin Schleich"]
+        },
+        {
+          "session": "2022W",
+          "reported": 101,
+          "average": 72.1,
+          "grades": [8, 6, 5, 8, 13, 9, 10, 4, 10, 10, 18],
+          "instructors": ["Kristin Schleich"]
+        },
+        {
+          "session": "2021W",
+          "reported": 84,
+          "average": 71.7,
+          "grades": [13, 7, 0, 0, 7, 0, 0, 0, 11, 12, 20],
+          "instructors": ["Ludovic Van Waerbeke"]
+        }
+      ]
+    },
+    "PHYS 219": {
+      "reported": 595,
+      "average": 86.5,
+      "grades": [8, 2, 3, 3, 6, 7, 18, 24, 57, 118, 305],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 153,
+          "average": 91.0,
+          "grades": [0, 0, 1, 0, 0, 1, 4, 8, 15, 14, 110],
+          "instructors": ["Andrzej Kotlicki", "James Day", "Sarah Burke"]
+        },
+        {
+          "session": "2024W",
+          "reported": 126,
+          "average": 88.7,
+          "grades": [1, 0, 1, 0, 1, 3, 4, 5, 8, 27, 76],
+          "instructors": ["Sarah Burke", "Andrzej Kotlicki"]
+        },
+        {
+          "session": "2023W",
+          "reported": 126,
+          "average": 86.7,
+          "grades": [1, 0, 0, 0, 2, 1, 5, 5, 15, 44, 50],
+          "instructors": ["Andrzej Kotlicki", "Douglas Andrew Bonn"]
+        },
+        {
+          "session": "2022W",
+          "reported": 96,
+          "average": 81.6,
+          "grades": [6, 2, 1, 3, 3, 2, 5, 6, 13, 14, 41],
+          "instructors": ["Andrzej Kotlicki", "Robert Kiefl"]
+        },
+        {
+          "session": "2021W",
+          "reported": 94,
+          "average": 80.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 6, 19, 28],
+          "instructors": ["Andrzej Kotlicki", "Robert Kiefl"]
+        }
+      ]
+    },
+    "PHYS 229": {
+      "reported": 539,
+      "average": 84.4,
+      "grades": [8, 1, 5, 3, 6, 10, 16, 44, 80, 148, 194],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 133,
+          "average": 87.3,
+          "grades": [0, 0, 0, 1, 0, 3, 5, 11, 12, 42, 59],
+          "instructors": ["Colin Gay", "Joss Ives"]
+        },
+        {
+          "session": "2024W",
+          "reported": 123,
+          "average": 82.8,
+          "grades": [3, 1, 0, 0, 4, 2, 2, 22, 18, 28, 43],
+          "instructors": ["Joss Ives"]
+        },
+        {
+          "session": "2023W",
+          "reported": 110,
+          "average": 85.1,
+          "grades": [2, 0, 2, 0, 0, 3, 1, 6, 19, 40, 33],
+          "instructors": ["Joss Ives"]
+        },
+        {
+          "session": "2022W",
+          "reported": 85,
+          "average": 82.8,
+          "grades": [3, 0, 3, 2, 2, 2, 2, 5, 15, 17, 34],
+          "instructors": ["Douglas Andrew Bonn"]
+        },
+        {
+          "session": "2021W",
+          "reported": 88,
+          "average": 82.8,
+          "grades": [0, 0, 0, 0, 0, 0, 6, 0, 16, 21, 25],
+          "instructors": ["Douglas Andrew Bonn"]
+        }
+      ]
+    },
+    "PHYS 250": {
+      "reported": 370,
+      "average": 83.7,
+      "grades": [1, 0, 3, 3, 2, 5, 15, 21, 114, 116, 77],
+      "terms": [
+        {
+          "session": "2025S",
+          "reported": 80,
+          "average": 84.6,
+          "grades": [0, 0, 1, 1, 0, 1, 3, 6, 17, 34, 17],
+          "instructors": ["Thomas Mattison"]
+        },
+        {
+          "session": "2024S",
+          "reported": 75,
+          "average": 80.2,
+          "grades": [0, 0, 2, 1, 2, 3, 8, 3, 34, 19, 3],
+          "instructors": ["Thomas Mattison"]
+        },
+        {
+          "session": "2023S",
+          "reported": 76,
+          "average": 87.0,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 5, 18, 22, 30],
+          "instructors": ["Thomas Mattison"]
+        },
+        {
+          "session": "2022S",
+          "reported": 75,
+          "average": 84.3,
+          "grades": [1, 0, 0, 1, 0, 0, 4, 7, 19, 25, 18],
+          "instructors": ["Thomas Mattison"]
+        },
+        {
+          "session": "2021S",
+          "reported": 64,
+          "average": 82.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 26, 16, 9],
+          "instructors": ["Thomas Mattison"]
+        }
+      ]
+    },
+    "PHYS 301": {
+      "reported": 862,
+      "average": 73.9,
+      "grades": [52, 38, 39, 58, 41, 65, 92, 83, 122, 80, 159],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 190,
+          "average": 74.8,
+          "grades": [9, 7, 6, 21, 14, 11, 26, 9, 33, 15, 39],
+          "instructors": ["Marina Litinskaya", "Steven Plotkin"]
+        },
+        {
+          "session": "2024W",
+          "reported": 193,
+          "average": 72.9,
+          "grades": [11, 15, 12, 13, 8, 22, 16, 19, 23, 16, 38],
+          "instructors": ["Marina Litinskaya"]
+        },
+        {
+          "session": "2023W",
+          "reported": 156,
+          "average": 75.3,
+          "grades": [10, 7, 5, 9, 5, 8, 15, 13, 28, 18, 31],
+          "instructors": ["Joerg Rottler", "William Unruh"]
+        },
+        {
+          "session": "2022W",
+          "reported": 164,
+          "average": 73.7,
+          "grades": [11, 6, 10, 5, 6, 16, 19, 26, 17, 18, 30],
+          "instructors": ["Joerg Rottler", "Gary Hinshaw"]
+        },
+        {
+          "session": "2021W",
+          "reported": 159,
+          "average": 73.0,
+          "grades": [11, 3, 6, 10, 8, 8, 16, 16, 21, 13, 21],
+          "instructors": ["Joerg Rottler", "Gary Hinshaw"]
+        }
+      ]
+    },
+    "PHYS 304": {
+      "reported": 801,
+      "average": 74.7,
+      "grades": [37, 56, 40, 50, 36, 73, 68, 55, 95, 104, 161],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 204,
+          "average": 77.5,
+          "grades": [6, 16, 11, 11, 11, 13, 12, 16, 21, 26, 61],
+          "instructors": ["Joshua Folk", "Ke Zou"]
+        },
+        {
+          "session": "2024W",
+          "reported": 172,
+          "average": 73.5,
+          "grades": [8, 13, 12, 13, 12, 15, 13, 16, 16, 19, 35],
+          "instructors": ["Gordon Walter Semenoff", "Ke Zou"]
+        },
+        {
+          "session": "2023W",
+          "reported": 177,
+          "average": 74.7,
+          "grades": [8, 13, 10, 10, 7, 16, 11, 11, 24, 28, 29],
+          "instructors": ["Ziliang Ye", "Ke Zou"]
+        },
+        {
+          "session": "2022W",
+          "reported": 156,
+          "average": 71.8,
+          "grades": [9, 14, 7, 9, 6, 19, 25, 12, 18, 21, 16],
+          "instructors": ["Ziliang Ye", "Ke Zou"]
+        },
+        {
+          "session": "2021W",
+          "reported": 92,
+          "average": 75.6,
+          "grades": [6, 0, 0, 7, 0, 10, 7, 0, 16, 10, 20],
+          "instructors": ["Ke Zou"]
+        }
+      ]
+    },
+    "PHYS 305": {
+      "reported": 74,
+      "average": 75.1,
+      "grades": [3, 3, 2, 1, 2, 4, 5, 3, 7, 11, 19],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 13,
+          "average": 81.6,
+          "grades": [0, 1, 0, 0, 0, 0, 1, 2, 2, 5, 2],
+          "instructors": ["Sabrina Leslie"]
+        },
+        {
+          "session": "2024W",
+          "reported": 15,
+          "average": 68.7,
+          "grades": [3, 0, 0, 0, 1, 1, 1, 0, 2, 2, 5],
+          "instructors": ["Sabrina Leslie", "Cynthia Shaheen"]
+        },
+        {
+          "session": "2023W",
+          "reported": 22,
+          "average": 76.5,
+          "grades": [0, 2, 0, 1, 1, 3, 2, 1, 3, 3, 4],
+          "instructors": ["Sabrina Leslie"]
+        },
+        {
+          "session": "2022W",
+          "reported": 12,
+          "average": 85.8,
+          "grades": [0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 8],
+          "instructors": ["Sabrina Leslie"]
+        },
+        {
+          "session": "2021W",
+          "reported": 12,
+          "average": 62.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Steven Plotkin"]
+        }
+      ]
+    },
+    "PHYS 306": {
+      "reported": 260,
+      "average": 77.3,
+      "grades": [9, 2, 4, 12, 14, 10, 22, 21, 37, 60, 44],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 66,
+          "average": 79.1,
+          "grades": [0, 1, 2, 5, 5, 5, 7, 6, 9, 12, 14],
+          "instructors": ["Gary Hinshaw"]
+        },
+        {
+          "session": "2024W",
+          "reported": 56,
+          "average": 80.7,
+          "grades": [2, 0, 0, 0, 2, 1, 5, 5, 15, 18, 8],
+          "instructors": ["Gary Hinshaw"]
+        },
+        {
+          "session": "2023W",
+          "reported": 50,
+          "average": 76.9,
+          "grades": [2, 0, 2, 3, 3, 3, 4, 4, 8, 14, 6],
+          "instructors": ["Gary Hinshaw"]
+        },
+        {
+          "session": "2022W",
+          "reported": 38,
+          "average": 72.4,
+          "grades": [5, 1, 0, 4, 4, 1, 0, 6, 5, 5, 7],
+          "instructors": ["Joerg Rottler"]
+        },
+        {
+          "session": "2021W",
+          "reported": 50,
+          "average": 75.0,
+          "grades": [0, 0, 0, 0, 0, 0, 6, 0, 0, 11, 9],
+          "instructors": ["Joerg Rottler"]
+        }
+      ]
+    },
+    "PHYS 309": {
+      "reported": 205,
+      "average": 81.5,
+      "grades": [5, 1, 1, 0, 3, 5, 12, 26, 40, 41, 55],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 49,
+          "average": 84.0,
+          "grades": [1, 0, 0, 0, 0, 2, 1, 8, 12, 11, 14],
+          "instructors": ["Joshua Folk"]
+        },
+        {
+          "session": "2024W",
+          "reported": 37,
+          "average": 80.4,
+          "grades": [2, 0, 0, 0, 1, 3, 0, 5, 11, 8, 7],
+          "instructors": ["Joshua Folk"]
+        },
+        {
+          "session": "2023W",
+          "reported": 38,
+          "average": 79.1,
+          "grades": [1, 1, 1, 0, 1, 0, 2, 8, 15, 5, 3],
+          "instructors": ["Joshua Folk"]
+        },
+        {
+          "session": "2022W",
+          "reported": 41,
+          "average": 86.1,
+          "grades": [1, 0, 0, 0, 1, 0, 2, 5, 2, 8, 22],
+          "instructors": ["Joshua Folk"]
+        },
+        {
+          "session": "2021W",
+          "reported": 40,
+          "average": 76.9,
+          "grades": [0, 0, 0, 0, 0, 0, 7, 0, 0, 9, 9],
+          "instructors": ["Joshua Folk"]
+        }
+      ]
+    },
+    "PHYS 310": {
+      "reported": 95,
+      "average": 80.8,
+      "grades": [2, 1, 1, 0, 0, 6, 8, 17, 16, 23, 20],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 39,
+          "average": 78.7,
+          "grades": [1, 0, 1, 0, 0, 3, 5, 9, 5, 9, 6],
+          "instructors": ["Joerg Rottler"]
+        },
+        {
+          "session": "2024W",
+          "reported": 27,
+          "average": 83.4,
+          "grades": [0, 1, 0, 0, 0, 1, 1, 4, 4, 7, 9],
+          "instructors": ["Joerg Rottler"]
+        },
+        {
+          "session": "2023W",
+          "reported": 29,
+          "average": 81.2,
+          "grades": [1, 0, 0, 0, 0, 2, 2, 4, 7, 7, 5],
+          "instructors": ["Joerg Rottler"]
+        }
+      ]
+    },
+    "PHYS 312": {
+      "reported": 211,
+      "average": 74.7,
+      "grades": [4, 14, 12, 8, 15, 13, 13, 13, 32, 23, 36],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 46,
+          "average": 75.4,
+          "grades": [0, 5, 3, 1, 4, 7, 4, 2, 2, 7, 11],
+          "instructors": ["Mona Berciu"]
+        },
+        {
+          "session": "2024W",
+          "reported": 47,
+          "average": 79.8,
+          "grades": [0, 2, 1, 1, 3, 3, 4, 5, 10, 6, 12],
+          "instructors": ["Mona Berciu"]
+        },
+        {
+          "session": "2023W",
+          "reported": 47,
+          "average": 71.7,
+          "grades": [1, 5, 5, 4, 4, 3, 3, 3, 7, 5, 7],
+          "instructors": ["Mona Berciu"]
+        },
+        {
+          "session": "2022W",
+          "reported": 37,
+          "average": 72.7,
+          "grades": [3, 2, 3, 2, 4, 0, 2, 3, 7, 5, 6],
+          "instructors": ["Joanna Karczmarek"]
+        },
+        {
+          "session": "2021W",
+          "reported": 34,
+          "average": 73.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 0],
+          "instructors": ["Joanna Karczmarek"]
+        }
+      ]
+    },
+    "PHYS 315": {
+      "reported": 29,
+      "average": 90.0,
+      "grades": [1, 0, 0, 0, 0, 0, 1, 0, 2, 2, 23],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 29,
+          "average": 90.0,
+          "grades": [1, 0, 0, 0, 0, 0, 1, 0, 2, 2, 23],
+          "instructors": ["Ke Zou"]
+        }
+      ]
+    },
+    "PHYS 319": {
+      "reported": 235,
+      "average": 82.9,
+      "grades": [1, 1, 2, 5, 7, 5, 20, 28, 42, 45, 70],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 61,
+          "average": 85.2,
+          "grades": [0, 0, 0, 1, 1, 2, 6, 4, 10, 17, 20],
+          "instructors": ["Andrzej Kotlicki"]
+        },
+        {
+          "session": "2024W",
+          "reported": 46,
+          "average": 81.6,
+          "grades": [1, 0, 0, 2, 2, 0, 4, 7, 13, 5, 12],
+          "instructors": ["Andrzej Kotlicki"]
+        },
+        {
+          "session": "2023W",
+          "reported": 49,
+          "average": 81.5,
+          "grades": [0, 1, 2, 2, 2, 2, 7, 6, 4, 2, 19],
+          "instructors": ["Andrzej Kotlicki"]
+        },
+        {
+          "session": "2022W",
+          "reported": 45,
+          "average": 85.0,
+          "grades": [0, 0, 0, 0, 2, 1, 3, 4, 9, 13, 13],
+          "instructors": ["Andrzej Kotlicki"]
+        },
+        {
+          "session": "2021W",
+          "reported": 34,
+          "average": 79.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 7, 6, 8, 6],
+          "instructors": ["Andrzej Kotlicki"]
+        }
+      ]
+    },
+    "PHYS 333": {
+      "reported": 240,
+      "average": 76.8,
+      "grades": [7, 2, 6, 7, 15, 22, 31, 32, 45, 34, 35],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 73,
+          "average": 76.5,
+          "grades": [2, 1, 2, 4, 7, 6, 7, 10, 10, 11, 13],
+          "instructors": ["Erfan Rezaie"]
+        },
+        {
+          "session": "2024W",
+          "reported": 61,
+          "average": 80.5,
+          "grades": [1, 0, 0, 0, 1, 5, 10, 8, 16, 8, 12],
+          "instructors": ["Erfan Rezaie"]
+        },
+        {
+          "session": "2023W",
+          "reported": 45,
+          "average": 76.1,
+          "grades": [1, 0, 1, 0, 3, 7, 4, 7, 8, 7, 3],
+          "instructors": ["Erfan Rezaie"]
+        },
+        {
+          "session": "2022W",
+          "reported": 61,
+          "average": 74.1,
+          "grades": [3, 1, 3, 3, 4, 4, 10, 7, 11, 8, 7],
+          "instructors": ["Marina Litinskaya"]
+        }
+      ]
+    },
+    "PHYS 341": {
+      "reported": 139,
+      "average": 79.6,
+      "grades": [3, 0, 2, 6, 6, 2, 9, 9, 24, 29, 32],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 17,
+          "average": 76.7,
+          "grades": [0, 0, 1, 1, 1, 0, 4, 2, 3, 4, 1],
+          "instructors": ["Mark Halpern"]
+        },
+        {
+          "session": "2024W",
+          "reported": 14,
+          "average": 79.3,
+          "grades": [1, 0, 1, 0, 1, 0, 1, 1, 3, 1, 5],
+          "instructors": ["William Unruh"]
+        },
+        {
+          "session": "2023W",
+          "reported": 42,
+          "average": 80.2,
+          "grades": [0, 0, 0, 4, 3, 1, 1, 5, 13, 6, 9],
+          "instructors": ["Mark van Raamsdonk"]
+        },
+        {
+          "session": "2022W",
+          "reported": 29,
+          "average": 79.1,
+          "grades": [2, 0, 0, 1, 1, 1, 3, 1, 5, 9, 6],
+          "instructors": ["Mark van Raamsdonk"]
+        },
+        {
+          "session": "2021W",
+          "reported": 37,
+          "average": 80.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 11],
+          "instructors": ["Mark Van Raamsdonk"]
+        }
+      ]
+    },
+    "PHYS 348": {
+      "reported": 132,
+      "average": 81.1,
+      "grades": [5, 1, 2, 1, 1, 7, 6, 2, 34, 23, 38],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 23,
+          "average": 75.7,
+          "grades": [3, 0, 0, 0, 0, 1, 4, 0, 6, 5, 4],
+          "instructors": ["Fei Zhou"]
+        },
+        {
+          "session": "2024W",
+          "reported": 27,
+          "average": 85.0,
+          "grades": [0, 0, 1, 0, 0, 0, 1, 1, 8, 8, 8],
+          "instructors": ["Fei Zhou"]
+        },
+        {
+          "session": "2023W",
+          "reported": 26,
+          "average": 78.7,
+          "grades": [1, 0, 1, 1, 1, 2, 1, 0, 7, 5, 6],
+          "instructors": ["Fei Zhou"]
+        },
+        {
+          "session": "2022W",
+          "reported": 27,
+          "average": 82.7,
+          "grades": [1, 1, 0, 0, 0, 4, 0, 1, 3, 5, 12],
+          "instructors": ["Fei Zhou"]
+        },
+        {
+          "session": "2021W",
+          "reported": 29,
+          "average": 82.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 10, 0, 8],
+          "instructors": ["Janis Mckenna"]
+        }
+      ]
+    },
+    "PHYS 350": {
+      "reported": 309,
+      "average": 76.7,
+      "grades": [6, 8, 8, 15, 16, 35, 36, 23, 60, 42, 44],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 66,
+          "average": 74.1,
+          "grades": [3, 2, 3, 5, 5, 5, 6, 5, 16, 11, 5],
+          "instructors": ["Joanna Karczmarek"]
+        },
+        {
+          "session": "2024W",
+          "reported": 57,
+          "average": 72.3,
+          "grades": [1, 4, 3, 7, 4, 8, 8, 3, 8, 6, 5],
+          "instructors": ["Joanna Karczmarek"]
+        },
+        {
+          "session": "2023W",
+          "reported": 66,
+          "average": 75.5,
+          "grades": [1, 2, 2, 3, 2, 13, 10, 6, 14, 8, 5],
+          "instructors": ["Joanna Karczmarek"]
+        },
+        {
+          "session": "2022W",
+          "reported": 56,
+          "average": 76.0,
+          "grades": [1, 0, 0, 0, 5, 9, 12, 9, 13, 4, 3],
+          "instructors": ["Joanna Karczmarek"]
+        },
+        {
+          "session": "2021W",
+          "reported": 64,
+          "average": 85.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 9, 13, 26],
+          "instructors": ["Mona Berciu"]
+        }
+      ]
+    },
+    "PHYS 400": {
+      "reported": 108,
+      "average": 77.4,
+      "grades": [3, 3, 2, 6, 5, 8, 14, 4, 11, 18, 21],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 13,
+          "average": 83.8,
+          "grades": [0, 0, 0, 0, 0, 1, 4, 1, 0, 2, 5],
+          "instructors": ["Oliver Stelzer"]
+        },
+        {
+          "session": "2024W",
+          "reported": 28,
+          "average": 81.9,
+          "grades": [1, 0, 1, 1, 2, 0, 2, 0, 5, 5, 11],
+          "instructors": ["Ariel Zhitnitsky"]
+        },
+        {
+          "session": "2023W",
+          "reported": 28,
+          "average": 68.8,
+          "grades": [2, 1, 1, 3, 0, 4, 3, 2, 4, 2, 3],
+          "instructors": ["Oliver Stelzer-Chilton"]
+        },
+        {
+          "session": "2022W",
+          "reported": 23,
+          "average": 73.1,
+          "grades": [0, 2, 0, 2, 3, 3, 5, 1, 2, 3, 2],
+          "instructors": ["Oliver Stelzer-Chilton"]
+        },
+        {
+          "session": "2021W",
+          "reported": 16,
+          "average": 85.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 0],
+          "instructors": ["Thomas Mattison"]
+        }
+      ]
+    },
+    "PHYS 401": {
+      "reported": 431,
+      "average": 85.9,
+      "grades": [2, 1, 2, 7, 9, 12, 28, 19, 70, 73, 194],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 92,
+          "average": 80.1,
+          "grades": [1, 1, 1, 3, 3, 7, 20, 10, 9, 10, 27],
+          "instructors": ["Marina Litinskaya"]
+        },
+        {
+          "session": "2024W",
+          "reported": 82,
+          "average": 93.0,
+          "grades": [1, 0, 0, 1, 0, 1, 1, 1, 7, 7, 63],
+          "instructors": ["William Fiore", "Andrew Potter", "Ariel Zhitnitsky", "Sean McBride"]
+        },
+        {
+          "session": "2023W",
+          "reported": 94,
+          "average": 87.3,
+          "grades": [0, 0, 0, 2, 2, 1, 4, 4, 14, 19, 47],
+          "instructors": ["Ariel Zhitnitsky"]
+        },
+        {
+          "session": "2022W",
+          "reported": 82,
+          "average": 83.9,
+          "grades": [0, 0, 1, 1, 4, 3, 3, 4, 23, 19, 24],
+          "instructors": ["Ariel Zhitnitsky"]
+        },
+        {
+          "session": "2021W",
+          "reported": 81,
+          "average": 85.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 17, 18, 33],
+          "instructors": ["Ariel Zhitnitsky"]
+        }
+      ]
+    },
+    "PHYS 402": {
+      "reported": 207,
+      "average": 76.9,
+      "grades": [1, 16, 4, 1, 4, 18, 19, 11, 51, 20, 39],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 49,
+          "average": 78.6,
+          "grades": [0, 6, 0, 0, 1, 2, 2, 7, 16, 6, 9],
+          "instructors": ["Fei Zhou"]
+        },
+        {
+          "session": "2024W",
+          "reported": 39,
+          "average": 77.2,
+          "grades": [1, 3, 0, 0, 0, 6, 4, 0, 13, 3, 9],
+          "instructors": ["Fei Zhou"]
+        },
+        {
+          "session": "2023W",
+          "reported": 47,
+          "average": 77.4,
+          "grades": [0, 2, 2, 0, 1, 9, 4, 0, 13, 6, 7],
+          "instructors": ["Fei Zhou"]
+        },
+        {
+          "session": "2022W",
+          "reported": 30,
+          "average": 74.2,
+          "grades": [0, 5, 2, 1, 2, 1, 3, 4, 3, 5, 4],
+          "instructors": ["Robert Raussendorf"]
+        },
+        {
+          "session": "2021W",
+          "reported": 42,
+          "average": 76.0,
+          "grades": [0, 0, 0, 0, 0, 0, 6, 0, 6, 0, 10],
+          "instructors": ["Robert Raussendorf"]
+        }
+      ]
+    },
+    "PHYS 403": {
+      "reported": 548,
+      "average": 76.3,
+      "grades": [20, 7, 15, 29, 31, 51, 60, 65, 108, 81, 75],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 131,
+          "average": 78.0,
+          "grades": [3, 1, 5, 6, 3, 14, 15, 12, 32, 22, 18],
+          "instructors": ["Mark Van Raamsdonk"]
+        },
+        {
+          "session": "2024W",
+          "reported": 123,
+          "average": 77.4,
+          "grades": [3, 3, 3, 5, 6, 8, 16, 12, 26, 20, 21],
+          "instructors": ["Mark Van Raamsdonk"]
+        },
+        {
+          "session": "2023W",
+          "reported": 113,
+          "average": 77.0,
+          "grades": [2, 1, 4, 8, 10, 13, 7, 14, 16, 18, 20],
+          "instructors": ["Andrew Potter"]
+        },
+        {
+          "session": "2022W",
+          "reported": 75,
+          "average": 72.7,
+          "grades": [4, 2, 3, 4, 6, 7, 14, 9, 17, 7, 2],
+          "instructors": ["Philip C Stamp"]
+        },
+        {
+          "session": "2021W",
+          "reported": 106,
+          "average": 74.5,
+          "grades": [8, 0, 0, 6, 6, 9, 8, 18, 17, 14, 14],
+          "instructors": ["Philip C Stamp"]
+        }
+      ]
+    },
+    "PHYS 404": {
+      "reported": 134,
+      "average": 74.6,
+      "grades": [5, 3, 4, 6, 3, 7, 18, 12, 21, 17, 15],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 32,
+          "average": 76.4,
+          "grades": [2, 0, 0, 1, 1, 3, 5, 3, 6, 5, 6],
+          "instructors": ["Yogesh Thakur", "Samantha Lloyd", "Nancy Ford", "Xinchi Hou", "Erin MacMillan"]
+        },
+        {
+          "session": "2024W",
+          "reported": 25,
+          "average": 74.0,
+          "grades": [1, 0, 0, 3, 0, 1, 6, 4, 3, 6, 1],
+          "instructors": ["Yogesh Thakur", "Samantha Lloyd", "Nancy Ford", "Pedro Esquinas", "Cornelia Laule", "Alexander L. Mackay", "Carlos Uribe Munoz", "Erin MacMillan"]
+        },
+        {
+          "session": "2023W",
+          "reported": 30,
+          "average": 75.4,
+          "grades": [1, 1, 2, 1, 2, 1, 5, 2, 7, 3, 4],
+          "instructors": ["Nancy Ford", "Alexander L. MacKay", "Tania Karan", "Pedro Esquinas", "Cornelia Laule", "Qing-San Xiang", "Carlos Uribe Munoz"]
+        },
+        {
+          "session": "2022W",
+          "reported": 25,
+          "average": 74.0,
+          "grades": [1, 2, 2, 1, 0, 2, 2, 3, 5, 3, 4],
+          "instructors": ["Alexander L. MacKay", "Samantha Lloyd", "Nancy Ford", "Piotr Kozlowski", "Cornelia Laule", "Carlos Uribe Munoz"]
+        },
+        {
+          "session": "2021W",
+          "reported": 22,
+          "average": 72.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Samantha Lloyd", "Nancy Ford", "Cornelia Laule", "Alexander L. Mackay", "Qing-San Xiang", "Carlos Uribe Munoz"]
+        }
+      ]
+    },
+    "PHYS 405": {
+      "reported": 63,
+      "average": 75.2,
+      "grades": [1, 1, 4, 5, 3, 6, 7, 6, 9, 2, 6],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 13,
+          "average": 76.6,
+          "grades": [0, 0, 0, 1, 0, 0, 5, 3, 3, 1, 0],
+          "instructors": ["Craig Smith", "Hervé Choi", "Andrew Minchinton", "Stefan Reinsberg"]
+        },
+        {
+          "session": "2024W",
+          "reported": 9,
+          "average": 74.4,
+          "grades": [0, 0, 0, 1, 2, 2, 0, 1, 1, 0, 2],
+          "instructors": ["Stefan Reinsberg", "Andrew Minchinton", "Hiu Fai Choi"]
+        },
+        {
+          "session": "2023W",
+          "reported": 10,
+          "average": 67.4,
+          "grades": [0, 0, 3, 1, 1, 3, 0, 0, 1, 0, 1],
+          "instructors": ["Craig Smith", "Stefan Reinsberg", "Jennifer Baker", "Andrew Minchinton", "Hiu Fai Choi"]
+        },
+        {
+          "session": "2022W",
+          "reported": 18,
+          "average": 74.9,
+          "grades": [1, 1, 1, 2, 0, 1, 2, 2, 4, 1, 3],
+          "instructors": ["Craig Smith", "Vitali Moiseenko", "Stefan Reinsberg", "Jennifer Baker", "Andrew Minchinton"]
+        },
+        {
+          "session": "2021W",
+          "reported": 13,
+          "average": 80.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Stefan Reinsberg", "Andrew Minchinton", "Jennifer Baker", "Vitali Moiseenko"]
+        }
+      ]
+    },
+    "PHYS 407": {
+      "reported": 209,
+      "average": 83.5,
+      "grades": [3, 3, 2, 3, 7, 2, 8, 10, 28, 45, 78],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 46,
+          "average": 88.5,
+          "grades": [0, 0, 1, 0, 1, 0, 2, 3, 4, 10, 25],
+          "instructors": ["Moshe Rozali"]
+        },
+        {
+          "session": "2024W",
+          "reported": 41,
+          "average": 83.8,
+          "grades": [1, 0, 0, 2, 0, 1, 1, 2, 11, 8, 15],
+          "instructors": ["Moshe Rozali"]
+        },
+        {
+          "session": "2023W",
+          "reported": 41,
+          "average": 82.0,
+          "grades": [1, 1, 1, 0, 3, 0, 1, 3, 6, 11, 11],
+          "instructors": ["Moshe Rozali"]
+        },
+        {
+          "session": "2022W",
+          "reported": 41,
+          "average": 81.8,
+          "grades": [1, 2, 0, 1, 3, 1, 4, 2, 7, 4, 16],
+          "instructors": ["Moshe Rozali"]
+        },
+        {
+          "session": "2021W",
+          "reported": 40,
+          "average": 80.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 11],
+          "instructors": ["Kristin Schleich"]
+        }
+      ]
+    },
+    "PHYS 408": {
+      "reported": 438,
+      "average": 74.5,
+      "grades": [18, 8, 22, 20, 29, 51, 52, 50, 90, 46, 42],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 94,
+          "average": 77.8,
+          "grades": [5, 0, 2, 3, 2, 8, 15, 10, 21, 8, 20],
+          "instructors": ["Valery Milner"]
+        },
+        {
+          "session": "2024W",
+          "reported": 96,
+          "average": 76.9,
+          "grades": [6, 0, 0, 3, 5, 10, 12, 13, 22, 14, 11],
+          "instructors": ["Valery Milner"]
+        },
+        {
+          "session": "2023W",
+          "reported": 88,
+          "average": 73.7,
+          "grades": [6, 0, 6, 7, 7, 6, 7, 9, 21, 12, 6],
+          "instructors": ["Valery Milner"]
+        },
+        {
+          "session": "2022W",
+          "reported": 75,
+          "average": 75.3,
+          "grades": [1, 1, 3, 0, 7, 14, 12, 9, 18, 5, 5],
+          "instructors": ["Valery Milner"]
+        },
+        {
+          "session": "2021W",
+          "reported": 85,
+          "average": 68.2,
+          "grades": [0, 7, 11, 7, 8, 13, 6, 9, 8, 7, 0],
+          "instructors": ["Valery Milner"]
+        }
+      ]
+    },
+    "PHYS 409": {
+      "reported": 133,
+      "average": 82.0,
+      "grades": [2, 0, 0, 1, 3, 4, 10, 14, 13, 29, 30],
+      "terms": [
+        {
+          "session": "2025W",
+          "topic": "A",
+          "title": "EXPTL PHYSICS",
+          "reported": 18,
+          "average": 83.7,
+          "grades": [0, 0, 0, 0, 0, 2, 1, 3, 2, 5, 5],
+          "instructors": ["Kirk Madison", "Francisco Levy de Castro"]
+        },
+        {
+          "session": "2025W",
+          "topic": "B",
+          "title": "EXPTL PHYSICS",
+          "reported": 14,
+          "average": 81.4,
+          "grades": [0, 0, 0, 1, 1, 0, 2, 2, 1, 3, 4],
+          "instructors": ["Kirk Madison", "Sean Vanbergen"]
+        },
+        {
+          "session": "2024W",
+          "topic": "A",
+          "title": "EXPTL PHYSICS",
+          "reported": 15,
+          "average": 85.0,
+          "grades": [0, 0, 0, 0, 0, 0, 2, 1, 4, 3, 5],
+          "instructors": ["Kirk Madison", "Francisco Levy de Castro"]
+        },
+        {
+          "session": "2024W",
+          "topic": "B",
+          "title": "EXPTL PHYSICS",
+          "reported": 6,
+          "average": 87.8,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 4],
+          "instructors": ["Kirk Madison", "Francisco Levy de Castro"]
+        },
+        {
+          "session": "2023W",
+          "topic": "A",
+          "title": "Experimental Physics",
+          "reported": 17,
+          "average": 85.2,
+          "grades": [0, 0, 0, 0, 0, 0, 2, 1, 1, 10, 3],
+          "instructors": ["Kirk Madison", "Francisco Levy de Castro"]
+        },
+        {
+          "session": "2023W",
+          "topic": "B",
+          "title": "Experimental Physics",
+          "reported": 14,
+          "average": 75.5,
+          "grades": [1, 0, 0, 0, 1, 1, 1, 2, 2, 3, 3],
+          "instructors": ["Kirk Madison"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Experimental Physics",
+          "reported": 12,
+          "average": 81.3,
+          "grades": [1, 0, 0, 0, 0, 0, 1, 2, 1, 4, 3],
+          "instructors": ["Kirk Madison", "Beatrice Franke", "Francisco Levy de Castro"]
+        },
+        {
+          "session": "2022W",
+          "topic": "B",
+          "title": "Experimental Physics",
+          "reported": 10,
+          "average": 82.7,
+          "grades": [0, 0, 0, 0, 1, 1, 0, 3, 1, 1, 3],
+          "instructors": ["Kirk Madison", "Katherine Pachal"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Experimental Physics",
+          "reported": 16,
+          "average": 80.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Beatrice Franke", "Francisco Levy De Castro"]
+        },
+        {
+          "session": "2021W",
+          "topic": "B",
+          "title": "Experimental Physics",
+          "reported": 11,
+          "average": 77.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Stefan Reinsberg", "Katherine Pachal"]
+        }
+      ]
+    },
+    "PHYS 410": {
+      "reported": 341,
+      "average": 82.8,
+      "grades": [3, 2, 11, 5, 5, 14, 21, 19, 43, 77, 123],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 70,
+          "average": 83.6,
+          "grades": [0, 1, 2, 0, 0, 6, 5, 7, 12, 12, 25],
+          "instructors": ["Matthew Choptuik"]
+        },
+        {
+          "session": "2024W",
+          "reported": 74,
+          "average": 83.0,
+          "grades": [0, 0, 3, 2, 2, 5, 8, 2, 4, 24, 24],
+          "instructors": ["Matthew Choptuik"]
+        },
+        {
+          "session": "2023W",
+          "reported": 71,
+          "average": 83.3,
+          "grades": [1, 1, 2, 1, 2, 1, 4, 7, 10, 15, 25],
+          "instructors": ["Matthew Choptuik"]
+        },
+        {
+          "session": "2022W",
+          "reported": 59,
+          "average": 80.9,
+          "grades": [2, 0, 4, 2, 1, 2, 4, 3, 6, 12, 23],
+          "instructors": ["Matthew Choptuik"]
+        },
+        {
+          "session": "2021W",
+          "reported": 67,
+          "average": 82.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 11, 14, 26],
+          "instructors": ["Matthew Choptuik"]
+        }
+      ]
+    },
+    "PHYS 420": {
+      "reported": 21,
+      "average": 87.5,
+      "grades": [0, 1, 0, 0, 0, 1, 0, 1, 0, 3, 9],
+      "terms": [
+        {
+          "session": "2025W",
+          "topic": "C",
+          "title": "Physics Demonstrations",
+          "reported": 9,
+          "average": 88.4,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 7],
+          "instructors": ["Janis McKenna", "Andrzej Kotlicki"]
+        },
+        {
+          "session": "2022W",
+          "topic": "C",
+          "title": "Physics Demonstrations",
+          "reported": 6,
+          "average": 82.5,
+          "grades": [0, 1, 0, 0, 0, 0, 0, 0, 0, 3, 2],
+          "instructors": ["Janis McKenna", "Andrzej Kotlicki"]
+        },
+        {
+          "session": "2021W",
+          "topic": "C",
+          "title": "Physics Demonstrations",
+          "reported": 6,
+          "average": 91.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Janis Mckenna", "Andrzej Kotlicki"]
+        }
+      ]
+    },
+    "PHYS 438": {
+      "reported": 97,
+      "average": 76.4,
+      "grades": [4, 0, 1, 4, 6, 8, 5, 8, 19, 9, 12],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 29,
+          "average": 73.6,
+          "grades": [2, 0, 1, 1, 3, 3, 2, 3, 8, 2, 4],
+          "instructors": ["Katherine PACHAL"]
+        },
+        {
+          "session": "2023W",
+          "reported": 24,
+          "average": 78.0,
+          "grades": [1, 0, 0, 2, 1, 3, 1, 2, 7, 4, 3],
+          "instructors": ["Katherine Pachal"]
+        },
+        {
+          "session": "2022W",
+          "reported": 23,
+          "average": 76.1,
+          "grades": [1, 0, 0, 1, 2, 2, 2, 3, 4, 3, 5],
+          "instructors": ["Scott Oser"]
+        },
+        {
+          "session": "2021W",
+          "reported": 21,
+          "average": 78.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Scott Oser"]
+        }
+      ]
+    },
+    "PHYS 449": {
+      "reported": 130,
+      "average": 86.4,
+      "grades": [1, 0, 0, 0, 0, 1, 1, 4, 19, 44, 56],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 28,
+          "average": 86.0,
+          "grades": [1, 0, 0, 0, 0, 0, 1, 1, 0, 9, 16],
+          "instructors": ["Douglas Scott"]
+        },
+        {
+          "session": "2024W",
+          "reported": 21,
+          "average": 88.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 2, 8, 10],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "reported": 29,
+          "average": 88.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 14, 12],
+          "instructors": ["Douglas Scott"]
+        },
+        {
+          "session": "2022W",
+          "reported": 26,
+          "average": 85.3,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 2, 9, 7, 7],
+          "instructors": ["Robert Kiefl"]
+        },
+        {
+          "session": "2021W",
+          "reported": 26,
+          "average": 83.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 6, 6, 11],
+          "instructors": ["Robert Kiefl"]
+        }
+      ]
+    },
+    "PHYS 473": {
+      "reported": 110,
+      "average": 87.2,
+      "grades": [1, 0, 0, 0, 0, 1, 4, 5, 20, 28, 51],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 34,
+          "average": 88.5,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 1, 7, 8, 17],
+          "instructors": ["Alexander Gottberg", "Javed Iqbal"]
+        },
+        {
+          "session": "2024W",
+          "reported": 40,
+          "average": 86.0,
+          "grades": [1, 0, 0, 0, 0, 0, 0, 2, 7, 14, 16],
+          "instructors": ["Mohammed Iqbal", "Alexander Gottberg"]
+        },
+        {
+          "session": "2023W",
+          "reported": 24,
+          "average": 88.8,
+          "grades": [0, 0, 0, 0, 0, 1, 1, 1, 3, 4, 14],
+          "instructors": ["Mohammed Iqbal", "Alexander Gottberg"]
+        },
+        {
+          "session": "2022W",
+          "reported": 12,
+          "average": 84.3,
+          "grades": [0, 0, 0, 0, 0, 0, 2, 1, 3, 2, 4],
+          "instructors": ["Mohammed Iqbal", "Alexander Gottberg"]
+        }
+      ]
+    },
+    "PHYS 474": {
+      "reported": 126,
+      "average": 79.6,
+      "grades": [1, 1, 2, 3, 5, 5, 13, 11, 38, 17, 13],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 22,
+          "average": 80.7,
+          "grades": [0, 0, 0, 2, 0, 0, 3, 3, 6, 5, 3],
+          "instructors": ["Oliver Dicks", "Steven Blaber"]
+        },
+        {
+          "session": "2024W",
+          "reported": 29,
+          "average": 76.1,
+          "grades": [1, 0, 1, 1, 2, 3, 5, 4, 6, 2, 4],
+          "instructors": ["Alannah Hallas"]
+        },
+        {
+          "session": "2023W",
+          "reported": 31,
+          "average": 80.9,
+          "grades": [0, 0, 1, 0, 2, 2, 1, 1, 16, 5, 3],
+          "instructors": ["Alannah Hallas"]
+        },
+        {
+          "session": "2022W",
+          "reported": 27,
+          "average": 80.5,
+          "grades": [0, 1, 0, 0, 1, 0, 4, 3, 10, 5, 3],
+          "instructors": ["Alannah Hallas"]
+        },
+        {
+          "session": "2021W",
+          "reported": 17,
+          "average": 80.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Alannah Hallas"]
+        }
+      ]
+    },
+    "PHYS 500": {
+      "reported": 99,
+      "average": 81.9,
+      "grades": [5, 1, 0, 2, 1, 3, 9, 6, 6, 12, 41],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 20,
+          "average": 82.6,
+          "grades": [1, 0, 0, 0, 0, 0, 3, 3, 4, 4, 5],
+          "instructors": ["Andrew Potter"]
+        },
+        {
+          "session": "2023W",
+          "reported": 27,
+          "average": 83.6,
+          "grades": [1, 0, 0, 0, 0, 3, 4, 3, 2, 1, 12],
+          "instructors": ["Andrew Potter"]
+        },
+        {
+          "session": "2022W",
+          "reported": 17,
+          "average": 72.2,
+          "grades": [3, 1, 0, 2, 1, 0, 2, 0, 0, 0, 8],
+          "instructors": ["Ariel Zhitnitsky"]
+        },
+        {
+          "session": "2021W",
+          "reported": 35,
+          "average": 84.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 16],
+          "instructors": ["Ariel Zhitnitsky"]
+        }
+      ]
+    },
+    "PHYS 502": {
+      "reported": 45,
+      "average": 88.2,
+      "grades": [0, 0, 0, 0, 0, 1, 0, 1, 7, 14, 21],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 11,
+          "average": 88.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 4, 3, 4],
+          "instructors": ["Marcel Franz"]
+        },
+        {
+          "session": "2023W",
+          "reported": 9,
+          "average": 86.8,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 0, 1, 3, 4],
+          "instructors": ["Marcel Franz"]
+        },
+        {
+          "session": "2022W",
+          "reported": 9,
+          "average": 89.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 2, 1, 5],
+          "instructors": ["Marcel Franz"]
+        },
+        {
+          "session": "2021W",
+          "reported": 16,
+          "average": 88.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 8],
+          "instructors": ["Mona Berciu"]
+        }
+      ]
+    },
+    "PHYS 503": {
+      "reported": 25,
+      "average": 89.9,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 16],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 15,
+          "average": 90.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 9],
+          "instructors": ["Marcel Franz"]
+        },
+        {
+          "session": "2021W",
+          "reported": 10,
+          "average": 89.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7],
+          "instructors": ["Marcel Franz"]
+        }
+      ]
+    },
+    "PHYS 504": {
+      "reported": 43,
+      "average": 85.7,
+      "grades": [0, 0, 0, 0, 0, 0, 1, 2, 9, 6, 18],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 7,
+          "average": 83.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 4, 0, 2],
+          "instructors": ["Kristin Schleich"]
+        },
+        {
+          "session": "2023W",
+          "reported": 11,
+          "average": 85.2,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 1, 3, 3, 3],
+          "instructors": ["Kristin Schleich"]
+        },
+        {
+          "session": "2022W",
+          "reported": 10,
+          "average": 88.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 5],
+          "instructors": ["Kristin Schleich"]
+        },
+        {
+          "session": "2021W",
+          "reported": 15,
+          "average": 85.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8],
+          "instructors": ["Kristin Schleich"]
+        }
+      ]
+    },
+    "PHYS 505": {
+      "reported": 9,
+      "average": 78.1,
+      "grades": [1, 0, 0, 0, 0, 2, 0, 0, 2, 3, 1],
+      "terms": [
+        {
+          "session": "2022W",
+          "reported": 9,
+          "average": 78.1,
+          "grades": [1, 0, 0, 0, 0, 2, 0, 0, 2, 3, 1],
+          "instructors": ["John Behr"]
+        }
+      ]
+    },
+    "PHYS 508": {
+      "reported": 15,
+      "average": 93.0,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 14],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 9,
+          "average": 92.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 8],
+          "instructors": ["Gordon Walter Semenoff"]
+        },
+        {
+          "session": "2021W",
+          "reported": 6,
+          "average": 94.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6],
+          "instructors": ["Moshe Rozali"]
+        }
+      ]
+    },
+    "PHYS 509": {
+      "reported": 65,
+      "average": 85.9,
+      "grades": [1, 0, 0, 0, 0, 1, 1, 3, 10, 13, 28],
+      "terms": [
+        {
+          "session": "2024W",
+          "topic": "C",
+          "title": "Theory of Measurements",
+          "reported": 15,
+          "average": 87.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 5, 5, 5],
+          "instructors": ["Gary Hinshaw"]
+        },
+        {
+          "session": "2023W",
+          "topic": "C",
+          "title": "Theory of Measurements",
+          "reported": 13,
+          "average": 82.4,
+          "grades": [0, 0, 0, 0, 0, 1, 1, 2, 3, 0, 4],
+          "instructors": ["Scott Oser"]
+        },
+        {
+          "session": "2022W",
+          "topic": "C",
+          "title": "Theory of Measurements",
+          "reported": 12,
+          "average": 83.1,
+          "grades": [1, 0, 0, 0, 0, 0, 0, 1, 2, 2, 6],
+          "instructors": ["Scott Oser"]
+        },
+        {
+          "session": "2021W",
+          "topic": "C",
+          "title": "Theory of Measurements",
+          "reported": 25,
+          "average": 88.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 13],
+          "instructors": ["Scott Oser"]
+        }
+      ]
+    },
+    "PHYS 516": {
+      "reported": 50,
+      "average": 86.8,
+      "grades": [1, 0, 0, 0, 2, 2, 3, 1, 5, 0, 30],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 6,
+          "average": 89.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 4],
+          "instructors": ["Joerg Rottler"]
+        },
+        {
+          "session": "2023W",
+          "reported": 14,
+          "average": 94.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 13],
+          "instructors": ["Gordon Walter Semenoff"]
+        },
+        {
+          "session": "2022W",
+          "reported": 14,
+          "average": 74.9,
+          "grades": [1, 0, 0, 0, 2, 2, 3, 0, 3, 0, 3],
+          "instructors": ["Gordon Walter Semenoff"]
+        },
+        {
+          "session": "2021W",
+          "reported": 16,
+          "average": 89.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10],
+          "instructors": ["Gordon Walter Semenoff"]
+        }
+      ]
+    },
+    "PHYS 521": {
+      "reported": 21,
+      "average": 85.4,
+      "grades": [0, 0, 0, 0, 0, 0, 2, 0, 0, 2, 6],
+      "terms": [
+        {
+          "session": "2023W",
+          "topic": "D",
+          "title": "Group Theory Methods in Quantum Mechanics",
+          "reported": 12,
+          "average": 87.7,
+          "grades": [0, 0, 0, 0, 0, 0, 2, 0, 0, 2, 6],
+          "instructors": ["Gordon Walter Semenoff"]
+        },
+        {
+          "session": "2021W",
+          "topic": "D",
+          "title": "Group Theory Methods in Quantum Mechanics",
+          "reported": 9,
+          "average": 82.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Gordon Walter Semenoff"]
+        }
+      ]
+    },
+    "PHYS 526": {
+      "reported": 57,
+      "average": 91.0,
+      "grades": [0, 0, 0, 1, 0, 0, 0, 1, 3, 7, 38],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 17,
+          "average": 93.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 13],
+          "instructors": ["Ariel Zhitnitsky"]
+        },
+        {
+          "session": "2023W",
+          "reported": 12,
+          "average": 91.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 7],
+          "instructors": ["Ariel Zhitnitsky"]
+        },
+        {
+          "session": "2022W",
+          "reported": 8,
+          "average": 86.9,
+          "grades": [0, 0, 0, 1, 0, 0, 0, 1, 0, 3, 3],
+          "instructors": ["Gordon Walter Semenoff"]
+        },
+        {
+          "session": "2021W",
+          "reported": 20,
+          "average": 90.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 15],
+          "instructors": ["Gordon Walter Semenoff"]
+        }
+      ]
+    },
+    "PHYS 528": {
+      "reported": 9,
+      "average": 95.4,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9],
+      "terms": [
+        {
+          "session": "2023W",
+          "topic": "B",
+          "title": "Elementary Particle Physics",
+          "reported": 9,
+          "average": 95.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9],
+          "instructors": ["David Morrissey"]
+        }
+      ]
+    },
+    "PHYS 529": {
+      "reported": 9,
+      "average": 97.7,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 8],
+      "terms": [
+        {
+          "session": "2022W",
+          "topic": "B",
+          "title": "Topics in Quantum Theory",
+          "reported": 9,
+          "average": 97.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 8],
+          "instructors": ["Moshe Rozali"]
+        }
+      ]
+    },
+    "PHYS 534": {
+      "reported": 7,
+      "average": 84.1,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      "terms": [
+        {
+          "session": "2021W",
+          "reported": 7,
+          "average": 84.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Haley Clark", "Marie Pierre Milette"]
+        }
+      ]
+    },
+    "PHYS 535": {
+      "reported": 7,
+      "average": 87.9,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      "terms": [
+        {
+          "session": "2021W",
+          "reported": 7,
+          "average": 87.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Ingrid Spadinger", "Ante Mestrovic", "Alanah Bergman", "Tony Popescu", "Robert Kosztyla"]
+        }
+      ]
+    },
+    "PHYS 536": {
+      "reported": 8,
+      "average": 84.9,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      "terms": [
+        {
+          "session": "2021W",
+          "reported": 8,
+          "average": 84.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Stefan Reinsberg", "Andrew Minchinton", "Jennifer Baker", "Vitali Moiseenko"]
+        }
+      ]
+    },
+    "PHYS 540": {
+      "reported": 19,
+      "average": 83.5,
+      "grades": [0, 0, 0, 0, 0, 0, 2, 1, 2, 0, 3],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 8,
+          "average": 82.1,
+          "grades": [0, 0, 0, 0, 0, 0, 2, 1, 2, 0, 3],
+          "instructors": ["Nancy Ford", "Piotr Kozlowski", "Stefan Reinsberg", "Robert Rohling", "Carlos Uribe Munoz"]
+        },
+        {
+          "session": "2021W",
+          "reported": 11,
+          "average": 84.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Robert Rohling", "Nancy Ford", "Piotr Kozlowski", "Carlos Uribe Munoz"]
+        }
+      ]
+    },
+    "PHYS 541": {
+      "reported": 7,
+      "average": 92.6,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 6],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 7,
+          "average": 92.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 6],
+          "instructors": ["Carlos Uribe Munoz", "Arman Rahmim"]
+        }
+      ]
+    },
+    "PHYS 542": {
+      "reported": 11,
+      "average": 83.9,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      "terms": [
+        {
+          "session": "2021W",
+          "reported": 11,
+          "average": 83.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Stefan Reinsberg", "Piotr Kozlowski", "Alexander L. Mackay"]
+        }
+      ]
+    },
+    "PHYS 543": {
+      "reported": 6,
+      "average": 91.8,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 6,
+          "average": 91.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Haishan Zeng"]
+        }
+      ]
+    },
+    "PHYS 545": {
+      "reported": 24,
+      "average": 90.0,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 2, 0, 5, 14],
+      "terms": [
+        {
+          "session": "2022W",
+          "reported": 8,
+          "average": 85.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 2, 0, 5, 1],
+          "instructors": ["Nancy Ford", "Joel Singer"]
+        },
+        {
+          "session": "2021W",
+          "reported": 16,
+          "average": 92.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13],
+          "instructors": ["Nancy Ford", "Joel Singer"]
+        }
+      ]
+    },
+    "PHYS 555": {
+      "reported": 29,
+      "average": 89.0,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 15, 13],
+      "terms": [
+        {
+          "session": "2024W",
+          "topic": "A",
+          "title": "Directed Studies in Physics",
+          "reported": 13,
+          "average": 85.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 0],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "topic": "B",
+          "title": "Directed Studies in Physics",
+          "reported": 6,
+          "average": 89.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3],
+          "instructors": []
+        },
+        {
+          "session": "2022W",
+          "topic": "B",
+          "title": "Directed Studies in Physics",
+          "reported": 10,
+          "average": 93.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10],
+          "instructors": []
+        }
+      ]
+    },
+    "PHYS 560": {
+      "reported": 17,
+      "average": 86.5,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 4, 1, 5],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 10,
+          "average": 88.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 4, 1, 5],
+          "instructors": ["Oliver Kester"]
+        },
+        {
+          "session": "2021W",
+          "reported": 7,
+          "average": 84.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Reiner Kruecken"]
+        }
+      ]
+    },
+    "PHYS 571": {
+      "reported": 8,
+      "average": 87.8,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      "terms": [
+        {
+          "session": "2021W",
+          "reported": 8,
+          "average": 87.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Gary Hinshaw", "John Shaw"]
+        }
+      ]
+    },
+    "PHYS 572": {
+      "reported": 9,
+      "average": 93.8,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 8],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 9,
+          "average": 93.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 8],
+          "instructors": ["Bernhard Keimer", "Liu Hau Tjeng", "Andrea Damascelli"]
+        }
+      ]
+    }
+  }
+}

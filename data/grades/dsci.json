@@ -1,0 +1,1102 @@
+{
+  "subject": "DSCI",
+  "campus": "UBCV",
+  "source": "https://ubcgrades.com",
+  "credit": "UBCGrades.com / UBC PAIR",
+  "sessions": ["2021S", "2021W", "2022S", "2022W", "2023S", "2023W", "2024S", "2024W", "2025S", "2025W"],
+  "buckets": ["<50%", "50-54%", "55-59%", "60-63%", "64-67%", "68-71%", "72-75%", "76-79%", "80-84%", "85-89%", "90-100%"],
+  "courses": {
+    "DSCI 100": {
+      "reported": 8497,
+      "average": 79.0,
+      "grades": [241, 157, 185, 274, 350, 523, 719, 933, 1531, 1704, 1750],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 1629,
+          "average": 77.2,
+          "grades": [75, 49, 48, 85, 78, 120, 137, 151, 254, 274, 358],
+          "instructors": ["Grace Tompkins", "Hoi Yin Eugenia Yu", "Daniel Chen", "Geoffrey Pleiss", "Eugenia Bernaschini", "Vivian Meng", "Valentina Radic"]
+        },
+        {
+          "session": "2025S",
+          "reported": 226,
+          "average": 75.7,
+          "grades": [10, 10, 6, 10, 18, 22, 23, 14, 38, 45, 30],
+          "instructors": ["Daniel Chen", "Melissa Lee"]
+        },
+        {
+          "session": "2024W",
+          "reported": 1647,
+          "average": 76.5,
+          "grades": [56, 48, 53, 75, 87, 127, 183, 195, 316, 290, 217],
+          "instructors": ["Naitong Chen", "Vivian Meng", "Man Yeung Tai", "Yuan Xia", "Trevor Campbell", "Hoi Yin Eugenia Yu", "Katherine Burak", "Lasantha Premarathna Wijendra Acharige", "Eldad Haber", "Rodolfo Lourenzutti"]
+        },
+        {
+          "session": "2024S",
+          "reported": 292,
+          "average": 81.0,
+          "grades": [9, 6, 6, 6, 10, 13, 14, 33, 63, 55, 77],
+          "instructors": ["Daniel Chen", "Vivian Meng"]
+        },
+        {
+          "session": "2023W",
+          "reported": 1738,
+          "average": 77.7,
+          "grades": [65, 37, 41, 63, 93, 117, 148, 218, 281, 352, 273],
+          "instructors": ["Hoi Yin Eugenia Yu", "Yitong Liu", "Anthony-Alexander Christidis", "Katie Burak", "Trevor Campbell", "Lindsey Heagy", "Eldad Haber", "Vivian Meng", "Daniel Chen", "Joel Ostblom"]
+        },
+        {
+          "session": "2023S",
+          "reported": 302,
+          "average": 86.2,
+          "grades": [2, 0, 3, 5, 3, 9, 15, 18, 47, 66, 130],
+          "instructors": ["Daniel Chen", "Yitong Liu"]
+        },
+        {
+          "session": "2022W",
+          "reported": 1398,
+          "average": 81.7,
+          "grades": [14, 7, 22, 29, 41, 79, 95, 146, 324, 321, 320],
+          "instructors": ["Le Quan Nguyen", "Daniel Chen", "Melissa Lee", "Trevor Campbell", "Rodolfo Lourenzutti", "Lasantha Premarathna Wijendra Acharige", "Anthony-Alexander Christidis", "Joel Ostblom", "Lindsey Heagy"]
+        },
+        {
+          "session": "2022S",
+          "reported": 116,
+          "average": 88.0,
+          "grades": [0, 0, 0, 1, 1, 2, 3, 4, 12, 31, 62],
+          "instructors": ["Daniel Chen"]
+        },
+        {
+          "session": "2021W",
+          "reported": 997,
+          "average": 81.3,
+          "grades": [10, 0, 6, 0, 19, 34, 84, 127, 164, 240, 250],
+          "instructors": ["Trevor Campbell", "Lindsey Heagy", "Melissa Lee", "Rodolfo Lourenzutti", "Le Quan Nguyen", "Michael Davis"]
+        },
+        {
+          "session": "2021S",
+          "reported": 152,
+          "average": 81.7,
+          "grades": [0, 0, 0, 0, 0, 0, 17, 27, 32, 30, 33],
+          "instructors": ["Melissa Lee"]
+        }
+      ]
+    },
+    "DSCI 200": {
+      "reported": 77,
+      "average": 83.9,
+      "grades": [1, 1, 1, 0, 0, 1, 6, 7, 17, 17, 26],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 77,
+          "average": 83.9,
+          "grades": [1, 1, 1, 0, 0, 1, 6, 7, 17, 17, 26],
+          "instructors": ["Gabriela Cohen Freue", "Katie Burak"]
+        }
+      ]
+    },
+    "DSCI 220": {
+      "reported": 28,
+      "average": 86.2,
+      "grades": [0, 0, 1, 0, 1, 0, 1, 2, 5, 8, 10],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 28,
+          "average": 86.2,
+          "grades": [0, 0, 1, 0, 1, 0, 1, 2, 5, 8, 10],
+          "instructors": ["Cinda Heeren"]
+        }
+      ]
+    },
+    "DSCI 221": {
+      "reported": 43,
+      "average": 82.1,
+      "grades": [0, 0, 0, 0, 2, 2, 7, 4, 10, 8, 10],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 43,
+          "average": 82.1,
+          "grades": [0, 0, 0, 0, 2, 2, 7, 4, 10, 8, 10],
+          "instructors": ["Cinda Heeren"]
+        }
+      ]
+    },
+    "DSCI 310": {
+      "reported": 306,
+      "average": 87.1,
+      "grades": [3, 1, 0, 1, 3, 5, 4, 23, 62, 57, 139],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 70,
+          "average": 91.4,
+          "grades": [0, 0, 0, 0, 1, 0, 0, 1, 7, 12, 49],
+          "instructors": ["Joseph Wonsil"]
+        },
+        {
+          "session": "2024W",
+          "reported": 67,
+          "average": 94.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 4, 2, 61],
+          "instructors": ["Daniel Chen"]
+        },
+        {
+          "session": "2023W",
+          "reported": 70,
+          "average": 83.1,
+          "grades": [1, 0, 0, 1, 2, 4, 1, 7, 18, 22, 14],
+          "instructors": ["Tiffany Timbers"]
+        },
+        {
+          "session": "2022W",
+          "reported": 57,
+          "average": 82.2,
+          "grades": [2, 1, 0, 0, 0, 1, 3, 8, 15, 12, 15],
+          "instructors": ["Daniel Chen"]
+        },
+        {
+          "session": "2021W",
+          "reported": 42,
+          "average": 82.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 7, 18, 9, 0],
+          "instructors": ["Tiffany Timbers"]
+        }
+      ]
+    },
+    "DSCI 320": {
+      "reported": 276,
+      "average": 83.1,
+      "grades": [3, 0, 1, 1, 8, 12, 23, 27, 58, 71, 72],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 103,
+          "average": 83.0,
+          "grades": [1, 0, 1, 0, 4, 3, 8, 7, 26, 35, 18],
+          "instructors": ["Oluwakemi Ola"]
+        },
+        {
+          "session": "2024W",
+          "reported": 62,
+          "average": 88.8,
+          "grades": [1, 0, 0, 1, 1, 0, 0, 0, 6, 10, 43],
+          "instructors": ["Firas Moosvi"]
+        },
+        {
+          "session": "2023W",
+          "reported": 70,
+          "average": 79.8,
+          "grades": [0, 0, 0, 0, 2, 8, 12, 13, 14, 13, 8],
+          "instructors": ["Oluwakemi Ola"]
+        },
+        {
+          "session": "2022W",
+          "reported": 41,
+          "average": 80.4,
+          "grades": [1, 0, 0, 0, 1, 1, 3, 7, 12, 13, 3],
+          "instructors": ["Oluwakemi Ola", "Joel Ostblom"]
+        }
+      ]
+    },
+    "DSCI 430": {
+      "reported": 152,
+      "average": 85.2,
+      "grades": [2, 0, 1, 1, 1, 7, 6, 14, 19, 38, 63],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 71,
+          "average": 86.0,
+          "grades": [0, 0, 1, 0, 0, 4, 3, 6, 9, 17, 31],
+          "instructors": ["Giulia Toti"]
+        },
+        {
+          "session": "2024W",
+          "reported": 45,
+          "average": 81.8,
+          "grades": [2, 0, 0, 0, 1, 3, 1, 4, 8, 15, 11],
+          "instructors": ["Giulia Toti"]
+        },
+        {
+          "session": "2023W",
+          "reported": 36,
+          "average": 87.7,
+          "grades": [0, 0, 0, 1, 0, 0, 2, 4, 2, 6, 21],
+          "instructors": ["Giulia Toti"]
+        }
+      ]
+    },
+    "DSCI 511": {
+      "reported": 537,
+      "average": 91.0,
+      "grades": [0, 1, 0, 2, 4, 1, 13, 14, 39, 72, 385],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 148,
+          "average": 89.3,
+          "grades": [0, 1, 0, 1, 3, 1, 9, 6, 12, 20, 95],
+          "instructors": ["Prajeet Bajpai", "Tiffany Timbers", "James Mackie"]
+        },
+        {
+          "session": "2023W",
+          "reported": 125,
+          "average": 90.8,
+          "grades": [0, 0, 0, 1, 1, 0, 3, 4, 8, 23, 85],
+          "instructors": ["Le Quan Nguyen"]
+        },
+        {
+          "session": "2022W",
+          "reported": 115,
+          "average": 92.4,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 4, 5, 16, 89],
+          "instructors": ["Arman Seyed-Ahmadi"]
+        },
+        {
+          "session": "2021W",
+          "reported": 149,
+          "average": 91.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 14, 13, 116],
+          "instructors": ["Arman Seyed-Ahmadi"]
+        }
+      ]
+    },
+    "DSCI 512": {
+      "reported": 538,
+      "average": 89.3,
+      "grades": [0, 0, 0, 8, 13, 2, 8, 23, 66, 102, 309],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 148,
+          "average": 87.0,
+          "grades": [0, 0, 0, 2, 7, 2, 4, 13, 17, 35, 68],
+          "instructors": ["Vincent Liu", "Hedayat Zarkoob", "Jian Zhu"]
+        },
+        {
+          "session": "2023W",
+          "reported": 127,
+          "average": 90.6,
+          "grades": [0, 0, 0, 0, 3, 0, 2, 3, 17, 23, 78],
+          "instructors": ["Gittu George", "Jordan Schalm", "Jian Zhu"]
+        },
+        {
+          "session": "2022W",
+          "reported": 113,
+          "average": 87.3,
+          "grades": [0, 0, 0, 6, 3, 0, 2, 7, 14, 25, 56],
+          "instructors": ["Arman Seyed-Ahmadi", "Jungyeul Park"]
+        },
+        {
+          "session": "2021W",
+          "reported": 150,
+          "average": 92.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 18, 19, 107],
+          "instructors": ["Michael Gelbart"]
+        }
+      ]
+    },
+    "DSCI 513": {
+      "reported": 535,
+      "average": 88.4,
+      "grades": [0, 0, 0, 0, 10, 1, 10, 24, 75, 138, 270],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 147,
+          "average": 87.0,
+          "grades": [0, 0, 0, 0, 1, 1, 7, 13, 22, 45, 58],
+          "instructors": ["Gittu George"]
+        },
+        {
+          "session": "2023W",
+          "reported": 126,
+          "average": 88.4,
+          "grades": [0, 0, 0, 0, 1, 0, 1, 8, 21, 35, 59],
+          "instructors": ["Gittu George"]
+        },
+        {
+          "session": "2022W",
+          "reported": 111,
+          "average": 88.7,
+          "grades": [0, 0, 0, 0, 1, 0, 2, 3, 21, 26, 58],
+          "instructors": ["Arman Seyed-Ahmadi"]
+        },
+        {
+          "session": "2021W",
+          "reported": 151,
+          "average": 89.6,
+          "grades": [0, 0, 0, 0, 7, 0, 0, 0, 11, 32, 95],
+          "instructors": ["Arman Seyed-Ahmadi"]
+        }
+      ]
+    },
+    "DSCI 521": {
+      "reported": 537,
+      "average": 91.8,
+      "grades": [0, 0, 0, 0, 1, 2, 2, 10, 39, 81, 399],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 148,
+          "average": 89.8,
+          "grades": [0, 0, 0, 0, 0, 2, 1, 5, 21, 26, 93],
+          "instructors": ["Daniel Chen", "Man Yeung Tai"]
+        },
+        {
+          "session": "2023W",
+          "reported": 125,
+          "average": 90.5,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 4, 13, 27, 80],
+          "instructors": ["Daniel Chen"]
+        },
+        {
+          "session": "2022W",
+          "reported": 115,
+          "average": 92.6,
+          "grades": [0, 0, 0, 0, 1, 0, 0, 1, 5, 19, 89],
+          "instructors": ["Maria Florencia D' Andrea"]
+        },
+        {
+          "session": "2021W",
+          "reported": 149,
+          "average": 94.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 137],
+          "instructors": ["Maria Florencia D' Andrea"]
+        }
+      ]
+    },
+    "DSCI 522": {
+      "reported": 402,
+      "average": 93.1,
+      "grades": [0, 0, 0, 0, 0, 1, 2, 3, 14, 45, 332],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 117,
+          "average": 92.6,
+          "grades": [0, 0, 0, 0, 0, 1, 2, 1, 2, 12, 99],
+          "instructors": ["Tiffany Timbers", "Daniel Chen"]
+        },
+        {
+          "session": "2023W",
+          "reported": 91,
+          "average": 90.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 11, 26, 53],
+          "instructors": ["Tiffany Timbers"]
+        },
+        {
+          "session": "2022W",
+          "reported": 78,
+          "average": 92.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 2, 1, 7, 68],
+          "instructors": ["Maria Florencia D' Andrea"]
+        },
+        {
+          "session": "2021W",
+          "reported": 116,
+          "average": 95.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 112],
+          "instructors": ["Maria Florencia D' Andrea", "Tiffany Timbers"]
+        }
+      ]
+    },
+    "DSCI 523": {
+      "reported": 538,
+      "average": 90.1,
+      "grades": [0, 1, 1, 3, 7, 2, 12, 10, 47, 112, 333],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 149,
+          "average": 88.2,
+          "grades": [0, 1, 1, 2, 4, 2, 6, 4, 23, 22, 84],
+          "instructors": ["Tiffany Timbers", "Gittu George"]
+        },
+        {
+          "session": "2023W",
+          "reported": 125,
+          "average": 88.3,
+          "grades": [0, 0, 0, 0, 3, 0, 3, 3, 11, 45, 60],
+          "instructors": ["Tiffany Timbers"]
+        },
+        {
+          "session": "2022W",
+          "reported": 115,
+          "average": 89.6,
+          "grades": [0, 0, 0, 1, 0, 0, 3, 3, 13, 30, 65],
+          "instructors": ["Gittu George"]
+        },
+        {
+          "session": "2021W",
+          "reported": 149,
+          "average": 93.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 15, 124],
+          "instructors": ["Tiffany Timbers"]
+        }
+      ]
+    },
+    "DSCI 524": {
+      "reported": 396,
+      "average": 95.0,
+      "grades": [0, 0, 0, 0, 0, 2, 1, 0, 12, 24, 354],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 116,
+          "average": 93.7,
+          "grades": [0, 0, 0, 0, 0, 1, 1, 0, 4, 12, 98],
+          "instructors": ["Tiffany Timbers", "Daniel Chen"]
+        },
+        {
+          "session": "2023W",
+          "reported": 88,
+          "average": 92.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 7, 11, 70],
+          "instructors": ["Tiffany Timbers"]
+        },
+        {
+          "session": "2022W",
+          "reported": 78,
+          "average": 96.1,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 75],
+          "instructors": ["Maria Florencia D' Andrea", "Daniel Chen"]
+        },
+        {
+          "session": "2021W",
+          "reported": 114,
+          "average": 97.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 111],
+          "instructors": ["Maria Florencia D' Andrea", "Tiffany Timbers"]
+        }
+      ]
+    },
+    "DSCI 525": {
+      "reported": 396,
+      "average": 97.4,
+      "grades": [0, 0, 0, 0, 0, 0, 1, 0, 1, 2, 392],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 116,
+          "average": 97.6,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 114],
+          "instructors": ["Ilya Musabirov", "Gittu George"]
+        },
+        {
+          "session": "2023W",
+          "reported": 88,
+          "average": 97.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 87],
+          "instructors": ["Gittu George"]
+        },
+        {
+          "session": "2022W",
+          "reported": 78,
+          "average": 95.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 77],
+          "instructors": ["Gittu George"]
+        },
+        {
+          "session": "2021W",
+          "reported": 114,
+          "average": 98.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 114],
+          "instructors": ["Gittu George"]
+        }
+      ]
+    },
+    "DSCI 531": {
+      "reported": 536,
+      "average": 86.7,
+      "grades": [0, 0, 0, 1, 4, 17, 31, 43, 82, 128, 226],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 147,
+          "average": 81.2,
+          "grades": [0, 0, 0, 1, 4, 12, 20, 22, 32, 36, 20],
+          "instructors": ["Payman Nickchi", "Joel Ostblom"]
+        },
+        {
+          "session": "2023W",
+          "reported": 126,
+          "average": 85.1,
+          "grades": [0, 0, 0, 0, 0, 3, 6, 14, 29, 40, 33],
+          "instructors": ["Joel Ostblom"]
+        },
+        {
+          "session": "2022W",
+          "reported": 113,
+          "average": 86.5,
+          "grades": [0, 0, 0, 0, 0, 2, 5, 7, 21, 39, 39],
+          "instructors": ["Joel Ostblom"]
+        },
+        {
+          "session": "2021W",
+          "reported": 150,
+          "average": 93.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 134],
+          "instructors": ["Joel Ostblom"]
+        }
+      ]
+    },
+    "DSCI 532": {
+      "reported": 396,
+      "average": 94.4,
+      "grades": [0, 0, 0, 0, 4, 1, 1, 3, 5, 9, 370],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 116,
+          "average": 93.6,
+          "grades": [0, 0, 0, 0, 4, 0, 1, 3, 4, 5, 99],
+          "instructors": ["Daniel Chen", "Joel Ostblom"]
+        },
+        {
+          "session": "2023W",
+          "reported": 88,
+          "average": 92.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 88],
+          "instructors": ["Joel Ostblom"]
+        },
+        {
+          "session": "2022W",
+          "reported": 78,
+          "average": 94.2,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 0, 1, 4, 72],
+          "instructors": ["Maria Florencia D' Andrea"]
+        },
+        {
+          "session": "2021W",
+          "reported": 114,
+          "average": 96.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 111],
+          "instructors": ["Maria Florencia D' Andrea"]
+        }
+      ]
+    },
+    "DSCI 541": {
+      "reported": 530,
+      "average": 91.9,
+      "grades": [0, 0, 0, 1, 1, 2, 1, 6, 22, 102, 390],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 146,
+          "average": 91.8,
+          "grades": [0, 0, 0, 0, 1, 1, 0, 3, 13, 23, 105],
+          "instructors": ["Hedayat Zarkoob", "Joel Ostblom", "Garrett Nicolai"]
+        },
+        {
+          "session": "2023W",
+          "reported": 122,
+          "average": 92.4,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 0, 3, 20, 98],
+          "instructors": ["Joel Ostblom", "Garrett Nicolai"]
+        },
+        {
+          "session": "2022W",
+          "reported": 113,
+          "average": 89.6,
+          "grades": [0, 0, 0, 1, 0, 0, 1, 3, 6, 40, 62],
+          "instructors": ["Joel Ostblom", "Jungyeul Park", "Garrett Nicolai"]
+        },
+        {
+          "session": "2021W",
+          "reported": 149,
+          "average": 93.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 19, 125],
+          "instructors": ["Joel Ostblom", "Jungyeul Park", "Garrett Nicolai", "Yundong Yao"]
+        }
+      ]
+    },
+    "DSCI 542": {
+      "reported": 396,
+      "average": 93.6,
+      "grades": [0, 0, 0, 0, 0, 1, 1, 4, 13, 41, 335],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 116,
+          "average": 91.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 4, 11, 24, 77],
+          "instructors": ["Man Yeung Tai", "Hedayat Zarkoob"]
+        },
+        {
+          "session": "2023W",
+          "reported": 88,
+          "average": 95.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 87],
+          "instructors": ["Le Quan Nguyen"]
+        },
+        {
+          "session": "2022W",
+          "reported": 78,
+          "average": 92.6,
+          "grades": [0, 0, 0, 0, 0, 1, 1, 0, 2, 8, 66],
+          "instructors": ["Le Quan Nguyen"]
+        },
+        {
+          "session": "2021W",
+          "reported": 114,
+          "average": 95.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 105],
+          "instructors": ["Le Quan Nguyen"]
+        }
+      ]
+    },
+    "DSCI 551": {
+      "reported": 540,
+      "average": 90.4,
+      "grades": [0, 0, 0, 0, 8, 1, 5, 22, 55, 96, 344],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 149,
+          "average": 88.3,
+          "grades": [0, 0, 0, 0, 4, 0, 3, 13, 26, 26, 77],
+          "instructors": ["Vincent Liu", "Gilberto Alexi Rodríguez Arelis"]
+        },
+        {
+          "session": "2023W",
+          "reported": 125,
+          "average": 90.6,
+          "grades": [0, 0, 0, 0, 2, 1, 1, 6, 8, 27, 79],
+          "instructors": ["Gilberto Alexi Rodríguez Arelis", "Katie Burak"]
+        },
+        {
+          "session": "2022W",
+          "reported": 116,
+          "average": 91.0,
+          "grades": [0, 0, 0, 0, 2, 0, 1, 3, 9, 21, 80],
+          "instructors": ["Gilberto Alexi Rodríguez Arelis"]
+        },
+        {
+          "session": "2021W",
+          "reported": 150,
+          "average": 91.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 12, 22, 108],
+          "instructors": ["Michael Gelbart"]
+        }
+      ]
+    },
+    "DSCI 552": {
+      "reported": 537,
+      "average": 88.0,
+      "grades": [0, 0, 0, 3, 9, 7, 13, 28, 64, 137, 268],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 148,
+          "average": 85.1,
+          "grades": [0, 0, 0, 3, 6, 3, 8, 15, 25, 30, 58],
+          "instructors": ["Katherine Burak", "Gilberto Alexi Rodríguez Arelis"]
+        },
+        {
+          "session": "2023W",
+          "reported": 126,
+          "average": 86.4,
+          "grades": [0, 0, 0, 0, 0, 2, 3, 8, 25, 49, 38],
+          "instructors": ["Tiffany Timbers", "Katie Burak"]
+        },
+        {
+          "session": "2022W",
+          "reported": 113,
+          "average": 87.8,
+          "grades": [0, 0, 0, 0, 3, 2, 2, 5, 14, 36, 51],
+          "instructors": ["Gilberto Alexi Rodríguez Arelis"]
+        },
+        {
+          "session": "2021W",
+          "reported": 150,
+          "average": 92.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 22, 121],
+          "instructors": ["Gilberto Alexi Rodríguez Arelis", "Le Quan Nguyen"]
+        }
+      ]
+    },
+    "DSCI 553": {
+      "reported": 396,
+      "average": 91.3,
+      "grades": [0, 0, 0, 0, 1, 1, 1, 20, 37, 68, 262],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 116,
+          "average": 89.5,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 12, 11, 29, 63],
+          "instructors": ["Hedayat Zarkoob", "Gilberto Alexi Rodríguez Arelis"]
+        },
+        {
+          "session": "2023W",
+          "reported": 88,
+          "average": 89.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 6, 8, 23, 51],
+          "instructors": ["Gilberto Alexi Rodríguez Arelis"]
+        },
+        {
+          "session": "2022W",
+          "reported": 78,
+          "average": 88.7,
+          "grades": [0, 0, 0, 0, 1, 1, 0, 2, 18, 16, 40],
+          "instructors": ["Gilberto Alexi Rodríguez Arelis"]
+        },
+        {
+          "session": "2021W",
+          "reported": 114,
+          "average": 96.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 108],
+          "instructors": ["Gilberto Alexi Rodríguez Arelis"]
+        }
+      ]
+    },
+    "DSCI 554": {
+      "reported": 396,
+      "average": 90.0,
+      "grades": [0, 0, 0, 0, 1, 1, 8, 20, 43, 82, 238],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 116,
+          "average": 87.5,
+          "grades": [0, 0, 0, 0, 0, 0, 3, 11, 19, 34, 49],
+          "instructors": ["Payman Nickchi"]
+        },
+        {
+          "session": "2023W",
+          "reported": 88,
+          "average": 89.6,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 3, 12, 20, 52],
+          "instructors": ["Gilberto Alexi Rodríguez Arelis"]
+        },
+        {
+          "session": "2022W",
+          "reported": 78,
+          "average": 87.0,
+          "grades": [0, 0, 0, 0, 1, 1, 4, 6, 12, 22, 32],
+          "instructors": ["Gilberto Alexi Rodríguez Arelis"]
+        },
+        {
+          "session": "2021W",
+          "reported": 114,
+          "average": 95.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 105],
+          "instructors": ["Gilberto Alexi Rodríguez Arelis", "Daniel Chen"]
+        }
+      ]
+    },
+    "DSCI 561": {
+      "reported": 534,
+      "average": 91.0,
+      "grades": [0, 0, 1, 0, 0, 2, 12, 14, 39, 96, 365],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 146,
+          "average": 87.3,
+          "grades": [0, 0, 1, 0, 0, 2, 5, 11, 21, 38, 68],
+          "instructors": ["Katherine Burak", "Payman Nickchi"]
+        },
+        {
+          "session": "2023W",
+          "reported": 126,
+          "average": 89.1,
+          "grades": [0, 0, 0, 0, 0, 0, 7, 2, 15, 30, 71],
+          "instructors": ["Katie Burak"]
+        },
+        {
+          "session": "2022W",
+          "reported": 111,
+          "average": 93.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 3, 9, 98],
+          "instructors": ["Gabriela Cohen Freue", "Daniel Chen"]
+        },
+        {
+          "session": "2021W",
+          "reported": 151,
+          "average": 94.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 19, 128],
+          "instructors": ["Gilberto Alexi Rodríguez Arelis", "Gabriela Cohen Freue"]
+        }
+      ]
+    },
+    "DSCI 562": {
+      "reported": 396,
+      "average": 91.0,
+      "grades": [0, 0, 0, 0, 1, 0, 5, 14, 38, 86, 248],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 116,
+          "average": 89.0,
+          "grades": [0, 0, 0, 0, 0, 0, 3, 6, 15, 34, 58],
+          "instructors": ["Payman Nickchi", "Gilberto Alexi Rodríguez Arelis"]
+        },
+        {
+          "session": "2023W",
+          "reported": 88,
+          "average": 88.1,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 6, 13, 36, 32],
+          "instructors": ["Gilberto Alexi Rodríguez Arelis"]
+        },
+        {
+          "session": "2022W",
+          "reported": 78,
+          "average": 90.2,
+          "grades": [0, 0, 0, 0, 1, 0, 1, 2, 10, 16, 48],
+          "instructors": ["Gilberto Alexi Rodríguez Arelis"]
+        },
+        {
+          "session": "2021W",
+          "reported": 114,
+          "average": 95.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 110],
+          "instructors": ["Gilberto Alexi Rodríguez Arelis"]
+        }
+      ]
+    },
+    "DSCI 563": {
+      "reported": 528,
+      "average": 90.0,
+      "grades": [0, 0, 0, 0, 0, 1, 4, 25, 50, 125, 312],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 145,
+          "average": 87.2,
+          "grades": [0, 0, 0, 0, 0, 1, 4, 16, 23, 43, 58],
+          "instructors": ["Prajeet Bajpai", "Varada Kolhatkar", "Garrett Nicolai"]
+        },
+        {
+          "session": "2023W",
+          "reported": 123,
+          "average": 89.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 6, 15, 39, 63],
+          "instructors": ["Varada Kolhatkar", "Jungyeul Park", "Garrett Nicolai"]
+        },
+        {
+          "session": "2022W",
+          "reported": 112,
+          "average": 89.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 3, 12, 32, 65],
+          "instructors": ["Varada Kolhatkar", "Jungyeul Park", "Garrett Nicolai"]
+        },
+        {
+          "session": "2021W",
+          "reported": 148,
+          "average": 93.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 126],
+          "instructors": ["Varada Kolhatkar", "Jungyeul Park", "Shi Qiu", "Miikka Pietari Silfverberg"]
+        }
+      ]
+    },
+    "DSCI 571": {
+      "reported": 538,
+      "average": 87.2,
+      "grades": [0, 0, 1, 2, 8, 6, 15, 21, 84, 158, 233],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 149,
+          "average": 85.0,
+          "grades": [0, 0, 1, 1, 2, 3, 8, 12, 31, 47, 44],
+          "instructors": ["Prajeet Bajpai", "Varada Kolhatkar"]
+        },
+        {
+          "session": "2023W",
+          "reported": 126,
+          "average": 87.9,
+          "grades": [0, 0, 0, 0, 0, 2, 4, 3, 20, 42, 54],
+          "instructors": ["Varada Kolhatkar"]
+        },
+        {
+          "session": "2022W",
+          "reported": 113,
+          "average": 86.2,
+          "grades": [0, 0, 0, 1, 6, 1, 3, 6, 17, 39, 40],
+          "instructors": ["Varada Kolhatkar"]
+        },
+        {
+          "session": "2021W",
+          "reported": 150,
+          "average": 89.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 16, 30, 95],
+          "instructors": ["Varada Kolhatkar"]
+        }
+      ]
+    },
+    "DSCI 572": {
+      "reported": 528,
+      "average": 88.4,
+      "grades": [0, 0, 0, 0, 1, 1, 9, 38, 75, 120, 274],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 145,
+          "average": 86.7,
+          "grades": [0, 0, 0, 0, 1, 0, 3, 14, 34, 37, 56],
+          "instructors": ["Prajeet Bajpai", "Varada Kolhatkar", "Jian Zhu"]
+        },
+        {
+          "session": "2023W",
+          "reported": 123,
+          "average": 88.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 12, 14, 37, 60],
+          "instructors": ["Varada Kolhatkar", "Jungyeul Park", "Jian Zhu"]
+        },
+        {
+          "session": "2022W",
+          "reported": 112,
+          "average": 87.8,
+          "grades": [0, 0, 0, 0, 0, 1, 6, 12, 18, 17, 58],
+          "instructors": ["Arman Seyed-Ahmadi", "Miikka Pietari Silfverberg"]
+        },
+        {
+          "session": "2021W",
+          "reported": 148,
+          "average": 90.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 9, 29, 100],
+          "instructors": ["Arman Seyed-Ahmadi", "Muhammad Abdul-Mageed"]
+        }
+      ]
+    },
+    "DSCI 573": {
+      "reported": 534,
+      "average": 86.3,
+      "grades": [1, 0, 0, 3, 5, 12, 24, 55, 89, 119, 216],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 146,
+          "average": 82.3,
+          "grades": [0, 0, 0, 2, 4, 5, 13, 32, 24, 39, 27],
+          "instructors": ["Vincent Liu", "Joel Ostblom"]
+        },
+        {
+          "session": "2023W",
+          "reported": 126,
+          "average": 83.7,
+          "grades": [1, 0, 0, 1, 1, 5, 8, 14, 32, 35, 28],
+          "instructors": ["Joel Ostblom"]
+        },
+        {
+          "session": "2022W",
+          "reported": 111,
+          "average": 87.7,
+          "grades": [0, 0, 0, 0, 0, 2, 3, 9, 20, 23, 54],
+          "instructors": ["Varada Kolhatkar", "Joel Ostblom"]
+        },
+        {
+          "session": "2021W",
+          "reported": 151,
+          "average": 91.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 13, 22, 107],
+          "instructors": ["Varada Kolhatkar"]
+        }
+      ]
+    },
+    "DSCI 574": {
+      "reported": 369,
+      "average": 91.7,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 5, 23, 80, 259],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 89,
+          "average": 91.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 3, 2, 21, 63],
+          "instructors": ["Katherine Burak"]
+        },
+        {
+          "session": "2023W",
+          "reported": 88,
+          "average": 88.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 2, 18, 29, 39],
+          "instructors": ["Katie Burak"]
+        },
+        {
+          "session": "2022W",
+          "reported": 78,
+          "average": 92.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 3, 16, 59],
+          "instructors": ["Le Quan Nguyen"]
+        },
+        {
+          "session": "2021W",
+          "reported": 114,
+          "average": 93.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 98],
+          "instructors": ["Le Quan Nguyen"]
+        }
+      ]
+    },
+    "DSCI 575": {
+      "reported": 396,
+      "average": 89.9,
+      "grades": [0, 0, 0, 1, 3, 2, 12, 12, 49, 70, 242],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 116,
+          "average": 86.7,
+          "grades": [0, 0, 0, 1, 2, 1, 8, 9, 21, 22, 52],
+          "instructors": ["Varada Kolhatkar"]
+        },
+        {
+          "session": "2023W",
+          "reported": 88,
+          "average": 88.5,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 2, 20, 26, 39],
+          "instructors": ["Varada Kolhatkar"]
+        },
+        {
+          "session": "2022W",
+          "reported": 78,
+          "average": 90.0,
+          "grades": [0, 0, 0, 0, 1, 1, 3, 1, 8, 14, 50],
+          "instructors": ["Varada Kolhatkar"]
+        },
+        {
+          "session": "2021W",
+          "reported": 114,
+          "average": 94.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 101],
+          "instructors": ["Varada Kolhatkar"]
+        }
+      ]
+    },
+    "DSCI 591": {
+      "reported": 281,
+      "average": 89.3,
+      "grades": [1, 0, 0, 0, 0, 1, 1, 0, 20, 87, 164],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 89,
+          "average": 89.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 11, 31, 47],
+          "instructors": ["Simon Goring", "Tiffany Timbers", "Gittu George", "Daniel Chen", "Gilberto Alexi Rodríguez Arelis", "Le Quan Nguyen", "Vincent Liu", "Katie Burak", "Varada Kolhatkar", "Giuseppe Carenini", "Joel Ostblom"]
+        },
+        {
+          "session": "2022W",
+          "reported": 78,
+          "average": 89.2,
+          "grades": [1, 0, 0, 0, 0, 1, 1, 0, 9, 17, 49],
+          "instructors": ["Simon Goring", "Tomas Beuzen", "Yulia Egorova", "Gittu George", "Daniel Chen", "Rodolfo Lourenzutti", "Gilberto Alexi Rodríguez Arelis", "Le Quan Nguyen", "Maria Florencia D' Andrea", "Varada Kolhatkar", "Joel Ostblom"]
+        },
+        {
+          "session": "2021W",
+          "reported": 114,
+          "average": 89.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 39, 68],
+          "instructors": ["Simon Goring", "Tiffany Timbers", "Gittu George", "Daniel Chen", "Gilberto Alexi Rodríguez Arelis", "Le Quan Nguyen", "Maria Florencia D' Andrea", "Varada Kolhatkar", "Arman Seyed-Ahmadi", "Giuseppe Carenini", "Joel Ostblom"]
+        }
+      ]
+    }
+  }
+}

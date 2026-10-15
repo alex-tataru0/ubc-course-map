@@ -1,0 +1,4570 @@
+{
+  "subject": "BIOL",
+  "campus": "UBCV",
+  "source": "https://ubcgrades.com",
+  "credit": "UBCGrades.com / UBC PAIR",
+  "sessions": ["2021S", "2021W", "2022S", "2022W", "2023S", "2023W", "2024S", "2024W", "2025S", "2025W"],
+  "buckets": ["<50%", "50-54%", "55-59%", "60-63%", "64-67%", "68-71%", "72-75%", "76-79%", "80-84%", "85-89%", "90-100%"],
+  "courses": {
+    "BIOL 111": {
+      "reported": 3093,
+      "average": 80.8,
+      "grades": [72, 37, 52, 75, 97, 156, 257, 311, 573, 624, 802],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 740,
+          "average": 86.5,
+          "grades": [5, 2, 5, 7, 11, 21, 39, 48, 97, 147, 358],
+          "instructors": ["Lynn Norman"]
+        },
+        {
+          "session": "2025S",
+          "reported": 119,
+          "average": 81.2,
+          "grades": [1, 0, 3, 0, 4, 6, 11, 15, 33, 31, 15],
+          "instructors": ["Jaclyn Dee"]
+        },
+        {
+          "session": "2024W",
+          "reported": 496,
+          "average": 81.7,
+          "grades": [23, 2, 6, 5, 10, 17, 39, 43, 94, 116, 141],
+          "instructors": ["Jennifer Klenz", "Jaclyn Dee"]
+        },
+        {
+          "session": "2024S",
+          "reported": 113,
+          "average": 79.5,
+          "grades": [3, 1, 2, 5, 5, 8, 5, 13, 27, 23, 21],
+          "instructors": ["Chin Sun"]
+        },
+        {
+          "session": "2023W",
+          "reported": 513,
+          "average": 80.5,
+          "grades": [15, 11, 11, 14, 16, 24, 48, 46, 78, 97, 145],
+          "instructors": ["Donald Wong"]
+        },
+        {
+          "session": "2023S",
+          "reported": 117,
+          "average": 79.0,
+          "grades": [2, 2, 4, 3, 7, 5, 10, 18, 18, 25, 18],
+          "instructors": ["Donald Wong"]
+        },
+        {
+          "session": "2022W",
+          "reported": 556,
+          "average": 74.2,
+          "grades": [14, 17, 20, 31, 28, 54, 75, 90, 121, 83, 23],
+          "instructors": ["Shona Margaret Ellis", "William Milsom"]
+        },
+        {
+          "session": "2022S",
+          "reported": 92,
+          "average": 84.0,
+          "grades": [1, 2, 1, 0, 1, 1, 6, 3, 20, 33, 24],
+          "instructors": ["Jaclyn Dee"]
+        },
+        {
+          "session": "2021W",
+          "reported": 203,
+          "average": 74.5,
+          "grades": [8, 0, 0, 10, 15, 20, 18, 23, 53, 32, 15],
+          "instructors": ["Shona Margaret Ellis", "William Milsom"]
+        },
+        {
+          "session": "2021S",
+          "reported": 144,
+          "average": 82.8,
+          "grades": [0, 0, 0, 0, 0, 0, 6, 12, 32, 37, 42],
+          "instructors": ["Maryam Moussavi", "Dirk Vande Pol"]
+        }
+      ]
+    },
+    "BIOL 112": {
+      "reported": 8124,
+      "average": 79.7,
+      "grades": [535, 41, 64, 151, 319, 526, 727, 841, 1321, 1477, 2080],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 2034,
+          "average": 81.1,
+          "grades": [113, 8, 13, 26, 79, 117, 162, 191, 349, 370, 606],
+          "instructors": ["Thomas Whelan", "Liane Chen", "Brett Couch", "Caitlin Donnelly", "Nelly Saber"]
+        },
+        {
+          "session": "2025S",
+          "reported": 174,
+          "average": 76.6,
+          "grades": [17, 2, 0, 9, 6, 15, 17, 21, 28, 23, 36],
+          "instructors": ["Donald Wong"]
+        },
+        {
+          "session": "2024W",
+          "reported": 1708,
+          "average": 81.8,
+          "grades": [100, 6, 9, 18, 34, 100, 114, 157, 266, 368, 536],
+          "instructors": ["Karen Smith", "Liane Chen", "Brett Couch", "Nelly Saber", "Kirsty McIntyre", "Jaclyn Dee"]
+        },
+        {
+          "session": "2024S",
+          "reported": 128,
+          "average": 76.9,
+          "grades": [2, 6, 2, 5, 13, 14, 12, 13, 22, 13, 26],
+          "instructors": ["Jared Taylor"]
+        },
+        {
+          "session": "2023W",
+          "reported": 1640,
+          "average": 78.6,
+          "grades": [112, 10, 20, 38, 93, 119, 153, 172, 237, 274, 387],
+          "instructors": ["Liane Chen", "Karen Smith", "Brett Couch", "Jared Taylor", "Anne Lacey Samuels"]
+        },
+        {
+          "session": "2023S",
+          "reported": 135,
+          "average": 76.0,
+          "grades": [10, 0, 5, 6, 12, 8, 15, 15, 24, 19, 18],
+          "instructors": ["Karen Smith", "Jared Taylor"]
+        },
+        {
+          "session": "2022W",
+          "reported": 1596,
+          "average": 78.0,
+          "grades": [160, 9, 12, 26, 58, 94, 172, 186, 250, 268, 361],
+          "instructors": ["Karen Smith", "Jaclyn Dee", "Jared Taylor", "Maryam Moussavi", "Solveig van Wersch", "Nelly Saber"]
+        },
+        {
+          "session": "2022S",
+          "reported": 176,
+          "average": 75.8,
+          "grades": [15, 0, 3, 12, 10, 16, 26, 10, 27, 20, 37],
+          "instructors": ["Karen Smith", "Jared Taylor"]
+        },
+        {
+          "session": "2021W",
+          "reported": 533,
+          "average": 79.9,
+          "grades": [6, 0, 0, 11, 14, 43, 56, 76, 118, 122, 73],
+          "instructors": ["Karen Smith", "Jaclyn Dee", "Kathryn Zeiler"]
+        }
+      ]
+    },
+    "BIOL 121": {
+      "reported": 7909,
+      "average": 80.3,
+      "grades": [159, 91, 180, 253, 360, 487, 687, 769, 1380, 1533, 1956],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 2005,
+          "average": 79.9,
+          "grades": [43, 25, 56, 71, 98, 133, 170, 213, 339, 359, 498],
+          "instructors": ["Jaclyn Dee", "Blaire Steinwand", "Bridgette Clarkston", "Athena McKown", "Vittorio Boscaro"]
+        },
+        {
+          "session": "2025S",
+          "reported": 105,
+          "average": 80.3,
+          "grades": [1, 2, 4, 1, 4, 9, 8, 8, 26, 20, 22],
+          "instructors": ["T M Zaved Waise"]
+        },
+        {
+          "session": "2024W",
+          "reported": 1805,
+          "average": 82.4,
+          "grades": [30, 10, 26, 38, 81, 86, 116, 167, 295, 408, 548],
+          "instructors": ["Lynn Norman", "Thomas Whelan", "Bridgette Clarkston", "Athena McKown", "Blaire Steinwand", "Ka Yee Lam"]
+        },
+        {
+          "session": "2024S",
+          "reported": 108,
+          "average": 80.8,
+          "grades": [1, 1, 2, 1, 5, 8, 11, 13, 18, 20, 28],
+          "instructors": ["Lynn Norman"]
+        },
+        {
+          "session": "2023W",
+          "reported": 1817,
+          "average": 82.7,
+          "grades": [29, 13, 18, 38, 60, 66, 122, 169, 322, 378, 577],
+          "instructors": ["Lynn Norman", "Caitlin Donnelly", "Bridgette Clarkston", "Athena McKown", "Celeste Leander", "Vivienne Lam"]
+        },
+        {
+          "session": "2023S",
+          "reported": 122,
+          "average": 78.8,
+          "grades": [4, 3, 1, 5, 9, 7, 12, 13, 16, 23, 25],
+          "instructors": ["Lynn Norman"]
+        },
+        {
+          "session": "2022W",
+          "reported": 1793,
+          "average": 76.4,
+          "grades": [50, 33, 68, 97, 98, 171, 240, 176, 328, 292, 240],
+          "instructors": ["Lynn Norman", "Bridgette Clarkston", "Brett Couch", "Athena McKown"]
+        },
+        {
+          "session": "2022S",
+          "reported": 105,
+          "average": 78.3,
+          "grades": [1, 4, 5, 2, 5, 7, 8, 10, 23, 22, 18],
+          "instructors": ["Jessica Garzke", "Lynn Norman"]
+        },
+        {
+          "session": "2021W",
+          "reported": 49,
+          "average": 78.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 13, 11, 0],
+          "instructors": ["Lynn Norman", "Athena Mckown"]
+        }
+      ]
+    },
+    "BIOL 140": {
+      "reported": 1255,
+      "average": 85.1,
+      "grades": [6, 0, 0, 0, 7, 24, 48, 75, 276, 415, 383],
+      "terms": [
+        {
+          "session": "2021W",
+          "reported": 1255,
+          "average": 85.1,
+          "grades": [6, 0, 0, 0, 7, 24, 48, 75, 276, 415, 383],
+          "instructors": ["Blaire Steinwand", "Chin Sun"]
+        }
+      ]
+    },
+    "BIOL 155": {
+      "reported": 1955,
+      "average": 70.7,
+      "grades": [107, 109, 146, 163, 210, 224, 196, 216, 243, 180, 137],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 393,
+          "average": 69.7,
+          "grades": [22, 27, 34, 37, 31, 58, 28, 52, 56, 27, 21],
+          "instructors": ["Queenie Hui", "Irene Ballagh"]
+        },
+        {
+          "session": "2024W",
+          "reported": 350,
+          "average": 71.5,
+          "grades": [18, 17, 23, 15, 36, 42, 47, 49, 47, 32, 24],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "reported": 356,
+          "average": 71.3,
+          "grades": [16, 20, 30, 23, 34, 33, 40, 33, 43, 37, 23],
+          "instructors": ["Queenie Hui", "Irene Ballagh"]
+        },
+        {
+          "session": "2022W",
+          "reported": 336,
+          "average": 70.0,
+          "grades": [20, 17, 29, 32, 37, 41, 32, 33, 41, 30, 24],
+          "instructors": ["Irene Ballagh"]
+        },
+        {
+          "session": "2021W",
+          "reported": 520,
+          "average": 71.0,
+          "grades": [31, 28, 30, 56, 72, 50, 49, 49, 56, 54, 45],
+          "instructors": ["Irene Ballagh"]
+        }
+      ]
+    },
+    "BIOL 180": {
+      "reported": 4348,
+      "average": 88.6,
+      "grades": [27, 6, 13, 11, 22, 32, 92, 159, 489, 1104, 2383],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 1003,
+          "average": 86.8,
+          "grades": [8, 3, 3, 2, 9, 15, 33, 46, 164, 286, 434],
+          "instructors": ["Geoff Wasteneys", "Chin Sun", "Lynn Norman", "David Rosen", "Jennifer Klenz", "Madison Earhart", "Andrew Trites", "Jill Jankowski", "Mohsen Asadi", "Sierra Varley"]
+        },
+        {
+          "session": "2024W",
+          "reported": 1083,
+          "average": 88.1,
+          "grades": [9, 2, 6, 2, 5, 4, 20, 46, 111, 289, 589],
+          "instructors": ["Chin Sun", "David Rosen", "Blaire Steinwand", "Ensiyeh Ghanizadehkazerouni", "Gabriel Dall'Alba", "Niels Van Steenkiste", "Jill Jankowski", "Celeste Leander", "Andrew Trites", "Brett Couch", "Thomas Whelan"]
+        },
+        {
+          "session": "2023W",
+          "reported": 1138,
+          "average": 90.8,
+          "grades": [4, 1, 2, 1, 3, 3, 16, 26, 68, 230, 774],
+          "instructors": ["Blaire Steinwand", "Chin Sun"]
+        },
+        {
+          "session": "2022W",
+          "reported": 1124,
+          "average": 88.3,
+          "grades": [6, 0, 2, 6, 5, 10, 23, 41, 146, 299, 586],
+          "instructors": ["Blaire Steinwand", "Chin Sun"]
+        }
+      ]
+    },
+    "BIOL 200": {
+      "reported": 7398,
+      "average": 74.0,
+      "grades": [819, 22, 75, 314, 461, 729, 818, 755, 1068, 1106, 719],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 1460,
+          "average": 76.2,
+          "grades": [122, 7, 14, 68, 93, 116, 145, 174, 267, 235, 219],
+          "instructors": ["Liane Chen", "Vivienne Lam", "Liang Song", "Nelly Pante", "Callista Yee"]
+        },
+        {
+          "session": "2025S",
+          "reported": 128,
+          "average": 73.7,
+          "grades": [9, 0, 3, 10, 10, 12, 19, 24, 18, 16, 7],
+          "instructors": ["Jennifer Klenz"]
+        },
+        {
+          "session": "2024W",
+          "reported": 1333,
+          "average": 75.5,
+          "grades": [118, 6, 9, 56, 110, 111, 159, 155, 225, 234, 150],
+          "instructors": ["Liane Chen", "Ka Yee Lam", "Liang Song", "Nelly Pante"]
+        },
+        {
+          "session": "2024S",
+          "reported": 113,
+          "average": 74.4,
+          "grades": [10, 1, 2, 4, 8, 15, 12, 16, 18, 15, 12],
+          "instructors": ["Donald Wong"]
+        },
+        {
+          "session": "2023W",
+          "reported": 1381,
+          "average": 74.9,
+          "grades": [143, 4, 11, 78, 86, 130, 139, 145, 224, 219, 184],
+          "instructors": ["Vivienne Lam"]
+        },
+        {
+          "session": "2023S",
+          "reported": 119,
+          "average": 72.4,
+          "grades": [4, 0, 3, 9, 12, 20, 21, 21, 17, 10, 0],
+          "instructors": ["Maryam Moussavi"]
+        },
+        {
+          "session": "2022W",
+          "reported": 1367,
+          "average": 70.8,
+          "grades": [229, 4, 15, 71, 115, 139, 148, 183, 236, 162, 65],
+          "instructors": ["Vivienne Lam"]
+        },
+        {
+          "session": "2022S",
+          "reported": 108,
+          "average": 68.9,
+          "grades": [20, 0, 3, 6, 14, 12, 9, 11, 21, 8, 4],
+          "instructors": ["Liane Chen", "Maryam Moussavi"]
+        },
+        {
+          "session": "2021W",
+          "reported": 1389,
+          "average": 72.8,
+          "grades": [164, 0, 15, 12, 13, 174, 166, 26, 42, 207, 78],
+          "instructors": ["Liane Chen"]
+        }
+      ]
+    },
+    "BIOL 201": {
+      "reported": 2070,
+      "average": 78.5,
+      "grades": [54, 20, 77, 85, 106, 162, 192, 170, 386, 427, 367],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 417,
+          "average": 76.8,
+          "grades": [18, 6, 16, 20, 28, 30, 52, 41, 70, 76, 60],
+          "instructors": ["Reinhard Jetter", "Sunita G Chowrira", "Thomas Whelan"]
+        },
+        {
+          "session": "2024W",
+          "reported": 416,
+          "average": 81.4,
+          "grades": [5, 3, 6, 14, 22, 41, 29, 30, 65, 83, 118],
+          "instructors": ["Brenna Hay", "Reinhard Jetter"]
+        },
+        {
+          "session": "2023W",
+          "reported": 438,
+          "average": 78.2,
+          "grades": [17, 5, 20, 13, 21, 32, 41, 36, 72, 91, 79],
+          "instructors": ["Reinhard Jetter", "Gangamma Chowrira", "Amirhossein Bahreyni"]
+        },
+        {
+          "session": "2022W",
+          "reported": 394,
+          "average": 77.6,
+          "grades": [14, 6, 19, 19, 16, 24, 38, 33, 87, 81, 57],
+          "instructors": ["Stephanie Cheung", "Reinhard Jetter", "Gangamma Chowrira"]
+        },
+        {
+          "session": "2021W",
+          "reported": 405,
+          "average": 78.3,
+          "grades": [0, 0, 16, 19, 19, 35, 32, 30, 92, 96, 53],
+          "instructors": ["Sreeparna Vappala", "Reinhard Jetter", "Gangamma Chowrira"]
+        }
+      ]
+    },
+    "BIOL 203": {
+      "reported": 349,
+      "average": 77.7,
+      "grades": [6, 2, 8, 16, 24, 20, 32, 43, 70, 59, 57],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 60,
+          "average": 77.8,
+          "grades": [1, 1, 2, 5, 3, 2, 5, 8, 11, 9, 13],
+          "instructors": ["Patrick John Keeling", "Juan Saldarriaga"]
+        },
+        {
+          "session": "2024W",
+          "reported": 79,
+          "average": 79.1,
+          "grades": [2, 0, 4, 2, 3, 7, 6, 13, 15, 11, 16],
+          "instructors": ["Vittorio Boscaro"]
+        },
+        {
+          "session": "2023W",
+          "reported": 77,
+          "average": 77.2,
+          "grades": [1, 1, 2, 6, 5, 5, 7, 8, 16, 16, 10],
+          "instructors": ["Patrick John Keeling", "Brett Couch", "Vittorio Boscaro"]
+        },
+        {
+          "session": "2022W",
+          "reported": 66,
+          "average": 79.4,
+          "grades": [2, 0, 0, 3, 4, 6, 7, 8, 11, 13, 12],
+          "instructors": ["Juan Saldarriaga", "Brett Couch", "Vittorio Boscaro"]
+        },
+        {
+          "session": "2021W",
+          "reported": 67,
+          "average": 75.1,
+          "grades": [0, 0, 0, 0, 9, 0, 7, 6, 17, 10, 6],
+          "instructors": ["Patrick John Keeling", "Juan Saldarriaga", "Brett Couch"]
+        }
+      ]
+    },
+    "BIOL 204": {
+      "reported": 1297,
+      "average": 72.2,
+      "grades": [93, 62, 67, 75, 93, 111, 133, 112, 257, 178, 87],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 188,
+          "average": 71.1,
+          "grades": [16, 8, 16, 12, 12, 20, 15, 16, 23, 33, 17],
+          "instructors": ["Angela O'Neill"]
+        },
+        {
+          "session": "2024W",
+          "reported": 199,
+          "average": 72.1,
+          "grades": [10, 16, 11, 9, 14, 21, 19, 21, 35, 28, 15],
+          "instructors": ["Angela O'Neill"]
+        },
+        {
+          "session": "2023W",
+          "reported": 223,
+          "average": 71.1,
+          "grades": [21, 10, 11, 17, 15, 19, 28, 20, 41, 28, 10],
+          "instructors": ["Angela O'Neill"]
+        },
+        {
+          "session": "2023S",
+          "reported": 33,
+          "average": 74.6,
+          "grades": [0, 2, 3, 1, 2, 5, 2, 2, 10, 2, 4],
+          "instructors": ["Queenie Hui", "Nelly Saber"]
+        },
+        {
+          "session": "2022W",
+          "reported": 281,
+          "average": 73.3,
+          "grades": [17, 13, 13, 16, 27, 21, 24, 21, 63, 39, 27],
+          "instructors": ["Charissa Fung", "Angela O'Neill"]
+        },
+        {
+          "session": "2022S",
+          "reported": 38,
+          "average": 73.9,
+          "grades": [1, 1, 2, 3, 6, 3, 5, 2, 6, 4, 5],
+          "instructors": ["Charissa Fung", "Stella Lee"]
+        },
+        {
+          "session": "2021W",
+          "reported": 296,
+          "average": 72.0,
+          "grades": [28, 12, 11, 17, 17, 22, 40, 30, 66, 44, 9],
+          "instructors": ["Queenie Pui Wing Hui"]
+        },
+        {
+          "session": "2021S",
+          "reported": 39,
+          "average": 74.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 13, 0, 0],
+          "instructors": ["Charissa Fung", "Stella Lee"]
+        }
+      ]
+    },
+    "BIOL 205": {
+      "reported": 1154,
+      "average": 77.7,
+      "grades": [10, 17, 37, 47, 70, 107, 117, 138, 205, 194, 202],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 221,
+          "average": 80.3,
+          "grades": [1, 2, 9, 9, 10, 17, 14, 18, 37, 42, 62],
+          "instructors": ["Brian Leander"]
+        },
+        {
+          "session": "2024W",
+          "reported": 214,
+          "average": 77.3,
+          "grades": [3, 3, 7, 7, 12, 18, 29, 31, 34, 39, 31],
+          "instructors": ["Brian Leander"]
+        },
+        {
+          "session": "2023W",
+          "reported": 222,
+          "average": 77.5,
+          "grades": [2, 5, 9, 10, 13, 30, 18, 21, 36, 39, 38],
+          "instructors": ["Brian Leander"]
+        },
+        {
+          "session": "2022W",
+          "reported": 245,
+          "average": 77.5,
+          "grades": [4, 7, 2, 10, 17, 16, 21, 45, 51, 35, 37],
+          "instructors": ["Charissa Fung", "Brian Leander"]
+        },
+        {
+          "session": "2021W",
+          "reported": 252,
+          "average": 76.3,
+          "grades": [0, 0, 10, 11, 18, 26, 35, 23, 47, 39, 34],
+          "instructors": ["Brian Leander"]
+        }
+      ]
+    },
+    "BIOL 209": {
+      "reported": 496,
+      "average": 78.0,
+      "grades": [8, 2, 12, 10, 32, 52, 59, 75, 83, 91, 65],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 68,
+          "average": 78.0,
+          "grades": [1, 0, 1, 1, 3, 5, 10, 9, 16, 21, 1],
+          "instructors": ["Bridgette Clarkston", "Jaclyn Dee"]
+        },
+        {
+          "session": "2024W",
+          "reported": 89,
+          "average": 79.3,
+          "grades": [1, 1, 1, 2, 7, 11, 7, 9, 16, 18, 16],
+          "instructors": ["Bridgette Clarkston", "Jaclyn Dee"]
+        },
+        {
+          "session": "2023W",
+          "reported": 114,
+          "average": 76.7,
+          "grades": [3, 1, 7, 4, 7, 10, 9, 23, 17, 16, 15],
+          "instructors": ["Bridgette Clarkston", "Liam Coleman"]
+        },
+        {
+          "session": "2022W",
+          "reported": 116,
+          "average": 77.1,
+          "grades": [3, 0, 3, 3, 9, 13, 22, 12, 14, 23, 14],
+          "instructors": ["Bridgette Clarkston", "Jaclyn Dee", "Mary Berbee"]
+        },
+        {
+          "session": "2021W",
+          "reported": 109,
+          "average": 79.3,
+          "grades": [0, 0, 0, 0, 6, 13, 11, 22, 20, 13, 19],
+          "instructors": ["Jaclyn Dee", "Mary Berbee"]
+        }
+      ]
+    },
+    "BIOL 210": {
+      "reported": 296,
+      "average": 69.4,
+      "grades": [12, 20, 20, 35, 24, 23, 37, 24, 40, 27, 21],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 37,
+          "average": 70.1,
+          "grades": [3, 3, 2, 6, 3, 3, 2, 2, 3, 5, 5],
+          "instructors": ["Anne Lacey Samuels", "Sean Graham"]
+        },
+        {
+          "session": "2024W",
+          "reported": 41,
+          "average": 69.5,
+          "grades": [0, 6, 5, 5, 3, 2, 7, 1, 5, 3, 4],
+          "instructors": ["Shona Margaret Ellis", "Sean Graham"]
+        },
+        {
+          "session": "2023W",
+          "reported": 72,
+          "average": 68.6,
+          "grades": [2, 5, 9, 9, 5, 9, 8, 7, 9, 4, 4],
+          "instructors": ["Shona Margaret Ellis", "Sean Graham"]
+        },
+        {
+          "session": "2022W",
+          "reported": 61,
+          "average": 63.5,
+          "grades": [7, 6, 4, 6, 5, 9, 6, 5, 8, 4, 1],
+          "instructors": ["Shona Margaret Ellis", "Sean Graham"]
+        },
+        {
+          "session": "2021W",
+          "reported": 85,
+          "average": 74.1,
+          "grades": [0, 0, 0, 9, 8, 0, 14, 9, 15, 11, 7],
+          "instructors": ["Shona Margaret Ellis", "Evan Whitney Hersh"]
+        }
+      ]
+    },
+    "BIOL 230": {
+      "reported": 2562,
+      "average": 78.4,
+      "grades": [28, 21, 51, 73, 122, 205, 266, 381, 593, 499, 282],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 370,
+          "average": 79.3,
+          "grades": [6, 3, 7, 10, 15, 32, 41, 44, 76, 86, 50],
+          "instructors": ["Christopher Harley", "Rachel Germain", "Rachel Wilson"]
+        },
+        {
+          "session": "2024W",
+          "reported": 433,
+          "average": 78.3,
+          "grades": [4, 8, 11, 18, 25, 39, 36, 63, 99, 71, 59],
+          "instructors": ["Christopher Harley", "Rachel Germain", "Michelle Tseng"]
+        },
+        {
+          "session": "2024S",
+          "reported": 33,
+          "average": 84.0,
+          "grades": [1, 0, 0, 0, 0, 2, 1, 3, 4, 9, 13],
+          "instructors": ["Rachel Wilson"]
+        },
+        {
+          "session": "2023W",
+          "reported": 532,
+          "average": 77.7,
+          "grades": [4, 5, 19, 16, 34, 55, 61, 72, 119, 99, 45],
+          "instructors": ["Christopher Harley", "Rachel Germain", "Michelle Tseng", "Rachel Wilson"]
+        },
+        {
+          "session": "2023S",
+          "reported": 35,
+          "average": 86.0,
+          "grades": [0, 0, 0, 2, 0, 0, 2, 1, 4, 10, 14],
+          "instructors": ["Rachel Wilson"]
+        },
+        {
+          "session": "2022W",
+          "reported": 529,
+          "average": 78.2,
+          "grades": [13, 5, 6, 17, 29, 35, 53, 75, 136, 114, 46],
+          "instructors": ["Rachel Wilson", "Christopher Harley", "Laura Parfrey", "Jill Jankowski"]
+        },
+        {
+          "session": "2022S",
+          "reported": 36,
+          "average": 83.4,
+          "grades": [0, 0, 1, 2, 1, 1, 2, 4, 4, 11, 10],
+          "instructors": ["Rachel Wilson"]
+        },
+        {
+          "session": "2021W",
+          "reported": 594,
+          "average": 77.6,
+          "grades": [0, 0, 7, 8, 18, 41, 70, 119, 151, 99, 45],
+          "instructors": ["Michelle Tseng", "Rachel Wilson", "Christopher Harley", "Rachel Germain", "Jill Jankowski"]
+        }
+      ]
+    },
+    "BIOL 234": {
+      "reported": 4155,
+      "average": 72.9,
+      "grades": [270, 262, 236, 253, 301, 360, 401, 392, 593, 467, 592],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 835,
+          "average": 78.0,
+          "grades": [32, 33, 46, 37, 53, 49, 63, 69, 110, 124, 219],
+          "instructors": ["Judith Mank", "Kevin Wei", "Craig M S Berezowsky", "Kota Mizumoto"]
+        },
+        {
+          "session": "2025S",
+          "reported": 82,
+          "average": 73.8,
+          "grades": [4, 6, 1, 7, 6, 11, 7, 4, 15, 7, 14],
+          "instructors": ["Craig M S Berezowsky"]
+        },
+        {
+          "session": "2024W",
+          "reported": 811,
+          "average": 73.8,
+          "grades": [48, 47, 40, 43, 43, 77, 84, 81, 131, 102, 115],
+          "instructors": ["Judith Mank", "Kevin Wei", "Craig M S Berezowsky", "Kota Mizumoto"]
+        },
+        {
+          "session": "2024S",
+          "reported": 78,
+          "average": 76.8,
+          "grades": [2, 7, 3, 1, 5, 9, 4, 4, 17, 7, 19],
+          "instructors": ["Craig M S Berezowsky"]
+        },
+        {
+          "session": "2023W",
+          "reported": 769,
+          "average": 71.5,
+          "grades": [65, 53, 39, 44, 49, 64, 69, 69, 109, 88, 95],
+          "instructors": ["Jennifer Klenz", "Judith Mank", "Kevin Wei", "Craig M S Berezowsky", "Kota Mizumoto"]
+        },
+        {
+          "session": "2023S",
+          "reported": 72,
+          "average": 67.1,
+          "grades": [10, 8, 3, 3, 7, 7, 7, 3, 7, 6, 8],
+          "instructors": ["Craig M S Berezowsky"]
+        },
+        {
+          "session": "2022W",
+          "reported": 834,
+          "average": 69.3,
+          "grades": [71, 58, 59, 66, 80, 84, 88, 95, 110, 62, 61],
+          "instructors": ["Solveig van Wersch", "Judith Mank", "Craig M S Berezowsky", "Kota Mizumoto"]
+        },
+        {
+          "session": "2022S",
+          "reported": 73,
+          "average": 73.8,
+          "grades": [2, 2, 3, 4, 10, 3, 16, 11, 8, 9, 5],
+          "instructors": ["Solveig van Wersch", "Craig M S Berezowsky"]
+        },
+        {
+          "session": "2021W",
+          "reported": 601,
+          "average": 71.0,
+          "grades": [36, 48, 42, 48, 48, 56, 63, 56, 86, 62, 56],
+          "instructors": ["George Haughn", "Judith Mank", "Craig M S Berezowsky", "Kota Mizumoto"]
+        }
+      ]
+    },
+    "BIOL 260": {
+      "reported": 2639,
+      "average": 79.2,
+      "grades": [60, 16, 79, 85, 110, 189, 211, 282, 457, 557, 560],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 386,
+          "average": 77.7,
+          "grades": [10, 3, 6, 18, 21, 37, 44, 54, 58, 63, 72],
+          "instructors": ["Abel Rosado Rey", "Agnes Lacombe"]
+        },
+        {
+          "session": "2025S",
+          "reported": 86,
+          "average": 82.0,
+          "grades": [0, 0, 4, 3, 1, 10, 6, 8, 10, 18, 26],
+          "instructors": ["Angela O'Neill", "Caitlin Donnelly"]
+        },
+        {
+          "session": "2024W",
+          "reported": 366,
+          "average": 79.4,
+          "grades": [6, 4, 9, 16, 18, 23, 36, 35, 56, 69, 94],
+          "instructors": ["Abel Rosado Rey", "Patricia Schulte"]
+        },
+        {
+          "session": "2024S",
+          "reported": 63,
+          "average": 82.0,
+          "grades": [2, 0, 1, 2, 3, 2, 3, 3, 12, 14, 21],
+          "instructors": ["Caitlin Donnelly"]
+        },
+        {
+          "session": "2023W",
+          "reported": 468,
+          "average": 75.7,
+          "grades": [13, 3, 30, 19, 27, 48, 43, 54, 92, 93, 42],
+          "instructors": ["Abel Rosado Rey", "Patricia Schulte"]
+        },
+        {
+          "session": "2023S",
+          "reported": 70,
+          "average": 81.7,
+          "grades": [3, 0, 1, 0, 1, 4, 3, 4, 17, 13, 20],
+          "instructors": ["Chin Sun", "Caitlin Donnelly"]
+        },
+        {
+          "session": "2022W",
+          "reported": 495,
+          "average": 83.1,
+          "grades": [8, 1, 4, 8, 12, 18, 26, 44, 99, 126, 149],
+          "instructors": ["Patricia Schulte", "Rachael Wade"]
+        },
+        {
+          "session": "2022S",
+          "reported": 67,
+          "average": 82.0,
+          "grades": [0, 0, 3, 1, 1, 8, 3, 8, 8, 19, 16],
+          "instructors": ["Chin Sun", "Caitlin Donnelly"]
+        },
+        {
+          "session": "2021W",
+          "reported": 575,
+          "average": 78.4,
+          "grades": [18, 5, 21, 18, 26, 39, 40, 72, 89, 127, 120],
+          "instructors": ["Abel Rosado Rey", "Patricia Schulte"]
+        },
+        {
+          "session": "2021S",
+          "reported": 63,
+          "average": 77.6,
+          "grades": [0, 0, 0, 0, 0, 0, 7, 0, 16, 15, 0],
+          "instructors": ["Katie Marshall", "Caitlin Donnelly"]
+        }
+      ]
+    },
+    "BIOL 300": {
+      "reported": 2895,
+      "average": 81.7,
+      "grades": [50, 46, 68, 67, 109, 145, 200, 294, 448, 563, 885],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 512,
+          "average": 80.3,
+          "grades": [10, 12, 13, 14, 23, 29, 55, 48, 77, 94, 137],
+          "instructors": ["Vikram Baliga", "Kaitlyn Gaynor"]
+        },
+        {
+          "session": "2025S",
+          "reported": 105,
+          "average": 78.6,
+          "grades": [4, 3, 4, 2, 6, 5, 9, 16, 14, 20, 22],
+          "instructors": ["Vikram Baliga", "Michael Whitlock"]
+        },
+        {
+          "session": "2024W",
+          "reported": 528,
+          "average": 81.6,
+          "grades": [9, 9, 9, 12, 19, 30, 38, 56, 84, 110, 152],
+          "instructors": ["Vikram Baliga", "Michael Whitlock", "Kaitlyn Gaynor"]
+        },
+        {
+          "session": "2024S",
+          "reported": 92,
+          "average": 88.5,
+          "grades": [1, 0, 0, 1, 0, 0, 3, 1, 17, 19, 50],
+          "instructors": ["Syed Asad Hasan"]
+        },
+        {
+          "session": "2023W",
+          "reported": 565,
+          "average": 84.1,
+          "grades": [9, 6, 11, 12, 14, 23, 21, 37, 85, 112, 228],
+          "instructors": ["Kaitlyn Gaynor", "Darren Irwin"]
+        },
+        {
+          "session": "2023S",
+          "reported": 89,
+          "average": 84.4,
+          "grades": [0, 0, 2, 3, 4, 3, 9, 6, 6, 18, 35],
+          "instructors": ["Alireza Ghaseminejadtafreshi"]
+        },
+        {
+          "session": "2022W",
+          "reported": 567,
+          "average": 82.3,
+          "grades": [8, 8, 12, 11, 18, 22, 35, 77, 90, 110, 176],
+          "instructors": ["Anna Bazzicalupo", "Michael Whitlock", "Darren Irwin", "Kaitlyn Gaynor"]
+        },
+        {
+          "session": "2022S",
+          "reported": 100,
+          "average": 87.0,
+          "grades": [2, 1, 0, 0, 0, 1, 2, 6, 12, 25, 51],
+          "instructors": ["Benjamin Freeman"]
+        },
+        {
+          "session": "2021W",
+          "reported": 232,
+          "average": 74.1,
+          "grades": [7, 7, 17, 12, 16, 24, 28, 33, 41, 39, 8],
+          "instructors": ["Matthew Pennell"]
+        },
+        {
+          "session": "2021S",
+          "reported": 105,
+          "average": 80.6,
+          "grades": [0, 0, 0, 0, 9, 8, 0, 14, 22, 16, 26],
+          "instructors": ["Michael Whitlock"]
+        }
+      ]
+    },
+    "BIOL 301": {
+      "reported": 212,
+      "average": 79.0,
+      "grades": [8, 5, 7, 6, 4, 7, 16, 14, 42, 30, 60],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 45,
+          "average": 79.8,
+          "grades": [1, 1, 1, 2, 0, 2, 5, 2, 14, 8, 9],
+          "instructors": ["Sally Otto"]
+        },
+        {
+          "session": "2024W",
+          "reported": 45,
+          "average": 81.6,
+          "grades": [1, 0, 2, 2, 2, 0, 1, 7, 9, 5, 16],
+          "instructors": ["Sarah Otto"]
+        },
+        {
+          "session": "2023W",
+          "reported": 37,
+          "average": 81.4,
+          "grades": [2, 0, 1, 0, 1, 4, 1, 1, 7, 7, 13],
+          "instructors": ["Alireza Ghaseminejadtafreshi"]
+        },
+        {
+          "session": "2022W",
+          "reported": 47,
+          "average": 73.9,
+          "grades": [4, 4, 3, 2, 1, 1, 2, 4, 6, 10, 10],
+          "instructors": ["Sarah Otto"]
+        },
+        {
+          "session": "2021W",
+          "reported": 38,
+          "average": 78.8,
+          "grades": [0, 0, 0, 0, 0, 0, 7, 0, 6, 0, 12],
+          "instructors": ["Sarah Otto"]
+        }
+      ]
+    },
+    "BIOL 302": {
+      "reported": 44,
+      "average": 89.7,
+      "grades": [0, 0, 0, 2, 0, 2, 0, 0, 4, 9, 27],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 44,
+          "average": 89.7,
+          "grades": [0, 0, 0, 2, 0, 2, 0, 0, 4, 9, 27],
+          "instructors": ["Claire Kremen"]
+        }
+      ]
+    },
+    "BIOL 303": {
+      "reported": 126,
+      "average": 88.3,
+      "grades": [0, 1, 1, 1, 0, 0, 4, 2, 13, 27, 77],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 53,
+          "average": 90.0,
+          "grades": [0, 0, 0, 1, 0, 0, 1, 1, 1, 9, 40],
+          "instructors": ["Abel Rosado Rey"]
+        },
+        {
+          "session": "2024W",
+          "reported": 36,
+          "average": 88.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 6, 13, 17],
+          "instructors": ["Abel Rosado Rey"]
+        },
+        {
+          "session": "2023W",
+          "reported": 37,
+          "average": 85.7,
+          "grades": [0, 1, 1, 0, 0, 0, 3, 1, 6, 5, 20],
+          "instructors": ["Abel Rosado Rey"]
+        }
+      ]
+    },
+    "BIOL 306": {
+      "reported": 507,
+      "average": 74.5,
+      "grades": [5, 2, 9, 22, 42, 66, 101, 92, 101, 49, 7],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 115,
+          "average": 73.5,
+          "grades": [3, 1, 1, 7, 16, 14, 25, 19, 18, 9, 2],
+          "instructors": ["Sean Michaletz"]
+        },
+        {
+          "session": "2024W",
+          "reported": 100,
+          "average": 74.4,
+          "grades": [2, 0, 1, 7, 6, 16, 22, 11, 26, 7, 2],
+          "instructors": ["Sean Michaletz"]
+        },
+        {
+          "session": "2023W",
+          "reported": 99,
+          "average": 74.6,
+          "grades": [0, 0, 5, 3, 9, 11, 16, 25, 18, 10, 2],
+          "instructors": ["Sean Michaletz", "Rachel Wilson"]
+        },
+        {
+          "session": "2022W",
+          "reported": 96,
+          "average": 75.2,
+          "grades": [0, 1, 2, 5, 5, 15, 16, 13, 24, 14, 1],
+          "instructors": ["Sean Michaletz", "Rachel Wilson"]
+        },
+        {
+          "session": "2021W",
+          "reported": 97,
+          "average": 75.1,
+          "grades": [0, 0, 0, 0, 6, 10, 22, 24, 15, 9, 0],
+          "instructors": ["Sean Michaletz", "Rachel Wilson"]
+        }
+      ]
+    },
+    "BIOL 307": {
+      "reported": 24,
+      "average": 96.5,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 23],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 24,
+          "average": 96.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 23],
+          "instructors": ["Bridgette Clarkston"]
+        }
+      ]
+    },
+    "BIOL 310": {
+      "reported": 284,
+      "average": 90.2,
+      "grades": [2, 0, 0, 0, 1, 2, 6, 6, 13, 56, 193],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 56,
+          "average": 86.7,
+          "grades": [2, 0, 0, 0, 1, 0, 1, 3, 5, 13, 31],
+          "instructors": ["Leticia Aviles"]
+        },
+        {
+          "session": "2024W",
+          "reported": 53,
+          "average": 89.0,
+          "grades": [0, 0, 0, 0, 0, 1, 3, 2, 6, 10, 31],
+          "instructors": ["Leticia Aviles"]
+        },
+        {
+          "session": "2023W",
+          "reported": 59,
+          "average": 91.9,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 0, 13, 45],
+          "instructors": ["Sarah Benson-Amram"]
+        },
+        {
+          "session": "2022W",
+          "reported": 60,
+          "average": 90.5,
+          "grades": [0, 0, 0, 0, 0, 1, 1, 1, 2, 14, 41],
+          "instructors": ["Leticia Aviles", "Sarah Benson-Amram"]
+        },
+        {
+          "session": "2021W",
+          "reported": 56,
+          "average": 92.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 45],
+          "instructors": ["Leticia Aviles", "Sarah Benson-Amram"]
+        }
+      ]
+    },
+    "BIOL 314": {
+      "reported": 61,
+      "average": 73.6,
+      "grades": [1, 2, 2, 7, 4, 5, 7, 8, 11, 9, 3],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 23,
+          "average": 75.7,
+          "grades": [0, 0, 2, 2, 1, 2, 2, 4, 5, 4, 1],
+          "instructors": ["Jonathan Davies"]
+        },
+        {
+          "session": "2024W",
+          "reported": 14,
+          "average": 75.1,
+          "grades": [0, 1, 0, 1, 1, 0, 4, 2, 2, 2, 1],
+          "instructors": ["Jonathan Davies"]
+        },
+        {
+          "session": "2023W",
+          "reported": 24,
+          "average": 70.8,
+          "grades": [1, 1, 0, 4, 2, 3, 1, 2, 4, 3, 1],
+          "instructors": ["Jonathan Davies"]
+        }
+      ]
+    },
+    "BIOL 320": {
+      "reported": 298,
+      "average": 79.7,
+      "grades": [4, 0, 3, 4, 8, 26, 21, 34, 59, 65, 52],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 56,
+          "average": 80.4,
+          "grades": [0, 0, 1, 2, 2, 6, 4, 7, 15, 8, 11],
+          "instructors": ["Patrick Martone"]
+        },
+        {
+          "session": "2024W",
+          "reported": 55,
+          "average": 80.3,
+          "grades": [0, 0, 0, 1, 4, 5, 5, 8, 15, 9, 8],
+          "instructors": ["Bridgette Clarkston"]
+        },
+        {
+          "session": "2023W",
+          "reported": 59,
+          "average": 80.0,
+          "grades": [1, 0, 1, 0, 2, 7, 4, 8, 9, 19, 8],
+          "instructors": ["Bridgette Clarkston"]
+        },
+        {
+          "session": "2022W",
+          "reported": 59,
+          "average": 79.4,
+          "grades": [2, 0, 1, 1, 0, 4, 6, 7, 10, 18, 10],
+          "instructors": ["Bridgette Clarkston"]
+        },
+        {
+          "session": "2022S",
+          "reported": 18,
+          "average": 76.5,
+          "grades": [1, 0, 0, 0, 0, 4, 2, 4, 2, 3, 2],
+          "instructors": ["Bridgette Clarkston"]
+        },
+        {
+          "session": "2021W",
+          "reported": 51,
+          "average": 79.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 8, 8, 13],
+          "instructors": ["Alana Breitkreutz", "Patrick Martone"]
+        }
+      ]
+    },
+    "BIOL 321": {
+      "reported": 78,
+      "average": 80.0,
+      "grades": [1, 1, 2, 1, 1, 2, 3, 3, 16, 11, 17],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 18,
+          "average": 87.0,
+          "grades": [0, 0, 0, 0, 0, 0, 2, 1, 2, 4, 9],
+          "instructors": ["Shona Margaret Ellis"]
+        },
+        {
+          "session": "2023W",
+          "reported": 20,
+          "average": 79.4,
+          "grades": [1, 0, 1, 0, 0, 0, 1, 0, 8, 5, 4],
+          "instructors": ["Shona Margaret Ellis"]
+        },
+        {
+          "session": "2022W",
+          "reported": 20,
+          "average": 78.1,
+          "grades": [0, 1, 1, 1, 1, 2, 0, 2, 6, 2, 4],
+          "instructors": ["Shona Margaret Ellis"]
+        },
+        {
+          "session": "2021W",
+          "reported": 20,
+          "average": 76.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Shona Margaret Ellis", "Evan Whitney Hersh"]
+        }
+      ]
+    },
+    "BIOL 323": {
+      "reported": 214,
+      "average": 79.2,
+      "grades": [3, 2, 3, 3, 4, 15, 31, 33, 38, 40, 25],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 38,
+          "average": 79.6,
+          "grades": [2, 1, 0, 0, 1, 2, 4, 6, 5, 12, 5],
+          "instructors": ["Monika Fischer", "Mary Berbee"]
+        },
+        {
+          "session": "2024W",
+          "reported": 43,
+          "average": 78.5,
+          "grades": [1, 0, 2, 0, 1, 3, 7, 10, 2, 13, 4],
+          "instructors": ["Mary Berbee"]
+        },
+        {
+          "session": "2023W",
+          "reported": 47,
+          "average": 78.9,
+          "grades": [0, 1, 0, 1, 2, 6, 6, 5, 9, 7, 6],
+          "instructors": ["Mary Berbee"]
+        },
+        {
+          "session": "2022W",
+          "reported": 44,
+          "average": 79.7,
+          "grades": [0, 0, 1, 2, 0, 4, 8, 6, 11, 8, 4],
+          "instructors": ["Mary Berbee"]
+        },
+        {
+          "session": "2021W",
+          "reported": 42,
+          "average": 79.2,
+          "grades": [0, 0, 0, 0, 0, 0, 6, 6, 11, 0, 6],
+          "instructors": ["Mary Berbee"]
+        }
+      ]
+    },
+    "BIOL 324": {
+      "reported": 195,
+      "average": 80.5,
+      "grades": [1, 2, 2, 1, 4, 15, 19, 23, 28, 42, 39],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 37,
+          "average": 81.4,
+          "grades": [1, 0, 0, 1, 0, 6, 1, 4, 5, 7, 12],
+          "instructors": ["Linda Jennings"]
+        },
+        {
+          "session": "2024W",
+          "reported": 40,
+          "average": 81.8,
+          "grades": [0, 0, 0, 0, 2, 4, 2, 6, 6, 15, 5],
+          "instructors": ["Quentin Charles Cronk"]
+        },
+        {
+          "session": "2023W",
+          "reported": 40,
+          "average": 77.9,
+          "grades": [0, 1, 2, 0, 2, 3, 6, 10, 6, 5, 5],
+          "instructors": ["Quentin Charles Cronk"]
+        },
+        {
+          "session": "2022W",
+          "reported": 38,
+          "average": 85.8,
+          "grades": [0, 1, 0, 0, 0, 2, 2, 3, 5, 8, 17],
+          "instructors": ["Quentin Charles Cronk"]
+        },
+        {
+          "session": "2021W",
+          "reported": 40,
+          "average": 76.0,
+          "grades": [0, 0, 0, 0, 0, 0, 8, 0, 6, 7, 0],
+          "instructors": ["Quentin Charles Cronk"]
+        }
+      ]
+    },
+    "BIOL 325": {
+      "reported": 1033,
+      "average": 74.3,
+      "grades": [54, 32, 37, 64, 66, 97, 108, 139, 185, 133, 104],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 162,
+          "average": 70.2,
+          "grades": [14, 14, 11, 13, 9, 16, 18, 21, 20, 13, 13],
+          "instructors": ["Philip Matthews"]
+        },
+        {
+          "session": "2024W",
+          "reported": 211,
+          "average": 77.0,
+          "grades": [6, 5, 6, 12, 11, 22, 19, 26, 44, 33, 27],
+          "instructors": ["Philip Matthews"]
+        },
+        {
+          "session": "2023W",
+          "reported": 219,
+          "average": 76.6,
+          "grades": [10, 2, 5, 8, 16, 15, 26, 26, 43, 37, 26],
+          "instructors": ["Robert Cieri"]
+        },
+        {
+          "session": "2022W",
+          "reported": 215,
+          "average": 71.5,
+          "grades": [18, 11, 15, 20, 7, 19, 21, 27, 35, 23, 19],
+          "instructors": ["Philip Matthews"]
+        },
+        {
+          "session": "2021W",
+          "reported": 226,
+          "average": 75.2,
+          "grades": [6, 0, 0, 11, 23, 25, 24, 39, 43, 27, 19],
+          "instructors": ["Philip Matthews"]
+        }
+      ]
+    },
+    "BIOL 326": {
+      "reported": 119,
+      "average": 84.1,
+      "grades": [0, 1, 0, 0, 1, 1, 7, 5, 30, 33, 31],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 24,
+          "average": 84.2,
+          "grades": [0, 1, 0, 0, 1, 0, 0, 0, 7, 10, 5],
+          "instructors": ["Christopher Harley"]
+        },
+        {
+          "session": "2024W",
+          "reported": 24,
+          "average": 85.3,
+          "grades": [0, 0, 0, 0, 0, 0, 3, 2, 3, 10, 6],
+          "instructors": ["Christopher Harley"]
+        },
+        {
+          "session": "2023W",
+          "reported": 24,
+          "average": 86.5,
+          "grades": [0, 0, 0, 0, 0, 0, 2, 1, 7, 4, 10],
+          "instructors": ["Sandra Emry", "Alyssa-Lois Gehman"]
+        },
+        {
+          "session": "2022W",
+          "reported": 24,
+          "average": 84.6,
+          "grades": [0, 0, 0, 0, 0, 1, 2, 2, 6, 3, 10],
+          "instructors": ["Christopher Harley", "Alyssa-Lois Gehman"]
+        },
+        {
+          "session": "2021W",
+          "reported": 23,
+          "average": 79.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 7, 6, 0],
+          "instructors": ["Christopher Harley", "Alyssa-Lois Gehman"]
+        }
+      ]
+    },
+    "BIOL 327": {
+      "reported": 345,
+      "average": 80.3,
+      "grades": [2, 0, 6, 9, 16, 25, 26, 19, 99, 68, 66],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 68,
+          "average": 76.5,
+          "grades": [1, 0, 5, 5, 5, 3, 10, 0, 19, 11, 9],
+          "instructors": ["Yasmin Akhtar"]
+        },
+        {
+          "session": "2024W",
+          "reported": 71,
+          "average": 81.1,
+          "grades": [0, 0, 1, 1, 5, 4, 3, 9, 22, 9, 17],
+          "instructors": ["Yasmin Akhtar"]
+        },
+        {
+          "session": "2023W",
+          "reported": 73,
+          "average": 81.3,
+          "grades": [1, 0, 0, 1, 5, 3, 5, 8, 16, 17, 16],
+          "instructors": ["Yasmin Akhtar"]
+        },
+        {
+          "session": "2022W",
+          "reported": 64,
+          "average": 81.8,
+          "grades": [0, 0, 0, 2, 1, 6, 8, 2, 15, 17, 13],
+          "instructors": ["Yasmin Akhtar"]
+        },
+        {
+          "session": "2021W",
+          "reported": 69,
+          "average": 80.6,
+          "grades": [0, 0, 0, 0, 0, 9, 0, 0, 27, 14, 11],
+          "instructors": ["Yasmin Akhtar"]
+        }
+      ]
+    },
+    "BIOL 328": {
+      "reported": 53,
+      "average": 77.6,
+      "grades": [1, 1, 1, 2, 5, 1, 6, 9, 12, 10, 5],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 14,
+          "average": 76.3,
+          "grades": [0, 0, 1, 1, 2, 1, 0, 1, 5, 2, 1],
+          "instructors": ["Jeff Doherty"]
+        },
+        {
+          "session": "2024W",
+          "reported": 16,
+          "average": 82.0,
+          "grades": [0, 1, 0, 0, 0, 0, 0, 4, 4, 5, 2],
+          "instructors": ["Jean-Franï¿½ois Doherty"]
+        },
+        {
+          "session": "2023W",
+          "reported": 23,
+          "average": 75.3,
+          "grades": [1, 0, 0, 1, 3, 0, 6, 4, 3, 3, 2],
+          "instructors": ["Jean-François Doherty"]
+        }
+      ]
+    },
+    "BIOL 329": {
+      "reported": 156,
+      "average": 88.0,
+      "grades": [0, 0, 1, 0, 1, 3, 5, 6, 14, 52, 74],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 87,
+          "average": 87.6,
+          "grades": [0, 0, 1, 0, 1, 3, 3, 2, 8, 27, 42],
+          "instructors": ["Ninan Abraham"]
+        },
+        {
+          "session": "2024W",
+          "reported": 69,
+          "average": 88.6,
+          "grades": [0, 0, 0, 0, 0, 0, 2, 4, 6, 25, 32],
+          "instructors": ["Ninan Abraham"]
+        }
+      ]
+    },
+    "BIOL 331": {
+      "reported": 699,
+      "average": 82.4,
+      "grades": [1, 1, 1, 4, 8, 30, 41, 91, 184, 226, 97],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 139,
+          "average": 82.7,
+          "grades": [0, 0, 0, 1, 4, 4, 7, 19, 37, 49, 18],
+          "instructors": ["Tessa Blanchard"]
+        },
+        {
+          "session": "2024W",
+          "reported": 142,
+          "average": 83.5,
+          "grades": [0, 0, 0, 0, 0, 5, 8, 13, 48, 55, 13],
+          "instructors": ["Tessa Blanchard"]
+        },
+        {
+          "session": "2023W",
+          "reported": 144,
+          "average": 83.3,
+          "grades": [1, 1, 0, 2, 1, 6, 4, 13, 40, 52, 24],
+          "instructors": ["Stella Lee"]
+        },
+        {
+          "session": "2022W",
+          "reported": 141,
+          "average": 82.8,
+          "grades": [0, 0, 1, 1, 3, 3, 15, 24, 25, 43, 26],
+          "instructors": ["Stella Lee"]
+        },
+        {
+          "session": "2021W",
+          "reported": 133,
+          "average": 79.5,
+          "grades": [0, 0, 0, 0, 0, 12, 7, 22, 34, 27, 16],
+          "instructors": ["Stella Lee"]
+        }
+      ]
+    },
+    "BIOL 332": {
+      "reported": 77,
+      "average": 70.6,
+      "grades": [3, 5, 7, 3, 3, 6, 3, 6, 7, 4, 10],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 19,
+          "average": 70.2,
+          "grades": [1, 2, 3, 0, 2, 1, 2, 1, 3, 0, 4],
+          "instructors": ["Patrick John Keeling", "Juan Saldarriaga"]
+        },
+        {
+          "session": "2024W",
+          "reported": 20,
+          "average": 72.2,
+          "grades": [1, 2, 3, 2, 0, 2, 1, 1, 1, 4, 3],
+          "instructors": ["Juan Saldarriaga"]
+        },
+        {
+          "session": "2022W",
+          "reported": 18,
+          "average": 73.5,
+          "grades": [1, 1, 1, 1, 1, 3, 0, 4, 3, 0, 3],
+          "instructors": ["Juan Saldarriaga"]
+        },
+        {
+          "session": "2021W",
+          "reported": 20,
+          "average": 66.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Juan Saldarriaga"]
+        }
+      ]
+    },
+    "BIOL 335": {
+      "reported": 1572,
+      "average": 75.3,
+      "grades": [52, 56, 55, 98, 111, 116, 168, 151, 305, 257, 180],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 293,
+          "average": 76.8,
+          "grades": [8, 6, 13, 13, 18, 24, 30, 29, 55, 54, 43],
+          "instructors": ["Liane Chen"]
+        },
+        {
+          "session": "2024W",
+          "reported": 297,
+          "average": 76.6,
+          "grades": [10, 9, 3, 17, 15, 23, 35, 31, 57, 52, 45],
+          "instructors": ["Liane Chen", "Heather Bruce"]
+        },
+        {
+          "session": "2023W",
+          "reported": 306,
+          "average": 78.7,
+          "grades": [8, 5, 8, 15, 16, 15, 26, 32, 65, 62, 49],
+          "instructors": ["Liane Chen", "Craig M S Berezowsky"]
+        },
+        {
+          "session": "2022W",
+          "reported": 297,
+          "average": 75.8,
+          "grades": [11, 11, 16, 14, 21, 19, 26, 25, 66, 58, 30],
+          "instructors": ["Liane Chen", "Craig M S Berezowsky"]
+        },
+        {
+          "session": "2022S",
+          "reported": 50,
+          "average": 69.0,
+          "grades": [2, 5, 2, 5, 6, 3, 8, 7, 7, 4, 1],
+          "instructors": ["Craig M S Berezowsky"]
+        },
+        {
+          "session": "2021W",
+          "reported": 269,
+          "average": 70.5,
+          "grades": [13, 20, 13, 27, 29, 26, 33, 27, 42, 27, 12],
+          "instructors": ["Liane Chen", "Yuelin Zhang", "Craig M S Berezowsky"]
+        },
+        {
+          "session": "2021S",
+          "reported": 60,
+          "average": 68.0,
+          "grades": [0, 0, 0, 7, 6, 6, 10, 0, 13, 0, 0],
+          "instructors": ["Pamela Kalas", "Craig M S Berezowsky"]
+        }
+      ]
+    },
+    "BIOL 336": {
+      "reported": 2175,
+      "average": 82.0,
+      "grades": [17, 3, 15, 26, 53, 108, 172, 242, 455, 459, 424],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 345,
+          "average": 82.8,
+          "grades": [2, 0, 3, 6, 7, 14, 27, 38, 87, 82, 79],
+          "instructors": ["Asher Leeks", "Sally Otto", "Jeannette Whitton"]
+        },
+        {
+          "session": "2025S",
+          "reported": 48,
+          "average": 86.7,
+          "grades": [1, 0, 0, 1, 1, 0, 0, 2, 6, 16, 21],
+          "instructors": ["Lizelle Odendaal"]
+        },
+        {
+          "session": "2024W",
+          "reported": 393,
+          "average": 84.9,
+          "grades": [4, 0, 0, 2, 4, 13, 27, 40, 71, 88, 144],
+          "instructors": ["Lizelle Odendaal", "Sarah Otto"]
+        },
+        {
+          "session": "2024S",
+          "reported": 70,
+          "average": 81.0,
+          "grades": [0, 0, 1, 1, 2, 6, 8, 9, 13, 21, 9],
+          "instructors": ["Lizelle Odendaal"]
+        },
+        {
+          "session": "2023W",
+          "reported": 400,
+          "average": 79.7,
+          "grades": [5, 2, 10, 7, 16, 19, 46, 51, 108, 90, 41],
+          "instructors": ["Bridgette Clarkston", "Jeannette Whitton", "Alana Schick", "Mariana Pascual Robles"]
+        },
+        {
+          "session": "2023S",
+          "reported": 66,
+          "average": 79.8,
+          "grades": [0, 1, 0, 1, 2, 8, 6, 16, 10, 10, 11],
+          "instructors": ["Alana Schick"]
+        },
+        {
+          "session": "2022W",
+          "reported": 394,
+          "average": 81.1,
+          "grades": [4, 0, 1, 7, 12, 30, 33, 54, 94, 97, 62],
+          "instructors": ["Wayne Maddison", "Sarah Otto", "Jeannette Whitton"]
+        },
+        {
+          "session": "2022S",
+          "reported": 73,
+          "average": 84.6,
+          "grades": [1, 0, 0, 1, 1, 2, 4, 7, 15, 19, 23],
+          "instructors": ["Anna Bazzicalupo"]
+        },
+        {
+          "session": "2021W",
+          "reported": 386,
+          "average": 81.2,
+          "grades": [0, 0, 0, 0, 8, 16, 21, 25, 51, 36, 34],
+          "instructors": ["Wayne Maddison", "Sarah Otto", "Jeannette Whitton"]
+        }
+      ]
+    },
+    "BIOL 337": {
+      "reported": 143,
+      "average": 82.8,
+      "grades": [0, 1, 2, 1, 4, 6, 8, 5, 48, 41, 27],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 27,
+          "average": 84.5,
+          "grades": [0, 0, 0, 0, 1, 0, 3, 0, 7, 10, 6],
+          "instructors": ["Jennifer Klenz"]
+        },
+        {
+          "session": "2024W",
+          "reported": 35,
+          "average": 81.7,
+          "grades": [0, 0, 0, 1, 1, 3, 2, 1, 14, 8, 5],
+          "instructors": ["Jennifer Klenz"]
+        },
+        {
+          "session": "2023W",
+          "reported": 41,
+          "average": 82.9,
+          "grades": [0, 0, 2, 0, 1, 1, 1, 2, 12, 15, 7],
+          "instructors": ["Jennifer Klenz"]
+        },
+        {
+          "session": "2022W",
+          "reported": 40,
+          "average": 82.7,
+          "grades": [0, 1, 0, 0, 1, 2, 2, 2, 15, 8, 9],
+          "instructors": ["Jennifer Klenz"]
+        }
+      ]
+    },
+    "BIOL 338": {
+      "reported": 225,
+      "average": 78.5,
+      "grades": [2, 11, 9, 10, 8, 9, 26, 27, 44, 39, 40],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 74,
+          "average": 78.4,
+          "grades": [1, 6, 2, 2, 2, 4, 9, 6, 13, 17, 12],
+          "instructors": ["Keith Adams"]
+        },
+        {
+          "session": "2024W",
+          "reported": 83,
+          "average": 77.4,
+          "grades": [1, 4, 1, 4, 2, 4, 9, 16, 22, 9, 11],
+          "instructors": ["Keith Adams"]
+        },
+        {
+          "session": "2022W",
+          "reported": 68,
+          "average": 79.9,
+          "grades": [0, 1, 6, 4, 4, 1, 8, 5, 9, 13, 17],
+          "instructors": ["Keith Adams"]
+        }
+      ]
+    },
+    "BIOL 340": {
+      "reported": 450,
+      "average": 78.8,
+      "grades": [1, 3, 4, 3, 16, 25, 56, 107, 150, 70, 11],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 91,
+          "average": 77.4,
+          "grades": [1, 0, 1, 0, 6, 10, 8, 23, 27, 15, 0],
+          "instructors": ["Maryam Moussavi"]
+        },
+        {
+          "session": "2024W",
+          "reported": 129,
+          "average": 79.5,
+          "grades": [0, 0, 1, 0, 6, 10, 11, 27, 46, 25, 3],
+          "instructors": ["Maryam Moussavi"]
+        },
+        {
+          "session": "2023W",
+          "reported": 108,
+          "average": 79.0,
+          "grades": [0, 2, 2, 3, 2, 3, 12, 25, 34, 21, 3],
+          "instructors": ["Maryam Moussavi"]
+        },
+        {
+          "session": "2022W",
+          "reported": 62,
+          "average": 78.9,
+          "grades": [0, 1, 0, 0, 2, 2, 13, 15, 15, 9, 5],
+          "instructors": ["Maryam Moussavi"]
+        },
+        {
+          "session": "2021W",
+          "reported": 60,
+          "average": 78.7,
+          "grades": [0, 0, 0, 0, 0, 0, 12, 17, 28, 0, 0],
+          "instructors": ["Maryam Moussavi"]
+        }
+      ]
+    },
+    "BIOL 341": {
+      "reported": 522,
+      "average": 77.2,
+      "grades": [5, 5, 8, 7, 13, 37, 81, 121, 166, 58, 8],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 121,
+          "average": 77.8,
+          "grades": [2, 0, 3, 1, 1, 8, 16, 32, 42, 16, 0],
+          "instructors": ["Maryam Moussavi"]
+        },
+        {
+          "session": "2024W",
+          "reported": 135,
+          "average": 78.5,
+          "grades": [1, 1, 1, 1, 5, 10, 23, 25, 44, 19, 5],
+          "instructors": ["Maryam Moussavi"]
+        },
+        {
+          "session": "2023W",
+          "reported": 124,
+          "average": 76.5,
+          "grades": [0, 3, 3, 3, 4, 5, 22, 37, 35, 9, 0],
+          "instructors": ["Maryam Moussavi", "Jennifer Klenz"]
+        },
+        {
+          "session": "2022W",
+          "reported": 70,
+          "average": 76.8,
+          "grades": [2, 1, 1, 2, 3, 7, 8, 10, 25, 8, 3],
+          "instructors": ["Maryam Moussavi"]
+        },
+        {
+          "session": "2021W",
+          "reported": 72,
+          "average": 75.1,
+          "grades": [0, 0, 0, 0, 0, 7, 12, 17, 20, 6, 0],
+          "instructors": ["Maryam Moussavi"]
+        }
+      ]
+    },
+    "BIOL 342": {
+      "reported": 493,
+      "average": 87.1,
+      "grades": [0, 0, 0, 1, 5, 1, 30, 19, 64, 147, 220],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 55,
+          "average": 83.6,
+          "grades": [0, 0, 0, 1, 4, 0, 7, 3, 7, 18, 15],
+          "instructors": ["Celeste Leander"]
+        },
+        {
+          "session": "2024W",
+          "reported": 73,
+          "average": 84.8,
+          "grades": [0, 0, 0, 0, 1, 1, 9, 5, 10, 25, 22],
+          "instructors": ["Celeste Leander"]
+        },
+        {
+          "session": "2023W",
+          "reported": 83,
+          "average": 86.3,
+          "grades": [0, 0, 0, 0, 0, 0, 11, 2, 13, 24, 33],
+          "instructors": ["Celeste Leander"]
+        },
+        {
+          "session": "2022W",
+          "reported": 188,
+          "average": 88.3,
+          "grades": [0, 0, 0, 0, 0, 0, 3, 9, 19, 61, 96],
+          "instructors": ["Celeste Leander"]
+        },
+        {
+          "session": "2021W",
+          "reported": 94,
+          "average": 89.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 15, 19, 54],
+          "instructors": ["Celeste Leander"]
+        }
+      ]
+    },
+    "BIOL 343": {
+      "reported": 46,
+      "average": 80.5,
+      "grades": [0, 0, 0, 2, 1, 1, 2, 1, 21, 10, 1],
+      "terms": [
+        {
+          "session": "2022W",
+          "reported": 23,
+          "average": 79.1,
+          "grades": [0, 0, 0, 2, 1, 1, 2, 1, 13, 2, 1],
+          "instructors": ["Shona Margaret Ellis"]
+        },
+        {
+          "session": "2021W",
+          "reported": 23,
+          "average": 81.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 8, 8, 0],
+          "instructors": ["Shona Margaret Ellis"]
+        }
+      ]
+    },
+    "BIOL 344": {
+      "reported": 67,
+      "average": 76.5,
+      "grades": [3, 0, 0, 0, 0, 5, 6, 2, 10, 10, 8],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 15,
+          "average": 83.8,
+          "grades": [0, 0, 0, 0, 0, 1, 3, 0, 3, 4, 4],
+          "instructors": ["Craig M S Berezowsky"]
+        },
+        {
+          "session": "2023W",
+          "reported": 13,
+          "average": 77.6,
+          "grades": [1, 0, 0, 0, 0, 0, 1, 2, 4, 2, 3],
+          "instructors": ["Craig M S Berezowsky"]
+        },
+        {
+          "session": "2022W",
+          "reported": 16,
+          "average": 71.1,
+          "grades": [2, 0, 0, 0, 0, 4, 2, 0, 3, 4, 1],
+          "instructors": ["Craig M S Berezowsky"]
+        },
+        {
+          "session": "2021W",
+          "reported": 23,
+          "average": 75.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Craig M S Berezowsky"]
+        }
+      ]
+    },
+    "BIOL 345": {
+      "reported": 39,
+      "average": 89.5,
+      "grades": [0, 0, 0, 0, 0, 1, 1, 2, 5, 6, 24],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 17,
+          "average": 92.9,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 15],
+          "instructors": ["Celeste Leander"]
+        },
+        {
+          "session": "2024W",
+          "reported": 22,
+          "average": 86.9,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 1, 5, 6, 9],
+          "instructors": ["Celeste Leander"]
+        }
+      ]
+    },
+    "BIOL 346": {
+      "reported": 252,
+      "average": 86.6,
+      "grades": [4, 0, 3, 1, 2, 3, 4, 16, 41, 61, 109],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 49,
+          "average": 85.8,
+          "grades": [1, 0, 0, 0, 1, 1, 1, 3, 11, 13, 18],
+          "instructors": ["Jennifer Sibley"]
+        },
+        {
+          "session": "2024W",
+          "reported": 54,
+          "average": 86.6,
+          "grades": [0, 0, 0, 0, 0, 1, 1, 6, 13, 13, 20],
+          "instructors": ["Jennifer Sibley"]
+        },
+        {
+          "session": "2023W",
+          "reported": 52,
+          "average": 83.8,
+          "grades": [2, 0, 3, 1, 0, 0, 2, 4, 6, 11, 22],
+          "instructors": ["Jennifer Sibley", "Morgan Alford"]
+        },
+        {
+          "session": "2022W",
+          "reported": 45,
+          "average": 85.6,
+          "grades": [1, 0, 0, 0, 1, 1, 0, 3, 11, 9, 19],
+          "instructors": ["Jennifer Sibley", "Leah Hohman"]
+        },
+        {
+          "session": "2021W",
+          "reported": 52,
+          "average": 90.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 15, 30],
+          "instructors": ["Erin Gaynor", "Olumuyiwa Igbalajobi", "Jennifer Sibley", "Brandon Paul Kieft"]
+        }
+      ]
+    },
+    "BIOL 347": {
+      "reported": 154,
+      "average": 90.5,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 44, 106],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 23,
+          "average": 90.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 17],
+          "instructors": ["Doug Altshuler", "Sean Graham"]
+        },
+        {
+          "session": "2024W",
+          "reported": 31,
+          "average": 91.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 25],
+          "instructors": ["Sean Graham", "Patricia Schulte"]
+        },
+        {
+          "session": "2023W",
+          "reported": 31,
+          "average": 90.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 9, 21],
+          "instructors": ["Geoff Wasteneys", "Mary Berbee"]
+        },
+        {
+          "session": "2022W",
+          "reported": 32,
+          "average": 91.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 8, 23],
+          "instructors": ["Vanessa Auld", "Sean Graham"]
+        },
+        {
+          "session": "2021W",
+          "reported": 37,
+          "average": 88.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 15, 20],
+          "instructors": ["Sean Graham", "Patricia Schulte"]
+        }
+      ]
+    },
+    "BIOL 348": {
+      "reported": 153,
+      "average": 93.0,
+      "grades": [0, 0, 1, 0, 0, 1, 1, 3, 8, 20, 119],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 67,
+          "average": 89.6,
+          "grades": [0, 0, 0, 0, 0, 1, 1, 2, 6, 17, 40],
+          "instructors": ["Anne Lacey Samuels"]
+        },
+        {
+          "session": "2024W",
+          "reported": 50,
+          "average": 94.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 46],
+          "instructors": ["Anne Lacey Samuels", "Christine Goedhart"]
+        },
+        {
+          "session": "2023W",
+          "reported": 36,
+          "average": 97.4,
+          "grades": [0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 33],
+          "instructors": ["Christine Goedhart"]
+        }
+      ]
+    },
+    "BIOL 350": {
+      "reported": 26,
+      "average": 87.5,
+      "grades": [0, 0, 0, 0, 0, 1, 3, 2, 1, 6, 13],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 13,
+          "average": 85.3,
+          "grades": [0, 0, 0, 0, 0, 1, 1, 2, 1, 3, 5],
+          "instructors": ["Leticia Aviles"]
+        },
+        {
+          "session": "2024W",
+          "reported": 13,
+          "average": 89.8,
+          "grades": [0, 0, 0, 0, 0, 0, 2, 0, 0, 3, 8],
+          "instructors": ["Leticia Aviles"]
+        }
+      ]
+    },
+    "BIOL 351": {
+      "reported": 244,
+      "average": 70.6,
+      "grades": [19, 8, 10, 9, 25, 30, 34, 27, 42, 10, 12],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 41,
+          "average": 70.8,
+          "grades": [5, 0, 3, 2, 7, 2, 7, 3, 5, 4, 3],
+          "instructors": ["Shawn Mansfield"]
+        },
+        {
+          "session": "2024W",
+          "reported": 46,
+          "average": 70.7,
+          "grades": [6, 2, 2, 1, 5, 3, 7, 7, 8, 1, 4],
+          "instructors": ["Shawn Mansfield"]
+        },
+        {
+          "session": "2023W",
+          "reported": 53,
+          "average": 68.3,
+          "grades": [6, 4, 3, 3, 6, 7, 6, 6, 6, 3, 2],
+          "instructors": ["Shawn Mansfield", "Santokh Singh"]
+        },
+        {
+          "session": "2022W",
+          "reported": 51,
+          "average": 72.1,
+          "grades": [2, 2, 2, 3, 7, 6, 7, 3, 14, 2, 3],
+          "instructors": ["Shawn Mansfield"]
+        },
+        {
+          "session": "2021W",
+          "reported": 53,
+          "average": 71.4,
+          "grades": [0, 0, 0, 0, 0, 12, 7, 8, 9, 0, 0],
+          "instructors": ["Shawn Mansfield", "Santokh Singh"]
+        }
+      ]
+    },
+    "BIOL 352": {
+      "reported": 240,
+      "average": 76.9,
+      "grades": [3, 2, 4, 9, 11, 15, 29, 32, 41, 43, 35],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 32,
+          "average": 88.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 4, 11, 16],
+          "instructors": ["Mohammad Arif Ashraf"]
+        },
+        {
+          "session": "2024W",
+          "reported": 41,
+          "average": 77.0,
+          "grades": [0, 0, 1, 1, 3, 3, 5, 11, 7, 7, 3],
+          "instructors": ["Santokh Singh"]
+        },
+        {
+          "session": "2023W",
+          "reported": 57,
+          "average": 73.1,
+          "grades": [2, 1, 0, 3, 5, 5, 14, 7, 7, 9, 1],
+          "instructors": ["Santokh Singh"]
+        },
+        {
+          "session": "2022W",
+          "reported": 52,
+          "average": 76.8,
+          "grades": [1, 1, 3, 5, 3, 1, 4, 6, 9, 10, 9],
+          "instructors": ["Araliya Arnott", "Santokh Singh"]
+        },
+        {
+          "session": "2021W",
+          "reported": 58,
+          "average": 74.0,
+          "grades": [0, 0, 0, 0, 0, 6, 6, 7, 14, 6, 6],
+          "instructors": ["Abel Rosado Rey", "Santokh Singh"]
+        }
+      ]
+    },
+    "BIOL 362": {
+      "reported": 397,
+      "average": 83.2,
+      "grades": [2, 4, 2, 2, 6, 9, 15, 39, 102, 89, 111],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 89,
+          "average": 82.1,
+          "grades": [1, 1, 0, 1, 1, 5, 7, 7, 27, 23, 16],
+          "instructors": ["Kenji Sugioka"]
+        },
+        {
+          "session": "2024W",
+          "reported": 82,
+          "average": 84.5,
+          "grades": [0, 1, 0, 0, 2, 0, 4, 9, 28, 14, 24],
+          "instructors": ["Kenji Sugioka"]
+        },
+        {
+          "session": "2023W",
+          "reported": 78,
+          "average": 83.1,
+          "grades": [0, 2, 1, 0, 3, 4, 2, 9, 12, 18, 27],
+          "instructors": ["Kenji Sugioka"]
+        },
+        {
+          "session": "2022W",
+          "reported": 70,
+          "average": 85.3,
+          "grades": [1, 0, 1, 1, 0, 0, 2, 6, 15, 20, 24],
+          "instructors": ["Kenji Sugioka"]
+        },
+        {
+          "session": "2021W",
+          "reported": 78,
+          "average": 81.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 8, 20, 14, 20],
+          "instructors": ["Kenji Sugioka"]
+        }
+      ]
+    },
+    "BIOL 363": {
+      "reported": 704,
+      "average": 79.7,
+      "grades": [1, 4, 3, 8, 15, 50, 85, 109, 209, 135, 66],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 136,
+          "average": 80.2,
+          "grades": [1, 1, 1, 2, 1, 6, 14, 19, 53, 31, 7],
+          "instructors": ["Stella Lee"]
+        },
+        {
+          "session": "2024W",
+          "reported": 133,
+          "average": 81.4,
+          "grades": [0, 0, 0, 2, 3, 5, 16, 21, 38, 21, 27],
+          "instructors": ["Agnes Lacombe", "Stella Lee"]
+        },
+        {
+          "session": "2023W",
+          "reported": 149,
+          "average": 78.4,
+          "grades": [0, 2, 1, 3, 7, 15, 18, 23, 42, 28, 8],
+          "instructors": ["Agnes Lacombe"]
+        },
+        {
+          "session": "2022W",
+          "reported": 135,
+          "average": 80.0,
+          "grades": [0, 0, 0, 1, 4, 16, 19, 20, 35, 28, 12],
+          "instructors": ["Agnes Lacombe"]
+        },
+        {
+          "session": "2022S",
+          "reported": 13,
+          "average": 77.8,
+          "grades": [0, 1, 1, 0, 0, 1, 2, 1, 2, 2, 3],
+          "instructors": ["Agnes Lacombe"]
+        },
+        {
+          "session": "2021W",
+          "reported": 138,
+          "average": 79.1,
+          "grades": [0, 0, 0, 0, 0, 7, 16, 25, 39, 25, 9],
+          "instructors": ["Agnes Lacombe"]
+        }
+      ]
+    },
+    "BIOL 364": {
+      "reported": 647,
+      "average": 77.6,
+      "grades": [8, 7, 7, 24, 40, 57, 72, 69, 157, 126, 68],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 59,
+          "average": 78.0,
+          "grades": [0, 0, 3, 3, 4, 4, 4, 2, 26, 10, 3],
+          "instructors": ["Colin Brauner"]
+        },
+        {
+          "session": "2024W",
+          "reported": 82,
+          "average": 76.1,
+          "grades": [0, 1, 2, 5, 5, 7, 17, 14, 16, 13, 2],
+          "instructors": ["Colin Brauner"]
+        },
+        {
+          "session": "2023W",
+          "reported": 166,
+          "average": 75.5,
+          "grades": [7, 2, 1, 12, 14, 13, 18, 17, 37, 27, 16],
+          "instructors": ["Colin Brauner"]
+        },
+        {
+          "session": "2022W",
+          "reported": 171,
+          "average": 79.0,
+          "grades": [1, 4, 1, 4, 9, 18, 15, 16, 38, 41, 24],
+          "instructors": ["Colin Brauner"]
+        },
+        {
+          "session": "2021W",
+          "reported": 169,
+          "average": 78.9,
+          "grades": [0, 0, 0, 0, 8, 15, 18, 20, 40, 35, 23],
+          "instructors": ["Colin Brauner"]
+        }
+      ]
+    },
+    "BIOL 370": {
+      "reported": 536,
+      "average": 84.4,
+      "grades": [2, 1, 1, 2, 5, 14, 27, 41, 118, 177, 134],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 97,
+          "average": 83.6,
+          "grades": [0, 0, 0, 0, 1, 4, 11, 10, 27, 22, 22],
+          "instructors": ["Agnes Lacombe"]
+        },
+        {
+          "session": "2024W",
+          "reported": 114,
+          "average": 84.9,
+          "grades": [0, 0, 0, 0, 0, 2, 3, 16, 26, 43, 24],
+          "instructors": ["Farnaz Pournia"]
+        },
+        {
+          "session": "2023W",
+          "reported": 120,
+          "average": 83.3,
+          "grades": [2, 1, 1, 2, 3, 1, 7, 7, 24, 47, 23],
+          "instructors": ["Farnaz Pournia"]
+        },
+        {
+          "session": "2022W",
+          "reported": 106,
+          "average": 85.5,
+          "grades": [0, 0, 0, 0, 1, 7, 6, 8, 13, 37, 34],
+          "instructors": ["Jeffrey Richards"]
+        },
+        {
+          "session": "2021W",
+          "reported": 99,
+          "average": 84.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 28, 28, 31],
+          "instructors": ["Katie Marshall"]
+        }
+      ]
+    },
+    "BIOL 371": {
+      "reported": 1680,
+      "average": 79.4,
+      "grades": [28, 26, 35, 52, 71, 98, 165, 187, 301, 266, 357],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 292,
+          "average": 76.4,
+          "grades": [7, 9, 12, 19, 23, 28, 26, 35, 45, 41, 47],
+          "instructors": ["Irene Ballagh", "Vanessa Auld"]
+        },
+        {
+          "session": "2025S",
+          "reported": 50,
+          "average": 75.8,
+          "grades": [0, 0, 4, 4, 4, 5, 7, 5, 11, 4, 6],
+          "instructors": ["Irene Ballagh"]
+        },
+        {
+          "session": "2024W",
+          "reported": 299,
+          "average": 80.4,
+          "grades": [5, 4, 3, 5, 10, 17, 29, 39, 68, 62, 57],
+          "instructors": ["Irene Ballagh", "Vanessa Auld"]
+        },
+        {
+          "session": "2024S",
+          "reported": 54,
+          "average": 74.6,
+          "grades": [2, 1, 2, 5, 6, 1, 10, 5, 12, 4, 6],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "reported": 311,
+          "average": 81.7,
+          "grades": [6, 3, 5, 6, 6, 18, 22, 40, 60, 66, 77],
+          "instructors": ["Yihang Pan", "Hyung Suk Daniel Yoo"]
+        },
+        {
+          "session": "2023S",
+          "reported": 65,
+          "average": 76.0,
+          "grades": [2, 1, 1, 2, 5, 8, 9, 5, 9, 9, 9],
+          "instructors": ["Irene Ballagh"]
+        },
+        {
+          "session": "2022W",
+          "reported": 279,
+          "average": 79.1,
+          "grades": [5, 8, 8, 10, 13, 17, 31, 26, 55, 49, 57],
+          "instructors": ["Douglas Altshuler", "Hyung Suk Daniel Yoo"]
+        },
+        {
+          "session": "2022S",
+          "reported": 51,
+          "average": 78.1,
+          "grades": [1, 0, 0, 1, 4, 4, 8, 9, 10, 8, 6],
+          "instructors": ["Duncan Leitch", "Irene Ballagh"]
+        },
+        {
+          "session": "2021W",
+          "reported": 279,
+          "average": 81.5,
+          "grades": [0, 0, 0, 0, 0, 0, 23, 23, 31, 23, 92],
+          "instructors": ["Douglas Altshuler", "Molly Stanley"]
+        }
+      ]
+    },
+    "BIOL 372": {
+      "reported": 1001,
+      "average": 80.8,
+      "grades": [7, 11, 16, 27, 34, 54, 94, 103, 182, 206, 235],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 197,
+          "average": 84.1,
+          "grades": [0, 1, 2, 7, 6, 8, 9, 21, 35, 41, 67],
+          "instructors": ["Michael Gordon", "Ben Matthews"]
+        },
+        {
+          "session": "2024W",
+          "reported": 214,
+          "average": 80.1,
+          "grades": [1, 2, 3, 10, 9, 13, 24, 26, 42, 46, 38],
+          "instructors": ["Benjamin Matthews", "Irene Ballagh"]
+        },
+        {
+          "session": "2023W",
+          "reported": 211,
+          "average": 83.4,
+          "grades": [3, 2, 3, 6, 3, 7, 16, 16, 33, 55, 66],
+          "instructors": ["Benjamin Matthews", "Michael Gordon"]
+        },
+        {
+          "session": "2022W",
+          "reported": 183,
+          "average": 77.8,
+          "grades": [3, 6, 8, 4, 9, 13, 19, 25, 39, 27, 30],
+          "instructors": ["Michael Gordon", "Benjamin Matthews"]
+        },
+        {
+          "session": "2021W",
+          "reported": 196,
+          "average": 78.2,
+          "grades": [0, 0, 0, 0, 7, 13, 26, 15, 33, 37, 34],
+          "instructors": ["Benjamin Matthews", "Michael Gordon"]
+        }
+      ]
+    },
+    "BIOL 402": {
+      "reported": 98,
+      "average": 88.7,
+      "grades": [0, 0, 0, 1, 0, 3, 1, 6, 11, 21, 54],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 24,
+          "average": 90.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 3, 4, 17],
+          "instructors": ["Mary O'Connor"]
+        },
+        {
+          "session": "2024W",
+          "reported": 23,
+          "average": 93.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 19],
+          "instructors": ["Mary O'Connor"]
+        },
+        {
+          "session": "2023W",
+          "reported": 27,
+          "average": 90.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 2, 7, 16],
+          "instructors": ["Mary O'Connor"]
+        },
+        {
+          "session": "2022W",
+          "reported": 24,
+          "average": 80.7,
+          "grades": [0, 0, 0, 1, 0, 3, 1, 5, 5, 7, 2],
+          "instructors": ["Jessica Garzke"]
+        }
+      ]
+    },
+    "BIOL 403": {
+      "reported": 92,
+      "average": 89.0,
+      "grades": [0, 0, 1, 1, 1, 2, 2, 1, 4, 22, 58],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 23,
+          "average": 90.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 14],
+          "instructors": ["Laura Parfrey"]
+        },
+        {
+          "session": "2024W",
+          "reported": 27,
+          "average": 88.7,
+          "grades": [0, 0, 0, 0, 0, 1, 2, 0, 1, 6, 17],
+          "instructors": ["Laura Parfrey"]
+        },
+        {
+          "session": "2023W",
+          "reported": 23,
+          "average": 91.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 4, 17],
+          "instructors": ["Laura Parfrey"]
+        },
+        {
+          "session": "2022W",
+          "reported": 19,
+          "average": 84.6,
+          "grades": [0, 0, 1, 1, 1, 1, 0, 1, 1, 3, 10],
+          "instructors": ["Laura Parfrey"]
+        }
+      ]
+    },
+    "BIOL 404": {
+      "reported": 196,
+      "average": 84.8,
+      "grades": [1, 0, 0, 0, 0, 3, 3, 15, 56, 88, 26],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 39,
+          "average": 84.9,
+          "grades": [0, 0, 0, 0, 0, 1, 1, 6, 8, 15, 8],
+          "instructors": ["Diane Srivastava"]
+        },
+        {
+          "session": "2024W",
+          "reported": 39,
+          "average": 84.5,
+          "grades": [1, 0, 0, 0, 0, 0, 0, 3, 9, 19, 7],
+          "instructors": ["Diane Srivastava"]
+        },
+        {
+          "session": "2023W",
+          "reported": 40,
+          "average": 84.4,
+          "grades": [0, 0, 0, 0, 0, 2, 1, 2, 14, 11, 9],
+          "instructors": ["Diane Srivastava"]
+        },
+        {
+          "session": "2022W",
+          "reported": 40,
+          "average": 84.2,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 4, 16, 17, 2],
+          "instructors": ["Rachel Germain"]
+        },
+        {
+          "session": "2021W",
+          "reported": 38,
+          "average": 86.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 9, 26, 0],
+          "instructors": ["Rachel Germain"]
+        }
+      ]
+    },
+    "BIOL 406": {
+      "reported": 177,
+      "average": 84.6,
+      "grades": [1, 0, 0, 0, 2, 0, 8, 17, 34, 53, 50],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 39,
+          "average": 85.9,
+          "grades": [0, 0, 0, 0, 0, 0, 2, 5, 8, 12, 12],
+          "instructors": ["Amy Angert"]
+        },
+        {
+          "session": "2024W",
+          "reported": 30,
+          "average": 85.0,
+          "grades": [0, 0, 0, 0, 1, 0, 1, 3, 7, 10, 8],
+          "instructors": ["Emma Menchions"]
+        },
+        {
+          "session": "2023W",
+          "reported": 41,
+          "average": 81.8,
+          "grades": [0, 0, 0, 0, 1, 0, 4, 7, 15, 12, 2],
+          "instructors": ["Amy Angert"]
+        },
+        {
+          "session": "2022W",
+          "reported": 36,
+          "average": 87.8,
+          "grades": [1, 0, 0, 0, 0, 0, 1, 2, 4, 10, 18],
+          "instructors": ["Amy Angert"]
+        },
+        {
+          "session": "2021W",
+          "reported": 31,
+          "average": 82.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 10],
+          "instructors": ["Amy Angert"]
+        }
+      ]
+    },
+    "BIOL 411": {
+      "reported": 97,
+      "average": 85.2,
+      "grades": [1, 0, 0, 0, 1, 0, 2, 6, 16, 36, 26],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 27,
+          "average": 83.8,
+          "grades": [1, 0, 0, 0, 0, 0, 1, 2, 8, 6, 9],
+          "instructors": ["Michelle Tseng"]
+        },
+        {
+          "session": "2023W",
+          "reported": 24,
+          "average": 86.7,
+          "grades": [0, 0, 0, 0, 1, 0, 1, 1, 2, 8, 11],
+          "instructors": ["Michelle Tseng"]
+        },
+        {
+          "session": "2022W",
+          "reported": 23,
+          "average": 86.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 3, 6, 8, 6],
+          "instructors": ["Michelle Tseng"]
+        },
+        {
+          "session": "2021W",
+          "reported": 23,
+          "average": 84.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 0],
+          "instructors": ["Michelle Tseng"]
+        }
+      ]
+    },
+    "BIOL 412": {
+      "reported": 103,
+      "average": 75.5,
+      "grades": [6, 0, 7, 3, 4, 9, 11, 19, 14, 18, 11],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 43,
+          "average": 75.7,
+          "grades": [3, 0, 3, 2, 1, 4, 5, 7, 6, 5, 7],
+          "instructors": ["Sean Michaletz"]
+        },
+        {
+          "session": "2024W",
+          "reported": 26,
+          "average": 77.4,
+          "grades": [2, 0, 0, 0, 0, 2, 4, 4, 6, 8, 0],
+          "instructors": ["Sean Michaletz"]
+        },
+        {
+          "session": "2023W",
+          "reported": 34,
+          "average": 73.8,
+          "grades": [1, 0, 4, 1, 3, 3, 2, 8, 2, 5, 4],
+          "instructors": ["Sean Michaletz"]
+        }
+      ]
+    },
+    "BIOL 415": {
+      "reported": 118,
+      "average": 88.5,
+      "grades": [0, 0, 0, 0, 1, 3, 1, 5, 10, 26, 64],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 24,
+          "average": 90.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 2, 5, 16],
+          "instructors": ["Loren Rieseberg"]
+        },
+        {
+          "session": "2024W",
+          "reported": 28,
+          "average": 89.2,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 2, 2, 7, 16],
+          "instructors": ["Loren Rieseberg"]
+        },
+        {
+          "session": "2023W",
+          "reported": 18,
+          "average": 89.9,
+          "grades": [0, 0, 0, 0, 1, 1, 0, 1, 0, 3, 12],
+          "instructors": ["Loren Rieseberg"]
+        },
+        {
+          "session": "2022W",
+          "reported": 24,
+          "average": 87.2,
+          "grades": [0, 0, 0, 0, 0, 1, 1, 1, 6, 5, 10],
+          "instructors": ["Mariana Pascual Robles", "Loren Rieseberg"]
+        },
+        {
+          "session": "2021W",
+          "reported": 24,
+          "average": 86.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 10],
+          "instructors": ["Loren Rieseberg"]
+        }
+      ]
+    },
+    "BIOL 416": {
+      "reported": 217,
+      "average": 76.9,
+      "grades": [8, 4, 2, 4, 5, 15, 15, 32, 51, 39, 24],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 43,
+          "average": 75.9,
+          "grades": [2, 1, 0, 2, 2, 7, 5, 5, 6, 8, 5],
+          "instructors": ["Jonathan Davies"]
+        },
+        {
+          "session": "2024W",
+          "reported": 40,
+          "average": 75.6,
+          "grades": [3, 0, 1, 0, 1, 2, 2, 5, 10, 11, 5],
+          "instructors": ["Jonathan Davies"]
+        },
+        {
+          "session": "2023W",
+          "reported": 56,
+          "average": 75.1,
+          "grades": [2, 2, 0, 2, 1, 3, 6, 14, 14, 11, 0],
+          "instructors": ["Jonathan Davies"]
+        },
+        {
+          "session": "2022W",
+          "reported": 55,
+          "average": 81.2,
+          "grades": [1, 1, 1, 0, 1, 3, 2, 8, 15, 9, 14],
+          "instructors": ["Jonathan Davies", "Alexandria Moore"]
+        },
+        {
+          "session": "2021S",
+          "reported": 23,
+          "average": 75.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 0],
+          "instructors": ["Jonathan Davies"]
+        }
+      ]
+    },
+    "BIOL 417": {
+      "reported": 94,
+      "average": 88.1,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 5, 34, 44],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 17,
+          "average": 91.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 13],
+          "instructors": ["Sean Graham"]
+        },
+        {
+          "session": "2024W",
+          "reported": 23,
+          "average": 88.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 13, 8],
+          "instructors": ["Sean Graham"]
+        },
+        {
+          "session": "2023W",
+          "reported": 23,
+          "average": 88.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 3, 8, 11],
+          "instructors": ["Sean Graham"]
+        },
+        {
+          "session": "2021W",
+          "reported": 31,
+          "average": 85.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 12],
+          "instructors": ["Matthew Pennell"]
+        }
+      ]
+    },
+    "BIOL 418": {
+      "reported": 83,
+      "average": 75.6,
+      "grades": [1, 1, 3, 2, 1, 2, 8, 8, 20, 11, 4],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 26,
+          "average": 76.6,
+          "grades": [1, 1, 3, 1, 0, 0, 2, 4, 5, 7, 2],
+          "instructors": ["Farnaz Pournia", "Alana Schick"]
+        },
+        {
+          "session": "2022W",
+          "reported": 29,
+          "average": 78.3,
+          "grades": [0, 0, 0, 1, 1, 2, 6, 4, 9, 4, 2],
+          "instructors": ["Haley Branch", "Benjamin Freeman"]
+        },
+        {
+          "session": "2021W",
+          "reported": 28,
+          "average": 72.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 0],
+          "instructors": ["Dolph Schluter"]
+        }
+      ]
+    },
+    "BIOL 420": {
+      "reported": 114,
+      "average": 86.5,
+      "grades": [0, 0, 0, 1, 0, 0, 0, 3, 22, 53, 31],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 21,
+          "average": 86.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 2, 3, 7, 9],
+          "instructors": ["Amanda Vincent"]
+        },
+        {
+          "session": "2024W",
+          "reported": 24,
+          "average": 87.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 4, 14, 6],
+          "instructors": ["Amanda Vincent"]
+        },
+        {
+          "session": "2023W",
+          "reported": 22,
+          "average": 88.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 9, 11],
+          "instructors": ["Amanda Vincent"]
+        },
+        {
+          "session": "2022W",
+          "reported": 23,
+          "average": 85.3,
+          "grades": [0, 0, 0, 1, 0, 0, 0, 1, 4, 12, 5],
+          "instructors": ["Amanda Vincent"]
+        },
+        {
+          "session": "2021W",
+          "reported": 24,
+          "average": 84.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 9, 11, 0],
+          "instructors": ["Amanda Vincent"]
+        }
+      ]
+    },
+    "BIOL 421": {
+      "reported": 131,
+      "average": 81.0,
+      "grades": [0, 1, 4, 4, 4, 10, 8, 12, 19, 19, 37],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 19,
+          "average": 83.4,
+          "grades": [0, 0, 0, 1, 0, 1, 1, 3, 3, 4, 6],
+          "instructors": ["James Kronstad"]
+        },
+        {
+          "session": "2024W",
+          "reported": 29,
+          "average": 80.3,
+          "grades": [0, 0, 1, 1, 1, 3, 1, 2, 10, 6, 4],
+          "instructors": ["James Kronstad"]
+        },
+        {
+          "session": "2023W",
+          "reported": 28,
+          "average": 86.2,
+          "grades": [0, 1, 1, 0, 0, 1, 2, 1, 1, 7, 14],
+          "instructors": ["Matthias Kretschmer"]
+        },
+        {
+          "session": "2022W",
+          "reported": 28,
+          "average": 75.4,
+          "grades": [0, 0, 2, 2, 3, 5, 4, 0, 5, 2, 5],
+          "instructors": ["James Kronstad"]
+        },
+        {
+          "session": "2021W",
+          "reported": 27,
+          "average": 80.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 6, 0, 0, 8],
+          "instructors": ["James Kronstad", "Cara Haney"]
+        }
+      ]
+    },
+    "BIOL 424": {
+      "reported": 84,
+      "average": 89.8,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 8, 24, 51],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 28,
+          "average": 88.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 14, 13],
+          "instructors": ["Jill Jankowski"]
+        },
+        {
+          "session": "2024W",
+          "reported": 24,
+          "average": 92.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 23],
+          "instructors": ["Jill Jankowski"]
+        },
+        {
+          "session": "2022W",
+          "reported": 12,
+          "average": 92.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 9],
+          "instructors": ["Jill Jankowski"]
+        },
+        {
+          "session": "2021W",
+          "reported": 20,
+          "average": 86.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 6, 7, 6],
+          "instructors": ["Jill Jankowski"]
+        }
+      ]
+    },
+    "BIOL 425": {
+      "reported": 19,
+      "average": 81.4,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      "terms": [
+        {
+          "session": "2021W",
+          "reported": 19,
+          "average": 81.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Kelsey Gil"]
+        }
+      ]
+    },
+    "BIOL 427": {
+      "reported": 213,
+      "average": 86.3,
+      "grades": [0, 0, 0, 1, 3, 6, 4, 9, 43, 57, 84],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 52,
+          "average": 87.1,
+          "grades": [0, 0, 0, 0, 1, 1, 1, 2, 11, 20, 16],
+          "instructors": ["Darren Irwin"]
+        },
+        {
+          "session": "2024W",
+          "reported": 35,
+          "average": 86.5,
+          "grades": [0, 0, 0, 0, 0, 1, 1, 4, 5, 7, 17],
+          "instructors": ["Claudie Pageau"]
+        },
+        {
+          "session": "2023W",
+          "reported": 40,
+          "average": 84.7,
+          "grades": [0, 0, 0, 0, 1, 2, 1, 2, 12, 10, 12],
+          "instructors": ["Elizabeth Natola"]
+        },
+        {
+          "session": "2022W",
+          "reported": 41,
+          "average": 86.8,
+          "grades": [0, 0, 0, 1, 1, 2, 1, 1, 4, 10, 21],
+          "instructors": ["Darren Irwin"]
+        },
+        {
+          "session": "2021W",
+          "reported": 45,
+          "average": 86.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 11, 10, 18],
+          "instructors": ["Darren Irwin"]
+        }
+      ]
+    },
+    "BIOL 428": {
+      "reported": 177,
+      "average": 89.5,
+      "grades": [0, 0, 0, 0, 0, 1, 1, 5, 12, 46, 110],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 36,
+          "average": 88.2,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 1, 3, 13, 18],
+          "instructors": ["Brian Leander"]
+        },
+        {
+          "session": "2024W",
+          "reported": 35,
+          "average": 90.1,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 1, 0, 7, 26],
+          "instructors": ["Brian Leander"]
+        },
+        {
+          "session": "2023W",
+          "reported": 37,
+          "average": 88.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 3, 8, 6, 20],
+          "instructors": ["Brian Leander"]
+        },
+        {
+          "session": "2022W",
+          "reported": 36,
+          "average": 90.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 10, 25],
+          "instructors": ["Brian Leander"]
+        },
+        {
+          "session": "2021W",
+          "reported": 33,
+          "average": 90.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 21],
+          "instructors": ["Brian Leander"]
+        }
+      ]
+    },
+    "BIOL 430": {
+      "reported": 198,
+      "average": 76.9,
+      "grades": [2, 5, 3, 9, 5, 22, 26, 24, 28, 21, 25],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 35,
+          "average": 76.4,
+          "grades": [0, 3, 2, 0, 1, 8, 2, 3, 4, 7, 5],
+          "instructors": ["Keith Adams"]
+        },
+        {
+          "session": "2024W",
+          "reported": 34,
+          "average": 76.5,
+          "grades": [1, 1, 1, 2, 0, 3, 8, 6, 5, 2, 5],
+          "instructors": ["Keith Adams"]
+        },
+        {
+          "session": "2023W",
+          "reported": 68,
+          "average": 77.5,
+          "grades": [1, 1, 0, 4, 3, 7, 10, 12, 8, 8, 12],
+          "instructors": ["Keith Adams"]
+        },
+        {
+          "session": "2022W",
+          "reported": 29,
+          "average": 76.8,
+          "grades": [0, 0, 0, 3, 1, 4, 6, 3, 5, 4, 3],
+          "instructors": ["Keith Adams"]
+        },
+        {
+          "session": "2021W",
+          "reported": 32,
+          "average": 76.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 0],
+          "instructors": ["Keith Adams"]
+        }
+      ]
+    },
+    "BIOL 431": {
+      "reported": 90,
+      "average": 86.4,
+      "grades": [0, 0, 0, 0, 0, 3, 3, 4, 15, 29, 36],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 30,
+          "average": 89.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 11, 18],
+          "instructors": ["Naomi Keeling"]
+        },
+        {
+          "session": "2023W",
+          "reported": 27,
+          "average": 85.9,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 1, 6, 11, 8],
+          "instructors": ["Naomi Keeling"]
+        },
+        {
+          "session": "2022W",
+          "reported": 33,
+          "average": 83.9,
+          "grades": [0, 0, 0, 0, 0, 3, 2, 3, 8, 7, 10],
+          "instructors": ["Naomi Keeling"]
+        }
+      ]
+    },
+    "BIOL 432": {
+      "reported": 84,
+      "average": 84.0,
+      "grades": [1, 0, 0, 0, 0, 0, 0, 1, 20, 36, 13],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 22,
+          "average": 86.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 6, 13, 3],
+          "instructors": ["Geoff Wasteneys"]
+        },
+        {
+          "session": "2024W",
+          "reported": 21,
+          "average": 82.9,
+          "grades": [1, 0, 0, 0, 0, 0, 0, 0, 4, 11, 5],
+          "instructors": ["Geoff Wasteneys"]
+        },
+        {
+          "session": "2022W",
+          "reported": 22,
+          "average": 85.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 10, 6, 5],
+          "instructors": ["Geoff Wasteneys"]
+        },
+        {
+          "session": "2021W",
+          "reported": 19,
+          "average": 81.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 0],
+          "instructors": ["Geoff Wasteneys"]
+        }
+      ]
+    },
+    "BIOL 433": {
+      "reported": 29,
+      "average": 77.8,
+      "grades": [0, 2, 0, 1, 0, 6, 1, 5, 4, 5, 5],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 12,
+          "average": 78.8,
+          "grades": [0, 1, 0, 1, 0, 1, 0, 2, 2, 2, 3],
+          "instructors": ["Xin Li"]
+        },
+        {
+          "session": "2023W",
+          "reported": 11,
+          "average": 74.5,
+          "grades": [0, 1, 0, 0, 0, 5, 0, 2, 0, 2, 1],
+          "instructors": ["Xin Li"]
+        },
+        {
+          "session": "2022W",
+          "reported": 6,
+          "average": 81.8,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 1, 2, 1, 1],
+          "instructors": ["Xin Li"]
+        }
+      ]
+    },
+    "BIOL 434": {
+      "reported": 63,
+      "average": 75.9,
+      "grades": [2, 2, 2, 3, 4, 6, 4, 6, 5, 6, 6],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 30,
+          "average": 71.3,
+          "grades": [1, 2, 2, 2, 4, 4, 1, 3, 3, 5, 3],
+          "instructors": ["Michael Whitlock"]
+        },
+        {
+          "session": "2022W",
+          "reported": 16,
+          "average": 76.7,
+          "grades": [1, 0, 0, 1, 0, 2, 3, 3, 2, 1, 3],
+          "instructors": ["Michael Whitlock"]
+        },
+        {
+          "session": "2021W",
+          "reported": 17,
+          "average": 83.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Michael Whitlock"]
+        }
+      ]
+    },
+    "BIOL 436": {
+      "reported": 46,
+      "average": 83.4,
+      "grades": [0, 0, 2, 0, 0, 2, 4, 5, 10, 13, 10],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 23,
+          "average": 82.7,
+          "grades": [0, 0, 2, 0, 0, 0, 3, 3, 2, 8, 5],
+          "instructors": ["Marco Todesco"]
+        },
+        {
+          "session": "2024W",
+          "reported": 23,
+          "average": 84.1,
+          "grades": [0, 0, 0, 0, 0, 2, 1, 2, 8, 5, 5],
+          "instructors": ["Marco Todesco"]
+        }
+      ]
+    },
+    "BIOL 438": {
+      "reported": 59,
+      "average": 74.5,
+      "grades": [3, 0, 2, 0, 5, 5, 1, 6, 10, 7, 1],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 10,
+          "average": 76.5,
+          "grades": [0, 0, 0, 0, 1, 2, 1, 2, 3, 1, 0],
+          "instructors": ["Katherine PACHAL"]
+        },
+        {
+          "session": "2023W",
+          "reported": 18,
+          "average": 76.2,
+          "grades": [2, 0, 1, 0, 0, 1, 0, 3, 4, 6, 0],
+          "instructors": ["Katherine Pachal"]
+        },
+        {
+          "session": "2022W",
+          "reported": 13,
+          "average": 66.6,
+          "grades": [1, 0, 1, 0, 4, 2, 0, 1, 3, 0, 1],
+          "instructors": ["Scott Oser"]
+        },
+        {
+          "session": "2021W",
+          "reported": 18,
+          "average": 77.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Scott Oser"]
+        }
+      ]
+    },
+    "BIOL 440": {
+      "reported": 54,
+      "average": 84.3,
+      "grades": [0, 0, 0, 0, 0, 3, 0, 1, 5, 17, 12],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 10,
+          "average": 86.0,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 0, 1, 6, 2],
+          "instructors": ["Liang Song"]
+        },
+        {
+          "session": "2024W",
+          "reported": 10,
+          "average": 86.7,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 1, 1, 3, 4],
+          "instructors": ["Liang Song"]
+        },
+        {
+          "session": "2023W",
+          "reported": 9,
+          "average": 86.3,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 0, 0, 6, 2],
+          "instructors": ["Liang Song"]
+        },
+        {
+          "session": "2022W",
+          "reported": 9,
+          "average": 88.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 3, 2, 4],
+          "instructors": ["Liang Song"]
+        },
+        {
+          "session": "2021W",
+          "reported": 16,
+          "average": 78.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Xin Li"]
+        }
+      ]
+    },
+    "BIOL 441": {
+      "reported": 89,
+      "average": 89.0,
+      "grades": [0, 0, 0, 0, 1, 0, 3, 3, 10, 14, 52],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 26,
+          "average": 90.5,
+          "grades": [0, 0, 0, 0, 1, 0, 0, 1, 1, 2, 21],
+          "instructors": ["Nelly Pante"]
+        },
+        {
+          "session": "2024W",
+          "reported": 16,
+          "average": 87.1,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 5, 4, 6],
+          "instructors": ["Nelly Pante"]
+        },
+        {
+          "session": "2023W",
+          "reported": 24,
+          "average": 89.4,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 2, 2, 6, 13],
+          "instructors": ["Nelly Pante"]
+        },
+        {
+          "session": "2022W",
+          "reported": 10,
+          "average": 87.0,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 2, 2, 5],
+          "instructors": ["Nelly Pante"]
+        },
+        {
+          "session": "2021W",
+          "reported": 13,
+          "average": 88.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7],
+          "instructors": ["Nelly Pante"]
+        }
+      ]
+    },
+    "BIOL 445": {
+      "reported": 118,
+      "average": 90.4,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 2, 5, 27, 76],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 34,
+          "average": 92.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 8, 24],
+          "instructors": ["Daniel Pauly"]
+        },
+        {
+          "session": "2024W",
+          "reported": 29,
+          "average": 90.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 1, 10, 17],
+          "instructors": ["Daniel Pauly"]
+        },
+        {
+          "session": "2022W",
+          "reported": 27,
+          "average": 91.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 2, 2, 22],
+          "instructors": ["Daniel Pauly"]
+        },
+        {
+          "session": "2021W",
+          "reported": 28,
+          "average": 87.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 13],
+          "instructors": ["Daniel Pauly"]
+        }
+      ]
+    },
+    "BIOL 447": {
+      "reported": 177,
+      "average": 89.9,
+      "grades": [0, 0, 0, 0, 0, 0, 2, 4, 8, 47, 110],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 36,
+          "average": 90.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 26],
+          "instructors": ["Jeannette Whitton", "Jeffrey Richards"]
+        },
+        {
+          "session": "2024W",
+          "reported": 37,
+          "average": 90.3,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 1, 1, 12, 22],
+          "instructors": ["Geoff Wasteneys", "Jeffrey Richards"]
+        },
+        {
+          "session": "2023W",
+          "reported": 31,
+          "average": 92.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 25],
+          "instructors": ["Claire Kremen", "Eric Taylor"]
+        },
+        {
+          "session": "2022W",
+          "reported": 42,
+          "average": 87.7,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 3, 7, 11, 20],
+          "instructors": ["Vanessa Auld", "Anne Lacey Samuels"]
+        },
+        {
+          "session": "2021W",
+          "reported": 31,
+          "average": 88.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 17],
+          "instructors": ["Vanessa Auld", "Eric Taylor"]
+        }
+      ]
+    },
+    "BIOL 448": {
+      "reported": 385,
+      "average": 92.1,
+      "grades": [2, 0, 0, 1, 1, 1, 1, 1, 11, 53, 306],
+      "terms": [
+        {
+          "session": "2025W",
+          "topic": "A",
+          "title": "Directed Studies in Biology",
+          "reported": 51,
+          "average": 93.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 5, 45],
+          "instructors": []
+        },
+        {
+          "session": "2025W",
+          "topic": "D",
+          "title": "Directed Studies in Biology",
+          "reported": 41,
+          "average": 92.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 4, 36],
+          "instructors": []
+        },
+        {
+          "session": "2025S",
+          "topic": "D",
+          "title": "Directed Studies in Biology",
+          "reported": 15,
+          "average": 94.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 13],
+          "instructors": []
+        },
+        {
+          "session": "2024W",
+          "topic": "A",
+          "title": "Directed Studies in Biology",
+          "reported": 51,
+          "average": 93.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 44],
+          "instructors": []
+        },
+        {
+          "session": "2024W",
+          "topic": "D",
+          "title": "Directed Studies in Biology",
+          "reported": 31,
+          "average": 94.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 27],
+          "instructors": []
+        },
+        {
+          "session": "2024S",
+          "topic": "D",
+          "title": "Directed Studies in Biology",
+          "reported": 7,
+          "average": 94.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 6],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "topic": "A",
+          "title": "Directed Studies in Biology",
+          "reported": 36,
+          "average": 92.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 4, 5, 27],
+          "instructors": ["Gangamma Chowrira"]
+        },
+        {
+          "session": "2023W",
+          "topic": "D",
+          "title": "Directed Studies in Biology",
+          "reported": 26,
+          "average": 92.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 6, 19],
+          "instructors": ["Gangamma Chowrira"]
+        },
+        {
+          "session": "2023S",
+          "topic": "D",
+          "title": "Directed Studies in Biology",
+          "reported": 8,
+          "average": 95.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 7],
+          "instructors": ["Gangamma Chowrira"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Directed Studies in Biology",
+          "reported": 47,
+          "average": 91.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 2, 13, 31],
+          "instructors": ["Gangamma Chowrira"]
+        },
+        {
+          "session": "2022W",
+          "topic": "D",
+          "title": "Directed Studies in Biology",
+          "reported": 32,
+          "average": 93.5,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 0, 4, 27],
+          "instructors": ["Gangamma Chowrira"]
+        },
+        {
+          "session": "2022W",
+          "topic": "G",
+          "title": "Directed Studies in Biology",
+          "reported": 16,
+          "average": 75.2,
+          "grades": [2, 0, 0, 1, 1, 1, 0, 0, 1, 2, 8],
+          "instructors": ["Linda Matsuuchi"]
+        },
+        {
+          "session": "2021W",
+          "topic": "G",
+          "title": "Directed Studies in Biology",
+          "reported": 11,
+          "average": 89.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7],
+          "instructors": ["Linda Matsuuchi"]
+        },
+        {
+          "session": "2021W",
+          "topic": "J",
+          "title": "Directed Studies in Biology",
+          "reported": 13,
+          "average": 89.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9],
+          "instructors": ["Wayne Maddison"]
+        }
+      ]
+    },
+    "BIOL 449": {
+      "reported": 140,
+      "average": 91.5,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 1, 10, 21, 108],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 34,
+          "average": 91.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 3, 7, 23],
+          "instructors": []
+        },
+        {
+          "session": "2024W",
+          "reported": 35,
+          "average": 92.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 3, 1, 31],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "reported": 31,
+          "average": 92.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 25],
+          "instructors": []
+        },
+        {
+          "session": "2022W",
+          "reported": 40,
+          "average": 90.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 4, 7, 29],
+          "instructors": []
+        }
+      ]
+    },
+    "BIOL 450": {
+      "reported": 64,
+      "average": 90.4,
+      "grades": [0, 0, 0, 0, 0, 1, 0, 2, 3, 9, 46],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 23,
+          "average": 90.3,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 1, 0, 3, 18],
+          "instructors": ["Katie Marshall"]
+        },
+        {
+          "session": "2022W",
+          "reported": 20,
+          "average": 88.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 3, 6, 10],
+          "instructors": ["Katie Marshall"]
+        },
+        {
+          "session": "2021W",
+          "reported": 21,
+          "average": 92.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 18],
+          "instructors": ["Katie Marshall"]
+        }
+      ]
+    },
+    "BIOL 451": {
+      "reported": 87,
+      "average": 86.9,
+      "grades": [0, 0, 0, 0, 0, 2, 4, 3, 15, 32, 31],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 30,
+          "average": 85.5,
+          "grades": [0, 0, 0, 0, 0, 2, 2, 1, 5, 10, 10],
+          "instructors": ["Vanessa Auld"]
+        },
+        {
+          "session": "2024W",
+          "reported": 23,
+          "average": 86.8,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 1, 7, 7, 7],
+          "instructors": ["Vanessa Auld"]
+        },
+        {
+          "session": "2022W",
+          "reported": 34,
+          "average": 88.3,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 1, 3, 15, 14],
+          "instructors": ["Wai Hang Cheng", "Mehwish Anwer"]
+        }
+      ]
+    },
+    "BIOL 453": {
+      "reported": 16,
+      "average": 82.3,
+      "grades": [0, 0, 0, 0, 1, 2, 1, 1, 4, 4, 3],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 8,
+          "average": 83.8,
+          "grades": [0, 0, 0, 0, 0, 2, 0, 0, 2, 1, 3],
+          "instructors": ["Philip Matthews"]
+        },
+        {
+          "session": "2022W",
+          "reported": 8,
+          "average": 80.8,
+          "grades": [0, 0, 0, 0, 1, 0, 1, 1, 2, 3, 0],
+          "instructors": ["Philip Matthews"]
+        }
+      ]
+    },
+    "BIOL 454": {
+      "reported": 140,
+      "average": 87.5,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 1, 23, 65, 47],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 28,
+          "average": 86.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 7, 17, 4],
+          "instructors": ["Colin Brauner"]
+        },
+        {
+          "session": "2024W",
+          "reported": 28,
+          "average": 88.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 4, 12, 12],
+          "instructors": ["Colin Brauner"]
+        },
+        {
+          "session": "2023W",
+          "reported": 28,
+          "average": 86.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 12, 8, 8],
+          "instructors": ["Colin Brauner"]
+        },
+        {
+          "session": "2022W",
+          "reported": 33,
+          "average": 87.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 0, 22, 10],
+          "instructors": ["Colin Brauner"]
+        },
+        {
+          "session": "2021W",
+          "reported": 23,
+          "average": 88.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 13],
+          "instructors": ["Colin Brauner"]
+        }
+      ]
+    },
+    "BIOL 455": {
+      "reported": 29,
+      "average": 88.5,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 12],
+      "terms": [
+        {
+          "session": "2021W",
+          "reported": 29,
+          "average": 88.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 12],
+          "instructors": ["Duncan Leitch"]
+        }
+      ]
+    },
+    "BIOL 457": {
+      "reported": 126,
+      "average": 83.2,
+      "grades": [0, 0, 0, 0, 2, 1, 4, 14, 35, 37, 19],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 15,
+          "average": 84.0,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 1, 5, 6, 2],
+          "instructors": ["Harshini Chakravarthy"]
+        },
+        {
+          "session": "2024W",
+          "reported": 18,
+          "average": 84.4,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 2, 5, 7, 3],
+          "instructors": ["Robert Cieri"]
+        },
+        {
+          "session": "2023W",
+          "reported": 27,
+          "average": 87.7,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 1, 5, 10, 10],
+          "instructors": ["Benjamin Negrete Jr", "Jeffrey Richards"]
+        },
+        {
+          "session": "2022W",
+          "reported": 28,
+          "average": 82.1,
+          "grades": [0, 0, 0, 0, 2, 1, 1, 3, 10, 7, 4],
+          "instructors": ["Jeffrey Richards"]
+        },
+        {
+          "session": "2021W",
+          "reported": 38,
+          "average": 80.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 7, 10, 7, 0],
+          "instructors": ["Jeffrey Richards"]
+        }
+      ]
+    },
+    "BIOL 458": {
+      "reported": 739,
+      "average": 89.2,
+      "grades": [2, 1, 1, 2, 1, 11, 21, 36, 95, 127, 427],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 182,
+          "average": 92.0,
+          "grades": [0, 0, 0, 1, 0, 1, 1, 4, 7, 19, 149],
+          "instructors": ["Wolfram Tetzlaff", "Matthew Ramer"]
+        },
+        {
+          "session": "2024W",
+          "reported": 192,
+          "average": 94.2,
+          "grades": [1, 1, 0, 0, 0, 0, 0, 0, 7, 13, 170],
+          "instructors": ["Wolfram Tetzlaff", "Matthew Ramer"]
+        },
+        {
+          "session": "2023W",
+          "reported": 186,
+          "average": 84.8,
+          "grades": [0, 0, 1, 1, 1, 4, 11, 15, 41, 59, 46],
+          "instructors": ["Wolfram Tetzlaff", "Matthew Ramer"]
+        },
+        {
+          "session": "2022W",
+          "reported": 90,
+          "average": 90.7,
+          "grades": [1, 0, 0, 0, 0, 0, 1, 2, 4, 20, 62],
+          "instructors": ["Matthew Ramer"]
+        },
+        {
+          "session": "2021W",
+          "reported": 89,
+          "average": 80.1,
+          "grades": [0, 0, 0, 0, 0, 6, 8, 15, 36, 16, 0],
+          "instructors": ["Seth Holland"]
+        }
+      ]
+    },
+    "BIOL 459": {
+      "reported": 71,
+      "average": 87.9,
+      "grades": [0, 0, 1, 0, 0, 0, 0, 0, 16, 19, 30],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 14,
+          "average": 88.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 3, 6, 5],
+          "instructors": ["Doug Altshuler", "Irene Ballagh"]
+        },
+        {
+          "session": "2024W",
+          "reported": 20,
+          "average": 89.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 10, 9],
+          "instructors": ["Douglas Altshuler"]
+        },
+        {
+          "session": "2023W",
+          "reported": 17,
+          "average": 87.1,
+          "grades": [0, 0, 1, 0, 0, 0, 0, 0, 4, 3, 9],
+          "instructors": ["Michael Gordon"]
+        },
+        {
+          "session": "2021W",
+          "reported": 20,
+          "average": 87.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 8, 0, 7],
+          "instructors": ["Michael Gordon"]
+        }
+      ]
+    },
+    "BIOL 460": {
+      "reported": 94,
+      "average": 87.4,
+      "grades": [0, 0, 1, 0, 0, 0, 1, 2, 9, 33, 37],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 20,
+          "average": 89.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 7, 12],
+          "instructors": ["Doug Altshuler"]
+        },
+        {
+          "session": "2024W",
+          "reported": 21,
+          "average": 87.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 2, 3, 6, 10],
+          "instructors": ["Douglas Altshuler"]
+        },
+        {
+          "session": "2023W",
+          "reported": 15,
+          "average": 87.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 9, 4],
+          "instructors": ["Douglas Altshuler"]
+        },
+        {
+          "session": "2022W",
+          "reported": 21,
+          "average": 85.6,
+          "grades": [0, 0, 1, 0, 0, 0, 1, 0, 3, 11, 5],
+          "instructors": ["Douglas Altshuler"]
+        },
+        {
+          "session": "2021W",
+          "reported": 17,
+          "average": 86.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6],
+          "instructors": ["Douglas Altshuler"]
+        }
+      ]
+    },
+    "BIOL 462": {
+      "reported": 80,
+      "average": 92.5,
+      "grades": [0, 0, 0, 0, 1, 0, 0, 0, 4, 11, 64],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 26,
+          "average": 94.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 25],
+          "instructors": ["Joerg Bohlmann"]
+        },
+        {
+          "session": "2024W",
+          "reported": 19,
+          "average": 95.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 19],
+          "instructors": ["Carl Bohlmann"]
+        },
+        {
+          "session": "2023W",
+          "reported": 16,
+          "average": 92.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 15],
+          "instructors": ["Joerg Bohlmann"]
+        },
+        {
+          "session": "2022W",
+          "reported": 19,
+          "average": 86.6,
+          "grades": [0, 0, 0, 0, 1, 0, 0, 0, 3, 10, 5],
+          "instructors": ["Joerg Bohlmann"]
+        }
+      ]
+    },
+    "BIOL 463": {
+      "reported": 196,
+      "average": 90.3,
+      "grades": [1, 0, 0, 0, 1, 1, 0, 6, 18, 51, 118],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 44,
+          "average": 88.4,
+          "grades": [1, 0, 0, 0, 0, 0, 0, 2, 4, 13, 24],
+          "instructors": ["Pamela Kalas"]
+        },
+        {
+          "session": "2024W",
+          "reported": 36,
+          "average": 91.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 10, 24],
+          "instructors": ["Pamela Kalas"]
+        },
+        {
+          "session": "2023W",
+          "reported": 41,
+          "average": 88.1,
+          "grades": [0, 0, 0, 0, 1, 0, 0, 3, 3, 14, 20],
+          "instructors": ["Pamela Kalas"]
+        },
+        {
+          "session": "2022W",
+          "reported": 37,
+          "average": 86.7,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 1, 9, 14, 12],
+          "instructors": ["Pamela Kalas"]
+        },
+        {
+          "session": "2021W",
+          "reported": 38,
+          "average": 97.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 38],
+          "instructors": ["Sandra Pena Diaz"]
+        }
+      ]
+    },
+    "BIOL 464": {
+      "reported": 120,
+      "average": 89.2,
+      "grades": [0, 0, 0, 0, 1, 2, 3, 4, 8, 23, 72],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 25,
+          "average": 92.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 7, 17],
+          "instructors": ["Kota Mizumoto"]
+        },
+        {
+          "session": "2024W",
+          "reported": 22,
+          "average": 89.2,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 2, 1, 4, 14],
+          "instructors": ["Kota Mizumoto"]
+        },
+        {
+          "session": "2023W",
+          "reported": 23,
+          "average": 84.1,
+          "grades": [0, 0, 0, 0, 1, 1, 2, 2, 3, 8, 6],
+          "instructors": ["Kota Mizumoto"]
+        },
+        {
+          "session": "2022W",
+          "reported": 25,
+          "average": 90.2,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 3, 4, 17],
+          "instructors": ["Kota Mizumoto"]
+        },
+        {
+          "session": "2021W",
+          "reported": 25,
+          "average": 90.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 18],
+          "instructors": ["Kota Mizumoto"]
+        }
+      ]
+    },
+    "BIOL 465": {
+      "reported": 79,
+      "average": 79.6,
+      "grades": [1, 1, 0, 4, 1, 4, 2, 5, 26, 21, 4],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 24,
+          "average": 80.5,
+          "grades": [0, 0, 0, 2, 0, 3, 1, 1, 7, 7, 3],
+          "instructors": ["Eric Taylor"]
+        },
+        {
+          "session": "2023W",
+          "reported": 27,
+          "average": 76.8,
+          "grades": [1, 1, 0, 2, 1, 1, 1, 4, 11, 3, 1],
+          "instructors": ["Eric Taylor"]
+        },
+        {
+          "session": "2021W",
+          "reported": 28,
+          "average": 81.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 8, 11, 0],
+          "instructors": ["Eric Taylor"]
+        }
+      ]
+    },
+    "BIOL 488": {
+      "reported": 80,
+      "average": 90.9,
+      "grades": [1, 0, 0, 1, 1, 0, 0, 1, 1, 13, 62],
+      "terms": [
+        {
+          "session": "2025W",
+          "topic": "A",
+          "title": "Topics in Biology",
+          "reported": 24,
+          "average": 90.6,
+          "grades": [0, 0, 0, 0, 1, 0, 0, 0, 1, 5, 17],
+          "instructors": ["Rachel Germain"]
+        },
+        {
+          "session": "2025W",
+          "topic": "B",
+          "title": "Topics in Biology",
+          "reported": 12,
+          "average": 92.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 11],
+          "instructors": ["Kenji Sugioka"]
+        },
+        {
+          "session": "2024W",
+          "topic": "A",
+          "title": "Topics in Biology",
+          "reported": 24,
+          "average": 92.7,
+          "grades": [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 23],
+          "instructors": ["Bridgette Clarkston", "Jacqueline Chambers"]
+        },
+        {
+          "session": "2024W",
+          "topic": "B",
+          "title": "Topics in Biology",
+          "reported": 20,
+          "average": 88.3,
+          "grades": [0, 0, 0, 1, 0, 0, 0, 1, 0, 7, 11],
+          "instructors": ["Rachel Germain"]
+        }
+      ]
+    },
+    "BIOL 501": {
+      "reported": 86,
+      "average": 86.0,
+      "grades": [1, 0, 0, 0, 0, 0, 0, 3, 28, 27, 23],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 24,
+          "average": 84.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 2, 12, 4, 6],
+          "instructors": ["Dolph Schluter"]
+        },
+        {
+          "session": "2023W",
+          "reported": 22,
+          "average": 82.5,
+          "grades": [1, 0, 0, 0, 0, 0, 0, 1, 7, 10, 3],
+          "instructors": ["Dolph Schluter"]
+        },
+        {
+          "session": "2022W",
+          "reported": 17,
+          "average": 95.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 14],
+          "instructors": ["Beth Volpov"]
+        },
+        {
+          "session": "2021W",
+          "reported": 23,
+          "average": 84.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 8, 11, 0],
+          "instructors": ["Dolph Schluter"]
+        }
+      ]
+    },
+    "BIOL 503": {
+      "reported": 14,
+      "average": 85.4,
+      "grades": [0, 0, 0, 0, 0, 1, 2, 0, 2, 3, 6],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 6,
+          "average": 84.0,
+          "grades": [0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 3],
+          "instructors": ["Laura Parfrey"]
+        },
+        {
+          "session": "2023W",
+          "reported": 8,
+          "average": 86.5,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 1, 3, 3],
+          "instructors": ["Laura Parfrey"]
+        }
+      ]
+    },
+    "BIOL 509": {
+      "reported": 16,
+      "average": 87.6,
+      "grades": [0, 0, 0, 0, 0, 0, 1, 0, 1, 3, 2],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 7,
+          "average": 86.0,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 1, 3, 2],
+          "instructors": ["Michael Whitlock"]
+        },
+        {
+          "session": "2021W",
+          "reported": 9,
+          "average": 88.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Michael Whitlock"]
+        }
+      ]
+    },
+    "BIOL 525": {
+      "reported": 38,
+      "average": 94.4,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 22],
+      "terms": [
+        {
+          "session": "2023W",
+          "topic": "D",
+          "title": "Topics in Systematics and Evolution",
+          "reported": 15,
+          "average": 97.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 13],
+          "instructors": []
+        },
+        {
+          "session": "2022W",
+          "topic": "D",
+          "title": "Topics in Systematics and Evolution",
+          "reported": 10,
+          "average": 98.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 9],
+          "instructors": []
+        },
+        {
+          "session": "2021S",
+          "topic": "B",
+          "title": "Topics in Systematics and Evolution",
+          "reported": 13,
+          "average": 87.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Wayne Maddison"]
+        }
+      ]
+    },
+    "BIOL 530": {
+      "reported": 68,
+      "average": 91.4,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 16, 50],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 13,
+          "average": 87.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 8, 4],
+          "instructors": ["Calvin Roskelley"]
+        },
+        {
+          "session": "2023W",
+          "reported": 25,
+          "average": 91.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 20],
+          "instructors": ["Calvin Roskelley"]
+        },
+        {
+          "session": "2022W",
+          "reported": 16,
+          "average": 91.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 13],
+          "instructors": ["Ninan Abraham"]
+        },
+        {
+          "session": "2021W",
+          "reported": 14,
+          "average": 93.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13],
+          "instructors": ["Ninan Abraham"]
+        }
+      ]
+    },
+    "BIOL 533": {
+      "reported": 9,
+      "average": 81.6,
+      "grades": [0, 0, 0, 0, 0, 1, 1, 0, 6, 0, 1],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 9,
+          "average": 81.6,
+          "grades": [0, 0, 0, 0, 0, 1, 1, 0, 6, 0, 1],
+          "instructors": ["Xin Li"]
+        }
+      ]
+    },
+    "BIOL 537": {
+      "reported": 32,
+      "average": 93.9,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 27],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 16,
+          "average": 95.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16],
+          "instructors": ["David Ng"]
+        },
+        {
+          "session": "2023W",
+          "reported": 16,
+          "average": 92.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 11],
+          "instructors": ["David Ng"]
+        }
+      ]
+    },
+    "BIOL 548": {
+      "reported": 352,
+      "average": 93.9,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 1, 5, 43, 263],
+      "terms": [
+        {
+          "session": "2024W",
+          "topic": "E",
+          "title": "Advanced Topics in Biology",
+          "reported": 14,
+          "average": 96.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14],
+          "instructors": ["Darren Irwin"]
+        },
+        {
+          "session": "2024W",
+          "topic": "F",
+          "title": "Advanced Topics in Biology",
+          "reported": 11,
+          "average": 93.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11],
+          "instructors": ["Patricia Schulte"]
+        },
+        {
+          "session": "2024W",
+          "topic": "G",
+          "title": "Advanced Topics in Biology",
+          "reported": 10,
+          "average": 93.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10],
+          "instructors": ["Jill Jankowski"]
+        },
+        {
+          "session": "2024W",
+          "topic": "I",
+          "title": "Advanced Topics in Biology",
+          "reported": 7,
+          "average": 89.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 4],
+          "instructors": ["Diane Srivastava"]
+        },
+        {
+          "session": "2024W",
+          "topic": "J",
+          "title": "Advanced Topics in Biology",
+          "reported": 13,
+          "average": 96.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 12],
+          "instructors": ["Mary O'Connor"]
+        },
+        {
+          "session": "2024W",
+          "topic": "K",
+          "title": "Advanced Topics in Biology",
+          "reported": 10,
+          "average": 94.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 9],
+          "instructors": ["Patricia Schulte"]
+        },
+        {
+          "session": "2024W",
+          "topic": "L",
+          "title": "Advanced Topics in Biology",
+          "reported": 7,
+          "average": 98.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7],
+          "instructors": ["Kaitlyn Gaynor"]
+        },
+        {
+          "session": "2024W",
+          "topic": "M",
+          "title": "Advanced Topics in Biology",
+          "reported": 9,
+          "average": 91.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 6],
+          "instructors": ["Michelle Tseng"]
+        },
+        {
+          "session": "2024W",
+          "topic": "O",
+          "title": "Advanced Topics in Biology",
+          "reported": 10,
+          "average": 100.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10],
+          "instructors": ["Rachel Germain"]
+        },
+        {
+          "session": "2024W",
+          "topic": "T",
+          "title": "Advanced Topics in Biology",
+          "reported": 11,
+          "average": 95.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 10],
+          "instructors": ["Pierre Rogy"]
+        },
+        {
+          "session": "2024W",
+          "topic": "U",
+          "title": "Advanced Topics in Biology",
+          "reported": 11,
+          "average": 94.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 9],
+          "instructors": ["Pierre Rogy", "Raymond Tak-Yan Ng", "Diane Srivastava"]
+        },
+        {
+          "session": "2023W",
+          "topic": "I",
+          "title": "Advanced Topics in Biology",
+          "reported": 15,
+          "average": 87.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 10, 4],
+          "instructors": ["Diane Srivastava"]
+        },
+        {
+          "session": "2023W",
+          "topic": "K",
+          "title": "Advanced Topics in Biology",
+          "reported": 15,
+          "average": 93.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14],
+          "instructors": ["Patricia Schulte"]
+        },
+        {
+          "session": "2023W",
+          "topic": "L",
+          "title": "Advanced Topics in Biology",
+          "reported": 13,
+          "average": 90.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 9],
+          "instructors": ["Kaitlyn Gaynor"]
+        },
+        {
+          "session": "2023W",
+          "topic": "M",
+          "title": "Advanced Topics in Biology",
+          "reported": 7,
+          "average": 95.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7],
+          "instructors": ["Michelle Tseng"]
+        },
+        {
+          "session": "2023W",
+          "topic": "O",
+          "title": "Advanced Topics in Biology",
+          "reported": 15,
+          "average": 100.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 15],
+          "instructors": ["Rachel Germain"]
+        },
+        {
+          "session": "2023W",
+          "topic": "U",
+          "title": "Advanced Topics in Biology",
+          "reported": 9,
+          "average": 93.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 6],
+          "instructors": ["Sandra Emry", "Raymond Tak-Yan Ng", "Diane Srivastava"]
+        },
+        {
+          "session": "2023W",
+          "topic": "V",
+          "title": "Advanced Topics in Biology",
+          "reported": 6,
+          "average": 88.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 4],
+          "instructors": ["Sandra Emry"]
+        },
+        {
+          "session": "2022W",
+          "topic": "O",
+          "title": "Advanced Topics in Biology",
+          "reported": 7,
+          "average": 100.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7],
+          "instructors": ["Rachel Germain"]
+        },
+        {
+          "session": "2022W",
+          "topic": "T",
+          "title": "Advanced Topics in Biology",
+          "reported": 10,
+          "average": 95.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 8],
+          "instructors": ["Gracielle Teixeira Higino"]
+        },
+        {
+          "session": "2022W",
+          "topic": "U",
+          "title": "Advanced Topics in Biology",
+          "reported": 11,
+          "average": 98.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11],
+          "instructors": ["Rachel Germain", "Gracielle Teixeira Higino", "Raymond Tak-Yan Ng"]
+        },
+        {
+          "session": "2022W",
+          "topic": "V",
+          "title": "Advanced Topics in Biology",
+          "reported": 13,
+          "average": 95.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13],
+          "instructors": ["Gracielle Teixeira Higino"]
+        },
+        {
+          "session": "2022W",
+          "topic": "W",
+          "title": "Advanced Topics in Biology",
+          "reported": 6,
+          "average": 92.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6],
+          "instructors": ["Gracielle Teixeira Higino"]
+        },
+        {
+          "session": "2021W",
+          "topic": "G",
+          "title": "Advanced Topics in Biology",
+          "reported": 7,
+          "average": 95.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7],
+          "instructors": ["Jill Jankowski"]
+        },
+        {
+          "session": "2021W",
+          "topic": "I",
+          "title": "Advanced Topics in Biology",
+          "reported": 17,
+          "average": 87.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 0],
+          "instructors": ["Diane Srivastava"]
+        },
+        {
+          "session": "2021W",
+          "topic": "L",
+          "title": "Advanced Topics in Biology",
+          "reported": 13,
+          "average": 88.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6],
+          "instructors": ["Douglas Altshuler"]
+        },
+        {
+          "session": "2021W",
+          "topic": "O",
+          "title": "Advanced Topics in Biology",
+          "reported": 11,
+          "average": 100.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11],
+          "instructors": ["Rachel Germain"]
+        },
+        {
+          "session": "2021W",
+          "topic": "Q",
+          "title": "Advanced Topics in Biology",
+          "reported": 6,
+          "average": 87.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Philip Matthews"]
+        },
+        {
+          "session": "2021W",
+          "topic": "S",
+          "title": "Advanced Topics in Biology",
+          "reported": 13,
+          "average": 88.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 0],
+          "instructors": ["Ora Johannsson"]
+        },
+        {
+          "session": "2021W",
+          "topic": "T",
+          "title": "Advanced Topics in Biology",
+          "reported": 12,
+          "average": 95.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12],
+          "instructors": ["Gracielle Teixeira Higino", "Diane Srivastava"]
+        },
+        {
+          "session": "2021W",
+          "topic": "U",
+          "title": "Advanced Topics in Biology",
+          "reported": 12,
+          "average": 97.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12],
+          "instructors": ["Gracielle Teixeira Higino", "Raymond Tak-Yan Ng", "Diane Srivastava"]
+        },
+        {
+          "session": "2021W",
+          "topic": "V",
+          "title": "Advanced Topics in Biology",
+          "reported": 11,
+          "average": 93.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9],
+          "instructors": ["Gracielle Teixeira Higino", "Diane Srivastava"]
+        },
+        {
+          "session": "2021W",
+          "topic": "W",
+          "title": "Advanced Topics in Biology",
+          "reported": 10,
+          "average": 90.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Gracielle Teixeira Higino", "Diane Srivastava"]
+        }
+      ]
+    }
+  }
+}

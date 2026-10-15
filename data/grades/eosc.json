@@ -1,0 +1,3479 @@
+{
+  "subject": "EOSC",
+  "campus": "UBCV",
+  "source": "https://ubcgrades.com",
+  "credit": "UBCGrades.com / UBC PAIR",
+  "sessions": ["2021S", "2021W", "2022S", "2022W", "2023S", "2023W", "2024S", "2024W", "2025S", "2025W"],
+  "buckets": ["<50%", "50-54%", "55-59%", "60-63%", "64-67%", "68-71%", "72-75%", "76-79%", "80-84%", "85-89%", "90-100%"],
+  "courses": {
+    "EOSC 110": {
+      "reported": 1668,
+      "average": 77.6,
+      "grades": [37, 22, 47, 60, 76, 132, 180, 192, 304, 313, 262],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 390,
+          "average": 81.3,
+          "grades": [5, 5, 5, 10, 15, 24, 36, 36, 67, 98, 89],
+          "instructors": ["Julie Prytulak", "Brett Gilley", "Shandin Pete"]
+        },
+        {
+          "session": "2024W",
+          "reported": 301,
+          "average": 77.9,
+          "grades": [9, 2, 5, 14, 16, 23, 37, 30, 54, 62, 49],
+          "instructors": ["David Sasse", "Michael Bostock", "Shandin Pete", "Matthew Tarling", "Brett Gilley"]
+        },
+        {
+          "session": "2023W",
+          "reported": 323,
+          "average": 76.8,
+          "grades": [11, 6, 12, 15, 18, 25, 33, 25, 63, 58, 52],
+          "instructors": ["David Sasse", "Brett Gilley", "Shandin Pete"]
+        },
+        {
+          "session": "2022W",
+          "reported": 333,
+          "average": 73.8,
+          "grades": [12, 9, 19, 13, 17, 42, 41, 58, 59, 42, 21],
+          "instructors": ["David Sasse", "Lucy Porritt", "James Kelly Russell", "Brett Gilley", "Laura Lukes", "Shandin Pete"]
+        },
+        {
+          "session": "2021W",
+          "reported": 321,
+          "average": 77.6,
+          "grades": [0, 0, 6, 8, 10, 18, 33, 43, 61, 53, 51],
+          "instructors": ["Robert Marc Bustin", "James Kelly Russell", "Gregory Dipple", "Simon Peacock", "Shandin Pete"]
+        }
+      ]
+    },
+    "EOSC 111": {
+      "reported": 1192,
+      "average": 85.8,
+      "grades": [15, 6, 4, 9, 22, 31, 54, 71, 174, 260, 523],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 234,
+          "average": 83.9,
+          "grades": [3, 1, 1, 4, 4, 7, 14, 20, 38, 69, 73],
+          "instructors": []
+        },
+        {
+          "session": "2024W",
+          "reported": 244,
+          "average": 83.0,
+          "grades": [3, 2, 1, 1, 8, 6, 16, 22, 63, 69, 53],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "reported": 283,
+          "average": 83.7,
+          "grades": [5, 3, 1, 2, 6, 11, 13, 19, 53, 74, 94],
+          "instructors": ["Philippe Tortell"]
+        },
+        {
+          "session": "2022W",
+          "reported": 274,
+          "average": 87.9,
+          "grades": [4, 0, 1, 2, 4, 7, 11, 10, 20, 48, 167],
+          "instructors": ["Philippe Tortell"]
+        },
+        {
+          "session": "2021W",
+          "reported": 157,
+          "average": 93.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 136],
+          "instructors": ["Philippe Tortell"]
+        }
+      ]
+    },
+    "EOSC 112": {
+      "reported": 1242,
+      "average": 76.8,
+      "grades": [63, 42, 56, 42, 61, 91, 106, 127, 165, 197, 288],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 339,
+          "average": 77.4,
+          "grades": [11, 8, 21, 12, 18, 26, 27, 35, 42, 60, 79],
+          "instructors": ["Margot White", "Anais Orsi", "Stephanie Waterman"]
+        },
+        {
+          "session": "2024W",
+          "reported": 169,
+          "average": 79.8,
+          "grades": [7, 2, 7, 3, 8, 8, 13, 16, 26, 35, 44],
+          "instructors": ["Melissa Baker", "Stephanie Block"]
+        },
+        {
+          "session": "2023W",
+          "reported": 230,
+          "average": 79.5,
+          "grades": [7, 5, 4, 5, 8, 15, 23, 27, 38, 34, 60],
+          "instructors": ["Stephanie Block", "Anais Orsi"]
+        },
+        {
+          "session": "2022W",
+          "reported": 209,
+          "average": 73.3,
+          "grades": [15, 12, 14, 8, 13, 21, 18, 18, 22, 29, 39],
+          "instructors": ["Sean Crowe", "Maria Maldonado-Pareja", "Anais Orsi", "Roger Francois"]
+        },
+        {
+          "session": "2021W",
+          "reported": 295,
+          "average": 74.8,
+          "grades": [23, 15, 10, 14, 14, 21, 25, 31, 37, 39, 66],
+          "instructors": ["Stephanie Block", "Anais Orsi", "Roger Francois"]
+        }
+      ]
+    },
+    "EOSC 114": {
+      "reported": 5278,
+      "average": 74.9,
+      "grades": [256, 67, 130, 211, 279, 441, 612, 762, 991, 786, 626],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 767,
+          "average": 75.5,
+          "grades": [37, 6, 24, 33, 32, 58, 83, 110, 155, 130, 99],
+          "instructors": ["Douglas McCollor", "Kendra Chritz", "Lucy Porritt", "Yayla Sezginer", "Simon Peacock", "David Sasse", "Shandin Pete", "Maite Maldonado", "Gabriel Bertolini", "Emma Betz", "Leah May Ver"]
+        },
+        {
+          "session": "2025S",
+          "reported": 60,
+          "average": 74.9,
+          "grades": [4, 3, 2, 1, 1, 2, 8, 8, 10, 8, 13],
+          "instructors": ["Leah May Ver"]
+        },
+        {
+          "session": "2024W",
+          "reported": 902,
+          "average": 75.3,
+          "grades": [45, 11, 31, 36, 60, 65, 105, 140, 164, 134, 111],
+          "instructors": ["Douglas McCollor", "Leah May Ver", "Lucy Porritt", "Simon Peacock", "Mitchall Darcy", "David Sasse", "Michael Bostock", "Michael Lipsen", "Laura Lukes"]
+        },
+        {
+          "session": "2024S",
+          "reported": 79,
+          "average": 75.5,
+          "grades": [3, 2, 1, 0, 2, 7, 16, 10, 17, 14, 7],
+          "instructors": ["Leah May Ver"]
+        },
+        {
+          "session": "2023W",
+          "reported": 1020,
+          "average": 74.0,
+          "grades": [42, 15, 25, 50, 68, 100, 119, 169, 193, 128, 87],
+          "instructors": ["Douglas McCollor", "Lucy Porritt", "Maria Maldonado-Pareja", "Simon Peacock", "Matthijs Smit", "Lindsey Abdale", "Rachel White", "Eldad Haber", "Brett Gilley", "Laura Lukes", "Leah May Ver"]
+        },
+        {
+          "session": "2023S",
+          "reported": 98,
+          "average": 75.9,
+          "grades": [2, 0, 2, 4, 1, 9, 10, 25, 14, 11, 6],
+          "instructors": ["S.m. Talha Qadri"]
+        },
+        {
+          "session": "2022W",
+          "reported": 1085,
+          "average": 73.8,
+          "grades": [54, 22, 30, 57, 63, 115, 147, 142, 198, 153, 104],
+          "instructors": ["Lucy Porritt", "Maria Maldonado-Pareja", "Matthijs Smit", "Mitchall Darcy", "James Kelly Russell", "Roland Stull", "Douglas McCollor", "Leah May Ver", "Brett Gilley"]
+        },
+        {
+          "session": "2022S",
+          "reported": 154,
+          "average": 75.1,
+          "grades": [15, 3, 4, 7, 6, 17, 9, 9, 28, 33, 23],
+          "instructors": ["Leah May Ver"]
+        },
+        {
+          "session": "2021W",
+          "reported": 1002,
+          "average": 75.3,
+          "grades": [54, 5, 11, 23, 46, 62, 101, 139, 191, 152, 152],
+          "instructors": ["Lucy Porritt", "Maria Maldonado-Pareja", "Matthijs Smit", "Connor Turvey", "Roland Stull", "Louise Longridge", "Charles Sammis", "Leah May Ver"]
+        },
+        {
+          "session": "2021S",
+          "reported": 111,
+          "average": 80.3,
+          "grades": [0, 0, 0, 0, 0, 6, 14, 10, 21, 23, 24],
+          "instructors": ["Leah May Ver"]
+        }
+      ]
+    },
+    "EOSC 116": {
+      "reported": 4098,
+      "average": 75.8,
+      "grades": [264, 163, 80, 101, 195, 302, 401, 393, 709, 668, 776],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 548,
+          "average": 75.2,
+          "grades": [40, 32, 12, 22, 26, 24, 56, 50, 96, 86, 104],
+          "instructors": ["Kendra Chritz", "Bruce Archibald", "Louise Longridge"]
+        },
+        {
+          "session": "2025S",
+          "reported": 158,
+          "average": 78.9,
+          "grades": [10, 4, 2, 1, 5, 3, 14, 14, 31, 43, 31],
+          "instructors": ["Louise Longridge"]
+        },
+        {
+          "session": "2024W",
+          "reported": 635,
+          "average": 76.5,
+          "grades": [42, 19, 12, 12, 25, 49, 65, 66, 110, 107, 128],
+          "instructors": ["Stuart Sutherland", "Stewart Bruce Archibald", "Louise Longridge"]
+        },
+        {
+          "session": "2024S",
+          "reported": 141,
+          "average": 76.8,
+          "grades": [11, 4, 0, 4, 3, 13, 12, 11, 30, 25, 28],
+          "instructors": ["Louise Longridge"]
+        },
+        {
+          "session": "2023W",
+          "reported": 548,
+          "average": 74.6,
+          "grades": [34, 13, 10, 24, 44, 52, 53, 48, 83, 72, 92],
+          "instructors": ["Stuart Sutherland", "Kendra Chritz", "Louise Longridge"]
+        },
+        {
+          "session": "2023S",
+          "reported": 135,
+          "average": 73.7,
+          "grades": [10, 8, 4, 3, 5, 7, 14, 14, 18, 20, 23],
+          "instructors": ["Louise Longridge"]
+        },
+        {
+          "session": "2022W",
+          "reported": 694,
+          "average": 75.0,
+          "grades": [55, 18, 22, 16, 37, 45, 80, 64, 131, 103, 123],
+          "instructors": ["Stuart Sutherland", "Louise Longridge"]
+        },
+        {
+          "session": "2022S",
+          "reported": 230,
+          "average": 73.6,
+          "grades": [18, 16, 0, 10, 13, 22, 21, 22, 38, 30, 40],
+          "instructors": ["Louise Longridge"]
+        },
+        {
+          "session": "2021W",
+          "reported": 886,
+          "average": 76.4,
+          "grades": [44, 49, 18, 9, 37, 80, 73, 96, 154, 159, 167],
+          "instructors": ["Louise Longridge", "An Kun Ma"]
+        },
+        {
+          "session": "2021S",
+          "reported": 123,
+          "average": 81.2,
+          "grades": [0, 0, 0, 0, 0, 7, 13, 8, 18, 23, 40],
+          "instructors": ["Louise Longridge"]
+        }
+      ]
+    },
+    "EOSC 118": {
+      "reported": 3269,
+      "average": 78.6,
+      "grades": [89, 27, 36, 91, 168, 252, 356, 398, 614, 621, 547],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 495,
+          "average": 74.2,
+          "grades": [23, 11, 6, 24, 30, 56, 75, 90, 84, 61, 35],
+          "instructors": ["Jim Evans"]
+        },
+        {
+          "session": "2025S",
+          "reported": 70,
+          "average": 81.6,
+          "grades": [4, 0, 0, 0, 2, 3, 7, 7, 8, 10, 29],
+          "instructors": ["Jim Evans"]
+        },
+        {
+          "session": "2024W",
+          "reported": 385,
+          "average": 78.6,
+          "grades": [12, 3, 5, 13, 17, 35, 42, 43, 68, 80, 67],
+          "instructors": ["Robert James Evans"]
+        },
+        {
+          "session": "2024S",
+          "reported": 63,
+          "average": 83.2,
+          "grades": [1, 1, 0, 0, 3, 2, 3, 6, 15, 14, 18],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "reported": 601,
+          "average": 78.2,
+          "grades": [14, 3, 7, 11, 35, 53, 71, 70, 134, 118, 61],
+          "instructors": ["Robert James Evans"]
+        },
+        {
+          "session": "2023S",
+          "reported": 77,
+          "average": 78.2,
+          "grades": [3, 1, 2, 4, 2, 6, 3, 11, 9, 22, 10],
+          "instructors": ["Robert James Evans"]
+        },
+        {
+          "session": "2022W",
+          "reported": 590,
+          "average": 77.3,
+          "grades": [20, 7, 14, 15, 41, 53, 72, 55, 111, 128, 74],
+          "instructors": ["Robert James Evans"]
+        },
+        {
+          "session": "2022S",
+          "reported": 154,
+          "average": 84.1,
+          "grades": [3, 1, 2, 2, 3, 5, 9, 14, 23, 31, 61],
+          "instructors": ["Robert James Evans"]
+        },
+        {
+          "session": "2021W",
+          "reported": 690,
+          "average": 79.4,
+          "grades": [9, 0, 0, 22, 35, 39, 74, 102, 150, 134, 104],
+          "instructors": ["Robert James Evans"]
+        },
+        {
+          "session": "2021S",
+          "reported": 144,
+          "average": 87.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 12, 23, 88],
+          "instructors": ["Robert James Evans"]
+        }
+      ]
+    },
+    "EOSC 210": {
+      "reported": 1091,
+      "average": 73.6,
+      "grades": [13, 30, 58, 81, 114, 120, 166, 178, 176, 104, 50],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 238,
+          "average": 75.1,
+          "grades": [2, 4, 6, 13, 25, 32, 27, 43, 49, 30, 7],
+          "instructors": ["Ali Ameli", "Brett Gilley", "Jason Yeung"]
+        },
+        {
+          "session": "2024W",
+          "reported": 233,
+          "average": 77.5,
+          "grades": [0, 4, 3, 7, 16, 19, 38, 51, 46, 30, 19],
+          "instructors": ["David Sasse", "Ali Ameli"]
+        },
+        {
+          "session": "2023W",
+          "reported": 216,
+          "average": 72.5,
+          "grades": [2, 4, 15, 19, 23, 33, 34, 32, 32, 14, 7],
+          "instructors": ["Erik Eberhardt", "Asieh Hamidi"]
+        },
+        {
+          "session": "2022W",
+          "reported": 223,
+          "average": 72.4,
+          "grades": [3, 5, 17, 20, 26, 25, 46, 26, 23, 21, 11],
+          "instructors": ["Erik Eberhardt", "Susan Hollingshead"]
+        },
+        {
+          "session": "2021W",
+          "reported": 181,
+          "average": 69.5,
+          "grades": [6, 13, 17, 22, 24, 11, 21, 26, 26, 9, 6],
+          "instructors": ["Erik Eberhardt", "Susan Hollingshead"]
+        }
+      ]
+    },
+    "EOSC 211": {
+      "reported": 512,
+      "average": 83.2,
+      "grades": [5, 1, 2, 4, 12, 17, 33, 54, 94, 122, 154],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 112,
+          "average": 83.3,
+          "grades": [3, 0, 0, 1, 2, 2, 8, 14, 15, 33, 34],
+          "instructors": ["Catherine Johnson"]
+        },
+        {
+          "session": "2024W",
+          "reported": 104,
+          "average": 86.0,
+          "grades": [0, 1, 0, 1, 4, 2, 4, 8, 20, 19, 45],
+          "instructors": ["Catherine Johnson"]
+        },
+        {
+          "session": "2023W",
+          "reported": 94,
+          "average": 86.5,
+          "grades": [0, 0, 0, 0, 2, 2, 4, 8, 19, 22, 37],
+          "instructors": ["Catherine Johnson", "Luke Brown", "Francis Rossmann"]
+        },
+        {
+          "session": "2022W",
+          "reported": 109,
+          "average": 82.0,
+          "grades": [2, 0, 2, 2, 4, 5, 10, 10, 22, 21, 31],
+          "instructors": ["Catherine Johnson"]
+        },
+        {
+          "session": "2021W",
+          "reported": 93,
+          "average": 77.8,
+          "grades": [0, 0, 0, 0, 0, 6, 7, 14, 18, 27, 7],
+          "instructors": ["Catherine Johnson", "Philip Austin"]
+        }
+      ]
+    },
+    "EOSC 212": {
+      "reported": 277,
+      "average": 84.0,
+      "grades": [4, 0, 2, 4, 4, 10, 11, 26, 35, 79, 92],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 61,
+          "average": 82.9,
+          "grades": [1, 0, 0, 1, 1, 6, 2, 5, 14, 16, 15],
+          "instructors": ["Mark Jellinek"]
+        },
+        {
+          "session": "2024W",
+          "reported": 59,
+          "average": 84.5,
+          "grades": [1, 0, 0, 0, 2, 1, 2, 9, 7, 17, 20],
+          "instructors": ["Andrew Jellinek"]
+        },
+        {
+          "session": "2023W",
+          "reported": 58,
+          "average": 85.3,
+          "grades": [1, 0, 1, 0, 1, 2, 1, 4, 6, 20, 22],
+          "instructors": ["Andrew Jellinek"]
+        },
+        {
+          "session": "2022W",
+          "reported": 52,
+          "average": 81.6,
+          "grades": [1, 0, 1, 3, 0, 1, 6, 8, 8, 10, 14],
+          "instructors": ["Andrew Jellinek"]
+        },
+        {
+          "session": "2021W",
+          "reported": 47,
+          "average": 86.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 21],
+          "instructors": ["Andrew Jellinek"]
+        }
+      ]
+    },
+    "EOSC 213": {
+      "reported": 137,
+      "average": 78.8,
+      "grades": [6, 7, 4, 4, 7, 7, 8, 2, 9, 14, 54],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 33,
+          "average": 72.8,
+          "grades": [2, 2, 1, 1, 4, 5, 2, 2, 5, 7, 2],
+          "instructors": ["Shadab Ahamed"]
+        },
+        {
+          "session": "2024W",
+          "reported": 26,
+          "average": 90.5,
+          "grades": [1, 0, 0, 0, 0, 0, 0, 0, 1, 4, 20],
+          "instructors": ["Eldad Haber"]
+        },
+        {
+          "session": "2023W",
+          "reported": 30,
+          "average": 88.5,
+          "grades": [1, 1, 0, 0, 0, 0, 2, 0, 3, 1, 21],
+          "instructors": ["Eldad Haber"]
+        },
+        {
+          "session": "2022W",
+          "reported": 27,
+          "average": 65.4,
+          "grades": [2, 4, 3, 3, 3, 2, 4, 0, 0, 2, 4],
+          "instructors": ["Eldad Haber"]
+        },
+        {
+          "session": "2021W",
+          "reported": 21,
+          "average": 77.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7],
+          "instructors": ["Eldad Haber"]
+        }
+      ]
+    },
+    "EOSC 220": {
+      "reported": 342,
+      "average": 71.9,
+      "grades": [15, 8, 20, 16, 24, 43, 43, 28, 62, 39, 20],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 71,
+          "average": 71.8,
+          "grades": [4, 2, 6, 7, 6, 5, 6, 5, 16, 9, 5],
+          "instructors": ["Lucy Porritt"]
+        },
+        {
+          "session": "2024W",
+          "reported": 77,
+          "average": 73.0,
+          "grades": [4, 2, 5, 1, 5, 8, 9, 9, 18, 14, 2],
+          "instructors": ["Lucy Porritt"]
+        },
+        {
+          "session": "2023W",
+          "reported": 75,
+          "average": 71.6,
+          "grades": [4, 3, 7, 3, 6, 9, 11, 3, 11, 10, 6],
+          "instructors": ["Lucy Porritt"]
+        },
+        {
+          "session": "2022W",
+          "reported": 63,
+          "average": 72.6,
+          "grades": [3, 1, 2, 5, 7, 9, 8, 4, 11, 6, 7],
+          "instructors": ["Lucy Porritt"]
+        },
+        {
+          "session": "2021W",
+          "reported": 56,
+          "average": 70.2,
+          "grades": [0, 0, 0, 0, 0, 12, 9, 7, 6, 0, 0],
+          "instructors": ["James Stewart Scoates"]
+        }
+      ]
+    },
+    "EOSC 221": {
+      "reported": 284,
+      "average": 72.2,
+      "grades": [14, 2, 18, 23, 23, 35, 35, 32, 48, 25, 8],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 57,
+          "average": 68.3,
+          "grades": [6, 0, 8, 7, 5, 3, 6, 4, 13, 3, 2],
+          "instructors": ["Stuart Sutherland", "Maya Kopylova"]
+        },
+        {
+          "session": "2024W",
+          "reported": 63,
+          "average": 73.4,
+          "grades": [3, 1, 3, 4, 3, 8, 10, 10, 16, 5, 0],
+          "instructors": ["Stuart Sutherland", "Maya Kopylova"]
+        },
+        {
+          "session": "2023W",
+          "reported": 56,
+          "average": 71.9,
+          "grades": [3, 0, 2, 4, 9, 8, 11, 4, 6, 6, 2],
+          "instructors": ["Stuart Sutherland", "Maya Kopylova"]
+        },
+        {
+          "session": "2022W",
+          "reported": 54,
+          "average": 73.8,
+          "grades": [2, 1, 5, 1, 6, 8, 8, 5, 3, 11, 4],
+          "instructors": ["Stuart Sutherland", "Maya Kopylova"]
+        },
+        {
+          "session": "2021W",
+          "reported": 54,
+          "average": 73.6,
+          "grades": [0, 0, 0, 7, 0, 8, 0, 9, 10, 0, 0],
+          "instructors": ["Lucy Porritt", "Maya Kopylova"]
+        }
+      ]
+    },
+    "EOSC 222": {
+      "reported": 234,
+      "average": 75.2,
+      "grades": [9, 11, 8, 13, 22, 8, 13, 17, 33, 39, 40],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 57,
+          "average": 73.3,
+          "grades": [4, 5, 3, 4, 2, 2, 3, 6, 5, 14, 9],
+          "instructors": ["Stuart Sutherland", "Louise Longridge"]
+        },
+        {
+          "session": "2024W",
+          "reported": 38,
+          "average": 77.7,
+          "grades": [1, 3, 1, 2, 2, 1, 3, 0, 11, 6, 8],
+          "instructors": ["Stuart Sutherland", "Louise Longridge"]
+        },
+        {
+          "session": "2023W",
+          "reported": 54,
+          "average": 76.3,
+          "grades": [2, 2, 2, 4, 6, 2, 3, 6, 7, 4, 14],
+          "instructors": ["Stuart Sutherland", "Louise Longridge"]
+        },
+        {
+          "session": "2022W",
+          "reported": 50,
+          "average": 76.5,
+          "grades": [2, 1, 2, 3, 3, 3, 4, 5, 10, 8, 9],
+          "instructors": ["Stuart Sutherland"]
+        },
+        {
+          "session": "2021W",
+          "reported": 35,
+          "average": 72.3,
+          "grades": [0, 0, 0, 0, 9, 0, 0, 0, 0, 7, 0],
+          "instructors": ["Stuart Sutherland", "Lucian Rinke-Hardekopf"]
+        }
+      ]
+    },
+    "EOSC 223": {
+      "reported": 250,
+      "average": 74.4,
+      "grades": [6, 0, 4, 6, 15, 39, 51, 50, 46, 19, 3],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 49,
+          "average": 73.6,
+          "grades": [4, 0, 2, 2, 2, 7, 6, 7, 11, 8, 0],
+          "instructors": ["Joel Edward Saylor", "Mitch d'Arcy", "Lucy Porritt", "Simon Peacock", "Brett Gilley"]
+        },
+        {
+          "session": "2024W",
+          "reported": 58,
+          "average": 75.2,
+          "grades": [0, 0, 1, 2, 6, 6, 12, 14, 15, 2, 0],
+          "instructors": ["Kirsten Hodge", "Simon Peacock", "Brett Gilley", "Mitchall Darcy"]
+        },
+        {
+          "session": "2023W",
+          "reported": 55,
+          "average": 74.2,
+          "grades": [2, 0, 0, 2, 5, 6, 14, 15, 4, 5, 2],
+          "instructors": ["Lucy Porritt", "Joel Edward Saylor", "Simon Peacock", "Mitchall Darcy"]
+        },
+        {
+          "session": "2022W",
+          "reported": 43,
+          "average": 76.1,
+          "grades": [0, 0, 1, 0, 2, 8, 12, 7, 8, 4, 1],
+          "instructors": ["Joel Edward Saylor", "Lucy Porritt", "Simon Peacock", "Alexander Paul Hughes", "Mitchall Darcy"]
+        },
+        {
+          "session": "2021W",
+          "reported": 45,
+          "average": 72.9,
+          "grades": [0, 0, 0, 0, 0, 12, 7, 7, 8, 0, 0],
+          "instructors": ["Joel Edward Saylor", "Gregory Dipple", "Lucy Porritt", "Simon Peacock", "Mitchall Darcy"]
+        }
+      ]
+    },
+    "EOSC 240": {
+      "reported": 116,
+      "average": 80.6,
+      "grades": [0, 0, 1, 2, 4, 4, 8, 25, 32, 20, 14],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 27,
+          "average": 80.4,
+          "grades": [0, 0, 0, 0, 2, 2, 2, 8, 3, 6, 4],
+          "instructors": ["Jason Yeung"]
+        },
+        {
+          "session": "2024W",
+          "reported": 22,
+          "average": 81.9,
+          "grades": [0, 0, 0, 2, 0, 1, 0, 3, 7, 4, 5],
+          "instructors": ["Jason Yeung"]
+        },
+        {
+          "session": "2023W",
+          "reported": 24,
+          "average": 81.8,
+          "grades": [0, 0, 0, 0, 1, 0, 3, 1, 10, 8, 1],
+          "instructors": ["Jason Yeung"]
+        },
+        {
+          "session": "2022W",
+          "reported": 23,
+          "average": 79.9,
+          "grades": [0, 0, 1, 0, 1, 1, 3, 5, 6, 2, 4],
+          "instructors": ["Susan Hollingshead", "Jason Yeung"]
+        },
+        {
+          "session": "2021W",
+          "reported": 20,
+          "average": 79.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 8, 6, 0, 0],
+          "instructors": ["Susan Hollingshead"]
+        }
+      ]
+    },
+    "EOSC 250": {
+      "reported": 68,
+      "average": 75.8,
+      "grades": [2, 3, 2, 6, 5, 4, 5, 5, 10, 5, 12],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 22,
+          "average": 67.4,
+          "grades": [2, 1, 2, 3, 3, 4, 1, 2, 0, 2, 2],
+          "instructors": ["Christian Schoof"]
+        },
+        {
+          "session": "2024W",
+          "reported": 14,
+          "average": 84.6,
+          "grades": [0, 0, 0, 0, 0, 0, 2, 1, 5, 2, 4],
+          "instructors": ["Lualawi Admasu"]
+        },
+        {
+          "session": "2023W",
+          "reported": 16,
+          "average": 78.0,
+          "grades": [0, 1, 0, 2, 2, 0, 1, 1, 2, 1, 5],
+          "instructors": ["Christian Schoof"]
+        },
+        {
+          "session": "2022W",
+          "reported": 8,
+          "average": 75.0,
+          "grades": [0, 1, 0, 1, 0, 0, 1, 1, 3, 0, 1],
+          "instructors": ["Christian Schoof"]
+        },
+        {
+          "session": "2021W",
+          "reported": 8,
+          "average": 80.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Christian Schoof"]
+        }
+      ]
+    },
+    "EOSC 270": {
+      "reported": 314,
+      "average": 79.7,
+      "grades": [9, 4, 5, 6, 10, 12, 19, 17, 101, 65, 51],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 57,
+          "average": 80.7,
+          "grades": [2, 0, 0, 0, 1, 4, 2, 7, 22, 6, 13],
+          "instructors": ["Brian Hunt"]
+        },
+        {
+          "session": "2024W",
+          "reported": 38,
+          "average": 80.7,
+          "grades": [1, 1, 0, 1, 2, 1, 2, 6, 7, 9, 8],
+          "instructors": ["Jacob Lerner"]
+        },
+        {
+          "session": "2023W",
+          "reported": 77,
+          "average": 76.9,
+          "grades": [4, 3, 3, 2, 3, 6, 4, 4, 23, 15, 9],
+          "instructors": ["Brian Hunt"]
+        },
+        {
+          "session": "2022W",
+          "reported": 62,
+          "average": 78.9,
+          "grades": [2, 0, 2, 3, 4, 1, 5, 0, 21, 16, 8],
+          "instructors": ["Brian Hunt"]
+        },
+        {
+          "session": "2021W",
+          "reported": 80,
+          "average": 81.8,
+          "grades": [0, 0, 0, 0, 0, 0, 6, 0, 28, 19, 13],
+          "instructors": ["Brian Hunt"]
+        }
+      ]
+    },
+    "EOSC 310": {
+      "reported": 1600,
+      "average": 77.3,
+      "grades": [59, 23, 42, 45, 90, 127, 178, 165, 265, 234, 327],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 349,
+          "average": 77.6,
+          "grades": [19, 15, 3, 3, 11, 23, 42, 36, 67, 60, 70],
+          "instructors": ["Stuart Sutherland"]
+        },
+        {
+          "session": "2024W",
+          "reported": 284,
+          "average": 78.1,
+          "grades": [2, 3, 10, 14, 17, 27, 27, 38, 48, 51, 47],
+          "instructors": ["Stuart Sutherland"]
+        },
+        {
+          "session": "2023W",
+          "reported": 166,
+          "average": 76.8,
+          "grades": [4, 4, 7, 5, 12, 16, 20, 14, 33, 15, 29],
+          "instructors": ["Stuart Sutherland"]
+        },
+        {
+          "session": "2023S",
+          "reported": 45,
+          "average": 71.3,
+          "grades": [4, 0, 0, 3, 3, 3, 5, 4, 6, 1, 10],
+          "instructors": ["S.m. Talha Qadri"]
+        },
+        {
+          "session": "2022W",
+          "reported": 221,
+          "average": 73.6,
+          "grades": [17, 0, 9, 8, 11, 19, 31, 24, 34, 37, 31],
+          "instructors": ["Kirsten Hodge", "S.m. Talha Qadri"]
+        },
+        {
+          "session": "2022S",
+          "reported": 95,
+          "average": 81.8,
+          "grades": [6, 1, 3, 3, 4, 4, 9, 5, 6, 8, 46],
+          "instructors": ["S.m. Talha Qadri"]
+        },
+        {
+          "session": "2021W",
+          "reported": 340,
+          "average": 76.8,
+          "grades": [7, 0, 10, 9, 32, 35, 44, 35, 50, 43, 58],
+          "instructors": ["Kirsten Hodge", "S.M. Talha Qadri"]
+        },
+        {
+          "session": "2021S",
+          "reported": 100,
+          "average": 83.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 9, 21, 19, 36],
+          "instructors": ["Kirsten Hodge"]
+        }
+      ]
+    },
+    "EOSC 311": {
+      "reported": 273,
+      "average": 80.3,
+      "grades": [6, 6, 3, 4, 7, 15, 8, 27, 62, 63, 64],
+      "terms": [
+        {
+          "session": "2025S",
+          "reported": 46,
+          "average": 85.3,
+          "grades": [2, 0, 0, 0, 0, 0, 1, 2, 6, 12, 23],
+          "instructors": ["David Sasse"]
+        },
+        {
+          "session": "2024S",
+          "reported": 41,
+          "average": 78.6,
+          "grades": [0, 3, 1, 2, 2, 2, 0, 6, 9, 12, 4],
+          "instructors": ["Lucy Porritt"]
+        },
+        {
+          "session": "2023S",
+          "reported": 55,
+          "average": 75.0,
+          "grades": [4, 1, 1, 2, 1, 7, 2, 6, 15, 10, 4],
+          "instructors": ["Lucy Porritt"]
+        },
+        {
+          "session": "2022S",
+          "reported": 78,
+          "average": 80.4,
+          "grades": [0, 2, 1, 0, 4, 6, 5, 13, 20, 14, 13],
+          "instructors": ["Lucy Porritt"]
+        },
+        {
+          "session": "2021S",
+          "reported": 53,
+          "average": 82.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 12, 15, 20],
+          "instructors": ["Lucy Porritt"]
+        }
+      ]
+    },
+    "EOSC 314": {
+      "reported": 555,
+      "average": 73.3,
+      "grades": [32, 16, 19, 15, 16, 34, 66, 71, 77, 91, 55],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 139,
+          "average": 74.4,
+          "grades": [12, 3, 8, 5, 4, 4, 12, 15, 28, 29, 19],
+          "instructors": ["Leah May Ver"]
+        },
+        {
+          "session": "2025S",
+          "reported": 83,
+          "average": 77.6,
+          "grades": [5, 1, 4, 3, 1, 3, 5, 11, 12, 23, 15],
+          "instructors": ["Leah May Ver"]
+        },
+        {
+          "session": "2024W",
+          "reported": 92,
+          "average": 74.6,
+          "grades": [7, 2, 4, 2, 3, 6, 11, 10, 14, 22, 11],
+          "instructors": ["Leah May Ver"]
+        },
+        {
+          "session": "2023W",
+          "reported": 68,
+          "average": 71.6,
+          "grades": [4, 7, 0, 2, 3, 6, 4, 12, 15, 8, 4],
+          "instructors": ["Leah May Ver"]
+        },
+        {
+          "session": "2023S",
+          "reported": 11,
+          "average": 68.1,
+          "grades": [0, 0, 1, 2, 1, 1, 1, 1, 1, 0, 0],
+          "instructors": ["Leah May Ver"]
+        },
+        {
+          "session": "2022W",
+          "reported": 55,
+          "average": 72.5,
+          "grades": [4, 3, 2, 1, 4, 3, 12, 10, 7, 3, 6],
+          "instructors": ["Leah May Ver"]
+        },
+        {
+          "session": "2021W",
+          "reported": 80,
+          "average": 68.7,
+          "grades": [0, 0, 0, 0, 0, 11, 13, 6, 0, 6, 0],
+          "instructors": ["Leah May Ver"]
+        },
+        {
+          "session": "2021S",
+          "reported": 27,
+          "average": 72.7,
+          "grades": [0, 0, 0, 0, 0, 0, 8, 6, 0, 0, 0],
+          "instructors": ["Leah May Ver"]
+        }
+      ]
+    },
+    "EOSC 315": {
+      "reported": 1378,
+      "average": 78.5,
+      "grades": [35, 31, 15, 24, 55, 70, 127, 196, 276, 299, 213],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 261,
+          "average": 77.8,
+          "grades": [13, 15, 1, 1, 5, 8, 22, 39, 62, 58, 37],
+          "instructors": ["Michael Lipsen", "Alexis Bahl"]
+        },
+        {
+          "session": "2024W",
+          "reported": 290,
+          "average": 82.2,
+          "grades": [6, 0, 3, 4, 6, 11, 19, 29, 62, 93, 57],
+          "instructors": ["Sean Yokoyama", "Michael Lipsen", "Alexis Bahl"]
+        },
+        {
+          "session": "2024S",
+          "reported": 47,
+          "average": 75.0,
+          "grades": [3, 2, 2, 3, 2, 2, 4, 6, 10, 7, 6],
+          "instructors": ["Michael Lipsen"]
+        },
+        {
+          "session": "2023W",
+          "reported": 274,
+          "average": 76.2,
+          "grades": [4, 10, 4, 9, 20, 27, 33, 46, 47, 44, 24],
+          "instructors": ["Michael Lipsen", "Alexis Bahl"]
+        },
+        {
+          "session": "2022W",
+          "reported": 204,
+          "average": 78.6,
+          "grades": [5, 3, 2, 5, 11, 9, 15, 45, 33, 43, 33],
+          "instructors": ["Michael Lipsen"]
+        },
+        {
+          "session": "2022S",
+          "reported": 63,
+          "average": 73.2,
+          "grades": [4, 1, 3, 2, 11, 3, 9, 2, 9, 11, 8],
+          "instructors": ["Michael Lipsen"]
+        },
+        {
+          "session": "2021W",
+          "reported": 239,
+          "average": 79.5,
+          "grades": [0, 0, 0, 0, 0, 10, 25, 29, 53, 43, 48],
+          "instructors": ["Michael Lipsen"]
+        }
+      ]
+    },
+    "EOSC 320": {
+      "reported": 149,
+      "average": 73.2,
+      "grades": [3, 15, 9, 8, 5, 9, 9, 9, 19, 18, 20],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 23,
+          "average": 73.8,
+          "grades": [0, 1, 3, 3, 0, 3, 4, 0, 4, 1, 4],
+          "instructors": ["Robert Marc Bustin"]
+        },
+        {
+          "session": "2024W",
+          "reported": 32,
+          "average": 81.6,
+          "grades": [0, 1, 0, 1, 0, 1, 3, 5, 9, 4, 8],
+          "instructors": ["Gabriel Bertolini"]
+        },
+        {
+          "session": "2023W",
+          "reported": 33,
+          "average": 73.5,
+          "grades": [2, 3, 1, 0, 2, 5, 1, 2, 3, 10, 3],
+          "instructors": ["Robert Marc Bustin"]
+        },
+        {
+          "session": "2022W",
+          "reported": 31,
+          "average": 69.2,
+          "grades": [1, 4, 5, 4, 3, 0, 1, 2, 3, 3, 5],
+          "instructors": ["Robert Marc Bustin"]
+        },
+        {
+          "session": "2021W",
+          "reported": 30,
+          "average": 67.8,
+          "grades": [0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Robert Marc Bustin"]
+        }
+      ]
+    },
+    "EOSC 321": {
+      "reported": 142,
+      "average": 72.9,
+      "grades": [8, 0, 5, 12, 10, 11, 16, 18, 20, 19, 5],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 21,
+          "average": 74.2,
+          "grades": [2, 0, 0, 2, 1, 1, 2, 6, 4, 3, 0],
+          "instructors": ["Maya Kopylova"]
+        },
+        {
+          "session": "2024W",
+          "reported": 21,
+          "average": 72.7,
+          "grades": [1, 0, 1, 3, 3, 1, 4, 2, 3, 1, 2],
+          "instructors": ["Maya Kopylova"]
+        },
+        {
+          "session": "2023W",
+          "reported": 36,
+          "average": 71.6,
+          "grades": [2, 0, 3, 4, 4, 2, 3, 5, 7, 4, 1],
+          "instructors": ["Maya Kopylova"]
+        },
+        {
+          "session": "2022W",
+          "reported": 39,
+          "average": 72.8,
+          "grades": [3, 0, 1, 3, 2, 7, 7, 5, 6, 3, 2],
+          "instructors": ["Maya Kopylova"]
+        },
+        {
+          "session": "2021W",
+          "reported": 25,
+          "average": 74.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 0],
+          "instructors": ["Maya Kopylova"]
+        }
+      ]
+    },
+    "EOSC 322": {
+      "reported": 162,
+      "average": 79.0,
+      "grades": [1, 3, 2, 5, 4, 5, 12, 14, 29, 33, 23],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 35,
+          "average": 83.0,
+          "grades": [0, 0, 0, 0, 1, 0, 5, 6, 7, 10, 6],
+          "instructors": ["Simon Peacock"]
+        },
+        {
+          "session": "2024W",
+          "reported": 37,
+          "average": 78.6,
+          "grades": [0, 2, 1, 1, 1, 2, 5, 3, 9, 9, 4],
+          "instructors": ["Simon Peacock"]
+        },
+        {
+          "session": "2023W",
+          "reported": 34,
+          "average": 78.5,
+          "grades": [1, 1, 1, 3, 2, 1, 0, 3, 6, 11, 4],
+          "instructors": ["Simon Peacock"]
+        },
+        {
+          "session": "2022W",
+          "reported": 20,
+          "average": 80.5,
+          "grades": [0, 0, 0, 1, 0, 2, 2, 2, 7, 3, 3],
+          "instructors": ["Simon Peacock"]
+        },
+        {
+          "session": "2021W",
+          "reported": 36,
+          "average": 75.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6],
+          "instructors": ["Gregory Dipple", "Simon Peacock"]
+        }
+      ]
+    },
+    "EOSC 323": {
+      "reported": 245,
+      "average": 77.5,
+      "grades": [2, 1, 5, 8, 25, 15, 22, 21, 49, 38, 39],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 54,
+          "average": 76.4,
+          "grades": [1, 0, 1, 6, 3, 3, 8, 6, 11, 10, 5],
+          "instructors": ["Matthew Tarling"]
+        },
+        {
+          "session": "2024W",
+          "reported": 48,
+          "average": 78.6,
+          "grades": [0, 0, 1, 1, 4, 5, 4, 8, 11, 6, 8],
+          "instructors": ["Lucy Porritt"]
+        },
+        {
+          "session": "2023W",
+          "reported": 50,
+          "average": 80.4,
+          "grades": [0, 0, 2, 1, 6, 3, 3, 3, 10, 9, 13],
+          "instructors": ["Lori Kennedy"]
+        },
+        {
+          "session": "2022W",
+          "reported": 44,
+          "average": 77.9,
+          "grades": [1, 1, 1, 0, 4, 4, 7, 4, 10, 6, 6],
+          "instructors": ["Lori Kennedy", "Lucy Porritt"]
+        },
+        {
+          "session": "2021W",
+          "reported": 49,
+          "average": 74.3,
+          "grades": [0, 0, 0, 0, 8, 0, 0, 0, 7, 7, 7],
+          "instructors": ["Lori Kennedy", "Lucy Porritt"]
+        }
+      ]
+    },
+    "EOSC 325": {
+      "reported": 278,
+      "average": 78.7,
+      "grades": [0, 5, 8, 9, 18, 29, 19, 23, 43, 48, 55],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 34,
+          "average": 77.8,
+          "grades": [0, 1, 2, 1, 4, 4, 2, 4, 3, 7, 6],
+          "instructors": ["Ali Ameli", "Cansu Culha", "Shandin Pete"]
+        },
+        {
+          "session": "2024W",
+          "reported": 50,
+          "average": 79.2,
+          "grades": [0, 1, 2, 1, 3, 8, 4, 4, 7, 9, 11],
+          "instructors": ["Ali Ameli"]
+        },
+        {
+          "session": "2023W",
+          "reported": 77,
+          "average": 76.9,
+          "grades": [0, 2, 4, 5, 7, 10, 5, 7, 14, 11, 11],
+          "instructors": ["Ali Ameli"]
+        },
+        {
+          "session": "2022W",
+          "reported": 74,
+          "average": 82.1,
+          "grades": [0, 1, 0, 2, 4, 7, 8, 2, 10, 21, 19],
+          "instructors": ["Ali Ameli"]
+        },
+        {
+          "session": "2021W",
+          "reported": 43,
+          "average": 75.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 6, 9, 0, 8],
+          "instructors": ["Ali Ameli"]
+        }
+      ]
+    },
+    "EOSC 326": {
+      "reported": 938,
+      "average": 76.6,
+      "grades": [31, 26, 8, 24, 51, 67, 126, 97, 167, 153, 137],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 29,
+          "average": 80.8,
+          "grades": [1, 0, 0, 0, 1, 1, 5, 2, 9, 4, 6],
+          "instructors": ["David Sasse", "Louise Longridge"]
+        },
+        {
+          "session": "2025S",
+          "reported": 76,
+          "average": 78.1,
+          "grades": [2, 0, 0, 2, 2, 11, 15, 8, 10, 10, 16],
+          "instructors": ["Louise Longridge"]
+        },
+        {
+          "session": "2024W",
+          "reported": 121,
+          "average": 76.8,
+          "grades": [2, 6, 1, 3, 9, 10, 19, 12, 19, 25, 15],
+          "instructors": ["Laura Lukes", "Louise Longridge"]
+        },
+        {
+          "session": "2024S",
+          "reported": 48,
+          "average": 72.1,
+          "grades": [5, 1, 0, 0, 6, 2, 6, 6, 11, 5, 6],
+          "instructors": ["Louise Longridge"]
+        },
+        {
+          "session": "2023W",
+          "reported": 154,
+          "average": 76.4,
+          "grades": [7, 3, 4, 5, 8, 7, 22, 21, 29, 23, 22],
+          "instructors": ["Laura Lukes", "Louise Longridge"]
+        },
+        {
+          "session": "2023S",
+          "reported": 80,
+          "average": 75.4,
+          "grades": [2, 7, 0, 0, 6, 6, 11, 12, 14, 10, 8],
+          "instructors": ["Louise Longridge"]
+        },
+        {
+          "session": "2022W",
+          "reported": 139,
+          "average": 77.4,
+          "grades": [2, 5, 2, 10, 7, 15, 11, 15, 25, 24, 23],
+          "instructors": ["Laura Lukes", "Louise Longridge"]
+        },
+        {
+          "session": "2022S",
+          "reported": 67,
+          "average": 75.1,
+          "grades": [4, 4, 1, 4, 6, 8, 3, 3, 8, 15, 11],
+          "instructors": ["Louise Longridge"]
+        },
+        {
+          "session": "2021W",
+          "reported": 181,
+          "average": 77.2,
+          "grades": [6, 0, 0, 0, 6, 7, 22, 18, 31, 37, 30],
+          "instructors": ["Stuart Sutherland", "Laura Lukes", "Louise Longridge"]
+        },
+        {
+          "session": "2021S",
+          "reported": 43,
+          "average": 76.3,
+          "grades": [0, 0, 0, 0, 0, 0, 12, 0, 11, 0, 0],
+          "instructors": ["Louise Longridge"]
+        }
+      ]
+    },
+    "EOSC 328": {
+      "reported": 114,
+      "average": 77.5,
+      "grades": [0, 2, 1, 7, 6, 1, 12, 17, 30, 18, 5],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 27,
+          "average": 82.6,
+          "grades": [0, 0, 0, 0, 1, 1, 2, 3, 8, 9, 3],
+          "instructors": ["James Stewart Scoates", "Kenneth Hickey", "Matthijs Smit"]
+        },
+        {
+          "session": "2023W",
+          "reported": 30,
+          "average": 81.3,
+          "grades": [0, 0, 0, 1, 1, 0, 3, 4, 10, 9, 2],
+          "instructors": ["Joel Edward Saylor", "Kenneth Hickey", "Matthijs Smit", "James Stewart Scoates"]
+        },
+        {
+          "session": "2022W",
+          "reported": 24,
+          "average": 68.3,
+          "grades": [0, 2, 1, 6, 4, 0, 7, 1, 3, 0, 0],
+          "instructors": ["Joel Edward Saylor", "Cassady Harraden", "Matthijs Smit", "Brett Gilley", "Andrew Steiner"]
+        },
+        {
+          "session": "2021W",
+          "reported": 33,
+          "average": 76.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 9, 9, 0, 0],
+          "instructors": ["Joel Edward Saylor", "Kenneth Hickey", "Matthijs Smit", "James Stewart Scoates"]
+        }
+      ]
+    },
+    "EOSC 329": {
+      "reported": 321,
+      "average": 77.4,
+      "grades": [3, 5, 4, 14, 23, 23, 39, 46, 54, 56, 46],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 97,
+          "average": 76.6,
+          "grades": [1, 2, 2, 9, 5, 8, 13, 15, 15, 12, 15],
+          "instructors": ["Ulrich Mayer"]
+        },
+        {
+          "session": "2024W",
+          "reported": 79,
+          "average": 80.6,
+          "grades": [0, 1, 0, 3, 2, 5, 8, 9, 14, 24, 13],
+          "instructors": ["Ulrich Mayer"]
+        },
+        {
+          "session": "2023W",
+          "reported": 45,
+          "average": 76.7,
+          "grades": [1, 1, 1, 1, 4, 2, 5, 9, 8, 5, 7],
+          "instructors": ["Ulrich Mayer"]
+        },
+        {
+          "session": "2022W",
+          "reported": 32,
+          "average": 75.6,
+          "grades": [1, 1, 1, 1, 6, 2, 2, 4, 4, 8, 2],
+          "instructors": ["Shane O'Neill"]
+        },
+        {
+          "session": "2021W",
+          "reported": 68,
+          "average": 76.0,
+          "grades": [0, 0, 0, 0, 6, 6, 11, 9, 13, 7, 9],
+          "instructors": ["Shane O'Neill", "Ulrich Mayer"]
+        }
+      ]
+    },
+    "EOSC 330": {
+      "reported": 284,
+      "average": 78.0,
+      "grades": [3, 2, 3, 5, 8, 30, 30, 26, 80, 61, 20],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 62,
+          "average": 78.8,
+          "grades": [0, 0, 0, 2, 2, 8, 7, 8, 17, 17, 1],
+          "instructors": ["Scott McDougall"]
+        },
+        {
+          "session": "2024W",
+          "reported": 70,
+          "average": 76.6,
+          "grades": [2, 0, 3, 0, 2, 9, 9, 7, 21, 11, 6],
+          "instructors": ["Scott McDougall", "Brett Gilley"]
+        },
+        {
+          "session": "2023W",
+          "reported": 46,
+          "average": 78.8,
+          "grades": [0, 1, 0, 1, 3, 4, 6, 3, 12, 13, 3],
+          "instructors": ["Brett Gilley", "Jason Yeung"]
+        },
+        {
+          "session": "2022W",
+          "reported": 52,
+          "average": 77.3,
+          "grades": [1, 1, 0, 2, 1, 9, 8, 2, 14, 10, 4],
+          "instructors": ["Scott McDougall", "Brett Gilley", "Jason Yeung"]
+        },
+        {
+          "session": "2021W",
+          "reported": 54,
+          "average": 79.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 6, 16, 10, 6],
+          "instructors": ["Shandin Pete", "Scott Mcdougall"]
+        }
+      ]
+    },
+    "EOSC 331": {
+      "reported": 145,
+      "average": 76.3,
+      "grades": [2, 3, 3, 6, 5, 15, 14, 16, 43, 12, 10],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 27,
+          "average": 79.0,
+          "grades": [0, 0, 1, 0, 0, 2, 3, 6, 10, 2, 3],
+          "instructors": ["James Scoates", "Kenneth Hickey"]
+        },
+        {
+          "session": "2024W",
+          "reported": 28,
+          "average": 76.0,
+          "grades": [1, 1, 0, 1, 1, 2, 7, 3, 8, 2, 2],
+          "instructors": ["James Stewart Scoates", "Kenneth Hickey"]
+        },
+        {
+          "session": "2023W",
+          "reported": 37,
+          "average": 76.5,
+          "grades": [0, 0, 1, 5, 3, 3, 2, 4, 9, 4, 4],
+          "instructors": ["James Stewart Scoates", "Kenneth Hickey"]
+        },
+        {
+          "session": "2022W",
+          "reported": 24,
+          "average": 75.3,
+          "grades": [1, 2, 1, 0, 1, 2, 2, 3, 7, 4, 1],
+          "instructors": ["Shaun Barker"]
+        },
+        {
+          "session": "2021W",
+          "reported": 29,
+          "average": 74.5,
+          "grades": [0, 0, 0, 0, 0, 6, 0, 0, 9, 0, 0],
+          "instructors": ["James Stewart Scoates", "Kenneth Hickey"]
+        }
+      ]
+    },
+    "EOSC 332": {
+      "reported": 171,
+      "average": 79.8,
+      "grades": [0, 0, 0, 6, 15, 17, 17, 20, 22, 39, 25],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 38,
+          "average": 85.1,
+          "grades": [0, 0, 0, 0, 0, 1, 3, 1, 13, 11, 9],
+          "instructors": ["Brett Gilley"]
+        },
+        {
+          "session": "2024W",
+          "reported": 38,
+          "average": 79.9,
+          "grades": [0, 0, 0, 0, 4, 4, 7, 8, 1, 4, 10],
+          "instructors": ["Matthijs Smit"]
+        },
+        {
+          "session": "2023W",
+          "reported": 35,
+          "average": 76.8,
+          "grades": [0, 0, 0, 5, 3, 2, 4, 6, 4, 10, 1],
+          "instructors": ["Matthijs Smit"]
+        },
+        {
+          "session": "2022W",
+          "reported": 38,
+          "average": 80.9,
+          "grades": [0, 0, 0, 1, 2, 4, 3, 5, 4, 14, 5],
+          "instructors": ["Matthijs Smit"]
+        },
+        {
+          "session": "2021W",
+          "reported": 22,
+          "average": 73.5,
+          "grades": [0, 0, 0, 0, 6, 6, 0, 0, 0, 0, 0],
+          "instructors": ["Matthijs Smit"]
+        }
+      ]
+    },
+    "EOSC 333": {
+      "reported": 112,
+      "average": 79.9,
+      "grades": [0, 1, 3, 1, 0, 4, 8, 18, 32, 17, 15],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 27,
+          "average": 79.7,
+          "grades": [0, 0, 1, 0, 0, 1, 2, 6, 14, 2, 1],
+          "instructors": ["Julie Prytulak"]
+        },
+        {
+          "session": "2024W",
+          "reported": 20,
+          "average": 80.0,
+          "grades": [0, 0, 0, 0, 0, 2, 1, 8, 5, 1, 3],
+          "instructors": ["Dominique Weis"]
+        },
+        {
+          "session": "2023W",
+          "reported": 21,
+          "average": 80.1,
+          "grades": [0, 1, 1, 0, 0, 0, 3, 1, 5, 9, 1],
+          "instructors": ["Nichole Moerhuis", "Dominique Weis"]
+        },
+        {
+          "session": "2022W",
+          "reported": 23,
+          "average": 80.2,
+          "grades": [0, 0, 1, 1, 0, 1, 2, 3, 8, 5, 2],
+          "instructors": ["Kendra Chritz", "Nichole Moerhuis"]
+        },
+        {
+          "session": "2021W",
+          "reported": 21,
+          "average": 79.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8],
+          "instructors": ["Dominique Weis"]
+        }
+      ]
+    },
+    "EOSC 340": {
+      "reported": 926,
+      "average": 79.5,
+      "grades": [24, 12, 21, 31, 51, 67, 92, 72, 125, 183, 229],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 112,
+          "average": 83.4,
+          "grades": [0, 1, 1, 2, 7, 7, 9, 8, 15, 29, 33],
+          "instructors": ["Rachel White"]
+        },
+        {
+          "session": "2024W",
+          "reported": 195,
+          "average": 81.3,
+          "grades": [6, 3, 6, 1, 8, 12, 17, 21, 25, 35, 61],
+          "instructors": ["Rachel White", "Anais Orsi", "Philip Austin"]
+        },
+        {
+          "session": "2023W",
+          "reported": 199,
+          "average": 79.8,
+          "grades": [8, 2, 4, 7, 6, 12, 26, 17, 29, 36, 49],
+          "instructors": ["Rachel White", "Anais Orsi", "Philip Austin"]
+        },
+        {
+          "session": "2022W",
+          "reported": 213,
+          "average": 78.3,
+          "grades": [10, 6, 2, 8, 16, 13, 20, 14, 30, 44, 50],
+          "instructors": ["Rachel White", "Anais Orsi", "Philip Austin"]
+        },
+        {
+          "session": "2021W",
+          "reported": 207,
+          "average": 76.6,
+          "grades": [0, 0, 8, 13, 14, 23, 20, 12, 26, 39, 36],
+          "instructors": ["Rachel White", "Philip Austin", "Anais Orsi"]
+        }
+      ]
+    },
+    "EOSC 345": {
+      "reported": 112,
+      "average": 82.3,
+      "grades": [0, 0, 2, 0, 3, 4, 14, 19, 20, 21, 29],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 112,
+          "average": 82.3,
+          "grades": [0, 0, 2, 0, 3, 4, 14, 19, 20, 21, 29],
+          "instructors": ["Anais Orsi"]
+        }
+      ]
+    },
+    "EOSC 350": {
+      "reported": 194,
+      "average": 79.4,
+      "grades": [0, 1, 2, 2, 5, 22, 25, 28, 36, 33, 31],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 46,
+          "average": 81.8,
+          "grades": [0, 0, 0, 1, 1, 4, 3, 9, 11, 7, 10],
+          "instructors": ["Lindsey Heagy"]
+        },
+        {
+          "session": "2024W",
+          "reported": 41,
+          "average": 77.5,
+          "grades": [0, 0, 0, 0, 4, 8, 7, 5, 7, 8, 2],
+          "instructors": ["Marco Couto"]
+        },
+        {
+          "session": "2023W",
+          "reported": 29,
+          "average": 82.4,
+          "grades": [0, 0, 1, 0, 0, 2, 4, 3, 7, 5, 7],
+          "instructors": ["Lindsey Heagy"]
+        },
+        {
+          "session": "2022W",
+          "reported": 35,
+          "average": 78.1,
+          "grades": [0, 1, 1, 1, 0, 8, 3, 5, 5, 5, 6],
+          "instructors": ["Lindsey Heagy"]
+        },
+        {
+          "session": "2021W",
+          "reported": 43,
+          "average": 77.8,
+          "grades": [0, 0, 0, 0, 0, 0, 8, 6, 6, 8, 6],
+          "instructors": ["Joseph Capriotti"]
+        }
+      ]
+    },
+    "EOSC 352": {
+      "reported": 40,
+      "average": 78.0,
+      "grades": [1, 1, 2, 1, 1, 4, 2, 4, 4, 4, 8],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 17,
+          "average": 79.2,
+          "grades": [0, 0, 0, 1, 1, 3, 2, 2, 2, 1, 5],
+          "instructors": ["Christian Schoof"]
+        },
+        {
+          "session": "2023W",
+          "reported": 7,
+          "average": 77.0,
+          "grades": [0, 1, 1, 0, 0, 0, 0, 1, 0, 3, 1],
+          "instructors": ["Christian Schoof"]
+        },
+        {
+          "session": "2022W",
+          "reported": 8,
+          "average": 74.5,
+          "grades": [1, 0, 1, 0, 0, 1, 0, 1, 2, 0, 2],
+          "instructors": ["Christian Schoof"]
+        },
+        {
+          "session": "2021W",
+          "reported": 8,
+          "average": 80.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Christian Schoof"]
+        }
+      ]
+    },
+    "EOSC 353": {
+      "reported": 32,
+      "average": 74.5,
+      "grades": [1, 0, 1, 1, 2, 7, 6, 4, 3, 3, 4],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 15,
+          "average": 75.5,
+          "grades": [0, 0, 1, 0, 1, 4, 3, 2, 1, 0, 3],
+          "instructors": ["Michael Bostock"]
+        },
+        {
+          "session": "2023W",
+          "reported": 7,
+          "average": 78.3,
+          "grades": [0, 0, 0, 1, 0, 1, 1, 0, 2, 1, 1],
+          "instructors": ["Michael Bostock"]
+        },
+        {
+          "session": "2022W",
+          "reported": 10,
+          "average": 70.5,
+          "grades": [1, 0, 0, 0, 1, 2, 2, 2, 0, 2, 0],
+          "instructors": ["Michael Bostock"]
+        }
+      ]
+    },
+    "EOSC 354": {
+      "reported": 50,
+      "average": 70.9,
+      "grades": [3, 1, 3, 4, 4, 3, 4, 2, 2, 2, 6],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 14,
+          "average": 72.3,
+          "grades": [0, 0, 2, 3, 2, 1, 0, 2, 0, 2, 2],
+          "instructors": ["Michael Bostock"]
+        },
+        {
+          "session": "2024W",
+          "reported": 12,
+          "average": 68.0,
+          "grades": [2, 1, 1, 1, 0, 1, 2, 0, 2, 0, 2],
+          "instructors": ["Michael Bostock"]
+        },
+        {
+          "session": "2023W",
+          "reported": 6,
+          "average": 64.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Michael Bostock"]
+        },
+        {
+          "session": "2022W",
+          "reported": 8,
+          "average": 70.9,
+          "grades": [1, 0, 0, 0, 2, 1, 2, 0, 0, 0, 2],
+          "instructors": ["Michael Bostock"]
+        },
+        {
+          "session": "2021W",
+          "reported": 10,
+          "average": 76.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Reid Merrill"]
+        }
+      ]
+    },
+    "EOSC 372": {
+      "reported": 661,
+      "average": 71.2,
+      "grades": [30, 39, 39, 60, 66, 56, 82, 55, 125, 57, 41],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 120,
+          "average": 68.8,
+          "grades": [6, 11, 13, 11, 12, 14, 15, 6, 20, 11, 1],
+          "instructors": ["Richard Pawlowicz", "Hal Bradbury", "Yayla Sezginer"]
+        },
+        {
+          "session": "2024W",
+          "reported": 115,
+          "average": 69.7,
+          "grades": [7, 10, 7, 12, 13, 11, 13, 7, 20, 10, 5],
+          "instructors": ["Richard Pawlowicz", "Harold Bradbury", "Michael Lipsen"]
+        },
+        {
+          "session": "2023W",
+          "reported": 139,
+          "average": 72.0,
+          "grades": [8, 5, 12, 12, 11, 11, 14, 8, 32, 14, 10],
+          "instructors": ["Richard Pawlowicz", "Maria Maldonado-Pareja", "Harold Bradbury"]
+        },
+        {
+          "session": "2022W",
+          "reported": 155,
+          "average": 71.9,
+          "grades": [9, 6, 7, 15, 14, 13, 21, 21, 27, 10, 12],
+          "instructors": ["Richard Pawlowicz", "Kristin Orians", "Maria Maldonado-Pareja"]
+        },
+        {
+          "session": "2021W",
+          "reported": 132,
+          "average": 72.9,
+          "grades": [0, 7, 0, 10, 16, 7, 19, 13, 26, 12, 13],
+          "instructors": ["Kristin Orians", "Maria Maldonado-Pareja", "Stephanie Block"]
+        }
+      ]
+    },
+    "EOSC 373": {
+      "reported": 271,
+      "average": 70.1,
+      "grades": [6, 19, 29, 17, 31, 38, 26, 25, 37, 15, 11],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 42,
+          "average": 70.7,
+          "grades": [1, 0, 5, 5, 8, 5, 3, 5, 6, 2, 2],
+          "instructors": ["Maite Maldonado", "Richard Pawlowicz", "Hal Bradbury"]
+        },
+        {
+          "session": "2024W",
+          "reported": 45,
+          "average": 71.0,
+          "grades": [1, 5, 4, 4, 4, 4, 4, 5, 6, 5, 3],
+          "instructors": ["Susan Elizabeth Allen", "Kristin Orians", "Yevhenii Pakhomov"]
+        },
+        {
+          "session": "2023W",
+          "reported": 64,
+          "average": 71.3,
+          "grades": [1, 5, 4, 6, 5, 9, 7, 7, 11, 4, 3],
+          "instructors": ["Richard Pawlowicz", "Kristin Orians", "Maria Maldonado-Pareja"]
+        },
+        {
+          "session": "2022W",
+          "reported": 51,
+          "average": 70.2,
+          "grades": [3, 3, 4, 2, 7, 8, 5, 8, 4, 4, 3],
+          "instructors": ["Richard Pawlowicz", "Kristin Orians", "Maria Maldonado-Pareja"]
+        },
+        {
+          "session": "2021W",
+          "reported": 69,
+          "average": 68.0,
+          "grades": [0, 6, 12, 0, 7, 12, 7, 0, 10, 0, 0],
+          "instructors": ["Kristin Orians", "Maria Maldonado-Pareja", "Stephanie Block", "Khushboo Jhugroo"]
+        }
+      ]
+    },
+    "EOSC 410": {
+      "reported": 89,
+      "average": 89.4,
+      "grades": [0, 0, 0, 0, 0, 1, 0, 4, 12, 15, 56],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 29,
+          "average": 92.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 26],
+          "instructors": ["Valentina Radic"]
+        },
+        {
+          "session": "2024W",
+          "reported": 18,
+          "average": 86.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 2, 5, 2, 9],
+          "instructors": ["Lindsey Heagy"]
+        },
+        {
+          "session": "2023W",
+          "reported": 28,
+          "average": 87.2,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 2, 6, 8, 10],
+          "instructors": ["Valentina Radic"]
+        },
+        {
+          "session": "2022W",
+          "reported": 14,
+          "average": 91.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 11],
+          "instructors": ["Valentina Radic"]
+        }
+      ]
+    },
+    "EOSC 420": {
+      "reported": 71,
+      "average": 80.5,
+      "grades": [1, 0, 0, 0, 2, 0, 7, 10, 22, 10, 9],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 27,
+          "average": 80.8,
+          "grades": [0, 0, 0, 0, 0, 0, 4, 6, 13, 2, 2],
+          "instructors": ["Lucy Porritt"]
+        },
+        {
+          "session": "2024W",
+          "reported": 11,
+          "average": 82.5,
+          "grades": [0, 0, 0, 0, 0, 0, 2, 1, 3, 3, 2],
+          "instructors": ["James Kelly Russell"]
+        },
+        {
+          "session": "2023W",
+          "reported": 14,
+          "average": 75.8,
+          "grades": [1, 0, 0, 0, 2, 0, 0, 1, 3, 4, 2],
+          "instructors": ["James Kelly Russell"]
+        },
+        {
+          "session": "2022W",
+          "reported": 10,
+          "average": 82.9,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 2, 3, 1, 3],
+          "instructors": ["James Kelly Russell"]
+        },
+        {
+          "session": "2021W",
+          "reported": 9,
+          "average": 81.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["James Kelly Russell"]
+        }
+      ]
+    },
+    "EOSC 421": {
+      "reported": 14,
+      "average": 79.6,
+      "grades": [0, 0, 0, 0, 0, 1, 4, 1, 0, 1, 1],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 8,
+          "average": 77.5,
+          "grades": [0, 0, 0, 0, 0, 1, 4, 1, 0, 1, 1],
+          "instructors": ["Joel Edward Saylor", "Mitch d'Arcy"]
+        },
+        {
+          "session": "2023W",
+          "reported": 6,
+          "average": 82.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Joel Edward Saylor", "Mitchall Darcy"]
+        }
+      ]
+    },
+    "EOSC 422": {
+      "reported": 18,
+      "average": 77.2,
+      "grades": [1, 1, 0, 0, 0, 0, 1, 0, 0, 1, 4],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 8,
+          "average": 72.6,
+          "grades": [1, 1, 0, 0, 0, 0, 1, 0, 0, 1, 4],
+          "instructors": ["Lori Kennedy"]
+        },
+        {
+          "session": "2021W",
+          "reported": 10,
+          "average": 80.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Lori Kennedy"]
+        }
+      ]
+    },
+    "EOSC 424": {
+      "reported": 71,
+      "average": 89.4,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 2, 3, 23, 41],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 25,
+          "average": 90.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 5, 18],
+          "instructors": ["James Scoates", "Kenneth Hickey"]
+        },
+        {
+          "session": "2023W",
+          "reported": 29,
+          "average": 89.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 2, 1, 9, 17],
+          "instructors": ["James Stewart Scoates", "Kenneth Hickey"]
+        },
+        {
+          "session": "2021W",
+          "reported": 17,
+          "average": 88.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 6],
+          "instructors": ["James Stewart Scoates", "Kenneth Hickey"]
+        }
+      ]
+    },
+    "EOSC 425": {
+      "reported": 74,
+      "average": 81.8,
+      "grades": [0, 1, 1, 0, 6, 3, 2, 4, 6, 27, 13],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 7,
+          "average": 81.0,
+          "grades": [0, 0, 0, 0, 0, 1, 2, 0, 1, 1, 2],
+          "instructors": ["Louise Longridge"]
+        },
+        {
+          "session": "2024W",
+          "reported": 20,
+          "average": 86.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 3, 4, 7, 6],
+          "instructors": ["Kendra Chritz", "Laura Lukes"]
+        },
+        {
+          "session": "2023W",
+          "reported": 17,
+          "average": 81.1,
+          "grades": [0, 1, 0, 0, 3, 1, 0, 0, 1, 8, 3],
+          "instructors": ["Laura Lukes", "Stewart Bruce Archibald"]
+        },
+        {
+          "session": "2022W",
+          "reported": 9,
+          "average": 75.0,
+          "grades": [0, 0, 1, 0, 3, 1, 0, 1, 0, 1, 2],
+          "instructors": ["Louise Longridge"]
+        },
+        {
+          "session": "2021W",
+          "reported": 21,
+          "average": 81.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 0],
+          "instructors": ["Pablo Lacerda Silva", "Stuart Sutherland"]
+        }
+      ]
+    },
+    "EOSC 426": {
+      "reported": 220,
+      "average": 91.5,
+      "grades": [3, 0, 1, 0, 2, 1, 2, 3, 4, 36, 162],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 58,
+          "average": 97.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 56],
+          "instructors": ["Sean Crowe"]
+        },
+        {
+          "session": "2024W",
+          "reported": 50,
+          "average": 90.6,
+          "grades": [0, 0, 1, 0, 2, 0, 0, 2, 1, 14, 30],
+          "instructors": ["Bianca Iulianella Phillips", "Shea Thorne"]
+        },
+        {
+          "session": "2023W",
+          "reported": 32,
+          "average": 88.7,
+          "grades": [2, 0, 0, 0, 0, 1, 0, 0, 0, 1, 27],
+          "instructors": ["Sean Crowe"]
+        },
+        {
+          "session": "2022W",
+          "reported": 46,
+          "average": 88.3,
+          "grades": [1, 0, 0, 0, 0, 0, 2, 0, 3, 10, 30],
+          "instructors": ["Sean Crowe"]
+        },
+        {
+          "session": "2021W",
+          "reported": 34,
+          "average": 89.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 19],
+          "instructors": ["Sean Crowe"]
+        }
+      ]
+    },
+    "EOSC 428": {
+      "reported": 164,
+      "average": 80.9,
+      "grades": [0, 1, 1, 6, 2, 12, 14, 25, 40, 26, 29],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 30,
+          "average": 78.4,
+          "grades": [0, 0, 1, 1, 0, 4, 5, 3, 9, 4, 3],
+          "instructors": ["Shane O'Neill", "Ali Ameli", "Roger Beckie"]
+        },
+        {
+          "session": "2024W",
+          "reported": 30,
+          "average": 84.5,
+          "grades": [0, 0, 0, 0, 0, 1, 3, 4, 3, 10, 9],
+          "instructors": ["Ali Ameli", "Roger Beckie"]
+        },
+        {
+          "session": "2023W",
+          "reported": 36,
+          "average": 75.3,
+          "grades": [0, 1, 0, 5, 2, 6, 4, 4, 5, 7, 2],
+          "instructors": ["Shane O'Neill", "Roger Beckie"]
+        },
+        {
+          "session": "2022W",
+          "reported": 30,
+          "average": 81.4,
+          "grades": [0, 0, 0, 0, 0, 1, 2, 7, 13, 5, 2],
+          "instructors": ["Ali Ameli", "Roger Beckie"]
+        },
+        {
+          "session": "2021W",
+          "reported": 38,
+          "average": 84.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 7, 10, 0, 13],
+          "instructors": ["Shane O'Neill", "Ali Ameli"]
+        }
+      ]
+    },
+    "EOSC 429": {
+      "reported": 286,
+      "average": 75.9,
+      "grades": [6, 9, 5, 18, 17, 24, 32, 33, 53, 43, 36],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 32,
+          "average": 76.2,
+          "grades": [0, 1, 0, 3, 2, 5, 3, 3, 8, 4, 3],
+          "instructors": ["Roger Beckie", "Ulrich Mayer"]
+        },
+        {
+          "session": "2024W",
+          "reported": 47,
+          "average": 77.7,
+          "grades": [0, 2, 0, 1, 6, 3, 6, 6, 12, 7, 4],
+          "instructors": ["Roger Beckie"]
+        },
+        {
+          "session": "2023W",
+          "reported": 83,
+          "average": 71.2,
+          "grades": [5, 5, 3, 6, 7, 10, 10, 8, 10, 8, 10],
+          "instructors": ["Roger Beckie"]
+        },
+        {
+          "session": "2022W",
+          "reported": 60,
+          "average": 75.7,
+          "grades": [1, 1, 2, 8, 2, 6, 7, 10, 8, 8, 7],
+          "instructors": ["Roger Beckie"]
+        },
+        {
+          "session": "2021W",
+          "reported": 64,
+          "average": 80.9,
+          "grades": [0, 0, 0, 0, 0, 0, 6, 6, 15, 16, 12],
+          "instructors": ["Roger Beckie", "Michael Zima"]
+        }
+      ]
+    },
+    "EOSC 430": {
+      "reported": 12,
+      "average": 78.7,
+      "grades": [0, 0, 0, 0, 1, 0, 5, 0, 0, 1, 3],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 12,
+          "average": 78.7,
+          "grades": [0, 0, 0, 0, 1, 0, 5, 0, 0, 1, 3],
+          "instructors": ["Ulrich Mayer"]
+        }
+      ]
+    },
+    "EOSC 432": {
+      "reported": 13,
+      "average": 71.8,
+      "grades": [1, 1, 0, 1, 1, 2, 2, 0, 1, 2, 2],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 6,
+          "average": 59.8,
+          "grades": [1, 1, 0, 1, 0, 2, 1, 0, 0, 0, 0],
+          "instructors": ["Robert Marc Bustin"]
+        },
+        {
+          "session": "2022W",
+          "reported": 7,
+          "average": 82.1,
+          "grades": [0, 0, 0, 0, 1, 0, 1, 0, 1, 2, 2],
+          "instructors": ["Robert Marc Bustin"]
+        }
+      ]
+    },
+    "EOSC 433": {
+      "reported": 155,
+      "average": 77.2,
+      "grades": [3, 0, 4, 9, 7, 14, 23, 16, 21, 10, 22],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 27,
+          "average": 78.2,
+          "grades": [0, 0, 1, 2, 2, 4, 3, 3, 4, 1, 7],
+          "instructors": ["Erik Eberhardt"]
+        },
+        {
+          "session": "2024W",
+          "reported": 29,
+          "average": 78.5,
+          "grades": [0, 0, 1, 4, 2, 0, 4, 4, 4, 3, 7],
+          "instructors": ["Erik Eberhardt"]
+        },
+        {
+          "session": "2023W",
+          "reported": 46,
+          "average": 77.0,
+          "grades": [1, 0, 1, 2, 3, 6, 10, 8, 5, 3, 7],
+          "instructors": ["Erik Eberhardt"]
+        },
+        {
+          "session": "2022W",
+          "reported": 27,
+          "average": 74.8,
+          "grades": [2, 0, 1, 1, 0, 4, 6, 1, 8, 3, 1],
+          "instructors": ["Erik Eberhardt"]
+        },
+        {
+          "session": "2021W",
+          "reported": 26,
+          "average": 77.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Erik Eberhardt"]
+        }
+      ]
+    },
+    "EOSC 434": {
+      "reported": 129,
+      "average": 76.9,
+      "grades": [0, 2, 1, 6, 8, 12, 21, 12, 33, 14, 5],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 25,
+          "average": 77.1,
+          "grades": [0, 0, 0, 0, 0, 4, 8, 2, 8, 3, 0],
+          "instructors": ["Scott McDougall"]
+        },
+        {
+          "session": "2024W",
+          "reported": 18,
+          "average": 76.6,
+          "grades": [0, 0, 1, 2, 1, 2, 1, 3, 3, 3, 2],
+          "instructors": ["Scott McDougall"]
+        },
+        {
+          "session": "2023W",
+          "reported": 34,
+          "average": 72.5,
+          "grades": [0, 2, 0, 2, 5, 4, 10, 5, 3, 2, 1],
+          "instructors": ["Andrew Mitchell", "Sophia Zubrycky"]
+        },
+        {
+          "session": "2022W",
+          "reported": 29,
+          "average": 78.8,
+          "grades": [0, 0, 0, 2, 2, 2, 2, 2, 11, 6, 2],
+          "instructors": ["Scott McDougall"]
+        },
+        {
+          "session": "2021W",
+          "reported": 23,
+          "average": 81.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 8, 0, 0],
+          "instructors": ["Scott Mcdougall"]
+        }
+      ]
+    },
+    "EOSC 440": {
+      "reported": 10,
+      "average": 91.7,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 7],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 10,
+          "average": 91.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 7],
+          "instructors": ["Rachel White", "Philip Austin"]
+        }
+      ]
+    },
+    "EOSC 442": {
+      "reported": 279,
+      "average": 80.9,
+      "grades": [3, 0, 3, 3, 6, 12, 18, 24, 70, 72, 47],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 67,
+          "average": 82.9,
+          "grades": [0, 0, 1, 0, 2, 2, 1, 8, 24, 17, 12],
+          "instructors": ["Michael Lipsen"]
+        },
+        {
+          "session": "2024W",
+          "reported": 48,
+          "average": 84.9,
+          "grades": [0, 0, 0, 1, 0, 1, 1, 5, 12, 19, 9],
+          "instructors": ["Michael Lipsen"]
+        },
+        {
+          "session": "2023W",
+          "reported": 52,
+          "average": 78.4,
+          "grades": [2, 0, 2, 0, 3, 1, 5, 2, 17, 16, 4],
+          "instructors": ["Michael Lipsen"]
+        },
+        {
+          "session": "2022W",
+          "reported": 56,
+          "average": 80.4,
+          "grades": [1, 0, 0, 2, 1, 8, 5, 3, 11, 11, 14],
+          "instructors": ["Michael Lipsen"]
+        },
+        {
+          "session": "2021W",
+          "reported": 56,
+          "average": 77.8,
+          "grades": [0, 0, 0, 0, 0, 0, 6, 6, 6, 9, 8],
+          "instructors": ["Michael Lipsen"]
+        }
+      ]
+    },
+    "EOSC 445": {
+      "reported": 130,
+      "average": 83.7,
+      "grades": [1, 3, 1, 3, 3, 1, 5, 15, 17, 19, 49],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 22,
+          "average": 87.5,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 3, 3, 4, 11],
+          "instructors": ["Jason Yeung"]
+        },
+        {
+          "session": "2024W",
+          "reported": 20,
+          "average": 85.6,
+          "grades": [0, 1, 1, 2, 0, 0, 0, 1, 1, 3, 11],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "reported": 34,
+          "average": 84.2,
+          "grades": [0, 1, 0, 0, 1, 0, 3, 4, 6, 8, 11],
+          "instructors": ["Jason Yeung"]
+        },
+        {
+          "session": "2022W",
+          "reported": 28,
+          "average": 80.9,
+          "grades": [1, 1, 0, 1, 2, 0, 2, 1, 7, 4, 9],
+          "instructors": ["Susan Hollingshead", "Jason Yeung"]
+        },
+        {
+          "session": "2021W",
+          "reported": 26,
+          "average": 81.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 6, 0, 0, 7],
+          "instructors": ["Susan Hollingshead"]
+        }
+      ]
+    },
+    "EOSC 448": {
+      "reported": 33,
+      "average": 88.4,
+      "grades": [0, 0, 0, 0, 0, 0, 2, 2, 4, 5, 19],
+      "terms": [
+        {
+          "session": "2025W",
+          "topic": "A",
+          "title": "Directed Studies",
+          "reported": 16,
+          "average": 90.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 1, 2, 12],
+          "instructors": []
+        },
+        {
+          "session": "2025S",
+          "topic": "A",
+          "title": "Directed Studies",
+          "reported": 9,
+          "average": 85.1,
+          "grades": [0, 0, 0, 0, 0, 0, 2, 1, 1, 1, 4],
+          "instructors": ["Andrea Reid", "Barbara Wilson"]
+        },
+        {
+          "session": "2023W",
+          "topic": "B",
+          "title": "Directed Studies",
+          "reported": 8,
+          "average": 88.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 3],
+          "instructors": ["Andrea Reid", "Barbara Wilson"]
+        }
+      ]
+    },
+    "EOSC 449": {
+      "reported": 29,
+      "average": 91.5,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 27],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 11,
+          "average": 92.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11],
+          "instructors": ["Leah May Ver"]
+        },
+        {
+          "session": "2024W",
+          "reported": 10,
+          "average": 92.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "reported": 8,
+          "average": 89.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 6],
+          "instructors": ["Leah May Ver"]
+        }
+      ]
+    },
+    "EOSC 450": {
+      "reported": 10,
+      "average": 87.6,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 3, 4, 3],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 10,
+          "average": 87.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 3, 4, 3],
+          "instructors": ["Catherine Johnson"]
+        }
+      ]
+    },
+    "EOSC 453": {
+      "reported": 29,
+      "average": 88.2,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 1, 4, 10, 14],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 12,
+          "average": 89.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 8],
+          "instructors": ["Mark Jellinek"]
+        },
+        {
+          "session": "2023W",
+          "reported": 7,
+          "average": 86.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 2, 2, 2],
+          "instructors": ["Andrew Jellinek"]
+        },
+        {
+          "session": "2022W",
+          "reported": 10,
+          "average": 88.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 5, 4],
+          "instructors": ["Andrew Jellinek"]
+        }
+      ]
+    },
+    "EOSC 454": {
+      "reported": 9,
+      "average": 88.3,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 1, 1, 3, 4],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 9,
+          "average": 88.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 1, 3, 4],
+          "instructors": ["Lindsey Heagy"]
+        }
+      ]
+    },
+    "EOSC 470": {
+      "reported": 160,
+      "average": 79.6,
+      "grades": [3, 1, 2, 0, 5, 4, 13, 28, 32, 39, 25],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 32,
+          "average": 79.1,
+          "grades": [0, 0, 1, 0, 1, 2, 3, 8, 9, 6, 2],
+          "instructors": ["Michael Lipsen"]
+        },
+        {
+          "session": "2024W",
+          "reported": 31,
+          "average": 79.4,
+          "grades": [1, 0, 1, 0, 1, 1, 4, 2, 7, 8, 6],
+          "instructors": ["Michael Lipsen"]
+        },
+        {
+          "session": "2023W",
+          "reported": 26,
+          "average": 84.0,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 2, 10, 5, 7],
+          "instructors": ["Michael Lipsen"]
+        },
+        {
+          "session": "2022W",
+          "reported": 35,
+          "average": 75.9,
+          "grades": [2, 1, 0, 0, 3, 1, 5, 4, 6, 9, 4],
+          "instructors": ["Michael Lipsen"]
+        },
+        {
+          "session": "2021W",
+          "reported": 36,
+          "average": 80.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 12, 0, 11, 6],
+          "instructors": ["Michael Lipsen"]
+        }
+      ]
+    },
+    "EOSC 471": {
+      "reported": 82,
+      "average": 80.9,
+      "grades": [1, 0, 0, 0, 1, 3, 5, 7, 26, 13, 9],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 13,
+          "average": 82.1,
+          "grades": [0, 0, 0, 0, 0, 1, 1, 2, 5, 2, 2],
+          "instructors": ["Richard Pawlowicz", "Susan Allen"]
+        },
+        {
+          "session": "2024W",
+          "reported": 23,
+          "average": 77.4,
+          "grades": [1, 0, 0, 0, 1, 1, 3, 3, 7, 5, 2],
+          "instructors": ["Susan Elizabeth Allen", "Richard Pawlowicz"]
+        },
+        {
+          "session": "2023W",
+          "reported": 12,
+          "average": 84.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 4, 3, 3],
+          "instructors": ["Susan Elizabeth Allen", "Richard Pawlowicz"]
+        },
+        {
+          "session": "2022W",
+          "reported": 18,
+          "average": 82.9,
+          "grades": [0, 0, 0, 0, 0, 1, 1, 1, 10, 3, 2],
+          "instructors": ["Susan Elizabeth Allen", "Richard Pawlowicz"]
+        },
+        {
+          "session": "2021W",
+          "reported": 16,
+          "average": 79.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Birgit Rogalla", "Susan Elizabeth Allen"]
+        }
+      ]
+    },
+    "EOSC 472": {
+      "reported": 122,
+      "average": 81.8,
+      "grades": [2, 1, 0, 0, 1, 8, 8, 9, 24, 25, 24],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 24,
+          "average": 82.8,
+          "grades": [0, 0, 0, 0, 0, 2, 4, 1, 7, 3, 7],
+          "instructors": ["Hal Bradbury"]
+        },
+        {
+          "session": "2024W",
+          "reported": 26,
+          "average": 85.5,
+          "grades": [0, 0, 0, 0, 0, 2, 0, 3, 5, 7, 9],
+          "instructors": ["Harold Bradbury"]
+        },
+        {
+          "session": "2023W",
+          "reported": 29,
+          "average": 79.7,
+          "grades": [1, 1, 0, 0, 0, 3, 2, 5, 3, 8, 5],
+          "instructors": ["Harold Bradbury"]
+        },
+        {
+          "session": "2022W",
+          "reported": 24,
+          "average": 80.9,
+          "grades": [1, 0, 0, 0, 1, 1, 2, 0, 9, 7, 3],
+          "instructors": ["Kristin Orians", "Harold Bradbury"]
+        },
+        {
+          "session": "2021W",
+          "reported": 19,
+          "average": 80.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Kristin Orians"]
+        }
+      ]
+    },
+    "EOSC 473": {
+      "reported": 90,
+      "average": 83.2,
+      "grades": [1, 0, 0, 0, 0, 0, 2, 8, 13, 41, 13],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 16,
+          "average": 87.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 2, 10, 3],
+          "instructors": ["Richard Pawlowicz", "Maite Maldonado"]
+        },
+        {
+          "session": "2024W",
+          "reported": 18,
+          "average": 87.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 4, 8, 6],
+          "instructors": ["Yevhenii Pakhomov", "Harold Bradbury"]
+        },
+        {
+          "session": "2023W",
+          "reported": 19,
+          "average": 86.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 2, 2, 11, 4],
+          "instructors": ["Richard Pawlowicz", "Maria Maldonado-Pareja"]
+        },
+        {
+          "session": "2022W",
+          "reported": 17,
+          "average": 75.2,
+          "grades": [1, 0, 0, 0, 0, 0, 2, 5, 5, 4, 0],
+          "instructors": ["Richard Pawlowicz", "Yevhenii Pakhomov"]
+        },
+        {
+          "session": "2021W",
+          "reported": 20,
+          "average": 80.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 0],
+          "instructors": ["Brian Hunt", "Philippe Tortell", "Samuel Stevens"]
+        }
+      ]
+    },
+    "EOSC 474": {
+      "reported": 598,
+      "average": 77.1,
+      "grades": [7, 6, 8, 17, 28, 53, 76, 95, 149, 106, 46],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 90,
+          "average": 78.2,
+          "grades": [0, 1, 2, 4, 5, 9, 6, 14, 23, 14, 12],
+          "instructors": ["Yevhenii Pakhomov", "Leah May Ver"]
+        },
+        {
+          "session": "2024W",
+          "reported": 107,
+          "average": 77.2,
+          "grades": [2, 1, 3, 3, 5, 5, 15, 15, 28, 26, 4],
+          "instructors": ["Richard Pawlowicz", "Leah May Ver"]
+        },
+        {
+          "session": "2023W",
+          "reported": 123,
+          "average": 76.2,
+          "grades": [3, 3, 1, 5, 1, 11, 15, 24, 25, 27, 6],
+          "instructors": ["Yevhenii Pakhomov", "Leah May Ver"]
+        },
+        {
+          "session": "2022W",
+          "reported": 150,
+          "average": 76.2,
+          "grades": [2, 1, 2, 5, 11, 17, 18, 25, 44, 16, 9],
+          "instructors": ["Kristin Orians", "Leah May Ver"]
+        },
+        {
+          "session": "2021W",
+          "reported": 128,
+          "average": 78.0,
+          "grades": [0, 0, 0, 0, 6, 11, 22, 17, 29, 23, 15],
+          "instructors": ["Kristin Orians", "Leah May Ver"]
+        }
+      ]
+    },
+    "EOSC 475": {
+      "reported": 192,
+      "average": 77.0,
+      "grades": [4, 0, 8, 14, 10, 10, 14, 21, 35, 41, 18],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 35,
+          "average": 78.2,
+          "grades": [2, 0, 1, 2, 0, 1, 1, 9, 4, 9, 6],
+          "instructors": ["Curtis Suttle"]
+        },
+        {
+          "session": "2024W",
+          "reported": 37,
+          "average": 77.5,
+          "grades": [1, 0, 0, 3, 1, 3, 3, 6, 10, 7, 3],
+          "instructors": ["Curtis Suttle"]
+        },
+        {
+          "session": "2023W",
+          "reported": 46,
+          "average": 76.0,
+          "grades": [1, 0, 5, 3, 2, 2, 5, 4, 8, 10, 4],
+          "instructors": ["Curtis Suttle"]
+        },
+        {
+          "session": "2022W",
+          "reported": 33,
+          "average": 75.3,
+          "grades": [0, 0, 2, 6, 1, 4, 5, 2, 3, 5, 5],
+          "instructors": ["Curtis Suttle"]
+        },
+        {
+          "session": "2021W",
+          "reported": 41,
+          "average": 78.2,
+          "grades": [0, 0, 0, 0, 6, 0, 0, 0, 10, 10, 0],
+          "instructors": ["Curtis Suttle"]
+        }
+      ]
+    },
+    "EOSC 478": {
+      "reported": 692,
+      "average": 82.0,
+      "grades": [7, 2, 8, 16, 26, 35, 43, 72, 138, 165, 165],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 154,
+          "average": 82.5,
+          "grades": [0, 0, 1, 4, 3, 9, 13, 21, 32, 31, 40],
+          "instructors": ["Yevhenii Pakhomov"]
+        },
+        {
+          "session": "2024W",
+          "reported": 118,
+          "average": 83.1,
+          "grades": [2, 1, 3, 3, 5, 6, 3, 7, 23, 28, 37],
+          "instructors": ["Yevhenii Pakhomov"]
+        },
+        {
+          "session": "2023W",
+          "reported": 144,
+          "average": 79.2,
+          "grades": [4, 1, 4, 5, 10, 10, 12, 13, 25, 32, 26],
+          "instructors": ["Yevhenii Pakhomov"]
+        },
+        {
+          "session": "2022W",
+          "reported": 137,
+          "average": 80.6,
+          "grades": [1, 0, 0, 4, 8, 10, 15, 14, 28, 38, 19],
+          "instructors": ["Yevhenii Pakhomov"]
+        },
+        {
+          "session": "2021W",
+          "reported": 139,
+          "average": 84.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 17, 30, 36, 43],
+          "instructors": ["Gabriel Reygondeau"]
+        }
+      ]
+    },
+    "EOSC 510": {
+      "reported": 120,
+      "average": 90.9,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 1, 3, 24, 85],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 32,
+          "average": 91.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 8, 23],
+          "instructors": ["Lindsey Heagy"]
+        },
+        {
+          "session": "2023W",
+          "reported": 30,
+          "average": 90.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 21],
+          "instructors": ["Valentina Radic"]
+        },
+        {
+          "session": "2022W",
+          "reported": 32,
+          "average": 92.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 27],
+          "instructors": ["Valentina Radic"]
+        },
+        {
+          "session": "2021W",
+          "reported": 26,
+          "average": 89.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 14],
+          "instructors": ["Sam Anderson"]
+        }
+      ]
+    },
+    "EOSC 511": {
+      "reported": 29,
+      "average": 86.1,
+      "grades": [0, 0, 0, 0, 0, 1, 0, 1, 3, 14, 3],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 12,
+          "average": 85.5,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 1, 3, 4, 3],
+          "instructors": ["Susan Elizabeth Allen", "Rachel White"]
+        },
+        {
+          "session": "2021W",
+          "reported": 17,
+          "average": 86.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 0],
+          "instructors": ["Susan Elizabeth Allen", "Rachel White"]
+        }
+      ]
+    },
+    "EOSC 512": {
+      "reported": 6,
+      "average": 74.2,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      "terms": [
+        {
+          "session": "2021W",
+          "reported": 6,
+          "average": 74.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Christian Schoof", "Stephanie Block"]
+        }
+      ]
+    },
+    "EOSC 518": {
+      "reported": 7,
+      "average": 93.9,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 6],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 7,
+          "average": 93.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 6],
+          "instructors": ["Kirsten Hodge", "Laura Lukes"]
+        }
+      ]
+    },
+    "EOSC 520": {
+      "reported": 6,
+      "average": 96.3,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 6,
+          "average": 96.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6],
+          "instructors": ["Lee Groat"]
+        }
+      ]
+    },
+    "EOSC 521": {
+      "reported": 9,
+      "average": 100.0,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 9,
+          "average": 100.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6],
+          "instructors": []
+        }
+      ]
+    },
+    "EOSC 523": {
+      "reported": 20,
+      "average": 87.9,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 6, 2],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 10,
+          "average": 87.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 6, 2],
+          "instructors": ["Dominique Weis"]
+        },
+        {
+          "session": "2021W",
+          "reported": 10,
+          "average": 88.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Dominique Weis"]
+        }
+      ]
+    },
+    "EOSC 525": {
+      "reported": 10,
+      "average": 95.0,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 10,
+          "average": 95.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10],
+          "instructors": ["James Stewart Scoates"]
+        }
+      ]
+    },
+    "EOSC 527": {
+      "reported": 39,
+      "average": 86.2,
+      "grades": [0, 0, 0, 0, 0, 1, 2, 3, 6, 15, 12],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 20,
+          "average": 87.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 2, 10, 7],
+          "instructors": ["Erik Eberhardt"]
+        },
+        {
+          "session": "2023W",
+          "reported": 19,
+          "average": 84.8,
+          "grades": [0, 0, 0, 0, 0, 1, 2, 2, 4, 5, 5],
+          "instructors": ["Erik Eberhardt"]
+        }
+      ]
+    },
+    "EOSC 529": {
+      "reported": 32,
+      "average": 90.0,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 32],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 15,
+          "average": 90.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 15],
+          "instructors": ["Scott McDougall"]
+        },
+        {
+          "session": "2022W",
+          "reported": 17,
+          "average": 90.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 17],
+          "instructors": ["Scott McDougall"]
+        }
+      ]
+    },
+    "EOSC 531": {
+      "reported": 17,
+      "average": 88.1,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 9],
+      "terms": [
+        {
+          "session": "2022W",
+          "reported": 17,
+          "average": 88.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 9],
+          "instructors": ["Shaun Barker"]
+        }
+      ]
+    },
+    "EOSC 532": {
+      "reported": 36,
+      "average": 89.9,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 3, 5, 27],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 6,
+          "average": 96.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6],
+          "instructors": ["Ali Ameli", "Roger Beckie"]
+        },
+        {
+          "session": "2023W",
+          "reported": 9,
+          "average": 91.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 7],
+          "instructors": ["Shane O'Neill", "Roger Beckie"]
+        },
+        {
+          "session": "2022W",
+          "reported": 10,
+          "average": 88.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 4],
+          "instructors": ["Ali Ameli", "Roger Beckie"]
+        },
+        {
+          "session": "2021W",
+          "reported": 11,
+          "average": 86.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10],
+          "instructors": ["Shane O'Neill", "Ali Ameli"]
+        }
+      ]
+    },
+    "EOSC 533": {
+      "reported": 102,
+      "average": 85.8,
+      "grades": [1, 0, 0, 0, 0, 3, 0, 15, 14, 26, 34],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 36,
+          "average": 87.8,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 2, 6, 10, 17],
+          "instructors": ["Wojciech Zawadzki", "Roger Beckie", "Jennifer Levenick"]
+        },
+        {
+          "session": "2023W",
+          "reported": 26,
+          "average": 85.6,
+          "grades": [1, 0, 0, 0, 0, 0, 0, 5, 4, 2, 11],
+          "instructors": ["Wojciech Zawadzki", "Roger Beckie", "Jennifer Levenick"]
+        },
+        {
+          "session": "2022W",
+          "reported": 20,
+          "average": 85.3,
+          "grades": [0, 0, 0, 0, 0, 2, 0, 1, 4, 7, 6],
+          "instructors": ["Wojciech Zawadzki", "Roger Beckie", "Jennifer Levenick"]
+        },
+        {
+          "session": "2021W",
+          "reported": 20,
+          "average": 83.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 7, 0, 7, 0],
+          "instructors": ["Wojciech Zawadzki", "Jennifer Levenick"]
+        }
+      ]
+    },
+    "EOSC 534": {
+      "reported": 38,
+      "average": 80.3,
+      "grades": [0, 0, 0, 3, 1, 2, 1, 3, 10, 2, 4],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 9,
+          "average": 82.0,
+          "grades": [0, 0, 0, 1, 0, 0, 1, 0, 4, 1, 2],
+          "instructors": ["Scott McDougall"]
+        },
+        {
+          "session": "2023W",
+          "reported": 10,
+          "average": 77.0,
+          "grades": [0, 0, 0, 2, 1, 1, 0, 0, 3, 1, 2],
+          "instructors": ["Andrew Mitchell", "Sophia Zubrycky"]
+        },
+        {
+          "session": "2022W",
+          "reported": 7,
+          "average": 77.9,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 3, 3, 0, 0],
+          "instructors": ["Scott McDougall"]
+        },
+        {
+          "session": "2021W",
+          "reported": 12,
+          "average": 83.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Scott Mcdougall"]
+        }
+      ]
+    },
+    "EOSC 536": {
+      "reported": 54,
+      "average": 85.7,
+      "grades": [0, 0, 0, 0, 1, 1, 1, 2, 7, 11, 20],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 8,
+          "average": 89.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 6],
+          "instructors": ["Erik Eberhardt"]
+        },
+        {
+          "session": "2023W",
+          "reported": 9,
+          "average": 86.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 3, 4, 2],
+          "instructors": ["Erik Eberhardt"]
+        },
+        {
+          "session": "2022W",
+          "reported": 18,
+          "average": 83.7,
+          "grades": [0, 0, 0, 0, 1, 1, 1, 1, 4, 6, 4],
+          "instructors": ["Erik Eberhardt"]
+        },
+        {
+          "session": "2021W",
+          "reported": 19,
+          "average": 85.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8],
+          "instructors": ["Erik Eberhardt"]
+        }
+      ]
+    },
+    "EOSC 541": {
+      "reported": 6,
+      "average": 89.7,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      "terms": [
+        {
+          "session": "2021W",
+          "reported": 6,
+          "average": 89.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Ulrich Mayer"]
+        }
+      ]
+    },
+    "EOSC 542": {
+      "reported": 16,
+      "average": 86.8,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 4, 3, 2],
+      "terms": [
+        {
+          "session": "2022W",
+          "reported": 9,
+          "average": 85.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 4, 3, 2],
+          "instructors": ["James Kelly Russell"]
+        },
+        {
+          "session": "2021W",
+          "reported": 7,
+          "average": 88.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["James Kelly Russell"]
+        }
+      ]
+    },
+    "EOSC 543": {
+      "reported": 21,
+      "average": 86.3,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 3, 5, 5],
+      "terms": [
+        {
+          "session": "2022W",
+          "reported": 13,
+          "average": 87.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 3, 5, 5],
+          "instructors": ["Michael Bostock", "Simon Peacock", "Nadja Kunz"]
+        },
+        {
+          "session": "2021W",
+          "reported": 8,
+          "average": 85.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Joel Edward Saylor"]
+        }
+      ]
+    },
+    "EOSC 545": {
+      "reported": 6,
+      "average": 89.5,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 6,
+          "average": 89.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3],
+          "instructors": ["Kenneth Hickey"]
+        }
+      ]
+    },
+    "EOSC 546": {
+      "reported": 11,
+      "average": 79.1,
+      "grades": [1, 0, 0, 1, 0, 0, 1, 3, 1, 2, 2],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 11,
+          "average": 79.1,
+          "grades": [1, 0, 0, 1, 0, 0, 1, 3, 1, 2, 2],
+          "instructors": ["Joel Edward Saylor"]
+        }
+      ]
+    },
+    "EOSC 547": {
+      "reported": 37,
+      "average": 87.1,
+      "grades": [0, 0, 0, 0, 0, 1, 0, 2, 4, 5, 17],
+      "terms": [
+        {
+          "session": "2022W",
+          "reported": 18,
+          "average": 85.8,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 2, 4, 5, 6],
+          "instructors": ["Erik Eberhardt"]
+        },
+        {
+          "session": "2021W",
+          "reported": 19,
+          "average": 88.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11],
+          "instructors": ["Erik Eberhardt"]
+        }
+      ]
+    },
+    "EOSC 555": {
+      "reported": 40,
+      "average": 91.7,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 30],
+      "terms": [
+        {
+          "session": "2024W",
+          "topic": "B",
+          "title": "Nonlinear Inverse Theory",
+          "reported": 6,
+          "average": 93.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6],
+          "instructors": ["Eldad Haber"]
+        },
+        {
+          "session": "2023W",
+          "topic": "B",
+          "title": "Nonlinear Inverse Theory",
+          "reported": 10,
+          "average": 94.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9],
+          "instructors": ["Eldad Haber"]
+        },
+        {
+          "session": "2022W",
+          "topic": "B",
+          "title": "Nonlinear Inverse Theory",
+          "reported": 16,
+          "average": 89.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 8],
+          "instructors": ["Eldad Haber"]
+        },
+        {
+          "session": "2021W",
+          "topic": "B",
+          "title": "Nonlinear Inverse Theory",
+          "reported": 8,
+          "average": 90.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7],
+          "instructors": ["Eldad Haber"]
+        }
+      ]
+    },
+    "EOSC 556": {
+      "reported": 17,
+      "average": 90.4,
+      "grades": [0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 11],
+      "terms": [
+        {
+          "session": "2024W",
+          "topic": "B",
+          "title": "Studies in Applied Geophysics",
+          "reported": 7,
+          "average": 90.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 6],
+          "instructors": ["Lindsey Heagy"]
+        },
+        {
+          "session": "2023W",
+          "topic": "B",
+          "title": "Studies in Applied Geophysics",
+          "reported": 10,
+          "average": 90.4,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 5],
+          "instructors": ["Lindsey Heagy"]
+        }
+      ]
+    },
+    "EOSC 573": {
+      "reported": 13,
+      "average": 88.5,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 6, 5],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 7,
+          "average": 91.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 5],
+          "instructors": ["Yevhenii Pakhomov", "Harold Bradbury"]
+        },
+        {
+          "session": "2022W",
+          "reported": 6,
+          "average": 85.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 4, 0],
+          "instructors": ["Richard Pawlowicz", "Yevhenii Pakhomov"]
+        }
+      ]
+    },
+    "EOSC 575": {
+      "reported": 6,
+      "average": 85.5,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 1],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 6,
+          "average": 85.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 1],
+          "instructors": ["Brian Hunt", "Yevhenii Pakhomov"]
+        }
+      ]
+    },
+    "EOSC 576": {
+      "reported": 7,
+      "average": 87.0,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      "terms": [
+        {
+          "session": "2021W",
+          "reported": 7,
+          "average": 87.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Kristin Orians"]
+        }
+      ]
+    },
+    "EOSC 584": {
+      "reported": 8,
+      "average": 85.1,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 1, 3, 2, 2],
+      "terms": [
+        {
+          "session": "2023W",
+          "topic": "B",
+          "title": "Topics in Biological Oceanography",
+          "reported": 8,
+          "average": 85.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 3, 2, 2],
+          "instructors": ["Lindsey Heagy", "Susan Elizabeth Allen", "Stephanie Block", "Michael Bostock", "Matias Salibian-Barrera", "Philippe Tortell", "Raymond Tak-Yan Ng"]
+        }
+      ]
+    },
+    "EOSC 595": {
+      "reported": 58,
+      "average": 88.7,
+      "grades": [0, 0, 0, 0, 0, 1, 0, 2, 3, 8, 30],
+      "terms": [
+        {
+          "session": "2023W",
+          "topic": "A",
+          "title": "Directed Studies",
+          "reported": 7,
+          "average": 90.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 4],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "topic": "B",
+          "title": "Directed Studies",
+          "reported": 7,
+          "average": 83.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": []
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Directed Studies",
+          "reported": 16,
+          "average": 89.6,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 0, 2, 3, 10],
+          "instructors": []
+        },
+        {
+          "session": "2022W",
+          "topic": "F",
+          "title": "Directed Studies",
+          "reported": 9,
+          "average": 87.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 2, 0, 4, 3],
+          "instructors": ["Lindsey Heagy", "Susan Elizabeth Allen", "Stephanie Block", "Michael Bostock", "Matias Salibian-Barrera", "Philippe Tortell", "Raymond Tak-Yan Ng"]
+        },
+        {
+          "session": "2021W",
+          "topic": "B",
+          "title": "Directed Studies",
+          "reported": 11,
+          "average": 88.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7],
+          "instructors": ["Anais Orsi"]
+        },
+        {
+          "session": "2021W",
+          "topic": "F",
+          "title": "Directed Studies",
+          "reported": 8,
+          "average": 92.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6],
+          "instructors": ["Lindsey Heagy", "Susan Elizabeth Allen", "Stephanie Block", "Michael Bostock", "Matias Salibian-Barrera", "Philippe Tortell", "Raymond Tak-Yan Ng"]
+        }
+      ]
+    },
+    "EOSC 598": {
+      "reported": 14,
+      "average": 88.6,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 4],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 7,
+          "average": 88.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": []
+        },
+        {
+          "session": "2022W",
+          "reported": 7,
+          "average": 88.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 4],
+          "instructors": []
+        }
+      ]
+    }
+  }
+}

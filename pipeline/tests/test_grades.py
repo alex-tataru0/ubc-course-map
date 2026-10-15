@@ -1,5 +1,6 @@
 import json
 from pathlib import Path
+from urllib.error import HTTPError
 
 import pytest
 
@@ -114,6 +115,28 @@ def test_downloads_only_terms_not_saved_yet(tmp_path):
                            refresh=True) == ["2024S", "2024W"]
 
 
+def test_term_with_no_sections_is_saved_as_an_empty_list(tmp_path):
+    # UBCGrades answers 404 when the subject had no sections that term.
+    def fake_fetch(url):
+        if url.endswith("/yearsessions/UBCV"):
+            return '["2024S"]'
+        raise HTTPError(url, 404, "Not Found", None, None)
+
+    assert download_grades("ENVR", tmp_path, fetch=fake_fetch, sleep=lambda s: None) == ["2024S"]
+    assert (tmp_path / "UBCV-2024S-ENVR.json").read_text() == "[]"
+
+
+def test_other_http_errors_stop_the_download(tmp_path):
+    def fake_fetch(url):
+        if url.endswith("/yearsessions/UBCV"):
+            return '["2024S"]'
+        raise HTTPError(url, 500, "Internal Server Error", None, None)
+
+    with pytest.raises(HTTPError):
+        download_grades("ENVR", tmp_path, fetch=fake_fetch, sleep=lambda s: None)
+    assert not (tmp_path / "UBCV-2024S-ENVR.json").exists()
+
+
 def test_lists_of_plain_values_go_on_one_line():
     text = to_json({"grades": [1, 2, 3], "terms": [{"names": ["A", "B"]}]})
     assert '"grades": [1, 2, 3]' in text
@@ -124,7 +147,11 @@ def test_lists_of_plain_values_go_on_one_line():
 # The tests below use the real data saved in data/raw/grades.
 
 # How many "OVERALL" rows UBCGrades sends for each subject.
-@pytest.mark.parametrize("subject, overall_rows", [("CPSC", 333), ("MATH", 407), ("STAT", 132)])
+@pytest.mark.parametrize("subject, overall_rows", [
+    ("ASTR", 57), ("ATSC", 30), ("BIOL", 431), ("CHEM", 282), ("CPSC", 333), ("DSCI", 96),
+    ("ENVR", 38), ("EOSC", 314), ("ISCI", 52), ("MATH", 407), ("MICB", 135), ("PHYS", 236),
+    ("SCIE", 14), ("STAT", 132),
+])
 def test_terms_match_ubcgrades_own_totals(subject, overall_rows):
     # Wherever UBCGrades gives an "OVERALL" row, adding up the sections must give the same
     # student count, average and grade counts.
@@ -168,3 +195,10 @@ def test_real_math_and_stat_summaries():
     stat = build_summary("STAT", RAW_DIR)
     assert len(stat["courses"]) == 33
     assert stat["sessions"] == math["sessions"]
+
+
+def test_real_summary_leaves_out_terms_without_sections():
+    # ENVR had no sections in four of the five summers, so those files are empty lists.
+    envr = build_summary("ENVR", RAW_DIR)
+    assert envr["sessions"] == ["2021W", "2022S", "2022W", "2023W", "2024W", "2025W"]
+    assert len(envr["courses"]) == 14

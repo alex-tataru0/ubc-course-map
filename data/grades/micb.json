@@ -1,0 +1,1477 @@
+{
+  "subject": "MICB",
+  "campus": "UBCV",
+  "source": "https://ubcgrades.com",
+  "credit": "UBCGrades.com / UBC PAIR",
+  "sessions": ["2021S", "2021W", "2022S", "2022W", "2023S", "2023W", "2024S", "2024W", "2025S", "2025W"],
+  "buckets": ["<50%", "50-54%", "55-59%", "60-63%", "64-67%", "68-71%", "72-75%", "76-79%", "80-84%", "85-89%", "90-100%"],
+  "courses": {
+    "MICB 201": {
+      "reported": 554,
+      "average": 85.3,
+      "grades": [1, 0, 0, 0, 0, 0, 29, 41, 103, 156, 193],
+      "terms": [
+        {
+          "session": "2022S",
+          "reported": 47,
+          "average": 86.0,
+          "grades": [1, 0, 0, 0, 0, 0, 4, 2, 8, 14, 18],
+          "instructors": ["Evelyn Sun"]
+        },
+        {
+          "session": "2021W",
+          "reported": 441,
+          "average": 85.5,
+          "grades": [0, 0, 0, 0, 0, 0, 25, 31, 82, 123, 160],
+          "instructors": ["Sean Crowe", "Evelyn Sun", "Jennifer Sibley"]
+        },
+        {
+          "session": "2021S",
+          "reported": 66,
+          "average": 83.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 8, 13, 19, 15],
+          "instructors": ["Tracy Kion", "Brandon Paul Kieft"]
+        }
+      ]
+    },
+    "MICB 202": {
+      "reported": 735,
+      "average": 78.0,
+      "grades": [15, 18, 30, 36, 40, 48, 55, 80, 128, 143, 132],
+      "terms": [
+        {
+          "session": "2022S",
+          "reported": 60,
+          "average": 78.8,
+          "grades": [0, 0, 5, 4, 3, 5, 2, 6, 12, 14, 9],
+          "instructors": ["Tracy Kion"]
+        },
+        {
+          "session": "2021W",
+          "reported": 585,
+          "average": 76.9,
+          "grades": [15, 18, 25, 32, 37, 43, 53, 67, 103, 103, 89],
+          "instructors": ["Lisa Osborne", "Elitza Tocheva", "Tracy Kion", "Jennifer Sibley"]
+        },
+        {
+          "session": "2021S",
+          "reported": 90,
+          "average": 84.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 7, 13, 26, 34],
+          "instructors": ["Katelyn Janzen", "Tracy Kion"]
+        }
+      ]
+    },
+    "MICB 203": {
+      "reported": 28,
+      "average": 86.5,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 11, 6],
+      "terms": [
+        {
+          "session": "2022W",
+          "reported": 12,
+          "average": 88.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 4, 6],
+          "instructors": ["Tracy Kion"]
+        },
+        {
+          "session": "2021W",
+          "reported": 16,
+          "average": 84.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 0],
+          "instructors": ["Karen Smith", "Tracy Kion", "Laura Daniela Morales Duran"]
+        }
+      ]
+    },
+    "MICB 205": {
+      "reported": 301,
+      "average": 90.7,
+      "grades": [0, 1, 0, 3, 0, 2, 3, 7, 12, 62, 211],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 191,
+          "average": 90.5,
+          "grades": [0, 0, 0, 3, 0, 2, 3, 5, 8, 32, 138],
+          "instructors": ["Evelyn Sun", "Donald Wong"]
+        },
+        {
+          "session": "2024W",
+          "reported": 110,
+          "average": 90.9,
+          "grades": [0, 1, 0, 0, 0, 0, 0, 2, 4, 30, 73],
+          "instructors": ["Evelyn Sun", "Donald Wong"]
+        }
+      ]
+    },
+    "MICB 211": {
+      "reported": 2699,
+      "average": 85.0,
+      "grades": [7, 11, 11, 26, 51, 107, 152, 227, 464, 702, 940],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 708,
+          "average": 81.8,
+          "grades": [3, 6, 5, 11, 22, 48, 49, 88, 161, 186, 129],
+          "instructors": ["Nelly Saber", "Kirsty McIntyre"]
+        },
+        {
+          "session": "2025S",
+          "reported": 58,
+          "average": 83.0,
+          "grades": [0, 0, 1, 1, 1, 1, 4, 9, 14, 11, 16],
+          "instructors": ["Morgan Alford"]
+        },
+        {
+          "session": "2024W",
+          "reported": 682,
+          "average": 82.1,
+          "grades": [2, 5, 3, 11, 20, 44, 63, 75, 141, 178, 140],
+          "instructors": ["Karen Smith", "Andrew Santos", "Jennifer Sibley", "Kirsty McIntyre"]
+        },
+        {
+          "session": "2024S",
+          "reported": 117,
+          "average": 89.7,
+          "grades": [0, 0, 1, 0, 0, 1, 0, 3, 11, 34, 67],
+          "instructors": ["Evelyn Sun"]
+        },
+        {
+          "session": "2023W",
+          "reported": 603,
+          "average": 89.3,
+          "grades": [1, 0, 1, 1, 3, 6, 12, 19, 73, 139, 348],
+          "instructors": ["Evelyn Sun", "Karen Smith", "Elitza Tocheva"]
+        },
+        {
+          "session": "2023S",
+          "reported": 53,
+          "average": 88.9,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 2, 6, 13, 30],
+          "instructors": ["Evelyn Sun"]
+        },
+        {
+          "session": "2022W",
+          "reported": 478,
+          "average": 87.1,
+          "grades": [1, 0, 0, 2, 5, 7, 23, 31, 58, 141, 210],
+          "instructors": ["Sean Crowe", "Evelyn Sun", "Elitza Tocheva"]
+        }
+      ]
+    },
+    "MICB 212": {
+      "reported": 2010,
+      "average": 78.3,
+      "grades": [75, 15, 80, 87, 108, 165, 192, 211, 310, 332, 425],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 424,
+          "average": 75.7,
+          "grades": [18, 3, 22, 27, 28, 53, 51, 45, 62, 54, 61],
+          "instructors": ["Maria Tokuyama", "Tracy Kion", "Selena Sagan"]
+        },
+        {
+          "session": "2025S",
+          "reported": 39,
+          "average": 77.9,
+          "grades": [0, 1, 1, 2, 2, 3, 6, 9, 5, 2, 8],
+          "instructors": []
+        },
+        {
+          "session": "2024W",
+          "reported": 450,
+          "average": 76.1,
+          "grades": [19, 3, 32, 21, 36, 35, 43, 55, 70, 58, 78],
+          "instructors": ["Maria Tokuyama", "Tracy Kion", "Selena Sagan"]
+        },
+        {
+          "session": "2024S",
+          "reported": 91,
+          "average": 75.3,
+          "grades": [5, 1, 3, 5, 8, 9, 9, 11, 19, 13, 8],
+          "instructors": ["Tracy Kion"]
+        },
+        {
+          "session": "2023W",
+          "reported": 473,
+          "average": 80.7,
+          "grades": [15, 3, 9, 12, 16, 29, 39, 50, 84, 92, 116],
+          "instructors": ["Maria Tokuyama", "Tracy Kion", "Jennifer Sibley"]
+        },
+        {
+          "session": "2023S",
+          "reported": 52,
+          "average": 78.8,
+          "grades": [2, 0, 1, 2, 2, 6, 7, 5, 4, 10, 11],
+          "instructors": ["Tracy Kion"]
+        },
+        {
+          "session": "2022W",
+          "reported": 481,
+          "average": 81.1,
+          "grades": [16, 4, 12, 18, 16, 30, 37, 36, 66, 103, 143],
+          "instructors": ["Lisa Osborne", "Tracy Kion", "Jennifer Sibley", "Maria Tokuyama"]
+        }
+      ]
+    },
+    "MICB 301": {
+      "reported": 491,
+      "average": 76.5,
+      "grades": [17, 5, 13, 14, 33, 46, 61, 64, 115, 74, 44],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 132,
+          "average": 74.2,
+          "grades": [10, 0, 3, 7, 11, 16, 20, 13, 22, 16, 14],
+          "instructors": ["William Mohn", "Lindsay Eltis"]
+        },
+        {
+          "session": "2024W",
+          "reported": 109,
+          "average": 75.8,
+          "grades": [3, 3, 5, 4, 9, 7, 15, 11, 21, 21, 10],
+          "instructors": ["William Mohn", "Lindsay Eltis"]
+        },
+        {
+          "session": "2023W",
+          "reported": 134,
+          "average": 77.8,
+          "grades": [3, 1, 3, 2, 6, 13, 14, 18, 38, 17, 14],
+          "instructors": ["William Mohn", "Lindsay Eltis"]
+        },
+        {
+          "session": "2022W",
+          "reported": 116,
+          "average": 78.2,
+          "grades": [1, 1, 2, 1, 7, 10, 12, 22, 34, 20, 6],
+          "instructors": ["William Mohn", "Lindsay Eltis"]
+        }
+      ]
+    },
+    "MICB 302": {
+      "reported": 975,
+      "average": 75.1,
+      "grades": [74, 5, 16, 40, 63, 64, 107, 126, 155, 96, 96],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 176,
+          "average": 72.4,
+          "grades": [24, 2, 8, 6, 12, 10, 16, 25, 32, 24, 17],
+          "instructors": ["Tracy Kion"]
+        },
+        {
+          "session": "2024W",
+          "reported": 170,
+          "average": 72.0,
+          "grades": [18, 1, 1, 18, 16, 13, 21, 16, 40, 18, 8],
+          "instructors": ["Tracy Kion", "Kenneth Harder"]
+        },
+        {
+          "session": "2023W",
+          "reported": 218,
+          "average": 74.4,
+          "grades": [14, 1, 5, 13, 19, 16, 18, 35, 46, 25, 17],
+          "instructors": ["Lisa Osborne", "Tracy Kion"]
+        },
+        {
+          "session": "2022W",
+          "reported": 202,
+          "average": 77.0,
+          "grades": [18, 1, 2, 3, 9, 12, 26, 33, 37, 29, 32],
+          "instructors": ["Tracy Kion"]
+        },
+        {
+          "session": "2021W",
+          "reported": 209,
+          "average": 78.8,
+          "grades": [0, 0, 0, 0, 7, 13, 26, 17, 0, 0, 22],
+          "instructors": ["Tracy Kion"]
+        }
+      ]
+    },
+    "MICB 305": {
+      "reported": 71,
+      "average": 86.6,
+      "grades": [3, 0, 0, 0, 0, 1, 0, 3, 10, 23, 31],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 71,
+          "average": 86.6,
+          "grades": [3, 0, 0, 0, 0, 1, 0, 3, 10, 23, 31],
+          "instructors": ["Avril Metcalfe-Roach"]
+        }
+      ]
+    },
+    "MICB 306": {
+      "reported": 689,
+      "average": 83.0,
+      "grades": [9, 6, 19, 10, 18, 38, 31, 48, 113, 149, 247],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 171,
+          "average": 84.6,
+          "grades": [4, 1, 3, 0, 6, 7, 8, 9, 19, 27, 87],
+          "instructors": ["Francois Jean", "Marcia Graves"]
+        },
+        {
+          "session": "2024W",
+          "reported": 166,
+          "average": 83.6,
+          "grades": [2, 1, 6, 3, 5, 6, 8, 11, 26, 34, 64],
+          "instructors": ["Francois Jean", "Marcia Graves"]
+        },
+        {
+          "session": "2023W",
+          "reported": 187,
+          "average": 82.6,
+          "grades": [1, 2, 5, 2, 7, 9, 6, 12, 37, 54, 51],
+          "instructors": ["Francois Jean", "Marcia Graves"]
+        },
+        {
+          "session": "2022W",
+          "reported": 165,
+          "average": 81.0,
+          "grades": [2, 2, 5, 5, 0, 16, 9, 16, 31, 34, 45],
+          "instructors": ["Francois Jean", "Marcia Graves"]
+        }
+      ]
+    },
+    "MICB 308": {
+      "reported": 509,
+      "average": 77.6,
+      "grades": [26, 9, 18, 14, 21, 31, 41, 57, 84, 90, 103],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 79,
+          "average": 77.2,
+          "grades": [6, 0, 5, 5, 4, 3, 6, 6, 10, 11, 23],
+          "instructors": ["David Oliver", "Jim Sun"]
+        },
+        {
+          "session": "2024W",
+          "reported": 87,
+          "average": 78.2,
+          "grades": [4, 3, 7, 2, 3, 3, 6, 10, 8, 17, 24],
+          "instructors": ["David Oliver", "Jim Jian Sun"]
+        },
+        {
+          "session": "2023W",
+          "reported": 130,
+          "average": 77.3,
+          "grades": [6, 3, 5, 3, 5, 12, 13, 16, 24, 23, 18],
+          "instructors": ["David Oliver", "Yossef Av-Gay"]
+        },
+        {
+          "session": "2022W",
+          "reported": 103,
+          "average": 80.1,
+          "grades": [3, 3, 1, 4, 3, 6, 10, 10, 18, 21, 24],
+          "instructors": ["David Oliver", "Yossef Av-Gay"]
+        },
+        {
+          "session": "2021W",
+          "reported": 110,
+          "average": 75.6,
+          "grades": [7, 0, 0, 0, 6, 7, 6, 15, 24, 18, 14],
+          "instructors": ["David Oliver", "Antonio Serapio Palacios"]
+        }
+      ]
+    },
+    "MICB 322": {
+      "reported": 612,
+      "average": 87.4,
+      "grades": [0, 3, 1, 0, 0, 0, 14, 16, 101, 223, 240],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 131,
+          "average": 87.0,
+          "grades": [0, 2, 1, 0, 0, 0, 2, 5, 25, 45, 51],
+          "instructors": ["Jennifer Sibley", "Andrew Santos"]
+        },
+        {
+          "session": "2025S",
+          "reported": 32,
+          "average": 88.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 4, 14, 14],
+          "instructors": ["Jennifer Sibley", "Andrew Santos"]
+        },
+        {
+          "session": "2024W",
+          "reported": 89,
+          "average": 88.7,
+          "grades": [0, 0, 0, 0, 0, 0, 2, 5, 10, 27, 45],
+          "instructors": ["Jennifer Sibley", "Andrew Santos"]
+        },
+        {
+          "session": "2024S",
+          "reported": 32,
+          "average": 89.2,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 1, 13, 17],
+          "instructors": ["Jennifer Sibley"]
+        },
+        {
+          "session": "2023W",
+          "reported": 82,
+          "average": 89.8,
+          "grades": [0, 1, 0, 0, 0, 0, 0, 0, 5, 25, 51],
+          "instructors": ["Jennifer Sibley"]
+        },
+        {
+          "session": "2023S",
+          "reported": 29,
+          "average": 88.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 4, 15, 10],
+          "instructors": ["Jennifer Sibley"]
+        },
+        {
+          "session": "2022W",
+          "reported": 87,
+          "average": 86.7,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 5, 22, 32, 27],
+          "instructors": ["Jennifer Sibley"]
+        },
+        {
+          "session": "2022S",
+          "reported": 30,
+          "average": 86.1,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 1, 6, 12, 10],
+          "instructors": ["Jennifer Sibley"]
+        },
+        {
+          "session": "2021W",
+          "reported": 84,
+          "average": 84.3,
+          "grades": [0, 0, 0, 0, 0, 0, 7, 0, 24, 33, 15],
+          "instructors": ["Karen Smith", "Jennifer Sibley"]
+        },
+        {
+          "session": "2021S",
+          "reported": 16,
+          "average": 84.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 0],
+          "instructors": ["David Oliver", "Jennifer Sibley", "John Nomellini"]
+        }
+      ]
+    },
+    "MICB 323": {
+      "reported": 510,
+      "average": 84.7,
+      "grades": [1, 0, 0, 0, 0, 6, 11, 27, 138, 240, 76],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 107,
+          "average": 83.9,
+          "grades": [1, 0, 0, 0, 0, 2, 3, 16, 28, 39, 18],
+          "instructors": ["Morgan Alford", "Sreeparna Vappala", "Marcia Graves", "Kabir Bhalla"]
+        },
+        {
+          "session": "2024W",
+          "reported": 81,
+          "average": 84.9,
+          "grades": [0, 0, 0, 0, 0, 2, 2, 2, 23, 41, 11],
+          "instructors": ["Marcia Graves", "Andrew Santos"]
+        },
+        {
+          "session": "2024S",
+          "reported": 28,
+          "average": 83.9,
+          "grades": [0, 0, 0, 0, 0, 0, 2, 0, 17, 7, 2],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "reported": 83,
+          "average": 86.4,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 1, 14, 54, 13],
+          "instructors": ["Michael Chua", "Marcia Graves"]
+        },
+        {
+          "session": "2023S",
+          "reported": 26,
+          "average": 86.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 5, 12, 7],
+          "instructors": ["Michael Chua", "Marcia Graves"]
+        },
+        {
+          "session": "2022W",
+          "reported": 83,
+          "average": 83.6,
+          "grades": [0, 0, 0, 0, 0, 1, 4, 6, 29, 35, 8],
+          "instructors": ["Michael Chua", "Marcia Graves"]
+        },
+        {
+          "session": "2022S",
+          "reported": 23,
+          "average": 86.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 7, 6, 9],
+          "instructors": ["Marcia Graves"]
+        },
+        {
+          "session": "2021W",
+          "reported": 79,
+          "average": 84.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 15, 46, 8],
+          "instructors": ["Marcia Graves", "Virginie Jean Baptiste"]
+        }
+      ]
+    },
+    "MICB 325": {
+      "reported": 548,
+      "average": 83.3,
+      "grades": [9, 3, 8, 12, 16, 17, 38, 50, 88, 130, 175],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 159,
+          "average": 83.4,
+          "grades": [3, 0, 3, 0, 4, 5, 14, 11, 27, 45, 47],
+          "instructors": ["Steven Hallam", "Thea Whitman"]
+        },
+        {
+          "session": "2024W",
+          "reported": 125,
+          "average": 85.6,
+          "grades": [1, 0, 0, 2, 3, 1, 9, 15, 17, 28, 49],
+          "instructors": ["Steven Hallam", "Nina Radisavljevic"]
+        },
+        {
+          "session": "2023W",
+          "reported": 142,
+          "average": 86.2,
+          "grades": [1, 0, 1, 4, 5, 3, 3, 8, 17, 39, 59],
+          "instructors": ["Steven Hallam", "Nina Radisavljevic"]
+        },
+        {
+          "session": "2022W",
+          "reported": 122,
+          "average": 77.5,
+          "grades": [4, 3, 4, 6, 4, 8, 12, 16, 27, 18, 20],
+          "instructors": ["Corri Hamilton", "Lindsay Eltis"]
+        }
+      ]
+    },
+    "MICB 353": {
+      "reported": 124,
+      "average": 88.2,
+      "grades": [0, 0, 0, 0, 0, 0, 4, 5, 16, 35, 60],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 20,
+          "average": 89.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 8, 10],
+          "instructors": ["Tracy Kion"]
+        },
+        {
+          "session": "2024W",
+          "reported": 26,
+          "average": 83.0,
+          "grades": [0, 0, 0, 0, 0, 0, 3, 4, 9, 6, 4],
+          "instructors": ["Jennifer Sibley", "Tracy Kion"]
+        },
+        {
+          "session": "2023W",
+          "reported": 26,
+          "average": 88.7,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 1, 4, 2, 18],
+          "instructors": ["Tracy Kion"]
+        },
+        {
+          "session": "2022W",
+          "reported": 26,
+          "average": 92.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 5, 20],
+          "instructors": ["Tracy Kion"]
+        },
+        {
+          "session": "2021W",
+          "reported": 26,
+          "average": 87.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 8],
+          "instructors": ["Karen Smith", "Tracy Kion"]
+        }
+      ]
+    },
+    "MICB 401": {
+      "reported": 94,
+      "average": 93.3,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 86],
+      "terms": [
+        {
+          "session": "2021W",
+          "reported": 94,
+          "average": 93.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 86],
+          "instructors": ["David Oliver", "Cara Haney", "Marcia Graves"]
+        }
+      ]
+    },
+    "MICB 402": {
+      "reported": 194,
+      "average": 79.6,
+      "grades": [3, 2, 7, 4, 6, 11, 11, 22, 36, 33, 44],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 38,
+          "average": 80.4,
+          "grades": [0, 0, 2, 2, 0, 5, 4, 4, 5, 6, 10],
+          "instructors": ["Ted Steiner", "Manish Sadarangani", "Ninan Abraham", "Megan Levings"]
+        },
+        {
+          "session": "2024W",
+          "reported": 30,
+          "average": 81.2,
+          "grades": [0, 0, 1, 1, 2, 1, 1, 5, 4, 12, 3],
+          "instructors": ["Manish Sadarangani", "Theodore Steiner", "Megan Levings", "Kenneth Harder"]
+        },
+        {
+          "session": "2023W",
+          "reported": 34,
+          "average": 77.5,
+          "grades": [0, 2, 1, 0, 3, 2, 4, 5, 7, 5, 4],
+          "instructors": ["Manish Sadarangani", "Megan Levings", "Kenneth Harder"]
+        },
+        {
+          "session": "2022W",
+          "reported": 36,
+          "average": 75.8,
+          "grades": [3, 0, 3, 1, 1, 3, 2, 2, 9, 3, 9],
+          "instructors": ["Manish Sadarangani", "Megan Levings", "Kenneth Harder"]
+        },
+        {
+          "session": "2021W",
+          "reported": 56,
+          "average": 81.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 6, 11, 7, 18],
+          "instructors": ["Manish Sadarangani", "Megan Levings", "Kenneth Harder"]
+        }
+      ]
+    },
+    "MICB 404": {
+      "reported": 77,
+      "average": 89.5,
+      "grades": [1, 0, 0, 0, 0, 0, 1, 0, 6, 15, 49],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 18,
+          "average": 91.4,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 1, 3, 13],
+          "instructors": ["Elitza Tocheva", "Andrew Santos"]
+        },
+        {
+          "session": "2024W",
+          "reported": 17,
+          "average": 86.0,
+          "grades": [1, 0, 0, 0, 0, 0, 0, 0, 0, 4, 12],
+          "instructors": ["Elitza Tocheva", "Andrew Santos"]
+        },
+        {
+          "session": "2023W",
+          "reported": 12,
+          "average": 90.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 8],
+          "instructors": ["Robert E Hancock"]
+        },
+        {
+          "session": "2022W",
+          "reported": 19,
+          "average": 89.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 3, 6, 10],
+          "instructors": ["Robert E Hancock"]
+        },
+        {
+          "session": "2021W",
+          "reported": 11,
+          "average": 90.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6],
+          "instructors": ["Robert E Hancock"]
+        }
+      ]
+    },
+    "MICB 405": {
+      "reported": 312,
+      "average": 78.3,
+      "grades": [2, 1, 6, 5, 14, 20, 40, 63, 64, 72, 14],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 64,
+          "average": 81.7,
+          "grades": [0, 0, 0, 0, 1, 4, 6, 10, 17, 18, 8],
+          "instructors": ["Martin Hirst", "Donald Wong"]
+        },
+        {
+          "session": "2024W",
+          "reported": 67,
+          "average": 80.7,
+          "grades": [0, 0, 0, 1, 1, 4, 8, 12, 21, 17, 3],
+          "instructors": ["Martin Hirst", "Donald Wong"]
+        },
+        {
+          "session": "2023W",
+          "reported": 66,
+          "average": 74.0,
+          "grades": [1, 1, 4, 4, 6, 6, 9, 15, 11, 8, 1],
+          "instructors": ["Martin Hirst", "Donald Wong"]
+        },
+        {
+          "session": "2022W",
+          "reported": 62,
+          "average": 76.1,
+          "grades": [1, 0, 2, 0, 6, 6, 10, 18, 9, 8, 2],
+          "instructors": ["Martin Hirst", "Donald Wong"]
+        },
+        {
+          "session": "2021W",
+          "reported": 53,
+          "average": 79.2,
+          "grades": [0, 0, 0, 0, 0, 0, 7, 8, 6, 21, 0],
+          "instructors": ["Martin Hirst", "Stephan Koenig"]
+        }
+      ]
+    },
+    "MICB 406": {
+      "reported": 102,
+      "average": 92.6,
+      "grades": [0, 0, 0, 0, 1, 0, 0, 0, 2, 8, 91],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 23,
+          "average": 91.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 19],
+          "instructors": ["Francois Jean", "Selena Sagan"]
+        },
+        {
+          "session": "2024W",
+          "reported": 22,
+          "average": 90.5,
+          "grades": [0, 0, 0, 0, 1, 0, 0, 0, 1, 4, 16],
+          "instructors": ["Francois Jean", "Marc Horwitz"]
+        },
+        {
+          "session": "2023W",
+          "reported": 18,
+          "average": 94.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 17],
+          "instructors": ["Francois Jean", "Marc Horwitz"]
+        },
+        {
+          "session": "2022W",
+          "reported": 12,
+          "average": 94.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12],
+          "instructors": ["Francois Jean", "Marc Horwitz"]
+        },
+        {
+          "session": "2021W",
+          "reported": 27,
+          "average": 93.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27],
+          "instructors": ["Francois Jean", "Marc Horwitz"]
+        }
+      ]
+    },
+    "MICB 407": {
+      "reported": 169,
+      "average": 89.9,
+      "grades": [0, 0, 0, 0, 0, 0, 2, 6, 12, 37, 109],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 27,
+          "average": 88.3,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 2, 3, 6, 15],
+          "instructors": ["Citlali Marquez", "Agatha Jassem"]
+        },
+        {
+          "session": "2024W",
+          "reported": 42,
+          "average": 87.3,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 4, 5, 16, 16],
+          "instructors": ["Agata Jassem", "Marc Horwitz"]
+        },
+        {
+          "session": "2023W",
+          "reported": 34,
+          "average": 92.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 28],
+          "instructors": ["Agata Jassem", "Marc Horwitz"]
+        },
+        {
+          "session": "2022W",
+          "reported": 34,
+          "average": 92.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 4, 29],
+          "instructors": ["Agata Jassem", "Marc Horwitz"]
+        },
+        {
+          "session": "2021W",
+          "reported": 32,
+          "average": 89.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 21],
+          "instructors": ["Agata Jassem", "Marc Horwitz"]
+        }
+      ]
+    },
+    "MICB 408": {
+      "reported": 200,
+      "average": 89.4,
+      "grades": [0, 0, 0, 0, 1, 0, 2, 6, 26, 48, 115],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 34,
+          "average": 87.2,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 3, 8, 7, 15],
+          "instructors": ["Elitza Tocheva", "Jim Sun"]
+        },
+        {
+          "session": "2024W",
+          "reported": 48,
+          "average": 89.6,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 2, 2, 17, 26],
+          "instructors": ["Elitza Tocheva", "Jim Jian Sun"]
+        },
+        {
+          "session": "2023W",
+          "reported": 44,
+          "average": 90.4,
+          "grades": [0, 0, 0, 0, 1, 0, 0, 1, 2, 9, 31],
+          "instructors": ["Evelyn Sun", "Elitza Tocheva"]
+        },
+        {
+          "session": "2022W",
+          "reported": 40,
+          "average": 93.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 37],
+          "instructors": ["Evelyn Sun", "Elitza Tocheva"]
+        },
+        {
+          "session": "2021W",
+          "reported": 34,
+          "average": 85.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 14, 12, 6],
+          "instructors": ["Evelyn Sun", "Elitza Tocheva"]
+        }
+      ]
+    },
+    "MICB 412": {
+      "reported": 80,
+      "average": 89.5,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 1, 7, 15, 50],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 18,
+          "average": 90.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 5, 12],
+          "instructors": ["Maria Tokuyama", "Phillip Domeier"]
+        },
+        {
+          "session": "2024W",
+          "reported": 17,
+          "average": 90.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 2, 1, 13],
+          "instructors": ["Maria Tokuyama", "Ninan Abraham", "Kenneth Harder"]
+        },
+        {
+          "session": "2023W",
+          "reported": 18,
+          "average": 87.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 3, 7, 8],
+          "instructors": ["Maria Tokuyama", "Ninan Abraham", "Kenneth Harder"]
+        },
+        {
+          "session": "2022W",
+          "reported": 13,
+          "average": 90.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 10],
+          "instructors": ["Michael Gold", "Maria Tokuyama", "Kenneth Harder"]
+        },
+        {
+          "session": "2021W",
+          "reported": 14,
+          "average": 88.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7],
+          "instructors": ["Michael Gold", "Kelly Brown", "Kenneth Harder"]
+        }
+      ]
+    },
+    "MICB 413": {
+      "reported": 98,
+      "average": 90.8,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 21, 72],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 21,
+          "average": 88.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 7],
+          "instructors": []
+        },
+        {
+          "session": "2024W",
+          "reported": 21,
+          "average": 90.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 17],
+          "instructors": ["Lisa Osborne", "Carolina Tropini", "B Brett Finlay"]
+        },
+        {
+          "session": "2023W",
+          "reported": 24,
+          "average": 91.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 22],
+          "instructors": ["Lisa Osborne", "Carolina Tropini", "B Brett Finlay"]
+        },
+        {
+          "session": "2022W",
+          "reported": 18,
+          "average": 91.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 16],
+          "instructors": ["Lisa Osborne", "Carolina Tropini", "B Brett Finlay", "Leah Hohman"]
+        },
+        {
+          "session": "2021W",
+          "reported": 14,
+          "average": 91.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10],
+          "instructors": ["Lisa Osborne", "Carolina Tropini", "B Brett Finlay"]
+        }
+      ]
+    },
+    "MICB 418": {
+      "reported": 285,
+      "average": 82.8,
+      "grades": [0, 0, 1, 3, 6, 9, 27, 25, 73, 66, 66],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 50,
+          "average": 79.5,
+          "grades": [0, 0, 0, 1, 1, 5, 5, 9, 17, 7, 5],
+          "instructors": ["Jared Taylor"]
+        },
+        {
+          "session": "2024W",
+          "reported": 55,
+          "average": 80.0,
+          "grades": [0, 0, 0, 0, 3, 2, 6, 10, 22, 9, 3],
+          "instructors": ["David Oliver", "Jared Taylor"]
+        },
+        {
+          "session": "2023W",
+          "reported": 58,
+          "average": 82.6,
+          "grades": [0, 0, 0, 2, 2, 1, 4, 3, 16, 19, 9],
+          "instructors": ["David Oliver", "Jared Taylor"]
+        },
+        {
+          "session": "2022W",
+          "reported": 61,
+          "average": 85.4,
+          "grades": [0, 0, 1, 0, 0, 1, 6, 3, 11, 17, 22],
+          "instructors": ["David Oliver", "Jared Taylor"]
+        },
+        {
+          "session": "2021W",
+          "reported": 61,
+          "average": 85.7,
+          "grades": [0, 0, 0, 0, 0, 0, 6, 0, 7, 14, 27],
+          "instructors": ["David Oliver", "Jared Taylor"]
+        }
+      ]
+    },
+    "MICB 421": {
+      "reported": 12,
+      "average": 92.5,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11],
+      "terms": [
+        {
+          "session": "2021W",
+          "reported": 12,
+          "average": 92.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11],
+          "instructors": ["David Oliver", "Marcia Graves"]
+        }
+      ]
+    },
+    "MICB 425": {
+      "reported": 231,
+      "average": 89.4,
+      "grades": [0, 1, 1, 1, 1, 0, 4, 5, 15, 67, 133],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 39,
+          "average": 94.8,
+          "grades": [0, 0, 0, 1, 0, 0, 0, 0, 0, 2, 36],
+          "instructors": ["Sean Crowe", "Hans Ghezzi"]
+        },
+        {
+          "session": "2024W",
+          "reported": 41,
+          "average": 85.2,
+          "grades": [0, 1, 1, 0, 0, 0, 3, 2, 6, 15, 13],
+          "instructors": ["Steven Hallam", "Donald Wong"]
+        },
+        {
+          "session": "2023W",
+          "reported": 59,
+          "average": 89.4,
+          "grades": [0, 0, 0, 0, 1, 0, 0, 2, 3, 18, 35],
+          "instructors": ["Sean Crowe", "Nina Radisavljevic"]
+        },
+        {
+          "session": "2022W",
+          "reported": 47,
+          "average": 88.5,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 1, 6, 15, 24],
+          "instructors": ["Sean Crowe", "Donald Wong"]
+        },
+        {
+          "session": "2021W",
+          "reported": 45,
+          "average": 89.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 17, 25],
+          "instructors": ["Connor Morgan-Lang", "Steven Hallam"]
+        }
+      ]
+    },
+    "MICB 430": {
+      "reported": 119,
+      "average": 90.5,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 1, 12, 23, 80],
+      "terms": [
+        {
+          "session": "2025W",
+          "topic": "A",
+          "title": "Seminar in Microbiological Literature",
+          "reported": 26,
+          "average": 91.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 6, 19],
+          "instructors": ["Michael Gold", "Robert E Hancock"]
+        },
+        {
+          "session": "2024W",
+          "topic": "A",
+          "title": "SEM MICB LIT",
+          "reported": 23,
+          "average": 90.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 3, 5, 15],
+          "instructors": ["James Kronstad", "Michael Gold", "Leah Hohman"]
+        },
+        {
+          "session": "2024W",
+          "topic": "B",
+          "title": "SEM MICB LIT",
+          "reported": 13,
+          "average": 87.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 2, 5, 5],
+          "instructors": ["Deanna Pepin", "Selena Sagan"]
+        },
+        {
+          "session": "2023W",
+          "topic": "A",
+          "title": "Seminar in Microbiological Literature",
+          "reported": 24,
+          "average": 89.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 6, 3, 15],
+          "instructors": ["Michael Gold", "Marc Horwitz", "Leah Hohman"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Seminar in Microbiological Literature",
+          "reported": 16,
+          "average": 92.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 12],
+          "instructors": ["Evelyn Sun", "Erin Gaynor", "Leah Hohman"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Seminar in Microbiological Literature",
+          "reported": 17,
+          "average": 90.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14],
+          "instructors": ["Erin Gaynor", "Jennifer Nguyen", "Moritz Koch"]
+        }
+      ]
+    },
+    "MICB 447": {
+      "reported": 86,
+      "average": 88.9,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 18, 48],
+      "terms": [
+        {
+          "session": "2021W",
+          "reported": 86,
+          "average": 88.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 18, 48],
+          "instructors": ["Evelyn Sun", "Steven Hallam", "Stephan Koenig", "Zakhar Krekhno"]
+        }
+      ]
+    },
+    "MICB 448": {
+      "reported": 89,
+      "average": 92.9,
+      "grades": [0, 0, 0, 0, 0, 1, 0, 0, 3, 5, 76],
+      "terms": [
+        {
+          "session": "2025W",
+          "topic": "C",
+          "title": "LAB PROJECT",
+          "reported": 20,
+          "average": 93.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 19],
+          "instructors": ["Tracy Kion"]
+        },
+        {
+          "session": "2024W",
+          "topic": "C",
+          "title": "LAB PROJECT",
+          "reported": 23,
+          "average": 93.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 20],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "topic": "C",
+          "title": "Directed Research",
+          "reported": 10,
+          "average": 90.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 8],
+          "instructors": ["Tracy Kion"]
+        },
+        {
+          "session": "2022W",
+          "topic": "C",
+          "title": "Directed Research",
+          "reported": 12,
+          "average": 90.3,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 9],
+          "instructors": ["Tracy Kion"]
+        },
+        {
+          "session": "2022W",
+          "topic": "S",
+          "title": "Directed Research",
+          "reported": 11,
+          "average": 98.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11],
+          "instructors": []
+        },
+        {
+          "session": "2021W",
+          "topic": "C",
+          "title": "Directed Research",
+          "reported": 13,
+          "average": 91.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9],
+          "instructors": ["Tracy Kion"]
+        }
+      ]
+    },
+    "MICB 449": {
+      "reported": 43,
+      "average": 92.5,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 5, 35],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 12,
+          "average": 94.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 11],
+          "instructors": ["Tracy Kion"]
+        },
+        {
+          "session": "2024W",
+          "reported": 12,
+          "average": 92.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 9],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "reported": 12,
+          "average": 90.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 9],
+          "instructors": ["Tracy Kion"]
+        },
+        {
+          "session": "2021W",
+          "reported": 7,
+          "average": 92.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6],
+          "instructors": ["Tracy Kion"]
+        }
+      ]
+    },
+    "MICB 471": {
+      "reported": 368,
+      "average": 93.9,
+      "grades": [1, 0, 0, 0, 0, 0, 0, 0, 0, 24, 343],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 91,
+          "average": 92.8,
+          "grades": [1, 0, 0, 0, 0, 0, 0, 0, 0, 7, 83],
+          "instructors": ["David Oliver"]
+        },
+        {
+          "session": "2024W",
+          "reported": 108,
+          "average": 94.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 106],
+          "instructors": ["David Oliver", "Marcia Graves"]
+        },
+        {
+          "session": "2023W",
+          "reported": 103,
+          "average": 94.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 93],
+          "instructors": ["David Oliver", "Marcia Graves"]
+        },
+        {
+          "session": "2022W",
+          "reported": 66,
+          "average": 93.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 61],
+          "instructors": ["David Oliver", "Marcia Graves"]
+        }
+      ]
+    },
+    "MICB 475": {
+      "reported": 437,
+      "average": 94.0,
+      "grades": [1, 0, 1, 0, 0, 0, 1, 0, 7, 32, 395],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 119,
+          "average": 92.9,
+          "grades": [0, 0, 1, 0, 0, 0, 1, 0, 4, 16, 97],
+          "instructors": ["Evelyn Sun"]
+        },
+        {
+          "session": "2024W",
+          "reported": 119,
+          "average": 94.0,
+          "grades": [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 116],
+          "instructors": ["Evelyn Sun"]
+        },
+        {
+          "session": "2023W",
+          "reported": 125,
+          "average": 95.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 120],
+          "instructors": ["Evelyn Sun"]
+        },
+        {
+          "session": "2022W",
+          "reported": 74,
+          "average": 94.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 10, 62],
+          "instructors": ["Melissa Chen", "Evelyn Sun"]
+        }
+      ]
+    },
+    "MICB 502": {
+      "reported": 53,
+      "average": 91.0,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 3, 9, 38],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 13,
+          "average": 91.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 10],
+          "instructors": ["Michael Gold", "Kelly Brown", "Wilfred Arthur Jefferies"]
+        },
+        {
+          "session": "2023W",
+          "reported": 10,
+          "average": 92.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 9],
+          "instructors": ["Lisa Osborne", "Michael Gold", "Wilfred Arthur Jefferies"]
+        },
+        {
+          "session": "2022W",
+          "reported": 18,
+          "average": 89.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 3, 5, 10],
+          "instructors": ["Michael Gold", "Ashley Ambrose", "Wilfred Arthur Jefferies"]
+        },
+        {
+          "session": "2021W",
+          "reported": 12,
+          "average": 92.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9],
+          "instructors": ["Lisa Osborne", "Michael Gold", "Wilfred Arthur Jefferies"]
+        }
+      ]
+    },
+    "MICB 506": {
+      "reported": 121,
+      "average": 92.2,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 3, 23, 87],
+      "terms": [
+        {
+          "session": "2024W",
+          "topic": "A",
+          "title": "Microbiological and Immunological Research",
+          "reported": 14,
+          "average": 91.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 10],
+          "instructors": ["Michael Murphy", "Michael Gold", "Marcia Graves", "Lindsay Eltis"]
+        },
+        {
+          "session": "2024W",
+          "topic": "B",
+          "title": "Microbiological and Immunological Research",
+          "reported": 13,
+          "average": 90.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 9],
+          "instructors": ["Maria Tokuyama", "Lindsay Eltis", "Lisa Osborne", "Michael Murphy", "Michael Gold", "Carolina Tropini", "Ninan Abraham"]
+        },
+        {
+          "session": "2023W",
+          "topic": "A",
+          "title": "Microbiological and Immunological Research",
+          "reported": 15,
+          "average": 92.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 12],
+          "instructors": ["Michael Gold", "Robert E Hancock", "Lindsay Eltis"]
+        },
+        {
+          "session": "2023W",
+          "topic": "B",
+          "title": "Microbiological and Immunological Research",
+          "reported": 10,
+          "average": 92.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8],
+          "instructors": ["Marcia Graves", "Lindsay Eltis", "Lisa Osborne", "Michael Murphy", "Carolina Tropini", "Michael Gold", "Maria Tokuyama", "Ninan Abraham"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Microbiological and Immunological Research",
+          "reported": 27,
+          "average": 90.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 10, 15],
+          "instructors": ["Pauline Johnson", "Robert E Hancock", "Lindsay Eltis"]
+        },
+        {
+          "session": "2022W",
+          "topic": "B",
+          "title": "Microbiological and Immunological Research",
+          "reported": 25,
+          "average": 95.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 21],
+          "instructors": ["Marcia Graves", "Michael Murphy", "Carolina Tropini", "Michael Gold", "Maria Tokuyama", "Pauline Johnson"]
+        },
+        {
+          "session": "2021W",
+          "topic": "C",
+          "title": "Microbiological and Immunological Research",
+          "reported": 17,
+          "average": 92.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12],
+          "instructors": ["Pauline Johnson", "Ninan Abraham", "Robert E Hancock"]
+        }
+      ]
+    },
+    "MICB 507": {
+      "reported": 22,
+      "average": 91.9,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 14],
+      "terms": [
+        {
+          "session": "2022W",
+          "reported": 11,
+          "average": 88.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 3],
+          "instructors": ["William Mohn", "Amee Manges", "Theodore Steiner", "Stuart Turvey"]
+        },
+        {
+          "session": "2021W",
+          "reported": 11,
+          "average": 94.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11],
+          "instructors": ["Amee Manges", "Yossef Av-Gay", "Theodore Steiner", "Stuart Turvey"]
+        }
+      ]
+    },
+    "MICB 520": {
+      "reported": 46,
+      "average": 94.6,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 45],
+      "terms": [
+        {
+          "session": "2024W",
+          "topic": "A",
+          "title": "Topics in Microbiology, Immunology and Virology",
+          "reported": 19,
+          "average": 96.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 19],
+          "instructors": ["Pauline Johnson", "Leah Hohman"]
+        },
+        {
+          "session": "2024W",
+          "topic": "B",
+          "title": "Topics in Microbiology, Immunology and Virology",
+          "reported": 14,
+          "average": 91.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14],
+          "instructors": ["Marcia Graves"]
+        },
+        {
+          "session": "2024W",
+          "topic": "C",
+          "title": "Topics in Microbiology, Immunology and Virology",
+          "reported": 7,
+          "average": 95.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7],
+          "instructors": ["Pauline Johnson"]
+        },
+        {
+          "session": "2024W",
+          "topic": "D",
+          "title": "Topics in Microbiology, Immunology and Virology",
+          "reported": 6,
+          "average": 94.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 5],
+          "instructors": ["Evelyn Sun"]
+        }
+      ]
+    },
+    "MICB 575": {
+      "reported": 7,
+      "average": 89.0,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 4, 2],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 7,
+          "average": 89.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 4, 2],
+          "instructors": ["Evelyn Sun"]
+        }
+      ]
+    }
+  }
+}
