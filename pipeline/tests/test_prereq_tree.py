@@ -1,6 +1,16 @@
+import pytest
+
+from build_prereqs import html_path
 from llm import load_cache
+from parse_courses import parse_course_list
 from prereq_tree import normalize_codes, parse_with_rules, tree_problems
 from requisites import extract_requisites
+
+
+def subject_courses(subject):
+    # Every course on a subject's saved calendar page, by code.
+    html = html_path(subject).read_text(encoding="utf-8")
+    return {c["code"]: c for c in parse_course_list(html)}
 
 
 def test_strips_vancouver_suffix():
@@ -92,28 +102,119 @@ def test_drops_the_full_stop():
     }
 
 
-def test_gives_up_on_courses_mixed_with_text():
+def test_text_next_to_courses():
     # CPSC 491
-    assert parse_with_rules("All of CPSC 221, CPSC 310, CPSC 344 and Third-year standing") is None
+    text = "All of CPSC 221, CPSC 310, CPSC 344 and Third-year standing"
+    assert parse_with_rules(text) == {"all_of": [
+        "CPSC 221", "CPSC 310", "CPSC 344", {"other": "Third-year standing"},
+    ]}
+
+
+def test_high_school_course_is_text():
+    # PHYS 101. "PHYS 12" is Physics 12 in high school, not a UBC course.
+    assert parse_with_rules("One of PHYS 12, PHYS 100") == {
+        "one_of": [{"other": "PHYS 12"}, "PHYS 100"]
+    }
+
+
+def test_text_choice_in_a_list():
+    # BIOL 501
+    assert parse_with_rules("BIOL 300 or equivalent and graduate student standing") == {
+        "all_of": [
+            {"one_of": ["BIOL 300", {"other": "equivalent"}]},
+            {"other": "graduate student standing"},
+        ]
+    }
+
+
+def test_last_sentence_without_a_course():
+    # ATSC 405
+    text = "MATH 215. Familiarity with a programming language is required"
+    assert parse_with_rules(text) == {"all_of": [
+        "MATH 215", {"other": "Familiarity with a programming language is required"},
+    ]}
+
+
+def test_last_sentence_starting_with_and():
+    # MICB 498
+    text = "Either (a) MICB 399 or (b) BIOT 380. And completion of two co-op work terms"
+    assert parse_with_rules(text) == {"all_of": [
+        {"one_of": ["MICB 399", "BIOT 380"]},
+        {"other": "completion of two co-op work terms"},
+    ]}
+
+
+def test_last_sentence_starting_with_or():
+    # BIOL 203
+    text = "One of BIOL 121, SCIE 001. Or 8 transfer credits of first-year biology"
+    assert parse_with_rules(text) == {"one_of": [
+        {"one_of": ["BIOL 121", "SCIE 001"]},
+        {"other": "8 transfer credits of first-year biology"},
+    ]}
+
+
+def test_full_stop_inside_a_degree_name():
+    # ENVR 449: the full stops in "B.Sc." don't end a sentence.
+    text = "ENVR 300 and fourth-year standing in the B.Sc. Environmental Sciences honours program"
+    assert parse_with_rules(text) == {"all_of": [
+        "ENVR 300",
+        {"other": "fourth-year standing in the B.Sc. Environmental Sciences honours program"},
+    ]}
+
+
+def test_lettered_option_after_a_full_stop():
+    # BIOL 260
+    text = ("Either (a) all of BIOL 112, BIOL 121 or (b) SCIE 001. or (c) 8 transfer credits "
+            "of 1st year BIOL and 6 credits of 1st year chemistry")
+    assert parse_with_rules(text) == {"one_of": [
+        {"all_of": ["BIOL 112", "BIOL 121"]},
+        "SCIE 001",
+        {"other": "8 transfer credits of 1st year BIOL and 6 credits of 1st year chemistry"},
+    ]}
+
+
+def test_all_of_inside_all_of_is_flattened():
+    # STAT 460
+    text = "All of MATH 320, STAT 305 and one of MATH 152, MATH 221, MATH 223"
+    assert parse_with_rules(text) == {"all_of": [
+        "MATH 320", "STAT 305", {"one_of": ["MATH 152", "MATH 221", "MATH 223"]},
+    ]}
+
+
+def test_gives_up_on_a_bare_number():
+    # MICB 322 and ENVR 240: "201" is short for a course code.
+    assert parse_with_rules("MICB 211 (or 201)") is None
+    assert parse_with_rules("One of STAT 200, 201, BIOL 300") is None
+
+
+def test_gives_up_on_a_list_of_what_codes_mean():
+    # Shortened from PHYS 107. The last sentence explains a code; it isn't a requirement.
+    text = "Either (a) PHYS 12 or (b) a score of 85% or higher in PHYS 100. PHYS 12 = Physics 12"
+    assert parse_with_rules(text) is None
 
 
 def test_which_courses_the_rules_cant_parse(courses):
-    # These 6 are left for Gemini. If this list changes, check why.
+    # These 5 are left for Gemini. If this list changes, check why.
     unparsed = set()
     for c in courses.values():
         prereq = extract_requisites(c["description"])["prereq"]
         if prereq is not None and parse_with_rules(normalize_codes(prereq)) is None:
             unparsed.add(c["code"])
     assert unparsed == {
-        "CPSC 320", "CPSC 415", "CPSC 423", "CPSC 440", "CPSC 445", "CPSC 491",
+        "CPSC 320", "CPSC 415", "CPSC 423", "CPSC 440", "CPSC 445",
     }
 
 
-def test_rules_give_the_trees_gemini_gave(courses):
-    # Gemini answered these before the rules could read them. Its hand-checked answers are
-    # still in the cache, so the rules must come out exactly the same.
+# Gemini answered these before the rules could read them. Its hand-checked answers are
+# still in the cache, so the rules must come out exactly the same.
+@pytest.mark.parametrize("subject, codes", [
+    ("CPSC", ["CPSC 221", "CPSC 330", "CPSC 340", "CPSC 410", "CPSC 491"]),
+    ("MATH", ["MATH 121", "MATH 312", "MATH 440", "MATH 442", "MATH 443", "MATH 444"]),
+])
+def test_rules_give_the_trees_gemini_gave(subject, codes):
     cache = load_cache()
-    for code in ["CPSC 221", "CPSC 330", "CPSC 340", "CPSC 410"]:
+    courses = subject_courses(subject)
+    for code in codes:
         text = normalize_codes(extract_requisites(courses[code]["description"])["prereq"])
         assert parse_with_rules(text) == cache[text]["tree"], code
 

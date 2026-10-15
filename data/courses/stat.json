@@ -706,12 +706,8 @@
         "text": "All of MATH 320, STAT 305 and one of MATH 152, MATH 221, MATH 223",
         "tree": {
           "all_of": [
-            {
-              "all_of": [
-                "MATH 320",
-                "STAT 305"
-              ]
-            },
+            "MATH 320",
+            "STAT 305",
             {
               "one_of": [
                 "MATH 152",

@@ -32,8 +32,8 @@ def saved_courses(subject):
 # For each subject: courses, prereqs + coreqs, how many the rules read, and how many
 # different texts go to Gemini. If a re-downloaded calendar changes these, check why.
 @pytest.mark.parametrize("subject, n_courses, n_requisites, n_rules, n_asked", [
-    ("CPSC", 112, 51, 45, 6),
-    ("MATH", 177, 110, 97, 13),
+    ("CPSC", 112, 51, 46, 5),
+    ("MATH", 177, 110, 103, 7),
     ("STAT", 54, 30, 26, 4),
 ])
 def test_only_the_hard_prereqs_go_to_gemini(subject, n_courses, n_requisites, n_rules, n_asked):

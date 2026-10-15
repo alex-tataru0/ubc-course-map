@@ -26,6 +26,12 @@ GRADE_NOTE = re.compile(r"(.+)\. Prerequisite grade requirement: (\d+)% in ([A-Z
 # A course code that may be missing its space, like "MATH226" in a grade note.
 SQUASHED = re.compile(r"([A-Z]{2,4}) ?(\d{3})")
 
+# "MATH 215. Familiarity with a programming language is required" (ATSC 405): a course code,
+# a full stop, then one more sentence. Groups: the text before the full stop, then after it.
+# The full stop must come right after a course code, so "fourth-year standing in the B.Sc.
+# Environmental Sciences honours program" (ENVR 449) isn't cut in two.
+LAST_SENTENCE = re.compile(r"(.+?\d{3}[A-Z]?)\.\s+(.+)")
+
 # "(a) " or "a) ": the start of a lettered option, as in "Either (a) MATH 360 or (b) MATH 361".
 # The \b stops it from matching the end of a word, like the "d)" in "(waived)".
 LETTER = re.compile(r"\(?\b([a-d])\)\s+")
@@ -40,8 +46,29 @@ JOINERS = [(", or", "one_of"), ("; or", "one_of"), (", and", "all_of"),
            (" or", "one_of"), (" and", "all_of"), (",", None)]
 
 
+def _is_text(piece: str) -> bool:
+    # True for words with no course code in them, like "Third-year standing" or "PHYS 12"
+    # (a high school course: UBC codes have 3 digits). The student checks these themselves.
+    # A bare number like the "201" in ENVR's "One of STAT 200, 201, …" is short for a course,
+    # not text, so it needs letters too. SQUASHED finds codes with or without the space.
+    return not SQUASHED.search(piece) and re.search(r"[A-Za-z]{2}", piece) is not None
+
+
+def _item(item: str):
+    # One piece of a list: a course code, or text like "permission of the instructor".
+    # None if it's something else, like "MICB 211 (" (then Gemini reads the whole text).
+    if COURSE.fullmatch(item):
+        return item
+    if _is_text(item):
+        return {"other": item}
+    return None
+
+
 def parse_clause(clause: str):
     clause = clause.strip(" .,;")
+    if _is_text(clause):
+        # "Third-year standing" in CPSC 491's "All of CPSC 221, … and Third-year standing".
+        return {"other": clause}
     score = SCORE.fullmatch(clause)
     if score:
         # Each listed course with the minimum grade. Several courses means any one of them.
@@ -59,10 +86,7 @@ def parse_clause(clause: str):
         kind, items = "one_of", clause[len("either "):].split(" or ")
     else:
         kind, items = "one_of", clause.split(" or ")
-    # Every piece must be exactly one course code, or we give up on this clause.
-    if not all(COURSE.fullmatch(item) for item in items):
-        return None
-    return items[0] if len(items) == 1 else {kind: items}
+    return _combine(kind, [_item(item) for item in items])
 
 
 def parse_with_rules(text: str):
@@ -77,9 +101,29 @@ def parse_with_rules(text: str):
 
 def _parse(text: str):
     text = text.strip(" .,;")
+    if _is_text(text):
+        # A part with no course code stays whole, like BIOL 260's option "(c) 8 transfer
+        # credits of 1st year BIOL and 6 credits of 1st year chemistry".
+        return {"other": text}
     note = GRADE_NOTE.fullmatch(text)
     if note:
         return _with_grade_note(note)
+    last = LAST_SENTENCE.fullmatch(text)
+    after = last.group(2) if last else ""
+    if _is_text(after) and not LETTER.search(after) and "=" not in after:
+        # The last sentence has no course code, so it's text the student checks. It's needed
+        # as well, unless it starts with "Or", like BIOL 203's "One of BIOL 121, SCIE 001.
+        # Or 8 transfer credits of first-year biology". Two kinds are left alone:
+        # - a letter like "(c)" means one more lettered option (BIOL 260), read further down.
+        # - "PHYS 12 = Physics 12; …" (PHYS 106, 107) only explains the codes. It isn't a
+        #   requirement, so Gemini gets the whole text.
+        before = last.group(1)
+        word, _, rest = after.partition(" ")
+        if word.lower() == "or":
+            return _combine("one_of", [_parse(before), _parse(rest)])
+        if word.lower() == "and":
+            after = rest
+        return _combine("all_of", [_parse(before), _parse(after)])
     if "; and " in text:
         # "Either (a) … or (b) …; and either (a) … or (b) …" (MATH 424): both halves are needed.
         return _combine("all_of", [_parse(part) for part in text.split("; and ")])
@@ -149,6 +193,13 @@ def _combine(kind: str, nodes: list):
     # One node stays as it is; several go in a one_of / all_of. None if any of them failed.
     if None in nodes:
         return None
+    if kind == "all_of":
+        # An all_of inside an all_of adds nothing: "All of MATH 320, STAT 305 and one of …"
+        # (STAT 460) is MATH 320, STAT 305 and the one_of, side by side.
+        flat = []
+        for node in nodes:
+            flat += node["all_of"] if isinstance(node, dict) and "all_of" in node else [node]
+        nodes = flat
     return nodes[0] if len(nodes) == 1 else {kind: nodes}
 
 

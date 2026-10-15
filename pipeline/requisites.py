@@ -18,8 +18,9 @@ CDF_NOTE = "This course is not eligible for Credit/D/Fail grading."
 
 # A last sentence that only gives advice, like "One of MATH 152, MATH 221, MATH 223 is
 # recommended" (MATH 317) or "The Department recommends that students …" (STAT 305).
-# Group 1 is the advice, without the full stop before it.
-RECOMMENDED = re.compile(r"\.\s+([^.]*\brecommend[^.]*)$")
+# It can also be the whole section: PHYS 502's "Prerequisite: A background in … is highly
+# recommended". Group 1 is the advice, without the full stop before it.
+RECOMMENDED = re.compile(r"(?:^|\.\s+)([^.]*\brecommend[^.]*)$")
 
 
 def extract_requisites(description: str) -> dict:
@@ -34,11 +35,13 @@ def extract_requisites(description: str) -> dict:
             raise ValueError(f"Two {key} sections in: {description}")
         section = text[match.end():end].strip().rstrip(".")
         advice = RECOMMENDED.search(section)
-        if advice:
+        # PHYS 100's last sentence also says what's required, so it stays in the requirement.
+        if advice and "required" not in advice.group(1):
             # Advice isn't something you need, so it's kept apart from the requirement.
             if result["recommended"] is not None:
                 raise ValueError(f"Two recommendations in: {description}")
             result["recommended"] = advice.group(1)
             section = section[:advice.start()]
-        result[key] = section
+        # A section that was only advice (PHYS 502) leaves no requirement.
+        result[key] = section or None
     return result

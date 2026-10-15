@@ -82,6 +82,31 @@ def test_department_recommendation():
     )
 
 
+def test_whole_section_can_be_advice():
+    # PHYS 502: nothing is required, so there's no prerequisite.
+    r = extract_requisites(
+        "Prerequisite: A background in undergraduate solid state physics such as covered "
+        "in PHYS_V 474 is highly recommended."
+    )
+    assert r["prereq"] is None
+    assert r["recommended"] == (
+        "A background in undergraduate solid state physics such as covered in PHYS_V 474 "
+        "is highly recommended"
+    )
+
+
+def test_sentence_that_says_required_is_not_advice():
+    # PHYS 100: "strongly recommended" is only for some students, the rest is required.
+    text = (
+        "Not open to students with credit for PHYS 12. Principles of Mathematics 12 or "
+        "Pre-calculus 12 is required; Physics 11 is required for first-year students, "
+        "strongly recommended for others"
+    )
+    r = extract_requisites(f"Prerequisite: {text}.")
+    assert r["prereq"] == text
+    assert r["recommended"] is None
+
+
 def test_two_prereq_sections_raises():
     with pytest.raises(ValueError):
         extract_requisites("Prerequisite: CPSC 110. Prerequisite: CPSC 210.")
