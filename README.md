@@ -214,12 +214,12 @@ The site is in `web/`: Next.js, TypeScript and React Flow, exported as a plain s
 
 ### One map per subject
 
-- **A page per faculty.** `/science` and `/engineering` each have their subjects in a menu next to the title, A to Z, and tabs above it to switch faculty. The subject is kept in the address (`/science#math`), so links, refreshing and the back button work. With no `#`, a faculty's first subject opens (Computer Science for Science, Applied Science for engineering). A page is built with that subject showing, so a link to `#biol` would flash the CPSC map first; a tiny script in the page hides the map until the right subject is showing.
+- **A page per faculty.** `/science` and `/engineering` each have their subjects in a menu next to the title, A to Z, and tabs above it to switch faculty. The subject is kept in the address (`/science#math`), and so is the course whose panel is open (`/science#math-221`), so links, refreshing and the back button work, and the address can be copied to share a course. Opening courses replaces the address instead of adding to the history, so the back button doesn't step through every course clicked. With no `#`, a faculty's first subject opens (Computer Science for Science, Applied Science for engineering). A page is built with that subject showing, so a link to `#biol` would flash the CPSC map first; a tiny script in the page hides the map until the right subject is showing.
 - **A home page.** `/` has a card per faculty with a link to each subject's map. Links from before there were faculty pages, like `/#math`, still work: the "#" part never reaches the server, so a tiny script on the home page sends them on to `/science#math`.
 - **What each page carries.** A page has its own faculty's maps and grades, plus the course data of every faculty, so statuses and paths can cross faculties. The Science page is 1.53 MB (241 KB gzipped), the engineering page 1.31 MB (207 KB), and the home page 33 KB. Links between pages don't prefetch, so the home page doesn't download both.
 - **Why not one big map?** Three layouts were tried with the real data: one map per subject; each map plus the courses it needs from other subjects as extra boxes; and all three subjects on one map. The extra boxes added 24 courses to the CPSC map and pushed CPSC 221 down a row, and the combined map (175 courses) was unreadable without zooming in. One map per subject stays readable and works for any number of subjects.
 - **Across subjects.** Ticks, statuses, paths and the picked program cover every subject. A MATH course in CPSC 340's panel opens on the MATH map, and the Computer Science Major marks its MATH courses there too.
-- **Across faculties.** Ticks are saved once for the whole site, so MATH 100 ticked on the engineering page counts on the Science page too. ELEC 201's path plans MATH 100, PHYS 157 and the rest from the Science data, and CPSC 221 knows what CPEN 221 needs.
+- **Across faculties.** Ticks are saved once for the whole site, so MATH 100 ticked on the engineering page counts on the Science page too. A course from the other faculty in a panel (CPEN 221 in CPSC 221's prerequisites, MATH 101 in ELEC 201's path) has a tick box and a ↗ link that opens it on its own page (`/engineering#cpen-221`). ELEC 201's path plans MATH 100, PHYS 157 and the rest from the Science data, and CPSC 221 knows what CPEN 221 needs.
 - **A prerequisite that points up.** MATH 131 (first year) accepts 68% in MATH 221 (second year) as one option. dagre needs every line to go down a row, so a line like that is drawn but left out of the layout.
 - **Courses numbered below 100.** SCIE 001 (Science One) is a first-year course, so it sits with the 100-level courses.
 
@@ -266,7 +266,7 @@ npm test
 npm run dev
 ```
 
-`npm run build` writes the static site to `web/out/`. There are 193 tests (Vitest) for the graph, layout, highlighting, course details, statuses, saving, path logic, grades, links, programs, subjects and moving the view, including checks against the real course data for all 14 subjects. GitHub Actions runs `pytest` and the website's tests, lint and build on every push, and [Vercel](https://vercel.com) builds and publishes the site from `main`.
+`npm run build` writes the static site to `web/out/`. There are 195 tests (Vitest) for the graph, layout, highlighting, course details, statuses, saving, path logic, grades, links, programs, subjects and moving the view, including checks against the real course data for all 14 subjects. GitHub Actions runs `pytest` and the website's tests, lint and build on every push, and [Vercel](https://vercel.com) builds and publishes the site from `main`.
 
 ## Feedback
 

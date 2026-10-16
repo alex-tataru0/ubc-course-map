@@ -65,24 +65,43 @@ export function TickBox({ checked, className = "" }: { checked: boolean; classNa
 }
 
 // A course that isn't on the map (e.g. MATH 221), as a button that ticks it on or off.
+// A course on another faculty's page (`elsewhere`) also gets a ↗ link that opens it there.
 export function TickChip({
   code,
   checked,
   onToggle,
+  elsewhere = null,
 }: {
   code: string;
   checked: boolean;
   onToggle: () => void;
+  elsewhere?: { url: string; page: string } | null;
 }) {
-  return (
+  const tick = (
     <button
       type="button"
       onClick={onToggle}
       aria-pressed={checked}
-      className="inline-flex items-center gap-1.5 rounded border border-line py-0.5 pl-1 pr-1.5 font-mono text-xs hover:bg-canvas"
+      className={`inline-flex items-center gap-1.5 border border-line py-0.5 pl-1 pr-1.5 font-mono text-xs hover:bg-canvas ${
+        elsewhere ? "rounded-l" : "rounded"
+      }`}
     >
       <TickBox checked={checked} />
       {code}
     </button>
+  );
+  if (!elsewhere) return tick;
+  return (
+    <span className="inline-flex">
+      {tick}
+      <a
+        href={elsewhere.url}
+        aria-label={`Open ${code} on the ${elsewhere.page} page`}
+        title={`Open on the ${elsewhere.page} page`}
+        className="flex items-center rounded-r border border-l-0 border-line px-1.5 text-xs text-ink-muted hover:bg-canvas hover:text-ink"
+      >
+        ↗
+      </a>
+    </span>
   );
 }

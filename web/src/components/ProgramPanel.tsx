@@ -1,6 +1,7 @@
 import { useEffect, useId, useRef, useState } from "react";
 import { programGroups, programSummary, treeCourses } from "@/lib/program";
 import type { CreditsFor, RowProgress, RowStatus } from "@/lib/program";
+import type { Elsewhere } from "@/lib/subjects";
 import type { Program, ProgramRequirement } from "@/lib/types";
 import { StripeSample } from "./ProgramStripe";
 import { TickChip } from "./Status";
@@ -11,6 +12,7 @@ import { usePanelFocus } from "./usePanelFocus";
 interface CodeLinks {
   onMap: ReadonlySet<string>;
   onOpen: (code: string) => void;
+  elsewhere: Elsewhere; // courses on another faculty's page also link there
   done: ReadonlySet<string>;
   onToggle: (code: string) => void;
 }
@@ -394,11 +396,14 @@ function Chip({
   counted,
   onMap,
   onOpen,
+  elsewhere,
   done,
   onToggle,
 }: { code: string; counted: boolean } & CodeLinks) {
   if (!onMap.has(code)) {
-    return <TickChip code={code} checked={done.has(code)} onToggle={() => onToggle(code)} />;
+    return (
+      <TickChip code={code} checked={done.has(code)} onToggle={() => onToggle(code)} elsewhere={elsewhere(code)} />
+    );
   }
   return (
     <button

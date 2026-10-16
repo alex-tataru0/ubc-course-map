@@ -89,16 +89,46 @@ export function subjectOf(code: string): string {
   return code.split(" ")[0];
 }
 
-// The subject named in the address, e.g. "#math" -> "MATH". Anything else, including no
-// "#" at all, gives the faculty's home subject, so old links to the home page still show CPSC.
-export function subjectFromHash(hash: string, faculty: Faculty): string {
-  const code = hash.replace(/^#/, "").toUpperCase();
-  return faculty.subjects.some((s) => s.code === code) ? code : faculty.home;
+// What the address names: a subject, and maybe one of its courses, open in the side panel.
+export interface Address {
+  subject: string; // e.g. "MATH"
+  course: string | null; // e.g. "MATH 221"
 }
 
-// The other way round: "MATH" -> "#math". The home subject needs nothing.
-export function hashFor(code: string, faculty: Faculty): string {
-  return code === faculty.home ? "" : `#${code.toLowerCase()}`;
+// "#math" or "#math-221", in any case. Groups: the subject, then the course number, if any.
+const HASH = /^#?([a-z]{2,4})(?:-(\d{3}[a-z]?))?$/i;
+
+// The subject and course in the address: "#math" is the MATH map, "#math-221" the MATH map
+// with MATH 221 open. Anything else, including no "#" at all or another faculty's subject,
+// gives the faculty's home subject and no course, so old links to a page still show its map.
+export function readHash(hash: string, faculty: Faculty): Address {
+  const match = hash.match(HASH);
+  const subject = match?.[1].toUpperCase() ?? "";
+  if (!faculty.subjects.some((s) => s.code === subject)) return { subject: faculty.home, course: null };
+  return { subject, course: match?.[2] ? `${subject} ${match[2].toUpperCase()}` : null };
+}
+
+// Just the subject, e.g. "#math-221" -> "MATH".
+export function subjectFromHash(hash: string, faculty: Faculty): string {
+  return readHash(hash, faculty).subject;
+}
+
+// The other way round: "MATH" -> "#math", or with a course open, "#math-221". The home
+// subject with nothing open needs no "#".
+export function hashFor(subject: string, faculty: Faculty, course: string | null = null): string {
+  if (course) return `#${course.replace(" ", "-").toLowerCase()}`;
+  return subject === faculty.home ? "" : `#${subject.toLowerCase()}`;
+}
+
+// Where a course on another faculty's page can be opened: its address there, and the page's
+// short name for the link's label. Null for courses on this page, or with no data.
+export type Elsewhere = (code: string) => { url: string; page: string } | null;
+
+// The address of a course on its faculty's page, e.g. "CPEN 221" -> "/engineering#cpen-221".
+// Null for a subject that isn't on the site.
+export function courseUrl(code: string): string | null {
+  const faculty = facultyOf(subjectOf(code));
+  return faculty ? `/${faculty.slug}${hashFor(subjectOf(code), faculty, code)}` : null;
 }
 
 // A small script for the top of the page, run before anything is drawn. The page is built
@@ -109,7 +139,8 @@ export function hashFor(code: string, faculty: Faculty): string {
 export function pendingSubjectScript(faculty: Faculty): string {
   const others = faculty.subjects.map((s) => s.code).filter((code) => code !== faculty.home);
   return (
-    "(function(){var c=location.hash.slice(1).toUpperCase();" +
+    // "#biol" or "#biol-200": the subject is the part before the "-".
+    '(function(){var c=location.hash.slice(1).split("-")[0].toUpperCase();' +
     `if(${JSON.stringify(others)}.indexOf(c)<0)return;` +
     "var r=document.documentElement;r.dataset.pendingSubject=c;" +
     "setTimeout(function(){delete r.dataset.pendingSubject},4000)})();"
@@ -130,7 +161,7 @@ export function forwardScript(): string {
   return (
     "(function(){var f=function(){var h=location.hash,p=" +
     JSON.stringify(pages) +
-    "[h.slice(1).toUpperCase()];" +
+    '[h.slice(1).split("-")[0].toUpperCase()];' +
     'if(p&&location.pathname==="/")location.replace("/"+p+h)};f();addEventListener("hashchange",f)})();'
   );
 }

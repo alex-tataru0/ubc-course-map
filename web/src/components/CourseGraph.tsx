@@ -36,6 +36,7 @@ import { useProgramChoice } from "@/lib/programChoice";
 import { countStatuses, courseProgress, WONT_TAKE } from "@/lib/progress";
 import type { CourseStatus } from "@/lib/progress";
 import type { SubjectMap } from "@/lib/subjectMap";
+import type { Elsewhere } from "@/lib/subjects";
 import type { Course, CourseGrades, Program } from "@/lib/types";
 import { centeredViewport, fullyVisible } from "@/lib/view";
 import CourseDetails from "./CourseDetails";
@@ -51,6 +52,9 @@ interface CourseGraphProps {
   map: SubjectMap; // the subject shown, with its courses already placed
   maps: SubjectMap[]; // every subject's map, to know where a course from another subject is
   onSubject: (code: string) => void; // show another subject's map
+  addressCourse: string | null; // the course the address names (#math-221), to open
+  onAddressCourse: (code: string | null) => void; // keeps the address on the open course
+  elsewhere: Elsewhere; // links to courses on other faculties' pages
   details: Course[]; // the full calendar records of every subject, for the side panel
   grades: Record<string, CourseGrades>; // from UBCGrades, for the courses that have any
   gradeSessions: string[]; // the terms the grade data covers, oldest first
@@ -218,6 +222,9 @@ export default function CourseGraph({
   map,
   maps,
   onSubject,
+  addressCourse,
+  onAddressCourse,
+  elsewhere,
   details,
   grades,
   gradeSessions,
@@ -299,6 +306,17 @@ export default function CourseGraph({
   if (shownSubject !== subject) {
     setShownSubject(subject);
     if (selected !== null && !onMap.has(selected)) setSelected(null);
+  }
+
+  // A course named in the address opens with its panel: a link like /engineering#cpen-221, or
+  // the back button. Only when the address changes, so closing a panel doesn't reopen it.
+  const [shownAddress, setShownAddress] = useState<string | null>(null);
+  if (shownAddress !== addressCourse) {
+    setShownAddress(addressCourse);
+    if (addressCourse !== null && addressCourse !== selected && placed.has(addressCourse)) {
+      setSelected(addressCourse);
+      setPanelOpen(true);
+    }
   }
 
   const highlight = useMemo(() => {
@@ -575,6 +593,17 @@ export default function CourseGraph({
   const showDetails = !showOutside && selectedCourse !== undefined && highlight !== null && panelOpen;
   const showProgram = programOpen && !showOutside && !showDetails;
 
+  // The address follows the course whose panel is showing (#cpsc-221), and goes back to the
+  // map's own (#cpsc) when it closes, so it can be copied to share the course. Only on a change:
+  // on the first render nothing is open yet, and the address may be about to open a course.
+  const openNow = showDetails ? selected : null;
+  const lastOpen = useRef(openNow);
+  useEffect(() => {
+    if (lastOpen.current === openNow) return;
+    lastOpen.current = openNow;
+    onAddressCourse(openNow);
+  }, [openNow, onAddressCourse]);
+
   // The button over the map opens the program panel, bringing it in front of the others,
   // or closes it if it's already showing.
   const toggleProgram = () => {
@@ -661,6 +690,7 @@ export default function CourseGraph({
           subject={subject}
           onMap={onAnyMap}
           outside={outsideSet}
+          elsewhere={elsewhere}
           grades={grades[selectedCourse.code]}
           gradeSessions={gradeSessions}
           calendarUrl={calendarUrl}
@@ -697,6 +727,7 @@ export default function CourseGraph({
           onClose={() => setProgramOpen(false)}
           focusOnClose={programButton}
           onMap={onAnyMap}
+          elsewhere={elsewhere}
           onOpen={openCourse}
           done={done}
           onToggle={toggle}

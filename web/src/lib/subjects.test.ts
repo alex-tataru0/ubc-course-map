@@ -1,11 +1,13 @@
 import { describe, expect, it } from "vitest";
 import {
+  courseUrl,
   ENGINEERING,
   FACULTIES,
   facultyOf,
   forwardScript,
   hashFor,
   pendingSubjectScript,
+  readHash,
   SCIENCE,
   subjectFromHash,
   subjectOf,
@@ -28,6 +30,26 @@ describe("subjects", () => {
     expect(subjectFromHash("#zool", SCIENCE)).toBe("CPSC");
   });
 
+  it("reads a course from the address too", () => {
+    expect(readHash("#math-221", SCIENCE)).toEqual({ subject: "MATH", course: "MATH 221" });
+    expect(readHash("#CPSC-110", SCIENCE)).toEqual({ subject: "CPSC", course: "CPSC 110" });
+    expect(readHash("#scie-001", SCIENCE)).toEqual({ subject: "SCIE", course: "SCIE 001" });
+    expect(readHash("#math", SCIENCE)).toEqual({ subject: "MATH", course: null });
+    // Another faculty's course, or something that isn't a code, is the home map.
+    expect(readHash("#cpen-221", SCIENCE)).toEqual({ subject: "CPSC", course: null });
+    expect(readHash("#math-22", SCIENCE)).toEqual({ subject: "CPSC", course: null });
+    expect(subjectFromHash("#stat-251", SCIENCE)).toBe("STAT");
+  });
+
+  it("writes the hash for a course, and links to a course on its faculty's page", () => {
+    expect(hashFor("MATH", SCIENCE, "MATH 221")).toBe("#math-221");
+    expect(hashFor("CPSC", SCIENCE, "CPSC 110")).toBe("#cpsc-110"); // even on the home map
+    expect(readHash(hashFor("MATH", SCIENCE, "MATH 221"), SCIENCE).course).toBe("MATH 221");
+    expect(courseUrl("CPEN 221")).toBe("/engineering#cpen-221");
+    expect(courseUrl("MATH 100")).toBe("/science#math-100");
+    expect(courseUrl("WRDS 150")).toBeNull();
+  });
+
   it("writes the hash for a subject, and none for the home subject", () => {
     expect(hashFor("MATH", SCIENCE)).toBe("#math");
     expect(hashFor("CPSC", SCIENCE)).toBe("");
@@ -44,6 +66,8 @@ describe("subjects", () => {
     };
     expect(pending("#biol")).toBe("BIOL");
     expect(pending("#MATH")).toBe("MATH");
+    expect(pending("#biol-200")).toBe("BIOL"); // a course link waits for its subject's map
+    expect(pending("#cpsc-221")).toBeUndefined();
     expect(pending("")).toBeUndefined();
     expect(pending("#cpsc")).toBeUndefined(); // the map already built into the page
     expect(pending("#zool")).toBeUndefined(); // not a subject, so CPSC shows
@@ -77,6 +101,7 @@ describe("subjects", () => {
     };
     expect(forward("#math")).toBe("/science#math");
     expect(forward("#ELEC")).toBe("/engineering#ELEC");
+    expect(forward("#math-221")).toBe("/science#math-221");
     expect(forward("")).toBeNull();
     expect(forward("#zool")).toBeNull();
     // Only from the home page, not once a faculty's page has taken over.

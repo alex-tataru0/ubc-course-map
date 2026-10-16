@@ -27,7 +27,7 @@ The live site is on Vercel: every push to `main` is built and published. The Ver
   - Side panels: `CourseDetails` (a course, including "Your path here"), `Grades` (its grade chart and teaching history), `OutsideCourses` (courses not on the map), `ProgramPanel` with `ProgramButton` and `ProgramStripe` (the picked program). `usePanelFocus` moves keyboard focus into a panel and back.
   - `WithLinks`: calendar text with its web addresses as short links.
 - `src/lib/` holds the logic, with no React in it, and a test file next to each module:
-  - `subjects.ts`: the faculties and their subjects, the subject in the address (`#math`), and forwarding old links.
+  - `subjects.ts`: the faculties and their subjects, the subject and course in the address (`#math`, `#math-221`), links to courses on other faculties' pages, and forwarding old links.
   - `data.ts`: reads the pipeline's files during the build.
   - `subjectMap.ts`: everything one subject's map needs, worked out at build time.
   - `graph.ts`: course data to nodes and edges; what a course needs and unlocks.

@@ -7,6 +7,7 @@ import { rateMyProfUrl, redditSearchUrl, ubcGradesUrl } from "@/lib/links";
 import type { AlsoNeeded, CoursePath } from "@/lib/path";
 import { requirementStatus, WONT_TAKE } from "@/lib/progress";
 import type { CourseProgress } from "@/lib/progress";
+import type { Elsewhere } from "@/lib/subjects";
 import type { Course, CourseGrades, ReqNode, Requisite } from "@/lib/types";
 import { GradeSummary, TeachingHistory } from "./Grades";
 import { Swatch } from "./Legend";
@@ -26,6 +27,7 @@ interface CourseDetailsProps {
   subject: string; // the subject of the map shown, e.g. "CPSC"
   onMap: Set<string>; // courses on any subject's map, which can be clicked to open them
   outside: ReadonlySet<string>; // courses on no map that can be ticked (SCIE 113, …)
+  elsewhere: Elsewhere; // courses on another faculty's page, which link there
   grades: CourseGrades | undefined; // from UBCGrades; undefined if it has none for this course
   gradeSessions: string[]; // the terms the grade data covers, oldest first
   calendarUrl: string;
@@ -49,6 +51,7 @@ export default function CourseDetails({
   subject,
   onMap,
   outside,
+  elsewhere,
   grades,
   gradeSessions,
   calendarUrl,
@@ -60,7 +63,7 @@ export default function CourseDetails({
   const { summary, hours } = splitDescription(course.description);
   const count = (n: number) => `${n} ${n === 1 ? "course" : "courses"}`;
   const { needs, unlocks } = highlight;
-  const links = { onMap, onSelect, done, outside, onToggle };
+  const links = { onMap, onSelect, done, outside, elsewhere, onToggle };
   const isDone = done.has(course.code);
   // No path once the course is done, or for a course you wouldn't take (CPSC 103 or 107 after 110).
   const hasPath = path !== null && path.terms.length > 0 && !(progress && WONT_TAKE.has(progress.status));
@@ -410,6 +413,7 @@ interface Links {
   onSelect: (code: string) => void; // opens a course, on its own subject's map
   done: ReadonlySet<string>; // finished courses get a tick in the requirement list
   outside: ReadonlySet<string>; // courses on no map, shown with a tick box
+  elsewhere: Elsewhere; // courses on another faculty's page: a tick box and a link there
   onToggle: (code: string) => void;
 }
 
@@ -462,11 +466,13 @@ function Requirement({ node, ...links }: { node: ReqNode } & Links) {
 
 // A course code. Courses on a map are buttons that open them, switching to their subject's
 // map if needed (MATH 221 from CPSC 340). Courses on no map (SCIE 113, …) have a tick box to
-// mark them done. Okanagan codes are plain text.
-function CourseCode({ code, onMap, onSelect, done, outside, onToggle }: { code: string } & Links) {
+// mark them done, and courses on another faculty's page (CPEN 221) a link there too.
+// Okanagan codes are plain text.
+function CourseCode({ code, onMap, onSelect, done, outside, elsewhere, onToggle }: { code: string } & Links) {
   const tick = done.has(code) ? "✓ " : "";
-  if (!onMap.has(code) && outside.has(code)) {
-    return <TickChip code={code} checked={done.has(code)} onToggle={() => onToggle(code)} />;
+  const away = onMap.has(code) ? null : elsewhere(code);
+  if (!onMap.has(code) && (outside.has(code) || away)) {
+    return <TickChip code={code} checked={done.has(code)} onToggle={() => onToggle(code)} elsewhere={away} />;
   }
   if (!onMap.has(code)) {
     return <span className="font-mono text-xs">{displayCode(code)}</span>;

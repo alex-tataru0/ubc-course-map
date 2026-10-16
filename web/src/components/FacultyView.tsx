@@ -1,9 +1,9 @@
 "use client";
 
-import { useEffect, useSyncExternalStore } from "react";
+import { useCallback, useEffect, useMemo, useSyncExternalStore } from "react";
 import type { SubjectMap } from "@/lib/subjectMap";
 import { feedbackUrl, REPO_URL } from "@/lib/links";
-import { FACULTIES, hashFor, subjectFromHash } from "@/lib/subjects";
+import { courseUrl, FACULTIES, facultyOf, hashFor, readHash, subjectOf } from "@/lib/subjects";
 import type { Faculty } from "@/lib/subjects";
 import type { Course, CourseGrades, Program } from "@/lib/types";
 import CourseGraph from "./CourseGraph";
@@ -33,12 +33,41 @@ function subscribe(onChange: () => void): () => void {
 }
 
 // A faculty's page: the header with the subject menu, and the map of the subject picked.
-// The subject is kept in the address (#math), so a link or a refresh opens the same map.
+// The subject is kept in the address (#math), and so is the course whose panel is open
+// (#math-221), so a link or a refresh opens the same map and course.
 export default function FacultyView({ faculty, maps, ...data }: FacultyViewProps) {
   // While the page is built there's no address, so the home subject is pre-rendered.
   const hash = useSyncExternalStore(subscribe, () => window.location.hash, () => "");
-  const subject = subjectFromHash(hash, faculty);
+  const { subject, course } = readHash(hash, faculty);
   const map = maps.find((m) => m.subject === subject)!;
+
+  // Follows the course whose panel is open (null: none). The address is replaced, not added
+  // to, so the back button doesn't step through every course clicked. It reads the address
+  // itself rather than `subject`, which can be a render behind.
+  const showCourse = useCallback(
+    (code: string | null) => {
+      const now = readHash(window.location.hash, faculty);
+      const next = code ? hashFor(subjectOf(code), faculty, code) : hashFor(now.subject, faculty);
+      if (next === window.location.hash) return;
+      const { pathname, search } = window.location;
+      window.history.replaceState(null, "", `${pathname}${search}${next}`);
+      window.dispatchEvent(new HashChangeEvent("hashchange"));
+    },
+    [faculty],
+  );
+
+  // A course on another faculty's maps (CPEN 221 in CPSC 221's prerequisites) links to its
+  // page there. Only courses we have data for, so it's always on a map there.
+  const known = useMemo(() => new Set(data.details.map((c) => c.code)), [data.details]);
+  const elsewhere = useCallback(
+    (code: string) => {
+      const other = facultyOf(subjectOf(code));
+      const url = courseUrl(code);
+      if (!known.has(code) || !other || other.slug === faculty.slug || !url) return null;
+      return { url, page: other.tab };
+    },
+    [known, faculty],
+  );
 
   // A link like /#biol hides the menu and the map until they show its subject (see
   // pendingSubjectScript). The first render matches the pre-rendered home subject; the
@@ -103,7 +132,15 @@ export default function FacultyView({ faculty, maps, ...data }: FacultyViewProps
       {/* min-h-0 lets this area be shorter than what's in it, so a long side panel scrolls
           on its own instead of stretching the page. */}
       <div className="min-h-0 flex-1" data-subject-view>
-        <CourseGraph map={map} maps={maps} onSubject={pickSubject} {...data} />
+        <CourseGraph
+          map={map}
+          maps={maps}
+          onSubject={pickSubject}
+          addressCourse={course}
+          onAddressCourse={showCourse}
+          elsewhere={elsewhere}
+          {...data}
+        />
       </div>
     </main>
   );
