@@ -109,16 +109,18 @@ python pipeline/build_prereqs.py
 
 With no arguments, `build_prereqs.py` builds all 27 subjects in the tables. To build only some, name subjects or a faculty: `python pipeline/build_prereqs.py MATH STAT` or `python pipeline/build_prereqs.py engineering`.
 
-A Gemini API key is only needed when there are prerequisites the cache doesn't have yet. Put it in a `.env` file (see `.env.example`). There are 254 `pytest` tests for the whole pipeline.
+A Gemini API key is only needed when there are prerequisites the cache doesn't have yet. Put it in a `.env` file (see `.env.example`). There are 268 `pytest` tests for the whole pipeline.
 
 ## How the grade data is built
 
 `build_grades.py` pulls grade distributions from the [UBCGrades](https://ubcgrades.com) API, which republishes UBC PAIR's data. Like the course data, it runs ahead of time, about once a term.
 
-1. **Download each term once.** One request per term and subject gets every section: 10 terms, 2021 Summer to 2025 Winter, for each of the 14 subjects. The responses are saved as they are in `data/raw/grades/`. A term that's already saved isn't downloaded again, so a new term means one new request per subject. When a subject had no sections in a term (ENVR in most summers), UBCGrades answers "404 Not Found", and that term is saved as an empty list.
+1. **Download each term once.** One request per term and subject gets every section: 10 terms, 2021 Summer to 2025 Winter, for each of the 27 subjects. The responses are saved as they are in `data/raw/grades/`. A term that's already saved isn't downloaded again, so a new term means one new request per subject. When a subject had no sections in a term (ENVR in most summers, ENVE and MANU in every summer), UBCGrades answers "404 Not Found", and that term is saved as an empty list.
 2. **Add up the sections.** For each course and term: the number of students, the average weighted by students, the count in each grade range, and every instructor. Topics courses like CPSC 436N (NLP) and 436C (Cloud Computing) get a row each.
-3. **Check against UBCGrades' own totals.** UBCGrades sends its own total for most course-terms, but not for 2021, so every term is added up from its sections instead. The 2,557 totals it does send match ours exactly, and a test checks this for every subject.
+3. **Check against UBCGrades' own totals.** UBCGrades sends its own total for most course-terms, but not for 2021, so every term is added up from its sections instead. The 4,575 totals it does send (2,557 for Science, 2,018 for engineering) match ours exactly, and a test checks this for every subject.
 4. **Write the output.** One file per subject, like `data/grades/cpsc.json`:
+
+**Faculty of Science**
 
 | Subject | Courses | Course-terms | Grades |
 |---|---|---|---|
@@ -138,13 +140,32 @@ A Gemini API key is only needed when there are prerequisites the cache doesn't h
 | STAT | 33 | 166 | 25,599 |
 | **Total** | **741** | **3,202** | **480,581** |
 
-About 1–5% of students, depending on the subject (9% in ASTR), are in a grade range whose count UBC PAIR doesn't give. They're still counted in each course's total, and the chart says how many it leaves out.
+**Engineering**
+
+| Subject | Courses | Course-terms | Grades |
+|---|---|---|---|
+| APSC | 29 | 143 | 27,901 |
+| BMEG | 53 | 261 | 12,860 |
+| CHBE | 70 | 280 | 19,561 |
+| CIVL | 95 | 386 | 29,862 |
+| CPEN | 40 | 164 | 13,699 |
+| ELEC | 69 | 316 | 20,357 |
+| ENPH | 8 | 38 | 2,323 |
+| ENVE | 6 | 28 | 1,046 |
+| IGEN | 7 | 36 | 1,425 |
+| MANU | 19 | 83 | 3,266 |
+| MECH | 111 | 426 | 23,589 |
+| MINE | 55 | 189 | 4,448 |
+| MTRL | 47 | 178 | 8,132 |
+| **Total** | **609** | **2,528** | **168,469** |
+
+About 1–8% of students, depending on the subject (9% in ASTR, 13% in MINE), are in a grade range whose count UBC PAIR doesn't give. They're still counted in each course's total, and the chart says how many it leaves out.
 
 ```
 python pipeline/build_grades.py
 ```
 
-With no arguments it does every subject; `python pipeline/build_grades.py MATH` does just one. Add `--refresh` to download every term again. No API key is needed.
+With no arguments it does every subject; `python pipeline/build_grades.py MATH` does just one, and `python pipeline/build_grades.py engineering` does one faculty. Add `--refresh` to download every term again. No API key is needed.
 
 ## How the program data is built
 

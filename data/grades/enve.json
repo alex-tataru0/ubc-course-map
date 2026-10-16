@@ -1,0 +1,248 @@
+{
+  "subject": "ENVE",
+  "campus": "UBCV",
+  "source": "https://ubcgrades.com",
+  "credit": "UBCGrades.com / UBC PAIR",
+  "sessions": ["2021W", "2022W", "2023W", "2024W", "2025W"],
+  "buckets": ["<50%", "50-54%", "55-59%", "60-63%", "64-67%", "68-71%", "72-75%", "76-79%", "80-84%", "85-89%", "90-100%"],
+  "courses": {
+    "ENVE 200": {
+      "reported": 199,
+      "average": 81.9,
+      "grades": [3, 2, 3, 3, 4, 5, 8, 20, 46, 55, 40],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 36,
+          "average": 78.8,
+          "grades": [2, 1, 0, 1, 1, 0, 3, 9, 5, 10, 4],
+          "instructors": ["Susan Baldwin"]
+        },
+        {
+          "session": "2024W",
+          "reported": 36,
+          "average": 81.9,
+          "grades": [0, 1, 2, 1, 1, 1, 2, 6, 4, 4, 14],
+          "instructors": ["Susan Baldwin"]
+        },
+        {
+          "session": "2023W",
+          "reported": 45,
+          "average": 81.6,
+          "grades": [0, 0, 1, 0, 2, 4, 2, 5, 12, 14, 5],
+          "instructors": ["Susan Baldwin"]
+        },
+        {
+          "session": "2022W",
+          "reported": 35,
+          "average": 87.3,
+          "grades": [1, 0, 0, 1, 0, 0, 1, 0, 1, 14, 17],
+          "instructors": ["Madjid Mohseni", "Zeina Baalbaki"]
+        },
+        {
+          "session": "2021W",
+          "reported": 47,
+          "average": 80.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 24, 13, 0],
+          "instructors": ["Susan Nesbit", "Naoko Ellis"]
+        }
+      ]
+    },
+    "ENVE 201": {
+      "reported": 188,
+      "average": 83.3,
+      "grades": [1, 0, 0, 0, 0, 2, 11, 21, 51, 49, 41],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 35,
+          "average": 82.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 3, 23, 9, 0],
+          "instructors": ["Pamela Wolf"]
+        },
+        {
+          "session": "2024W",
+          "reported": 35,
+          "average": 91.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 6, 28],
+          "instructors": ["Amber Shaw"]
+        },
+        {
+          "session": "2023W",
+          "reported": 44,
+          "average": 82.2,
+          "grades": [1, 0, 0, 0, 0, 2, 2, 6, 9, 14, 10],
+          "instructors": ["Amber Shaw"]
+        },
+        {
+          "session": "2022W",
+          "reported": 29,
+          "average": 82.9,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 6, 11, 8, 3],
+          "instructors": ["Pamela Wolf"]
+        },
+        {
+          "session": "2021W",
+          "reported": 45,
+          "average": 78.8,
+          "grades": [0, 0, 0, 0, 0, 0, 8, 6, 7, 12, 0],
+          "instructors": ["Pamela Wolf"]
+        }
+      ]
+    },
+    "ENVE 202": {
+      "reported": 180,
+      "average": 81.2,
+      "grades": [1, 0, 0, 2, 4, 2, 16, 25, 44, 39, 31],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 33,
+          "average": 80.3,
+          "grades": [0, 0, 0, 1, 2, 0, 3, 10, 7, 8, 2],
+          "instructors": ["Zeina Baalbaki"]
+        },
+        {
+          "session": "2024W",
+          "reported": 32,
+          "average": 78.4,
+          "grades": [1, 0, 0, 0, 2, 2, 7, 8, 5, 2, 5],
+          "instructors": ["Zeina Baalbaki"]
+        },
+        {
+          "session": "2023W",
+          "reported": 42,
+          "average": 84.9,
+          "grades": [0, 0, 0, 1, 0, 0, 3, 4, 10, 14, 10],
+          "instructors": ["Zeina Baalbaki"]
+        },
+        {
+          "session": "2022W",
+          "reported": 27,
+          "average": 83.1,
+          "grades": [0, 0, 0, 0, 0, 0, 3, 3, 11, 6, 4],
+          "instructors": ["Zeina Baalbaki"]
+        },
+        {
+          "session": "2021W",
+          "reported": 46,
+          "average": 79.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 11, 9, 10],
+          "instructors": ["Susan Baldwin"]
+        }
+      ]
+    },
+    "ENVE 203": {
+      "reported": 195,
+      "average": 82.5,
+      "grades": [0, 0, 0, 2, 0, 10, 12, 15, 50, 60, 39],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 35,
+          "average": 84.1,
+          "grades": [0, 0, 0, 0, 0, 0, 2, 7, 5, 14, 7],
+          "instructors": ["Tamara Etmannski"]
+        },
+        {
+          "session": "2024W",
+          "reported": 34,
+          "average": 83.9,
+          "grades": [0, 0, 0, 1, 0, 0, 2, 1, 13, 7, 10],
+          "instructors": ["Tamara Etmannski"]
+        },
+        {
+          "session": "2023W",
+          "reported": 51,
+          "average": 82.8,
+          "grades": [0, 0, 0, 0, 0, 3, 6, 5, 12, 15, 10],
+          "instructors": ["Tamara Etmannski"]
+        },
+        {
+          "session": "2022W",
+          "reported": 32,
+          "average": 82.6,
+          "grades": [0, 0, 0, 1, 0, 0, 2, 2, 13, 12, 2],
+          "instructors": ["Tamara Etmannski"]
+        },
+        {
+          "session": "2021W",
+          "reported": 43,
+          "average": 79.6,
+          "grades": [0, 0, 0, 0, 0, 7, 0, 0, 7, 12, 10],
+          "instructors": ["Madjid Mohseni", "Pamela Wolf"]
+        }
+      ]
+    },
+    "ENVE 301": {
+      "reported": 180,
+      "average": 86.8,
+      "grades": [0, 0, 0, 0, 1, 3, 3, 16, 27, 51, 72],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 29,
+          "average": 89.5,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 0, 3, 9, 16],
+          "instructors": ["Rachel Scholes"]
+        },
+        {
+          "session": "2024W",
+          "reported": 51,
+          "average": 82.6,
+          "grades": [0, 0, 0, 0, 1, 1, 3, 9, 16, 14, 7],
+          "instructors": ["Troy Vassos"]
+        },
+        {
+          "session": "2023W",
+          "reported": 33,
+          "average": 90.5,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 2, 2, 8, 20],
+          "instructors": ["Rachel Scholes"]
+        },
+        {
+          "session": "2022W",
+          "reported": 42,
+          "average": 88.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 5, 6, 11, 20],
+          "instructors": ["Rachel Scholes"]
+        },
+        {
+          "session": "2021W",
+          "reported": 25,
+          "average": 85.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 9],
+          "instructors": ["Rachel Scholes"]
+        }
+      ]
+    },
+    "ENVE 401": {
+      "reported": 104,
+      "average": 87.0,
+      "grades": [0, 0, 0, 1, 0, 0, 1, 6, 18, 41, 37],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 34,
+          "average": 85.6,
+          "grades": [0, 0, 0, 1, 0, 0, 0, 1, 12, 10, 10],
+          "instructors": ["Zeina Baalbaki"]
+        },
+        {
+          "session": "2024W",
+          "reported": 32,
+          "average": 87.8,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 2, 1, 13, 15],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "reported": 38,
+          "average": 87.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 3, 5, 18, 12],
+          "instructors": ["Zeina Baalbaki", "Sergio Berretta"]
+        }
+      ]
+    }
+  }
+}

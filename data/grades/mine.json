@@ -1,0 +1,1754 @@
+{
+  "subject": "MINE",
+  "campus": "UBCV",
+  "source": "https://ubcgrades.com",
+  "credit": "UBCGrades.com / UBC PAIR",
+  "sessions": ["2021W", "2022S", "2022W", "2023S", "2023W", "2024S", "2024W", "2025W"],
+  "buckets": ["<50%", "50-54%", "55-59%", "60-63%", "64-67%", "68-71%", "72-75%", "76-79%", "80-84%", "85-89%", "90-100%"],
+  "courses": {
+    "MINE 200": {
+      "reported": 124,
+      "average": 77.1,
+      "grades": [0, 3, 3, 3, 8, 14, 18, 18, 26, 22, 8],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 42,
+          "average": 76.7,
+          "grades": [0, 2, 3, 0, 2, 3, 5, 8, 9, 6, 4],
+          "instructors": ["Tonia Welch"]
+        },
+        {
+          "session": "2024W",
+          "reported": 39,
+          "average": 78.0,
+          "grades": [0, 0, 0, 1, 2, 5, 7, 5, 11, 5, 3],
+          "instructors": ["Antonina Welch"]
+        },
+        {
+          "session": "2023W",
+          "reported": 26,
+          "average": 74.9,
+          "grades": [0, 1, 0, 2, 4, 2, 3, 4, 4, 5, 0],
+          "instructors": ["Antonina Welch", "Maria Holuszko"]
+        },
+        {
+          "session": "2022W",
+          "reported": 17,
+          "average": 79.3,
+          "grades": [0, 0, 0, 0, 0, 4, 3, 1, 2, 6, 1],
+          "instructors": ["Antonina Welch", "Lee Groat"]
+        }
+      ]
+    },
+    "MINE 201": {
+      "reported": 120,
+      "average": 82.0,
+      "grades": [0, 1, 3, 3, 3, 6, 8, 15, 23, 32, 26],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 43,
+          "average": 85.0,
+          "grades": [0, 0, 1, 0, 1, 1, 1, 3, 7, 16, 13],
+          "instructors": ["Bern Klein"]
+        },
+        {
+          "session": "2024W",
+          "reported": 36,
+          "average": 75.2,
+          "grades": [0, 1, 1, 3, 0, 4, 6, 9, 7, 4, 1],
+          "instructors": ["Bern Klein"]
+        },
+        {
+          "session": "2023W",
+          "reported": 24,
+          "average": 85.5,
+          "grades": [0, 0, 1, 0, 1, 1, 1, 1, 4, 5, 10],
+          "instructors": ["Genzhuang Li"]
+        },
+        {
+          "session": "2022W",
+          "reported": 17,
+          "average": 83.9,
+          "grades": [0, 0, 0, 0, 1, 0, 0, 2, 5, 7, 2],
+          "instructors": ["Bern Klein"]
+        }
+      ]
+    },
+    "MINE 202": {
+      "reported": 77,
+      "average": 77.5,
+      "grades": [0, 0, 0, 1, 6, 5, 18, 14, 22, 8, 3],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 40,
+          "average": 76.2,
+          "grades": [0, 0, 0, 1, 4, 2, 11, 9, 8, 5, 0],
+          "instructors": ["Maria Holuszko"]
+        },
+        {
+          "session": "2024W",
+          "reported": 37,
+          "average": 78.9,
+          "grades": [0, 0, 0, 0, 2, 3, 7, 5, 14, 3, 3],
+          "instructors": ["Maria Holuszko"]
+        }
+      ]
+    },
+    "MINE 224": {
+      "reported": 28,
+      "average": 70.8,
+      "grades": [0, 0, 0, 0, 0, 7, 0, 0, 0, 0, 0],
+      "terms": [
+        {
+          "session": "2021W",
+          "reported": 28,
+          "average": 70.8,
+          "grades": [0, 0, 0, 0, 0, 7, 0, 0, 0, 0, 0],
+          "instructors": ["Maria Holuszko"]
+        }
+      ]
+    },
+    "MINE 291": {
+      "reported": 28,
+      "average": 82.2,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 6, 11, 0],
+      "terms": [
+        {
+          "session": "2021W",
+          "reported": 28,
+          "average": 82.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 6, 11, 0],
+          "instructors": ["Davide Elmo"]
+        }
+      ]
+    },
+    "MINE 292": {
+      "reported": 28,
+      "average": 73.0,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      "terms": [
+        {
+          "session": "2021W",
+          "reported": 28,
+          "average": 73.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Bern Klein"]
+        }
+      ]
+    },
+    "MINE 293": {
+      "reported": 153,
+      "average": 86.1,
+      "grades": [0, 3, 1, 2, 2, 3, 3, 8, 16, 25, 78],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 42,
+          "average": 83.5,
+          "grades": [0, 2, 0, 1, 1, 0, 2, 5, 8, 7, 16],
+          "instructors": ["Tonia Welch"]
+        },
+        {
+          "session": "2024W",
+          "reported": 38,
+          "average": 88.3,
+          "grades": [0, 0, 1, 0, 0, 1, 1, 2, 3, 10, 20],
+          "instructors": ["Antonina Welch"]
+        },
+        {
+          "session": "2023W",
+          "reported": 26,
+          "average": 87.5,
+          "grades": [0, 1, 0, 0, 1, 2, 0, 0, 3, 4, 14],
+          "instructors": ["Michael Schoen"]
+        },
+        {
+          "session": "2022W",
+          "reported": 19,
+          "average": 87.8,
+          "grades": [0, 0, 0, 1, 0, 0, 0, 1, 2, 4, 11],
+          "instructors": ["Michael Schoen"]
+        },
+        {
+          "session": "2021W",
+          "reported": 28,
+          "average": 84.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 17],
+          "instructors": ["Michael Schoen"]
+        }
+      ]
+    },
+    "MINE 302": {
+      "reported": 122,
+      "average": 75.7,
+      "grades": [2, 1, 3, 6, 9, 12, 11, 20, 22, 16, 6],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 40,
+          "average": 76.6,
+          "grades": [1, 0, 0, 2, 3, 5, 4, 9, 7, 7, 2],
+          "instructors": ["Shervin Teymouri"]
+        },
+        {
+          "session": "2024W",
+          "reported": 16,
+          "average": 68.1,
+          "grades": [1, 0, 2, 1, 5, 1, 3, 0, 2, 1, 0],
+          "instructors": ["Shervin Teymouri"]
+        },
+        {
+          "session": "2023W",
+          "reported": 29,
+          "average": 76.3,
+          "grades": [0, 1, 1, 2, 1, 3, 2, 7, 5, 4, 2],
+          "instructors": ["Shervin Teymouri"]
+        },
+        {
+          "session": "2022W",
+          "reported": 24,
+          "average": 80.0,
+          "grades": [0, 0, 0, 1, 0, 3, 2, 4, 8, 4, 2],
+          "instructors": ["Shervin Teymouri"]
+        },
+        {
+          "session": "2021W",
+          "reported": 13,
+          "average": 72.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Shervin Teymouri"]
+        }
+      ]
+    },
+    "MINE 303": {
+      "reported": 243,
+      "average": 76.5,
+      "grades": [1, 3, 3, 9, 11, 33, 33, 44, 54, 30, 15],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 60,
+          "average": 74.8,
+          "grades": [1, 0, 0, 0, 4, 12, 13, 14, 12, 2, 2],
+          "instructors": ["Davide Elmo"]
+        },
+        {
+          "session": "2024W",
+          "reported": 46,
+          "average": 77.4,
+          "grades": [0, 1, 1, 2, 2, 6, 4, 9, 9, 10, 2],
+          "instructors": ["Davide Elmo"]
+        },
+        {
+          "session": "2023W",
+          "reported": 42,
+          "average": 77.4,
+          "grades": [0, 0, 1, 5, 1, 4, 3, 9, 9, 6, 3],
+          "instructors": ["Davide Elmo"]
+        },
+        {
+          "session": "2022W",
+          "reported": 35,
+          "average": 75.3,
+          "grades": [0, 2, 1, 2, 4, 4, 2, 5, 8, 5, 2],
+          "instructors": ["Davide Elmo"]
+        },
+        {
+          "session": "2021W",
+          "reported": 60,
+          "average": 77.6,
+          "grades": [0, 0, 0, 0, 0, 7, 11, 7, 16, 7, 6],
+          "instructors": ["Davide Elmo"]
+        }
+      ]
+    },
+    "MINE 310": {
+      "reported": 109,
+      "average": 75.9,
+      "grades": [0, 1, 4, 1, 6, 7, 19, 22, 19, 15, 4],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 30,
+          "average": 79.7,
+          "grades": [0, 1, 0, 0, 0, 4, 5, 4, 4, 8, 4],
+          "instructors": ["Shervin Teymouri"]
+        },
+        {
+          "session": "2024W",
+          "reported": 25,
+          "average": 74.7,
+          "grades": [0, 0, 3, 0, 2, 1, 6, 5, 5, 3, 0],
+          "instructors": ["Shervin Teymouri"]
+        },
+        {
+          "session": "2023W",
+          "reported": 15,
+          "average": 74.4,
+          "grades": [0, 0, 1, 0, 2, 0, 3, 2, 6, 0, 0],
+          "instructors": ["Shervin Teymouri"]
+        },
+        {
+          "session": "2022W",
+          "reported": 23,
+          "average": 76.7,
+          "grades": [0, 0, 0, 1, 2, 2, 5, 5, 4, 4, 0],
+          "instructors": ["Shervin Teymouri"]
+        },
+        {
+          "session": "2021W",
+          "reported": 16,
+          "average": 70.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 6, 0, 0, 0],
+          "instructors": ["Shervin Teymouri"]
+        }
+      ]
+    },
+    "MINE 331": {
+      "reported": 117,
+      "average": 78.1,
+      "grades": [3, 4, 4, 6, 3, 10, 7, 15, 7, 20, 19],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 29,
+          "average": 77.3,
+          "grades": [1, 1, 0, 1, 2, 5, 0, 8, 1, 5, 5],
+          "instructors": ["Sanja Miskovic"]
+        },
+        {
+          "session": "2024W",
+          "reported": 29,
+          "average": 77.0,
+          "grades": [2, 0, 1, 4, 0, 0, 4, 3, 2, 9, 4],
+          "instructors": ["Sanja Miskovic"]
+        },
+        {
+          "session": "2023W",
+          "reported": 17,
+          "average": 77.2,
+          "grades": [0, 2, 0, 0, 0, 1, 3, 3, 4, 2, 2],
+          "instructors": ["Sanja Miskovic"]
+        },
+        {
+          "session": "2022W",
+          "reported": 23,
+          "average": 77.6,
+          "grades": [0, 1, 3, 1, 1, 4, 0, 1, 0, 4, 8],
+          "instructors": ["Sanja Miskovic"]
+        },
+        {
+          "session": "2021W",
+          "reported": 19,
+          "average": 82.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Sanja Miskovic"]
+        }
+      ]
+    },
+    "MINE 333": {
+      "reported": 133,
+      "average": 75.7,
+      "grades": [1, 2, 8, 11, 7, 12, 17, 5, 12, 19, 18],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 44,
+          "average": 77.6,
+          "grades": [0, 1, 2, 3, 3, 6, 6, 3, 5, 5, 10],
+          "instructors": ["Marek Pawlik"]
+        },
+        {
+          "session": "2024W",
+          "reported": 22,
+          "average": 73.9,
+          "grades": [1, 0, 4, 1, 1, 3, 2, 0, 2, 5, 3],
+          "instructors": ["Marek Pawlik"]
+        },
+        {
+          "session": "2023W",
+          "reported": 25,
+          "average": 77.1,
+          "grades": [0, 1, 1, 4, 1, 1, 2, 1, 3, 7, 3],
+          "instructors": ["Marek Pawlik"]
+        },
+        {
+          "session": "2022W",
+          "reported": 22,
+          "average": 75.1,
+          "grades": [0, 0, 1, 3, 2, 2, 7, 1, 2, 2, 2],
+          "instructors": ["Marek Pawlik"]
+        },
+        {
+          "session": "2021W",
+          "reported": 20,
+          "average": 72.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Marek Pawlik"]
+        }
+      ]
+    },
+    "MINE 350": {
+      "reported": 119,
+      "average": 78.8,
+      "grades": [4, 4, 2, 1, 5, 6, 7, 10, 16, 31, 14],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 35,
+          "average": 82.7,
+          "grades": [1, 0, 2, 1, 1, 1, 0, 0, 7, 10, 12],
+          "instructors": ["W Scott Dunbar"]
+        },
+        {
+          "session": "2024W",
+          "reported": 25,
+          "average": 80.6,
+          "grades": [1, 0, 0, 0, 0, 1, 4, 2, 6, 10, 1],
+          "instructors": ["Sanja Miskovic"]
+        },
+        {
+          "session": "2023W",
+          "reported": 15,
+          "average": 74.8,
+          "grades": [1, 1, 0, 0, 1, 3, 0, 3, 2, 4, 0],
+          "instructors": ["Allyson Stoll"]
+        },
+        {
+          "session": "2022W",
+          "reported": 25,
+          "average": 73.4,
+          "grades": [1, 3, 0, 0, 3, 1, 3, 5, 1, 7, 1],
+          "instructors": ["W Scott Dunbar"]
+        },
+        {
+          "session": "2021W",
+          "reported": 19,
+          "average": 79.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["W Scott Dunbar"]
+        }
+      ]
+    },
+    "MINE 380": {
+      "reported": 184,
+      "average": 78.5,
+      "grades": [1, 1, 1, 1, 9, 14, 15, 27, 47, 41, 11],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 44,
+          "average": 77.2,
+          "grades": [0, 1, 1, 1, 2, 6, 5, 7, 9, 11, 1],
+          "instructors": ["Luis Torres Cruz"]
+        },
+        {
+          "session": "2024W",
+          "reported": 35,
+          "average": 78.6,
+          "grades": [1, 0, 0, 0, 2, 3, 4, 6, 10, 6, 3],
+          "instructors": ["Luis Alberto Torres Cruz"]
+        },
+        {
+          "session": "2023W",
+          "reported": 26,
+          "average": 84.1,
+          "grades": [0, 0, 0, 0, 1, 1, 1, 2, 6, 9, 5],
+          "instructors": ["Caius Priscu"]
+        },
+        {
+          "session": "2022W",
+          "reported": 38,
+          "average": 79.2,
+          "grades": [0, 0, 0, 0, 4, 4, 5, 4, 10, 9, 2],
+          "instructors": ["Caius Priscu"]
+        },
+        {
+          "session": "2021W",
+          "reported": 41,
+          "average": 75.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 8, 12, 6, 0],
+          "instructors": ["Caius Priscu"]
+        }
+      ]
+    },
+    "MINE 396": {
+      "reported": 299,
+      "average": 77.9,
+      "grades": [1, 0, 1, 5, 21, 35, 35, 53, 66, 57, 11],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 56,
+          "average": 79.5,
+          "grades": [0, 0, 0, 0, 1, 4, 6, 14, 22, 7, 2],
+          "instructors": ["W Scott Dunbar"]
+        },
+        {
+          "session": "2024W",
+          "reported": 74,
+          "average": 75.4,
+          "grades": [0, 0, 0, 4, 6, 15, 10, 17, 12, 10, 0],
+          "instructors": ["Jose Lopes da Costa"]
+        },
+        {
+          "session": "2023W",
+          "reported": 55,
+          "average": 83.0,
+          "grades": [0, 0, 0, 0, 3, 5, 4, 1, 9, 24, 9],
+          "instructors": ["Jose Lopes da Costa"]
+        },
+        {
+          "session": "2022W",
+          "reported": 58,
+          "average": 77.6,
+          "grades": [1, 0, 1, 1, 3, 4, 9, 10, 13, 16, 0],
+          "instructors": ["Jose Lopes da Costa"]
+        },
+        {
+          "session": "2021W",
+          "reported": 56,
+          "average": 74.9,
+          "grades": [0, 0, 0, 0, 8, 7, 6, 11, 10, 0, 0],
+          "instructors": ["Jose Lopes Da Costa"]
+        }
+      ]
+    },
+    "MINE 402": {
+      "reported": 101,
+      "average": 81.0,
+      "grades": [0, 0, 0, 1, 1, 3, 12, 20, 27, 7, 13],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 18,
+          "average": 76.4,
+          "grades": [0, 0, 0, 1, 0, 2, 2, 9, 4, 0, 0],
+          "instructors": ["Ali Kuyuk"]
+        },
+        {
+          "session": "2024W",
+          "reported": 13,
+          "average": 82.9,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 2, 7, 0, 3],
+          "instructors": ["Seyed Ghoreishi-Madiseh"]
+        },
+        {
+          "session": "2023W",
+          "reported": 30,
+          "average": 83.7,
+          "grades": [0, 0, 0, 0, 0, 1, 6, 5, 3, 5, 10],
+          "instructors": ["Seyed Ghoreishi-Madiseh"]
+        },
+        {
+          "session": "2022W",
+          "reported": 17,
+          "average": 79.2,
+          "grades": [0, 0, 0, 0, 1, 0, 3, 4, 7, 2, 0],
+          "instructors": ["Seyed Ghoreishi-Madiseh"]
+        },
+        {
+          "session": "2021W",
+          "reported": 23,
+          "average": 81.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 0],
+          "instructors": ["Seyed Ghoreishi-Madiseh"]
+        }
+      ]
+    },
+    "MINE 403": {
+      "reported": 138,
+      "average": 75.3,
+      "grades": [1, 4, 5, 9, 8, 13, 20, 22, 23, 16, 8],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 20,
+          "average": 75.2,
+          "grades": [0, 1, 1, 0, 0, 0, 6, 7, 4, 1, 0],
+          "instructors": ["Davide Elmo"]
+        },
+        {
+          "session": "2024W",
+          "reported": 21,
+          "average": 72.9,
+          "grades": [0, 1, 2, 3, 0, 5, 1, 2, 3, 1, 3],
+          "instructors": ["Antonina Welch"]
+        },
+        {
+          "session": "2023W",
+          "reported": 34,
+          "average": 71.5,
+          "grades": [1, 1, 2, 3, 7, 2, 6, 4, 4, 3, 1],
+          "instructors": ["Antonina Welch"]
+        },
+        {
+          "session": "2022W",
+          "reported": 35,
+          "average": 76.7,
+          "grades": [0, 1, 0, 3, 1, 6, 7, 2, 6, 5, 4],
+          "instructors": ["Antonina Welch"]
+        },
+        {
+          "session": "2021W",
+          "reported": 28,
+          "average": 80.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 7, 6, 6, 0],
+          "instructors": ["Davide Elmo"]
+        }
+      ]
+    },
+    "MINE 404": {
+      "reported": 130,
+      "average": 83.4,
+      "grades": [3, 0, 0, 1, 6, 6, 1, 13, 24, 15, 47],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 22,
+          "average": 88.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 3, 4, 1, 14],
+          "instructors": ["John Thomas Steen"]
+        },
+        {
+          "session": "2024W",
+          "reported": 26,
+          "average": 76.7,
+          "grades": [2, 0, 0, 0, 2, 2, 1, 2, 11, 5, 1],
+          "instructors": ["John Thomas Steen"]
+        },
+        {
+          "session": "2023W",
+          "reported": 31,
+          "average": 84.6,
+          "grades": [1, 0, 0, 1, 1, 2, 0, 5, 3, 4, 14],
+          "instructors": ["John Thomas Steen"]
+        },
+        {
+          "session": "2022W",
+          "reported": 28,
+          "average": 83.3,
+          "grades": [0, 0, 0, 0, 3, 2, 0, 3, 6, 5, 9],
+          "instructors": ["John Thomas Steen"]
+        },
+        {
+          "session": "2021W",
+          "reported": 23,
+          "average": 84.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9],
+          "instructors": ["John Thomas Steen"]
+        }
+      ]
+    },
+    "MINE 406": {
+      "reported": 95,
+      "average": 80.0,
+      "grades": [0, 0, 0, 0, 1, 0, 11, 27, 39, 15, 0],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 35,
+          "average": 80.7,
+          "grades": [0, 0, 0, 0, 0, 0, 5, 5, 19, 6, 0],
+          "instructors": ["Carlos da Costa"]
+        },
+        {
+          "session": "2024W",
+          "reported": 16,
+          "average": 78.1,
+          "grades": [0, 0, 0, 0, 0, 0, 4, 6, 6, 0, 0],
+          "instructors": ["Jose Lopes da Costa"]
+        },
+        {
+          "session": "2023W",
+          "reported": 18,
+          "average": 78.3,
+          "grades": [0, 0, 0, 0, 1, 0, 1, 8, 7, 1, 0],
+          "instructors": ["Jose Lopes da Costa"]
+        },
+        {
+          "session": "2022W",
+          "reported": 12,
+          "average": 78.8,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 8, 1, 2, 0],
+          "instructors": ["Jose Lopes da Costa"]
+        },
+        {
+          "session": "2021W",
+          "reported": 14,
+          "average": 83.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 6, 6, 0],
+          "instructors": ["Jose Lopes Da Costa"]
+        }
+      ]
+    },
+    "MINE 420": {
+      "reported": 46,
+      "average": 85.7,
+      "grades": [1, 0, 0, 1, 0, 1, 0, 1, 6, 9, 19],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 23,
+          "average": 88.1,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 1, 3, 9, 9],
+          "instructors": ["Ilija Miskovic"]
+        },
+        {
+          "session": "2023W",
+          "reported": 8,
+          "average": 74.4,
+          "grades": [1, 0, 0, 1, 0, 0, 0, 0, 3, 0, 2],
+          "instructors": ["Ilija Miskovic"]
+        },
+        {
+          "session": "2022W",
+          "reported": 8,
+          "average": 94.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8],
+          "instructors": ["Ilija Miskovic"]
+        },
+        {
+          "session": "2021W",
+          "reported": 7,
+          "average": 79.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Ilija Miskovic"]
+        }
+      ]
+    },
+    "MINE 432": {
+      "reported": 116,
+      "average": 87.8,
+      "grades": [0, 0, 1, 0, 0, 2, 4, 10, 12, 14, 67],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 27,
+          "average": 90.8,
+          "grades": [0, 0, 0, 0, 0, 1, 1, 2, 0, 1, 22],
+          "instructors": ["Ilija Miskovic"]
+        },
+        {
+          "session": "2024W",
+          "reported": 13,
+          "average": 85.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 2, 5, 1, 5],
+          "instructors": ["Ilija Miskovic"]
+        },
+        {
+          "session": "2023W",
+          "reported": 31,
+          "average": 86.5,
+          "grades": [0, 0, 1, 0, 0, 0, 1, 2, 4, 10, 13],
+          "instructors": ["Ilija Miskovic"]
+        },
+        {
+          "session": "2022W",
+          "reported": 20,
+          "average": 84.6,
+          "grades": [0, 0, 0, 0, 0, 1, 2, 4, 3, 2, 8],
+          "instructors": ["Ilija Miskovic"]
+        },
+        {
+          "session": "2021W",
+          "reported": 25,
+          "average": 90.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 19],
+          "instructors": ["Ilija Miskovic"]
+        }
+      ]
+    },
+    "MINE 434": {
+      "reported": 26,
+      "average": 80.0,
+      "grades": [0, 0, 1, 0, 0, 2, 1, 3, 2, 6, 2],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 17,
+          "average": 80.5,
+          "grades": [0, 0, 1, 0, 0, 2, 1, 3, 2, 6, 2],
+          "instructors": ["Bern Klein"]
+        },
+        {
+          "session": "2021W",
+          "reported": 9,
+          "average": 79.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Bern Klein"]
+        }
+      ]
+    },
+    "MINE 444": {
+      "reported": 64,
+      "average": 83.8,
+      "grades": [0, 0, 0, 1, 2, 3, 6, 5, 12, 16, 19],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 31,
+          "average": 84.2,
+          "grades": [0, 0, 0, 0, 0, 2, 3, 3, 6, 9, 8],
+          "instructors": ["Maria Holuszko"]
+        },
+        {
+          "session": "2024W",
+          "reported": 15,
+          "average": 82.3,
+          "grades": [0, 0, 0, 1, 0, 1, 2, 1, 2, 5, 3],
+          "instructors": ["Maria Holuszko"]
+        },
+        {
+          "session": "2023W",
+          "reported": 18,
+          "average": 84.5,
+          "grades": [0, 0, 0, 0, 2, 0, 1, 1, 4, 2, 8],
+          "instructors": ["Maria Holuszko"]
+        }
+      ]
+    },
+    "MINE 447": {
+      "reported": 25,
+      "average": 78.6,
+      "grades": [0, 0, 0, 1, 2, 1, 4, 2, 3, 6, 0],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 19,
+          "average": 77.8,
+          "grades": [0, 0, 0, 1, 2, 1, 4, 2, 3, 6, 0],
+          "instructors": ["Avishan Atrafi", "Marek Pawlik"]
+        },
+        {
+          "session": "2023W",
+          "reported": 6,
+          "average": 81.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Marek Pawlik"]
+        }
+      ]
+    },
+    "MINE 455": {
+      "reported": 179,
+      "average": 78.3,
+      "grades": [0, 0, 0, 6, 8, 18, 23, 28, 40, 38, 4],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 38,
+          "average": 81.3,
+          "grades": [0, 0, 0, 0, 0, 3, 4, 9, 7, 11, 4],
+          "instructors": ["Nadja Kunz"]
+        },
+        {
+          "session": "2023W",
+          "reported": 54,
+          "average": 73.7,
+          "grades": [0, 0, 0, 5, 5, 8, 15, 10, 11, 0, 0],
+          "instructors": ["Gabriel Castillo Devoto"]
+        },
+        {
+          "session": "2022W",
+          "reported": 39,
+          "average": 76.3,
+          "grades": [0, 0, 0, 1, 3, 7, 4, 9, 9, 6, 0],
+          "instructors": ["Nadja Kunz"]
+        },
+        {
+          "session": "2021W",
+          "reported": 48,
+          "average": 82.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 13, 21, 0],
+          "instructors": ["Khan Wahid Palash Md"]
+        }
+      ]
+    },
+    "MINE 465": {
+      "reported": 248,
+      "average": 75.3,
+      "grades": [0, 1, 6, 18, 12, 29, 43, 46, 54, 18, 8],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 39,
+          "average": 77.7,
+          "grades": [0, 0, 0, 3, 4, 2, 5, 10, 7, 2, 6],
+          "instructors": ["Ali Kuyuk"]
+        },
+        {
+          "session": "2024W",
+          "reported": 51,
+          "average": 74.7,
+          "grades": [0, 1, 3, 3, 5, 5, 7, 5, 17, 5, 0],
+          "instructors": ["Seyed Ghoreishi-Madiseh"]
+        },
+        {
+          "session": "2023W",
+          "reported": 59,
+          "average": 77.0,
+          "grades": [0, 0, 1, 2, 0, 9, 10, 17, 11, 7, 2],
+          "instructors": ["Seyed Ghoreishi-Madiseh"]
+        },
+        {
+          "session": "2022W",
+          "reported": 54,
+          "average": 72.8,
+          "grades": [0, 0, 2, 10, 3, 6, 10, 8, 11, 4, 0],
+          "instructors": ["Seyed Ghoreishi-Madiseh"]
+        },
+        {
+          "session": "2021W",
+          "reported": 45,
+          "average": 74.5,
+          "grades": [0, 0, 0, 0, 0, 7, 11, 6, 8, 0, 0],
+          "instructors": ["Seyed Ghoreishi-Madiseh"]
+        }
+      ]
+    },
+    "MINE 470": {
+      "reported": 40,
+      "average": 82.1,
+      "grades": [0, 0, 0, 0, 1, 1, 2, 3, 12, 9, 6],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 15,
+          "average": 83.9,
+          "grades": [0, 0, 0, 0, 0, 0, 2, 2, 4, 4, 3],
+          "instructors": ["Justin Himmelright"]
+        },
+        {
+          "session": "2024W",
+          "reported": 9,
+          "average": 84.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 4, 3, 1],
+          "instructors": ["Justin Himmelright"]
+        },
+        {
+          "session": "2022W",
+          "reported": 10,
+          "average": 82.7,
+          "grades": [0, 0, 0, 0, 1, 1, 0, 0, 4, 2, 2],
+          "instructors": ["Justin Himmelright"]
+        },
+        {
+          "session": "2021W",
+          "reported": 6,
+          "average": 73.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Justin Himmelright"]
+        }
+      ]
+    },
+    "MINE 485": {
+      "reported": 50,
+      "average": 79.4,
+      "grades": [0, 0, 1, 1, 1, 1, 4, 12, 9, 8, 4],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 10,
+          "average": 81.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 4, 3, 2, 1],
+          "instructors": ["Allan Moss"]
+        },
+        {
+          "session": "2024W",
+          "reported": 11,
+          "average": 76.7,
+          "grades": [0, 0, 1, 1, 0, 0, 1, 3, 3, 2, 0],
+          "instructors": ["Shervin Teymouri"]
+        },
+        {
+          "session": "2023W",
+          "reported": 9,
+          "average": 81.0,
+          "grades": [0, 0, 0, 0, 0, 0, 2, 3, 2, 1, 1],
+          "instructors": ["Allan Moss"]
+        },
+        {
+          "session": "2022W",
+          "reported": 11,
+          "average": 80.7,
+          "grades": [0, 0, 0, 0, 1, 1, 1, 2, 1, 3, 2],
+          "instructors": ["Allan Moss", "Stefan Nadolski"]
+        },
+        {
+          "session": "2021W",
+          "reported": 9,
+          "average": 77.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Allan Moss", "Stefan Nadolski"]
+        }
+      ]
+    },
+    "MINE 486": {
+      "reported": 216,
+      "average": 79.4,
+      "grades": [0, 0, 1, 2, 8, 18, 23, 39, 63, 42, 15],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 32,
+          "average": 76.7,
+          "grades": [0, 0, 0, 1, 4, 0, 7, 7, 10, 3, 0],
+          "instructors": ["Luis Torres Cruz"]
+        },
+        {
+          "session": "2024W",
+          "reported": 44,
+          "average": 82.5,
+          "grades": [0, 0, 0, 0, 0, 1, 3, 6, 17, 15, 2],
+          "instructors": ["Michael Dabiri"]
+        },
+        {
+          "session": "2023W",
+          "reported": 41,
+          "average": 77.4,
+          "grades": [0, 0, 1, 1, 4, 9, 5, 6, 2, 5, 8],
+          "instructors": ["Michael Dabiri"]
+        },
+        {
+          "session": "2022W",
+          "reported": 40,
+          "average": 83.1,
+          "grades": [0, 0, 0, 0, 0, 2, 2, 3, 16, 12, 5],
+          "instructors": ["Michael Dabiri"]
+        },
+        {
+          "session": "2021W",
+          "reported": 59,
+          "average": 77.4,
+          "grades": [0, 0, 0, 0, 0, 6, 6, 17, 18, 7, 0],
+          "instructors": ["Michael Dabiri"]
+        }
+      ]
+    },
+    "MINE 491": {
+      "reported": 96,
+      "average": 78.7,
+      "grades": [1, 6, 0, 1, 0, 1, 7, 12, 24, 18, 12],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 22,
+          "average": 78.0,
+          "grades": [1, 0, 0, 0, 0, 1, 4, 5, 7, 4, 0],
+          "instructors": ["Tonia Welch"]
+        },
+        {
+          "session": "2024W",
+          "reported": 14,
+          "average": 82.8,
+          "grades": [0, 0, 0, 1, 0, 0, 0, 2, 3, 8, 0],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "reported": 20,
+          "average": 83.9,
+          "grades": [0, 0, 0, 0, 0, 0, 2, 3, 6, 5, 4],
+          "instructors": ["Antonina Welch"]
+        },
+        {
+          "session": "2022W",
+          "reported": 20,
+          "average": 87.1,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 2, 8, 1, 8],
+          "instructors": ["Antonina Welch"]
+        },
+        {
+          "session": "2021W",
+          "reported": 20,
+          "average": 63.2,
+          "grades": [0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Sonia D'Ambra"]
+        }
+      ]
+    },
+    "MINE 501": {
+      "reported": 84,
+      "average": 89.8,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 10, 28, 44],
+      "terms": [
+        {
+          "session": "2024W",
+          "topic": "A",
+          "title": "MINING&MNRL PROC",
+          "reported": 16,
+          "average": 88.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 7, 7],
+          "instructors": ["Carmen Jensen"]
+        },
+        {
+          "session": "2023W",
+          "topic": "A",
+          "title": "Topics for Engineers in the Mining Industry",
+          "reported": 19,
+          "average": 88.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 7],
+          "instructors": ["Carmen Jensen"]
+        },
+        {
+          "session": "2023W",
+          "topic": "B",
+          "title": "Topics for Engineers in the Mining Industry",
+          "reported": 12,
+          "average": 86.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 4, 5, 3],
+          "instructors": ["Carmen Jensen"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Topics for Engineers in the Mining Industry",
+          "reported": 14,
+          "average": 91.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 10],
+          "instructors": ["Carmen Jensen"]
+        },
+        {
+          "session": "2022W",
+          "topic": "B",
+          "title": "Topics for Engineers in the Mining Industry",
+          "reported": 15,
+          "average": 92.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 4, 1, 10],
+          "instructors": ["Carmen Jensen"]
+        },
+        {
+          "session": "2021W",
+          "topic": "B",
+          "title": "Topics for Engineers in the Mining Industry",
+          "reported": 8,
+          "average": 92.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7],
+          "instructors": ["Carmen Jensen"]
+        }
+      ]
+    },
+    "MINE 505": {
+      "reported": 30,
+      "average": 90.4,
+      "grades": [0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 26],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 7,
+          "average": 84.0,
+          "grades": [0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 3],
+          "instructors": ["Davide Elmo", "Antonina Welch"]
+        },
+        {
+          "session": "2022W",
+          "reported": 7,
+          "average": 91.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7],
+          "instructors": ["Davide Elmo"]
+        },
+        {
+          "session": "2021W",
+          "reported": 16,
+          "average": 92.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16],
+          "instructors": ["Davide Elmo"]
+        }
+      ]
+    },
+    "MINE 506": {
+      "reported": 26,
+      "average": 81.0,
+      "grades": [0, 0, 0, 0, 1, 0, 5, 5, 2, 3, 3],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 12,
+          "average": 75.9,
+          "grades": [0, 0, 0, 0, 1, 0, 5, 4, 1, 1, 0],
+          "instructors": ["Shervin Teymouri"]
+        },
+        {
+          "session": "2022W",
+          "reported": 7,
+          "average": 87.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 1, 2, 3],
+          "instructors": ["Shervin Teymouri"]
+        },
+        {
+          "session": "2021W",
+          "reported": 7,
+          "average": 82.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Shervin Teymouri"]
+        }
+      ]
+    },
+    "MINE 507": {
+      "reported": 43,
+      "average": 88.2,
+      "grades": [0, 0, 0, 0, 0, 0, 1, 2, 4, 4, 24],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 14,
+          "average": 90.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 12],
+          "instructors": ["Allan Moss"]
+        },
+        {
+          "session": "2022W",
+          "reported": 14,
+          "average": 85.6,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 1, 4, 3, 5],
+          "instructors": ["Allan Moss", "Stefan Nadolski"]
+        },
+        {
+          "session": "2021W",
+          "reported": 15,
+          "average": 88.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7],
+          "instructors": ["Allan Moss", "Stefan Nadolski"]
+        }
+      ]
+    },
+    "MINE 508": {
+      "reported": 27,
+      "average": 89.8,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 3, 6, 18],
+      "terms": [
+        {
+          "session": "2022W",
+          "reported": 13,
+          "average": 86.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 3, 6, 4],
+          "instructors": ["Bern Klein"]
+        },
+        {
+          "session": "2021W",
+          "reported": 14,
+          "average": 92.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14],
+          "instructors": ["Bern Klein"]
+        }
+      ]
+    },
+    "MINE 515": {
+      "reported": 56,
+      "average": 86.0,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 2, 11, 26, 13],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 18,
+          "average": 87.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 14, 3],
+          "instructors": ["W Scott Dunbar"]
+        },
+        {
+          "session": "2022W",
+          "reported": 15,
+          "average": 86.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 2, 4, 6, 3],
+          "instructors": ["W Scott Dunbar"]
+        },
+        {
+          "session": "2021W",
+          "reported": 23,
+          "average": 84.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 6, 6, 7],
+          "instructors": ["W Scott Dunbar"]
+        }
+      ]
+    },
+    "MINE 521": {
+      "reported": 6,
+      "average": 85.8,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 1, 2, 0, 3],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 6,
+          "average": 85.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 2, 0, 3],
+          "instructors": ["Marek Pawlik"]
+        }
+      ]
+    },
+    "MINE 522": {
+      "reported": 6,
+      "average": 83.2,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 0],
+      "terms": [
+        {
+          "session": "2022W",
+          "reported": 6,
+          "average": 83.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 0],
+          "instructors": ["Marek Pawlik"]
+        }
+      ]
+    },
+    "MINE 524": {
+      "reported": 6,
+      "average": 80.7,
+      "grades": [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1],
+      "terms": [
+        {
+          "session": "2022W",
+          "reported": 6,
+          "average": 80.7,
+          "grades": [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1],
+          "instructors": ["Bern Klein"]
+        }
+      ]
+    },
+    "MINE 552": {
+      "reported": 7,
+      "average": 87.9,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 1, 0, 4, 2],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 7,
+          "average": 87.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 0, 4, 2],
+          "instructors": ["Ilija Miskovic"]
+        }
+      ]
+    },
+    "MINE 553": {
+      "reported": 8,
+      "average": 92.1,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 7],
+      "terms": [
+        {
+          "session": "2022W",
+          "reported": 8,
+          "average": 92.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 7],
+          "instructors": ["W Scott Dunbar"]
+        }
+      ]
+    },
+    "MINE 554": {
+      "reported": 42,
+      "average": 81.8,
+      "grades": [0, 0, 0, 0, 0, 1, 1, 6, 10, 12, 1],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 7,
+          "average": 82.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 2, 3, 2, 0],
+          "instructors": ["Jose Lopes da Costa"]
+        },
+        {
+          "session": "2023W",
+          "reported": 16,
+          "average": 82.3,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 3, 5, 6, 1],
+          "instructors": ["Jose Lopes da Costa"]
+        },
+        {
+          "session": "2022W",
+          "reported": 8,
+          "average": 81.6,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 1, 2, 4, 0],
+          "instructors": ["Jose Lopes da Costa"]
+        },
+        {
+          "session": "2021W",
+          "reported": 11,
+          "average": 80.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Jose Lopes Da Costa"]
+        }
+      ]
+    },
+    "MINE 555": {
+      "reported": 57,
+      "average": 85.2,
+      "grades": [0, 0, 0, 0, 0, 0, 1, 6, 18, 22, 6],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 25,
+          "average": 84.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 4, 9, 8, 4],
+          "instructors": ["Jocelynn Fraser"]
+        },
+        {
+          "session": "2022W",
+          "reported": 14,
+          "average": 84.6,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 2, 2, 7, 2],
+          "instructors": ["Jocelynn Fraser"]
+        },
+        {
+          "session": "2021W",
+          "reported": 18,
+          "average": 86.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 7, 7, 0],
+          "instructors": ["Jocelynn Fraser"]
+        }
+      ]
+    },
+    "MINE 559": {
+      "reported": 125,
+      "average": 83.8,
+      "grades": [0, 1, 0, 1, 0, 1, 15, 10, 22, 30, 32],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 29,
+          "average": 84.7,
+          "grades": [0, 1, 0, 0, 0, 0, 2, 5, 3, 9, 9],
+          "instructors": ["Justin Himmelright"]
+        },
+        {
+          "session": "2023W",
+          "reported": 33,
+          "average": 86.3,
+          "grades": [0, 0, 0, 1, 0, 0, 1, 1, 8, 11, 11],
+          "instructors": ["Justin Himmelright"]
+        },
+        {
+          "session": "2022W",
+          "reported": 26,
+          "average": 84.0,
+          "grades": [0, 0, 0, 0, 0, 1, 3, 4, 3, 10, 5],
+          "instructors": ["Justin Himmelright"]
+        },
+        {
+          "session": "2021W",
+          "reported": 37,
+          "average": 80.9,
+          "grades": [0, 0, 0, 0, 0, 0, 9, 0, 8, 0, 7],
+          "instructors": ["Justin Himmelright"]
+        }
+      ]
+    },
+    "MINE 581": {
+      "reported": 35,
+      "average": 81.5,
+      "grades": [0, 0, 0, 0, 1, 1, 4, 4, 9, 2, 7],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 13,
+          "average": 77.6,
+          "grades": [0, 0, 0, 0, 1, 1, 3, 2, 5, 1, 0],
+          "instructors": ["Luis Alberto Torres Cruz"]
+        },
+        {
+          "session": "2022W",
+          "reported": 8,
+          "average": 81.0,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 2, 4, 1, 0],
+          "instructors": ["Caius Priscu"]
+        },
+        {
+          "session": "2021W",
+          "reported": 14,
+          "average": 85.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7],
+          "instructors": ["Caius Priscu"]
+        }
+      ]
+    },
+    "MINE 585": {
+      "reported": 13,
+      "average": 86.1,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 5],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 6,
+          "average": 90.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 5],
+          "instructors": ["Caius Priscu"]
+        },
+        {
+          "session": "2021W",
+          "reported": 7,
+          "average": 82.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Caius Priscu"]
+        }
+      ]
+    },
+    "MINE 586": {
+      "reported": 14,
+      "average": 93.0,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14],
+      "terms": [
+        {
+          "session": "2022W",
+          "reported": 14,
+          "average": 93.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14],
+          "instructors": ["Dirk van Zyl"]
+        }
+      ]
+    },
+    "MINE 587": {
+      "reported": 14,
+      "average": 93.0,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14],
+      "terms": [
+        {
+          "session": "2022W",
+          "reported": 14,
+          "average": 93.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14],
+          "instructors": ["Dirk van Zyl"]
+        }
+      ]
+    },
+    "MINE 588": {
+      "reported": 12,
+      "average": 90.9,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 12,
+          "average": 90.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12],
+          "instructors": []
+        }
+      ]
+    },
+    "MINE 589": {
+      "reported": 12,
+      "average": 90.9,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 12,
+          "average": 90.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12],
+          "instructors": []
+        }
+      ]
+    },
+    "MINE 590": {
+      "reported": 126,
+      "average": 81.6,
+      "grades": [1, 0, 0, 0, 0, 6, 8, 17, 35, 26, 17],
+      "terms": [
+        {
+          "session": "2024W",
+          "topic": "C",
+          "title": "ADV SURFACE DSGN",
+          "reported": 15,
+          "average": 80.9,
+          "grades": [0, 0, 0, 0, 0, 1, 2, 4, 1, 7, 0],
+          "instructors": ["Shervin Teymouri"]
+        },
+        {
+          "session": "2024W",
+          "topic": "E",
+          "title": "MINE MGMT",
+          "reported": 17,
+          "average": 83.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 3, 6, 8, 0],
+          "instructors": ["John Thomas Steen"]
+        },
+        {
+          "session": "2024W",
+          "topic": "F",
+          "title": "COMM CIRCTS DSGN",
+          "reported": 8,
+          "average": 90.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 6],
+          "instructors": ["Sanja Miskovic"]
+        },
+        {
+          "session": "2024W",
+          "topic": "X",
+          "title": "AD MINE WTR MGMT",
+          "reported": 10,
+          "average": 79.3,
+          "grades": [0, 0, 0, 0, 0, 1, 2, 2, 3, 2, 0],
+          "instructors": ["Nadja Kunz"]
+        },
+        {
+          "session": "2023W",
+          "topic": "C",
+          "title": "Special Advanced Topics",
+          "reported": 14,
+          "average": 78.1,
+          "grades": [0, 0, 0, 0, 0, 2, 2, 2, 7, 1, 0],
+          "instructors": ["Shervin Teymouri"]
+        },
+        {
+          "session": "2023W",
+          "topic": "E",
+          "title": "Special Advanced Topics",
+          "reported": 17,
+          "average": 88.1,
+          "grades": [0, 0, 0, 0, 0, 1, 1, 1, 3, 2, 9],
+          "instructors": ["John Thomas Steen"]
+        },
+        {
+          "session": "2022W",
+          "topic": "C",
+          "title": "Special Advanced Topics",
+          "reported": 10,
+          "average": 79.2,
+          "grades": [1, 0, 0, 0, 0, 0, 0, 2, 4, 3, 0],
+          "instructors": ["Shervin Teymouri"]
+        },
+        {
+          "session": "2022W",
+          "topic": "X",
+          "title": "Special Advanced Topics",
+          "reported": 12,
+          "average": 80.6,
+          "grades": [0, 0, 0, 0, 0, 1, 1, 3, 4, 1, 2],
+          "instructors": ["Nadja Kunz"]
+        },
+        {
+          "session": "2021W",
+          "topic": "C",
+          "title": "Special Advanced Topics",
+          "reported": 15,
+          "average": 78.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 7, 0, 0],
+          "instructors": ["Shervin Teymouri"]
+        },
+        {
+          "session": "2021W",
+          "topic": "X",
+          "title": "Special Advanced Topics",
+          "reported": 8,
+          "average": 75.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Khan Wahid Palash Md"]
+        }
+      ]
+    },
+    "MINE 597": {
+      "reported": 58,
+      "average": 87.2,
+      "grades": [0, 0, 0, 0, 0, 1, 2, 1, 10, 20, 18],
+      "terms": [
+        {
+          "session": "2024S",
+          "reported": 15,
+          "average": 88.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 8, 6],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "reported": 15,
+          "average": 88.1,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 3, 2, 3],
+          "instructors": []
+        },
+        {
+          "session": "2023S",
+          "reported": 7,
+          "average": 84.3,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 0, 1, 4, 1],
+          "instructors": ["Carmen Jensen"]
+        },
+        {
+          "session": "2022W",
+          "reported": 15,
+          "average": 87.0,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 1, 3, 3, 7],
+          "instructors": []
+        },
+        {
+          "session": "2022S",
+          "reported": 6,
+          "average": 85.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 1],
+          "instructors": ["Carmen Jensen"]
+        }
+      ]
+    },
+    "MINE 598": {
+      "reported": 75,
+      "average": 87.4,
+      "grades": [0, 0, 0, 0, 1, 1, 0, 0, 4, 6, 11],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 25,
+          "average": 86.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Carmen Jensen"]
+        },
+        {
+          "session": "2023S",
+          "reported": 34,
+          "average": 87.8,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 0, 2, 2, 2],
+          "instructors": ["Carmen Jensen"]
+        },
+        {
+          "session": "2022W",
+          "reported": 16,
+          "average": 87.8,
+          "grades": [0, 0, 0, 0, 1, 0, 0, 0, 2, 4, 9],
+          "instructors": ["Carmen Jensen"]
+        }
+      ]
+    },
+    "MINE 599": {
+      "reported": 51,
+      "average": 89.0,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      "terms": [
+        {
+          "session": "2023W",
+          "topic": "C",
+          "title": "M.A.Sc. Thesis",
+          "reported": 25,
+          "average": 88.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": []
+        },
+        {
+          "session": "2023S",
+          "topic": "C",
+          "title": "M.A.Sc. Thesis",
+          "reported": 26,
+          "average": 90.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": []
+        }
+      ]
+    },
+    "MINE 698": {
+      "reported": 61,
+      "average": 88.1,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 4, 0],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 30,
+          "average": 84.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 4, 0],
+          "instructors": []
+        },
+        {
+          "session": "2023S",
+          "reported": 31,
+          "average": 91.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Carmen Jensen"]
+        }
+      ]
+    }
+  }
+}

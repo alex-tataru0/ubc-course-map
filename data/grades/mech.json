@@ -1,0 +1,3831 @@
+{
+  "subject": "MECH",
+  "campus": "UBCV",
+  "source": "https://ubcgrades.com",
+  "credit": "UBCGrades.com / UBC PAIR",
+  "sessions": ["2021S", "2021W", "2022S", "2022W", "2023S", "2023W", "2024S", "2024W", "2025S", "2025W"],
+  "buckets": ["<50%", "50-54%", "55-59%", "60-63%", "64-67%", "68-71%", "72-75%", "76-79%", "80-84%", "85-89%", "90-100%"],
+  "courses": {
+    "MECH 220": {
+      "reported": 619,
+      "average": 82.5,
+      "grades": [0, 0, 0, 1, 2, 8, 37, 90, 263, 170, 41],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 125,
+          "average": 82.5,
+          "grades": [0, 0, 0, 0, 0, 2, 5, 25, 47, 42, 4],
+          "instructors": []
+        },
+        {
+          "session": "2024W",
+          "reported": 125,
+          "average": 83.8,
+          "grades": [0, 0, 0, 0, 0, 2, 5, 11, 52, 43, 12],
+          "instructors": ["Markus Fengler", "Graham Hendra", "Jessica Wolf", "Juan Abello Rubio"]
+        },
+        {
+          "session": "2023W",
+          "reported": 126,
+          "average": 83.0,
+          "grades": [0, 0, 0, 0, 1, 1, 10, 12, 49, 39, 12],
+          "instructors": ["Juan Abello Rubio", "Jihoon Lim", "Agnes D'Entremont", "Markus Fengler", "Graham Hendra"]
+        },
+        {
+          "session": "2022W",
+          "reported": 124,
+          "average": 81.3,
+          "grades": [0, 0, 0, 1, 1, 3, 9, 18, 62, 28, 2],
+          "instructors": ["Markus Fengler", "Graham Hendra", "Juan Abello Rubio", "Agnes D'Entremont"]
+        },
+        {
+          "session": "2021W",
+          "reported": 119,
+          "average": 81.7,
+          "grades": [0, 0, 0, 0, 0, 0, 8, 24, 53, 18, 11],
+          "instructors": ["Juan Abello Rubio", "Carly Jones", "Sheldon Green", "Markus Fengler", "Graham Hendra"]
+        }
+      ]
+    },
+    "MECH 221": {
+      "reported": 637,
+      "average": 75.9,
+      "grades": [20, 0, 7, 20, 46, 72, 98, 143, 137, 60, 28],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 127,
+          "average": 76.4,
+          "grades": [0, 0, 0, 3, 11, 22, 23, 28, 21, 14, 5],
+          "instructors": []
+        },
+        {
+          "session": "2024W",
+          "reported": 130,
+          "average": 76.6,
+          "grades": [4, 0, 0, 0, 9, 13, 19, 39, 34, 8, 4],
+          "instructors": ["Mohammed Hannan", "Jesus Calvino-Fraga", "Lindsey Daniels", "Jonathan Nakane", "Chun Wu", "Graham Hendra"]
+        },
+        {
+          "session": "2023W",
+          "reported": 131,
+          "average": 75.6,
+          "grades": [4, 0, 4, 5, 13, 12, 16, 23, 29, 18, 7],
+          "instructors": ["Jesus Calvino-Fraga", "Lindsey Daniels", "Agnes D'Entremont", "Jonathan Nakane", "Chun Wu", "Graham Hendra"]
+        },
+        {
+          "session": "2022W",
+          "reported": 127,
+          "average": 76.1,
+          "grades": [6, 0, 3, 5, 7, 13, 19, 24, 27, 11, 12],
+          "instructors": ["Jesus Calvino-Fraga", "Agnes D'Entremont", "Lindsey Daniels", "Jonathan Nakane", "Chun Wu", "Graham Hendra", "Patrick Walls"]
+        },
+        {
+          "session": "2021W",
+          "reported": 122,
+          "average": 74.8,
+          "grades": [6, 0, 0, 7, 6, 12, 21, 29, 26, 9, 0],
+          "instructors": ["Agnes D'Entremont", "Sheldon Green", "Robin Turner", "Jonathan Nakane", "Chun Wu", "Graham Hendra", "Patrick Walls"]
+        }
+      ]
+    },
+    "MECH 222": {
+      "reported": 668,
+      "average": 71.4,
+      "grades": [55, 6, 15, 43, 83, 86, 124, 86, 85, 26, 51],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 130,
+          "average": 72.1,
+          "grades": [7, 0, 1, 9, 16, 26, 25, 20, 12, 6, 8],
+          "instructors": []
+        },
+        {
+          "session": "2024W",
+          "reported": 134,
+          "average": 73.0,
+          "grades": [9, 1, 4, 6, 13, 15, 29, 20, 18, 5, 14],
+          "instructors": ["Graham Hendra", "Juan Abello Rubio", "Lindsey Daniels", "Sheldon Green"]
+        },
+        {
+          "session": "2023W",
+          "reported": 139,
+          "average": 71.3,
+          "grades": [9, 3, 4, 10, 22, 17, 22, 19, 20, 4, 8],
+          "instructors": ["Graham Hendra", "Juan Abello Rubio", "Lindsey Daniels", "Sheldon Green"]
+        },
+        {
+          "session": "2022W",
+          "reported": 135,
+          "average": 72.1,
+          "grades": [15, 2, 6, 8, 12, 10, 22, 17, 20, 11, 12],
+          "instructors": ["Juan Abello Rubio", "Lindsey Daniels", "Sheldon Green", "Graham Hendra", "Patrick Walls"]
+        },
+        {
+          "session": "2021W",
+          "reported": 130,
+          "average": 68.7,
+          "grades": [15, 0, 0, 10, 20, 18, 26, 10, 15, 0, 9],
+          "instructors": ["Graham Hendra", "Juan Abello Rubio", "Patrick Walls", "Sheldon Green"]
+        }
+      ]
+    },
+    "MECH 223": {
+      "reported": 635,
+      "average": 76.2,
+      "grades": [10, 5, 8, 12, 35, 70, 98, 143, 147, 71, 25],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 130,
+          "average": 77.8,
+          "grades": [0, 1, 3, 2, 8, 10, 13, 29, 39, 21, 4],
+          "instructors": []
+        },
+        {
+          "session": "2024W",
+          "reported": 132,
+          "average": 77.4,
+          "grades": [5, 2, 1, 2, 7, 8, 20, 21, 33, 24, 9],
+          "instructors": ["Markus Fengler", "George Rawlings"]
+        },
+        {
+          "session": "2023W",
+          "reported": 126,
+          "average": 75.2,
+          "grades": [5, 2, 4, 6, 7, 11, 12, 26, 31, 14, 8],
+          "instructors": ["Markus Fengler", "George Rawlings"]
+        },
+        {
+          "session": "2022W",
+          "reported": 124,
+          "average": 77.1,
+          "grades": [0, 0, 0, 2, 7, 17, 18, 34, 30, 12, 4],
+          "instructors": ["Markus Fengler", "Jonathan Nakane", "Ahmad Mohammadpanah Foroutaghe", "Nima Atabaki"]
+        },
+        {
+          "session": "2021W",
+          "reported": 123,
+          "average": 73.2,
+          "grades": [0, 0, 0, 0, 6, 24, 35, 33, 14, 0, 0],
+          "instructors": ["Markus Fengler", "Vladan Prodanovic", "Ahmad Mohammadpanah Foroutaghe", "Nima Atabaki"]
+        }
+      ]
+    },
+    "MECH 224": {
+      "reported": 658,
+      "average": 74.4,
+      "grades": [53, 1, 2, 15, 38, 66, 96, 144, 137, 58, 29],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 127,
+          "average": 74.6,
+          "grades": [10, 0, 0, 0, 7, 21, 21, 28, 21, 14, 5],
+          "instructors": []
+        },
+        {
+          "session": "2024W",
+          "reported": 137,
+          "average": 75.7,
+          "grades": [5, 1, 0, 3, 11, 13, 19, 39, 34, 8, 4],
+          "instructors": ["Mohammed Hannan", "Jesus Calvino-Fraga", "Lindsey Daniels", "Jonathan Nakane", "Chun Wu", "Graham Hendra"]
+        },
+        {
+          "session": "2023W",
+          "reported": 138,
+          "average": 73.3,
+          "grades": [14, 0, 1, 5, 14, 11, 16, 23, 29, 18, 7],
+          "instructors": ["Graham Hendra"]
+        },
+        {
+          "session": "2023S",
+          "reported": 7,
+          "average": 69.0,
+          "grades": [0, 0, 0, 4, 1, 0, 0, 1, 0, 0, 1],
+          "instructors": []
+        },
+        {
+          "session": "2022W",
+          "reported": 127,
+          "average": 75.1,
+          "grades": [12, 0, 1, 3, 5, 13, 19, 24, 27, 11, 12],
+          "instructors": ["Graham Hendra"]
+        },
+        {
+          "session": "2021W",
+          "reported": 122,
+          "average": 73.6,
+          "grades": [12, 0, 0, 0, 0, 8, 21, 29, 26, 7, 0],
+          "instructors": ["Graham Hendra"]
+        }
+      ]
+    },
+    "MECH 225": {
+      "reported": 674,
+      "average": 70.4,
+      "grades": [86, 1, 6, 31, 81, 86, 124, 82, 80, 26, 48],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 130,
+          "average": 71.5,
+          "grades": [12, 0, 0, 5, 16, 26, 25, 20, 12, 6, 8],
+          "instructors": []
+        },
+        {
+          "session": "2024W",
+          "reported": 134,
+          "average": 72.6,
+          "grades": [13, 0, 2, 5, 13, 15, 29, 20, 18, 5, 14],
+          "instructors": ["Graham Hendra", "Juan Abello Rubio", "Lindsey Daniels", "Sheldon Green"]
+        },
+        {
+          "session": "2023W",
+          "reported": 139,
+          "average": 70.5,
+          "grades": [17, 0, 2, 8, 21, 17, 22, 19, 20, 4, 8],
+          "instructors": ["Graham Hendra"]
+        },
+        {
+          "session": "2022W",
+          "reported": 141,
+          "average": 69.8,
+          "grades": [27, 1, 2, 7, 12, 10, 22, 17, 20, 11, 12],
+          "instructors": ["Graham Hendra"]
+        },
+        {
+          "session": "2021W",
+          "reported": 130,
+          "average": 67.3,
+          "grades": [17, 0, 0, 6, 19, 18, 26, 6, 10, 0, 6],
+          "instructors": ["Graham Hendra"]
+        }
+      ]
+    },
+    "MECH 226": {
+      "reported": 593,
+      "average": 78.9,
+      "grades": [2, 0, 0, 0, 1, 25, 83, 190, 241, 40, 3],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 124,
+          "average": 79.4,
+          "grades": [1, 0, 0, 0, 0, 5, 15, 37, 50, 14, 2],
+          "instructors": ["Adrianna Eyking"]
+        },
+        {
+          "session": "2024W",
+          "reported": 122,
+          "average": 79.2,
+          "grades": [0, 0, 0, 0, 0, 1, 14, 58, 42, 6, 1],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "reported": 121,
+          "average": 79.2,
+          "grades": [0, 0, 0, 0, 1, 4, 16, 34, 57, 9, 0],
+          "instructors": ["Tatiana Teslenko", "Adrianna Eyking"]
+        },
+        {
+          "session": "2022W",
+          "reported": 117,
+          "average": 79.4,
+          "grades": [1, 0, 0, 0, 0, 4, 14, 30, 57, 11, 0],
+          "instructors": ["Tatiana Teslenko", "Adrianna Eyking"]
+        },
+        {
+          "session": "2021W",
+          "reported": 109,
+          "average": 77.0,
+          "grades": [0, 0, 0, 0, 0, 11, 24, 31, 35, 0, 0],
+          "instructors": ["Tatiana Teslenko", "Adrianna Eyking"]
+        }
+      ]
+    },
+    "MECH 227": {
+      "reported": 32,
+      "average": 74.7,
+      "grades": [0, 0, 0, 1, 1, 5, 4, 4, 7, 1, 0],
+      "terms": [
+        {
+          "session": "2024S",
+          "reported": 8,
+          "average": 75.6,
+          "grades": [0, 0, 0, 1, 1, 1, 0, 0, 4, 1, 0],
+          "instructors": ["Tatiana Teslenko"]
+        },
+        {
+          "session": "2023S",
+          "reported": 6,
+          "average": 76.5,
+          "grades": [0, 0, 0, 0, 0, 0, 3, 1, 2, 0, 0],
+          "instructors": ["Tatiana Teslenko"]
+        },
+        {
+          "session": "2022S",
+          "reported": 9,
+          "average": 74.3,
+          "grades": [0, 0, 0, 0, 0, 4, 1, 3, 1, 0, 0],
+          "instructors": ["Tatiana Teslenko"]
+        },
+        {
+          "session": "2021S",
+          "reported": 9,
+          "average": 73.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Tatiana Teslenko"]
+        }
+      ]
+    },
+    "MECH 231": {
+      "reported": 122,
+      "average": 81.0,
+      "grades": [0, 0, 0, 1, 0, 3, 0, 10, 19, 19, 9],
+      "terms": [
+        {
+          "session": "2022S",
+          "reported": 48,
+          "average": 84.1,
+          "grades": [0, 0, 0, 1, 0, 3, 0, 4, 12, 19, 9],
+          "instructors": ["Markus Fengler", "Graham Hendra"]
+        },
+        {
+          "session": "2021S",
+          "reported": 74,
+          "average": 78.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 6, 7, 0, 0],
+          "instructors": ["Markus Fengler", "Graham Hendra"]
+        }
+      ]
+    },
+    "MECH 260": {
+      "reported": 1445,
+      "average": 70.1,
+      "grades": [152, 38, 94, 109, 139, 145, 129, 134, 195, 123, 147],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 260,
+          "average": 65.9,
+          "grades": [34, 9, 26, 33, 33, 26, 28, 23, 22, 11, 15],
+          "instructors": ["Graham Hendra"]
+        },
+        {
+          "session": "2024W",
+          "reported": 316,
+          "average": 70.6,
+          "grades": [34, 13, 17, 27, 25, 36, 24, 23, 40, 33, 44],
+          "instructors": ["Jasmin Jelovica", "Ahmad Mohammadpanah Foroutaghe", "Graham Hendra"]
+        },
+        {
+          "session": "2023W",
+          "reported": 299,
+          "average": 69.6,
+          "grades": [35, 6, 19, 18, 30, 36, 35, 32, 41, 11, 29],
+          "instructors": ["Jasmin Jelovica", "Mauricio Ponga de la Torre", "Graham Hendra"]
+        },
+        {
+          "session": "2022W",
+          "reported": 288,
+          "average": 71.0,
+          "grades": [20, 10, 19, 25, 33, 27, 34, 37, 36, 30, 17],
+          "instructors": ["Jasmin Jelovica", "Mauricio Ponga de la Torre", "Graham Hendra"]
+        },
+        {
+          "session": "2021W",
+          "reported": 282,
+          "average": 73.2,
+          "grades": [29, 0, 13, 6, 18, 20, 8, 19, 56, 38, 42],
+          "instructors": ["Mauricio Ponga De La Torre", "Jasmin Jelovica", "Graham Hendra"]
+        }
+      ]
+    },
+    "MECH 280": {
+      "reported": 284,
+      "average": 73.9,
+      "grades": [8, 10, 14, 16, 28, 22, 35, 29, 41, 45, 18],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 57,
+          "average": 73.9,
+          "grades": [3, 2, 4, 3, 3, 6, 10, 4, 6, 10, 6],
+          "instructors": ["Nima Atabaki"]
+        },
+        {
+          "session": "2024W",
+          "reported": 63,
+          "average": 71.3,
+          "grades": [2, 3, 4, 6, 10, 7, 10, 4, 4, 10, 3],
+          "instructors": ["Nima Atabaki"]
+        },
+        {
+          "session": "2023W",
+          "reported": 65,
+          "average": 77.2,
+          "grades": [1, 2, 4, 3, 5, 4, 3, 9, 14, 12, 8],
+          "instructors": ["Rajeev Jaiman"]
+        },
+        {
+          "session": "2022W",
+          "reported": 45,
+          "average": 69.5,
+          "grades": [2, 3, 2, 4, 10, 5, 6, 5, 4, 3, 1],
+          "instructors": ["Ian Frigaard"]
+        },
+        {
+          "session": "2021W",
+          "reported": 54,
+          "average": 76.6,
+          "grades": [0, 0, 0, 0, 0, 0, 6, 7, 13, 10, 0],
+          "instructors": ["Ian Frigaard"]
+        }
+      ]
+    },
+    "MECH 305": {
+      "reported": 487,
+      "average": 74.6,
+      "grades": [9, 1, 5, 21, 36, 66, 102, 92, 102, 26, 14],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 93,
+          "average": 77.3,
+          "grades": [0, 0, 0, 2, 5, 9, 19, 20, 31, 2, 5],
+          "instructors": ["Mohammed Hannan", "Steven Rogak"]
+        },
+        {
+          "session": "2024W",
+          "reported": 96,
+          "average": 77.9,
+          "grades": [1, 0, 0, 1, 6, 6, 17, 22, 29, 10, 4],
+          "instructors": ["Mohammed Hannan", "Steven Rogak"]
+        },
+        {
+          "session": "2023W",
+          "reported": 111,
+          "average": 71.3,
+          "grades": [3, 1, 3, 8, 14, 24, 24, 20, 8, 1, 2],
+          "instructors": ["Steven Rogak", "Agnes D'Entremont"]
+        },
+        {
+          "session": "2022W",
+          "reported": 101,
+          "average": 75.0,
+          "grades": [5, 0, 2, 2, 2, 14, 24, 16, 26, 7, 3],
+          "instructors": ["Steven Rogak", "Agnes D'Entremont"]
+        },
+        {
+          "session": "2021W",
+          "reported": 86,
+          "average": 71.6,
+          "grades": [0, 0, 0, 8, 9, 13, 18, 14, 8, 6, 0],
+          "instructors": ["Steven Rogak", "Ahmad Mohammadpanah Foroutaghe"]
+        }
+      ]
+    },
+    "MECH 306": {
+      "reported": 151,
+      "average": 81.8,
+      "grades": [0, 0, 0, 0, 1, 11, 12, 30, 43, 24, 26],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 31,
+          "average": 84.2,
+          "grades": [0, 0, 0, 0, 0, 1, 2, 4, 12, 4, 8],
+          "instructors": ["Mohammed Hannan", "Steven Rogak"]
+        },
+        {
+          "session": "2024W",
+          "reported": 32,
+          "average": 83.7,
+          "grades": [0, 0, 0, 0, 0, 1, 1, 9, 7, 4, 10],
+          "instructors": ["Mohammed Hannan", "Steven Rogak"]
+        },
+        {
+          "session": "2023W",
+          "reported": 24,
+          "average": 82.3,
+          "grades": [0, 0, 0, 0, 0, 1, 3, 5, 7, 3, 5],
+          "instructors": ["Steven Rogak", "Agnes D'Entremont"]
+        },
+        {
+          "session": "2022W",
+          "reported": 27,
+          "average": 82.1,
+          "grades": [0, 0, 0, 0, 1, 2, 0, 6, 8, 7, 3],
+          "instructors": ["Steven Rogak", "Agnes D'Entremont"]
+        },
+        {
+          "session": "2021W",
+          "reported": 37,
+          "average": 77.5,
+          "grades": [0, 0, 0, 0, 0, 6, 6, 6, 9, 6, 0],
+          "instructors": ["Steven Rogak", "Ahmad Mohammadpanah Foroutaghe"]
+        }
+      ]
+    },
+    "MECH 325": {
+      "reported": 1002,
+      "average": 77.7,
+      "grades": [16, 2, 9, 15, 48, 76, 149, 195, 245, 145, 75],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 221,
+          "average": 76.7,
+          "grades": [10, 1, 1, 5, 9, 21, 30, 49, 46, 31, 18],
+          "instructors": ["Jon Mikkelsen"]
+        },
+        {
+          "session": "2024W",
+          "reported": 210,
+          "average": 78.0,
+          "grades": [4, 0, 1, 2, 7, 20, 33, 54, 39, 32, 18],
+          "instructors": ["Jon Mikkelsen"]
+        },
+        {
+          "session": "2023W",
+          "reported": 215,
+          "average": 78.3,
+          "grades": [0, 1, 3, 3, 8, 18, 34, 35, 67, 25, 15],
+          "instructors": ["Jon Mikkelsen"]
+        },
+        {
+          "session": "2022W",
+          "reported": 182,
+          "average": 77.1,
+          "grades": [2, 0, 4, 5, 16, 10, 28, 33, 45, 24, 15],
+          "instructors": ["Jon Mikkelsen"]
+        },
+        {
+          "session": "2021W",
+          "reported": 174,
+          "average": 78.5,
+          "grades": [0, 0, 0, 0, 8, 7, 24, 24, 48, 33, 9],
+          "instructors": ["Jon Mikkelsen"]
+        }
+      ]
+    },
+    "MECH 327": {
+      "reported": 342,
+      "average": 76.7,
+      "grades": [6, 2, 10, 12, 35, 32, 38, 51, 58, 56, 31],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 59,
+          "average": 80.5,
+          "grades": [0, 0, 1, 2, 6, 5, 5, 5, 10, 11, 14],
+          "instructors": ["Patrick Kirchen"]
+        },
+        {
+          "session": "2024W",
+          "reported": 57,
+          "average": 77.0,
+          "grades": [1, 0, 2, 2, 7, 6, 5, 11, 9, 7, 7],
+          "instructors": ["Patrick Kirchen"]
+        },
+        {
+          "session": "2023W",
+          "reported": 59,
+          "average": 77.2,
+          "grades": [2, 2, 1, 3, 2, 5, 6, 8, 12, 13, 5],
+          "instructors": ["Patrick Kirchen"]
+        },
+        {
+          "session": "2022W",
+          "reported": 89,
+          "average": 75.5,
+          "grades": [3, 0, 0, 5, 10, 9, 12, 13, 19, 13, 5],
+          "instructors": ["Patrick Kirchen"]
+        },
+        {
+          "session": "2021W",
+          "reported": 78,
+          "average": 74.4,
+          "grades": [0, 0, 6, 0, 10, 7, 10, 14, 8, 12, 0],
+          "instructors": ["Patrick Kirchen"]
+        }
+      ]
+    },
+    "MECH 328": {
+      "reported": 664,
+      "average": 77.9,
+      "grades": [3, 3, 2, 2, 16, 46, 121, 173, 174, 79, 34],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 148,
+          "average": 77.2,
+          "grades": [2, 0, 0, 1, 5, 13, 31, 34, 34, 23, 5],
+          "instructors": ["Markus Fengler", "Peter Ostafichuk"]
+        },
+        {
+          "session": "2024W",
+          "reported": 137,
+          "average": 77.7,
+          "grades": [0, 1, 0, 0, 4, 10, 25, 41, 43, 10, 3],
+          "instructors": ["Markus Fengler", "Peter Ostafichuk"]
+        },
+        {
+          "session": "2023W",
+          "reported": 134,
+          "average": 77.2,
+          "grades": [0, 2, 2, 0, 4, 9, 23, 41, 33, 14, 5],
+          "instructors": ["Markus Fengler", "Peter Ostafichuk"]
+        },
+        {
+          "session": "2022W",
+          "reported": 125,
+          "average": 77.4,
+          "grades": [1, 0, 0, 1, 3, 14, 26, 29, 29, 15, 7],
+          "instructors": ["Markus Fengler", "Peter Ostafichuk"]
+        },
+        {
+          "session": "2021W",
+          "reported": 120,
+          "average": 80.0,
+          "grades": [0, 0, 0, 0, 0, 0, 16, 28, 35, 17, 14],
+          "instructors": ["Peter Ostafichuk", "Sheldon Green", "Markus Fengler", "Ali Ergudenler", "Paul Winkelman"]
+        }
+      ]
+    },
+    "MECH 329": {
+      "reported": 121,
+      "average": 73.2,
+      "grades": [3, 2, 4, 10, 12, 14, 16, 21, 15, 15, 3],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 12,
+          "average": 80.2,
+          "grades": [0, 1, 0, 0, 1, 0, 0, 0, 5, 3, 2],
+          "instructors": ["Mattia Bacca"]
+        },
+        {
+          "session": "2022W",
+          "reported": 34,
+          "average": 69.5,
+          "grades": [3, 1, 4, 4, 0, 7, 4, 4, 2, 4, 1],
+          "instructors": ["Mattia Bacca"]
+        },
+        {
+          "session": "2021W",
+          "reported": 75,
+          "average": 73.7,
+          "grades": [0, 0, 0, 6, 11, 7, 12, 17, 8, 8, 0],
+          "instructors": ["Mattia Bacca"]
+        }
+      ]
+    },
+    "MECH 358": {
+      "reported": 142,
+      "average": 70.1,
+      "grades": [13, 6, 9, 8, 18, 14, 20, 15, 10, 10, 19],
+      "terms": [
+        {
+          "session": "2022W",
+          "reported": 50,
+          "average": 73.1,
+          "grades": [5, 1, 1, 2, 5, 5, 6, 9, 3, 3, 10],
+          "instructors": ["Gwynn Elfring"]
+        },
+        {
+          "session": "2021W",
+          "reported": 92,
+          "average": 68.5,
+          "grades": [8, 5, 8, 6, 13, 9, 14, 6, 7, 7, 9],
+          "instructors": ["Gwynn Elfring"]
+        }
+      ]
+    },
+    "MECH 359": {
+      "reported": 148,
+      "average": 78.6,
+      "grades": [7, 0, 3, 9, 9, 11, 10, 10, 24, 25, 39],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 62,
+          "average": 75.8,
+          "grades": [6, 0, 0, 5, 4, 7, 5, 3, 7, 8, 17],
+          "instructors": ["Gwynn Elfring"]
+        },
+        {
+          "session": "2024W",
+          "reported": 42,
+          "average": 82.3,
+          "grades": [1, 0, 1, 1, 1, 1, 3, 4, 6, 11, 13],
+          "instructors": ["Gwynn Elfring"]
+        },
+        {
+          "session": "2023W",
+          "reported": 44,
+          "average": 78.9,
+          "grades": [0, 0, 2, 3, 4, 3, 2, 3, 11, 6, 9],
+          "instructors": ["Gwynn Elfring"]
+        }
+      ]
+    },
+    "MECH 360": {
+      "reported": 1453,
+      "average": 71.0,
+      "grades": [86, 113, 113, 112, 111, 150, 145, 97, 202, 122, 154],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 259,
+          "average": 69.2,
+          "grades": [22, 29, 19, 19, 20, 23, 21, 27, 31, 25, 23],
+          "instructors": ["Graham Hendra", "Srikantha Phani", "Mattia Bacca"]
+        },
+        {
+          "session": "2024W",
+          "reported": 276,
+          "average": 73.7,
+          "grades": [9, 15, 19, 18, 21, 31, 35, 22, 31, 38, 37],
+          "instructors": ["Gary Schajer", "Srikantha Anasavarapu", "Mattia Bacca"]
+        },
+        {
+          "session": "2023W",
+          "reported": 312,
+          "average": 72.3,
+          "grades": [3, 26, 27, 29, 28, 22, 35, 26, 47, 28, 33],
+          "instructors": ["Ahmad Mohammadpanah Foroutaghe", "Srikantha Anasavarapu"]
+        },
+        {
+          "session": "2022W",
+          "reported": 304,
+          "average": 71.4,
+          "grades": [20, 17, 22, 24, 23, 40, 26, 22, 54, 23, 33],
+          "instructors": ["Ahmad Mohammadpanah Foroutaghe", "Hossein Kheirollahi Nataj Bisheh", "Srikantha Anasavarapu"]
+        },
+        {
+          "session": "2021W",
+          "reported": 302,
+          "average": 68.1,
+          "grades": [32, 26, 26, 22, 19, 34, 28, 0, 39, 8, 28],
+          "instructors": ["Ahmad Mohammadpanah Foroutaghe", "Srikantha Anasavarapu"]
+        }
+      ]
+    },
+    "MECH 366": {
+      "reported": 148,
+      "average": 84.5,
+      "grades": [0, 0, 0, 0, 0, 1, 1, 19, 49, 41, 28],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 26,
+          "average": 83.2,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 5, 10, 5, 5],
+          "instructors": ["Christoph Sielmann"]
+        },
+        {
+          "session": "2024W",
+          "reported": 35,
+          "average": 85.6,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 3, 7, 17, 7],
+          "instructors": ["Christoph Sielmann"]
+        },
+        {
+          "session": "2023W",
+          "reported": 30,
+          "average": 83.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 8, 14, 3, 4],
+          "instructors": ["Christoph Sielmann"]
+        },
+        {
+          "session": "2022W",
+          "reported": 31,
+          "average": 86.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 3, 6, 10, 12],
+          "instructors": ["Christoph Sielmann"]
+        },
+        {
+          "session": "2021W",
+          "reported": 26,
+          "average": 83.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 12, 6, 0],
+          "instructors": ["Ryozo Nagamune"]
+        }
+      ]
+    },
+    "MECH 368": {
+      "reported": 717,
+      "average": 76.4,
+      "grades": [31, 14, 23, 25, 41, 60, 57, 72, 139, 102, 121],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 176,
+          "average": 75.2,
+          "grades": [2, 7, 11, 9, 12, 24, 16, 24, 32, 16, 23],
+          "instructors": ["Mu Chiao", "Chao Liu"]
+        },
+        {
+          "session": "2024W",
+          "reported": 154,
+          "average": 77.7,
+          "grades": [8, 3, 3, 6, 3, 10, 16, 19, 36, 25, 25],
+          "instructors": ["Hongshen Ma", "Mu Chiao"]
+        },
+        {
+          "session": "2023W",
+          "reported": 149,
+          "average": 78.7,
+          "grades": [4, 3, 4, 6, 10, 12, 9, 5, 28, 32, 30],
+          "instructors": ["Hongshen Ma", "Mu Chiao"]
+        },
+        {
+          "session": "2022W",
+          "reported": 127,
+          "average": 77.5,
+          "grades": [5, 1, 5, 4, 10, 8, 9, 14, 29, 20, 22],
+          "instructors": ["Hongshen Ma", "Mu Chiao"]
+        },
+        {
+          "session": "2021W",
+          "reported": 111,
+          "average": 72.4,
+          "grades": [12, 0, 0, 0, 6, 6, 7, 10, 14, 9, 21],
+          "instructors": ["Hongshen Ma", "Mu Chiao"]
+        }
+      ]
+    },
+    "MECH 375": {
+      "reported": 938,
+      "average": 72.7,
+      "grades": [63, 35, 29, 72, 82, 94, 91, 108, 123, 86, 126],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 195,
+          "average": 72.5,
+          "grades": [14, 9, 11, 19, 19, 13, 16, 13, 23, 22, 36],
+          "instructors": ["Gwynn Elfring", "William Kendal Bushe"]
+        },
+        {
+          "session": "2024W",
+          "reported": 195,
+          "average": 72.2,
+          "grades": [10, 14, 9, 17, 14, 24, 26, 20, 26, 14, 21],
+          "instructors": ["Graham Hendra", "William Kendal Bushe"]
+        },
+        {
+          "session": "2023W",
+          "reported": 203,
+          "average": 74.0,
+          "grades": [16, 3, 6, 18, 12, 18, 19, 30, 32, 19, 28],
+          "instructors": ["Graham Hendra", "William Kendal Bushe"]
+        },
+        {
+          "session": "2022W",
+          "reported": 183,
+          "average": 70.3,
+          "grades": [16, 9, 3, 12, 23, 28, 21, 24, 19, 14, 14],
+          "instructors": ["Graham Hendra", "William Kendal Bushe"]
+        },
+        {
+          "session": "2021W",
+          "reported": 162,
+          "average": 74.4,
+          "grades": [7, 0, 0, 6, 14, 11, 9, 21, 23, 17, 27],
+          "instructors": ["Graham Hendra", "William Kendal Bushe"]
+        }
+      ]
+    },
+    "MECH 380": {
+      "reported": 481,
+      "average": 74.9,
+      "grades": [15, 3, 13, 30, 32, 65, 62, 72, 95, 46, 39],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 85,
+          "average": 74.1,
+          "grades": [3, 2, 7, 4, 9, 11, 7, 6, 18, 6, 12],
+          "instructors": ["Dana Grecov"]
+        },
+        {
+          "session": "2024W",
+          "reported": 88,
+          "average": 76.8,
+          "grades": [0, 1, 4, 5, 5, 13, 8, 15, 19, 9, 9],
+          "instructors": ["Dana Grecov"]
+        },
+        {
+          "session": "2023W",
+          "reported": 110,
+          "average": 75.6,
+          "grades": [3, 0, 1, 12, 4, 11, 19, 17, 20, 13, 8],
+          "instructors": ["Dana Grecov"]
+        },
+        {
+          "session": "2022W",
+          "reported": 96,
+          "average": 74.5,
+          "grades": [3, 0, 1, 9, 4, 13, 15, 18, 21, 9, 3],
+          "instructors": ["Rajeev Jaiman"]
+        },
+        {
+          "session": "2021W",
+          "reported": 102,
+          "average": 73.4,
+          "grades": [6, 0, 0, 0, 10, 17, 13, 16, 17, 9, 7],
+          "instructors": ["Rajeev Jaiman"]
+        }
+      ]
+    },
+    "MECH 386": {
+      "reported": 50,
+      "average": 84.4,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 4, 16, 10, 8],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 23,
+          "average": 84.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 4, 7, 8, 4],
+          "instructors": ["Babak Soltannia"]
+        },
+        {
+          "session": "2022W",
+          "reported": 6,
+          "average": 93.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 4],
+          "instructors": ["Mehdi Jahandardoost"]
+        },
+        {
+          "session": "2021W",
+          "reported": 21,
+          "average": 82.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 9, 0, 0],
+          "instructors": ["Dana Grecov"]
+        }
+      ]
+    },
+    "MECH 392": {
+      "reported": 429,
+      "average": 76.0,
+      "grades": [0, 3, 11, 21, 19, 50, 60, 86, 132, 22, 19],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 71,
+          "average": 78.3,
+          "grades": [0, 0, 0, 3, 2, 6, 11, 16, 23, 5, 5],
+          "instructors": ["Mohammed Hannan"]
+        },
+        {
+          "session": "2024W",
+          "reported": 87,
+          "average": 79.3,
+          "grades": [0, 0, 0, 0, 0, 4, 7, 25, 47, 3, 1],
+          "instructors": ["Ahmad Mohammadpanah Foroutaghe"]
+        },
+        {
+          "session": "2023W",
+          "reported": 77,
+          "average": 74.6,
+          "grades": [0, 2, 1, 5, 4, 13, 13, 11, 19, 5, 3],
+          "instructors": ["Ahmad Mohammadpanah Foroutaghe"]
+        },
+        {
+          "session": "2022W",
+          "reported": 95,
+          "average": 76.9,
+          "grades": [0, 1, 3, 5, 3, 11, 14, 13, 26, 9, 10],
+          "instructors": ["Ahmad Mohammadpanah Foroutaghe"]
+        },
+        {
+          "session": "2021W",
+          "reported": 99,
+          "average": 71.6,
+          "grades": [0, 0, 7, 8, 10, 16, 15, 21, 17, 0, 0],
+          "instructors": ["Ahmad Mohammadpanah Foroutaghe"]
+        }
+      ]
+    },
+    "MECH 400": {
+      "reported": 472,
+      "average": 80.7,
+      "grades": [2, 3, 4, 7, 11, 31, 39, 69, 142, 123, 41],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 164,
+          "average": 81.0,
+          "grades": [0, 1, 1, 2, 3, 9, 14, 20, 61, 42, 11],
+          "instructors": ["Christoph Sielmann"]
+        },
+        {
+          "session": "2024W",
+          "reported": 178,
+          "average": 80.8,
+          "grades": [1, 1, 1, 4, 5, 8, 16, 30, 46, 49, 17],
+          "instructors": ["Christoph Sielmann"]
+        },
+        {
+          "session": "2023W",
+          "reported": 86,
+          "average": 79.8,
+          "grades": [0, 1, 1, 1, 3, 10, 7, 11, 25, 21, 6],
+          "instructors": ["Christoph Sielmann"]
+        },
+        {
+          "session": "2022W",
+          "reported": 44,
+          "average": 80.7,
+          "grades": [1, 0, 1, 0, 0, 4, 2, 8, 10, 11, 7],
+          "instructors": ["Christoph Sielmann"]
+        }
+      ]
+    },
+    "MECH 410": {
+      "reported": 259,
+      "average": 80.9,
+      "grades": [1, 2, 1, 10, 3, 10, 9, 23, 54, 41, 55],
+      "terms": [
+        {
+          "session": "2025W",
+          "topic": "H",
+          "title": "Principles of Mechatronics  Instrumentation",
+          "reported": 11,
+          "average": 74.7,
+          "grades": [0, 1, 0, 0, 0, 3, 1, 2, 3, 1, 0],
+          "instructors": ["Christoph Sielmann"]
+        },
+        {
+          "session": "2024W",
+          "topic": "D",
+          "title": "ENGINERNG DYNMC",
+          "reported": 11,
+          "average": 73.1,
+          "grades": [1, 1, 0, 1, 0, 2, 1, 1, 0, 0, 4],
+          "instructors": ["Srikantha Anasavarapu"]
+        },
+        {
+          "session": "2024W",
+          "topic": "Q",
+          "title": "Introduction to Optimization for Engineers",
+          "reported": 10,
+          "average": 77.2,
+          "grades": [0, 0, 0, 0, 2, 2, 0, 0, 5, 0, 1],
+          "instructors": ["Dominic Liao-McPherson"]
+        },
+        {
+          "session": "2023W",
+          "topic": "D",
+          "title": "Special Topics in Mechanical Engineering",
+          "reported": 15,
+          "average": 81.5,
+          "grades": [0, 0, 1, 0, 0, 1, 2, 2, 1, 3, 4],
+          "instructors": ["Srikantha Anasavarapu"]
+        },
+        {
+          "session": "2023S",
+          "topic": "T",
+          "title": "Special Topics in Mechanical Engineering",
+          "reported": 46,
+          "average": 89.1,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 3, 5, 9, 27],
+          "instructors": ["Katherina Tarnai-Lokhorst"]
+        },
+        {
+          "session": "2022W",
+          "topic": "D",
+          "title": "Special Topics in Mechanical Engineering",
+          "reported": 12,
+          "average": 74.8,
+          "grades": [0, 0, 0, 2, 1, 1, 3, 1, 1, 3, 0],
+          "instructors": ["Srikantha Anasavarapu"]
+        },
+        {
+          "session": "2022S",
+          "topic": "T",
+          "title": "Special Topics in Mechanical Engineering",
+          "reported": 38,
+          "average": 85.9,
+          "grades": [0, 0, 0, 0, 0, 0, 2, 3, 9, 11, 13],
+          "instructors": ["Katherina Tarnai-Lokhorst"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Special Topics in Mechanical Engineering",
+          "reported": 8,
+          "average": 82.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Barbara Dalpke"]
+        },
+        {
+          "session": "2021W",
+          "topic": "D",
+          "title": "Special Topics in Mechanical Engineering",
+          "reported": 8,
+          "average": 72.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Srikantha Anasavarapu"]
+        },
+        {
+          "session": "2021W",
+          "topic": "L",
+          "title": "Special Topics in Mechanical Engineering",
+          "reported": 7,
+          "average": 85.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["William Kendal Bushe"]
+        },
+        {
+          "session": "2021W",
+          "topic": "U",
+          "title": "Special Topics in Mechanical Engineering",
+          "reported": 42,
+          "average": 78.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 11, 11, 8, 0],
+          "instructors": ["Naomi Zimmerman"]
+        },
+        {
+          "session": "2021S",
+          "topic": "T",
+          "title": "Special Topics in Mechanical Engineering",
+          "reported": 51,
+          "average": 77.6,
+          "grades": [0, 0, 0, 7, 0, 0, 0, 0, 19, 6, 6],
+          "instructors": ["Katherina Tarnai-Lokhorst"]
+        }
+      ]
+    },
+    "MECH 411": {
+      "reported": 68,
+      "average": 82.1,
+      "grades": [1, 0, 1, 1, 2, 2, 1, 7, 22, 16, 12],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 25,
+          "average": 82.8,
+          "grades": [0, 0, 1, 1, 1, 0, 0, 0, 9, 7, 6],
+          "instructors": ["Naomi Zimmerman"]
+        },
+        {
+          "session": "2024W",
+          "reported": 23,
+          "average": 81.9,
+          "grades": [1, 0, 0, 0, 0, 1, 1, 4, 5, 6, 5],
+          "instructors": ["Naomi Zimmerman"]
+        },
+        {
+          "session": "2023W",
+          "reported": 20,
+          "average": 81.3,
+          "grades": [0, 0, 0, 0, 1, 1, 0, 3, 8, 3, 1],
+          "instructors": ["Naomi Zimmerman"]
+        }
+      ]
+    },
+    "MECH 412": {
+      "reported": 87,
+      "average": 82.0,
+      "grades": [1, 0, 1, 2, 1, 3, 5, 11, 21, 31, 11],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 11,
+          "average": 78.9,
+          "grades": [0, 0, 1, 0, 0, 1, 1, 1, 4, 2, 1],
+          "instructors": ["Alex Tavasoli"]
+        },
+        {
+          "session": "2025S",
+          "reported": 48,
+          "average": 83.1,
+          "grades": [1, 0, 0, 0, 1, 1, 3, 6, 9, 18, 9],
+          "instructors": ["Alex Tavasoli"]
+        },
+        {
+          "session": "2024S",
+          "reported": 28,
+          "average": 81.3,
+          "grades": [0, 0, 0, 2, 0, 1, 1, 4, 8, 11, 1],
+          "instructors": []
+        }
+      ]
+    },
+    "MECH 420": {
+      "reported": 164,
+      "average": 79.2,
+      "grades": [2, 1, 2, 5, 10, 14, 5, 22, 39, 22, 29],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 31,
+          "average": 80.2,
+          "grades": [1, 0, 0, 0, 3, 2, 1, 5, 10, 5, 4],
+          "instructors": ["Boris Stoeber"]
+        },
+        {
+          "session": "2024W",
+          "reported": 32,
+          "average": 80.1,
+          "grades": [0, 0, 1, 2, 2, 2, 2, 4, 10, 4, 5],
+          "instructors": ["Boris Stoeber"]
+        },
+        {
+          "session": "2023W",
+          "reported": 34,
+          "average": 79.3,
+          "grades": [0, 1, 1, 1, 2, 7, 0, 3, 6, 6, 7],
+          "instructors": ["Boris Stoeber"]
+        },
+        {
+          "session": "2022W",
+          "reported": 34,
+          "average": 79.4,
+          "grades": [1, 0, 0, 2, 3, 3, 2, 4, 5, 7, 7],
+          "instructors": ["Boris Stoeber"]
+        },
+        {
+          "session": "2021W",
+          "reported": 33,
+          "average": 77.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 6, 8, 0, 6],
+          "instructors": ["Boris Stoeber"]
+        }
+      ]
+    },
+    "MECH 421": {
+      "reported": 149,
+      "average": 85.7,
+      "grades": [0, 1, 1, 1, 1, 1, 5, 6, 35, 43, 47],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 25,
+          "average": 86.3,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 1, 8, 7, 8],
+          "instructors": ["Hongshen Ma"]
+        },
+        {
+          "session": "2024W",
+          "reported": 28,
+          "average": 85.9,
+          "grades": [0, 0, 0, 0, 1, 0, 0, 1, 10, 8, 8],
+          "instructors": ["Jian Gao"]
+        },
+        {
+          "session": "2023W",
+          "reported": 35,
+          "average": 84.5,
+          "grades": [0, 0, 0, 1, 0, 1, 2, 4, 5, 15, 7],
+          "instructors": ["Jian Gao"]
+        },
+        {
+          "session": "2022W",
+          "reported": 31,
+          "average": 84.6,
+          "grades": [0, 1, 1, 0, 0, 0, 2, 0, 5, 13, 9],
+          "instructors": ["Jian Gao"]
+        },
+        {
+          "session": "2021W",
+          "reported": 30,
+          "average": 87.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 7, 0, 15],
+          "instructors": ["Minkyun Noh"]
+        }
+      ]
+    },
+    "MECH 422": {
+      "reported": 18,
+      "average": 82.2,
+      "grades": [0, 0, 0, 0, 1, 2, 1, 2, 5, 2, 5],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 11,
+          "average": 79.1,
+          "grades": [0, 0, 0, 0, 1, 2, 1, 2, 2, 1, 2],
+          "instructors": ["Mu Chiao"]
+        },
+        {
+          "session": "2024W",
+          "reported": 7,
+          "average": 87.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 3, 1, 3],
+          "instructors": ["Mu Chiao"]
+        }
+      ]
+    },
+    "MECH 423": {
+      "reported": 150,
+      "average": 84.9,
+      "grades": [0, 0, 0, 0, 0, 2, 11, 7, 47, 39, 41],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 24,
+          "average": 84.6,
+          "grades": [0, 0, 0, 0, 0, 1, 1, 1, 10, 4, 7],
+          "instructors": ["Hongshen Ma"]
+        },
+        {
+          "session": "2024W",
+          "reported": 29,
+          "average": 85.3,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 1, 10, 12, 5],
+          "instructors": ["Hongshen Ma"]
+        },
+        {
+          "session": "2023W",
+          "reported": 38,
+          "average": 84.7,
+          "grades": [0, 0, 0, 0, 0, 0, 3, 4, 11, 9, 11],
+          "instructors": ["Hongshen Ma"]
+        },
+        {
+          "session": "2022W",
+          "reported": 26,
+          "average": 84.9,
+          "grades": [0, 0, 0, 0, 0, 1, 6, 1, 3, 4, 11],
+          "instructors": ["Hongshen Ma"]
+        },
+        {
+          "session": "2021W",
+          "reported": 33,
+          "average": 84.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 13, 10, 7],
+          "instructors": ["Hongshen Ma"]
+        }
+      ]
+    },
+    "MECH 426": {
+      "reported": 318,
+      "average": 78.1,
+      "grades": [7, 3, 3, 9, 14, 22, 29, 65, 77, 50, 34],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 65,
+          "average": 80.5,
+          "grades": [1, 0, 1, 1, 1, 2, 11, 6, 17, 14, 11],
+          "instructors": ["Jon Mikkelsen"]
+        },
+        {
+          "session": "2024W",
+          "reported": 57,
+          "average": 78.0,
+          "grades": [0, 0, 1, 2, 2, 6, 7, 14, 14, 7, 4],
+          "instructors": ["Jack Chen"]
+        },
+        {
+          "session": "2023W",
+          "reported": 56,
+          "average": 80.8,
+          "grades": [0, 2, 1, 1, 2, 3, 2, 6, 17, 11, 11],
+          "instructors": ["Ahmad Mohammadpanah Foroutaghe"]
+        },
+        {
+          "session": "2022W",
+          "reported": 73,
+          "average": 77.2,
+          "grades": [0, 1, 0, 5, 2, 2, 9, 28, 16, 10, 0],
+          "instructors": ["Hossein Kheirollahi Nataj Bisheh"]
+        },
+        {
+          "session": "2021W",
+          "reported": 67,
+          "average": 74.6,
+          "grades": [6, 0, 0, 0, 7, 9, 0, 11, 13, 8, 8],
+          "instructors": ["Peter Ostafichuk"]
+        }
+      ]
+    },
+    "MECH 431": {
+      "reported": 889,
+      "average": 82.3,
+      "grades": [11, 5, 5, 10, 14, 25, 63, 98, 192, 207, 225],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 48,
+          "average": 79.3,
+          "grades": [1, 1, 2, 0, 3, 2, 5, 8, 7, 9, 10],
+          "instructors": ["Naomi Zimmerman"]
+        },
+        {
+          "session": "2025S",
+          "reported": 139,
+          "average": 84.0,
+          "grades": [0, 0, 0, 1, 3, 1, 7, 14, 33, 57, 23],
+          "instructors": ["Mohammed Hannan"]
+        },
+        {
+          "session": "2024W",
+          "reported": 50,
+          "average": 81.3,
+          "grades": [0, 0, 1, 1, 4, 1, 7, 6, 11, 8, 11],
+          "instructors": ["Naomi Zimmerman"]
+        },
+        {
+          "session": "2024S",
+          "reported": 127,
+          "average": 82.5,
+          "grades": [0, 0, 0, 0, 0, 5, 7, 20, 45, 35, 15],
+          "instructors": ["Mohammed Hannan"]
+        },
+        {
+          "session": "2023W",
+          "reported": 60,
+          "average": 79.3,
+          "grades": [3, 2, 0, 1, 1, 3, 5, 7, 16, 11, 11],
+          "instructors": ["Naomi Zimmerman"]
+        },
+        {
+          "session": "2023S",
+          "reported": 118,
+          "average": 92.2,
+          "grades": [0, 0, 1, 1, 0, 1, 0, 2, 6, 11, 96],
+          "instructors": ["Hossein Kheirollahi Nataj Bisheh"]
+        },
+        {
+          "session": "2022W",
+          "reported": 84,
+          "average": 77.7,
+          "grades": [6, 1, 1, 3, 1, 4, 10, 8, 21, 13, 16],
+          "instructors": ["Paul Winkelman"]
+        },
+        {
+          "session": "2022S",
+          "reported": 86,
+          "average": 82.5,
+          "grades": [1, 1, 0, 3, 2, 2, 8, 10, 21, 17, 21],
+          "instructors": ["Sahil Bhandari"]
+        },
+        {
+          "session": "2021W",
+          "reported": 59,
+          "average": 75.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 10, 11, 7, 8],
+          "instructors": ["Naomi Zimmerman"]
+        },
+        {
+          "session": "2021S",
+          "reported": 118,
+          "average": 80.0,
+          "grades": [0, 0, 0, 0, 0, 6, 14, 13, 21, 39, 14],
+          "instructors": ["Mark Hollett"]
+        }
+      ]
+    },
+    "MECH 433": {
+      "reported": 90,
+      "average": 80.4,
+      "grades": [0, 0, 0, 1, 5, 4, 8, 7, 21, 19, 4],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 15,
+          "average": 76.2,
+          "grades": [0, 0, 0, 0, 3, 0, 4, 2, 5, 0, 1],
+          "instructors": ["Dana Grecov"]
+        },
+        {
+          "session": "2024W",
+          "reported": 23,
+          "average": 84.7,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 1, 7, 13, 1],
+          "instructors": ["Babak Soltannia", "Seyedmohammadamin Arefi"]
+        },
+        {
+          "session": "2023W",
+          "reported": 14,
+          "average": 78.8,
+          "grades": [0, 0, 0, 0, 1, 2, 2, 1, 3, 3, 0],
+          "instructors": ["Dana Grecov"]
+        },
+        {
+          "session": "2022W",
+          "reported": 19,
+          "average": 79.6,
+          "grades": [0, 0, 0, 1, 1, 2, 1, 3, 6, 3, 2],
+          "instructors": ["Dana Grecov"]
+        },
+        {
+          "session": "2021W",
+          "reported": 19,
+          "average": 80.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Dana Grecov"]
+        }
+      ]
+    },
+    "MECH 435": {
+      "reported": 109,
+      "average": 78.3,
+      "grades": [0, 0, 2, 3, 6, 4, 9, 17, 25, 17, 6],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 18,
+          "average": 81.2,
+          "grades": [0, 0, 0, 0, 0, 0, 2, 4, 9, 3, 0],
+          "instructors": ["Thomas Oxland"]
+        },
+        {
+          "session": "2024W",
+          "reported": 18,
+          "average": 77.2,
+          "grades": [0, 0, 0, 2, 3, 1, 1, 2, 5, 1, 3],
+          "instructors": ["Antony Hodgson"]
+        },
+        {
+          "session": "2023W",
+          "reported": 26,
+          "average": 75.3,
+          "grades": [0, 0, 2, 1, 2, 1, 6, 4, 7, 3, 0],
+          "instructors": ["Thomas Oxland"]
+        },
+        {
+          "session": "2022W",
+          "reported": 27,
+          "average": 82.2,
+          "grades": [0, 0, 0, 0, 1, 2, 0, 7, 4, 10, 3],
+          "instructors": ["Agnes D'Entremont"]
+        },
+        {
+          "session": "2021W",
+          "reported": 20,
+          "average": 75.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Thomas Oxland"]
+        }
+      ]
+    },
+    "MECH 436": {
+      "reported": 264,
+      "average": 81.0,
+      "grades": [3, 3, 8, 3, 4, 16, 19, 29, 56, 59, 51],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 51,
+          "average": 82.3,
+          "grades": [0, 1, 1, 0, 1, 2, 3, 6, 14, 14, 9],
+          "instructors": ["Agnes d'Entremont"]
+        },
+        {
+          "session": "2024W",
+          "reported": 79,
+          "average": 78.0,
+          "grades": [2, 2, 6, 2, 2, 5, 7, 10, 16, 17, 10],
+          "instructors": ["Agnes d'Entremont"]
+        },
+        {
+          "session": "2023W",
+          "reported": 57,
+          "average": 80.9,
+          "grades": [1, 0, 0, 1, 1, 5, 6, 11, 11, 10, 11],
+          "instructors": ["Agnes D'Entremont"]
+        },
+        {
+          "session": "2022W",
+          "reported": 46,
+          "average": 82.8,
+          "grades": [0, 0, 1, 0, 0, 4, 3, 2, 15, 8, 13],
+          "instructors": ["Agnes D'Entremont"]
+        },
+        {
+          "session": "2021W",
+          "reported": 31,
+          "average": 83.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 8],
+          "instructors": ["Agnes D'Entremont"]
+        }
+      ]
+    },
+    "MECH 439": {
+      "reported": 38,
+      "average": 88.8,
+      "grades": [0, 0, 0, 0, 0, 1, 0, 1, 4, 10, 22],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 9,
+          "average": 86.9,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 0, 1, 3, 4],
+          "instructors": ["Jordan Broberg"]
+        },
+        {
+          "session": "2024W",
+          "reported": 6,
+          "average": 86.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 3],
+          "instructors": ["Antony Hodgson"]
+        },
+        {
+          "session": "2023W",
+          "reported": 8,
+          "average": 88.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 4],
+          "instructors": ["Hongshen Ma"]
+        },
+        {
+          "session": "2022W",
+          "reported": 15,
+          "average": 90.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 11],
+          "instructors": ["Chun Wu"]
+        }
+      ]
+    },
+    "MECH 445": {
+      "reported": 77,
+      "average": 81.6,
+      "grades": [0, 1, 0, 0, 0, 7, 5, 11, 12, 20, 11],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 10,
+          "average": 80.5,
+          "grades": [0, 0, 0, 0, 0, 2, 1, 1, 4, 0, 2],
+          "instructors": ["Vladan Prodanovic"]
+        },
+        {
+          "session": "2023W",
+          "reported": 26,
+          "average": 84.4,
+          "grades": [0, 0, 0, 0, 0, 1, 4, 3, 3, 9, 6],
+          "instructors": ["Siamak Najarian"]
+        },
+        {
+          "session": "2022W",
+          "reported": 23,
+          "average": 79.4,
+          "grades": [0, 1, 0, 0, 0, 4, 0, 7, 5, 3, 3],
+          "instructors": ["Siamak Najarian"]
+        },
+        {
+          "session": "2021W",
+          "reported": 18,
+          "average": 81.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 0],
+          "instructors": ["Siamak Najarian"]
+        }
+      ]
+    },
+    "MECH 453": {
+      "reported": 31,
+      "average": 84.0,
+      "grades": [0, 0, 0, 0, 0, 1, 1, 0, 15, 8, 6],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 17,
+          "average": 84.8,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 8, 2, 6],
+          "instructors": ["Carl Ollivier-Gooch", "Mehdi Hamidi", "Sheldon Green", "Bill Rawlings", "Nima Atabaki", "Markus Fengler", "Vladan Prodanovic", "Paul Winkelman"]
+        },
+        {
+          "session": "2023W",
+          "reported": 14,
+          "average": 83.0,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 0, 7, 6, 0],
+          "instructors": ["Mehdi Hamidi", "Wen Li", "George Rawlings", "Mu Chiao", "Markus Fengler", "Ali Ergudenler", "Vladan Prodanovic", "Paul Winkelman"]
+        }
+      ]
+    },
+    "MECH 454": {
+      "reported": 41,
+      "average": 84.8,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 3, 9, 17, 7],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 9,
+          "average": 84.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 0],
+          "instructors": ["Mehdi Hamidi", "Wen Li", "George Rawlings", "Mu Chiao", "Markus Fengler", "Ali Ergudenler", "Vladan Prodanovic", "Paul Winkelman"]
+        },
+        {
+          "session": "2022W",
+          "reported": 12,
+          "average": 83.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 3, 4, 4, 1],
+          "instructors": ["George Rawlings", "Hendrik van der Loos", "Mu Chiao", "Srikantha Anasavarapu", "Nima Atabaki", "Markus Fengler", "Vladan Prodanovic", "Antony Hodgson"]
+        },
+        {
+          "session": "2021W",
+          "reported": 20,
+          "average": 86.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 6],
+          "instructors": ["Peter Ostafichuk", "Mehdi Hamidi", "George Rawlings", "Antony Hodgson", "Nima Atabaki", "Markus Fengler", "Ali Ergudenler", "Hendrik Van Der Loos", "Paul Winkelman"]
+        }
+      ]
+    },
+    "MECH 457": {
+      "reported": 313,
+      "average": 82.0,
+      "grades": [0, 0, 0, 0, 2, 3, 10, 53, 129, 97, 13],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 67,
+          "average": 81.1,
+          "grades": [0, 0, 0, 0, 0, 1, 7, 14, 29, 14, 2],
+          "instructors": ["Carl Ollivier-Gooch", "Mehdi Hamidi", "Sheldon Green", "Bill Rawlings", "Nima Atabaki", "Markus Fengler", "Vladan Prodanovic", "Paul Winkelman"]
+        },
+        {
+          "session": "2024W",
+          "reported": 86,
+          "average": 82.1,
+          "grades": [0, 0, 0, 0, 0, 0, 2, 15, 40, 29, 0],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "reported": 54,
+          "average": 83.1,
+          "grades": [0, 0, 0, 0, 1, 0, 0, 1, 32, 19, 1],
+          "instructors": ["Mehdi Hamidi", "Wen Li", "George Rawlings", "Mu Chiao", "Markus Fengler", "Ali Ergudenler", "Vladan Prodanovic", "Paul Winkelman"]
+        },
+        {
+          "session": "2022W",
+          "reported": 46,
+          "average": 80.9,
+          "grades": [0, 0, 0, 0, 1, 2, 1, 16, 14, 9, 3],
+          "instructors": ["George Rawlings", "Hendrik van der Loos", "Mu Chiao", "Srikantha Anasavarapu", "Nima Atabaki", "Markus Fengler", "Vladan Prodanovic", "Antony Hodgson"]
+        },
+        {
+          "session": "2021W",
+          "reported": 60,
+          "average": 82.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 7, 14, 26, 7],
+          "instructors": ["Peter Ostafichuk", "Mehdi Hamidi", "George Rawlings", "Antony Hodgson", "Nima Atabaki", "Markus Fengler", "Ali Ergudenler", "Hendrik Van Der Loos", "Paul Winkelman"]
+        }
+      ]
+    },
+    "MECH 458": {
+      "reported": 136,
+      "average": 83.3,
+      "grades": [0, 0, 0, 0, 0, 0, 4, 14, 58, 38, 21],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 23,
+          "average": 81.7,
+          "grades": [0, 0, 0, 0, 0, 0, 3, 0, 16, 4, 0],
+          "instructors": ["Carl Ollivier-Gooch", "Mehdi Hamidi", "Sheldon Green", "Bill Rawlings", "Nima Atabaki", "Markus Fengler", "Vladan Prodanovic", "Paul Winkelman"]
+        },
+        {
+          "session": "2024W",
+          "reported": 27,
+          "average": 84.0,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 1, 8, 17, 0],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "reported": 28,
+          "average": 82.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 2, 21, 4, 1],
+          "instructors": ["Mehdi Hamidi", "Wen Li", "George Rawlings", "Mu Chiao", "Markus Fengler", "Ali Ergudenler", "Vladan Prodanovic", "Paul Winkelman"]
+        },
+        {
+          "session": "2022W",
+          "reported": 27,
+          "average": 86.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 5, 4, 5, 13],
+          "instructors": ["George Rawlings", "Hendrik van der Loos", "Mu Chiao", "Srikantha Anasavarapu", "Nima Atabaki", "Markus Fengler", "Vladan Prodanovic", "Antony Hodgson"]
+        },
+        {
+          "session": "2021W",
+          "reported": 31,
+          "average": 81.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 6, 9, 8, 7],
+          "instructors": ["Peter Ostafichuk", "Mehdi Hamidi", "George Rawlings", "Antony Hodgson", "Nima Atabaki", "Markus Fengler", "Ali Ergudenler", "Hendrik Van Der Loos", "Paul Winkelman"]
+        }
+      ]
+    },
+    "MECH 459": {
+      "reported": 27,
+      "average": 83.2,
+      "grades": [0, 0, 0, 0, 0, 0, 1, 1, 12, 12, 1],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 6,
+          "average": 82.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 4, 2, 0],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "reported": 9,
+          "average": 83.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 0],
+          "instructors": ["Mehdi Hamidi", "Wen Li", "George Rawlings", "Mu Chiao", "Markus Fengler", "Ali Ergudenler", "Vladan Prodanovic", "Paul Winkelman"]
+        },
+        {
+          "session": "2022W",
+          "reported": 12,
+          "average": 83.8,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 1, 3, 6, 1],
+          "instructors": ["George Rawlings", "Hendrik van der Loos", "Mu Chiao", "Srikantha Anasavarapu", "Nima Atabaki", "Markus Fengler", "Vladan Prodanovic", "Antony Hodgson"]
+        }
+      ]
+    },
+    "MECH 460": {
+      "reported": 24,
+      "average": 82.5,
+      "grades": [0, 0, 1, 1, 1, 1, 2, 3, 4, 2, 9],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 14,
+          "average": 85.8,
+          "grades": [0, 0, 0, 1, 0, 1, 0, 2, 2, 1, 7],
+          "instructors": ["Mattia Bacca"]
+        },
+        {
+          "session": "2022W",
+          "reported": 10,
+          "average": 77.8,
+          "grades": [0, 0, 1, 0, 1, 0, 2, 1, 2, 1, 2],
+          "instructors": ["Mattia Bacca"]
+        }
+      ]
+    },
+    "MECH 462": {
+      "reported": 201,
+      "average": 79.2,
+      "grades": [5, 3, 2, 11, 8, 15, 9, 23, 19, 34, 52],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 36,
+          "average": 81.3,
+          "grades": [0, 0, 0, 1, 2, 4, 3, 3, 5, 13, 5],
+          "instructors": ["Mattia Bacca"]
+        },
+        {
+          "session": "2024W",
+          "reported": 30,
+          "average": 84.4,
+          "grades": [0, 0, 0, 1, 1, 2, 2, 6, 2, 3, 13],
+          "instructors": ["Mahshid Mahbod"]
+        },
+        {
+          "session": "2023W",
+          "reported": 43,
+          "average": 81.4,
+          "grades": [1, 1, 2, 0, 2, 4, 0, 9, 2, 5, 17],
+          "instructors": ["Mattia Bacca"]
+        },
+        {
+          "session": "2022W",
+          "reported": 46,
+          "average": 73.8,
+          "grades": [4, 2, 0, 3, 3, 5, 4, 5, 10, 5, 5],
+          "instructors": ["Mattia Bacca"]
+        },
+        {
+          "session": "2021W",
+          "reported": 46,
+          "average": 77.3,
+          "grades": [0, 0, 0, 6, 0, 0, 0, 0, 0, 8, 12],
+          "instructors": ["Mattia Bacca"]
+        }
+      ]
+    },
+    "MECH 463": {
+      "reported": 950,
+      "average": 75.0,
+      "grades": [20, 32, 32, 53, 64, 120, 125, 81, 171, 101, 123],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 192,
+          "average": 74.3,
+          "grades": [15, 0, 6, 9, 15, 23, 23, 21, 33, 26, 21],
+          "instructors": ["Mona Amer"]
+        },
+        {
+          "session": "2024W",
+          "reported": 220,
+          "average": 74.3,
+          "grades": [2, 11, 8, 15, 23, 29, 29, 14, 44, 18, 27],
+          "instructors": ["Gary Schajer", "Ahmad Mohammadpanah Foroutaghe"]
+        },
+        {
+          "session": "2023W",
+          "reported": 194,
+          "average": 73.4,
+          "grades": [1, 14, 10, 13, 15, 31, 25, 12, 36, 17, 18],
+          "instructors": ["Gary Schajer", "Ahmad Mohammadpanah Foroutaghe"]
+        },
+        {
+          "session": "2022W",
+          "reported": 188,
+          "average": 77.6,
+          "grades": [2, 7, 8, 16, 11, 18, 17, 16, 28, 24, 41],
+          "instructors": ["Gary Schajer", "Ahmad Mohammadpanah Foroutaghe"]
+        },
+        {
+          "session": "2021W",
+          "reported": 156,
+          "average": 75.7,
+          "grades": [0, 0, 0, 0, 0, 19, 31, 18, 30, 16, 16],
+          "instructors": ["Gary Schajer", "Ahmad Mohammadpanah Foroutaghe"]
+        }
+      ]
+    },
+    "MECH 464": {
+      "reported": 155,
+      "average": 82.4,
+      "grades": [4, 0, 0, 5, 4, 6, 10, 6, 35, 25, 50],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 35,
+          "average": 77.2,
+          "grades": [2, 0, 0, 2, 0, 4, 6, 1, 7, 8, 5],
+          "instructors": ["Tim Salcudean", "Adrien Desjardins"]
+        },
+        {
+          "session": "2024W",
+          "reported": 40,
+          "average": 83.6,
+          "grades": [1, 0, 0, 2, 1, 1, 0, 4, 9, 7, 15],
+          "instructors": ["Septimiu Salcudean"]
+        },
+        {
+          "session": "2023W",
+          "reported": 34,
+          "average": 83.2,
+          "grades": [1, 0, 0, 1, 2, 0, 2, 0, 7, 6, 14],
+          "instructors": ["Septimiu Salcudean"]
+        },
+        {
+          "session": "2022W",
+          "reported": 25,
+          "average": 85.2,
+          "grades": [0, 0, 0, 0, 1, 1, 2, 1, 6, 4, 10],
+          "instructors": ["Septimiu Salcudean"]
+        },
+        {
+          "session": "2021W",
+          "reported": 21,
+          "average": 84.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 6],
+          "instructors": ["Septimiu Salcudean"]
+        }
+      ]
+    },
+    "MECH 466": {
+      "reported": 711,
+      "average": 78.2,
+      "grades": [13, 18, 17, 28, 56, 43, 75, 64, 128, 104, 154],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 133,
+          "average": 79.7,
+          "grades": [7, 0, 0, 5, 11, 10, 8, 11, 22, 19, 40],
+          "instructors": ["Dominic Liao-McPherson"]
+        },
+        {
+          "session": "2024W",
+          "reported": 149,
+          "average": 77.0,
+          "grades": [2, 6, 7, 11, 11, 7, 21, 9, 25, 20, 30],
+          "instructors": ["Ryozo Nagamune", "Ahmad Mohammadpanah Foroutaghe"]
+        },
+        {
+          "session": "2023W",
+          "reported": 142,
+          "average": 77.0,
+          "grades": [0, 1, 5, 6, 14, 13, 17, 21, 30, 14, 21],
+          "instructors": ["Ryozo Nagamune"]
+        },
+        {
+          "session": "2022W",
+          "reported": 146,
+          "average": 78.0,
+          "grades": [4, 3, 5, 6, 10, 13, 12, 10, 28, 26, 29],
+          "instructors": ["Ryozo Nagamune"]
+        },
+        {
+          "session": "2021W",
+          "reported": 141,
+          "average": 79.3,
+          "grades": [0, 8, 0, 0, 10, 0, 17, 13, 23, 25, 34],
+          "instructors": ["Ryozo Nagamune", "Clarence Wilfred De Silva"]
+        }
+      ]
+    },
+    "MECH 467": {
+      "reported": 299,
+      "average": 82.9,
+      "grades": [1, 3, 3, 4, 6, 15, 28, 30, 52, 40, 107],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 60,
+          "average": 82.9,
+          "grades": [0, 0, 0, 0, 2, 3, 5, 12, 17, 5, 16],
+          "instructors": ["Behnam Karimi", "Kefei Wen"]
+        },
+        {
+          "session": "2024W",
+          "reported": 76,
+          "average": 84.0,
+          "grades": [0, 0, 1, 1, 1, 6, 10, 6, 9, 10, 32],
+          "instructors": ["Kefei Wen"]
+        },
+        {
+          "session": "2023W",
+          "reported": 64,
+          "average": 83.0,
+          "grades": [1, 0, 1, 0, 2, 1, 7, 8, 9, 8, 24],
+          "instructors": ["Yusuf Altintas", "Kefei Wen"]
+        },
+        {
+          "session": "2022W",
+          "reported": 60,
+          "average": 81.1,
+          "grades": [0, 3, 1, 3, 1, 5, 6, 4, 9, 10, 18],
+          "instructors": ["Yusuf Altintas", "Kefei Wen"]
+        },
+        {
+          "session": "2021W",
+          "reported": 39,
+          "average": 83.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 8, 7, 17],
+          "instructors": ["Yusuf Altintas"]
+        }
+      ]
+    },
+    "MECH 468": {
+      "reported": 146,
+      "average": 75.8,
+      "grades": [3, 4, 7, 5, 8, 16, 15, 16, 13, 13, 22],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 21,
+          "average": 75.8,
+          "grades": [0, 0, 2, 0, 2, 2, 6, 3, 1, 2, 3],
+          "instructors": ["Hamid Moradi Kashkouli"]
+        },
+        {
+          "session": "2024W",
+          "reported": 40,
+          "average": 76.1,
+          "grades": [0, 2, 2, 2, 4, 5, 3, 5, 4, 7, 6],
+          "instructors": ["Ryozo Nagamune"]
+        },
+        {
+          "session": "2023W",
+          "reported": 33,
+          "average": 74.8,
+          "grades": [3, 0, 2, 0, 0, 7, 4, 4, 4, 3, 6],
+          "instructors": ["Ryozo Nagamune"]
+        },
+        {
+          "session": "2022W",
+          "reported": 28,
+          "average": 76.1,
+          "grades": [0, 2, 1, 3, 2, 2, 2, 4, 4, 1, 7],
+          "instructors": ["Ryozo Nagamune"]
+        },
+        {
+          "session": "2021W",
+          "reported": 24,
+          "average": 76.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Ryozo Nagamune", "Minkyun Noh"]
+        }
+      ]
+    },
+    "MECH 469": {
+      "reported": 87,
+      "average": 85.7,
+      "grades": [1, 0, 1, 0, 0, 2, 3, 4, 16, 19, 32],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 44,
+          "average": 83.8,
+          "grades": [0, 0, 1, 0, 0, 2, 2, 2, 14, 16, 7],
+          "instructors": ["Clarence Wilfred de Silva"]
+        },
+        {
+          "session": "2022W",
+          "reported": 21,
+          "average": 85.8,
+          "grades": [1, 0, 0, 0, 0, 0, 1, 2, 2, 3, 12],
+          "instructors": ["Clarence Wilfred de Silva"]
+        },
+        {
+          "session": "2021W",
+          "reported": 22,
+          "average": 89.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13],
+          "instructors": ["Clarence Wilfred De Silva"]
+        }
+      ]
+    },
+    "MECH 470": {
+      "reported": 83,
+      "average": 77.2,
+      "grades": [1, 0, 0, 3, 7, 9, 11, 10, 19, 6, 6],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 23,
+          "average": 75.9,
+          "grades": [0, 0, 0, 0, 5, 2, 4, 4, 5, 1, 2],
+          "instructors": ["Alex Tavasoli"]
+        },
+        {
+          "session": "2024W",
+          "reported": 34,
+          "average": 77.6,
+          "grades": [1, 0, 0, 1, 1, 4, 5, 5, 10, 4, 3],
+          "instructors": ["Mhanna Mhanna"]
+        },
+        {
+          "session": "2022W",
+          "reported": 15,
+          "average": 75.7,
+          "grades": [0, 0, 0, 2, 1, 3, 2, 1, 4, 1, 1],
+          "instructors": ["Siamak Najarian"]
+        },
+        {
+          "session": "2021W",
+          "reported": 11,
+          "average": 80.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Patrick Kirchen"]
+        }
+      ]
+    },
+    "MECH 471": {
+      "reported": 66,
+      "average": 80.5,
+      "grades": [1, 0, 0, 1, 0, 6, 7, 7, 19, 16, 8],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 26,
+          "average": 79.6,
+          "grades": [1, 0, 0, 1, 0, 1, 2, 3, 7, 8, 3],
+          "instructors": ["Barbara Dalpke"]
+        },
+        {
+          "session": "2024W",
+          "reported": 12,
+          "average": 85.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 2, 3, 3, 4],
+          "instructors": ["Barbara Dalpke"]
+        },
+        {
+          "session": "2023W",
+          "reported": 28,
+          "average": 79.1,
+          "grades": [0, 0, 0, 0, 0, 5, 5, 2, 9, 5, 1],
+          "instructors": ["Barbara Dalpke"]
+        }
+      ]
+    },
+    "MECH 473": {
+      "reported": 60,
+      "average": 79.0,
+      "grades": [0, 1, 2, 0, 5, 7, 2, 4, 5, 11, 7],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 11,
+          "average": 76.2,
+          "grades": [0, 0, 0, 0, 2, 4, 1, 0, 1, 1, 2],
+          "instructors": ["Nima Atabaki"]
+        },
+        {
+          "session": "2024W",
+          "reported": 20,
+          "average": 78.0,
+          "grades": [0, 0, 2, 0, 2, 3, 0, 3, 3, 4, 3],
+          "instructors": ["Nima Atabaki"]
+        },
+        {
+          "session": "2022W",
+          "reported": 13,
+          "average": 80.9,
+          "grades": [0, 1, 0, 0, 1, 0, 1, 1, 1, 6, 2],
+          "instructors": ["Nima Atabaki"]
+        },
+        {
+          "session": "2021W",
+          "reported": 16,
+          "average": 80.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Nima Atabaki"]
+        }
+      ]
+    },
+    "MECH 477": {
+      "reported": 78,
+      "average": 79.1,
+      "grades": [1, 0, 5, 2, 4, 3, 8, 6, 7, 16, 12],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 19,
+          "average": 78.5,
+          "grades": [1, 0, 2, 1, 1, 1, 1, 1, 0, 7, 4],
+          "instructors": ["William Kendal Bushe"]
+        },
+        {
+          "session": "2024W",
+          "reported": 15,
+          "average": 81.3,
+          "grades": [0, 0, 1, 0, 0, 1, 4, 2, 0, 3, 4],
+          "instructors": ["William Kendal Bushe"]
+        },
+        {
+          "session": "2023W",
+          "reported": 21,
+          "average": 78.3,
+          "grades": [0, 0, 2, 0, 3, 1, 2, 3, 3, 4, 3],
+          "instructors": ["William Kendal Bushe"]
+        },
+        {
+          "session": "2022W",
+          "reported": 9,
+          "average": 80.8,
+          "grades": [0, 0, 0, 1, 0, 0, 1, 0, 4, 2, 1],
+          "instructors": ["William Kendal Bushe"]
+        },
+        {
+          "session": "2021W",
+          "reported": 14,
+          "average": 77.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["William Kendal Bushe"]
+        }
+      ]
+    },
+    "MECH 478": {
+      "reported": 142,
+      "average": 80.7,
+      "grades": [2, 1, 1, 0, 2, 5, 12, 18, 39, 31, 18],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 18,
+          "average": 82.4,
+          "grades": [0, 0, 0, 0, 0, 1, 1, 2, 9, 3, 2],
+          "instructors": ["Patrick Kirchen"]
+        },
+        {
+          "session": "2024W",
+          "reported": 38,
+          "average": 81.7,
+          "grades": [0, 0, 0, 0, 2, 1, 3, 7, 10, 9, 6],
+          "instructors": ["Patrick Kirchen"]
+        },
+        {
+          "session": "2023W",
+          "reported": 37,
+          "average": 80.9,
+          "grades": [1, 0, 1, 0, 0, 2, 3, 5, 6, 13, 4],
+          "instructors": ["Patrick Kirchen"]
+        },
+        {
+          "session": "2022W",
+          "reported": 32,
+          "average": 79.0,
+          "grades": [1, 1, 0, 0, 0, 1, 5, 4, 8, 6, 6],
+          "instructors": ["Patrick Kirchen"]
+        },
+        {
+          "session": "2021W",
+          "reported": 17,
+          "average": 79.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 0],
+          "instructors": ["Patrick Kirchen"]
+        }
+      ]
+    },
+    "MECH 479": {
+      "reported": 172,
+      "average": 78.3,
+      "grades": [1, 3, 5, 2, 10, 12, 15, 37, 27, 19, 25],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 44,
+          "average": 77.2,
+          "grades": [0, 2, 0, 0, 4, 3, 11, 9, 4, 6, 5],
+          "instructors": ["Rajeev Jaiman"]
+        },
+        {
+          "session": "2024W",
+          "reported": 39,
+          "average": 74.3,
+          "grades": [0, 1, 4, 1, 5, 5, 2, 8, 6, 4, 3],
+          "instructors": ["Rajeev Jaiman"]
+        },
+        {
+          "session": "2023W",
+          "reported": 29,
+          "average": 87.4,
+          "grades": [0, 0, 0, 0, 1, 0, 0, 3, 3, 6, 15],
+          "instructors": ["Mohammed Hannan"]
+        },
+        {
+          "session": "2022W",
+          "reported": 26,
+          "average": 75.9,
+          "grades": [1, 0, 1, 1, 0, 4, 2, 7, 5, 3, 2],
+          "instructors": ["Rajeev Jaiman"]
+        },
+        {
+          "session": "2021W",
+          "reported": 34,
+          "average": 78.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 10, 9, 0, 0],
+          "instructors": ["Rajeev Jaiman"]
+        }
+      ]
+    },
+    "MECH 481": {
+      "reported": 138,
+      "average": 80.3,
+      "grades": [1, 2, 1, 3, 6, 10, 15, 10, 25, 26, 23],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 38,
+          "average": 77.7,
+          "grades": [0, 2, 0, 0, 2, 4, 4, 2, 17, 4, 3],
+          "instructors": ["Sheldon Green"]
+        },
+        {
+          "session": "2024W",
+          "reported": 25,
+          "average": 76.4,
+          "grades": [0, 0, 0, 3, 3, 2, 6, 3, 1, 1, 6],
+          "instructors": ["Sheldon Green"]
+        },
+        {
+          "session": "2023W",
+          "reported": 19,
+          "average": 82.3,
+          "grades": [0, 0, 0, 0, 0, 1, 4, 1, 4, 5, 4],
+          "instructors": ["Mohammed Hannan"]
+        },
+        {
+          "session": "2022W",
+          "reported": 30,
+          "average": 82.3,
+          "grades": [1, 0, 1, 0, 1, 3, 1, 4, 3, 6, 10],
+          "instructors": ["Carl Ollivier-Gooch"]
+        },
+        {
+          "session": "2021W",
+          "reported": 26,
+          "average": 84.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 0],
+          "instructors": ["Carl Ollivier-Gooch"]
+        }
+      ]
+    },
+    "MECH 484": {
+      "reported": 72,
+      "average": 79.6,
+      "grades": [2, 2, 2, 1, 3, 6, 8, 9, 12, 10, 17],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 19,
+          "average": 77.8,
+          "grades": [1, 0, 0, 1, 0, 1, 3, 4, 4, 3, 2],
+          "instructors": ["Dominic Liao-McPherson"]
+        },
+        {
+          "session": "2024W",
+          "reported": 12,
+          "average": 78.0,
+          "grades": [0, 0, 2, 0, 1, 0, 1, 1, 4, 1, 2],
+          "instructors": ["Dominic Liao-McPherson"]
+        },
+        {
+          "session": "2023W",
+          "reported": 29,
+          "average": 79.7,
+          "grades": [1, 1, 0, 0, 2, 5, 3, 3, 3, 2, 9],
+          "instructors": ["Ali Vakil"]
+        },
+        {
+          "session": "2022W",
+          "reported": 12,
+          "average": 84.0,
+          "grades": [0, 1, 0, 0, 0, 0, 1, 1, 1, 4, 4],
+          "instructors": ["Ali Vakil"]
+        }
+      ]
+    },
+    "MECH 485": {
+      "reported": 146,
+      "average": 77.2,
+      "grades": [7, 4, 4, 8, 11, 10, 10, 11, 18, 13, 30],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 30,
+          "average": 75.2,
+          "grades": [2, 0, 1, 2, 2, 4, 3, 3, 5, 4, 4],
+          "instructors": ["Mauricio Ponga de la Torre"]
+        },
+        {
+          "session": "2024W",
+          "reported": 41,
+          "average": 74.5,
+          "grades": [2, 3, 2, 2, 3, 4, 2, 5, 6, 5, 7],
+          "instructors": ["Mauricio Ponga de la Torre"]
+        },
+        {
+          "session": "2023W",
+          "reported": 32,
+          "average": 81.1,
+          "grades": [1, 1, 1, 3, 3, 1, 2, 1, 1, 2, 16],
+          "instructors": ["Mauricio Ponga de la Torre"]
+        },
+        {
+          "session": "2022W",
+          "reported": 23,
+          "average": 75.1,
+          "grades": [2, 0, 0, 1, 3, 1, 3, 2, 6, 2, 3],
+          "instructors": ["Mauricio Ponga de la Torre"]
+        },
+        {
+          "session": "2021W",
+          "reported": 20,
+          "average": 81.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Mauricio Ponga De La Torre"]
+        }
+      ]
+    },
+    "MECH 488": {
+      "reported": 184,
+      "average": 82.5,
+      "grades": [3, 1, 1, 6, 4, 10, 12, 25, 29, 19, 61],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 26,
+          "average": 80.2,
+          "grades": [0, 0, 0, 2, 0, 3, 3, 5, 4, 1, 8],
+          "instructors": ["Mohammed Hannan"]
+        },
+        {
+          "session": "2024W",
+          "reported": 52,
+          "average": 79.0,
+          "grades": [1, 1, 1, 2, 3, 5, 4, 7, 10, 8, 10],
+          "instructors": ["Mohammed Hannan"]
+        },
+        {
+          "session": "2023W",
+          "reported": 35,
+          "average": 81.1,
+          "grades": [1, 0, 0, 1, 0, 1, 4, 8, 7, 6, 7],
+          "instructors": ["Mohammed Hannan"]
+        },
+        {
+          "session": "2022W",
+          "reported": 39,
+          "average": 84.1,
+          "grades": [1, 0, 0, 1, 1, 1, 1, 5, 8, 4, 17],
+          "instructors": ["Mohammed Hannan"]
+        },
+        {
+          "session": "2021W",
+          "reported": 32,
+          "average": 89.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 19],
+          "instructors": ["Christopher Mckesson"]
+        }
+      ]
+    },
+    "MECH 489": {
+      "reported": 142,
+      "average": 82.4,
+      "grades": [0, 0, 0, 1, 1, 4, 15, 13, 39, 30, 21],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 27,
+          "average": 86.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 2, 6, 12, 7],
+          "instructors": ["Steven Rogak"]
+        },
+        {
+          "session": "2024W",
+          "reported": 33,
+          "average": 79.1,
+          "grades": [0, 0, 0, 0, 1, 3, 6, 7, 10, 4, 2],
+          "instructors": ["Steven Rogak"]
+        },
+        {
+          "session": "2023W",
+          "reported": 26,
+          "average": 84.7,
+          "grades": [0, 0, 0, 0, 0, 0, 3, 4, 7, 5, 7],
+          "instructors": ["Steven Rogak"]
+        },
+        {
+          "session": "2022W",
+          "reported": 30,
+          "average": 81.6,
+          "grades": [0, 0, 0, 1, 0, 1, 6, 0, 8, 9, 5],
+          "instructors": ["Nima Atabaki"]
+        },
+        {
+          "session": "2021W",
+          "reported": 26,
+          "average": 80.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 8, 0, 0],
+          "instructors": ["Nima Atabaki"]
+        }
+      ]
+    },
+    "MECH 491": {
+      "reported": 160,
+      "average": 80.1,
+      "grades": [0, 0, 3, 3, 7, 15, 16, 20, 38, 44, 13],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 49,
+          "average": 78.8,
+          "grades": [0, 0, 2, 1, 4, 5, 4, 7, 12, 8, 6],
+          "instructors": ["Serban Cojocaru"]
+        },
+        {
+          "session": "2024W",
+          "reported": 68,
+          "average": 81.4,
+          "grades": [0, 0, 0, 1, 3, 3, 10, 5, 18, 23, 5],
+          "instructors": ["Jack Chen"]
+        },
+        {
+          "session": "2023W",
+          "reported": 31,
+          "average": 78.8,
+          "grades": [0, 0, 1, 1, 0, 5, 1, 6, 7, 8, 1],
+          "instructors": ["Jack Chen"]
+        },
+        {
+          "session": "2022W",
+          "reported": 12,
+          "average": 81.9,
+          "grades": [0, 0, 0, 0, 0, 2, 1, 2, 1, 5, 1],
+          "instructors": ["Jack Chen"]
+        }
+      ]
+    },
+    "MECH 493": {
+      "reported": 20,
+      "average": 89.0,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 7],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 7,
+          "average": 89.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 4],
+          "instructors": ["Steven Rogak"]
+        },
+        {
+          "session": "2024W",
+          "reported": 6,
+          "average": 88.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 3],
+          "instructors": []
+        },
+        {
+          "session": "2021W",
+          "reported": 7,
+          "average": 89.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["William Kendal Bushe"]
+        }
+      ]
+    },
+    "MECH 495": {
+      "reported": 361,
+      "average": 85.8,
+      "grades": [3, 1, 1, 5, 7, 8, 18, 24, 67, 83, 141],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 77,
+          "average": 82.8,
+          "grades": [0, 0, 1, 1, 3, 4, 7, 8, 12, 23, 18],
+          "instructors": ["Serban Cojocaru"]
+        },
+        {
+          "session": "2024W",
+          "reported": 94,
+          "average": 85.5,
+          "grades": [0, 0, 0, 0, 0, 1, 4, 7, 29, 28, 25],
+          "instructors": ["Ahmad Mohammadpanah Foroutaghe"]
+        },
+        {
+          "session": "2023W",
+          "reported": 100,
+          "average": 87.5,
+          "grades": [1, 0, 0, 3, 3, 1, 3, 5, 11, 15, 55],
+          "instructors": ["Farrokh Sassani"]
+        },
+        {
+          "session": "2022W",
+          "reported": 90,
+          "average": 86.6,
+          "grades": [2, 1, 0, 1, 1, 2, 4, 4, 15, 17, 43],
+          "instructors": ["Farrokh Sassani"]
+        }
+      ]
+    },
+    "MECH 496": {
+      "reported": 300,
+      "average": 81.4,
+      "grades": [0, 0, 0, 0, 3, 4, 19, 53, 138, 71, 6],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 72,
+          "average": 80.2,
+          "grades": [0, 0, 0, 0, 2, 1, 8, 16, 34, 11, 0],
+          "instructors": ["Bill Rawlings"]
+        },
+        {
+          "session": "2024W",
+          "reported": 61,
+          "average": 81.9,
+          "grades": [0, 0, 0, 0, 0, 0, 3, 10, 30, 16, 2],
+          "instructors": ["George Rawlings"]
+        },
+        {
+          "session": "2023W",
+          "reported": 56,
+          "average": 81.1,
+          "grades": [0, 0, 0, 0, 1, 3, 3, 10, 22, 14, 3],
+          "instructors": ["George Rawlings"]
+        },
+        {
+          "session": "2022W",
+          "reported": 54,
+          "average": 81.8,
+          "grades": [0, 0, 0, 0, 0, 0, 5, 8, 27, 13, 1],
+          "instructors": ["George Rawlings"]
+        },
+        {
+          "session": "2021W",
+          "reported": 57,
+          "average": 82.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 9, 25, 17, 0],
+          "instructors": ["George Rawlings"]
+        }
+      ]
+    },
+    "MECH 497": {
+      "reported": 34,
+      "average": 84.9,
+      "grades": [0, 1, 0, 0, 0, 0, 0, 2, 4, 9, 6],
+      "terms": [
+        {
+          "session": "2024S",
+          "reported": 7,
+          "average": 86.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 4, 1],
+          "instructors": []
+        },
+        {
+          "session": "2023S",
+          "reported": 6,
+          "average": 87.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 0, 3, 2],
+          "instructors": ["Graham Hendra"]
+        },
+        {
+          "session": "2022S",
+          "reported": 9,
+          "average": 83.1,
+          "grades": [0, 1, 0, 0, 0, 0, 0, 1, 2, 2, 3],
+          "instructors": ["Graham Hendra"]
+        },
+        {
+          "session": "2021S",
+          "reported": 12,
+          "average": 84.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Graham Hendra", "Agnes D'Entremont"]
+        }
+      ]
+    },
+    "MECH 498": {
+      "reported": 33,
+      "average": 88.1,
+      "grades": [0, 0, 0, 0, 1, 0, 2, 0, 2, 2, 14],
+      "terms": [
+        {
+          "session": "2024S",
+          "reported": 6,
+          "average": 88.5,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 4],
+          "instructors": []
+        },
+        {
+          "session": "2023S",
+          "reported": 6,
+          "average": 93.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6],
+          "instructors": ["Adrianna Eyking"]
+        },
+        {
+          "session": "2022S",
+          "reported": 9,
+          "average": 84.1,
+          "grades": [0, 0, 0, 0, 1, 0, 1, 0, 2, 1, 4],
+          "instructors": ["Adrianna Eyking"]
+        },
+        {
+          "session": "2021S",
+          "reported": 12,
+          "average": 88.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Adrianna Eyking"]
+        }
+      ]
+    },
+    "MECH 500": {
+      "reported": 26,
+      "average": 86.8,
+      "grades": [1, 0, 0, 0, 0, 0, 0, 0, 2, 1, 10],
+      "terms": [
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Emerging Topics in Mechanical Engineering",
+          "reported": 14,
+          "average": 87.7,
+          "grades": [1, 0, 0, 0, 0, 0, 0, 0, 2, 1, 10],
+          "instructors": ["Adrianna Eyking"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Emerging Topics in Mechanical Engineering",
+          "reported": 12,
+          "average": 85.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Adrianna Eyking"]
+        }
+      ]
+    },
+    "MECH 502": {
+      "reported": 72,
+      "average": 74.3,
+      "grades": [3, 0, 0, 11, 1, 5, 6, 5, 11, 10, 6],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 13,
+          "average": 79.2,
+          "grades": [0, 0, 0, 1, 0, 3, 0, 3, 2, 2, 2],
+          "instructors": ["Gwynn Elfring"]
+        },
+        {
+          "session": "2023W",
+          "reported": 32,
+          "average": 72.8,
+          "grades": [2, 0, 0, 7, 1, 2, 1, 2, 6, 5, 3],
+          "instructors": ["Gwynn Elfring"]
+        },
+        {
+          "session": "2022W",
+          "reported": 16,
+          "average": 72.7,
+          "grades": [1, 0, 0, 3, 0, 0, 5, 0, 3, 3, 1],
+          "instructors": ["Gwynn Elfring"]
+        },
+        {
+          "session": "2021W",
+          "reported": 11,
+          "average": 75.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Gwynn Elfring"]
+        }
+      ]
+    },
+    "MECH 503": {
+      "reported": 68,
+      "average": 82.3,
+      "grades": [2, 0, 0, 1, 0, 1, 6, 9, 14, 12, 14],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 16,
+          "average": 86.1,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 3, 4, 2, 6],
+          "instructors": ["Mauricio Ponga de la Torre"]
+        },
+        {
+          "session": "2023W",
+          "reported": 33,
+          "average": 81.8,
+          "grades": [1, 0, 0, 1, 0, 1, 2, 3, 9, 10, 6],
+          "instructors": ["Mauricio Ponga de la Torre"]
+        },
+        {
+          "session": "2022W",
+          "reported": 10,
+          "average": 77.2,
+          "grades": [1, 0, 0, 0, 0, 0, 3, 3, 1, 0, 2],
+          "instructors": ["Mauricio Ponga de la Torre"]
+        },
+        {
+          "session": "2021W",
+          "reported": 9,
+          "average": 82.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Mauricio Ponga De La Torre"]
+        }
+      ]
+    },
+    "MECH 506": {
+      "reported": 33,
+      "average": 73.4,
+      "grades": [0, 0, 0, 0, 0, 17, 8, 2, 3, 0, 3],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 11,
+          "average": 79.5,
+          "grades": [0, 0, 0, 0, 0, 0, 4, 2, 3, 0, 2],
+          "instructors": ["Srikantha Anasavarapu"]
+        },
+        {
+          "session": "2023W",
+          "reported": 22,
+          "average": 70.4,
+          "grades": [0, 0, 0, 0, 0, 17, 4, 0, 0, 0, 1],
+          "instructors": ["Srikantha Anasavarapu"]
+        }
+      ]
+    },
+    "MECH 507": {
+      "reported": 20,
+      "average": 81.9,
+      "grades": [0, 0, 0, 1, 0, 0, 1, 2, 2, 11, 1],
+      "terms": [
+        {
+          "session": "2022W",
+          "reported": 11,
+          "average": 80.7,
+          "grades": [0, 0, 0, 1, 0, 0, 1, 2, 2, 4, 1],
+          "instructors": ["Srikantha Anasavarapu"]
+        },
+        {
+          "session": "2021W",
+          "reported": 9,
+          "average": 83.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 0],
+          "instructors": ["Srikantha Anasavarapu"]
+        }
+      ]
+    },
+    "MECH 509": {
+      "reported": 118,
+      "average": 82.3,
+      "grades": [1, 0, 0, 2, 0, 7, 11, 8, 27, 24, 31],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 32,
+          "average": 81.8,
+          "grades": [0, 0, 0, 0, 0, 3, 6, 4, 5, 6, 8],
+          "instructors": ["Ryozo Nagamune"]
+        },
+        {
+          "session": "2023W",
+          "reported": 31,
+          "average": 81.9,
+          "grades": [1, 0, 0, 0, 0, 3, 4, 1, 7, 4, 11],
+          "instructors": ["Ryozo Nagamune"]
+        },
+        {
+          "session": "2022W",
+          "reported": 28,
+          "average": 82.9,
+          "grades": [0, 0, 0, 2, 0, 1, 1, 3, 7, 8, 6],
+          "instructors": ["Ryozo Nagamune"]
+        },
+        {
+          "session": "2021W",
+          "reported": 27,
+          "average": 82.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 8, 6, 6],
+          "instructors": ["Ryozo Nagamune", "Minkyun Noh"]
+        }
+      ]
+    },
+    "MECH 512": {
+      "reported": 21,
+      "average": 83.9,
+      "grades": [1, 0, 0, 1, 0, 0, 3, 0, 3, 4, 9],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 8,
+          "average": 86.2,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 2, 2, 3],
+          "instructors": ["Gary Schajer"]
+        },
+        {
+          "session": "2022W",
+          "reported": 13,
+          "average": 82.5,
+          "grades": [1, 0, 0, 1, 0, 0, 2, 0, 1, 2, 6],
+          "instructors": ["Gary Schajer"]
+        }
+      ]
+    },
+    "MECH 514": {
+      "reported": 59,
+      "average": 79.6,
+      "grades": [1, 0, 0, 3, 1, 2, 6, 3, 11, 4, 12],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 15,
+          "average": 85.0,
+          "grades": [0, 0, 0, 0, 0, 0, 2, 1, 5, 0, 7],
+          "instructors": ["Mahshid Mahbod"]
+        },
+        {
+          "session": "2023W",
+          "reported": 12,
+          "average": 75.9,
+          "grades": [0, 0, 0, 2, 1, 1, 1, 0, 2, 2, 1],
+          "instructors": ["Mattia Bacca"]
+        },
+        {
+          "session": "2022W",
+          "reported": 18,
+          "average": 78.0,
+          "grades": [1, 0, 0, 1, 0, 1, 3, 2, 4, 2, 4],
+          "instructors": ["Mattia Bacca"]
+        },
+        {
+          "session": "2021W",
+          "reported": 14,
+          "average": 78.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Mattia Bacca"]
+        }
+      ]
+    },
+    "MECH 515": {
+      "reported": 8,
+      "average": 74.0,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      "terms": [
+        {
+          "session": "2021W",
+          "topic": "B",
+          "title": "Emerging Topics in Applied Mechanics",
+          "reported": 8,
+          "average": 74.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Mattia Bacca"]
+        }
+      ]
+    },
+    "MECH 520": {
+      "reported": 22,
+      "average": 86.4,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 4, 2, 8],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 6,
+          "average": 84.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 4, 2, 0],
+          "instructors": ["Clarence Wilfred de Silva"]
+        },
+        {
+          "session": "2021W",
+          "reported": 16,
+          "average": 87.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8],
+          "instructors": ["Clarence Wilfred De Silva"]
+        }
+      ]
+    },
+    "MECH 521": {
+      "reported": 7,
+      "average": 88.7,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      "terms": [
+        {
+          "session": "2021W",
+          "reported": 7,
+          "average": 88.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Mu Chiao"]
+        }
+      ]
+    },
+    "MECH 524": {
+      "reported": 26,
+      "average": 80.9,
+      "grades": [0, 0, 0, 0, 0, 3, 2, 7, 4, 4, 5],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 12,
+          "average": 80.0,
+          "grades": [0, 0, 0, 0, 0, 1, 1, 5, 3, 0, 2],
+          "instructors": ["Christoph Sielmann"]
+        },
+        {
+          "session": "2023W",
+          "reported": 14,
+          "average": 81.7,
+          "grades": [0, 0, 0, 0, 0, 2, 1, 2, 1, 4, 3],
+          "instructors": ["Christoph Sielmann"]
+        }
+      ]
+    },
+    "MECH 525": {
+      "reported": 26,
+      "average": 81.5,
+      "grades": [0, 0, 0, 0, 0, 0, 3, 7, 9, 5, 2],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 16,
+          "average": 83.5,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 2, 6, 5, 2],
+          "instructors": ["Christoph Sielmann"]
+        },
+        {
+          "session": "2023W",
+          "reported": 10,
+          "average": 78.2,
+          "grades": [0, 0, 0, 0, 0, 0, 2, 5, 3, 0, 0],
+          "instructors": ["Christoph Sielmann"]
+        }
+      ]
+    },
+    "MECH 527": {
+      "reported": 16,
+      "average": 85.8,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 5, 9, 2],
+      "terms": [
+        {
+          "session": "2023S",
+          "reported": 8,
+          "average": 85.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 4, 2, 2],
+          "instructors": ["Yusuf Altintas"]
+        },
+        {
+          "session": "2022S",
+          "reported": 8,
+          "average": 86.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 7, 0],
+          "instructors": ["Yusuf Altintas"]
+        }
+      ]
+    },
+    "MECH 529": {
+      "reported": 34,
+      "average": 90.0,
+      "grades": [0, 0, 0, 0, 0, 0, 2, 0, 6, 3, 21],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 8,
+          "average": 86.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 2],
+          "instructors": ["Clarence Wilfred de Silva"]
+        },
+        {
+          "session": "2022W",
+          "reported": 12,
+          "average": 87.2,
+          "grades": [0, 0, 0, 0, 0, 0, 2, 0, 3, 0, 7],
+          "instructors": ["Clarence Wilfred de Silva"]
+        },
+        {
+          "session": "2021W",
+          "reported": 14,
+          "average": 94.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12],
+          "instructors": ["Clarence Wilfred De Silva"]
+        }
+      ]
+    },
+    "MECH 533": {
+      "reported": 24,
+      "average": 85.1,
+      "grades": [0, 0, 0, 0, 0, 1, 1, 1, 7, 8, 6],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 12,
+          "average": 85.7,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 1, 2, 4, 4],
+          "instructors": ["Dana Grecov"]
+        },
+        {
+          "session": "2022W",
+          "reported": 12,
+          "average": 84.5,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 0, 5, 4, 2],
+          "instructors": ["Dana Grecov"]
+        }
+      ]
+    },
+    "MECH 535": {
+      "reported": 36,
+      "average": 83.1,
+      "grades": [0, 0, 0, 0, 1, 1, 2, 0, 7, 8, 10],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 18,
+          "average": 88.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 4, 6, 8],
+          "instructors": ["Antony Hodgson"]
+        },
+        {
+          "session": "2023W",
+          "reported": 11,
+          "average": 79.5,
+          "grades": [0, 0, 0, 0, 1, 1, 2, 0, 3, 2, 2],
+          "instructors": ["Thomas Oxland"]
+        },
+        {
+          "session": "2021W",
+          "reported": 7,
+          "average": 74.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Thomas Oxland"]
+        }
+      ]
+    },
+    "MECH 536": {
+      "reported": 35,
+      "average": 84.6,
+      "grades": [0, 0, 0, 0, 0, 1, 0, 1, 9, 11, 5],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 7,
+          "average": 83.4,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 0, 1, 5, 0],
+          "instructors": ["Agnes d'Entremont"]
+        },
+        {
+          "session": "2023W",
+          "reported": 10,
+          "average": 85.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 3, 4, 2],
+          "instructors": ["Agnes D'Entremont"]
+        },
+        {
+          "session": "2022W",
+          "reported": 10,
+          "average": 85.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 5, 2, 3],
+          "instructors": ["Agnes D'Entremont"]
+        },
+        {
+          "session": "2021W",
+          "reported": 8,
+          "average": 83.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Agnes D'Entremont"]
+        }
+      ]
+    },
+    "MECH 540": {
+      "reported": 171,
+      "average": 85.8,
+      "grades": [0, 0, 0, 1, 1, 4, 1, 6, 23, 43, 47],
+      "terms": [
+        {
+          "session": "2024W",
+          "topic": "E",
+          "title": "MECH BEH MAN PRO",
+          "reported": 7,
+          "average": 87.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 3, 2, 2],
+          "instructors": ["Xiaoliang Jin"]
+        },
+        {
+          "session": "2024W",
+          "topic": "F",
+          "title": "DATA MODELING DS",
+          "reported": 20,
+          "average": 85.7,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 0, 7, 4, 8],
+          "instructors": ["Ryozo Nagamune"]
+        },
+        {
+          "session": "2024W",
+          "topic": "G",
+          "title": "Introduction to Optimization for Engineers",
+          "reported": 13,
+          "average": 90.3,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 1, 1, 2, 8],
+          "instructors": ["Dominic Liao-McPherson"]
+        },
+        {
+          "session": "2023W",
+          "topic": "E",
+          "title": "Emerging Topics in Mechatronics, Manufacturing, Controls, and Automation",
+          "reported": 15,
+          "average": 89.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 4, 9],
+          "instructors": ["Xiaoliang Jin"]
+        },
+        {
+          "session": "2023W",
+          "topic": "F",
+          "title": "Emerging Topics in Mechatronics, Manufacturing, Controls, and Automation",
+          "reported": 18,
+          "average": 88.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 2, 5, 9],
+          "instructors": ["Ryozo Nagamune"]
+        },
+        {
+          "session": "2023W",
+          "topic": "G",
+          "title": "Emerging Topics in Mechatronics, Manufacturing, Controls, and Automation",
+          "reported": 7,
+          "average": 87.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 4, 1],
+          "instructors": ["Dominic Liao-McPherson"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Emerging Topics in Mechatronics, Manufacturing, Controls, and Automation",
+          "reported": 17,
+          "average": 81.0,
+          "grades": [0, 0, 0, 1, 1, 1, 1, 2, 5, 4, 2],
+          "instructors": ["Christoph Sielmann"]
+        },
+        {
+          "session": "2022W",
+          "topic": "B",
+          "title": "Emerging Topics in Mechatronics, Manufacturing, Controls, and Automation",
+          "reported": 13,
+          "average": 85.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 2, 2, 7, 2],
+          "instructors": ["Christoph Sielmann"]
+        },
+        {
+          "session": "2022W",
+          "topic": "E",
+          "title": "Emerging Topics in Mechatronics, Manufacturing, Controls, and Automation",
+          "reported": 11,
+          "average": 87.9,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 0, 0, 4, 6],
+          "instructors": ["Xiaoliang Jin"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Emerging Topics in Mechatronics, Manufacturing, Controls, and Automation",
+          "reported": 13,
+          "average": 83.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Christoph Sielmann"]
+        },
+        {
+          "session": "2021W",
+          "topic": "B",
+          "title": "Emerging Topics in Mechatronics, Manufacturing, Controls, and Automation",
+          "reported": 14,
+          "average": 80.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Christoph Sielmann"]
+        },
+        {
+          "session": "2021W",
+          "topic": "C",
+          "title": "Emerging Topics in Mechatronics, Manufacturing, Controls, and Automation",
+          "reported": 12,
+          "average": 84.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Minkyun Noh"]
+        },
+        {
+          "session": "2021W",
+          "topic": "E",
+          "title": "Emerging Topics in Mechatronics, Manufacturing, Controls, and Automation",
+          "reported": 11,
+          "average": 87.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 0],
+          "instructors": ["Xiao Liang Jin"]
+        }
+      ]
+    },
+    "MECH 541": {
+      "reported": 40,
+      "average": 85.5,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 1, 4, 3, 20],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 10,
+          "average": 88.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 2, 2, 5],
+          "instructors": ["Yusuf Altintas"]
+        },
+        {
+          "session": "2022W",
+          "reported": 10,
+          "average": 92.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 7],
+          "instructors": ["Yusuf Altintas"]
+        },
+        {
+          "session": "2021W",
+          "reported": 20,
+          "average": 80.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8],
+          "instructors": ["Yusuf Altintas"]
+        }
+      ]
+    },
+    "MECH 542": {
+      "reported": 66,
+      "average": 84.0,
+      "grades": [1, 0, 0, 0, 0, 0, 2, 8, 19, 23, 11],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 26,
+          "average": 83.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 3, 9, 13, 1],
+          "instructors": ["Jack Chen"]
+        },
+        {
+          "session": "2023W",
+          "reported": 21,
+          "average": 83.8,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 5, 4, 4, 5],
+          "instructors": ["Jack Chen"]
+        },
+        {
+          "session": "2022W",
+          "reported": 19,
+          "average": 84.4,
+          "grades": [1, 0, 0, 0, 0, 0, 1, 0, 6, 6, 5],
+          "instructors": ["Jack Chen"]
+        }
+      ]
+    },
+    "MECH 544": {
+      "reported": 23,
+      "average": 91.8,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 6,
+          "average": 91.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Yusuf Altintas"]
+        },
+        {
+          "session": "2022W",
+          "reported": 6,
+          "average": 94.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6],
+          "instructors": ["Yusuf Altintas"]
+        },
+        {
+          "session": "2021W",
+          "reported": 11,
+          "average": 90.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7],
+          "instructors": ["Yusuf Altintas"]
+        }
+      ]
+    },
+    "MECH 556": {
+      "reported": 14,
+      "average": 88.1,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 3, 5, 6],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 14,
+          "average": 88.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 3, 5, 6],
+          "instructors": ["Adrianna Eyking"]
+        }
+      ]
+    },
+    "MECH 557": {
+      "reported": 24,
+      "average": 85.3,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 6, 11, 1],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 18,
+          "average": 85.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 6, 11, 1],
+          "instructors": ["Antony Hodgson"]
+        },
+        {
+          "session": "2023W",
+          "reported": 6,
+          "average": 84.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Paul Winkelman"]
+        }
+      ]
+    },
+    "MECH 558": {
+      "reported": 62,
+      "average": 83.6,
+      "grades": [0, 0, 0, 1, 4, 3, 1, 4, 11, 23, 15],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 28,
+          "average": 85.6,
+          "grades": [0, 0, 0, 0, 2, 0, 0, 0, 3, 16, 7],
+          "instructors": ["Antony Hodgson"]
+        },
+        {
+          "session": "2023W",
+          "reported": 34,
+          "average": 81.9,
+          "grades": [0, 0, 0, 1, 2, 3, 1, 4, 8, 7, 8],
+          "instructors": ["Adrianna Eyking"]
+        }
+      ]
+    },
+    "MECH 559": {
+      "reported": 68,
+      "average": 84.6,
+      "grades": [0, 0, 0, 0, 0, 0, 5, 12, 13, 16, 22],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 30,
+          "average": 88.1,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 2, 2, 11, 14],
+          "instructors": ["Vitorio Stana"]
+        },
+        {
+          "session": "2023W",
+          "reported": 38,
+          "average": 81.8,
+          "grades": [0, 0, 0, 0, 0, 0, 4, 10, 11, 5, 8],
+          "instructors": ["Paul Winkelman"]
+        }
+      ]
+    },
+    "MECH 562": {
+      "reported": 7,
+      "average": 90.0,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 4],
+      "terms": [
+        {
+          "session": "2022W",
+          "reported": 7,
+          "average": 90.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 4],
+          "instructors": ["Ryozo Nagamune"]
+        }
+      ]
+    },
+    "MECH 563": {
+      "reported": 55,
+      "average": 85.6,
+      "grades": [0, 0, 0, 1, 0, 2, 2, 6, 8, 11, 21],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 14,
+          "average": 83.1,
+          "grades": [0, 0, 0, 0, 0, 1, 1, 2, 3, 4, 3],
+          "instructors": ["Septimiu Salcudean"]
+        },
+        {
+          "session": "2023W",
+          "reported": 9,
+          "average": 90.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 6],
+          "instructors": ["Septimiu Salcudean"]
+        },
+        {
+          "session": "2022W",
+          "reported": 20,
+          "average": 81.9,
+          "grades": [0, 0, 0, 1, 0, 1, 1, 4, 3, 6, 4],
+          "instructors": ["Septimiu Salcudean"]
+        },
+        {
+          "session": "2021W",
+          "reported": 12,
+          "average": 91.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8],
+          "instructors": ["Septimiu Salcudean"]
+        }
+      ]
+    },
+    "MECH 570": {
+      "reported": 15,
+      "average": 90.5,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 5, 9],
+      "terms": [
+        {
+          "session": "2023W",
+          "topic": "C",
+          "title": "Emerging Topics in Thermofluids",
+          "reported": 7,
+          "average": 93.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7],
+          "instructors": ["Rajeev Jaiman"]
+        },
+        {
+          "session": "2023W",
+          "topic": "E",
+          "title": "Emerging Topics in Thermofluids",
+          "reported": 8,
+          "average": 88.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 5, 2],
+          "instructors": ["Ian Frigaard"]
+        }
+      ]
+    },
+    "MECH 572": {
+      "reported": 6,
+      "average": 81.8,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 1, 4, 1, 0],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 6,
+          "average": 81.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 4, 1, 0],
+          "instructors": ["Nima Atabaki"]
+        }
+      ]
+    },
+    "MECH 577": {
+      "reported": 43,
+      "average": 86.6,
+      "grades": [1, 0, 0, 0, 0, 3, 1, 1, 4, 4, 19],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 10,
+          "average": 82.9,
+          "grades": [0, 0, 0, 0, 0, 2, 0, 1, 2, 2, 3],
+          "instructors": ["Vladan Prodanovic"]
+        },
+        {
+          "session": "2023W",
+          "reported": 17,
+          "average": 85.6,
+          "grades": [1, 0, 0, 0, 0, 1, 1, 0, 2, 1, 10],
+          "instructors": ["Siamak Najarian"]
+        },
+        {
+          "session": "2022W",
+          "reported": 7,
+          "average": 91.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 6],
+          "instructors": ["Siamak Najarian"]
+        },
+        {
+          "session": "2021W",
+          "reported": 9,
+          "average": 88.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Siamak Najarian"]
+        }
+      ]
+    },
+    "MECH 578": {
+      "reported": 13,
+      "average": 83.3,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 1, 3, 0, 2],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 6,
+          "average": 84.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 3, 0, 2],
+          "instructors": ["Patrick Kirchen"]
+        },
+        {
+          "session": "2021W",
+          "reported": 7,
+          "average": 82.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Patrick Kirchen"]
+        }
+      ]
+    },
+    "MECH 581": {
+      "reported": 6,
+      "average": 85.7,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 1, 1, 3, 1],
+      "terms": [
+        {
+          "session": "2022W",
+          "reported": 6,
+          "average": 85.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 1, 3, 1],
+          "instructors": ["Carl Ollivier-Gooch"]
+        }
+      ]
+    },
+    "MECH 582": {
+      "reported": 25,
+      "average": 82.1,
+      "grades": [1, 0, 0, 0, 0, 0, 0, 1, 2, 5, 2],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 6,
+          "average": 83.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Steven Rogak"]
+        },
+        {
+          "session": "2022W",
+          "reported": 11,
+          "average": 81.2,
+          "grades": [1, 0, 0, 0, 0, 0, 0, 1, 2, 5, 2],
+          "instructors": ["Nima Atabaki"]
+        },
+        {
+          "session": "2021W",
+          "reported": 8,
+          "average": 82.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Nima Atabaki"]
+        }
+      ]
+    },
+    "MECH 586": {
+      "reported": 7,
+      "average": 88.3,
+      "grades": [0, 0, 0, 0, 0, 0, 1, 0, 1, 2, 3],
+      "terms": [
+        {
+          "session": "2022W",
+          "reported": 7,
+          "average": 88.3,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 1, 2, 3],
+          "instructors": ["William Kendal Bushe"]
+        }
+      ]
+    },
+    "MECH 587": {
+      "reported": 43,
+      "average": 83.6,
+      "grades": [0, 0, 0, 1, 1, 6, 0, 2, 4, 8, 15],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 12,
+          "average": 87.2,
+          "grades": [0, 0, 0, 1, 0, 1, 0, 0, 0, 3, 7],
+          "instructors": ["Mohammed Hannan"]
+        },
+        {
+          "session": "2022W",
+          "reported": 19,
+          "average": 79.1,
+          "grades": [0, 0, 0, 0, 1, 5, 0, 2, 4, 5, 2],
+          "instructors": ["Rajeev Jaiman"]
+        },
+        {
+          "session": "2021W",
+          "reported": 12,
+          "average": 87.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6],
+          "instructors": ["Carl Ollivier-Gooch"]
+        }
+      ]
+    },
+    "MECH 597": {
+      "reported": 48,
+      "average": 86.7,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 2, 6, 15, 12],
+      "terms": [
+        {
+          "session": "2024S",
+          "reported": 20,
+          "average": 85.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 2, 5, 5, 8],
+          "instructors": ["Steven Rogak"]
+        },
+        {
+          "session": "2023S",
+          "reported": 12,
+          "average": 87.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 6, 2],
+          "instructors": ["William Kendal Bushe"]
+        },
+        {
+          "session": "2022S",
+          "reported": 6,
+          "average": 89.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 2],
+          "instructors": ["William Kendal Bushe"]
+        },
+        {
+          "session": "2021S",
+          "reported": 10,
+          "average": 86.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["William Kendal Bushe"]
+        }
+      ]
+    },
+    "MECH 598": {
+      "reported": 7,
+      "average": 90.4,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 5],
+      "terms": [
+        {
+          "session": "2022W",
+          "reported": 7,
+          "average": 90.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 5],
+          "instructors": ["Mu Chiao", "Clarence Wilfred de Silva"]
+        }
+      ]
+    },
+    "MECH 599": {
+      "reported": 44,
+      "average": 86.8,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      "terms": [
+        {
+          "session": "2023S",
+          "topic": "B",
+          "title": "Thesis",
+          "reported": 44,
+          "average": 86.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": []
+        }
+      ]
+    },
+    "MECH 698": {
+      "reported": 47,
+      "average": 90.6,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 47,
+          "average": 90.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Jasmin Jelovica", "Mattia Bacca", "Gary Schajer", "Srikantha Anasavarapu", "Xiaoliang Jin", "Mauricio Ponga de la Torre", "Boris Stoeber", "Hongshen Ma", "Peter Cripton", "Thomas Oxland", "Chun Wu", "Dana Grecov", "David Wilson", "Antony Hodgson", "Mu Chiao"]
+        }
+      ]
+    }
+  }
+}

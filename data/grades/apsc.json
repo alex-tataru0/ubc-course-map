@@ -1,0 +1,1236 @@
+{
+  "subject": "APSC",
+  "campus": "UBCV",
+  "source": "https://ubcgrades.com",
+  "credit": "UBCGrades.com / UBC PAIR",
+  "sessions": ["2021S", "2021W", "2022S", "2022W", "2023S", "2023W", "2024S", "2024W", "2025S", "2025W"],
+  "buckets": ["<50%", "50-54%", "55-59%", "60-63%", "64-67%", "68-71%", "72-75%", "76-79%", "80-84%", "85-89%", "90-100%"],
+  "courses": {
+    "APSC 100": {
+      "reported": 4994,
+      "average": 78.2,
+      "grades": [165, 63, 32, 57, 163, 306, 591, 876, 1293, 1013, 389],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 1069,
+          "average": 76.4,
+          "grades": [64, 19, 7, 19, 38, 94, 129, 187, 265, 185, 62],
+          "instructors": ["Jon Nakane", "Peter Ostafichuk", "Christopher McLean", "Amir M. Dehkhoda", "Carol Jaeger", "Seyyed Alireza Bagherzadeh Hosseini"]
+        },
+        {
+          "session": "2024W",
+          "reported": 947,
+          "average": 78.7,
+          "grades": [27, 11, 2, 10, 28, 46, 118, 186, 260, 201, 58],
+          "instructors": ["Carol Patricia Jaeger", "Peter Ostafichuk", "Chris McLean", "Jonathan Nakane", "Seyyed Alireza Bagherzadeh Hosseini", "Amir Mehdi Dehkhoda"]
+        },
+        {
+          "session": "2023W",
+          "reported": 996,
+          "average": 79.7,
+          "grades": [24, 16, 4, 11, 23, 42, 110, 151, 245, 252, 106],
+          "instructors": ["Carol Patricia Jaeger", "Peter Ostafichuk", "Chris McLean", "Jonathan Nakane", "Seyyed Alireza Bagherzadeh Hosseini", "Amir Mehdi Dehkhoda"]
+        },
+        {
+          "session": "2022W",
+          "reported": 965,
+          "average": 78.1,
+          "grades": [36, 11, 13, 17, 26, 58, 107, 180, 227, 199, 91],
+          "instructors": ["Carol Patricia Jaeger", "Peter Ostafichuk", "Chris McLean", "Brian Dick", "Jonathan Nakane", "Seyyed Alireza Bagherzadeh Hosseini"]
+        },
+        {
+          "session": "2021W",
+          "reported": 1017,
+          "average": 78.0,
+          "grades": [14, 6, 6, 0, 48, 66, 127, 172, 296, 176, 72],
+          "instructors": ["Carol Patricia Jaeger", "Peter Ostafichuk", "Brian Dick", "Jonathan Nakane", "Seyyed Alireza Bagherzadeh Hosseini", "Chris Mclean"]
+        }
+      ]
+    },
+    "APSC 101": {
+      "reported": 4434,
+      "average": 74.0,
+      "grades": [256, 153, 78, 131, 299, 454, 711, 766, 793, 501, 278],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 961,
+          "average": 74.2,
+          "grades": [74, 21, 11, 20, 76, 108, 135, 170, 173, 112, 61],
+          "instructors": ["Jon Nakane", "Peter Ostafichuk", "Amir M. Dehkhoda", "Carol Jaeger", "Alexander Jameson"]
+        },
+        {
+          "session": "2024W",
+          "reported": 866,
+          "average": 74.2,
+          "grades": [50, 35, 8, 28, 49, 86, 150, 159, 159, 88, 54],
+          "instructors": ["Carol Patricia Jaeger", "Peter Ostafichuk", "Chris McLean", "Jonathan Nakane", "Jonathan Verrett", "Amir Mehdi Dehkhoda"]
+        },
+        {
+          "session": "2023W",
+          "reported": 882,
+          "average": 74.6,
+          "grades": [54, 20, 21, 21, 41, 90, 146, 151, 166, 115, 47],
+          "instructors": ["Carol Patricia Jaeger", "Peter Ostafichuk", "Chris McLean", "Jonathan Nakane", "Jonathan Verrett", "Amir Mehdi Dehkhoda"]
+        },
+        {
+          "session": "2022W",
+          "reported": 844,
+          "average": 72.8,
+          "grades": [45, 43, 26, 34, 74, 84, 127, 107, 149, 102, 53],
+          "instructors": ["Carol Patricia Jaeger", "Peter Ostafichuk", "Chris McLean", "Jonathan Nakane", "Roza Vaez Ghaemi", "Amir Mehdi Dehkhoda"]
+        },
+        {
+          "session": "2021W",
+          "reported": 881,
+          "average": 74.3,
+          "grades": [33, 34, 12, 28, 59, 86, 153, 179, 146, 84, 63],
+          "instructors": ["Carol Patricia Jaeger", "Peter Ostafichuk", "Brian Dick", "Jonathan Nakane", "Jonathan Verrett", "Chris Mclean"]
+        }
+      ]
+    },
+    "APSC 160": {
+      "reported": 5624,
+      "average": 79.9,
+      "grades": [512, 38, 59, 60, 141, 249, 371, 505, 854, 879, 1855],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 1131,
+          "average": 77.2,
+          "grades": [169, 6, 15, 10, 23, 56, 77, 108, 175, 164, 328],
+          "instructors": ["Cristian Sorin Grecu", "Geoffrey Tien", "Rik Blok", "Seyyed Hosseini", "Paul Bucci", "Saloome Motavas"]
+        },
+        {
+          "session": "2025S",
+          "reported": 72,
+          "average": 73.2,
+          "grades": [6, 7, 4, 2, 3, 3, 5, 4, 19, 6, 13],
+          "instructors": ["Farshid Agharebparast"]
+        },
+        {
+          "session": "2024W",
+          "reported": 1003,
+          "average": 80.4,
+          "grades": [60, 8, 14, 23, 46, 45, 63, 103, 160, 156, 325],
+          "instructors": ["Cristian Sorin Grecu", "Seyyed Hosseini", "Paul Bucci", "Saloome Motavas"]
+        },
+        {
+          "session": "2024S",
+          "reported": 64,
+          "average": 73.1,
+          "grades": [3, 2, 5, 1, 4, 11, 7, 5, 15, 4, 7],
+          "instructors": ["Farshid Agharebparast"]
+        },
+        {
+          "session": "2023W",
+          "reported": 1059,
+          "average": 81.7,
+          "grades": [116, 6, 6, 6, 14, 10, 47, 83, 150, 171, 422],
+          "instructors": ["Cristian Sorin Grecu", "Seyyed Hosseini", "Hendrik Blok", "Oluwakemi Ola", "Saloome Motavas"]
+        },
+        {
+          "session": "2023S",
+          "reported": 47,
+          "average": 75.6,
+          "grades": [1, 2, 2, 1, 3, 6, 7, 3, 12, 2, 7],
+          "instructors": ["Farshid Agharebparast"]
+        },
+        {
+          "session": "2022W",
+          "reported": 1036,
+          "average": 82.8,
+          "grades": [56, 4, 8, 13, 24, 43, 54, 71, 142, 200, 421],
+          "instructors": ["Cristian Sorin Grecu", "Seyyed Hosseini", "Hendrik Blok", "Geoffrey Tien", "Saloome Motavas"]
+        },
+        {
+          "session": "2022S",
+          "reported": 93,
+          "average": 74.1,
+          "grades": [3, 3, 5, 4, 10, 10, 14, 6, 15, 14, 9],
+          "instructors": ["Farshid Agharebparast"]
+        },
+        {
+          "session": "2021W",
+          "reported": 1011,
+          "average": 78.8,
+          "grades": [92, 0, 0, 0, 14, 58, 97, 109, 152, 141, 287],
+          "instructors": ["Cristian Sorin Grecu", "Joel Ostblom", "Geoffrey Tien", "Seyyed Hosseini", "Hendrik Blok", "Saloome Motavas"]
+        },
+        {
+          "session": "2021S",
+          "reported": 108,
+          "average": 81.7,
+          "grades": [6, 0, 0, 0, 0, 7, 0, 13, 14, 21, 36],
+          "instructors": ["Daniel Holanda Noronha"]
+        }
+      ]
+    },
+    "APSC 172": {
+      "reported": 264,
+      "average": 63.0,
+      "grades": [57, 35, 9, 11, 14, 14, 18, 3, 22, 20, 33],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 55,
+          "average": 62.4,
+          "grades": [12, 9, 4, 3, 4, 3, 1, 1, 3, 7, 8],
+          "instructors": ["Juan Abelló"]
+        },
+        {
+          "session": "2024W",
+          "reported": 50,
+          "average": 63.3,
+          "grades": [9, 7, 2, 4, 2, 4, 9, 1, 4, 2, 6],
+          "instructors": ["Juan Abello Rubio"]
+        },
+        {
+          "session": "2023W",
+          "reported": 42,
+          "average": 64.0,
+          "grades": [12, 2, 0, 2, 6, 1, 2, 0, 4, 3, 9],
+          "instructors": ["Juan Abello Rubio"]
+        },
+        {
+          "session": "2022W",
+          "reported": 56,
+          "average": 68.1,
+          "grades": [9, 5, 3, 2, 2, 6, 6, 1, 4, 8, 10],
+          "instructors": ["Juan Abello Rubio"]
+        },
+        {
+          "session": "2021W",
+          "reported": 61,
+          "average": 58.0,
+          "grades": [15, 12, 0, 0, 0, 0, 0, 0, 7, 0, 0],
+          "instructors": ["Juan Abello Rubio"]
+        }
+      ]
+    },
+    "APSC 173": {
+      "reported": 203,
+      "average": 64.2,
+      "grades": [41, 16, 18, 8, 13, 12, 8, 10, 12, 12, 23],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 42,
+          "average": 66.7,
+          "grades": [5, 4, 6, 4, 1, 5, 4, 3, 2, 5, 3],
+          "instructors": ["Ian Frigaard"]
+        },
+        {
+          "session": "2024W",
+          "reported": 42,
+          "average": 58.7,
+          "grades": [12, 5, 4, 1, 5, 4, 2, 1, 3, 2, 3],
+          "instructors": ["Juan Abello Rubio"]
+        },
+        {
+          "session": "2023W",
+          "reported": 27,
+          "average": 68.3,
+          "grades": [3, 3, 4, 1, 3, 0, 1, 4, 2, 1, 5],
+          "instructors": ["Juan Abello Rubio"]
+        },
+        {
+          "session": "2022W",
+          "reported": 46,
+          "average": 71.1,
+          "grades": [5, 4, 4, 2, 4, 3, 1, 2, 5, 4, 12],
+          "instructors": ["Juan Abello Rubio"]
+        },
+        {
+          "session": "2021W",
+          "reported": 46,
+          "average": 57.6,
+          "grades": [16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Juan Abello Rubio"]
+        }
+      ]
+    },
+    "APSC 176": {
+      "reported": 223,
+      "average": 73.1,
+      "grades": [6, 9, 3, 10, 11, 16, 29, 39, 44, 17, 2],
+      "terms": [
+        {
+          "session": "2025S",
+          "reported": 45,
+          "average": 77.7,
+          "grades": [0, 1, 0, 0, 1, 3, 8, 13, 14, 4, 1],
+          "instructors": ["Jing Li"]
+        },
+        {
+          "session": "2024S",
+          "reported": 31,
+          "average": 78.5,
+          "grades": [0, 0, 0, 1, 2, 4, 3, 7, 7, 7, 0],
+          "instructors": []
+        },
+        {
+          "session": "2023S",
+          "reported": 52,
+          "average": 76.8,
+          "grades": [0, 0, 0, 1, 5, 3, 10, 12, 17, 4, 0],
+          "instructors": ["Jing Li"]
+        },
+        {
+          "session": "2022S",
+          "reported": 52,
+          "average": 67.3,
+          "grades": [6, 2, 3, 8, 3, 6, 8, 7, 6, 2, 1],
+          "instructors": ["Jannik Eikenaar"]
+        },
+        {
+          "session": "2021S",
+          "reported": 43,
+          "average": 67.0,
+          "grades": [0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Jannik Eikenaar"]
+        }
+      ]
+    },
+    "APSC 178": {
+      "reported": 247,
+      "average": 77.6,
+      "grades": [7, 1, 5, 12, 14, 18, 20, 24, 44, 19, 62],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 51,
+          "average": 76.5,
+          "grades": [3, 0, 0, 5, 4, 4, 2, 8, 11, 3, 11],
+          "instructors": ["Siamak Najarian"]
+        },
+        {
+          "session": "2024W",
+          "reported": 48,
+          "average": 76.9,
+          "grades": [2, 0, 1, 4, 5, 2, 2, 10, 6, 6, 10],
+          "instructors": ["Siamak Najarian"]
+        },
+        {
+          "session": "2023W",
+          "reported": 37,
+          "average": 77.0,
+          "grades": [2, 0, 4, 0, 3, 3, 5, 3, 4, 6, 6],
+          "instructors": ["Siamak Najarian"]
+        },
+        {
+          "session": "2022W",
+          "reported": 53,
+          "average": 83.4,
+          "grades": [0, 1, 0, 3, 2, 3, 5, 3, 10, 4, 22],
+          "instructors": ["Siamak Najarian"]
+        },
+        {
+          "session": "2021W",
+          "reported": 58,
+          "average": 74.4,
+          "grades": [0, 0, 0, 0, 0, 6, 6, 0, 13, 0, 13],
+          "instructors": ["Siamak Najarian"]
+        }
+      ]
+    },
+    "APSC 179": {
+      "reported": 224,
+      "average": 75.2,
+      "grades": [14, 9, 12, 13, 10, 12, 17, 10, 41, 24, 48],
+      "terms": [
+        {
+          "session": "2025S",
+          "reported": 45,
+          "average": 74.5,
+          "grades": [2, 3, 2, 4, 2, 3, 5, 3, 9, 4, 8],
+          "instructors": ["Elizabeth Trudel"]
+        },
+        {
+          "session": "2024S",
+          "reported": 32,
+          "average": 80.4,
+          "grades": [2, 0, 0, 1, 1, 3, 3, 3, 3, 7, 9],
+          "instructors": []
+        },
+        {
+          "session": "2023S",
+          "reported": 52,
+          "average": 80.6,
+          "grades": [2, 1, 4, 3, 2, 1, 3, 2, 8, 5, 21],
+          "instructors": ["Elizabeth Trudel"]
+        },
+        {
+          "session": "2022S",
+          "reported": 52,
+          "average": 64.6,
+          "grades": [8, 5, 6, 5, 5, 5, 6, 2, 6, 2, 2],
+          "instructors": ["Ray Taheri-Ardebili"]
+        },
+        {
+          "session": "2021S",
+          "reported": 43,
+          "average": 78.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 15, 6, 8],
+          "instructors": ["Mehran Shirazi"]
+        }
+      ]
+    },
+    "APSC 180": {
+      "reported": 224,
+      "average": 72.3,
+      "grades": [18, 9, 9, 9, 14, 29, 14, 22, 33, 19, 24],
+      "terms": [
+        {
+          "session": "2025S",
+          "reported": 45,
+          "average": 71.6,
+          "grades": [4, 3, 4, 2, 3, 4, 1, 9, 6, 6, 3],
+          "instructors": ["Ernest Goh"]
+        },
+        {
+          "session": "2024S",
+          "reported": 32,
+          "average": 66.3,
+          "grades": [1, 6, 5, 4, 2, 4, 2, 1, 3, 0, 4],
+          "instructors": []
+        },
+        {
+          "session": "2023S",
+          "reported": 52,
+          "average": 76.9,
+          "grades": [7, 0, 0, 1, 3, 4, 4, 8, 8, 4, 13],
+          "instructors": ["Seach Chyr Goh"]
+        },
+        {
+          "session": "2022S",
+          "reported": 52,
+          "average": 73.3,
+          "grades": [6, 0, 0, 2, 6, 9, 7, 4, 5, 9, 4],
+          "instructors": ["Seach Chyr Goh"]
+        },
+        {
+          "session": "2021S",
+          "reported": 43,
+          "average": 70.9,
+          "grades": [0, 0, 0, 0, 0, 8, 0, 0, 11, 0, 0],
+          "instructors": ["Peyman Yousefi"]
+        }
+      ]
+    },
+    "APSC 182": {
+      "reported": 264,
+      "average": 64.8,
+      "grades": [41, 28, 20, 11, 37, 17, 14, 24, 19, 18, 9],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 55,
+          "average": 62.7,
+          "grades": [8, 11, 6, 3, 4, 6, 2, 6, 3, 5, 1],
+          "instructors": ["Vladan Prodanovic"]
+        },
+        {
+          "session": "2024W",
+          "reported": 50,
+          "average": 62.5,
+          "grades": [5, 7, 8, 6, 7, 3, 6, 4, 2, 0, 2],
+          "instructors": ["Vladan Prodanovic"]
+        },
+        {
+          "session": "2023W",
+          "reported": 42,
+          "average": 64.0,
+          "grades": [9, 4, 4, 1, 8, 2, 1, 3, 3, 3, 3],
+          "instructors": ["Vladan Prodanovic"]
+        },
+        {
+          "session": "2022W",
+          "reported": 56,
+          "average": 63.9,
+          "grades": [12, 6, 2, 1, 10, 6, 5, 4, 5, 2, 3],
+          "instructors": ["Vladan Prodanovic"]
+        },
+        {
+          "session": "2021W",
+          "reported": 61,
+          "average": 69.9,
+          "grades": [7, 0, 0, 0, 8, 0, 0, 7, 6, 8, 0],
+          "instructors": ["Vladan Prodanovic"]
+        }
+      ]
+    },
+    "APSC 183": {
+      "reported": 250,
+      "average": 70.5,
+      "grades": [32, 13, 3, 10, 23, 27, 24, 28, 21, 29, 15],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 52,
+          "average": 71.6,
+          "grades": [7, 2, 1, 3, 3, 4, 6, 7, 7, 8, 4],
+          "instructors": ["Seyyed Alireza Bagherzadeh Hosseini"]
+        },
+        {
+          "session": "2024W",
+          "reported": 49,
+          "average": 70.8,
+          "grades": [9, 2, 0, 2, 1, 4, 8, 6, 8, 7, 2],
+          "instructors": ["Seyyed Alireza Bagherzadeh Hosseini"]
+        },
+        {
+          "session": "2023W",
+          "reported": 38,
+          "average": 67.3,
+          "grades": [5, 4, 1, 3, 8, 3, 2, 3, 2, 3, 3],
+          "instructors": ["Seyyed Alireza Bagherzadeh Hosseini"]
+        },
+        {
+          "session": "2022W",
+          "reported": 53,
+          "average": 73.1,
+          "grades": [3, 5, 1, 2, 5, 5, 8, 3, 4, 11, 6],
+          "instructors": ["Seyyed Alireza Bagherzadeh Hosseini"]
+        },
+        {
+          "session": "2021W",
+          "reported": 58,
+          "average": 68.9,
+          "grades": [8, 0, 0, 0, 6, 11, 0, 9, 0, 0, 0],
+          "instructors": ["Seyyed Alireza Bagherzadeh Hosseini"]
+        }
+      ]
+    },
+    "APSC 201": {
+      "reported": 420,
+      "average": 73.4,
+      "grades": [12, 3, 4, 12, 19, 44, 80, 89, 75, 11, 1],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 85,
+          "average": 75.3,
+          "grades": [1, 0, 1, 0, 4, 10, 16, 38, 14, 1, 0],
+          "instructors": ["Hartaj Sanghara", "Hongxing Estella Qi"]
+        },
+        {
+          "session": "2025S",
+          "reported": 13,
+          "average": 69.1,
+          "grades": [0, 2, 0, 0, 2, 2, 3, 3, 1, 0, 0],
+          "instructors": ["Hongxing Estella Qi"]
+        },
+        {
+          "session": "2024W",
+          "reported": 84,
+          "average": 74.0,
+          "grades": [1, 1, 2, 5, 4, 11, 15, 23, 20, 2, 0],
+          "instructors": ["Hartaj Sanghara", "Hongxing Estella Qi"]
+        },
+        {
+          "session": "2024S",
+          "reported": 11,
+          "average": 71.6,
+          "grades": [0, 0, 0, 0, 2, 3, 5, 0, 1, 0, 0],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "reported": 69,
+          "average": 72.7,
+          "grades": [6, 0, 1, 2, 1, 9, 23, 11, 12, 4, 0],
+          "instructors": ["Hartaj Sanghara", "Michael Schoen", "Hongxing Estella Qi"]
+        },
+        {
+          "session": "2023S",
+          "reported": 17,
+          "average": 71.6,
+          "grades": [0, 0, 0, 1, 3, 4, 5, 1, 3, 0, 0],
+          "instructors": ["Hongxing Estella Qi"]
+        },
+        {
+          "session": "2022W",
+          "reported": 50,
+          "average": 75.7,
+          "grades": [3, 0, 0, 1, 2, 2, 13, 10, 14, 4, 1],
+          "instructors": ["Hartaj Sanghara", "Hongxing Estella Qi", "Michael Schoen"]
+        },
+        {
+          "session": "2022S",
+          "reported": 13,
+          "average": 68.7,
+          "grades": [1, 0, 0, 3, 1, 3, 0, 3, 2, 0, 0],
+          "instructors": ["Hongxing Estella Qi"]
+        },
+        {
+          "session": "2021W",
+          "reported": 58,
+          "average": 72.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 8, 0, 0],
+          "instructors": ["Hartaj Sanghara", "Hongxing Estella Qi", "Michael Schoen"]
+        },
+        {
+          "session": "2021S",
+          "reported": 20,
+          "average": 72.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Hongxing Estella Qi"]
+        }
+      ]
+    },
+    "APSC 202": {
+      "reported": 58,
+      "average": 85.7,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 2, 19, 30, 7],
+      "terms": [
+        {
+          "session": "2025S",
+          "reported": 58,
+          "average": 85.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 2, 19, 30, 7],
+          "instructors": ["Matthew Wong"]
+        }
+      ]
+    },
+    "APSC 261": {
+      "reported": 140,
+      "average": 78.9,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 14, 29, 28, 21],
+      "terms": [
+        {
+          "session": "2021W",
+          "reported": 140,
+          "average": 78.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 14, 29, 28, 21],
+          "instructors": ["Paul Winkelman", "Earl Foster"]
+        }
+      ]
+    },
+    "APSC 262": {
+      "reported": 1246,
+      "average": 83.6,
+      "grades": [7, 7, 13, 13, 31, 39, 58, 86, 254, 315, 367],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 118,
+          "average": 88.5,
+          "grades": [1, 0, 1, 1, 2, 2, 2, 2, 14, 21, 72],
+          "instructors": ["Alexander Jameson"]
+        },
+        {
+          "session": "2025S",
+          "reported": 89,
+          "average": 90.1,
+          "grades": [0, 0, 0, 0, 0, 1, 1, 3, 4, 14, 66],
+          "instructors": ["Alexander Jameson"]
+        },
+        {
+          "session": "2024W",
+          "reported": 122,
+          "average": 83.0,
+          "grades": [2, 2, 1, 0, 2, 8, 1, 15, 25, 28, 38],
+          "instructors": ["Roza Vaez Ghaemi", "Gabriel Potvin"]
+        },
+        {
+          "session": "2024S",
+          "reported": 82,
+          "average": 85.8,
+          "grades": [0, 2, 1, 0, 1, 2, 1, 5, 11, 21, 38],
+          "instructors": ["Roza Vaez Ghaemi"]
+        },
+        {
+          "session": "2023W",
+          "reported": 207,
+          "average": 84.6,
+          "grades": [1, 0, 5, 2, 2, 4, 12, 10, 46, 54, 66],
+          "instructors": ["Roza Vaez Ghaemi", "Paul Winkelman", "Gabriel Potvin"]
+        },
+        {
+          "session": "2023S",
+          "reported": 73,
+          "average": 82.2,
+          "grades": [0, 1, 0, 2, 1, 5, 3, 6, 15, 27, 12],
+          "instructors": ["Roza Vaez Ghaemi"]
+        },
+        {
+          "session": "2022W",
+          "reported": 280,
+          "average": 80.4,
+          "grades": [2, 1, 5, 7, 18, 15, 33, 19, 64, 60, 56],
+          "instructors": ["Roza Vaez Ghaemi", "Paul Winkelman", "Gabriel Potvin", "Dhaneshwarie Kannangara"]
+        },
+        {
+          "session": "2022S",
+          "reported": 77,
+          "average": 80.3,
+          "grades": [1, 1, 0, 1, 5, 2, 5, 12, 15, 24, 11],
+          "instructors": ["Paul Winkelman", "Ataollah Kheyrandish", "Roza Vaez Ghaemi"]
+        },
+        {
+          "session": "2021W",
+          "reported": 122,
+          "average": 83.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 6, 33, 51, 8],
+          "instructors": ["Gabriel Potvin", "Jane Hill", "Earl Foster"]
+        },
+        {
+          "session": "2021S",
+          "reported": 76,
+          "average": 81.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 8, 27, 15, 0],
+          "instructors": ["Paul Winkelman", "Ataollah Kheyrandish", "Sean Mcbeath"]
+        }
+      ]
+    },
+    "APSC 278": {
+      "reported": 2537,
+      "average": 74.2,
+      "grades": [76, 93, 141, 179, 220, 273, 297, 296, 373, 285, 302],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 522,
+          "average": 70.4,
+          "grades": [14, 23, 39, 56, 63, 84, 58, 65, 56, 38, 26],
+          "instructors": ["Jon Nakane", "Farzaneh Farhang Mehr"]
+        },
+        {
+          "session": "2024W",
+          "reported": 512,
+          "average": 75.8,
+          "grades": [11, 9, 18, 29, 33, 60, 75, 63, 96, 64, 54],
+          "instructors": ["Andrew Zang", "Jonathan Nakane"]
+        },
+        {
+          "session": "2023W",
+          "reported": 497,
+          "average": 78.1,
+          "grades": [15, 19, 19, 19, 24, 36, 44, 53, 79, 75, 112],
+          "instructors": ["Gabrielle Lam"]
+        },
+        {
+          "session": "2022W",
+          "reported": 516,
+          "average": 74.8,
+          "grades": [11, 18, 25, 42, 50, 48, 56, 60, 74, 70, 62],
+          "instructors": ["Gabrielle Lam"]
+        },
+        {
+          "session": "2021W",
+          "reported": 490,
+          "average": 71.9,
+          "grades": [25, 24, 40, 33, 50, 45, 64, 55, 68, 38, 48],
+          "instructors": ["Gabrielle Lam"]
+        }
+      ]
+    },
+    "APSC 279": {
+      "reported": 2056,
+      "average": 86.0,
+      "grades": [20, 9, 16, 15, 20, 31, 63, 104, 212, 373, 912],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 412,
+          "average": 87.2,
+          "grades": [7, 3, 4, 3, 3, 8, 12, 23, 38, 102, 209],
+          "instructors": ["Amir M. Dehkhoda", "Daniel Csehngeri", "Mohammad Amin Razmjoo Khollari", "Hanan Jumaa Alhejazi"]
+        },
+        {
+          "session": "2024W",
+          "reported": 418,
+          "average": 88.0,
+          "grades": [2, 0, 5, 3, 4, 4, 17, 25, 54, 86, 218],
+          "instructors": ["Hanan Jumaa Alhejazi", "Andrew Zang", "Siying Wu", "Siti Hasan", "Amir Mehdi Dehkhoda", "Meet Upadhyay", "Golnoush Mashhadi", "Mohammad Amin Razmjoo Khollari"]
+        },
+        {
+          "session": "2023W",
+          "reported": 410,
+          "average": 87.2,
+          "grades": [7, 2, 4, 4, 5, 9, 13, 25, 47, 73, 218],
+          "instructors": ["Gabrielle Lam", "Hanan Jumaa Alhejazi", "Mohammad Amin Razmjoo Khollari", "Mohammadyousef Azimi", "Amin Imani"]
+        },
+        {
+          "session": "2022W",
+          "reported": 425,
+          "average": 86.3,
+          "grades": [4, 4, 3, 5, 8, 10, 21, 25, 54, 87, 204],
+          "instructors": ["Mohammadyousef Azimi", "Gabrielle Lam", "Hossein Kheirollahi Nataj Bisheh", "Andrew Zang", "Amin Imani", "Hossein Zargarnezhad"]
+        },
+        {
+          "session": "2021W",
+          "reported": 391,
+          "average": 81.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 6, 19, 25, 63],
+          "instructors": ["Berend Wassink", "Gabrielle Lam", "Atif Hussain", "Hossein Kheirollahi Nataj Bisheh", "Hossein Zargarnezhad", "Andrew Zang"]
+        }
+      ]
+    },
+    "APSC 366": {
+      "reported": 265,
+      "average": 84.9,
+      "grades": [1, 1, 0, 4, 3, 2, 7, 20, 41, 99, 75],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 56,
+          "average": 87.9,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 5, 5, 27, 18],
+          "instructors": ["Jane Hill", "Matthew Yedlin", "Peter Ostafichuk", "Agnes d'Entremont"]
+        },
+        {
+          "session": "2024W",
+          "reported": 55,
+          "average": 84.4,
+          "grades": [0, 0, 0, 2, 0, 2, 4, 4, 8, 21, 14],
+          "instructors": ["Cristian Sorin Grecu", "Jane Hill", "Peter Ostafichuk", "Agnes d'Entremont"]
+        },
+        {
+          "session": "2023W",
+          "reported": 61,
+          "average": 85.2,
+          "grades": [0, 1, 0, 2, 1, 0, 1, 1, 15, 21, 18],
+          "instructors": ["Jane Hill", "Peter Ostafichuk", "Agnes D'Entremont", "Cristian Sorin Grecu"]
+        },
+        {
+          "session": "2022W",
+          "reported": 50,
+          "average": 85.8,
+          "grades": [1, 0, 0, 0, 2, 0, 1, 4, 6, 19, 17],
+          "instructors": ["Cristian Sorin Grecu", "Peter Ostafichuk", "Agnes D'Entremont"]
+        },
+        {
+          "session": "2021W",
+          "reported": 43,
+          "average": 80.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 6, 7, 11, 8],
+          "instructors": ["Jonathan Verrett", "Sahil Bhandari", "Jane Hill", "Cristian Sorin Grecu"]
+        }
+      ]
+    },
+    "APSC 367": {
+      "reported": 67,
+      "average": 85.2,
+      "grades": [0, 0, 0, 1, 0, 0, 0, 3, 20, 32, 11],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 20,
+          "average": 86.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 7, 12, 1],
+          "instructors": ["Tamara Etmannski", "Jenny Peterson"]
+        },
+        {
+          "session": "2024W",
+          "reported": 21,
+          "average": 85.3,
+          "grades": [0, 0, 0, 1, 0, 0, 0, 0, 5, 9, 6],
+          "instructors": ["Gabriel Potvin", "Christoph Schultz"]
+        },
+        {
+          "session": "2023W",
+          "reported": 26,
+          "average": 84.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 3, 8, 11, 4],
+          "instructors": ["Gabriel Potvin", "Jenny Peterson"]
+        }
+      ]
+    },
+    "APSC 377": {
+      "reported": 98,
+      "average": 82.1,
+      "grades": [2, 0, 1, 0, 1, 0, 7, 6, 33, 38, 10],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 32,
+          "average": 85.1,
+          "grades": [1, 0, 0, 0, 0, 0, 0, 0, 8, 17, 6],
+          "instructors": ["Matthew Yedlin", "Allen Sens"]
+        },
+        {
+          "session": "2024W",
+          "reported": 30,
+          "average": 81.7,
+          "grades": [1, 0, 1, 0, 0, 0, 0, 2, 9, 13, 4],
+          "instructors": ["Matthew Yedlin", "Allen Sens"]
+        },
+        {
+          "session": "2022W",
+          "reported": 36,
+          "average": 79.9,
+          "grades": [0, 0, 0, 0, 1, 0, 7, 4, 16, 8, 0],
+          "instructors": ["Matthew Yedlin", "Allen Sens"]
+        }
+      ]
+    },
+    "APSC 383": {
+      "reported": 126,
+      "average": 83.1,
+      "grades": [0, 0, 1, 2, 0, 1, 6, 11, 35, 31, 28],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 31,
+          "average": 81.8,
+          "grades": [0, 0, 1, 0, 0, 0, 3, 4, 13, 3, 7],
+          "instructors": ["Jonathan Nakane", "David Miller"]
+        },
+        {
+          "session": "2023W",
+          "reported": 32,
+          "average": 81.6,
+          "grades": [0, 0, 0, 2, 0, 1, 3, 3, 7, 13, 3],
+          "instructors": ["Jonathan Nakane", "David Miller"]
+        },
+        {
+          "session": "2022W",
+          "reported": 34,
+          "average": 84.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 4, 15, 5, 10],
+          "instructors": ["Jonathan Nakane", "David Miller"]
+        },
+        {
+          "session": "2021W",
+          "reported": 29,
+          "average": 84.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 8],
+          "instructors": ["Jonathan Nakane", "David Miller"]
+        }
+      ]
+    },
+    "APSC 440": {
+      "reported": 181,
+      "average": 81.0,
+      "grades": [0, 0, 0, 0, 2, 11, 17, 18, 62, 48, 14],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 25,
+          "average": 81.2,
+          "grades": [0, 0, 0, 0, 0, 0, 6, 4, 7, 6, 2],
+          "instructors": ["Fraser Pogue", "Clayton Weir"]
+        },
+        {
+          "session": "2024W",
+          "reported": 31,
+          "average": 86.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 2, 9, 14, 6],
+          "instructors": ["Linh Le"]
+        },
+        {
+          "session": "2023W",
+          "reported": 40,
+          "average": 85.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 2, 11, 21, 6],
+          "instructors": ["Clayton Weir", "Linh le"]
+        },
+        {
+          "session": "2022W",
+          "reported": 37,
+          "average": 80.3,
+          "grades": [0, 0, 0, 0, 2, 1, 4, 2, 21, 7, 0],
+          "instructors": ["Fraser Pogue", "Linh le"]
+        },
+        {
+          "session": "2021W",
+          "reported": 48,
+          "average": 74.1,
+          "grades": [0, 0, 0, 0, 0, 10, 7, 8, 14, 0, 0],
+          "instructors": ["Rui Jorge Basto Da Silva"]
+        }
+      ]
+    },
+    "APSC 450": {
+      "reported": 3165,
+      "average": 83.0,
+      "grades": [4, 2, 15, 13, 44, 127, 238, 385, 829, 886, 607],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 539,
+          "average": 85.4,
+          "grades": [1, 0, 1, 1, 5, 10, 17, 50, 118, 186, 150],
+          "instructors": ["Jacquie Nelsen", "Fariborz Taghipour"]
+        },
+        {
+          "session": "2024W",
+          "reported": 612,
+          "average": 84.3,
+          "grades": [2, 1, 1, 1, 6, 18, 35, 54, 150, 181, 163],
+          "instructors": ["Jacqueline Laura Nelsen", "Roza Vaez Ghaemi", "Michael Stewart"]
+        },
+        {
+          "session": "2023W",
+          "reported": 669,
+          "average": 82.7,
+          "grades": [1, 0, 3, 7, 8, 28, 49, 105, 183, 163, 119],
+          "instructors": ["Jacqueline Laura Nelsen", "Roza Vaez Ghaemi", "Fariborz Taghipour"]
+        },
+        {
+          "session": "2022W",
+          "reported": 574,
+          "average": 81.8,
+          "grades": [0, 1, 4, 4, 15, 35, 59, 81, 145, 134, 96],
+          "instructors": ["Jacqueline Laura Nelsen", "W Scott Dunbar", "Fariborz Taghipour"]
+        },
+        {
+          "session": "2021W",
+          "reported": 771,
+          "average": 81.5,
+          "grades": [0, 0, 6, 0, 10, 36, 78, 95, 233, 222, 79],
+          "instructors": ["W Scott Dunbar", "Fariborz Taghipour"]
+        }
+      ]
+    },
+    "APSC 461": {
+      "reported": 38,
+      "average": 80.2,
+      "grades": [0, 0, 0, 0, 0, 2, 0, 12, 4, 5, 1],
+      "terms": [
+        {
+          "session": "2022S",
+          "reported": 17,
+          "average": 80.4,
+          "grades": [0, 0, 0, 0, 0, 2, 0, 5, 4, 5, 1],
+          "instructors": ["Paul Winkelman"]
+        },
+        {
+          "session": "2021S",
+          "reported": 21,
+          "average": 80.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 7, 0, 0, 0],
+          "instructors": ["Paul Winkelman"]
+        }
+      ]
+    },
+    "APSC 486": {
+      "reported": 212,
+      "average": 83.7,
+      "grades": [0, 0, 0, 0, 0, 0, 2, 11, 98, 93, 4],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 45,
+          "average": 84.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 3, 25, 17, 0],
+          "instructors": ["Fraser Pogue", "Purang Abolmaesumi", "Terry Lee", "Annelies Tjebbes", "Blair Simonite"]
+        },
+        {
+          "session": "2024W",
+          "reported": 40,
+          "average": 85.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 11, 29, 0],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "reported": 45,
+          "average": 84.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 4, 18, 20, 3],
+          "instructors": ["Purang Abolmaesumi", "Angele Beausoleil", "Fraser Pogue", "James Blair Simonite", "Paul Lusina"]
+        },
+        {
+          "session": "2022W",
+          "reported": 40,
+          "average": 82.4,
+          "grades": [0, 0, 0, 0, 0, 0, 2, 4, 21, 12, 1],
+          "instructors": ["James Blair Simonite", "David Miller", "Fraser Pogue", "Paul Lusina", "Konrad Walus"]
+        },
+        {
+          "session": "2021W",
+          "reported": 42,
+          "average": 82.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 23, 15, 0],
+          "instructors": ["Elicia Salzberg", "David Miller", "Purang Abolmaesumi", "James Blair Simonite", "Fraser Pogue", "Konrad Walus"]
+        }
+      ]
+    },
+    "APSC 496": {
+      "reported": 78,
+      "average": 83.1,
+      "grades": [0, 0, 0, 0, 0, 1, 2, 6, 33, 19, 1],
+      "terms": [
+        {
+          "session": "2025W",
+          "topic": "E",
+          "title": "Interdisciplinary Engineering Design Project",
+          "reported": 13,
+          "average": 82.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 9, 3, 0],
+          "instructors": ["Fraser Pogue", "Purang Abolmaesumi"]
+        },
+        {
+          "session": "2024W",
+          "topic": "E",
+          "title": "Interdisciplinary Engineering Design Project",
+          "reported": 13,
+          "average": 85.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 3, 9, 1],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "topic": "A",
+          "title": "Interdisciplinary Engineering Design Project",
+          "reported": 9,
+          "average": 79.6,
+          "grades": [0, 0, 0, 0, 0, 1, 1, 2, 3, 2, 0],
+          "instructors": ["George Rawlings"]
+        },
+        {
+          "session": "2023W",
+          "topic": "E",
+          "title": "Interdisciplinary Engineering Design Project",
+          "reported": 10,
+          "average": 81.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 2, 6, 2, 0],
+          "instructors": ["Purang Abolmaesumi", "Angele Beausoleil", "Fraser Pogue", "James Blair Simonite", "Paul Lusina"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Interdisciplinary Engineering Design Project",
+          "reported": 10,
+          "average": 82.6,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 1, 5, 3, 0],
+          "instructors": ["George Rawlings", "Hendrik van der Loos", "Antony Hodgson"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Interdisciplinary Engineering Design Project",
+          "reported": 9,
+          "average": 85.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["George Rawlings", "Antony Hodgson"]
+        },
+        {
+          "session": "2021W",
+          "topic": "E",
+          "title": "Interdisciplinary Engineering Design Project",
+          "reported": 14,
+          "average": 83.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 7, 0, 0],
+          "instructors": ["Elicia Salzberg", "David Miller", "Purang Abolmaesumi", "James Blair Simonite", "Fraser Pogue", "Konrad Walus"]
+        }
+      ]
+    },
+    "APSC 540": {
+      "reported": 107,
+      "average": 86.3,
+      "grades": [0, 0, 0, 0, 0, 0, 2, 6, 19, 37, 35],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 20,
+          "average": 87.1,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 2, 9, 8],
+          "instructors": ["Tamara Etmannski"]
+        },
+        {
+          "session": "2023W",
+          "reported": 24,
+          "average": 88.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 15],
+          "instructors": ["Tamara Etmannski"]
+        },
+        {
+          "session": "2022W",
+          "reported": 34,
+          "average": 86.0,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 6, 3, 12, 12],
+          "instructors": ["Tamara Etmannski"]
+        },
+        {
+          "session": "2021W",
+          "reported": 29,
+          "average": 83.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 9, 12, 0],
+          "instructors": ["Tamara Etmannski"]
+        }
+      ]
+    },
+    "APSC 541": {
+      "reported": 95,
+      "average": 83.0,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 56, 16, 4],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 14,
+          "average": 85.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 5, 5, 4],
+          "instructors": ["Jonathan Nakane", "Robin Coope", "Fraser Pogue", "Paul Cubbon"]
+        },
+        {
+          "session": "2023W",
+          "reported": 15,
+          "average": 85.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 4, 9, 0],
+          "instructors": ["Robin Coope", "Fraser Pogue", "Jonathan Nakane", "Paul Cubbon"]
+        },
+        {
+          "session": "2022W",
+          "reported": 17,
+          "average": 82.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 15, 2, 0],
+          "instructors": ["Jonathan Nakane", "Robin Coope", "Fraser Pogue", "David Miller"]
+        },
+        {
+          "session": "2021W",
+          "reported": 49,
+          "average": 82.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 32, 0, 0],
+          "instructors": ["David Miller", "Alex Feldman", "Fraser Pogue", "Justin Bull"]
+        }
+      ]
+    },
+    "APSC 598": {
+      "reported": 61,
+      "average": 91.4,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 3, 11, 46],
+      "terms": [
+        {
+          "session": "2024W",
+          "topic": "P",
+          "title": "Topics in Engineering",
+          "reported": 12,
+          "average": 88.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 6, 4],
+          "instructors": ["Antony Hodgson"]
+        },
+        {
+          "session": "2023W",
+          "topic": "P",
+          "title": "Topics in Engineering",
+          "reported": 10,
+          "average": 87.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 5],
+          "instructors": ["Chun Wu", "Antony Hodgson"]
+        },
+        {
+          "session": "2022W",
+          "topic": "H",
+          "title": "Topics in Engineering",
+          "reported": 14,
+          "average": 93.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 13],
+          "instructors": ["Vitorio Stana"]
+        },
+        {
+          "session": "2022S",
+          "topic": "H",
+          "title": "Topics in Engineering",
+          "reported": 25,
+          "average": 93.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 24],
+          "instructors": ["Vitorio Stana"]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,730 @@
+{
+  "subject": "MANU",
+  "campus": "UBCV",
+  "source": "https://ubcgrades.com",
+  "credit": "UBCGrades.com / UBC PAIR",
+  "sessions": ["2021W", "2022W", "2023W", "2024W", "2025W"],
+  "buckets": ["<50%", "50-54%", "55-59%", "60-63%", "64-67%", "68-71%", "72-75%", "76-79%", "80-84%", "85-89%", "90-100%"],
+  "courses": {
+    "MANU 201": {
+      "reported": 221,
+      "average": 77.4,
+      "grades": [4, 1, 8, 7, 10, 15, 19, 37, 41, 38, 22],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 43,
+          "average": 79.5,
+          "grades": [0, 0, 3, 0, 2, 2, 6, 7, 9, 7, 7],
+          "instructors": ["Matthew Wong"]
+        },
+        {
+          "session": "2024W",
+          "reported": 46,
+          "average": 77.0,
+          "grades": [2, 0, 3, 2, 4, 1, 3, 8, 9, 7, 7],
+          "instructors": ["Matthew Wong"]
+        },
+        {
+          "session": "2023W",
+          "reported": 51,
+          "average": 80.1,
+          "grades": [2, 0, 0, 1, 3, 1, 3, 9, 10, 15, 7],
+          "instructors": ["Matthew Wong"]
+        },
+        {
+          "session": "2022W",
+          "reported": 39,
+          "average": 75.3,
+          "grades": [0, 1, 2, 4, 1, 4, 7, 6, 4, 9, 1],
+          "instructors": ["Matthew Wong"]
+        },
+        {
+          "session": "2021W",
+          "reported": 42,
+          "average": 74.1,
+          "grades": [0, 0, 0, 0, 0, 7, 0, 7, 9, 0, 0],
+          "instructors": ["Matthew Wong"]
+        }
+      ]
+    },
+    "MANU 230": {
+      "reported": 236,
+      "average": 80.8,
+      "grades": [1, 0, 1, 3, 6, 6, 24, 36, 65, 51, 29],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 46,
+          "average": 81.4,
+          "grades": [0, 0, 1, 0, 0, 4, 6, 8, 7, 12, 8],
+          "instructors": []
+        },
+        {
+          "session": "2024W",
+          "reported": 55,
+          "average": 79.5,
+          "grades": [1, 0, 0, 2, 3, 2, 5, 9, 16, 12, 5],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "reported": 50,
+          "average": 84.8,
+          "grades": [0, 0, 0, 1, 1, 0, 2, 4, 15, 13, 14],
+          "instructors": ["Markus Fengler", "Casey Keulen"]
+        },
+        {
+          "session": "2022W",
+          "reported": 42,
+          "average": 79.7,
+          "grades": [0, 0, 0, 0, 2, 0, 11, 7, 12, 8, 2],
+          "instructors": ["Casey Keulen"]
+        },
+        {
+          "session": "2021W",
+          "reported": 43,
+          "average": 78.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 8, 15, 6, 0],
+          "instructors": ["Markus Fengler", "Casey Keulen"]
+        }
+      ]
+    },
+    "MANU 261": {
+      "reported": 192,
+      "average": 75.2,
+      "grades": [6, 10, 9, 11, 15, 12, 24, 22, 35, 15, 33],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 46,
+          "average": 72.7,
+          "grades": [1, 2, 3, 2, 8, 3, 7, 6, 8, 3, 3],
+          "instructors": ["Casey Keulen"]
+        },
+        {
+          "session": "2024W",
+          "reported": 57,
+          "average": 72.4,
+          "grades": [2, 5, 4, 5, 6, 3, 3, 9, 6, 6, 8],
+          "instructors": ["Casey Keulen"]
+        },
+        {
+          "session": "2023W",
+          "reported": 52,
+          "average": 80.7,
+          "grades": [0, 2, 0, 1, 1, 5, 8, 1, 17, 5, 12],
+          "instructors": ["Casey Keulen"]
+        },
+        {
+          "session": "2022W",
+          "reported": 37,
+          "average": 75.0,
+          "grades": [3, 1, 2, 3, 0, 1, 6, 6, 4, 1, 10],
+          "instructors": ["Casey Keulen"]
+        }
+      ]
+    },
+    "MANU 265": {
+      "reported": 248,
+      "average": 78.3,
+      "grades": [8, 4, 5, 12, 8, 18, 15, 22, 47, 22, 65],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 44,
+          "average": 80.2,
+          "grades": [0, 0, 1, 2, 1, 1, 3, 10, 11, 7, 8],
+          "instructors": ["Kefei Wen"]
+        },
+        {
+          "session": "2024W",
+          "reported": 58,
+          "average": 88.2,
+          "grades": [1, 0, 1, 1, 1, 1, 4, 1, 6, 4, 38],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "reported": 52,
+          "average": 74.9,
+          "grades": [0, 4, 1, 5, 3, 9, 3, 2, 14, 3, 8],
+          "instructors": ["Ahmad Mohammadpanah Foroutaghe"]
+        },
+        {
+          "session": "2022W",
+          "reported": 48,
+          "average": 75.5,
+          "grades": [0, 0, 2, 4, 3, 7, 5, 9, 9, 8, 1],
+          "instructors": ["Ahmad Mohammadpanah Foroutaghe"]
+        },
+        {
+          "session": "2021W",
+          "reported": 46,
+          "average": 70.7,
+          "grades": [7, 0, 0, 0, 0, 0, 0, 0, 7, 0, 10],
+          "instructors": ["Ahmad Mohammadpanah Foroutaghe"]
+        }
+      ]
+    },
+    "MANU 270": {
+      "reported": 222,
+      "average": 76.6,
+      "grades": [5, 1, 0, 7, 13, 17, 41, 31, 42, 30, 21],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 48,
+          "average": 79.9,
+          "grades": [1, 1, 0, 0, 4, 2, 5, 5, 10, 9, 11],
+          "instructors": ["Abbas Hosseini"]
+        },
+        {
+          "session": "2024W",
+          "reported": 50,
+          "average": 78.1,
+          "grades": [1, 0, 0, 0, 3, 3, 10, 12, 7, 8, 6],
+          "instructors": ["Abbas Hosseini"]
+        },
+        {
+          "session": "2023W",
+          "reported": 40,
+          "average": 75.6,
+          "grades": [2, 0, 0, 1, 2, 7, 6, 3, 9, 5, 4],
+          "instructors": ["Abbas Hosseini"]
+        },
+        {
+          "session": "2022W",
+          "reported": 45,
+          "average": 73.1,
+          "grades": [1, 0, 0, 6, 4, 5, 7, 4, 16, 2, 0],
+          "instructors": ["Abbas Hosseini"]
+        },
+        {
+          "session": "2021W",
+          "reported": 39,
+          "average": 75.7,
+          "grades": [0, 0, 0, 0, 0, 0, 13, 7, 0, 6, 0],
+          "instructors": ["Abbas Hosseini"]
+        }
+      ]
+    },
+    "MANU 330": {
+      "reported": 219,
+      "average": 80.8,
+      "grades": [1, 1, 4, 2, 8, 15, 21, 40, 41, 41, 41],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 50,
+          "average": 79.8,
+          "grades": [0, 0, 1, 2, 2, 5, 6, 9, 8, 6, 11],
+          "instructors": ["Casey Keulen", "Adam Clare"]
+        },
+        {
+          "session": "2024W",
+          "reported": 45,
+          "average": 79.5,
+          "grades": [1, 1, 1, 0, 1, 2, 7, 10, 3, 13, 6],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "reported": 38,
+          "average": 85.1,
+          "grades": [0, 0, 0, 0, 0, 1, 2, 7, 6, 8, 13],
+          "instructors": ["Casey Keulen"]
+        },
+        {
+          "session": "2022W",
+          "reported": 45,
+          "average": 76.9,
+          "grades": [0, 0, 2, 0, 5, 7, 6, 8, 10, 2, 5],
+          "instructors": ["Casey Keulen"]
+        },
+        {
+          "session": "2021W",
+          "reported": 41,
+          "average": 83.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 6, 14, 12, 6],
+          "instructors": ["Casey Keulen"]
+        }
+      ]
+    },
+    "MANU 370": {
+      "reported": 145,
+      "average": 80.0,
+      "grades": [0, 0, 0, 7, 4, 9, 22, 22, 26, 31, 15],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 38,
+          "average": 80.7,
+          "grades": [0, 0, 0, 2, 1, 4, 4, 5, 5, 9, 8],
+          "instructors": ["Babak Tosarkani"]
+        },
+        {
+          "session": "2024W",
+          "reported": 45,
+          "average": 76.7,
+          "grades": [0, 0, 0, 4, 3, 4, 8, 8, 11, 6, 1],
+          "instructors": ["Babak Mohamadpour Tosarkani"]
+        },
+        {
+          "session": "2023W",
+          "reported": 27,
+          "average": 79.9,
+          "grades": [0, 0, 0, 1, 0, 1, 7, 5, 4, 7, 2],
+          "instructors": ["Babak Mohamadpour Tosarkani"]
+        },
+        {
+          "session": "2022W",
+          "reported": 26,
+          "average": 83.2,
+          "grades": [0, 0, 0, 0, 0, 0, 3, 4, 6, 9, 4],
+          "instructors": ["Babak Mohamadpour Tosarkani"]
+        },
+        {
+          "session": "2021W",
+          "reported": 9,
+          "average": 83.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Babak Mohamadpour Tosarkani"]
+        }
+      ]
+    },
+    "MANU 378": {
+      "reported": 216,
+      "average": 80.5,
+      "grades": [1, 1, 0, 4, 6, 15, 22, 34, 46, 52, 22],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 53,
+          "average": 79.9,
+          "grades": [1, 0, 0, 1, 2, 4, 7, 11, 9, 13, 5],
+          "instructors": ["Jacqueline Noder"]
+        },
+        {
+          "session": "2024W",
+          "reported": 43,
+          "average": 80.8,
+          "grades": [0, 0, 0, 1, 2, 2, 8, 6, 8, 10, 6],
+          "instructors": ["Yixin Wang"]
+        },
+        {
+          "session": "2023W",
+          "reported": 37,
+          "average": 85.5,
+          "grades": [0, 0, 0, 0, 0, 3, 1, 1, 8, 16, 8],
+          "instructors": ["Andrew Zang"]
+        },
+        {
+          "session": "2022W",
+          "reported": 45,
+          "average": 78.2,
+          "grades": [0, 1, 0, 2, 2, 6, 6, 5, 13, 7, 3],
+          "instructors": ["Amanda Clifford"]
+        },
+        {
+          "session": "2021W",
+          "reported": 38,
+          "average": 78.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 11, 8, 6, 0],
+          "instructors": ["Amanda Clifford"]
+        }
+      ]
+    },
+    "MANU 380": {
+      "reported": 218,
+      "average": 74.5,
+      "grades": [1, 3, 10, 14, 18, 18, 39, 33, 41, 23, 7],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 53,
+          "average": 73.8,
+          "grades": [0, 1, 6, 4, 4, 6, 6, 7, 11, 6, 2],
+          "instructors": ["Abbas Hosseini"]
+        },
+        {
+          "session": "2024W",
+          "reported": 45,
+          "average": 74.0,
+          "grades": [0, 2, 0, 3, 3, 4, 12, 11, 5, 2, 3],
+          "instructors": ["Abbas Hosseini"]
+        },
+        {
+          "session": "2023W",
+          "reported": 37,
+          "average": 73.4,
+          "grades": [1, 0, 1, 4, 6, 3, 5, 5, 6, 5, 1],
+          "instructors": ["Abbas Hosseini"]
+        },
+        {
+          "session": "2022W",
+          "reported": 41,
+          "average": 73.8,
+          "grades": [0, 0, 3, 3, 5, 5, 8, 2, 10, 4, 1],
+          "instructors": ["Abbas Hosseini"]
+        },
+        {
+          "session": "2021W",
+          "reported": 42,
+          "average": 77.4,
+          "grades": [0, 0, 0, 0, 0, 0, 8, 8, 9, 6, 0],
+          "instructors": ["Abbas Hosseini"]
+        }
+      ]
+    },
+    "MANU 386": {
+      "reported": 218,
+      "average": 71.5,
+      "grades": [13, 2, 4, 8, 20, 33, 46, 42, 30, 10, 1],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 52,
+          "average": 67.4,
+          "grades": [6, 2, 4, 5, 7, 5, 8, 8, 3, 4, 0],
+          "instructors": ["Christoph Sielmann"]
+        },
+        {
+          "session": "2024W",
+          "reported": 43,
+          "average": 73.4,
+          "grades": [2, 0, 0, 1, 3, 6, 14, 9, 6, 1, 1],
+          "instructors": ["Christoph Sielmann"]
+        },
+        {
+          "session": "2023W",
+          "reported": 40,
+          "average": 70.3,
+          "grades": [3, 0, 0, 1, 9, 7, 9, 6, 4, 1, 0],
+          "instructors": ["Christoph Sielmann"]
+        },
+        {
+          "session": "2022W",
+          "reported": 42,
+          "average": 74.7,
+          "grades": [2, 0, 0, 1, 1, 8, 5, 10, 11, 4, 0],
+          "instructors": ["Christoph Sielmann"]
+        },
+        {
+          "session": "2021W",
+          "reported": 41,
+          "average": 72.6,
+          "grades": [0, 0, 0, 0, 0, 7, 10, 9, 6, 0, 0],
+          "instructors": ["Christoph Sielmann"]
+        }
+      ]
+    },
+    "MANU 400": {
+      "reported": 42,
+      "average": 78.5,
+      "grades": [0, 0, 1, 2, 0, 3, 5, 8, 16, 7, 0],
+      "terms": [
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Topics in Manufacturing Engineering",
+          "reported": 9,
+          "average": 78.2,
+          "grades": [0, 0, 0, 0, 0, 2, 1, 1, 4, 1, 0],
+          "instructors": ["Thomas Benjamin Britton"]
+        },
+        {
+          "session": "2022W",
+          "topic": "B",
+          "title": "Topics in Manufacturing Engineering",
+          "reported": 10,
+          "average": 74.7,
+          "grades": [0, 0, 1, 2, 0, 0, 1, 2, 3, 1, 0],
+          "instructors": ["Amanda Clifford"]
+        },
+        {
+          "session": "2022W",
+          "topic": "C",
+          "title": "Topics in Manufacturing Engineering",
+          "reported": 23,
+          "average": 80.2,
+          "grades": [0, 0, 0, 0, 0, 1, 3, 5, 9, 5, 0],
+          "instructors": ["Adam Clare"]
+        }
+      ]
+    },
+    "MANU 430": {
+      "reported": 137,
+      "average": 75.9,
+      "grades": [3, 6, 8, 3, 4, 18, 19, 15, 23, 20, 17],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 37,
+          "average": 75.1,
+          "grades": [0, 2, 1, 1, 2, 9, 5, 3, 7, 2, 5],
+          "instructors": ["Jacqueline Noder", "Yuan Yao", "Christoph Sielmann", "Casey Keulen", "Adam Clare"]
+        },
+        {
+          "session": "2024W",
+          "reported": 45,
+          "average": 75.6,
+          "grades": [2, 2, 2, 1, 0, 6, 6, 9, 4, 8, 5],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "reported": 31,
+          "average": 73.9,
+          "grades": [1, 2, 5, 1, 0, 2, 3, 1, 6, 6, 3],
+          "instructors": ["Christoph Sielmann", "Casey Keulen", "Adam Clare"]
+        },
+        {
+          "session": "2022W",
+          "reported": 24,
+          "average": 80.3,
+          "grades": [0, 0, 0, 0, 2, 1, 5, 2, 6, 4, 4],
+          "instructors": ["Christoph Sielmann", "Casey Keulen"]
+        }
+      ]
+    },
+    "MANU 450": {
+      "reported": 23,
+      "average": 82.6,
+      "grades": [0, 0, 0, 2, 0, 0, 2, 1, 5, 8, 5],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 12,
+          "average": 81.2,
+          "grades": [0, 0, 0, 2, 0, 0, 1, 0, 3, 3, 3],
+          "instructors": ["Yuan Yao"]
+        },
+        {
+          "session": "2024W",
+          "reported": 11,
+          "average": 84.1,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 1, 2, 5, 2],
+          "instructors": ["Yuan Yao"]
+        }
+      ]
+    },
+    "MANU 453": {
+      "reported": 93,
+      "average": 84.0,
+      "grades": [1, 1, 0, 0, 0, 1, 11, 4, 20, 34, 20],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 30,
+          "average": 88.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 10, 5, 15],
+          "instructors": ["Adam Clare"]
+        },
+        {
+          "session": "2024W",
+          "reported": 35,
+          "average": 83.1,
+          "grades": [1, 1, 0, 0, 0, 1, 0, 0, 10, 17, 5],
+          "instructors": ["Adam Clare"]
+        },
+        {
+          "session": "2023W",
+          "reported": 28,
+          "average": 80.4,
+          "grades": [0, 0, 0, 0, 0, 0, 11, 4, 0, 12, 0],
+          "instructors": ["Adam Clare"]
+        }
+      ]
+    },
+    "MANU 458": {
+      "reported": 72,
+      "average": 82.5,
+      "grades": [1, 0, 0, 1, 0, 3, 4, 9, 23, 20, 11],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 22,
+          "average": 83.7,
+          "grades": [0, 0, 0, 0, 0, 1, 1, 4, 6, 6, 4],
+          "instructors": ["Ben Britton"]
+        },
+        {
+          "session": "2024W",
+          "reported": 26,
+          "average": 82.0,
+          "grades": [0, 0, 0, 1, 0, 2, 1, 2, 10, 7, 3],
+          "instructors": ["Thomas Benjamin Britton"]
+        },
+        {
+          "session": "2023W",
+          "reported": 24,
+          "average": 82.0,
+          "grades": [1, 0, 0, 0, 0, 0, 2, 3, 7, 7, 4],
+          "instructors": ["Thomas Benjamin Britton"]
+        }
+      ]
+    },
+    "MANU 465": {
+      "reported": 323,
+      "average": 81.4,
+      "grades": [1, 0, 1, 0, 4, 13, 24, 41, 155, 55, 24],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 83,
+          "average": 80.8,
+          "grades": [0, 0, 1, 0, 2, 7, 9, 18, 19, 16, 11],
+          "instructors": ["Ebrahim Pasbanian"]
+        },
+        {
+          "session": "2024W",
+          "reported": 67,
+          "average": 82.0,
+          "grades": [0, 0, 0, 0, 1, 3, 4, 9, 28, 16, 6],
+          "instructors": ["Ahmad Mohammadpanah Foroutaghe"]
+        },
+        {
+          "session": "2023W",
+          "reported": 73,
+          "average": 79.8,
+          "grades": [0, 0, 0, 0, 1, 2, 11, 13, 36, 6, 4],
+          "instructors": ["Ahmad Mohammadpanah Foroutaghe"]
+        },
+        {
+          "session": "2022W",
+          "reported": 59,
+          "average": 82.3,
+          "grades": [1, 0, 0, 0, 0, 1, 0, 1, 45, 8, 3],
+          "instructors": ["Ahmad Mohammadpanah Foroutaghe"]
+        },
+        {
+          "session": "2021W",
+          "reported": 41,
+          "average": 82.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 27, 9, 0],
+          "instructors": ["Ahmad Mohammadpanah Foroutaghe"]
+        }
+      ]
+    },
+    "MANU 480": {
+      "reported": 144,
+      "average": 76.2,
+      "grades": [1, 1, 7, 5, 9, 17, 16, 32, 24, 16, 10],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 39,
+          "average": 81.1,
+          "grades": [0, 0, 1, 0, 1, 4, 2, 10, 6, 8, 7],
+          "instructors": ["Ben Britton"]
+        },
+        {
+          "session": "2024W",
+          "reported": 43,
+          "average": 75.7,
+          "grades": [0, 1, 2, 2, 4, 5, 7, 6, 9, 4, 3],
+          "instructors": ["Thomas Benjamin Britton"]
+        },
+        {
+          "session": "2023W",
+          "reported": 31,
+          "average": 73.3,
+          "grades": [0, 0, 3, 3, 2, 4, 2, 11, 4, 2, 0],
+          "instructors": ["Thomas Benjamin Britton"]
+        },
+        {
+          "session": "2022W",
+          "reported": 25,
+          "average": 74.0,
+          "grades": [1, 0, 1, 0, 2, 4, 5, 5, 5, 2, 0],
+          "instructors": ["Thomas Benjamin Britton"]
+        },
+        {
+          "session": "2021W",
+          "reported": 6,
+          "average": 73.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Thomas Benjamin Britton", "Yasmine Abdin"]
+        }
+      ]
+    },
+    "MANU 481": {
+      "reported": 150,
+      "average": 77.0,
+      "grades": [3, 0, 1, 2, 11, 8, 18, 36, 35, 23, 6],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 39,
+          "average": 73.7,
+          "grades": [0, 0, 0, 1, 6, 5, 9, 15, 2, 1, 0],
+          "instructors": ["Yasmine Abdin"]
+        },
+        {
+          "session": "2024W",
+          "reported": 46,
+          "average": 79.1,
+          "grades": [1, 0, 0, 0, 0, 0, 6, 14, 18, 7, 0],
+          "instructors": ["Yasmine Abdin"]
+        },
+        {
+          "session": "2023W",
+          "reported": 32,
+          "average": 72.8,
+          "grades": [2, 0, 1, 1, 4, 3, 3, 2, 9, 7, 0],
+          "instructors": ["Yasmine Abdin"]
+        },
+        {
+          "session": "2022W",
+          "reported": 26,
+          "average": 84.1,
+          "grades": [0, 0, 0, 0, 1, 0, 0, 5, 6, 8, 6],
+          "instructors": ["Yasmine Abdin"]
+        },
+        {
+          "session": "2021W",
+          "reported": 7,
+          "average": 74.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Thomas Benjamin Britton", "Yasmine Abdin", "Amanda Clifford"]
+        }
+      ]
+    },
+    "MANU 485": {
+      "reported": 147,
+      "average": 75.0,
+      "grades": [5, 7, 3, 7, 11, 12, 17, 12, 33, 21, 18],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 39,
+          "average": 72.2,
+          "grades": [2, 4, 1, 3, 2, 3, 6, 2, 8, 5, 3],
+          "instructors": ["Yusuf Altintas"]
+        },
+        {
+          "session": "2024W",
+          "reported": 46,
+          "average": 78.3,
+          "grades": [1, 1, 0, 0, 3, 5, 2, 7, 12, 10, 5],
+          "instructors": ["Xiaoliang Jin"]
+        },
+        {
+          "session": "2023W",
+          "reported": 35,
+          "average": 72.4,
+          "grades": [2, 1, 1, 3, 2, 2, 6, 2, 7, 4, 4],
+          "instructors": ["Xiaoliang Jin"]
+        },
+        {
+          "session": "2022W",
+          "reported": 27,
+          "average": 76.9,
+          "grades": [0, 1, 1, 1, 4, 2, 3, 1, 6, 2, 6],
+          "instructors": ["Xiaoliang Jin"]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1597 @@
+{
+  "subject": "MTRL",
+  "campus": "UBCV",
+  "source": "https://ubcgrades.com",
+  "credit": "UBCGrades.com / UBC PAIR",
+  "sessions": ["2021S", "2021W", "2022W", "2023W", "2024W", "2025W"],
+  "buckets": ["<50%", "50-54%", "55-59%", "60-63%", "64-67%", "68-71%", "72-75%", "76-79%", "80-84%", "85-89%", "90-100%"],
+  "courses": {
+    "MTRL 201": {
+      "reported": 254,
+      "average": 75.5,
+      "grades": [7, 8, 12, 9, 7, 22, 29, 21, 48, 46, 26],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 45,
+          "average": 82.4,
+          "grades": [0, 1, 1, 0, 0, 4, 3, 3, 10, 14, 9],
+          "instructors": ["Matthew Wong"]
+        },
+        {
+          "session": "2024W",
+          "reported": 47,
+          "average": 77.6,
+          "grades": [0, 1, 1, 5, 2, 7, 3, 3, 10, 9, 6],
+          "instructors": ["Matthew Wong"]
+        },
+        {
+          "session": "2023W",
+          "reported": 56,
+          "average": 77.0,
+          "grades": [4, 1, 2, 2, 3, 3, 7, 3, 14, 6, 11],
+          "instructors": ["Matthew Wong"]
+        },
+        {
+          "session": "2022W",
+          "reported": 51,
+          "average": 71.3,
+          "grades": [3, 5, 1, 2, 2, 2, 10, 12, 7, 7, 0],
+          "instructors": ["Matthew Wong"]
+        },
+        {
+          "session": "2021W",
+          "reported": 55,
+          "average": 70.6,
+          "grades": [0, 0, 7, 0, 0, 6, 6, 0, 7, 10, 0],
+          "instructors": ["Matthew Wong"]
+        }
+      ]
+    },
+    "MTRL 250": {
+      "reported": 216,
+      "average": 72.6,
+      "grades": [14, 5, 6, 13, 17, 23, 32, 34, 34, 18, 19],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 52,
+          "average": 71.9,
+          "grades": [2, 2, 3, 5, 9, 7, 5, 4, 5, 1, 9],
+          "instructors": ["Kiana Amini"]
+        },
+        {
+          "session": "2024W",
+          "reported": 52,
+          "average": 69.2,
+          "grades": [6, 2, 0, 4, 2, 7, 7, 6, 10, 5, 3],
+          "instructors": ["Kiana Amini"]
+        },
+        {
+          "session": "2023W",
+          "reported": 57,
+          "average": 77.0,
+          "grades": [2, 0, 0, 3, 2, 4, 7, 15, 9, 9, 5],
+          "instructors": ["David Dixon"]
+        },
+        {
+          "session": "2022W",
+          "reported": 55,
+          "average": 71.8,
+          "grades": [4, 1, 3, 1, 4, 5, 13, 9, 10, 3, 2],
+          "instructors": ["David Dixon"]
+        }
+      ]
+    },
+    "MTRL 251": {
+      "reported": 271,
+      "average": 73.2,
+      "grades": [10, 8, 12, 23, 32, 13, 46, 27, 49, 24, 27],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 56,
+          "average": 75.4,
+          "grades": [3, 0, 2, 3, 6, 1, 14, 3, 9, 5, 10],
+          "instructors": ["Amir M. Dehkhoda"]
+        },
+        {
+          "session": "2024W",
+          "reported": 50,
+          "average": 77.9,
+          "grades": [2, 0, 3, 1, 2, 4, 5, 6, 11, 6, 10],
+          "instructors": ["Amir Mehdi Dehkhoda"]
+        },
+        {
+          "session": "2023W",
+          "reported": 57,
+          "average": 74.5,
+          "grades": [2, 2, 3, 7, 4, 1, 3, 6, 15, 10, 4],
+          "instructors": ["Amir Mehdi Dehkhoda"]
+        },
+        {
+          "session": "2022W",
+          "reported": 108,
+          "average": 69.3,
+          "grades": [3, 6, 4, 12, 20, 7, 24, 12, 14, 3, 3],
+          "instructors": ["Amir Mehdi Dehkhoda"]
+        }
+      ]
+    },
+    "MTRL 263": {
+      "reported": 500,
+      "average": 78.8,
+      "grades": [10, 3, 18, 17, 26, 48, 38, 61, 92, 76, 105],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 92,
+          "average": 84.8,
+          "grades": [0, 1, 1, 1, 1, 7, 8, 9, 14, 15, 35],
+          "instructors": ["David Dixon"]
+        },
+        {
+          "session": "2024W",
+          "reported": 106,
+          "average": 83.7,
+          "grades": [3, 0, 2, 2, 2, 3, 4, 7, 16, 28, 39],
+          "instructors": ["David Dixon"]
+        },
+        {
+          "session": "2023W",
+          "reported": 112,
+          "average": 76.5,
+          "grades": [2, 2, 2, 5, 11, 15, 8, 21, 19, 13, 13],
+          "instructors": ["David Dixon"]
+        },
+        {
+          "session": "2022W",
+          "reported": 90,
+          "average": 76.5,
+          "grades": [5, 0, 3, 1, 4, 9, 10, 13, 24, 9, 12],
+          "instructors": ["David Dixon"]
+        },
+        {
+          "session": "2021W",
+          "reported": 100,
+          "average": 72.8,
+          "grades": [0, 0, 10, 8, 8, 14, 8, 11, 19, 11, 6],
+          "instructors": ["David Dixon"]
+        }
+      ]
+    },
+    "MTRL 264": {
+      "reported": 497,
+      "average": 75.2,
+      "grades": [17, 11, 18, 33, 44, 44, 58, 53, 85, 48, 76],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 90,
+          "average": 71.1,
+          "grades": [5, 4, 4, 9, 7, 14, 13, 9, 16, 6, 3],
+          "instructors": ["Wenying Liu"]
+        },
+        {
+          "session": "2024W",
+          "reported": 106,
+          "average": 71.9,
+          "grades": [3, 5, 8, 8, 13, 6, 12, 16, 18, 8, 9],
+          "instructors": ["Amin Imani"]
+        },
+        {
+          "session": "2023W",
+          "reported": 109,
+          "average": 83.4,
+          "grades": [4, 0, 2, 4, 3, 6, 10, 8, 14, 14, 44],
+          "instructors": ["Nicolas Romualdi"]
+        },
+        {
+          "session": "2022W",
+          "reported": 93,
+          "average": 73.8,
+          "grades": [5, 2, 4, 6, 7, 9, 13, 12, 20, 6, 9],
+          "instructors": ["Nicolas Romualdi"]
+        },
+        {
+          "session": "2021W",
+          "reported": 99,
+          "average": 74.8,
+          "grades": [0, 0, 0, 6, 14, 9, 10, 8, 17, 14, 11],
+          "instructors": ["Jun Ou"]
+        }
+      ]
+    },
+    "MTRL 280": {
+      "reported": 530,
+      "average": 69.9,
+      "grades": [36, 26, 43, 50, 58, 50, 71, 67, 55, 42, 31],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 108,
+          "average": 76.2,
+          "grades": [2, 3, 5, 9, 5, 5, 17, 15, 22, 13, 12],
+          "instructors": ["Babak Soltannia"]
+        },
+        {
+          "session": "2024W",
+          "reported": 102,
+          "average": 68.1,
+          "grades": [10, 5, 9, 9, 11, 12, 15, 10, 13, 4, 4],
+          "instructors": ["Chadwick Sinclair"]
+        },
+        {
+          "session": "2023W",
+          "reported": 104,
+          "average": 67.4,
+          "grades": [11, 2, 11, 12, 14, 11, 10, 13, 7, 7, 5],
+          "instructors": ["Chadwick Sinclair"]
+        },
+        {
+          "session": "2022W",
+          "reported": 106,
+          "average": 68.0,
+          "grades": [8, 7, 10, 10, 11, 10, 18, 12, 7, 10, 3],
+          "instructors": ["Chadwick Sinclair"]
+        },
+        {
+          "session": "2021W",
+          "reported": 110,
+          "average": 69.6,
+          "grades": [5, 9, 8, 10, 17, 12, 11, 17, 6, 8, 7],
+          "instructors": ["Chadwick Sinclair"]
+        }
+      ]
+    },
+    "MTRL 320": {
+      "reported": 242,
+      "average": 82.3,
+      "grades": [1, 0, 2, 5, 6, 12, 13, 27, 42, 70, 55],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 59,
+          "average": 85.5,
+          "grades": [0, 0, 1, 1, 2, 2, 0, 1, 9, 22, 21],
+          "instructors": ["Matthew Wong"]
+        },
+        {
+          "session": "2024W",
+          "reported": 44,
+          "average": 82.4,
+          "grades": [1, 0, 0, 1, 1, 5, 2, 3, 7, 11, 13],
+          "instructors": ["Matthew Wong"]
+        },
+        {
+          "session": "2023W",
+          "reported": 42,
+          "average": 81.5,
+          "grades": [0, 0, 0, 2, 1, 3, 5, 4, 7, 15, 5],
+          "instructors": ["Matthew Wong"]
+        },
+        {
+          "session": "2022W",
+          "reported": 50,
+          "average": 81.5,
+          "grades": [0, 0, 1, 1, 2, 2, 6, 5, 12, 13, 8],
+          "instructors": ["Matthew Wong"]
+        },
+        {
+          "session": "2021W",
+          "reported": 47,
+          "average": 80.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 14, 7, 9, 8],
+          "instructors": ["Matthew Wong"]
+        }
+      ]
+    },
+    "MTRL 340": {
+      "reported": 517,
+      "average": 71.1,
+      "grades": [11, 17, 22, 39, 51, 82, 101, 77, 57, 34, 11],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 105,
+          "average": 72.9,
+          "grades": [5, 0, 1, 10, 6, 19, 17, 15, 15, 11, 6],
+          "instructors": ["Abbas Hosseini"]
+        },
+        {
+          "session": "2024W",
+          "reported": 102,
+          "average": 73.4,
+          "grades": [2, 1, 1, 10, 11, 11, 21, 14, 15, 14, 2],
+          "instructors": ["Abbas Hosseini"]
+        },
+        {
+          "session": "2023W",
+          "reported": 106,
+          "average": 70.7,
+          "grades": [4, 1, 6, 8, 10, 17, 23, 21, 9, 5, 2],
+          "instructors": ["Abbas Hosseini"]
+        },
+        {
+          "session": "2022W",
+          "reported": 111,
+          "average": 72.7,
+          "grades": [0, 0, 4, 11, 14, 18, 20, 21, 18, 4, 1],
+          "instructors": ["Abbas Hosseini"]
+        },
+        {
+          "session": "2021W",
+          "reported": 93,
+          "average": 64.9,
+          "grades": [0, 15, 10, 0, 10, 17, 20, 6, 0, 0, 0],
+          "instructors": ["Steven Cockcroft"]
+        }
+      ]
+    },
+    "MTRL 358": {
+      "reported": 254,
+      "average": 75.5,
+      "grades": [17, 9, 11, 7, 11, 12, 20, 21, 37, 38, 46],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 58,
+          "average": 74.4,
+          "grades": [2, 3, 4, 1, 6, 4, 7, 8, 11, 6, 6],
+          "instructors": ["Amir M. Dehkhoda"]
+        },
+        {
+          "session": "2024W",
+          "reported": 48,
+          "average": 77.6,
+          "grades": [2, 2, 0, 4, 2, 4, 4, 3, 8, 12, 7],
+          "instructors": ["Amir Mehdi Dehkhoda"]
+        },
+        {
+          "session": "2023W",
+          "reported": 43,
+          "average": 77.3,
+          "grades": [2, 3, 1, 1, 2, 3, 4, 3, 7, 8, 9],
+          "instructors": ["Amir Mehdi Dehkhoda"]
+        },
+        {
+          "session": "2022W",
+          "reported": 53,
+          "average": 83.2,
+          "grades": [2, 1, 0, 1, 1, 1, 5, 1, 11, 6, 24],
+          "instructors": ["Amir Mehdi Dehkhoda"]
+        },
+        {
+          "session": "2021W",
+          "reported": 52,
+          "average": 65.4,
+          "grades": [9, 0, 6, 0, 0, 0, 0, 6, 0, 6, 0],
+          "instructors": ["Berend Wassink"]
+        }
+      ]
+    },
+    "MTRL 359": {
+      "reported": 242,
+      "average": 78.8,
+      "grades": [4, 4, 5, 6, 12, 9, 16, 12, 35, 44, 52],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 56,
+          "average": 85.9,
+          "grades": [0, 0, 1, 1, 0, 2, 3, 1, 10, 12, 26],
+          "instructors": ["Amir M. Dehkhoda"]
+        },
+        {
+          "session": "2024W",
+          "reported": 44,
+          "average": 81.0,
+          "grades": [1, 0, 2, 0, 1, 2, 4, 7, 5, 11, 11],
+          "instructors": ["Amir Mehdi Dehkhoda"]
+        },
+        {
+          "session": "2023W",
+          "reported": 43,
+          "average": 81.5,
+          "grades": [1, 0, 2, 1, 2, 0, 2, 2, 11, 12, 10],
+          "instructors": ["Amir Mehdi Dehkhoda"]
+        },
+        {
+          "session": "2022W",
+          "reported": 50,
+          "average": 71.0,
+          "grades": [2, 4, 0, 4, 9, 5, 7, 2, 9, 3, 5],
+          "instructors": ["Amir Mehdi Dehkhoda"]
+        },
+        {
+          "session": "2021W",
+          "reported": 49,
+          "average": 74.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 0],
+          "instructors": ["Berend Wassink"]
+        }
+      ]
+    },
+    "MTRL 361": {
+      "reported": 244,
+      "average": 75.4,
+      "grades": [9, 8, 11, 7, 6, 28, 21, 24, 33, 40, 28],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 58,
+          "average": 77.3,
+          "grades": [3, 1, 1, 1, 2, 6, 5, 8, 9, 18, 4],
+          "instructors": ["Carl Reilly", "Meet Upadhyay", "Thomas Ferguson"]
+        },
+        {
+          "session": "2024W",
+          "reported": 47,
+          "average": 80.2,
+          "grades": [0, 0, 6, 1, 1, 2, 5, 5, 7, 7, 13],
+          "instructors": ["Carl Reilly", "Meet Upadhyay", "David Dixon"]
+        },
+        {
+          "session": "2023W",
+          "reported": 45,
+          "average": 75.0,
+          "grades": [2, 5, 0, 2, 2, 3, 5, 4, 7, 7, 7],
+          "instructors": ["Steven Cockcroft", "Farzaneh Farhang Mehr"]
+        },
+        {
+          "session": "2022W",
+          "reported": 57,
+          "average": 73.0,
+          "grades": [4, 2, 4, 3, 1, 8, 6, 7, 10, 8, 4],
+          "instructors": ["Steven Cockcroft", "Farzaneh Farhang Mehr"]
+        },
+        {
+          "session": "2021W",
+          "reported": 37,
+          "average": 70.6,
+          "grades": [0, 0, 0, 0, 0, 9, 0, 0, 0, 0, 0],
+          "instructors": ["Steven Cockcroft", "Jun Ou"]
+        }
+      ]
+    },
+    "MTRL 363": {
+      "reported": 233,
+      "average": 72.0,
+      "grades": [5, 11, 11, 11, 20, 29, 25, 25, 33, 16, 13],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 53,
+          "average": 73.3,
+          "grades": [2, 3, 2, 3, 1, 9, 8, 6, 10, 6, 3],
+          "instructors": ["Guangrui Xia"]
+        },
+        {
+          "session": "2024W",
+          "reported": 43,
+          "average": 71.3,
+          "grades": [2, 1, 2, 3, 8, 5, 5, 6, 6, 1, 4],
+          "instructors": ["Guangrui Xia"]
+        },
+        {
+          "session": "2023W",
+          "reported": 44,
+          "average": 71.8,
+          "grades": [0, 3, 3, 4, 4, 8, 5, 2, 7, 4, 2],
+          "instructors": ["Guangrui Xia"]
+        },
+        {
+          "session": "2022W",
+          "reported": 55,
+          "average": 73.1,
+          "grades": [1, 4, 4, 1, 7, 7, 7, 5, 10, 5, 4],
+          "instructors": ["Guangrui Xia"]
+        },
+        {
+          "session": "2021W",
+          "reported": 38,
+          "average": 69.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 6, 0, 0, 0],
+          "instructors": ["Guangrui Xia"]
+        }
+      ]
+    },
+    "MTRL 365": {
+      "reported": 263,
+      "average": 66.0,
+      "grades": [32, 14, 24, 17, 30, 18, 26, 19, 24, 23, 12],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 53,
+          "average": 67.1,
+          "grades": [8, 3, 3, 6, 9, 1, 3, 8, 5, 4, 3],
+          "instructors": ["Warren Poole"]
+        },
+        {
+          "session": "2024W",
+          "reported": 55,
+          "average": 65.8,
+          "grades": [8, 7, 5, 0, 8, 4, 4, 2, 7, 6, 4],
+          "instructors": ["Warren Poole"]
+        },
+        {
+          "session": "2023W",
+          "reported": 62,
+          "average": 66.1,
+          "grades": [8, 2, 5, 3, 9, 11, 4, 6, 4, 4, 4],
+          "instructors": ["Warren Poole"]
+        },
+        {
+          "session": "2022W",
+          "reported": 47,
+          "average": 65.1,
+          "grades": [8, 2, 5, 8, 4, 2, 3, 3, 8, 3, 1],
+          "instructors": ["Warren Poole"]
+        },
+        {
+          "session": "2021W",
+          "reported": 46,
+          "average": 65.8,
+          "grades": [0, 0, 6, 0, 0, 0, 12, 0, 0, 6, 0],
+          "instructors": ["Warren Poole"]
+        }
+      ]
+    },
+    "MTRL 378": {
+      "reported": 278,
+      "average": 64.0,
+      "grades": [48, 17, 14, 26, 37, 28, 29, 14, 19, 16, 8],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 49,
+          "average": 66.4,
+          "grades": [7, 0, 2, 8, 5, 8, 7, 3, 5, 2, 2],
+          "instructors": ["Matthias Militzer"]
+        },
+        {
+          "session": "2024W",
+          "reported": 60,
+          "average": 64.4,
+          "grades": [13, 2, 2, 2, 11, 6, 8, 3, 6, 5, 2],
+          "instructors": ["Matthias Militzer"]
+        },
+        {
+          "session": "2023W",
+          "reported": 65,
+          "average": 63.6,
+          "grades": [11, 4, 3, 7, 7, 10, 9, 6, 5, 0, 3],
+          "instructors": ["Matthias Militzer"]
+        },
+        {
+          "session": "2022W",
+          "reported": 56,
+          "average": 60.0,
+          "grades": [10, 5, 7, 9, 8, 4, 5, 2, 3, 2, 1],
+          "instructors": ["Matthias Militzer"]
+        },
+        {
+          "session": "2021W",
+          "reported": 48,
+          "average": 66.1,
+          "grades": [7, 6, 0, 0, 6, 0, 0, 0, 0, 7, 0],
+          "instructors": ["Nicolas Romualdi"]
+        }
+      ]
+    },
+    "MTRL 381": {
+      "reported": 229,
+      "average": 84.5,
+      "grades": [0, 0, 0, 1, 1, 6, 7, 8, 62, 86, 40],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 40,
+          "average": 85.6,
+          "grades": [0, 0, 0, 0, 1, 2, 0, 3, 7, 11, 16],
+          "instructors": ["Jon Nakane"]
+        },
+        {
+          "session": "2024W",
+          "reported": 47,
+          "average": 85.4,
+          "grades": [0, 0, 0, 0, 0, 1, 1, 1, 15, 19, 10],
+          "instructors": ["Jonathan Nakane"]
+        },
+        {
+          "session": "2023W",
+          "reported": 51,
+          "average": 81.6,
+          "grades": [0, 0, 0, 1, 0, 3, 5, 3, 21, 14, 4],
+          "instructors": ["Jonathan Nakane"]
+        },
+        {
+          "session": "2022W",
+          "reported": 52,
+          "average": 85.3,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 1, 19, 21, 10],
+          "instructors": ["Jonathan Nakane"]
+        },
+        {
+          "session": "2021W",
+          "reported": 39,
+          "average": 85.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 21, 0],
+          "instructors": ["Jonathan Nakane"]
+        }
+      ]
+    },
+    "MTRL 382": {
+      "reported": 151,
+      "average": 77.1,
+      "grades": [0, 0, 0, 1, 4, 17, 22, 18, 40, 21, 9],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 55,
+          "average": 81.4,
+          "grades": [0, 0, 0, 0, 0, 5, 3, 12, 15, 14, 6],
+          "instructors": ["Andrew Zang"]
+        },
+        {
+          "session": "2022W",
+          "reported": 45,
+          "average": 77.1,
+          "grades": [0, 0, 0, 1, 4, 3, 11, 6, 16, 1, 3],
+          "instructors": ["Andrew Zang"]
+        },
+        {
+          "session": "2021W",
+          "reported": 51,
+          "average": 72.5,
+          "grades": [0, 0, 0, 0, 0, 9, 8, 0, 9, 6, 0],
+          "instructors": ["Tom Troczynski"]
+        }
+      ]
+    },
+    "MTRL 394": {
+      "reported": 279,
+      "average": 70.4,
+      "grades": [20, 19, 13, 13, 23, 28, 34, 11, 53, 13, 30],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 54,
+          "average": 70.1,
+          "grades": [3, 4, 7, 2, 7, 5, 6, 3, 10, 3, 4],
+          "instructors": ["Sergii Kravchenko"]
+        },
+        {
+          "session": "2024W",
+          "reported": 57,
+          "average": 71.3,
+          "grades": [6, 3, 2, 4, 8, 6, 5, 0, 10, 3, 10],
+          "instructors": ["Sergii Kravchenko"]
+        },
+        {
+          "session": "2023W",
+          "reported": 58,
+          "average": 70.9,
+          "grades": [6, 5, 0, 3, 3, 7, 10, 3, 12, 1, 8],
+          "instructors": ["Sergii Kravchenko"]
+        },
+        {
+          "session": "2022W",
+          "reported": 58,
+          "average": 67.8,
+          "grades": [5, 7, 4, 4, 5, 4, 6, 5, 10, 6, 2],
+          "instructors": ["Sergii Kravchenko"]
+        },
+        {
+          "session": "2021W",
+          "reported": 52,
+          "average": 72.3,
+          "grades": [0, 0, 0, 0, 0, 6, 7, 0, 11, 0, 6],
+          "instructors": ["Sergii Kravchenko"]
+        }
+      ]
+    },
+    "MTRL 424": {
+      "reported": 26,
+      "average": 77.7,
+      "grades": [0, 0, 1, 1, 1, 3, 2, 7, 6, 3, 2],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 26,
+          "average": 77.7,
+          "grades": [0, 0, 1, 1, 1, 3, 2, 7, 6, 3, 2],
+          "instructors": ["Anoshiravan Poursartip"]
+        }
+      ]
+    },
+    "MTRL 442": {
+      "reported": 34,
+      "average": 77.2,
+      "grades": [0, 0, 0, 0, 0, 6, 0, 0, 11, 0, 0],
+      "terms": [
+        {
+          "session": "2021W",
+          "reported": 34,
+          "average": 77.2,
+          "grades": [0, 0, 0, 0, 0, 6, 0, 0, 11, 0, 0],
+          "instructors": ["Tom Troczynski"]
+        }
+      ]
+    },
+    "MTRL 451": {
+      "reported": 159,
+      "average": 78.3,
+      "grades": [2, 0, 0, 3, 7, 7, 19, 37, 45, 25, 5],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 25,
+          "average": 78.4,
+          "grades": [0, 0, 0, 0, 0, 1, 6, 9, 5, 3, 1],
+          "instructors": ["Rizhi Wang"]
+        },
+        {
+          "session": "2024W",
+          "reported": 33,
+          "average": 80.2,
+          "grades": [1, 0, 0, 0, 0, 1, 4, 4, 11, 10, 2],
+          "instructors": ["Simon Tsianikas"]
+        },
+        {
+          "session": "2023W",
+          "reported": 37,
+          "average": 76.1,
+          "grades": [1, 0, 0, 1, 2, 4, 5, 11, 9, 3, 1],
+          "instructors": ["Rizhi Wang"]
+        },
+        {
+          "session": "2022W",
+          "reported": 33,
+          "average": 76.6,
+          "grades": [0, 0, 0, 2, 5, 1, 4, 7, 10, 3, 1],
+          "instructors": ["Rizhi Wang"]
+        },
+        {
+          "session": "2021W",
+          "reported": 31,
+          "average": 80.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 6, 10, 6, 0],
+          "instructors": ["Rizhi Wang"]
+        }
+      ]
+    },
+    "MTRL 455": {
+      "reported": 378,
+      "average": 77.5,
+      "grades": [2, 5, 12, 19, 28, 31, 37, 47, 65, 53, 64],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 86,
+          "average": 82.3,
+          "grades": [0, 1, 4, 1, 4, 6, 3, 11, 14, 14, 28],
+          "instructors": ["Amin Imani"]
+        },
+        {
+          "session": "2024W",
+          "reported": 76,
+          "average": 79.7,
+          "grades": [1, 0, 3, 6, 2, 4, 6, 12, 10, 15, 17],
+          "instructors": ["Amin Imani"]
+        },
+        {
+          "session": "2023W",
+          "reported": 76,
+          "average": 78.4,
+          "grades": [0, 2, 1, 7, 4, 5, 5, 7, 20, 16, 9],
+          "instructors": ["Alexander Burns"]
+        },
+        {
+          "session": "2022W",
+          "reported": 77,
+          "average": 74.9,
+          "grades": [1, 2, 4, 5, 9, 7, 11, 7, 13, 8, 10],
+          "instructors": ["David Dreisinger"]
+        },
+        {
+          "session": "2021W",
+          "reported": 63,
+          "average": 70.5,
+          "grades": [0, 0, 0, 0, 9, 9, 12, 10, 8, 0, 0],
+          "instructors": ["Alexander Burns"]
+        }
+      ]
+    },
+    "MTRL 456": {
+      "reported": 225,
+      "average": 72.3,
+      "grades": [9, 10, 14, 19, 9, 21, 19, 20, 19, 19, 35],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 50,
+          "average": 76.2,
+          "grades": [0, 2, 3, 5, 2, 8, 6, 5, 6, 5, 8],
+          "instructors": ["Edouard Asselin"]
+        },
+        {
+          "session": "2024W",
+          "reported": 54,
+          "average": 75.0,
+          "grades": [5, 1, 3, 5, 3, 3, 2, 3, 8, 7, 14],
+          "instructors": ["Edouard Asselin"]
+        },
+        {
+          "session": "2023W",
+          "reported": 41,
+          "average": 71.6,
+          "grades": [3, 2, 2, 3, 0, 4, 8, 4, 1, 4, 9],
+          "instructors": ["Edouard Asselin"]
+        },
+        {
+          "session": "2022W",
+          "reported": 44,
+          "average": 68.3,
+          "grades": [1, 5, 6, 6, 4, 6, 3, 2, 4, 3, 4],
+          "instructors": ["Edouard Asselin"]
+        },
+        {
+          "session": "2021W",
+          "reported": 36,
+          "average": 68.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 6, 0, 0, 0],
+          "instructors": ["Kashif Mairaj Deen"]
+        }
+      ]
+    },
+    "MTRL 458": {
+      "reported": 41,
+      "average": 81.6,
+      "grades": [0, 1, 2, 0, 2, 2, 4, 5, 8, 5, 12],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 21,
+          "average": 77.4,
+          "grades": [0, 0, 1, 0, 2, 2, 4, 3, 5, 2, 2],
+          "instructors": ["Paul West-Sells", "Edouard Asselin"]
+        },
+        {
+          "session": "2024W",
+          "reported": 12,
+          "average": 86.7,
+          "grades": [0, 0, 1, 0, 0, 0, 0, 1, 2, 2, 6],
+          "instructors": ["Edouard Asselin"]
+        },
+        {
+          "session": "2023W",
+          "reported": 8,
+          "average": 84.9,
+          "grades": [0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 4],
+          "instructors": ["Edouard Asselin"]
+        }
+      ]
+    },
+    "MTRL 460": {
+      "reported": 224,
+      "average": 77.2,
+      "grades": [1, 1, 7, 8, 15, 19, 28, 26, 61, 37, 9],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 50,
+          "average": 76.9,
+          "grades": [0, 0, 1, 4, 4, 4, 7, 9, 11, 7, 3],
+          "instructors": ["Yasmine Abdin"]
+        },
+        {
+          "session": "2024W",
+          "reported": 49,
+          "average": 74.0,
+          "grades": [0, 1, 5, 3, 5, 5, 6, 5, 13, 4, 2],
+          "instructors": ["Yasmine Abdin"]
+        },
+        {
+          "session": "2023W",
+          "reported": 53,
+          "average": 74.3,
+          "grades": [1, 0, 1, 1, 6, 10, 11, 6, 13, 3, 1],
+          "instructors": ["Yasmine Abdin"]
+        },
+        {
+          "session": "2022W",
+          "reported": 42,
+          "average": 82.5,
+          "grades": [0, 0, 0, 0, 0, 0, 4, 6, 18, 11, 3],
+          "instructors": ["Yasmine Abdin"]
+        },
+        {
+          "session": "2021W",
+          "reported": 30,
+          "average": 80.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 6, 12, 0],
+          "instructors": ["Tom Troczynski"]
+        }
+      ]
+    },
+    "MTRL 466": {
+      "reported": 207,
+      "average": 86.0,
+      "grades": [0, 1, 2, 1, 0, 3, 5, 11, 35, 62, 79],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 44,
+          "average": 88.5,
+          "grades": [0, 0, 1, 1, 0, 0, 0, 2, 2, 13, 25],
+          "instructors": ["Guangrui Xia", "Jon Nakane", "Amir M. Dehkhoda", "Wenying Liu", "Warren Poole", "Daan Maijer"]
+        },
+        {
+          "session": "2024W",
+          "reported": 46,
+          "average": 83.9,
+          "grades": [0, 0, 0, 0, 0, 2, 3, 5, 14, 9, 13],
+          "instructors": ["Jonathan Nakane"]
+        },
+        {
+          "session": "2023W",
+          "reported": 41,
+          "average": 88.0,
+          "grades": [0, 1, 1, 0, 0, 0, 2, 1, 3, 8, 25],
+          "instructors": ["Kiana Amini", "David Dixon", "Rizhi Wang", "Jonathan Nakane", "Wenying Liu", "Sergii Kravchenko"]
+        },
+        {
+          "session": "2022W",
+          "reported": 40,
+          "average": 85.1,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 3, 9, 19, 8],
+          "instructors": ["Jonathan Nakane", "Chadwick Sinclair", "Warren Poole", "Sergii Kravchenko", "David Dreisinger"]
+        },
+        {
+          "session": "2021W",
+          "reported": 36,
+          "average": 84.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 7, 13, 8],
+          "instructors": ["Berend Wassink", "Guangrui Xia", "Jonathan Nakane", "Chadwick Sinclair", "Warren Poole", "Sergii Kravchenko"]
+        }
+      ]
+    },
+    "MTRL 467": {
+      "reported": 198,
+      "average": 82.0,
+      "grades": [2, 1, 3, 6, 2, 2, 12, 11, 55, 57, 39],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 38,
+          "average": 84.9,
+          "grades": [0, 0, 0, 2, 0, 0, 2, 0, 13, 11, 10],
+          "instructors": ["Jon Nakane", "Rizhi Wang", "Amir M. Dehkhoda", "Farzaneh Farhang Mehr", "David Dixon", "Karthik Akkiraju"]
+        },
+        {
+          "session": "2024W",
+          "reported": 45,
+          "average": 82.5,
+          "grades": [0, 1, 0, 0, 1, 1, 4, 8, 8, 15, 7],
+          "instructors": ["Kiana Amini", "Jonathan Nakane", "Sergii Kravchenko", "Matthias Militzer", "Daan Maijer", "Amir Mehdi Dehkhoda"]
+        },
+        {
+          "session": "2023W",
+          "reported": 42,
+          "average": 82.9,
+          "grades": [0, 0, 0, 4, 0, 0, 4, 1, 11, 9, 13],
+          "instructors": ["Anoshiravan Poursartip", "Guangrui Xia", "Jonathan Nakane", "Matthias Militzer", "Edouard Asselin"]
+        },
+        {
+          "session": "2022W",
+          "reported": 38,
+          "average": 78.3,
+          "grades": [2, 0, 3, 0, 1, 1, 2, 2, 13, 11, 3],
+          "instructors": ["Jonathan Nakane", "Steven Cockcroft", "Matthias Militzer", "Edouard Asselin", "Yasmine Abdin"]
+        },
+        {
+          "session": "2021W",
+          "reported": 35,
+          "average": 80.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 10, 11, 6],
+          "instructors": ["Anoshiravan Poursartip", "Daan Maijer", "Jonathan Nakane", "Wenying Liu", "David Dixon", "Yasmine Abdin"]
+        }
+      ]
+    },
+    "MTRL 469": {
+      "reported": 6,
+      "average": 68.3,
+      "grades": [1, 1, 0, 0, 0, 0, 1, 0, 3, 0, 0],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 6,
+          "average": 68.3,
+          "grades": [1, 1, 0, 0, 0, 0, 1, 0, 3, 0, 0],
+          "instructors": ["Steven Cockcroft"]
+        }
+      ]
+    },
+    "MTRL 471": {
+      "reported": 60,
+      "average": 78.7,
+      "grades": [0, 0, 0, 0, 0, 0, 7, 18, 14, 3, 1],
+      "terms": [
+        {
+          "session": "2022W",
+          "reported": 34,
+          "average": 79.9,
+          "grades": [0, 0, 0, 0, 0, 0, 7, 9, 14, 3, 1],
+          "instructors": ["Ardeshir Bahi"]
+        },
+        {
+          "session": "2021W",
+          "reported": 26,
+          "average": 77.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 9, 0, 0, 0],
+          "instructors": ["Ardeshir Bahi"]
+        }
+      ]
+    },
+    "MTRL 472": {
+      "reported": 118,
+      "average": 80.3,
+      "grades": [0, 1, 4, 2, 6, 4, 10, 12, 19, 19, 22],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 28,
+          "average": 81.5,
+          "grades": [0, 0, 0, 0, 3, 2, 3, 2, 5, 8, 5],
+          "instructors": ["Mahyar Asadi"]
+        },
+        {
+          "session": "2024W",
+          "reported": 25,
+          "average": 79.3,
+          "grades": [0, 0, 2, 1, 1, 1, 1, 5, 6, 5, 3],
+          "instructors": ["Mahyar Asadi"]
+        },
+        {
+          "session": "2023W",
+          "reported": 16,
+          "average": 80.9,
+          "grades": [0, 0, 0, 1, 0, 1, 3, 2, 4, 2, 3],
+          "instructors": ["Mahyar Asadi"]
+        },
+        {
+          "session": "2022W",
+          "reported": 22,
+          "average": 77.4,
+          "grades": [0, 1, 2, 0, 2, 0, 3, 3, 4, 4, 3],
+          "instructors": ["Mahyar Asadi"]
+        },
+        {
+          "session": "2021W",
+          "reported": 27,
+          "average": 81.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8],
+          "instructors": ["Mahyar Asadi"]
+        }
+      ]
+    },
+    "MTRL 475": {
+      "reported": 40,
+      "average": 66.8,
+      "grades": [5, 1, 1, 4, 3, 2, 6, 3, 6, 0, 1],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 12,
+          "average": 65.2,
+          "grades": [1, 0, 1, 2, 1, 0, 5, 1, 1, 0, 0],
+          "instructors": ["Matthias Militzer"]
+        },
+        {
+          "session": "2024W",
+          "reported": 14,
+          "average": 61.9,
+          "grades": [3, 1, 0, 0, 1, 2, 1, 2, 4, 0, 0],
+          "instructors": ["Matthias Militzer"]
+        },
+        {
+          "session": "2022W",
+          "reported": 6,
+          "average": 68.3,
+          "grades": [1, 0, 0, 2, 1, 0, 0, 0, 1, 0, 1],
+          "instructors": ["Matthias Militzer"]
+        },
+        {
+          "session": "2021W",
+          "reported": 8,
+          "average": 76.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Ayush Suhane"]
+        }
+      ]
+    },
+    "MTRL 478": {
+      "reported": 104,
+      "average": 73.3,
+      "grades": [4, 3, 1, 4, 11, 6, 8, 13, 9, 13, 7],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 20,
+          "average": 75.0,
+          "grades": [0, 2, 0, 1, 3, 2, 2, 4, 0, 3, 3],
+          "instructors": ["Guangrui Xia"]
+        },
+        {
+          "session": "2024W",
+          "reported": 18,
+          "average": 76.8,
+          "grades": [1, 0, 1, 0, 3, 0, 2, 3, 1, 5, 2],
+          "instructors": ["Guangrui Xia"]
+        },
+        {
+          "session": "2023W",
+          "reported": 23,
+          "average": 66.8,
+          "grades": [3, 0, 0, 2, 5, 3, 0, 2, 4, 3, 0],
+          "instructors": ["Guangrui Xia"]
+        },
+        {
+          "session": "2022W",
+          "reported": 19,
+          "average": 77.1,
+          "grades": [0, 1, 0, 1, 0, 1, 4, 4, 4, 2, 2],
+          "instructors": ["Guangrui Xia"]
+        },
+        {
+          "session": "2021W",
+          "reported": 24,
+          "average": 72.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Guangrui Xia"]
+        }
+      ]
+    },
+    "MTRL 484": {
+      "reported": 72,
+      "average": 80.6,
+      "grades": [1, 2, 0, 3, 6, 5, 5, 5, 11, 15, 19],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 50,
+          "average": 81.6,
+          "grades": [0, 0, 0, 3, 2, 5, 4, 4, 9, 10, 13],
+          "instructors": ["Sergii Kravchenko"]
+        },
+        {
+          "session": "2024W",
+          "reported": 22,
+          "average": 78.2,
+          "grades": [1, 2, 0, 0, 4, 0, 1, 1, 2, 5, 6],
+          "instructors": ["Sergii Kravchenko"]
+        }
+      ]
+    },
+    "MTRL 485": {
+      "reported": 98,
+      "average": 69.0,
+      "grades": [1, 1, 5, 10, 14, 16, 10, 17, 3, 0, 0],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 18,
+          "average": 70.9,
+          "grades": [0, 0, 0, 1, 5, 4, 3, 4, 1, 0, 0],
+          "instructors": ["Farzaneh Farhang Mehr"]
+        },
+        {
+          "session": "2023W",
+          "reported": 35,
+          "average": 68.3,
+          "grades": [0, 1, 3, 6, 4, 6, 5, 5, 2, 0, 0],
+          "instructors": ["Farzaneh Farhang Mehr"]
+        },
+        {
+          "session": "2022W",
+          "reported": 21,
+          "average": 66.8,
+          "grades": [1, 0, 2, 3, 5, 6, 2, 2, 0, 0, 0],
+          "instructors": ["Farzaneh Farhang Mehr"]
+        },
+        {
+          "session": "2021W",
+          "reported": 24,
+          "average": 70.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 6, 0, 0, 0],
+          "instructors": ["Farzaneh Farhang Mehr"]
+        }
+      ]
+    },
+    "MTRL 486": {
+      "reported": 200,
+      "average": 84.6,
+      "grades": [0, 0, 0, 0, 1, 2, 11, 16, 56, 73, 35],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 49,
+          "average": 82.4,
+          "grades": [0, 0, 0, 0, 0, 0, 9, 6, 15, 13, 6],
+          "instructors": ["Glenn Stark"]
+        },
+        {
+          "session": "2024W",
+          "reported": 48,
+          "average": 87.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 3, 7, 28, 10],
+          "instructors": ["Glenn Stark"]
+        },
+        {
+          "session": "2023W",
+          "reported": 46,
+          "average": 82.2,
+          "grades": [0, 0, 0, 0, 0, 1, 1, 5, 28, 10, 0],
+          "instructors": ["Ibrahim Gadala"]
+        },
+        {
+          "session": "2022W",
+          "reported": 28,
+          "average": 85.3,
+          "grades": [0, 0, 0, 0, 1, 1, 1, 2, 6, 7, 10],
+          "instructors": ["Glen Stark"]
+        },
+        {
+          "session": "2021W",
+          "reported": 29,
+          "average": 87.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 15, 9],
+          "instructors": ["Glen Stark"]
+        }
+      ]
+    },
+    "MTRL 489": {
+      "reported": 33,
+      "average": 82.8,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 8, 6, 0],
+      "terms": [
+        {
+          "session": "2021W",
+          "reported": 33,
+          "average": 82.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 8, 6, 0],
+          "instructors": ["Daniel Hawker"]
+        }
+      ]
+    },
+    "MTRL 494": {
+      "reported": 286,
+      "average": 75.1,
+      "grades": [8, 5, 15, 11, 15, 26, 34, 36, 51, 46, 23],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 58,
+          "average": 78.7,
+          "grades": [4, 0, 1, 0, 1, 3, 6, 8, 15, 11, 9],
+          "instructors": ["Casey Keulen"]
+        },
+        {
+          "session": "2024W",
+          "reported": 60,
+          "average": 71.7,
+          "grades": [0, 2, 5, 6, 5, 7, 12, 11, 8, 3, 1],
+          "instructors": ["Anoshiravan Poursartip"]
+        },
+        {
+          "session": "2023W",
+          "reported": 70,
+          "average": 73.4,
+          "grades": [1, 3, 6, 3, 4, 10, 10, 7, 11, 13, 2],
+          "instructors": ["Anoshiravan Poursartip"]
+        },
+        {
+          "session": "2022W",
+          "reported": 41,
+          "average": 70.7,
+          "grades": [3, 0, 3, 2, 5, 6, 6, 3, 10, 1, 2],
+          "instructors": ["Anoshiravan Poursartip"]
+        },
+        {
+          "session": "2021W",
+          "reported": 57,
+          "average": 80.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 7, 7, 18, 9],
+          "instructors": ["Casey Keulen"]
+        }
+      ]
+    },
+    "MTRL 495": {
+      "reported": 142,
+      "average": 78.0,
+      "grades": [1, 0, 0, 4, 5, 16, 19, 21, 30, 25, 5],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 25,
+          "average": 78.1,
+          "grades": [0, 0, 0, 0, 1, 4, 4, 4, 6, 6, 0],
+          "instructors": ["Rizhi Wang"]
+        },
+        {
+          "session": "2024W",
+          "reported": 20,
+          "average": 83.0,
+          "grades": [0, 0, 0, 0, 0, 1, 1, 4, 5, 7, 2],
+          "instructors": ["Felipe Eltit", "Qiong Wang"]
+        },
+        {
+          "session": "2023W",
+          "reported": 30,
+          "average": 76.2,
+          "grades": [1, 0, 0, 2, 1, 5, 1, 5, 9, 5, 0],
+          "instructors": ["Rizhi Wang"]
+        },
+        {
+          "session": "2022W",
+          "reported": 46,
+          "average": 77.4,
+          "grades": [0, 0, 0, 2, 3, 6, 7, 8, 10, 7, 3],
+          "instructors": ["Rizhi Wang"]
+        },
+        {
+          "session": "2021W",
+          "reported": 21,
+          "average": 76.9,
+          "grades": [0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0],
+          "instructors": ["Rizhi Wang"]
+        }
+      ]
+    },
+    "MTRL 496": {
+      "reported": 66,
+      "average": 74.5,
+      "grades": [0, 1, 4, 0, 4, 11, 6, 7, 14, 2, 1],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 22,
+          "average": 76.9,
+          "grades": [0, 0, 0, 0, 1, 3, 5, 4, 8, 1, 0],
+          "instructors": ["Chadwick Sinclair"]
+        },
+        {
+          "session": "2023W",
+          "reported": 17,
+          "average": 70.6,
+          "grades": [0, 0, 4, 0, 1, 5, 0, 2, 3, 1, 0],
+          "instructors": ["Chadwick Sinclair"]
+        },
+        {
+          "session": "2022W",
+          "reported": 12,
+          "average": 73.0,
+          "grades": [0, 1, 0, 0, 2, 3, 1, 1, 3, 0, 1],
+          "instructors": ["Chadwick Sinclair"]
+        },
+        {
+          "session": "2021W",
+          "reported": 15,
+          "average": 76.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Chadwick Sinclair"]
+        }
+      ]
+    },
+    "MTRL 497": {
+      "reported": 83,
+      "average": 79.3,
+      "grades": [0, 1, 0, 1, 5, 5, 13, 17, 23, 10, 8],
+      "terms": [
+        {
+          "session": "2025W",
+          "topic": "B",
+          "title": "Special Topics in Materials Engineering",
+          "reported": 7,
+          "average": 75.7,
+          "grades": [0, 0, 0, 0, 2, 0, 0, 3, 2, 0, 0],
+          "instructors": ["Henry Wing Wo Wong"]
+        },
+        {
+          "session": "2025W",
+          "topic": "C",
+          "title": "Special Topics in Materials Engineering",
+          "reported": 8,
+          "average": 88.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 1, 2, 4],
+          "instructors": ["Kiana Amini"]
+        },
+        {
+          "session": "2024W",
+          "topic": "B",
+          "title": "Special Topics in Materials Engineering",
+          "reported": 15,
+          "average": 77.3,
+          "grades": [0, 0, 0, 0, 1, 1, 4, 2, 7, 0, 0],
+          "instructors": ["Henry Wing Wo Wong"]
+        },
+        {
+          "session": "2023W",
+          "reported": 19,
+          "average": 78.1,
+          "grades": [0, 1, 0, 1, 1, 1, 2, 4, 3, 4, 2],
+          "instructors": ["Sergii Kravchenko"]
+        },
+        {
+          "session": "2023W",
+          "topic": "B",
+          "title": "Special Topics in Materials Engineering",
+          "reported": 19,
+          "average": 76.6,
+          "grades": [0, 0, 0, 0, 0, 3, 6, 5, 5, 0, 0],
+          "instructors": ["Henry Wing Wo Wong"]
+        },
+        {
+          "session": "2022W",
+          "reported": 15,
+          "average": 82.7,
+          "grades": [0, 0, 0, 0, 1, 0, 1, 2, 5, 4, 2],
+          "instructors": ["Sergii Kravchenko"]
+        }
+      ]
+    },
+    "MTRL 512": {
+      "reported": 12,
+      "average": 83.5,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      "terms": [
+        {
+          "session": "2021S",
+          "reported": 12,
+          "average": 83.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Chadwick Sinclair", "Warren Poole"]
+        }
+      ]
+    },
+    "MTRL 515": {
+      "reported": 43,
+      "average": 85.6,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 6, 5, 10, 11],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 11,
+          "average": 86.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 2, 0, 6, 3],
+          "instructors": ["Steven Cockcroft", "Farzaneh Farhang Mehr"]
+        },
+        {
+          "session": "2022W",
+          "reported": 14,
+          "average": 83.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 4, 5, 4, 1],
+          "instructors": ["Steven Cockcroft", "Farzaneh Farhang Mehr"]
+        },
+        {
+          "session": "2021W",
+          "reported": 18,
+          "average": 86.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7],
+          "instructors": ["Steven Cockcroft", "Farzaneh Farhang Mehr"]
+        }
+      ]
+    },
+    "MTRL 517": {
+      "reported": 7,
+      "average": 86.9,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      "terms": [
+        {
+          "session": "2021W",
+          "reported": 7,
+          "average": 86.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Anoshiravan Poursartip", "Warren Poole"]
+        }
+      ]
+    },
+    "MTRL 571": {
+      "reported": 6,
+      "average": 88.7,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      "terms": [
+        {
+          "session": "2021W",
+          "reported": 6,
+          "average": 88.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Ardeshir Bahi"]
+        }
+      ]
+    },
+    "MTRL 592": {
+      "reported": 6,
+      "average": 87.3,
+      "grades": [0, 0, 0, 0, 0, 1, 0, 0, 0, 2, 3],
+      "terms": [
+        {
+          "session": "2023W",
+          "topic": "E",
+          "title": "Advanced Topics in Materials Engineering",
+          "reported": 6,
+          "average": 87.3,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 0, 0, 2, 3],
+          "instructors": ["Chadwick Sinclair"]
+        }
+      ]
+    },
+    "MTRL 593": {
+      "reported": 6,
+      "average": 100.0,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      "terms": [
+        {
+          "session": "2023W",
+          "topic": "F",
+          "title": "Directed Studies in Materials Engineering",
+          "reported": 6,
+          "average": 100.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Sergii Kravchenko"]
+        }
+      ]
+    },
+    "MTRL 594": {
+      "reported": 45,
+      "average": 87.2,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 9, 8, 18],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 8,
+          "average": 89.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 6],
+          "instructors": ["Anoshiravan Poursartip"]
+        },
+        {
+          "session": "2023W",
+          "reported": 15,
+          "average": 85.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 5, 6, 3],
+          "instructors": ["Shayan Fahimi", "Anoshiravan Poursartip"]
+        },
+        {
+          "session": "2022W",
+          "reported": 6,
+          "average": 86.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 2],
+          "instructors": ["Anoshiravan Poursartip"]
+        },
+        {
+          "session": "2021W",
+          "reported": 16,
+          "average": 87.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7],
+          "instructors": ["Christophe Mobuchon", "Anoshiravan Poursartip"]
+        }
+      ]
+    },
+    "MTRL 599": {
+      "reported": 7,
+      "average": 85.0,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 4, 1],
+      "terms": [
+        {
+          "session": "2022W",
+          "reported": 7,
+          "average": 85.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 4, 1],
+          "instructors": []
+        }
+      ]
+    }
+  }
+}

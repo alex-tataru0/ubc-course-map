@@ -1,0 +1,2306 @@
+{
+  "subject": "BMEG",
+  "campus": "UBCV",
+  "source": "https://ubcgrades.com",
+  "credit": "UBCGrades.com / UBC PAIR",
+  "sessions": ["2021S", "2021W", "2022S", "2022W", "2023S", "2023W", "2024S", "2024W", "2025S", "2025W"],
+  "buckets": ["<50%", "50-54%", "55-59%", "60-63%", "64-67%", "68-71%", "72-75%", "76-79%", "80-84%", "85-89%", "90-100%"],
+  "courses": {
+    "BMEG 101": {
+      "reported": 451,
+      "average": 81.4,
+      "grades": [0, 0, 2, 1, 5, 22, 43, 78, 136, 133, 29],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 87,
+          "average": 78.7,
+          "grades": [0, 0, 0, 1, 2, 12, 11, 20, 26, 12, 3],
+          "instructors": ["Gabrielle Lam", "Nika Shakiba", "Govind Kaigala", "Tim Salcudean", "Robyn Newell"]
+        },
+        {
+          "session": "2024W",
+          "reported": 78,
+          "average": 79.6,
+          "grades": [0, 0, 1, 0, 2, 3, 13, 18, 23, 17, 1],
+          "instructors": ["Robyn Newell", "Nika Shakiba", "Septimiu Salcudean", "Govindkrishna Kaigala"]
+        },
+        {
+          "session": "2023W",
+          "reported": 81,
+          "average": 84.2,
+          "grades": [0, 0, 0, 0, 1, 1, 5, 6, 24, 31, 13],
+          "instructors": ["Septimiu Salcudean", "Govindkrishna Kaigala", "Zachary Laksman", "Manu Sasidharan Madhav"]
+        },
+        {
+          "session": "2022W",
+          "reported": 93,
+          "average": 81.1,
+          "grades": [0, 0, 1, 0, 0, 6, 8, 16, 31, 28, 3],
+          "instructors": ["Sharareh Bayat", "Govindkrishna Kaigala", "Zachary Laksman", "Manu Sasidharan Madhav"]
+        },
+        {
+          "session": "2021W",
+          "reported": 112,
+          "average": 83.1,
+          "grades": [0, 0, 0, 0, 0, 0, 6, 18, 32, 45, 9],
+          "instructors": ["Manu Sasidharan Madhav", "Peter Cripton", "Roza Vaez Ghaemi", "Septimiu Salcudean", "Ali Bashashati Saghezchi"]
+        }
+      ]
+    },
+    "BMEG 102": {
+      "reported": 436,
+      "average": 85.8,
+      "grades": [1, 1, 0, 0, 0, 2, 19, 43, 98, 131, 140],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 84,
+          "average": 84.3,
+          "grades": [0, 0, 0, 0, 0, 1, 3, 11, 25, 31, 13],
+          "instructors": ["Gabrielle Lam"]
+        },
+        {
+          "session": "2024W",
+          "reported": 70,
+          "average": 80.1,
+          "grades": [1, 0, 0, 0, 0, 1, 10, 16, 24, 14, 4],
+          "instructors": ["Gabrielle Lam"]
+        },
+        {
+          "session": "2023W",
+          "reported": 81,
+          "average": 92.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 3, 10, 68],
+          "instructors": ["Gabrielle Lam", "Sukhneet Kaur Dhillon"]
+        },
+        {
+          "session": "2022W",
+          "reported": 91,
+          "average": 89.0,
+          "grades": [0, 1, 0, 0, 0, 0, 0, 0, 7, 42, 41],
+          "instructors": ["Sukhneet Kaur Dhillon"]
+        },
+        {
+          "session": "2021W",
+          "reported": 110,
+          "average": 83.3,
+          "grades": [0, 0, 0, 0, 0, 0, 6, 16, 39, 34, 14],
+          "instructors": ["Gabrielle Lam"]
+        }
+      ]
+    },
+    "BMEG 200": {
+      "reported": 231,
+      "average": 89.4,
+      "grades": [2, 0, 0, 0, 0, 0, 2, 1, 13, 64, 142],
+      "terms": [
+        {
+          "session": "2025S",
+          "reported": 48,
+          "average": 89.9,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 6, 11, 30],
+          "instructors": ["Sharareh Bayat"]
+        },
+        {
+          "session": "2024S",
+          "reported": 47,
+          "average": 89.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 16, 29],
+          "instructors": ["Sharareh Bayat"]
+        },
+        {
+          "session": "2023S",
+          "reported": 50,
+          "average": 89.5,
+          "grades": [1, 0, 0, 0, 0, 0, 0, 0, 3, 16, 30],
+          "instructors": ["Sharareh Bayat"]
+        },
+        {
+          "session": "2022S",
+          "reported": 43,
+          "average": 91.1,
+          "grades": [1, 0, 0, 0, 0, 0, 1, 1, 2, 1, 37],
+          "instructors": ["Sharareh Bayat"]
+        },
+        {
+          "session": "2021S",
+          "reported": 43,
+          "average": 86.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 16],
+          "instructors": ["Negar Mohaghegh Harandi"]
+        }
+      ]
+    },
+    "BMEG 201": {
+      "reported": 514,
+      "average": 86.6,
+      "grades": [0, 0, 0, 1, 1, 2, 7, 12, 116, 168, 188],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 83,
+          "average": 88.3,
+          "grades": [0, 0, 0, 1, 0, 0, 2, 2, 8, 22, 48],
+          "instructors": ["Sharareh Bayat"]
+        },
+        {
+          "session": "2024W",
+          "reported": 99,
+          "average": 89.6,
+          "grades": [0, 0, 0, 0, 0, 1, 1, 1, 5, 27, 64],
+          "instructors": ["Sharareh Bayat", "Sukhneet Kaur Dhillon"]
+        },
+        {
+          "session": "2024S",
+          "reported": 12,
+          "average": 88.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 5, 6],
+          "instructors": ["Sharareh Bayat"]
+        },
+        {
+          "session": "2023W",
+          "reported": 99,
+          "average": 84.7,
+          "grades": [0, 0, 0, 0, 1, 1, 0, 7, 36, 35, 18],
+          "instructors": ["Sharareh Bayat"]
+        },
+        {
+          "session": "2022W",
+          "reported": 111,
+          "average": 86.6,
+          "grades": [0, 0, 0, 0, 0, 0, 4, 2, 26, 41, 38],
+          "instructors": ["Sharareh Bayat"]
+        },
+        {
+          "session": "2021W",
+          "reported": 110,
+          "average": 84.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 40, 38, 14],
+          "instructors": ["Roza Vaez Ghaemi", "Sukhneet Kaur Dhillon"]
+        }
+      ]
+    },
+    "BMEG 210": {
+      "reported": 526,
+      "average": 78.3,
+      "grades": [7, 12, 13, 26, 37, 52, 48, 60, 83, 75, 110],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 91,
+          "average": 84.6,
+          "grades": [0, 0, 1, 1, 0, 6, 6, 11, 16, 21, 29],
+          "instructors": ["Yanpu He"]
+        },
+        {
+          "session": "2024W",
+          "reported": 93,
+          "average": 78.4,
+          "grades": [1, 3, 1, 7, 6, 12, 7, 4, 13, 18, 21],
+          "instructors": ["Roza Vaez Ghaemi"]
+        },
+        {
+          "session": "2023W",
+          "reported": 116,
+          "average": 75.7,
+          "grades": [2, 0, 2, 7, 18, 8, 14, 14, 20, 15, 13],
+          "instructors": ["Roza Vaez Ghaemi"]
+        },
+        {
+          "session": "2022W",
+          "reported": 108,
+          "average": 78.1,
+          "grades": [2, 3, 2, 5, 4, 13, 8, 17, 20, 10, 24],
+          "instructors": ["Roza Vaez Ghaemi"]
+        },
+        {
+          "session": "2021W",
+          "reported": 118,
+          "average": 76.1,
+          "grades": [2, 6, 7, 6, 9, 13, 13, 14, 14, 11, 23],
+          "instructors": ["Gabriel Potvin"]
+        }
+      ]
+    },
+    "BMEG 220": {
+      "reported": 510,
+      "average": 74.0,
+      "grades": [29, 28, 19, 30, 49, 48, 35, 57, 54, 67, 80],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 71,
+          "average": 70.9,
+          "grades": [4, 7, 7, 7, 9, 5, 5, 6, 5, 8, 8],
+          "instructors": ["Negar Harandi"]
+        },
+        {
+          "session": "2024W",
+          "reported": 103,
+          "average": 73.6,
+          "grades": [6, 5, 4, 5, 13, 14, 6, 9, 12, 16, 13],
+          "instructors": ["Negar Mohaghegh Harandi"]
+        },
+        {
+          "session": "2023W",
+          "reported": 102,
+          "average": 73.0,
+          "grades": [8, 6, 4, 11, 5, 10, 7, 9, 11, 10, 19],
+          "instructors": ["Negar Mohaghegh Harandi"]
+        },
+        {
+          "session": "2022W",
+          "reported": 113,
+          "average": 73.2,
+          "grades": [3, 10, 4, 7, 16, 12, 7, 16, 11, 19, 8],
+          "instructors": ["Zhichao Wang", "Negar Mohaghegh Harandi"]
+        },
+        {
+          "session": "2021W",
+          "reported": 121,
+          "average": 77.7,
+          "grades": [8, 0, 0, 0, 6, 7, 10, 17, 15, 14, 32],
+          "instructors": ["Liwei Zhang", "Negar Mohaghegh Harandi"]
+        }
+      ]
+    },
+    "BMEG 230": {
+      "reported": 521,
+      "average": 81.4,
+      "grades": [1, 4, 4, 10, 12, 31, 39, 81, 122, 120, 91],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 84,
+          "average": 77.2,
+          "grades": [0, 2, 2, 8, 6, 10, 10, 8, 14, 6, 18],
+          "instructors": ["Robyn Newell"]
+        },
+        {
+          "session": "2024W",
+          "reported": 98,
+          "average": 85.1,
+          "grades": [0, 0, 0, 0, 0, 3, 2, 12, 26, 34, 21],
+          "instructors": ["Pawel Kudzia"]
+        },
+        {
+          "session": "2023W",
+          "reported": 106,
+          "average": 82.3,
+          "grades": [0, 0, 0, 0, 2, 7, 9, 24, 20, 23, 21],
+          "instructors": ["Pawel Kudzia"]
+        },
+        {
+          "session": "2022W",
+          "reported": 110,
+          "average": 80.0,
+          "grades": [1, 2, 2, 2, 4, 4, 8, 23, 23, 28, 13],
+          "instructors": ["Robyn Newell"]
+        },
+        {
+          "session": "2021W",
+          "reported": 123,
+          "average": 81.7,
+          "grades": [0, 0, 0, 0, 0, 7, 10, 14, 39, 29, 18],
+          "instructors": ["Robyn Newell"]
+        }
+      ]
+    },
+    "BMEG 245": {
+      "reported": 528,
+      "average": 79.1,
+      "grades": [6, 5, 26, 11, 31, 40, 49, 64, 102, 95, 96],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 86,
+          "average": 83.7,
+          "grades": [1, 1, 3, 3, 5, 3, 4, 11, 8, 14, 33],
+          "instructors": ["Dayag Sheykhkarimli", "Nozomu Yachie"]
+        },
+        {
+          "session": "2024W",
+          "reported": 99,
+          "average": 78.2,
+          "grades": [2, 0, 4, 2, 4, 8, 12, 14, 24, 18, 11],
+          "instructors": ["Nazim-Dayag Sheykhkarimli", "Nozomu Yachie"]
+        },
+        {
+          "session": "2023W",
+          "reported": 110,
+          "average": 75.8,
+          "grades": [1, 3, 9, 3, 8, 13, 11, 12, 23, 17, 10],
+          "instructors": ["Elizabeth Rideout", "Calvin Roskelley", "Nozomu Yachie"]
+        },
+        {
+          "session": "2022W",
+          "reported": 114,
+          "average": 80.5,
+          "grades": [2, 1, 3, 3, 7, 3, 11, 11, 21, 23, 29],
+          "instructors": ["Elizabeth Rideout", "Ivan Robert Nabi", "Calvin Roskelley", "Jessica Yu"]
+        },
+        {
+          "session": "2021W",
+          "reported": 119,
+          "average": 78.2,
+          "grades": [0, 0, 7, 0, 7, 13, 11, 16, 26, 23, 13],
+          "instructors": ["Elizabeth Rideout", "Ivan Robert Nabi", "Calvin Roskelley"]
+        }
+      ]
+    },
+    "BMEG 250": {
+      "reported": 511,
+      "average": 82.3,
+      "grades": [2, 3, 3, 3, 6, 9, 34, 52, 153, 159, 74],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 87,
+          "average": 82.0,
+          "grades": [0, 0, 0, 0, 3, 4, 4, 8, 39, 23, 6],
+          "instructors": ["Vikramaditya Yadav"]
+        },
+        {
+          "session": "2024W",
+          "reported": 102,
+          "average": 80.8,
+          "grades": [0, 0, 1, 2, 2, 1, 10, 19, 40, 23, 4],
+          "instructors": ["Vikramaditya Yadav"]
+        },
+        {
+          "session": "2023W",
+          "reported": 95,
+          "average": 82.6,
+          "grades": [1, 1, 0, 0, 1, 2, 9, 13, 25, 28, 14],
+          "instructors": ["Vikramaditya Yadav"]
+        },
+        {
+          "session": "2022W",
+          "reported": 112,
+          "average": 84.1,
+          "grades": [1, 2, 2, 1, 0, 2, 4, 4, 21, 49, 26],
+          "instructors": ["Vikramaditya Yadav"]
+        },
+        {
+          "session": "2021W",
+          "reported": 115,
+          "average": 81.9,
+          "grades": [0, 0, 0, 0, 0, 0, 7, 8, 28, 36, 24],
+          "instructors": ["Vikramaditya Yadav"]
+        }
+      ]
+    },
+    "BMEG 257": {
+      "reported": 523,
+      "average": 82.9,
+      "grades": [3, 1, 4, 6, 4, 14, 22, 54, 156, 197, 54],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 91,
+          "average": 81.4,
+          "grades": [0, 1, 1, 3, 2, 5, 2, 15, 21, 33, 8],
+          "instructors": ["Calvin Kuo"]
+        },
+        {
+          "session": "2024W",
+          "reported": 97,
+          "average": 82.1,
+          "grades": [1, 0, 1, 0, 0, 2, 9, 10, 39, 29, 6],
+          "instructors": ["Calvin Kuo"]
+        },
+        {
+          "session": "2023W",
+          "reported": 106,
+          "average": 83.3,
+          "grades": [1, 0, 1, 1, 1, 3, 6, 9, 33, 29, 19],
+          "instructors": ["Calvin Kuo"]
+        },
+        {
+          "session": "2022W",
+          "reported": 116,
+          "average": 81.2,
+          "grades": [1, 0, 1, 2, 1, 4, 5, 20, 44, 35, 3],
+          "instructors": ["Calvin Kuo"]
+        },
+        {
+          "session": "2021W",
+          "reported": 113,
+          "average": 86.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 19, 71, 18],
+          "instructors": ["Calvin Kuo"]
+        }
+      ]
+    },
+    "BMEG 310": {
+      "reported": 517,
+      "average": 84.3,
+      "grades": [0, 0, 0, 2, 1, 4, 28, 54, 133, 174, 107],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 97,
+          "average": 83.6,
+          "grades": [0, 0, 0, 2, 1, 3, 5, 15, 22, 30, 19],
+          "instructors": ["Ali Bashashati", "Hossein Farahani"]
+        },
+        {
+          "session": "2024W",
+          "reported": 100,
+          "average": 86.4,
+          "grades": [0, 0, 0, 0, 0, 0, 4, 4, 26, 33, 33],
+          "instructors": ["Ali Bashashati Saghezchi"]
+        },
+        {
+          "session": "2023W",
+          "reported": 110,
+          "average": 86.5,
+          "grades": [0, 0, 0, 0, 0, 0, 2, 7, 22, 49, 29],
+          "instructors": ["Ali Bashashati Saghezchi"]
+        },
+        {
+          "session": "2022W",
+          "reported": 111,
+          "average": 85.5,
+          "grades": [0, 0, 0, 0, 0, 1, 2, 5, 40, 46, 17],
+          "instructors": ["Ali Bashashati Saghezchi"]
+        },
+        {
+          "session": "2021W",
+          "reported": 99,
+          "average": 79.0,
+          "grades": [0, 0, 0, 0, 0, 0, 15, 23, 23, 16, 9],
+          "instructors": ["Carl De Boer", "Ali Bashashati Saghezchi"]
+        }
+      ]
+    },
+    "BMEG 320": {
+      "reported": 99,
+      "average": 73.9,
+      "grades": [0, 7, 3, 3, 2, 12, 8, 7, 5, 8, 20],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 19,
+          "average": 79.9,
+          "grades": [0, 0, 1, 0, 0, 4, 4, 0, 1, 4, 5],
+          "instructors": ["Sharareh Bayat"]
+        },
+        {
+          "session": "2024W",
+          "reported": 15,
+          "average": 79.8,
+          "grades": [0, 0, 1, 0, 0, 3, 2, 2, 1, 0, 6],
+          "instructors": ["Sharareh Bayat"]
+        },
+        {
+          "session": "2023W",
+          "reported": 15,
+          "average": 78.1,
+          "grades": [0, 0, 0, 3, 1, 3, 0, 1, 1, 2, 4],
+          "instructors": ["Sharareh Bayat"]
+        },
+        {
+          "session": "2022W",
+          "reported": 26,
+          "average": 72.6,
+          "grades": [0, 7, 1, 0, 1, 2, 2, 4, 2, 2, 5],
+          "instructors": ["Sharareh Bayat"]
+        },
+        {
+          "session": "2021W",
+          "reported": 24,
+          "average": 64.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Sharareh Bayat"]
+        }
+      ]
+    },
+    "BMEG 321": {
+      "reported": 509,
+      "average": 81.8,
+      "grades": [3, 3, 6, 5, 12, 22, 42, 65, 121, 111, 107],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 96,
+          "average": 79.9,
+          "grades": [1, 0, 0, 0, 1, 6, 16, 16, 29, 19, 8],
+          "instructors": ["Negar Harandi"]
+        },
+        {
+          "session": "2024W",
+          "reported": 83,
+          "average": 83.6,
+          "grades": [0, 0, 0, 0, 1, 2, 5, 12, 23, 20, 20],
+          "instructors": ["Negar Mohaghegh Harandi"]
+        },
+        {
+          "session": "2023W",
+          "reported": 111,
+          "average": 77.1,
+          "grades": [1, 1, 3, 1, 7, 10, 17, 20, 31, 12, 7],
+          "instructors": ["Negar Mohaghegh Harandi"]
+        },
+        {
+          "session": "2022W",
+          "reported": 116,
+          "average": 81.3,
+          "grades": [1, 2, 3, 4, 3, 4, 4, 11, 29, 37, 18],
+          "instructors": ["Negar Mohaghegh Harandi"]
+        },
+        {
+          "session": "2021W",
+          "reported": 103,
+          "average": 87.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 6, 9, 23, 54],
+          "instructors": ["Negar Mohaghegh Harandi"]
+        }
+      ]
+    },
+    "BMEG 330": {
+      "reported": 165,
+      "average": 87.1,
+      "grades": [1, 0, 1, 0, 0, 4, 2, 12, 18, 40, 76],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 34,
+          "average": 88.8,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 4, 2, 8, 19],
+          "instructors": ["Robyn Newell"]
+        },
+        {
+          "session": "2024W",
+          "reported": 32,
+          "average": 87.8,
+          "grades": [0, 0, 0, 0, 0, 1, 2, 2, 4, 7, 16],
+          "instructors": ["Robyn Newell"]
+        },
+        {
+          "session": "2023W",
+          "reported": 32,
+          "average": 87.2,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 1, 5, 13, 11],
+          "instructors": ["Pawel Kudzia"]
+        },
+        {
+          "session": "2022W",
+          "reported": 45,
+          "average": 85.0,
+          "grades": [1, 0, 1, 0, 0, 1, 0, 5, 7, 12, 18],
+          "instructors": ["Robyn Newell"]
+        },
+        {
+          "session": "2021W",
+          "reported": 22,
+          "average": 87.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12],
+          "instructors": ["Robyn Newell"]
+        }
+      ]
+    },
+    "BMEG 350": {
+      "reported": 508,
+      "average": 77.2,
+      "grades": [2, 1, 6, 10, 30, 61, 96, 87, 115, 69, 19],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 99,
+          "average": 81.8,
+          "grades": [1, 0, 0, 1, 0, 1, 10, 17, 31, 32, 6],
+          "instructors": ["Edwin D Moore", "Gabrielle Lam", "Kenneth Liu"]
+        },
+        {
+          "session": "2024W",
+          "reported": 77,
+          "average": 79.7,
+          "grades": [0, 0, 0, 2, 1, 7, 14, 12, 18, 18, 5],
+          "instructors": ["Edwin D Moore", "Manu Sasidharan Madhav", "Kenneth Liu", "Robyn Newell", "Ali Bashashati Saghezchi", "Dena Shahriari"]
+        },
+        {
+          "session": "2023W",
+          "reported": 114,
+          "average": 78.1,
+          "grades": [0, 1, 3, 2, 6, 10, 13, 25, 30, 16, 7],
+          "instructors": ["Edwin D Moore", "Manu Sasidharan Madhav", "Kenneth Liu", "Pawel Kudzia", "Ali Bashashati Saghezchi", "Dena Shahriari"]
+        },
+        {
+          "session": "2022W",
+          "reported": 113,
+          "average": 73.3,
+          "grades": [1, 0, 3, 5, 15, 21, 26, 15, 23, 3, 1],
+          "instructors": ["Mark Steven Cembrowski", "Edwin D Moore", "Salma Osborne", "A Wayne Vogl", "James Johnson", "Manu Sasidharan Madhav", "Christina Hull", "Jenna Usprech", "Janel Kopp", "Ali Bashashati Saghezchi", "Hakima Moukhles", "Dena Shahriari"]
+        },
+        {
+          "session": "2021W",
+          "reported": 105,
+          "average": 74.3,
+          "grades": [0, 0, 0, 0, 8, 22, 33, 18, 13, 0, 0],
+          "instructors": ["Mark Steven Cembrowski", "Edwin D Moore", "Manu Sasidharan Madhav", "Jenna Usprech", "Ali Bashashati Saghezchi", "Dena Shahriari"]
+        }
+      ]
+    },
+    "BMEG 357": {
+      "reported": 516,
+      "average": 85.5,
+      "grades": [0, 0, 0, 0, 3, 11, 19, 26, 91, 233, 126],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 98,
+          "average": 87.0,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 7, 8, 54, 28],
+          "instructors": ["Jenna Usprech"]
+        },
+        {
+          "session": "2024W",
+          "reported": 86,
+          "average": 84.4,
+          "grades": [0, 0, 0, 0, 2, 0, 3, 7, 27, 34, 13],
+          "instructors": ["Jenna Usprech"]
+        },
+        {
+          "session": "2023W",
+          "reported": 111,
+          "average": 88.2,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 2, 14, 53, 39],
+          "instructors": ["Jenna Usprech"]
+        },
+        {
+          "session": "2022W",
+          "reported": 115,
+          "average": 86.6,
+          "grades": [0, 0, 0, 0, 1, 1, 1, 4, 11, 69, 28],
+          "instructors": ["Jenna Usprech"]
+        },
+        {
+          "session": "2021W",
+          "reported": 106,
+          "average": 81.0,
+          "grades": [0, 0, 0, 0, 0, 8, 15, 6, 31, 23, 18],
+          "instructors": ["Jenna Usprech"]
+        }
+      ]
+    },
+    "BMEG 371": {
+      "reported": 506,
+      "average": 78.8,
+      "grades": [7, 4, 5, 27, 22, 52, 66, 68, 79, 66, 97],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 92,
+          "average": 74.1,
+          "grades": [4, 0, 3, 7, 6, 18, 12, 13, 12, 6, 11],
+          "instructors": ["Christopher Moraes"]
+        },
+        {
+          "session": "2024W",
+          "reported": 90,
+          "average": 92.4,
+          "grades": [0, 0, 0, 1, 2, 2, 2, 0, 5, 14, 64],
+          "instructors": ["Tiam Heydari", "Daniel Aguilar Hidalgo"]
+        },
+        {
+          "session": "2023W",
+          "reported": 107,
+          "average": 77.8,
+          "grades": [2, 2, 0, 6, 4, 5, 16, 25, 22, 15, 9],
+          "instructors": ["Zhenwei Ma"]
+        },
+        {
+          "session": "2022W",
+          "reported": 115,
+          "average": 76.1,
+          "grades": [1, 2, 2, 7, 10, 12, 15, 16, 29, 18, 3],
+          "instructors": ["Geoffrey Schiebinger"]
+        },
+        {
+          "session": "2021W",
+          "reported": 102,
+          "average": 75.4,
+          "grades": [0, 0, 0, 6, 0, 15, 21, 14, 11, 13, 10],
+          "instructors": ["Andreas Buttenschoen"]
+        }
+      ]
+    },
+    "BMEG 372": {
+      "reported": 170,
+      "average": 82.4,
+      "grades": [0, 0, 2, 0, 7, 4, 11, 22, 52, 37, 31],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 31,
+          "average": 82.3,
+          "grades": [0, 0, 0, 0, 0, 2, 1, 5, 12, 10, 1],
+          "instructors": ["Gabrielle Lam"]
+        },
+        {
+          "session": "2024W",
+          "reported": 44,
+          "average": 80.7,
+          "grades": [0, 0, 1, 0, 2, 0, 9, 7, 10, 7, 8],
+          "instructors": ["Gabrielle Lam"]
+        },
+        {
+          "session": "2023W",
+          "reported": 36,
+          "average": 82.3,
+          "grades": [0, 0, 1, 0, 2, 1, 1, 3, 13, 9, 5],
+          "instructors": ["Gabrielle Lam"]
+        },
+        {
+          "session": "2022W",
+          "reported": 30,
+          "average": 82.2,
+          "grades": [0, 0, 0, 0, 3, 1, 0, 7, 6, 5, 8],
+          "instructors": ["Gabrielle Lam"]
+        },
+        {
+          "session": "2021W",
+          "reported": 29,
+          "average": 85.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 11, 6, 9],
+          "instructors": ["Gabrielle Lam"]
+        }
+      ]
+    },
+    "BMEG 373": {
+      "reported": 108,
+      "average": 77.8,
+      "grades": [1, 2, 3, 4, 4, 2, 10, 14, 19, 15, 15],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 22,
+          "average": 76.5,
+          "grades": [1, 1, 1, 1, 0, 1, 3, 1, 7, 4, 2],
+          "instructors": ["Carolina Tropini"]
+        },
+        {
+          "session": "2024W",
+          "reported": 26,
+          "average": 79.2,
+          "grades": [0, 0, 1, 2, 1, 1, 4, 3, 3, 5, 6],
+          "instructors": ["Carolina Tropini"]
+        },
+        {
+          "session": "2023W",
+          "reported": 18,
+          "average": 80.4,
+          "grades": [0, 0, 0, 1, 0, 0, 2, 6, 4, 2, 3],
+          "instructors": ["Carolina Tropini"]
+        },
+        {
+          "session": "2022W",
+          "reported": 23,
+          "average": 78.6,
+          "grades": [0, 1, 1, 0, 3, 0, 1, 4, 5, 4, 4],
+          "instructors": ["Carolina Tropini"]
+        },
+        {
+          "session": "2021W",
+          "reported": 19,
+          "average": 74.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Carolina Tropini"]
+        }
+      ]
+    },
+    "BMEG 374": {
+      "reported": 177,
+      "average": 84.8,
+      "grades": [1, 0, 0, 0, 2, 3, 6, 8, 39, 65, 45],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 34,
+          "average": 84.8,
+          "grades": [0, 0, 0, 0, 0, 0, 3, 2, 7, 16, 6],
+          "instructors": ["Jenna Usprech"]
+        },
+        {
+          "session": "2024W",
+          "reported": 29,
+          "average": 85.0,
+          "grades": [0, 0, 0, 0, 1, 1, 1, 3, 3, 12, 8],
+          "instructors": ["Jenna Usprech"]
+        },
+        {
+          "session": "2023W",
+          "reported": 34,
+          "average": 85.3,
+          "grades": [0, 0, 0, 0, 1, 0, 1, 2, 11, 10, 9],
+          "instructors": ["Jenna Usprech"]
+        },
+        {
+          "session": "2022W",
+          "reported": 39,
+          "average": 85.2,
+          "grades": [1, 0, 0, 0, 0, 2, 1, 1, 9, 11, 14],
+          "instructors": ["Jenna Usprech"]
+        },
+        {
+          "session": "2021W",
+          "reported": 41,
+          "average": 84.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 9, 16, 8],
+          "instructors": ["Jenna Usprech"]
+        }
+      ]
+    },
+    "BMEG 400": {
+      "reported": 561,
+      "average": 84.2,
+      "grades": [2, 9, 6, 4, 9, 5, 17, 26, 107, 153, 171],
+      "terms": [
+        {
+          "session": "2025W",
+          "topic": "J",
+          "title": "IMMUNOENGINEERNG",
+          "reported": 20,
+          "average": 87.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 4, 9, 7],
+          "instructors": ["Anna Blakney", "Kelly Marshall McNagny"]
+        },
+        {
+          "session": "2025W",
+          "topic": "K",
+          "title": "WEARABLES",
+          "reported": 51,
+          "average": 85.9,
+          "grades": [0, 2, 1, 0, 0, 1, 1, 1, 5, 20, 20],
+          "instructors": ["Calvin Kuo"]
+        },
+        {
+          "session": "2025W",
+          "topic": "L",
+          "title": "EXP MICROFLUIDIC",
+          "reported": 12,
+          "average": 86.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 6, 2, 4],
+          "instructors": ["Govind Kaigala", "Sofia Graham Arshavsky"]
+        },
+        {
+          "session": "2025W",
+          "topic": "Q",
+          "title": "MEDICAL IMAGE PROCESSING AND MACHINE LEARNING",
+          "reported": 10,
+          "average": 82.1,
+          "grades": [0, 0, 1, 0, 0, 0, 1, 0, 3, 2, 3],
+          "instructors": ["Sharareh Bayat", "Negar Harandi"]
+        },
+        {
+          "session": "2025W",
+          "topic": "X",
+          "title": "Sex Differences in Injury Biomechanics",
+          "reported": 20,
+          "average": 88.4,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 0, 12, 7],
+          "instructors": ["Peter Cripton"]
+        },
+        {
+          "session": "2025S",
+          "topic": "R",
+          "title": "Prototyping Intensive",
+          "reported": 10,
+          "average": 96.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10],
+          "instructors": ["Robyn Newell"]
+        },
+        {
+          "session": "2024W",
+          "topic": "J",
+          "title": "IMMUNOENGINEERNG",
+          "reported": 15,
+          "average": 92.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 12],
+          "instructors": ["Anna Blakney", "Kelly Marshall McNagny"]
+        },
+        {
+          "session": "2024W",
+          "topic": "K",
+          "title": "WEARABLES",
+          "reported": 53,
+          "average": 85.6,
+          "grades": [0, 1, 0, 1, 0, 1, 2, 2, 5, 25, 16],
+          "instructors": ["Calvin Kuo"]
+        },
+        {
+          "session": "2024W",
+          "topic": "L",
+          "title": "EXP MICROFLUIDIC",
+          "reported": 9,
+          "average": 84.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 5, 0, 3],
+          "instructors": ["Sofia Graham Arshavsky", "Govindkrishna Kaigala"]
+        },
+        {
+          "session": "2024W",
+          "topic": "Q",
+          "title": "MEDICAL IMAGE PROCESSING AND MACHINE LEARNING",
+          "reported": 14,
+          "average": 81.9,
+          "grades": [0, 0, 0, 1, 0, 0, 1, 2, 4, 4, 2],
+          "instructors": ["Sharareh Bayat", "Negar Mohaghegh Harandi"]
+        },
+        {
+          "session": "2024S",
+          "topic": "H",
+          "title": "SYN BIO BOOTCAMP",
+          "reported": 27,
+          "average": 87.4,
+          "grades": [0, 0, 0, 0, 1, 0, 1, 1, 5, 5, 14],
+          "instructors": ["Nika Shakiba"]
+        },
+        {
+          "session": "2023W",
+          "topic": "J",
+          "title": "Topics in Biomedical Engineering",
+          "reported": 12,
+          "average": 88.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 1, 3, 7],
+          "instructors": ["Anna Blakney", "Kelly Marshall McNagny"]
+        },
+        {
+          "session": "2023W",
+          "topic": "L",
+          "title": "Topics in Biomedical Engineering",
+          "reported": 16,
+          "average": 85.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 9, 2, 4],
+          "instructors": ["Sofia Graham Arshavsky", "Govindkrishna Kaigala"]
+        },
+        {
+          "session": "2023S",
+          "topic": "H",
+          "title": "Topics in Biomedical Engineering",
+          "reported": 25,
+          "average": 82.8,
+          "grades": [0, 0, 0, 0, 1, 0, 2, 4, 7, 9, 2],
+          "instructors": ["Nika Shakiba"]
+        },
+        {
+          "session": "2022W",
+          "topic": "B",
+          "title": "Topics in Biomedical Engineering",
+          "reported": 12,
+          "average": 74.8,
+          "grades": [0, 1, 2, 0, 1, 0, 1, 1, 3, 2, 1],
+          "instructors": ["Myeong Jin Ju"]
+        },
+        {
+          "session": "2022W",
+          "topic": "C",
+          "title": "Topics in Biomedical Engineering",
+          "reported": 9,
+          "average": 69.4,
+          "grades": [1, 1, 0, 0, 1, 0, 2, 1, 2, 1, 0],
+          "instructors": ["Myeong Jin Ju"]
+        },
+        {
+          "session": "2022W",
+          "topic": "D",
+          "title": "Topics in Biomedical Engineering",
+          "reported": 20,
+          "average": 80.2,
+          "grades": [0, 0, 0, 0, 1, 0, 3, 3, 10, 3, 0],
+          "instructors": ["Matthias Goerges"]
+        },
+        {
+          "session": "2022W",
+          "topic": "E",
+          "title": "Topics in Biomedical Engineering",
+          "reported": 10,
+          "average": 68.5,
+          "grades": [0, 2, 1, 1, 2, 0, 0, 0, 2, 2, 0],
+          "instructors": ["Carl de Boer"]
+        },
+        {
+          "session": "2022W",
+          "topic": "F",
+          "title": "Topics in Biomedical Engineering",
+          "reported": 48,
+          "average": 83.9,
+          "grades": [0, 1, 1, 0, 2, 2, 2, 5, 9, 10, 16],
+          "instructors": ["Manu Sasidharan Madhav"]
+        },
+        {
+          "session": "2022S",
+          "topic": "A",
+          "title": "Topics in Biomedical Engineering",
+          "reported": 50,
+          "average": 84.3,
+          "grades": [1, 0, 0, 1, 0, 1, 0, 3, 7, 18, 19],
+          "instructors": ["Rashmi Prakash"]
+        },
+        {
+          "session": "2022S",
+          "topic": "H",
+          "title": "Topics in Biomedical Engineering",
+          "reported": 18,
+          "average": 85.3,
+          "grades": [0, 1, 0, 0, 0, 0, 0, 1, 5, 4, 7],
+          "instructors": ["Nika Shakiba"]
+        },
+        {
+          "session": "2021W",
+          "topic": "C",
+          "title": "Topics in Biomedical Engineering",
+          "reported": 9,
+          "average": 70.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Myeong Jin Ju"]
+        },
+        {
+          "session": "2021W",
+          "topic": "D",
+          "title": "Topics in Biomedical Engineering",
+          "reported": 12,
+          "average": 78.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Matthias Goerges"]
+        },
+        {
+          "session": "2021W",
+          "topic": "E",
+          "title": "Topics in Biomedical Engineering",
+          "reported": 18,
+          "average": 83.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 6, 8, 0],
+          "instructors": ["Carl De Boer"]
+        },
+        {
+          "session": "2021W",
+          "topic": "F",
+          "title": "Topics in Biomedical Engineering",
+          "reported": 36,
+          "average": 84.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 17],
+          "instructors": ["Manu Sasidharan Madhav"]
+        },
+        {
+          "session": "2021S",
+          "topic": "A",
+          "title": "Topics in Biomedical Engineering",
+          "reported": 25,
+          "average": 85.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 8, 10, 0],
+          "instructors": ["Rashmi Prakash"]
+        }
+      ]
+    },
+    "BMEG 401": {
+      "reported": 520,
+      "average": 82.9,
+      "grades": [2, 2, 3, 0, 6, 14, 26, 43, 157, 203, 55],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 111,
+          "average": 84.8,
+          "grades": [0, 0, 1, 0, 1, 3, 4, 7, 20, 56, 19],
+          "instructors": ["Fraser Pogue", "Clayton Weir"]
+        },
+        {
+          "session": "2024W",
+          "reported": 133,
+          "average": 83.7,
+          "grades": [0, 0, 0, 0, 2, 3, 10, 11, 39, 52, 16],
+          "instructors": ["Clayton Weir", "Fraser Pogue"]
+        },
+        {
+          "session": "2023W",
+          "reported": 109,
+          "average": 82.3,
+          "grades": [0, 1, 2, 0, 3, 2, 8, 14, 24, 42, 12],
+          "instructors": ["Allyson Tighe", "Fraser Pogue"]
+        },
+        {
+          "session": "2022W",
+          "reported": 103,
+          "average": 81.7,
+          "grades": [2, 1, 0, 0, 0, 6, 4, 11, 36, 35, 8],
+          "instructors": ["Allyson Tighe", "Fraser Pogue"]
+        },
+        {
+          "session": "2021W",
+          "reported": 64,
+          "average": 81.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 38, 18, 0],
+          "instructors": ["Allyson Tighe", "Fraser Pogue"]
+        }
+      ]
+    },
+    "BMEG 402": {
+      "reported": 273,
+      "average": 86.0,
+      "grades": [2, 0, 0, 1, 1, 2, 2, 3, 77, 93, 92],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 31,
+          "average": 89.4,
+          "grades": [1, 0, 0, 0, 0, 0, 0, 0, 3, 1, 26],
+          "instructors": ["Rashmi Prakash"]
+        },
+        {
+          "session": "2025S",
+          "reported": 57,
+          "average": 82.4,
+          "grades": [1, 0, 0, 0, 0, 1, 1, 1, 27, 19, 7],
+          "instructors": ["Rashmi Prakash"]
+        },
+        {
+          "session": "2024W",
+          "reported": 38,
+          "average": 85.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 14, 20, 4],
+          "instructors": ["Rashmi Prakash"]
+        },
+        {
+          "session": "2024S",
+          "reported": 61,
+          "average": 86.5,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 1, 17, 22, 20],
+          "instructors": ["Rashmi Prakash"]
+        },
+        {
+          "session": "2023W",
+          "reported": 37,
+          "average": 87.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 5, 16, 16],
+          "instructors": ["Rashmi Prakash"]
+        },
+        {
+          "session": "2023S",
+          "reported": 49,
+          "average": 86.4,
+          "grades": [0, 0, 0, 1, 1, 0, 1, 1, 11, 15, 19],
+          "instructors": ["Rashmi Prakash"]
+        }
+      ]
+    },
+    "BMEG 410": {
+      "reported": 145,
+      "average": 83.8,
+      "grades": [0, 0, 0, 3, 5, 3, 9, 12, 24, 48, 33],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 29,
+          "average": 83.0,
+          "grades": [0, 0, 0, 1, 1, 1, 3, 3, 6, 6, 8],
+          "instructors": ["Anthony Saraco", "Peter Cripton"]
+        },
+        {
+          "session": "2024W",
+          "reported": 21,
+          "average": 88.9,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 3, 8, 9],
+          "instructors": ["Anthony Saraco", "Claudia Krebs"]
+        },
+        {
+          "session": "2023W",
+          "reported": 31,
+          "average": 80.7,
+          "grades": [0, 0, 0, 0, 2, 1, 4, 4, 7, 11, 1],
+          "instructors": ["Anthony Saraco"]
+        },
+        {
+          "session": "2022W",
+          "reported": 29,
+          "average": 81.9,
+          "grades": [0, 0, 0, 2, 2, 1, 1, 5, 2, 9, 7],
+          "instructors": ["Claudia Krebs", "Jenna Usprech"]
+        },
+        {
+          "session": "2021W",
+          "reported": 35,
+          "average": 85.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 6, 14, 8],
+          "instructors": ["Claudia Krebs", "Jenna Usprech"]
+        }
+      ]
+    },
+    "BMEG 420": {
+      "reported": 138,
+      "average": 76.7,
+      "grades": [3, 3, 2, 5, 9, 15, 13, 16, 29, 19, 12],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 40,
+          "average": 77.2,
+          "grades": [0, 0, 0, 2, 2, 6, 7, 4, 12, 7, 0],
+          "instructors": ["Robert Rohling"]
+        },
+        {
+          "session": "2024W",
+          "reported": 38,
+          "average": 77.5,
+          "grades": [1, 2, 0, 1, 2, 5, 2, 6, 7, 6, 6],
+          "instructors": ["Robert Rohling"]
+        },
+        {
+          "session": "2023W",
+          "reported": 32,
+          "average": 77.6,
+          "grades": [0, 1, 1, 2, 2, 2, 3, 3, 8, 4, 5],
+          "instructors": ["Siamak Najarian"]
+        },
+        {
+          "session": "2022W",
+          "reported": 17,
+          "average": 71.5,
+          "grades": [2, 0, 1, 0, 3, 2, 1, 3, 2, 2, 1],
+          "instructors": ["Robert Rohling"]
+        },
+        {
+          "session": "2021W",
+          "reported": 11,
+          "average": 77.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Robert Rohling"]
+        }
+      ]
+    },
+    "BMEG 421": {
+      "reported": 15,
+      "average": 75.7,
+      "grades": [0, 1, 1, 2, 1, 0, 0, 4, 1, 3, 2],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 6,
+          "average": 76.5,
+          "grades": [0, 0, 1, 1, 0, 0, 0, 1, 0, 2, 1],
+          "instructors": ["Myeong Jin Ju"]
+        },
+        {
+          "session": "2023W",
+          "reported": 9,
+          "average": 75.1,
+          "grades": [0, 1, 0, 1, 1, 0, 0, 3, 1, 1, 1],
+          "instructors": ["Myeong Jin Ju"]
+        }
+      ]
+    },
+    "BMEG 422": {
+      "reported": 7,
+      "average": 78.8,
+      "grades": [0, 0, 0, 1, 0, 0, 1, 1, 1, 2, 0],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 7,
+          "average": 78.8,
+          "grades": [0, 0, 0, 1, 0, 0, 1, 1, 1, 2, 0],
+          "instructors": ["Myeong Jin Ju"]
+        }
+      ]
+    },
+    "BMEG 423": {
+      "reported": 105,
+      "average": 81.4,
+      "grades": [1, 0, 0, 3, 2, 3, 12, 8, 30, 30, 14],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 34,
+          "average": 81.3,
+          "grades": [0, 0, 0, 1, 0, 1, 5, 3, 14, 8, 2],
+          "instructors": ["Matthias Goerges"]
+        },
+        {
+          "session": "2024W",
+          "reported": 42,
+          "average": 80.8,
+          "grades": [0, 0, 0, 1, 1, 2, 5, 4, 14, 13, 2],
+          "instructors": ["Matthias Goerges"]
+        },
+        {
+          "session": "2023W",
+          "reported": 29,
+          "average": 82.4,
+          "grades": [1, 0, 0, 1, 1, 0, 2, 1, 2, 9, 10],
+          "instructors": ["Matthias Goerges"]
+        }
+      ]
+    },
+    "BMEG 424": {
+      "reported": 36,
+      "average": 70.2,
+      "grades": [3, 1, 1, 2, 4, 4, 5, 7, 4, 1, 2],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 13,
+          "average": 76.4,
+          "grades": [1, 0, 0, 0, 0, 1, 3, 4, 3, 1, 0],
+          "instructors": ["Carl de Boer"]
+        },
+        {
+          "session": "2024W",
+          "reported": 9,
+          "average": 73.0,
+          "grades": [0, 0, 1, 0, 2, 2, 2, 1, 0, 0, 1],
+          "instructors": ["Carl de Boer"]
+        },
+        {
+          "session": "2023W",
+          "reported": 14,
+          "average": 62.8,
+          "grades": [2, 1, 0, 2, 2, 1, 0, 2, 1, 0, 1],
+          "instructors": ["Carl de Boer"]
+        }
+      ]
+    },
+    "BMEG 425": {
+      "reported": 105,
+      "average": 84.9,
+      "grades": [0, 0, 0, 0, 1, 1, 11, 13, 14, 28, 33],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 27,
+          "average": 87.0,
+          "grades": [0, 0, 0, 0, 0, 0, 3, 2, 2, 10, 10],
+          "instructors": ["Manu Madhav"]
+        },
+        {
+          "session": "2024W",
+          "reported": 31,
+          "average": 85.9,
+          "grades": [0, 0, 0, 0, 0, 0, 2, 4, 6, 6, 13],
+          "instructors": ["Manu Sasidharan Madhav"]
+        },
+        {
+          "session": "2023W",
+          "reported": 47,
+          "average": 83.0,
+          "grades": [0, 0, 0, 0, 1, 1, 6, 7, 6, 12, 10],
+          "instructors": ["Manu Sasidharan Madhav"]
+        }
+      ]
+    },
+    "BMEG 426": {
+      "reported": 24,
+      "average": 89.4,
+      "grades": [0, 0, 0, 0, 0, 0, 1, 1, 4, 4, 14],
+      "terms": [
+        {
+          "session": "2025S",
+          "reported": 24,
+          "average": 89.4,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 1, 4, 4, 14],
+          "instructors": ["Nika Shakiba"]
+        }
+      ]
+    },
+    "BMEG 455": {
+      "reported": 474,
+      "average": 84.6,
+      "grades": [0, 0, 1, 2, 13, 8, 23, 36, 104, 148, 130],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 84,
+          "average": 84.0,
+          "grades": [0, 0, 1, 0, 3, 3, 7, 7, 15, 22, 26],
+          "instructors": ["Jenna Usprech"]
+        },
+        {
+          "session": "2024W",
+          "reported": 119,
+          "average": 86.8,
+          "grades": [0, 0, 0, 0, 0, 2, 4, 9, 20, 36, 48],
+          "instructors": ["Jenna Usprech"]
+        },
+        {
+          "session": "2023W",
+          "reported": 112,
+          "average": 85.1,
+          "grades": [0, 0, 0, 1, 1, 0, 4, 9, 34, 36, 27],
+          "instructors": ["Jenna Usprech"]
+        },
+        {
+          "session": "2022W",
+          "reported": 99,
+          "average": 82.4,
+          "grades": [0, 0, 0, 1, 9, 3, 8, 11, 18, 28, 21],
+          "instructors": ["Jenna Usprech"]
+        },
+        {
+          "session": "2021W",
+          "reported": 60,
+          "average": 84.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 17, 26, 8],
+          "instructors": ["Jenna Usprech"]
+        }
+      ]
+    },
+    "BMEG 456": {
+      "reported": 118,
+      "average": 85.1,
+      "grades": [0, 0, 0, 0, 1, 2, 9, 2, 23, 32, 37],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 24,
+          "average": 86.2,
+          "grades": [0, 0, 0, 0, 0, 1, 2, 0, 5, 5, 11],
+          "instructors": ["Sarah Hedtrich"]
+        },
+        {
+          "session": "2024W",
+          "reported": 27,
+          "average": 85.9,
+          "grades": [0, 0, 0, 0, 0, 0, 4, 0, 6, 6, 11],
+          "instructors": ["Rashmi Prakash"]
+        },
+        {
+          "session": "2023W",
+          "reported": 21,
+          "average": 85.5,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 6, 8, 6],
+          "instructors": ["Rashmi Prakash"]
+        },
+        {
+          "session": "2022W",
+          "reported": 27,
+          "average": 83.0,
+          "grades": [0, 0, 0, 0, 1, 1, 2, 2, 6, 13, 2],
+          "instructors": ["Judy Findlay"]
+        },
+        {
+          "session": "2021W",
+          "reported": 19,
+          "average": 84.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7],
+          "instructors": ["Judy Findlay"]
+        }
+      ]
+    },
+    "BMEG 457": {
+      "reported": 454,
+      "average": 89.2,
+      "grades": [1, 0, 2, 2, 0, 3, 5, 19, 24, 97, 294],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 96,
+          "average": 89.7,
+          "grades": [0, 0, 0, 0, 0, 2, 0, 6, 5, 9, 74],
+          "instructors": ["Sharareh Bayat", "Christopher Moraes", "Gabrielle Lam", "Peter Cripton", "Robyn Newell", "Carl de Boer", "Jenna Usprech", "Steven Woodside", "Negar Harandi"]
+        },
+        {
+          "session": "2024W",
+          "reported": 125,
+          "average": 90.8,
+          "grades": [0, 0, 1, 0, 0, 0, 2, 5, 5, 20, 92],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "reported": 76,
+          "average": 89.5,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 3, 5, 25, 42],
+          "instructors": ["Sharareh Bayat", "Daniel Kirouac", "Govindkrishna Kaigala", "Peter Cripton", "David Liu", "Carl de Boer", "Jenna Usprech", "Septimiu Salcudean", "Pawel Kudzia", "Kelly Marshall McNagny"]
+        },
+        {
+          "session": "2022W",
+          "reported": 100,
+          "average": 87.4,
+          "grades": [1, 0, 1, 2, 0, 0, 3, 5, 9, 27, 52],
+          "instructors": ["Sharareh Bayat", "Anna Blakney", "Robyn Newell", "Carl de Boer", "Jenna Usprech", "Negar Mohaghegh Harandi"]
+        },
+        {
+          "session": "2021W",
+          "reported": 57,
+          "average": 87.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 34],
+          "instructors": ["Robyn Newell", "Carl De Boer", "Anna Blakney", "Negar Mohaghegh Harandi"]
+        }
+      ]
+    },
+    "BMEG 470": {
+      "reported": 163,
+      "average": 79.9,
+      "grades": [1, 0, 0, 5, 5, 10, 15, 22, 38, 33, 20],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 25,
+          "average": 81.6,
+          "grades": [0, 0, 0, 0, 2, 1, 2, 3, 6, 6, 5],
+          "instructors": ["Dena Shahriari"]
+        },
+        {
+          "session": "2024W",
+          "reported": 35,
+          "average": 81.3,
+          "grades": [0, 0, 0, 1, 1, 2, 2, 5, 8, 11, 5],
+          "instructors": ["Dena Shahriari"]
+        },
+        {
+          "session": "2023W",
+          "reported": 48,
+          "average": 79.8,
+          "grades": [1, 0, 0, 1, 2, 1, 4, 10, 12, 13, 3],
+          "instructors": ["Dena Shahriari"]
+        },
+        {
+          "session": "2022W",
+          "reported": 36,
+          "average": 78.4,
+          "grades": [0, 0, 0, 3, 0, 6, 7, 4, 6, 3, 7],
+          "instructors": ["Dena Shahriari"]
+        },
+        {
+          "session": "2021W",
+          "reported": 19,
+          "average": 77.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 0],
+          "instructors": ["Dena Shahriari"]
+        }
+      ]
+    },
+    "BMEG 474": {
+      "reported": 159,
+      "average": 83.5,
+      "grades": [0, 4, 1, 2, 6, 6, 13, 14, 30, 27, 51],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 28,
+          "average": 81.7,
+          "grades": [0, 2, 0, 0, 1, 3, 1, 2, 6, 3, 10],
+          "instructors": ["Michael Underhill", "Fabio Rossi"]
+        },
+        {
+          "session": "2024W",
+          "reported": 33,
+          "average": 80.2,
+          "grades": [0, 0, 0, 1, 0, 2, 7, 4, 11, 6, 2],
+          "instructors": ["Tully Michael Underhill", "Fabio Rossi"]
+        },
+        {
+          "session": "2023W",
+          "reported": 26,
+          "average": 80.5,
+          "grades": [0, 0, 0, 0, 3, 1, 0, 5, 7, 8, 1],
+          "instructors": ["Nasim Kajabadi", "Tully Michael Underhill", "Fabio Rossi"]
+        },
+        {
+          "session": "2022W",
+          "reported": 36,
+          "average": 80.1,
+          "grades": [0, 2, 1, 1, 2, 0, 5, 3, 6, 10, 6],
+          "instructors": ["Glen Tibbits", "Tully Michael Underhill", "Nika Shakiba", "Robert Judson", "Nozomu Yachie", "Fabio Rossi", "Francis Lynn", "Kelly Marshall McNagny"]
+        },
+        {
+          "session": "2021W",
+          "reported": 36,
+          "average": 93.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 32],
+          "instructors": ["Glen Tibbits", "Nika Shakiba", "Robert Judson", "Nozomu Yachie", "Fabio Rossi", "James Lan"]
+        }
+      ]
+    },
+    "BMEG 490": {
+      "reported": 98,
+      "average": 91.5,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 8, 17, 63],
+      "terms": [
+        {
+          "session": "2025W",
+          "topic": "B",
+          "title": "Introduction to Academic Research",
+          "reported": 27,
+          "average": 92.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 4, 2, 21],
+          "instructors": ["Robyn Newell"]
+        },
+        {
+          "session": "2024W",
+          "topic": "B",
+          "title": "Introduction to Academic Research",
+          "reported": 27,
+          "average": 91.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 8, 18],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "topic": "B",
+          "title": "Introduction to Academic Research",
+          "reported": 20,
+          "average": 91.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 5, 13],
+          "instructors": ["Pawel Kudzia"]
+        },
+        {
+          "session": "2022W",
+          "topic": "B",
+          "title": "Introduction to Academic Research",
+          "reported": 14,
+          "average": 92.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 11],
+          "instructors": ["Robyn Newell"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Introduction to Academic Research",
+          "reported": 10,
+          "average": 89.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Robyn Newell"]
+        }
+      ]
+    },
+    "BMEG 495": {
+      "reported": 46,
+      "average": 81.1,
+      "grades": [0, 0, 0, 0, 2, 0, 9, 4, 17, 7, 7],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 13,
+          "average": 80.4,
+          "grades": [0, 0, 0, 0, 0, 0, 2, 2, 7, 1, 1],
+          "instructors": ["Rizhi Wang"]
+        },
+        {
+          "session": "2024W",
+          "reported": 18,
+          "average": 83.7,
+          "grades": [0, 0, 0, 0, 0, 0, 3, 0, 7, 4, 4],
+          "instructors": ["Felipe Eltit", "Qiong Wang"]
+        },
+        {
+          "session": "2023W",
+          "reported": 15,
+          "average": 78.7,
+          "grades": [0, 0, 0, 0, 2, 0, 4, 2, 3, 2, 2],
+          "instructors": ["Rizhi Wang"]
+        }
+      ]
+    },
+    "BMEG 500": {
+      "reported": 80,
+      "average": 94.4,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 78],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 20,
+          "average": 95.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20],
+          "instructors": ["Roger Tam"]
+        },
+        {
+          "session": "2023W",
+          "reported": 19,
+          "average": 94.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 19],
+          "instructors": ["Roger Tam"]
+        },
+        {
+          "session": "2022W",
+          "reported": 20,
+          "average": 93.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 18],
+          "instructors": ["Roger Tam"]
+        },
+        {
+          "session": "2021W",
+          "reported": 21,
+          "average": 94.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 21],
+          "instructors": ["Tanya Bennet", "Roger Tam"]
+        }
+      ]
+    },
+    "BMEG 501": {
+      "reported": 77,
+      "average": 90.1,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 23, 54],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 20,
+          "average": 90.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 15],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "reported": 19,
+          "average": 89.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 14],
+          "instructors": ["Roger Tam"]
+        },
+        {
+          "session": "2022W",
+          "reported": 20,
+          "average": 91.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 15],
+          "instructors": ["Roger Tam"]
+        },
+        {
+          "session": "2021W",
+          "reported": 18,
+          "average": 89.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 10],
+          "instructors": ["Tanya Bennet", "Roger Tam"]
+        }
+      ]
+    },
+    "BMEG 510": {
+      "reported": 92,
+      "average": 87.4,
+      "grades": [0, 0, 0, 1, 1, 1, 2, 4, 8, 30, 41],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 21,
+          "average": 91.0,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 3, 2, 15],
+          "instructors": ["Anthony Saraco", "Claudia Krebs"]
+        },
+        {
+          "session": "2023W",
+          "reported": 20,
+          "average": 85.7,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 2, 1, 10, 6],
+          "instructors": ["Anthony Saraco"]
+        },
+        {
+          "session": "2022W",
+          "reported": 24,
+          "average": 84.9,
+          "grades": [0, 0, 0, 1, 1, 0, 1, 2, 4, 7, 8],
+          "instructors": ["Claudia Krebs", "Jenna Usprech"]
+        },
+        {
+          "session": "2021W",
+          "reported": 27,
+          "average": 88.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 12],
+          "instructors": ["Claudia Krebs", "Jenna Usprech"]
+        }
+      ]
+    },
+    "BMEG 511": {
+      "reported": 70,
+      "average": 89.7,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 7, 17, 42],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 17,
+          "average": 90.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 11],
+          "instructors": ["Babak Shadgan"]
+        },
+        {
+          "session": "2023W",
+          "reported": 16,
+          "average": 88.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 6, 8],
+          "instructors": ["Babak Shadgan"]
+        },
+        {
+          "session": "2022W",
+          "reported": 19,
+          "average": 88.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 5, 5, 9],
+          "instructors": ["Babak Shadgan"]
+        },
+        {
+          "session": "2021W",
+          "reported": 18,
+          "average": 91.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14],
+          "instructors": ["Babak Shadgan"]
+        }
+      ]
+    },
+    "BMEG 522": {
+      "reported": 6,
+      "average": 90.0,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 5],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 6,
+          "average": 90.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 5],
+          "instructors": ["Myeong Jin Ju"]
+        }
+      ]
+    },
+    "BMEG 523": {
+      "reported": 13,
+      "average": 88.1,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 7, 4],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 13,
+          "average": 88.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 7, 4],
+          "instructors": ["Matthias Goerges"]
+        }
+      ]
+    },
+    "BMEG 524": {
+      "reported": 22,
+      "average": 85.8,
+      "grades": [0, 0, 0, 1, 0, 0, 0, 0, 8, 6, 6],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 13,
+          "average": 82.9,
+          "grades": [0, 0, 0, 1, 0, 0, 0, 0, 7, 3, 2],
+          "instructors": ["Carl de Boer"]
+        },
+        {
+          "session": "2023W",
+          "reported": 9,
+          "average": 89.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 4],
+          "instructors": ["Carl de Boer"]
+        }
+      ]
+    },
+    "BMEG 550": {
+      "reported": 40,
+      "average": 86.1,
+      "grades": [0, 0, 0, 0, 0, 1, 1, 1, 4, 8, 11],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 15,
+          "average": 93.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 11],
+          "instructors": ["Anthony Chan"]
+        },
+        {
+          "session": "2022W",
+          "reported": 11,
+          "average": 81.3,
+          "grades": [0, 0, 0, 0, 0, 1, 1, 1, 4, 4, 0],
+          "instructors": ["Anthony Chan"]
+        },
+        {
+          "session": "2021W",
+          "reported": 14,
+          "average": 82.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Anthony Chan"]
+        }
+      ]
+    },
+    "BMEG 556": {
+      "reported": 86,
+      "average": 87.5,
+      "grades": [0, 0, 0, 0, 0, 0, 1, 2, 14, 22, 40],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 20,
+          "average": 88.1,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 2, 6, 11],
+          "instructors": ["Rashmi Prakash"]
+        },
+        {
+          "session": "2023W",
+          "reported": 20,
+          "average": 86.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 6, 8, 6],
+          "instructors": ["Rashmi Prakash"]
+        },
+        {
+          "session": "2022W",
+          "reported": 24,
+          "average": 86.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 2, 6, 8, 8],
+          "instructors": ["Judy Findlay"]
+        },
+        {
+          "session": "2021W",
+          "reported": 22,
+          "average": 89.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 15],
+          "instructors": ["Judy Findlay"]
+        }
+      ]
+    },
+    "BMEG 557": {
+      "reported": 39,
+      "average": 89.8,
+      "grades": [0, 0, 0, 0, 0, 1, 0, 0, 4, 6, 22],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 13,
+          "average": 89.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 9],
+          "instructors": ["Sharareh Bayat"]
+        },
+        {
+          "session": "2023W",
+          "reported": 9,
+          "average": 89.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 5],
+          "instructors": ["Sharareh Bayat"]
+        },
+        {
+          "session": "2022W",
+          "reported": 11,
+          "average": 89.5,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 0, 2, 0, 8],
+          "instructors": ["Sharareh Bayat"]
+        },
+        {
+          "session": "2021W",
+          "reported": 6,
+          "average": 90.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Sharareh Bayat"]
+        }
+      ]
+    },
+    "BMEG 580": {
+      "reported": 225,
+      "average": 90.6,
+      "grades": [3, 0, 0, 0, 0, 0, 1, 8, 29, 60, 124],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 38,
+          "average": 83.0,
+          "grades": [1, 0, 0, 0, 0, 0, 1, 2, 11, 18, 5],
+          "instructors": ["Matthias Goerges", "Govindkrishna Kaigala"]
+        },
+        {
+          "session": "2023W",
+          "reported": 56,
+          "average": 95.6,
+          "grades": [1, 0, 0, 0, 0, 0, 0, 0, 1, 6, 48],
+          "instructors": ["Tully Michael Underhill", "Govindkrishna Kaigala", "Nika Shakiba", "Anna Blakney", "Nozomu Yachie", "Carl de Boer", "Matthias Goerges", "Carolina Tropini", "Kelly Marshall McNagny"]
+        },
+        {
+          "session": "2022W",
+          "reported": 61,
+          "average": 96.1,
+          "grades": [1, 0, 0, 0, 0, 0, 0, 0, 1, 4, 55],
+          "instructors": ["Tully Michael Underhill", "Nika Shakiba", "Anna Blakney", "Nozomu Yachie", "David Liu", "Ilker Hacihaliloglu", "Carl de Boer", "Cheryl Lea Wellington", "Thalia Field", "Chun Wu", "Matthias Goerges", "Kelly Marshall McNagny", "Dena Shahriari"]
+        },
+        {
+          "session": "2021W",
+          "reported": 70,
+          "average": 86.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 6, 16, 32, 16],
+          "instructors": ["Srinivas Murthy", "Tully Michael Underhill", "Nozomu Yachie", "Cheryl Lea Wellington", "Matthias Goerges", "Chun Wu", "James Piret", "Tim Kieffer"]
+        }
+      ]
+    },
+    "BMEG 581": {
+      "reported": 211,
+      "average": 96.7,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 3, 11, 193],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 54,
+          "average": 99.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 54],
+          "instructors": ["Manu Sasidharan Madhav", "Nozomu Yachie"]
+        },
+        {
+          "session": "2023W",
+          "reported": 45,
+          "average": 96.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 40],
+          "instructors": ["Nika Shakiba", "Nozomu Yachie"]
+        },
+        {
+          "session": "2022W",
+          "reported": 55,
+          "average": 95.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 8, 46],
+          "instructors": ["Nika Shakiba", "Nozomu Yachie"]
+        },
+        {
+          "session": "2021W",
+          "reported": 57,
+          "average": 96.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 53],
+          "instructors": ["Nika Shakiba", "Nozomu Yachie"]
+        }
+      ]
+    },
+    "BMEG 591": {
+      "reported": 229,
+      "average": 89.0,
+      "grades": [0, 0, 0, 0, 0, 1, 3, 2, 17, 48, 115],
+      "terms": [
+        {
+          "session": "2024W",
+          "topic": "J",
+          "title": "IMMUNOENGINEERNG",
+          "reported": 16,
+          "average": 93.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 14],
+          "instructors": ["Anna Blakney", "Kelly Marshall McNagny"]
+        },
+        {
+          "session": "2024W",
+          "topic": "L",
+          "title": "EXP MICROFLUIDIC",
+          "reported": 6,
+          "average": 86.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2],
+          "instructors": ["Sofia Graham Arshavsky", "Govindkrishna Kaigala"]
+        },
+        {
+          "session": "2024W",
+          "topic": "N",
+          "title": "DATA FUNDAMENTLS",
+          "reported": 19,
+          "average": 92.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 16],
+          "instructors": ["Hossein Shahrabi Farahani"]
+        },
+        {
+          "session": "2024W",
+          "topic": "T",
+          "title": "MACHINE LEARNING",
+          "reported": 16,
+          "average": 90.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 11],
+          "instructors": ["Hossein Shahrabi Farahani"]
+        },
+        {
+          "session": "2024S",
+          "topic": "G",
+          "title": "SCI COM DIV AUD",
+          "reported": 12,
+          "average": 92.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 11],
+          "instructors": ["Jenna Usprech"]
+        },
+        {
+          "session": "2023W",
+          "topic": "F",
+          "title": "Topics in Biomedical Engineering",
+          "reported": 14,
+          "average": 85.6,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 1, 3, 5, 4],
+          "instructors": ["Nika Shakiba"]
+        },
+        {
+          "session": "2023W",
+          "topic": "J",
+          "title": "Topics in Biomedical Engineering",
+          "reported": 9,
+          "average": 90.5,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 6],
+          "instructors": ["Anna Blakney", "Kelly Marshall McNagny"]
+        },
+        {
+          "session": "2023W",
+          "topic": "K",
+          "title": "Topics in Biomedical Engineering",
+          "reported": 27,
+          "average": 88.4,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 2, 9, 15],
+          "instructors": ["Calvin Kuo"]
+        },
+        {
+          "session": "2022W",
+          "topic": "C",
+          "title": "Topics in Biomedical Engineering",
+          "reported": 6,
+          "average": 89.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 3],
+          "instructors": ["Myeong Jin Ju"]
+        },
+        {
+          "session": "2022W",
+          "topic": "D",
+          "title": "Topics in Biomedical Engineering",
+          "reported": 9,
+          "average": 90.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 6],
+          "instructors": ["Matthias Goerges"]
+        },
+        {
+          "session": "2022W",
+          "topic": "E",
+          "title": "Topics in Biomedical Engineering",
+          "reported": 11,
+          "average": 87.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 7, 3],
+          "instructors": ["Carl de Boer"]
+        },
+        {
+          "session": "2022W",
+          "topic": "K",
+          "title": "Topics in Biomedical Engineering",
+          "reported": 17,
+          "average": 87.7,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 0, 2, 7, 7],
+          "instructors": ["Calvin Kuo"]
+        },
+        {
+          "session": "2022S",
+          "topic": "G",
+          "title": "Topics in Biomedical Engineering",
+          "reported": 10,
+          "average": 93.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10],
+          "instructors": ["Jenna Usprech"]
+        },
+        {
+          "session": "2021W",
+          "topic": "C",
+          "title": "Topics in Biomedical Engineering",
+          "reported": 7,
+          "average": 82.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Myeong Jin Ju"]
+        },
+        {
+          "session": "2021W",
+          "topic": "D",
+          "title": "Topics in Biomedical Engineering",
+          "reported": 12,
+          "average": 85.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Matthias Goerges"]
+        },
+        {
+          "session": "2021W",
+          "topic": "E",
+          "title": "Topics in Biomedical Engineering",
+          "reported": 16,
+          "average": 87.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7],
+          "instructors": ["Carl De Boer"]
+        },
+        {
+          "session": "2021W",
+          "topic": "F",
+          "title": "Topics in Biomedical Engineering",
+          "reported": 15,
+          "average": 86.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 0],
+          "instructors": ["Nika Shakiba", "Nozomu Yachie"]
+        },
+        {
+          "session": "2021S",
+          "topic": "G",
+          "title": "Topics in Biomedical Engineering",
+          "reported": 7,
+          "average": 90.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Jenna Usprech"]
+        }
+      ]
+    },
+    "BMEG 597": {
+      "reported": 56,
+      "average": 91.0,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 5, 15, 33],
+      "terms": [
+        {
+          "session": "2024S",
+          "reported": 9,
+          "average": 91.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 6],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "reported": 6,
+          "average": 89.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3],
+          "instructors": ["Karen Cheung"]
+        },
+        {
+          "session": "2023S",
+          "reported": 13,
+          "average": 92.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 6],
+          "instructors": []
+        },
+        {
+          "session": "2022W",
+          "reported": 6,
+          "average": 91.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 4],
+          "instructors": ["Karen Cheung"]
+        },
+        {
+          "session": "2022S",
+          "reported": 22,
+          "average": 90.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 3, 5, 14],
+          "instructors": []
+        }
+      ]
+    },
+    "BMEG 599": {
+      "reported": 147,
+      "average": 91.2,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 24],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 8,
+          "average": 89.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 4],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "reported": 69,
+          "average": 90.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 5],
+          "instructors": []
+        },
+        {
+          "session": "2023S",
+          "reported": 56,
+          "average": 92.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 5],
+          "instructors": []
+        },
+        {
+          "session": "2022W",
+          "reported": 8,
+          "average": 91.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 5],
+          "instructors": []
+        },
+        {
+          "session": "2022S",
+          "reported": 6,
+          "average": 94.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 5],
+          "instructors": []
+        }
+      ]
+    }
+  }
+}

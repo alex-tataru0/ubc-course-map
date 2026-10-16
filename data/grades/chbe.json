@@ -1,0 +1,2468 @@
+{
+  "subject": "CHBE",
+  "campus": "UBCV",
+  "source": "https://ubcgrades.com",
+  "credit": "UBCGrades.com / UBC PAIR",
+  "sessions": ["2021W", "2022W", "2023S", "2023W", "2024W", "2025W"],
+  "buckets": ["<50%", "50-54%", "55-59%", "60-63%", "64-67%", "68-71%", "72-75%", "76-79%", "80-84%", "85-89%", "90-100%"],
+  "courses": {
+    "CHBE 201": {
+      "reported": 594,
+      "average": 77.2,
+      "grades": [21, 0, 3, 5, 15, 36, 94, 126, 169, 70, 19],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 132,
+          "average": 81.3,
+          "grades": [0, 0, 1, 3, 2, 6, 11, 21, 41, 35, 12],
+          "instructors": ["Alexander Jameson", "Emily Cranston"]
+        },
+        {
+          "session": "2024W",
+          "reported": 108,
+          "average": 79.6,
+          "grades": [3, 0, 0, 0, 3, 3, 13, 19, 47, 14, 6],
+          "instructors": ["Michael Schoen", "Emily Cranston"]
+        },
+        {
+          "session": "2023W",
+          "reported": 114,
+          "average": 75.3,
+          "grades": [8, 0, 2, 1, 2, 7, 21, 34, 31, 8, 0],
+          "instructors": ["Michael Schoen", "Hongxing Estella Qi"]
+        },
+        {
+          "session": "2022W",
+          "reported": 112,
+          "average": 75.3,
+          "grades": [10, 0, 0, 1, 0, 5, 28, 25, 29, 13, 1],
+          "instructors": ["Michael Schoen", "Gabriel Potvin", "Hongxing Estella Qi"]
+        },
+        {
+          "session": "2021W",
+          "reported": 128,
+          "average": 74.2,
+          "grades": [0, 0, 0, 0, 8, 15, 21, 27, 21, 0, 0],
+          "instructors": ["Michael Schoen", "Hongxing Estella Qi"]
+        }
+      ]
+    },
+    "CHBE 220": {
+      "reported": 614,
+      "average": 76.1,
+      "grades": [33, 0, 10, 13, 44, 79, 67, 86, 99, 91, 81],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 136,
+          "average": 76.4,
+          "grades": [11, 0, 1, 3, 8, 19, 11, 23, 21, 19, 20],
+          "instructors": ["Jonathan Verrett"]
+        },
+        {
+          "session": "2024W",
+          "reported": 121,
+          "average": 78.3,
+          "grades": [6, 0, 0, 1, 9, 9, 17, 19, 16, 27, 17],
+          "instructors": ["Jonathan Verrett"]
+        },
+        {
+          "session": "2023W",
+          "reported": 117,
+          "average": 72.7,
+          "grades": [9, 0, 3, 5, 7, 21, 17, 20, 19, 8, 7],
+          "instructors": ["Jonathan Verrett"]
+        },
+        {
+          "session": "2022W",
+          "reported": 116,
+          "average": 76.6,
+          "grades": [7, 0, 0, 4, 7, 15, 13, 10, 23, 15, 22],
+          "instructors": ["Gabriel Potvin"]
+        },
+        {
+          "session": "2021W",
+          "reported": 124,
+          "average": 76.4,
+          "grades": [0, 0, 6, 0, 13, 15, 9, 14, 20, 22, 15],
+          "instructors": ["Jonathan Verrett"]
+        }
+      ]
+    },
+    "CHBE 221": {
+      "reported": 600,
+      "average": 75.5,
+      "grades": [22, 17, 5, 36, 57, 49, 83, 73, 103, 82, 68],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 132,
+          "average": 77.9,
+          "grades": [3, 0, 0, 3, 14, 9, 21, 24, 27, 19, 12],
+          "instructors": ["Jonathan Verrett"]
+        },
+        {
+          "session": "2024W",
+          "reported": 120,
+          "average": 75.4,
+          "grades": [5, 0, 1, 3, 13, 13, 27, 17, 16, 14, 11],
+          "instructors": ["Jonathan Verrett", "Gabriel Potvin"]
+        },
+        {
+          "session": "2023W",
+          "reported": 111,
+          "average": 71.5,
+          "grades": [11, 1, 2, 16, 9, 10, 10, 14, 13, 14, 9],
+          "instructors": ["Gabriel Potvin"]
+        },
+        {
+          "session": "2022W",
+          "reported": 110,
+          "average": 78.8,
+          "grades": [3, 3, 2, 2, 9, 6, 15, 6, 21, 20, 23],
+          "instructors": ["Gabriel Potvin"]
+        },
+        {
+          "session": "2021W",
+          "reported": 127,
+          "average": 73.7,
+          "grades": [0, 13, 0, 12, 12, 11, 10, 12, 26, 15, 13],
+          "instructors": ["Gabriel Potvin", "Susan Baldwin"]
+        }
+      ]
+    },
+    "CHBE 230": {
+      "reported": 861,
+      "average": 67.5,
+      "grades": [71, 75, 84, 90, 91, 105, 91, 70, 62, 59, 52],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 171,
+          "average": 73.2,
+          "grades": [11, 6, 10, 7, 20, 18, 19, 19, 24, 17, 20],
+          "instructors": ["James Feng"]
+        },
+        {
+          "session": "2024W",
+          "reported": 170,
+          "average": 67.7,
+          "grades": [12, 16, 15, 24, 13, 21, 14, 22, 16, 9, 8],
+          "instructors": ["James Jingtao Feng"]
+        },
+        {
+          "session": "2023W",
+          "reported": 173,
+          "average": 70.3,
+          "grades": [12, 9, 16, 13, 18, 19, 23, 8, 16, 25, 11],
+          "instructors": ["James Jingtao Feng"]
+        },
+        {
+          "session": "2022W",
+          "reported": 192,
+          "average": 65.2,
+          "grades": [7, 19, 25, 32, 28, 33, 21, 12, 6, 8, 1],
+          "instructors": ["James Jingtao Feng"]
+        },
+        {
+          "session": "2021W",
+          "reported": 155,
+          "average": 60.9,
+          "grades": [29, 25, 18, 14, 12, 14, 14, 9, 0, 0, 12],
+          "instructors": ["Anthony Wachs"]
+        }
+      ]
+    },
+    "CHBE 241": {
+      "reported": 1121,
+      "average": 75.1,
+      "grades": [59, 33, 23, 49, 91, 141, 140, 117, 188, 143, 134],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 243,
+          "average": 75.1,
+          "grades": [15, 8, 1, 7, 21, 28, 34, 32, 46, 31, 20],
+          "instructors": ["Seyyed Alireza Bagherzadeh Hosseini"]
+        },
+        {
+          "session": "2024W",
+          "reported": 212,
+          "average": 79.2,
+          "grades": [7, 0, 4, 8, 16, 20, 27, 19, 30, 36, 45],
+          "instructors": ["Seyyed Alireza Bagherzadeh Hosseini"]
+        },
+        {
+          "session": "2023W",
+          "reported": 223,
+          "average": 73.1,
+          "grades": [18, 15, 1, 9, 15, 33, 27, 21, 31, 24, 26],
+          "instructors": ["Seyyed Alireza Bagherzadeh Hosseini"]
+        },
+        {
+          "session": "2022W",
+          "reported": 214,
+          "average": 72.0,
+          "grades": [12, 6, 11, 14, 16, 28, 30, 20, 43, 23, 11],
+          "instructors": ["Seyyed Alireza Bagherzadeh Hosseini"]
+        },
+        {
+          "session": "2021W",
+          "reported": 229,
+          "average": 76.1,
+          "grades": [7, 4, 6, 11, 23, 32, 22, 25, 38, 29, 32],
+          "instructors": ["Seyyed Alireza Bagherzadeh Hosseini"]
+        }
+      ]
+    },
+    "CHBE 244": {
+      "reported": 1155,
+      "average": 71.4,
+      "grades": [86, 75, 80, 128, 97, 118, 109, 62, 123, 70, 202],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 238,
+          "average": 75.1,
+          "grades": [10, 6, 10, 29, 23, 21, 20, 18, 31, 21, 49],
+          "instructors": ["Savvas Hatzikiriakos"]
+        },
+        {
+          "session": "2024W",
+          "reported": 217,
+          "average": 80.6,
+          "grades": [8, 5, 11, 12, 8, 14, 19, 11, 32, 19, 78],
+          "instructors": ["Savvas Hatzikiriakos"]
+        },
+        {
+          "session": "2023W",
+          "reported": 231,
+          "average": 69.2,
+          "grades": [25, 18, 22, 26, 17, 22, 15, 7, 20, 15, 39],
+          "instructors": ["Savvas Hatzikiriakos"]
+        },
+        {
+          "session": "2022W",
+          "reported": 212,
+          "average": 68.1,
+          "grades": [16, 20, 13, 27, 23, 25, 27, 12, 23, 6, 20],
+          "instructors": ["Savvas Hatzikiriakos"]
+        },
+        {
+          "session": "2021W",
+          "reported": 257,
+          "average": 65.0,
+          "grades": [27, 26, 24, 34, 26, 36, 28, 14, 17, 9, 16],
+          "instructors": ["Savvas Hatzikiriakos"]
+        }
+      ]
+    },
+    "CHBE 251": {
+      "reported": 739,
+      "average": 76.1,
+      "grades": [16, 16, 30, 40, 60, 71, 91, 93, 104, 113, 102],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 136,
+          "average": 74.7,
+          "grades": [0, 0, 6, 11, 21, 23, 16, 15, 20, 7, 17],
+          "instructors": ["Mark Martinez"]
+        },
+        {
+          "session": "2024W",
+          "reported": 135,
+          "average": 79.5,
+          "grades": [1, 1, 3, 9, 5, 9, 16, 16, 21, 31, 23],
+          "instructors": ["Mark Martinez"]
+        },
+        {
+          "session": "2023W",
+          "reported": 116,
+          "average": 76.6,
+          "grades": [4, 2, 5, 7, 7, 10, 14, 10, 20, 12, 22],
+          "instructors": ["Mark Martinez"]
+        },
+        {
+          "session": "2022W",
+          "reported": 119,
+          "average": 79.3,
+          "grades": [2, 1, 0, 3, 5, 7, 16, 24, 18, 24, 19],
+          "instructors": ["Mark Martinez"]
+        },
+        {
+          "session": "2021W",
+          "reported": 233,
+          "average": 73.2,
+          "grades": [9, 12, 16, 10, 22, 22, 29, 28, 25, 39, 21],
+          "instructors": ["Mark Martinez"]
+        }
+      ]
+    },
+    "CHBE 263": {
+      "reported": 580,
+      "average": 86.0,
+      "grades": [0, 0, 1, 0, 8, 8, 10, 36, 123, 147, 215],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 130,
+          "average": 87.8,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 11, 22, 35, 61],
+          "instructors": ["Pranav Chintalapati"]
+        },
+        {
+          "session": "2024W",
+          "reported": 110,
+          "average": 89.4,
+          "grades": [0, 0, 0, 0, 1, 0, 0, 3, 13, 24, 69],
+          "instructors": ["Pranav Chintalapati"]
+        },
+        {
+          "session": "2023W",
+          "reported": 111,
+          "average": 83.6,
+          "grades": [0, 0, 0, 0, 3, 4, 7, 17, 23, 30, 27],
+          "instructors": ["Pranav Chintalapati"]
+        },
+        {
+          "session": "2022W",
+          "reported": 109,
+          "average": 83.4,
+          "grades": [0, 0, 1, 0, 4, 4, 2, 5, 45, 30, 18],
+          "instructors": ["Pranav Chintalapati"]
+        },
+        {
+          "session": "2021W",
+          "reported": 120,
+          "average": 85.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 20, 28, 40],
+          "instructors": ["Pranav Chintalapati", "Aimee Louise Creagh"]
+        }
+      ]
+    },
+    "CHBE 264": {
+      "reported": 578,
+      "average": 83.5,
+      "grades": [0, 1, 1, 2, 5, 11, 24, 52, 183, 200, 85],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 130,
+          "average": 86.1,
+          "grades": [0, 0, 0, 0, 1, 0, 0, 9, 31, 69, 20],
+          "instructors": ["Pranav Chintalapati"]
+        },
+        {
+          "session": "2024W",
+          "reported": 119,
+          "average": 84.7,
+          "grades": [0, 0, 0, 0, 3, 3, 1, 8, 36, 48, 20],
+          "instructors": ["Pranav Chintalapati"]
+        },
+        {
+          "session": "2023W",
+          "reported": 102,
+          "average": 81.7,
+          "grades": [0, 0, 0, 1, 1, 3, 8, 13, 41, 26, 7],
+          "instructors": ["Pranav Chintalapati"]
+        },
+        {
+          "session": "2022W",
+          "reported": 108,
+          "average": 83.0,
+          "grades": [0, 1, 1, 1, 0, 5, 4, 7, 41, 32, 16],
+          "instructors": ["Pranav Chintalapati"]
+        },
+        {
+          "session": "2021W",
+          "reported": 119,
+          "average": 81.5,
+          "grades": [0, 0, 0, 0, 0, 0, 11, 15, 34, 25, 22],
+          "instructors": ["Pranav Chintalapati"]
+        }
+      ]
+    },
+    "CHBE 344": {
+      "reported": 284,
+      "average": 77.5,
+      "grades": [1, 6, 2, 14, 14, 31, 35, 38, 58, 40, 32],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 57,
+          "average": 77.3,
+          "grades": [0, 1, 0, 1, 2, 9, 11, 11, 11, 5, 6],
+          "instructors": ["David Chester Upham"]
+        },
+        {
+          "session": "2024W",
+          "reported": 58,
+          "average": 76.2,
+          "grades": [0, 2, 1, 5, 2, 7, 11, 7, 8, 9, 6],
+          "instructors": ["David Chester Upham"]
+        },
+        {
+          "session": "2023W",
+          "reported": 51,
+          "average": 78.1,
+          "grades": [1, 1, 1, 4, 1, 5, 6, 5, 11, 8, 7],
+          "instructors": ["Savvas Hatzikiriakos"]
+        },
+        {
+          "session": "2022W",
+          "reported": 60,
+          "average": 80.3,
+          "grades": [0, 2, 0, 4, 3, 3, 7, 6, 13, 9, 13],
+          "instructors": ["Savvas Hatzikiriakos"]
+        },
+        {
+          "session": "2021W",
+          "reported": 58,
+          "average": 75.8,
+          "grades": [0, 0, 0, 0, 6, 7, 0, 9, 15, 9, 0],
+          "instructors": ["David Chester Upham"]
+        }
+      ]
+    },
+    "CHBE 345": {
+      "reported": 522,
+      "average": 73.3,
+      "grades": [13, 21, 17, 35, 57, 59, 75, 65, 61, 65, 45],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 95,
+          "average": 71.7,
+          "grades": [1, 3, 7, 8, 13, 15, 18, 15, 4, 5, 6],
+          "instructors": ["Heather Trajano"]
+        },
+        {
+          "session": "2024W",
+          "reported": 111,
+          "average": 76.5,
+          "grades": [1, 2, 6, 6, 12, 10, 14, 11, 16, 19, 14],
+          "instructors": ["Simcha Srebnik", "Heather Trajano"]
+        },
+        {
+          "session": "2023W",
+          "reported": 94,
+          "average": 68.9,
+          "grades": [10, 4, 2, 8, 13, 9, 12, 12, 9, 9, 6],
+          "instructors": ["Heather Trajano"]
+        },
+        {
+          "session": "2022W",
+          "reported": 96,
+          "average": 73.4,
+          "grades": [1, 12, 2, 6, 8, 9, 8, 12, 18, 13, 7],
+          "instructors": ["Heather Trajano"]
+        },
+        {
+          "session": "2021W",
+          "reported": 126,
+          "average": 75.1,
+          "grades": [0, 0, 0, 7, 11, 16, 23, 15, 14, 19, 12],
+          "instructors": ["Heather Trajano"]
+        }
+      ]
+    },
+    "CHBE 346": {
+      "reported": 548,
+      "average": 71.3,
+      "grades": [20, 40, 53, 37, 43, 48, 64, 50, 62, 50, 63],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 114,
+          "average": 75.0,
+          "grades": [3, 4, 7, 9, 15, 9, 7, 10, 18, 17, 15],
+          "instructors": ["Peter Englezos"]
+        },
+        {
+          "session": "2024W",
+          "reported": 115,
+          "average": 69.1,
+          "grades": [4, 8, 21, 5, 12, 7, 20, 13, 11, 8, 6],
+          "instructors": ["Petros Englezos"]
+        },
+        {
+          "session": "2023W",
+          "reported": 102,
+          "average": 64.9,
+          "grades": [10, 17, 13, 7, 9, 11, 7, 6, 11, 3, 8],
+          "instructors": ["Petros Englezos"]
+        },
+        {
+          "session": "2022W",
+          "reported": 102,
+          "average": 69.6,
+          "grades": [3, 11, 12, 8, 7, 11, 16, 12, 9, 7, 6],
+          "instructors": ["Petros Englezos"]
+        },
+        {
+          "session": "2021W",
+          "reported": 115,
+          "average": 77.0,
+          "grades": [0, 0, 0, 8, 0, 10, 14, 9, 13, 15, 28],
+          "instructors": ["Petros Englezos"]
+        }
+      ]
+    },
+    "CHBE 352": {
+      "reported": 617,
+      "average": 71.4,
+      "grades": [7, 45, 56, 78, 59, 87, 57, 60, 59, 35, 61],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 117,
+          "average": 74.3,
+          "grades": [3, 7, 11, 12, 2, 10, 16, 13, 12, 15, 16],
+          "instructors": ["Mark Martinez"]
+        },
+        {
+          "session": "2024W",
+          "reported": 110,
+          "average": 77.9,
+          "grades": [1, 5, 6, 11, 7, 14, 5, 8, 10, 10, 33],
+          "instructors": ["Mark Martinez"]
+        },
+        {
+          "session": "2023W",
+          "reported": 110,
+          "average": 70.8,
+          "grades": [3, 7, 5, 14, 10, 14, 16, 13, 15, 5, 7],
+          "instructors": ["Mark Martinez"]
+        },
+        {
+          "session": "2022W",
+          "reported": 129,
+          "average": 66.7,
+          "grades": [0, 16, 16, 21, 24, 21, 8, 7, 6, 5, 5],
+          "instructors": ["Mark Martinez"]
+        },
+        {
+          "session": "2021W",
+          "reported": 151,
+          "average": 68.8,
+          "grades": [0, 10, 18, 20, 16, 28, 12, 19, 16, 0, 0],
+          "instructors": ["Mark Martinez"]
+        }
+      ]
+    },
+    "CHBE 355": {
+      "reported": 526,
+      "average": 75.5,
+      "grades": [2, 14, 4, 16, 35, 64, 87, 99, 106, 46, 35],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 105,
+          "average": 75.0,
+          "grades": [0, 2, 0, 4, 9, 15, 21, 28, 17, 6, 3],
+          "instructors": ["Vikramaditya Yadav"]
+        },
+        {
+          "session": "2024W",
+          "reported": 113,
+          "average": 76.8,
+          "grades": [1, 2, 2, 4, 4, 8, 19, 28, 23, 20, 2],
+          "instructors": ["Vikramaditya Yadav"]
+        },
+        {
+          "session": "2023W",
+          "reported": 98,
+          "average": 75.9,
+          "grades": [1, 3, 1, 1, 7, 14, 15, 17, 24, 6, 7],
+          "instructors": ["Vikramaditya Yadav"]
+        },
+        {
+          "session": "2022W",
+          "reported": 89,
+          "average": 73.6,
+          "grades": [0, 7, 1, 7, 7, 11, 17, 10, 20, 5, 4],
+          "instructors": ["Vikramaditya Yadav"]
+        },
+        {
+          "session": "2021W",
+          "reported": 121,
+          "average": 75.8,
+          "grades": [0, 0, 0, 0, 8, 16, 15, 16, 22, 9, 19],
+          "instructors": ["Vikramaditya Yadav"]
+        }
+      ]
+    },
+    "CHBE 356": {
+      "reported": 618,
+      "average": 76.6,
+      "grades": [17, 22, 14, 31, 37, 65, 74, 87, 90, 77, 103],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 107,
+          "average": 79.6,
+          "grades": [0, 0, 2, 5, 5, 10, 16, 12, 23, 16, 18],
+          "instructors": ["Yankai Cao"]
+        },
+        {
+          "session": "2024W",
+          "reported": 125,
+          "average": 79.9,
+          "grades": [2, 2, 1, 2, 6, 12, 14, 23, 19, 16, 28],
+          "instructors": ["Yankai Cao"]
+        },
+        {
+          "session": "2023W",
+          "reported": 124,
+          "average": 77.5,
+          "grades": [5, 5, 1, 4, 2, 13, 16, 17, 19, 16, 25],
+          "instructors": ["Yankai Cao"]
+        },
+        {
+          "session": "2022W",
+          "reported": 122,
+          "average": 75.0,
+          "grades": [1, 6, 5, 8, 11, 14, 14, 19, 14, 18, 12],
+          "instructors": ["Yankai Cao"]
+        },
+        {
+          "session": "2021W",
+          "reported": 140,
+          "average": 72.1,
+          "grades": [9, 9, 5, 12, 13, 16, 14, 16, 15, 11, 20],
+          "instructors": ["Yankai Cao"]
+        }
+      ]
+    },
+    "CHBE 362": {
+      "reported": 524,
+      "average": 85.9,
+      "grades": [3, 2, 2, 6, 11, 12, 25, 33, 52, 125, 237],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 113,
+          "average": 90.3,
+          "grades": [0, 0, 0, 2, 2, 0, 0, 2, 7, 23, 77],
+          "instructors": ["Madjid Mohseni"]
+        },
+        {
+          "session": "2024W",
+          "reported": 97,
+          "average": 88.3,
+          "grades": [0, 0, 0, 0, 2, 1, 0, 3, 9, 33, 49],
+          "instructors": ["Alexander Jameson"]
+        },
+        {
+          "session": "2023W",
+          "reported": 101,
+          "average": 81.9,
+          "grades": [1, 1, 1, 0, 2, 3, 14, 13, 22, 23, 20],
+          "instructors": ["John Frostad"]
+        },
+        {
+          "session": "2022W",
+          "reported": 102,
+          "average": 79.8,
+          "grades": [2, 1, 1, 4, 5, 8, 11, 15, 14, 24, 17],
+          "instructors": ["Pranav Chintalapati", "Elod Lajos Gyenge", "Aimee Louise Creagh"]
+        },
+        {
+          "session": "2021W",
+          "reported": 111,
+          "average": 88.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 22, 74],
+          "instructors": ["Elod Lajos Gyenge"]
+        }
+      ]
+    },
+    "CHBE 364": {
+      "reported": 215,
+      "average": 86.3,
+      "grades": [0, 0, 0, 0, 1, 0, 2, 5, 56, 78, 63],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 34,
+          "average": 88.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 1, 16, 16],
+          "instructors": ["Pranav Chintalapati"]
+        },
+        {
+          "session": "2024W",
+          "reported": 49,
+          "average": 88.2,
+          "grades": [0, 0, 0, 0, 1, 0, 1, 0, 4, 21, 22],
+          "instructors": ["Pranav Chintalapati"]
+        },
+        {
+          "session": "2023W",
+          "reported": 30,
+          "average": 90.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 18],
+          "instructors": ["Pranav Chintalapati"]
+        },
+        {
+          "session": "2022W",
+          "reported": 44,
+          "average": 84.5,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 4, 17, 15, 7],
+          "instructors": ["Pranav Chintalapati"]
+        },
+        {
+          "session": "2021W",
+          "reported": 58,
+          "average": 82.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 34, 14, 0],
+          "instructors": ["Pranav Chintalapati", "Ryan Ziels", "Aimee Louise Creagh"]
+        }
+      ]
+    },
+    "CHBE 365": {
+      "reported": 172,
+      "average": 81.8,
+      "grades": [0, 0, 1, 1, 7, 8, 9, 21, 33, 41, 38],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 27,
+          "average": 84.0,
+          "grades": [0, 0, 0, 0, 1, 2, 3, 0, 3, 12, 6],
+          "instructors": ["Celestine Hong"]
+        },
+        {
+          "session": "2024W",
+          "reported": 40,
+          "average": 87.4,
+          "grades": [0, 0, 0, 0, 0, 1, 1, 3, 5, 9, 21],
+          "instructors": ["Roza Vaez Ghaemi"]
+        },
+        {
+          "session": "2023W",
+          "reported": 33,
+          "average": 81.0,
+          "grades": [0, 0, 1, 0, 1, 2, 0, 6, 12, 8, 3],
+          "instructors": ["Aimee Louise Creagh"]
+        },
+        {
+          "session": "2022W",
+          "reported": 32,
+          "average": 77.0,
+          "grades": [0, 0, 0, 1, 5, 3, 5, 5, 6, 5, 2],
+          "instructors": ["Aimee Louise Creagh"]
+        },
+        {
+          "session": "2021W",
+          "reported": 40,
+          "average": 79.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 7, 7, 7, 6],
+          "instructors": ["Aimee Louise Creagh"]
+        }
+      ]
+    },
+    "CHBE 366": {
+      "reported": 333,
+      "average": 81.5,
+      "grades": [1, 3, 4, 11, 6, 13, 17, 36, 81, 85, 63],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 67,
+          "average": 83.8,
+          "grades": [0, 1, 0, 0, 0, 1, 7, 6, 16, 22, 14],
+          "instructors": ["Pranav Chintalapati"]
+        },
+        {
+          "session": "2024W",
+          "reported": 61,
+          "average": 79.1,
+          "grades": [1, 0, 1, 6, 3, 3, 4, 5, 14, 13, 11],
+          "instructors": ["Pranav Chintalapati"]
+        },
+        {
+          "session": "2023W",
+          "reported": 57,
+          "average": 83.3,
+          "grades": [0, 2, 1, 1, 1, 3, 1, 5, 11, 11, 21],
+          "instructors": ["Pranav Chintalapati"]
+        },
+        {
+          "session": "2022W",
+          "reported": 67,
+          "average": 79.3,
+          "grades": [0, 0, 2, 4, 2, 6, 5, 7, 18, 18, 5],
+          "instructors": ["Pranav Chintalapati"]
+        },
+        {
+          "session": "2021W",
+          "reported": 81,
+          "average": 82.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 13, 22, 21, 12],
+          "instructors": ["Pranav Chintalapati"]
+        }
+      ]
+    },
+    "CHBE 370": {
+      "reported": 764,
+      "average": 78.9,
+      "grades": [2, 2, 9, 15, 20, 69, 121, 159, 188, 89, 78],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 142,
+          "average": 80.4,
+          "grades": [0, 1, 5, 6, 8, 18, 13, 18, 10, 24, 39],
+          "instructors": ["Eric Lees"]
+        },
+        {
+          "session": "2024W",
+          "reported": 157,
+          "average": 80.4,
+          "grades": [0, 1, 0, 5, 7, 15, 22, 26, 25, 25, 31],
+          "instructors": ["Xiaotao Bi"]
+        },
+        {
+          "session": "2023W",
+          "reported": 139,
+          "average": 79.0,
+          "grades": [2, 0, 2, 3, 1, 12, 12, 28, 48, 24, 6],
+          "instructors": ["Xiaotao Bi"]
+        },
+        {
+          "session": "2022W",
+          "reported": 146,
+          "average": 78.0,
+          "grades": [0, 0, 2, 1, 4, 17, 24, 31, 49, 16, 2],
+          "instructors": ["Xiaotao Bi"]
+        },
+        {
+          "session": "2021W",
+          "reported": 180,
+          "average": 76.9,
+          "grades": [0, 0, 0, 0, 0, 7, 50, 56, 56, 0, 0],
+          "instructors": ["Xiaotao Bi"]
+        }
+      ]
+    },
+    "CHBE 373": {
+      "reported": 309,
+      "average": 76.5,
+      "grades": [4, 4, 7, 10, 28, 17, 46, 48, 48, 42, 37],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 56,
+          "average": 78.6,
+          "grades": [0, 1, 1, 1, 2, 5, 7, 11, 13, 11, 4],
+          "instructors": ["Madjid Mohseni"]
+        },
+        {
+          "session": "2024W",
+          "reported": 82,
+          "average": 81.5,
+          "grades": [0, 2, 0, 4, 5, 2, 10, 10, 12, 14, 23],
+          "instructors": ["William Chen"]
+        },
+        {
+          "session": "2023W",
+          "reported": 49,
+          "average": 71.6,
+          "grades": [3, 1, 4, 4, 6, 4, 9, 6, 4, 2, 6],
+          "instructors": ["Madjid Mohseni"]
+        },
+        {
+          "session": "2022W",
+          "reported": 46,
+          "average": 75.4,
+          "grades": [1, 0, 2, 1, 5, 6, 7, 6, 9, 5, 4],
+          "instructors": ["Jonathan Verrett", "Madjid Mohseni"]
+        },
+        {
+          "session": "2021W",
+          "reported": 76,
+          "average": 73.3,
+          "grades": [0, 0, 0, 0, 10, 0, 13, 15, 10, 10, 0],
+          "instructors": ["Madjid Mohseni"]
+        }
+      ]
+    },
+    "CHBE 376": {
+      "reported": 527,
+      "average": 79.8,
+      "grades": [17, 17, 9, 19, 20, 28, 41, 54, 75, 91, 151],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 105,
+          "average": 85.6,
+          "grades": [2, 0, 0, 2, 1, 3, 4, 8, 20, 24, 41],
+          "instructors": ["Jonathan Verrett"]
+        },
+        {
+          "session": "2024W",
+          "reported": 113,
+          "average": 79.9,
+          "grades": [5, 7, 2, 2, 4, 6, 10, 10, 13, 15, 39],
+          "instructors": ["Jonathan Verrett"]
+        },
+        {
+          "session": "2023W",
+          "reported": 101,
+          "average": 76.8,
+          "grades": [8, 2, 3, 4, 4, 6, 8, 9, 16, 14, 26],
+          "instructors": ["Jonathan Verrett"]
+        },
+        {
+          "session": "2022W",
+          "reported": 87,
+          "average": 78.7,
+          "grades": [2, 2, 4, 5, 3, 5, 4, 15, 10, 14, 23],
+          "instructors": ["Mahyar Mohaghegh Montazeri"]
+        },
+        {
+          "session": "2021W",
+          "reported": 121,
+          "average": 77.9,
+          "grades": [0, 6, 0, 6, 8, 8, 15, 12, 16, 24, 22],
+          "instructors": ["Jonathan Verrett"]
+        }
+      ]
+    },
+    "CHBE 381": {
+      "reported": 289,
+      "average": 75.9,
+      "grades": [3, 1, 4, 21, 11, 22, 51, 47, 51, 42, 24],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 36,
+          "average": 73.7,
+          "grades": [0, 0, 1, 6, 2, 5, 7, 2, 6, 4, 3],
+          "instructors": ["James Piret"]
+        },
+        {
+          "session": "2024W",
+          "reported": 50,
+          "average": 76.3,
+          "grades": [1, 0, 0, 3, 2, 3, 8, 12, 7, 8, 6],
+          "instructors": ["James Piret"]
+        },
+        {
+          "session": "2023W",
+          "reported": 44,
+          "average": 79.0,
+          "grades": [0, 0, 0, 0, 1, 5, 6, 11, 10, 6, 5],
+          "instructors": ["James Piret"]
+        },
+        {
+          "session": "2022W",
+          "reported": 85,
+          "average": 75.2,
+          "grades": [2, 1, 3, 3, 6, 9, 18, 11, 10, 12, 10],
+          "instructors": ["James Piret"]
+        },
+        {
+          "session": "2021W",
+          "reported": 74,
+          "average": 75.7,
+          "grades": [0, 0, 0, 9, 0, 0, 12, 11, 18, 12, 0],
+          "instructors": ["James Piret"]
+        }
+      ]
+    },
+    "CHBE 402": {
+      "reported": 51,
+      "average": 88.8,
+      "grades": [1, 0, 0, 0, 0, 0, 1, 1, 3, 11, 27],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 13,
+          "average": 86.0,
+          "grades": [1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 10],
+          "instructors": ["Heather Trajano"]
+        },
+        {
+          "session": "2024W",
+          "reported": 13,
+          "average": 87.8,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 1, 6, 5],
+          "instructors": ["Mark Martinez", "Heather Trajano"]
+        },
+        {
+          "session": "2023W",
+          "reported": 10,
+          "average": 90.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 7],
+          "instructors": ["Heather Trajano"]
+        },
+        {
+          "session": "2022W",
+          "reported": 8,
+          "average": 90.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 5],
+          "instructors": ["Heather Trajano"]
+        },
+        {
+          "session": "2021W",
+          "reported": 7,
+          "average": 91.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Heather Trajano"]
+        }
+      ]
+    },
+    "CHBE 410": {
+      "reported": 32,
+      "average": 91.6,
+      "grades": [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 31],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 19,
+          "average": 89.8,
+          "grades": [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 18],
+          "instructors": ["Vikramaditya Yadav"]
+        },
+        {
+          "session": "2024W",
+          "reported": 13,
+          "average": 94.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13],
+          "instructors": ["Vikramaditya Yadav"]
+        }
+      ]
+    },
+    "CHBE 411": {
+      "reported": 24,
+      "average": 81.2,
+      "grades": [0, 0, 0, 0, 0, 1, 0, 7, 9, 6, 1],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 24,
+          "average": 81.2,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 7, 9, 6, 1],
+          "instructors": ["Sergio Berretta"]
+        }
+      ]
+    },
+    "CHBE 419": {
+      "reported": 80,
+      "average": 83.4,
+      "grades": [0, 1, 0, 2, 0, 1, 1, 3, 24, 38, 6],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 14,
+          "average": 81.7,
+          "grades": [0, 0, 0, 2, 0, 0, 1, 0, 4, 5, 2],
+          "instructors": ["Celestine Hong"]
+        },
+        {
+          "session": "2024W",
+          "reported": 18,
+          "average": 83.2,
+          "grades": [0, 1, 0, 0, 0, 1, 0, 3, 0, 9, 4],
+          "instructors": ["Roza Vaez Ghaemi", "Aimee Louise Creagh"]
+        },
+        {
+          "session": "2023W",
+          "reported": 11,
+          "average": 83.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 8, 3, 0],
+          "instructors": ["Aimee Louise Creagh"]
+        },
+        {
+          "session": "2022W",
+          "reported": 12,
+          "average": 87.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 0],
+          "instructors": ["Aimee Louise Creagh"]
+        },
+        {
+          "session": "2021W",
+          "reported": 25,
+          "average": 82.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 12, 9, 0],
+          "instructors": ["Aimee Louise Creagh"]
+        }
+      ]
+    },
+    "CHBE 453": {
+      "reported": 168,
+      "average": 85.9,
+      "grades": [0, 0, 0, 0, 1, 1, 5, 6, 23, 104, 20],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 40,
+          "average": 85.9,
+          "grades": [0, 0, 0, 0, 1, 0, 1, 2, 5, 29, 2],
+          "instructors": ["Sergio Berretta", "Anthony Lau", "Susan Baldwin", "Peter Englezos", "Jonathan Verrett", "Xiaotao Bi"]
+        },
+        {
+          "session": "2024W",
+          "reported": 35,
+          "average": 86.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 7, 27, 1],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "reported": 32,
+          "average": 83.2,
+          "grades": [0, 0, 0, 0, 0, 1, 4, 4, 8, 9, 5],
+          "instructors": ["Petros Englezos", "Sergio Berretta", "Dusko Posarac", "Susan Baldwin", "Kevin Smith", "Jonathan Verrett"]
+        },
+        {
+          "session": "2022W",
+          "reported": 32,
+          "average": 88.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 3, 17, 12],
+          "instructors": ["Petros Englezos", "Sergio Berretta", "Dusko Posarac", "Choon Jim Lim", "Mahyar Mohaghegh Montazeri", "Zeina Baalbaki"]
+        },
+        {
+          "session": "2021W",
+          "reported": 29,
+          "average": 85.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 22, 0],
+          "instructors": ["Petros Englezos", "Sergio Berretta", "Susan Baldwin", "Choon Jim Lim", "Jonathan Verrett"]
+        }
+      ]
+    },
+    "CHBE 454": {
+      "reported": 340,
+      "average": 84.3,
+      "grades": [0, 4, 0, 1, 2, 2, 13, 17, 92, 138, 63],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 61,
+          "average": 84.9,
+          "grades": [0, 0, 0, 0, 0, 2, 4, 1, 16, 24, 14],
+          "instructors": ["Sergio Berretta", "Anthony Lau", "Susan Baldwin", "Peter Englezos", "Jonathan Verrett", "Xiaotao Bi"]
+        },
+        {
+          "session": "2024W",
+          "reported": 69,
+          "average": 83.1,
+          "grades": [0, 0, 0, 0, 0, 0, 4, 5, 38, 22, 0],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "reported": 73,
+          "average": 80.5,
+          "grades": [0, 4, 0, 1, 2, 0, 4, 8, 22, 32, 0],
+          "instructors": ["Petros Englezos", "Sergio Berretta", "Dusko Posarac", "Susan Baldwin", "Kevin Smith", "Jonathan Verrett"]
+        },
+        {
+          "session": "2022W",
+          "reported": 61,
+          "average": 87.9,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 3, 8, 17, 32],
+          "instructors": ["Petros Englezos", "Sergio Berretta", "Dusko Posarac", "Choon Jim Lim", "Mahyar Mohaghegh Montazeri", "Zeina Baalbaki"]
+        },
+        {
+          "session": "2021W",
+          "reported": 76,
+          "average": 85.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 8, 43, 17],
+          "instructors": ["Petros Englezos", "Sergio Berretta", "Susan Baldwin", "Choon Jim Lim", "Jonathan Verrett"]
+        }
+      ]
+    },
+    "CHBE 456": {
+      "reported": 538,
+      "average": 77.0,
+      "grades": [4, 8, 11, 27, 41, 51, 75, 63, 87, 81, 76],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 99,
+          "average": 77.9,
+          "grades": [0, 1, 0, 8, 9, 7, 17, 10, 18, 13, 16],
+          "instructors": ["David Chester Upham"]
+        },
+        {
+          "session": "2024W",
+          "reported": 105,
+          "average": 76.6,
+          "grades": [0, 3, 2, 7, 6, 12, 19, 13, 19, 15, 9],
+          "instructors": ["David Chester Upham"]
+        },
+        {
+          "session": "2023W",
+          "reported": 109,
+          "average": 78.1,
+          "grades": [1, 2, 2, 2, 6, 13, 13, 18, 17, 18, 15],
+          "instructors": ["David Chester Upham"]
+        },
+        {
+          "session": "2022W",
+          "reported": 112,
+          "average": 73.2,
+          "grades": [3, 2, 7, 10, 12, 11, 14, 15, 13, 14, 11],
+          "instructors": ["Elod Lajos Gyenge"]
+        },
+        {
+          "session": "2021W",
+          "reported": 113,
+          "average": 79.2,
+          "grades": [0, 0, 0, 0, 8, 8, 12, 7, 20, 21, 25],
+          "instructors": ["Kevin Smith"]
+        }
+      ]
+    },
+    "CHBE 457": {
+      "reported": 15,
+      "average": 83.9,
+      "grades": [0, 0, 0, 0, 1, 2, 1, 1, 2, 3, 5],
+      "terms": [
+        {
+          "session": "2022W",
+          "reported": 15,
+          "average": 83.9,
+          "grades": [0, 0, 0, 0, 1, 2, 1, 1, 2, 3, 5],
+          "instructors": ["Pranav Chintalapati"]
+        }
+      ]
+    },
+    "CHBE 459": {
+      "reported": 776,
+      "average": 77.7,
+      "grades": [5, 23, 28, 37, 35, 67, 72, 106, 158, 122, 112],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 175,
+          "average": 80.9,
+          "grades": [0, 1, 1, 2, 5, 10, 18, 26, 60, 29, 23],
+          "instructors": ["Johan Foster"]
+        },
+        {
+          "session": "2024W",
+          "reported": 142,
+          "average": 84.1,
+          "grades": [0, 0, 0, 0, 0, 2, 10, 22, 34, 49, 25],
+          "instructors": ["Susan Baldwin", "Earl Foster"]
+        },
+        {
+          "session": "2023W",
+          "reported": 144,
+          "average": 73.0,
+          "grades": [0, 7, 9, 18, 21, 20, 16, 9, 13, 9, 21],
+          "instructors": ["Earl Foster"]
+        },
+        {
+          "session": "2022W",
+          "reported": 147,
+          "average": 71.2,
+          "grades": [5, 15, 11, 10, 9, 15, 16, 23, 20, 15, 8],
+          "instructors": ["Earl Foster"]
+        },
+        {
+          "session": "2021W",
+          "reported": 168,
+          "average": 78.6,
+          "grades": [0, 0, 7, 7, 0, 20, 12, 26, 31, 20, 35],
+          "instructors": ["Kevin Smith"]
+        }
+      ]
+    },
+    "CHBE 464": {
+      "reported": 531,
+      "average": 86.3,
+      "grades": [0, 0, 0, 2, 1, 11, 19, 40, 87, 159, 203],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 101,
+          "average": 87.6,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 3, 20, 48, 29],
+          "instructors": ["Alexander Jameson"]
+        },
+        {
+          "session": "2024W",
+          "reported": 104,
+          "average": 84.4,
+          "grades": [0, 0, 0, 0, 0, 8, 6, 16, 16, 26, 32],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "reported": 106,
+          "average": 86.0,
+          "grades": [0, 0, 0, 1, 1, 0, 6, 14, 11, 39, 34],
+          "instructors": ["Gabriel Potvin"]
+        },
+        {
+          "session": "2022W",
+          "reported": 113,
+          "average": 86.7,
+          "grades": [0, 0, 0, 1, 0, 3, 6, 7, 12, 21, 63],
+          "instructors": ["Gabriel Potvin"]
+        },
+        {
+          "session": "2021W",
+          "reported": 107,
+          "average": 86.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 28, 25, 45],
+          "instructors": ["Gabriel Potvin"]
+        }
+      ]
+    },
+    "CHBE 471": {
+      "reported": 345,
+      "average": 80.1,
+      "grades": [4, 5, 7, 6, 17, 32, 31, 40, 56, 59, 82],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 58,
+          "average": 79.2,
+          "grades": [1, 1, 1, 2, 5, 7, 6, 7, 7, 8, 13],
+          "instructors": ["Pranav Chintalapati"]
+        },
+        {
+          "session": "2024W",
+          "reported": 73,
+          "average": 81.1,
+          "grades": [0, 1, 2, 2, 5, 1, 7, 9, 16, 13, 17],
+          "instructors": ["Pranav Chintalapati"]
+        },
+        {
+          "session": "2023W",
+          "reported": 72,
+          "average": 78.9,
+          "grades": [1, 3, 2, 1, 6, 7, 1, 9, 15, 13, 14],
+          "instructors": ["Pranav Chintalapati"]
+        },
+        {
+          "session": "2022W",
+          "reported": 67,
+          "average": 82.5,
+          "grades": [2, 0, 2, 1, 1, 3, 9, 6, 5, 10, 28],
+          "instructors": ["Pranav Chintalapati"]
+        },
+        {
+          "session": "2021W",
+          "reported": 75,
+          "average": 79.0,
+          "grades": [0, 0, 0, 0, 0, 14, 8, 9, 13, 15, 10],
+          "instructors": ["John Frostad"]
+        }
+      ]
+    },
+    "CHBE 472": {
+      "reported": 15,
+      "average": 81.7,
+      "grades": [0, 0, 0, 0, 0, 1, 1, 1, 8, 4, 0],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 9,
+          "average": 83.0,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 4, 4, 0],
+          "instructors": ["Jane Hill"]
+        },
+        {
+          "session": "2023W",
+          "reported": 6,
+          "average": 79.8,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 1, 4, 0, 0],
+          "instructors": ["Jane Hill"]
+        }
+      ]
+    },
+    "CHBE 473": {
+      "reported": 69,
+      "average": 86.3,
+      "grades": [0, 0, 0, 0, 1, 1, 4, 5, 15, 17, 26],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 29,
+          "average": 83.6,
+          "grades": [0, 0, 0, 0, 1, 1, 2, 3, 8, 7, 7],
+          "instructors": ["Naoko Ellis"]
+        },
+        {
+          "session": "2024W",
+          "reported": 29,
+          "average": 88.9,
+          "grades": [0, 0, 0, 0, 0, 0, 2, 0, 6, 6, 15],
+          "instructors": ["Naoko Ellis"]
+        },
+        {
+          "session": "2023W",
+          "reported": 11,
+          "average": 86.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 2, 1, 4, 4],
+          "instructors": ["Naoko Ellis"]
+        }
+      ]
+    },
+    "CHBE 474": {
+      "reported": 225,
+      "average": 83.0,
+      "grades": [0, 3, 1, 0, 4, 10, 18, 31, 48, 49, 54],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 21,
+          "average": 87.8,
+          "grades": [0, 1, 0, 0, 0, 0, 2, 1, 1, 3, 13],
+          "instructors": ["Seyyed Alireza Bagherzadeh Hosseini"]
+        },
+        {
+          "session": "2024W",
+          "reported": 25,
+          "average": 82.5,
+          "grades": [0, 0, 1, 0, 1, 1, 1, 2, 7, 9, 3],
+          "instructors": ["Seyyed Alireza Bagherzadeh Hosseini"]
+        },
+        {
+          "session": "2023W",
+          "reported": 36,
+          "average": 84.0,
+          "grades": [0, 0, 0, 0, 0, 2, 1, 4, 12, 6, 8],
+          "instructors": ["Seyyed Alireza Bagherzadeh Hosseini"]
+        },
+        {
+          "session": "2022W",
+          "reported": 66,
+          "average": 82.5,
+          "grades": [0, 2, 0, 0, 3, 1, 5, 10, 11, 22, 12],
+          "instructors": ["Seyyed Alireza Bagherzadeh Hosseini"]
+        },
+        {
+          "session": "2021W",
+          "reported": 77,
+          "average": 81.9,
+          "grades": [0, 0, 0, 0, 0, 6, 9, 14, 17, 9, 18],
+          "instructors": ["Seyyed Alireza Bagherzadeh Hosseini"]
+        }
+      ]
+    },
+    "CHBE 476": {
+      "reported": 203,
+      "average": 87.0,
+      "grades": [4, 0, 2, 5, 1, 2, 0, 13, 11, 30, 121],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 49,
+          "average": 86.1,
+          "grades": [1, 0, 0, 2, 1, 0, 0, 3, 6, 11, 25],
+          "instructors": ["Simcha Srebnik"]
+        },
+        {
+          "session": "2024W",
+          "reported": 36,
+          "average": 88.1,
+          "grades": [0, 0, 0, 2, 0, 0, 0, 2, 3, 5, 24],
+          "instructors": ["Simcha Srebnik"]
+        },
+        {
+          "session": "2023W",
+          "reported": 45,
+          "average": 89.2,
+          "grades": [0, 0, 1, 0, 0, 2, 0, 5, 1, 4, 31],
+          "instructors": ["Simcha Srebnik"]
+        },
+        {
+          "session": "2022W",
+          "reported": 51,
+          "average": 85.4,
+          "grades": [3, 0, 1, 1, 0, 0, 0, 3, 1, 10, 32],
+          "instructors": ["Simcha Srebnik"]
+        },
+        {
+          "session": "2021W",
+          "reported": 22,
+          "average": 86.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9],
+          "instructors": ["Simcha Srebnik"]
+        }
+      ]
+    },
+    "CHBE 477": {
+      "reported": 253,
+      "average": 81.2,
+      "grades": [1, 0, 6, 6, 11, 15, 23, 29, 42, 45, 62],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 64,
+          "average": 73.6,
+          "grades": [1, 0, 5, 4, 9, 8, 13, 5, 9, 4, 6],
+          "instructors": ["Elod Lajos Gyenge"]
+        },
+        {
+          "session": "2024W",
+          "reported": 54,
+          "average": 83.5,
+          "grades": [0, 0, 0, 0, 0, 4, 5, 4, 15, 16, 10],
+          "instructors": ["Elod Lajos Gyenge"]
+        },
+        {
+          "session": "2023W",
+          "reported": 57,
+          "average": 87.7,
+          "grades": [0, 0, 0, 0, 2, 2, 0, 5, 11, 7, 29],
+          "instructors": ["Alexander Jameson"]
+        },
+        {
+          "session": "2022W",
+          "reported": 50,
+          "average": 80.9,
+          "grades": [0, 0, 1, 2, 0, 1, 5, 15, 7, 11, 8],
+          "instructors": ["Elod Lajos Gyenge"]
+        },
+        {
+          "session": "2021W",
+          "reported": 28,
+          "average": 81.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 9],
+          "instructors": ["Elod Lajos Gyenge"]
+        }
+      ]
+    },
+    "CHBE 478": {
+      "reported": 109,
+      "average": 80.5,
+      "grades": [2, 1, 2, 3, 4, 5, 10, 16, 15, 18, 24],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 21,
+          "average": 76.6,
+          "grades": [2, 0, 1, 0, 1, 0, 3, 4, 1, 2, 7],
+          "instructors": ["Orlando Rojas", "Johan Foster"]
+        },
+        {
+          "session": "2024W",
+          "reported": 26,
+          "average": 79.8,
+          "grades": [0, 1, 0, 2, 1, 1, 4, 2, 5, 5, 5],
+          "instructors": ["Earl Foster", "Orlando Rojas Gaona"]
+        },
+        {
+          "session": "2023W",
+          "reported": 23,
+          "average": 82.3,
+          "grades": [0, 0, 0, 1, 2, 1, 1, 4, 4, 3, 7],
+          "instructors": ["Earl Foster", "Orlando Rojas Gaona"]
+        },
+        {
+          "session": "2022W",
+          "reported": 24,
+          "average": 80.6,
+          "grades": [0, 0, 1, 0, 0, 3, 2, 6, 5, 2, 5],
+          "instructors": ["Earl Foster", "Orlando Rojas Gaona"]
+        },
+        {
+          "session": "2021W",
+          "reported": 15,
+          "average": 84.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 0],
+          "instructors": ["Earl Foster", "Orlando Rojas Gaona"]
+        }
+      ]
+    },
+    "CHBE 481": {
+      "reported": 180,
+      "average": 80.6,
+      "grades": [0, 1, 0, 2, 9, 5, 15, 19, 48, 38, 21],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 43,
+          "average": 82.8,
+          "grades": [0, 0, 0, 0, 2, 1, 2, 4, 13, 14, 7],
+          "instructors": ["Charles Haynes"]
+        },
+        {
+          "session": "2024W",
+          "reported": 37,
+          "average": 82.1,
+          "grades": [0, 0, 0, 0, 2, 2, 2, 5, 10, 12, 4],
+          "instructors": ["Charles Haynes"]
+        },
+        {
+          "session": "2023W",
+          "reported": 36,
+          "average": 79.7,
+          "grades": [0, 0, 0, 1, 4, 0, 6, 6, 7, 6, 5],
+          "instructors": ["Charles Haynes"]
+        },
+        {
+          "session": "2022W",
+          "reported": 34,
+          "average": 80.4,
+          "grades": [0, 1, 0, 1, 1, 2, 5, 4, 9, 6, 5],
+          "instructors": ["Charles Haynes"]
+        },
+        {
+          "session": "2021W",
+          "reported": 30,
+          "average": 77.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 9, 0, 0],
+          "instructors": ["Charles Haynes"]
+        }
+      ]
+    },
+    "CHBE 482": {
+      "reported": 44,
+      "average": 82.9,
+      "grades": [0, 0, 0, 1, 0, 3, 5, 2, 8, 11, 6],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 23,
+          "average": 83.3,
+          "grades": [0, 0, 0, 1, 0, 2, 2, 1, 5, 8, 4],
+          "instructors": ["Seyyed Alireza Bagherzadeh Hosseini", "Peter Englezos"]
+        },
+        {
+          "session": "2024W",
+          "reported": 13,
+          "average": 81.5,
+          "grades": [0, 0, 0, 0, 0, 1, 3, 1, 3, 3, 2],
+          "instructors": ["Seyyed Alireza Bagherzadeh Hosseini", "Petros Englezos"]
+        },
+        {
+          "session": "2021W",
+          "reported": 8,
+          "average": 84.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Simcha Srebnik"]
+        }
+      ]
+    },
+    "CHBE 483": {
+      "reported": 414,
+      "average": 80.3,
+      "grades": [0, 2, 6, 17, 17, 26, 44, 48, 70, 71, 89],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 93,
+          "average": 76.9,
+          "grades": [0, 1, 2, 10, 10, 10, 10, 10, 15, 10, 15],
+          "instructors": ["Elod Lajos Gyenge"]
+        },
+        {
+          "session": "2024W",
+          "reported": 105,
+          "average": 85.5,
+          "grades": [0, 0, 0, 2, 1, 3, 6, 14, 16, 25, 38],
+          "instructors": ["Elod Lajos Gyenge"]
+        },
+        {
+          "session": "2023W",
+          "reported": 107,
+          "average": 79.9,
+          "grades": [0, 1, 3, 1, 3, 10, 15, 13, 24, 15, 20],
+          "instructors": ["Siamak Najarian"]
+        },
+        {
+          "session": "2022W",
+          "reported": 71,
+          "average": 79.1,
+          "grades": [0, 0, 1, 4, 3, 3, 13, 11, 15, 15, 6],
+          "instructors": ["David Wilkinson"]
+        },
+        {
+          "session": "2021W",
+          "reported": 38,
+          "average": 77.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 10],
+          "instructors": ["Philip Schauer"]
+        }
+      ]
+    },
+    "CHBE 485": {
+      "reported": 512,
+      "average": 82.4,
+      "grades": [0, 1, 2, 8, 8, 23, 44, 63, 135, 116, 105],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 87,
+          "average": 83.9,
+          "grades": [0, 0, 0, 2, 2, 2, 8, 7, 19, 24, 23],
+          "instructors": ["Anthony Lau"]
+        },
+        {
+          "session": "2024W",
+          "reported": 116,
+          "average": 81.5,
+          "grades": [0, 0, 1, 4, 2, 6, 13, 22, 27, 17, 24],
+          "instructors": ["Anthony K Lau"]
+        },
+        {
+          "session": "2023W",
+          "reported": 73,
+          "average": 82.2,
+          "grades": [0, 0, 0, 2, 1, 3, 8, 6, 24, 17, 12],
+          "instructors": ["Anthony K Lau"]
+        },
+        {
+          "session": "2022W",
+          "reported": 100,
+          "average": 82.9,
+          "grades": [0, 1, 1, 0, 3, 1, 8, 13, 27, 28, 18],
+          "instructors": ["Anthony K Lau"]
+        },
+        {
+          "session": "2021W",
+          "reported": 136,
+          "average": 82.1,
+          "grades": [0, 0, 0, 0, 0, 11, 7, 15, 38, 30, 28],
+          "instructors": ["Anthony K Lau"]
+        }
+      ]
+    },
+    "CHBE 486": {
+      "reported": 393,
+      "average": 85.5,
+      "grades": [1, 2, 2, 0, 0, 0, 18, 23, 92, 122, 125],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 90,
+          "average": 83.8,
+          "grades": [1, 1, 0, 0, 0, 0, 4, 6, 26, 32, 20],
+          "instructors": ["Anthony Lau"]
+        },
+        {
+          "session": "2024W",
+          "reported": 79,
+          "average": 87.5,
+          "grades": [0, 0, 1, 0, 0, 0, 2, 2, 15, 26, 33],
+          "instructors": ["Anthony K Lau"]
+        },
+        {
+          "session": "2023W",
+          "reported": 92,
+          "average": 84.1,
+          "grades": [0, 1, 1, 0, 0, 0, 9, 8, 25, 22, 25],
+          "instructors": ["Anthony K Lau"]
+        },
+        {
+          "session": "2022W",
+          "reported": 87,
+          "average": 86.9,
+          "grades": [0, 0, 0, 0, 0, 0, 3, 7, 15, 32, 30],
+          "instructors": ["Anthony K Lau"]
+        },
+        {
+          "session": "2021W",
+          "reported": 45,
+          "average": 85.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 11, 10, 17],
+          "instructors": ["Anthony K Lau"]
+        }
+      ]
+    },
+    "CHBE 487": {
+      "reported": 22,
+      "average": 79.5,
+      "grades": [0, 2, 0, 2, 1, 2, 1, 3, 2, 0, 9],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 6,
+          "average": 89.2,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 5],
+          "instructors": ["Alexander Jameson"]
+        },
+        {
+          "session": "2022W",
+          "reported": 16,
+          "average": 75.8,
+          "grades": [0, 2, 0, 2, 1, 1, 1, 3, 2, 0, 4],
+          "instructors": ["John Frostad"]
+        }
+      ]
+    },
+    "CHBE 488": {
+      "reported": 153,
+      "average": 83.3,
+      "grades": [1, 1, 0, 2, 0, 9, 4, 13, 35, 49, 23],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 27,
+          "average": 81.6,
+          "grades": [0, 0, 0, 1, 0, 2, 1, 4, 10, 7, 2],
+          "instructors": ["Sergio Berretta", "Naoko Ellis"]
+        },
+        {
+          "session": "2024W",
+          "reported": 51,
+          "average": 85.2,
+          "grades": [0, 1, 0, 1, 0, 3, 0, 2, 7, 25, 12],
+          "instructors": ["Sergio Berretta", "Naoko Ellis"]
+        },
+        {
+          "session": "2023W",
+          "reported": 34,
+          "average": 82.1,
+          "grades": [1, 0, 0, 0, 0, 3, 1, 5, 9, 8, 7],
+          "instructors": ["Sergio Berretta", "Naoko Ellis"]
+        },
+        {
+          "session": "2022W",
+          "reported": 25,
+          "average": 83.2,
+          "grades": [0, 0, 0, 0, 0, 1, 2, 2, 9, 9, 2],
+          "instructors": ["Sergio Berretta", "Naoko Ellis"]
+        },
+        {
+          "session": "2021W",
+          "reported": 16,
+          "average": 82.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Sergio Berretta", "Naoko Ellis"]
+        }
+      ]
+    },
+    "CHBE 491": {
+      "reported": 9,
+      "average": 86.8,
+      "grades": [0, 0, 0, 0, 0, 1, 0, 0, 3, 0, 5],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 9,
+          "average": 86.8,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 0, 3, 0, 5],
+          "instructors": ["John Frostad", "Gabriel Potvin", "Susan Baldwin", "Bhushan Gopaluni", "David Chester Upham", "Kevin Smith", "Zachary Hudson", "Mark MacLachlan", "Naoko Ellis", "Vasileios Kontogiorgos", "Xiaotao Bi", "Elod Lajos Gyenge", "James Jingtao Feng"]
+        }
+      ]
+    },
+    "CHBE 492": {
+      "reported": 9,
+      "average": 89.0,
+      "grades": [0, 0, 0, 0, 0, 1, 0, 0, 0, 2, 6],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 9,
+          "average": 89.0,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 0, 0, 2, 6],
+          "instructors": ["John Frostad", "Gabriel Potvin", "Susan Baldwin", "Bhushan Gopaluni", "David Chester Upham", "Kevin Smith", "Zachary Hudson", "Mark MacLachlan", "Naoko Ellis", "Vasileios Kontogiorgos", "Xiaotao Bi", "Elod Lajos Gyenge", "James Jingtao Feng"]
+        }
+      ]
+    },
+    "CHBE 495": {
+      "reported": 24,
+      "average": 90.6,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 8, 14],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 8,
+          "average": 88.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 4],
+          "instructors": ["Elod Lajos Gyenge"]
+        },
+        {
+          "session": "2024W",
+          "reported": 9,
+          "average": 90.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 4],
+          "instructors": ["Elod Lajos Gyenge"]
+        },
+        {
+          "session": "2021W",
+          "reported": 7,
+          "average": 93.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6],
+          "instructors": ["Yankai Cao"]
+        }
+      ]
+    },
+    "CHBE 496": {
+      "reported": 24,
+      "average": 90.8,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 12],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 8,
+          "average": 90.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 4],
+          "instructors": ["Elod Lajos Gyenge"]
+        },
+        {
+          "session": "2024W",
+          "reported": 9,
+          "average": 92.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 8],
+          "instructors": ["Elod Lajos Gyenge"]
+        },
+        {
+          "session": "2021W",
+          "reported": 7,
+          "average": 88.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Yankai Cao"]
+        }
+      ]
+    },
+    "CHBE 497": {
+      "reported": 25,
+      "average": 86.0,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 3, 6, 9, 7],
+      "terms": [
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Topics in Chemical and Biological Engineering.",
+          "reported": 17,
+          "average": 85.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 2, 6, 5, 4],
+          "instructors": ["Petros Englezos", "Sergio Berretta", "Dusko Posarac", "Choon Jim Lim", "Mahyar Mohaghegh Montazeri", "Zeina Baalbaki"]
+        },
+        {
+          "session": "2022W",
+          "topic": "B",
+          "title": "Topics in Chemical and Biological Engineering.",
+          "reported": 8,
+          "average": 87.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 0, 4, 3],
+          "instructors": ["Jane Hill"]
+        }
+      ]
+    },
+    "CHBE 502": {
+      "reported": 21,
+      "average": 92.8,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 17],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 10,
+          "average": 92.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 8],
+          "instructors": ["Mark Martinez", "Heather Trajano"]
+        },
+        {
+          "session": "2022W",
+          "reported": 11,
+          "average": 92.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 9],
+          "instructors": ["Heather Trajano"]
+        }
+      ]
+    },
+    "CHBE 505": {
+      "reported": 43,
+      "average": 89.7,
+      "grades": [0, 0, 0, 0, 0, 1, 0, 2, 6, 4, 25],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 12,
+          "average": 87.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 3, 4, 4],
+          "instructors": ["Savvas Hatzikiriakos"]
+        },
+        {
+          "session": "2022W",
+          "reported": 15,
+          "average": 88.9,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 1, 3, 0, 10],
+          "instructors": ["Savvas Hatzikiriakos"]
+        },
+        {
+          "session": "2021W",
+          "reported": 16,
+          "average": 92.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11],
+          "instructors": ["Savvas Hatzikiriakos"]
+        }
+      ]
+    },
+    "CHBE 550": {
+      "reported": 92,
+      "average": 87.0,
+      "grades": [0, 0, 0, 1, 1, 2, 0, 1, 3, 29, 47],
+      "terms": [
+        {
+          "session": "2024W",
+          "topic": "A",
+          "title": "Advanced Reactor Design",
+          "reported": 17,
+          "average": 93.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 14],
+          "instructors": ["Eric Lees"]
+        },
+        {
+          "session": "2023W",
+          "reported": 19,
+          "average": 86.5,
+          "grades": [0, 0, 0, 1, 1, 0, 0, 1, 2, 4, 8],
+          "instructors": ["Kevin Smith"]
+        },
+        {
+          "session": "2022W",
+          "reported": 24,
+          "average": 88.6,
+          "grades": [0, 0, 0, 0, 0, 2, 0, 0, 1, 7, 14],
+          "instructors": ["Vikramaditya Yadav"]
+        },
+        {
+          "session": "2021W",
+          "reported": 32,
+          "average": 82.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 15, 11],
+          "instructors": ["Kevin Smith"]
+        }
+      ]
+    },
+    "CHBE 551": {
+      "reported": 46,
+      "average": 88.2,
+      "grades": [0, 0, 0, 0, 0, 1, 1, 2, 6, 7, 23],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 12,
+          "average": 85.7,
+          "grades": [0, 0, 0, 0, 0, 1, 1, 0, 3, 3, 4],
+          "instructors": ["Simcha Srebnik"]
+        },
+        {
+          "session": "2022W",
+          "reported": 14,
+          "average": 86.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 2, 3, 4, 5],
+          "instructors": ["Simcha Srebnik"]
+        },
+        {
+          "session": "2021W",
+          "reported": 20,
+          "average": 91.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14],
+          "instructors": ["Simcha Srebnik"]
+        }
+      ]
+    },
+    "CHBE 552": {
+      "reported": 41,
+      "average": 89.3,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 6, 6, 23],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 17,
+          "average": 92.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 15],
+          "instructors": ["Yankai Cao", "Bhushan Gopaluni"]
+        },
+        {
+          "session": "2023W",
+          "reported": 12,
+          "average": 85.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 6, 3, 3],
+          "instructors": ["Petros Englezos", "Bhushan Gopaluni"]
+        },
+        {
+          "session": "2022W",
+          "reported": 6,
+          "average": 90.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 5],
+          "instructors": ["Petros Englezos"]
+        },
+        {
+          "session": "2021W",
+          "reported": 6,
+          "average": 86.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Petros Englezos", "Bhushan Gopaluni"]
+        }
+      ]
+    },
+    "CHBE 553": {
+      "reported": 66,
+      "average": 90.3,
+      "grades": [0, 0, 0, 0, 0, 1, 1, 2, 4, 6, 45],
+      "terms": [
+        {
+          "session": "2024W",
+          "topic": "A",
+          "title": "Mathematical Operations in Chemical Engineering",
+          "reported": 15,
+          "average": 90.5,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 11],
+          "instructors": ["Mona Rahmani"]
+        },
+        {
+          "session": "2023W",
+          "reported": 8,
+          "average": 89.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 4],
+          "instructors": ["Anthony Wachs"]
+        },
+        {
+          "session": "2022W",
+          "reported": 17,
+          "average": 89.8,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 0, 2, 4, 10],
+          "instructors": ["Anthony Wachs"]
+        },
+        {
+          "session": "2021W",
+          "reported": 26,
+          "average": 90.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20],
+          "instructors": ["James Jingtao Feng"]
+        }
+      ]
+    },
+    "CHBE 554": {
+      "reported": 71,
+      "average": 91.8,
+      "grades": [0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 58],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 9,
+          "average": 95.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9],
+          "instructors": ["Mark Martinez"]
+        },
+        {
+          "session": "2023W",
+          "reported": 11,
+          "average": 93.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 8],
+          "instructors": ["Mark Martinez"]
+        },
+        {
+          "session": "2022W",
+          "reported": 26,
+          "average": 90.3,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 23],
+          "instructors": ["Mark Martinez"]
+        },
+        {
+          "session": "2021W",
+          "reported": 25,
+          "average": 91.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 18],
+          "instructors": ["Mark Martinez"]
+        }
+      ]
+    },
+    "CHBE 561": {
+      "reported": 7,
+      "average": 92.0,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 6],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 7,
+          "average": 92.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 6],
+          "instructors": ["Xiaotao Bi"]
+        }
+      ]
+    },
+    "CHBE 563": {
+      "reported": 33,
+      "average": 88.8,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 16, 11],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 9,
+          "average": 90.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 6],
+          "instructors": ["David Chester Upham"]
+        },
+        {
+          "session": "2022W",
+          "reported": 9,
+          "average": 89.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 5],
+          "instructors": ["David Chester Upham"]
+        },
+        {
+          "session": "2021W",
+          "reported": 15,
+          "average": 87.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 0],
+          "instructors": ["David Chester Upham"]
+        }
+      ]
+    },
+    "CHBE 565": {
+      "reported": 47,
+      "average": 92.4,
+      "grades": [0, 0, 0, 0, 0, 0, 3, 0, 1, 4, 36],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 12,
+          "average": 94.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 11],
+          "instructors": ["Yankai Cao"]
+        },
+        {
+          "session": "2023W",
+          "reported": 10,
+          "average": 92.5,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 0, 2, 7],
+          "instructors": ["Yankai Cao"]
+        },
+        {
+          "session": "2022W",
+          "reported": 11,
+          "average": 90.7,
+          "grades": [0, 0, 0, 0, 0, 0, 2, 0, 0, 2, 7],
+          "instructors": ["Yankai Cao"]
+        },
+        {
+          "session": "2021W",
+          "reported": 14,
+          "average": 91.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11],
+          "instructors": ["Yankai Cao"]
+        }
+      ]
+    },
+    "CHBE 575": {
+      "reported": 50,
+      "average": 87.9,
+      "grades": [1, 0, 0, 0, 0, 0, 0, 1, 5, 15, 19],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 16,
+          "average": 85.4,
+          "grades": [1, 0, 0, 0, 0, 0, 0, 0, 2, 6, 7],
+          "instructors": ["Anthony K Lau"]
+        },
+        {
+          "session": "2022W",
+          "reported": 25,
+          "average": 89.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 3, 9, 12],
+          "instructors": ["Anthony K Lau"]
+        },
+        {
+          "session": "2021W",
+          "reported": 9,
+          "average": 88.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Anthony K Lau"]
+        }
+      ]
+    },
+    "CHBE 577": {
+      "reported": 71,
+      "average": 84.3,
+      "grades": [2, 0, 0, 0, 0, 3, 0, 3, 7, 22, 25],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 11,
+          "average": 87.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 3, 4, 4],
+          "instructors": ["Elod Lajos Gyenge"]
+        },
+        {
+          "session": "2023W",
+          "reported": 15,
+          "average": 82.9,
+          "grades": [2, 0, 0, 0, 0, 0, 0, 1, 0, 2, 10],
+          "instructors": ["Alexander Jameson"]
+        },
+        {
+          "session": "2022W",
+          "reported": 21,
+          "average": 83.5,
+          "grades": [0, 0, 0, 0, 0, 3, 0, 2, 4, 7, 5],
+          "instructors": ["Elod Lajos Gyenge"]
+        },
+        {
+          "session": "2021W",
+          "reported": 24,
+          "average": 84.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 6],
+          "instructors": ["Elod Lajos Gyenge"]
+        }
+      ]
+    },
+    "CHBE 583": {
+      "reported": 105,
+      "average": 84.6,
+      "grades": [0, 0, 0, 0, 0, 5, 3, 4, 28, 21, 30],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 21,
+          "average": 82.7,
+          "grades": [0, 0, 0, 0, 0, 2, 0, 3, 10, 3, 3],
+          "instructors": ["Elod Lajos Gyenge"]
+        },
+        {
+          "session": "2023W",
+          "reported": 27,
+          "average": 82.8,
+          "grades": [0, 0, 0, 0, 0, 3, 3, 1, 6, 6, 8],
+          "instructors": ["Siamak Najarian"]
+        },
+        {
+          "session": "2022W",
+          "reported": 30,
+          "average": 90.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 5, 6, 19],
+          "instructors": ["David Wilkinson"]
+        },
+        {
+          "session": "2021W",
+          "reported": 27,
+          "average": 81.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 7, 6, 0],
+          "instructors": ["Philip Schauer"]
+        }
+      ]
+    },
+    "CHBE 585": {
+      "reported": 18,
+      "average": 88.6,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 2, 3, 4, 9],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 18,
+          "average": 88.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 2, 3, 4, 9],
+          "instructors": ["Anthony K Lau"]
+        }
+      ]
+    },
+    "CHBE 587": {
+      "reported": 27,
+      "average": 91.4,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 12],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 8,
+          "average": 95.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6],
+          "instructors": ["Alexander Jameson"]
+        },
+        {
+          "session": "2022W",
+          "reported": 11,
+          "average": 91.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 6],
+          "instructors": ["John Frostad"]
+        },
+        {
+          "session": "2021W",
+          "reported": 8,
+          "average": 87.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["John Frostad"]
+        }
+      ]
+    },
+    "CHBE 588": {
+      "reported": 35,
+      "average": 83.0,
+      "grades": [0, 0, 0, 0, 0, 0, 3, 1, 13, 8, 1],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 7,
+          "average": 81.4,
+          "grades": [0, 0, 0, 0, 0, 0, 3, 0, 1, 3, 0],
+          "instructors": ["Sergio Berretta", "Naoko Ellis"]
+        },
+        {
+          "session": "2022W",
+          "reported": 10,
+          "average": 84.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 3, 5, 1],
+          "instructors": ["Sergio Berretta", "Naoko Ellis"]
+        },
+        {
+          "session": "2021W",
+          "reported": 18,
+          "average": 82.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 9, 0, 0],
+          "instructors": ["Sergio Berretta", "Naoko Ellis"]
+        }
+      ]
+    },
+    "CHBE 597": {
+      "reported": 49,
+      "average": 91.1,
+      "grades": [0, 0, 0, 0, 0, 1, 0, 2, 2, 5, 29],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 11,
+          "average": 93.6,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 9],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "reported": 17,
+          "average": 94.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 14],
+          "instructors": ["Yankai Cao"]
+        },
+        {
+          "session": "2022W",
+          "reported": 12,
+          "average": 88.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 6],
+          "instructors": ["Curtis Berlinguette"]
+        },
+        {
+          "session": "2021W",
+          "reported": 9,
+          "average": 86.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Curtis Berlinguette"]
+        }
+      ]
+    },
+    "CHBE 599": {
+      "reported": 66,
+      "average": 91.0,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 34,
+          "average": 90.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": []
+        },
+        {
+          "session": "2023S",
+          "reported": 32,
+          "average": 91.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": []
+        }
+      ]
+    }
+  }
+}

@@ -151,6 +151,9 @@ def test_lists_of_plain_values_go_on_one_line():
     ("ASTR", 57), ("ATSC", 30), ("BIOL", 431), ("CHEM", 282), ("CPSC", 333), ("DSCI", 96),
     ("ENVR", 38), ("EOSC", 314), ("ISCI", 52), ("MATH", 407), ("MICB", 135), ("PHYS", 236),
     ("SCIE", 14), ("STAT", 132),
+    ("APSC", 114), ("BMEG", 213), ("CHBE", 223), ("CIVL", 302), ("CPEN", 132), ("ELEC", 248),
+    ("ENPH", 31), ("ENVE", 23), ("IGEN", 30), ("MANU", 71), ("MECH", 339), ("MINE", 151),
+    ("MTRL", 141),
 ])
 def test_terms_match_ubcgrades_own_totals(subject, overall_rows):
     # Wherever UBCGrades gives an "OVERALL" row, adding up the sections must give the same
@@ -202,3 +205,14 @@ def test_real_summary_leaves_out_terms_without_sections():
     envr = build_summary("ENVR", RAW_DIR)
     assert envr["sessions"] == ["2021W", "2022S", "2022W", "2023W", "2024W", "2025W"]
     assert len(envr["courses"]) == 14
+
+
+def test_real_engineering_summaries():
+    elec = build_summary("ELEC", RAW_DIR)
+    assert len(elec["courses"]) == 69
+    assert elec["sessions"] == build_summary("CPSC", RAW_DIR)["sessions"]
+    # ENVE and MANU only run in winter terms, so every summer file is an empty list.
+    for subject in ["ENVE", "MANU"]:
+        assert build_summary(subject, RAW_DIR)["sessions"] == [
+            "2021W", "2022W", "2023W", "2024W", "2025W",
+        ]

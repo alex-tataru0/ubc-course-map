@@ -1,0 +1,1494 @@
+{
+  "subject": "CPEN",
+  "campus": "UBCV",
+  "source": "https://ubcgrades.com",
+  "credit": "UBCGrades.com / UBC PAIR",
+  "sessions": ["2021S", "2021W", "2022S", "2022W", "2023S", "2023W", "2024S", "2024W", "2025S", "2025W"],
+  "buckets": ["<50%", "50-54%", "55-59%", "60-63%", "64-67%", "68-71%", "72-75%", "76-79%", "80-84%", "85-89%", "90-100%"],
+  "courses": {
+    "CPEN 211": {
+      "reported": 1591,
+      "average": 72.4,
+      "grades": [120, 57, 94, 99, 117, 186, 176, 168, 217, 152, 179],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 320,
+          "average": 72.8,
+          "grades": [16, 8, 17, 19, 30, 46, 49, 30, 52, 24, 29],
+          "instructors": ["Guy Lemieux"]
+        },
+        {
+          "session": "2024W",
+          "reported": 299,
+          "average": 73.6,
+          "grades": [21, 6, 14, 15, 24, 35, 34, 38, 42, 34, 36],
+          "instructors": ["Tor Aamodt"]
+        },
+        {
+          "session": "2023W",
+          "reported": 336,
+          "average": 74.4,
+          "grades": [14, 12, 13, 19, 30, 30, 32, 41, 45, 32, 42],
+          "instructors": ["Tor Aamodt"]
+        },
+        {
+          "session": "2022W",
+          "reported": 315,
+          "average": 67.9,
+          "grades": [43, 19, 26, 28, 14, 38, 35, 39, 29, 22, 22],
+          "instructors": ["Prashant Nair", "Mieszko Lis"]
+        },
+        {
+          "session": "2021W",
+          "reported": 321,
+          "average": 73.2,
+          "grades": [26, 12, 24, 18, 19, 37, 26, 20, 49, 40, 50],
+          "instructors": ["Tor Aamodt"]
+        }
+      ]
+    },
+    "CPEN 212": {
+      "reported": 686,
+      "average": 69.2,
+      "grades": [53, 37, 43, 55, 77, 80, 66, 78, 85, 58, 23],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 139,
+          "average": 72.4,
+          "grades": [2, 3, 10, 8, 19, 23, 17, 23, 17, 13, 4],
+          "instructors": ["Alexandra Fedorova"]
+        },
+        {
+          "session": "2024W",
+          "reported": 136,
+          "average": 72.2,
+          "grades": [8, 10, 4, 13, 7, 11, 12, 19, 29, 18, 5],
+          "instructors": ["Alexandra Fedorova"]
+        },
+        {
+          "session": "2023W",
+          "reported": 160,
+          "average": 65.6,
+          "grades": [17, 9, 13, 11, 16, 15, 11, 13, 13, 8, 3],
+          "instructors": ["Alexandra Fedorova", "Mieszko Lis"]
+        },
+        {
+          "session": "2022W",
+          "reported": 139,
+          "average": 66.5,
+          "grades": [19, 8, 9, 12, 17, 21, 13, 14, 14, 9, 3],
+          "instructors": ["Mieszko Lis"]
+        },
+        {
+          "session": "2021W",
+          "reported": 112,
+          "average": 70.2,
+          "grades": [7, 7, 7, 11, 18, 10, 13, 9, 12, 10, 8],
+          "instructors": ["Mieszko Lis"]
+        }
+      ]
+    },
+    "CPEN 221": {
+      "reported": 1200,
+      "average": 75.1,
+      "grades": [10, 14, 14, 64, 83, 150, 218, 265, 226, 119, 23],
+      "terms": [
+        {
+          "session": "2025W",
+          "topic": "A",
+          "title": "Software Construction I",
+          "reported": 131,
+          "average": 77.6,
+          "grades": [1, 0, 0, 4, 4, 13, 10, 43, 34, 17, 5],
+          "instructors": ["Karthik Pattabiraman", "Mohammad Shahrad"]
+        },
+        {
+          "session": "2025W",
+          "topic": "B",
+          "title": "Software Construction I",
+          "reported": 94,
+          "average": 73.9,
+          "grades": [2, 2, 0, 4, 7, 15, 10, 20, 25, 8, 1],
+          "instructors": ["Karthik Pattabiraman", "Mohammad Shahrad"]
+        },
+        {
+          "session": "2024W",
+          "topic": "A",
+          "title": "Software Construction I",
+          "reported": 118,
+          "average": 78.2,
+          "grades": [1, 0, 0, 1, 5, 7, 29, 20, 35, 15, 5],
+          "instructors": ["Mohammad Shahrad", "Simon Oya Diez", "Sathish Gopalakrishnan"]
+        },
+        {
+          "session": "2024W",
+          "topic": "B",
+          "title": "Software Construction I",
+          "reported": 115,
+          "average": 73.8,
+          "grades": [0, 1, 7, 6, 9, 13, 30, 22, 12, 12, 3],
+          "instructors": ["Mohammad Shahrad", "Sathish Gopalakrishnan", "Simon Oya Diez"]
+        },
+        {
+          "session": "2023W",
+          "topic": "A",
+          "title": "Software Construction I",
+          "reported": 133,
+          "average": 76.0,
+          "grades": [0, 0, 0, 2, 12, 17, 23, 46, 21, 7, 3],
+          "instructors": ["Mohammad Shahrad", "Sathish Gopalakrishnan"]
+        },
+        {
+          "session": "2023W",
+          "topic": "B",
+          "title": "Software Construction I",
+          "reported": 128,
+          "average": 73.2,
+          "grades": [1, 1, 0, 5, 18, 26, 24, 30, 13, 5, 2],
+          "instructors": ["Mohammad Shahrad", "Sathish Gopalakrishnan"]
+        },
+        {
+          "session": "2022W",
+          "reported": 243,
+          "average": 76.3,
+          "grades": [5, 0, 0, 15, 10, 25, 31, 65, 57, 31, 4],
+          "instructors": ["Mohammad Shahrad", "Sathish Gopalakrishnan"]
+        },
+        {
+          "session": "2021W",
+          "reported": 238,
+          "average": 72.4,
+          "grades": [0, 10, 7, 27, 18, 34, 61, 19, 29, 24, 0],
+          "instructors": ["Mohammad Shahrad", "Sathish Gopalakrishnan"]
+        }
+      ]
+    },
+    "CPEN 223": {
+      "reported": 612,
+      "average": 73.5,
+      "grades": [14, 17, 23, 36, 70, 81, 92, 84, 89, 65, 37],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 114,
+          "average": 70.7,
+          "grades": [5, 5, 6, 8, 14, 17, 20, 12, 15, 8, 4],
+          "instructors": ["Farshid Agharebparast"]
+        },
+        {
+          "session": "2024W",
+          "reported": 123,
+          "average": 71.4,
+          "grades": [4, 2, 7, 8, 19, 19, 19, 16, 17, 8, 4],
+          "instructors": ["Farshid Agharebparast"]
+        },
+        {
+          "session": "2023W",
+          "reported": 116,
+          "average": 70.9,
+          "grades": [4, 6, 7, 9, 18, 13, 19, 10, 12, 11, 5],
+          "instructors": ["Farshid Agharebparast"]
+        },
+        {
+          "session": "2022W",
+          "reported": 131,
+          "average": 73.1,
+          "grades": [1, 4, 3, 11, 12, 19, 21, 28, 17, 8, 7],
+          "instructors": ["Farshid Agharebparast"]
+        },
+        {
+          "session": "2021W",
+          "reported": 128,
+          "average": 80.8,
+          "grades": [0, 0, 0, 0, 7, 13, 13, 18, 28, 30, 17],
+          "instructors": ["Amin Ghasemazar"]
+        }
+      ]
+    },
+    "CPEN 281": {
+      "reported": 599,
+      "average": 74.2,
+      "grades": [14, 2, 0, 7, 17, 85, 144, 171, 102, 12, 0],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 111,
+          "average": 75.7,
+          "grades": [2, 0, 0, 1, 3, 12, 23, 42, 27, 1, 0],
+          "instructors": ["Hongxing Estella Qi", "Hartaj Sanghara"]
+        },
+        {
+          "session": "2025S",
+          "reported": 13,
+          "average": 79.1,
+          "grades": [0, 0, 0, 0, 0, 0, 2, 5, 6, 0, 0],
+          "instructors": ["Hartaj Sanghara"]
+        },
+        {
+          "session": "2024W",
+          "reported": 99,
+          "average": 75.2,
+          "grades": [0, 1, 0, 4, 1, 12, 22, 42, 16, 1, 0],
+          "instructors": ["Hongxing Estella Qi", "Hartaj Sanghara"]
+        },
+        {
+          "session": "2024S",
+          "reported": 13,
+          "average": 77.4,
+          "grades": [0, 0, 0, 0, 0, 0, 5, 5, 3, 0, 0],
+          "instructors": ["Hartaj Sanghara"]
+        },
+        {
+          "session": "2023W",
+          "reported": 117,
+          "average": 75.4,
+          "grades": [5, 1, 0, 0, 2, 11, 22, 38, 32, 6, 0],
+          "instructors": ["Michael Schoen", "Hongxing Estella Qi", "Hartaj Sanghara"]
+        },
+        {
+          "session": "2023S",
+          "reported": 13,
+          "average": 75.2,
+          "grades": [0, 0, 0, 0, 0, 2, 4, 5, 2, 0, 0],
+          "instructors": ["Hartaj Sanghara"]
+        },
+        {
+          "session": "2022W",
+          "reported": 106,
+          "average": 72.3,
+          "grades": [7, 0, 0, 2, 6, 19, 34, 24, 10, 4, 0],
+          "instructors": ["Hartaj Sanghara", "Hongxing Estella Qi"]
+        },
+        {
+          "session": "2022S",
+          "reported": 15,
+          "average": 70.7,
+          "grades": [0, 0, 0, 0, 5, 3, 4, 3, 0, 0, 0],
+          "instructors": ["Hartaj Sanghara"]
+        },
+        {
+          "session": "2021W",
+          "reported": 112,
+          "average": 71.6,
+          "grades": [0, 0, 0, 0, 0, 26, 28, 7, 6, 0, 0],
+          "instructors": ["Hartaj Sanghara", "Hongxing Estella Qi"]
+        }
+      ]
+    },
+    "CPEN 291": {
+      "reported": 229,
+      "average": 85.6,
+      "grades": [0, 0, 1, 0, 1, 2, 2, 8, 60, 95, 51],
+      "terms": [
+        {
+          "session": "2022W",
+          "reported": 111,
+          "average": 86.0,
+          "grades": [0, 0, 1, 0, 1, 2, 2, 8, 23, 40, 34],
+          "instructors": ["Farshid Agharebparast"]
+        },
+        {
+          "session": "2021W",
+          "reported": 118,
+          "average": 85.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 37, 55, 17],
+          "instructors": ["Farshid Agharebparast"]
+        }
+      ]
+    },
+    "CPEN 311": {
+      "reported": 855,
+      "average": 77.9,
+      "grades": [26, 22, 19, 30, 49, 62, 84, 80, 128, 112, 176],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 185,
+          "average": 74.2,
+          "grades": [5, 6, 11, 10, 16, 26, 20, 25, 25, 19, 22],
+          "instructors": ["Cristian Sorin Grecu"]
+        },
+        {
+          "session": "2025S",
+          "reported": 96,
+          "average": 81.2,
+          "grades": [3, 2, 5, 3, 2, 5, 7, 7, 15, 16, 31],
+          "instructors": ["Yair Linn"]
+        },
+        {
+          "session": "2024W",
+          "reported": 119,
+          "average": 78.6,
+          "grades": [5, 0, 1, 5, 3, 8, 15, 12, 34, 15, 21],
+          "instructors": ["Guy Lemieux"]
+        },
+        {
+          "session": "2024S",
+          "reported": 73,
+          "average": 84.7,
+          "grades": [6, 0, 0, 1, 0, 2, 0, 7, 10, 12, 35],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "reported": 115,
+          "average": 76.5,
+          "grades": [2, 3, 1, 4, 9, 11, 16, 19, 18, 14, 10],
+          "instructors": ["Prashant Nair"]
+        },
+        {
+          "session": "2023S",
+          "reported": 67,
+          "average": 87.5,
+          "grades": [0, 0, 0, 0, 3, 3, 1, 2, 9, 12, 27],
+          "instructors": ["Yair Linn"]
+        },
+        {
+          "session": "2022W",
+          "reported": 89,
+          "average": 70.6,
+          "grades": [5, 11, 1, 6, 10, 6, 15, 5, 11, 11, 8],
+          "instructors": ["Guy Lemieux"]
+        },
+        {
+          "session": "2022S",
+          "reported": 24,
+          "average": 84.5,
+          "grades": [0, 0, 0, 1, 0, 1, 2, 3, 6, 3, 8],
+          "instructors": ["Cristian Sorin Grecu"]
+        },
+        {
+          "session": "2021W",
+          "reported": 29,
+          "average": 74.4,
+          "grades": [0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Prashant Nair"]
+        },
+        {
+          "session": "2021S",
+          "reported": 58,
+          "average": 76.9,
+          "grades": [0, 0, 0, 0, 0, 0, 8, 0, 0, 10, 14],
+          "instructors": ["Cristian Sorin Grecu"]
+        }
+      ]
+    },
+    "CPEN 312": {
+      "reported": 836,
+      "average": 77.3,
+      "grades": [50, 7, 16, 44, 54, 65, 92, 78, 112, 112, 185],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 166,
+          "average": 73.4,
+          "grades": [16, 1, 7, 13, 16, 17, 17, 17, 23, 22, 17],
+          "instructors": ["Jesus Calvino-Fraga"]
+        },
+        {
+          "session": "2024W",
+          "reported": 150,
+          "average": 76.6,
+          "grades": [11, 2, 3, 11, 13, 13, 19, 12, 13, 17, 36],
+          "instructors": ["Jesus Calvino-Fraga"]
+        },
+        {
+          "session": "2023W",
+          "reported": 179,
+          "average": 75.4,
+          "grades": [20, 1, 5, 4, 12, 12, 24, 19, 15, 17, 39],
+          "instructors": ["Jesus Calvino-Fraga"]
+        },
+        {
+          "session": "2022W",
+          "reported": 178,
+          "average": 81.0,
+          "grades": [3, 3, 1, 7, 4, 14, 16, 14, 32, 38, 46],
+          "instructors": ["Jesus Calvino-Fraga"]
+        },
+        {
+          "session": "2021W",
+          "reported": 163,
+          "average": 80.0,
+          "grades": [0, 0, 0, 9, 9, 9, 16, 16, 29, 18, 47],
+          "instructors": ["Jesus Calvino-Fraga"]
+        }
+      ]
+    },
+    "CPEN 320": {
+      "reported": 147,
+      "average": 78.1,
+      "grades": [1, 0, 2, 0, 6, 7, 30, 37, 41, 18, 5],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 72,
+          "average": 78.9,
+          "grades": [1, 0, 0, 0, 1, 4, 10, 23, 20, 10, 3],
+          "instructors": ["Ali Mesbah"]
+        },
+        {
+          "session": "2024W",
+          "reported": 75,
+          "average": 77.4,
+          "grades": [0, 0, 2, 0, 5, 3, 20, 14, 21, 8, 2],
+          "instructors": ["Ali Mesbah"]
+        }
+      ]
+    },
+    "CPEN 321": {
+      "reported": 283,
+      "average": 81.1,
+      "grades": [0, 1, 1, 7, 8, 18, 33, 38, 63, 82, 31],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 49,
+          "average": 82.0,
+          "grades": [0, 0, 1, 3, 3, 1, 3, 4, 9, 16, 9],
+          "instructors": ["Julia Rubin"]
+        },
+        {
+          "session": "2024W",
+          "reported": 67,
+          "average": 80.9,
+          "grades": [0, 0, 0, 2, 1, 5, 7, 15, 14, 16, 7],
+          "instructors": ["Julia Rubin"]
+        },
+        {
+          "session": "2023W",
+          "reported": 89,
+          "average": 80.1,
+          "grades": [0, 0, 0, 1, 3, 5, 15, 11, 23, 27, 3],
+          "instructors": ["Julia Rubin"]
+        },
+        {
+          "session": "2022S",
+          "reported": 78,
+          "average": 81.7,
+          "grades": [0, 1, 0, 1, 1, 7, 8, 8, 17, 23, 12],
+          "instructors": ["Julia Rubin"]
+        }
+      ]
+    },
+    "CPEN 322": {
+      "reported": 360,
+      "average": 76.3,
+      "grades": [6, 4, 4, 4, 17, 34, 59, 74, 86, 36, 25],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 105,
+          "average": 79.2,
+          "grades": [1, 2, 1, 0, 1, 10, 14, 19, 32, 16, 9],
+          "instructors": ["Ali Mesbah"]
+        },
+        {
+          "session": "2022W",
+          "reported": 137,
+          "average": 74.4,
+          "grades": [5, 2, 3, 4, 10, 13, 26, 26, 34, 7, 7],
+          "instructors": ["Karthik Pattabiraman"]
+        },
+        {
+          "session": "2021W",
+          "reported": 118,
+          "average": 76.0,
+          "grades": [0, 0, 0, 0, 6, 11, 19, 29, 20, 13, 9],
+          "instructors": ["Karthik Pattabiraman"]
+        }
+      ]
+    },
+    "CPEN 331": {
+      "reported": 633,
+      "average": 85.3,
+      "grades": [3, 1, 7, 6, 7, 16, 34, 48, 90, 170, 239],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 140,
+          "average": 86.3,
+          "grades": [0, 0, 1, 1, 2, 4, 7, 10, 20, 40, 55],
+          "instructors": ["Alexandra Fedorova", "Mohammad Shahrad"]
+        },
+        {
+          "session": "2024W",
+          "reported": 129,
+          "average": 84.9,
+          "grades": [1, 1, 3, 1, 1, 4, 4, 10, 24, 31, 49],
+          "instructors": ["Alexandra Fedorova"]
+        },
+        {
+          "session": "2023W",
+          "reported": 129,
+          "average": 84.5,
+          "grades": [1, 0, 2, 3, 1, 5, 4, 10, 18, 34, 46],
+          "instructors": ["Alexandra Fedorova"]
+        },
+        {
+          "session": "2022W",
+          "reported": 109,
+          "average": 84.0,
+          "grades": [1, 0, 1, 1, 3, 3, 11, 9, 11, 40, 29],
+          "instructors": ["Alexandra Fedorova"]
+        },
+        {
+          "session": "2021W",
+          "reported": 126,
+          "average": 86.6,
+          "grades": [0, 0, 0, 0, 0, 0, 8, 9, 17, 25, 60],
+          "instructors": ["Alexandra Fedorova"]
+        }
+      ]
+    },
+    "CPEN 333": {
+      "reported": 798,
+      "average": 75.8,
+      "grades": [7, 15, 19, 28, 57, 104, 113, 116, 169, 92, 63],
+      "terms": [
+        {
+          "session": "2025W",
+          "topic": "A",
+          "title": "Software Design for Engineers II",
+          "reported": 31,
+          "average": 73.4,
+          "grades": [0, 0, 2, 3, 1, 3, 9, 4, 7, 2, 0],
+          "instructors": ["Farshid Agharebparast"]
+        },
+        {
+          "session": "2025W",
+          "topic": "B",
+          "title": "Software Design for Engineers II",
+          "reported": 81,
+          "average": 74.5,
+          "grades": [1, 3, 3, 6, 10, 11, 6, 5, 20, 11, 5],
+          "instructors": ["Farshid Agharebparast"]
+        },
+        {
+          "session": "2024W",
+          "topic": "A",
+          "title": "Software Design for Engineers II",
+          "reported": 52,
+          "average": 77.5,
+          "grades": [0, 0, 0, 1, 1, 13, 7, 7, 10, 10, 3],
+          "instructors": ["Farshid Agharebparast"]
+        },
+        {
+          "session": "2024W",
+          "topic": "B",
+          "title": "Software Design for Engineers II",
+          "reported": 90,
+          "average": 74.3,
+          "grades": [1, 5, 4, 3, 7, 16, 11, 15, 11, 6, 11],
+          "instructors": ["Farshid Agharebparast"]
+        },
+        {
+          "session": "2023W",
+          "topic": "A",
+          "title": "Software Design for Engineers II",
+          "reported": 73,
+          "average": 71.5,
+          "grades": [2, 2, 2, 4, 8, 19, 13, 10, 7, 3, 3],
+          "instructors": ["Farshid Agharebparast"]
+        },
+        {
+          "session": "2023W",
+          "topic": "B",
+          "title": "Software Design for Engineers II",
+          "reported": 97,
+          "average": 75.1,
+          "grades": [3, 2, 2, 6, 5, 11, 15, 15, 19, 9, 10],
+          "instructors": ["Farshid Agharebparast"]
+        },
+        {
+          "session": "2022W",
+          "reported": 160,
+          "average": 76.8,
+          "grades": [0, 3, 6, 5, 16, 14, 22, 20, 36, 26, 12],
+          "instructors": ["Farshid Agharebparast"]
+        },
+        {
+          "session": "2021W",
+          "reported": 214,
+          "average": 78.1,
+          "grades": [0, 0, 0, 0, 9, 17, 30, 40, 59, 25, 19],
+          "instructors": ["Seyed Ali Mousavifar", "Farshid Agharebparast"]
+        }
+      ]
+    },
+    "CPEN 355": {
+      "reported": 361,
+      "average": 87.6,
+      "grades": [0, 0, 0, 1, 3, 8, 11, 25, 53, 94, 165],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 113,
+          "average": 83.7,
+          "grades": [0, 0, 0, 0, 3, 7, 9, 11, 27, 26, 30],
+          "instructors": ["Christos Thrampoulidis", "Souradeep Dutta"]
+        },
+        {
+          "session": "2024W",
+          "reported": 126,
+          "average": 86.9,
+          "grades": [0, 0, 0, 1, 0, 1, 2, 12, 18, 46, 46],
+          "instructors": ["Mirza Sarwar", "Xiaoxiao Li"]
+        },
+        {
+          "session": "2023W",
+          "reported": 122,
+          "average": 91.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 2, 8, 22, 89],
+          "instructors": ["Xiaoxiao Li"]
+        }
+      ]
+    },
+    "CPEN 391": {
+      "reported": 426,
+      "average": 84.3,
+      "grades": [0, 0, 0, 0, 3, 4, 28, 24, 134, 123, 98],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 120,
+          "average": 83.5,
+          "grades": [0, 0, 0, 0, 2, 1, 4, 12, 49, 37, 15],
+          "instructors": ["Farshid Agharebparast"]
+        },
+        {
+          "session": "2024W",
+          "reported": 82,
+          "average": 87.5,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 1, 16, 45, 19],
+          "instructors": ["Renjie Liao", "Farshid Agharebparast", "Sathish Gopalakrishnan"]
+        },
+        {
+          "session": "2022W",
+          "reported": 122,
+          "average": 82.0,
+          "grades": [0, 0, 0, 0, 1, 2, 24, 11, 42, 17, 25],
+          "instructors": ["Guy Lemieux"]
+        },
+        {
+          "session": "2021W",
+          "reported": 102,
+          "average": 85.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 27, 24, 39],
+          "instructors": ["Guy Lemieux"]
+        }
+      ]
+    },
+    "CPEN 400": {
+      "reported": 453,
+      "average": 83.3,
+      "grades": [2, 3, 5, 4, 16, 14, 29, 40, 76, 93, 144],
+      "terms": [
+        {
+          "session": "2024W",
+          "topic": "Q",
+          "title": "QUANTUM COMPUTNG",
+          "reported": 34,
+          "average": 73.4,
+          "grades": [1, 1, 1, 2, 7, 3, 7, 1, 4, 3, 4],
+          "instructors": ["Olivia Di Matteo"]
+        },
+        {
+          "session": "2023W",
+          "topic": "P",
+          "title": "Topics in Computer Engineering",
+          "reported": 33,
+          "average": 82.5,
+          "grades": [0, 0, 0, 0, 0, 1, 3, 4, 11, 9, 5],
+          "instructors": ["Karthik Pattabiraman"]
+        },
+        {
+          "session": "2023W",
+          "topic": "Q",
+          "title": "Topics in Computer Engineering",
+          "reported": 36,
+          "average": 77.6,
+          "grades": [0, 1, 1, 0, 2, 3, 5, 4, 11, 7, 1],
+          "instructors": ["Olivia di Matteo"]
+        },
+        {
+          "session": "2022W",
+          "topic": "D",
+          "title": "Topics in Computer Engineering",
+          "reported": 128,
+          "average": 84.7,
+          "grades": [1, 1, 3, 2, 5, 4, 7, 10, 19, 26, 50],
+          "instructors": ["Bradley Quinton", "Scott Chin", "Renjie Liao"]
+        },
+        {
+          "session": "2022W",
+          "topic": "P",
+          "title": "Topics in Computer Engineering",
+          "reported": 33,
+          "average": 82.8,
+          "grades": [0, 0, 0, 0, 0, 2, 1, 3, 13, 9, 5],
+          "instructors": ["Karthik Pattabiraman"]
+        },
+        {
+          "session": "2022W",
+          "topic": "Q",
+          "title": "Topics in Computer Engineering",
+          "reported": 40,
+          "average": 86.3,
+          "grades": [0, 0, 0, 0, 2, 1, 0, 3, 3, 15, 16],
+          "instructors": ["Olivia di Matteo"]
+        },
+        {
+          "session": "2021W",
+          "topic": "D",
+          "title": "Topics in Computer Engineering",
+          "reported": 88,
+          "average": 86.1,
+          "grades": [0, 0, 0, 0, 0, 0, 6, 8, 15, 18, 37],
+          "instructors": ["Bradley Quinton", "Scott Chin"]
+        },
+        {
+          "session": "2021W",
+          "topic": "P",
+          "title": "Topics in Computer Engineering",
+          "reported": 30,
+          "average": 78.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 7, 0, 6, 6],
+          "instructors": ["Karthik Pattabiraman"]
+        },
+        {
+          "session": "2021W",
+          "topic": "Q",
+          "title": "Topics in Computer Engineering",
+          "reported": 31,
+          "average": 89.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20],
+          "instructors": ["Olivia Di Matteo"]
+        }
+      ]
+    },
+    "CPEN 411": {
+      "reported": 423,
+      "average": 81.0,
+      "grades": [2, 1, 5, 13, 19, 23, 30, 53, 88, 88, 87],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 114,
+          "average": 80.5,
+          "grades": [1, 1, 0, 3, 4, 8, 13, 16, 29, 23, 16],
+          "instructors": ["Tor Aamodt"]
+        },
+        {
+          "session": "2024W",
+          "reported": 79,
+          "average": 81.6,
+          "grades": [0, 0, 0, 3, 3, 4, 7, 11, 19, 15, 17],
+          "instructors": ["Prashant Nair"]
+        },
+        {
+          "session": "2023W",
+          "reported": 89,
+          "average": 82.2,
+          "grades": [0, 0, 2, 1, 7, 5, 6, 7, 16, 20, 23],
+          "instructors": ["Prashant Nair"]
+        },
+        {
+          "session": "2022W",
+          "reported": 74,
+          "average": 77.6,
+          "grades": [1, 0, 3, 6, 5, 6, 4, 7, 16, 19, 7],
+          "instructors": ["Prashant Nair"]
+        },
+        {
+          "session": "2021W",
+          "reported": 67,
+          "average": 83.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 12, 8, 11, 24],
+          "instructors": ["Prashant Nair"]
+        }
+      ]
+    },
+    "CPEN 412": {
+      "reported": 268,
+      "average": 87.0,
+      "grades": [14, 6, 0, 0, 3, 5, 8, 12, 11, 28, 162],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 67,
+          "average": 87.9,
+          "grades": [5, 1, 0, 0, 1, 0, 3, 3, 3, 7, 44],
+          "instructors": ["Yair Linn"]
+        },
+        {
+          "session": "2023W",
+          "reported": 97,
+          "average": 85.6,
+          "grades": [6, 5, 0, 0, 2, 5, 4, 5, 6, 5, 55],
+          "instructors": ["Yair Linn"]
+        },
+        {
+          "session": "2022W",
+          "reported": 63,
+          "average": 88.8,
+          "grades": [3, 0, 0, 0, 0, 0, 1, 4, 2, 10, 43],
+          "instructors": ["Yair Linn"]
+        },
+        {
+          "session": "2021W",
+          "reported": 41,
+          "average": 85.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 20],
+          "instructors": ["Yair Linn"]
+        }
+      ]
+    },
+    "CPEN 416": {
+      "reported": 16,
+      "average": 79.7,
+      "grades": [0, 0, 0, 1, 0, 0, 4, 1, 5, 5, 0],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 16,
+          "average": 79.7,
+          "grades": [0, 0, 0, 1, 0, 0, 4, 1, 5, 5, 0],
+          "instructors": ["Olivia Di Matteo"]
+        }
+      ]
+    },
+    "CPEN 421": {
+      "reported": 84,
+      "average": 85.7,
+      "grades": [0, 0, 0, 0, 0, 0, 1, 6, 19, 26, 14],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 44,
+          "average": 85.6,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 6, 13, 14, 10],
+          "instructors": ["Vidya Kotamraju"]
+        },
+        {
+          "session": "2024W",
+          "reported": 22,
+          "average": 86.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 6, 12, 4],
+          "instructors": ["Vidya Kotamraju"]
+        },
+        {
+          "session": "2021W",
+          "reported": 18,
+          "average": 84.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Niranjan Ravichandran"]
+        }
+      ]
+    },
+    "CPEN 422": {
+      "reported": 66,
+      "average": 77.4,
+      "grades": [0, 1, 1, 4, 3, 5, 11, 12, 13, 13, 3],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 31,
+          "average": 77.6,
+          "grades": [0, 1, 0, 3, 1, 2, 4, 6, 5, 8, 1],
+          "instructors": ["Ali Mesbah"]
+        },
+        {
+          "session": "2024W",
+          "reported": 35,
+          "average": 77.2,
+          "grades": [0, 0, 1, 1, 2, 3, 7, 6, 8, 5, 2],
+          "instructors": ["Ali Mesbah"]
+        }
+      ]
+    },
+    "CPEN 431": {
+      "reported": 263,
+      "average": 83.1,
+      "grades": [0, 1, 2, 7, 4, 17, 17, 28, 50, 64, 64],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 61,
+          "average": 82.7,
+          "grades": [0, 1, 1, 3, 2, 3, 5, 3, 8, 15, 20],
+          "instructors": ["Matei Ripeanu"]
+        },
+        {
+          "session": "2024W",
+          "reported": 32,
+          "average": 89.5,
+          "grades": [0, 0, 0, 0, 0, 2, 3, 0, 2, 3, 22],
+          "instructors": ["Radu Ripeanu"]
+        },
+        {
+          "session": "2023W",
+          "reported": 83,
+          "average": 80.1,
+          "grades": [0, 0, 1, 4, 2, 9, 6, 14, 12, 21, 10],
+          "instructors": ["Radu Ripeanu"]
+        },
+        {
+          "session": "2022W",
+          "reported": 48,
+          "average": 84.3,
+          "grades": [0, 0, 0, 0, 0, 3, 3, 5, 10, 15, 12],
+          "instructors": ["Radu Ripeanu"]
+        },
+        {
+          "session": "2021W",
+          "reported": 39,
+          "average": 83.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 6, 18, 10, 0],
+          "instructors": ["Radu Ripeanu"]
+        }
+      ]
+    },
+    "CPEN 432": {
+      "reported": 36,
+      "average": 78.7,
+      "grades": [1, 0, 0, 0, 0, 1, 3, 3, 2, 7, 1],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 18,
+          "average": 78.3,
+          "grades": [1, 0, 0, 0, 0, 1, 3, 3, 2, 7, 1],
+          "instructors": ["Arpan Gujarati"]
+        },
+        {
+          "session": "2021W",
+          "reported": 18,
+          "average": 79.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Arpan Gujarati"]
+        }
+      ]
+    },
+    "CPEN 441": {
+      "reported": 187,
+      "average": 80.0,
+      "grades": [1, 1, 1, 2, 3, 10, 17, 31, 55, 40, 17],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 41,
+          "average": 80.8,
+          "grades": [0, 1, 0, 0, 1, 2, 5, 4, 13, 15, 0],
+          "instructors": ["S Sidney Fels"]
+        },
+        {
+          "session": "2023W",
+          "reported": 48,
+          "average": 76.7,
+          "grades": [1, 0, 1, 2, 2, 3, 6, 11, 17, 5, 0],
+          "instructors": ["S Sidney Fels"]
+        },
+        {
+          "session": "2022W",
+          "reported": 55,
+          "average": 81.7,
+          "grades": [0, 0, 0, 0, 0, 5, 6, 10, 13, 11, 10],
+          "instructors": ["S Sidney Fels"]
+        },
+        {
+          "session": "2021W",
+          "reported": 43,
+          "average": 80.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 6, 12, 9, 7],
+          "instructors": ["S Sidney Fels"]
+        }
+      ]
+    },
+    "CPEN 442": {
+      "reported": 371,
+      "average": 84.4,
+      "grades": [2, 4, 3, 7, 8, 15, 13, 28, 61, 93, 124],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 88,
+          "average": 82.4,
+          "grades": [1, 1, 1, 3, 2, 5, 2, 11, 16, 20, 26],
+          "instructors": ["Simon Oya"]
+        },
+        {
+          "session": "2024W",
+          "reported": 86,
+          "average": 86.2,
+          "grades": [1, 1, 2, 2, 2, 4, 5, 6, 5, 17, 41],
+          "instructors": ["Simon Oya Diez"]
+        },
+        {
+          "session": "2023W",
+          "reported": 102,
+          "average": 86.7,
+          "grades": [0, 1, 0, 1, 2, 2, 3, 5, 21, 27, 40],
+          "instructors": ["Simon Oya Diez", "Konstantin Beznosov"]
+        },
+        {
+          "session": "2022W",
+          "reported": 45,
+          "average": 80.9,
+          "grades": [0, 1, 0, 1, 2, 4, 3, 6, 8, 14, 6],
+          "instructors": ["Konstantin Beznosov"]
+        },
+        {
+          "session": "2021W",
+          "reported": 50,
+          "average": 83.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 11, 15, 11],
+          "instructors": ["Konstantin Beznosov"]
+        }
+      ]
+    },
+    "CPEN 455": {
+      "reported": 318,
+      "average": 82.0,
+      "grades": [7, 5, 10, 13, 11, 12, 20, 27, 45, 59, 103],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 106,
+          "average": 82.5,
+          "grades": [2, 0, 1, 4, 2, 3, 6, 11, 20, 30, 27],
+          "instructors": ["Renjie Liao"]
+        },
+        {
+          "session": "2024W",
+          "reported": 107,
+          "average": 81.3,
+          "grades": [1, 1, 4, 7, 7, 4, 10, 8, 13, 19, 33],
+          "instructors": ["Renjie Liao"]
+        },
+        {
+          "session": "2023W",
+          "reported": 105,
+          "average": 82.2,
+          "grades": [4, 4, 5, 2, 2, 5, 4, 8, 12, 10, 43],
+          "instructors": ["Renjie Liao"]
+        }
+      ]
+    },
+    "CPEN 481": {
+      "reported": 628,
+      "average": 76.2,
+      "grades": [5, 13, 19, 33, 42, 62, 79, 88, 134, 85, 46],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 51,
+          "average": 71.8,
+          "grades": [0, 1, 1, 2, 6, 12, 18, 6, 4, 1, 0],
+          "instructors": ["Jeffrey Carmichael"]
+        },
+        {
+          "session": "2025S",
+          "reported": 53,
+          "average": 72.8,
+          "grades": [0, 3, 4, 2, 5, 9, 6, 9, 11, 4, 0],
+          "instructors": ["Jeffrey Carmichael"]
+        },
+        {
+          "session": "2024W",
+          "reported": 54,
+          "average": 74.1,
+          "grades": [0, 0, 3, 5, 6, 9, 7, 5, 11, 8, 0],
+          "instructors": ["Jeffrey Carmichael"]
+        },
+        {
+          "session": "2024S",
+          "reported": 83,
+          "average": 76.5,
+          "grades": [3, 2, 4, 1, 6, 8, 9, 7, 25, 10, 8],
+          "instructors": ["Jeffrey Carmichael"]
+        },
+        {
+          "session": "2023W",
+          "reported": 76,
+          "average": 69.3,
+          "grades": [0, 3, 4, 12, 12, 14, 14, 10, 5, 2, 0],
+          "instructors": ["Jeffrey Carmichael"]
+        },
+        {
+          "session": "2023S",
+          "reported": 77,
+          "average": 82.3,
+          "grades": [1, 0, 1, 2, 0, 3, 5, 10, 18, 22, 15],
+          "instructors": ["Jeffrey Carmichael"]
+        },
+        {
+          "session": "2022W",
+          "reported": 86,
+          "average": 74.7,
+          "grades": [0, 2, 2, 6, 5, 5, 18, 21, 23, 4, 0],
+          "instructors": ["Jeffrey Carmichael"]
+        },
+        {
+          "session": "2022S",
+          "reported": 58,
+          "average": 79.8,
+          "grades": [1, 2, 0, 3, 2, 2, 2, 9, 16, 14, 7],
+          "instructors": ["Jeffrey Carmichael"]
+        },
+        {
+          "session": "2021W",
+          "reported": 45,
+          "average": 79.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 11, 14, 9, 0],
+          "instructors": ["Jeffrey Carmichael"]
+        },
+        {
+          "session": "2021S",
+          "reported": 45,
+          "average": 83.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 7, 11, 16],
+          "instructors": ["Jeffrey Carmichael"]
+        }
+      ]
+    },
+    "CPEN 491": {
+      "reported": 511,
+      "average": 83.9,
+      "grades": [0, 0, 0, 3, 2, 5, 16, 53, 144, 207, 72],
+      "terms": [
+        {
+          "session": "2025W",
+          "topic": "F",
+          "title": "CAPSTONE DSGN A",
+          "reported": 87,
+          "average": 85.1,
+          "grades": [0, 0, 0, 0, 0, 3, 0, 15, 19, 26, 24],
+          "instructors": ["Terry Lee", "Joseph Yan", "Panos Nasiopoulos", "John Madden", "Konrad Walus", "Leo Stocco", "Pieter Botman", "Konstantin Beznosov", "Cristian Sorin Grecu", "Andre Ivanov", "Paul Lusina"]
+        },
+        {
+          "session": "2025S",
+          "topic": "S",
+          "title": "Computer Engineering Capstone Design Project",
+          "reported": 15,
+          "average": 80.8,
+          "grades": [0, 0, 0, 1, 0, 0, 2, 0, 8, 4, 0],
+          "instructors": ["Terry Lee"]
+        },
+        {
+          "session": "2024W",
+          "topic": "F",
+          "title": "CAPSTONE DSGN A",
+          "reported": 90,
+          "average": 81.9,
+          "grades": [0, 0, 0, 2, 2, 1, 5, 17, 23, 28, 12],
+          "instructors": []
+        },
+        {
+          "session": "2024S",
+          "topic": "S",
+          "title": "Computer Engineering Capstone Design Project",
+          "reported": 7,
+          "average": 85.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 1],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "topic": "F",
+          "title": "Computer Engineering Capstone Design Project",
+          "reported": 126,
+          "average": 84.5,
+          "grades": [0, 0, 0, 0, 0, 1, 3, 5, 43, 65, 9],
+          "instructors": ["Terry Lee", "S Sidney Fels", "Hamed Ahmadi", "Joseph Yan", "Panos Nasiopoulos", "John Madden", "Pieter Botman", "Cristian Sorin Grecu", "Andre Ivanov", "Paul Lusina"]
+        },
+        {
+          "session": "2022W",
+          "topic": "F",
+          "title": "Computer Engineering Capstone Design Project",
+          "reported": 88,
+          "average": 84.7,
+          "grades": [0, 0, 0, 0, 0, 0, 6, 5, 19, 49, 9],
+          "instructors": ["Terry Lee", "S Sidney Fels", "Hamed Ahmadi", "Joseph Yan", "Panos Nasiopoulos", "Pieter Botman", "Cristian Sorin Grecu", "Andre Ivanov", "Paul Lusina"]
+        },
+        {
+          "session": "2021W",
+          "reported": 98,
+          "average": 83.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 11, 29, 32, 17],
+          "instructors": ["Terry Lee", "S Sidney Fels", "Hamed Ahmadi", "Joseph Yan", "Panos Nasiopoulos", "Pieter Botman", "Cristian Sorin Grecu", "Andre Ivanov", "Paul Lusina"]
+        }
+      ]
+    },
+    "CPEN 499": {
+      "reported": 6,
+      "average": 91.8,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 5],
+      "terms": [
+        {
+          "session": "2023W",
+          "topic": "A",
+          "title": "Undergraduate Thesis",
+          "reported": 6,
+          "average": 91.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 5],
+          "instructors": ["Guy Lemieux", "Cyril Leung", "Xiaoxiao Li"]
+        }
+      ]
+    },
+    "CPEN 502": {
+      "reported": 199,
+      "average": 89.5,
+      "grades": [1, 0, 0, 0, 1, 3, 1, 9, 9, 37, 128],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 34,
+          "average": 90.1,
+          "grades": [0, 0, 0, 0, 0, 1, 1, 4, 2, 5, 21],
+          "instructors": ["Sarbjit Sarkaria"]
+        },
+        {
+          "session": "2023W",
+          "reported": 53,
+          "average": 90.9,
+          "grades": [0, 0, 0, 0, 1, 1, 0, 3, 2, 7, 38],
+          "instructors": ["Sarbjit Sarkaria"]
+        },
+        {
+          "session": "2022W",
+          "reported": 55,
+          "average": 88.8,
+          "grades": [1, 0, 0, 0, 0, 1, 0, 2, 5, 14, 32],
+          "instructors": ["Sarbjit Sarkaria"]
+        },
+        {
+          "session": "2021W",
+          "reported": 57,
+          "average": 88.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 37],
+          "instructors": ["Sarbjit Sarkaria"]
+        }
+      ]
+    },
+    "CPEN 511": {
+      "reported": 24,
+      "average": 93.3,
+      "grades": [0, 0, 0, 0, 0, 1, 0, 0, 2, 1, 20],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 8,
+          "average": 94.2,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 7],
+          "instructors": ["Prashant Nair"]
+        },
+        {
+          "session": "2023W",
+          "reported": 9,
+          "average": 95.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9],
+          "instructors": ["Prashant Nair"]
+        },
+        {
+          "session": "2022W",
+          "reported": 7,
+          "average": 89.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 4],
+          "instructors": ["Mieszko Lis"]
+        }
+      ]
+    },
+    "CPEN 512": {
+      "reported": 11,
+      "average": 90.1,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8],
+      "terms": [
+        {
+          "session": "2021W",
+          "reported": 11,
+          "average": 90.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8],
+          "instructors": ["Guy Lemieux"]
+        }
+      ]
+    },
+    "CPEN 513": {
+      "reported": 18,
+      "average": 92.0,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 15],
+      "terms": [
+        {
+          "session": "2022W",
+          "reported": 10,
+          "average": 93.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 8],
+          "instructors": ["Steven Wilton"]
+        },
+        {
+          "session": "2021W",
+          "reported": 8,
+          "average": 90.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7],
+          "instructors": ["Steven Wilton"]
+        }
+      ]
+    },
+    "CPEN 514": {
+      "reported": 35,
+      "average": 87.4,
+      "grades": [0, 0, 0, 0, 0, 1, 1, 0, 7, 9, 13],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 13,
+          "average": 88.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 4, 5, 4],
+          "instructors": ["Joseph Salfi"]
+        },
+        {
+          "session": "2023W",
+          "reported": 22,
+          "average": 87.1,
+          "grades": [0, 0, 0, 0, 0, 1, 1, 0, 3, 4, 9],
+          "instructors": ["Joseph Salfi"]
+        }
+      ]
+    },
+    "CPEN 522": {
+      "reported": 48,
+      "average": 81.8,
+      "grades": [0, 0, 0, 0, 2, 1, 6, 6, 14, 7, 9],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 7,
+          "average": 79.1,
+          "grades": [0, 0, 0, 0, 1, 0, 1, 2, 1, 1, 1],
+          "instructors": ["Ali Mesbah"]
+        },
+        {
+          "session": "2023W",
+          "reported": 17,
+          "average": 83.6,
+          "grades": [0, 0, 0, 0, 1, 1, 1, 1, 4, 4, 5],
+          "instructors": ["Ali Mesbah"]
+        },
+        {
+          "session": "2023S",
+          "reported": 11,
+          "average": 80.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 2, 6, 0, 0],
+          "instructors": ["Sathish Gopalakrishnan"]
+        },
+        {
+          "session": "2022S",
+          "reported": 13,
+          "average": 81.7,
+          "grades": [0, 0, 0, 0, 0, 0, 4, 1, 3, 2, 3],
+          "instructors": ["Sathish Gopalakrishnan"]
+        }
+      ]
+    },
+    "CPEN 523": {
+      "reported": 15,
+      "average": 91.1,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 10],
+      "terms": [
+        {
+          "session": "2022W",
+          "reported": 15,
+          "average": 91.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 10],
+          "instructors": ["Sathish Gopalakrishnan"]
+        }
+      ]
+    },
+    "CPEN 533": {
+      "reported": 31,
+      "average": 82.0,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 6, 11, 0],
+      "terms": [
+        {
+          "session": "2021W",
+          "reported": 8,
+          "average": 75.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Radu Ripeanu"]
+        },
+        {
+          "session": "2021S",
+          "reported": 23,
+          "average": 84.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 6, 11, 0],
+          "instructors": ["Sathish Gopalakrishnan"]
+        }
+      ]
+    },
+    "CPEN 534": {
+      "reported": 13,
+      "average": 88.6,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 3, 2, 8],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 13,
+          "average": 88.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 3, 2, 8],
+          "instructors": ["Mohammad Shahrad"]
+        }
+      ]
+    },
+    "CPEN 541": {
+      "reported": 9,
+      "average": 84.2,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 3, 6, 0],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 9,
+          "average": 84.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 3, 6, 0],
+          "instructors": ["S Sidney Fels"]
+        }
+      ]
+    },
+    "CPEN 542": {
+      "reported": 50,
+      "average": 79.8,
+      "grades": [0, 0, 0, 2, 2, 8, 0, 1, 3, 6, 7],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 9,
+          "average": 88.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 5],
+          "instructors": ["Simon Oya Diez"]
+        },
+        {
+          "session": "2023W",
+          "reported": 6,
+          "average": 79.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Konstantin Beznosov"]
+        },
+        {
+          "session": "2022W",
+          "reported": 13,
+          "average": 78.2,
+          "grades": [0, 0, 0, 2, 2, 1, 0, 1, 2, 3, 2],
+          "instructors": ["Konstantin Beznosov"]
+        },
+        {
+          "session": "2021W",
+          "reported": 22,
+          "average": 77.3,
+          "grades": [0, 0, 0, 0, 0, 7, 0, 0, 0, 0, 0],
+          "instructors": ["Konstantin Beznosov"]
+        }
+      ]
+    }
+  }
+}

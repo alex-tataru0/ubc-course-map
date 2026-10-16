@@ -1,0 +1,311 @@
+{
+  "subject": "IGEN",
+  "campus": "UBCV",
+  "source": "https://ubcgrades.com",
+  "credit": "UBCGrades.com / UBC PAIR",
+  "sessions": ["2021W", "2022W", "2023S", "2023W", "2024S", "2024W", "2025W"],
+  "buckets": ["<50%", "50-54%", "55-59%", "60-63%", "64-67%", "68-71%", "72-75%", "76-79%", "80-84%", "85-89%", "90-100%"],
+  "courses": {
+    "IGEN 201": {
+      "reported": 403,
+      "average": 82.1,
+      "grades": [5, 5, 4, 8, 6, 21, 14, 32, 75, 136, 86],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 64,
+          "average": 82.4,
+          "grades": [0, 1, 0, 5, 3, 2, 5, 4, 9, 12, 23],
+          "instructors": ["Matthew Wong"]
+        },
+        {
+          "session": "2024W",
+          "reported": 62,
+          "average": 82.5,
+          "grades": [1, 1, 0, 0, 2, 4, 2, 8, 11, 19, 14],
+          "instructors": ["Matthew Wong"]
+        },
+        {
+          "session": "2024S",
+          "reported": 52,
+          "average": 86.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 6, 37, 8],
+          "instructors": ["Matthew Wong"]
+        },
+        {
+          "session": "2023W",
+          "reported": 52,
+          "average": 78.9,
+          "grades": [3, 1, 1, 1, 1, 4, 2, 4, 10, 12, 11],
+          "instructors": ["Matthew Wong"]
+        },
+        {
+          "session": "2023S",
+          "reported": 68,
+          "average": 86.2,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 18, 40, 9],
+          "instructors": ["Matthew Wong"]
+        },
+        {
+          "session": "2022W",
+          "reported": 55,
+          "average": 77.9,
+          "grades": [1, 2, 3, 2, 0, 5, 4, 6, 11, 9, 12],
+          "instructors": ["Matthew Wong"]
+        },
+        {
+          "session": "2021W",
+          "reported": 50,
+          "average": 79.2,
+          "grades": [0, 0, 0, 0, 0, 6, 0, 9, 10, 7, 9],
+          "instructors": ["Matthew Wong"]
+        }
+      ]
+    },
+    "IGEN 230": {
+      "reported": 313,
+      "average": 82.9,
+      "grades": [4, 0, 1, 1, 1, 2, 11, 31, 105, 96, 51],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 68,
+          "average": 87.8,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 1, 9, 30, 27],
+          "instructors": ["Joseph Yan", "Noboru Yonemitsu"]
+        },
+        {
+          "session": "2024W",
+          "reported": 66,
+          "average": 81.8,
+          "grades": [0, 0, 0, 0, 0, 1, 5, 9, 36, 12, 3],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "reported": 59,
+          "average": 81.0,
+          "grades": [3, 0, 0, 1, 1, 1, 3, 5, 12, 25, 8],
+          "instructors": ["Joseph Yan", "Noboru Yonemitsu", "Steven Weijs"]
+        },
+        {
+          "session": "2022W",
+          "reported": 61,
+          "average": 83.4,
+          "grades": [1, 0, 1, 0, 0, 0, 2, 4, 20, 20, 13],
+          "instructors": ["Joseph Yan", "Noboru Yonemitsu"]
+        },
+        {
+          "session": "2021W",
+          "reported": 59,
+          "average": 79.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 12, 28, 9, 0],
+          "instructors": ["Joseph Yan", "Noboru Yonemitsu", "Steven Weijs"]
+        }
+      ]
+    },
+    "IGEN 330": {
+      "reported": 268,
+      "average": 83.8,
+      "grades": [0, 0, 0, 1, 2, 4, 15, 16, 94, 69, 61],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 56,
+          "average": 85.3,
+          "grades": [0, 0, 0, 1, 0, 0, 4, 1, 17, 10, 23],
+          "instructors": ["Jon Nakane", "Farzaneh Farhang Mehr"]
+        },
+        {
+          "session": "2024W",
+          "reported": 50,
+          "average": 84.2,
+          "grades": [0, 0, 0, 0, 0, 0, 3, 1, 26, 13, 7],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "reported": 54,
+          "average": 82.9,
+          "grades": [0, 0, 0, 0, 1, 3, 3, 5, 20, 12, 10],
+          "instructors": ["Jonathan Nakane"]
+        },
+        {
+          "session": "2022W",
+          "reported": 48,
+          "average": 84.9,
+          "grades": [0, 0, 0, 0, 1, 1, 5, 2, 8, 17, 14],
+          "instructors": ["Jonathan Nakane"]
+        },
+        {
+          "session": "2021W",
+          "reported": 60,
+          "average": 82.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 7, 23, 17, 7],
+          "instructors": ["Kirkpatrick Richardson", "Jonathan Nakane", "Nicolas Unick"]
+        }
+      ]
+    },
+    "IGEN 430": {
+      "reported": 242,
+      "average": 84.1,
+      "grades": [1, 0, 0, 5, 10, 1, 8, 19, 43, 90, 52],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 54,
+          "average": 85.1,
+          "grades": [0, 0, 0, 0, 0, 0, 5, 4, 8, 23, 14],
+          "instructors": ["Carl Reilly", "Sanja Miskovic", "Fariborz Taghipour"]
+        },
+        {
+          "session": "2024W",
+          "reported": 42,
+          "average": 78.0,
+          "grades": [0, 0, 0, 4, 10, 0, 0, 10, 4, 9, 5],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "reported": 54,
+          "average": 85.7,
+          "grades": [0, 0, 0, 1, 0, 0, 3, 3, 15, 18, 14],
+          "instructors": ["Sanja Miskovic", "Fariborz Taghipour"]
+        },
+        {
+          "session": "2022W",
+          "reported": 44,
+          "average": 86.9,
+          "grades": [1, 0, 0, 0, 0, 1, 0, 2, 2, 19, 19],
+          "instructors": ["Sanja Miskovic", "Fariborz Taghipour"]
+        },
+        {
+          "session": "2021W",
+          "reported": 48,
+          "average": 83.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 14, 21, 0],
+          "instructors": ["Sanja Miskovic", "Fariborz Taghipour"]
+        }
+      ]
+    },
+    "IGEN 450": {
+      "reported": 106,
+      "average": 84.1,
+      "grades": [1, 0, 0, 2, 2, 2, 4, 7, 17, 25, 29],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 33,
+          "average": 84.1,
+          "grades": [0, 0, 0, 1, 0, 1, 3, 3, 8, 8, 9],
+          "instructors": ["Hossein Zargar", "Edouard Asselin", "Dharmapriya Wijewickreme"]
+        },
+        {
+          "session": "2024W",
+          "reported": 22,
+          "average": 84.3,
+          "grades": [0, 0, 0, 1, 1, 0, 1, 2, 4, 8, 5],
+          "instructors": ["Edouard Asselin", "Hossein Zargarnezhad", "Dharmapriya Wijewickreme"]
+        },
+        {
+          "session": "2023W",
+          "reported": 16,
+          "average": 82.9,
+          "grades": [1, 0, 0, 0, 1, 0, 0, 2, 1, 4, 7],
+          "instructors": ["Edouard Asselin", "Devdeep Basu", "Dharmapriya Wijewickreme"]
+        },
+        {
+          "session": "2022W",
+          "reported": 18,
+          "average": 87.3,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 0, 4, 5, 8],
+          "instructors": ["Edouard Asselin", "Prajakta Jadhav", "Dharmapriya Wijewickreme"]
+        },
+        {
+          "session": "2021W",
+          "reported": 17,
+          "average": 81.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Min Xu", "Prajakta Jadhav", "Dharmapriya Wijewickreme"]
+        }
+      ]
+    },
+    "IGEN 451": {
+      "reported": 43,
+      "average": 78.0,
+      "grades": [0, 1, 0, 1, 2, 9, 4, 7, 5, 7, 6],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 20,
+          "average": 78.1,
+          "grades": [0, 0, 0, 0, 1, 4, 4, 4, 2, 1, 4],
+          "instructors": ["Jon Mikkelsen", "Edouard Asselin", "Hossein Zargar", "Vladan Prodanovic", "Dharmapriya Wijewickreme"]
+        },
+        {
+          "session": "2024W",
+          "reported": 6,
+          "average": 77.7,
+          "grades": [0, 1, 0, 0, 1, 0, 0, 1, 1, 1, 1],
+          "instructors": ["Jon Mikkelsen", "Vladan Prodanovic", "Edouard Asselin", "Dharmapriya Wijewickreme"]
+        },
+        {
+          "session": "2023W",
+          "reported": 10,
+          "average": 74.9,
+          "grades": [0, 0, 0, 1, 0, 4, 0, 1, 1, 2, 0],
+          "instructors": ["Jon Mikkelsen", "Vladan Prodanovic", "Edouard Asselin", "Dharmapriya Wijewickreme"]
+        },
+        {
+          "session": "2022W",
+          "reported": 7,
+          "average": 82.4,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 1, 1, 3, 1],
+          "instructors": ["Jon Mikkelsen", "Vladan Prodanovic", "Edouard Asselin"]
+        }
+      ]
+    },
+    "IGEN 452": {
+      "reported": 50,
+      "average": 85.9,
+      "grades": [0, 0, 0, 1, 0, 0, 2, 8, 9, 9, 21],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 9,
+          "average": 82.1,
+          "grades": [0, 0, 0, 0, 0, 0, 2, 2, 2, 0, 3],
+          "instructors": ["Dharmapriya Wijewickreme"]
+        },
+        {
+          "session": "2024W",
+          "reported": 15,
+          "average": 82.2,
+          "grades": [0, 0, 0, 1, 0, 0, 0, 3, 4, 7, 0],
+          "instructors": ["Dharmapriya Wijewickreme"]
+        },
+        {
+          "session": "2023W",
+          "reported": 9,
+          "average": 84.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 3, 2, 1, 3],
+          "instructors": ["Devdeep Basu", "Dharmapriya Wijewickreme"]
+        },
+        {
+          "session": "2022W",
+          "reported": 11,
+          "average": 91.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 9],
+          "instructors": ["Prajakta Jadhav", "Dharmapriya Wijewickreme"]
+        },
+        {
+          "session": "2021W",
+          "reported": 6,
+          "average": 93.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6],
+          "instructors": ["Prajakta Jadhav", "Dharmapriya Wijewickreme"]
+        }
+      ]
+    }
+  }
+}
