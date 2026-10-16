@@ -53,3 +53,11 @@ export function linkLabel(url: string): string {
   if (whole.length <= LABEL_LENGTH || segments.length < 2) return whole;
   return `${host}/…/${segments[segments.length - 1]}`;
 }
+
+// The site's code on GitHub, and a new issue there with the feedback form
+// (.github/ISSUE_TEMPLATE/feedback.yml), its "Which subject or course?" box filled in.
+export const REPO_URL = "https://github.com/alex-tataru0/ubc-course-map";
+
+export function feedbackUrl(where: string): string {
+  return `${REPO_URL}/issues/new?template=feedback.yml&where=${encodeURIComponent(where)}`;
+}

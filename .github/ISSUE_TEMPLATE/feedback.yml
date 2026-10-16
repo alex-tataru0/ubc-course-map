@@ -1,0 +1,39 @@
+# The form behind the "Feedback" link in the site's header. The link fills in "where"
+# with the subject on screen (see feedbackUrl in web/src/lib/links.ts).
+name: Feedback
+description: Something wrong, missing or confusing on UBC Course Map? Tell me here.
+title: "Feedback: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for trying UBC Course Map! It's an unofficial student project, so the
+        [UBC Academic Calendar](https://vancouver.calendar.ubc.ca/) always has the final word.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of feedback?
+      options:
+        - A course's prerequisites, status or path look wrong
+        - Something on the site doesn't work
+        - An idea, or something missing
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: Which subject or course?
+      placeholder: e.g. CPSC 340, or the MATH map
+  - type: textarea
+    id: details
+    attributes:
+      label: What happened, and what did you expect?
+      placeholder: e.g. CPSC 340 says "Not yet", but I've marked CPSC 221, MATH 200 and STAT 251.
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Browser and device (if something didn't work)
+      placeholder: e.g. Safari on iPhone, Chrome on Windows

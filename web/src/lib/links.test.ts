@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { linkLabel, rateMyProfUrl, redditSearchUrl, splitLinks, ubcGradesUrl } from "./links";
+import { feedbackUrl, linkLabel, rateMyProfUrl, redditSearchUrl, splitLinks, ubcGradesUrl } from "./links";
 
 describe("links", () => {
   it("searches r/UBC for the course code", () => {
@@ -20,6 +20,12 @@ describe("links", () => {
 
   it("opens the course on UBCGrades", () => {
     expect(ubcGradesUrl("CPSC 221")).toBe("https://ubcgrades.com/statistics-by-course#UBCV-CPSC-221");
+  });
+
+  it("opens the feedback form with the subject filled in", () => {
+    expect(feedbackUrl("MATH map")).toBe(
+      "https://github.com/alex-tataru0/ubc-course-map/issues/new?template=feedback.yml&where=MATH%20map",
+    );
   });
 });
 

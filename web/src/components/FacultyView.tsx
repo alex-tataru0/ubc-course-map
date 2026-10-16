@@ -2,6 +2,7 @@
 
 import { useEffect, useSyncExternalStore } from "react";
 import type { SubjectMap } from "@/lib/subjectMap";
+import { feedbackUrl, REPO_URL } from "@/lib/links";
 import { hashFor, subjectFromHash } from "@/lib/subjects";
 import type { Faculty } from "@/lib/subjects";
 import type { Course, CourseGrades, Program } from "@/lib/types";
@@ -82,13 +83,18 @@ export default function FacultyView({ faculty, maps, ...data }: FacultyViewProps
               UBCGrades
             </a>
             {" · "}
+            <a href={REPO_URL} target="_blank" rel="noreferrer" className="underline hover:text-header-ink">
+              Source
+            </a>
+            {" · "}
+            {/* A GitHub issue with a short form, starting from the subject on screen. */}
             <a
-              href="https://github.com/alex-tataru0/ubc-course-map"
+              href={feedbackUrl(`${subject} map`)}
               target="_blank"
               rel="noreferrer"
-              className="underline hover:text-header-ink"
+              className="font-medium underline hover:text-header-ink"
             >
-              Source on GitHub
+              Feedback
             </a>
           </p>
         </div>

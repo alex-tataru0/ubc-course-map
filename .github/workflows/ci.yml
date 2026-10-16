@@ -36,5 +36,5 @@ jobs:
       - run: npm ci
       - run: npm test
       - run: npm run lint
-      # Reads data/courses/cpsc.json and writes the static site to web/out/.
+      # Reads the files in data/ and writes the static site to web/out/.
       - run: npm run build

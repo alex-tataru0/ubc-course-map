@@ -6,7 +6,7 @@ A website for UBC students to plan courses using the prerequisite graph.
 
 **Try it: [ubc-course-map.vercel.app](https://ubc-course-map.vercel.app)**
 
-> Work in progress. Unofficial, not affiliated with UBC.
+> Work in progress. Unofficial, not affiliated with UBC. Something wrong or missing? Use the **Feedback** link on the site (see [Feedback](#feedback)).
 
 ![Opening CPSC 340, whose path includes MATH 100, 101, 221, 200 and STAT 251, clicking MATH 221 to open it on the Mathematics map and show its grade distribution, then picking Biology from the menu, opening BIOL 200 and clicking CHEM 123 in its prerequisites to open it on the Chemistry map, where its path is CHEM 121 and Chemistry 12](docs/demo.gif)
 
@@ -20,13 +20,14 @@ A website for UBC students to plan courses using the prerequisite graph.
 - [x] Grades for each course since 2021: the average, a chart of how grades spread, and who taught it each term (from UBCGrades).
 - [x] Links to r/ubc posts and UBCGrades for each course, and a Rate My Professors search for each instructor.
 - [x] Pick your program (the Computer Science Major or Honours, the AI option, or Software Engineering) to see its requirements year by year, which ones you've finished, and its courses marked on the map.
-- [ ] More faculties, and combined majors.
+- [x] A Feedback link that opens a short form on GitHub.
+- [ ] More faculties, and their majors.
 
 ## How the course data is built
 
 All of this runs once, ahead of time. The website only loads the finished JSON files.
 
-1. **Parse the calendar.** `parse_courses.py` reads the UBC Academic Calendar page for a subject and gets each course's code, title, credits and description.
+1. **Parse the calendar.** `parse_courses.py` reads the UBC Academic Calendar page for a subject and gets each course's code, title, credits and description. The calendar shortens long links to "…/faculties-colleges-and-schools/facult…", so the link's full address is put back in their place.
 2. **Cut out the requirements.** `requisites.py` finds the "Prerequisite:", "Corequisite:" and "Equivalency:" text in each description. Advice like "One of MATH 152, MATH 221, MATH 223 is recommended" is kept apart, since you don't need it to take the course. A prerequisite that is only advice ("A background in … is highly recommended") isn't a requirement at all.
 3. **Turn the text into a tree.** "One of CPSC 210, CPEN 221 and …" becomes nested `one_of` / `all_of` groups, with optional minimum grades and free-text requirements like "Third-year standing".
    - **Rules first.** `prereq_tree.py` handles the common patterns: single courses, "One of", "All of", "Either … or", chains joined by "and", lettered options like "Either (a) … or (b) …", and minimum grades like "a score of 68% or higher in MATH 226". Text with no course codes (like "Permission of the Department Head", "and Third-year standing", a last sentence like "Familiarity with a programming language is required", or a high school course like "PHYS 12") is kept as one thing to check, next to the courses. Codes written without a space ("MICB306") get one, and a bare number after a code is read as the same subject ("STAT 200, 201" means STAT 201). The rules refuse anything they aren't sure about instead of guessing.
@@ -68,7 +69,7 @@ Known gaps:
 - CPSC 448's requirement isn't labelled "Prerequisite:" in the calendar, so it isn't captured.
 - EOSC 355 says "Either (a) SCIE 001 or (b) one of MATH 101, …; and one of CHEM 110, … and one of PHYS 101, …". Read word for word, as the data does, Science One students also need a CHEM and a PHYS course. EOSC 340 and 372 list the same courses with all three inside (b), so the semicolon is probably a typo.
 - Advice labelled "Recommended pre-requisite:" (ATSC 212, PHYS 170, PHYS 500 and a few MATH courses) isn't kept apart as a recommendation yet. It's still in the course description.
-- "Not for students with credit for …" exclusions aren't extracted by the pipeline yet. The website reads them from the description for now.
+- Exclusions ("Not for students with credit for …", "Credit will be granted for only one of …") and sentences about who can take a course ("Restricted to …", "Permission of the supervisor required") aren't extracted by the pipeline yet. The website reads them from the description for now.
 - Requirements that aren't courses (year standing, credit counts, department permission) are kept as text, so the website shows them as "check first" instead of deciding.
 
 ### Running it
@@ -83,7 +84,7 @@ python pipeline/build_prereqs.py
 
 With no arguments, `build_prereqs.py` builds all 14 subjects in the table. To build only some, name them: `python pipeline/build_prereqs.py MATH STAT`.
 
-A Gemini API key is only needed when there are prerequisites the cache doesn't have yet. Put it in a `.env` file (see `.env.example`). There are 200 `pytest` tests for the whole pipeline.
+A Gemini API key is only needed when there are prerequisites the cache doesn't have yet. Put it in a `.env` file (see `.env.example`). There are 202 `pytest` tests for the whole pipeline.
 
 ## How the grade data is built
 
@@ -159,11 +160,15 @@ The site is in `web/`: Next.js, TypeScript and React Flow, exported as a plain s
 - **Laid out in course order.** Rows go by year (all 100-level courses above all 200-level ones, and so on), and a course sits below any prerequisite from its own year (CPSC 103 → 107). [dagre](https://github.com/dagrejs/dagre) only picks the left-to-right order inside each row, through a custom ranker, to keep lines from crossing. The rows are then packed tightly: dagre's own spacing made the graph about 4,000px wide, packed it's about 1,800px.
 - **What a course needs and unlocks** is a breadth-first search over the prerequisite edges, in each direction. Solid lines are required, dashed lines are one of several options.
 - **Colours** for "needs" and "unlocks" were checked with a colour-blindness validator, and always come with text labels. There's a dark mode, and it works with the keyboard (Tab, Enter, Esc) and screen readers.
+- **Keyboard focus follows the panels.** When a side panel opens, focus moves to its heading, so Tab carries on inside it and screen readers say what opened. Closing it (× or Esc) puts focus back on the course or button that opened it.
+- **The picked course stays in view.** If the side panel or the bars over the map would cover it, the map moves it to the middle of the space that's left.
+- **Links in the calendar's text,** like the Faculty of Science Credit Exclusion Lists, are shown as short links ("vancouver.calendar.ubc.ca/…/credit-exclusion-lists").
+- **A preview card.** Sharing the link shows a picture of the map (`web/public/og.png`) with the site's title and description.
 
 ### One map per subject
 
-- **A page per faculty.** The home page is the Faculty of Science, with its 14 subjects in a menu next to the title, A to Z. The subject is kept in the address (`#math`), so links, refreshing and the back button work. With no `#`, Computer Science opens, so old links to the home page still show it. Each faculty will get its own page as more are added, so a page only carries one faculty's data.
-- **One page, for now.** Every subject's courses and grades are built into the page: 1.19 MB, or 184 KB gzipped (473 KB with three subjects). In Chromium with the CPU slowed 4×, it's ready in about 0.95 s instead of 0.89 s, so loading a subject's data only when it's picked can wait for more faculties.
+- **A page per faculty.** The home page is the Faculty of Science, with its 14 subjects in a menu next to the title, A to Z. The subject is kept in the address (`#math`), so links, refreshing and the back button work. With no `#`, Computer Science opens, so old links to the home page still show it. The page is built with Computer Science showing, so a link to `#biol` would flash the CPSC map first; a tiny script in the page hides the map until the right subject is showing. Each faculty will get its own page as more are added, so a page only carries one faculty's data.
+- **One page, for now.** Every subject's courses and grades are built into the page: 1.20 MB, or 185 KB gzipped (473 KB with three subjects). In Chromium with the CPU slowed 4×, it's ready in about 0.95 s instead of 0.89 s, so loading a subject's data only when it's picked can wait for more faculties.
 - **Why not one big map?** Three layouts were tried with the real data: one map per subject; each map plus the courses it needs from other subjects as extra boxes; and all three subjects on one map. The extra boxes added 24 courses to the CPSC map and pushed CPSC 221 down a row, and the combined map (175 courses) was unreadable without zooming in. One map per subject stays readable and works for any number of subjects.
 - **Across subjects.** Ticks, statuses, paths and the picked program cover every subject. A MATH course in CPSC 340's panel opens on the MATH map, and the Computer Science Major marks its MATH courses there too.
 - **A prerequisite that points up.** MATH 131 (first year) accepts 68% in MATH 221 (second year) as one option. dagre needs every line to go down a row, so a line like that is drawn but left out of the layout.
@@ -173,12 +178,16 @@ The site is in `web/`: Next.js, TypeScript and React Flow, exported as a plain s
 
 - **Your courses stay in your browser.** Ticks are saved in localStorage. There are no accounts, and your courses are never sent anywhere.
 - **Three answers, not two.** Each requirement is met, not met, or "check yourself", because the site can't know your grades, your year standing or whether you took Pre-calculus 12. A "one of" group is met if any option is, an "all of" group fails if any part fails, and anything uncertain stays uncertain (three-valued logic).
-- **Five statuses.** Done, can take, check first, not yet and no credit. A corequisite can be taken at the same time, "Restricted to …" sentences make a course "check first", and "Not for students with credit for CPSC 110" makes CPSC 100 "no credit" once 110 is done.
+- **Six statuses.** Done, can take, check first, not yet, no credit and not needed. A corequisite can be taken at the same time.
+  - **Check first:** a sentence saying who can take the course, in any of the calendar's wordings: "Restricted to …", "Not open to …", "Only open to students in a Chemistry specialization", "Permission of the supervisor required", "Enrolment limited to students in the B.Sc. program", or the Student Directed Seminars handbook (CPSC 490). Only the description is read, not the prerequisites, where "or permission of the instructor" is just one way in.
+  - **No credit:** "Not for students with credit for CPSC 110" makes CPSC 100 "no credit" once 110 is done, and "Credit will be granted for only one of BIOL 121 or BIOL 344" does the same for each of the pair.
+  - **Not needed:** a course whose every way in goes through a "no credit" course. CPSC 107 needs CPSC 103, which isn't for students with CPSC 110, so after 110 it's greyed out instead of "not yet", with no path to it.
+- **Clear all asks first.** It can't be undone, so the bar asks "Clear all 12 marked courses?", with Cancel ready to press.
 - **Courses not on the map.** Each map lists the courses its prerequisites mention but it doesn't show, so they can be ticked without switching maps: 69 on the CPSC map, including the MATH courses and others (SCIE 113, AI 240, …) the programs need. Courses from subjects that aren't in the data yet can also be ticked right inside a course's prerequisites or in the program panel.
 - **Shortest path.** For any course, the side panel lists the courses still needed, term by term, plus anything else it asks for (e.g. "Third-year standing"). In each "one of" it picks the option with the fewest *last resorts*, then the fewest new courses (counting the ones already picked for other parts of the path), then the fewest things to check. A last resort is something most students can't count on:
   - a course from a subject that isn't in the data yet, since its own prerequisites are unknown (without this rule, CPSC 340 was routed through DSCI 221);
   - a choice that's only things to check, like "advanced credit for MATH 100", "a score of 5 in AP Calculus AB" or BIOL 200's "8 transfer credits of first-year BIOL and 6 credits of first-year CHEM" (without this rule, the path to MATH 221 skipped MATH 100);
-  - a course only some students can take, like co-op work terms, MATH 190 (forestry and nursing), Science One (SCIE 001, by application) or CHEM 111 ("Not open to students with credit for CHEM 12").
+  - a course only some students can take, like co-op work terms, MATH 190 (forestry and nursing), Science One (SCIE 001, by application), CHEM 111 ("Not open to students with credit for CHEM 12") or CHEM 203 (Chemistry specializations only, so paths take CHEM 233).
 
   High school courses are the exception: "CHEM 12" or "Pre-calculus 12" isn't a last resort, since most students start UBC with them. They're listed to check instead, so the path to CHEM 123 is CHEM 121 plus "Check: CHEM 12", not CHEM 100 first. A grade in one ("85% or higher in Physics 12") isn't counted on. A last resort inside a "one of" also counts against the choice above it, so Enriched Physics (PHYS 107) doesn't win just because all its options are things to check. Adding the other Science subjects is what showed all this: once Science One had data, 356 paths went through SCIE 001, including CPSC 340's.
 
@@ -207,7 +216,11 @@ npm test
 npm run dev
 ```
 
-`npm run build` writes the static site to `web/out/`. There are 166 tests (Vitest) for the graph, layout, highlighting, course details, statuses, saving, path logic, grades, links, programs and subjects, including checks against the real course data for all 14 subjects. GitHub Actions runs `pytest` and the website's tests, lint and build on every push, and [Vercel](https://vercel.com) builds and publishes the site from `main`.
+`npm run build` writes the static site to `web/out/`. There are 183 tests (Vitest) for the graph, layout, highlighting, course details, statuses, saving, path logic, grades, links, programs, subjects and moving the view, including checks against the real course data for all 14 subjects. GitHub Actions runs `pytest` and the website's tests, lint and build on every push, and [Vercel](https://vercel.com) builds and publishes the site from `main`.
+
+## Feedback
+
+The **Feedback** link in the site's header opens a new [GitHub issue](https://github.com/alex-tataru0/ubc-course-map/issues/new?template=feedback.yml) with a short form (`.github/ISSUE_TEMPLATE/feedback.yml`): what kind of feedback, which subject or course (filled in with the map you were on), what happened and what you expected, and your browser if something didn't work. It needs a GitHub account. The UBC Academic Calendar always has the final word on requirements.
 
 ## Data credits
 
