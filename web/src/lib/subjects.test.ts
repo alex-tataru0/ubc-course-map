@@ -1,3 +1,4 @@
+import { existsSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 import {
   courseUrl,
@@ -106,5 +107,14 @@ describe("subjects", () => {
     expect(forward("#zool")).toBeNull();
     // Only from the home page, not once a faculty's page has taken over.
     expect(forward("#math", "/science")).toBeNull();
+  });
+});
+
+describe("link previews", () => {
+  it("gives each faculty page its own picture, in web/public", () => {
+    expect(FACULTIES.map((f) => f.preview.image)).toEqual(["/og.png", "/og-engineering.png"]);
+    for (const faculty of FACULTIES) {
+      expect(existsSync(new URL(`../../public${faculty.preview.image}`, import.meta.url))).toBe(true);
+    }
   });
 });

@@ -213,7 +213,7 @@ The site is in `web/`: Next.js, TypeScript and React Flow, exported as a plain s
 - **Keyboard focus follows the panels.** When a side panel opens, focus moves to its heading, so Tab carries on inside it and screen readers say what opened. Closing it (× or Esc) puts focus back on the course or button that opened it.
 - **The picked course stays in view.** If the side panel or the bars over the map would cover it, the map moves it to the middle of the space that's left.
 - **Links in the calendar's text,** like the Faculty of Science Credit Exclusion Lists, are shown as short links ("vancouver.calendar.ubc.ca/…/credit-exclusion-lists").
-- **A preview card.** Sharing the link shows a picture of the map (`web/public/og.png`) with the site's title and description.
+- **A preview card.** Sharing a link shows a picture of a map with the site's title and description: the CPSC map with CPSC 340 picked for the home page and Science (`web/public/og.png`), and the CPEN map with CPEN 331 picked for engineering (`og-engineering.png`).
 
 ### One map per subject
 
@@ -270,7 +270,7 @@ npm test
 npm run dev
 ```
 
-`npm run build` writes the static site to `web/out/`. There are 196 tests (Vitest) for the graph, layout, highlighting, course details, statuses, saving, path logic, grades, links, programs, subjects and moving the view, including checks against the real course data for all 14 subjects. GitHub Actions runs `pytest` and the website's tests, lint and build on every push, and [Vercel](https://vercel.com) builds and publishes the site from `main`.
+`npm run build` writes the static site to `web/out/`. There are 197 tests (Vitest) for the graph, layout, highlighting, course details, statuses, saving, path logic, grades, links, programs, subjects and moving the view, including checks against the real course data for all 14 subjects. GitHub Actions runs `pytest` and the website's tests, lint and build on every push, and [Vercel](https://vercel.com) builds and publishes the site from `main`.
 
 ## Feedback
 

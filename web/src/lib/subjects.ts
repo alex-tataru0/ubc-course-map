@@ -23,6 +23,9 @@ export interface Faculty {
   programsByMajor: boolean;
   subjects: Subject[]; // in the menu's order
   home: string; // the subject shown when the address has no "#", e.g. "CPSC"
+  // The picture shown when a link to the page is pasted in a chat or post: one of its maps
+  // with a course picked, 1200×630, in web/public.
+  preview: { image: string; alt: string };
 }
 
 // Names as the UBC Calendar writes them, in A–Z order. Computer Science opens first because
@@ -57,6 +60,10 @@ export const SCIENCE: Faculty = {
     { code: "STAT", name: "Statistics" },
   ],
   home: "CPSC",
+  preview: {
+    image: "/og.png",
+    alt: "The CPSC map with CPSC 340 picked and the courses it needs highlighted in orange",
+  },
 };
 
 // The engineering subjects in the Faculty of Applied Science, plus Engineering Physics (ENPH),
@@ -90,6 +97,12 @@ export const ENGINEERING: Faculty = {
     { code: "MINE", name: "Mining Engineering" },
   ],
   home: "APSC",
+  preview: {
+    image: "/og-engineering.png",
+    alt:
+      "The CPEN map with CPEN 331 picked, the courses it needs highlighted in orange and the " +
+      "ones it unlocks in green",
+  },
 };
 
 // Every faculty, in the order of the tabs and the home page.
