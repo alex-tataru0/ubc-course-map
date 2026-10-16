@@ -1,0 +1,263 @@
+{
+  "subject": "ENPH",
+  "source": "https://vancouver.calendar.ubc.ca/course-descriptions/subject/enphv",
+  "courses": [
+    {
+      "code": "ENPH 253",
+      "title": "Introduction to Instrument Design",
+      "credits": "5",
+      "description": "Practice in engineering design and instrument development including mechanical and electrical design, and communications with sensors, actuators. Micro-controller implementation and system integration. Engineering design review process and presentations. Engineering communication in design and product release. [3-6-0] Prerequisite: ENPH 259.",
+      "prereq": {
+        "text": "ENPH 259",
+        "tree": "ENPH 259",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENPH 257",
+      "title": "Heat and Thermodynamics",
+      "credits": "2",
+      "description": "Thermometry, thermal properties of matter; heat transfer by conduction; convection and radiation; kinetic theory of gases and gas laws; heat engines; refrigeration; change of state; first and second laws of thermodynamics. [2-0-0] Prerequisite: Either (a) SCIE 001 or (b) one of MATH 200, MATH 217, MATH 226, MATH 254, MATH 255; and either (a) all of PHYS 108, PHYS 109 or (b) one of PHYS 102, PHYS 153 or (c) all of PHYS 157, PHYS 158, PHYS 159 or (d) all of PHYS 118, PHYS 119 or (e) all of PHYS 108, PHYS 119.",
+      "prereq": {
+        "text": "Either (a) SCIE 001 or (b) one of MATH 200, MATH 217, MATH 226, MATH 254, MATH 255; and either (a) all of PHYS 108, PHYS 109 or (b) one of PHYS 102, PHYS 153 or (c) all of PHYS 157, PHYS 158, PHYS 159 or (d) all of PHYS 118, PHYS 119 or (e) all of PHYS 108, PHYS 119",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "SCIE 001",
+                {
+                  "one_of": [
+                    "MATH 200",
+                    "MATH 217",
+                    "MATH 226",
+                    "MATH 254",
+                    "MATH 255"
+                  ]
+                }
+              ]
+            },
+            {
+              "one_of": [
+                {
+                  "all_of": [
+                    "PHYS 108",
+                    "PHYS 109"
+                  ]
+                },
+                {
+                  "one_of": [
+                    "PHYS 102",
+                    "PHYS 153"
+                  ]
+                },
+                {
+                  "all_of": [
+                    "PHYS 157",
+                    "PHYS 158",
+                    "PHYS 159"
+                  ]
+                },
+                {
+                  "all_of": [
+                    "PHYS 118",
+                    "PHYS 119"
+                  ]
+                },
+                {
+                  "all_of": [
+                    "PHYS 108",
+                    "PHYS 119"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "source": "llm",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENPH 259",
+      "title": "Experimental Techniques",
+      "credits": "3",
+      "description": "Basic experimental techniques in acquisition, analysis, and presentation and communication of data and technical results. [2-3-0] Prerequisite: One of APSC 176, ENGL 110, ENGL 111, ENGL 112, ENGL 120, ENGL 121, WRDS 150 and either (a) all of PHYS 108, PHYS 109 or (b) one of PHYS 102, PHYS 153 or (c) SCIE 001 or (d) all of PHYS 157, PHYS 158, PHYS 159 or (e) all of PHYS 118, PHYS 119 or (f) all of PHYS 108, PHYS 119.",
+      "prereq": {
+        "text": "One of APSC 176, ENGL 110, ENGL 111, ENGL 112, ENGL 120, ENGL 121, WRDS 150 and either (a) all of PHYS 108, PHYS 109 or (b) one of PHYS 102, PHYS 153 or (c) SCIE 001 or (d) all of PHYS 157, PHYS 158, PHYS 159 or (e) all of PHYS 118, PHYS 119 or (f) all of PHYS 108, PHYS 119",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "APSC 176",
+                "ENGL 110",
+                "ENGL 111",
+                "ENGL 112",
+                "ENGL 120",
+                "ENGL 121",
+                "WRDS 150"
+              ]
+            },
+            {
+              "one_of": [
+                {
+                  "all_of": [
+                    "PHYS 108",
+                    "PHYS 109"
+                  ]
+                },
+                {
+                  "one_of": [
+                    "PHYS 102",
+                    "PHYS 153"
+                  ]
+                },
+                "SCIE 001",
+                {
+                  "all_of": [
+                    "PHYS 157",
+                    "PHYS 158",
+                    "PHYS 159"
+                  ]
+                },
+                {
+                  "all_of": [
+                    "PHYS 118",
+                    "PHYS 119"
+                  ]
+                },
+                {
+                  "all_of": [
+                    "PHYS 108",
+                    "PHYS 119"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "source": "llm",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENPH 270",
+      "title": "Mechanics II",
+      "credits": "2",
+      "description": "Dynamics: systems of particles, kinematics and kinetics of rigid bodies (plane motion), energy and momentum, rotating coordinates. [2-0-1] Prerequisite: PHYS 170.",
+      "prereq": {
+        "text": "PHYS 170",
+        "tree": "PHYS 170",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENPH 352",
+      "title": "Laboratory Techniques in Physics",
+      "credits": "2",
+      "description": "Some of the experiments will be based on the lecture material for PHYS 301. Other techniques and subjects will also be covered. [0-3-0] Corequisite: PHYS 301.",
+      "prereq": null,
+      "coreq": {
+        "text": "PHYS 301",
+        "tree": "PHYS 301",
+        "source": "rules",
+        "problems": []
+      },
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENPH 353",
+      "title": "Engineering Physics Project I",
+      "credits": "3",
+      "description": "Engineering project planning, execution and reporting. The course involves carrying out an open-ended Engineering project to meet specific performance metrics on an industry relevant topic selected by instructors. Reporting on progress is both oral and written. [0-6-1]. Prerequisite: All of ENPH 253, CPEN 221. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "All of ENPH 253, CPEN 221",
+        "tree": {
+          "all_of": [
+            "ENPH 253",
+            "CPEN 221"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENPH 459",
+      "title": "Engineering Physics Project II",
+      "credits": "5",
+      "description": "Project planning, management and reporting. This course involves writing a project proposal, carrying out an open-ended Engineering project, and reporting the results both orally and in writing. [1-3-0; 0-6-1]. Prerequisite: ENPH 253. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "ENPH 253",
+        "tree": "ENPH 253",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENPH 479",
+      "title": "Engineering Physics Project III",
+      "credits": "6",
+      "description": "Projects designed to give students research development and design experience. Projects are provided by research faculty in Science and Engineering and from local industry. [1-5-1;0-4-0]. Prerequisite: ENPH 459. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "ENPH 459",
+        "tree": "ENPH 459",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENPH 480",
+      "title": "Engineering Physics Project IV",
+      "credits": "3",
+      "description": "An optional course for those students wishing to continue their project work beyond the development in ENPH 479. [0-6-0]. Prerequisite: ENPH 479. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "ENPH 479",
+        "tree": "ENPH 479",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENPH 481",
+      "title": "Entrepreneurial Projects I",
+      "credits": "3",
+      "description": "A project course for students pursuing entrepreneurial training within Engineering Physics, and wishing to further develop projects resulting from ENPH 459. [0-5-1]. Prerequisite: ENPH 459. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "ENPH 459",
+        "tree": "ENPH 459",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    }
+  ]
+}

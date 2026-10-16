@@ -1,0 +1,748 @@
+{
+  "subject": "APSC",
+  "source": "https://vancouver.calendar.ubc.ca/course-descriptions/subject/apscv",
+  "courses": [
+    {
+      "code": "APSC 100",
+      "title": "Introduction to Engineering I",
+      "credits": "3",
+      "description": "An introduction to the engineering profession including: roles and responsibilities of the engineer, the engineering disciplines, sustainability, an introduction to the engineering design process, introduction and application of the relevant foundational scientific principles, prototyping, engineering graphics, technical communication, and engineering ethics. [2-2-0]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 101",
+      "title": "Introduction to Engineering II",
+      "credits": "3",
+      "description": "An introduction to the engineering profession including: the engineering design process, sustainability, prototype testing, introduction and application of the relevant foundational scientific principles, team functioning, engineering graphics, and technical communication. [2-2-0]. Prerequisite: APSC 100. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "APSC 100",
+        "tree": "APSC 100",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 104",
+      "title": "Integrated Experiential STEM Seminar 1",
+      "credits": "6",
+      "description": "Term 1 seminar for Indigenous STEM Bridging Program students. Introduces STEM disciplines and academic skills: foundational scientific principles, lab science, coding, communication, study strategies, and experiential learning, with emphasis on Indigenous knowledge and approaches to science. [3-6-0] Course available to students enrolled in the Indigenous STEM Bridging Program only. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 105",
+      "title": "Integrated Experiential STEM Seminar 2",
+      "credits": "6",
+      "description": "Term 2 seminar for Indigenous STEM Bridging Program students. Introduces STEM disciplines and academic skills: foundational scientific principles, lab science, coding, communication, study strategies, and experiential learning, with emphasis on Indigenous knowledge and approaches to science. [3-6-0] Course available to students enrolled in the Indigenous STEM Bridging Program only. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 107",
+      "title": "Introduction to Applied Science Co-op",
+      "credits": "0",
+      "description": "An introduction to Applied Science Co-op including: completion of pre-employment workshops, career skills toolkits, networking opportunities, interview training, individual coaching sessions, and job search skills. Restricted to students meeting the requirements of the Faculty of Applied Science Cooperative Education Program. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 110",
+      "title": "Co-operative Education Work Term I",
+      "credits": "3",
+      "description": "Supervised, technical work integrated learning experience in a public or private organization for a minimum of three months. Formal co-op assignments required. Restricted to undergraduate students meeting the requirements of the Faculty of Applied Science and the Co-operative Education Program. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 122",
+      "title": "Introduction to Engineering",
+      "credits": "0",
+      "description": "Non-credit course designed to introduce students to Engineering. Information on the Faculty, the profession and the particular skills and type of work done by practising engineers in different disciplines. [1-0-0] This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 150",
+      "title": "Engineering Case Studies",
+      "credits": "5",
+      "description": "Application of scientific principles and technical knowledge to practical problems. Introduction to the engineering design process and to engineering graphics. [3-4-0]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 151",
+      "title": "Computer-Aided Engineering Graphics",
+      "credits": "3",
+      "description": "Orthographic projection, technical sketching, development of the ability to visualize in three dimensions. Standards and conventions of engineering drawing, graphical presentation of engineering data. Micro-computer based graphics aids. Engineering geometry and the solution of space problems. [1-0-4]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 160",
+      "title": "Introduction to Computation in Engineering Design",
+      "credits": "3",
+      "description": "Analysis and simulation, laboratory data acquisition and processing, measurement interfaces, engineering tools, computer systems organization, programming languages. Credit will only be given for one of: APSC 160, CPSC 301, or EOSC 211. [3-2-0]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 172",
+      "title": "Engineering Analysis I",
+      "credits": "3",
+      "description": "Functions, limits, differentiation, applications of derivatives, integration, applications of definite integrals. [3-0-1]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 173",
+      "title": "Engineering Analysis II",
+      "credits": "3",
+      "description": "Integrals and transcendental functions, techniques of integration, applications of integration, polar coordinates, infinite sequences and series, vectors and the geometry of space, and partial derivatives. [3-0-1]. Prerequisite: APSC 172. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "APSC 172",
+        "tree": "APSC 172",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 176",
+      "title": "Engineering Communication",
+      "credits": "3",
+      "description": "Purpose, audience, content, format, and tone are studied, as are team-based report writings and presentations. Community Service Learning projects are integrated into existing assignments. An LPI level 5 is required for registration in this course. [2-0-2]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 178",
+      "title": "Electricity, Magnetism, and Waves",
+      "credits": "4",
+      "description": "Coulomb's law, electric field, Gauss' law, electric potential, conductors, capacitance, electric currents, resistance, DC circuits, magnetic fields and forces, sources of magnetic fields, electromagnetic induction, mechanical waves, electromagnetic waves, light propagation, geometrical optics. [4-0-2]. Prerequisite: APSC 172. Corequisite: APSC 173. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "APSC 172",
+        "tree": "APSC 172",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": {
+        "text": "APSC 173",
+        "tree": "APSC 173",
+        "source": "rules",
+        "problems": []
+      },
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 179",
+      "title": "Linear Algebra for Engineers",
+      "credits": "3",
+      "description": "Systems of linear equations, Gaussian elimination, engineering application of linear algebra, matrix operations, special matrices, determinants, vector space, orthogonality, eigenvalues and eigenvectors, linear transformation. [3-0-0]",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 180",
+      "title": "Statics",
+      "credits": "3",
+      "description": "Force vectors, Cartesian coordinate system, free body diagram, dot and cross products, forces equilibrium of particles, force and moment equilibrium of rigid bodies, analysis of trusses, frames and machines, friction, wedges, pulleys, and belts. Applications of linear algebra in statics. [3-0-2]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 182",
+      "title": "Matter and Energy I",
+      "credits": "3",
+      "description": "Thermometry, states of matter and phase change, ideal and real gases, 1st law of thermodynamics, 2nd law of thermodynamics, liquids, solutions. [2-2*-2*]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 183",
+      "title": "Matter and Energy II",
+      "credits": "3",
+      "description": "Atomic structures and bonding, solid crystals, chemical equilibrium, reactions in gas phase and in aqueous solutions, acid-base and redox reactions, kinetics of chemical reactions, thermochemistry, electrochemistry. [2-2*-2*]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 201",
+      "title": "Technical Communication",
+      "credits": "3",
+      "description": "Written and oral communication in engineering. Report preparation, business correspondence, and oral presentation of technical material. Credit will be granted for only one of BMEG 201, CHBE 201, CIVL 203, CPEN 281, ELEC 281, IGEN 201, MANU 201, MECH 226, MTRL 201, or APSC 201. [3-0-0]. Prerequisite: One of APSC 176, ENGL 110, ENGL 111, ENGL 112, ENGL 120, ENGL 121, WRDS 150. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "One of APSC 176, ENGL 110, ENGL 111, ENGL 112, ENGL 120, ENGL 121, WRDS 150",
+        "tree": {
+          "one_of": [
+            "APSC 176",
+            "ENGL 110",
+            "ENGL 111",
+            "ENGL 112",
+            "ENGL 120",
+            "ENGL 121",
+            "WRDS 150"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 202",
+      "title": "Technical Communication Engineering Physics",
+      "credits": "3",
+      "description": "Written and oral communication in business correspondence, engineering design methods, report preparation, and oral presentations of technical material. Restricted to students in second year of the Engineering Physics Program. [2-0-1] Prerequisite: One of APSC 176, ENGL 110, ENGL 111, ENGL 120, ENGL 121, WRDS 150, ENPH 259. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "One of APSC 176, ENGL 110, ENGL 111, ENGL 120, ENGL 121, WRDS 150, ENPH 259",
+        "tree": {
+          "one_of": [
+            "APSC 176",
+            "ENGL 110",
+            "ENGL 111",
+            "ENGL 120",
+            "ENGL 121",
+            "WRDS 150",
+            "ENPH 259"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 203",
+      "title": "Technical Communication Engineering Physics II",
+      "credits": "1",
+      "description": "Continuation of written and oral communication in business correspondence, engineering design methods, report preparation and oral presentations of technical material. Restricted to students in second year of the Engineering Physics Program. [1-0-0]. Prerequisite: APSC 202. Corequisite: ENPH 253. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "APSC 202",
+        "tree": "APSC 202",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": {
+        "text": "ENPH 253",
+        "tree": "ENPH 253",
+        "source": "rules",
+        "problems": []
+      },
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 210",
+      "title": "Co-operative Education Work Term",
+      "credits": "3",
+      "description": "Supervised, technical work integrated learning experience in a public or private organization for a minimum of three months. Formal co-op assignments required. Restricted to students meeting the requirements of the Faculty of Applied Science and the Co-operative Education Program. Prerequisite: APSC 110. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "APSC 110",
+        "tree": "APSC 110",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 211",
+      "title": "Co-operative Education Work Term",
+      "credits": "3",
+      "description": "Supervised, technical work integrated learning experience in a public or private organization for a minimum of three months. Formal co-op assignments required. Restricted to students meeting the requirements of the Faculty of Applied Science and the Co-operative Education Program. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 212",
+      "title": "Co-operative Education Work Term",
+      "credits": "3",
+      "description": "Supervised, technical work integrated learning experience in a public or private organization for a minimum of three months. Formal co-op assignments required. Restricted to students meeting the requirements of the Faculty of Applied Science and the Co-operative Education Program. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 261",
+      "title": "Technology and Society I",
+      "credits": "3",
+      "description": "The course deals with the influence of technology on the social, political, economic, and environmental aspects of society. The specific subject matter varies from year to year. Examples of subjects considered include, resources, energy, nuclear power, technology, the effects of technology on the family, education, agriculture, international policy and others. [3-0-0]",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 262",
+      "title": "Technology and Society II",
+      "credits": "3",
+      "description": "The course deals with the influence of technology on the social, political, economic and environmental aspects of society. The subject matter varies from year to year and differs from APSC 261. It may be taken as a continuation of APSC 261 or taken independently. Examples of subjects considered include pollution, work place health hazards, social impact of computers, problem solving, green revolution, technology and the third world, engineering ethics and others. [3-0-0] This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 263",
+      "title": "Technology and Development",
+      "credits": "3",
+      "description": "Environmental, economic, political, and social aspects of appropriate technologies in the developing world. Appropriate technology and infrastructure, trade and finance, transportation, energy, water access, communication, health, and gender. [3-0-0]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 278",
+      "title": "Engineering Materials",
+      "credits": "3",
+      "description": "Atomic bonding; crystal structures and imperfections; properties of metals, ceramics, polymers, wood, concrete and fibre composite materials; selection of materials; corrosion; mechanical testing and heat treatment. [3-0-0]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 279",
+      "title": "Engineering Materials Laboratory",
+      "credits": "1",
+      "description": "Atomic bonding; crystal structures and imperfections; properties of metals, ceramics, polymers, wood, concrete and fibre composite materials; selection of materials; corrosion; mechanical testing and heat treatment. [0-2*- 0] Corequisite: APSC 278. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": {
+        "text": "APSC 278",
+        "tree": "APSC 278",
+        "source": "rules",
+        "problems": []
+      },
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 310",
+      "title": "Co-operative Education Work Term",
+      "credits": "3",
+      "description": "Supervised, technical work integrated learning experience in a public or private organization for a minimum of three months. Formal co-op assignments required. Restricted to students meeting the requirements of the Faculty of Applied Science and the Co-operative Education Program. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 311",
+      "title": "Co-operative Education Work Term",
+      "credits": "3",
+      "description": "Supervised, technical work integrated learning experience in a public or private organization for a minimum of three months. Formal co-op assignments required. Restricted to students meeting the requirements of the Faculty of Applied Science and the Co-operative Education Program. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 312",
+      "title": "Co-operative Education Work Term",
+      "credits": "3",
+      "description": "Supervised, technical work integrated learning experience in a public or private organization for a minimum of three months. Formal co-op assignments required. Restricted to students meeting the requirements of the Faculty of Applied Science and the Co-operative Education Program. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 331",
+      "title": "Intermediate Engineering Design I",
+      "credits": "3",
+      "description": "Intermediate level engineering design project involving material in the curriculum of the Integrated Engineering program. For students in the Co-operative Education Program. [1-4-0]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 332",
+      "title": "Intermediate Engineering Design II",
+      "credits": "3",
+      "description": "Intermediate level engineering design project involving material in the curriculum of the Integrated Engineering program. For students in the Co-operative Education Program. [1-4-0]. Prerequisite: APSC 331. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "APSC 331",
+        "tree": "APSC 331",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 364",
+      "title": "Applied Sustainability: UBC as a Living Laboratory",
+      "credits": "3",
+      "description": "The role and function of common infrastructures, and the impact of various technological solutions on people, the economy, and the environment. Prerequisite: Third-year standing. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "Third-year standing",
+        "tree": {
+          "other": "Third-year standing"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 366",
+      "title": "The Art of the Possible: An Introduction to Engineering for Non-Engineers",
+      "credits": "3",
+      "description": "An introduction to engineering for the non-specialist. A case-studies approach includes examples from sustainability-related technology, consumer products, structures, and energy conversion. [3-0-1]",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 367",
+      "title": "Humanitarian Engineering: Politics and Practice",
+      "credits": "3",
+      "description": "An interdisciplinary study of best practice, politics, and ethics associated with technical solutions to humanitarian assistance within Canada and abroad; examines policies used in aid and development contexts with emphasis on the application of engineering. [3-0-0]. Prerequisite: Restricted to students with a Major, Combined Major, Honours, Honours with, or Minor specialization in Political Science or International Relations, or at least 3rd year standing in any B.A.Sc. program. Credit will be granted for only one of POLI 371 or APSC 367. Equivalency: POLI 371. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "Restricted to students with a Major, Combined Major, Honours, Honours with, or Minor specialization in Political Science or International Relations, or at least 3rd year standing in any B.A.Sc. program",
+        "tree": {
+          "other": "Restricted to students with a Major, Combined Major, Honours, Honours with, or Minor specialization in Political Science or International Relations, or at least 3rd year standing in any B.A.Sc. program"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": "POLI 371",
+      "recommended": null
+    },
+    {
+      "code": "APSC 377",
+      "title": "Nuclear Weapons and Arms Control",
+      "credits": "3",
+      "description": "The evolution and contemporary significance of nuclear weapons and arms control policy and technology from the perspective of the physical and life sciences and the social sciences and humanities. Recommended pre-requisite: third-year standing in B.A. or B.Sc. programs, or second-year standing in B.A.Sc. program. Credit will be granted for only one of APSC 377 or POLI 377. Equivalency: POLI 377",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "POLI 377",
+      "recommended": "third-year standing in B.A. or B.Sc. programs, or second-year standing in B.A.Sc. program"
+    },
+    {
+      "code": "APSC 380",
+      "title": "Introduction to Microcomputers",
+      "credits": "3",
+      "description": "An introductory course intended for potential users of microcomputers in real time or non-computational engineering applications. Topics include: perspective on applications and costs; basic microcomputer hardware; principles of microcomputer operation; introduction to microcomputer programming and software design tools; input-output devices including transducers, analog-to-digital converters, digital-to-analog converters; input-output methods and interface characteristics; selected case studies such as direct digital controllers and sensor-based systems. Limited enrolment. Restricted to engineering students not taking Electrical or Computer Engineering. [2-3*-2*]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 383",
+      "title": "Prototyping",
+      "credits": "3",
+      "description": "Systematic approach and use of tools for prototyping. Using software, electronics, and physical components for practical advancement of initiatives in innovation, product development market identification, and problem solving. [3-0-0]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 402",
+      "title": "Living Language: Science and Society",
+      "credits": "3",
+      "description": "Multi-disciplinary course in which students, individually and in groups, examine, integrate and apply subject-specific knowledge through the lens of language and the framework of the language sciences, with a focus on themes of real-world importance. Prerequisite: Fourth-year standing or permission of the instructor. Equivalency: ASTU 402, FRST 402, LFS 402, LLED 402, PHAR 402. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "Fourth-year standing or permission of the instructor",
+        "tree": {
+          "other": "Fourth-year standing or permission of the instructor"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": "ASTU 402, FRST 402, LFS 402, LLED 402, PHAR 402",
+      "recommended": null
+    },
+    {
+      "code": "APSC 410",
+      "title": "Co-operative Education Work Term",
+      "credits": "3",
+      "description": "Supervised, technical work integrated learning experience in a public or private organization for a minimum of three months. Formal co-op assignments required. Restricted to students meeting the requirements of the Faculty of Applied Science and the Co-operative Education Program. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 411",
+      "title": "Co-operative Education Work Term",
+      "credits": "3",
+      "description": "Supervised, technical work integrated learning experience in a public or private organization for a minimum of three months. Formal co-op assignments required. Restricted to students meeting the requirements of the Faculty of Applied Science and the Co-operative Education Program. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 412",
+      "title": "Co-operative Education Work Term",
+      "credits": "3",
+      "description": "Supervised, technical work integrated learning experience in a public or private organization for a minimum of three months. Formal co-op assignments required. Restricted to students meeting the requirements of the Faculty of Applied Science and the Co-operative Education Program. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 440",
+      "title": "Management Fundamentals for Technology-Based Product Marketing and Development",
+      "credits": "3",
+      "description": "Management topics are presented from the perspective of technology-based industrial practice; project management, marketing and marketing planning, product development and commercialization, introduction to quality management, teamwork and effective individual participation. Prerequisite: Fourth-year standing in Engineering. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "Fourth-year standing in Engineering",
+        "tree": {
+          "other": "Fourth-year standing in Engineering"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 450",
+      "title": "Professional Engineering Practice",
+      "credits": "2",
+      "description": "Legislation affecting the practice of engineering; ethical principles and responsibilities. Management of engineering enterprises; labour relations, safety and environmental legislation. Restricted to engineering undergraduate students in the final year of their program. [2-0-0]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 461",
+      "title": "Global Engineering Leadership",
+      "credits": "3",
+      "description": "Introduction to concepts, theory, and practice of engineering leadership, including characteristics; individual and cultural differences, service and management contexts; managing change, conflicts, and crises; real-world ethics and core values. [3-0-0]. Prerequisite: Completion of third year. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "Completion of third year",
+        "tree": {
+          "other": "Completion of third year"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 462",
+      "title": "Global Engineering Leadership Practicum",
+      "credits": "3",
+      "description": "International service learning (ISL) placement in which concepts, theory, and practice of engineering leadership are applied by working with a community organization on appropriate technology projects. Prerequisite: APSC 461. and registration with the Go Global ISL program and successful completion of Go Global program requirements. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "APSC 461. and registration with the Go Global ISL program and successful completion of Go Global program requirements",
+        "tree": {
+          "all_of": [
+            "APSC 461",
+            {
+              "other": "registration with the Go Global ISL program and successful completion of Go Global program requirements"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 486",
+      "title": "New Venture Design",
+      "credits": "6",
+      "description": "Teams comprising students in APSC 486 and COMM 466 create a business plan and a prototype or engineering solution of a novel product, process, or process component. [1-4-0; 1-4-0]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 496",
+      "title": "Interdisciplinary Engineering Design Project",
+      "credits": "1-9",
+      "description": "Projects involving students from several departments. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 498",
+      "title": "Directed Studies",
+      "credits": "1-6",
+      "description": "Requires approval of a Department Head or Program Director. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 510",
+      "title": "Advanced Technology Internship",
+      "credits": "4",
+      "description": "Work in a technological setting on commercial and managerial aspects of an industrial project. A required internship to be taken at the end of the first year of the M.Eng. (Advanced Technology Management) program. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 511",
+      "title": "Advanced Technology Management Colloquium",
+      "credits": "2",
+      "description": "Student reports on internship, guest speakers from industry, preparation of group projects, joint study of industrial reports. Required of students enrolled in the M.Eng. (Advanced Technology Management) program. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 512",
+      "title": "Intellectual Property Management and Technology Commercialization",
+      "credits": "3",
+      "description": "Nature of knowledge and intellectual property. Value creation through knowledge and competitive advantage of knowledge. Copyrights, patents, trademarks, and licenses. Negotiation of deals and contracts involving knowledge and technology transfer or commercialization. Market assessments and valuations. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 520",
+      "title": "Co-operative Education Work Term I",
+      "credits": "3",
+      "description": "Supervised, technical paid work experience with a public or private organization for a minimum of 12 weeks full-time. Co-op assignment(s) required. Restricted to graduate degree students meeting requirement(s) of the Faculty of Applied Science and the Co-operative Education program. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 521",
+      "title": "Co-operative Education Work Term II",
+      "credits": "3",
+      "description": "Supervised, technical paid work experience with a public or private organization for a minimum of 12 weeks full-time. Co-op assignment(s) required. Restricted to graduate degree students meeting requirement(s) of the Faculty of Applied Science and the Co-operative Education program. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 522",
+      "title": "Co-operative Education Work Term III",
+      "credits": "3",
+      "description": "Supervised, technical paid work experience with a public or private organization for a minimum of 12 weeks full-time. Co-op assignment(s) required. Restricted to graduate degree students meeting requirement(s) of the Faculty of Applied Science and the Co-operative Education program. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 540",
+      "title": "Entrepreneurial Thinking for Applied Scientists",
+      "credits": "3",
+      "description": "Issues and case studies in creating and running ventures, with a particular emphasis on exploring applied science projects through a new venture lens, strategic planning, finance and risk. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 541",
+      "title": "Technology Entrepreneurship for Engineers",
+      "credits": "3",
+      "description": "A broad introduction to the entrepreneurial process, for engineers who would like to form or grow a technology company, and those with a general interest in the field. Key factors of new venture creation are identified and evaluated. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 542",
+      "title": "Leadership for Applied Scientists",
+      "credits": "3",
+      "description": "The meaning of and process of leading; tools for self, team and societal leadership. Character attributes, purposeful behaviors, strategies for enhancing personal performance, establishing effective teams, and transformational societal change. [3-0-0]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 597",
+      "title": "Project for M.Eng. Studies",
+      "credits": "6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "APSC 598",
+      "title": "Topics in Engineering",
+      "credits": "1-12",
+      "description": "Grade type may vary by section. Some sections may be Pass/Fail. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    }
+  ]
+}

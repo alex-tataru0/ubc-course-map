@@ -5,7 +5,7 @@ import pytest
 from google.genai import errors
 
 from build_prereqs import (
-    RETRY_WAITS, SECONDS_BETWEEN_CALLS, SUBJECTS, ask_slowly, build_courses, html_path,
+    FACULTIES, RETRY_WAITS, SECONDS_BETWEEN_CALLS, SUBJECTS, ask_slowly, build_courses, html_path,
     load_page, pick_subjects, print_summary, source_url, write_courses,
 )
 from llm import MODELS, load_cache
@@ -46,7 +46,20 @@ def saved_courses(subject):
     ("MICB", 47, 36, 34, 2),
     ("PHYS", 116, 96, 93, 3),
     ("SCIE", 15, 9, 9, 0),
-    ("STAT", 54, 30, 26, 4),
+    ("STAT", 54, 30, 27, 3),
+    ("APSC", 62, 17, 17, 0),
+    ("BMEG", 62, 38, 36, 2),
+    ("CHBE", 108, 70, 62, 8),
+    ("CIVL", 117, 56, 56, 0),
+    ("CPEN", 45, 29, 29, 0),
+    ("ELEC", 89, 55, 48, 7),
+    ("ENPH", 10, 10, 8, 2),
+    ("ENVE", 6, 8, 6, 2),
+    ("IGEN", 8, 1, 1, 0),
+    ("MANU", 26, 24, 24, 0),
+    ("MECH", 131, 78, 74, 4),
+    ("MINE", 85, 41, 41, 0),
+    ("MTRL", 61, 5, 5, 0),
 ])
 def test_only_the_hard_prereqs_go_to_gemini(subject, n_courses, n_requisites, n_rules, n_asked):
     asked = []
@@ -140,6 +153,14 @@ def test_recommendations_in_math_and_stat():
     assert recommended == {
         "MATH 100": "High school calculus is strongly recommended",
         "MATH 317": "One of MATH 152, MATH 221, MATH 223 is recommended",
+        # From "Recommended pre-requisite(s):" labels.
+        "MATH 402": "a score of 68% or higher in one of MATH 301, MATH 320, or, a score of "
+                    "80% or higher in MATH 319",
+        "MATH 403": "MATH 402, and one of (a) a score of 68% or higher in one of MATH 301, "
+                    "MATH 320, or (b) a score of 80% or higher in MATH 319",
+        "MATH 552": "one of MATH 215, MATH 255, MATH 256 and one of MATH 256, MATH 257, MATH 316",
+        "MATH 554": "elementary courses in differential equations and linear algebra",
+        "MATH 557": "MATH 400 and some knowledge of either fluid mechanics or elasticity",
         "STAT 305": "The Department recommends that students meet the prerequisite "
                     "through option (a) or (b)",
     }
@@ -193,6 +214,8 @@ def test_load_page_downloads_only_once(tmp_path):
 def test_pick_subjects():
     assert pick_subjects([]) == SUBJECTS
     assert pick_subjects(["math", "STAT"]) == ["MATH", "STAT"]
+    assert pick_subjects(["engineering"]) == FACULTIES["engineering"]
+    assert pick_subjects(["Science", "ELEC"]) == FACULTIES["science"] + ["ELEC"]
     with pytest.raises(SystemExit):
         pick_subjects(["MAHT"])
 

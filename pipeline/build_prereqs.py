@@ -15,16 +15,28 @@ from prereq_tree import expand_shorthand, normalize_codes
 from requisites import extract_requisites
 
 # Reads each subject's course list from the calendar and writes data/courses/<subject>.json.
-# Run from the repo root. With no arguments it builds every subject, or name some:
+# Run from the repo root. With no arguments it builds every subject, or name some subjects
+# or faculties:
 #   python pipeline/build_prereqs.py MATH STAT
+#   python pipeline/build_prereqs.py engineering
 # Each calendar page is downloaded once and saved in data/raw/. Delete that file to download
 # it again (e.g. when a new calendar year comes out).
 
 ROOT = Path(__file__).parents[1]
-SUBJECTS = [
-    "ASTR", "ATSC", "BIOL", "CHEM", "CPSC", "DSCI", "ENVR",
-    "EOSC", "ISCI", "MATH", "MICB", "PHYS", "SCIE", "STAT",
-]
+# The subjects on the site, by faculty page. ENPH (Engineering Physics) is listed under the
+# Faculty of Science in the calendar, but it's an engineering degree, so it goes with
+# engineering.
+FACULTIES = {
+    "science": [
+        "ASTR", "ATSC", "BIOL", "CHEM", "CPSC", "DSCI", "ENVR",
+        "EOSC", "ISCI", "MATH", "MICB", "PHYS", "SCIE", "STAT",
+    ],
+    "engineering": [
+        "APSC", "BMEG", "CHBE", "CIVL", "CPEN", "ELEC", "ENPH",
+        "ENVE", "IGEN", "MANU", "MECH", "MINE", "MTRL",
+    ],
+}
+SUBJECTS = [subject for subjects in FACULTIES.values() for subject in subjects]
 
 # The free tier only allows a few requests a minute, so space the calls out.
 SECONDS_BETWEEN_CALLS = 15
@@ -64,10 +76,15 @@ def load_page(subject: str, path: Path | None = None, fetch=fetch_text) -> str:
 
 def pick_subjects(args: list[str]) -> list[str]:
     # The subjects named on the command line, in any case, or all of them if none are named.
-    subjects = [arg.upper() for arg in args] or SUBJECTS
+    # A faculty's name ("engineering") stands for all of its subjects.
+    subjects = []
+    for arg in args:
+        subjects += FACULTIES.get(arg.lower(), [arg.upper()])
+    subjects = subjects or SUBJECTS
     unknown = [subject for subject in subjects if subject not in SUBJECTS]
     if unknown:
-        raise SystemExit(f"Unknown subject: {', '.join(unknown)}. Known: {', '.join(SUBJECTS)}")
+        raise SystemExit(f"Unknown subject: {', '.join(unknown)}. "
+                         f"Known: {', '.join(FACULTIES)}, {', '.join(SUBJECTS)}")
     return subjects
 
 

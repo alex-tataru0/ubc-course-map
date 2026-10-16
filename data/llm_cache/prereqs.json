@@ -19,6 +19,67 @@
       ]
     }
   },
+  "(a) MATH 255 or MATH 256, and either (b) all of ELEC 202, ELEC 292 or (c) all of BMEG 220, BMEG 257": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "all_of": [
+        {
+          "one_of": [
+            "MATH 255",
+            "MATH 256"
+          ]
+        },
+        {
+          "one_of": [
+            {
+              "all_of": [
+                "ELEC 202",
+                "ELEC 292"
+              ]
+            },
+            {
+              "all_of": [
+                "BMEG 220",
+                "BMEG 257"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "(i) ELEC 221 and (ii) one of CPEN 221, CPEN 223, CPSC 259": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "all_of": [
+        "ELEC 221",
+        {
+          "one_of": [
+            "CPEN 221",
+            "CPEN 223",
+            "CPSC 259"
+          ]
+        }
+      ]
+    }
+  },
+  "(i) PHYS 170, and (ii) one of MATH 152, MATH 221": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "all_of": [
+        "PHYS 170",
+        {
+          "one_of": [
+            "MATH 152",
+            "MATH 221"
+          ]
+        }
+      ]
+    }
+  },
   "3 credits of Computer Science and at least third-year standing": {
     "model": "gemini-3.8-flash",
     "problems": [],
@@ -197,6 +258,122 @@
       ]
     }
   },
+  "All of CHBE 220, CHBE 241, CHBE 346 for students enrolled in CHBE, or third-year or higher standing in B.A.Sc. or B.Sc": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "one_of": [
+        {
+          "all_of": [
+            "CHBE 220",
+            "CHBE 241",
+            "CHBE 346",
+            {
+              "other": "for students enrolled in CHBE"
+            }
+          ]
+        },
+        {
+          "other": "third-year or higher standing in B.A.Sc. or B.Sc"
+        }
+      ]
+    }
+  },
+  "All of CHBE 241, CHBE 244, or third-year or higher standing in ENVE": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "one_of": [
+        {
+          "all_of": [
+            "CHBE 241",
+            "CHBE 244"
+          ]
+        },
+        {
+          "other": "third-year or higher standing in ENVE"
+        }
+      ]
+    }
+  },
+  "All of CHBE 241, CHBE 345 or equivalents": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "one_of": [
+        {
+          "all_of": [
+            "CHBE 241",
+            "CHBE 345"
+          ]
+        },
+        {
+          "other": "equivalents"
+        }
+      ]
+    }
+  },
+  "All of CHBE 345, CHBE 355 for students enrolled in CHBE, or third-year or higher standing in B.A.Sc": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "one_of": [
+        {
+          "all_of": [
+            "CHBE 345",
+            "CHBE 355",
+            {
+              "other": "for students enrolled in CHBE"
+            }
+          ]
+        },
+        {
+          "other": "third-year or higher standing in B.A.Sc"
+        }
+      ]
+    }
+  },
+  "All of CHBE 345, CHBE 376 for students enrolled in CHBE, or fourth-year standing in B.A.Sc": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "one_of": [
+        {
+          "all_of": [
+            "CHBE 345",
+            "CHBE 376",
+            {
+              "other": "for students enrolled in CHBE"
+            }
+          ]
+        },
+        {
+          "other": "fourth-year standing in B.A.Sc"
+        }
+      ]
+    }
+  },
+  "All of CIVL 204 and CHBE 241, and either CHEM 154 or all of CHEM 121, CHEM 123": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "all_of": [
+        "CIVL 204",
+        "CHBE 241",
+        {
+          "one_of": [
+            "CHEM 154",
+            {
+              "all_of": [
+                "CHEM 121",
+                "CHEM 123"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
   "All of CPSC 221, CPSC 310, CPSC 344 and Third-year standing": {
     "model": "gemini-3.5-flash-lite",
     "problems": [],
@@ -285,6 +462,21 @@
       ]
     }
   },
+  "BIOC 202 and BMEG 371, or CHBE 381": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "one_of": [
+        {
+          "all_of": [
+            "BIOC 202",
+            "BMEG 371"
+          ]
+        },
+        "CHBE 381"
+      ]
+    }
+  },
   "BIOL 200 and 3rd-year class standing or higher in Science and one of (a) BIOL 180 (or BIOL 140), or (b) SCIE 001, or (c) 3rd-year class standing in Combined Honours Biophysics": {
     "model": "gemini-3.5-flash-lite",
     "problems": [],
@@ -366,6 +558,26 @@
       ]
     }
   },
+  "CIVL 402, CIVL 416": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "all_of": [
+        "CIVL 402",
+        "CIVL 416"
+      ]
+    }
+  },
+  "CPEN 333, MECH 421": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "all_of": [
+        "CPEN 333",
+        "MECH 421"
+      ]
+    }
+  },
   "CPSC 320. and either BMEG 250 or six credits of BIOL beyond BIOL 111": {
     "model": "gemini-3.5-flash-lite",
     "problems": [],
@@ -405,6 +617,34 @@
             }
           ]
         }
+      ]
+    }
+  },
+  "ELEC 211, MATH 253, MATH 264 and one of MATH 255, MATH 256": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "all_of": [
+        "ELEC 211",
+        "MATH 253",
+        "MATH 264",
+        {
+          "one_of": [
+            "MATH 255",
+            "MATH 256"
+          ]
+        }
+      ]
+    }
+  },
+  "ENGL 112, WRDS 150, or APSC_O 176": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "one_of": [
+        "ENGL 112",
+        "WRDS 150",
+        "APSC_O 176"
       ]
     }
   },
@@ -461,6 +701,63 @@
           "all_of": [
             "CPEN 321",
             "CPEN 331"
+          ]
+        }
+      ]
+    }
+  },
+  "Either (a) SCIE 001 or (b) one of MATH 200, MATH 217, MATH 226, MATH 254, MATH 255; and either (a) all of PHYS 108, PHYS 109 or (b) one of PHYS 102, PHYS 153 or (c) all of PHYS 157, PHYS 158, PHYS 159 or (d) all of PHYS 118, PHYS 119 or (e) all of PHYS 108, PHYS 119": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "all_of": [
+        {
+          "one_of": [
+            "SCIE 001",
+            {
+              "one_of": [
+                "MATH 200",
+                "MATH 217",
+                "MATH 226",
+                "MATH 254",
+                "MATH 255"
+              ]
+            }
+          ]
+        },
+        {
+          "one_of": [
+            {
+              "all_of": [
+                "PHYS 108",
+                "PHYS 109"
+              ]
+            },
+            {
+              "one_of": [
+                "PHYS 102",
+                "PHYS 153"
+              ]
+            },
+            {
+              "all_of": [
+                "PHYS 157",
+                "PHYS 158",
+                "PHYS 159"
+              ]
+            },
+            {
+              "all_of": [
+                "PHYS 118",
+                "PHYS 119"
+              ]
+            },
+            {
+              "all_of": [
+                "PHYS 108",
+                "PHYS 119"
+              ]
+            }
           ]
         }
       ]
@@ -727,6 +1024,23 @@
       ]
     }
   },
+  "Either (a) two of MECH 220, MECH 224, ELEC 203 or (b) all of MANU 230, ELEC 203": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "one_of": [
+        {
+          "other": "two of MECH 220, MECH 224, ELEC 203"
+        },
+        {
+          "all_of": [
+            "MANU 230",
+            "ELEC 203"
+          ]
+        }
+      ]
+    }
+  },
   "Either CPSC 340 or both (a) AI 240 and (b) one of STAT 251, ECON 325, ECON 327, MATH 302, STAT 302, MATH 318": {
     "model": "gemini-3.5-flash-lite",
     "problems": [],
@@ -840,6 +1154,33 @@
       ]
     }
   },
+  "MATH 101, one of PHYS 118, PHYS 158, one of MATH 255, MATH 256, and one of ELEC 201, ELEC 203": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "all_of": [
+        "MATH 101",
+        {
+          "one_of": [
+            "PHYS 118",
+            "PHYS 158"
+          ]
+        },
+        {
+          "one_of": [
+            "MATH 255",
+            "MATH 256"
+          ]
+        },
+        {
+          "one_of": [
+            "ELEC 201",
+            "ELEC 203"
+          ]
+        }
+      ]
+    }
+  },
   "MATH 300 and either (a) a score of 68% or higher in MATH 320 or (b) a score of 80% or higher in MATH 319 and permission of the Department Head in Mathematics": {
     "model": "gemini-3.5-flash-lite",
     "problems": [],
@@ -895,6 +1236,17 @@
             }
           ]
         }
+      ]
+    }
+  },
+  "MECH 466, ELEC 341, or CHBE 356": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "one_of": [
+        "MECH 466",
+        "ELEC 341",
+        "CHBE 356"
       ]
     }
   },
@@ -1110,6 +1462,129 @@
       ]
     }
   },
+  "One of APSC 176, ENGL 110, ENGL 111, ENGL 112, ENGL 120, ENGL 121, WRDS 150 and either (a) all of PHYS 108, PHYS 109 or (b) one of PHYS 102, PHYS 153 or (c) SCIE 001 or (d) all of PHYS 157, PHYS 158, PHYS 159 or (e) all of PHYS 118, PHYS 119 or (f) all of PHYS 108, PHYS 119": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "all_of": [
+        {
+          "one_of": [
+            "APSC 176",
+            "ENGL 110",
+            "ENGL 111",
+            "ENGL 112",
+            "ENGL 120",
+            "ENGL 121",
+            "WRDS 150"
+          ]
+        },
+        {
+          "one_of": [
+            {
+              "all_of": [
+                "PHYS 108",
+                "PHYS 109"
+              ]
+            },
+            {
+              "one_of": [
+                "PHYS 102",
+                "PHYS 153"
+              ]
+            },
+            "SCIE 001",
+            {
+              "all_of": [
+                "PHYS 157",
+                "PHYS 158",
+                "PHYS 159"
+              ]
+            },
+            {
+              "all_of": [
+                "PHYS 118",
+                "PHYS 119"
+              ]
+            },
+            {
+              "all_of": [
+                "PHYS 108",
+                "PHYS 119"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "One of CHBE 251, CIVL 215 and MATH 256, or third-year or higher standing in ENVE": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "one_of": [
+        {
+          "all_of": [
+            "CHBE 251",
+            "MATH 256"
+          ]
+        },
+        {
+          "all_of": [
+            "CIVL 215",
+            "MATH 256"
+          ]
+        },
+        {
+          "other": "third-year or higher standing in ENVE"
+        }
+      ]
+    }
+  },
+  "One of CHEM 121 and CHEM 123 or CHEM 154 and one of MATH 152, MATH 221": {
+    "model": "gemini-3.8-flash",
+    "problems": [],
+    "tree": {
+      "all_of": [
+        {
+          "one_of": [
+            {
+              "all_of": [
+                "CHEM 121",
+                "CHEM 123"
+              ]
+            },
+            "CHEM 154"
+          ]
+        },
+        {
+          "one_of": [
+            "MATH 152",
+            "MATH 221"
+          ]
+        }
+      ]
+    }
+  },
+  "One of CHEM 121 and CHEM 123 or CHEM 154, and MATH 101": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "all_of": [
+        {
+          "one_of": [
+            {
+              "all_of": [
+                "CHEM 121",
+                "CHEM 123"
+              ]
+            },
+            "CHEM 154"
+          ]
+        },
+        "MATH 101"
+      ]
+    }
+  },
   "One of CHEM 312, PHYS 304. Students with CHEM 205 with a minimum grade of 76% may be admitted with permission of the instructor": {
     "model": "gemini-3.5-flash-lite",
     "problems": [],
@@ -1140,6 +1615,24 @@
       ]
     }
   },
+  "One of CPEN 291, ELEC 291, ELEC 292 and two of ELEC 301, ELEC 341, ELEC 311, ELEC 342": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "all_of": [
+        {
+          "one_of": [
+            "CPEN 291",
+            "ELEC 291",
+            "ELEC 292"
+          ]
+        },
+        {
+          "other": "two of ELEC 301, ELEC 341, ELEC 311, ELEC 342"
+        }
+      ]
+    }
+  },
   "One of CPSC 210, CPEN 221 and either (a) one of CPSC 121, MATH 220, MATH_O 220 or (b) a score of 68% or higher in MATH 226": {
     "model": "gemini-3.8-flash",
     "problems": [],
@@ -1165,6 +1658,19 @@
               "min_grade": 68
             }
           ]
+        }
+      ]
+    }
+  },
+  "One of ELEC 221, STAT 305. STAT 305 may be taken concurrently, with registration assistance from Electrical and Computer Engineering Student Services": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "one_of": [
+        "ELEC 221",
+        "STAT 305",
+        {
+          "other": "STAT 305 may be taken concurrently, with registration assistance from Electrical and Computer Engineering Student Services"
         }
       ]
     }
@@ -1268,6 +1774,22 @@
         {
           "other": "If MICB 302 is used as the prerequisite for MICB 402, students are required to take one of the following as a corequisite: BIOL 234, BIOL 335, MICB 325"
         }
+      ]
+    }
+  },
+  "One of PHYS 118, PHYS 158. All of MATH 253, MATH 256": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "all_of": [
+        {
+          "one_of": [
+            "PHYS 118",
+            "PHYS 158"
+          ]
+        },
+        "MATH 253",
+        "MATH 256"
       ]
     }
   },

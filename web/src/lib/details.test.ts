@@ -29,6 +29,32 @@ describe("splitDescription", () => {
     );
     expect(summary).toBe("Work placement. This course is not eligible for Credit/D/Fail grading.");
   });
+
+  it("finds the hours after the prereq", () => {
+    expect(splitDescription("Stress analysis. Prerequisite: MECH 224 or MECH 260. [2-2-0]")).toEqual({
+      summary: "Stress analysis.",
+      hours: "2-2-0",
+    });
+  });
+
+  it("reads hours with a * for alternate weeks", () => {
+    expect(splitDescription("Process control. [3-0-2*]").hours).toBe("3-0-2*");
+  });
+
+  it("leaves out a recommended prerequisite, which is shown on its own", () => {
+    const { summary, hours } = splitDescription(
+      "Weather. Recommended pre-requisite: completion of first-year science. [3-0-0]",
+    );
+    expect(summary).toBe("Weather.");
+    expect(hours).toBe("3-0-0");
+  });
+
+  it("leaves out a hyphenated label", () => {
+    // BIOL 307
+    expect(splitDescription("Ecology. [2-3-0] Pre-requisites: Third-year standing.").summary).toBe(
+      "Ecology.",
+    );
+  });
 });
 
 describe("simplifyTree", () => {

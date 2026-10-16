@@ -28,16 +28,18 @@ A website for UBC students to plan courses using the prerequisite graph.
 All of this runs once, ahead of time. The website only loads the finished JSON files.
 
 1. **Parse the calendar.** `parse_courses.py` reads the UBC Academic Calendar page for a subject and gets each course's code, title, credits and description. The calendar shortens long links to "…/faculties-colleges-and-schools/facult…", so the link's full address is put back in their place.
-2. **Cut out the requirements.** `requisites.py` finds the "Prerequisite:", "Corequisite:" and "Equivalency:" text in each description. Advice like "One of MATH 152, MATH 221, MATH 223 is recommended" is kept apart, since you don't need it to take the course. A prerequisite that is only advice ("A background in … is highly recommended") isn't a requirement at all.
+2. **Cut out the requirements.** `requisites.py` finds the "Prerequisite:", "Corequisite:" and "Equivalency:" text in each description. Advice like "One of MATH 152, MATH 221, MATH 223 is recommended" or "Recommended pre-requisite: MECH 380" is kept apart, since you don't need it to take the course. A prerequisite that is only advice ("A background in … is highly recommended") isn't a requirement at all. Weekly hours written after a prerequisite ("MECH 224 or MECH 260. [2-2-0]") and sentences like "Credit will be granted for only one of MECH 468 or MECH 509" are left out of the requirement too; the website reads those from the description.
 3. **Turn the text into a tree.** "One of CPSC 210, CPEN 221 and …" becomes nested `one_of` / `all_of` groups, with optional minimum grades and free-text requirements like "Third-year standing".
-   - **Rules first.** `prereq_tree.py` handles the common patterns: single courses, "One of", "All of", "Either … or", chains joined by "and", lettered options like "Either (a) … or (b) …", and minimum grades like "a score of 68% or higher in MATH 226". Text with no course codes (like "Permission of the Department Head", "and Third-year standing", a last sentence like "Familiarity with a programming language is required", or a high school course like "PHYS 12") is kept as one thing to check, next to the courses. Codes written without a space ("MICB306") get one, and a bare number after a code is read as the same subject ("STAT 200, 201" means STAT 201). The rules refuse anything they aren't sure about instead of guessing.
+   - **Rules first.** `prereq_tree.py` handles the common patterns: single courses, "One of" (also with ", or" before the last course), "All of", "Either … or", chains joined by "and", lettered options like "Either (a) … or (b) …", and minimum grades like "a score of 68% or higher in MATH 226". Text with no course codes (like "Permission of the Department Head", "and Third-year standing", a last sentence like "Familiarity with a programming language is required", or a high school course like "PHYS 12") is kept as one thing to check, next to the courses. Codes written without a space ("MICB306") get one, and a bare number after a code is read as the same subject ("STAT 200, 201" means STAT 201). The rules refuse anything they aren't sure about instead of guessing.
    - **Gemini for the rest.** `llm.py` sends the leftover sentences to Gemini (free tier) with a short prompt and a few examples. Every answer is cached in `data/llm_cache/prereqs.json`, so each sentence is only ever sent once, and the data can be rebuilt without an API key.
    - **Every tree is checked.** A checker makes sure the tree has a valid shape and mentions exactly the courses in the sentence, with none dropped and none made up. Anything it flags is marked for review.
-4. **Write the output.** `build_prereqs.py` writes one file per subject, like `data/courses/cpsc.json`. It downloads each subject's calendar page once and keeps it in `data/raw/`.
+4. **Write the output.** `build_prereqs.py` writes one file per subject, like `data/courses/cpsc.json`. It downloads each subject's calendar page once and keeps it in `data/raw/`. The subjects are grouped by faculty page: 14 for Science and 13 for engineering (ENPH, Engineering Physics, is listed under Science in the calendar but goes with engineering).
 
 ### Accuracy (October 2026)
 
 Every prerequisite and corequisite was checked by hand against the calendar text.
+
+**Faculty of Science**
 
 | Subject | Courses | Prereqs and coreqs | Read by rules | Read by Gemini | Correct |
 |---|---|---|---|---|---|
@@ -54,13 +56,35 @@ Every prerequisite and corequisite was checked by hand against the calendar text
 | MICB | 47 | 36 | 34 | 2 | 36 / 36 |
 | PHYS | 116 | 96 | 93 | 3 | 96 / 96 |
 | SCIE | 15 | 9 | 9 | 0 | 9 / 9 |
-| STAT | 54 | 30 | 26 | 4 | 30 / 30 |
-| **Total** | **1,047** | **693** | **657 (95%)** | **36** | **693 / 693** |
+| STAT | 54 | 30 | 27 | 3 | 30 / 30 |
+| **Total** | **1,047** | **693** | **658 (95%)** | **35** | **693 / 693** |
+
+**Engineering (Faculty of Applied Science)**
+
+| Subject | Courses | Prereqs and coreqs | Read by rules | Read by Gemini | Correct |
+|---|---|---|---|---|---|
+| APSC | 62 | 17 | 17 | 0 | 17 / 17 |
+| BMEG | 62 | 38 | 36 | 2 | 38 / 38 |
+| CHBE | 108 | 70 | 62 | 8 | 70 / 70 |
+| CIVL | 117 | 56 | 56 | 0 | 56 / 56 |
+| CPEN | 45 | 29 | 29 | 0 | 29 / 29 |
+| ELEC | 89 | 55 | 48 | 7 | 55 / 55 |
+| ENPH | 10 | 10 | 8 | 2 | 10 / 10 |
+| ENVE | 6 | 8 | 6 | 2 | 8 / 8 |
+| IGEN | 8 | 1 | 1 | 0 | 1 / 1 |
+| MANU | 26 | 24 | 24 | 0 | 24 / 24 |
+| MECH | 131 | 78 | 74 | 4 | 78 / 78 |
+| MINE | 85 | 41 | 41 | 0 | 41 / 41 |
+| MTRL | 61 | 5 | 5 | 0 | 5 / 5 |
+| **Total** | **810** | **432** | **407 (94%)** | **25** | **432 / 432** |
+
+Course counts include graduate courses (500 and up), which have their requirements read too but aren't drawn on the maps.
 
 Gemini wasn't always right on the first try, and the checker can't catch every kind of mistake, so every answer is checked by hand:
 - **CPSC:** the first version of the rules sent 13 prerequisites to Gemini, and it got 12 right on the first try. CPSC 121 treated high school courses as UBC course codes, which the checker flagged.
 - **MATH and STAT:** 17 sent, 15 right on the first try. MATH 551 dropped the "MATH 550." at the start, which the checker flagged. STAT 321 turned "STAT 305 may be taken concurrently" into an extra requirement instead of another choice. The checker can't see that kind of mistake; the hand check did.
 - **The other 11 Science subjects:** 20 sent, 16 right on the first try. BIOL 201 and BIOL 234 turned "a corequisite of …" into prerequisites, though a corequisite can be taken at the same time. EOSC 440 put the "…, and MATH 200, and …" in its list into the one_of before it, so MATH 200 became optional. PHYS 107 wrote "85% or higher in PHYS 100" as text instead of a course with a minimum grade. The checker flagged none of them, since every course was still in the tree.
+- **Engineering:** the rules' answers were checked by hand as well (408 of them), and 9 were wrong. The worst was CHBE 220's "One of CHEM 121 and CHEM 123 or CHEM 154", read as always needing CHEM 121. Others split text on "or" ("third-year standing", "higher in IGEN" for CIVL 305's "third-year standing or higher in IGEN") or read a leftover "either" as a requirement (ELEC 371). The rules now send those to Gemini or keep the text whole, and every Science tree came out the same. Then 27 went to Gemini, and 21 were right. CHBE 352 wrote "all_Of" instead of "all_of", which the checker flagged. CHBE 241 wrote CHEM 121 and CHEM 123 as text instead of course codes, and CHBE 411's "All of CHBE 241, CHBE 345 or equivalents" allowed an equivalent for CHBE 345 only. The other 3 (ELEC 442, MECH 468, CPEN 355), plus APSC 367, had "Credit will be granted for only one of …" as a requirement: that was the pipeline's mistake, so those sentences are now left out of the requirement text, which also let the rules read CPEN 355 and APSC 367.
 - Each time, the prompt got a new rule and an example, only the wrong answers were asked again, and they came back right.
 
 The rules written for MATH and STAT also read 7 of the 13 CPSC prerequisites Gemini had answered: 4 come out exactly like Gemini's checked answers, and the other 3 have no course codes, so their text is kept whole. The rules for text next to course codes then read 7 more that Gemini had answered (CPSC 491 and MATH 121, 312, 440, 442, 443, 444), all exactly like Gemini's checked answers.
@@ -68,8 +92,9 @@ The rules written for MATH and STAT also read 7 of the 13 CPSC prerequisites Gem
 Known gaps:
 - CPSC 448's requirement isn't labelled "Prerequisite:" in the calendar, so it isn't captured.
 - EOSC 355 says "Either (a) SCIE 001 or (b) one of MATH 101, …; and one of CHEM 110, … and one of PHYS 101, …". Read word for word, as the data does, Science One students also need a CHEM and a PHYS course. EOSC 340 and 372 list the same courses with all three inside (b), so the semicolon is probably a typo.
-- Advice labelled "Recommended pre-requisite:" (ATSC 212, PHYS 170, PHYS 500 and a few MATH courses) isn't kept apart as a recommendation yet. It's still in the course description.
-- Exclusions ("Not for students with credit for …", "Credit will be granted for only one of …") and sentences about who can take a course ("Restricted to …", "Permission of the supervisor required") aren't extracted by the pipeline yet. The website reads them from the description for now.
+- Exclusions ("Not for students with credit for …", "Credit will be granted for only one of …", "Credit cannot be obtained for both …") and sentences about who can take a course ("Restricted to …", "Permission of the supervisor required") aren't extracted by the pipeline yet. The website reads them from the description for now.
+- "Two of ELEC 301, ELEC 341, …" (ELEC 391, MECH 368) is kept as text to check, since the tree has no "two of" group.
+- Engineering prerequisites also name courses from subjects that aren't on the site yet (WRDS, ENGL, BIOC, WOOD and a few others), so those show as courses with no data.
 - Requirements that aren't courses (year standing, credit counts, department permission) are kept as text, so the website shows them as "check first" instead of deciding.
 
 ### Running it
@@ -82,9 +107,9 @@ pytest
 python pipeline/build_prereqs.py
 ```
 
-With no arguments, `build_prereqs.py` builds all 14 subjects in the table. To build only some, name them: `python pipeline/build_prereqs.py MATH STAT`.
+With no arguments, `build_prereqs.py` builds all 27 subjects in the tables. To build only some, name subjects or a faculty: `python pipeline/build_prereqs.py MATH STAT` or `python pipeline/build_prereqs.py engineering`.
 
-A Gemini API key is only needed when there are prerequisites the cache doesn't have yet. Put it in a `.env` file (see `.env.example`). There are 202 `pytest` tests for the whole pipeline.
+A Gemini API key is only needed when there are prerequisites the cache doesn't have yet. Put it in a `.env` file (see `.env.example`). There are 254 `pytest` tests for the whole pipeline.
 
 ## How the grade data is built
 
@@ -216,7 +241,7 @@ npm test
 npm run dev
 ```
 
-`npm run build` writes the static site to `web/out/`. There are 183 tests (Vitest) for the graph, layout, highlighting, course details, statuses, saving, path logic, grades, links, programs, subjects and moving the view, including checks against the real course data for all 14 subjects. GitHub Actions runs `pytest` and the website's tests, lint and build on every push, and [Vercel](https://vercel.com) builds and publishes the site from `main`.
+`npm run build` writes the static site to `web/out/`. There are 188 tests (Vitest) for the graph, layout, highlighting, course details, statuses, saving, path logic, grades, links, programs, subjects and moving the view, including checks against the real course data for all 14 subjects. GitHub Actions runs `pytest` and the website's tests, lint and build on every push, and [Vercel](https://vercel.com) builds and publishes the site from `main`.
 
 ## Feedback
 

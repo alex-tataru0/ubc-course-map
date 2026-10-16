@@ -1,0 +1,1046 @@
+{
+  "subject": "BMEG",
+  "source": "https://vancouver.calendar.ubc.ca/course-descriptions/subject/bmegv",
+  "courses": [
+    {
+      "code": "BMEG 101",
+      "title": "Introduction to Biomedical Engineering",
+      "credits": "3",
+      "description": "Foundational material spanning the four streams of the BMEG undergraduate program. Topics include: sensors and instrumentation; biosignals; physiological modeling; biomechanics; biomaterials; cellular engineering; regenerative medicine; and engineering design in these contexts. [3-0-2*] Prerequisite: APSC 100. Corequisite: BMEG 102.",
+      "prereq": {
+        "text": "APSC 100",
+        "tree": "APSC 100",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": {
+        "text": "BMEG 102",
+        "tree": "BMEG 102",
+        "source": "rules",
+        "problems": []
+      },
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 102",
+      "title": "Biomedical Engineering Lab",
+      "credits": "2",
+      "description": "Introduction to the breadth of laboratory and experimental techniques in biomedical engineering. Hydrogel design, genetic engineering of bacteria, bioinformatics pipeline construction, electrical instrumentation, and bioreactor design. Credit will only be granted for one of BMEG 102 and BMEG 200. [1-2-0] Prerequisite: One of PHYS 12, PHYS 100 Corequisite: BMEG 101. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "One of PHYS 12, PHYS 100",
+        "tree": {
+          "one_of": [
+            {
+              "other": "PHYS 12"
+            },
+            "PHYS 100"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": {
+        "text": "BMEG 101",
+        "tree": "BMEG 101",
+        "source": "rules",
+        "problems": []
+      },
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 200",
+      "title": "Biomedical Engineering Bridge Module",
+      "credits": "1",
+      "description": "Core concepts of biomedical engineering with a focus on advanced biological concepts that are inherent in biomechanics analysis, biomaterials signals and systems, bioinformatics and cellular bioengineering.Credit will only be granted for one of BMEG 102 and BMEG 200. Prerequisite: All of APSC 101, PHYS 159. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "All of APSC 101, PHYS 159",
+        "tree": {
+          "all_of": [
+            "APSC 101",
+            "PHYS 159"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 201",
+      "title": "Technical Communication for Biomedical Engineers",
+      "credits": "3",
+      "description": "Report preparation, business correspondence, and oral presentation in biomedical engineering specific cases and projects. Credit will be granted for only one of BMEG 201 or APSC 201. [3-0-0]. Prerequisite: One of APSC 176, ENGL 110, ENGL 111, ENGL 112, ENGL 120, ENGL 121, WRDS 150. Corequisite: BMEG 257. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "One of APSC 176, ENGL 110, ENGL 111, ENGL 112, ENGL 120, ENGL 121, WRDS 150",
+        "tree": {
+          "one_of": [
+            "APSC 176",
+            "ENGL 110",
+            "ENGL 111",
+            "ENGL 112",
+            "ENGL 120",
+            "ENGL 121",
+            "WRDS 150"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": {
+        "text": "BMEG 257",
+        "tree": "BMEG 257",
+        "source": "rules",
+        "problems": []
+      },
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 210",
+      "title": "Thermodynamics in Biomedical Engineering",
+      "credits": "3",
+      "description": "Work, heat and energy; material and energy balances; the first law and second law of thermodynamics; entropy and process reversibility; availability (energy) analysis; Hess's Law; thermodynamic properties of fluids; and applications to biomedical systems. [3-0-2]. Prerequisite: PHYS 157. CHEM 123 is recommended This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "PHYS 157",
+        "tree": "PHYS 157",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": "CHEM 123 is recommended"
+    },
+    {
+      "code": "BMEG 220",
+      "title": "Circuits and Electromagnetics with Application to Biomedical Engineering",
+      "credits": "4",
+      "description": "Electromagnetic phenomena in the body; bioinstrumentation; electrostatic and electromagnetic fields, forces, capacitance and inductance; bio-effects of electromagnetic fields; and modelling electrical components of physiological and biomedical systems. [4-0-2*] Prerequisite: One of PHYS 118, PHYS 158. All of MATH 253, MATH 256. Corequisite: MATH 264. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "One of PHYS 118, PHYS 158. All of MATH 253, MATH 256",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "PHYS 118",
+                "PHYS 158"
+              ]
+            },
+            "MATH 253",
+            "MATH 256"
+          ]
+        },
+        "source": "llm",
+        "problems": []
+      },
+      "coreq": {
+        "text": "MATH 264",
+        "tree": "MATH 264",
+        "source": "rules",
+        "problems": []
+      },
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 230",
+      "title": "Biomechanics I",
+      "credits": "4",
+      "description": "Integrating the study of two dimensional movement of animals and humans with the study of the manner in which forces on biomechanical structures such as bones, ligaments, tendons, muscles and joints cause motion. Techniques of solid mechanics and two dimensional rigid body dynamics. Students who have received credit for MECH 435 cannot also receive credit for BMEG 230 or BMEG 330. [4-2*-2*]. Prerequisite: Either (a) all of BMEG 101, PHYS 170 or (b) all of APSC 101, BMEG 200, PHYS 170. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "Either (a) all of BMEG 101, PHYS 170 or (b) all of APSC 101, BMEG 200, PHYS 170",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "BMEG 101",
+                "PHYS 170"
+              ]
+            },
+            {
+              "all_of": [
+                "APSC 101",
+                "BMEG 200",
+                "PHYS 170"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 245",
+      "title": "The Fundamental Units of Life: From Cells To Systems",
+      "credits": "4",
+      "description": "The structure and function of cells and how they are organized to generate tissues and organ systems [3-3*-0] Prerequisite: One of CHEM 12, CHEM 100. BIOL 12 strongly recommended",
+      "prereq": {
+        "text": "One of CHEM 12, CHEM 100",
+        "tree": {
+          "one_of": [
+            {
+              "other": "CHEM 12"
+            },
+            "CHEM 100"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": "BIOL 12 strongly recommended"
+    },
+    {
+      "code": "BMEG 250",
+      "title": "Cellular Physiology and Biophysics",
+      "credits": "4",
+      "description": "Cellular structure and mechanisms of membrane transport, signal transduction, muscle mechanochemistry and neurotransmission. Structure and hierarchical organization up to the level of tissues. Light and electron microscopy. [3-1-0]. Prerequisite: All of BMEG 245, MATH 256. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "All of BMEG 245, MATH 256",
+        "tree": {
+          "all_of": [
+            "BMEG 245",
+            "MATH 256"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 257",
+      "title": "Biomedical Engineering Design I",
+      "credits": "4",
+      "description": "Engineering design process for biomedical technologies. Practical skills in engineering design, computer aided design, electronic circuits, programming, and rapid prototyping in the context of biomedical technologies. Introduction to broader ethical and sustainability considerations for biomedical technology design. [2-4-0] Prerequisite: Either (a) all of BMEG 101, BMEG 102 or (b) all of APSC 101, BMEG 200, PHYS 159. Corequisite: BMEG 201. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "Either (a) all of BMEG 101, BMEG 102 or (b) all of APSC 101, BMEG 200, PHYS 159",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "BMEG 101",
+                "BMEG 102"
+              ]
+            },
+            {
+              "all_of": [
+                "APSC 101",
+                "BMEG 200",
+                "PHYS 159"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": {
+        "text": "BMEG 201",
+        "tree": "BMEG 201",
+        "source": "rules",
+        "problems": []
+      },
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 300",
+      "title": "Topics in Biomedical Engineering I",
+      "credits": "1-9",
+      "description": "Lectures or projects on specialized topics in Biomedical Engineering at the 300-level. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 310",
+      "title": "Introduction to Bioinformatics",
+      "credits": "4",
+      "description": "Principles behind the methods of bioinformatics. The use of bioinformatics databases and tools for solving problems in genomics, proteomics, structural biology and evolutionary biology. [3-0-2]. Prerequisite: BMEG 245 and one of CPEN 221, CPEN 223. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "BMEG 245 and one of CPEN 221, CPEN 223",
+        "tree": {
+          "all_of": [
+            "BMEG 245",
+            {
+              "one_of": [
+                "CPEN 221",
+                "CPEN 223"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 320",
+      "title": "Bioengineering Feedback Systems and Controls",
+      "credits": "3",
+      "description": "Modelling, analysis and simulation of dynamic systems; system modelling by state space; linearization; feedback, stability and sensitivity; control system design. Examples from biological systems, assistive systems and biomedical equipment. [3-0-1]. Prerequisite: Either (a) BMEG 220 or (b) all of ELEC 221, ELEC 201, ELEC 202. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "Either (a) BMEG 220 or (b) all of ELEC 221, ELEC 201, ELEC 202",
+        "tree": {
+          "one_of": [
+            "BMEG 220",
+            {
+              "all_of": [
+                "ELEC 221",
+                "ELEC 201",
+                "ELEC 202"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 321",
+      "title": "Biomedical Instrumentation",
+      "credits": "3",
+      "description": "Fundamental working principles of medical instruments used for measurements of nervous, respiratory and circulatory systems with focus on biopotential signals. Other topics include medical imaging, as well as minimally invasive and robotic surgery. Credit will only be granted for one of BMEG 321, ELEC 371. [2-3-0] Prerequisite: Either (a) MATH 256 or (b) all of MATH 265, MATH 267; and either (a) BMEG 220 or (b) one of ELEC 211, PHYS 301 and one of ELEC 201, ELEC 204. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "Either (a) MATH 256 or (b) all of MATH 265, MATH 267; and either (a) BMEG 220 or (b) one of ELEC 211, PHYS 301 and one of ELEC 201, ELEC 204",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "MATH 256",
+                {
+                  "all_of": [
+                    "MATH 265",
+                    "MATH 267"
+                  ]
+                }
+              ]
+            },
+            {
+              "one_of": [
+                "BMEG 220",
+                {
+                  "all_of": [
+                    {
+                      "one_of": [
+                        "ELEC 211",
+                        "PHYS 301"
+                      ]
+                    },
+                    {
+                      "one_of": [
+                        "ELEC 201",
+                        "ELEC 204"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 330",
+      "title": "Biomechanics II",
+      "credits": "3",
+      "description": "Principles and common elements of sports-, orthopaedic-, injury- and cellular length-biomechanics. Improving sports performance and preventing overuse injuries through sports biomechanics, designing orthopaedic implants through orthopaedic biomechanics, preventing injuries through injury biomechanics and identifying and filtering cancerous blood cells through cellular biomechanics. Students who have received credit for MECH 435 cannot also receive credit for BMEG 230 or BMEG 330. [3-0-1]. Prerequisite: BMEG 230. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "BMEG 230",
+        "tree": "BMEG 230",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 350",
+      "title": "Human Structure/Function from Cells to Systems",
+      "credits": "4",
+      "description": "Human anatomy, histology and physiology with examples from biomedical engineering. Anatomical compartmentation and function regulation; homeostatic control systems, sensors and effectors; intercellular communication strategies; and cellular and organ function assessment. [4-0-0]. Prerequisite: All of BMEG 245, BMEG 250. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "All of BMEG 245, BMEG 250",
+        "tree": {
+          "all_of": [
+            "BMEG 245",
+            "BMEG 250"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 357",
+      "title": "Biomedical Engineering Design II",
+      "credits": "3",
+      "description": "Creating innovations in biomedical technologies. Supervised design process for clinical clients, involving the building, testing, and verification of prototypes with potential users. [3*-3*-0]. Prerequisite: BMEG 257. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "BMEG 257",
+        "tree": "BMEG 257",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 371",
+      "title": "Transport Phenomena within Cells and Tissues",
+      "credits": "3",
+      "description": "Fluid flow and mass transport analysis within healthy and diseased cells and tissues using mathematics. Drug delivery and tissue engineering. [3-0-2*]. Prerequisite: One of MATH 253, MATH 217 and either (a) MATH 256 or (b) all of MATH 255, MATH 257. Equivalency: CHBE 470 This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "One of MATH 253, MATH 217 and either (a) MATH 256 or (b) all of MATH 255, MATH 257",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "MATH 253",
+                "MATH 217"
+              ]
+            },
+            {
+              "one_of": [
+                "MATH 256",
+                {
+                  "all_of": [
+                    "MATH 255",
+                    "MATH 257"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": "CHBE 470",
+      "recommended": null
+    },
+    {
+      "code": "BMEG 372",
+      "title": "Biomedical Materials and Drug Delivery",
+      "credits": "3",
+      "description": "Biomaterials science/engineering applied to design and synthesis of drug delivery systems. Biomaterial types, synthesis and testing; the use of biomaterials; biological response; biocompatibility and degradation; drug delivery systems; nanocarriers; modification of polymers; liposomes and micelles; nucleic acid, transdermal and oral delivery. [3-0-1]. Prerequisite: All of BMEG 250, CHEM 123. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "All of BMEG 250, CHEM 123",
+        "tree": {
+          "all_of": [
+            "BMEG 250",
+            "CHEM 123"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 373",
+      "title": "Microfluidics",
+      "credits": "3",
+      "description": "Advantages and disadvantages of miniaturization of complex fluid flow processes. Manipulating liquid flow; electrophoretic velocity and mobility; serial dilution; capillary electrophoresis; integrated microfluidic platforms; and blood and the motility of bacteria. [3-0-0] This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 374",
+      "title": "Cellular Bioengineering: Laboratory & Design",
+      "credits": "3",
+      "description": "Fundamental genetic, molecular, and tissue engineering techniques. Design of experiments and tools related to these essential cellular bioengineering techniques. [1-3-1]. Prerequisite: BMEG 245. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "BMEG 245",
+        "tree": "BMEG 245",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 400",
+      "title": "Topics in Biomedical Engineering",
+      "credits": "1-12",
+      "description": "Lectures or projects on specialized topics in Biomedical Engineering. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 401",
+      "title": "Economics of Healthcare Solutions",
+      "credits": "3",
+      "description": "Canadian and USA engineering economics in BME and healthcare systems. Economic equivalence, cost estimation, risk assessment, regulatory frameworks, economic optimization, intangible factors, ethics, sustainability, financial tools, commercialization and regulator regimes. [3-0-0]",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 402",
+      "title": "Impact of Biomedical Engineering on Society, Sustainability and Environmental Stewardship",
+      "credits": "3",
+      "description": "Impact of biomedical engineering on health, safety, and political, cultural, economical and environmental implications of biomedical engineering design. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 410",
+      "title": "Biomedical Equipment, Physiology, and Anatomy",
+      "credits": "3",
+      "description": "Principles and operation of biomedical equipment for cardiovascular system, respiratory system, renal dialysis, endoscopy, surgery, and imaging. Functional relationships of biomedical equipment to physiology and anatomy of major body systems. Credit will be granted for only one of BMEG 410 or BMEG 510. [3-0-2*]",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 420",
+      "title": "Medical Imaging",
+      "credits": "3",
+      "description": "Physical principles of ultrasound, magnetic resonance, computed tomography, X-ray projection imaging and molecular imaging in medical imaging for diagnostics, therapeutics and interventions. [3-0-0] Prerequisite: One of BMEG 220, BMEG 250 and one of BMEG 321, ELEC 371. Equivalency: ELEC 471",
+      "prereq": {
+        "text": "One of BMEG 220, BMEG 250 and one of BMEG 321, ELEC 371",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "BMEG 220",
+                "BMEG 250"
+              ]
+            },
+            {
+              "one_of": [
+                "BMEG 321",
+                "ELEC 371"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": "ELEC 471",
+      "recommended": null
+    },
+    {
+      "code": "BMEG 421",
+      "title": "Linear Systems in Optics",
+      "credits": "3",
+      "description": "Linear system theory and Fourier Optics, applications in optics including wave propagation and image quality assessment. Credit will be granted for only one of BMEG 421 or BMEG 521. Prerequisite: ELEC 221. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "ELEC 221",
+        "tree": "ELEC 221",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 422",
+      "title": "Modern Biomedical Optical Imaging",
+      "credits": "3",
+      "description": "Advanced multimodal optical imaging concepts, fundamental optics, optical OCT theories, advanced modern OCT technologies, and OCT application in clinical medicine and biomedical engineering. Credit will be granted for only one of BMEG 422 or BMEG 522. Prerequisite: BMEG 421. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "BMEG 421",
+        "tree": "BMEG 421",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 423",
+      "title": "Clinical Informatics",
+      "credits": "3",
+      "description": "Fundamental concepts in clinical information systems, decision support, and mobile health. Application of information engineering to health care, including the management and use of patient health and well-being information. Credit will be granted for only one of BMEG 423 or BMEG 523. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 424",
+      "title": "Genome Informatics",
+      "credits": "3",
+      "description": "Principles and best practices in analyzing genomics data. Genome architecture, mappability, repeat elements, ChIP-seq, open chromatin, histone modifications, single cell technologies, genome wide association studies, statistical analyses, computational analysis, data processing. Credit will be granted for only one of BMEG 424 or BMEG 524. Prerequisite: BMEG 310 or equivalent. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "BMEG 310 or equivalent",
+        "tree": {
+          "one_of": [
+            "BMEG 310",
+            {
+              "other": "equivalent"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 425",
+      "title": "Biomedical Robotics",
+      "credits": "3",
+      "description": "Biomedical robotics, mathematical fundamentals of kinematics, dynamics and control of robots by human operators, and applications of biomedical robotics. Prerequisite: All of MATH 152, BMEG 321, and one of ELEC 221, BMEG 320. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "All of MATH 152, BMEG 321, and one of ELEC 221, BMEG 320",
+        "tree": {
+          "all_of": [
+            "MATH 152",
+            "BMEG 321",
+            {
+              "one_of": [
+                "ELEC 221",
+                "BMEG 320"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 426",
+      "title": "Synthetic Biology Intensive",
+      "credits": "3",
+      "description": "Core skills in DNA device engineering, molecular biology, mammalian cell culture, and data analysis through a self-led, realworld experimental and scientific reporting journey. Prerequisite: BMEG 245. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "BMEG 245",
+        "tree": "BMEG 245",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 427",
+      "title": "ImmunoEngineering",
+      "credits": "3",
+      "description": "Application of biomedical engineering principles to immunology. The immune system's role in biomedical challenges, and engineering applications with the immune system. Fundamental and applied lectures, case studies, and a project proposing biomedical solutions to immunology problems. [3-0-0] Prerequisite: BIOC 202 and BMEG 371, or CHBE 381. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "BIOC 202 and BMEG 371, or CHBE 381",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "BIOC 202",
+                "BMEG 371"
+              ]
+            },
+            "CHBE 381"
+          ]
+        },
+        "source": "llm",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 428",
+      "title": "Wearable Technology in Clinical Care",
+      "credits": "3",
+      "description": "Wearable health sensing technologies, computational techniques, and validation for real-world applications. Physiological responses, signal processing, machine learning, and clinical relevance, as well as a study project utilizing wearable sensors in clinical settings. [3-0-0] Prerequisite: All of BMEG 310, BMEG 321. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "All of BMEG 310, BMEG 321",
+        "tree": {
+          "all_of": [
+            "BMEG 310",
+            "BMEG 321"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 429",
+      "title": "Experimental Microfluidics for Bioanalytical Applications",
+      "credits": "3",
+      "description": "Practical training in microfluidic approaches for bioanalytical applications, covering fabrication, flow control, analysis, and experiment design. Includes hands-on lab sessions and studies applications in biomedicine, materials, and chemistry. [1-2-1] Prerequisite: BMEG 373. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "BMEG 373",
+        "tree": "BMEG 373",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 455",
+      "title": "Professionalism and Ethics in Biomedical Engineering",
+      "credits": "3",
+      "description": "Ethical, equity, and diversity issues and professionalism in Biomedical Engineering practice and design. Case studies and design projects will be used to expand on the foundation of biomedical engineering design, applying real-world ethical dilemmas including professional, medical, and research ethics. [3-0-0]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 456",
+      "title": "Clinical and Industrial Biomedical Engineering",
+      "credits": "3",
+      "description": "Principles of clinical practice, Canadian healthcare system, medical approach to diagnosis, ethics and regulations for clinical trials, medical technology management, medical device development and standards, biostatistics. Credit will be granted for only one of BMEG 257, BMEG 456, BMEG 556. [3-0-0]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 457",
+      "title": "Biomedical Engineering Design Project",
+      "credits": "6",
+      "description": "Capstone design and development of a practical biomedical device or system. Projects provided by local industry and engineering research laboratories. [1-3-1; 1-3-1] Prerequisite: All of BMEG 350, BMEG 357.",
+      "prereq": {
+        "text": "All of BMEG 350, BMEG 357",
+        "tree": {
+          "all_of": [
+            "BMEG 350",
+            "BMEG 357"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 470",
+      "title": "Cellular Responses to Forces and Biomaterials",
+      "credits": "3",
+      "description": "Mechanical forces and biomaterials regulating cellular functions critical to tissue development, regeneration and repair. [3-0-0] Prerequisite: All of BMEG 245, BMEG 250, BMEG 350.",
+      "prereq": {
+        "text": "All of BMEG 245, BMEG 250, BMEG 350",
+        "tree": {
+          "all_of": [
+            "BMEG 245",
+            "BMEG 250",
+            "BMEG 350"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 474",
+      "title": "Stem Cells and Regenerative Medicine",
+      "credits": "3",
+      "description": "Biology and applications of stem cells in regenerative medicine. Modelling human biology and disease in vitro and in vivo. Regulatory and commercialization pathways for regenerative medicine innovations. [3-0-0]. Prerequisite: All of BMEG 245, BMEG 250, BMEG 350. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "All of BMEG 245, BMEG 250, BMEG 350",
+        "tree": {
+          "all_of": [
+            "BMEG 245",
+            "BMEG 250",
+            "BMEG 350"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 490",
+      "title": "Introduction to Academic Research",
+      "credits": "3-6",
+      "description": "Research project directed by a faculty member in Biomedical Engineering. Course may include workshops. Credit will be granted for only one of BMEG 490A or BMEG 490B when the subject matter is of the same nature. Restricted to students with fourth-year standing or higher. Prerequisite: Competitive GPA and permission from instructor. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "Competitive GPA and permission from instructor",
+        "tree": {
+          "other": "Competitive GPA and permission from instructor"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 495",
+      "title": "Biomaterials",
+      "credits": "3",
+      "description": "Engineered materials in medical applications with an emphasis on material properties, functionality, design, and material response in the biological environment. Credit will be granted for only one of MTRL 495 or BMEG 495. [2-0-2]. Prerequisite: APSC 278. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "APSC 278",
+        "tree": "APSC 278",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 500",
+      "title": "Orientation to Clinical Environment",
+      "credits": "1",
+      "description": "Operation of biomedical and clinical engineering facilities at hospitals. Daily activities of healthcare workers. Patients experience. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 501",
+      "title": "Interdisciplinary Team Project in Medical Technology Innovation",
+      "credits": "4",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 510",
+      "title": "Anatomy and Physiology with Applications to Biomedical Devices",
+      "credits": "4",
+      "description": "Anatomical structures and physiological principles of major body systems. Functional connections to operation of diagnostic and therapeutic equipment. Exploration of recent advances. Credit will be granted for only one of BMEG 410 or BMEG 510. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 511",
+      "title": "Fundamentals of Applied Pathophysiology in Biomedical Engineering",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 521",
+      "title": "Linear Systems in Optics",
+      "credits": "3",
+      "description": "Linear system theory and Fourier Optics, applications in optics including wave propagation and image quality assessment. Credit will be granted for only one of BMEG 421 or BMEG 521. ELEC 221 recommended. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 522",
+      "title": "Modern Biomedical Optical Imaging",
+      "credits": "3",
+      "description": "Advanced multimodal optical imaging concepts, fundamental optics, optical OCT theories, advanced modern OCT technologies, and OCT application in clinical medicine and biomedical engineering. Credit will be granted for only one of BMEG 422 or BMEG 522. BMEG 421 or courses with MATLAB recommended. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 523",
+      "title": "Clinical Informatics",
+      "credits": "3",
+      "description": "Fundamental concepts in clinical information systems, decision support, and mobile health. Application of information engineering to health care, including the management and use of patient health and well-being information. Credit will be granted for only one of BMEG 423 or BMEG 523. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 524",
+      "title": "Genome Informatics",
+      "credits": "3",
+      "description": "Principles and best practices in analyzing genomics data. Genome architecture, mappability, repeat elements, ChIP-seq, open chromatin, histone modifications, single cell technologies, genome wide association studies, statistical analyses, computational analysis, data processing. Credit will be granted for only one of BMEG 424 or BMEG 524. BMEG 310 or equivalent recommended. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 550",
+      "title": "Biomedical Engineering Technology",
+      "credits": "3",
+      "description": "[3-3*-0]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 554",
+      "title": "Directed Studies in Biomedical Engineering",
+      "credits": "1-3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 556",
+      "title": "Clinical and Industrial Biomedical Engineering",
+      "credits": "3",
+      "description": "Principles of professional engineering practice, the Canadian healthcare system, medical approach to diagnosis, principles and management of common medical devices, ethics and regulations for clinical trials, codes and regulations of medical devices, applications of biomedical engineering. Credit will be granted for only one of BMEG 456 or BMEG 556. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 557",
+      "title": "Statistical Methods for Evaluating Medical Technologies",
+      "credits": "1",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 580",
+      "title": "Biomedical Engineering Topics at the Interface of Medicine and Engineering",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 581",
+      "title": "Professional and Academic Development",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 590",
+      "title": "Biomedical Engineering Professional Skills",
+      "credits": "1",
+      "description": "Formulate and implement a professional skills development plan involving workshops on topics such as writing, presentation, teaching, finance, marketing, equity, ethics. Pass/Fail grading. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 591",
+      "title": "Topics in Biomedical Engineering",
+      "credits": "1-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 597",
+      "title": "Master of Engineering Project",
+      "credits": "6",
+      "description": "Supervised industrial, clinical, or research project for students registered in Biomedical Engineering program. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 598",
+      "title": "Biomedical Engineering Seminar",
+      "credits": "1",
+      "description": "Presentation and discussion of current topics in biomedical engineering research and development. A required course for all graduate students in Biomedical Engineering. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 599",
+      "title": "M.A. Sc. Thesis",
+      "credits": "12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "BMEG 699",
+      "title": "Doctoral Dissertation",
+      "credits": "0",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    }
+  ]
+}

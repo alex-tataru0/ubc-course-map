@@ -244,6 +244,7 @@ def test_which_courses_the_rules_cant_parse(courses):
 @pytest.mark.parametrize("subject, codes", [
     ("CPSC", ["CPSC 221", "CPSC 330", "CPSC 340", "CPSC 410", "CPSC 491"]),
     ("MATH", ["MATH 121", "MATH 312", "MATH 440", "MATH 442", "MATH 443", "MATH 444"]),
+    ("STAT", ["STAT 405"]),
 ])
 def test_rules_give_the_trees_gemini_gave(subject, codes):
     cache = load_cache()
@@ -432,3 +433,65 @@ def test_counts_courses_inside_other_text():
         {"one_of": ["BMEG 250", {"other": "six credits of BIOL beyond BIOL 111"}]},
     ]}
     assert tree_problems(tree, text) == []
+
+
+def test_one_of_a_single_course_goes_to_gemini():
+    # CHBE 220: "one of" covers "CHEM 121 and CHEM 123" together, which the rules can't see.
+    assert parse_with_rules("One of CHEM 121 and CHEM 123 or CHEM 154, and MATH 101") is None
+
+
+def test_or_inside_an_all_of_list_goes_to_gemini():
+    # CHBE 370: the "or" makes it a choice between the two courses and the standing.
+    text = "All of CHBE 241, CHBE 244, or third-year or higher standing in ENVE"
+    assert parse_with_rules(text) is None
+
+
+def test_leftover_lead_word_goes_to_gemini():
+    # ELEC 371: the "(a)" option runs into the "either" of the next list.
+    text = ("(a) MATH 255 or MATH 256, and either (b) all of ELEC 202, ELEC 292 or "
+            "(c) all of BMEG 220, BMEG 257")
+    assert parse_with_rules(text) is None
+
+
+def test_or_and_and_inside_text_stay_in_the_text():
+    # CIVL 305, CHBE 482, CHBE 373 and MECH 459.
+    assert parse_with_rules("CIVL 204 or third-year standing or higher in IGEN") == {
+        "one_of": ["CIVL 204", {"other": "third-year standing or higher in IGEN"}],
+    }
+    assert parse_with_rules("CHBE 376 or fourth-year standing in B.A.Sc. or B.Sc") == {
+        "one_of": ["CHBE 376", {"other": "fourth-year standing in B.A.Sc. or B.Sc"}],
+    }
+    text = "One of CHBE 251, MTRL 263, or third-year or higher standing in ENVE"
+    assert parse_with_rules(text) == {
+        "one_of": ["CHBE 251", "MTRL 263", {"other": "third-year or higher standing in ENVE"}],
+    }
+    text = ("All of MECH 325, MECH 360 and fourth-year standing in the Biomechanics and "
+            "Medical Devices Option")
+    assert parse_with_rules(text) == {"all_of": [
+        "MECH 325", "MECH 360",
+        {"other": "fourth-year standing in the Biomechanics and Medical Devices Option"},
+    ]}
+
+
+def test_high_school_courses_stay_apart():
+    # BIOL 121
+    assert parse_with_rules("One of BIOL 11, BIOL 12, BIOL 111") == {
+        "one_of": [{"other": "BIOL 11"}, {"other": "BIOL 12"}, "BIOL 111"],
+    }
+
+
+def test_comma_or_before_the_last_option():
+    # MECH 488
+    assert parse_with_rules("One of MECH 225, MECH 280, or CIVL 215") == {
+        "one_of": ["MECH 225", "MECH 280", "CIVL 215"],
+    }
+
+
+def test_okanagan_courses_in_an_option():
+    # MECH 260
+    text = ("Either (a) all of MATH 101, PHYS 170 or (b) all of APSC_O 172, APSC_O 173, "
+            "APSC_O 180")
+    assert parse_with_rules(text) == {"one_of": [
+        {"all_of": ["MATH 101", "PHYS 170"]},
+        {"all_of": ["APSC_O 172", "APSC_O 173", "APSC_O 180"]},
+    ]}

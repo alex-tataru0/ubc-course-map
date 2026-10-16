@@ -1,0 +1,101 @@
+{
+  "subject": "IGEN",
+  "source": "https://vancouver.calendar.ubc.ca/course-descriptions/subject/igenv",
+  "courses": [
+    {
+      "code": "IGEN 201",
+      "title": "Integrated Technical Communication",
+      "credits": "3",
+      "description": "Written and oral communication in business correspondence, engineering design methods, report preparation, and oral presentations of technical material. Restricted to students in second year of the Integrated Engineering Program. [1-0-2; 1-0-2] Prerequisite: One of APSC 176, ENGL 110, ENGL 111, ENGL 112, ENGL 120, ENGL 121, WRDS 150. Equivalency: APSC 201",
+      "prereq": {
+        "text": "One of APSC 176, ENGL 110, ENGL 111, ENGL 112, ENGL 120, ENGL 121, WRDS 150",
+        "tree": {
+          "one_of": [
+            "APSC 176",
+            "ENGL 110",
+            "ENGL 111",
+            "ENGL 112",
+            "ENGL 120",
+            "ENGL 121",
+            "WRDS 150"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": "APSC 201",
+      "recommended": null
+    },
+    {
+      "code": "IGEN 230",
+      "title": "Introduction to Engineering Design",
+      "credits": "6",
+      "description": "Introduction to engineering design methods, problem solving, working individually and in teams, and methods of communication of results. Engineering design projects will be assigned. Restricted to students in the second year of the Integrated Engineering program. [1-4-0;1-4-0]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "IGEN 330",
+      "title": "Intermediate Engineering Design",
+      "credits": "6",
+      "description": "Intermediate level engineering design projects involving material in the curriculum of the Integrated Engineering program. [1-4;1-4]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "IGEN 340",
+      "title": "Technology Entrepreneurship",
+      "credits": "3",
+      "description": "Theory and skills needed for engineers to capitalize on the opportunities that exist in commercializing technology, including the relationships between ideas and opportunities, customers and competition, and products and solutions. [3-0-0]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "IGEN 430",
+      "title": "Advanced Engineering Design Projects",
+      "credits": "6",
+      "description": "Projects involving all material in the curriculum of the Integrated Engineering Program. Students will be expected to propose a project and complete the design and construction of a prototype. Restricted to students in the fourth year of the Integrated Engineering program. [1-4-0;1-4-0]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "IGEN 450",
+      "title": "Pipeline Engineering",
+      "credits": "3",
+      "description": "Pipeline materials and material selection; fracture mechanics; manufacturing and processing; welding and corrosion; soil-pipe interactions; surveying and site investigations; slope stability; natural hazards; pipeline loads and response. [3-0-0]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "IGEN 451",
+      "title": "Pipeline Systems and Infrastructure",
+      "credits": "3",
+      "description": "Energy infrastructure; pipe flows; equipment and facilities including compressors, pumping stations, coolers, and controls; terminals; pipeline integrity; corrosion control. [3-0-0]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "IGEN 452",
+      "title": "Pipeline Design",
+      "credits": "3",
+      "description": "Pipeline and pipeline system design reflecting technical, regulatory, environmental, societal, professional, and economic aspects; pipeline design project. [2-0-2]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    }
+  ]
+}

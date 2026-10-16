@@ -119,8 +119,57 @@ def test_recommended_prerequisite_is_not_a_requirement():
     # PHYS 500: "Recommended pre-requisite:" is advice, so it isn't read as a prerequisite.
     r = extract_requisites("Scattering theory. Recommended pre-requisite: PHYS_V 402.")
     assert r["prereq"] is None
+    assert r["recommended"] == "PHYS_V 402"
+
+
+def test_recommended_prerequisite_before_the_prerequisite():
+    # MECH 4xx: the advice has its own label and comes first, with the hours after it.
+    r = extract_requisites(
+        "Recommended pre-requisites: All of MECH_V 327, MECH_V 375. [3-0-1]. "
+        "Prerequisite: MECH_V 225."
+    )
+    assert r["recommended"] == "All of MECH_V 327, MECH_V 375"
+    assert r["prereq"] == "MECH_V 225"
+
+
+def test_recommended_prerequisite_with_a_capital_p():
+    # ELEC 4xx: "Recommended Prerequisite:" isn't a prerequisite either.
+    r = extract_requisites("Recommended Prerequisite: ELEC_V 315. [2-3-0].")
+    assert r["prereq"] is None
+    assert r["recommended"] == "ELEC_V 315"
+
+
+def test_hours_after_the_prereq_are_left_out():
+    # MECH 224 and MECH 490 put their hours after the prereq.
+    assert extract_requisites("Prerequisite: MECH_V 224 or MECH_V 260. [2-2-0]")["prereq"] == (
+        "MECH_V 224 or MECH_V 260"
+    )
+    r = extract_requisites("Prerequisite: All of MECH_V 325, MECH_V 328. [1-0- 1]; [1-0-1]")
+    assert r["prereq"] == "All of MECH_V 325, MECH_V 328"
+    assert extract_requisites("Equivalency: MATH_V 103. [3-0-0].")["equivalency"] == "MATH_V 103"
+
+
+def test_stray_question_mark_before_the_prereq():
+    # A CHBE course: "Prerequisite:?Either a) …".
+    r = extract_requisites("Prerequisite:?Either a) CHEM_V 154 or b) CHEM_V 121.")
+    assert r["prereq"] == "Either a) CHEM_V 154 or b) CHEM_V 121"
 
 
 def test_two_prereq_sections_raises():
     with pytest.raises(ValueError):
         extract_requisites("Prerequisite: CPSC 110. Prerequisite: CPSC 210.")
+
+
+def test_credit_note_is_left_out_of_the_requirement():
+    # MECH 468 and CPEN 355: these say which courses rule each other out. The website reads
+    # them from the description.
+    r = extract_requisites(
+        "Prerequisite: MECH_V 466, ELEC_V 341, or CHBE_V 356. Credit will be granted for only "
+        "one of MECH_V 468 or MECH_V 509. [3-0-0]"
+    )
+    assert r["prereq"] == "MECH_V 466, ELEC_V 341, or CHBE_V 356"
+    r = extract_requisites(
+        "Prerequisite: One of MATH_V 152, MATH_V 221. Credit cannot be obtained for both "
+        "CPEN_V 355 and CPSC_V 340."
+    )
+    assert r["prereq"] == "One of MATH_V 152, MATH_V 221"

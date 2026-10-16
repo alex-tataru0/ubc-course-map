@@ -4,7 +4,9 @@ import re
 # "s?" makes the trailing s optional, so "Prerequisites:" matches too, and "-?" lets in
 # BIOL 307's "Pre-requisites:". It's case-sensitive, so "Recommended pre-requisite:" (advice,
 # as in PHYS 500) doesn't count.
-LABEL = re.compile(r"\b(Pre-?requisites?|Co-?requisites?|Equivalency):\s*")
+LABEL = re.compile(
+    r"\b(Recommended [Pp]re-?requisites?|Pre-?requisites?|Co-?requisites?|Equivalency):\s*"
+)
 
 # Maps each label (singular or plural) to the key we store it under.
 KEYS = {
@@ -24,6 +26,19 @@ CDF_NOTE = "This course is not eligible for Credit/D/Fail grading."
 # recommended". Group 1 is the advice, without the full stop before it.
 RECOMMENDED = re.compile(r"(?:^|\.\s+)([^.]*\brecommend[^.]*)$")
 
+# Some engineering courses put their hours after the prereq instead of before it, e.g.
+# MECH 224's "Prerequisite: MECH 224 or MECH 260. [2-2-0]", or MECH 490's
+# "[1-0- 1]; [1-0-1]". They stay in the description but aren't part of the requirement.
+# "Credit will be granted for only one of MECH 468 or MECH 509" (MECH 468) says which courses
+# rule each other out, not what you need first. The website reads it from the description,
+# so it's left out of the requirement. CPEN 355 says "Credit cannot be obtained for both".
+CREDIT_NOTE = re.compile(
+    r"(?:^|\.?\s+)Credit (?:will (?:only )?be granted for only one of|cannot be obtained for both)"
+    r"\b[^.]*\.?"
+)
+
+TRAILING_HOURS = re.compile(r"(?:[.;]?\s*\[[\d.*\s\-–]+\])+[.\s]*$")
+
 
 def extract_requisites(description: str) -> dict:
     text = description.replace(CDF_NOTE, "")
@@ -32,10 +47,15 @@ def extract_requisites(description: str) -> dict:
     for i, match in enumerate(matches):
         # A section runs until the next label, or to the end of the text.
         end = matches[i + 1].start() if i + 1 < len(matches) else len(text)
-        key = KEYS[match.group(1).replace("-", "")]
+        label = match.group(1)
+        # "Recommended pre-requisite: MECH 380" (MECH 4xx) is advice, like the sentences above.
+        key = "recommended" if label.startswith("Recommended") else KEYS[label.replace("-", "")]
         if result[key] is not None:
             raise ValueError(f"Two {key} sections in: {description}")
-        section = text[match.end():end].strip().rstrip(".")
+        section = TRAILING_HOURS.sub("", text[match.end():end].strip())
+        section = CREDIT_NOTE.sub("", section)
+        # CHBE 4xx's "Prerequisite:?Either a) …" has a stray "?" from the calendar.
+        section = section.strip().lstrip("?").rstrip(".")
         advice = RECOMMENDED.search(section)
         # PHYS 100's last sentence also says what's required, so it stays in the requirement.
         if advice and "required" not in advice.group(1):

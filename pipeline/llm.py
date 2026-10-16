@@ -76,6 +76,20 @@ EXAMPLES = [
             {"course": "CHEM 100", "min_grade": 80},
         ]},
     ),
+    # Added for engineering, after Gemini wrote CHBE 241's "CHEM 121 and CHEM 123" as text,
+    # gave only the last course of CHBE 411's "All of …, CHBE 345 or equivalents" the
+    # equivalents, and spelled "all_of" as "all_Of" in CHBE 352.
+    (
+        "One of BIOL 111 and BIOL 112 or SCIE 001, and one of MATH 100, MATH 102",
+        {"all_of": [
+            {"one_of": [{"all_of": ["BIOL 111", "BIOL 112"]}, "SCIE 001"]},
+            {"one_of": ["MATH 100", "MATH 102"]},
+        ]},
+    ),
+    (
+        "All of PHYS 200, PHYS 216 or equivalents",
+        {"one_of": [{"all_of": ["PHYS 200", "PHYS 216"]}, {"other": "equivalents"}]},
+    ),
 ]
 
 INSTRUCTIONS = """You turn UBC course prerequisite text into a JSON tree.
@@ -106,6 +120,11 @@ Rules:
   grade in it, using the names the text gives for the codes.
 - "N% or higher in X" becomes {"course": "X", "min_grade": N}. "A minimum grade of N% in each of"
   applies to every course it covers.
+- A course code is always a plain string, also inside a group like "CHEM 121 and CHEM 123".
+  Never put a course code alone in an "other" text.
+- "or equivalents" after a list of courses is one more choice for the whole list.
+- Write the keys exactly as above, in lower case: "one_of", "all_of", "course", "min_grade",
+  "other".
 - Reply with only the JSON tree.
 
 Examples:

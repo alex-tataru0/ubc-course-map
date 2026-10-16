@@ -1,0 +1,148 @@
+{
+  "subject": "ENVE",
+  "source": "https://vancouver.calendar.ubc.ca/course-descriptions/subject/envev",
+  "courses": [
+    {
+      "code": "ENVE 200",
+      "title": "Environmental Engineering Design and Decision Making",
+      "credits": "4",
+      "description": "Environmental Engineering design and decision-making, analysis tools and techniques, data illustration and other communication techniques, professional development including ethics and equity. Subject themes include water, air and soil. [3-0-2]. Prerequisite: Second-year standing in ENVL. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "Second-year standing in ENVL",
+        "tree": {
+          "other": "Second-year standing in ENVL"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENVE 201",
+      "title": "Technical Communications for Environmental Engineering",
+      "credits": "3",
+      "description": "All aspects of technical communication, including report preparation, business correspondence, and oral presentation, applied to environmental engineering specific cases and projects. [3-0-0] Prerequisite: One of APSC 176, ENGL 110, ENGL 111, ENGL 112, ENGL 120, ENGL 121, WRDS 150. Corequisite: ENVE 203. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "One of APSC 176, ENGL 110, ENGL 111, ENGL 112, ENGL 120, ENGL 121, WRDS 150",
+        "tree": {
+          "one_of": [
+            "APSC 176",
+            "ENGL 110",
+            "ENGL 111",
+            "ENGL 112",
+            "ENGL 120",
+            "ENGL 121",
+            "WRDS 150"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": {
+        "text": "ENVE 203",
+        "tree": "ENVE 203",
+        "source": "rules",
+        "problems": []
+      },
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENVE 202",
+      "title": "Environmental Engineering Science",
+      "credits": "4",
+      "description": "Analysis of integrated environmental systems, quantification of fundamental chemical and biological processes, systems design, evaluation of environmental impact, future trends. [3-2-0]. Prerequisite: All of CIVL 204 and CHBE 241, and either CHEM 154 or all of CHEM 121, CHEM 123. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "All of CIVL 204 and CHBE 241, and either CHEM 154 or all of CHEM 121, CHEM 123",
+        "tree": {
+          "all_of": [
+            "CIVL 204",
+            "CHBE 241",
+            {
+              "one_of": [
+                "CHEM 154",
+                {
+                  "all_of": [
+                    "CHEM 121",
+                    "CHEM 123"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "source": "llm",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENVE 203",
+      "title": "Environmental Engineering and Sustainability",
+      "credits": "4",
+      "description": "Sustainability vocabulary and systems theory relevant to environmental engineering practice, foundational sustainability topics including those relating to urban ecology, industrial ecology/circular economy, and humanitarian engineering, stakeholder analysis, communication, and adaptive change leadership skills [3-0-2] Prerequisite: ENVE 200.",
+      "prereq": {
+        "text": "ENVE 200",
+        "tree": "ENVE 200",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENVE 301",
+      "title": "Environmental Engineering Intermediate Design Project",
+      "credits": "3",
+      "description": "Real-time, fully-integrated, conceptual and detailed design experiences that address an ill-structured, socially and technically complex environmental engineering problem for communities with consideration to the cultural history and needs of the communities. Restricted to students in ENVE or ENVL with third-year or higher standing. [2-0-3] Prerequisite: ENVE 203. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "ENVE 203",
+        "tree": "ENVE 203",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENVE 401",
+      "title": "Environmental Engineering Capstone Project",
+      "credits": "8",
+      "description": "Application of chemical, biological, and environmental science; engineering concepts; sustainable development and health and safety considerations; engineering economics; and life cycle analysis. Conceptual and detailed design for a multi-scale and complex environment health and protection problem. [2-0-4; 2-0-4]. Prerequisite: All of CHBE 244, CHBE 373, ENVE 301 and fourth-year standing in ENVL. Corequisites: CIVL 402, CIVL 416. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "All of CHBE 244, CHBE 373, ENVE 301 and fourth-year standing in ENVL",
+        "tree": {
+          "all_of": [
+            "CHBE 244",
+            "CHBE 373",
+            "ENVE 301",
+            {
+              "other": "fourth-year standing in ENVL"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": {
+        "text": "CIVL 402, CIVL 416",
+        "tree": {
+          "all_of": [
+            "CIVL 402",
+            "CIVL 416"
+          ]
+        },
+        "source": "llm",
+        "problems": []
+      },
+      "equivalency": null,
+      "recommended": null
+    }
+  ]
+}

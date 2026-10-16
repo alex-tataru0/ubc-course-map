@@ -20,7 +20,7 @@
       "prereq": null,
       "coreq": null,
       "equivalency": null,
-      "recommended": null
+      "recommended": "completion of first-year science"
     },
     {
       "code": "ATSC 212",
@@ -30,7 +30,7 @@
       "prereq": null,
       "coreq": null,
       "equivalency": null,
-      "recommended": null
+      "recommended": "one of CPSC 103, CPSC 110"
     },
     {
       "code": "ATSC 301",

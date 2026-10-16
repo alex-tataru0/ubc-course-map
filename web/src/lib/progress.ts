@@ -103,7 +103,9 @@ function codesInSentences(course: Pick<Course, "code" | "description">, sentence
 }
 
 const NOT_FOR = /Not for [^.]*\./g;
-const ONLY_ONE_OF = /Credit will (?:only )?be granted for only one of [^.]*\./g;
+// CPEN 355 says it another way: "Credit cannot be obtained for both CPEN 355 and CPSC 340."
+const ONLY_ONE_OF =
+  /Credit (?:will (?:only )?be granted for only one of|cannot be obtained for both) [^.]*\./g;
 
 // The courses this one is a lesser choice than, from a sentence like
 // "Not for students with credit for, or currently enrolled in, CPSC 210 or CPEN 221."

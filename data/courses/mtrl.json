@@ -1,0 +1,656 @@
+{
+  "subject": "MTRL",
+  "source": "https://vancouver.calendar.ubc.ca/course-descriptions/subject/mtrlv",
+  "courses": [
+    {
+      "code": "MTRL 201",
+      "title": "Technical Communication",
+      "credits": "3",
+      "description": "Written and oral communication in business correspondence, engineering design methods, report preparation, and oral presentations of technical material. Restricted to students in second year of the Materials Engineering Program. [3-0-0] Prerequisite: One of APSC 176, ENGL 110, ENGL 111, ENGL 112, ENGL 120, ENGL 121, WRDS 150. Equivalency: APSC 201. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "One of APSC 176, ENGL 110, ENGL 111, ENGL 112, ENGL 120, ENGL 121, WRDS 150",
+        "tree": {
+          "one_of": [
+            "APSC 176",
+            "ENGL 110",
+            "ENGL 111",
+            "ENGL 112",
+            "ENGL 120",
+            "ENGL 121",
+            "WRDS 150"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": "APSC 201",
+      "recommended": null
+    },
+    {
+      "code": "MTRL 250",
+      "title": "Thermodynamics of Materials I",
+      "credits": "4",
+      "description": "Heat and mass balances applied to materials engineering; thermodynamic principles applied to materials processing: heat of reaction, free energy, activity, phase equilibrium, reactions involving gases, Ellingham diagrams. [3-0-2]",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 251",
+      "title": "Thermodynamics of Materials II",
+      "credits": "4",
+      "description": "Behaviour of solutions, phase diagrams, electrochemistry, chemical potential and free energy diagrams applied to materials processing and thermodynamic modelling. [3-0-2] Prerequisite: MTRL 250.",
+      "prereq": {
+        "text": "MTRL 250",
+        "tree": "MTRL 250",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 263",
+      "title": "Transport Phenomena I - Fluid Mechanics",
+      "credits": "3",
+      "description": "Fluid statics; fluid mechanics; laminar and turbulent flow; equations of continuity and motion; boundary layers; flow in conduits and packed and fluidized beds; flow measurements. [2-0-2]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 264",
+      "title": "Transport Phenomena II - Heat Transport",
+      "credits": "3",
+      "description": "Conduction, forced and natural convection, and radiation. Heat transfer with fluid flow, applications of heat exchange, and solidification of castings. [2-0-2]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 280",
+      "title": "Materials in Design",
+      "credits": "3",
+      "description": "The process of materials selection for different design criteria; the importance of shape and processing variables; the use of computer software in the selection process. [2-0-3]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 320",
+      "title": "Management of Engineering Design",
+      "credits": "2",
+      "description": "Fundamental communication and inter- personal skills, as well as operational processes, that engineers require to effectively work in design teams. Concepts and best practices around project management tools and techniques, team dynamics, planning, and organization. [1-0-2] Prerequisite: MTRL 201. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "MTRL 201",
+        "tree": "MTRL 201",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 340",
+      "title": "Manufacturing in Materials Engineering",
+      "credits": "3",
+      "description": "Manufacturing processes from a materials perspective; metal casting, heat treating processes, forming processes, machining, and joining. Role of manufacturing in microstructure and material properties development and on component performance. [3-0-0]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 358",
+      "title": "Hydrometallurgy I",
+      "credits": "3",
+      "description": "Aqueous extraction of metals from ores and concentrates. [2-0-2]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 359",
+      "title": "Hydrometallurgy I Laboratory",
+      "credits": "1",
+      "description": "Laboratory exercises on aqueous extraction of metals from ores and concentrates. [0-3*-0]. Corequisite: MTRL 358. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": {
+        "text": "MTRL 358",
+        "tree": "MTRL 358",
+        "source": "rules",
+        "problems": []
+      },
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 361",
+      "title": "Modelling of Materials Processes",
+      "credits": "4",
+      "description": "Mathematical and physical modelling of processes employed in the production of materials. The application of models to analyze, design and improve materials production. [3-0-2]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 363",
+      "title": "Transport Phenomena III - Mass Transport",
+      "credits": "3",
+      "description": "Mass transfer fundamentals, gas interdiffusivity, Sievert's law, Fick's laws, solid-state diffusion, steady and non-steady state diffusion, mass transfer in quiescence fluids. The application examples are related to metallurgical processes, green technologies, and the semiconductor industry. [2-0-2]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 365",
+      "title": "Mechanical Behaviour of Materials",
+      "credits": "3",
+      "description": "Polycrystalline and single crystal deformation; dislocation theory; strengthening mechanisms; fracture mechanics; fatigue; high temperature deformation mechanisms. [3-0-0]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 378",
+      "title": "Phase Transformations",
+      "credits": "3",
+      "description": "Solidification and solid state transformations; nucleation and growth processes; segregation and structure in castings; phase changes in steel; transformation diagrams; diffusion equations. [3-0-2*]",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 381",
+      "title": "Structure and Properties Laboratory",
+      "credits": "1",
+      "description": "Structure and properties of ferrous and non-ferrous metals; heat treatment; hardenability; metallography; age hardening. [0-3*-0] Corequisite: All of MTRL 365, MTRL 378. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": {
+        "text": "All of MTRL 365, MTRL 378",
+        "tree": {
+          "all_of": [
+            "MTRL 365",
+            "MTRL 378"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 394",
+      "title": "Polymers",
+      "credits": "4",
+      "description": "The structure and properties of polymeric materials and reinforced polymers with emphasis on their engineering properties and applications. [3-0-2]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 424",
+      "title": "Aerospace Materials and Manufacturing",
+      "credits": "3",
+      "description": "Advanced materials and manufacturing in the framework of aerospace requirements and regulations, with a focus on processing of materials, including advanced metals and polymer composites, to produce aerospace structures and engine components. [3-0-0]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 434",
+      "title": "Aerospace Products Certification and Management",
+      "credits": "3",
+      "description": "An introduction to the certification of civilian aircraft structures, engines, and components in accordance with applicable airworthiness standards to ensure safety and reliability throughout their operational life cycle. Overview of design and maintenance procedures to certify aerospace products. [3-0-0] This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 451",
+      "title": "Microstructural Analysis Laboratory",
+      "credits": "3",
+      "description": "Basic principles and techniques of microstructural analysis with particular reference to engineered materials including x-ray, SEM microprobe TEM and high energy electron analysis. [1-3*-2]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 455",
+      "title": "Economic Aspects of Materials Engineering",
+      "credits": "3",
+      "description": "Time value of money, cash flows, capital and operating cost estimation, financial decision making and relevant case studies. [2-0-2]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 456",
+      "title": "Environmental Degradation of Materials",
+      "credits": "3",
+      "description": "Fundamental aspects of environmental degradation of metals (corrosion), ceramics, and polymers, with an emphasis on aqueous environments. [2-0-2]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 458",
+      "title": "Hydrometallurgy II",
+      "credits": "3",
+      "description": "Leaching, purification, precipitation, regeneration; thermodynamics and kinetics of separation steps; electrochemical applications. [3-0-0]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 460",
+      "title": "Monitoring and Optimization of Materials Processing",
+      "credits": "3",
+      "description": "Measurement systems for materials processing and evaluation, methods of data collection and analysis in materials engineering, materials processing monitoring and control, design of experiments for materials processing and optimization. [2-0-2]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 466",
+      "title": "Engineering Project I",
+      "credits": "3",
+      "description": "Design projects to illustrate the full spectrum of design encountered in Metals and Materials Engineering including the design of components, structures and processes used to manufacture materials. [1-0-5]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 467",
+      "title": "Engineering Project II",
+      "credits": "3",
+      "description": "Design projects to illustrate the full spectrum of design encountered in Metals and Materials Engineering including the design of components, structures and processes used to manufacture materials. [1-0-5]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 469",
+      "title": "Casting Technology",
+      "credits": "3",
+      "description": "Various casting technologies related to the automotive and aerospace sectorswill be covered, including upstream liquid metal processing. [2-0-2]",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 472",
+      "title": "Welding and Joining of Materials",
+      "credits": "3",
+      "description": "Case studies addressing temperature modelling in welding and joining, material selection for welds and joints, calculation of properties for welds and joints, mechanical analysis of joints, and design of welding and joining procedures. [2-0-2]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 475",
+      "title": "Microstructure Engineering",
+      "credits": "3",
+      "description": "Follows the production of metallurgical products, focusing on process design models used to describe solidification, recrystallization, and precipitation. [2-0-2]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 478",
+      "title": "Electronic Materials",
+      "credits": "3",
+      "description": "Semiconductor materials, MOSFET structure, operation and applications in digital circuits, fabrication techniques, basic mask and fabrication flow design and semiconductor fabrication process theories at an entry level. [3-0-0]",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 484",
+      "title": "Materials for Aerostructures and Engines",
+      "credits": "3",
+      "description": "Engineering theory of aerospace structural material mix: metal alloys, ceramics, and polymer composites. Material requirements for weight-, damage tolerant-, cost efficient-design. Overview of material characterization, including fracture and fatigue. Statistical variability, material allowables, structural certification. [3-0-0] This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 485",
+      "title": "Failure of Materials",
+      "credits": "3",
+      "description": "Failure by excess deformation, fracture, fatigue, and environmental effects. Failure theories and case studies of engineering failures. [2-0-2]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 486",
+      "title": "Nondestructive Evaluation",
+      "credits": "3",
+      "description": "Principles of test methods; inspection techniques and equipment; quantitative flaw evaluation; reliability analysis. [2-0-2]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 494",
+      "title": "Composite Materials",
+      "credits": "3",
+      "description": "Understanding the properties and the mechanical behaviour of composite materials with emphasis on analysis, design, and manufacturing. [3-0-0]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 495",
+      "title": "Biomaterials",
+      "credits": "3",
+      "description": "Engineered materials in medical applications with an emphasis on material properties, functionality, design, and material response in the biological environment. [2-0-2]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 496",
+      "title": "Materials Sustainability",
+      "credits": "3",
+      "description": "Concepts of life cycle analysis, circular economy and critical materials. Project-based introduction to key concepts, calculations, and design. [2-0-2]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 497",
+      "title": "Special Topics in Materials Engineering",
+      "credits": "1-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 499",
+      "title": "Materials Engineering Undergraduate Thesis",
+      "credits": "3",
+      "description": "Materials-related academic research. Projects will be defined within materials engineering, involving design, experimental, and/or simulation work, as selected from topics provided by faculty members. Restricted to students with fourth year class standing. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 512",
+      "title": "Material Optimization for the Manufacture of Structural Metallic Components",
+      "credits": "3",
+      "description": "Phase transformations and strengthening of advanced engineering alloys (e.g. steels, aluminum, magnesium and titanium alloys) with particular emphasis on structure-property development relevant to the latest materials manufacturing technologies. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 515",
+      "title": "Advanced Simulation and Modelling Tools for Materials Manufacturing",
+      "credits": "3",
+      "description": "Mathematical modelling of manufacturing processes; Computer Aided Engineering tools; application examples will be drawn from a range of manufacturing operations. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 517",
+      "title": "Case Studies in Advanced Materials Manufacturing",
+      "credits": "3",
+      "description": "The full spectrum of design encountered including the design of components, structures and processes used to manufacture materials. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 550",
+      "title": "Metallurgical Thermodynamics",
+      "credits": "2-4",
+      "description": "Application of advanced thermodynamic principles in metallurgical processes. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 557",
+      "title": "Separation Science in Aqueous Metal Processing",
+      "credits": "3",
+      "description": "The theory of solvent extraction and ion exchange, membrane separations, chemical precipitation, electrochemical separations and other techniques for aqueous metal processing, applications from the metal processing literature. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 558",
+      "title": "Corrosion",
+      "credits": "3",
+      "description": "Modern theories relating to corrosion and corrosion protection of metals. Thermodynamic and kinetic phenomena, corrosion measurements, inhibition and passivation, design for corrosive environments, stress corrosion cracking theory. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 559",
+      "title": "Advanced Hydrometallurgy",
+      "credits": "3",
+      "description": "Advanced thermochemical modelling of hydrometallurgical unit operations to include extraction, separation, and recovery of base metals. Application to flow-sheet analysis. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 562",
+      "title": "Finite Elements in Heat Transfer",
+      "credits": "3",
+      "description": "Application of the finite element method to heat transfer and solidification; steady state and transient heat conduction; latent heat evolution and radiation. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 564",
+      "title": "Hydrometallurgical Reactor Design and Analysis",
+      "credits": "3",
+      "description": "Batch leaching kinetics, leaching mechanisms; statistical methods for design of multiparticle continuous leaching reactors; coupled heat and mass balances, mixing phenomena, redox and precipitation reactions, complex mineralogical feeds; heap and dump leaching. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 570",
+      "title": "Deformation of Crystalline Materials",
+      "credits": "3",
+      "description": "Nature and properties of lattice imperfections; dislocation theory and its use to describe work hardening, creep, structure of grain boundaries and other phenomena. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 575",
+      "title": "Advanced Phase Transformations",
+      "credits": "3",
+      "description": "Thermodynamic and kinetic bases for the theory of phase transformations in the condensed state. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 578",
+      "title": "Microstructural Evolution of Deformed Materials",
+      "credits": "3",
+      "description": "Physical mechanisms of microstructure evolution; structure, energy and mobilities of grain boundaries, grain boundary segregation, precipitation, recovery, recrystallization, grain growth; microstructure engineering of steels. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 579",
+      "title": "Physics of Microfabrication: Front End Processing",
+      "credits": "3",
+      "description": "Practical aspects, physical models, and simulations of Si-based nanofabrication processes such as oxidation, diffusion, ion implantation, chemical vapor deposition, etching, stress techniques. Semiconductor device physic basics will also be discussed. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 585",
+      "title": "Topics in Fracture Mechanics",
+      "credits": "3",
+      "description": "The equations and concepts of linear elastic fracture mechanics. Fracture toughness testing, statistical theories of fracture and proof testing, stress corrosion cracking and static fatigue. Acoustic emission and other nondestructive testing methods. Case studies of large scale fractures of pressure vessels and structures. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 588",
+      "title": "Electrochemical Science, Engineering and Technology",
+      "credits": "3",
+      "description": "Electrochemical interfaces; electrode reactions; thermodynamics; kinetics and transport processes in electrochemical systems; experimental techniques. Electrochemical reactors and processes; modelling, design and economics. Electrochemical technologies; electrosynthesis, batteries and fuel cells. Electro-metallurgy; electrowinning and refining of metals, corrosion, leaching and cementation. Equivalency: CHBE 577, MMAT 588. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "CHBE 577, MMAT 588",
+      "recommended": null
+    },
+    {
+      "code": "MTRL 592",
+      "title": "Advanced Topics in Materials Engineering",
+      "credits": "2-6",
+      "description": "May be arranged on approval of the department head. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 593",
+      "title": "Directed Studies in Materials Engineering",
+      "credits": "1-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 594",
+      "title": "Advanced Composite Materials",
+      "credits": "3",
+      "description": "Processing and properties of advanced polymer based composite materials with emphasis on analysis, design, and manufacturing. [3-0-0]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 595",
+      "title": "Advanced Biomaterials",
+      "credits": "3",
+      "description": "Formation and structure-function relations of biological materials, the interaction of tissue-synthetic biomaterials, advanced biomaterials design, biomimetic processing, and current progress in drug delivery systems and biomedical devices. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 596",
+      "title": "M.Sc. Thesis",
+      "credits": "18",
+      "description": "For M.Sc. Degree. Research studies in materials engineering. Honours/Pass/Fail. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 597",
+      "title": "M.Eng. Project",
+      "credits": "6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 598",
+      "title": "Seminar",
+      "credits": "0",
+      "description": "Presentation and discussion of current topics in metals and materials research. A required course for graduate students in metals and materials which carries no academic credit. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 599",
+      "title": "M.A.Sc. Thesis",
+      "credits": "18",
+      "description": "For M.A.Sc. Degree. Research studies in materials engineering. Honours/Pass/Fail. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "MTRL 699",
+      "title": "Doctoral Dissertation",
+      "credits": "0",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    }
+  ]
+}

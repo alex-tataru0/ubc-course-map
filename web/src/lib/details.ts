@@ -1,11 +1,14 @@
 import type { ReqNode } from "./types";
 
 // The labels that start the requisite part of a description, as in pipeline/requisites.py.
-const REQUISITE_LABEL = /\b(Prerequisites?|Corequisites?|Equivalency):/;
+// "Recommended pre-requisite:" is advice, which the side panel shows on its own line.
+const REQUISITE_LABEL =
+  /\b(Recommended [Pp]re-?requisites?|Pre-?requisites?|Co-?requisites?|Equivalency):/;
 
 // Weekly hours, e.g. "[3-2-0]" is 3 hours of lecture, 2 of lab and 0 of tutorial.
-// A few courses use other shapes, like "[3-2]" or "[1.5–1.5-0]", so keep the text as is.
-const HOURS = /\s*\[([\d.\s–-]+)\]/;
+// A few courses use other shapes, like "[3-2]", "[1.5–1.5-0]" or "[3-0-2*]" (a * marks
+// alternate weeks), so keep the text as is.
+const HOURS = /\s*\[([\d.\s–*-]+)\]/;
 
 // Some descriptions put this note after the prereq text (e.g. CPSC 299).
 const CDF_NOTE = "This course is not eligible for Credit/D/Fail grading.";
@@ -20,7 +23,9 @@ export interface DescriptionParts {
 export function splitDescription(description: string): DescriptionParts {
   const labelAt = description.search(REQUISITE_LABEL);
   let summary = labelAt === -1 ? description : description.slice(0, labelAt);
-  const hours = summary.match(HOURS);
+  // Many engineering courses put the hours after the prereq, as in MECH 224's
+  // "Prerequisite: MECH 224 or MECH 260. [2-2-0]", so look for them in the whole text.
+  const hours = description.match(HOURS);
   summary = summary.replace(HOURS, "").trim();
   if (description.includes(CDF_NOTE) && !summary.includes(CDF_NOTE)) {
     summary = `${summary} ${CDF_NOTE}`;

@@ -168,6 +168,12 @@ describe("restrictionOf and exclusionsOf", () => {
     expect(exclusionsOf(findAny("CHEM 203"))).toEqual(["CHEM 223", "CHEM 225", "CHEM 233", "CHEM 235"]);
     expect(exclusionsOf(findAny("PHYS 450"))).toEqual(["PHYS 304", "CHEM 312"]);
   });
+
+  it("reads \"credit cannot be obtained for both\"", () => {
+    // CPEN 355, shortened.
+    const description = "Machine learning. Prerequisite: CPEN 221. Credit cannot be obtained for both CPEN 355 and CPSC 340.";
+    expect(exclusionsOf({ code: "CPEN 355", description })).toEqual(["CPSC 340"]);
+  });
 });
 
 describe("courseProgress", () => {

@@ -1,0 +1,816 @@
+{
+  "subject": "CPEN",
+  "source": "https://vancouver.calendar.ubc.ca/course-descriptions/subject/cpenv",
+  "courses": [
+    {
+      "code": "CPEN 211",
+      "title": "Computing Systems I",
+      "credits": "5",
+      "description": "Boolean algebra; combinational and sequential circuits; organization and operation of microcomputers, memory addressing modes, representation of information, instruction sets, machine and assembly language programming, systems programs, I/O structures, I/O interfacing and I/O programming, introduction to digital system design using microcomputers. Credit will be granted for only one of CPEN 211, CPEN 312. [4-2-2*]. Prerequisite: APSC 160. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "APSC 160",
+        "tree": "APSC 160",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "CPEN 212",
+      "title": "Computing Systems II",
+      "credits": "4",
+      "description": "Abstractions at the hardware-software interface and their low-level implementation. Procedure invocation, dynamic dispatch, and related exploits; library linkage, virtual memory, heap management, garbage collection, and caches; interrupts, signals, and processes; threads, locks, and cache coherence; files, devices, and network topology. Credit will only be given for one of CPEN 212, CPSC 213. [3-2-0] Prerequisite: CPEN 211 and one of CPEN 221, CPEN 223, CPSC 259. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "CPEN 211 and one of CPEN 221, CPEN 223, CPSC 259",
+        "tree": {
+          "all_of": [
+            "CPEN 211",
+            {
+              "one_of": [
+                "CPEN 221",
+                "CPEN 223",
+                "CPSC 259"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "CPEN 221",
+      "title": "Software Construction I",
+      "credits": "4-5",
+      "description": "Design, implementation, reasoning about software systems: abstraction and specification of software, testing, verification, abstract data types, object-oriented design, type hierarchies, concurrent software design. [3-2-2*]. Prerequisite: APSC 160. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "APSC 160",
+        "tree": "APSC 160",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "CPEN 223",
+      "title": "Software Design for Engineers I",
+      "credits": "4",
+      "description": "Introduction to robust software design: static typing, procedural specifications, unit testing, black-box & white-box tests, user- defined data types (representations, invariants, abstraction functions), data abstractions, communicating design (e.g., UML). [3-2-0]. Prerequisite: APSC 160. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "APSC 160",
+        "tree": "APSC 160",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "CPEN 281",
+      "title": "Technical Communication",
+      "credits": "3",
+      "description": "Written and oral communication in engineering. Technical description, report preparation, business correspondence, and oral presentation of technical material. Restricted to students in second year of Electrical and Computer Engineering programs. Credit will be granted for only one of ELEC 281, CPEN 281, BMEG 201 or APSC 201. [3-0-0]. Prerequisite: One of APSC 176, ENGL 110, ENGL 111, ENGL 112, ENGL 120, ENGL 121, WRDS 150. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "One of APSC 176, ENGL 110, ENGL 111, ENGL 112, ENGL 120, ENGL 121, WRDS 150",
+        "tree": {
+          "one_of": [
+            "APSC 176",
+            "ENGL 110",
+            "ENGL 111",
+            "ENGL 112",
+            "ENGL 120",
+            "ENGL 121",
+            "WRDS 150"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "CPEN 291",
+      "title": "Computer Engineering Design Studio I",
+      "credits": "6",
+      "description": "Design projects involving hardware (electronic devices and circuits, microcomputers) and software. [2-6-0]. Prerequisite: CPEN 211. Corequisite: ELEC 201. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "CPEN 211",
+        "tree": "CPEN 211",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": {
+        "text": "ELEC 201",
+        "tree": "ELEC 201",
+        "source": "rules",
+        "problems": []
+      },
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "CPEN 300",
+      "title": "Special Topics in Computer Engineering",
+      "credits": "1-12",
+      "description": "Lectures or projects on subjects of current interest. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "CPEN 311",
+      "title": "Digital Systems Design",
+      "credits": "4",
+      "description": "Advanced combinational and sequential electronic system design. Hardware specification, modelling, and simulation using hardware description languages (HDLs) and CAD tools. Design with programmable logic including FPGA's. Applications include complex state machines, microcontrollers, arithmetic circuits, and interface units. [3-3-0]. Prerequisite: One of CPEN 211, CPEN 312. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "One of CPEN 211, CPEN 312",
+        "tree": {
+          "one_of": [
+            "CPEN 211",
+            "CPEN 312"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "CPEN 312",
+      "title": "Digital Systems and Microcomputers",
+      "credits": "3",
+      "description": "Data representation in digital computers; boolean algebra; the design and optimization and implementation of combinatorial and sequential circuits; modern digital circuit technologies; memory and programmable logic devices; organization and operation of microcomputers; data/address bus organization; input-output interfacing. Credit will be granted for only one of CPEN 312, CPEN 211. [3-2*-0]. Prerequisite: One of ELEC 201, ELEC 204, ELEC 203, MECH 221. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "One of ELEC 201, ELEC 204, ELEC 203, MECH 221",
+        "tree": {
+          "one_of": [
+            "ELEC 201",
+            "ELEC 204",
+            "ELEC 203",
+            "MECH 221"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "CPEN 320",
+      "title": "Software Construction II",
+      "credits": "4",
+      "description": "Contemporary concepts and techniques for developing interactive software applications: client-server architectures; session oriented systems; security and scalability; models of application deployment.[3-2-0]. Prerequisite: All of CPEN 221, CPSC 221. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "All of CPEN 221, CPSC 221",
+        "tree": {
+          "all_of": [
+            "CPEN 221",
+            "CPSC 221"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "CPEN 321",
+      "title": "Software Engineering",
+      "credits": "4",
+      "description": "Engineering practices for the development of non-trivial software-intensive systems including requirements specification, software architecture, implementation, verification, and maintenance. Iterative development. Recognized standards, guidelines, and models. Credit will only be granted for only one of CPSC 310, CPEN 321. [3-2-0]. Corequisite: CPEN 322. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": {
+        "text": "CPEN 322",
+        "tree": "CPEN 322",
+        "source": "rules",
+        "problems": []
+      },
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "CPEN 331",
+      "title": "Operating Systems",
+      "credits": "4",
+      "description": "Operating systems, their design and their implementation. Process concurrency, synchronization, communication and scheduling. Device drivers, memory management, virtual memory, file systems, networking and security. [3-3-0] Prerequisite: CPEN 212 and CPEN 221. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "CPEN 212 and CPEN 221",
+        "tree": {
+          "all_of": [
+            "CPEN 212",
+            "CPEN 221"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "CPEN 333",
+      "title": "Software Design for Engineers II",
+      "credits": "3-4",
+      "description": "Use of operating systems abstractions; real-time systems; principles of concurrent and multi-threaded programming; information structures; introduction to object oriented analysis; design, and modelling using UML; software testing. This course is not open to students in the Computer Engineering program. [3-2-0]. Prerequisite: One of CPSC 259, CPEN 223. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "One of CPSC 259, CPEN 223",
+        "tree": {
+          "one_of": [
+            "CPSC 259",
+            "CPEN 223"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "CPEN 355",
+      "title": "Machine Learning with Engineering Applications",
+      "credits": "4",
+      "description": "Foundations and concepts of data science and machine learning with applications to engineering problems. [3-0-2] Prerequisite: One of MATH 152, MATH 221 and one of MATH 318, MATH 302, STAT 302, STAT 321, ELEC 321 and one of CPEN 221, CPEN 223, CPSC 259. Credit cannot be obtained for both CPEN 355 and CPSC 340. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "One of MATH 152, MATH 221 and one of MATH 318, MATH 302, STAT 302, STAT 321, ELEC 321 and one of CPEN 221, CPEN 223, CPSC 259",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "MATH 152",
+                "MATH 221"
+              ]
+            },
+            {
+              "one_of": [
+                "MATH 318",
+                "MATH 302",
+                "STAT 302",
+                "STAT 321",
+                "ELEC 321"
+              ]
+            },
+            {
+              "one_of": [
+                "CPEN 221",
+                "CPEN 223",
+                "CPSC 259"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "CPEN 391",
+      "title": "Computer Engineering Design Studio II",
+      "credits": "6",
+      "description": "Design and implementation of a hardware platform and software design and implementation at the operating system and application layers. Project management skills. Effective presentations. Going-forward, credit will be given for only one of CPEN 291, CPEN 391. [2-6-0]. Prerequisite: All of CPEN 212, CPSC 221, ELEC 201. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "All of CPEN 212, CPSC 221, ELEC 201",
+        "tree": {
+          "all_of": [
+            "CPEN 212",
+            "CPSC 221",
+            "ELEC 201"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "CPEN 400",
+      "title": "Topics in Computer Engineering",
+      "credits": "1-8",
+      "description": "Lectures or projects on subjects of current interest.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "CPEN 411",
+      "title": "Computer Architecture",
+      "credits": "4",
+      "description": "Modern processors, GPUs, and memory hierarchies; quantitative principles and instruction set design; pipelining, superscalar issue, out-of-order execution, branch prediction and speculation; memory hierarchies, caches, virtual addressing, prefetching, coherence, and consistency; multicores, VLIW, on-chip networks, and other advanced architectures. Credit will be granted for only one of CPEN 411 or CPSC 313. [3-0-2]. Prerequisite: CPEN 211 and CPEN 212. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "CPEN 211 and CPEN 212",
+        "tree": {
+          "all_of": [
+            "CPEN 211",
+            "CPEN 212"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "CPEN 412",
+      "title": "Microcomputer Systems Design",
+      "credits": "4",
+      "description": "Microprocessor and system buses; advanced I/O methods; priority interrupts; event/exception handling; serial I/O; computer networking; memory system design; interaction of hardware and software, microprocessor comparison, testability issues, safety critical systems. [3-2-0]. Prerequisite: CPEN 311 and one of CPEN 211, CPEN 312. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "CPEN 311 and one of CPEN 211, CPEN 312",
+        "tree": {
+          "all_of": [
+            "CPEN 311",
+            {
+              "one_of": [
+                "CPEN 211",
+                "CPEN 312"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "CPEN 416",
+      "title": "Gate-Model Quantum Computing",
+      "credits": "4",
+      "description": "A software-based introduction to gate model quantum computing algorithms. Basic elements of quantum computation; analysis and software implementation of Grover's algorithm, Shor's algorithm, quantum compilation, variational algorithms, Hamiltonian simulation, noise characterization. [3-0-1] Prerequisite: One of CPEN 221, CPEN 223, CPSC 259, CPSC 221, PHYS 210, and one of MATH 152, MATH 221, MATH 223. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "One of CPEN 221, CPEN 223, CPSC 259, CPSC 221, PHYS 210, and one of MATH 152, MATH 221, MATH 223",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "CPEN 221",
+                "CPEN 223",
+                "CPSC 259",
+                "CPSC 221",
+                "PHYS 210"
+              ]
+            },
+            {
+              "one_of": [
+                "MATH 152",
+                "MATH 221",
+                "MATH 223"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "CPEN 421",
+      "title": "Software Project Management",
+      "credits": "4",
+      "description": "Advanced project planning, cost estimation and scheduling. Project management tools. Factors influencing productivity and success. Productivity metrics. Analysis of options and risk. Tools. Case studies. [3-0-2]. Prerequisite: One of CPEN 321, CPSC 310. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "One of CPEN 321, CPSC 310",
+        "tree": {
+          "one_of": [
+            "CPEN 321",
+            "CPSC 310"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "CPEN 422",
+      "title": "Software Testing and Analysis",
+      "credits": "4",
+      "description": "Different levels of testing including unit, integration, system, performance and regression levels. Requirements flowdown. Problem tracking. Coverage criteria. Static methods. Tools support. Specialized techniques. Assessment of correctness, reliability, safety. [3-2-0]. Prerequisite: One of CPEN 221, CPEN 321, CPSC 210, CPSC 310. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "One of CPEN 221, CPEN 321, CPSC 210, CPSC 310",
+        "tree": {
+          "one_of": [
+            "CPEN 221",
+            "CPEN 321",
+            "CPSC 210",
+            "CPSC 310"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "CPEN 423",
+      "title": "Software Architecture",
+      "credits": "4",
+      "description": "Software architecture as a bridge from requirements to implementation. Architectural description and patterns. Iterative development. Use of commercial off-the-shelf products. [3-2-0]. Prerequisite: One of CPEN 221, CPEN 321, CPSC 310. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "One of CPEN 221, CPEN 321, CPSC 310",
+        "tree": {
+          "one_of": [
+            "CPEN 221",
+            "CPEN 321",
+            "CPSC 310"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "CPEN 431",
+      "title": "Design of Distributed Software Applications",
+      "credits": "4",
+      "description": "Communications, processes, naming, synchronization, consistency and replication, fault tolerance, middleware, and security technologies for distributed applications. [3-2-0]. Prerequisite: One of CPEN 331, CPSC 313 and one of CPEN 221, CPSC 210. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "One of CPEN 331, CPSC 313 and one of CPEN 221, CPSC 210",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "CPEN 331",
+                "CPSC 313"
+              ]
+            },
+            {
+              "one_of": [
+                "CPEN 221",
+                "CPSC 210"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "CPEN 432",
+      "title": "Real-time System Design",
+      "credits": "4",
+      "description": "Multi-tasking; interrupt-driven systems; task scheduling; schedulability analysis; inter-process communication and synchronization; resource management; performance measurement; hardware/software integration; hardware/software tradeoffs; system reliability. [3-0-2]. Prerequisite: One of CPEN 333, CPEN 331, CPSC 313. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "One of CPEN 333, CPEN 331, CPSC 313",
+        "tree": {
+          "one_of": [
+            "CPEN 333",
+            "CPEN 331",
+            "CPSC 313"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "CPEN 441",
+      "title": "Human Computer Interfaces in Engineering Design",
+      "credits": "4",
+      "description": "Practical issues for interfaces for modern software. Task analysis, user modelling, usability engineering, representations, metaphors, prototyping tools. Applications: interactive multimedia systems, engineering, scientific visualization, engineering design. [3-1-2*]. Prerequisite: CPSC 221 and one of CPEN 221, CPSC 210, CPEN 333. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "CPSC 221 and one of CPEN 221, CPSC 210, CPEN 333",
+        "tree": {
+          "all_of": [
+            "CPSC 221",
+            {
+              "one_of": [
+                "CPEN 221",
+                "CPSC 210",
+                "CPEN 333"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "CPEN 442",
+      "title": "Introduction to Cybersecurity",
+      "credits": "4",
+      "description": "Security risks, threats, and vulnerabilities from technical perspectives; cryptography; software and web security; access control, assurance, accountability; usable privacy and security; engineering of secure systems; cryptocurrencies. [3-2-0]. Prerequisite: One of CPEN 333, CPEN 331, CPSC 313. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "One of CPEN 333, CPEN 331, CPSC 313",
+        "tree": {
+          "one_of": [
+            "CPEN 333",
+            "CPEN 331",
+            "CPSC 313"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "CPEN 455",
+      "title": "Deep Learning",
+      "credits": "4",
+      "description": "Fundamentals of deep learning, including architectures (e.g., MLPs, CNNs, RNNs, Transformers, and GNNs) and learning algorithms under different paradigms (supervised / unsupervised / reinforcement learning). Emphasis on design principles and motivating applications. Recommended pre-requisite: CPEN 355 or CPSC 340. [3-0-2] Prerequisite: One of MATH 152, MATH 221 and one of MATH 318, MATH 302, STAT 302, STAT 321, ELEC 321 and one of CPEN 221, CPEN 223, CPSC 259. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "One of MATH 152, MATH 221 and one of MATH 318, MATH 302, STAT 302, STAT 321, ELEC 321 and one of CPEN 221, CPEN 223, CPSC 259",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "MATH 152",
+                "MATH 221"
+              ]
+            },
+            {
+              "one_of": [
+                "MATH 318",
+                "MATH 302",
+                "STAT 302",
+                "STAT 321",
+                "ELEC 321"
+              ]
+            },
+            {
+              "one_of": [
+                "CPEN 221",
+                "CPEN 223",
+                "CPSC 259"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": "CPEN 355 or CPSC 340"
+    },
+    {
+      "code": "CPEN 481",
+      "title": "Economic Analysis of Engineering Projects",
+      "credits": "3",
+      "description": "Time-money relationships; economic analysis of alternatives including the effects of interest rates, inflation, depreciation, taxation and uncertainty; cost estimation and budgeting; financial analysis of engineering operations. [3-0-0]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "CPEN 491",
+      "title": "Computer Engineering Capstone Design Project",
+      "credits": "5-10",
+      "description": "Design, analysis, and implementation of solutions in response to a real-world computer engineering problem, provided by industry, research laboratories, or other suitable entities. Includes coverage of topics such as project management. [2-6-0] or [2-6-0; 2-6-0] Prerequisite: All of CPEN 331, CPSC 320 and one of CPEN 311, CPEN 322; and one of CPEN 291, CPEN 391. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "All of CPEN 331, CPSC 320 and one of CPEN 311, CPEN 322; and one of CPEN 291, CPEN 391",
+        "tree": {
+          "all_of": [
+            "CPEN 331",
+            "CPSC 320",
+            {
+              "one_of": [
+                "CPEN 311",
+                "CPEN 322"
+              ]
+            },
+            {
+              "one_of": [
+                "CPEN 291",
+                "CPEN 391"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "CPEN 497",
+      "title": "Research Experience in Computer Engineering",
+      "credits": "1-3",
+      "description": "Directed research experience. Communication of research ideas. Pass/Fail. Prerequisite: Third-year standing. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "Third-year standing",
+        "tree": {
+          "other": "Third-year standing"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "CPEN 499",
+      "title": "Undergraduate Thesis",
+      "credits": "3-6",
+      "description": "Project in electrical engineering or computer engineering involving design, experimental and/or computer simulation work as selected from topics supplied by faculty members. An individual project thesis is to be prepared according to specifications available from the departmental office. [0-6-0] or [0-12-0]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "CPEN 502",
+      "title": "Architecture for Learning Systems",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "CPEN 511",
+      "title": "Advanced Computer Architecture",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "CPEN 512",
+      "title": "Parallel and Reconfigurable Computing",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "CPEN 513",
+      "title": "CAD Algorithms for Integrated Circuits",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "CPEN 514",
+      "title": "Quantum Information and Computation",
+      "credits": "3",
+      "description": "[3-0-0]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "CPEN 521",
+      "title": "Topics in Software Engineering",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "CPEN 522",
+      "title": "Software Verification and Testing",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "CPEN 523",
+      "title": "Software Project Management",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "CPEN 524",
+      "title": "Principles of Mobile Application Development and Analysis",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "CPEN 533",
+      "title": "Error Resilient Computing Systems",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "CPEN 534",
+      "title": "Trade-offs in Designing Computer Systems",
+      "credits": "3",
+      "description": "[3-0-0]. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "CPEN 541",
+      "title": "Human Interface Technologies",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "CPEN 542",
+      "title": "Cybersecurity",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "CPEN 642",
+      "title": "Cybersecurity Research Seminar",
+      "credits": "3-9",
+      "description": "Prerequisite: by permission of the instructor. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "by permission of the instructor",
+        "tree": {
+          "other": "by permission of the instructor"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    }
+  ]
+}

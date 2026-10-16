@@ -42,7 +42,7 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": "MATH 103, MATH 105. [3-0-0]",
+      "equivalency": "MATH 103, MATH 105",
       "recommended": null
     },
     {
@@ -59,7 +59,7 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": "MATH 100, 104. [3-0-0]",
+      "equivalency": "MATH 100, 104",
       "recommended": null
     },
     {
@@ -84,7 +84,7 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": "MATH 101, 105. [3-0-0]",
+      "equivalency": "MATH 101, 105",
       "recommended": null
     },
     {
@@ -101,7 +101,7 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": "MATH 100, 102. [3-0-0]",
+      "equivalency": "MATH 100, 102",
       "recommended": null
     },
     {
@@ -126,7 +126,7 @@
         "problems": []
       },
       "coreq": null,
-      "equivalency": "MATH 101, 103. [3-0-0]",
+      "equivalency": "MATH 101, 103",
       "recommended": null
     },
     {
@@ -2109,7 +2109,7 @@
       "prereq": null,
       "coreq": null,
       "equivalency": null,
-      "recommended": null
+      "recommended": "a score of 68% or higher in one of MATH 301, MATH 320, or, a score of 80% or higher in MATH 319"
     },
     {
       "code": "MATH 403",
@@ -2119,7 +2119,7 @@
       "prereq": null,
       "coreq": null,
       "equivalency": null,
-      "recommended": null
+      "recommended": "MATH 402, and one of (a) a score of 68% or higher in one of MATH 301, MATH 320, or (b) a score of 80% or higher in MATH 319"
     },
     {
       "code": "MATH 404",
@@ -3397,7 +3397,7 @@
       "prereq": null,
       "coreq": null,
       "equivalency": null,
-      "recommended": null
+      "recommended": "one of MATH 215, MATH 255, MATH 256 and one of MATH 256, MATH 257, MATH 316"
     },
     {
       "code": "MATH 553",
@@ -3422,7 +3422,7 @@
       "prereq": null,
       "coreq": null,
       "equivalency": null,
-      "recommended": null
+      "recommended": "elementary courses in differential equations and linear algebra"
     },
     {
       "code": "MATH 555",
@@ -3452,7 +3452,7 @@
       "prereq": null,
       "coreq": null,
       "equivalency": null,
-      "recommended": null
+      "recommended": "MATH 400 and some knowledge of either fluid mechanics or elasticity"
     },
     {
       "code": "MATH 559",

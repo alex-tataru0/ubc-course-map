@@ -73,7 +73,31 @@ def _is_text(piece: str) -> bool:
     # (a high school course: UBC codes have 3 digits). The student checks these themselves.
     # A bare number like the "201" in ENVR's "One of STAT 200, 201, …" is short for a course,
     # not text, so it needs letters too. SQUASHED finds codes with or without the space.
-    return not SQUASHED.search(piece) and re.search(r"[A-Za-z]{2}", piece) is not None
+    # COURSE also finds Okanagan codes like "APSC_O 172", which SQUASHED doesn't (MECH 260).
+    return (not SQUASHED.search(piece) and not COURSE.search(piece)
+            and re.search(r"[A-Za-z]{2}", piece) is not None)
+
+
+# A high school course, like "PHYS 12": UBC codes have 3 digits.
+HIGH_SCHOOL = re.compile(r"[A-Z]{2,4} \d{2}")
+
+
+def _split(text: str, separators: str) -> list[str]:
+    # Splits a list on the separators, but joins two pieces of text next to each other back
+    # up, since the separator was part of the text: "third-year standing or higher in IGEN"
+    # (CIVL 305), "the Biomechanics and Medical Devices Option" (MECH 459). Commas still
+    # split, and so do high school courses, so "One of BIOL 11, BIOL 12, BIOL 111" keeps
+    # BIOL 11 and BIOL 12 apart.
+    parts = re.split(f"({separators})", text, flags=re.IGNORECASE)
+    items = [parts[0]]
+    for separator, part in zip(parts[1::2], parts[2::2]):
+        words = [items[-1], part]
+        if ("," not in separator and all(_is_text(w) for w in words)
+                and not any(HIGH_SCHOOL.fullmatch(w.strip()) for w in words)):
+            items[-1] += separator + part
+        else:
+            items.append(part)
+    return items
 
 
 def _item(item: str):
@@ -81,6 +105,9 @@ def _item(item: str):
     # None if it's something else, like "MICB 211 (" (then Gemini reads the whole text).
     if COURSE.fullmatch(item):
         return item
+    if re.match(r"(or|and) ", item, re.IGNORECASE):
+        # "All of CHBE 241, CHBE 244, or third-year …" (CHBE 370) isn't a plain list.
+        return None
     if _is_text(item):
         return {"other": item}
     return None
@@ -88,6 +115,10 @@ def _item(item: str):
 
 def parse_clause(clause: str):
     clause = clause.strip(" .,;")
+    if clause.lower() in LEADS:
+        # A lead word left over from a list the rules didn't follow, like the "either" in
+        # ELEC 371's "(a) MATH 255 or MATH 256, and either (b) … or (c) …".
+        return None
     if _is_text(clause):
         # "Third-year standing" in CPSC 491's "All of CPSC 221, … and Third-year standing".
         return {"other": clause}
@@ -101,13 +132,18 @@ def parse_clause(clause: str):
     # Pick the tree key and how the courses are separated, based on how the clause starts.
     lower = clause.lower()
     if lower.startswith("one of "):
-        kind, items = "one_of", re.split(r", | or ", clause[len("one of "):])
+        # ", or " before the last one, as in MECH 435's "One of MECH 225, MECH 280, or CIVL 215".
+        kind, items = "one_of", _split(clause[len("one of "):], ", or |, | or ")
+        if len(items) == 1:
+            # "One of" a single course means the list goes on past an "and", as in CHBE 220's
+            # "One of CHEM 121 and CHEM 123 or CHEM 154", so the rules can't read it.
+            return None
     elif lower.startswith("all of "):
-        kind, items = "all_of", clause[len("all of "):].split(", ")
+        kind, items = "all_of", _split(clause[len("all of "):], ", ")
     elif lower.startswith("either "):
-        kind, items = "one_of", clause[len("either "):].split(" or ")
+        kind, items = "one_of", _split(clause[len("either "):], " or ")
     else:
-        kind, items = "one_of", clause.split(" or ")
+        kind, items = "one_of", _split(clause, " or ")
     return _combine(kind, [_item(item) for item in items])
 
 
@@ -161,7 +197,7 @@ def _parse(text: str):
         text = text[len("both "):]
     # "A and one of B, C and one of D, E" = you need every clause. "And" can be capitalized,
     # as in BIOL 431's "BIOL 200 And fourth-year standing".
-    clauses = re.split(" and ", text, flags=re.IGNORECASE)
+    clauses = _split(text, " and ")
     return _combine("all_of", [parse_clause(c) for c in clauses])
 
 
