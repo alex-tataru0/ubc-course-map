@@ -5,13 +5,14 @@ import { recentInstructors, sessionRange } from "@/lib/grades";
 import type { Highlight } from "@/lib/highlight";
 import { rateMyProfUrl, redditSearchUrl, ubcGradesUrl } from "@/lib/links";
 import type { AlsoNeeded, CoursePath } from "@/lib/path";
-import { requirementStatus } from "@/lib/progress";
+import { requirementStatus, WONT_TAKE } from "@/lib/progress";
 import type { CourseProgress } from "@/lib/progress";
 import type { Course, CourseGrades, ReqNode, Requisite } from "@/lib/types";
 import { GradeSummary, TeachingHistory } from "./Grades";
 import { Swatch } from "./Legend";
 import { StatusSample, TickChip } from "./Status";
 import { usePanelFocus } from "./usePanelFocus";
+import WithLinks from "./WithLinks";
 
 interface CourseDetailsProps {
   course: Course;
@@ -61,7 +62,8 @@ export default function CourseDetails({
   const { needs, unlocks } = highlight;
   const links = { onMap, onSelect, done, outside, onToggle };
   const isDone = done.has(course.code);
-  const hasPath = path !== null && path.terms.length > 0; // false once the course is done
+  // No path once the course is done, or for a course you wouldn't take (CPSC 103 or 107 after 110).
+  const hasPath = path !== null && path.terms.length > 0 && !(progress && WONT_TAKE.has(progress.status));
 
   // The panel scrolls on its own. A newly picked course starts at the top, not wherever the
   // last one was scrolled to.
@@ -151,7 +153,9 @@ export default function CourseDetails({
         )}
       </div>
 
-      <p className="mt-4 leading-relaxed">{summary}</p>
+      <p className="mt-4 leading-relaxed">
+        <WithLinks text={summary} />
+      </p>
 
       {hasPath && <PathView course={course} path={path} {...links} />}
 
@@ -299,11 +303,20 @@ function StatusNote({
             covers this course.
           </>
         )}
+        {status === "not-needed" && (
+          <>
+            <strong>Not needed.</strong> It needs {progress.blockedBy.join(" or ")}, which{" "}
+            {progress.blockedBy.length === 1 ? "isn't" : "aren't"} for students with{" "}
+            {progress.excludedBy.join(" or ")}.
+          </>
+        )}
       </p>
       {status === "check" && (
         <ul className="mt-1 ml-5 list-disc space-y-1">
           {progress.toCheck.map((item) => (
-            <li key={item}>{item}</li>
+            <li key={item}>
+              <WithLinks text={item} />
+            </li>
           ))}
         </ul>
       )}
@@ -362,7 +375,13 @@ function PathView({ course, path, ...links }: { course: Course; path: CoursePath
 
 function AlsoItem({ item, ...links }: { item: AlsoNeeded } & Links) {
   if (item.kind === "course") return <CourseCode code={item.code} {...links} />;
-  if (item.kind === "check") return <span>Check: {item.text}</span>;
+  if (item.kind === "check") {
+    return (
+      <span>
+        Check: <WithLinks text={item.text} />
+      </span>
+    );
+  }
   return (
     <span className="flex flex-wrap items-center gap-1.5">
       One of:
@@ -401,7 +420,7 @@ function RequisiteView({ requisite, ...links }: { requisite: Requisite } & Links
     <>
       <Requirement node={simplifyTree(requisite.tree)} {...links} />
       <p className="mt-3 text-xs text-ink-muted">
-        Calendar wording: “{requisite.text}”
+        Calendar wording: “<WithLinks text={requisite.text} />”
         {requisite.source === "llm" && " (turned into the list above by AI, then checked automatically)"}
       </p>
     </>
@@ -418,7 +437,13 @@ function Requirement({ node, ...links }: { node: ReqNode } & Links) {
       </span>
     );
   }
-  if ("other" in node) return <span>{node.other}</span>;
+  if ("other" in node) {
+    return (
+      <span>
+        <WithLinks text={node.other} />
+      </span>
+    );
+  }
 
   const [label, items] = "one_of" in node ? ["One of:", node.one_of] : ["All of:", node.all_of];
   return (

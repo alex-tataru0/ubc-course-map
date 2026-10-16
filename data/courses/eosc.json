@@ -167,7 +167,7 @@
       "code": "EOSC 220",
       "title": "Introductory Mineralogy",
       "credits": "3",
-      "description": "Introduction to crystallography, physical and chemical properties of minerals. Recognition and identification of common minerals. Please consult the Faculty of Science Credit Exclusion List: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… . [2-3-0] Prerequisite: One of CHEM 110, CHEM 111, CHEM 120, CHEM 121, CHEM 141, CHEM 154, SCIE 001.",
+      "description": "Introduction to crystallography, physical and chemical properties of minerals. Recognition and identification of common minerals. Please consult the Faculty of Science Credit Exclusion List: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-science/bachelor-science/credit-exclusion-lists . [2-3-0] Prerequisite: One of CHEM 110, CHEM 111, CHEM 120, CHEM 121, CHEM 141, CHEM 154, SCIE 001.",
       "prereq": {
         "text": "One of CHEM 110, CHEM 111, CHEM 120, CHEM 121, CHEM 141, CHEM 154, SCIE 001",
         "tree": {
@@ -207,7 +207,7 @@
       "code": "EOSC 222",
       "title": "Geological Time and Stratigraphy",
       "credits": "3",
-      "description": "Measuring geological time and understanding Earth history using stratigraphic principles, paleontology and radioactive decay. Please consult the Faculty of Science Credit Exclusion List: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… . [2-2-0] Prerequisite: Second-year standing in Science. One of EOSC 1**, EOSC 210, GEOB 103 is recommended.",
+      "description": "Measuring geological time and understanding Earth history using stratigraphic principles, paleontology and radioactive decay. Please consult the Faculty of Science Credit Exclusion List: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-science/bachelor-science/credit-exclusion-lists . [2-2-0] Prerequisite: Second-year standing in Science. One of EOSC 1**, EOSC 210, GEOB 103 is recommended.",
       "prereq": {
         "text": "Second-year standing in Science",
         "tree": {
@@ -354,7 +354,7 @@
       "code": "EOSC 310",
       "title": "The Earth and the Solar System",
       "credits": "3",
-      "description": "The Earth as a planet: its composition, internal dynamics, and surface evolution. Rotation, magnetic field, plate tectonics, earthquakes, volcanoes. The ocean, atmosphere, and biosphere as components of a varying geo-environment. Not for credit for students in specializations administered by the Department of Earth, Ocean, and Atmospheric Sciences. ( https://www.eoas.ubc.ca/undergrad/degrees ). No background in science or mathematics is required. Please consult the Faculty of Science Credit Exclusion List: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… [3-0-0] Prerequisite: 2nd-year class standing or higher.",
+      "description": "The Earth as a planet: its composition, internal dynamics, and surface evolution. Rotation, magnetic field, plate tectonics, earthquakes, volcanoes. The ocean, atmosphere, and biosphere as components of a varying geo-environment. Not for credit for students in specializations administered by the Department of Earth, Ocean, and Atmospheric Sciences. ( https://www.eoas.ubc.ca/undergrad/degrees ). No background in science or mathematics is required. Please consult the Faculty of Science Credit Exclusion List: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-science/bachelor-science/credit-exclusion-lists [3-0-0] Prerequisite: 2nd-year class standing or higher.",
       "prereq": {
         "text": "2nd-year class standing or higher",
         "tree": {
@@ -533,7 +533,7 @@
       "code": "EOSC 326",
       "title": "Earth and Life Through Time",
       "credits": "3",
-      "description": "The fossil record of adaptation and extinction emphasizing the interaction of biological and geological processes. Not for credit in Geological Sciences and Geophysics specializations. Please consult the Faculty of Science Credit Exclusion List: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… . Second-year class standing or higher. [3-0-0] Prerequisite: Biology 12 or BIOL 100-level.",
+      "description": "The fossil record of adaptation and extinction emphasizing the interaction of biological and geological processes. Not for credit in Geological Sciences and Geophysics specializations. Please consult the Faculty of Science Credit Exclusion List: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-science/bachelor-science/credit-exclusion-lists . Second-year class standing or higher. [3-0-0] Prerequisite: Biology 12 or BIOL 100-level.",
       "prereq": {
         "text": "Biology 12 or BIOL 100-level",
         "tree": {
@@ -626,7 +626,7 @@
       "code": "EOSC 330",
       "title": "Principles of Geomorphology",
       "credits": "3",
-      "description": "Landform development; morphological and historical analysis of landforms; applications in engineering and resource development. Please consult the Faculty of Science Credit Exclusion List: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… . [3-2-0] Prerequisite: One of GEOB 103, EOSC 110, EOSC 210.",
+      "description": "Landform development; morphological and historical analysis of landforms; applications in engineering and resource development. Please consult the Faculty of Science Credit Exclusion List: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-science/bachelor-science/credit-exclusion-lists . [3-2-0] Prerequisite: One of GEOB 103, EOSC 110, EOSC 210.",
       "prereq": {
         "text": "One of GEOB 103, EOSC 110, EOSC 210",
         "tree": {
@@ -2024,7 +2024,7 @@
       "code": "EOSC 534",
       "title": "Geological Engineering: Soils and Weak Rocks",
       "credits": "3",
-      "description": "Consult the credit exclusion list in the Faculty of Science section of the Calendar. https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… . This course is not eligible for Credit/D/Fail grading.",
+      "description": "Consult the credit exclusion list in the Faculty of Science section of the Calendar. https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-science/bachelor-science/credit-exclusion-lists . This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
       "equivalency": null,
@@ -2044,7 +2044,7 @@
       "code": "EOSC 536",
       "title": "Geotechnical Modelling in Practice",
       "credits": "3",
-      "description": "Application of geomechanics and engineering design tools in complex geological environments. Influence and treatment of geological uncertainty; use of field data, geotechnical monitoring and numerical analyses for tunnelling, mining and rock slope engineering projects. Case histories. See credit exclusion list www.vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-sc… . This course is not eligible for Credit/D/Fail grading.",
+      "description": "Application of geomechanics and engineering design tools in complex geological environments. Influence and treatment of geological uncertainty; use of field data, geotechnical monitoring and numerical analyses for tunnelling, mining and rock slope engineering projects. Case histories. See credit exclusion list http://www.vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-science/bachelor-science/credit-exclusion-lists . This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
       "equivalency": null,

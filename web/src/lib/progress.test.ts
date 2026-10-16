@@ -17,6 +17,10 @@ const done = (...codes: string[]) => new Set(codes);
 const url = new URL("../../../data/courses/cpsc.json", import.meta.url);
 const data: CourseFile = JSON.parse(readFileSync(url, "utf8"));
 const find = (code: string) => data.courses.find((c) => c.code === code)!;
+const read = (subject: string): CourseFile =>
+  JSON.parse(readFileSync(new URL(`../../../data/courses/${subject}.json`, import.meta.url), "utf8"));
+const science = ["biol", "chem", "phys", "scie"].flatMap((subject) => read(subject).courses);
+const findAny = (code: string) => science.find((c) => c.code === code)!;
 
 describe("requirementStatus", () => {
   it("checks a single course", () => {
@@ -128,10 +132,41 @@ describe("restrictionOf and exclusionsOf", () => {
     expect(restrictionOf(find("CPSC 210").description)).toBeNull();
   });
 
+  it("reads other ways of saying it", () => {
+    expect(restrictionOf(find("CPSC 490").description)).toBe(
+      "Course structure, enrolment and delivery methods will comply with the Handbook for Student Directed Seminars",
+    );
+    expect(restrictionOf(findAny("BIOL 448").description)).toBe("Permission of the supervisor required");
+    expect(restrictionOf(findAny("PHYS 349").description)).toBe(
+      "This course requires approval of the course instructor and program advisor in the Department of Physics and Astronomy",
+    );
+    expect(restrictionOf(findAny("CHEM 203").description)).toBe(
+      "Only open to students in Chemistry or Biochemistry specializations",
+    );
+    // A full stop inside "B.Sc." doesn't end the sentence.
+    expect(restrictionOf(findAny("SCIE 113").description)).toBe(
+      "Enrolment limited to students in the B.Sc. program in Science",
+    );
+  });
+
+  it("doesn't take other mentions of permission as a restriction", () => {
+    // "May be taken more than once for credit with permission of the department."
+    expect(restrictionOf(find("CPSC 436").description)).toBeNull();
+    // "… or permission of the instructor" in a prerequisite is one way to meet it.
+    expect(restrictionOf("A course. Prerequisite: CPSC 110 or permission of the instructor.")).toBeNull();
+  });
+
   it("finds the courses that rule a course out", () => {
-    expect(exclusionsOf(find("CPSC 100").description)).toEqual(["CPSC 107", "CPSC 110", "APSC 160"]);
-    expect(exclusionsOf(find("CPSC 203").description)).toEqual(["CPSC 210", "CPEN 221"]);
-    expect(exclusionsOf(find("CPSC 210").description)).toEqual([]);
+    expect(exclusionsOf(find("CPSC 100"))).toEqual(["CPSC 107", "CPSC 110", "APSC 160"]);
+    expect(exclusionsOf(find("CPSC 203"))).toEqual(["CPSC 210", "CPEN 221"]);
+    expect(exclusionsOf(find("CPSC 210"))).toEqual([]);
+  });
+
+  it("reads \"credit will be granted for only one of\", leaving out the course itself", () => {
+    expect(exclusionsOf(findAny("BIOL 121"))).toEqual(["BIOL 344"]);
+    // "CHEM 203 or CHEM 223, CHEM 225 or CHEM 233, 235": the bare 235 is CHEM 235.
+    expect(exclusionsOf(findAny("CHEM 203"))).toEqual(["CHEM 223", "CHEM 225", "CHEM 233", "CHEM 235"]);
+    expect(exclusionsOf(findAny("PHYS 450"))).toEqual(["PHYS 304", "CHEM 312"]);
   });
 });
 
@@ -183,6 +218,7 @@ describe("courseProgress", () => {
       status: "check",
       toCheck: ["Principles of Mathematics 12 or Pre-calculus 12"],
       excludedBy: [],
+      blockedBy: [],
     });
   });
 
@@ -193,13 +229,43 @@ describe("courseProgress", () => {
       status: "no-credit",
       toCheck: [],
       excludedBy: ["CPSC 110"],
+      blockedBy: [],
     });
     expect(progress.get("CPSC 103")!.status).toBe("no-credit");
   });
 
+  it("doesn't count on a course that's ruled out", () => {
+    // CPSC 107 needs CPSC 103, which isn't for students with CPSC 110.
+    expect(courseProgress(courses, done("CPSC 110")).get("CPSC 107")).toEqual({
+      status: "not-needed",
+      toCheck: [],
+      excludedBy: ["CPSC 110"],
+      blockedBy: ["CPSC 103"],
+    });
+    // With CPSC 103 done instead, CPSC 107 is the next step.
+    expect(courseProgress(courses, done("CPSC 103")).get("CPSC 107")!.status).toBe("can-take");
+  });
+
+  it("is still \"not yet\" when another way in is open", () => {
+    const made = (code: string, prereq: ReqNode, description = ""): Course => ({
+      ...course(code, prereq),
+      description,
+    });
+    const list = [
+      made("AAA 100", "ZZZ 100", "Not for students with credit for YYY 100."),
+      made("BBB 200", { one_of: ["AAA 100", "XXX 100"] }),
+      made("CCC 200", { all_of: ["AAA 100", "XXX 100"] }),
+    ];
+    const progress = courseProgress(list, done("YYY 100"));
+    expect(progress.get("AAA 100")!.status).toBe("no-credit");
+    expect(progress.get("BBB 200")!.status).toBe("locked"); // XXX 100 still works
+    expect(progress.get("CCC 200")!.status).toBe("not-needed");
+  });
+
   it("asks you to check courses restricted to some students", () => {
     const progress = courseProgress(courses, done());
-    expect(statusOf(progress, "CPSC 298", "CPSC 349", "CPSC 448")).toEqual([
+    expect(statusOf(progress, "CPSC 298", "CPSC 349", "CPSC 448", "CPSC 490")).toEqual([
+      "check",
       "check",
       "check",
       "check",
@@ -228,6 +294,7 @@ describe("countStatuses", () => {
     const counts = countStatuses(courseProgress(courses, done("CPSC 110", "CPSC 121")));
     expect(counts.done).toBe(2);
     expect(counts["no-credit"]).toBe(2); // CPSC 100 and 103
+    expect(counts["not-needed"]).toBe(1); // CPSC 107
     const total = Object.values(counts).reduce((sum, n) => sum + n, 0);
     expect(total).toBe(courses.length);
   });

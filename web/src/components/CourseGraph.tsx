@@ -33,7 +33,7 @@ import {
 } from "@/lib/program";
 import type { ProgramKind } from "@/lib/program";
 import { useProgramChoice } from "@/lib/programChoice";
-import { countStatuses, courseProgress } from "@/lib/progress";
+import { countStatuses, courseProgress, WONT_TAKE } from "@/lib/progress";
 import type { CourseStatus } from "@/lib/progress";
 import type { SubjectMap } from "@/lib/subjectMap";
 import type { Course, CourseGrades, Program } from "@/lib/types";
@@ -279,13 +279,15 @@ export default function CourseGraph({
   // The shortest path to the selected course from the courses done, shown in the side panel.
   // With "Show this path on the map" on, the map lights up just that path, with term numbers,
   // instead of every course the selected one could need. The switch stays as it is while
-  // you click around.
+  // you click around. There's no path to a course you wouldn't take (CPSC 107 after 110).
   const [showPath, setShowPath] = useState(false);
   const path = useMemo(
     () => (selected === null ? null : planPath(selected, details, done)),
     [selected, details, done],
   );
-  const pathOnMap = showPath && path !== null && path.terms.length > 0;
+  const selectedStatus = selected === null ? undefined : progress.get(selected)?.status;
+  const wontTake = selectedStatus !== undefined && WONT_TAKE.has(selectedStatus);
+  const pathOnMap = showPath && path !== null && path.terms.length > 0 && !wontTake;
 
   // On another subject's map, a course picked on the old one is let go, unless the new map
   // has it too. Adjusting state while rendering is how React suggests following a prop change.

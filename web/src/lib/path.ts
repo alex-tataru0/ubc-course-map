@@ -1,5 +1,5 @@
 import { buildGraph, descendants, prereqCourses } from "./graph";
-import { exclusionsOf, requirementStatus, restrictionOf } from "./progress";
+import { notForStudentsWith, requirementStatus, restrictionOf } from "./progress";
 import type { Course, ReqNode } from "./types";
 
 // Something a path needs besides the courses it plans.
@@ -124,7 +124,7 @@ export function planPath(target: string, courses: Course[], done: ReadonlySet<st
   // Does a course in plan `a` say it's not for students with credit for a course in plan `b`?
   function isLesser(a: Plan, b: Plan): boolean {
     for (const code of a.courses) {
-      const excluded = exclusionsOf(byCode.get(code)!.description);
+      const excluded = notForStudentsWith(byCode.get(code)!);
       if (excluded.some((other) => b.courses.has(other))) return true;
     }
     return false;

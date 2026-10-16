@@ -114,7 +114,7 @@
       ]
     }
   },
-  "All of (a) CPSC 221 or DSCI 221, (b) at least 3 credits from MATH or STAT at 200 level or above or MATH_O 200, MATH_O 220, MATH_O 222, MATH_O 225, MATH_O 307, STAT_O 121, STAT_O 203, STAT_O 205, STAT_O 230, STAT_O 303 or any course on the STAT 200 credit exclusion: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult\u2026 or HES_O 340, HMKN_O 205, POLI_O 400, PSYO_O 271, STAT_O 124": {
+  "All of (a) CPSC 221 or DSCI 221, (b) at least 3 credits from MATH or STAT at 200 level or above or MATH_O 200, MATH_O 220, MATH_O 222, MATH_O 225, MATH_O 307, STAT_O 121, STAT_O 203, STAT_O 205, STAT_O 230, STAT_O 303 or any course on the STAT 200 credit exclusion: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-science/bachelor-science/credit-exclusion-lists or HES_O 340, HMKN_O 205, POLI_O 400, PSYO_O 271, STAT_O 124": {
     "model": "gemini-3.8-flash",
     "problems": [],
     "tree": {
@@ -141,7 +141,7 @@
             "STAT_O 230",
             "STAT_O 303",
             {
-              "other": "any course on the STAT 200 credit exclusion: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult\u2026"
+              "other": "any course on the STAT 200 credit exclusion: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-science/bachelor-science/credit-exclusion-lists"
             },
             "HES_O 340",
             "HMKN_O 205",
@@ -1271,13 +1271,13 @@
       ]
     }
   },
-  "One of any course on the MATH 100 credit exclusion list [ https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult\u2026 ], MATH 190, SCIE 001, MATH_O 100": {
+  "One of any course on the MATH 100 credit exclusion list [ https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-science/bachelor-science/credit-exclusion-lists ], MATH 190, SCIE 001, MATH_O 100": {
     "model": "gemini-3.8-flash",
     "problems": [],
     "tree": {
       "one_of": [
         {
-          "other": "any course on the MATH 100 credit exclusion list [ https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult\u2026 ]"
+          "other": "any course on the MATH 100 credit exclusion list [ https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-science/bachelor-science/credit-exclusion-lists ]"
         },
         "MATH 190",
         "SCIE 001",

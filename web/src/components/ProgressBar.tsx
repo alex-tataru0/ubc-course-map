@@ -1,3 +1,4 @@
+import { useEffect, useRef, useState } from "react";
 import type { CourseStatus } from "@/lib/progress";
 import { StatusSample } from "./Status";
 
@@ -34,6 +35,8 @@ export default function ProgressBar({
     "flex flex-wrap items-center gap-x-4 gap-y-2 rounded-lg border border-line bg-surface/95 px-3 py-2 text-sm text-ink shadow-sm";
 
   if (marking) {
+    // Finish takes focus after Clear all, which goes away once nothing is marked.
+    const afterClear = () => document.getElementById("finish-marking")?.focus();
     return (
       <div className={bar}>
         <span>
@@ -44,11 +47,16 @@ export default function ProgressBar({
             Courses not on the map{outsideTicked > 0 && ` (${outsideTicked})`}
           </button>
           {marked > 0 && (
-            <button type="button" onClick={onClear} className={button}>
-              Clear all
-            </button>
+            <ClearAll
+              marked={marked}
+              onClear={() => {
+                onClear();
+                afterClear();
+              }}
+              className={button}
+            />
           )}
-          <button type="button" onClick={onFinish} className={primary}>
+          <button type="button" id="finish-marking" onClick={onFinish} className={primary}>
             Finish
           </button>
         </span>
@@ -86,5 +94,41 @@ export default function ProgressBar({
         Edit my courses
       </button>
     </div>
+  );
+}
+
+// "Clear all" asks first, in the bar itself, since it can't be undone:
+// "Clear all 12 marked courses? [Yes, clear] [Cancel]". Cancel is the one with focus.
+function ClearAll({ marked, onClear, className }: { marked: number; onClear: () => void; className: string }) {
+  const [asking, setAsking] = useState(false);
+  const clearRef = useRef<HTMLButtonElement>(null);
+  const cancelRef = useRef<HTMLButtonElement>(null);
+  const asked = useRef(false);
+  // Focus follows the buttons as they swap: to Cancel when asking, back to Clear all after.
+  useEffect(() => {
+    if (asking) cancelRef.current?.focus();
+    else if (asked.current) clearRef.current?.focus();
+    asked.current = asking;
+  }, [asking]);
+
+  if (!asking) {
+    return (
+      <button type="button" ref={clearRef} onClick={() => setAsking(true)} className={className}>
+        Clear all
+      </button>
+    );
+  }
+  return (
+    <span role="group" aria-label="Clear all marked courses?" className="flex flex-wrap items-center gap-2">
+      <span className="font-medium">
+        Clear all {marked} marked {marked === 1 ? "course" : "courses"}?
+      </span>
+      <button type="button" onClick={onClear} className={className}>
+        Yes, clear
+      </button>
+      <button type="button" ref={cancelRef} onClick={() => setAsking(false)} className={className}>
+        Cancel
+      </button>
+    </span>
   );
 }

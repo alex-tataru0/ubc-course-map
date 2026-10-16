@@ -126,7 +126,8 @@ describe("planPath across CPSC, MATH and STAT", () => {
           kind: "check",
           text:
             "any course on the MATH 100 credit exclusion list [ https://vancouver.calendar.ubc.ca/" +
-            "faculties-colleges-and-schools/facult… ] or SCIE 001",
+            "faculties-colleges-and-schools/faculty-science/bachelor-science/credit-exclusion-lists ]" +
+            " or SCIE 001",
         },
       ],
     });

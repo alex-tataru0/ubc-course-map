@@ -10,6 +10,7 @@ export const STATUS_TEXT: Record<CourseStatus, string> = {
   check: "Check first",
   locked: "Not yet",
   "no-credit": "No credit",
+  "not-needed": "Not needed",
 };
 
 // A course box's fill (background and text) and border.
@@ -29,10 +30,11 @@ export const STATUS_BOX: Record<CourseStatus, BoxLook> = {
   check: { fill: "bg-surface text-ink", border: "border-2 border-dashed border-ink-muted" },
   locked: PLAIN_BOX,
   "no-credit": PLAIN_BOX,
+  "not-needed": PLAIN_BOX,
 };
 
 // Statuses with nothing to do right now, so their boxes fade into the background.
-export const FADED: ReadonlySet<CourseStatus> = new Set(["locked", "no-credit"]);
+export const FADED: ReadonlySet<CourseStatus> = new Set(["locked", "no-credit", "not-needed"]);
 
 // A tiny box in a status's look, used as the key in the bar and the side panel.
 export function StatusSample({ status }: { status: CourseStatus }) {

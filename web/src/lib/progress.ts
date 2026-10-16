@@ -1,3 +1,4 @@
+import { splitDescription } from "./details";
 import type { Course, ReqNode } from "./types";
 
 // Whether a requirement holds, given the courses someone has finished.
@@ -55,35 +56,105 @@ export function toCheck(node: ReqNode, done: ReadonlySet<string>): string[] {
 }
 
 // The sentence in a description that says who can take the course, without its full stop, e.g.
-// "Restricted to students admitted to the Co-operative Education Program in Computer Science".
-const RESTRICTION = /(?:Restricted to|Available to|Open ordinarily to)[^.]*/;
+// "Restricted to students admitted to the Co-operative Education Program in Computer Science",
+// "Not open to students in the Life Sciences", "Permission of the supervisor required" or
+// CPSC 490's "… will comply with the Handbook for Student Directed Seminars".
+// Only the description itself is read, not the requisites after it, where "or permission of
+// the instructor" is one way to meet a prerequisite, not a restriction.
+const RESTRICTION = new RegExp(
+  "\\b(?:restricted to|available to|open (?:ordinarily |only )?to|enrolment limited to|" +
+    "requires (?:the )?(?:permission|approval)|approval of|with approval|approved by|" +
+    "Handbook for Student Directed Seminars)\\b|^Permission of\\b",
+  "i",
+);
+// A sentence ends at a full stop followed by a capital letter or weekly hours ("[1*-6-0]"),
+// so "the B.Sc. program" stays whole.
+const SENTENCE_END = /(?<=\.)\s+(?=[A-Z[])/;
 
 export function restrictionOf(description: string): string | null {
-  return description.match(RESTRICTION)?.[0] ?? null;
+  const sentences = splitDescription(description).summary.split(SENTENCE_END);
+  const sentence = sentences.find((s) => RESTRICTION.test(s));
+  return sentence ? sentence.trim().replace(/\.+$/, "") : null;
 }
 
-// The courses that rule this one out, from a sentence like
-// "Not for students with credit for, or currently enrolled in, CPSC 210 or CPEN 221."
-const EXCLUSION = /Not for [^.]*\./;
-const COURSE_CODE = /\b[A-Z]{2,4} \d{3}\b/g;
+// A course code, or a bare number after one in a list, which is in the same subject:
+// "CHEM 233, 235" is CHEM 233 and CHEM 235.
+const CODE_OR_NUMBER = /\b([A-Z]{2,4}) (\d{3})\b|(?:,\s*|\s(?:or|and)\s+|\/)(\d{3})\b/g;
 
-export function exclusionsOf(description: string): string[] {
-  const sentence = description.match(EXCLUSION);
-  return sentence ? (sentence[0].match(COURSE_CODE) ?? []) : [];
+function codesIn(text: string): string[] {
+  const codes: string[] = [];
+  let subject: string | null = null;
+  for (const [, code, number, bare] of text.matchAll(CODE_OR_NUMBER)) {
+    if (code) {
+      subject = code;
+      codes.push(`${code} ${number}`);
+    } else if (subject) {
+      codes.push(`${subject} ${bare}`);
+    }
+  }
+  return codes;
+}
+
+// The courses named in the sentences of a course's description that match `sentence`,
+// leaving out the course itself.
+function codesInSentences(course: Pick<Course, "code" | "description">, sentence: RegExp): string[] {
+  const codes = [...course.description.matchAll(sentence)].flatMap(([text]) => codesIn(text));
+  return [...new Set(codes)].filter((code) => code !== course.code);
+}
+
+const NOT_FOR = /Not for [^.]*\./g;
+const ONLY_ONE_OF = /Credit will (?:only )?be granted for only one of [^.]*\./g;
+
+// The courses this one is a lesser choice than, from a sentence like
+// "Not for students with credit for, or currently enrolled in, CPSC 210 or CPEN 221."
+export function notForStudentsWith(course: Pick<Course, "code" | "description">): string[] {
+  return codesInSentences(course, NOT_FOR);
+}
+
+// Every course that rules this one out: those, and the others in a sentence like
+// "Credit will be granted for only one of BIOL 121 or BIOL 344."
+export function exclusionsOf(course: Pick<Course, "code" | "description">): string[] {
+  return [...new Set([...notForStudentsWith(course), ...codesInSentences(course, ONLY_ONE_OF)])];
+}
+
+// Whether a requirement could still be met by someone who can't take the courses in `ruledOut`
+// for credit, if they took everything else. Things to check might work out, so they count.
+function reachable(node: ReqNode, ruledOut: ReadonlyMap<string, unknown>): boolean {
+  if (typeof node === "string") return !ruledOut.has(node);
+  if ("course" in node) return !ruledOut.has(node.course);
+  if ("other" in node) return true;
+  if ("one_of" in node) return node.one_of.some((child) => reachable(child, ruledOut));
+  return node.all_of.every((child) => reachable(child, ruledOut));
+}
+
+// Every course code in a requirement tree, in order.
+function treeCodes(node: ReqNode): string[] {
+  if (typeof node === "string") return [node];
+  if ("course" in node) return [node.course];
+  if ("other" in node) return [];
+  return ("one_of" in node ? node.one_of : node.all_of).flatMap(treeCodes);
 }
 
 // What a course looks like to someone who has finished the courses in `done`:
 // - "done": finished.
 // - "no-credit": they've finished a course that rules this one out (CPSC 100 after CPSC 110).
+// - "not-needed": every way into it goes through a "no-credit" course, so they wouldn't take it
+//   (CPSC 107 needs CPSC 103, which isn't for students with CPSC 110).
 // - "locked": a requirement isn't met.
 // - "check": nothing we know of is missing, but something can't be checked from courses alone.
 // - "can-take": every requirement is met.
-export type CourseStatus = "done" | "no-credit" | "locked" | "check" | "can-take";
+export type CourseStatus = "done" | "no-credit" | "not-needed" | "locked" | "check" | "can-take";
+
+// Courses someone wouldn't take, so the side panel and the map show no path to them.
+export const WONT_TAKE: ReadonlySet<CourseStatus> = new Set(["no-credit", "not-needed"]);
 
 export interface CourseProgress {
   status: CourseStatus;
   toCheck: string[]; // for "check": what to check yourself, e.g. ["Third-year standing"]
-  excludedBy: string[]; // for "no-credit": the finished courses that rule it out, e.g. ["CPSC 110"]
+  // For "no-credit": the finished courses that rule it out, e.g. ["CPSC 110"].
+  // For "not-needed": the finished courses that rule out its way in.
+  excludedBy: string[];
+  blockedBy: string[]; // for "not-needed": its prerequisites that are "no-credit", e.g. ["CPSC 103"]
 }
 
 // The progress of every course in `courses`, by course code.
@@ -102,44 +173,59 @@ export function courseProgress(
     }
   }
 
+  // Courses a finished course rules out, with the finished courses that do it.
+  const ruledOut = new Map<string, string[]>();
+  for (const course of courses) {
+    const by = exclusionsOf(course).filter((code) => done.has(code));
+    if (by.length > 0 && !done.has(course.code)) ruledOut.set(course.code, by);
+  }
+
   const progress = new Map<string, CourseProgress>();
   for (const course of courses) {
-    progress.set(course.code, progressOf(course, done, startable));
+    progress.set(course.code, progressOf(course, done, startable, ruledOut));
   }
   return progress;
 }
+
+const NOTHING = { toCheck: [], excludedBy: [], blockedBy: [] };
 
 function progressOf(
   course: Course,
   done: ReadonlySet<string>,
   startable: ReadonlySet<string>,
+  ruledOut: ReadonlyMap<string, string[]>,
 ): CourseProgress {
   if (done.has(course.code)) {
-    return { status: "done", toCheck: [], excludedBy: [] };
+    return { ...NOTHING, status: "done" };
   }
 
-  const excludedBy = exclusionsOf(course.description).filter((code) => done.has(code));
-  if (excludedBy.length > 0) {
-    return { status: "no-credit", toCheck: [], excludedBy };
+  const excludedBy = ruledOut.get(course.code);
+  if (excludedBy) {
+    return { ...NOTHING, status: "no-credit", excludedBy };
   }
 
   const prereq = course.prereq ? requirementStatus(course.prereq.tree, done) : "met";
+  if (course.prereq && prereq === "unmet" && !reachable(course.prereq.tree, ruledOut)) {
+    const blockedBy = [...new Set(treeCodes(course.prereq.tree))].filter((code) => ruledOut.has(code));
+    const by = [...new Set(blockedBy.flatMap((code) => ruledOut.get(code)!))];
+    return { ...NOTHING, status: "not-needed", excludedBy: by, blockedBy };
+  }
   const coreq = course.coreq ? requirementStatus(course.coreq.tree, startable) : "met";
   const restriction = restrictionOf(course.description);
   const status = allOf([prereq, coreq, restriction ? "unknown" : "met"]);
 
   if (status === "unmet") {
-    return { status: "locked", toCheck: [], excludedBy: [] };
+    return { ...NOTHING, status: "locked" };
   }
   if (status === "met") {
-    return { status: "can-take", toCheck: [], excludedBy: [] };
+    return { ...NOTHING, status: "can-take" };
   }
   const items = [
     ...(course.prereq ? toCheck(course.prereq.tree, done) : []),
     ...(course.coreq ? toCheck(course.coreq.tree, startable) : []),
     ...(restriction ? [restriction] : []),
   ];
-  return { status: "check", toCheck: items, excludedBy: [] };
+  return { ...NOTHING, status: "check", toCheck: items };
 }
 
 // How many courses have each status, for the summary above the graph ("5 done · 9 you can take").
@@ -147,6 +233,7 @@ export function countStatuses(progress: Map<string, CourseProgress>): Record<Cou
   const counts: Record<CourseStatus, number> = {
     done: 0,
     "no-credit": 0,
+    "not-needed": 0,
     locked: 0,
     check: 0,
     "can-take": 0,

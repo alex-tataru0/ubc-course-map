@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { rateMyProfUrl, redditSearchUrl, ubcGradesUrl } from "./links";
+import { linkLabel, rateMyProfUrl, redditSearchUrl, splitLinks, ubcGradesUrl } from "./links";
 
 describe("links", () => {
   it("searches r/UBC for the course code", () => {
@@ -20,5 +20,43 @@ describe("links", () => {
 
   it("opens the course on UBCGrades", () => {
     expect(ubcGradesUrl("CPSC 221")).toBe("https://ubcgrades.com/statistics-by-course#UBCV-CPSC-221");
+  });
+});
+
+const EXCLUSION_LISTS =
+  "https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-science/bachelor-science/credit-exclusion-lists";
+
+describe("splitLinks", () => {
+  it("finds the web addresses in calendar text", () => {
+    expect(splitLinks(`See the Credit Exclusion Lists: ${EXCLUSION_LISTS}. Not for credit.`)).toEqual([
+      { text: "See the Credit Exclusion Lists: " },
+      { url: EXCLUSION_LISTS, label: "vancouver.calendar.ubc.ca/…/credit-exclusion-lists" },
+      { text: ". Not for credit." },
+    ]);
+  });
+
+  it("leaves out brackets and commas around an address", () => {
+    const parts = splitLinks(`the MATH 100 credit exclusion list [ ${EXCLUSION_LISTS} ], MATH 190`);
+    expect(parts.map((part) => ("url" in part ? "LINK" : part.text))).toEqual([
+      "the MATH 100 credit exclusion list [ ",
+      "LINK",
+      " ], MATH 190",
+    ]);
+    expect(splitLinks("(https://www.eoas.ubc.ca/undergrad/degrees).")[1]).toEqual({
+      url: "https://www.eoas.ubc.ca/undergrad/degrees",
+      label: "eoas.ubc.ca/undergrad/degrees",
+    });
+  });
+
+  it("keeps text with no address as it is", () => {
+    expect(splitLinks("Third-year standing")).toEqual([{ text: "Third-year standing" }]);
+  });
+});
+
+describe("linkLabel", () => {
+  it("keeps short addresses whole and shortens long ones to the site and the page", () => {
+    expect(linkLabel("http://www.scienceone.ubc.ca")).toBe("scienceone.ubc.ca");
+    expect(linkLabel("https://www.eoas.ubc.ca/undergrad/degrees")).toBe("eoas.ubc.ca/undergrad/degrees");
+    expect(linkLabel(EXCLUSION_LISTS)).toBe("vancouver.calendar.ubc.ca/…/credit-exclusion-lists");
   });
 });

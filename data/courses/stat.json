@@ -6,13 +6,13 @@
       "code": "STAT 200",
       "title": "Elementary Statistics for Applications",
       "credits": "3",
-      "description": "Classical, nonparametric, and robust inferences about means, variances, and analysis of variance, using computers. Emphasis on problem formulation, assumptions, and interpretation. See the Faculty of Science Credit Exclusion Lists: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… [3-1-0] Prerequisite: One of any course on the MATH 100 credit exclusion list [ https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… ], MATH 190, SCIE 001, MATH_O 100.",
+      "description": "Classical, nonparametric, and robust inferences about means, variances, and analysis of variance, using computers. Emphasis on problem formulation, assumptions, and interpretation. See the Faculty of Science Credit Exclusion Lists: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-science/bachelor-science/credit-exclusion-lists [3-1-0] Prerequisite: One of any course on the MATH 100 credit exclusion list [ https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-science/bachelor-science/credit-exclusion-lists ], MATH 190, SCIE 001, MATH_O 100.",
       "prereq": {
-        "text": "One of any course on the MATH 100 credit exclusion list [ https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… ], MATH 190, SCIE 001, MATH_O 100",
+        "text": "One of any course on the MATH 100 credit exclusion list [ https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-science/bachelor-science/credit-exclusion-lists ], MATH 190, SCIE 001, MATH_O 100",
         "tree": {
           "one_of": [
             {
-              "other": "any course on the MATH 100 credit exclusion list [ https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… ]"
+              "other": "any course on the MATH 100 credit exclusion list [ https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-science/bachelor-science/credit-exclusion-lists ]"
             },
             "MATH 190",
             "SCIE 001",

@@ -105,7 +105,7 @@
       "code": "BIOL 153",
       "title": "Human Biology: Anatomy and Physiology",
       "credits": "8",
-      "description": "The principles of biology with particular reference to the human body (anatomy and physiology). Laboratories include selected experiments on organ physiology and general anatomy. Please consult the Faculty of Science Credit Exclusion Lists: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… . [3-3-0; 3-3-0]. Prerequisite: One of CHEM 12, CHEM 100, CHEM 110, CHEM 111 and one of BIOL 11, BIOL 12, BIOL 111. This course is not eligible for Credit/D/Fail grading.",
+      "description": "The principles of biology with particular reference to the human body (anatomy and physiology). Laboratories include selected experiments on organ physiology and general anatomy. Please consult the Faculty of Science Credit Exclusion Lists: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-science/bachelor-science/credit-exclusion-lists . [3-3-0; 3-3-0]. Prerequisite: One of CHEM 12, CHEM 100, CHEM 110, CHEM 111 and one of BIOL 11, BIOL 12, BIOL 111. This course is not eligible for Credit/D/Fail grading.",
       "prereq": {
         "text": "One of CHEM 12, CHEM 100, CHEM 110, CHEM 111 and one of BIOL 11, BIOL 12, BIOL 111",
         "tree": {
@@ -144,7 +144,7 @@
       "code": "BIOL 155",
       "title": "Human Biology: Physiology and Introductory Anatomy",
       "credits": "6",
-      "description": "The principles of biology with particular reference to the human body (anatomy and physiology). (physiology and introductory anatomy). Please consult the Faculty of Science Credit Exclusion Lists: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… [3-0-0; 3-0-0] Prerequisite: One of CHEM 12, CHEM 100, CHEM 110, CHEM 111 and one of BIOL 11, BIOL 12, BIOL 111.",
+      "description": "The principles of biology with particular reference to the human body (anatomy and physiology). (physiology and introductory anatomy). Please consult the Faculty of Science Credit Exclusion Lists: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-science/bachelor-science/credit-exclusion-lists [3-0-0; 3-0-0] Prerequisite: One of CHEM 12, CHEM 100, CHEM 110, CHEM 111 and one of BIOL 11, BIOL 12, BIOL 111.",
       "prereq": {
         "text": "One of CHEM 12, CHEM 100, CHEM 110, CHEM 111 and one of BIOL 11, BIOL 12, BIOL 111",
         "tree": {
@@ -447,7 +447,7 @@
       "code": "BIOL 230",
       "title": "Fundamentals of Ecology",
       "credits": "3",
-      "description": "Dynamics of plant and animal populations, structure of ecological communities and functioning of ecosystems. Interpretation of research results and application to environmental issues. Labs meet once a month. Please consult the Faculty of Science Credit Exclusion Lists: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… . [3-3*-0] Prerequisite: One of BIOL 121, SCIE 001 or 8 transfer credits of first-year BIOL.",
+      "description": "Dynamics of plant and animal populations, structure of ecological communities and functioning of ecosystems. Interpretation of research results and application to environmental issues. Labs meet once a month. Please consult the Faculty of Science Credit Exclusion Lists: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-science/bachelor-science/credit-exclusion-lists . [3-3*-0] Prerequisite: One of BIOL 121, SCIE 001 or 8 transfer credits of first-year BIOL.",
       "prereq": {
         "text": "One of BIOL 121, SCIE 001 or 8 transfer credits of first-year BIOL",
         "tree": {
@@ -508,7 +508,7 @@
       "code": "BIOL 234",
       "title": "Fundamentals of Genetics",
       "credits": "3",
-      "description": "Genotype and phenotype, mechanisms of inheritance, genetic analysis. Please consult the Faculty of Science Credit Exclusion Lists: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… . [3-0-2] Prerequisite: Either (a) all of BIOL 112, BIOL 121 or (b) SCIE 001 or (c) a corequisite of one of CHEM 203 or CHEM 223 or CHEM_O 203 and one of BIOL 112 or BIOL 121 or (d) 8 transfer credits of first-year BIOL.",
+      "description": "Genotype and phenotype, mechanisms of inheritance, genetic analysis. Please consult the Faculty of Science Credit Exclusion Lists: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-science/bachelor-science/credit-exclusion-lists . [3-0-2] Prerequisite: Either (a) all of BIOL 112, BIOL 121 or (b) SCIE 001 or (c) a corequisite of one of CHEM 203 or CHEM 223 or CHEM_O 203 and one of BIOL 112 or BIOL 121 or (d) 8 transfer credits of first-year BIOL.",
       "prereq": {
         "text": "Either (a) all of BIOL 112, BIOL 121 or (b) SCIE 001 or (c) a corequisite of one of CHEM 203 or CHEM 223 or CHEM_O 203 and one of BIOL 112 or BIOL 121 or (d) 8 transfer credits of first-year BIOL",
         "tree": {
@@ -577,7 +577,7 @@
       "code": "BIOL 300",
       "title": "Fundamentals of Biostatistics",
       "credits": "3",
-      "description": "Statistical procedures for biological research; estimation, hypothesis testing, goodness of fit, analysis of variance and regression; use of computers for statistical analysis. Please consult the Faculty of Science Credit Exclusion Lists: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… [3-2-0] Prerequisite: One of BIOL 121, SCIE 001. Corequisite: One of MATH 100, MATH 110, MATH 180, SCIE 001.",
+      "description": "Statistical procedures for biological research; estimation, hypothesis testing, goodness of fit, analysis of variance and regression; use of computers for statistical analysis. Please consult the Faculty of Science Credit Exclusion Lists: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-science/bachelor-science/credit-exclusion-lists [3-2-0] Prerequisite: One of BIOL 121, SCIE 001. Corequisite: One of MATH 100, MATH 110, MATH 180, SCIE 001.",
       "prereq": {
         "text": "One of BIOL 121, SCIE 001",
         "tree": {
@@ -609,7 +609,7 @@
       "code": "BIOL 301",
       "title": "Biomathematics",
       "credits": "3",
-      "description": "Introduction to uses of mathematics in the biological sciences; experimental design and modelling of biological processes. Please consult the Faculty of Science Credit Exclusion Lists: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… . Recommended co-requisites: one of BIOL 300, STAT 200. [3-0-2]",
+      "description": "Introduction to uses of mathematics in the biological sciences; experimental design and modelling of biological processes. Please consult the Faculty of Science Credit Exclusion Lists: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-science/bachelor-science/credit-exclusion-lists . Recommended co-requisites: one of BIOL 300, STAT 200. [3-0-2]",
       "prereq": null,
       "coreq": null,
       "equivalency": null,
@@ -665,7 +665,7 @@
       "code": "BIOL 306",
       "title": "Advanced Ecology",
       "credits": "3",
-      "description": "Ecology of populations, communities and ecosystems. Tests of ecological theory with experiments and application to environmental issues. Labs meet once a month. Please consult the Faculty of Science Credit Exclusion Lists: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… . [3-3*-0] Prerequisite: BIOL 230.",
+      "description": "Ecology of populations, communities and ecosystems. Tests of ecological theory with experiments and application to environmental issues. Labs meet once a month. Please consult the Faculty of Science Credit Exclusion Lists: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-science/bachelor-science/credit-exclusion-lists . [3-3*-0] Prerequisite: BIOL 230.",
       "prereq": {
         "text": "BIOL 230",
         "tree": "BIOL 230",
@@ -724,7 +724,7 @@
       "code": "BIOL 311",
       "title": "Experimental Methods in Animal Behaviour",
       "credits": "3",
-      "description": "Designing, conducting, and analyzing studies of animal behaviour, with an emphasis on field-based methods. Students conduct capstone research projects. Please consult the Faculty of Science Credit Exclusion Lists: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… . [1-4-0] Prerequisite: One of BIOL 300, STAT 200. Corequisite: BIOL 310.",
+      "description": "Designing, conducting, and analyzing studies of animal behaviour, with an emphasis on field-based methods. Students conduct capstone research projects. Please consult the Faculty of Science Credit Exclusion Lists: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-science/bachelor-science/credit-exclusion-lists . [1-4-0] Prerequisite: One of BIOL 300, STAT 200. Corequisite: BIOL 310.",
       "prereq": {
         "text": "One of BIOL 300, STAT 200",
         "tree": {
@@ -1312,7 +1312,7 @@
       "code": "BIOL 350",
       "title": "Darwinian Medicine",
       "credits": "3",
-      "description": "Using the Darwinian theory of natural selection to explore explanations of infectious diseases, allergies, cancer, mental illness, and other human diseases. Please consult the Faculty of Science Credit Exclusion Lists: www.vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-sc… [2-0-2] Prerequisite: Third-year standing. Equivalency: ISCI 350",
+      "description": "Using the Darwinian theory of natural selection to explore explanations of infectious diseases, allergies, cancer, mental illness, and other human diseases. Please consult the Faculty of Science Credit Exclusion Lists: http://www.vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-science/bachelor-science/credit-exclusion-lists [2-0-2] Prerequisite: Third-year standing. Equivalency: ISCI 350",
       "prereq": {
         "text": "Third-year standing",
         "tree": {
@@ -1506,7 +1506,7 @@
       "code": "BIOL 371",
       "title": "Principles of Neurobiology I",
       "credits": "3",
-      "description": "Introduction to the structure and function of the nervous system, excitable membranes, and synaptic signaling using representative vertebrate and invertebrate species. Please consult the Faculty of Science Credit Exclusion Lists: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… [3-0-0] Prerequisite: BIOL 200 and one of BIOL 260, NSCI 200, PSYC 270, PSYC 271, PSYC 304, CAPS 301.",
+      "description": "Introduction to the structure and function of the nervous system, excitable membranes, and synaptic signaling using representative vertebrate and invertebrate species. Please consult the Faculty of Science Credit Exclusion Lists: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-science/bachelor-science/credit-exclusion-lists [3-0-0] Prerequisite: BIOL 200 and one of BIOL 260, NSCI 200, PSYC 270, PSYC 271, PSYC 304, CAPS 301.",
       "prereq": {
         "text": "BIOL 200 and one of BIOL 260, NSCI 200, PSYC 270, PSYC 271, PSYC 304, CAPS 301",
         "tree": {
@@ -1535,7 +1535,7 @@
       "code": "BIOL 372",
       "title": "Principles of Neurobiology II",
       "credits": "3",
-      "description": "Examination of the neural systems underlying sensation, action, and complex behaviours using representative vertebrate and invertebrate species. Please consult the Faculty of Science Credit Exclusion Lists: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… [3-0-0] Prerequisite: BIOL 371.",
+      "description": "Examination of the neural systems underlying sensation, action, and complex behaviours using representative vertebrate and invertebrate species. Please consult the Faculty of Science Credit Exclusion Lists: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-science/bachelor-science/credit-exclusion-lists [3-0-0] Prerequisite: BIOL 371.",
       "prereq": {
         "text": "BIOL 371",
         "tree": "BIOL 371",
@@ -1833,7 +1833,7 @@
       "code": "BIOL 416",
       "title": "Principles of Conservation Biology",
       "credits": "3",
-      "description": "Ecological basis of conserving biological diversity and ecosystem services; application of ecological theory to global and local conservation problems in the context of economic, legal, political, and social perspectives. Please consult the Faculty of Science Credit Exclusion List: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… . [2-0-2] Prerequisite: One of BIOL 230, FRST 201.",
+      "description": "Ecological basis of conserving biological diversity and ecosystem services; application of ecological theory to global and local conservation problems in the context of economic, legal, political, and social perspectives. Please consult the Faculty of Science Credit Exclusion List: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-science/bachelor-science/credit-exclusion-lists . [2-0-2] Prerequisite: One of BIOL 230, FRST 201.",
       "prereq": {
         "text": "One of BIOL 230, FRST 201",
         "tree": {
@@ -1944,7 +1944,7 @@
       "code": "BIOL 423",
       "title": "Plant Stress Ecophysiology",
       "credits": "3",
-      "description": "Molecular mechanisms of plant responses to extreme environments. Consult the Faculty of Science Credit Exclusion List: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… . [3-0-0] Prerequisite: BIOL 351. BIOL 406 or 407 are recommended.",
+      "description": "Molecular mechanisms of plant responses to extreme environments. Consult the Faculty of Science Credit Exclusion List: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-science/bachelor-science/credit-exclusion-lists . [3-0-0] Prerequisite: BIOL 351. BIOL 406 or 407 are recommended.",
       "prereq": {
         "text": "BIOL 351",
         "tree": "BIOL 351",
@@ -2135,7 +2135,7 @@
       "code": "BIOL 433",
       "title": "Plant Genetics",
       "credits": "3",
-      "description": "Emphasis on molecular aspects. Systems and techniques for genetic analysis in plants; isolation and regulation of plant genes; genetic dissection of plant-specific processes; transposable elements; gene transfer in plants; cytoplasmic inheritance; genetic engineering. Please consult the Faculty of Science Credit Exclusion Lists: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… [3-0-0] Prerequisite: BIOL 335",
+      "description": "Emphasis on molecular aspects. Systems and techniques for genetic analysis in plants; isolation and regulation of plant genes; genetic dissection of plant-specific processes; transposable elements; gene transfer in plants; cytoplasmic inheritance; genetic engineering. Please consult the Faculty of Science Credit Exclusion Lists: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-science/bachelor-science/credit-exclusion-lists [3-0-0] Prerequisite: BIOL 335",
       "prereq": {
         "text": "BIOL 335",
         "tree": "BIOL 335",
@@ -2150,7 +2150,7 @@
       "code": "BIOL 434",
       "title": "Population Genetics",
       "credits": "3",
-      "description": "Theoretical and experimental aspects of population and quantitative genetics. Please consult the Faculty of Science Credit Exclusion Lists: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… [3-0-2] Prerequisite: BIOL 336 and either (a) BIOL 200 and one of BIOL 233, BIOL 234; or (b) FRST 302.",
+      "description": "Theoretical and experimental aspects of population and quantitative genetics. Please consult the Faculty of Science Credit Exclusion Lists: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-science/bachelor-science/credit-exclusion-lists [3-0-2] Prerequisite: BIOL 336 and either (a) BIOL 200 and one of BIOL 233, BIOL 234; or (b) FRST 302.",
       "prereq": {
         "text": "BIOL 336 and either (a) BIOL 200 and one of BIOL 233, BIOL 234; or (b) FRST 302",
         "tree": {
@@ -2247,7 +2247,7 @@
       "code": "BIOL 439",
       "title": "Advanced Microscopy Techniques",
       "credits": "3",
-      "description": "Microscopy techniques used in biological research. Principles, applications and hands-on training of optical and electron microscopy. Please consult the Faculty of Science Credit Exclusion Lists: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… . [2-4-0]. Prerequisite: BIOL 200. Corequisite: One of BIOL 448, BIOL 449 and Fourth-year standing. This course is not eligible for Credit/D/Fail grading.",
+      "description": "Microscopy techniques used in biological research. Principles, applications and hands-on training of optical and electron microscopy. Please consult the Faculty of Science Credit Exclusion Lists: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-science/bachelor-science/credit-exclusion-lists . [2-4-0]. Prerequisite: BIOL 200. Corequisite: One of BIOL 448, BIOL 449 and Fourth-year standing. This course is not eligible for Credit/D/Fail grading.",
       "prereq": {
         "text": "BIOL 200",
         "tree": "BIOL 200",
@@ -2839,7 +2839,7 @@
       "code": "BIOL 503",
       "title": "Microbial Ecology",
       "credits": "3",
-      "description": "Theoretical and applied ecology of microbes. Focus on microbial symbionts of animals, plants and seaweeds. Critical analysis of microbial ecological literature and computational analysis of ecological data. Please consult the Faculty of Science Credit Exclusion Lists: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… . [2-3-0]. This course is not eligible for Credit/D/Fail grading.",
+      "description": "Theoretical and applied ecology of microbes. Focus on microbial symbionts of animals, plants and seaweeds. Critical analysis of microbial ecological literature and computational analysis of ecological data. Please consult the Faculty of Science Credit Exclusion Lists: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-science/bachelor-science/credit-exclusion-lists . [2-3-0]. This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
       "equivalency": null,
@@ -2849,7 +2849,7 @@
       "code": "BIOL 509",
       "title": "Population and Quantitative Genetics",
       "credits": "3",
-      "description": "Please consult the Faculty of Science Credit Exclusion Lists: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… . This course is not eligible for Credit/D/Fail grading.",
+      "description": "Please consult the Faculty of Science Credit Exclusion Lists: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-science/bachelor-science/credit-exclusion-lists . This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
       "equivalency": null,
@@ -2889,7 +2889,7 @@
       "code": "BIOL 533",
       "title": "Plant Genetics",
       "credits": "3",
-      "description": "Emphasis on molecular aspects. Systems and techniques for genetic analysis in plants; isolation and regulation of plant genes; genetic dissection of plant-specific processes; transposable elements; gene transfer in plants; cytoplasmic inheritance; genetic engineering. Please consult the Faculty of Science Credit Exclusion Lists: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… . [3-0-0]. Prerequisite: BIOL 335. This course is not eligible for Credit/D/Fail grading.",
+      "description": "Emphasis on molecular aspects. Systems and techniques for genetic analysis in plants; isolation and regulation of plant genes; genetic dissection of plant-specific processes; transposable elements; gene transfer in plants; cytoplasmic inheritance; genetic engineering. Please consult the Faculty of Science Credit Exclusion Lists: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-science/bachelor-science/credit-exclusion-lists . [3-0-0]. Prerequisite: BIOL 335. This course is not eligible for Credit/D/Fail grading.",
       "prereq": {
         "text": "BIOL 335",
         "tree": "BIOL 335",
@@ -2924,7 +2924,7 @@
       "code": "BIOL 539",
       "title": "Advanced Microscopy Techniques",
       "credits": "3",
-      "description": "Microscopy techniques used in biological research. Principles, applications and hands-on training of optical and electron microscopy. Please consult the Faculty of Science Credit Exclusion Lists: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… . [2-4-0]. This course is not eligible for Credit/D/Fail grading.",
+      "description": "Microscopy techniques used in biological research. Principles, applications and hands-on training of optical and electron microscopy. Please consult the Faculty of Science Credit Exclusion Lists: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-science/bachelor-science/credit-exclusion-lists . [2-4-0]. This course is not eligible for Credit/D/Fail grading.",
       "prereq": null,
       "coreq": null,
       "equivalency": null,
@@ -2944,7 +2944,7 @@
       "code": "BIOL 560",
       "title": "Theory of Adaptive Dynamics and Evolutionary Games",
       "credits": "3",
-      "description": "Consult the credit exclusion list within the Faculty of Science section of the Academic Calendar: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult… . Credit will be granted for only one of BIOL 560 or BIOL 401. [3-0-0]. Prerequisite: An introductory course in the mathematical treatment of population biology as well as a course in integral calculus. This course is not eligible for Credit/D/Fail grading.",
+      "description": "Consult the credit exclusion list within the Faculty of Science section of the Academic Calendar: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-science/bachelor-science/credit-exclusion-lists . Credit will be granted for only one of BIOL 560 or BIOL 401. [3-0-0]. Prerequisite: An introductory course in the mathematical treatment of population biology as well as a course in integral calculus. This course is not eligible for Credit/D/Fail grading.",
       "prereq": {
         "text": "An introductory course in the mathematical treatment of population biology as well as a course in integral calculus",
         "tree": {
