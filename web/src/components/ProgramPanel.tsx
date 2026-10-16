@@ -4,6 +4,7 @@ import type { CreditsFor, RowProgress, RowStatus } from "@/lib/program";
 import type { Program, ProgramRequirement } from "@/lib/types";
 import { StripeSample } from "./ProgramStripe";
 import { TickChip } from "./Status";
+import { usePanelFocus } from "./usePanelFocus";
 
 // What the course chips in the panel need: on-map courses open their details, the others
 // (MATH 100, SCIE 113, …) have a tick box.
@@ -22,6 +23,7 @@ interface ProgramPanelProps extends CodeLinks {
   calendarUrl: string; // the calendar page the programs come from
   onPick: (id: string | null) => void; // null forgets the program
   onClose: () => void;
+  focusOnClose: () => HTMLElement | null; // where keyboard focus goes when the panel closes
 }
 
 // The panel for "Pick a program": first a choice of the six programs, then the program's
@@ -35,6 +37,7 @@ export default function ProgramPanel({
   calendarUrl,
   onPick,
   onClose,
+  focusOnClose,
   ...links
 }: ProgramPanelProps) {
   // "Change program" shows the choices again without forgetting the current one.
@@ -46,6 +49,9 @@ export default function ProgramPanel({
   useEffect(() => {
     panelRef.current?.scrollTo({ top: 0 });
   }, [program?.id]);
+  // Picking a program swaps the list of choices for its requirements, so focus moves to the
+  // new heading then too.
+  const headingRef = usePanelFocus(picking ? null : program.id, focusOnClose);
 
   const pick = (id: string | null) => {
     setChoosing(false);
@@ -61,7 +67,9 @@ export default function ProgramPanel({
     >
       <div className="flex items-start justify-between gap-3">
         <div>
-          <h2 className="text-lg font-semibold">{picking ? "Pick your program" : program.name}</h2>
+          <h2 ref={headingRef} tabIndex={-1} className="text-lg font-semibold">
+            {picking ? "Pick your program" : program.name}
+          </h2>
           <p className="text-ink-muted">
             {picking
               ? "See what it requires and how far along you are."

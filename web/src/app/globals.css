@@ -86,6 +86,17 @@ body {
   border-radius: 10px;
 }
 
+/* A side panel's heading takes focus when the panel opens (usePanelFocus). The same ring
+   shows there when the keyboard is in use, and nothing after a click. */
+aside h2[tabindex="-1"]:focus {
+  outline: none;
+}
+aside h2[tabindex="-1"]:focus-visible {
+  outline: 2px solid var(--role-selected);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
 /* While a link to another subject (/#biol) loads, the page still shows the home subject it
    was built with. pendingSubjectScript marks the page, and FacultyView unmarks it once the
    right subject is showing. Opacity rather than visibility, because React Flow sets

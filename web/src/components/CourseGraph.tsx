@@ -37,6 +37,7 @@ import { countStatuses, courseProgress } from "@/lib/progress";
 import type { CourseStatus } from "@/lib/progress";
 import type { SubjectMap } from "@/lib/subjectMap";
 import type { Course, CourseGrades, Program } from "@/lib/types";
+import { centeredViewport, fullyVisible } from "@/lib/view";
 import CourseDetails from "./CourseDetails";
 import OutsideCourses from "./OutsideCourses";
 import ProgramButton from "./ProgramButton";
@@ -369,25 +370,26 @@ export default function CourseGraph({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [subject, flow]);
 
-  // When a course is selected, make sure it's on screen. The side panel takes room from the
-  // graph, and a course picked in the panel can be anywhere. Waits one frame so the graph
-  // has its new size first.
+  // When a course is selected, make sure it's in sight: on screen and not under the bars over
+  // the top-left. The side panel takes room from the graph, and a course picked in the panel
+  // can be anywhere. Waits one frame so the graph has its new size first.
   useEffect(() => {
     if (selected === null || flow === null) return;
     const frame = requestAnimationFrame(() => {
       const course = placed.get(selected);
-      const box = canvasRef.current?.getBoundingClientRect();
-      if (!course || !box) return;
+      const canvas = canvasRef.current;
+      if (!course || !canvas) return;
+      const box = canvas.getBoundingClientRect();
+      const bars = canvas.querySelector(".react-flow__panel.top.left")?.getBoundingClientRect();
       const topLeft = flow.flowToScreenPosition({ x: course.x, y: course.y });
       const bottomRight = flow.flowToScreenPosition({ x: course.x + NODE_WIDTH, y: course.y + NODE_HEIGHT });
-      const onScreen =
-        topLeft.x >= box.left && topLeft.y >= box.top && bottomRight.x <= box.right && bottomRight.y <= box.bottom;
-      if (!onScreen) {
-        flow.setCenter(course.x + NODE_WIDTH / 2, course.y + NODE_HEIGHT / 2, {
-          zoom: flow.getZoom(),
-          duration: 400,
-        });
-      }
+      const courseBox = { left: topLeft.x, top: topLeft.y, right: bottomRight.x, bottom: bottomRight.y };
+      if (fullyVisible(courseBox, box, bars ? [bars] : [])) return;
+      // Centred in the room below the bars. Worked out from the graph's size on the page,
+      // because React Flow's own setCenter still uses the size from before the panel opened.
+      const room = { left: 0, top: bars ? bars.bottom - box.top : 0, right: box.width, bottom: box.height };
+      const middle = { x: course.x + NODE_WIDTH / 2, y: course.y + NODE_HEIGHT / 2 };
+      flow.setViewport(centeredViewport(middle, room, flow.getZoom()), { duration: 400 });
     });
     return () => cancelAnimationFrame(frame);
   }, [selected, panelOpen, flow, placed]);
@@ -552,6 +554,14 @@ export default function CourseGraph({
     else openAnywhere(code);
   };
 
+  // Where keyboard focus goes when a side panel closes: the course on the map, the program
+  // button, or the first button over the map (the list's own button while marking, "Edit my
+  // courses" after).
+  const courseBox = (code: string) =>
+    document.querySelector<HTMLElement>(`.react-flow__node-course[data-id="${code}"]`);
+  const programButton = () => document.getElementById("program-button");
+  const firstBarButton = () => document.querySelector<HTMLElement>(".react-flow__panel.top.left button");
+
   const selectedCourse = selected === null ? undefined : records.get(selected);
   // The place beside the graph shows one panel at a time: the list of other subjects while
   // marking, then the course details, then the program.
@@ -647,6 +657,7 @@ export default function CourseGraph({
           calendarUrl={calendarUrl}
           onSelect={openAnywhere}
           onClose={() => setPanelOpen(false)}
+          focusOnClose={() => courseBox(selectedCourse.code)}
           // Back to the program panel underneath, clearing the highlight.
           backTo={
             programOpen
@@ -663,6 +674,7 @@ export default function CourseGraph({
           done={done}
           onToggle={toggle}
           onClose={() => setOutsideOpen(false)}
+          focusOnClose={firstBarButton}
         />
       )}
       {showProgram && (
@@ -674,6 +686,7 @@ export default function CourseGraph({
           calendarUrl={programUrl}
           onPick={pickProgram}
           onClose={() => setProgramOpen(false)}
+          focusOnClose={programButton}
           onMap={onAnyMap}
           onOpen={openCourse}
           done={done}

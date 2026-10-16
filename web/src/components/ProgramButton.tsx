@@ -18,6 +18,7 @@ export default function ProgramButton({ program, rowsDone, rows, open, large, on
   return (
     <button
       type="button"
+      id="program-button"
       onClick={onClick}
       aria-expanded={open}
       aria-controls={open ? "program-panel" : undefined}

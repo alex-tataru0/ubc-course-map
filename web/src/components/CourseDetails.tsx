@@ -11,6 +11,7 @@ import type { Course, CourseGrades, ReqNode, Requisite } from "@/lib/types";
 import { GradeSummary, TeachingHistory } from "./Grades";
 import { Swatch } from "./Legend";
 import { StatusSample, TickChip } from "./Status";
+import { usePanelFocus } from "./usePanelFocus";
 
 interface CourseDetailsProps {
   course: Course;
@@ -29,6 +30,7 @@ interface CourseDetailsProps {
   calendarUrl: string;
   onSelect: (code: string) => void;
   onClose: () => void;
+  focusOnClose: () => HTMLElement | null; // where keyboard focus goes when the panel closes
   backTo?: { label: string; onBack: () => void }; // a link back to the panel underneath
 }
 
@@ -51,6 +53,7 @@ export default function CourseDetails({
   calendarUrl,
   onSelect,
   onClose,
+  focusOnClose,
   backTo,
 }: CourseDetailsProps) {
   const { summary, hours } = splitDescription(course.description);
@@ -66,6 +69,7 @@ export default function CourseDetails({
   useEffect(() => {
     panelRef.current?.scrollTo({ top: 0 });
   }, [course.code]);
+  const headingRef = usePanelFocus(course.code, focusOnClose);
 
   return (
     <aside
@@ -84,7 +88,7 @@ export default function CourseDetails({
       )}
       <div className="flex items-start justify-between gap-3">
         <div>
-          <h2 className="text-lg font-semibold">
+          <h2 ref={headingRef} tabIndex={-1} className="text-lg font-semibold">
             <Swatch className="border-role-selected" />
             {course.code}
           </h2>
