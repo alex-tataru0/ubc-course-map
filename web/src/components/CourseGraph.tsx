@@ -28,6 +28,7 @@ import {
   programCodes,
   programCourses,
   programProgress,
+  programSubject,
   programSummary,
   shortName,
 } from "@/lib/program";
@@ -59,8 +60,10 @@ interface CourseGraphProps {
   grades: Record<string, CourseGrades>; // from UBCGrades, for the courses that have any
   gradeSessions: string[]; // the terms the grade data covers, oldest first
   programs: Program[]; // the programs you can pick, e.g. the Computer Science Major
+  otherPrograms: Program[]; // other faculties' programs, in case one was picked on their page
   programUrl: string; // the calendar page they come from
-  programSubject: string | null; // the subject the programs belong to, e.g. "CPSC", if any
+  programsNote: string; // under the list of programs
+  programsByMajor: boolean; // list them by major (Science) or each on its own (engineering)
   closed: string[]; // other faculties' courses this page's students usually can't take
 }
 
@@ -229,8 +232,10 @@ export default function CourseGraph({
   grades,
   gradeSessions,
   programs,
+  otherPrograms,
   programUrl,
-  programSubject,
+  programsNote,
+  programsByMajor,
   closed,
 }: CourseGraphProps) {
   const { subject, courses, edges, labels, bands, width, calendarUrl } = map;
@@ -272,15 +277,20 @@ export default function CourseGraph({
   const showProgress = done.size > 0;
 
   // Courses that the prerequisites on this map mention but that aren't on it, which can be
-  // ticked without switching maps (MATH 221 on the CPSC map). The programs' own map also lists
+  // ticked without switching maps (MATH 221 on the CPSC map). A program's own map (CPSC for the
+  // CS programs, ELEC for Electrical Engineering) also lists
   // the other courses they need (MATH 100, SCIE 113, …).
+  const subjectPrograms = useMemo(
+    () => programs.filter((p) => programSubject(p) === subject),
+    [programs, subject],
+  );
   const outside = useMemo(
     () =>
       outsideCourses(
         details.filter((c) => onMap.has(c.code)),
-        subject === programSubject ? programCodes(programs) : [],
+        programCodes(subjectPrograms),
       ),
-    [details, onMap, subject, programSubject, programs],
+    [details, onMap, subjectPrograms],
   );
   const outsideSet = useMemo(() => new Set(outside), [outside]);
   const outsideGroups = useMemo(() => groupBySubject(outside), [outside]);
@@ -338,7 +348,8 @@ export default function CourseGraph({
   // as the course details. The course details cover it while they're open, with a link
   // back to it.
   const { programId, pickProgram } = useProgramChoice();
-  const program = programs.find((p) => p.id === programId) ?? null; // an old, unknown id: none
+  // The saved program can be from another faculty's page. An old, unknown id is none.
+  const program = [...programs, ...otherPrograms].find((p) => p.id === programId) ?? null;
   const [programOpen, setProgramOpen] = useState(false);
   const creditsFor = useMemo(() => creditsLookup(details), [details]);
   const programRows = useMemo(
@@ -655,7 +666,7 @@ export default function CourseGraph({
                 onClear={clear}
                 onToggleOutside={() => setOutsideOpen(!outsideOpen)}
               />
-              {/* Only on pages with programs to pick (none for engineering yet). */}
+              {/* Only on pages with programs to pick. */}
               {programs.length > 0 && (
                 <ProgramButton
                   program={program}
@@ -708,7 +719,7 @@ export default function CourseGraph({
       {showOutside && (
         <OutsideCourses
           subject={subject}
-          withPrograms={subject === programSubject}
+          withPrograms={subjectPrograms.length > 0}
           groups={outsideGroups}
           done={done}
           onToggle={toggle}
@@ -723,6 +734,8 @@ export default function CourseGraph({
           progress={programRows}
           creditsFor={creditsFor}
           calendarUrl={programUrl}
+          note={programsNote}
+          byMajor={programsByMajor}
           onPick={pickProgram}
           onClose={() => setProgramOpen(false)}
           focusOnClose={programButton}

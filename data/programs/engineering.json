@@ -2,6 +2,1612 @@
   "source": "https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-applied-science/bachelor-applied-science",
   "programs": [
     {
+      "id": "bmeg",
+      "name": "Biomedical Engineering",
+      "sources": ["https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-applied-science/bachelor-applied-science/biomedical-engineering"],
+      "notes": ["Second to fourth years for students who entered second year in 2022W or later."],
+      "total_credits": 149,
+      "years": [
+        {
+          "title": "First Year",
+          "credits": 40,
+          "requirements": [
+            {
+              "text": "APSC 100",
+              "credits": 3,
+              "tree": "APSC 100",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "APSC 160",
+              "credits": 3,
+              "tree": "APSC 160",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "BMEG 101",
+              "credits": 3,
+              "tree": "BMEG 101",
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students who come into Biomedical Engineering without taking BMEG 101 and BMEG 102 must take all of APSC 101, PHYS 159 (or equivalent) and BMEG 200."]
+            },
+            {
+              "text": "BMEG 102",
+              "credits": 2,
+              "tree": "BMEG 102",
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students who come into Biomedical Engineering without taking BMEG 101 and BMEG 102 must take all of APSC 101, PHYS 159 (or equivalent) and BMEG 200."]
+            },
+            {
+              "text": "CHEM 121",
+              "credits": 4,
+              "tree": "CHEM 121",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHEM 123",
+              "credits": 4,
+              "tree": "CHEM 123",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MATH 100",
+              "credits": 3,
+              "tree": "MATH 100",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MATH 101",
+              "credits": 3,
+              "tree": "MATH 101",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MATH 152",
+              "credits": 3,
+              "tree": "MATH 152",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "PHYS 157",
+              "credits": 3,
+              "tree": "PHYS 157",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "PHYS 158",
+              "credits": 3,
+              "tree": "PHYS 158",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "PHYS 170",
+              "credits": 3,
+              "tree": "PHYS 170",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "WRDS 150",
+              "credits": 3,
+              "tree": "WRDS 150",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "title": "Second Year",
+          "credits": 37,
+          "requirements": [
+            {
+              "text": "BMEG 201",
+              "credits": 3,
+              "tree": "BMEG 201",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "BMEG 210",
+              "credits": 3,
+              "tree": "BMEG 210",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "BMEG 220",
+              "credits": 4,
+              "tree": "BMEG 220",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "BMEG 230",
+              "credits": 4,
+              "tree": "BMEG 230",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "BMEG 245",
+              "credits": 4,
+              "tree": "BMEG 245",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "BMEG 250",
+              "credits": 4,
+              "tree": "BMEG 250",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "BMEG 257",
+              "credits": 4,
+              "tree": "BMEG 257",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CPEN 221 or 223",
+              "credits": 4,
+              "tree": {
+                "one_of": ["CPEN 221", "CPEN 223"]
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MATH 253 or 226",
+              "credits": 3,
+              "tree": {
+                "one_of": ["MATH 253", "MATH 226"]
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MATH 256",
+              "credits": 3,
+              "tree": "MATH 256",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MATH 264",
+              "credits": 1,
+              "tree": "MATH 264",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "title": "Third Year",
+          "credits": 36,
+          "requirements": [
+            {
+              "text": "BIOC 202",
+              "credits": 3,
+              "tree": "BIOC 202",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "BMEG 310",
+              "credits": 4,
+              "tree": "BMEG 310",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "BMEG 321",
+              "credits": 3,
+              "tree": "BMEG 321",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "BMEG 350",
+              "credits": 4,
+              "tree": "BMEG 350",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "BMEG 357",
+              "credits": 3,
+              "tree": "BMEG 357",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "BMEG 371",
+              "credits": 3,
+              "tree": "BMEG 371",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHEM 233",
+              "credits": 3,
+              "tree": "CHEM 233",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHEM 235",
+              "credits": 1,
+              "tree": "CHEM 235",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "STAT 251",
+              "credits": 3,
+              "tree": "STAT 251",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "Technical Electives",
+              "credits": 6,
+              "tree": {
+                "other": "Technical Electives"
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["To be chosen from a Technical Elective course list available on the program website in consultation with an undergraduate advisor. https://www.bme.ubc.ca/"]
+            },
+            {
+              "text": "Complementary Studies Electives",
+              "credits": 3,
+              "tree": {
+                "other": "Complementary Studies Electives"
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["See Complementary Studies Courses. Students planning to apply to Medical School should take a first-year English course as their complementary studies elective. Students should confirm the specific pre-requisite courses for the Medical School(s) to which they will apply."]
+            }
+          ]
+        },
+        {
+          "title": "Fourth Year",
+          "credits": 36,
+          "requirements": [
+            {
+              "text": "BMEG 401",
+              "credits": 3,
+              "tree": "BMEG 401",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "BMEG 455",
+              "credits": 3,
+              "tree": "BMEG 455",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "BMEG 457",
+              "credits": 6,
+              "tree": "BMEG 457",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "STAT 300",
+              "credits": 3,
+              "tree": "STAT 300",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "Technical Electives",
+              "credits": 15,
+              "tree": {
+                "other": "Technical Electives"
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["To be chosen from a Technical Elective course list available on the program website in consultation with an undergraduate advisor. https://www.bme.ubc.ca/"]
+            },
+            {
+              "text": "Complementary Studies Electives",
+              "credits": 6,
+              "tree": {
+                "other": "Complementary Studies Electives"
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["See Complementary Studies Courses. Students planning to apply to Medical School should take a first-year English course as their complementary studies elective. Students should confirm the specific pre-requisite courses for the Medical School(s) to which they will apply."]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chbe",
+      "name": "Chemical and Biological Engineering",
+      "sources": ["https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-applied-science/bachelor-applied-science/curriculum-and-first-year", "https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-applied-science/bachelor-applied-science/chemical-and-biological-engineering"],
+      "notes": [],
+      "total_credits": 155,
+      "years": [
+        {
+          "title": "First Year",
+          "credits": 37,
+          "requirements": [
+            {
+              "text": "APSC 100",
+              "credits": 3,
+              "tree": "APSC 100",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "APSC 101",
+              "credits": 3,
+              "tree": "APSC 101",
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students entering first-year Engineering from high school with CHEM 121 and 123 transfer credits or advanced credits from AP, IB, A Level will be required to take APSC 100 and APSC 101."]
+            },
+            {
+              "text": "APSC 160",
+              "credits": 3,
+              "tree": "APSC 160",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHEM 154",
+              "credits": 3,
+              "tree": "CHEM 154",
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students entering first-year Engineering from high school with CHEM 121 and 123 transfer credits or advanced credits from AP, IB, A Level will be required to take APSC 100 and APSC 101."]
+            },
+            {
+              "text": "WRDS 150",
+              "credits": 3,
+              "tree": "WRDS 150",
+              "source": "rules",
+              "problems": [],
+              "notes": ["Or another first-year English course."]
+            },
+            {
+              "text": "MATH 100",
+              "credits": 3,
+              "tree": "MATH 100",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MATH 101",
+              "credits": 3,
+              "tree": "MATH 101",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MATH 152",
+              "credits": 3,
+              "tree": "MATH 152",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "PHYS 157",
+              "credits": 3,
+              "tree": "PHYS 157",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "PHYS 158",
+              "credits": 3,
+              "tree": "PHYS 158",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "PHYS 159",
+              "credits": 1,
+              "tree": "PHYS 159",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "PHYS 170",
+              "credits": 3,
+              "tree": "PHYS 170",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "Complementary Studies electives",
+              "credits": 3,
+              "tree": {
+                "other": "Complementary Studies electives"
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["See Complementary Studies Courses."]
+            }
+          ]
+        },
+        {
+          "title": "Second Year",
+          "credits": 39,
+          "requirements": [
+            {
+              "text": "CHBE 201",
+              "credits": 3,
+              "tree": "CHBE 201",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHBE 220",
+              "credits": 4,
+              "tree": "CHBE 220",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHBE 221",
+              "credits": 4,
+              "tree": "CHBE 221",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHBE 230",
+              "credits": 3,
+              "tree": "CHBE 230",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHBE 241",
+              "credits": 3,
+              "tree": "CHBE 241",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHBE 244",
+              "credits": 3,
+              "tree": "CHBE 244",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHBE 251",
+              "credits": 3,
+              "tree": "CHBE 251",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHBE 263",
+              "credits": 1,
+              "tree": "CHBE 263",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHBE 264",
+              "credits": 3,
+              "tree": "CHBE 264",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHEM 250",
+              "credits": 3,
+              "tree": "CHEM 250",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHEM 260",
+              "credits": 3,
+              "tree": "CHEM 260",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MATH 253",
+              "credits": 3,
+              "tree": "MATH 253",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MATH 256",
+              "credits": 3,
+              "tree": "MATH 256",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "title": "Third Year",
+          "credits": 40,
+          "requirements": [
+            {
+              "text": "CHBE 345",
+              "credits": 4,
+              "tree": "CHBE 345",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHBE 346",
+              "credits": 3,
+              "tree": "CHBE 346",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHBE 352",
+              "credits": 4,
+              "tree": "CHBE 352",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHBE 355",
+              "credits": 3,
+              "tree": "CHBE 355",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHBE 356",
+              "credits": 4,
+              "tree": "CHBE 356",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHBE 362",
+              "credits": 3,
+              "tree": "CHBE 362",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHBE 370",
+              "credits": 3,
+              "tree": "CHBE 370",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHBE 376",
+              "credits": 4,
+              "tree": "CHBE 376",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "STAT 251",
+              "credits": 3,
+              "tree": "STAT 251",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "Complementary Studies electives",
+              "credits": 3,
+              "tree": {
+                "other": "Complementary Studies electives"
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["See Complementary Studies Courses."]
+            },
+            {
+              "text": "CHBE 365",
+              "credits": 3,
+              "tree": "CHBE 365",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHBE 381",
+              "credits": 3,
+              "tree": "CHBE 381",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "title": "Fourth Year",
+          "credits": 39,
+          "requirements": [
+            {
+              "text": "APSC 450",
+              "credits": 2,
+              "tree": "APSC 450",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHBE 456",
+              "credits": 3,
+              "tree": "CHBE 456",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHBE 459",
+              "credits": 3,
+              "tree": "CHBE 459",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHBE 464",
+              "credits": 4,
+              "tree": "CHBE 464",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "Complementary Studies electives",
+              "credits": 3,
+              "tree": {
+                "other": "Complementary Studies electives"
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["See Complementary Studies Courses."]
+            },
+            {
+              "text": "CHBE 453",
+              "credits": 8,
+              "tree": "CHBE 453",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHBE 481",
+              "credits": 4,
+              "tree": "CHBE 481",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "Technical electives",
+              "credits": 12,
+              "tree": {
+                "other": "Technical electives"
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["To be chosen from a list of electives available from the Department."]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chbe-chemical",
+      "name": "Chemical Engineering",
+      "sources": ["https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-applied-science/bachelor-applied-science/curriculum-and-first-year", "https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-applied-science/bachelor-applied-science/chemical-and-biological-engineering"],
+      "notes": [],
+      "total_credits": 155,
+      "years": [
+        {
+          "title": "First Year",
+          "credits": 37,
+          "requirements": [
+            {
+              "text": "APSC 100",
+              "credits": 3,
+              "tree": "APSC 100",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "APSC 101",
+              "credits": 3,
+              "tree": "APSC 101",
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students entering first-year Engineering from high school with CHEM 121 and 123 transfer credits or advanced credits from AP, IB, A Level will be required to take APSC 100 and APSC 101."]
+            },
+            {
+              "text": "APSC 160",
+              "credits": 3,
+              "tree": "APSC 160",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHEM 154",
+              "credits": 3,
+              "tree": "CHEM 154",
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students entering first-year Engineering from high school with CHEM 121 and 123 transfer credits or advanced credits from AP, IB, A Level will be required to take APSC 100 and APSC 101."]
+            },
+            {
+              "text": "WRDS 150",
+              "credits": 3,
+              "tree": "WRDS 150",
+              "source": "rules",
+              "problems": [],
+              "notes": ["Or another first-year English course."]
+            },
+            {
+              "text": "MATH 100",
+              "credits": 3,
+              "tree": "MATH 100",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MATH 101",
+              "credits": 3,
+              "tree": "MATH 101",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MATH 152",
+              "credits": 3,
+              "tree": "MATH 152",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "PHYS 157",
+              "credits": 3,
+              "tree": "PHYS 157",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "PHYS 158",
+              "credits": 3,
+              "tree": "PHYS 158",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "PHYS 159",
+              "credits": 1,
+              "tree": "PHYS 159",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "PHYS 170",
+              "credits": 3,
+              "tree": "PHYS 170",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "Complementary Studies electives",
+              "credits": 3,
+              "tree": {
+                "other": "Complementary Studies electives"
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["See Complementary Studies Courses."]
+            }
+          ]
+        },
+        {
+          "title": "Second Year",
+          "credits": 39,
+          "requirements": [
+            {
+              "text": "CHBE 201",
+              "credits": 3,
+              "tree": "CHBE 201",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHBE 220",
+              "credits": 4,
+              "tree": "CHBE 220",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHBE 221",
+              "credits": 4,
+              "tree": "CHBE 221",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHBE 230",
+              "credits": 3,
+              "tree": "CHBE 230",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHBE 241",
+              "credits": 3,
+              "tree": "CHBE 241",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHBE 244",
+              "credits": 3,
+              "tree": "CHBE 244",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHBE 251",
+              "credits": 3,
+              "tree": "CHBE 251",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHBE 263",
+              "credits": 1,
+              "tree": "CHBE 263",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHBE 264",
+              "credits": 3,
+              "tree": "CHBE 264",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHEM 250",
+              "credits": 3,
+              "tree": "CHEM 250",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHEM 260",
+              "credits": 3,
+              "tree": "CHEM 260",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MATH 253",
+              "credits": 3,
+              "tree": "MATH 253",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MATH 256",
+              "credits": 3,
+              "tree": "MATH 256",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "title": "Third Year",
+          "credits": 40,
+          "requirements": [
+            {
+              "text": "CHBE 345",
+              "credits": 4,
+              "tree": "CHBE 345",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHBE 346",
+              "credits": 3,
+              "tree": "CHBE 346",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHBE 352",
+              "credits": 4,
+              "tree": "CHBE 352",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHBE 355",
+              "credits": 3,
+              "tree": "CHBE 355",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHBE 356",
+              "credits": 4,
+              "tree": "CHBE 356",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHBE 362",
+              "credits": 3,
+              "tree": "CHBE 362",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHBE 370",
+              "credits": 3,
+              "tree": "CHBE 370",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHBE 376",
+              "credits": 4,
+              "tree": "CHBE 376",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "STAT 251",
+              "credits": 3,
+              "tree": "STAT 251",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "Complementary Studies electives",
+              "credits": 3,
+              "tree": {
+                "other": "Complementary Studies electives"
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["See Complementary Studies Courses."]
+            },
+            {
+              "text": "APSC 278",
+              "credits": 3,
+              "tree": "APSC 278",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHBE 366",
+              "credits": 3,
+              "tree": "CHBE 366",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "title": "Fourth Year",
+          "credits": 39,
+          "requirements": [
+            {
+              "text": "APSC 450",
+              "credits": 2,
+              "tree": "APSC 450",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHBE 456",
+              "credits": 3,
+              "tree": "CHBE 456",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHBE 459",
+              "credits": 3,
+              "tree": "CHBE 459",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHBE 464",
+              "credits": 4,
+              "tree": "CHBE 464",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "Complementary Studies electives",
+              "credits": 3,
+              "tree": {
+                "other": "Complementary Studies electives"
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["See Complementary Studies Courses."]
+            },
+            {
+              "text": "CHBE 454",
+              "credits": 8,
+              "tree": "CHBE 454",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHBE 471",
+              "credits": 4,
+              "tree": "CHBE 471",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "Technical electives",
+              "credits": 12,
+              "tree": {
+                "other": "Technical electives"
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["To be chosen from a list of electives available from the Department."]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "civl",
+      "name": "Civil Engineering",
+      "sources": ["https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-applied-science/bachelor-applied-science/curriculum-and-first-year", "https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-applied-science/bachelor-applied-science/civil-engineering"],
+      "notes": [],
+      "total_credits": 158,
+      "years": [
+        {
+          "title": "First Year",
+          "credits": 37,
+          "requirements": [
+            {
+              "text": "APSC 100",
+              "credits": 3,
+              "tree": "APSC 100",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "APSC 101",
+              "credits": 3,
+              "tree": "APSC 101",
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students entering first-year Engineering from high school with CHEM 121 and 123 transfer credits or advanced credits from AP, IB, A Level will be required to take APSC 100 and APSC 101."]
+            },
+            {
+              "text": "APSC 160",
+              "credits": 3,
+              "tree": "APSC 160",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHEM 154",
+              "credits": 3,
+              "tree": "CHEM 154",
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students entering first-year Engineering from high school with CHEM 121 and 123 transfer credits or advanced credits from AP, IB, A Level will be required to take APSC 100 and APSC 101."]
+            },
+            {
+              "text": "WRDS 150",
+              "credits": 3,
+              "tree": "WRDS 150",
+              "source": "rules",
+              "problems": [],
+              "notes": ["Or another first-year English course."]
+            },
+            {
+              "text": "MATH 100",
+              "credits": 3,
+              "tree": "MATH 100",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MATH 101",
+              "credits": 3,
+              "tree": "MATH 101",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MATH 152",
+              "credits": 3,
+              "tree": "MATH 152",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "PHYS 157",
+              "credits": 3,
+              "tree": "PHYS 157",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "PHYS 158",
+              "credits": 3,
+              "tree": "PHYS 158",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "PHYS 159",
+              "credits": 1,
+              "tree": "PHYS 159",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "PHYS 170",
+              "credits": 3,
+              "tree": "PHYS 170",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "Complementary Studies electives",
+              "credits": 3,
+              "tree": {
+                "other": "Complementary Studies electives"
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["See Complementary Studies Courses."]
+            }
+          ]
+        },
+        {
+          "title": "Second Year",
+          "credits": 45,
+          "requirements": [
+            {
+              "text": "APSC 278",
+              "credits": 3,
+              "tree": "APSC 278",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "APSC 279",
+              "credits": 1,
+              "tree": "APSC 279",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CIVL 201",
+              "credits": 3,
+              "tree": "CIVL 201",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CIVL 203",
+              "credits": 3,
+              "tree": "CIVL 203",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CIVL 204",
+              "credits": 3,
+              "tree": "CIVL 204",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CIVL 210",
+              "credits": 4,
+              "tree": "CIVL 210",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CIVL 215",
+              "credits": 4,
+              "tree": "CIVL 215",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CIVL 230",
+              "credits": 4,
+              "tree": "CIVL 230",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CIVL 231",
+              "credits": 4,
+              "tree": "CIVL 231",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CIVL 235",
+              "credits": 4,
+              "tree": "CIVL 235",
+              "source": "rules",
+              "problems": [],
+              "notes": ["End of Term 2, second year."]
+            },
+            {
+              "text": "EOSC 210",
+              "credits": 3,
+              "tree": "EOSC 210",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MATH 253",
+              "credits": 3,
+              "tree": "MATH 253",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MATH 256",
+              "credits": 3,
+              "tree": "MATH 256",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "STAT 251",
+              "credits": 3,
+              "tree": "STAT 251",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "title": "Third Year",
+          "credits": 40,
+          "requirements": [
+            {
+              "text": "CIVL 300",
+              "credits": 3,
+              "tree": "CIVL 300",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CIVL 301",
+              "credits": 3,
+              "tree": "CIVL 301",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CIVL 302",
+              "credits": 3,
+              "tree": "CIVL 302",
+              "source": "rules",
+              "problems": [],
+              "notes": ["This course satisfies the impact of technology on society requirement within the Complementary Studies Courses."]
+            },
+            {
+              "text": "CIVL 303",
+              "credits": 3,
+              "tree": "CIVL 303",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CIVL 305",
+              "credits": 3,
+              "tree": "CIVL 305",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CIVL 311",
+              "credits": 4,
+              "tree": "CIVL 311",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CIVL 315",
+              "credits": 4,
+              "tree": "CIVL 315",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CIVL 316",
+              "credits": 4,
+              "tree": "CIVL 316",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CIVL 320",
+              "credits": 3,
+              "tree": "CIVL 320",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CIVL 331",
+              "credits": 4,
+              "tree": "CIVL 331",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CIVL 332",
+              "credits": 3,
+              "tree": "CIVL 332",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CIVL 340",
+              "credits": 3,
+              "tree": "CIVL 340",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "title": "Fourth Year",
+          "credits": 36,
+          "requirements": [
+            {
+              "text": "CIVL 402",
+              "credits": 3,
+              "tree": "CIVL 402",
+              "source": "rules",
+              "problems": [],
+              "notes": ["This course counts towards the professional development requirements within the Complementary Studies Courses."]
+            },
+            {
+              "text": "CIVL 403",
+              "credits": 3,
+              "tree": "CIVL 403",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CIVL 409",
+              "credits": 3,
+              "tree": "CIVL 409",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CIVL 430",
+              "credits": 4,
+              "tree": "CIVL 430",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CIVL 445",
+              "credits": 3,
+              "tree": "CIVL 445",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CIVL 446",
+              "credits": 2,
+              "tree": "CIVL 446",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "Technical electives",
+              "credits": 15,
+              "tree": {
+                "other": "Technical electives"
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["See 4th Year Technical Electives; several elective streams are possible"]
+            },
+            {
+              "text": "Complementary Studies Electives",
+              "credits": 3,
+              "tree": {
+                "other": "Complementary Studies Electives"
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["See Complementary Studies Courses."]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "cpen",
       "name": "Computer Engineering",
       "sources": ["https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-applied-science/bachelor-applied-science/curriculum-and-first-year", "https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-applied-science/bachelor-applied-science/electrical-and-computer-engineering"],
@@ -511,7 +2117,7 @@
               "tree": "ELEC 291",
               "source": "rules",
               "problems": [],
-              "notes": ["Students in the Biomedical Engineering Option will take ELEC 271 and ELEC 292 instead of ELEC 291."]
+              "notes": []
             },
             {
               "text": "MATH 253",
@@ -678,11 +2284,1314 @@
       ]
     },
     {
-      "id": "elec-bmeg",
-      "name": "Electrical Engineering, Biomedical Engineering option",
-      "sources": ["https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-applied-science/bachelor-applied-science/curriculum-and-first-year", "https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-applied-science/bachelor-applied-science/electrical-and-computer-engineering"],
-      "notes": ["Students are admitted to the option at the end of first year by permission of the option coordinator."],
-      "total_credits": 154,
+      "id": "enph",
+      "name": "Engineering Physics",
+      "sources": ["https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-applied-science/bachelor-applied-science/curriculum-and-first-year", "https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-applied-science/bachelor-applied-science/engineering-physics"],
+      "notes": [],
+      "total_credits": 173,
+      "years": [
+        {
+          "title": "First Year",
+          "credits": 37,
+          "requirements": [
+            {
+              "text": "APSC 100",
+              "credits": 3,
+              "tree": "APSC 100",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "APSC 101",
+              "credits": 3,
+              "tree": "APSC 101",
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students entering first-year Engineering from high school with CHEM 121 and 123 transfer credits or advanced credits from AP, IB, A Level will be required to take APSC 100 and APSC 101."]
+            },
+            {
+              "text": "APSC 160",
+              "credits": 3,
+              "tree": "APSC 160",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHEM 154",
+              "credits": 3,
+              "tree": "CHEM 154",
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students entering first-year Engineering from high school with CHEM 121 and 123 transfer credits or advanced credits from AP, IB, A Level will be required to take APSC 100 and APSC 101."]
+            },
+            {
+              "text": "WRDS 150",
+              "credits": 3,
+              "tree": "WRDS 150",
+              "source": "rules",
+              "problems": [],
+              "notes": ["Or another first-year English course."]
+            },
+            {
+              "text": "MATH 100",
+              "credits": 3,
+              "tree": "MATH 100",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MATH 101",
+              "credits": 3,
+              "tree": "MATH 101",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MATH 152",
+              "credits": 3,
+              "tree": "MATH 152",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "PHYS 157",
+              "credits": 3,
+              "tree": "PHYS 157",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "PHYS 158",
+              "credits": 3,
+              "tree": "PHYS 158",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "PHYS 159",
+              "credits": 1,
+              "tree": "PHYS 159",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "PHYS 170",
+              "credits": 3,
+              "tree": "PHYS 170",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "Complementary Studies electives",
+              "credits": 3,
+              "tree": {
+                "other": "Complementary Studies electives"
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["See Complementary Studies Courses."]
+            }
+          ]
+        },
+        {
+          "title": "Second Year",
+          "credits": 39,
+          "requirements": [
+            {
+              "text": "CPEN 221",
+              "credits": 4,
+              "tree": "CPEN 221",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "ELEC 204",
+              "credits": 4,
+              "tree": "ELEC 204",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "ENPH 253",
+              "credits": 5,
+              "tree": "ENPH 253",
+              "source": "rules",
+              "problems": [],
+              "notes": ["Taken during the summer academic term."]
+            },
+            {
+              "text": "ENPH 259",
+              "credits": 3,
+              "tree": "ENPH 259",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "ENPH 270",
+              "credits": 2,
+              "tree": "ENPH 270",
+              "source": "rules",
+              "problems": [],
+              "notes": ["Taken during the summer academic term."]
+            },
+            {
+              "text": "MATH 217",
+              "credits": 4,
+              "tree": "MATH 217",
+              "source": "rules",
+              "problems": [],
+              "notes": ["If unable to take MATH 217, replace with MATH 253 and 317."]
+            },
+            {
+              "text": "MATH 255",
+              "credits": 3,
+              "tree": "MATH 255",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MATH 257",
+              "credits": 3,
+              "tree": "MATH 257",
+              "source": "rules",
+              "problems": [],
+              "notes": ["Taken during the summer academic term."]
+            },
+            {
+              "text": "ENPH 257",
+              "credits": 2,
+              "tree": "ENPH 257",
+              "source": "rules",
+              "problems": [],
+              "notes": ["Taken during the summer academic term."]
+            },
+            {
+              "text": "PHYS 250",
+              "credits": 3,
+              "tree": "PHYS 250",
+              "source": "rules",
+              "problems": [],
+              "notes": ["Taken during the summer academic term."]
+            },
+            {
+              "text": "APSC 202",
+              "credits": 3,
+              "tree": "APSC 202",
+              "source": "rules",
+              "problems": [],
+              "notes": ["Taken during the summer academic term."]
+            },
+            {
+              "text": "Complementary Studies electives",
+              "credits": 3,
+              "tree": {
+                "other": "Complementary Studies electives"
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["See Complementary Studies Courses."]
+            }
+          ]
+        },
+        {
+          "title": "Third Year",
+          "credits": 38,
+          "requirements": [
+            {
+              "text": "APSC 278",
+              "credits": 3,
+              "tree": "APSC 278",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "APSC 279",
+              "credits": 1,
+              "tree": "APSC 279",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CPEN 312",
+              "credits": 3,
+              "tree": "CPEN 312",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "ELEC 221",
+              "credits": 4,
+              "tree": "ELEC 221",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "ENPH 353",
+              "credits": 3,
+              "tree": "ENPH 353",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MATH 307",
+              "credits": 3,
+              "tree": "MATH 307",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MATH 305",
+              "credits": 3,
+              "tree": "MATH 305",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MECH 280",
+              "credits": 3,
+              "tree": "MECH 280",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MECH 260",
+              "credits": 3,
+              "tree": "MECH 260",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "PHYS 301",
+              "credits": 3,
+              "tree": "PHYS 301",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "PHYS 304",
+              "credits": 3,
+              "tree": "PHYS 304",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "PHYS 350",
+              "credits": 3,
+              "tree": "PHYS 350",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "Technical Elective",
+              "credits": 3,
+              "tree": {
+                "other": "Technical Elective"
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["Chosen in consultation with the Director. Technical elective requirements may be waived in part at the discretion of the Director for students pursuing dual degrees, minors, or equivalent study. Students enrolled in CIE may obtain technical elective credit while on exchange."]
+            }
+          ]
+        },
+        {
+          "title": "Fourth Year",
+          "credits": 21,
+          "requirements": [
+            {
+              "text": "ENPH 459",
+              "credits": 5,
+              "tree": "ENPH 459",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MATH 318",
+              "credits": 3,
+              "tree": "MATH 318",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MATH 400",
+              "credits": 3,
+              "tree": "MATH 400",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "PHYS 401",
+              "credits": 3,
+              "tree": "PHYS 401",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "One of ELEC 341, MECH 466",
+              "credits": 4,
+              "tree": {
+                "one_of": ["ELEC 341", "MECH 466"]
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "Technical elective",
+              "credits": 3,
+              "tree": {
+                "other": "Technical elective"
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["Chosen in consultation with the Director. Technical elective requirements may be waived in part at the discretion of the Director for students pursuing dual degrees, minors, or equivalent study. Students enrolled in CIE may obtain technical elective credit while on exchange."]
+            }
+          ]
+        },
+        {
+          "title": "Fifth Year",
+          "credits": 38,
+          "requirements": [
+            {
+              "text": "APSC 450",
+              "credits": 2,
+              "tree": "APSC 450",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "ELEC 302",
+              "credits": 3,
+              "tree": "ELEC 302",
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students may also fulfill this requirement with ELEC 301 or ELEC 401."]
+            },
+            {
+              "text": "ELEC 481",
+              "credits": 3,
+              "tree": "ELEC 481",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "ENPH 352",
+              "credits": 2,
+              "tree": "ENPH 352",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "ENPH 479",
+              "credits": 6,
+              "tree": "ENPH 479",
+              "source": "rules",
+              "problems": [],
+              "notes": ["ENPH 479 may be replaced with APSC 486 for students pursuing the Entrepreneurship Minor, or at the discretion of the Program Director."]
+            },
+            {
+              "text": "PHYS 403",
+              "credits": 3,
+              "tree": "PHYS 403",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "PHYS 408",
+              "credits": 4,
+              "tree": "PHYS 408",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "One of MATH 401, 405, 406, PHYS 410",
+              "credits": 3,
+              "tree": {
+                "one_of": ["MATH 401", "MATH 405", "MATH 406", "PHYS 410"]
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students planning on graduate studies in math or physics should take one of MATH 401 or MATH 406."]
+            },
+            {
+              "text": "Technical electives",
+              "credits": 9,
+              "tree": {
+                "other": "Technical electives"
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["Chosen in consultation with the Director. Technical elective requirements may be waived in part at the discretion of the Director for students pursuing dual degrees or minors."]
+            },
+            {
+              "text": "Complementary Studies elective",
+              "credits": 3,
+              "tree": {
+                "other": "Complementary Studies elective"
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["See Complementary Studies Courses"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "enve",
+      "name": "Environmental Engineering",
+      "sources": ["https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-applied-science/bachelor-applied-science/curriculum-and-first-year", "https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-applied-science/bachelor-applied-science/environmental-engineering"],
+      "notes": [],
+      "total_credits": 151,
+      "years": [
+        {
+          "title": "First Year",
+          "credits": 37,
+          "requirements": [
+            {
+              "text": "APSC 100",
+              "credits": 3,
+              "tree": "APSC 100",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "APSC 101",
+              "credits": 3,
+              "tree": "APSC 101",
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students entering first-year Engineering from high school with CHEM 121 and 123 transfer credits or advanced credits from AP, IB, A Level will be required to take APSC 100 and APSC 101."]
+            },
+            {
+              "text": "APSC 160",
+              "credits": 3,
+              "tree": "APSC 160",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHEM 154",
+              "credits": 3,
+              "tree": "CHEM 154",
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students entering first-year Engineering from high school with CHEM 121 and 123 transfer credits or advanced credits from AP, IB, A Level will be required to take APSC 100 and APSC 101."]
+            },
+            {
+              "text": "WRDS 150",
+              "credits": 3,
+              "tree": "WRDS 150",
+              "source": "rules",
+              "problems": [],
+              "notes": ["Or another first-year English course."]
+            },
+            {
+              "text": "MATH 100",
+              "credits": 3,
+              "tree": "MATH 100",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MATH 101",
+              "credits": 3,
+              "tree": "MATH 101",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MATH 152",
+              "credits": 3,
+              "tree": "MATH 152",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "PHYS 157",
+              "credits": 3,
+              "tree": "PHYS 157",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "PHYS 158",
+              "credits": 3,
+              "tree": "PHYS 158",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "PHYS 159",
+              "credits": 1,
+              "tree": "PHYS 159",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "PHYS 170",
+              "credits": 3,
+              "tree": "PHYS 170",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "Complementary Studies electives",
+              "credits": 3,
+              "tree": {
+                "other": "Complementary Studies electives"
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["See Complementary Studies Courses."]
+            }
+          ]
+        },
+        {
+          "title": "Second Year",
+          "credits": 37,
+          "requirements": [
+            {
+              "text": "CHBE 230",
+              "credits": 3,
+              "tree": "CHBE 230",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHBE 241",
+              "credits": 3,
+              "tree": "CHBE 241",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHBE 244",
+              "credits": 3,
+              "tree": "CHBE 244",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CIVL 204",
+              "credits": 3,
+              "tree": "CIVL 204",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CIVL 215",
+              "credits": 4,
+              "tree": "CIVL 215",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "ENVE 200",
+              "credits": 4,
+              "tree": "ENVE 200",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "ENVE 201",
+              "credits": 3,
+              "tree": "ENVE 201",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "ENVE 202",
+              "credits": 4,
+              "tree": "ENVE 202",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "ENVE 203",
+              "credits": 4,
+              "tree": "ENVE 203",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MATH 253",
+              "credits": 3,
+              "tree": "MATH 253",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MATH 256",
+              "credits": 3,
+              "tree": "MATH 256",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "title": "Third Year",
+          "credits": 39,
+          "requirements": [
+            {
+              "text": "CHBE 364",
+              "credits": 3,
+              "tree": "CHBE 364",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHBE 370",
+              "credits": 3,
+              "tree": "CHBE 370",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHBE 373",
+              "credits": 4,
+              "tree": "CHBE 373",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHBE 485",
+              "credits": 3,
+              "tree": "CHBE 485",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CIVL 305",
+              "credits": 3,
+              "tree": "CIVL 305",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CIVL 315",
+              "credits": 4,
+              "tree": "CIVL 315",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CIVL 316",
+              "credits": 4,
+              "tree": "CIVL 316",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "ENVE 301",
+              "credits": 3,
+              "tree": "ENVE 301",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "EOSC 210",
+              "credits": 3,
+              "tree": "EOSC 210",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "STAT 251",
+              "credits": 3,
+              "tree": "STAT 251",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "Technical Elective",
+              "credits": 3,
+              "tree": {
+                "other": "Technical Elective"
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "Complementary Studies Elective",
+              "credits": 3,
+              "tree": {
+                "other": "Complementary Studies Elective"
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "title": "Fourth Year",
+          "credits": 38,
+          "requirements": [
+            {
+              "text": "CHBE 459",
+              "credits": 3,
+              "tree": "CHBE 459",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHBE 483",
+              "credits": 3,
+              "tree": "CHBE 483",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHBE 486",
+              "credits": 3,
+              "tree": "CHBE 486",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CIVL 402",
+              "credits": 3,
+              "tree": "CIVL 402",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CIVL 409",
+              "credits": 3,
+              "tree": "CIVL 409",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CIVL 416",
+              "credits": 3,
+              "tree": "CIVL 416",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CIVL 418",
+              "credits": 3,
+              "tree": "CIVL 418",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "ENVE 401",
+              "credits": 8,
+              "tree": "ENVE 401",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "EOSC 329",
+              "credits": 3,
+              "tree": "EOSC 329",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "Technical Electives",
+              "credits": 6,
+              "tree": {
+                "other": "Technical Electives"
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["For a list of eligible Technical Electives, see the ENVL program website or speak to your academic advisor."]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "geol",
+      "name": "Geological Engineering",
+      "sources": ["https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-applied-science/bachelor-applied-science/curriculum-and-first-year", "https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-applied-science/bachelor-applied-science/geological-engineering"],
+      "notes": [],
+      "total_credits": 151,
+      "years": [
+        {
+          "title": "First Year",
+          "credits": 37,
+          "requirements": [
+            {
+              "text": "APSC 100",
+              "credits": 3,
+              "tree": "APSC 100",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "APSC 101",
+              "credits": 3,
+              "tree": "APSC 101",
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students entering first-year Engineering from high school with CHEM 121 and 123 transfer credits or advanced credits from AP, IB, A Level will be required to take APSC 100 and APSC 101."]
+            },
+            {
+              "text": "APSC 160",
+              "credits": 3,
+              "tree": "APSC 160",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHEM 154",
+              "credits": 3,
+              "tree": "CHEM 154",
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students entering first-year Engineering from high school with CHEM 121 and 123 transfer credits or advanced credits from AP, IB, A Level will be required to take APSC 100 and APSC 101."]
+            },
+            {
+              "text": "WRDS 150",
+              "credits": 3,
+              "tree": "WRDS 150",
+              "source": "rules",
+              "problems": [],
+              "notes": ["Or another first-year English course."]
+            },
+            {
+              "text": "MATH 100",
+              "credits": 3,
+              "tree": "MATH 100",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MATH 101",
+              "credits": 3,
+              "tree": "MATH 101",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MATH 152",
+              "credits": 3,
+              "tree": "MATH 152",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "PHYS 157",
+              "credits": 3,
+              "tree": "PHYS 157",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "PHYS 158",
+              "credits": 3,
+              "tree": "PHYS 158",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "PHYS 159",
+              "credits": 1,
+              "tree": "PHYS 159",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "PHYS 170",
+              "credits": 3,
+              "tree": "PHYS 170",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "Complementary Studies electives",
+              "credits": 3,
+              "tree": {
+                "other": "Complementary Studies electives"
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["See Complementary Studies Courses."]
+            }
+          ]
+        },
+        {
+          "title": "Second Year",
+          "credits": 39,
+          "requirements": [
+            {
+              "text": "APSC 201",
+              "credits": 3,
+              "tree": "APSC 201",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CIVL 210",
+              "credits": 4,
+              "tree": "CIVL 210",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CIVL 215",
+              "credits": 4,
+              "tree": "CIVL 215",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CIVL 230",
+              "credits": 4,
+              "tree": "CIVL 230",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "EOSC 210",
+              "credits": 3,
+              "tree": "EOSC 210",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "EOSC 213",
+              "credits": 3,
+              "tree": "EOSC 213",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "EOSC 220",
+              "credits": 3,
+              "tree": "EOSC 220",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "EOSC 221",
+              "credits": 3,
+              "tree": "EOSC 221",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "EOSC 223",
+              "credits": 3,
+              "tree": "EOSC 223",
+              "source": "rules",
+              "problems": [],
+              "notes": ["Includes one week field school, end of Term 2."]
+            },
+            {
+              "text": "EOSC 240",
+              "credits": 3,
+              "tree": "EOSC 240",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MATH 253",
+              "credits": 3,
+              "tree": "MATH 253",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "STAT 251",
+              "credits": 3,
+              "tree": "STAT 251",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "title": "Third Year",
+          "credits": 39,
+          "requirements": [
+            {
+              "text": "CIVL 311",
+              "credits": 4,
+              "tree": "CIVL 311",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CIVL 316",
+              "credits": 4,
+              "tree": "CIVL 316",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "EOSC 323",
+              "credits": 3,
+              "tree": "EOSC 323",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "EOSC 328 or 428",
+              "credits": 3,
+              "tree": {
+                "one_of": ["EOSC 328", "EOSC 428"]
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["End of third year.", "End of third year."]
+            },
+            {
+              "text": "EOSC 329",
+              "credits": 3,
+              "tree": "EOSC 329",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "EOSC 330",
+              "credits": 3,
+              "tree": "EOSC 330",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "EOSC 350",
+              "credits": 3,
+              "tree": "EOSC 350",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MINE 303",
+              "credits": 4,
+              "tree": "MINE 303",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "One of EOSC 320, EOSC 321, EOSC 322, EOSC 331, EOSC 332",
+              "credits": 3,
+              "tree": {
+                "one_of": ["EOSC 320", "EOSC 321", "EOSC 322", "EOSC 331", "EOSC 332"]
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "Technical electives",
+              "credits": 3,
+              "tree": {
+                "other": "Technical electives"
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "Complementary Studies electives",
+              "credits": 6,
+              "tree": {
+                "other": "Complementary Studies electives"
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["See Complementary Studies Courses."]
+            }
+          ]
+        },
+        {
+          "title": "Fourth Year",
+          "credits": 36,
+          "requirements": [
+            {
+              "text": "CIVL 402",
+              "credits": 3,
+              "tree": "CIVL 402",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CIVL 410",
+              "credits": 3,
+              "tree": "CIVL 410",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CIVL 411",
+              "credits": 3,
+              "tree": "CIVL 411",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "EOSC 429",
+              "credits": 3,
+              "tree": "EOSC 429",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "EOSC 433",
+              "credits": 3,
+              "tree": "EOSC 433",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "EOSC 434",
+              "credits": 3,
+              "tree": "EOSC 434",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "EOSC 445",
+              "credits": 6,
+              "tree": "EOSC 445",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "One of CHBE 459, CIVL 403, CPEN 481, ELEC 481, MTRL 455, MECH 431, MINE 396",
+              "credits": 3,
+              "tree": {
+                "one_of": ["CHBE 459", "CIVL 403", "CPEN 481", "ELEC 481", "MTRL 455", "MECH 431", "MINE 396"]
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "Technical electives",
+              "credits": 9,
+              "tree": {
+                "other": "Technical electives"
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "igen",
+      "name": "Integrated Engineering",
+      "sources": ["https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-applied-science/bachelor-applied-science/curriculum-and-first-year", "https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-applied-science/bachelor-applied-science/integrated-engineering"],
+      "notes": [],
+      "total_credits": 152,
       "years": [
         {
           "title": "First Year",
@@ -801,72 +3710,84 @@
           "credits": 40,
           "requirements": [
             {
-              "text": "CPEN 211",
-              "credits": 5,
-              "tree": "CPEN 211",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "CPSC 259",
-              "credits": 4,
-              "tree": "CPSC 259",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "ELEC 201",
-              "credits": 4,
-              "tree": "ELEC 201",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "ELEC 202",
-              "credits": 4,
-              "tree": "ELEC 202",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "ELEC 211",
-              "credits": 2,
-              "tree": "ELEC 211",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "ELEC 221",
-              "credits": 4,
-              "tree": "ELEC 221",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "ELEC 281 or CPEN 281",
+              "text": "APSC 278",
               "credits": 3,
-              "tree": {
-                "one_of": ["ELEC 281", "CPEN 281"]
-              },
+              "tree": "APSC 278",
               "source": "rules",
               "problems": [],
               "notes": []
             },
             {
-              "text": "ELEC 271, ELEC 292",
-              "credits": 7,
-              "tree": {
-                "all_of": ["ELEC 271", "ELEC 292"]
-              },
+              "text": "APSC 279",
+              "credits": 1,
+              "tree": "APSC 279",
               "source": "rules",
               "problems": [],
-              "notes": ["Students in the Biomedical Engineering Option will take ELEC 271 and ELEC 292 instead of ELEC 291."]
+              "notes": []
+            },
+            {
+              "text": "CHBE 241",
+              "credits": 3,
+              "tree": "CHBE 241",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHBE 244",
+              "credits": 3,
+              "tree": "CHBE 244",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CIVL 215",
+              "credits": 4,
+              "tree": "CIVL 215",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CPEN 312",
+              "credits": 3,
+              "tree": "CPEN 312",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "ELEC 204",
+              "credits": 4,
+              "tree": "ELEC 204",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "ELEC 205",
+              "credits": 1,
+              "tree": "ELEC 205",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "IGEN 201",
+              "credits": 3,
+              "tree": "IGEN 201",
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students failing IGEN 201 will be required to pass APSC 201 subsequently."]
+            },
+            {
+              "text": "IGEN 230",
+              "credits": 6,
+              "tree": "IGEN 230",
+              "source": "rules",
+              "problems": [],
+              "notes": []
             },
             {
               "text": "MATH 253",
@@ -885,9 +3806,9 @@
               "notes": []
             },
             {
-              "text": "MATH 264",
-              "credits": 1,
-              "tree": "MATH 264",
+              "text": "MECH 260",
+              "credits": 3,
+              "tree": "MECH 260",
               "source": "rules",
               "problems": [],
               "notes": []
@@ -896,80 +3817,493 @@
         },
         {
           "title": "Third Year",
-          "credits": 41,
+          "credits": 40,
           "requirements": [
             {
-              "text": "BMEG 410",
+              "text": "CHBE 344",
               "credits": 3,
-              "tree": "BMEG 410",
+              "tree": "CHBE 344",
               "source": "rules",
               "problems": [],
               "notes": []
             },
             {
-              "text": "BMEG 456",
+              "text": "COMR 280",
               "credits": 3,
-              "tree": "BMEG 456",
+              "tree": "COMR 280",
               "source": "rules",
               "problems": [],
               "notes": []
             },
             {
-              "text": "ELEC 301",
-              "credits": 4,
-              "tree": "ELEC 301",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "ELEC 311",
-              "credits": 4,
-              "tree": "ELEC 311",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "ELEC 341",
-              "credits": 4,
-              "tree": "ELEC 341",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "ELEC 371",
+              "text": "ELEC 344",
               "credits": 3,
-              "tree": "ELEC 371",
+              "tree": "ELEC 344",
               "source": "rules",
               "problems": [],
               "notes": []
             },
             {
-              "text": "ELEC 391",
+              "text": "IGEN 330",
               "credits": 6,
-              "tree": "ELEC 391",
+              "tree": "IGEN 330",
               "source": "rules",
               "problems": [],
               "notes": []
             },
             {
-              "text": "Breadth Electives",
-              "credits": 8,
+              "text": "MECH 360",
+              "credits": 3,
+              "tree": "MECH 360",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MECH 375",
+              "credits": 3,
+              "tree": "MECH 375",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MTRL 280",
+              "credits": 3,
+              "tree": "MTRL 280",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "STAT 251",
+              "credits": 3,
+              "tree": "STAT 251",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "One of CHBE 356, ELEC 341",
+              "credits": 4,
               "tree": {
-                "other": "Breadth Electives"
+                "one_of": ["CHBE 356", "ELEC 341"]
               },
               "source": "rules",
               "problems": [],
-              "notes": ["To be chosen based on Department-approved list of Biomedical Engineering electives."]
+              "notes": []
             },
             {
-              "text": "One of STAT 251, MATH 302, MATH 318, STAT 302",
+              "text": "Technical electives",
+              "credits": 6,
+              "tree": {
+                "other": "Technical electives"
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["Of the 18 credits of technical electives, 9 credits must be in one engineering discipline and 6 in another discipline. Several elective streams are possible. Consult the IGEN Student Advisor for assistance."]
+            },
+            {
+              "text": "Complementary Studies electives",
               "credits": 3,
               "tree": {
-                "one_of": ["STAT 251", "MATH 302", "MATH 318", "STAT 302"]
+                "other": "Complementary Studies electives"
               },
+              "source": "rules",
+              "problems": [],
+              "notes": ["See Complementary Studies Courses."]
+            }
+          ]
+        },
+        {
+          "title": "Fourth Year",
+          "credits": 35,
+          "requirements": [
+            {
+              "text": "APSC 450",
+              "credits": 2,
+              "tree": "APSC 450",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CIVL 305",
+              "credits": 3,
+              "tree": "CIVL 305",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "IGEN 430",
+              "credits": 6,
+              "tree": "IGEN 430",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MTRL 340",
+              "credits": 3,
+              "tree": "MTRL 340",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "One of MINE 350, MINE 406, MINE 420, MINE 444, MINE 455 or MINE 465",
+              "credits": 3,
+              "tree": {
+                "one_of": ["MINE 350", "MINE 406", "MINE 420", "MINE 444", "MINE 455", "MINE 465"]
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "One of CHBE 459, CIVL 403, ELEC 481, MECH 431, MINE 396, MTRL 455",
+              "credits": 3,
+              "tree": {
+                "one_of": ["CHBE 459", "CIVL 403", "ELEC 481", "MECH 431", "MINE 396", "MTRL 455"]
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "Technical electives",
+              "credits": 12,
+              "tree": {
+                "other": "Technical electives"
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["Of the 18 credits of technical electives, 9 credits must be in one engineering discipline and 6 in another discipline. Several elective streams are possible. Consult the IGEN Student Advisor for assistance."]
+            },
+            {
+              "text": "Complementary Studies electives",
+              "credits": 3,
+              "tree": {
+                "other": "Complementary Studies electives"
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["See Complementary Studies Courses."]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "manu",
+      "name": "Manufacturing Engineering",
+      "sources": ["https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-applied-science/bachelor-applied-science/curriculum-and-first-year", "https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-applied-science/bachelor-applied-science/manufacturing-engineering"],
+      "notes": ["Second to fourth years for students who entered second year in 2026W or later."],
+      "total_credits": 153,
+      "years": [
+        {
+          "title": "First Year",
+          "credits": 37,
+          "requirements": [
+            {
+              "text": "APSC 100",
+              "credits": 3,
+              "tree": "APSC 100",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "APSC 101",
+              "credits": 3,
+              "tree": "APSC 101",
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students entering first-year Engineering from high school with CHEM 121 and 123 transfer credits or advanced credits from AP, IB, A Level will be required to take APSC 100 and APSC 101."]
+            },
+            {
+              "text": "APSC 160",
+              "credits": 3,
+              "tree": "APSC 160",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHEM 154",
+              "credits": 3,
+              "tree": "CHEM 154",
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students entering first-year Engineering from high school with CHEM 121 and 123 transfer credits or advanced credits from AP, IB, A Level will be required to take APSC 100 and APSC 101."]
+            },
+            {
+              "text": "WRDS 150",
+              "credits": 3,
+              "tree": "WRDS 150",
+              "source": "rules",
+              "problems": [],
+              "notes": ["Or another first-year English course."]
+            },
+            {
+              "text": "MATH 100",
+              "credits": 3,
+              "tree": "MATH 100",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MATH 101",
+              "credits": 3,
+              "tree": "MATH 101",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MATH 152",
+              "credits": 3,
+              "tree": "MATH 152",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "PHYS 157",
+              "credits": 3,
+              "tree": "PHYS 157",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "PHYS 158",
+              "credits": 3,
+              "tree": "PHYS 158",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "PHYS 159",
+              "credits": 1,
+              "tree": "PHYS 159",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "PHYS 170",
+              "credits": 3,
+              "tree": "PHYS 170",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "Complementary Studies electives",
+              "credits": 3,
+              "tree": {
+                "other": "Complementary Studies electives"
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["See Complementary Studies Courses."]
+            }
+          ]
+        },
+        {
+          "title": "Second Year",
+          "credits": 38,
+          "requirements": [
+            {
+              "text": "APSC 278",
+              "credits": 3,
+              "tree": "APSC 278",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "APSC 279",
+              "credits": 1,
+              "tree": "APSC 279",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "ELEC 203",
+              "credits": 3,
+              "tree": "ELEC 203",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MANU 201",
+              "credits": 3,
+              "tree": "MANU 201",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MANU 231",
+              "credits": 3,
+              "tree": "MANU 231",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MANU 280",
+              "credits": 4,
+              "tree": "MANU 280",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MANU 261",
+              "credits": 3,
+              "tree": "MANU 261",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MANU 265",
+              "credits": 3,
+              "tree": "MANU 265",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MATH 253",
+              "credits": 3,
+              "tree": "MATH 253",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MATH 255",
+              "credits": 3,
+              "tree": "MATH 255",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MECH 260",
+              "credits": 3,
+              "tree": "MECH 260",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MTRL 263",
+              "credits": 3,
+              "tree": "MTRL 263",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MTRL 264",
+              "credits": 3,
+              "tree": "MTRL 264",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "title": "Third Year",
+          "credits": 38,
+          "requirements": [
+            {
+              "text": "CPEN 223",
+              "credits": 4,
+              "tree": "CPEN 223",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CPEN 333",
+              "credits": 3,
+              "tree": "CPEN 333",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MANU 270",
+              "credits": 3,
+              "tree": "MANU 270",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MANU 330",
+              "credits": 6,
+              "tree": "MANU 330",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MANU 378",
+              "credits": 3,
+              "tree": "MANU 378",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MANU 380",
+              "credits": 3,
+              "tree": "MANU 380",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MANU 386",
+              "credits": 3,
+              "tree": "MANU 386",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MECH 360",
+              "credits": 3,
+              "tree": "MECH 360",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MECH 368",
+              "credits": 4,
+              "tree": "MECH 368",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "STAT 251",
+              "credits": 3,
+              "tree": "STAT 251",
               "source": "rules",
               "problems": [],
               "notes": []
@@ -988,67 +4322,81 @@
         },
         {
           "title": "Fourth Year",
-          "credits": 36,
+          "credits": 40,
           "requirements": [
             {
-              "text": "APSC 450",
-              "credits": 2,
-              "tree": "APSC 450",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "ELEC 422",
+              "text": "MANU 370",
               "credits": 3,
-              "tree": "ELEC 422",
+              "tree": "MANU 370",
               "source": "rules",
               "problems": [],
               "notes": []
             },
             {
-              "text": "ELEC 471",
+              "text": "MANU 430",
+              "credits": 6,
+              "tree": "MANU 430",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MANU 480",
               "credits": 3,
-              "tree": "ELEC 471",
+              "tree": "MANU 480",
               "source": "rules",
               "problems": [],
               "notes": []
             },
             {
-              "text": "ELEC 473",
+              "text": "MANU 481",
               "credits": 3,
-              "tree": "ELEC 473",
+              "tree": "MANU 481",
               "source": "rules",
               "problems": [],
               "notes": []
             },
             {
-              "text": "ELEC 481 or CPEN 481",
+              "text": "MECH 400",
               "credits": 3,
-              "tree": {
-                "one_of": ["ELEC 481", "CPEN 481"]
-              },
+              "tree": "MECH 400",
               "source": "rules",
               "problems": [],
               "notes": []
             },
             {
-              "text": "ELEC 494",
-              "credits": 10,
-              "tree": "ELEC 494",
+              "text": "MECH 463",
+              "credits": 4,
+              "tree": "MECH 463",
               "source": "rules",
               "problems": [],
               "notes": []
             },
             {
-              "text": "Electives",
+              "text": "MECH 491",
+              "credits": 3,
+              "tree": "MECH 491",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MTRL 455",
+              "credits": 3,
+              "tree": "MTRL 455",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "Technical Electives",
               "credits": 9,
               "tree": {
-                "other": "Electives"
+                "other": "Technical Electives"
               },
               "source": "rules",
               "problems": [],
-              "notes": ["To be chosen based on Department-approved list of Biomedical Engineering electives."]
+              "notes": ["To be chosen in consultation with departmental advisors"]
             },
             {
               "text": "Complementary Studies electives",
@@ -1059,6 +4407,399 @@
               "source": "rules",
               "problems": [],
               "notes": ["See Complementary Studies Courses."]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mtrl",
+      "name": "Materials Engineering",
+      "sources": ["https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-applied-science/bachelor-applied-science/curriculum-and-first-year", "https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-applied-science/bachelor-applied-science/materials-engineering"],
+      "notes": [],
+      "total_credits": 147,
+      "years": [
+        {
+          "title": "First Year",
+          "credits": 37,
+          "requirements": [
+            {
+              "text": "APSC 100",
+              "credits": 3,
+              "tree": "APSC 100",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "APSC 101",
+              "credits": 3,
+              "tree": "APSC 101",
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students entering first-year Engineering from high school with CHEM 121 and 123 transfer credits or advanced credits from AP, IB, A Level will be required to take APSC 100 and APSC 101."]
+            },
+            {
+              "text": "APSC 160",
+              "credits": 3,
+              "tree": "APSC 160",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CHEM 154",
+              "credits": 3,
+              "tree": "CHEM 154",
+              "source": "rules",
+              "problems": [],
+              "notes": ["Students entering first-year Engineering from high school with CHEM 121 and 123 transfer credits or advanced credits from AP, IB, A Level will be required to take APSC 100 and APSC 101."]
+            },
+            {
+              "text": "WRDS 150",
+              "credits": 3,
+              "tree": "WRDS 150",
+              "source": "rules",
+              "problems": [],
+              "notes": ["Or another first-year English course."]
+            },
+            {
+              "text": "MATH 100",
+              "credits": 3,
+              "tree": "MATH 100",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MATH 101",
+              "credits": 3,
+              "tree": "MATH 101",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MATH 152",
+              "credits": 3,
+              "tree": "MATH 152",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "PHYS 157",
+              "credits": 3,
+              "tree": "PHYS 157",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "PHYS 158",
+              "credits": 3,
+              "tree": "PHYS 158",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "PHYS 159",
+              "credits": 1,
+              "tree": "PHYS 159",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "PHYS 170",
+              "credits": 3,
+              "tree": "PHYS 170",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "Complementary Studies electives",
+              "credits": 3,
+              "tree": {
+                "other": "Complementary Studies electives"
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["See Complementary Studies Courses."]
+            }
+          ]
+        },
+        {
+          "title": "Second Year",
+          "credits": 39,
+          "requirements": [
+            {
+              "text": "APSC 278",
+              "credits": 3,
+              "tree": "APSC 278",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "APSC 279",
+              "credits": 1,
+              "tree": "APSC 279",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MATH 253",
+              "credits": 3,
+              "tree": "MATH 253",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MATH 255",
+              "credits": 3,
+              "tree": "MATH 255",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MECH 260",
+              "credits": 3,
+              "tree": "MECH 260",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MTRL 201",
+              "credits": 3,
+              "tree": "MTRL 201",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MTRL 250",
+              "credits": 4,
+              "tree": "MTRL 250",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MTRL 251",
+              "credits": 4,
+              "tree": "MTRL 251",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MTRL 263",
+              "credits": 3,
+              "tree": "MTRL 263",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MTRL 264",
+              "credits": 3,
+              "tree": "MTRL 264",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MTRL 280",
+              "credits": 3,
+              "tree": "MTRL 280",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "Complementary Studies electives",
+              "credits": 6,
+              "tree": {
+                "other": "Complementary Studies electives"
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["See Complementary Studies Courses."]
+            }
+          ]
+        },
+        {
+          "title": "Third Year",
+          "credits": 33,
+          "requirements": [
+            {
+              "text": "MTRL 320",
+              "credits": 2,
+              "tree": "MTRL 320",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MTRL 340",
+              "credits": 3,
+              "tree": "MTRL 340",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MTRL 358",
+              "credits": 3,
+              "tree": "MTRL 358",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MTRL 359",
+              "credits": 1,
+              "tree": "MTRL 359",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MTRL 361",
+              "credits": 4,
+              "tree": "MTRL 361",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MTRL 363",
+              "credits": 3,
+              "tree": "MTRL 363",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MTRL 365",
+              "credits": 3,
+              "tree": "MTRL 365",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MTRL 378",
+              "credits": 3,
+              "tree": "MTRL 378",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MTRL 381",
+              "credits": 1,
+              "tree": "MTRL 381",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MTRL 394",
+              "credits": 4,
+              "tree": "MTRL 394",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "STAT 251",
+              "credits": 3,
+              "tree": "STAT 251",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "Technical electives",
+              "credits": 3,
+              "tree": {
+                "other": "Technical electives"
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["To be chosen from a course list available in the Department Office and in consultation with an Undergraduate Advisor."]
+            }
+          ]
+        },
+        {
+          "title": "Fourth Year",
+          "credits": 38,
+          "requirements": [
+            {
+              "text": "APSC 450",
+              "credits": 2,
+              "tree": "APSC 450",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MTRL 455",
+              "credits": 3,
+              "tree": "MTRL 455",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MTRL 456",
+              "credits": 3,
+              "tree": "MTRL 456",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MTRL 460",
+              "credits": 3,
+              "tree": "MTRL 460",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MTRL 466",
+              "credits": 3,
+              "tree": "MTRL 466",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MTRL 467",
+              "credits": 3,
+              "tree": "MTRL 467",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "Technical electives",
+              "credits": 21,
+              "tree": {
+                "other": "Technical electives"
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["To be chosen from a course list available in the Department Office and in consultation with an Undergraduate Advisor."]
             }
           ]
         }
@@ -1398,1517 +5139,10 @@
       ]
     },
     {
-      "id": "mech-aerospace",
-      "name": "Mechanical Engineering, Aerospace option",
-      "sources": ["https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-applied-science/bachelor-applied-science/curriculum-and-first-year", "https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-applied-science/bachelor-applied-science/mechanical-engineering"],
-      "notes": ["Students are admitted to an option at the end of second year by permission of the option coordinator.", "Third and fourth years for students who started third year in 2026W or later."],
-      "total_credits": 155,
-      "years": [
-        {
-          "title": "First Year",
-          "credits": 37,
-          "requirements": [
-            {
-              "text": "APSC 100",
-              "credits": 3,
-              "tree": "APSC 100",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "APSC 101",
-              "credits": 3,
-              "tree": "APSC 101",
-              "source": "rules",
-              "problems": [],
-              "notes": ["Students entering first-year Engineering from high school with CHEM 121 and 123 transfer credits or advanced credits from AP, IB, A Level will be required to take APSC 100 and APSC 101."]
-            },
-            {
-              "text": "APSC 160",
-              "credits": 3,
-              "tree": "APSC 160",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "CHEM 154",
-              "credits": 3,
-              "tree": "CHEM 154",
-              "source": "rules",
-              "problems": [],
-              "notes": ["Students entering first-year Engineering from high school with CHEM 121 and 123 transfer credits or advanced credits from AP, IB, A Level will be required to take APSC 100 and APSC 101."]
-            },
-            {
-              "text": "WRDS 150",
-              "credits": 3,
-              "tree": "WRDS 150",
-              "source": "rules",
-              "problems": [],
-              "notes": ["Or another first-year English course."]
-            },
-            {
-              "text": "MATH 100",
-              "credits": 3,
-              "tree": "MATH 100",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MATH 101",
-              "credits": 3,
-              "tree": "MATH 101",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MATH 152",
-              "credits": 3,
-              "tree": "MATH 152",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "PHYS 157",
-              "credits": 3,
-              "tree": "PHYS 157",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "PHYS 158",
-              "credits": 3,
-              "tree": "PHYS 158",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "PHYS 159",
-              "credits": 1,
-              "tree": "PHYS 159",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "PHYS 170",
-              "credits": 3,
-              "tree": "PHYS 170",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "Complementary Studies electives",
-              "credits": 3,
-              "tree": {
-                "other": "Complementary Studies electives"
-              },
-              "source": "rules",
-              "problems": [],
-              "notes": ["See Complementary Studies Courses."]
-            }
-          ]
-        },
-        {
-          "title": "Second Year",
-          "credits": 40,
-          "requirements": [
-            {
-              "text": "MATH 254",
-              "credits": 3,
-              "tree": "MATH 254",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MATH 258",
-              "credits": 3,
-              "tree": "MATH 258",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 220",
-              "credits": 4,
-              "tree": "MECH 220",
-              "source": "rules",
-              "problems": [],
-              "notes": ["Taken prior to Term 1 of second year."]
-            },
-            {
-              "text": "MECH 221",
-              "credits": 12,
-              "tree": "MECH 221",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 222",
-              "credits": 6,
-              "tree": "MECH 222",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 223",
-              "credits": 7,
-              "tree": "MECH 223",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 224",
-              "credits": 1,
-              "tree": "MECH 224",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 225",
-              "credits": 1,
-              "tree": "MECH 225",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 226 or MECH 227",
-              "credits": 3,
-              "tree": {
-                "one_of": ["MECH 226", "MECH 227"]
-              },
-              "source": "rules",
-              "problems": [],
-              "notes": ["MECH 227 is taken in the summer after Second Year."],
-              "credits_text": "3 or 5"
-            }
-          ],
-          "credits_text": "40 or 42"
-        },
-        {
-          "title": "Third Year",
-          "credits": 41,
-          "requirements": [
-            {
-              "text": "MECH 305",
-              "credits": 6,
-              "tree": "MECH 305",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 327",
-              "credits": 3,
-              "tree": "MECH 327",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 328",
-              "credits": 3,
-              "tree": "MECH 328",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 358 or 359",
-              "credits": 3,
-              "tree": {
-                "one_of": ["MECH 358", "MECH 359"]
-              },
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 360",
-              "credits": 3,
-              "tree": "MECH 360",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 368",
-              "credits": 3,
-              "tree": "MECH 368",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 375",
-              "credits": 3,
-              "tree": "MECH 375",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 380",
-              "credits": 3,
-              "tree": "MECH 380",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 426",
-              "credits": 3,
-              "tree": "MECH 426",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 463",
-              "credits": 4,
-              "tree": "MECH 463",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 466",
-              "credits": 4,
-              "tree": "MECH 466",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 481",
-              "credits": 3,
-              "tree": "MECH 481",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            }
-          ]
-        },
-        {
-          "title": "Fourth Year",
-          "credits": 37,
-          "requirements": [
-            {
-              "text": "MECH 400",
-              "credits": 3,
-              "tree": "MECH 400",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 431",
-              "credits": 3,
-              "tree": "MECH 431",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 453",
-              "credits": 6,
-              "tree": "MECH 453",
-              "source": "rules",
-              "problems": [],
-              "notes": ["MECH 453 may be replaced by APSC 486 and MECH 490 with permission from Department."]
-            },
-            {
-              "text": "MECH 462",
-              "credits": 3,
-              "tree": "MECH 462",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 479",
-              "credits": 3,
-              "tree": "MECH 479",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "Two of MECH 477, MECH 484, MECH 485",
-              "credits": 6,
-              "tree": {
-                "pick": 2,
-                "of": ["MECH 477", "MECH 484", "MECH 485"]
-              },
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 489",
-              "credits": 4,
-              "tree": "MECH 489",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MTRL 484",
-              "credits": 3,
-              "tree": "MTRL 484",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "Complementary Studies electives",
-              "credits": 6,
-              "tree": {
-                "other": "Complementary Studies electives"
-              },
-              "source": "rules",
-              "problems": [],
-              "notes": ["To be chosen from a restricted list as determined by the Department. See Complementary Studies Courses."]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "mech-biomechanics",
-      "name": "Mechanical Engineering, Biomechanics and Medical Devices option",
-      "sources": ["https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-applied-science/bachelor-applied-science/curriculum-and-first-year", "https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-applied-science/bachelor-applied-science/mechanical-engineering"],
-      "notes": ["Students are admitted to an option at the end of second year by permission of the option coordinator.", "Third and fourth years for students who started third year in 2026W or later."],
-      "total_credits": 148,
-      "years": [
-        {
-          "title": "First Year",
-          "credits": 37,
-          "requirements": [
-            {
-              "text": "APSC 100",
-              "credits": 3,
-              "tree": "APSC 100",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "APSC 101",
-              "credits": 3,
-              "tree": "APSC 101",
-              "source": "rules",
-              "problems": [],
-              "notes": ["Students entering first-year Engineering from high school with CHEM 121 and 123 transfer credits or advanced credits from AP, IB, A Level will be required to take APSC 100 and APSC 101."]
-            },
-            {
-              "text": "APSC 160",
-              "credits": 3,
-              "tree": "APSC 160",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "CHEM 154",
-              "credits": 3,
-              "tree": "CHEM 154",
-              "source": "rules",
-              "problems": [],
-              "notes": ["Students entering first-year Engineering from high school with CHEM 121 and 123 transfer credits or advanced credits from AP, IB, A Level will be required to take APSC 100 and APSC 101."]
-            },
-            {
-              "text": "WRDS 150",
-              "credits": 3,
-              "tree": "WRDS 150",
-              "source": "rules",
-              "problems": [],
-              "notes": ["Or another first-year English course."]
-            },
-            {
-              "text": "MATH 100",
-              "credits": 3,
-              "tree": "MATH 100",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MATH 101",
-              "credits": 3,
-              "tree": "MATH 101",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MATH 152",
-              "credits": 3,
-              "tree": "MATH 152",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "PHYS 157",
-              "credits": 3,
-              "tree": "PHYS 157",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "PHYS 158",
-              "credits": 3,
-              "tree": "PHYS 158",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "PHYS 159",
-              "credits": 1,
-              "tree": "PHYS 159",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "PHYS 170",
-              "credits": 3,
-              "tree": "PHYS 170",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "Complementary Studies electives",
-              "credits": 3,
-              "tree": {
-                "other": "Complementary Studies electives"
-              },
-              "source": "rules",
-              "problems": [],
-              "notes": ["See Complementary Studies Courses."]
-            }
-          ]
-        },
-        {
-          "title": "Second Year",
-          "credits": 40,
-          "requirements": [
-            {
-              "text": "MATH 254",
-              "credits": 3,
-              "tree": "MATH 254",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MATH 258",
-              "credits": 3,
-              "tree": "MATH 258",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 220",
-              "credits": 4,
-              "tree": "MECH 220",
-              "source": "rules",
-              "problems": [],
-              "notes": ["Taken prior to Term 1 of second year."]
-            },
-            {
-              "text": "MECH 221",
-              "credits": 12,
-              "tree": "MECH 221",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 222",
-              "credits": 6,
-              "tree": "MECH 222",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 223",
-              "credits": 7,
-              "tree": "MECH 223",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 224",
-              "credits": 1,
-              "tree": "MECH 224",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 225",
-              "credits": 1,
-              "tree": "MECH 225",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 226 or MECH 227",
-              "credits": 3,
-              "tree": {
-                "one_of": ["MECH 226", "MECH 227"]
-              },
-              "source": "rules",
-              "problems": [],
-              "notes": ["MECH 227 is taken in the summer after Second Year."],
-              "credits_text": "3 or 5"
-            }
-          ],
-          "credits_text": "40 or 42"
-        },
-        {
-          "title": "Third Year",
-          "credits": 37,
-          "requirements": [
-            {
-              "text": "BMEG 410",
-              "credits": 3,
-              "tree": "BMEG 410",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 305",
-              "credits": 6,
-              "tree": "MECH 305",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 325",
-              "credits": 4,
-              "tree": "MECH 325",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 328",
-              "credits": 3,
-              "tree": "MECH 328",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 360",
-              "credits": 3,
-              "tree": "MECH 360",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 368",
-              "credits": 4,
-              "tree": "MECH 368",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 375",
-              "credits": 3,
-              "tree": "MECH 375",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 463",
-              "credits": 4,
-              "tree": "MECH 463",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 466",
-              "credits": 4,
-              "tree": "MECH 466",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "Complementary Studies electives",
-              "credits": 3,
-              "tree": {
-                "other": "Complementary Studies electives"
-              },
-              "source": "rules",
-              "problems": [],
-              "notes": ["To be chosen from restricted list as determined by the department. See Complementary Studies Courses."]
-            }
-          ]
-        },
-        {
-          "title": "Fourth Year",
-          "credits": 34,
-          "requirements": [
-            {
-              "text": "BMEG 456",
-              "credits": 3,
-              "tree": "BMEG 456",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 400",
-              "credits": 3,
-              "tree": "MECH 400",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 431",
-              "credits": 3,
-              "tree": "MECH 431",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 439",
-              "credits": 1,
-              "tree": "MECH 439",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 459",
-              "credits": 6,
-              "tree": "MECH 459",
-              "source": "rules",
-              "problems": [],
-              "notes": ["MECH 459 may be replaced by APSC 486 and MECH 490 with permission from Department."]
-            },
-            {
-              "text": "MTRL 495",
-              "credits": 3,
-              "tree": "MTRL 495",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "Complementary Studies electives",
-              "credits": 3,
-              "tree": {
-                "other": "Complementary Studies electives"
-              },
-              "source": "rules",
-              "problems": [],
-              "notes": ["To be chosen from restricted list as determined by the department. See Complementary Studies Courses."]
-            },
-            {
-              "text": "Technical electives",
-              "credits": 12,
-              "tree": {
-                "other": "Technical electives"
-              },
-              "source": "rules",
-              "problems": [],
-              "notes": ["To be chosen from a course list available on the Department website."]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "mech-energy",
-      "name": "Mechanical Engineering, Energy and Environment option",
-      "sources": ["https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-applied-science/bachelor-applied-science/curriculum-and-first-year", "https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-applied-science/bachelor-applied-science/mechanical-engineering"],
-      "notes": ["Students are admitted to an option at the end of second year by permission of the option coordinator.", "Third and fourth years for students who started third year in 2026W or later."],
-      "total_credits": 148,
-      "years": [
-        {
-          "title": "First Year",
-          "credits": 37,
-          "requirements": [
-            {
-              "text": "APSC 100",
-              "credits": 3,
-              "tree": "APSC 100",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "APSC 101",
-              "credits": 3,
-              "tree": "APSC 101",
-              "source": "rules",
-              "problems": [],
-              "notes": ["Students entering first-year Engineering from high school with CHEM 121 and 123 transfer credits or advanced credits from AP, IB, A Level will be required to take APSC 100 and APSC 101."]
-            },
-            {
-              "text": "APSC 160",
-              "credits": 3,
-              "tree": "APSC 160",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "CHEM 154",
-              "credits": 3,
-              "tree": "CHEM 154",
-              "source": "rules",
-              "problems": [],
-              "notes": ["Students entering first-year Engineering from high school with CHEM 121 and 123 transfer credits or advanced credits from AP, IB, A Level will be required to take APSC 100 and APSC 101."]
-            },
-            {
-              "text": "WRDS 150",
-              "credits": 3,
-              "tree": "WRDS 150",
-              "source": "rules",
-              "problems": [],
-              "notes": ["Or another first-year English course."]
-            },
-            {
-              "text": "MATH 100",
-              "credits": 3,
-              "tree": "MATH 100",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MATH 101",
-              "credits": 3,
-              "tree": "MATH 101",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MATH 152",
-              "credits": 3,
-              "tree": "MATH 152",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "PHYS 157",
-              "credits": 3,
-              "tree": "PHYS 157",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "PHYS 158",
-              "credits": 3,
-              "tree": "PHYS 158",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "PHYS 159",
-              "credits": 1,
-              "tree": "PHYS 159",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "PHYS 170",
-              "credits": 3,
-              "tree": "PHYS 170",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "Complementary Studies electives",
-              "credits": 3,
-              "tree": {
-                "other": "Complementary Studies electives"
-              },
-              "source": "rules",
-              "problems": [],
-              "notes": ["See Complementary Studies Courses."]
-            }
-          ]
-        },
-        {
-          "title": "Second Year",
-          "credits": 40,
-          "requirements": [
-            {
-              "text": "MATH 254",
-              "credits": 3,
-              "tree": "MATH 254",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MATH 258",
-              "credits": 3,
-              "tree": "MATH 258",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 220",
-              "credits": 4,
-              "tree": "MECH 220",
-              "source": "rules",
-              "problems": [],
-              "notes": ["Taken prior to Term 1 of second year."]
-            },
-            {
-              "text": "MECH 221",
-              "credits": 12,
-              "tree": "MECH 221",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 222",
-              "credits": 6,
-              "tree": "MECH 222",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 223",
-              "credits": 7,
-              "tree": "MECH 223",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 224",
-              "credits": 1,
-              "tree": "MECH 224",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 225",
-              "credits": 1,
-              "tree": "MECH 225",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 226 or MECH 227",
-              "credits": 3,
-              "tree": {
-                "one_of": ["MECH 226", "MECH 227"]
-              },
-              "source": "rules",
-              "problems": [],
-              "notes": ["MECH 227 is taken in the summer after Second Year."],
-              "credits_text": "3 or 5"
-            }
-          ],
-          "credits_text": "40 or 42"
-        },
-        {
-          "title": "Third Year",
-          "credits": 36,
-          "requirements": [
-            {
-              "text": "MECH 305",
-              "credits": 6,
-              "tree": "MECH 305",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 325",
-              "credits": 4,
-              "tree": "MECH 325",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 327",
-              "credits": 3,
-              "tree": "MECH 327",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 328",
-              "credits": 3,
-              "tree": "MECH 328",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 360",
-              "credits": 3,
-              "tree": "MECH 360",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 368",
-              "credits": 4,
-              "tree": "MECH 368",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 375",
-              "credits": 3,
-              "tree": "MECH 375",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 380",
-              "credits": 3,
-              "tree": "MECH 380",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 466",
-              "credits": 4,
-              "tree": "MECH 466",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "Complementary Studies electives",
-              "credits": 3,
-              "tree": {
-                "other": "Complementary Studies electives"
-              },
-              "source": "rules",
-              "problems": [],
-              "notes": ["To be chosen from restricted list as determined by the Department. See Complementary Studies Course."]
-            }
-          ]
-        },
-        {
-          "title": "Fourth Year",
-          "credits": 35,
-          "requirements": [
-            {
-              "text": "MECH 400",
-              "credits": 3,
-              "tree": "MECH 400",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 431",
-              "credits": 3,
-              "tree": "MECH 431",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 456",
-              "credits": 6,
-              "tree": "MECH 456",
-              "source": "rules",
-              "problems": [],
-              "notes": ["MECH 456 may be replaced by APSC 486 and MECH 490 with permission from Department."]
-            },
-            {
-              "text": "MECH 463",
-              "credits": 4,
-              "tree": "MECH 463",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 489",
-              "credits": 4,
-              "tree": "MECH 489",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "Complementary Studies electives",
-              "credits": 3,
-              "tree": {
-                "other": "Complementary Studies electives"
-              },
-              "source": "rules",
-              "problems": [],
-              "notes": ["To be chosen from restricted list as determined by the Department. See Complementary Studies Course."]
-            },
-            {
-              "text": "Technical electives",
-              "credits": 12,
-              "tree": {
-                "other": "Technical electives"
-              },
-              "source": "rules",
-              "problems": [],
-              "notes": ["To be chosen from a course list available on the Department website."]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "mech-mechatronics",
-      "name": "Mechanical Engineering, Mechatronics option",
-      "sources": ["https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-applied-science/bachelor-applied-science/curriculum-and-first-year", "https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-applied-science/bachelor-applied-science/mechanical-engineering"],
-      "notes": ["Students are admitted to an option at the end of second year by permission of the option coordinator."],
-      "total_credits": 155,
-      "years": [
-        {
-          "title": "First Year",
-          "credits": 37,
-          "requirements": [
-            {
-              "text": "APSC 100",
-              "credits": 3,
-              "tree": "APSC 100",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "APSC 101",
-              "credits": 3,
-              "tree": "APSC 101",
-              "source": "rules",
-              "problems": [],
-              "notes": ["Students entering first-year Engineering from high school with CHEM 121 and 123 transfer credits or advanced credits from AP, IB, A Level will be required to take APSC 100 and APSC 101."]
-            },
-            {
-              "text": "APSC 160",
-              "credits": 3,
-              "tree": "APSC 160",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "CHEM 154",
-              "credits": 3,
-              "tree": "CHEM 154",
-              "source": "rules",
-              "problems": [],
-              "notes": ["Students entering first-year Engineering from high school with CHEM 121 and 123 transfer credits or advanced credits from AP, IB, A Level will be required to take APSC 100 and APSC 101."]
-            },
-            {
-              "text": "WRDS 150",
-              "credits": 3,
-              "tree": "WRDS 150",
-              "source": "rules",
-              "problems": [],
-              "notes": ["Or another first-year English course."]
-            },
-            {
-              "text": "MATH 100",
-              "credits": 3,
-              "tree": "MATH 100",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MATH 101",
-              "credits": 3,
-              "tree": "MATH 101",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MATH 152",
-              "credits": 3,
-              "tree": "MATH 152",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "PHYS 157",
-              "credits": 3,
-              "tree": "PHYS 157",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "PHYS 158",
-              "credits": 3,
-              "tree": "PHYS 158",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "PHYS 159",
-              "credits": 1,
-              "tree": "PHYS 159",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "PHYS 170",
-              "credits": 3,
-              "tree": "PHYS 170",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "Complementary Studies electives",
-              "credits": 3,
-              "tree": {
-                "other": "Complementary Studies electives"
-              },
-              "source": "rules",
-              "problems": [],
-              "notes": ["See Complementary Studies Courses."]
-            }
-          ]
-        },
-        {
-          "title": "Second Year",
-          "credits": 40,
-          "requirements": [
-            {
-              "text": "MATH 254",
-              "credits": 3,
-              "tree": "MATH 254",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MATH 258",
-              "credits": 3,
-              "tree": "MATH 258",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 220",
-              "credits": 4,
-              "tree": "MECH 220",
-              "source": "rules",
-              "problems": [],
-              "notes": ["Taken prior to Term 1 of second year."]
-            },
-            {
-              "text": "MECH 221",
-              "credits": 12,
-              "tree": "MECH 221",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 222",
-              "credits": 6,
-              "tree": "MECH 222",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 223",
-              "credits": 7,
-              "tree": "MECH 223",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 224",
-              "credits": 1,
-              "tree": "MECH 224",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 225",
-              "credits": 1,
-              "tree": "MECH 225",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 226 or MECH 227",
-              "credits": 3,
-              "tree": {
-                "one_of": ["MECH 226", "MECH 227"]
-              },
-              "source": "rules",
-              "problems": [],
-              "notes": ["MECH 227 is taken in the summer after Second Year."],
-              "credits_text": "3 or 5"
-            }
-          ],
-          "credits_text": "40 or 42"
-        },
-        {
-          "title": "Third Year",
-          "credits": 39,
-          "requirements": [
-            {
-              "text": "CPEN 312",
-              "credits": 3,
-              "tree": "CPEN 312",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "CPSC 259",
-              "credits": 4,
-              "tree": "CPSC 259",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "ELEC 302",
-              "credits": 3,
-              "tree": "ELEC 302",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "ELEC 343",
-              "credits": 3,
-              "tree": "ELEC 343",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 306",
-              "credits": 4,
-              "tree": "MECH 306",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 325",
-              "credits": 4,
-              "tree": "MECH 325",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 328",
-              "credits": 3,
-              "tree": "MECH 328",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 360",
-              "credits": 3,
-              "tree": "MECH 360",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 366",
-              "credits": 3,
-              "tree": "MECH 366",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 375",
-              "credits": 3,
-              "tree": "MECH 375",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 392",
-              "credits": 2,
-              "tree": "MECH 392",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 463",
-              "credits": 4,
-              "tree": "MECH 463",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            }
-          ]
-        },
-        {
-          "title": "Fourth Year",
-          "credits": 39,
-          "requirements": [
-            {
-              "text": "CPEN 333",
-              "credits": 3,
-              "tree": "CPEN 333",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 400",
-              "credits": 3,
-              "tree": "MECH 400",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 420",
-              "credits": 3,
-              "tree": "MECH 420",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 421",
-              "credits": 4,
-              "tree": "MECH 421",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 423",
-              "credits": 4,
-              "tree": "MECH 423",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 431",
-              "credits": 3,
-              "tree": "MECH 431",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 458",
-              "credits": 6,
-              "tree": "MECH 458",
-              "source": "rules",
-              "problems": [],
-              "notes": ["MECH 458 may be replaced by APSC 486 and MECH 490 with permission from Department."]
-            },
-            {
-              "text": "MECH 467",
-              "credits": 4,
-              "tree": "MECH 467",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "Technical electives",
-              "credits": 3,
-              "tree": {
-                "other": "Technical electives"
-              },
-              "source": "rules",
-              "problems": [],
-              "notes": ["To be chosen from a course list available on the Department website."]
-            },
-            {
-              "text": "Complementary Studies electives",
-              "credits": 6,
-              "tree": {
-                "other": "Complementary Studies electives"
-              },
-              "source": "rules",
-              "problems": [],
-              "notes": ["To be chosen from restricted list as determined by the Department. See Complementary Studies Courses."]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "mech-naval",
-      "name": "Mechanical Engineering, Naval Architecture and Marine Engineering option",
-      "sources": ["https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-applied-science/bachelor-applied-science/curriculum-and-first-year", "https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-applied-science/bachelor-applied-science/mechanical-engineering"],
-      "notes": ["Students are admitted to an option at the end of second year by permission of the option coordinator.", "Third and fourth years for students who started third year in 2026W or later."],
+      "id": "mine",
+      "name": "Mining Engineering",
+      "sources": ["https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-applied-science/bachelor-applied-science/curriculum-and-first-year", "https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-applied-science/bachelor-applied-science/mining-engineering"],
+      "notes": [],
       "total_credits": 151,
       "years": [
         {
@@ -3025,171 +5259,108 @@
         },
         {
           "title": "Second Year",
-          "credits": 40,
+          "credits": 39,
           "requirements": [
             {
-              "text": "MATH 254",
+              "text": "APSC 201",
               "credits": 3,
-              "tree": "MATH 254",
+              "tree": "APSC 201",
               "source": "rules",
               "problems": [],
               "notes": []
             },
             {
-              "text": "MATH 258",
-              "credits": 3,
-              "tree": "MATH 258",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 220",
+              "text": "CIVL 210",
               "credits": 4,
-              "tree": "MECH 220",
-              "source": "rules",
-              "problems": [],
-              "notes": ["Taken prior to Term 1 of second year."]
-            },
-            {
-              "text": "MECH 221",
-              "credits": 12,
-              "tree": "MECH 221",
+              "tree": "CIVL 210",
               "source": "rules",
               "problems": [],
               "notes": []
             },
             {
-              "text": "MECH 222",
-              "credits": 6,
-              "tree": "MECH 222",
+              "text": "EOSC 210",
+              "credits": 3,
+              "tree": "EOSC 210",
               "source": "rules",
               "problems": [],
               "notes": []
             },
             {
-              "text": "MECH 223",
-              "credits": 7,
-              "tree": "MECH 223",
+              "text": "MATH 253",
+              "credits": 3,
+              "tree": "MATH 253",
               "source": "rules",
               "problems": [],
               "notes": []
             },
             {
-              "text": "MECH 224",
-              "credits": 1,
-              "tree": "MECH 224",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 225",
-              "credits": 1,
-              "tree": "MECH 225",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 226 or MECH 227",
+              "text": "MATH 255 or MATH 256",
               "credits": 3,
               "tree": {
-                "one_of": ["MECH 226", "MECH 227"]
+                "one_of": ["MATH 255", "MATH 256"]
               },
               "source": "rules",
               "problems": [],
-              "notes": ["MECH 227 is taken in the summer after Second Year."],
-              "credits_text": "3 or 5"
-            }
-          ],
-          "credits_text": "40 or 42"
-        },
-        {
-          "title": "Third Year",
-          "credits": 40,
-          "requirements": [
-            {
-              "text": "MECH 305",
-              "credits": 6,
-              "tree": "MECH 305",
-              "source": "rules",
-              "problems": [],
               "notes": []
             },
             {
-              "text": "MECH 325",
-              "credits": 4,
-              "tree": "MECH 325",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 328",
+              "text": "MECH 260",
               "credits": 3,
-              "tree": "MECH 328",
+              "tree": "MECH 260",
               "source": "rules",
               "problems": [],
               "notes": []
             },
             {
-              "text": "MECH 359",
-              "credits": 4,
-              "tree": "MECH 359",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 360",
-              "credits": 3,
-              "tree": "MECH 360",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 368",
-              "credits": 4,
-              "tree": "MECH 368",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 375",
-              "credits": 3,
-              "tree": "MECH 375",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 380",
-              "credits": 3,
-              "tree": "MECH 380",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "MECH 466",
-              "credits": 4,
-              "tree": "MECH 466",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "Technical electives",
+              "text": "MECH 280, CIVL 215, or CHBE 251",
               "credits": 3,
               "tree": {
-                "other": "Technical electives"
+                "one_of": ["MECH 280", "CIVL 215", "CHBE 251"]
               },
               "source": "rules",
               "problems": [],
-              "notes": ["To be chosen from a course list available on the Department website."]
+              "notes": [],
+              "credits_text": "3 (4)"
+            },
+            {
+              "text": "MINE 200",
+              "credits": 3,
+              "tree": "MINE 200",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MINE 201",
+              "credits": 3,
+              "tree": "MINE 201",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MINE 202",
+              "credits": 4,
+              "tree": "MINE 202",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MINE 293",
+              "credits": 1,
+              "tree": "MINE 293",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "STAT 251",
+              "credits": 3,
+              "tree": "STAT 251",
+              "source": "rules",
+              "problems": [],
+              "notes": []
             },
             {
               "text": "Complementary Studies electives",
@@ -3199,89 +5370,200 @@
               },
               "source": "rules",
               "problems": [],
-              "notes": ["To be chosen from restricted list as determined by the Department. See Complementary Studies Courses."]
+              "notes": ["See Complementary Studies Courses."]
+            }
+          ],
+          "credits_text": "39 (40)"
+        },
+        {
+          "title": "Third Year",
+          "credits": 37,
+          "requirements": [
+            {
+              "text": "APSC 278",
+              "credits": 3,
+              "tree": "APSC 278",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "APSC 279",
+              "credits": 1,
+              "tree": "APSC 279",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "ELEC 203",
+              "credits": 3,
+              "tree": "ELEC 203",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MINE 302",
+              "credits": 4,
+              "tree": "MINE 302",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MINE 303",
+              "credits": 4,
+              "tree": "MINE 303",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MINE 310",
+              "credits": 4,
+              "tree": "MINE 310",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MINE 331",
+              "credits": 3,
+              "tree": "MINE 331",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MINE 333",
+              "credits": 3,
+              "tree": "MINE 333",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MINE 350",
+              "credits": 3,
+              "tree": "MINE 350",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MINE 380",
+              "credits": 3,
+              "tree": "MINE 380",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MINE 396",
+              "credits": 3,
+              "tree": "MINE 396",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "Complementary Studies Electives",
+              "credits": 3,
+              "tree": {
+                "other": "Complementary Studies Electives"
+              },
+              "source": "rules",
+              "problems": [],
+              "notes": ["Selected with the approval of the Department."]
             }
           ]
         },
         {
           "title": "Fourth Year",
-          "credits": 34,
+          "credits": 38,
           "requirements": [
             {
-              "text": "MECH 400",
-              "credits": 3,
-              "tree": "MECH 400",
+              "text": "APSC 450",
+              "credits": 2,
+              "tree": "APSC 450",
               "source": "rules",
               "problems": [],
               "notes": []
             },
             {
-              "text": "MECH 431",
+              "text": "MINE 402",
               "credits": 3,
-              "tree": "MECH 431",
+              "tree": "MINE 402",
               "source": "rules",
               "problems": [],
               "notes": []
             },
             {
-              "text": "MECH 455",
+              "text": "MINE 403",
+              "credits": 3,
+              "tree": "MINE 403",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MINE 432",
+              "credits": 3,
+              "tree": "MINE 432",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MINE 465",
+              "credits": 3,
+              "tree": "MINE 465",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MINE 486",
+              "credits": 3,
+              "tree": "MINE 486",
+              "source": "rules",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MINE 491",
               "credits": 6,
-              "tree": "MECH 455",
-              "source": "rules",
-              "problems": [],
-              "notes": ["MECH 455 may be replaced by APSC 486 and MECH 490 with permission from Department."]
-            },
-            {
-              "text": "MECH 463",
-              "credits": 4,
-              "tree": "MECH 463",
+              "tree": "MINE 491",
               "source": "rules",
               "problems": [],
               "notes": []
             },
             {
-              "text": "MECH 486",
+              "text": "MINE 444",
               "credits": 3,
-              "tree": "MECH 486",
+              "tree": "MINE 444",
               "source": "rules",
               "problems": [],
               "notes": []
             },
             {
-              "text": "MECH 488",
+              "text": "MINE 447",
               "credits": 3,
-              "tree": "MECH 488",
+              "tree": "MINE 447",
               "source": "rules",
               "problems": [],
               "notes": []
             },
             {
-              "text": "CIVL 435",
-              "credits": 3,
-              "tree": "CIVL 435",
-              "source": "rules",
-              "problems": [],
-              "notes": []
-            },
-            {
-              "text": "Complementary Studies electives",
-              "credits": 3,
+              "text": "Technical Electives",
+              "credits": 9,
               "tree": {
-                "other": "Complementary Studies electives"
+                "other": "Technical Electives"
               },
               "source": "rules",
               "problems": [],
-              "notes": ["To be chosen from restricted list as determined by the Department. See Complementary Studies Courses."]
-            },
-            {
-              "text": "Technical electives",
-              "credits": 6,
-              "tree": {
-                "other": "Technical electives"
-              },
-              "source": "rules",
-              "problems": [],
-              "notes": ["To be chosen from a course list available on the Department website."]
+              "notes": []
             }
           ]
         }

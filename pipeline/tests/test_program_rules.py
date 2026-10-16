@@ -40,6 +40,12 @@ def test_course_codes_stop_at_other_words():
     ("One of CPSC 304, 317, 344", {"one_of": ["CPSC 304", "CPSC 317", "CPSC 344"]}),
     # Electrical Engineering's third year, with a colon.
     ("One of: MATH 318, MATH 302, STAT 302", {"one_of": ["MATH 318", "MATH 302", "STAT 302"]}),
+    # Mining Engineering, with "or" before the last one.
+    (
+        "One of MINE 350, MINE 406, MINE 444 or MINE 465",
+        {"one_of": ["MINE 350", "MINE 406", "MINE 444", "MINE 465"]},
+    ),
+    ("MECH 280, CIVL 215, or CHBE 251", {"one_of": ["MECH 280", "CIVL 215", "CHBE 251"]}),
     # "One more of" is a one_of too: the website never counts one course for two rows.
     ("One more of CPSC 304, CPEN 421, 432", {"one_of": ["CPSC 304", "CPEN 421", "CPEN 432"]}),
     (

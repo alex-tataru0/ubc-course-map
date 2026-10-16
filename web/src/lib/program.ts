@@ -200,45 +200,35 @@ export function programSummary(
   };
 }
 
-// The programs as the picker shows them: one group per stream (e.g. "Computer Science and
-// Software Engineering"), with its Major and Honours side by side, in the calendar's order.
-export interface ProgramOption {
-  id: string;
-  kind: string; // "Major" or "Honours"
-  plan: string | null; // the calendar's plan code, e.g. "0376"; the AI option has none
-  credits: number;
-}
-
-export interface ProgramGroup {
-  title: string;
-  options: ProgramOption[];
-}
-
-const KIND = / (Major|Honours)\b/;
-
-export function programGroups(programs: Program[]): ProgramGroup[] {
-  const groups: ProgramGroup[] = [];
-  for (const program of programs) {
-    const title = program.name.replace(KIND, "");
-    let group = groups.find((g) => g.title === title);
-    if (!group) {
-      group = { title, options: [] };
-      groups.push(group);
-    }
-    group.options.push({
-      id: program.id,
-      kind: program.name.match(KIND)?.[1] ?? program.name,
-      plan: program.heading.match(/\((\d{4})\)/)?.[1] ?? null,
-      credits: program.total_credits,
-    });
-  }
-  return groups;
-}
-
 // A name short enough for the button over the map, e.g. "CS and SE Honours".
 export function shortName(program: Program): string {
   return program.name
     .replace("Computer Science", "CS")
     .replace("Software Engineering", "SE")
     .replace("Artificial Intelligence", "AI");
+}
+
+// The programs as the picker shows them: one entry per major, in the calendar's order. A major
+// with several paths (Computer Science: Major, Honours, the AI option, Software Engineering)
+// opens to show them; one with a single path (Computer Engineering) is picked straight away.
+export interface Major {
+  subject: string; // e.g. "CPSC"
+  programs: Program[];
+}
+
+export function programMajors(programs: Program[]): Major[] {
+  const majors: Major[] = [];
+  for (const program of programs) {
+    const subject = programSubject(program);
+    const major = majors.find((m) => m.subject === subject);
+    if (major) major.programs.push(program);
+    else majors.push({ subject, programs: [program] });
+  }
+  return majors;
+}
+
+// The subject whose map lists the courses a program needs from elsewhere: "cpsc-major" → CPSC,
+// "mech" → MECH.
+export function programSubject(program: Program): string {
+  return program.id.split("-")[0].toUpperCase();
 }

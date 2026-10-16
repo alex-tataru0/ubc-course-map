@@ -78,6 +78,8 @@ def parse_requirement_with_rules(text: str):
     match = PICK.fullmatch(text)
     if match:
         count, listed, note = match.groups()
+        # "One of MINE 350, …, MINE 455 or MINE 465": the last one can come after "or".
+        listed = re.sub(r",? or ", ", ", listed)
         if not CODE_LIST.fullmatch(listed):
             return None
         codes = course_codes(listed)
@@ -91,6 +93,11 @@ def parse_requirement_with_rules(text: str):
         # "CPSC 121", or a list where you need all of them: "CPSC 310, 313, 320".
         codes = course_codes(text)
         return codes[0] if len(codes) == 1 else {"all_of": codes}
+
+    # "MECH 280, CIVL 215, or CHBE 251": a list with "or" before the last one is a choice.
+    match = re.fullmatch(r"(.+), or (.+)", text)
+    if match and CODE_LIST.fullmatch(f"{match[1]}, {match[2]}"):
+        return {"one_of": course_codes(f"{match[1]}, {match[2]}")}
 
     # Plain words with no numbers at all, e.g. "Additional Communication Requirement".
     if not re.search(r"\d", text):

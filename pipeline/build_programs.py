@@ -12,7 +12,7 @@ from program_rules import INSTRUCTIONS, parse_requirement
 
 # Reads the requirement tables of the programs on the site, turns every row into a
 # requirement tree, and writes data/programs/cpsc.json (the Computer Science programs) and
-# data/programs/engineering.json (nine engineering programs). Run from the repo root:
+# data/programs/engineering.json (the 14 Vancouver engineering majors). Run from the repo root:
 #   python pipeline/build_programs.py
 # Each calendar page is downloaded once and saved in data/raw/programs/. Delete a file to
 # download it again (e.g. when a new calendar year comes out).

@@ -16,9 +16,11 @@ interface FacultyViewProps {
   details: Course[]; // every course in the faculty, for the side panel, statuses and paths
   grades: Record<string, CourseGrades>; // from UBCGrades, for the courses that have any
   gradeSessions: string[]; // the terms the grade data covers, oldest first
-  programs: Program[];
+  programs: Program[]; // this faculty's, to pick from
+  otherPrograms: Program[]; // other faculties', in case one was picked on their page
   programUrl: string;
-  programSubject: string | null; // the subject the programs belong to, e.g. "CPSC", if any
+  programsNote: string;
+  programsByMajor: boolean; // list them by major, with a major's paths behind one button
   closed: string[]; // other faculties' courses this page's students usually can't take
 }
 

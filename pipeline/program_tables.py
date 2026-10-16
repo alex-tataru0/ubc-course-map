@@ -67,6 +67,14 @@ def read_blocks(table) -> list[dict]:
     return blocks
 
 
+def is_requirement_table(table) -> bool:
+    # A requirement table has a requirement and its credits on each row (Biomedical
+    # Engineering's add an empty third column). Others, like Engineering Physics' co-op
+    # schedule ("Year | Term 1 | Term 2 | Summer"), are left out.
+    return all(sum(1 for cell in tr.find_all(["td", "th"]) if cell.get_text(strip=True)) <= 2
+               for tr in table.find_all("tr"))
+
+
 def read_tables(html: str) -> list[dict]:
     # Every table on the page, in order, with the heading above it ("Computer Engineering",
     # "Aerospace Option") and the "For students who started third year in 2026W or later:"
@@ -83,6 +91,6 @@ def read_tables(html: str) -> list[dict]:
             text = clean(element.get_text(" "))
             if text.startswith("For students who"):
                 version = text.rstrip(":")
-        else:
+        elif is_requirement_table(element):
             tables.append({"heading": heading, "version": version, "blocks": read_blocks(element)})
     return tables

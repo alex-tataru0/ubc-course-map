@@ -19,9 +19,9 @@ A website for UBC students to plan courses using the prerequisite graph.
 - [x] The shortest path to any course from the courses you've done, term by term and across subjects, in the side panel and on the map.
 - [x] Grades for each course since 2021: the average, a chart of how grades spread, and who taught it each term (from UBCGrades).
 - [x] Links to r/ubc posts and UBCGrades for each course, and a Rate My Professors search for each instructor.
-- [x] Pick your program (the Computer Science Major or Honours, the AI option, or Software Engineering) to see its requirements year by year, which ones you've finished, and its courses marked on the map.
+- [x] Pick your program to see its requirements year by year, which ones you've finished, and its courses marked on the map: on the Science page, the Computer Science Major or Honours, the AI option, or Software Engineering; on the engineering page, any of the 14 Vancouver engineering majors.
 - [x] A Feedback link that opens a short form on GitHub.
-- [ ] Engineering programs (the common first year, Electrical and Computer Engineering, Mechanical Engineering).
+- [ ] Programs for the other Science majors (Mathematics, Statistics, Physics, Biology, …).
 - [ ] More faculties, and their majors.
 
 ## How the course data is built
@@ -110,7 +110,7 @@ python pipeline/build_prereqs.py
 
 With no arguments, `build_prereqs.py` builds all 27 subjects in the tables. To build only some, name subjects or a faculty: `python pipeline/build_prereqs.py MATH STAT` or `python pipeline/build_prereqs.py engineering`.
 
-A Gemini API key is only needed when there are prerequisites the cache doesn't have yet. Put it in a `.env` file (see `.env.example`). There are 277 `pytest` tests for the whole pipeline.
+A Gemini API key is only needed when there are prerequisites the cache doesn't have yet. Put it in a `.env` file (see `.env.example`). There are 279 `pytest` tests for the whole pipeline.
 
 ## How the grade data is built
 
@@ -170,27 +170,27 @@ With no arguments it does every subject; `python pipeline/build_grades.py MATH` 
 
 ## How the program data is built
 
-`build_programs.py` reads the six programs on the calendar's [Computer Science page](https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-science/bachelor-science/computer-science): the Major and Honours in Computer Science, the same two with the Artificial Intelligence option, and the Major and Honours in Computer Science and Software Engineering. It also reads nine engineering programs: Computer Engineering; Electrical Engineering and its Biomedical Engineering option; and Mechanical Engineering and its Aerospace, Biomechanics and Medical Devices, Energy and Environment, Mechatronics, and Naval Architecture and Marine Engineering options. (The engineering page doesn't list them yet.) Like the rest of the data, it runs ahead of time.
+`build_programs.py` reads the six programs on the calendar's [Computer Science page](https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-science/bachelor-science/computer-science): the Major and Honours in Computer Science, the same two with the Artificial Intelligence option, and the Major and Honours in Computer Science and Software Engineering. It also reads the 14 Vancouver engineering majors on the faculty's [list of degree programs](https://apsc.ubc.ca/students/degree-programs), from Biomedical to Mining Engineering. That list has majors only, so options like Mechatronics, or Electrical Engineering's Biomedical option, are left out, and so are footnotes about them. Like the rest of the data, it runs ahead of time.
 
 1. **Save the pages once.** Each calendar page is downloaded once to `data/raw/programs/` and read from there. Deleting a file downloads it again, e.g. for a new calendar year.
 2. **Read the tables.** `parse_programs.py` finds each program's heading and table, splits it into years (First Year, Second Year, Third and Fourth Years), and keeps each requirement's credits and footnotes. The Major and Honours share a first-year table, and a year the calendar only describes as "Same as …" another program is copied from that program. A test checks that the credits add up for every year and every degree (120 for a Major, 132 for an Honours).
-   An engineering program is put together from tables on different pages: the [first year](https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-applied-science/bachelor-applied-science/curriculum-and-first-year) every program shares, then the department's second year and the program's third and fourth years ([Electrical and Computer](https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-applied-science/bachelor-applied-science/electrical-and-computer-engineering), [Mechanical](https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-applied-science/bachelor-applied-science/mechanical-engineering)). `program_tables.py` reads every table on a page with the heading above it, and `engineering_programs.py` says which tables make up each program. Where a year has versions by when students started, the current one is used (Mechanical third and fourth years for students who started third year in 2026W or later, Computer Engineering second year for 2023W or later). The Biomedical Engineering option takes ELEC 271 and ELEC 292 instead of ELEC 291, as its footnote says. The Thermofluids option is left out, since it stopped taking students in 2023W.
+   An engineering program is put together from tables on different pages: the [first year](https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-applied-science/bachelor-applied-science/curriculum-and-first-year) every program shares (Biomedical Engineering has its own), then the later years on the department's page (e.g. [Electrical and Computer](https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-applied-science/bachelor-applied-science/electrical-and-computer-engineering), [Mechanical](https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-applied-science/bachelor-applied-science/mechanical-engineering)). `program_tables.py` reads every table on a page with the heading above it, and `engineering_programs.py` says which tables make up each program. Where a year has versions by when students started, the current one is used (Mechanical third and fourth years for students who started third year in 2026W or later; Computer Engineering second year for 2023W or later; Biomedical and Manufacturing second to fourth years for 2022W and 2026W or later). Chemical Engineering and Chemical and Biological Engineering share one table, where each year ends with a short list for each, and Engineering Physics takes five years. Tables that aren't requirements, like Engineering Physics' co-op schedule, are skipped.
 3. **Turn each requirement into a tree.** `program_rules.py` reads rows like "MATH 100 or 102 or 104 (or 180 or 184 or 120 or 110)", "Three of CPSC 304, 330, …, AI 422 at least 6 credits of which must be 400 or above" and "CPSC or AI courses numbered 300 or higher" into `one_of`, `all_of`, `pick`, `credits_of`, electives and free text. Shorthand like "CPSC 310, 313, 320" is written out in full, and a checker makes sure each tree has exactly the courses in its row, like the one for prerequisites.
 4. **Gemini only if needed.** A row the rules can't read would go to Gemini, with the answer cached in `data/llm_cache/programs.json`, like the prerequisites. So far the rules read every row, so nothing has been sent.
-5. **Write the output.** `data/programs/cpsc.json`: 6 programs, 120 requirements. `data/programs/engineering.json`: 9 programs, 358 requirements. An engineering "Electives" row comes from a department's list, so it's something to check, like "Technical electives" and "Complementary Studies electives", not any course.
+5. **Write the output.** `data/programs/cpsc.json`: 6 programs, 120 requirements. `data/programs/engineering.json`: 14 programs, 617 requirements. An engineering "Electives" row comes from a department's list, so it's something to check, like "Technical electives" and "Complementary Studies electives", not any course.
 
 ### Accuracy (October 2026)
 
-The 120 Computer Science requirements use 36 different wordings, since most rows repeat across programs (the first year is the same for all six). The 358 engineering requirements use 111 (every program shares the first year, and the Mechanical options share second year). Every wording was checked by hand against the calendar. The only new one the rules needed was "One of: MATH 318, …", with a colon.
+The 120 Computer Science requirements use 36 different wordings, since most rows repeat across programs (the first year is the same for all six). The 617 engineering requirements use 293 (most programs share the first year). Every wording was checked by hand against the calendar. The rules needed three new ones: "One of: MATH 318, …" with a colon, "One of MINE 350, …, MINE 455 or MINE 465" with "or" before the last course, and "MECH 280, CIVL 215, or CHBE 251", a choice written as a list.
 
 | | Computer Science | Engineering | Correct |
 |---|---|---|---|
-| Parsed by rules | 36 | 111 | 147 |
+| Parsed by rules | 36 | 293 | 329 |
 | Parsed by Gemini | 0 | 0 | – |
-| **Total** | **36** | **111** | **147 / 147** |
+| **Total** | **36** | **293** | **329 / 329** |
 
 Known gaps:
-- Only the six programs on the Computer Science page and nine engineering programs. The other Science majors, and combined majors and honours (Computer Science with another subject), will come with more subjects.
+- Only the six programs on the Computer Science page and the 14 Vancouver engineering majors, without their options. The other Science majors, and combined majors and honours (Computer Science with another subject), aren't in yet.
 - Only the current version of an engineering year. A student who started Mechanical third year in 2025W or earlier has slightly different requirements.
 - A row with a choice of credits ("MECH 226 or MECH 227", 3 or 5 credits) counts as the smaller number in a year's total, with the calendar's wording kept next to it.
 - Footnotes that aren't about which courses count are shown, not checked, e.g. "At least 3 credits must come from lecture-based course(s)" or when CPSC 449 can be waived.
@@ -219,7 +219,7 @@ The site is in `web/`: Next.js, TypeScript and React Flow, exported as a plain s
 
 - **A page per faculty.** `/science` and `/engineering` each have their subjects in a menu next to the title, A to Z, and tabs above it to switch faculty. The subject is kept in the address (`/science#math`), and so is the course whose panel is open (`/science#math-221`), so links, refreshing and the back button work, and the address can be copied to share a course. Opening courses replaces the address instead of adding to the history, so the back button doesn't step through every course clicked. With no `#`, a faculty's first subject opens (Computer Science for Science, Applied Science for engineering). A page is built with that subject showing, so a link to `#biol` would flash the CPSC map first; a tiny script in the page hides the map until the right subject is showing.
 - **A home page.** `/` has a card per faculty with a link to each subject's map. Links from before there were faculty pages, like `/#math`, still work: the "#" part never reaches the server, so a tiny script on the home page sends them on to `/science#math`.
-- **What each page carries.** A page has its own faculty's maps and grades, plus the course data of every faculty, so statuses and paths can cross faculties. The Science page is 1.53 MB (241 KB gzipped), the engineering page 1.31 MB (207 KB), and the home page 33 KB. Links between pages don't prefetch, so the home page doesn't download both.
+- **What each page carries.** A page has its own faculty's maps and grades, plus the course data of every faculty, so statuses and paths can cross faculties. Every faculty's programs come too, since they're small. The Science page is 1.64 MB (249 KB gzipped), the engineering page 1.45 MB (216 KB), and the home page 33 KB. Links between pages don't prefetch, so the home page doesn't download both.
 - **Why not one big map?** Three layouts were tried with the real data: one map per subject; each map plus the courses it needs from other subjects as extra boxes; and all three subjects on one map. The extra boxes added 24 courses to the CPSC map and pushed CPSC 221 down a row, and the combined map (175 courses) was unreadable without zooming in. One map per subject stays readable and works for any number of subjects.
 - **Across subjects.** Ticks, statuses, paths and the picked program cover every subject. A MATH course in CPSC 340's panel opens on the MATH map, and the Computer Science Major marks its MATH courses there too.
 - **Across faculties.** Ticks are saved once for the whole site, so MATH 100 ticked on the engineering page counts on the Science page too. A course from the other faculty in a panel (CPEN 221 in CPSC 221's prerequisites, MATH 101 in ELEC 201's path) has a tick box and a ↗ link that opens it on its own page (`/engineering#cpen-221`). ELEC 201's path plans MATH 100, PHYS 157 and the rest from the Science data, and CPSC 221 knows what CPEN 221 needs.
@@ -248,7 +248,8 @@ The site is in `web/`: Next.js, TypeScript and React Flow, exported as a plain s
 
 ### Pick a program
 
-- **Requirements by year.** Pick one of the six programs and a panel lists its requirements year by year, in the calendar's words, each marked done, partly done, to do or "check yourself". It shows which of your courses fill each one, and the courses you could still take for it.
+- **Programs by faculty.** Every program has its own button with its own name. The Science page lists them by major: Computer Science is one button that opens to its six paths (the Major and Honours, the AI option and Software Engineering), and a major with one path will be a button of its own. The engineering page lists its 14 majors one by one, from Biomedical to Mining Engineering. One program is saved for the whole site, so one picked on the engineering page still shows on the Science page, with its MATH and PHYS courses marked on those maps. An engineering program's panel says which entry years its tables are for, and links to each calendar page it comes from.
+- **Requirements by year.** Pick a program and a panel lists its requirements year by year, in the calendar's words, each marked done, partly done, to do or "check yourself". It shows which of your courses fill each one, and the courses you could still take for it.
 - **A course counts once.** Each finished course fills one requirement only, so nothing is counted twice. Requirements that name exact courses pick first, then "one of" lists (shortest first), then "three of", then credit counts like "9 credits of CPSC 300 or higher" (the 400-level one first, so a 400-level course isn't used up too early). With CPSC 304 and 317 done, the Software Engineering Major's "One of CPSC 304, 317, 344" gets 304 and "One more of …" gets 317.
 - **Conditions in the wording.** "At least 6 credits of which must be 400 or above" is checked, and the footnote saying CPSC 490 "cannot be used" keeps it out of the credit count. Any other condition is shown for you to check.
 - **On the map.** The program's courses get a stripe down the left edge, on every subject's map: solid for required, striped for one of a few choices. Its colour passed the same colour-blindness check against the three highlight colours, and the pattern means it never relies on colour alone.
@@ -269,7 +270,7 @@ npm test
 npm run dev
 ```
 
-`npm run build` writes the static site to `web/out/`. There are 195 tests (Vitest) for the graph, layout, highlighting, course details, statuses, saving, path logic, grades, links, programs, subjects and moving the view, including checks against the real course data for all 14 subjects. GitHub Actions runs `pytest` and the website's tests, lint and build on every push, and [Vercel](https://vercel.com) builds and publishes the site from `main`.
+`npm run build` writes the static site to `web/out/`. There are 196 tests (Vitest) for the graph, layout, highlighting, course details, statuses, saving, path logic, grades, links, programs, subjects and moving the view, including checks against the real course data for all 14 subjects. GitHub Actions runs `pytest` and the website's tests, lint and build on every push, and [Vercel](https://vercel.com) builds and publishes the site from `main`.
 
 ## Feedback
 

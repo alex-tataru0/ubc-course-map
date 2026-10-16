@@ -4,8 +4,9 @@ import {
   creditsLookup,
   programCodes,
   programCourses,
-  programGroups,
+  programMajors,
   programProgress,
+  programSubject,
   programSummary,
   shortName,
 } from "./program";
@@ -14,6 +15,7 @@ import type { CourseFile, Program, ProgramFile } from "./types";
 
 const read = (file: string) => JSON.parse(readFileSync(new URL(file, import.meta.url), "utf8"));
 const programs: ProgramFile = read("../../../data/programs/cpsc.json");
+const engineering: ProgramFile = read("../../../data/programs/engineering.json");
 const courses: CourseFile = read("../../../data/courses/cpsc.json");
 const creditsFor = creditsLookup(courses.courses);
 const program = (id: string) => programs.programs.find((p) => p.id === id)!;
@@ -126,21 +128,22 @@ describe("programCodes", () => {
   });
 });
 
-describe("programGroups", () => {
-  it("puts each Major next to its Honours, with plan codes where the calendar has them", () => {
-    const groups = programGroups(programs.programs);
-    expect(groups.map((g) => g.title)).toEqual([
-      "Computer Science",
-      "Computer Science, Artificial Intelligence option",
-      "Computer Science and Software Engineering",
+describe("programMajors", () => {
+  it("puts the six Computer Science programs under one major, in the calendar's order", () => {
+    const majors = programMajors(programs.programs);
+    expect(majors.map((m) => [m.subject, m.programs.length])).toEqual([["CPSC", 6]]);
+    expect(majors[0].programs.map((p) => p.id)).toEqual([
+      "cpsc-major", "cpsc-honours", "cpsc-ai-major", "cpsc-ai-honours", "cpsc-se-major", "cpsc-se-honours",
     ]);
-    expect(groups[0].options).toEqual([
-      { id: "cpsc-major", kind: "Major", plan: "0376", credits: 120 },
-      { id: "cpsc-honours", kind: "Honours", plan: "0154", credits: 132 },
-    ]);
-    expect(groups[1].options.map((o) => [o.kind, o.plan])).toEqual([
-      ["Major", null],
-      ["Honours", null],
+  });
+});
+
+describe("programSubject", () => {
+  it("is the subject at the start of the program's id", () => {
+    expect(programSubject(program("cpsc-ai-major"))).toBe("CPSC");
+    expect(engineering.programs.map(programSubject)).toEqual([
+      "BMEG", "CHBE", "CHBE", "CIVL", "CPEN", "ELEC", "ENPH", "ENVE", "GEOL", "IGEN", "MANU",
+      "MTRL", "MECH", "MINE",
     ]);
   });
 });
@@ -155,5 +158,7 @@ describe("shortName", () => {
       "CS and SE Major",
       "CS and SE Honours",
     ]);
+    // The engineering majors keep their full names.
+    expect(engineering.programs.map(shortName)).toEqual(engineering.programs.map((p) => p.name));
   });
 });

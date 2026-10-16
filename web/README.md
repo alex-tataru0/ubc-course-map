@@ -20,7 +20,7 @@ The live site is on Vercel: every push to `main` is built and published. The Ver
 
 ## Where things are
 
-- `src/app/` runs at build time. `[faculty]/page.tsx` builds `/science` and `/engineering`: it reads the faculty's files in `../data/courses/` and `../data/grades/`, every other faculty's course files, and `../data/programs/cpsc.json` for Science, lays out one map per subject, and renders the page. `page.tsx` is the home page at `/`, with a card per faculty and the script that forwards old `/#math` links. Their metadata includes the link-preview card (`public/og.png`). `layout.tsx` has the fonts, the site's address and Vercel Web Analytics.
+- `src/app/` runs at build time. `[faculty]/page.tsx` builds `/science` and `/engineering`: it reads the faculty's files in `../data/courses/` and `../data/grades/`, every other faculty's course files, and every program file in `../data/programs/` (the page lists its own faculty's programs: `cpsc.json` for Science, `engineering.json` for engineering), lays out one map per subject, and renders the page. `page.tsx` is the home page at `/`, with a card per faculty and the script that forwards old `/#math` links. Their metadata includes the link-preview card (`public/og.png`). `layout.tsx` has the fonts, the site's address and Vercel Web Analytics.
 - `src/components/` holds the React pieces:
   - `FacultyView` (the header with the faculty tabs, the subject menu and the subject in the address), `SubjectPicker` (the menu) and `Legend`.
   - `CourseGraph` (the map, with React Flow, and which side panel shows), `SelectionBar`, `ProgressBar` (marking courses, the summary and "Clear all"), `Status` (how each status looks, tick boxes).

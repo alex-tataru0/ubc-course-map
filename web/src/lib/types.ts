@@ -83,18 +83,23 @@ export interface ProgramRequirement {
   source: "rules" | "llm";
   problems: string[];
   notes: string[]; // the row's footnotes
+  credits_text?: string; // when the calendar gives a choice, e.g. "3 or 5" (credits is the smaller)
 }
 
 export interface ProgramYear {
   title: string; // "First Year", "Second Year", "Third and Fourth Years"
   credits: number;
+  credits_text?: string; // e.g. "40 or 42"
   requirements: ProgramRequirement[];
 }
 
 export interface Program {
   id: string; // e.g. "cpsc-major"
   name: string; // e.g. "Computer Science Major"
-  heading: string; // the calendar's heading, e.g. "Major (0376): Computer Science (CPSC)"
+  heading?: string; // the calendar's heading, e.g. "Major (0376): Computer Science (CPSC)"
+  sources?: string[]; // the calendar pages it comes from, when there are several (engineering)
+  notes?: string[]; // about the whole program, e.g. which entry years its tables are for
+  degree?: string; // added by the page, e.g. "Bachelor of Applied Science"
   total_credits: number;
   years: ProgramYear[];
 }

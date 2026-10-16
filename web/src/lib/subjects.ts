@@ -15,6 +15,12 @@ export interface Faculty {
   // are for engineering students in practice, even when the calendar doesn't say so, so on
   // other faculties' pages they're a last resort for paths.
   openToAll: boolean;
+  degree: string; // e.g. "Bachelor of Science", shown with its programs
+  programFiles: string[]; // its programs, from data/programs/<name>.json
+  programsNote: string; // under the list of its programs: what's there and what isn't yet
+  // How its programs are listed: by major, where a major with several paths opens to show
+  // them (Computer Science), or every program as its own button (engineering).
+  programsByMajor: boolean;
   subjects: Subject[]; // in the menu's order
   home: string; // the subject shown when the address has no "#", e.g. "CPSC"
 }
@@ -28,6 +34,12 @@ export const SCIENCE: Faculty = {
   tab: "Science",
   about: "Faculty of Science",
   openToAll: true,
+  degree: "Bachelor of Science",
+  programFiles: ["cpsc"],
+  programsByMajor: true,
+  programsNote:
+    "The Bachelor of Science programs on the calendar's Computer Science page. Combined majors and " +
+    "honours (Computer Science with another subject) aren't here yet.",
   subjects: [
     { code: "ASTR", name: "Astronomy" },
     { code: "ATSC", name: "Atmospheric Science" },
@@ -57,6 +69,11 @@ export const ENGINEERING: Faculty = {
   tab: "Engineering",
   about: "Faculty of Applied Science",
   openToAll: false,
+  degree: "Bachelor of Applied Science",
+  programFiles: ["engineering"],
+  programsByMajor: false,
+  programsNote:
+    "The 14 engineering majors at UBC Vancouver, for students starting now.",
   subjects: [
     { code: "APSC", name: "Applied Science" },
     { code: "BMEG", name: "Biomedical Engineering" },

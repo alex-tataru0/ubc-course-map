@@ -1,6 +1,7 @@
 import { useEffect, useId, useRef, useState } from "react";
-import { programGroups, programSummary, treeCourses } from "@/lib/program";
+import { programMajors, programSummary, treeCourses } from "@/lib/program";
 import type { CreditsFor, RowProgress, RowStatus } from "@/lib/program";
+import { facultyOf } from "@/lib/subjects";
 import type { Elsewhere } from "@/lib/subjects";
 import type { Program, ProgramRequirement } from "@/lib/types";
 import { StripeSample } from "./ProgramStripe";
@@ -23,12 +24,14 @@ interface ProgramPanelProps extends CodeLinks {
   progress: RowProgress[][] | null; // progress through each requirement row of `program`
   creditsFor: CreditsFor;
   calendarUrl: string; // the calendar page the programs come from
+  note: string; // under the list of programs: what's there and what isn't yet
+  byMajor: boolean; // one entry per major, opening to its paths, or every program on its own
   onPick: (id: string | null) => void; // null forgets the program
   onClose: () => void;
   focusOnClose: () => HTMLElement | null; // where keyboard focus goes when the panel closes
 }
 
-// The panel for "Pick a program": first a choice of the six programs, then the program's
+// The panel for "Pick a program": first a choice of the faculty's programs, then the program's
 // requirements by year, with how far along you are. It sits where the course details go:
 // beside the graph on wide screens, covering it on phones.
 export default function ProgramPanel({
@@ -37,6 +40,8 @@ export default function ProgramPanel({
   progress,
   creditsFor,
   calendarUrl,
+  note,
+  byMajor,
   onPick,
   onClose,
   focusOnClose,
@@ -75,9 +80,15 @@ export default function ProgramPanel({
           <p className="text-ink-muted">
             {picking
               ? "See what it requires and how far along you are."
-              : // "Major (0376): Computer Science (CPSC)" → "Major (0376)"
-                `${program.heading.replace(/:.*/, "")} · ${program.total_credits} credits`}
+              : // "Major (0376): Computer Science (CPSC)" → "Major (0376)"; engineering has no heading.
+                `${program.heading?.replace(/:.*/, "") ?? program.degree} · ${program.total_credits} credits`}
           </p>
+          {!picking &&
+            program.notes?.map((text) => (
+              <p key={text} className="mt-1 text-xs text-ink-muted">
+                {text}
+              </p>
+            ))}
         </div>
         <button
           type="button"
@@ -93,6 +104,8 @@ export default function ProgramPanel({
         <Choices
           programs={programs}
           current={program}
+          note={note}
+          byMajor={byMajor}
           onPick={pick}
           onKeep={() => setChoosing(false)}
         />
@@ -107,64 +120,73 @@ export default function ProgramPanel({
       )}
 
       <p className="mt-6 border-t border-line pt-4 text-xs text-ink-muted">
-        From the{" "}
-        <a
-          href={calendarUrl}
-          target="_blank"
-          rel="noreferrer"
-          className="underline underline-offset-2 hover:text-ink"
-        >
-          UBC Academic Calendar
-          <span aria-hidden> ↗</span>
-        </a>
-        . A guide to help you plan, not an official degree audit.
+        <CalendarLinks urls={!picking && program.sources ? program.sources : [calendarUrl]} />. A guide to
+        help you plan, not an official degree audit.
       </p>
     </aside>
   );
 }
 
-// The six programs: a heading per stream, with its Major and Honours side by side.
+// Where a program comes from: "From the UBC Academic Calendar ↗", or with several pages
+// (an engineering program), "… Calendar: Curriculum and First Year ↗, Mechanical Engineering ↗".
+function CalendarLinks({ urls }: { urls: string[] }) {
+  const link = (url: string, text: string) => (
+    <a key={url} href={url} target="_blank" rel="noreferrer" className="underline underline-offset-2 hover:text-ink">
+      {text}
+      <span aria-hidden> ↗</span>
+    </a>
+  );
+  if (urls.length === 1) return <>From the {link(urls[0], "UBC Academic Calendar")}</>;
+  // ".../curriculum-and-first-year" → "Curriculum and First Year"
+  const title = (url: string) =>
+    url
+      .split("/")
+      .pop()!
+      .split("-")
+      .map((word, i) => (i > 0 && word === "and" ? word : word[0].toUpperCase() + word.slice(1)))
+      .join(" ");
+  return (
+    <>
+      From the UBC Academic Calendar:{" "}
+      {urls.map((url, i) => (
+        <span key={url}>
+          {i > 0 && ", "}
+          {link(url, title(url))}
+        </span>
+      ))}
+    </>
+  );
+}
+
+// The programs, each a button with its own name. On the Science page they're listed by major:
+// a major with several paths (Computer Science) is one button that opens to list them, and a
+// major with one path is a button for that program. Engineering lists every program on its own.
 function Choices({
   programs,
   current,
+  note,
+  byMajor,
   onPick,
   onKeep,
 }: {
   programs: Program[];
   current: Program | null;
+  note: string;
+  byMajor: boolean;
   onPick: (id: string | null) => void;
   onKeep: () => void;
 }) {
   return (
-    <div className="mt-4 space-y-4">
-      {programGroups(programs).map((group) => (
-        <section key={group.title}>
-          <h3 className="mb-1.5 font-medium">{group.title}</h3>
-          <div className="grid grid-cols-2 gap-2">
-            {group.options.map((option) => {
-              const on = option.id === current?.id;
-              return (
-                <button
-                  key={option.id}
-                  type="button"
-                  onClick={() => onPick(option.id)}
-                  aria-pressed={on}
-                  className={`rounded-lg border px-3 py-2 text-left ${
-                    on ? "border-ink bg-ink text-canvas hover:opacity-90" : "border-line hover:bg-canvas"
-                  }`}
-                >
-                  <span className="sr-only">{group.title} </span>
-                  <span className="block font-semibold">{option.kind}</span>
-                  <span className={`block text-xs ${on ? "opacity-75" : "text-ink-muted"}`}>
-                    {option.plan && `Plan ${option.plan} · `}
-                    {option.credits} credits
-                  </span>
-                </button>
-              );
-            })}
-          </div>
-        </section>
-      ))}
+    <div className="mt-4 space-y-2">
+      {programMajors(programs).map((major) =>
+        major.programs.length === 1 || !byMajor ? (
+          major.programs.map((program) => (
+            <ProgramChoice key={program.id} program={program} on={program.id === current?.id} onPick={onPick} />
+          ))
+        ) : (
+          <MajorChoices key={major.subject} subject={major.subject} programs={major.programs} current={current} onPick={onPick} />
+        ),
+      )}
       {current && (
         <p className="flex flex-wrap gap-x-4 gap-y-1">
           <button type="button" onClick={onKeep} className="underline underline-offset-2 hover:text-ink-muted">
@@ -179,10 +201,88 @@ function Choices({
           </button>
         </p>
       )}
-      <p className="text-xs text-ink-muted">
-        The Bachelor of Science programs on the calendar&apos;s Computer Science page. Combined majors and
-        honours (Computer Science with another subject) aren&apos;t here yet.
-      </p>
+      <p className="text-xs text-ink-muted">{note}</p>
+    </div>
+  );
+}
+
+// One program to pick: its name, then its plan code (if the calendar gives one) and credits.
+function ProgramChoice({
+  program,
+  on,
+  onPick,
+}: {
+  program: Program;
+  on: boolean;
+  onPick: (id: string | null) => void;
+}) {
+  const plan = program.heading?.match(/\((\d{4})\)/)?.[1];
+  return (
+    <button
+      type="button"
+      onClick={() => onPick(program.id)}
+      aria-pressed={on}
+      className={`block w-full rounded-lg border px-3 py-2 text-left ${
+        on ? "border-ink bg-ink text-canvas hover:opacity-90" : "border-line hover:bg-canvas"
+      }`}
+    >
+      <span className="block font-semibold">{program.name}</span>
+      <span className={`block text-xs ${on ? "opacity-75" : "text-ink-muted"}`}>
+        {plan && `Plan ${plan} · `}
+        {program.total_credits} credits
+      </span>
+    </button>
+  );
+}
+
+// A major with several paths, e.g. Computer Science: a button with the major's name that opens
+// to list its programs. It starts open if the picked program is one of them.
+function MajorChoices({
+  subject,
+  programs,
+  current,
+  onPick,
+}: {
+  subject: string;
+  programs: Program[];
+  current: Program | null;
+  onPick: (id: string | null) => void;
+}) {
+  const [open, setOpen] = useState(programs.some((p) => p.id === current?.id));
+  const listId = useId();
+  const name = facultyOf(subject)?.subjects.find((s) => s.code === subject)?.name ?? subject;
+  return (
+    <div className="rounded-lg border border-line">
+      <button
+        type="button"
+        onClick={() => setOpen(!open)}
+        aria-expanded={open}
+        aria-controls={listId}
+        className="flex w-full items-center justify-between gap-3 rounded-lg px-3 py-2 text-left hover:bg-canvas"
+      >
+        <span>
+          <span className="block font-semibold">{name}</span>
+          <span className="block text-xs text-ink-muted">{programs.length} programs</span>
+        </span>
+        <svg
+          width="12"
+          height="12"
+          viewBox="0 0 12 12"
+          className={`shrink-0 text-ink-muted transition-transform ${open ? "rotate-180" : ""}`}
+          aria-hidden
+        >
+          <path d="M2.5 4.5 6 8l3.5-3.5" fill="none" stroke="currentColor" strokeWidth="1.5" />
+        </svg>
+      </button>
+      {open && (
+        <ul id={listId} className="space-y-1.5 border-t border-line p-1.5">
+          {programs.map((program) => (
+            <li key={program.id}>
+              <ProgramChoice program={program} on={program.id === current?.id} onPick={onPick} />
+            </li>
+          ))}
+        </ul>
+      )}
     </div>
   );
 }
@@ -252,7 +352,8 @@ function Requirements({
           <section key={year.title} className="mt-5">
             <h3 className="flex items-baseline justify-between gap-3 border-b border-line pb-1.5 font-semibold">
               <span>
-                {year.title} <span className="font-normal text-ink-muted">· {year.credits} credits</span>
+                {year.title}{" "}
+                <span className="font-normal text-ink-muted">· {year.credits_text ?? year.credits} credits</span>
               </span>
               <span className="shrink-0 text-xs font-normal text-ink-muted">
                 {yearSummary.rowsDone} of {yearSummary.rows} done
@@ -343,7 +444,9 @@ function Row({
           {requirement.text}
         </span>
         <span className="shrink-0 text-xs tabular-nums text-ink-muted">
-          {isCredits && status !== "done" ? `${credits} of ${requirement.credits}` : requirement.credits}
+          {isCredits && status !== "done"
+            ? `${credits} of ${requirement.credits}`
+            : (requirement.credits_text ?? requirement.credits)}
           <span aria-hidden> cr</span>
           <span className="sr-only"> credits</span>
         </span>

@@ -7,7 +7,7 @@ import { undergradOnly } from "@/lib/graph";
 import { subjectMap } from "@/lib/subjectMap";
 import { FACULTIES, pendingSubjectScript } from "@/lib/subjects";
 import type { Faculty } from "@/lib/subjects";
-import type { ProgramFile } from "@/lib/types";
+import type { Program } from "@/lib/types";
 
 // One page per faculty: /science and /engineering. With the static export, each is built
 // once during `npm run build`, and any other address is a 404.
@@ -59,10 +59,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-// The programs each faculty's page lists, from the pipeline's program files. Engineering has
-// none yet.
-const PROGRAMS: Record<string, string> = { science: "CPSC" };
-
 // A faculty's page: one map per subject, picked from a menu.
 export default async function FacultyPage({ params }: Props) {
   const faculty = facultyFor((await params).faculty);
@@ -85,8 +81,13 @@ export default async function FacultyPage({ params }: Props) {
   // Every term any subject has grades for. A subject can skip a term (ENVR has no summer
   // courses most years). "2021S" sorts before "2021W", so plain sorting is time order.
   const gradeSessions = [...new Set(gradeFiles.flatMap((file) => file.sessions))].sort();
-  const programSubject = PROGRAMS[faculty.slug] ?? null;
-  const programs: ProgramFile | null = programSubject ? loadPrograms(programSubject) : null;
+  // The page lists its own faculty's programs. The others come too (they're small), so a
+  // program picked on another page still shows here: an engineering program's MATH courses
+  // are marked on the MATH map.
+  const programsOf = (f: Faculty) =>
+    f.programFiles.flatMap((name) => loadPrograms(name).programs.map((p): Program => ({ ...p, degree: f.degree })));
+  const programs = programsOf(faculty);
+  const programUrl = loadPrograms(faculty.programFiles[0]).source;
 
   return (
     <>
@@ -98,9 +99,11 @@ export default async function FacultyPage({ params }: Props) {
         details={details}
         grades={Object.assign({}, ...gradeFiles.map((file) => gradesFor(file, codes)))}
         gradeSessions={gradeSessions}
-        programs={programs?.programs ?? []}
-        programUrl={programs?.source ?? ""}
-        programSubject={programSubject}
+        programs={programs}
+        otherPrograms={others.flatMap(programsOf)}
+        programUrl={programUrl}
+        programsNote={faculty.programsNote}
+        programsByMajor={faculty.programsByMajor}
         closed={closed}
       />
     </>
