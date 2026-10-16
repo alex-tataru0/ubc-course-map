@@ -14,6 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  // Links in the page's tags (like the preview image) are made absolute with this, since
+  // sites that show link previews need a full URL.
+  metadataBase: new URL("https://ubc-course-map.vercel.app"),
   title: "UBC Course Map",
   description: "Plan UBC courses with the prerequisite graph.",
 };

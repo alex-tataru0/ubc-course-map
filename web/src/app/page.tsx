@@ -12,6 +12,27 @@ export const metadata: Metadata = {
   title: "Faculty of Science · UBC Course Map",
   description:
     "Plan UBC Faculty of Science courses, from Astronomy to Statistics, with the prerequisite graph.",
+  // What Reddit, Discord, iMessage and others show when the link is pasted. The image is the
+  // CPSC map with CPSC 340 picked (public/og.png, 1200×630); they print the title and
+  // description next to it, so the image has no text of its own.
+  openGraph: {
+    type: "website",
+    url: "/",
+    siteName: "UBC Course Map",
+    title: "UBC Course Map",
+    description:
+      "See what every course needs and unlocks, plan your path and check past grades. " +
+      "14 Faculty of Science subjects. Free, unofficial student project.",
+    images: [
+      {
+        url: "/og.png",
+        width: 1200,
+        height: 630,
+        alt: "The CPSC map with CPSC 340 picked and the courses it needs highlighted in orange",
+      },
+    ],
+  },
+  twitter: { card: "summary_large_image" },
 };
 
 // This is a server component. With the static export it runs once, during `npm run build`,
