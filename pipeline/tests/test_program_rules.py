@@ -38,6 +38,8 @@ def test_course_codes_stop_at_other_words():
         {"one_of": ["CPSC 110", {"all_of": ["CPSC 103", "CPSC 107"]}]},
     ),
     ("One of CPSC 304, 317, 344", {"one_of": ["CPSC 304", "CPSC 317", "CPSC 344"]}),
+    # Electrical Engineering's third year, with a colon.
+    ("One of: MATH 318, MATH 302, STAT 302", {"one_of": ["MATH 318", "MATH 302", "STAT 302"]}),
     # "One more of" is a one_of too: the website never counts one course for two rows.
     ("One more of CPSC 304, CPEN 421, 432", {"one_of": ["CPSC 304", "CPEN 421", "CPEN 432"]}),
     (

@@ -28,8 +28,9 @@ COUNTS = {"one": 1, "two": 2, "three": 3, "four": 4, "five": 5}
 # "CPSC or AI courses numbered 300 or higher"
 CREDITS_OF = re.compile(r"((?:[A-Z]{2,4} or )*[A-Z]{2,4}) courses numbered (\d{3}) or higher")
 
-# "Three of CPSC 304, 330, …, AI 422 at least 6 credits of which must be 400 or above"
-PICK = re.compile(r"(One|Two|Three|Four|Five) (?:more )?of (.+?)(?: (at least .+))?")
+# "Three of CPSC 304, 330, …, AI 422 at least 6 credits of which must be 400 or above".
+# Electrical Engineering writes "One of: MATH 318, MATH 302, STAT 302".
+PICK = re.compile(r"(One|Two|Three|Four|Five) (?:more )?of:? (.+?)(?: (at least .+))?")
 
 # "CPSC 304, 330, AI 422": a comma list where a subject can change partway through.
 CODE_LIST = re.compile(r"[A-Z]{2,4} \d{3}(?:, (?:[A-Z]{2,4} )?\d{3})*")

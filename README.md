@@ -110,7 +110,7 @@ python pipeline/build_prereqs.py
 
 With no arguments, `build_prereqs.py` builds all 27 subjects in the tables. To build only some, name subjects or a faculty: `python pipeline/build_prereqs.py MATH STAT` or `python pipeline/build_prereqs.py engineering`.
 
-A Gemini API key is only needed when there are prerequisites the cache doesn't have yet. Put it in a `.env` file (see `.env.example`). There are 268 `pytest` tests for the whole pipeline.
+A Gemini API key is only needed when there are prerequisites the cache doesn't have yet. Put it in a `.env` file (see `.env.example`). There are 277 `pytest` tests for the whole pipeline.
 
 ## How the grade data is built
 
@@ -170,26 +170,29 @@ With no arguments it does every subject; `python pipeline/build_grades.py MATH` 
 
 ## How the program data is built
 
-`build_programs.py` reads the six programs on the calendar's [Computer Science page](https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-science/bachelor-science/computer-science): the Major and Honours in Computer Science, the same two with the Artificial Intelligence option, and the Major and Honours in Computer Science and Software Engineering. Like the rest of the data, it runs ahead of time.
+`build_programs.py` reads the six programs on the calendar's [Computer Science page](https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-science/bachelor-science/computer-science): the Major and Honours in Computer Science, the same two with the Artificial Intelligence option, and the Major and Honours in Computer Science and Software Engineering. It also reads nine engineering programs: Computer Engineering; Electrical Engineering and its Biomedical Engineering option; and Mechanical Engineering and its Aerospace, Biomechanics and Medical Devices, Energy and Environment, Mechatronics, and Naval Architecture and Marine Engineering options. (The engineering page doesn't list them yet.) Like the rest of the data, it runs ahead of time.
 
-1. **Save the page once.** The calendar page is downloaded once to `data/raw/programs/` and read from there. Deleting the file downloads it again, e.g. for a new calendar year.
+1. **Save the pages once.** Each calendar page is downloaded once to `data/raw/programs/` and read from there. Deleting a file downloads it again, e.g. for a new calendar year.
 2. **Read the tables.** `parse_programs.py` finds each program's heading and table, splits it into years (First Year, Second Year, Third and Fourth Years), and keeps each requirement's credits and footnotes. The Major and Honours share a first-year table, and a year the calendar only describes as "Same as …" another program is copied from that program. A test checks that the credits add up for every year and every degree (120 for a Major, 132 for an Honours).
+   An engineering program is put together from tables on different pages: the [first year](https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-applied-science/bachelor-applied-science/curriculum-and-first-year) every program shares, then the department's second year and the program's third and fourth years ([Electrical and Computer](https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-applied-science/bachelor-applied-science/electrical-and-computer-engineering), [Mechanical](https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-applied-science/bachelor-applied-science/mechanical-engineering)). `program_tables.py` reads every table on a page with the heading above it, and `engineering_programs.py` says which tables make up each program. Where a year has versions by when students started, the current one is used (Mechanical third and fourth years for students who started third year in 2026W or later, Computer Engineering second year for 2023W or later). The Biomedical Engineering option takes ELEC 271 and ELEC 292 instead of ELEC 291, as its footnote says. The Thermofluids option is left out, since it stopped taking students in 2023W.
 3. **Turn each requirement into a tree.** `program_rules.py` reads rows like "MATH 100 or 102 or 104 (or 180 or 184 or 120 or 110)", "Three of CPSC 304, 330, …, AI 422 at least 6 credits of which must be 400 or above" and "CPSC or AI courses numbered 300 or higher" into `one_of`, `all_of`, `pick`, `credits_of`, electives and free text. Shorthand like "CPSC 310, 313, 320" is written out in full, and a checker makes sure each tree has exactly the courses in its row, like the one for prerequisites.
 4. **Gemini only if needed.** A row the rules can't read would go to Gemini, with the answer cached in `data/llm_cache/programs.json`, like the prerequisites. So far the rules read every row, so nothing has been sent.
-5. **Write the output.** `data/programs/cpsc.json`: 6 programs, 120 requirements.
+5. **Write the output.** `data/programs/cpsc.json`: 6 programs, 120 requirements. `data/programs/engineering.json`: 9 programs, 358 requirements. An engineering "Electives" row comes from a department's list, so it's something to check, like "Technical electives" and "Complementary Studies electives", not any course.
 
 ### Accuracy (October 2026)
 
-The 120 requirements use 36 different wordings, since most rows repeat across programs (the first year is the same for all six). Every wording was checked by hand against the calendar.
+The 120 Computer Science requirements use 36 different wordings, since most rows repeat across programs (the first year is the same for all six). The 358 engineering requirements use 111 (every program shares the first year, and the Mechanical options share second year). Every wording was checked by hand against the calendar. The only new one the rules needed was "One of: MATH 318, …", with a colon.
 
-| | Wordings | Correct |
-|---|---|---|
-| Parsed by rules | 36 | 36 |
-| Parsed by Gemini | 0 | – |
-| **Total** | **36** | **36 / 36** |
+| | Computer Science | Engineering | Correct |
+|---|---|---|---|
+| Parsed by rules | 36 | 111 | 147 |
+| Parsed by Gemini | 0 | 0 | – |
+| **Total** | **36** | **111** | **147 / 147** |
 
 Known gaps:
-- Only the six programs on the Computer Science page. Combined majors and honours (Computer Science with another subject) will come with more subjects.
+- Only the six programs on the Computer Science page and nine engineering programs. The other Science majors, and combined majors and honours (Computer Science with another subject), will come with more subjects.
+- Only the current version of an engineering year. A student who started Mechanical third year in 2025W or earlier has slightly different requirements.
+- A row with a choice of credits ("MECH 226 or MECH 227", 3 or 5 credits) counts as the smaller number in a year's total, with the calendar's wording kept next to it.
 - Footnotes that aren't about which courses count are shown, not checked, e.g. "At least 3 credits must come from lecture-based course(s)" or when CPSC 449 can be waived.
 - Electives, the communication requirement and the Faculty of Science's own requirements (breadth, lab science, upper-level credits) aren't tracked. The site shows them as "any courses" or "check yourself".
 
