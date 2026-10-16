@@ -5,7 +5,7 @@ import FacultyView from "@/components/FacultyView";
 import { gradesFor } from "@/lib/grades";
 import { undergradOnly } from "@/lib/graph";
 import { subjectMap } from "@/lib/subjectMap";
-import { SCIENCE } from "@/lib/subjects";
+import { pendingSubjectScript, SCIENCE } from "@/lib/subjects";
 import type { CourseFile, GradesFile, ProgramFile } from "@/lib/types";
 
 export const metadata: Metadata = {
@@ -68,15 +68,19 @@ export default function Home() {
   const programs = loadPrograms("CPSC");
 
   return (
-    <FacultyView
-      faculty={SCIENCE}
-      maps={files.map(subjectMap)}
-      details={details}
-      grades={Object.assign({}, ...gradeFiles.map((file) => gradesFor(file, codes)))}
-      gradeSessions={gradeSessions}
-      programs={programs.programs}
-      programUrl={programs.source}
-      programSubject="CPSC"
-    />
+    <>
+      {/* Runs before the page is drawn, so a link like /#biol doesn't flash the CPSC map. */}
+      <script dangerouslySetInnerHTML={{ __html: pendingSubjectScript(SCIENCE) }} />
+      <FacultyView
+        faculty={SCIENCE}
+        maps={files.map(subjectMap)}
+        details={details}
+        grades={Object.assign({}, ...gradeFiles.map((file) => gradesFor(file, codes)))}
+        gradeSessions={gradeSessions}
+        programs={programs.programs}
+        programUrl={programs.source}
+        programSubject="CPSC"
+      />
+    </>
   );
 }

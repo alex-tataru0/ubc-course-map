@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { hashFor, SCIENCE, subjectFromHash, subjectOf } from "./subjects";
+import { hashFor, pendingSubjectScript, SCIENCE, subjectFromHash, subjectOf } from "./subjects";
 
 describe("subjects", () => {
   it("reads the subject from a course code", () => {
@@ -22,6 +22,21 @@ describe("subjects", () => {
     expect(hashFor("MATH", SCIENCE)).toBe("#math");
     expect(hashFor("CPSC", SCIENCE)).toBe("");
     expect(subjectFromHash(hashFor("STAT", SCIENCE), SCIENCE)).toBe("STAT");
+  });
+
+  it("marks the page as waiting for a subject that isn't the one built into it", () => {
+    // Runs the script with a fake address and page instead of a browser's.
+    const pending = (hash: string) => {
+      const root = { dataset: {} as Record<string, string> };
+      const run = new Function("location", "document", "setTimeout", pendingSubjectScript(SCIENCE));
+      run({ hash }, { documentElement: root }, () => {});
+      return root.dataset.pendingSubject;
+    };
+    expect(pending("#biol")).toBe("BIOL");
+    expect(pending("#MATH")).toBe("MATH");
+    expect(pending("")).toBeUndefined();
+    expect(pending("#cpsc")).toBeUndefined(); // the map already built into the page
+    expect(pending("#zool")).toBeUndefined(); // not a subject, so CPSC shows
   });
 
   it("lists the subjects A to Z by name, with the home subject among them", () => {

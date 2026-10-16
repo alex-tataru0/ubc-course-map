@@ -1,6 +1,6 @@
 "use client";
 
-import { useSyncExternalStore } from "react";
+import { useEffect, useSyncExternalStore } from "react";
 import type { SubjectMap } from "@/lib/subjectMap";
 import { hashFor, subjectFromHash } from "@/lib/subjects";
 import type { Faculty } from "@/lib/subjects";
@@ -38,6 +38,14 @@ export default function FacultyView({ faculty, maps, ...data }: FacultyViewProps
   const subject = subjectFromHash(hash, faculty);
   const map = maps.find((m) => m.subject === subject)!;
 
+  // A link like /#biol hides the menu and the map until they show its subject (see
+  // pendingSubjectScript). The first render matches the pre-rendered home subject; the
+  // next one reads the address, and then they can be shown.
+  useEffect(() => {
+    const root = document.documentElement;
+    if (root.dataset.pendingSubject === subject) delete root.dataset.pendingSubject;
+  }, [subject]);
+
   const pickSubject = (code: string) => {
     if (code === subject) return;
     const { pathname, search } = window.location;
@@ -52,7 +60,9 @@ export default function FacultyView({ faculty, maps, ...data }: FacultyViewProps
           <p className="text-xs font-medium uppercase tracking-wide text-header-muted">UBC Course Map</p>
           <div className="mt-0.5 flex flex-wrap items-center gap-x-3 gap-y-1.5">
             <h1 className="text-lg font-semibold tracking-tight sm:text-xl">{faculty.name}</h1>
-            <SubjectPicker subjects={faculty.subjects} value={subject} onChange={pickSubject} />
+            <span data-subject-view>
+              <SubjectPicker subjects={faculty.subjects} value={subject} onChange={pickSubject} />
+            </span>
           </div>
           <p className="mt-1 text-sm text-header-muted">
             Click a course to see what it needs and unlocks
@@ -85,7 +95,7 @@ export default function FacultyView({ faculty, maps, ...data }: FacultyViewProps
       </header>
       {/* min-h-0 lets this area be shorter than what's in it, so a long side panel scrolls
           on its own instead of stretching the page. */}
-      <div className="min-h-0 flex-1">
+      <div className="min-h-0 flex-1" data-subject-view>
         <CourseGraph map={map} maps={maps} onSubject={pickSubject} {...data} />
       </div>
     </main>

@@ -52,3 +52,18 @@ export function subjectFromHash(hash: string, faculty: Faculty): string {
 export function hashFor(code: string, faculty: Faculty): string {
   return code === faculty.home ? "" : `#${code.toLowerCase()}`;
 }
+
+// A small script for the top of the page, run before anything is drawn. The page is built
+// with the home subject's map, so a link like /#biol would show the CPSC map until React
+// takes over and switches. The script marks the page as waiting for that subject
+// (<html data-pending-subject="BIOL">), and globals.css hides the menu and the map until
+// FacultyView shows it. After 4 seconds it gives up waiting, in case the page's code fails.
+export function pendingSubjectScript(faculty: Faculty): string {
+  const others = faculty.subjects.map((s) => s.code).filter((code) => code !== faculty.home);
+  return (
+    "(function(){var c=location.hash.slice(1).toUpperCase();" +
+    `if(${JSON.stringify(others)}.indexOf(c)<0)return;` +
+    "var r=document.documentElement;r.dataset.pendingSubject=c;" +
+    "setTimeout(function(){delete r.dataset.pendingSubject},4000)})();"
+  );
+}

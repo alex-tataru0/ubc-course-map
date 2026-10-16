@@ -23,9 +23,13 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
+    // suppressHydrationWarning: the script at the top of the page (pendingSubjectScript)
+    // can add data-pending-subject to <html> before React loads. It only covers this one
+    // element's attributes, not anything inside it.
     <html
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      suppressHydrationWarning
     >
       <body className="min-h-full flex flex-col">
         {children}

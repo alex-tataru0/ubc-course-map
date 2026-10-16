@@ -85,3 +85,12 @@ body {
   outline-offset: 3px;
   border-radius: 10px;
 }
+
+/* While a link to another subject (/#biol) loads, the page still shows the home subject it
+   was built with. pendingSubjectScript marks the page, and FacultyView unmarks it once the
+   right subject is showing. Opacity rather than visibility, because React Flow sets
+   visibility on each course box, which would show through; the space stays, so nothing jumps. */
+html[data-pending-subject] [data-subject-view] {
+  opacity: 0;
+  pointer-events: none;
+}
