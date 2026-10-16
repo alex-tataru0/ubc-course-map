@@ -8,7 +8,7 @@ A website for UBC students to plan courses using the prerequisite graph.
 
 > Work in progress. Unofficial, not affiliated with UBC. Something wrong or missing? Use the **Feedback** link on the site (see [Feedback](#feedback)).
 
-![Opening CPSC 340, whose path includes MATH 100, 101, 221, 200 and STAT 251, clicking MATH 221 to open it on the Mathematics map and show its grade distribution, then picking Biology from the menu, opening BIOL 200 and clicking CHEM 123 in its prerequisites to open it on the Chemistry map, where its path is CHEM 121 and Chemistry 12](docs/demo.gif)
+![Starting on the home page, opening the Computer Engineering map and picking the Computer Engineering program, so its courses get a stripe on the map. Then opening CPEN 331 and showing only its path, APSC 160, CPEN 211 and 221, then CPEN 212, and following MATH 253 from the program's second year to the Mathematics map on the Science page, where the program is still picked, and hovering its grade chart](docs/demo.gif)
 
 ## Features
 
@@ -206,7 +206,7 @@ No API key is needed unless the calendar adds a wording the rules don't know.
 
 The site is in `web/`: Next.js, TypeScript and React Flow, exported as a plain static site. It never calls an API for its data: everything is worked out when the site is built. The only thing it sends is an anonymous page view to [Vercel Web Analytics](https://vercel.com/docs/analytics), which uses no cookies.
 
-- **Built ahead of time.** A server component reads every subject's course and grade files (`data/courses/cpsc.json`, `math.json`, …) and the program file during `npm run build`, turns each subject's courses into a graph and lays it out. The browser only gets the finished positions, so the layout library never ships to it.
+- **Built ahead of time.** A server component reads every subject's course and grade files (`data/courses/cpsc.json`, `math.json`, …) and the program files during `npm run build`, turns each subject's courses into a graph and lays it out. The browser only gets the finished positions, so the layout library never ships to it.
 - **Laid out in course order.** Rows go by year (all 100-level courses above all 200-level ones, and so on), and a course sits below any prerequisite from its own year (CPSC 103 → 107). [dagre](https://github.com/dagrejs/dagre) only picks the left-to-right order inside each row, through a custom ranker, to keep lines from crossing. The rows are then packed tightly: dagre's own spacing made the graph about 4,000px wide, packed it's about 1,800px.
 - **What a course needs and unlocks** is a breadth-first search over the prerequisite edges, in each direction. Solid lines are required, dashed lines are one of several options.
 - **Colours** for "needs" and "unlocks" were checked with a colour-blindness validator, and always come with text labels. There's a dark mode, and it works with the keyboard (Tab, Enter, Esc) and screen readers.
@@ -270,7 +270,7 @@ npm test
 npm run dev
 ```
 
-`npm run build` writes the static site to `web/out/`. There are 197 tests (Vitest) for the graph, layout, highlighting, course details, statuses, saving, path logic, grades, links, programs, subjects and moving the view, including checks against the real course data for all 14 subjects. GitHub Actions runs `pytest` and the website's tests, lint and build on every push, and [Vercel](https://vercel.com) builds and publishes the site from `main`.
+`npm run build` writes the static site to `web/out/`. There are 197 tests (Vitest) for the graph, layout, highlighting, course details, statuses, saving, path logic, grades, links, programs, subjects and moving the view, including checks against the real course data for all 27 subjects. GitHub Actions runs `pytest` and the website's tests, lint and build on every push, and [Vercel](https://vercel.com) builds and publishes the site from `main`.
 
 ## Feedback
 
