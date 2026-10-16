@@ -12,7 +12,7 @@ A website for UBC students to plan courses using the prerequisite graph.
 
 ## Features
 
-- [x] Prerequisite maps for 14 Faculty of Science subjects, from Astronomy and Biology to Computer Science, Mathematics, Physics and Statistics, one per subject on a Faculty of Science page, laid out from first year to fourth.
+- [x] Prerequisite maps for 27 subjects on two faculty pages, one map per subject, laid out from first year to fourth: 14 Faculty of Science subjects, from Astronomy and Biology to Computer Science, Mathematics, Physics and Statistics, and 13 engineering subjects, from Applied Science to Computer, Electrical, Mechanical and Mining Engineering. A home page links to every subject.
 - [x] Click a course to highlight everything it needs and everything it unlocks.
 - [x] Course details: description, credits, and the exact prerequisite rule, including courses from other departments. A course from another subject opens on that subject's map.
 - [x] "What can I take next?": mark the courses you've done (in any subject) and every course shows whether you can take it.
@@ -21,6 +21,7 @@ A website for UBC students to plan courses using the prerequisite graph.
 - [x] Links to r/ubc posts and UBCGrades for each course, and a Rate My Professors search for each instructor.
 - [x] Pick your program (the Computer Science Major or Honours, the AI option, or Software Engineering) to see its requirements year by year, which ones you've finished, and its courses marked on the map.
 - [x] A Feedback link that opens a short form on GitHub.
+- [ ] Engineering programs (the common first year, Electrical and Computer Engineering, Mechanical Engineering).
 - [ ] More faculties, and their majors.
 
 ## How the course data is built
@@ -213,10 +214,12 @@ The site is in `web/`: Next.js, TypeScript and React Flow, exported as a plain s
 
 ### One map per subject
 
-- **A page per faculty.** The home page is the Faculty of Science, with its 14 subjects in a menu next to the title, A to Z. The subject is kept in the address (`#math`), so links, refreshing and the back button work. With no `#`, Computer Science opens, so old links to the home page still show it. The page is built with Computer Science showing, so a link to `#biol` would flash the CPSC map first; a tiny script in the page hides the map until the right subject is showing. Each faculty will get its own page as more are added, so a page only carries one faculty's data.
-- **One page, for now.** Every subject's courses and grades are built into the page: 1.20 MB, or 185 KB gzipped (473 KB with three subjects). In Chromium with the CPU slowed 4×, it's ready in about 0.95 s instead of 0.89 s, so loading a subject's data only when it's picked can wait for more faculties.
+- **A page per faculty.** `/science` and `/engineering` each have their subjects in a menu next to the title, A to Z, and tabs above it to switch faculty. The subject is kept in the address (`/science#math`), so links, refreshing and the back button work. With no `#`, a faculty's first subject opens (Computer Science for Science, Applied Science for engineering). A page is built with that subject showing, so a link to `#biol` would flash the CPSC map first; a tiny script in the page hides the map until the right subject is showing.
+- **A home page.** `/` has a card per faculty with a link to each subject's map. Links from before there were faculty pages, like `/#math`, still work: the "#" part never reaches the server, so a tiny script on the home page sends them on to `/science#math`.
+- **What each page carries.** A page has its own faculty's maps and grades, plus the course data of every faculty, so statuses and paths can cross faculties. The Science page is 1.53 MB (241 KB gzipped), the engineering page 1.31 MB (207 KB), and the home page 33 KB. Links between pages don't prefetch, so the home page doesn't download both.
 - **Why not one big map?** Three layouts were tried with the real data: one map per subject; each map plus the courses it needs from other subjects as extra boxes; and all three subjects on one map. The extra boxes added 24 courses to the CPSC map and pushed CPSC 221 down a row, and the combined map (175 courses) was unreadable without zooming in. One map per subject stays readable and works for any number of subjects.
 - **Across subjects.** Ticks, statuses, paths and the picked program cover every subject. A MATH course in CPSC 340's panel opens on the MATH map, and the Computer Science Major marks its MATH courses there too.
+- **Across faculties.** Ticks are saved once for the whole site, so MATH 100 ticked on the engineering page counts on the Science page too. ELEC 201's path plans MATH 100, PHYS 157 and the rest from the Science data, and CPSC 221 knows what CPEN 221 needs.
 - **A prerequisite that points up.** MATH 131 (first year) accepts 68% in MATH 221 (second year) as one option. dagre needs every line to go down a row, so a line like that is drawn but left out of the layout.
 - **Courses numbered below 100.** SCIE 001 (Science One) is a first-year course, so it sits with the 100-level courses.
 
@@ -233,11 +236,12 @@ The site is in `web/`: Next.js, TypeScript and React Flow, exported as a plain s
 - **Shortest path.** For any course, the side panel lists the courses still needed, term by term, plus anything else it asks for (e.g. "Third-year standing"). In each "one of" it picks the option with the fewest *last resorts*, then the fewest new courses (counting the ones already picked for other parts of the path), then the fewest things to check. A last resort is something most students can't count on:
   - a course from a subject that isn't in the data yet, since its own prerequisites are unknown (without this rule, CPSC 340 was routed through DSCI 221);
   - a choice that's only things to check, like "advanced credit for MATH 100", "a score of 5 in AP Calculus AB" or BIOL 200's "8 transfer credits of first-year BIOL and 6 credits of first-year CHEM" (without this rule, the path to MATH 221 skipped MATH 100);
-  - a course only some students can take, like co-op work terms, MATH 190 (forestry and nursing), Science One (SCIE 001, by application), CHEM 111 ("Not open to students with credit for CHEM 12") or CHEM 203 (Chemistry specializations only, so paths take CHEM 233).
+  - a course only some students can take, like co-op work terms, MATH 190 (forestry and nursing), Science One (SCIE 001, by application), CHEM 111 ("Not open to students with credit for CHEM 12") or CHEM 203 (Chemistry specializations only, so paths take CHEM 233);
+  - on the Science page, an engineering course: most are only for engineering students in practice, even when the calendar doesn't say so. Without this rule, MICB 322 was routed through BMEG 245 and PHYS 309 through ENPH 259. A path still uses one when there's no other way, like MINE 200 for EOSC 210. On the engineering page, Science courses are as usual, since engineering students take MATH, PHYS and CHEM anyway.
 
   High school courses are the exception: "CHEM 12" or "Pre-calculus 12" isn't a last resort, since most students start UBC with them. They're listed to check instead, so the path to CHEM 123 is CHEM 121 plus "Check: CHEM 12", not CHEM 100 first. A grade in one ("85% or higher in Physics 12") isn't counted on. A last resort inside a "one of" also counts against the choice above it, so Enriched Physics (PHYS 107) doesn't win just because all its options are things to check. Adding the other Science subjects is what showed all this: once Science One had data, 356 paths went through SCIE 001, including CPSC 340's.
 
-  "Fewest things to check" picks MATH 101 and 200 over the honours MATH 121 and 226, which need minimum grades. A tie goes against a course that's "not for students with credit for" the other option (CPSC 103 loses to CPSC 110), then to the course that unlocks more. For CPSC, it was checked against an exhaustive search over every combination of choices, for all 60 courses from six different starting points, and it never needs more courses. A switch shows just that path on the map, with term numbers.
+  "Fewest things to check" picks MATH 101 and 200 over the honours MATH 121 and 226, which need minimum grades. A tie goes against a course that's "not for students with credit for" the other option (CPSC 103 loses to CPSC 110), then to the course that unlocks more of the page's own courses. Counting every faculty's courses there would pick the engineering versions on the Science page (PHYS 157 over PHYS 117, MATH 253 over MATH 200), and on the engineering page it's what picks them. With the engineering courses loaded, every Science path was compared with the old ones from five starting points: the only changes are courses whose only way in is through engineering courses (MATH 254, EOSC 433, …), which used to stop at "no data". For CPSC, it was checked against an exhaustive search over every combination of choices, for all 60 courses from six different starting points, and it never needs more courses. A switch shows just that path on the map, with term numbers.
 
 ### Pick a program
 
@@ -262,7 +266,7 @@ npm test
 npm run dev
 ```
 
-`npm run build` writes the static site to `web/out/`. There are 188 tests (Vitest) for the graph, layout, highlighting, course details, statuses, saving, path logic, grades, links, programs, subjects and moving the view, including checks against the real course data for all 14 subjects. GitHub Actions runs `pytest` and the website's tests, lint and build on every push, and [Vercel](https://vercel.com) builds and publishes the site from `main`.
+`npm run build` writes the static site to `web/out/`. There are 193 tests (Vitest) for the graph, layout, highlighting, course details, statuses, saving, path logic, grades, links, programs, subjects and moving the view, including checks against the real course data for all 14 subjects. GitHub Actions runs `pytest` and the website's tests, lint and build on every push, and [Vercel](https://vercel.com) builds and publishes the site from `main`.
 
 ## Feedback
 

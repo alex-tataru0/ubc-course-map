@@ -3,7 +3,7 @@
 import { useEffect, useSyncExternalStore } from "react";
 import type { SubjectMap } from "@/lib/subjectMap";
 import { feedbackUrl, REPO_URL } from "@/lib/links";
-import { hashFor, subjectFromHash } from "@/lib/subjects";
+import { FACULTIES, hashFor, subjectFromHash } from "@/lib/subjects";
 import type { Faculty } from "@/lib/subjects";
 import type { Course, CourseGrades, Program } from "@/lib/types";
 import CourseGraph from "./CourseGraph";
@@ -18,7 +18,8 @@ interface FacultyViewProps {
   gradeSessions: string[]; // the terms the grade data covers, oldest first
   programs: Program[];
   programUrl: string;
-  programSubject: string; // the subject the programs belong to, e.g. "CPSC"
+  programSubject: string | null; // the subject the programs belong to, e.g. "CPSC", if any
+  closed: string[]; // other faculties' courses this page's students usually can't take
 }
 
 // The address changes when a subject is picked, and with the back and forward buttons.
@@ -58,7 +59,7 @@ export default function FacultyView({ faculty, maps, ...data }: FacultyViewProps
     <main className="flex h-screen flex-col">
       <header className="flex flex-wrap items-end justify-between gap-x-8 gap-y-1.5 border-b border-header-line bg-header px-4 py-2 text-header-ink sm:px-5 sm:py-3">
         <div>
-          <p className="text-xs font-medium uppercase tracking-wide text-header-muted">UBC Course Map</p>
+          <FacultyTabs faculty={faculty} />
           <div className="mt-0.5 flex flex-wrap items-center gap-x-3 gap-y-1.5">
             <h1 className="text-lg font-semibold tracking-tight sm:text-xl">{faculty.name}</h1>
             <span data-subject-view>
@@ -105,5 +106,41 @@ export default function FacultyView({ faculty, maps, ...data }: FacultyViewProps
         <CourseGraph map={map} maps={maps} onSubject={pickSubject} {...data} />
       </div>
     </main>
+  );
+}
+
+// "UBC Course Map / Science | Engineering" over the title: the name goes to the home page, and
+// a tab goes to that faculty's page. Plain <a> links, so each page loads fresh and its own
+// scripts run (see the home page).
+function FacultyTabs({ faculty }: { faculty: Faculty }) {
+  return (
+    <nav aria-label="Faculties" className="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs">
+      {/* eslint-disable-next-line @next/next/no-html-link-for-pages -- on purpose, see above */}
+      <a href="/" className="font-medium uppercase tracking-wide text-header-muted hover:text-header-ink">
+        UBC Course Map
+      </a>
+      <span className="text-header-muted opacity-50" aria-hidden>
+        /
+      </span>
+      <ul className="flex gap-1">
+        {FACULTIES.map((f) => (
+          <li key={f.slug}>
+            {/* By slug: the faculty passed in is a copy, made when the page sent it to the browser. */}
+            {f.slug === faculty.slug ? (
+              <span aria-current="page" className="block rounded-full bg-header-ink px-2 py-px font-medium text-header">
+                {f.tab}
+              </span>
+            ) : (
+              <a
+                href={`/${f.slug}`}
+                className="block rounded-full border border-line px-2 py-px text-header-muted hover:border-header-muted hover:text-header-ink"
+              >
+                {f.tab}
+              </a>
+            )}
+          </li>
+        ))}
+      </ul>
+    </nav>
   );
 }

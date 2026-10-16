@@ -20,14 +20,15 @@ The live site is on Vercel: every push to `main` is built and published. The Ver
 
 ## Where things are
 
-- `src/app/page.tsx` runs at build time: it reads every subject's file in `../data/courses/` and `../data/grades/` plus `../data/programs/cpsc.json`, lays out one map per subject, and renders the Faculty of Science page. Its metadata includes the link-preview card (`public/og.png`). `layout.tsx` has the fonts, the site's address and Vercel Web Analytics.
+- `src/app/` runs at build time. `[faculty]/page.tsx` builds `/science` and `/engineering`: it reads the faculty's files in `../data/courses/` and `../data/grades/`, every other faculty's course files, and `../data/programs/cpsc.json` for Science, lays out one map per subject, and renders the page. `page.tsx` is the home page at `/`, with a card per faculty and the script that forwards old `/#math` links. Their metadata includes the link-preview card (`public/og.png`). `layout.tsx` has the fonts, the site's address and Vercel Web Analytics.
 - `src/components/` holds the React pieces:
-  - `FacultyView` (the header, the subject menu and the subject in the address), `SubjectPicker` (the menu) and `Legend`.
+  - `FacultyView` (the header with the faculty tabs, the subject menu and the subject in the address), `SubjectPicker` (the menu) and `Legend`.
   - `CourseGraph` (the map, with React Flow, and which side panel shows), `SelectionBar`, `ProgressBar` (marking courses, the summary and "Clear all"), `Status` (how each status looks, tick boxes).
   - Side panels: `CourseDetails` (a course, including "Your path here"), `Grades` (its grade chart and teaching history), `OutsideCourses` (courses not on the map), `ProgramPanel` with `ProgramButton` and `ProgramStripe` (the picked program). `usePanelFocus` moves keyboard focus into a panel and back.
   - `WithLinks`: calendar text with its web addresses as short links.
 - `src/lib/` holds the logic, with no React in it, and a test file next to each module:
-  - `subjects.ts`: the faculty and its subjects, and the subject in the address (`#math`).
+  - `subjects.ts`: the faculties and their subjects, the subject in the address (`#math`), and forwarding old links.
+  - `data.ts`: reads the pipeline's files during the build.
   - `subjectMap.ts`: everything one subject's map needs, worked out at build time.
   - `graph.ts`: course data to nodes and edges; what a course needs and unlocks.
   - `sections.ts`: which courses go in the co-op and "other" sections.

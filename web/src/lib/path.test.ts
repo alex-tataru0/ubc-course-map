@@ -2,7 +2,7 @@ import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 import { undergradOnly } from "./graph";
 import { planPath } from "./path";
-import { SCIENCE } from "./subjects";
+import { ENGINEERING, SCIENCE } from "./subjects";
 import type { CourseFile } from "./types";
 
 const url = new URL("../../../data/courses/cpsc.json", import.meta.url);
@@ -180,5 +180,56 @@ describe("planPath across the Faculty of Science", () => {
   it("doesn't count on a high grade in a high school course", () => {
     // ASTR 200 takes PHYS 107 too, which needs 85% or higher in Physics 12.
     expect(planAll("ASTR 200").terms.flat()).not.toContain("PHYS 107");
+  });
+});
+
+describe("planPath with both faculties loaded", () => {
+  // Each faculty's page loads every course on the site, but plans as that faculty.
+  const load = (subject: string): CourseFile =>
+    JSON.parse(readFileSync(new URL(`../../../data/courses/${subject}.json`, import.meta.url), "utf8"));
+  const coursesOf = (subjects: { code: string }[]) =>
+    undergradOnly(subjects.flatMap((s) => load(s.code.toLowerCase()).courses));
+  const science = coursesOf(SCIENCE.subjects);
+  const engineering = coursesOf(ENGINEERING.subjects);
+  const all = [...science, ...engineering];
+  const codes = (list: typeof all) => new Set(list.map((c) => c.code));
+  // The Science page: its own maps, with engineering courses as a last resort.
+  const onScience = (target: string, ...done: string[]) =>
+    planPath(target, all, new Set(done), { home: codes(science), closed: codes(engineering) });
+  // The engineering page: its own maps, and Science courses as usual.
+  const onEngineering = (target: string, ...done: string[]) =>
+    planPath(target, all, new Set(done), { home: codes(engineering) });
+
+  it("plans the Science page as before", () => {
+    expect(onScience("CPSC 340").terms).toEqual(planPath("CPSC 340", science, new Set()).terms);
+    // MATH 215 and MATH 255 need the same courses. MATH 255 leads to more courses only through
+    // ELEC 221 (STAT 321 needs one of ELEC 221, STAT 305), which doesn't count here.
+    expect(onScience("ASTR 407").terms.flat()).toContain("MATH 215");
+    // PHYS 117 over the engineering PHYS 157, MATH 200 over MATH 253.
+    expect(onScience("ATSC 301").terms.flat()).toContain("PHYS 117");
+    expect(onScience("CHEM 304").terms.flat()).toContain("MATH 200");
+  });
+
+  it("only uses engineering courses on the Science page when there's no other way", () => {
+    // MICB 322 could start with BMEG 245, one course shorter than BIOL 112 and MICB 201.
+    expect(onScience("MICB 322").terms.flat()).not.toContain("BMEG 245");
+    // CPSC 221 takes CPSC 210 or CPEN 221, even after APSC 160 (which leads to CPEN 221).
+    expect(onScience("CPSC 221", "APSC 160").terms.flat()).toContain("CPSC 210");
+    // EOSC 210's corequisite is one of CIVL 215, MINE 200: both engineering, so one is planned.
+    expect(onScience("EOSC 210").terms).toEqual([["EOSC 210", "MINE 200"]]);
+  });
+
+  it("plans engineering courses with the Science courses they need", () => {
+    expect(onEngineering("ELEC 201").terms).toEqual([
+      ["MATH 100", "PHYS 157"],
+      ["MATH 101", "MATH 152", "PHYS 158"],
+      ["ELEC 201", "MATH 253", "MATH 256"],
+    ]);
+    expect(onEngineering("CPEN 331").terms).toEqual([
+      ["APSC 160"],
+      ["CPEN 211", "CPEN 221"],
+      ["CPEN 212"],
+      ["CPEN 331"],
+    ]);
   });
 });

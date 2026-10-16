@@ -1,0 +1,108 @@
+import type { Metadata } from "next";
+import { notFound } from "next/navigation";
+import FacultyView from "@/components/FacultyView";
+import { loadCourses, loadGrades, loadPrograms } from "@/lib/data";
+import { gradesFor } from "@/lib/grades";
+import { undergradOnly } from "@/lib/graph";
+import { subjectMap } from "@/lib/subjectMap";
+import { FACULTIES, pendingSubjectScript } from "@/lib/subjects";
+import type { Faculty } from "@/lib/subjects";
+import type { ProgramFile } from "@/lib/types";
+
+// One page per faculty: /science and /engineering. With the static export, each is built
+// once during `npm run build`, and any other address is a 404.
+export const dynamicParams = false;
+
+export function generateStaticParams() {
+  return FACULTIES.map((f) => ({ faculty: f.slug }));
+}
+
+type Props = { params: Promise<{ faculty: string }> };
+
+function facultyFor(slug: string): Faculty {
+  return FACULTIES.find((f) => f.slug === slug) ?? notFound();
+}
+
+// The subject list for the description, e.g. "from Astronomy to Statistics".
+function span(faculty: Faculty): string {
+  const names = faculty.subjects.map((s) => s.name);
+  return `from ${names[0]} to ${names[names.length - 1]}`;
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const faculty = facultyFor((await params).faculty);
+  const count = `${faculty.subjects.length} ${faculty.name} subjects`;
+  return {
+    title: `${faculty.name} · UBC Course Map`,
+    description: `Plan UBC ${faculty.name} courses, ${span(faculty)}, with the prerequisite graph.`,
+    // What Reddit, Discord, iMessage and others show when the link is pasted. The image is the
+    // CPSC map with CPSC 340 picked (public/og.png, 1200×630); they print the title and
+    // description next to it, so the image has no text of its own.
+    openGraph: {
+      type: "website",
+      url: `/${faculty.slug}`,
+      siteName: "UBC Course Map",
+      title: `${faculty.name} · UBC Course Map`,
+      description:
+        "See what every course needs and unlocks, plan your path and check past grades. " +
+        `${count}. Free, unofficial student project.`,
+      images: [
+        {
+          url: "/og.png",
+          width: 1200,
+          height: 630,
+          alt: "The CPSC map with CPSC 340 picked and the courses it needs highlighted in orange",
+        },
+      ],
+    },
+    twitter: { card: "summary_large_image" },
+  };
+}
+
+// The programs each faculty's page lists, from the pipeline's program files. Engineering has
+// none yet.
+const PROGRAMS: Record<string, string> = { science: "CPSC" };
+
+// A faculty's page: one map per subject, picked from a menu.
+export default async function FacultyPage({ params }: Props) {
+  const faculty = facultyFor((await params).faculty);
+  const files = faculty.subjects.map((s) => loadCourses(s.code));
+  // Every undergraduate course on the site, for the side panel, statuses and paths, which
+  // cross subjects (CPSC 340 needs MATH 221) and faculties (ELEC 201 needs MATH 101, CPSC 221
+  // can follow CPEN 221). Only this faculty's subjects get maps.
+  const others = FACULTIES.filter((f) => f.slug !== faculty.slug);
+  const otherFiles = others.flatMap((f) => f.subjects.map((s) => loadCourses(s.code)));
+  const details = [...files, ...otherFiles].flatMap((file) => undergradOnly(file.courses));
+  // Other faculties' courses that this faculty's students usually can't take, which paths
+  // only use when there's no other way (engineering courses, on the Science page).
+  const closed = others
+    .filter((f) => !f.openToAll)
+    .flatMap((f) => f.subjects.flatMap((s) => undergradOnly(loadCourses(s.code).courses)))
+    .map((c) => c.code);
+  // Grades are only shown for courses on this page's maps.
+  const codes = files.flatMap((file) => undergradOnly(file.courses)).map((c) => c.code);
+  const gradeFiles = faculty.subjects.map((s) => loadGrades(s.code));
+  // Every term any subject has grades for. A subject can skip a term (ENVR has no summer
+  // courses most years). "2021S" sorts before "2021W", so plain sorting is time order.
+  const gradeSessions = [...new Set(gradeFiles.flatMap((file) => file.sessions))].sort();
+  const programSubject = PROGRAMS[faculty.slug] ?? null;
+  const programs: ProgramFile | null = programSubject ? loadPrograms(programSubject) : null;
+
+  return (
+    <>
+      {/* Runs before the page is drawn, so a link like /science#biol doesn't flash the CPSC map. */}
+      <script dangerouslySetInnerHTML={{ __html: pendingSubjectScript(faculty) }} />
+      <FacultyView
+        faculty={faculty}
+        maps={files.map(subjectMap)}
+        details={details}
+        grades={Object.assign({}, ...gradeFiles.map((file) => gradesFor(file, codes)))}
+        gradeSessions={gradeSessions}
+        programs={programs?.programs ?? []}
+        programUrl={programs?.source ?? ""}
+        programSubject={programSubject}
+        closed={closed}
+      />
+    </>
+  );
+}

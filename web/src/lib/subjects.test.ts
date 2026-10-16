@@ -1,5 +1,15 @@
 import { describe, expect, it } from "vitest";
-import { hashFor, pendingSubjectScript, SCIENCE, subjectFromHash, subjectOf } from "./subjects";
+import {
+  ENGINEERING,
+  FACULTIES,
+  facultyOf,
+  forwardScript,
+  hashFor,
+  pendingSubjectScript,
+  SCIENCE,
+  subjectFromHash,
+  subjectOf,
+} from "./subjects";
 
 describe("subjects", () => {
   it("reads the subject from a course code", () => {
@@ -40,8 +50,36 @@ describe("subjects", () => {
   });
 
   it("lists the subjects A to Z by name, with the home subject among them", () => {
-    const names = SCIENCE.subjects.map((s) => s.name);
-    expect(names).toEqual([...names].sort());
-    expect(SCIENCE.subjects.map((s) => s.code)).toContain(SCIENCE.home);
+    for (const faculty of FACULTIES) {
+      const names = faculty.subjects.map((s) => s.name);
+      expect(names).toEqual([...names].sort());
+      expect(faculty.subjects.map((s) => s.code)).toContain(faculty.home);
+    }
+  });
+
+  it("puts every subject in one faculty, ENPH with engineering", () => {
+    const codes = FACULTIES.flatMap((f) => f.subjects.map((s) => s.code));
+    expect(new Set(codes).size).toBe(codes.length);
+    expect(codes).toHaveLength(27);
+    expect(facultyOf("ENPH")).toBe(ENGINEERING);
+    expect(facultyOf("MATH")).toBe(SCIENCE);
+    expect(facultyOf("WRDS")).toBeUndefined();
+    expect(new Set(FACULTIES.map((f) => f.slug)).size).toBe(FACULTIES.length);
+  });
+
+  it("forwards old links like /#math to the subject's faculty page", () => {
+    // Runs the script with a fake address instead of a browser's.
+    const forward = (hash: string, pathname = "/") => {
+      let to: string | null = null;
+      const location = { hash, pathname, replace: (url: string) => (to = url) };
+      new Function("location", "addEventListener", forwardScript())(location, () => {});
+      return to;
+    };
+    expect(forward("#math")).toBe("/science#math");
+    expect(forward("#ELEC")).toBe("/engineering#ELEC");
+    expect(forward("")).toBeNull();
+    expect(forward("#zool")).toBeNull();
+    // Only from the home page, not once a faculty's page has taken over.
+    expect(forward("#math", "/science")).toBeNull();
   });
 });

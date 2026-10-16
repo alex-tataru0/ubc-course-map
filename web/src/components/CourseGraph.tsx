@@ -56,7 +56,8 @@ interface CourseGraphProps {
   gradeSessions: string[]; // the terms the grade data covers, oldest first
   programs: Program[]; // the programs you can pick, e.g. the Computer Science Major
   programUrl: string; // the calendar page they come from
-  programSubject: string; // the subject the programs belong to, e.g. "CPSC"
+  programSubject: string | null; // the subject the programs belong to, e.g. "CPSC", if any
+  closed: string[]; // other faculties' courses this page's students usually can't take
 }
 
 type CourseData = {
@@ -223,6 +224,7 @@ export default function CourseGraph({
   programs,
   programUrl,
   programSubject,
+  closed,
 }: CourseGraphProps) {
   const { subject, courses, edges, labels, bands, width, calendarUrl } = map;
   const colorMode = useSystemColorMode();
@@ -251,6 +253,7 @@ export default function CourseGraph({
     [maps],
   );
   const onAnyMap = useMemo(() => new Set(mapOf.keys()), [mapOf]);
+  const closedSet = useMemo(() => new Set(closed), [closed]);
 
   // Every course's status, in every subject, since prerequisites cross subjects.
   // Shown on the graph once at least one course is marked done. The bar counts this map's.
@@ -282,8 +285,9 @@ export default function CourseGraph({
   // you click around. There's no path to a course you wouldn't take (CPSC 107 after 110).
   const [showPath, setShowPath] = useState(false);
   const path = useMemo(
-    () => (selected === null ? null : planPath(selected, details, done)),
-    [selected, details, done],
+    () =>
+      selected === null ? null : planPath(selected, details, done, { home: onAnyMap, closed: closedSet }),
+    [selected, details, done, onAnyMap, closedSet],
   );
   const selectedStatus = selected === null ? undefined : progress.get(selected)?.status;
   const wontTake = selectedStatus !== undefined && WONT_TAKE.has(selectedStatus);
@@ -622,14 +626,17 @@ export default function CourseGraph({
                 onClear={clear}
                 onToggleOutside={() => setOutsideOpen(!outsideOpen)}
               />
-              <ProgramButton
-                program={program}
-                rowsDone={programSummaryNow?.rowsDone ?? 0}
-                rows={programSummaryNow?.rows ?? 0}
-                open={showProgram}
-                large={done.size === 0 && !marking}
-                onClick={toggleProgram}
-              />
+              {/* Only on pages with programs to pick (none for engineering yet). */}
+              {programs.length > 0 && (
+                <ProgramButton
+                  program={program}
+                  rowsDone={programSummaryNow?.rowsDone ?? 0}
+                  rows={programSummaryNow?.rows ?? 0}
+                  open={showProgram}
+                  large={done.size === 0 && !marking}
+                  onClick={toggleProgram}
+                />
+              )}
             </div>
             {highlight && !panelOpen && (
               <SelectionBar

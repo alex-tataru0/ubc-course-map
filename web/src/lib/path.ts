@@ -22,7 +22,8 @@ export interface CoursePath {
 // - a course only some students can take, e.g. "Restricted to students admitted to the
 //   Co-operative Education Program", MATH 190's "registration in the B.S.F. or B.Sc.N.
 //   programs", Science One (SCIE 001), which takes students by application, or CHEM 111's
-//   "Not open to students with credit for CHEM 12".
+//   "Not open to students with credit for CHEM 12";
+// - a course in `closed`: on the Science page, the engineering courses (see Faculty.openToAll).
 // High school courses like "Chemistry 12" aren't last resorts (see HIGH_SCHOOL).
 interface Plan {
   courses: Set<string>;
@@ -32,20 +33,37 @@ interface Plan {
 
 const EMPTY: Plan = { courses: new Set(), also: [], lastResorts: 0 };
 
+// What a faculty's page tells planPath: the courses on its maps, and the courses its students
+// usually can't take.
+export interface PathOptions {
+  home?: ReadonlySet<string>;
+  closed?: ReadonlySet<string>;
+}
+
 // The shortest path from the courses done to `target`, using the courses in `courses`.
 // In each "one of", it picks the option with the fewest last resorts, then the fewest new
 // courses (counting courses already picked for other parts of the path), then the fewest
 // things to check, so MATH 101 and 200 beat the honours MATH 121 and 226, which need
 // minimum grades. In a tie, a course that's "not for students with credit for" another
 // option loses to it (CPSC 103 to CPSC 110), and then the course that unlocks more wins.
+// When `home` is given (the page's own maps), only its courses count as unlocked, reached
+// through its courses. Each page loads every faculty's courses, and counting engineering
+// courses on the Science page would pick the engineering versions (PHYS 157 over PHYS 117,
+// MATH 253 over MATH 200, MATH 255 over MATH 215 because ELEC 221 needs it).
 // Courses we have no data for that the path can't avoid go in `also`, as do non-course
 // requirements, minimum grades and "Restricted to …" sentences.
-export function planPath(target: string, courses: Course[], done: ReadonlySet<string>): CoursePath {
+export function planPath(
+  target: string,
+  courses: Course[],
+  done: ReadonlySet<string>,
+  { home, closed }: PathOptions = {},
+): CoursePath {
   const byCode = new Map(courses.map((c) => [c.code, c]));
   if (!byCode.has(target) || done.has(target)) return { terms: [], also: [] };
 
   const { edges } = buildGraph(courses);
-  const unlocks = (code: string) => descendants(code, edges).size;
+  const homeEdges = home ? edges.filter((edge) => home.has(edge.target)) : edges;
+  const unlocks = (code: string) => descendants(code, homeEdges).size;
 
   // Plans `code` and everything it needs, given the courses in `have` (done or already planned).
   function planCourse(code: string, have: ReadonlySet<string>): Plan {
@@ -54,6 +72,7 @@ export function planPath(target: string, courses: Course[], done: ReadonlySet<st
     const prereqText = course.prereq?.text ?? "";
     const onlyForSome =
       restriction !== null ||
+      (closed?.has(code) ?? false) ||
       /\bregistration in\b|\bnot open to\b/i.test(prereqText) ||
       /\bapplication process\b/i.test(course.description);
     let plan: Plan = { courses: new Set([code]), also: [], lastResorts: onlyForSome ? 1 : 0 };
