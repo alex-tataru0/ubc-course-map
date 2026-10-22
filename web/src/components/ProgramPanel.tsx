@@ -1,9 +1,11 @@
 import { useEffect, useId, useRef, useState } from "react";
 import { programMajors, programSummary, treeCourses } from "@/lib/program";
 import type { CreditsFor, Major, RowProgress, RowStatus } from "@/lib/program";
-import { facultyOf } from "@/lib/subjects";
+import { facultyOf, SCIENCE } from "@/lib/subjects";
 import type { Elsewhere } from "@/lib/subjects";
 import type { Program, ProgramRequirement } from "@/lib/types";
+import { scienceRows } from "@/lib/science";
+import type { ScienceRow } from "@/lib/science";
 import { StripeSample } from "./ProgramStripe";
 import { TickChip } from "./Status";
 import { usePanelFocus } from "./usePanelFocus";
@@ -393,7 +395,79 @@ function Requirements({
           </section>
         );
       })}
+
+      {program.degree === SCIENCE.degree && (
+        <ScienceRules rows={scienceRows(program, links.done, creditsFor)} {...links} />
+      )}
     </>
+  );
+}
+
+// The Faculty of Science's rules for every B.Sc. program, after the program's own years. They
+// have their own count: the program's "N of M requirements done" is about the program only.
+function ScienceRules({ rows, ...links }: { rows: ScienceRow[] } & CodeLinks) {
+  const tracked = rows.filter((row) => row.status !== "check");
+  return (
+    <section className="mt-5">
+      <h3 className="flex items-baseline justify-between gap-3 border-b border-line pb-1.5 font-semibold">
+        <span>Faculty of Science requirements</span>
+        <span className="shrink-0 text-xs font-normal text-ink-muted">
+          {tracked.filter((row) => row.status === "done").length} of {tracked.length} done
+        </span>
+      </h3>
+      <p className="mt-1.5 text-xs text-ink-muted">
+        Every B.Sc. program needs these too. A course can count here and in the program above.
+      </p>
+      <ul className="divide-y divide-line">
+        {rows.map((row) => (
+          <li key={row.title} className="py-2.5">
+            <div className="flex items-start gap-2.5">
+              <span className="mt-0.5 flex">
+                <RowIcon status={row.status} />
+              </span>
+              <span className="min-w-0 flex-1">
+                <span className="sr-only">{STATUS_WORDS[row.status]}: </span>
+                {row.title}
+              </span>
+              {row.progress && <span className="shrink-0 text-xs tabular-nums text-ink-muted">{row.progress}</span>}
+            </div>
+            <div className="ml-[26px]">
+              {row.categories && (
+                <ul className="mt-1.5 flex flex-wrap gap-1.5" aria-label="Science Breadth categories">
+                  {row.categories.map((category) => (
+                    <li
+                      key={category.name}
+                      className={`rounded border px-1.5 py-0.5 text-xs ${
+                        category.done ? "border-ink" : "border-line text-ink-muted"
+                      }`}
+                    >
+                      {category.done && (
+                        <>
+                          <span aria-hidden>✓ </span>
+                          <span className="sr-only">Done: </span>
+                        </>
+                      )}
+                      {category.name}
+                    </li>
+                  ))}
+                </ul>
+              )}
+              {row.options.length > 0 && (
+                <div className="mt-1.5 flex flex-wrap gap-1.5">
+                  {row.options.map((code) => (
+                    <Chip key={code} code={code} counted={false} {...links} />
+                  ))}
+                </div>
+              )}
+              {row.status === "done" && row.counted.length > 0 && (
+                <p className="mt-1 text-xs text-ink-muted">With {row.counted.join(", ")}</p>
+              )}
+              {row.check && <p className="mt-1 text-xs text-ink-muted">Check this yourself · {row.check}</p>}
+            </div>
+          </li>
+        ))}
+      </ul>
+    </section>
   );
 }
 

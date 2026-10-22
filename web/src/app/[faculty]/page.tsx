@@ -4,8 +4,9 @@ import FacultyView from "@/components/FacultyView";
 import { loadCourses, loadGrades, loadPrograms } from "@/lib/data";
 import { gradesFor } from "@/lib/grades";
 import { undergradOnly } from "@/lib/graph";
+import { withCommunicationCourses } from "@/lib/science";
 import { subjectMap } from "@/lib/subjectMap";
-import { FACULTIES, pendingSubjectScript } from "@/lib/subjects";
+import { FACULTIES, pendingSubjectScript, SCIENCE } from "@/lib/subjects";
 import type { Faculty } from "@/lib/subjects";
 import type { Program } from "@/lib/types";
 
@@ -78,11 +79,15 @@ export default async function FacultyPage({ params }: Props) {
   // program picked on another page still shows here: an engineering program's MATH courses
   // are marked on the MATH map.
   // Each program links to its calendar page: its own (engineering, the Science subjects') or
-  // its file's (the CS programs all come from the Computer Science page).
+  // its file's (the CS programs all come from the Computer Science page). Science programs'
+  // "Additional Communication Requirement" rows become a choice of the courses that meet it.
   const programsOf = (f: Faculty) =>
     f.programFiles.flatMap((name) => {
       const file = loadPrograms(name);
-      return file.programs.map((p): Program => ({ ...p, sources: p.sources ?? [file.source], degree: f.degree }));
+      return file.programs.map((p) => {
+        const program: Program = { ...p, sources: p.sources ?? [file.source], degree: f.degree };
+        return f === SCIENCE ? withCommunicationCourses(program) : program;
+      });
     });
   const programs = programsOf(faculty);
   const programUrl = loadPrograms(faculty.programFiles[0]).source;
