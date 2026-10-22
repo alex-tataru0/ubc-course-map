@@ -61,7 +61,9 @@ UPPER_YEARS = "Third and Fourth Years"
 def clean(text: str) -> str:
     # "CPSC_V 210 , 213" → "CPSC 210, 213": Vancouver codes without "_V", single spaces,
     # and no space before punctuation (cut-out footnote marks and links leave one behind).
-    text = normalize_codes(" ".join(text.split()))
+    # A few Science rows write "EOSC_V110" or "EOSC _V212".
+    text = re.sub(r"\b([A-Z]{2,4}) ?_V ?(?=\d{3})", r"\1 ", " ".join(text.split()))
+    text = normalize_codes(text)
     return re.sub(r" ([,.;:)])", r"\1", text)
 
 

@@ -59,6 +59,68 @@ def test_course_codes_stop_at_other_words():
     ),
     ("Electives", {"electives": True}),
     ("Additional Communication Requirement", {"other": "Additional Communication Requirement"}),
+    # Science pages (Phase 11).
+    ("Elective", {"electives": True}),
+    (
+        "MATH 221 (or 223), 215",
+        {"all_of": [{"one_of": ["MATH 221", "MATH 223"]}, "MATH 215"]},
+    ),
+    (
+        "MICB 205, 211 (or 201), 212 (or 202)",
+        {"all_of": ["MICB 205", {"one_of": ["MICB 211", "MICB 201"]}, {"one_of": ["MICB 212", "MICB 202"]}]},
+    ),
+    ("CHEM 121 (or 111, 141)", {"one_of": ["CHEM 121", "CHEM 111", "CHEM 141"]}),
+    ("MATH 111 (or one of 131, 221, 223)", {"one_of": ["MATH 111", "MATH 131", "MATH 221", "MATH 223"]}),
+    (
+        "MATH 111 (or 131 or 221 or 223) or STAT 200",
+        {"one_of": ["MATH 111", "MATH 131", "MATH 221", "MATH 223", "STAT 200"]},
+    ),
+    ("EOSC 110, 112, 114 or 116", {"one_of": ["EOSC 110", "EOSC 112", "EOSC 114", "EOSC 116"]}),
+    ("BIOL 204 and 205", {"all_of": ["BIOL 204", "BIOL 205"]}),
+    (
+        "In third year: STAT 301, 305, 306 and MATH 307",
+        {"all_of": ["STAT 301", "STAT 305", "STAT 306", "MATH 307"]},
+    ),
+    ("At least one of MICB 325, BIOL 335", {"one_of": ["MICB 325", "BIOL 335"]}),
+    ("Two of BIOL 331, 340 and 341", {"pick": 2, "of": ["BIOL 331", "BIOL 340", "BIOL 341"]}),
+    ("3 of ATSC 404, 405, 413, EOSC 440", {"pick": 3, "of": ["ATSC 404", "ATSC 405", "ATSC 413", "EOSC 440"]}),
+    (
+        "Three courses from MATH 215, 303, 307, 340",
+        {"pick": 3, "of": ["MATH 215", "MATH 303", "MATH 307", "MATH 340"]},
+    ),
+    # GEOB is GEOS's old code; cross-listed courses are a choice.
+    ("ATSC 301, GEOS (or GEOB) 300", {"all_of": ["ATSC 301", "GEOS 300"]}),
+    ("MATH/STAT 302", {"one_of": ["MATH 302", "STAT 302"]}),
+    ("PHYS 100-level", {"credits_of": {"subjects": ["PHYS"], "min_level": 100, "max_level": 199}}),
+    (
+        "EOSC courses numbered 420-439",
+        {"credits_of": {"subjects": ["EOSC"], "min_level": 420, "max_level": 439}},
+    ),
+    (
+        "EOSC / ATSC / ENVR 300-level or higher",
+        {"credits_of": {"subjects": ["EOSC", "ATSC", "ENVR"], "min_level": 300}},
+    ),
+    (
+        "MATH, STAT, CPSC, or AI courses numbered 300 or higher",
+        {"credits_of": {"subjects": ["MATH", "STAT", "CPSC", "AI"], "min_level": 300}},
+    ),
+    (
+        "One 200-level BIOL OR CHEM",
+        {"credits_of": {"subjects": ["BIOL", "CHEM"], "min_level": 200, "max_level": 299}},
+    ),
+    (
+        "Any Upper level MATH, STAT, CPSC or DSCI",
+        {"credits_of": {"subjects": ["MATH", "STAT", "CPSC", "DSCI"], "min_level": 300}},
+    ),
+    (
+        "15 credits from MATH 400-406, 412",
+        {"credits_from": ["MATH 400-406", "MATH 412"]},
+    ),
+    ("3 credits from PHYS 348, 409, and 420", {"credits_from": ["PHYS 348", "PHYS 409", "PHYS 420"]}),
+    (
+        "Thematic concentration courses numbered 300 or above",
+        {"other": "Thematic concentration courses numbered 300 or above"},
+    ),
 ])
 def test_rules(text, tree):
     assert parse_requirement_with_rules(text) == tree
@@ -69,6 +131,8 @@ def test_rules(text, tree):
     "6 credits of MATH beyond MATH 200",
     "CPSC 210 and either STAT 200 or STAT 251",
     "100 or 102",
+    "Two of BIOL 415, 417, 434 or two of BIOL 417, 418, 434",
+    "EOSC 212 (or EOSC 111 and one of EOSC 110, 112, 114, 116, 118)",
 ])
 def test_rules_refuse_what_they_dont_know(text):
     assert parse_requirement_with_rules(text) is None

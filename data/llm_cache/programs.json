@@ -1,0 +1,142 @@
+{
+  "Another MICB course or a selection from BIOC 402, 410, 421, BIOL 328, 421, CHBE 381, MEDG 421, EOSC 475": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "other": "Another MICB course or a selection from BIOC 402, 410, 421, BIOL 328, 421, CHBE 381, MEDG 421, EOSC 475"
+    }
+  },
+  "Another MICB selection or a selection from BIOC 402, 410, 421, BIOL 328, 421, CHBE 381, MEDG 421, EOSC 475": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "other": "Another MICB selection or a selection from BIOC 402, 410, 421, BIOL 328, 421, CHBE 381, MEDG 421, EOSC 475"
+    }
+  },
+  "EOSC 212 (or EOSC 111 and one of EOSC 110, 112, 114, 116, 118)": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "one_of": [
+        "EOSC 212",
+        {
+          "all_of": [
+            "EOSC 111",
+            {
+              "one_of": [
+                "EOSC 110",
+                "EOSC 112",
+                "EOSC 114",
+                "EOSC 116",
+                "EOSC 118"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "EOSC 212 or (EOSC 111 and one of EOSC 110, 112, 114, 116, 118)": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "one_of": [
+        "EOSC 212",
+        {
+          "all_of": [
+            "EOSC 111",
+            {
+              "one_of": [
+                "EOSC 110",
+                "EOSC 112",
+                "EOSC 114",
+                "EOSC 116",
+                "EOSC 118"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "Four of EOSC 353, 429, 440, 450, 454, ATSC 404 or (three of EOSC 353, 429, 440, 450, 454, ATSC 404 and one of EOSC 329, 350, PHYS 301, MATH 345)": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "one_of": [
+        {
+          "of": [
+            "EOSC 353",
+            "EOSC 429",
+            "EOSC 440",
+            "EOSC 450",
+            "EOSC 454",
+            "ATSC 404"
+          ],
+          "pick": 4
+        },
+        {
+          "all_of": [
+            {
+              "of": [
+                "EOSC 353",
+                "EOSC 429",
+                "EOSC 440",
+                "EOSC 450",
+                "EOSC 454",
+                "ATSC 404"
+              ],
+              "pick": 3
+            },
+            {
+              "one_of": [
+                "EOSC 329",
+                "EOSC 350",
+                "PHYS 301",
+                "MATH 345"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "In fourth year: STAT 404, 460 and 461 and 6 credits chosen from MATH 418, 419, 420, 421 and statistics courses numbered 400 or above": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "all_of": [
+        "STAT 404",
+        "STAT 460",
+        "STAT 461",
+        {
+          "other": "6 credits chosen from MATH 418, 419, 420, 421 and statistics courses numbered 400 or above"
+        }
+      ]
+    }
+  },
+  "Two of BIOL 415, 417, 434 or two of BIOL 417, 418, 434": {
+    "model": "gemini-3.8-flash",
+    "problems": [],
+    "tree": {
+      "one_of": [
+        {
+          "of": [
+            "BIOL 415",
+            "BIOL 417",
+            "BIOL 434"
+          ],
+          "pick": 2
+        },
+        {
+          "of": [
+            "BIOL 417",
+            "BIOL 418",
+            "BIOL 434"
+          ],
+          "pick": 2
+        }
+      ]
+    }
+  }
+}

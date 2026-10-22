@@ -1,8 +1,11 @@
+import copy
 from pathlib import Path
 
 import pytest
 from bs4 import BeautifulSoup
 
+from build_programs import CACHE_PATH, add_trees, expand_ranges, known_courses
+from llm import load_cache
 from program_tables import read_table
 from science_programs import PAGES, merge_years, parse_science, year_numbers, year_title
 
@@ -95,3 +98,44 @@ def test_headings_and_sources(programs):
     assert dsci["heading"] == "Major: Data Science (DSCI)"
     assert dsci["sources"] == [PAGES["data-science"]]
     assert programs["eosc-geophysics-honours"]["heading"] == "Honours (0380): Geophysics (GEOP)"
+
+
+def no_ask(text):
+    raise AssertionError(f"Gemini shouldn't be asked about {text!r}")
+
+
+def no_save(cache, path):
+    raise AssertionError("nothing new to save")
+
+
+@pytest.fixture(scope="module")
+def built(programs):
+    # Every row read from the rules or the committed Gemini answers, as build_programs.py does.
+    built = add_trees(copy.deepcopy(list(programs.values())), load_cache(CACHE_PATH), no_ask, no_save)
+    return {p["id"]: p for p in expand_ranges(built, known_courses())}
+
+
+def tree_of(program, text):
+    return next(r["tree"] for y in program["years"] for r in y["requirements"] if r["text"] == text)
+
+
+def test_every_row_has_a_tree_with_no_problems(built):
+    rows = [r for p in built.values() for y in p["years"] for r in y["requirements"]]
+    assert len(rows) == 757
+    assert all(r["problems"] == [] for r in rows)
+    assert len({r["text"] for r in rows if r["source"] == "llm"}) == 7
+
+
+def test_ranges_become_courses(built):
+    tree = tree_of(built["math-honours"], "15 credits from MATH 400-406, 412, 418-428, 433-440, 443, 449, 450")
+    assert tree["credits_from"][:8] == [
+        "MATH 400", "MATH 401", "MATH 402", "MATH 403", "MATH 404", "MATH 405", "MATH 406", "MATH 412"]
+    assert "MATH 407" not in tree["credits_from"]
+
+
+def test_expand_ranges_keeps_only_real_courses():
+    program = {"years": [{"requirements": [{"tree": {"credits_from": ["MATH 300", "MATH 400-402"]}}]}]}
+    expand_ranges([program], {"MATH 300", "MATH 400", "MATH 402", "MATH 500"})
+    assert program["years"][0]["requirements"][0]["tree"] == {"credits_from": ["MATH 300", "MATH 400", "MATH 402"]}
+    with pytest.raises(ValueError):
+        expand_ranges([program | {"years": [{"requirements": [{"tree": {"credits_from": ["XYZ 100-199"]}}]}]}], set())

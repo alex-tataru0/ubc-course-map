@@ -1,3 +1,5 @@
+import json
+import re
 from functools import partial
 from pathlib import Path
 
@@ -7,13 +9,14 @@ from build_prereqs import ask_slowly
 from grades import fetch_text, to_json
 from llm import ask_gemini, load_cache, save_cache
 from engineering_programs import BASE, PAGES, parse_engineering
-from science_programs import PAGES as SCIENCE_PAGES
+from science_programs import BASE as SCIENCE_BASE, PAGES as SCIENCE_PAGES, parse_science
 from parse_programs import parse_programs
 from program_rules import INSTRUCTIONS, parse_requirement
 
 # Reads the requirement tables of the programs on the site, turns every row into a
-# requirement tree, and writes data/programs/cpsc.json (the Computer Science programs) and
-# data/programs/engineering.json (the 14 Vancouver engineering majors). Run from the repo root:
+# requirement tree, and writes data/programs/cpsc.json (the Computer Science programs),
+# data/programs/engineering.json (the 14 Vancouver engineering majors) and
+# data/programs/science.json (the other Science Majors and Honours). Run from the repo root:
 #   python pipeline/build_programs.py
 # Each calendar page is downloaded once and saved in data/raw/programs/. Delete a file to
 # download it again (e.g. when a new calendar year comes out).
@@ -27,6 +30,8 @@ SOURCE_URL = (
 HTML_PATH = RAW_DIR / "computer-science.html"
 OUTPUT_PATH = ROOT / "data" / "programs" / "cpsc.json"
 ENGINEERING_PATH = ROOT / "data" / "programs" / "engineering.json"
+SCIENCE_PATH = ROOT / "data" / "programs" / "science.json"
+COURSES_DIR = ROOT / "data" / "courses"
 
 # Gemini's answers for rows the rules can't read, saved and committed like the prereq ones.
 CACHE_PATH = ROOT / "data" / "llm_cache" / "programs.json"
@@ -66,6 +71,41 @@ def electives_to_check(programs: list[dict]) -> list[dict]:
             for row in year["requirements"]:
                 if row["tree"] == {"electives": True}:
                     row["tree"] = {"other": row["text"]}
+    return programs
+
+
+def known_courses(courses_dir: Path = COURSES_DIR) -> set[str]:
+    # Every course code on the site, from data/courses/*.json.
+    return {course["code"] for path in courses_dir.glob("*.json")
+            for course in json.loads(path.read_text(encoding="utf-8"))["courses"]}
+
+
+def expand_ranges(programs: list[dict], known: set[str]) -> list[dict]:
+    # "MATH 400-406" in a credits_from list → the MATH courses numbered 400 to 406 that exist
+    # (MATH 400, 401, 402, …), so the website can treat every item as a course.
+    def expand(item: str) -> list[str]:
+        match = re.fullmatch(r"([A-Z]{2,4}) (\d{3})-(\d{3})", item)
+        if not match:
+            return [item]
+        subject, low, high = match[1], int(match[2]), int(match[3])
+        codes = sorted(c for c in known if c.split()[0] == subject and low <= int(c.split()[1][:3]) <= high)
+        if not codes:
+            raise ValueError(f"No courses for {item!r}: is {subject} on the site?")
+        return codes
+
+    def walk(node):
+        if isinstance(node, dict):
+            if "credits_from" in node:
+                node["credits_from"] = list(dict.fromkeys(c for item in node["credits_from"] for c in expand(item)))
+            for value in node.values():
+                if isinstance(value, list):
+                    for child in value:
+                        walk(child)
+
+    for program in programs:
+        for year in program["years"]:
+            for row in year["requirements"]:
+                walk(row["tree"])
     return programs
 
 
@@ -124,3 +164,8 @@ if __name__ == "__main__":
     write_programs(engineering, ENGINEERING_PATH, BASE.rstrip("/"))
     print_summary(engineering)
     print("Wrote", ENGINEERING_PATH.relative_to(ROOT))
+
+    science = expand_ranges(add_trees(parse_science(load_science_pages()), cache), known_courses())
+    write_programs(science, SCIENCE_PATH, SCIENCE_BASE.rstrip("/"))
+    print_summary(science)
+    print("Wrote", SCIENCE_PATH.relative_to(ROOT))
