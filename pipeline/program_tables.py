@@ -11,7 +11,14 @@ from parse_programs import clean, is_footnote, read_cell
 #
 # A table holds one or more blocks, each starting with a title row with no credits ("First
 # Year", "For Electrical Engineering"), then one row per requirement with its credits, and a
-# "Total Credits" row. Numbered footnotes come at the bottom of the table.
+# "Total Credits" row. Numbered footnotes come at the bottom of the table. Science tables can
+# also end with "Total Credits for Degree", and give one total for several blocks ("Total
+# Credits in Third and Fourth Years", put on the last of them).
+
+# "Total Credits", "Total Credits for Degree", "Minimum Credits for Degree", "Total Credits in
+# Third and Fourth Years", "Total credits for the degree". Group 1 is what the total is for,
+# if the row says.
+TOTAL = re.compile(r"(?:Total|Minimum) Credits(?: (?:for|in) (?:the )?(.+))?", re.IGNORECASE)
 
 
 def read_credits(text: str) -> tuple[int | None, str | None]:
@@ -29,7 +36,12 @@ def read_credits(text: str) -> tuple[int | None, str | None]:
 
 
 def read_blocks(table) -> list[dict]:
-    blocks, footnotes = [], {}
+    return read_table(table)["blocks"]
+
+
+def read_table(table) -> dict:
+    # The table's blocks, and the degree's total credits if the table gives it (else None).
+    blocks, footnotes, degree_credits = [], {}, None
     for tr in table.find_all("tr"):
         # Title rows are <th> on some pages and <td> on others.
         cells = tr.find_all(["td", "th"])
@@ -44,8 +56,13 @@ def read_blocks(table) -> list[dict]:
         if not text:
             continue  # the empty row between third and fourth year
         credits, credits_text = read_credits(cells[1].get_text() if len(cells) > 1 else "")
-        if text == "Total Credits":
+        total = TOTAL.fullmatch(text)
+        if total and (total[1] or "").lower() == "degree":
+            degree_credits = credits
+        elif total:
             blocks[-1]["credits"] = credits
+            if total[1]:
+                blocks[-1]["total_for"] = total[1]  # e.g. "Third and Fourth Years"
             if credits_text:
                 blocks[-1]["credits_text"] = credits_text
         elif credits is None:
@@ -64,7 +81,7 @@ def read_blocks(table) -> list[dict]:
     for block in blocks:
         for row in block["requirements"]:
             row["notes"] = [footnotes[n] for n in row["notes"] if n in footnotes]
-    return blocks
+    return {"blocks": blocks, "degree_credits": degree_credits}
 
 
 def is_requirement_table(table) -> bool:
@@ -75,10 +92,11 @@ def is_requirement_table(table) -> bool:
                for tr in table.find_all("tr"))
 
 
-def read_tables(html: str) -> list[dict]:
+def read_tables(html: str, headings: set[str] | None = None) -> list[dict]:
     # Every table on the page, in order, with the heading above it ("Computer Engineering",
     # "Aerospace Option") and the "For students who started third year in 2026W or later:"
-    # line just before it, if there is one.
+    # line just before it, if there is one. With `headings`, only the tables under those
+    # headings are read (some pages have other tables, like a list of subjects).
     soup = BeautifulSoup(html, "html.parser")
     main = soup.find("main") or soup
     heading, version, tables = None, None, []
@@ -91,6 +109,6 @@ def read_tables(html: str) -> list[dict]:
             text = clean(element.get_text(" "))
             if text.startswith("For students who"):
                 version = text.rstrip(":")
-        elif is_requirement_table(element):
-            tables.append({"heading": heading, "version": version, "blocks": read_blocks(element)})
+        elif (headings is None or heading in headings) and is_requirement_table(element):
+            tables.append({"heading": heading, "version": version, **read_table(element)})
     return tables

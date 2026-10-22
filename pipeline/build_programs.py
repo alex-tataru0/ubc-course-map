@@ -7,6 +7,7 @@ from build_prereqs import ask_slowly
 from grades import fetch_text, to_json
 from llm import ask_gemini, load_cache, save_cache
 from engineering_programs import BASE, PAGES, parse_engineering
+from science_programs import PAGES as SCIENCE_PAGES
 from parse_programs import parse_programs
 from program_rules import INSTRUCTIONS, parse_requirement
 
@@ -42,10 +43,19 @@ def load_page(path: Path = HTML_PATH, fetch=fetch_text, url: str = SOURCE_URL) -
     return path.read_text(encoding="utf-8")
 
 
-def load_engineering_pages() -> dict[str, str]:
-    # Each engineering page, saved as e.g. data/raw/programs/mechanical-engineering.html.
+def load_pages(pages: dict[str, str]) -> dict[str, str]:
+    # Each page, saved as e.g. data/raw/programs/mechanical-engineering.html.
     return {name: load_page(RAW_DIR / f"{url.rsplit('/', 1)[1]}.html", url=url)
-            for name, url in PAGES.items()}
+            for name, url in pages.items()}
+
+
+def load_engineering_pages() -> dict[str, str]:
+    return load_pages(PAGES)
+
+
+def load_science_pages() -> dict[str, str]:
+    # The other Science subjects' pages (data/raw/programs/mathematics.html, …).
+    return load_pages(SCIENCE_PAGES)
 
 
 def electives_to_check(programs: list[dict]) -> list[dict]:
