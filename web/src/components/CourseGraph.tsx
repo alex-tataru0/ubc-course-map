@@ -25,10 +25,10 @@ import { groupBySubject, outsideCourses } from "@/lib/outside";
 import { planPath } from "@/lib/path";
 import {
   creditsLookup,
+  mapPrograms,
   programCodes,
   programCourses,
   programProgress,
-  programSubjects,
   programSummary,
   shortName,
 } from "@/lib/program";
@@ -276,14 +276,15 @@ export default function CourseGraph({
   );
   const showProgress = done.size > 0;
 
+  // The picked program (saved in the browser). The saved program can be from another faculty's
+  // page. An old, unknown id is none.
+  const { programId, pickProgram } = useProgramChoice();
+  const program = [...programs, ...otherPrograms].find((p) => p.id === programId) ?? null;
+
   // Courses that the prerequisites on this map mention but that aren't on it, which can be
-  // ticked without switching maps (MATH 221 on the CPSC map). A program's own maps (CPSC for the
-  // CS programs, CPSC and MATH for Combined Honours in Computer Science and Mathematics, ELEC
-  // for Electrical Engineering) also list the other courses it needs (MATH 100, SCIE 113, …).
-  const subjectPrograms = useMemo(
-    () => programs.filter((p) => programSubjects(p).includes(subject)),
-    [programs, subject],
-  );
+  // ticked without switching maps (MATH 221 on the CPSC map), plus the other courses the map's
+  // programs need (see mapPrograms).
+  const subjectPrograms = useMemo(() => mapPrograms(programs, subject, program), [programs, subject, program]);
   const outside = useMemo(
     () =>
       outsideCourses(
@@ -344,12 +345,8 @@ export default function CourseGraph({
     return terms;
   }, [pathOnMap, path]);
 
-  // The picked program (saved in the browser) and its panel, which opens in the same place
-  // as the course details. The course details cover it while they're open, with a link
-  // back to it.
-  const { programId, pickProgram } = useProgramChoice();
-  // The saved program can be from another faculty's page. An old, unknown id is none.
-  const program = [...programs, ...otherPrograms].find((p) => p.id === programId) ?? null;
+  // The picked program's panel opens in the same place as the course details. The course
+  // details cover it while they're open, with a link back to it.
   const [programOpen, setProgramOpen] = useState(false);
   const creditsFor = useMemo(() => creditsLookup(details), [details]);
   const programRows = useMemo(

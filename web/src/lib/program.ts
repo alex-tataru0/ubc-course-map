@@ -296,14 +296,19 @@ export function programMajors(programs: Program[]): Major[] {
   return majors.sort((a, b) => place(a.subject) - place(b.subject));
 }
 
+// The programs whose courses a subject's map lists among its "Courses not on the map": the
+// subject's own (MATH 100, SCIE 113, … on the CPSC map, for the CS programs; MATH 100 on the
+// ELEC map for Electrical Engineering), and the picked program if it's a combined one with this
+// subject (CS and Biology lists its BIOL courses on the CPSC map, and its CPSC courses on the
+// BIOL map). Combined programs aren't listed until picked: the twelve with CS would add about
+// 140 courses to the CPSC map.
+export function mapPrograms(programs: Program[], subject: string, picked: Program | null): Program[] {
+  const own = programs.filter((p) => !p.subjects && programSubject(p) === subject);
+  return picked?.subjects?.includes(subject) ? [...own, picked] : own;
+}
+
 // The subject whose map lists the courses a program needs from elsewhere: "cpsc-major" → CPSC,
 // "mech" → MECH.
 export function programSubject(program: Program): string {
   return program.id.split("-")[0].toUpperCase();
-}
-
-// Every subject a program belongs to: its own, or both of a combined program's ("cpsc-math-
-// honours" → CPSC and MATH).
-export function programSubjects(program: Program): string[] {
-  return program.subjects ?? [programSubject(program)];
 }

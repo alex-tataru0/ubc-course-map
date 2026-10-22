@@ -4,10 +4,10 @@ import {
   creditsLookup,
   programCodes,
   programCourses,
+  mapPrograms,
   programMajors,
   programProgress,
   programSubject,
-  programSubjects,
   programSummary,
   shortName,
 } from "./program";
@@ -156,12 +156,17 @@ describe("programMajors", () => {
   });
 });
 
-describe("programSubjects", () => {
-  it("is the subject at the start of the id, or a combined program's subjects", () => {
-    expect(programSubjects(program("math-major"))).toEqual(["MATH"]);
-    expect(programSubjects(program("cpsc-math-honours"))).toEqual(["CPSC", "MATH"]);
-    // Biochemistry isn't on the site.
-    expect(programSubjects(program("chem-bioc-major"))).toEqual(["CHEM"]);
+describe("mapPrograms", () => {
+  const all = [...science.programs, ...programs.programs];
+  it("lists a subject's own programs, and a combined one only once it's picked", () => {
+    const ids = (picked: Program | null, subject = "CPSC") => mapPrograms(all, subject, picked).map((p) => p.id);
+    expect(ids(null)).toEqual([
+      "cpsc-major", "cpsc-honours", "cpsc-ai-major", "cpsc-ai-honours", "cpsc-se-major", "cpsc-se-honours",
+    ]);
+    expect(ids(program("cpsc-biol-major"))).toContain("cpsc-biol-major");
+    expect(ids(program("cpsc-biol-major"), "BIOL")).toContain("cpsc-biol-major");
+    expect(ids(program("cpsc-biol-major"), "MATH")).not.toContain("cpsc-biol-major");
+    expect(ids(program("math-major"))).not.toContain("math-major"); // not a combined program
   });
 });
 
