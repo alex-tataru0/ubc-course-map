@@ -28,7 +28,7 @@ import {
   programCodes,
   programCourses,
   programProgress,
-  programSubject,
+  programSubjects,
   programSummary,
   shortName,
 } from "@/lib/program";
@@ -277,11 +277,11 @@ export default function CourseGraph({
   const showProgress = done.size > 0;
 
   // Courses that the prerequisites on this map mention but that aren't on it, which can be
-  // ticked without switching maps (MATH 221 on the CPSC map). A program's own map (CPSC for the
-  // CS programs, ELEC for Electrical Engineering) also lists
-  // the other courses they need (MATH 100, SCIE 113, …).
+  // ticked without switching maps (MATH 221 on the CPSC map). A program's own maps (CPSC for the
+  // CS programs, CPSC and MATH for Combined Honours in Computer Science and Mathematics, ELEC
+  // for Electrical Engineering) also list the other courses it needs (MATH 100, SCIE 113, …).
   const subjectPrograms = useMemo(
-    () => programs.filter((p) => programSubject(p) === subject),
+    () => programs.filter((p) => programSubjects(p).includes(subject)),
     [programs, subject],
   );
   const outside = useMemo(
@@ -729,6 +729,7 @@ export default function CourseGraph({
       )}
       {showProgram && (
         <ProgramPanel
+          subject={subject}
           programs={programs}
           program={program}
           progress={programRows}

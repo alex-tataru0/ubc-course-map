@@ -1,6 +1,6 @@
 import { useEffect, useId, useRef, useState } from "react";
 import { programMajors, programSummary, treeCourses } from "@/lib/program";
-import type { CreditsFor, RowProgress, RowStatus } from "@/lib/program";
+import type { CreditsFor, Major, RowProgress, RowStatus } from "@/lib/program";
 import { facultyOf } from "@/lib/subjects";
 import type { Elsewhere } from "@/lib/subjects";
 import type { Program, ProgramRequirement } from "@/lib/types";
@@ -19,6 +19,7 @@ interface CodeLinks {
 }
 
 interface ProgramPanelProps extends CodeLinks {
+  subject: string; // the map's subject: its programs start open in the list
   programs: Program[];
   program: Program | null; // null until one is picked
   progress: RowProgress[][] | null; // progress through each requirement row of `program`
@@ -35,6 +36,7 @@ interface ProgramPanelProps extends CodeLinks {
 // requirements by year, with how far along you are. It sits where the course details go:
 // beside the graph on wide screens, covering it on phones.
 export default function ProgramPanel({
+  subject,
   programs,
   program,
   progress,
@@ -102,6 +104,7 @@ export default function ProgramPanel({
 
       {picking ? (
         <Choices
+          subject={subject}
           programs={programs}
           current={program}
           note={note}
@@ -158,10 +161,12 @@ function CalendarLinks({ urls }: { urls: string[] }) {
   );
 }
 
-// The programs, each a button with its own name. On the Science page they're listed by major:
-// a major with several paths (Computer Science) is one button that opens to list them, and a
-// major with one path is a button for that program. Engineering lists every program on its own.
+// The programs, each a button with its own name. On the Science page they're listed by subject
+// (see programMajors): a subject with several programs is one button that opens to list them,
+// and a subject with one program is a button for that program. Engineering lists every program
+// on its own.
 function Choices({
+  subject,
   programs,
   current,
   note,
@@ -169,6 +174,7 @@ function Choices({
   onPick,
   onKeep,
 }: {
+  subject: string;
   programs: Program[];
   current: Program | null;
   note: string;
@@ -178,15 +184,25 @@ function Choices({
 }) {
   return (
     <div className="mt-4 space-y-2">
-      {programMajors(programs).map((major) =>
-        major.programs.length === 1 || !byMajor ? (
-          major.programs.map((program) => (
+      {byMajor
+        ? programMajors(programs).map((major) =>
+            major.programs.length + major.combined.length === 1 ? (
+              [...major.programs, ...major.combined].map((program) => (
+                <ProgramChoice key={program.id} program={program} on={program.id === current?.id} onPick={onPick} />
+              ))
+            ) : (
+              <MajorChoices
+                key={major.subject}
+                major={major}
+                startOpen={major.subject === subject}
+                current={current}
+                onPick={onPick}
+              />
+            ),
+          )
+        : programs.map((program) => (
             <ProgramChoice key={program.id} program={program} on={program.id === current?.id} onPick={onPick} />
-          ))
-        ) : (
-          <MajorChoices key={major.subject} subject={major.subject} programs={major.programs} current={current} onPick={onPick} />
-        ),
-      )}
+          ))}
       {current && (
         <p className="flex flex-wrap gap-x-4 gap-y-1">
           <button type="button" onClick={onKeep} className="underline underline-offset-2 hover:text-ink-muted">
@@ -235,20 +251,22 @@ function ProgramChoice({
   );
 }
 
-// A major with several paths, e.g. Computer Science: a button with the major's name that opens
-// to list its programs. It starts open if the picked program is one of them.
+// A subject with several programs, e.g. Computer Science: a button with the subject's name
+// that opens to list its own programs, then the combined ones it's part of. It starts open on
+// its own map, and when the picked program is one of them.
 function MajorChoices({
-  subject,
-  programs,
+  major,
+  startOpen,
   current,
   onPick,
 }: {
-  subject: string;
-  programs: Program[];
+  major: Major;
+  startOpen: boolean;
   current: Program | null;
   onPick: (id: string | null) => void;
 }) {
-  const [open, setOpen] = useState(programs.some((p) => p.id === current?.id));
+  const { subject, programs, combined } = major;
+  const [open, setOpen] = useState(startOpen || [...programs, ...combined].some((p) => p.id === current?.id));
   const listId = useId();
   const name = facultyOf(subject)?.subjects.find((s) => s.code === subject)?.name ?? subject;
   return (
@@ -262,7 +280,7 @@ function MajorChoices({
       >
         <span>
           <span className="block font-semibold">{name}</span>
-          <span className="block text-xs text-ink-muted">{programs.length} programs</span>
+          <span className="block text-xs text-ink-muted">{programs.length + combined.length} programs</span>
         </span>
         <svg
           width="12"
@@ -277,6 +295,14 @@ function MajorChoices({
       {open && (
         <ul id={listId} className="space-y-1.5 border-t border-line p-1.5">
           {programs.map((program) => (
+            <li key={program.id}>
+              <ProgramChoice program={program} on={program.id === current?.id} onPick={onPick} />
+            </li>
+          ))}
+          {combined.length > 0 && (
+            <li className="px-1.5 pt-1.5 text-xs font-semibold text-ink-muted">Combined with another subject</li>
+          )}
+          {combined.map((program) => (
             <li key={program.id}>
               <ProgramChoice program={program} on={program.id === current?.id} onPick={onPick} />
             </li>
@@ -417,21 +443,23 @@ function Row({
   const [noteOpen, setNoteOpen] = useState(false);
   const noteId = useId();
   const { tree, notes } = requirement;
-  const isCredits = typeof tree === "object" && "credits_of" in tree;
-  const options = treeCourses(tree);
+  // Credit rows show credits so far ("3 of 9 cr"). "CPSC or AI courses numbered 300 or higher"
+  // has no list of courses; "9 credits from MATH 300, 301, …" does.
+  const isCredits = typeof tree === "object" && ("credits_of" in tree || "credits_from" in tree);
+  const options = [...new Set(treeCourses(tree))];
 
   const meta: string[] = [];
   // Which courses filled it, when there was a choice ("CPSC 213, 221" needs no reminder).
-  const hadChoice = typeof tree === "object" && !("all_of" in tree);
+  const hadChoice = isCredits || counted.length < options.length;
   if (status === "done" && hadChoice && counted.length > 0) meta.push(`With ${counted.join(", ")}`);
   if (status === "check") meta.push("Check this yourself");
   if (status === "electives") meta.push("Any courses");
   // "Additional Communication Requirement" would only repeat itself.
   if (progress.check && progress.check !== requirement.text) meta.push(`Check: ${progress.check}`);
 
-  // Courses to show as chips: the choices until it's done, or for a credit row, the
-  // courses counted so far.
-  const chips = isCredits ? (status === "done" ? [] : counted) : status === "done" ? [] : options;
+  // Courses to show as chips: the choices until it's done, or for a credit row without a list,
+  // the courses counted so far.
+  const chips = status === "done" ? [] : options.length > 0 ? options : counted;
 
   return (
     <li className="py-2.5">

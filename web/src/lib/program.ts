@@ -1,3 +1,4 @@
+import { facultyOf } from "./subjects";
 import type { Course, Program, ProgramNode, ProgramRequirement } from "./types";
 
 // How far you are through each requirement of a program, from the courses you've marked done.
@@ -41,17 +42,20 @@ export function treeCourses(node: ProgramNode): string[] {
   if ("one_of" in node) return node.one_of.flatMap(treeCourses);
   if ("all_of" in node) return node.all_of.flatMap(treeCourses);
   if ("pick" in node) return node.of;
+  if ("credits_from" in node) return node.credits_from;
   return [];
 }
 
 // The order rows get to claim courses: rows that name exact courses first, then "one of"
 // rows (fewest choices first, so "One more of" a long list comes after "One of" a short one),
-// then "pick N", then credit rows (400-level before 300-level, so a 400-level course fills the
-// 400 row before it's used for the 300 row), then rows we don't track.
+// then "pick N", then credits from a list ("9 credits from MATH 300, 301, …"), then credit
+// rows by level (400-level before 300-level, so a 400-level course fills the 400 row before
+// it's used for the 300 row), then rows we don't track.
 function rank(node: ProgramNode): number {
   if (typeof node === "string" || "all_of" in node) return 0;
   if ("one_of" in node) return 1 + node.one_of.length / 1000;
   if ("pick" in node) return 2;
+  if ("credits_from" in node) return 2.5;
   if ("credits_of" in node) return 3 - node.credits_of.min_level / 10000;
   return 4;
 }
@@ -93,60 +97,107 @@ function rowProgress(
     return { status, counted: codes, credits, check };
   };
 
-  if (typeof tree === "string" || "all_of" in tree) {
-    const codes = treeCourses(tree);
-    const have = codes.filter(free);
-    return claim(have, have.length === codes.length ? "done" : have.length > 0 ? "partial" : "todo");
-  }
-
-  if ("one_of" in tree) {
-    // The first choice you've fully done wins. If none is, the choice you're furthest into
-    // (e.g. CPSC 103 of "CPSC 103 and 107") shows as partial.
-    const choices = tree.one_of.map(treeCourses);
-    const full = choices.find((codes) => codes.every(free));
-    if (full) return claim(full, "done");
-    const best = choices.map((codes) => codes.filter(free)).sort((a, b) => b.length - a.length)[0];
-    return claim(best ?? [], best && best.length > 0 ? "partial" : "todo");
-  }
-
-  if ("pick" in tree) {
-    // Higher-level courses first, which helps with conditions like "at least 6 credits of
-    // which must be 400 or above".
-    const chosen = tree.of
-      .filter(free)
-      .sort((a, b) => level(b) - level(a))
-      .slice(0, tree.pick);
-    if (chosen.length < tree.pick) {
-      return claim(chosen, chosen.length > 0 ? "partial" : "todo", tree.note ?? null);
-    }
-    const condition = tree.note?.match(/at least (\d+) credits of which must be (\d{3}) or above/);
-    if (condition) {
-      const [, needed, minimum] = condition.map(Number);
-      const high = chosen.filter((code) => level(code) >= minimum);
-      const ok = high.reduce((sum, code) => sum + creditsFor(code), 0) >= needed;
-      return claim(chosen, ok ? "done" : "partial", ok ? null : tree.note!);
-    }
-    // A condition we can't read: count the courses, and ask you to check it yourself.
-    return claim(chosen, "done", tree.note ?? null);
-  }
-
-  if ("credits_of" in tree) {
-    const { subjects, min_level } = tree.credits_of;
+  if (typeof tree === "object" && ("credits_of" in tree || "credits_from" in tree)) {
+    // The row's credits from any courses that fit: by subject and level, or from a list.
     const excluded = excludedCourses(requirement.notes);
-    const fits = (code: string) =>
-      free(code) && subjects.includes(subject(code)) && level(code) >= min_level && !excluded.has(code);
+    const fits =
+      "credits_of" in tree
+        ? (code: string) => {
+            const { subjects, min_level, max_level = 999 } = tree.credits_of;
+            return subjects.includes(subject(code)) && level(code) >= min_level && level(code) <= max_level;
+          }
+        : (code: string) => tree.credits_from.includes(code);
     const taken: string[] = [];
     let credits = 0;
-    for (const code of [...done].filter(fits).sort()) {
+    for (const code of [...done].filter((c) => free(c) && fits(c) && !excluded.has(c)).sort()) {
       if (credits >= requirement.credits) break;
       taken.push(code);
       credits += creditsFor(code);
     }
     return claim(taken, credits >= requirement.credits ? "done" : credits > 0 ? "partial" : "todo");
   }
+  if (typeof tree === "object" && "electives" in tree) {
+    return { status: "electives", counted: [], credits: 0, check: null };
+  }
+  if (typeof tree === "object" && "other" in tree) {
+    return { status: "check", counted: [], credits: 0, check: tree.other };
+  }
 
-  if ("electives" in tree) return { status: "electives", counted: [], credits: 0, check: null };
-  return { status: "check", counted: [], credits: 0, check: tree.other };
+  // Courses, lists, choices and "pick N", which can sit inside each other ("EOSC 212, or
+  // EOSC 111 and one of EOSC 110, 112, …").
+  const { codes, done: complete, check } = match(tree, free, new Set(), creditsFor);
+  return claim(codes, complete ? "done" : codes.length > 0 ? "partial" : "todo", check);
+}
+
+// How far the free courses go toward one node of a tree: the courses it would use, whether
+// that's enough, and anything to check yourself. `taken` holds courses already used by other
+// parts of the same row.
+interface Match {
+  codes: string[];
+  done: boolean;
+  check: string | null;
+}
+
+function match(
+  node: ProgramNode,
+  free: (code: string) => boolean,
+  taken: ReadonlySet<string>,
+  creditsFor: CreditsFor,
+): Match {
+  const available = (code: string) => free(code) && !taken.has(code);
+  if (typeof node === "string") {
+    return available(node) ? { codes: [node], done: true, check: null } : { codes: [], done: false, check: null };
+  }
+
+  if ("all_of" in node) {
+    // Every part, each with the courses the parts before it didn't use.
+    const used = new Set(taken);
+    const parts = node.all_of.map((child) => {
+      const part = match(child, free, used, creditsFor);
+      part.codes.forEach((code) => used.add(code));
+      return part;
+    });
+    return {
+      codes: parts.flatMap((part) => part.codes),
+      done: parts.every((part) => part.done),
+      check: parts.find((part) => part.check)?.check ?? null,
+    };
+  }
+
+  if ("one_of" in node) {
+    // The first choice you've fully done wins. If none is, the choice you're furthest into
+    // (e.g. CPSC 103 of "CPSC 103 and 107") shows as partial.
+    const choices = node.one_of.map((child) => match(child, free, taken, creditsFor));
+    const full = choices.find((choice) => choice.done);
+    if (full) return full;
+    const best = [...choices].sort((a, b) => b.codes.length - a.codes.length)[0];
+    return { codes: best?.codes ?? [], done: false, check: best?.codes.length ? best.check : null };
+  }
+
+  if ("pick" in node) {
+    // Higher-level courses first, which helps with conditions like "at least 6 credits of
+    // which must be 400 or above".
+    const chosen = node.of
+      .filter(available)
+      .sort((a, b) => level(b) - level(a))
+      .slice(0, node.pick);
+    if (chosen.length < node.pick) return { codes: chosen, done: false, check: node.note ?? null };
+    const condition = node.note?.match(/at least (\d+) credits of which must be (\d{3}) or above/);
+    if (condition) {
+      const [, needed, minimum] = condition.map(Number);
+      const high = chosen.filter((code) => level(code) >= minimum);
+      const ok = high.reduce((sum, code) => sum + creditsFor(code), 0) >= needed;
+      return { codes: chosen, done: ok, check: ok ? null : node.note! };
+    }
+    // A condition we can't read: count the courses, and ask you to check it yourself.
+    return { codes: chosen, done: true, check: node.note ?? null };
+  }
+
+  // Inside a list, words we can't track ("6 credits chosen from …") are for you to check: the
+  // list counts as done once its courses are.
+  if ("other" in node) return { codes: [], done: true, check: node.other };
+  // Credit rows and electives only come as a whole row.
+  return { codes: [], done: false, check: null };
 }
 
 // Courses a footnote rules out, e.g. "Credits gained from … Seminars (CPSC 490) cannot be used
@@ -174,13 +225,21 @@ export function programCourses(program: Program): Map<string, ProgramKind> {
   const kinds = new Map<string, ProgramKind>();
   for (const year of program.years) {
     for (const { tree } of year.requirements) {
-      const required = typeof tree === "string" || "all_of" in tree;
+      const required = new Set(requiredCourses(tree));
       for (const code of treeCourses(tree)) {
-        if (required || !kinds.has(code)) kinds.set(code, required ? "required" : "choice");
+        if (required.has(code) || !kinds.has(code)) kinds.set(code, required.has(code) ? "required" : "choice");
       }
     }
   }
   return kinds;
+}
+
+// The courses a tree always needs: itself, or the plain courses of a list, but not the ones
+// inside a choice ("MATH 221 (or 223), 215" always needs MATH 215 only).
+function requiredCourses(node: ProgramNode): string[] {
+  if (typeof node === "string") return [node];
+  if ("all_of" in node) return node.all_of.flatMap(requiredCourses);
+  return [];
 }
 
 // A one-line summary: rows done out of rows we can track (not electives or "check" rows),
@@ -200,35 +259,51 @@ export function programSummary(
   };
 }
 
-// A name short enough for the button over the map, e.g. "CS and SE Honours".
+// A name short enough for the button over the map, e.g. "CS and SE Honours", "CS and
+// Mathematics, Combined Honours".
 export function shortName(program: Program): string {
   return program.name
+    .replace(/^(Combined (?:Major|Honours)) in (.+)$/, "$2, $1")
     .replace("Computer Science", "CS")
     .replace("Software Engineering", "SE")
     .replace("Artificial Intelligence", "AI");
 }
 
-// The programs as the picker shows them: one entry per major, in the calendar's order. A major
-// with several paths (Computer Science: Major, Honours, the AI option, Software Engineering)
-// opens to show them; one with a single path (Computer Engineering) is picked straight away.
+// The programs as the picker shows them on the Science page: one entry per subject, in the
+// subject menu's order. A subject with several programs (Computer Science: Major, Honours, the
+// AI option, …) opens to show them, its own first, then the combined programs it's part of;
+// one with a single program (Data Science) is picked straight away. A combined program shows
+// under each of its subjects.
 export interface Major {
   subject: string; // e.g. "CPSC"
-  programs: Program[];
+  programs: Program[]; // its own, in the calendar's order
+  combined: Program[]; // combined with another subject
 }
 
 export function programMajors(programs: Program[]): Major[] {
   const majors: Major[] = [];
+  const majorOf = (subject: string) => {
+    let major = majors.find((m) => m.subject === subject);
+    if (!major) majors.push((major = { subject, programs: [], combined: [] }));
+    return major;
+  };
   for (const program of programs) {
-    const subject = programSubject(program);
-    const major = majors.find((m) => m.subject === subject);
-    if (major) major.programs.push(program);
-    else majors.push({ subject, programs: [program] });
+    if (program.subjects) program.subjects.forEach((s) => majorOf(s).combined.push(program));
+    else majorOf(programSubject(program)).programs.push(program);
   }
-  return majors;
+  // A subject's place in its faculty's menu. sort keeps the others in the order they came.
+  const place = (s: string) => facultyOf(s)?.subjects.findIndex((x) => x.code === s) ?? 1e9;
+  return majors.sort((a, b) => place(a.subject) - place(b.subject));
 }
 
 // The subject whose map lists the courses a program needs from elsewhere: "cpsc-major" → CPSC,
 // "mech" → MECH.
 export function programSubject(program: Program): string {
   return program.id.split("-")[0].toUpperCase();
+}
+
+// Every subject a program belongs to: its own, or both of a combined program's ("cpsc-math-
+// honours" → CPSC and MATH).
+export function programSubjects(program: Program): string[] {
+  return program.subjects ?? [programSubject(program)];
 }

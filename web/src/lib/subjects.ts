@@ -29,8 +29,7 @@ export interface Faculty {
 }
 
 // Names as the UBC Calendar writes them, in A–Z order. Computer Science opens first because
-// it's the only subject with programs, and links to the site from before there was a menu
-// should still show it.
+// links to the site from before there was a menu should still show it.
 export const SCIENCE: Faculty = {
   slug: "science",
   name: "Faculty of Science",
@@ -38,11 +37,13 @@ export const SCIENCE: Faculty = {
   about: "Faculty of Science",
   openToAll: true,
   degree: "Bachelor of Science",
-  programFiles: ["cpsc"],
+  // The first file's calendar page (the Bachelor of Science section) is the one the picker links to.
+  programFiles: ["science", "cpsc"],
   programsByMajor: true,
   programsNote:
-    "The Bachelor of Science programs on the calendar's Computer Science page. Combined majors and " +
-    "honours (Computer Science with another subject) aren't here yet.",
+    "The Majors, Honours and Combined Majors and Honours with their own course lists in the " +
+    "calendar's Bachelor of Science section, for students starting now. Not here: Integrated " +
+    "Sciences, combined honours with \"another Science subject\", and dual degrees.",
   subjects: [
     { code: "ASTR", name: "Astronomy" },
     { code: "ATSC", name: "Atmospheric Science" },

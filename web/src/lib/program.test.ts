@@ -7,18 +7,20 @@ import {
   programMajors,
   programProgress,
   programSubject,
+  programSubjects,
   programSummary,
   shortName,
 } from "./program";
 import type { RowProgress } from "./program";
-import type { CourseFile, Program, ProgramFile } from "./types";
+import type { CourseFile, Program, ProgramFile, ProgramNode } from "./types";
 
 const read = (file: string) => JSON.parse(readFileSync(new URL(file, import.meta.url), "utf8"));
 const programs: ProgramFile = read("../../../data/programs/cpsc.json");
 const engineering: ProgramFile = read("../../../data/programs/engineering.json");
+const science: ProgramFile = read("../../../data/programs/science.json");
 const courses: CourseFile = read("../../../data/courses/cpsc.json");
 const creditsFor = creditsLookup(courses.courses);
-const program = (id: string) => programs.programs.find((p) => p.id === id)!;
+const program = (id: string) => [...programs.programs, ...science.programs].find((p) => p.id === id)!;
 
 // Progress for one row, found by its calendar wording.
 function row(p: Program, done: string[], text: string): RowProgress {
@@ -136,6 +138,93 @@ describe("programMajors", () => {
       "cpsc-major", "cpsc-honours", "cpsc-ai-major", "cpsc-ai-honours", "cpsc-se-major", "cpsc-se-honours",
     ]);
   });
+
+  it("lists the Science subjects in the menu's order, with combined programs under each subject", () => {
+    const majors = programMajors([...science.programs, ...programs.programs]);
+    expect(majors.map((m) => [m.subject, m.programs.length, m.combined.length])).toEqual([
+      ["ASTR", 1, 1], ["ATSC", 2, 1], ["BIOL", 9, 6], ["CHEM", 2, 8], ["CPSC", 6, 12], ["DSCI", 1, 0],
+      ["EOSC", 6, 5], ["ENVR", 2, 0], ["MATH", 3, 6], ["MICB", 2, 3], ["PHYS", 2, 7], ["STAT", 2, 4],
+    ]);
+    const math = majors.find((m) => m.subject === "MATH")!;
+    expect(math.programs.map((p) => p.name)).toEqual([
+      "Mathematics Major", "Mathematical Sciences Major", "Mathematics Honours",
+    ]);
+    // Computer Science and Mathematics shows under both subjects.
+    const cpsc = majors.find((m) => m.subject === "CPSC")!;
+    expect(cpsc.combined.map((p) => p.id)).toContain("cpsc-math-honours");
+    expect(math.combined.map((p) => p.id)).toContain("cpsc-math-honours");
+  });
+});
+
+describe("programSubjects", () => {
+  it("is the subject at the start of the id, or a combined program's subjects", () => {
+    expect(programSubjects(program("math-major"))).toEqual(["MATH"]);
+    expect(programSubjects(program("cpsc-math-honours"))).toEqual(["CPSC", "MATH"]);
+    // Biochemistry isn't on the site.
+    expect(programSubjects(program("chem-bioc-major"))).toEqual(["CHEM"]);
+  });
+});
+
+describe("Science programs", () => {
+  it("count credits from a list and from a level band", () => {
+    const honours = program("math-honours");
+    const fifteen = "15 credits from MATH 400-406";
+    expect(row(honours, ["MATH 400", "MATH 412"], fifteen)).toMatchObject({
+      status: "partial", counted: ["MATH 400", "MATH 412"], credits: 6,
+    });
+    expect(row(honours, ["MATH 407"], fifteen).status).toBe("todo"); // not in the list
+    const chem = program("chem-major"); // "PHYS 100-level", 6 credits
+    expect(row(chem, ["PHYS 131", "PHYS 118"], "PHYS 100-level")).toMatchObject({
+      status: "done", counted: ["PHYS 118", "PHYS 131"],
+    });
+    expect(row(chem, ["PHYS 200"], "PHYS 100-level").status).toBe("todo"); // 200-level is too high
+  });
+
+  it("reads choices inside choices", () => {
+    const geophysics = program("eosc-geophysics-honours");
+    const eosc212 = "EOSC 212 (or EOSC 111";
+    expect(row(geophysics, ["EOSC 212"], eosc212)).toMatchObject({ status: "done", counted: ["EOSC 212"] });
+    expect(row(geophysics, ["EOSC 111"], eosc212)).toMatchObject({ status: "partial", counted: ["EOSC 111"] });
+    expect(row(geophysics, ["EOSC 111", "EOSC 116"], eosc212)).toMatchObject({
+      status: "done", counted: ["EOSC 111", "EOSC 116"],
+    });
+    // "Two of BIOL 415, 417, 434 or two of BIOL 417, 418, 434": 415 and 418 aren't a pair.
+    const evolution = program("biol-evolution-honours");
+    const two = "Two of BIOL 415, 417, 434 or";
+    expect(row(evolution, ["BIOL 415", "BIOL 418"], two).status).toBe("partial");
+    expect(row(evolution, ["BIOL 417", "BIOL 418"], two)).toMatchObject({ status: "done", counted: ["BIOL 418", "BIOL 417"] });
+  });
+
+  it("asks you to check the words in a list, and counts it done once its courses are", () => {
+    const stat = program("stat-honours");
+    const fourth = "In fourth year: STAT 404";
+    const check = "6 credits chosen from MATH 418, 419, 420, 421 and statistics courses numbered 400 or above";
+    expect(row(stat, ["STAT 404"], fourth)).toMatchObject({ status: "partial", check });
+    expect(row(stat, ["STAT 404", "STAT 460", "STAT 461"], fourth)).toMatchObject({ status: "done", check });
+  });
+
+  it("marks only the courses always needed as required", () => {
+    const kinds = programCourses(program("astr-major"));
+    expect(kinds.get("MATH 215")).toBe("required"); // "MATH 221 (or 223), 215"
+    expect(kinds.get("MATH 221")).toBe("choice");
+  });
+
+  it("keeps credit rows and electives at the top of a row, and words only inside lists", () => {
+    // programProgress only reads credit rows, electives and "other" as a whole row, so the
+    // pipeline must never put them inside a choice.
+    const inside = (node: ProgramNode, top: boolean): string[] => {
+      if (typeof node === "string") return [];
+      const kind = Object.keys(node)[0];
+      const children = "one_of" in node ? node.one_of : "all_of" in node ? node.all_of : [];
+      return [
+        ...(!top && ["credits_of", "credits_from", "electives"].includes(kind) ? [kind] : []),
+        ...("one_of" in node ? node.one_of.filter((c) => typeof c === "object" && "other" in c).map(() => "other in one_of") : []),
+        ...children.flatMap((c) => inside(c, false)),
+      ];
+    };
+    const trees = science.programs.flatMap((p) => p.years.flatMap((y) => y.requirements.map((r) => r.tree)));
+    expect(trees.flatMap((t) => inside(t, true))).toEqual([]);
+  });
 });
 
 describe("programSubject", () => {
@@ -160,5 +249,7 @@ describe("shortName", () => {
     ]);
     // The engineering majors keep their full names.
     expect(engineering.programs.map(shortName)).toEqual(engineering.programs.map((p) => p.name));
+    expect(shortName(program("cpsc-math-honours"))).toBe("CS and Mathematics, Combined Honours");
+    expect(shortName(program("math-major"))).toBe("Mathematics Major");
   });
 });

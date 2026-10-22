@@ -77,8 +77,13 @@ export default async function FacultyPage({ params }: Props) {
   // The page lists its own faculty's programs. The others come too (they're small), so a
   // program picked on another page still shows here: an engineering program's MATH courses
   // are marked on the MATH map.
+  // Each program links to its calendar page: its own (engineering, the Science subjects') or
+  // its file's (the CS programs all come from the Computer Science page).
   const programsOf = (f: Faculty) =>
-    f.programFiles.flatMap((name) => loadPrograms(name).programs.map((p): Program => ({ ...p, degree: f.degree })));
+    f.programFiles.flatMap((name) => {
+      const file = loadPrograms(name);
+      return file.programs.map((p): Program => ({ ...p, sources: p.sources ?? [file.source], degree: f.degree }));
+    });
   const programs = programsOf(faculty);
   const programUrl = loadPrograms(faculty.programFiles[0]).source;
 

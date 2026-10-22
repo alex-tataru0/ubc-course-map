@@ -71,7 +71,8 @@ export type ProgramNode =
   | { one_of: ProgramNode[] }
   | { all_of: ProgramNode[] }
   | { pick: number; of: string[]; note?: string } // that many different courses from the list
-  | { credits_of: { subjects: string[]; min_level: number } } // e.g. CPSC or AI 300 and up
+  | { credits_of: { subjects: string[]; min_level: number; max_level?: number } } // e.g. CPSC or AI 300 and up; EOSC 300-level is 300 to 399
+  | { credits_from: string[] } // the row's credits from any of these courses
   | { electives: true }
   | { other: string }; // e.g. "Additional Communication Requirement"
 
@@ -97,6 +98,7 @@ export interface Program {
   id: string; // e.g. "cpsc-major"
   name: string; // e.g. "Computer Science Major"
   heading?: string; // the calendar's heading, e.g. "Major (0376): Computer Science (CPSC)"
+  subjects?: string[]; // a combined program's subjects on the site, e.g. ["CPSC", "MATH"]
   sources?: string[]; // the calendar pages it comes from, when there are several (engineering)
   notes?: string[]; // about the whole program, e.g. which entry years its tables are for
   degree?: string; // added by the page, e.g. "Bachelor of Applied Science"
