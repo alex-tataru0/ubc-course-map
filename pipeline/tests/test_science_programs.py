@@ -45,6 +45,17 @@ def test_totals_for_the_degree_and_for_several_years():
     assert read["blocks"][1]["total_for"] == "Third and Fourth Years"
 
 
+def test_a_minimum_for_part_of_a_block_is_a_note():
+    read = read_table(table(
+        "<tr><td>Second Year</td><td></td></tr>"
+        "<tr><td>CPSC 210</td><td>4</td></tr>"
+        "<tr><td>Minimum Total Credits for Second Year</td><td>30</td></tr>"
+    ))
+    assert read["minimums"] == ["At least 30 credits in second year."]
+    assert read["blocks"] == [{"title": "Second Year", "credits": None,
+                               "requirements": [{"text": "CPSC 210", "credits": 4, "notes": []}]}]
+
+
 def test_blocks_without_totals_are_merged():
     def block(title, credits, *rows):
         return {"title": title, "credits": credits,
@@ -60,8 +71,10 @@ def test_blocks_without_totals_are_merged():
     assert [r["notes"] for r in years[1]["requirements"]] == [["In third year"], [], ["In fourth year"]]
 
 
-def test_the_32_programs(programs):
-    assert len(programs) == 32
+def test_the_61_programs(programs):
+    # 32 Majors and Honours, 29 Combined Majors and Honours.
+    assert len(programs) == 61
+    assert sum("subjects" in p for p in programs.values()) == 29
     for program in programs.values():
         assert program["total_credits"] == sum(y["credits"] for y in program["years"])
         assert program["total_credits"] in (120, 132)
@@ -69,7 +82,30 @@ def test_the_32_programs(programs):
             assert year["credits"] == sum(r["credits"] for r in year["requirements"]), (program["id"], year["title"])
     # Ids start with the subject whose map the program goes with.
     assert {id.split("-")[0] for id in programs} == {
-        "astr", "atsc", "biol", "chem", "dsci", "eosc", "envr", "math", "micb", "phys", "stat"}
+        "astr", "atsc", "biol", "chem", "cpsc", "dsci", "eosc", "envr", "math", "micb", "phys", "stat"}
+
+
+def test_combined_programs(programs):
+    cpsc_math = programs["cpsc-math-honours"]
+    assert cpsc_math["name"] == "Combined Honours in Computer Science and Mathematics"
+    assert cpsc_math["subjects"] == ["CPSC", "MATH"]
+    assert cpsc_math["sources"] == [PAGES["computer-science"]]
+    # Biochemistry isn't on the site, so this one goes with Chemistry only.
+    assert programs["chem-bioc-major"]["subjects"] == ["CHEM"]
+    # The calendar says 47 for these years, but the rows (and the degree's 120) say 46.
+    cpsc_chem = programs["cpsc-chem-major"]
+    assert [y["credits"] for y in cpsc_chem["years"]] == [31, 29, 14, 46]
+    assert cpsc_chem["notes"] == [
+        "The calendar gives 47 credits for third and fourth years, but their rows add up to 46."]
+    # Second to fourth years with only the degree's total, and a minimum for second year.
+    cpsc_micb = programs["cpsc-micb-major"]
+    assert [(y["title"], y["credits"]) for y in cpsc_micb["years"]] == [
+        ("First Year", 31), ("Second to Fourth Years", 89)]
+    assert cpsc_micb["notes"] == ["At least 30 credits in second year."]
+    # A bracket in the wrong place, fixed, with the calendar's wording in a note.
+    row = next(r for r in programs["cpsc-math-honours"]["years"][1]["requirements"] if r["text"].startswith("MATH 131"))
+    assert row["text"] == "MATH 131 (or one of 111, 221, 223), 215, 227 (or 317)"
+    assert row["notes"] == ['The calendar writes "MATH 131, 215, (or one of 111, 221, 223), 227 (or 317)".']
 
 
 def test_same_as_copies_the_biology_major(programs):
@@ -121,9 +157,9 @@ def tree_of(program, text):
 
 def test_every_row_has_a_tree_with_no_problems(built):
     rows = [r for p in built.values() for y in p["years"] for r in y["requirements"]]
-    assert len(rows) == 757
+    assert len(rows) == 1559
     assert all(r["problems"] == [] for r in rows)
-    assert len({r["text"] for r in rows if r["source"] == "llm"}) == 7
+    assert len({r["text"] for r in rows if r["source"] == "llm"}) == 10
 
 
 def test_ranges_become_courses(built):

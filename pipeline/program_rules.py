@@ -36,19 +36,24 @@ SUBJECT_JOINER = re.compile(r", or |, and |, | or | OR | and | ?/ ?")
 
 # Rows asking for credits from subjects by course level. Each gives the subjects, the lowest
 # level, and the highest if there is one ("Additional" just means beyond the rows above).
+# "Additional", "Other" and "Further" just mean beyond the rows above.
+MORE = r"(?:Additional |Other |Further )?"
 LEVELS = [
     # "CPSC or AI courses numbered 300 or higher", "STAT courses numbered 400 or above"
-    (re.compile(rf"(?:Additional )?({SUBJECTS}) courses? numbered (\d{{3}}) (?:or|and) (?:above|higher)"),
+    (re.compile(rf"{MORE}({SUBJECTS}) courses? numbered (\d{{3}}) (?:or|and) (?:above|higher)"),
      lambda m: (m[2], None)),
     # "EOSC courses numbered 420-439"
     (re.compile(rf"({SUBJECTS}) courses numbered (\d{{3}})-(\d{{3}})"), lambda m: (m[2], m[3])),
-    # "PHYS/ASTR 300-level and above", "EOSC / ATSC / ENVR 300-level or higher"
-    (re.compile(rf"(?:Additional )?({SUBJECTS}) (\d{{3}})-level (?:or higher|and above)"),
+    # "PHYS/ASTR 300-level and above", "EOSC / ATSC / ENVR 300-level or higher",
+    # "Additional CPSC or AI at 300-level or higher"
+    (re.compile(rf"{MORE}({SUBJECTS}) (?:at )?(\d{{3}})-level (?:or higher|and above)"),
      lambda m: (m[2], None)),
+    # "ECON 200- or 300-level"
+    (re.compile(rf"({SUBJECTS}) (\d)00- or (\d)00-level"), lambda m: (m[2] + "00", m[3] + "99")),
     # "Any Upper level MATH, STAT, CPSC or DSCI": upper level is 300 and up.
     (re.compile(rf"Any [Uu]pper level ({SUBJECTS})"), lambda m: ("300", None)),
-    # "PHYS 100-level", "Additional EOSC 400-level": that level only.
-    (re.compile(rf"(?:Additional )?({SUBJECTS}) (\d)00-level"), lambda m: (m[2] + "00", m[2] + "99")),
+    # "PHYS 100-level", "Additional EOSC 400-level", "Additional CPSC at 400-level": that level only.
+    (re.compile(rf"{MORE}({SUBJECTS}) (?:at )?(\d)00-level"), lambda m: (m[2] + "00", m[2] + "99")),
 ]
 # "One 200-level BIOL OR CHEM": the level comes first.
 LEVEL_FIRST = re.compile(rf"One (\d)00-level ({SUBJECTS})")
@@ -71,12 +76,27 @@ CODE_LIST = re.compile(r"[A-Z]{2,4} \d{3}(?:, (?:[A-Z]{2,4} )?\d{3})*")
 RANGE_LIST = re.compile(r"[A-Z]{2,4} \d{3}(?:-\d{3})?(?:, (?:[A-Z]{2,4} )?\d{3}(?:-\d{3})?)*")
 
 
+# Subjects some rows write out: "Economics courses numbered 300 or above".
+SUBJECT_NAMES = {"Economics": "ECON", "Statistics": "STAT", "statistics": "STAT"}
+
+
 def simplify(text: str) -> str:
-    # Two ways the Science pages write a course with two codes. "GEOS (or GEOB) 300": GEOB is
-    # GEOS's old code, so only GEOS is kept. "MATH/STAT 302" (cross-listed) → "MATH 302 or
-    # STAT 302". The (?!-) leaves "PHYS/ASTR 300-level" alone.
+    # Rewrites the ways some rows say something that a rule below already reads:
+    # - "GEOS (or GEOB) 300": GEOB is GEOS's old code, so only GEOS is kept.
+    # - "MATH/STAT 302", "STAT / MATH 302" (cross-listed) → "MATH 302 or STAT 302". The (?!-)
+    #   leaves "PHYS/ASTR 300-level" alone.
+    # - "(or one of 131, 221, 223)" → "(or 131, 221, 223)"; "MATH 227 (317)" → "MATH 227 (or 317)".
+    # - "PHYS (106 or 107), 108" → "PHYS 106 (or 107), 108".
+    # - "One of (BIOL 203, … or MICB 201, 211)" → without the brackets.
+    # - "BIOL 112,121" → "BIOL 112, 121"; "Economics courses" → "ECON courses".
     text = text.replace("GEOS (or GEOB) ", "GEOS ").replace("(or one of ", "(or ")
-    return re.sub(r"\b([A-Z]{2,4})/([A-Z]{2,4}) (\d{3})\b(?!-)", r"\1 \3 or \2 \3", text)
+    text = re.sub(r"\b([A-Z]{2,4}) ?/ ?([A-Z]{2,4}) (\d{3})\b(?!-)", r"\1 \3 or \2 \3", text)
+    text = re.sub(r" \((\d{3}(?:, \d{3})*)\)", r" (or \1)", text)
+    text = re.sub(r"\b([A-Z]{2,4}) \((\d{3}) or (\d{3})\)", r"\1 \2 (or \3)", text)
+    text = re.sub(r"^One of \((.+)\)$", r"One of \1", text)
+    text = re.sub(r"(\d{3}),(\d{3})", r"\1, \2", text)
+    return re.sub(r"\b(Economics|Statistics|statistics) courses",
+                  lambda m: f"{SUBJECT_NAMES[m[1]]} courses", text)
 
 
 def course_codes(text: str) -> list[str]:
@@ -85,9 +105,10 @@ def course_codes(text: str) -> list[str]:
     # gets the last subject before it, as long as only commas, brackets, "or" and "and" come
     # in between. Any other word ends the list, so the "400" in "…must be 400 or above"
     # isn't read as a course.
-    # A range like "400-406" is kept as one ("MATH 400-406"); a level like "300-level" is a word.
+    # A range like "400-406" is kept as one ("MATH 400-406"); a level like "300-level" (or the
+    # "200-" in "ECON 200- or 300-level") is a word.
     codes, subject = [], None
-    for token in re.findall(r"\d{3}-level|\d{3}-\d{3}|[A-Za-z]+|\d{3}", simplify(text)):
+    for token in re.findall(r"\d{3}-level|\d{3}-\d{3}|\d{3}-|[A-Za-z]+|\d{3}", simplify(text)):
         if SUBJECT.fullmatch(token):
             subject = token
         elif NUMBER.fullmatch(token) or RANGE.fullmatch(token):
@@ -151,11 +172,19 @@ def parse_requirement_with_rules(text: str):
         listed = re.sub(r",? (?:or|and) ", ", ", match[1])
         return {"credits_from": course_codes(listed)} if RANGE_LIST.fullmatch(listed) else None
 
+    # "Either (a) ECON 326 and STAT 301 or (b) ECON 398 and STAT 306"
+    match = re.fullmatch(r"Either \(a\) (.+) or \(b\) (.+)", text)
+    if match:
+        options = [parse_requirement_with_rules(option) for option in match.groups()]
+        return {"one_of": options} if all(isinstance(o, (str, dict)) for o in options) else None
+
     match = PICK.fullmatch(text)
     if match:
         count, listed, note = match.groups()
         # "One of MINE 350, …, MINE 455 or MINE 465", "Two of BIOL 331, 340 and 341": the last
-        # one can come after "or" or "and".
+        # one can come after "or" or "and". "One of MATH 101, 103, 105 (121)": the bracket is
+        # more choices.
+        listed = re.sub(r" \(or (.+)\)$", r", \1", listed)
         listed = re.sub(r",? (?:or|and) ", ", ", listed)
         if not CODE_LIST.fullmatch(listed):
             return None
@@ -227,7 +256,7 @@ def choices_with_brackets(text: str):
                 return None
             choices.append({"all_of": both})
         else:
-            more = _items(bracket.replace(", ", " or "), " or ")
+            more = _items(re.sub(r",? or |, ", " or ", bracket), " or ")
             if more is None:
                 return None
             choices += more
@@ -316,6 +345,7 @@ EXAMPLES = [
                     {"other": "3 credits chosen from CHEM 410, 411 and chemistry courses numbered 300 or above"}]},
     ),
     ("A BIOL selection or one of CHEM 301, 302", {"other": "A BIOL selection or one of CHEM 301, 302"}),
+    ("CHEM 301 or CHEM at 300-level or higher", {"other": "CHEM 301 or CHEM at 300-level or higher"}),
 ]
 
 INSTRUCTIONS = """You turn one row of a UBC degree requirement table into a JSON tree.
@@ -337,9 +367,11 @@ A node is one of:
 
 Rules:
 - Every course in the row must appear in the tree, and no others.
-- credits_of and credits_from only stand for a whole row. When only part of a row asks for
-  credits (after some required courses), or the credits can come from a list and a level
-  together, keep that part as {"other": "..."} with the row's words.
+- credits_of and credits_from only stand for a whole row, never inside one_of or all_of.
+  When only part of a row asks for credits (after some required courses), or the row is a
+  choice between courses and a level ("CHEM 301 or CHEM at 300-level"), or the credits can
+  come from a list and a level together, keep that part (or the whole choice) as
+  {"other": "..."} with the row's words.
 - A choice that includes a list we don't have, like "a BIOL selection", makes the whole row
   {"other": "..."}.
 - A comma list with nothing before it means all_of. "or" means one_of.

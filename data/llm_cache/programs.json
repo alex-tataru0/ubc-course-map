@@ -1,4 +1,11 @@
 {
+  "6 credits from CPSC 340, 420, MATH 418, 419, 420, 421 or further STAT courses numbered 400 or above": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "other": "6 credits from CPSC 340, 420, MATH 418, 419, 420, 421 or further STAT courses numbered 400 or above"
+    }
+  },
   "Another MICB course or a selection from BIOC 402, 410, 421, BIOL 328, 421, CHBE 381, MEDG 421, EOSC 475": {
     "model": "gemini-3.5-flash-lite",
     "problems": [],
@@ -113,6 +120,20 @@
           "other": "6 credits chosen from MATH 418, 419, 420, 421 and statistics courses numbered 400 or above"
         }
       ]
+    }
+  },
+  "MICB 322 or MICB at 300-level or higher": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "other": "MICB 322 or MICB at 300-level or higher"
+    }
+  },
+  "MICB 323 (or 475 or 401) or additional MICB at 300-level or higher": {
+    "model": "gemini-3.5-flash-lite",
+    "problems": [],
+    "tree": {
+      "other": "MICB 323 (or 475 or 401) or additional MICB at 300-level or higher"
     }
   },
   "Two of BIOL 415, 417, 434 or two of BIOL 417, 418, 434": {

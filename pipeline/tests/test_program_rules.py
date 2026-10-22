@@ -121,6 +121,31 @@ def test_course_codes_stop_at_other_words():
         "Thematic concentration courses numbered 300 or above",
         {"other": "Thematic concentration courses numbered 300 or above"},
     ),
+    # Combined Majors and Honours.
+    ("MATH 227 (317)", {"one_of": ["MATH 227", "MATH 317"]}),
+    ("PHYS (106 or 107), 108", {"all_of": [{"one_of": ["PHYS 106", "PHYS 107"]}, "PHYS 108"]}),
+    ("STAT / MATH 302", {"one_of": ["STAT 302", "MATH 302"]}),
+    ("BIOL 112,121", {"all_of": ["BIOL 112", "BIOL 121"]}),
+    ("One of MATH 101, 103, 105 (121)", {"one_of": ["MATH 101", "MATH 103", "MATH 105", "MATH 121"]}),
+    (
+        "One of (BIOL 203, 204, 205, 209 or MICB 201, 211)",
+        {"one_of": ["BIOL 203", "BIOL 204", "BIOL 205", "BIOL 209", "MICB 201", "MICB 211"]},
+    ),
+    (
+        "MATH 131 (or one of MATH 111, 221, or 223)",
+        {"one_of": ["MATH 131", "MATH 111", "MATH 221", "MATH 223"]},
+    ),
+    ("Economics courses numbered 300 or above", {"credits_of": {"subjects": ["ECON"], "min_level": 300}}),
+    ("ECON 200- or 300-level", {"credits_of": {"subjects": ["ECON"], "min_level": 200, "max_level": 399}}),
+    (
+        "Additional CPSC at 400-level",
+        {"credits_of": {"subjects": ["CPSC"], "min_level": 400, "max_level": 499}},
+    ),
+    ("Other BIOL courses numbered 300 or higher", {"credits_of": {"subjects": ["BIOL"], "min_level": 300}}),
+    (
+        "Either (a) ECON 326 and STAT 301 or (b) ECON 398 and STAT 306",
+        {"one_of": [{"all_of": ["ECON 326", "STAT 301"]}, {"all_of": ["ECON 398", "STAT 306"]}]},
+    ),
 ])
 def test_rules(text, tree):
     assert parse_requirement_with_rules(text) == tree

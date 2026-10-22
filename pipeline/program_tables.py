@@ -20,6 +20,10 @@ from parse_programs import clean, is_footnote, read_cell
 # if the row says.
 TOTAL = re.compile(r"(?:Total|Minimum) Credits(?: (?:for|in) (?:the )?(.+))?", re.IGNORECASE)
 
+# "Minimum total credits for second year" (Computer Science and Microbiology) is a floor for
+# part of a block, not its total, so it's kept as a note about the program.
+MINIMUM = re.compile(r"Minimum total credits (?:for|in) (.+)", re.IGNORECASE)
+
 
 def read_credits(text: str) -> tuple[int | None, str | None]:
     # "4" → (4, None). "3 or 5" (MECH 226 or 227) → (3, "3 or 5"): the smaller number, plus
@@ -40,8 +44,10 @@ def read_blocks(table) -> list[dict]:
 
 
 def read_table(table) -> dict:
-    # The table's blocks, and the degree's total credits if the table gives it (else None).
-    blocks, footnotes, degree_credits = [], {}, None
+    # The table's blocks, the degree's total credits if the table gives it (else None), and
+    # any minimums ("Minimum total credits for second year" 30 → "At least 30 credits in
+    # second year.").
+    blocks, footnotes, degree_credits, minimums = [], {}, None, []
     for tr in table.find_all("tr"):
         # Title rows are <th> on some pages and <td> on others.
         cells = tr.find_all(["td", "th"])
@@ -56,8 +62,10 @@ def read_table(table) -> dict:
         if not text:
             continue  # the empty row between third and fourth year
         credits, credits_text = read_credits(cells[1].get_text() if len(cells) > 1 else "")
-        total = TOTAL.fullmatch(text)
-        if total and (total[1] or "").lower() == "degree":
+        total, minimum = TOTAL.fullmatch(text), MINIMUM.fullmatch(text)
+        if minimum:
+            minimums.append(f"At least {credits} credits in {minimum[1].lower()}.")
+        elif total and (total[1] or "").lower() == "degree":
             degree_credits = credits
         elif total:
             blocks[-1]["credits"] = credits
@@ -81,7 +89,7 @@ def read_table(table) -> dict:
     for block in blocks:
         for row in block["requirements"]:
             row["notes"] = [footnotes[n] for n in row["notes"] if n in footnotes]
-    return {"blocks": blocks, "degree_credits": degree_credits}
+    return {"blocks": blocks, "degree_credits": degree_credits, "minimums": minimums}
 
 
 def is_requirement_table(table) -> bool:
