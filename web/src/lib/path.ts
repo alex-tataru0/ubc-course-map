@@ -1,3 +1,5 @@
+import { factStatus } from "./facts";
+import type { Facts } from "./facts";
 import { buildGraph, descendants, prereqCourses } from "./graph";
 import { notForStudentsWith, requirementStatus, restrictionOf } from "./progress";
 import type { Course, ReqNode } from "./types";
@@ -33,11 +35,13 @@ interface Plan {
 
 const EMPTY: Plan = { courses: new Set(), also: [], lastResorts: 0 };
 
-// What a faculty's page tells planPath: the courses on its maps, and the courses its students
-// usually can't take.
+// What a faculty's page tells planPath: the courses on its maps, the courses its students
+// usually can't take, and what the student has said besides courses (year standing, high
+// school courses).
 export interface PathOptions {
   home?: ReadonlySet<string>;
   closed?: ReadonlySet<string>;
+  facts?: Facts;
 }
 
 // The shortest path from the courses done to `target`, using the courses in `courses`.
@@ -56,7 +60,7 @@ export function planPath(
   target: string,
   courses: Course[],
   done: ReadonlySet<string>,
-  { home, closed }: PathOptions = {},
+  { home, closed, facts }: PathOptions = {},
 ): CoursePath {
   const byCode = new Map(courses.map((c) => [c.code, c]));
   if (!byCode.has(target) || done.has(target)) return { terms: [], also: [] };
@@ -90,7 +94,11 @@ export function planPath(
       const plan = planCode(node.course, have);
       return { ...plan, also: [...plan.also, grade] };
     }
-    if ("other" in node) return { ...EMPTY, also: [{ kind: "check", text: node.other }] };
+    if ("other" in node) {
+      // Something they've told us they have (a high school course, a year standing) is done.
+      if (facts && factStatus(node.other, facts) === "met") return EMPTY;
+      return { ...EMPTY, also: [{ kind: "check", text: node.other }] };
+    }
     if ("all_of" in node) {
       let plan = EMPTY;
       for (const child of node.all_of) plan = merge(plan, planNode(child, union(have, plan.courses)));
@@ -106,7 +114,7 @@ export function planPath(
   }
 
   function planOneOf(choices: ReqNode[], have: ReadonlySet<string>): Plan {
-    if (choices.some((choice) => requirementStatus(choice, have) === "met")) return EMPTY;
+    if (choices.some((choice) => requirementStatus(choice, have, facts) === "met")) return EMPTY;
     // Okanagan courses are only an option when there's nothing else.
     const vancouver = choices.filter((choice) => !isOkanagan(choice));
     const usable = vancouver.length > 0 ? vancouver : choices;

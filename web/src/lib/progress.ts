@@ -1,15 +1,18 @@
 import { splitDescription } from "./details";
+import { factStatus, NO_FACTS } from "./facts";
+import type { Facts } from "./facts";
 import type { Course, ReqNode } from "./types";
 
 // Whether a requirement holds, given the courses someone has finished.
 // "unknown" means it depends on something we can't check from a list of courses:
-// a requirement that isn't a course (e.g. "Third-year standing"),
+// a requirement that isn't a course (e.g. "Permission of the Department Head"),
 // or a minimum grade in a course they've taken (we don't know their grade).
+// Year standing and high school courses are known if they've said (see facts.ts).
 export type Status = "met" | "unmet" | "unknown";
 
 // Works out a requirement tree's status from the set of finished course codes,
-// e.g. done = new Set(["CPSC 110", "CPSC 121"]).
-export function requirementStatus(node: ReqNode, done: ReadonlySet<string>): Status {
+// e.g. done = new Set(["CPSC 110", "CPSC 121"]), and what else they've told us.
+export function requirementStatus(node: ReqNode, done: ReadonlySet<string>, facts: Facts = NO_FACTS): Status {
   if (typeof node === "string") {
     return done.has(node) ? "met" : "unmet";
   }
@@ -18,12 +21,12 @@ export function requirementStatus(node: ReqNode, done: ReadonlySet<string>): Sta
     return done.has(node.course) ? "unknown" : "unmet";
   }
   if ("other" in node) {
-    return "unknown";
+    return factStatus(node.other, facts) ?? "unknown";
   }
   if ("one_of" in node) {
-    return anyOf(node.one_of.map((child) => requirementStatus(child, done)));
+    return anyOf(node.one_of.map((child) => requirementStatus(child, done, facts)));
   }
-  return allOf(node.all_of.map((child) => requirementStatus(child, done)));
+  return allOf(node.all_of.map((child) => requirementStatus(child, done, facts)));
 }
 
 // "One of": a single met choice is enough. If none is met but one might be, it's unknown.
@@ -44,13 +47,13 @@ function allOf(statuses: Status[]): Status {
 // e.g. ["Third-year standing"] or ["Principles of Mathematics 12 or Pre-calculus 12"].
 // Only the parts that decide the answer are listed: nothing already met,
 // and in a "one of", only the choices that could still work.
-export function toCheck(node: ReqNode, done: ReadonlySet<string>): string[] {
-  if (typeof node === "string" || requirementStatus(node, done) !== "unknown") return [];
+export function toCheck(node: ReqNode, done: ReadonlySet<string>, facts: Facts = NO_FACTS): string[] {
+  if (typeof node === "string" || requirementStatus(node, done, facts) !== "unknown") return [];
   if ("course" in node) return [`${node.min_grade}% or higher in ${node.course}`];
   if ("other" in node) return [node.other];
-  if ("all_of" in node) return node.all_of.flatMap((child) => toCheck(child, done));
+  if ("all_of" in node) return node.all_of.flatMap((child) => toCheck(child, done, facts));
   const choices = node.one_of
-    .map((child) => toCheck(child, done).join(" and "))
+    .map((child) => toCheck(child, done, facts).join(" and "))
     .filter((choice) => choice !== "");
   return [choices.join(" or ")];
 }
@@ -166,11 +169,12 @@ export interface CourseProgress {
 export function courseProgress(
   courses: Course[],
   done: ReadonlySet<string>,
+  facts: Facts = NO_FACTS,
 ): Map<string, CourseProgress> {
   // Courses you could be taking now: finished ones, plus any whose prereqs are all met.
   const startable = new Set(done);
   for (const course of courses) {
-    if (!course.prereq || requirementStatus(course.prereq.tree, done) === "met") {
+    if (!course.prereq || requirementStatus(course.prereq.tree, done, facts) === "met") {
       startable.add(course.code);
     }
   }
@@ -184,7 +188,7 @@ export function courseProgress(
 
   const progress = new Map<string, CourseProgress>();
   for (const course of courses) {
-    progress.set(course.code, progressOf(course, done, startable, ruledOut));
+    progress.set(course.code, progressOf(course, done, startable, ruledOut, facts));
   }
   return progress;
 }
@@ -196,6 +200,7 @@ function progressOf(
   done: ReadonlySet<string>,
   startable: ReadonlySet<string>,
   ruledOut: ReadonlyMap<string, string[]>,
+  facts: Facts,
 ): CourseProgress {
   if (done.has(course.code)) {
     return { ...NOTHING, status: "done" };
@@ -206,13 +211,13 @@ function progressOf(
     return { ...NOTHING, status: "no-credit", excludedBy };
   }
 
-  const prereq = course.prereq ? requirementStatus(course.prereq.tree, done) : "met";
+  const prereq = course.prereq ? requirementStatus(course.prereq.tree, done, facts) : "met";
   if (course.prereq && prereq === "unmet" && !reachable(course.prereq.tree, ruledOut)) {
     const blockedBy = [...new Set(treeCodes(course.prereq.tree))].filter((code) => ruledOut.has(code));
     const by = [...new Set(blockedBy.flatMap((code) => ruledOut.get(code)!))];
     return { ...NOTHING, status: "not-needed", excludedBy: by, blockedBy };
   }
-  const coreq = course.coreq ? requirementStatus(course.coreq.tree, startable) : "met";
+  const coreq = course.coreq ? requirementStatus(course.coreq.tree, startable, facts) : "met";
   const restriction = restrictionOf(course.description);
   const status = allOf([prereq, coreq, restriction ? "unknown" : "met"]);
 
@@ -223,8 +228,8 @@ function progressOf(
     return { ...NOTHING, status: "can-take" };
   }
   const items = [
-    ...(course.prereq ? toCheck(course.prereq.tree, done) : []),
-    ...(course.coreq ? toCheck(course.coreq.tree, startable) : []),
+    ...(course.prereq ? toCheck(course.prereq.tree, done, facts) : []),
+    ...(course.coreq ? toCheck(course.coreq.tree, startable, facts) : []),
     ...(restriction ? [restriction] : []),
   ];
   return { ...NOTHING, status: "check", toCheck: items };
