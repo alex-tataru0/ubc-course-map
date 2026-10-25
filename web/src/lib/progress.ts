@@ -58,6 +58,14 @@ export function toCheck(node: ReqNode, done: ReadonlySet<string>, facts: Facts =
   return [choices.join(" or ")];
 }
 
+// The requirements a checklist answer rules out, e.g. ["Third-year standing"] for someone in
+// first year, so a "Not yet" can say why. Only parts that aren't met are looked in.
+export function notMetByFacts(node: ReqNode, done: ReadonlySet<string>, facts: Facts): string[] {
+  if (typeof node === "string" || "course" in node || requirementStatus(node, done, facts) !== "unmet") return [];
+  if ("other" in node) return [node.other];
+  return ("one_of" in node ? node.one_of : node.all_of).flatMap((child) => notMetByFacts(child, done, facts));
+}
+
 // The sentence in a description that says who can take the course, without its full stop, e.g.
 // "Restricted to students admitted to the Co-operative Education Program in Computer Science",
 // "Not open to students in the Life Sciences", "Permission of the supervisor required" or

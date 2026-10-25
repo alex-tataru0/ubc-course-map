@@ -5,10 +5,12 @@ import { recentInstructors, sessionRange } from "@/lib/grades";
 import type { Highlight } from "@/lib/highlight";
 import { rateMyProfUrl, redditSearchUrl, ubcGradesUrl } from "@/lib/links";
 import type { AlsoNeeded, CoursePath } from "@/lib/path";
-import { requirementStatus, WONT_TAKE } from "@/lib/progress";
+import type { Facts } from "@/lib/facts";
+import { notMetByFacts, requirementStatus, WONT_TAKE } from "@/lib/progress";
 import type { CourseProgress } from "@/lib/progress";
 import type { Elsewhere } from "@/lib/subjects";
 import type { Course, CourseGrades, ReqNode, Requisite } from "@/lib/types";
+import { QuickFacts } from "./FactsChecklist";
 import { GradeSummary, TeachingHistory } from "./Grades";
 import { Swatch } from "./Legend";
 import { StatusSample, TickChip } from "./Status";
@@ -23,6 +25,7 @@ interface CourseDetailsProps {
   showPath: boolean; // the map shows just that path
   onShowPath: (on: boolean) => void;
   done: ReadonlySet<string>; // the courses marked done
+  facts: Facts; // year standing and high school courses from the checklist, and the picked program
   onToggle: (code: string) => void; // mark a course done, or unmark it
   subject: string; // the subject of the map shown, e.g. "CPSC"
   onMap: Set<string>; // courses on any subject's map, which can be clicked to open them
@@ -47,6 +50,7 @@ export default function CourseDetails({
   showPath,
   onShowPath,
   done,
+  facts,
   onToggle,
   subject,
   onMap,
@@ -123,7 +127,7 @@ export default function CourseDetails({
       >
         {isDone ? "✓ Done · click to unmark" : "Mark as done"}
       </button>
-      {progress && <StatusNote course={course} progress={progress} done={done} />}
+      {progress && <StatusNote course={course} progress={progress} done={done} facts={facts} />}
 
       {/* The key for the colours on the map, so they never carry meaning on their own,
           and the switch between every course it could need and just your path. */}
@@ -266,20 +270,31 @@ function ExternalLink({ href, children }: { href: string; children: ReactNode })
   );
 }
 
+const YEAR_NAMES: Record<number, string> = {
+  1: "first year",
+  2: "second year",
+  3: "third year",
+  4: "fourth year or higher",
+};
+
 // What the course's status means for you, in a sentence, with what to check if anything.
 function StatusNote({
   course,
   progress,
   done,
+  facts,
 }: {
   course: Course;
   progress: CourseProgress;
   done: ReadonlySet<string>;
+  facts: Facts;
 }) {
   // A coreq that isn't done yet doesn't stop you: you can take it at the same time.
   const { coreq } = course;
   const coreqPending = coreq !== null && requirementStatus(coreq.tree, done) !== "met";
   const { status } = progress;
+  // "Third-year standing" for someone who said they're in first year.
+  const tooLow = status === "locked" && course.prereq ? notMetByFacts(course.prereq.tree, done, facts) : [];
   return (
     <div className="mt-3 rounded-lg border border-line p-3">
       <p>
@@ -295,9 +310,15 @@ function StatusNote({
             <strong>Check first.</strong> Your courses can&apos;t tell us if you meet:
           </>
         )}
-        {status === "locked" && (
+        {status === "locked" && tooLow.length === 0 && (
           <>
             <strong>Not yet.</strong> Some prerequisites below aren&apos;t done.
+          </>
+        )}
+        {status === "locked" && tooLow.length > 0 && (
+          <>
+            <strong>Not yet.</strong> It needs {tooLow.join(" and ")}
+            {facts.standing !== null && `, and you said you're in ${YEAR_NAMES[facts.standing]}`}.
           </>
         )}
         {status === "no-credit" && (
@@ -319,6 +340,7 @@ function StatusNote({
           {progress.toCheck.map((item) => (
             <li key={item}>
               <WithLinks text={item} />
+              <QuickFacts text={item} />
             </li>
           ))}
         </ul>
@@ -382,6 +404,7 @@ function AlsoItem({ item, ...links }: { item: AlsoNeeded } & Links) {
     return (
       <span>
         Check: <WithLinks text={item.text} />
+        <QuickFacts text={item.text} />
       </span>
     );
   }

@@ -48,6 +48,22 @@ const COMPLETED = new RegExp(`^Completion of ${YEAR} year$`, "i");
 // instructor's permission": the standing, then something else to check.
 const WITH_MORE = /^(.+? standing) (or|and) ((?:the )?(?:instructor's )?permission\b.*|at least .*)$/i;
 
+// The checklist questions a "check yourself" text asks, so a course panel can offer them right
+// there: whether it's about year standing, and which high school courses it names. A high
+// school course with a grade ("85% or higher in Physics 12") isn't asked: ticking it wouldn't
+// answer that.
+export function factQuestions(text: string): { standing: boolean; highSchool: string[] } {
+  const parts = text.split(/,? or |,? and |; /).map((part) => part.trim());
+  const highSchool = /%|score/.test(text)
+    ? []
+    : HIGH_SCHOOL_COURSES.filter((course) => parts.some((part) => course.texts.test(part))).map((c) => c.key);
+  const standing =
+    factStatus(text, NO_FACTS) !== null && highSchool.length === 0
+      ? true
+      : parts.some((part) => standingStatus(part, NO_FACTS) !== null);
+  return { standing, highSchool };
+}
+
 // What a fact-based requirement looks like with these facts, or null if it isn't one (then
 // it's something to check, as before).
 export function factStatus(text: string, facts: Facts): Status | null {

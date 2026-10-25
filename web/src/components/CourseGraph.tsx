@@ -34,6 +34,7 @@ import {
 } from "@/lib/program";
 import type { ProgramKind } from "@/lib/program";
 import { useProgramChoice } from "@/lib/programChoice";
+import { useSavedFacts } from "@/lib/savedFacts";
 import { countStatuses, courseProgress, WONT_TAKE } from "@/lib/progress";
 import type { CourseStatus } from "@/lib/progress";
 import type { SubjectMap } from "@/lib/subjectMap";
@@ -249,7 +250,7 @@ export default function CourseGraph({
   const canvasRef = useRef<HTMLDivElement>(null);
 
   // The courses marked done (saved in the browser), and quick mode, where a click ticks
-  // a course instead of opening it. In quick mode, the list of courses not on the map
+  // a course instead of opening it. In quick mode, the "Not on the map" list
   // (MATH, STAT, …) can be open where the side panel goes.
   const { done, toggle, clear } = useDoneCourses();
   const [marking, setMarking] = useState(false);
@@ -267,19 +268,26 @@ export default function CourseGraph({
   const onAnyMap = useMemo(() => new Set(mapOf.keys()), [mapOf]);
   const closedSet = useMemo(() => new Set(closed), [closed]);
 
+  // The picked program (saved in the browser). The saved program can be from another faculty's
+  // page. An old, unknown id is none.
+  const { programId, pickProgram } = useProgramChoice();
+  const program = [...programs, ...otherPrograms].find((p) => p.id === programId) ?? null;
+
+  // What they've said besides courses: year standing and high school courses (see facts.ts).
+  const { facts: savedFacts } = useSavedFacts();
+  const facts = useMemo(
+    () => ({ standing: savedFacts.standing, highSchool: new Set(savedFacts.highSchool), program }),
+    [savedFacts, program],
+  );
+
   // Every course's status, in every subject, since prerequisites cross subjects.
   // Shown on the graph once at least one course is marked done. The bar counts this map's.
-  const progress = useMemo(() => courseProgress(details, done), [details, done]);
+  const progress = useMemo(() => courseProgress(details, done, facts), [details, done, facts]);
   const counts = useMemo(
     () => countStatuses(new Map([...progress].filter(([code]) => onMap.has(code)))),
     [progress, onMap],
   );
   const showProgress = done.size > 0;
-
-  // The picked program (saved in the browser). The saved program can be from another faculty's
-  // page. An old, unknown id is none.
-  const { programId, pickProgram } = useProgramChoice();
-  const program = [...programs, ...otherPrograms].find((p) => p.id === programId) ?? null;
 
   // Courses that the prerequisites on this map mention but that aren't on it, which can be
   // ticked without switching maps (MATH 221 on the CPSC map), plus the other courses the map's
@@ -304,8 +312,8 @@ export default function CourseGraph({
   const [showPath, setShowPath] = useState(false);
   const path = useMemo(
     () =>
-      selected === null ? null : planPath(selected, details, done, { home: onAnyMap, closed: closedSet }),
-    [selected, details, done, onAnyMap, closedSet],
+      selected === null ? null : planPath(selected, details, done, { home: onAnyMap, closed: closedSet, facts }),
+    [selected, details, done, onAnyMap, closedSet, facts],
   );
   const selectedStatus = selected === null ? undefined : progress.get(selected)?.status;
   const wontTake = selectedStatus !== undefined && WONT_TAKE.has(selectedStatus);
@@ -694,6 +702,7 @@ export default function CourseGraph({
           showPath={showPath}
           onShowPath={setShowPath}
           done={done}
+          facts={facts}
           onToggle={toggle}
           subject={subject}
           onMap={onAnyMap}

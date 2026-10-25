@@ -7,7 +7,7 @@ interface ProgressBarProps {
   marked: number; // every course ticked, on the map or not
   outsideTicked: number; // ticked courses that aren't on the map (MATH, STAT, …)
   marking: boolean; // in quick mode, where a click ticks a course
-  outsideOpen: boolean; // the list of courses not on the map is open
+  outsideOpen: boolean; // the "Not on the map" list (checklist and other subjects' courses) is open
   onStart: () => void;
   onFinish: () => void;
   onClear: () => void;
@@ -44,7 +44,7 @@ export default function ProgressBar({
         </span>
         <span className="flex flex-wrap gap-2">
           <button type="button" onClick={onToggleOutside} aria-expanded={outsideOpen} className={button}>
-            Courses not on the map{outsideTicked > 0 && ` (${outsideTicked})`}
+            Not on the map{outsideTicked > 0 && ` (${outsideTicked})`}
           </button>
           {marked > 0 && (
             <ClearAll

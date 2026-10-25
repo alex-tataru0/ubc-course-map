@@ -1,9 +1,9 @@
 import { readFileSync, readdirSync } from "node:fs";
 import { describe, expect, it } from "vitest";
-import { factStatus, HIGH_SCHOOL_COURSES, inPlace, NO_FACTS } from "./facts";
+import { factQuestions, factStatus, HIGH_SCHOOL_COURSES, inPlace, NO_FACTS } from "./facts";
 import type { Facts } from "./facts";
 import { planPath } from "./path";
-import { courseProgress } from "./progress";
+import { courseProgress, notMetByFacts } from "./progress";
 import type { Course, CourseFile, Program, ProgramFile, ReqNode } from "./types";
 
 const read = (file: string) => JSON.parse(readFileSync(new URL(file, import.meta.url), "utf8"));
@@ -90,6 +90,18 @@ describe("factStatus", () => {
   });
 });
 
+describe("factQuestions", () => {
+  it("finds what the checklist could answer in a 'check yourself' item", () => {
+    expect(factQuestions("BIOL 11 or BIOL 12")).toEqual({ standing: false, highSchool: ["BIOL 11", "BIOL 12"] });
+    expect(factQuestions("Principles of Mathematics 12 or Pre-calculus 12")).toEqual({ standing: false, highSchool: ["PREC 12"] });
+    expect(factQuestions("Fourth-year standing or permission of the instructor")).toEqual({ standing: true, highSchool: [] });
+    expect(factQuestions("Third-year standing or 6 credits of MATH")).toEqual({ standing: true, highSchool: [] });
+    // Ticking Physics 12 wouldn't answer a grade in it.
+    expect(factQuestions("85% or higher in Physics 12")).toEqual({ standing: false, highSchool: [] });
+    expect(factQuestions("advanced credit for MATH 100")).toEqual({ standing: false, highSchool: [] });
+  });
+});
+
 describe("with facts", () => {
   const all = facts({ standing: 3, highSchool: ALL_HIGH_SCHOOL, program: csMajor });
 
@@ -101,6 +113,12 @@ describe("with facts", () => {
     expect(status("BIOL 112")).toBe("check"); // CHEM 12, and BIOL 11 or 12
     expect(status("BIOL 112", all)).toBe("can-take");
     expect(status("CPSC 121", all)).toBe("can-take"); // Pre-calculus 12, with CPSC 110 to take at the same time
+  });
+
+  it("says which answer makes a course 'not yet'", () => {
+    const tree = courses.find((c) => c.code === "BIOL 350")!.prereq!.tree;
+    expect(notMetByFacts(tree, new Set(), facts({ standing: 1 }))).toEqual(["Third-year standing"]);
+    expect(notMetByFacts(tree, new Set(), all)).toEqual([]);
   });
 
   it("leaves high school courses out of a path once ticked", () => {
