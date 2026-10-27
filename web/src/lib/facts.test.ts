@@ -83,9 +83,9 @@ describe("factStatus", () => {
     expect(factStatus(both, facts({ standing: 3 }))).toBe("unknown");
   });
 
-  it("reads 88 of the data's non-course wordings, and changes nothing until the checklist is used", () => {
+  it("reads 95 of the data's non-course wordings, and changes nothing until the checklist is used", () => {
     const read = [...texts].filter((text) => factStatus(text, NO_FACTS) !== null);
-    expect(read).toHaveLength(88);
+    expect(read).toHaveLength(95);
     expect(read.every((text) => factStatus(text, NO_FACTS) === "unknown")).toBe(true);
   });
 });
