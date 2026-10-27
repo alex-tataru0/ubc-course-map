@@ -24,7 +24,10 @@ CDF_NOTE = "This course is not eligible for Credit/D/Fail grading."
 # recommended" (MATH 317) or "The Department recommends that students …" (STAT 305).
 # It can also be the whole section: PHYS 502's "Prerequisite: A background in … is highly
 # recommended". Group 1 is the advice, without the full stop before it.
-RECOMMENDED = re.compile(r"(?:^|\.\s+)([^.]*\brecommend[^.]*)$")
+# It can start with a capital ("Recommended: LING 313", LING 314) and have "e.g." inside
+# ("A basic introduction to syntax is recommended (e.g., LING 100, …)", LING 425).
+SENTENCE_PART = r"(?:e\.g\.|i\.e\.|[^.])*"
+RECOMMENDED = re.compile(rf"(?:^|\.\s+)({SENTENCE_PART}\b[Rr]ecommend{SENTENCE_PART})$")
 
 # Some engineering courses put their hours after the prereq instead of before it, e.g.
 # MECH 224's "Prerequisite: MECH 224 or MECH 260. [2-2-0]", or MECH 490's
@@ -56,7 +59,9 @@ def extract_requisites(description: str) -> dict:
         section = CREDIT_NOTE.sub("", section)
         # CHBE 4xx's "Prerequisite:?Either a) …" has a stray "?" from the calendar.
         section = section.strip().lstrip("?").rstrip(".")
-        advice = RECOMMENDED.search(section)
+        # A "Recommended pre-requisite:" section is advice already, so it stays whole, like
+        # PHYS 170's "… Recommended co-requisite: one of MATH 101, …".
+        advice = RECOMMENDED.search(section) if key != "recommended" else None
         # PHYS 100's last sentence also says what's required, so it stays in the requirement.
         if advice and "required" not in advice.group(1):
             # Advice isn't something you need, so it's kept apart from the requirement.

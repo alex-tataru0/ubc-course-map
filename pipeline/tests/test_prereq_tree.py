@@ -495,3 +495,55 @@ def test_okanagan_courses_in_an_option():
         {"all_of": ["MATH 101", "PHYS 170"]},
         {"all_of": ["APSC_O 172", "APSC_O 173", "APSC_O 180"]},
     ]}
+
+
+def test_stray_space_before_v():
+    # POLI 317
+    assert normalize_codes("Two of POLI _V 100, POLI_V 101") == "Two of POLI 100, POLI 101"
+
+
+def test_also_acceptable_is_another_way_in():
+    # ECON 306
+    text = "A score of 68% or higher in ECON 304. Permission of the School is also acceptable"
+    assert parse_with_rules(text) == {"one_of": [
+        {"course": "ECON 304", "min_grade": 68},
+        {"other": "Permission of the School is also acceptable"},
+    ]}
+    # ANTH 432 leaves out the full stop.
+    assert parse_with_rules("ANTH 341 Permission of the department is also acceptable") == {
+        "one_of": ["ANTH 341", {"other": "Permission of the department is also acceptable"}],
+    }
+
+
+def test_a_number_of_courses_from_a_list_is_checked():
+    # POLI 304: a tree can't count courses yet, so the student checks it.
+    text = "Two of POLI 100, POLI 101, POLI 110, POLI 240. Or third-year standing or higher"
+    assert parse_with_rules(text) == {"one_of": [
+        {"other": "Two of POLI 100, POLI 101, POLI 110, POLI 240"},
+        {"other": "third-year standing or higher"},
+    ]}
+    # LING 415
+    text = ("One of LING 319, LING 315, LING 445, ENGL 318, ENGL 319, ENGL 324 and two of "
+            "LING 300, LING 311, LING 313, LING 327")
+    assert parse_with_rules(text) == {"all_of": [
+        {"one_of": ["LING 319", "LING 315", "LING 445", "ENGL 318", "ENGL 319", "ENGL 324"]},
+        {"other": "two of LING 300, LING 311, LING 313, LING 327"},
+    ]}
+    # MECH 368: the same tree Gemini gave before.
+    text = "Either (a) two of MECH 220, MECH 224, ELEC 203 or (b) all of MANU 230, ELEC 203"
+    assert parse_with_rules(text) == {"one_of": [
+        {"other": "two of MECH 220, MECH 224, ELEC 203"},
+        {"all_of": ["MANU 230", "ELEC 203"]},
+    ]}
+
+
+def test_three_credits_from_a_list_is_one_of_them():
+    # WRDS 370 (shortened list)
+    text = "Third year standing and 3 credits from one of WRDS 150, WRDS 151, Arts One, CAP 100"
+    assert parse_with_rules(text) == {"all_of": [
+        {"other": "Third year standing"},
+        {"one_of": ["WRDS 150", "WRDS 151", {"other": "Arts One"}, "CAP 100"]},
+    ]}
+    # PHIL 351 (shortened list)
+    text = "3 credits selected from any of PHIL 211, PHIL 212, or COGS 200"
+    assert parse_with_rules(text) == {"one_of": ["PHIL 211", "PHIL 212", "COGS 200"]}

@@ -4,7 +4,8 @@ import re
 BRACKETED = re.compile(r"\[([A-Z]{2,4})(\d{3})\]")
 
 # "CPSC_V" → group "CPSC". Okanagan codes like "MATH_O" don't match, so they're kept.
-VANCOUVER = re.compile(r"\b([A-Z]{2,4})_V\b")
+# POLI 317 has a stray space: "POLI _V 100".
+VANCOUVER = re.compile(r"\b([A-Z]{2,4}) ?_V\b")
 
 
 # "MICB306" → "MICB 306". A few courses leave out the space (MICB 407, EOSC 327, BIOL 431).
@@ -53,6 +54,20 @@ SQUASHED = re.compile(r"([A-Z]{2,4}) ?(\d{3})")
 # The full stop must come right after a course code, so "fourth-year standing in the B.Sc.
 # Environmental Sciences honours program" (ENVR 449) isn't cut in two.
 LAST_SENTENCE = re.compile(r"(.+?\d{3}[A-Z]?)\.\s+(.+)")
+
+# "ECON 304. Permission of the School is also acceptable" (ECON 306): a sentence that offers
+# another way in, so it's one or the other. ANTH 432 leaves out the full stop: "ANTH 341
+# Permission of the department is also acceptable". Groups: the requirement, then the other way.
+ALSO = re.compile(r"(.+?\d{3}[A-Z]?)\.?\s+([^.]*\bis also acceptable)")
+
+# "Two of POLI 100, POLI 101, POLI 110, POLI 240" (POLI 304): a number of courses from a list.
+# A tree can't say that yet, so the student checks it, like "two of MECH 220, …" in engineering.
+COUNT = re.compile(r"(?:two|three|four) of ", re.IGNORECASE)
+
+# "3 credits from one of WRDS 150, WRDS 151, …" (WRDS 340) and "3 credits selected from any of
+# PHIL 211, …" (PHIL 351): every course in those lists has at least 3 credits, so any one of
+# them is enough. Only "3 credits" is read this way: "6 credits from …" could need two courses.
+THREE_CREDITS_FROM = re.compile(r"3 credits (?:selected )?from (?:one|any) of ", re.IGNORECASE)
 
 # "(a) " or "a) ": the start of a lettered option, as in "Either (a) MATH 360 or (b) MATH 361".
 # The \b stops it from matching the end of a word, like the "d)" in "(waived)".
@@ -122,6 +137,9 @@ def parse_clause(clause: str):
     if _is_text(clause):
         # "Third-year standing" in CPSC 491's "All of CPSC 221, … and Third-year standing".
         return {"other": clause}
+    if COUNT.match(clause):
+        return {"other": clause}
+    clause = THREE_CREDITS_FROM.sub("One of ", clause, count=1)
     score = SCORE.fullmatch(clause)
     if score:
         # Each listed course with the minimum grade. Several courses means any one of them.
@@ -166,6 +184,9 @@ def _parse(text: str):
     note = GRADE_NOTE.fullmatch(text)
     if note:
         return _with_grade_note(note)
+    also = ALSO.fullmatch(text)
+    if also:
+        return _combine("one_of", [_parse(also.group(1)), {"other": also.group(2)}])
     last = LAST_SENTENCE.fullmatch(text)
     after = last.group(2) if last else ""
     if _is_text(after) and not LETTER.search(after) and "=" not in after:

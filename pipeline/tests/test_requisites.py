@@ -173,3 +173,32 @@ def test_credit_note_is_left_out_of_the_requirement():
         "CPEN_V 355 and CPSC_V 340."
     )
     assert r["prereq"] == "One of MATH_V 152, MATH_V 221"
+
+
+def test_recommended_with_a_capital_or_an_example():
+    # LING 314
+    r = extract_requisites("Prerequisite: LING_V 200. Recommended: LING_V 313.")
+    assert r["prereq"] == "LING_V 200"
+    assert r["recommended"] == "Recommended: LING_V 313"
+    # LING 425: the "e.g." doesn't end the sentence.
+    r = extract_requisites(
+        "Prerequisite: One of LING_V 327, PHIL_V 220, PHIL_V 222. A basic introduction to "
+        "syntax is recommended (e.g., LING_V 100, LING_V 201, or ENGL_V 331)."
+    )
+    assert r["prereq"] == "One of LING_V 327, PHIL_V 220, PHIL_V 222"
+    assert r["recommended"] == (
+        "A basic introduction to syntax is recommended (e.g., LING_V 100, LING_V 201, or "
+        "ENGL_V 331)"
+    )
+
+
+def test_recommended_section_stays_whole():
+    # PHYS 170: a "Recommended pre-requisites:" section is all advice already.
+    r = extract_requisites(
+        "Recommended pre-requisites: one of PHYS_V 12, PHYS_V 100. Recommended co-requisite: "
+        "one of MATH_V 101, MATH_V 103."
+    )
+    assert r["prereq"] is None
+    assert r["recommended"] == (
+        "one of PHYS_V 12, PHYS_V 100. Recommended co-requisite: one of MATH_V 101, MATH_V 103"
+    )
