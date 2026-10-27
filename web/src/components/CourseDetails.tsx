@@ -5,12 +5,13 @@ import { recentInstructors, sessionRange } from "@/lib/grades";
 import type { Highlight } from "@/lib/highlight";
 import { rateMyProfUrl, redditSearchUrl, ubcGradesUrl } from "@/lib/links";
 import type { AlsoNeeded, CoursePath } from "@/lib/path";
+import { HIGH_SCHOOL_COURSES } from "@/lib/facts";
 import type { Facts } from "@/lib/facts";
 import { notMetByFacts, requirementStatus, WONT_TAKE } from "@/lib/progress";
 import type { CourseProgress } from "@/lib/progress";
 import type { Elsewhere } from "@/lib/subjects";
 import type { Course, CourseGrades, ReqNode, Requisite } from "@/lib/types";
-import { QuickFacts } from "./FactsChecklist";
+import { HighSchoolTicks, QuickFacts } from "./FactsChecklist";
 import { GradeSummary, TeachingHistory } from "./Grades";
 import { Swatch } from "./Legend";
 import { StatusSample, TickChip } from "./Status";
@@ -295,6 +296,9 @@ function StatusNote({
   const { status } = progress;
   // "Third-year standing" for someone who said they're in first year.
   const tooLow = status === "locked" && course.prereq ? notMetByFacts(course.prereq.tree, done, facts) : [];
+  // For "no credit": the finished courses that rule it out, and the ticked high school courses.
+  const saidHighSchool = HIGH_SCHOOL_COURSES.filter((c) => progress.excludedBy.includes(c.name)).map((c) => c.key);
+  const saidCourses = progress.excludedBy.filter((by) => !HIGH_SCHOOL_COURSES.some((c) => c.name === by));
   return (
     <div className="mt-3 rounded-lg border border-line p-3">
       <p>
@@ -321,10 +325,15 @@ function StatusNote({
             {facts.standing !== null && `, and you said you're in ${YEAR_NAMES[facts.standing]}`}.
           </>
         )}
-        {status === "no-credit" && (
+        {status === "no-credit" && saidCourses.length > 0 && (
           <>
-            <strong>No credit.</strong> You&apos;ve done {progress.excludedBy.join(" and ")}, which
-            covers this course.
+            <strong>No credit.</strong> You&apos;ve done {saidCourses.join(" and ")}, which covers this course.
+          </>
+        )}
+        {status === "no-credit" && saidCourses.length === 0 && (
+          <>
+            <strong>No credit.</strong> You said you have {progress.excludedBy.join(" and ")}, and
+            this course isn&apos;t open to students with {saidHighSchool.length === 1 ? "it" : "them"}.
           </>
         )}
         {status === "not-needed" && (
@@ -335,6 +344,11 @@ function StatusNote({
           </>
         )}
       </p>
+      {status === "no-credit" && saidHighSchool.length > 0 && (
+        <span className="mt-1 flex flex-wrap gap-1.5">
+          <HighSchoolTicks keys={saidHighSchool} />
+        </span>
+      )}
       {status === "check" && (
         <ul className="mt-1 ml-5 list-disc space-y-1">
           {progress.toCheck.map((item) => (

@@ -1,3 +1,4 @@
+import { HIGH_SCHOOL_COURSES } from "./facts";
 import type { CreditsFor, RowStatus } from "./program";
 import { SCIENCE } from "./subjects";
 import type { Program } from "./types";
@@ -81,6 +82,16 @@ export function withCommunicationCourses(program: Program): Program {
   };
 }
 
+// Foundational Requirement: students admitted without Biology 11 or 12 need 3 credits of
+// 100-level BIOL (usually BIOL 111), without Chemistry 12 3 credits of 100-level CHEM (usually
+// CHEM 100, 110 or 111), and without Physics 12 3 credits of 100-level PHYS (usually PHYS 100).
+const FOUNDATIONAL = [
+  { subject: "BIOL", highSchool: ["BIOL 11", "BIOL 12"], without: "Biology 11 or 12", usually: "BIOL 111" },
+  { subject: "CHEM", highSchool: ["CHEM 12"], without: "Chemistry 12", usually: "CHEM 100, 110 or 111" },
+  { subject: "PHYS", highSchool: ["PHYS 12"], without: "Physics 12", usually: "PHYS 100" },
+];
+const highSchoolName = (key: string) => HIGH_SCHOOL_COURSES.find((course) => course.key === key)!.name;
+
 // One of the rules, ready to show: how far along it is, and what fills it.
 export interface ScienceRow {
   title: string;
@@ -90,6 +101,7 @@ export interface ScienceRow {
   options: string[]; // courses that would fill it, while it isn't done
   categories: { name: string; done: boolean }[] | null; // for Science Breadth
   check: string | null; // what to check yourself
+  ask: string | null; // high school courses the checklist could answer it with, e.g. "Physics 12"
 }
 
 const statusOf = (have: number, need: number): RowStatus => (have >= need ? "done" : have > 0 ? "partial" : "todo");
@@ -99,11 +111,17 @@ const statusOf = (have: number, need: number): RowStatus => (have >= need ? "don
 const isHonours = (program: Program) => /Honours/.test(program.name);
 const isCombined = (program: Program) => /^Combined /.test(program.name);
 
-export function scienceRows(program: Program, done: ReadonlySet<string>, creditsFor: CreditsFor): ScienceRow[] {
+// `highSchool` is the high school courses ticked on the checklist (see facts.ts).
+export function scienceRows(
+  program: Program,
+  done: ReadonlySet<string>,
+  creditsFor: CreditsFor,
+  highSchool: ReadonlySet<string> = new Set(),
+): ScienceRow[] {
   const courses = [...done].sort();
   const credits = (codes: string[]) => codes.reduce((sum, code) => sum + creditsFor(code), 0);
   const row = (title: string, status: RowStatus, more: Partial<ScienceRow> = {}): ScienceRow => ({
-    title, status, progress: null, counted: [], options: [], categories: null, check: null, ...more,
+    title, status, progress: null, counted: [], options: [], categories: null, check: null, ask: null, ...more,
   });
   const creditRow = (title: string, codes: string[], need: number) => {
     const have = credits(codes);
@@ -123,6 +141,21 @@ export function scienceRows(program: Program, done: ReadonlySet<string>, credits
   const upper = courses.filter((code) => level(code) >= 300);
   const upperScienceNeed = isHonours(program) ? 42 : 30;
 
+  // Each foundational subject is covered by a ticked high school course, or by 3 credits of
+  // 100-level courses in it (shown are the first ones that make 3 credits). A subject that's
+  // neither stays something to check: an unticked course might just not have been ticked.
+  const foundational = FOUNDATIONAL.map((part) => {
+    const ticked = part.highSchool.filter((key) => highSchool.has(key));
+    if (ticked.length > 0) return { ...part, covered: [highSchoolName(ticked[ticked.length - 1])] };
+    const firstYear: string[] = [];
+    for (const code of courses.filter((c) => subject(c) === part.subject && level(c) < 200)) {
+      if (credits(firstYear) >= 3) break;
+      firstYear.push(code);
+    }
+    return { ...part, covered: credits(firstYear) >= 3 ? firstYear : null };
+  });
+  const missing = foundational.filter((part) => part.covered === null);
+
   return [
     row("One lab science course", lab.length > 0 ? "done" : "todo", {
       counted: lab.slice(0, 1),
@@ -138,10 +171,18 @@ export function scienceRows(program: Program, done: ReadonlySet<string>, credits
     row("12 Arts credits", "check", {
       check: "Arts courses aren't on this site. The communication course doesn't count toward these.",
     }),
-    row("Foundational Biology, Chemistry and Physics", "check", {
+    row("Foundational Biology, Chemistry and Physics", missing.length === 0 ? "done" : "check", {
+      counted: foundational.flatMap((part) => part.covered ?? []),
       check:
-        "Only if you came without Biology 11 or 12, Chemistry 12 or Physics 12: 3 credits of " +
-        "100-level BIOL, CHEM or PHYS for each one missing.",
+        missing.length === 0
+          ? null
+          : missing
+              .map((part) => `Without ${part.without}: 3 credits of 100-level ${part.subject} (usually ${part.usually}).`)
+              .join(" "),
+      ask:
+        missing.length === 0
+          ? null
+          : missing.flatMap((part) => part.highSchool.map(highSchoolName)).join(" or "),
     }),
   ];
 }

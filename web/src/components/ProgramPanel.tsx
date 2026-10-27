@@ -1,4 +1,4 @@
-import { useEffect, useId, useRef, useState } from "react";
+import { useEffect, useId, useMemo, useRef, useState } from "react";
 import { programMajors, programSummary, treeCourses } from "@/lib/program";
 import type { CreditsFor, Major, RowProgress, RowStatus } from "@/lib/program";
 import { facultyOf, SCIENCE } from "@/lib/subjects";
@@ -6,6 +6,8 @@ import type { Elsewhere } from "@/lib/subjects";
 import type { Program, ProgramRequirement } from "@/lib/types";
 import { scienceRows } from "@/lib/science";
 import type { ScienceRow } from "@/lib/science";
+import { useSavedFacts } from "@/lib/savedFacts";
+import { QuickFacts } from "./FactsChecklist";
 import { StripeSample } from "./ProgramStripe";
 import { TickChip } from "./Status";
 import { usePanelFocus } from "./usePanelFocus";
@@ -329,6 +331,8 @@ function Requirements({
   onChange: () => void;
 } & CodeLinks) {
   const { rowsDone, rows, spareCredits } = programSummary(progress, links.done, creditsFor);
+  const { facts } = useSavedFacts();
+  const highSchool = useMemo(() => new Set(facts.highSchool), [facts.highSchool]);
   return (
     <>
       <button
@@ -397,7 +401,7 @@ function Requirements({
       })}
 
       {program.degree === SCIENCE.degree && (
-        <ScienceRules rows={scienceRows(program, links.done, creditsFor)} {...links} />
+        <ScienceRules rows={scienceRows(program, links.done, creditsFor, highSchool)} {...links} />
       )}
     </>
   );
@@ -459,10 +463,11 @@ function ScienceRules({ rows, ...links }: { rows: ScienceRow[] } & CodeLinks) {
                   ))}
                 </div>
               )}
-              {row.status === "done" && row.counted.length > 0 && (
+              {row.counted.length > 0 && (
                 <p className="mt-1 text-xs text-ink-muted">With {row.counted.join(", ")}</p>
               )}
               {row.check && <p className="mt-1 text-xs text-ink-muted">Check this yourself · {row.check}</p>}
+              {row.ask && <QuickFacts text={row.ask} />}
             </div>
           </li>
         ))}

@@ -28,6 +28,19 @@ export const HIGH_SCHOOL_COURSES: { key: string; name: string; texts: RegExp }[]
   },
 ];
 
+// "Not open to students with credit for Chemistry 12" (CHEM 100, 110 and 111, and PHYS 100 with
+// PHYS 12), "Not open to students who have credit for Biology 12 (including AP, IB)" (BIOL 111):
+// courses for students without a high school course.
+const NOT_OPEN = /Not open to students (?:with|who have) credit for ((?:[A-Z]{3,4}|[A-Z][a-z]+) 1[12])\b/g;
+
+// The high school courses that rule out a course, by key, from its description.
+export function highSchoolExclusions(text: string): string[] {
+  const keys = [...text.matchAll(NOT_OPEN)].flatMap(([, name]) =>
+    HIGH_SCHOOL_COURSES.filter((course) => course.texts.test(name)).map((course) => course.key),
+  );
+  return [...new Set(keys)];
+}
+
 const YEARS: Record<string, number> = { first: 1, second: 2, third: 3, fourth: 4, "1st": 1, "2nd": 2, "3rd": 3, "4th": 4 };
 const YEAR = "(first|second|third|fourth|1st|2nd|3rd|4th)";
 
@@ -51,12 +64,14 @@ const WITH_MORE = /^(.+? standing) (or|and) ((?:the )?(?:instructor's )?permissi
 // The checklist questions a "check yourself" text asks, so a course panel can offer them right
 // there: whether it's about year standing, and which high school courses it names. A high
 // school course with a grade ("85% or higher in Physics 12") isn't asked: ticking it wouldn't
-// answer that.
+// answer that. One that rules the course out ("Not open to students with credit for CHEM 12")
+// is: ticking it turns the course "no credit".
 export function factQuestions(text: string): { standing: boolean; highSchool: string[] } {
   const parts = text.split(/,? or |,? and |; /).map((part) => part.trim());
-  const highSchool = /%|score/.test(text)
+  const named = /%|score/.test(text)
     ? []
     : HIGH_SCHOOL_COURSES.filter((course) => parts.some((part) => course.texts.test(part))).map((c) => c.key);
+  const highSchool = [...new Set([...highSchoolExclusions(text), ...named])];
   const standing =
     factStatus(text, NO_FACTS) !== null && highSchool.length === 0
       ? true

@@ -1,5 +1,5 @@
 import { splitDescription } from "./details";
-import { factStatus, NO_FACTS } from "./facts";
+import { factStatus, HIGH_SCHOOL_COURSES, highSchoolExclusions, NO_FACTS } from "./facts";
 import type { Facts } from "./facts";
 import type { Course, ReqNode } from "./types";
 
@@ -150,7 +150,8 @@ function treeCodes(node: ReqNode): string[] {
 
 // What a course looks like to someone who has finished the courses in `done`:
 // - "done": finished.
-// - "no-credit": they've finished a course that rules this one out (CPSC 100 after CPSC 110).
+// - "no-credit": they've finished a course that rules this one out (CPSC 100 after CPSC 110),
+//   or ticked a high school course that does (CHEM 111 with Chemistry 12).
 // - "not-needed": every way into it goes through a "no-credit" course, so they wouldn't take it
 //   (CPSC 107 needs CPSC 103, which isn't for students with CPSC 110).
 // - "locked": a requirement isn't met.
@@ -164,7 +165,8 @@ export const WONT_TAKE: ReadonlySet<CourseStatus> = new Set(["no-credit", "not-n
 export interface CourseProgress {
   status: CourseStatus;
   toCheck: string[]; // for "check": what to check yourself, e.g. ["Third-year standing"]
-  // For "no-credit": the finished courses that rule it out, e.g. ["CPSC 110"].
+  // For "no-credit": the finished courses that rule it out, e.g. ["CPSC 110"], or the high
+  // school courses, e.g. ["Chemistry 12"].
   // For "not-needed": the finished courses that rule out its way in.
   excludedBy: string[];
   blockedBy: string[]; // for "not-needed": its prerequisites that are "no-credit", e.g. ["CPSC 103"]
@@ -187,10 +189,16 @@ export function courseProgress(
     }
   }
 
-  // Courses a finished course rules out, with the finished courses that do it.
+  // Courses a finished course rules out, with the finished courses that do it, and courses
+  // a high school course they've ticked rules out, with its name ("Chemistry 12").
   const ruledOut = new Map<string, string[]>();
   for (const course of courses) {
-    const by = exclusionsOf(course).filter((code) => done.has(code));
+    const by = [
+      ...exclusionsOf(course).filter((code) => done.has(code)),
+      ...highSchoolExclusions(course.description)
+        .filter((key) => facts.highSchool.has(key))
+        .map((key) => HIGH_SCHOOL_COURSES.find((c) => c.key === key)!.name),
+    ];
     if (by.length > 0 && !done.has(course.code)) ruledOut.set(course.code, by);
   }
 

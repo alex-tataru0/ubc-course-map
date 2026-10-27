@@ -12,8 +12,8 @@ const courses = ["cpsc", "math", "chem", "phys", "biol", "stat"].flatMap(
 );
 const creditsFor = creditsLookup(courses);
 const program = (id: string) => [...cpsc.programs, ...science.programs].find((p) => p.id === id)!;
-const rows = (p: Program, done: string[]) =>
-  Object.fromEntries(scienceRows(p, new Set(done), creditsFor).map((row) => [row.title, row]));
+const rows = (p: Program, done: string[], highSchool: string[] = []) =>
+  Object.fromEntries(scienceRows(p, new Set(done), creditsFor, new Set(highSchool)).map((row) => [row.title, row]));
 
 describe("isScience", () => {
   it("knows Science subjects and the Science courses of other faculties", () => {
@@ -67,6 +67,31 @@ describe("scienceRows", () => {
     expect(rows(major, [])["…of which in Science"].progress).toBe("0 of 30 cr");
     expect(rows(program("cpsc-honours"), [])["…of which in Science"].progress).toBe("0 of 42 cr");
     expect(rows(program("cpsc-math-honours"), [])).toHaveProperty(["3 credits in 5 of the 7 Science Breadth categories"]);
+  });
+
+  describe("the foundational row", () => {
+    const foundational = (done: string[], highSchool: string[] = []) =>
+      rows(major, done, highSchool)["Foundational Biology, Chemistry and Physics"];
+
+    it("is done with the high school courses ticked", () => {
+      expect(foundational([], ["BIOL 11", "CHEM 12", "PHYS 12"])).toMatchObject({
+        status: "done", counted: ["Biology 11", "Chemistry 12", "Physics 12"], check: null, ask: null,
+      });
+      expect(foundational([], ["BIOL 11", "BIOL 12", "CHEM 12", "PHYS 12"]).counted[0]).toBe("Biology 12");
+    });
+
+    it("is done with 3 credits of 100-level courses in each subject", () => {
+      expect(foundational(firstYears)).toMatchObject({ status: "done", counted: ["BIOL 112", "CHEM 121", "PHYS 117"] });
+      // MATH and 200-level courses don't count.
+      expect(foundational(["BIOL 200", "CHEM 233", "PHYS 200"]).status).toBe("check");
+    });
+
+    it("names only the subjects still to check", () => {
+      const row = foundational(["CHEM 121"], ["BIOL 12"]);
+      expect(row).toMatchObject({ status: "check", counted: ["Biology 12", "CHEM 121"], ask: "Physics 12" });
+      expect(row.check).toBe("Without Physics 12: 3 credits of 100-level PHYS (usually PHYS 100).");
+      expect(foundational([]).ask).toBe("Biology 11 or Biology 12 or Chemistry 12 or Physics 12");
+    });
   });
 
   it("gives Science One four breadth categories", () => {

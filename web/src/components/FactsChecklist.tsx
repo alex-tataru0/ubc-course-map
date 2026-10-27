@@ -49,7 +49,7 @@ export default function FactsChecklist() {
 // questions, so it can be answered right there: "Your year standing: 1st 2nd 3rd 4th or
 // higher" for "Third-year standing", "I have Physics 12" for "PHYS 12".
 export function QuickFacts({ text }: { text: string }) {
-  const { facts, setStanding, toggleHighSchool } = useSavedFacts();
+  const { facts, setStanding } = useSavedFacts();
   const { standing, highSchool } = factQuestions(text);
   if (!standing && highSchool.length === 0) return null;
   return (
@@ -60,16 +60,22 @@ export function QuickFacts({ text }: { text: string }) {
           <YearButtons standing={facts.standing} onPick={setStanding} />
         </>
       )}
-      {highSchool.map((key) => (
-        <HighSchoolTick
-          key={key}
-          name={`I have ${nameOf(key)}`}
-          checked={facts.highSchool.includes(key)}
-          onToggle={() => toggleHighSchool(key)}
-        />
-      ))}
+      <HighSchoolTicks keys={highSchool} />
     </span>
   );
+}
+
+// "I have Chemistry 12" ticks for some of the checklist's high school courses, by key.
+export function HighSchoolTicks({ keys }: { keys: string[] }) {
+  const { facts, toggleHighSchool } = useSavedFacts();
+  return keys.map((key) => (
+    <HighSchoolTick
+      key={key}
+      name={`I have ${nameOf(key)}`}
+      checked={facts.highSchool.includes(key)}
+      onToggle={() => toggleHighSchool(key)}
+    />
+  ));
 }
 
 function YearButtons({

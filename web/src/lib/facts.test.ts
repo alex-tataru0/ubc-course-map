@@ -1,6 +1,6 @@
 import { readFileSync, readdirSync } from "node:fs";
 import { describe, expect, it } from "vitest";
-import { factQuestions, factStatus, HIGH_SCHOOL_COURSES, inPlace, NO_FACTS } from "./facts";
+import { factQuestions, factStatus, HIGH_SCHOOL_COURSES, highSchoolExclusions, inPlace, NO_FACTS } from "./facts";
 import type { Facts } from "./facts";
 import { planPath } from "./path";
 import { courseProgress, notMetByFacts } from "./progress";
@@ -99,6 +99,23 @@ describe("factQuestions", () => {
     // Ticking Physics 12 wouldn't answer a grade in it.
     expect(factQuestions("85% or higher in Physics 12")).toEqual({ standing: false, highSchool: [] });
     expect(factQuestions("advanced credit for MATH 100")).toEqual({ standing: false, highSchool: [] });
+    // A high school course that rules the course out is asked, even next to a test score.
+    expect(
+      factQuestions("Not open to students with credit for CHEM 12. A satisfactory score on the UBC Chemistry Basic Skills Test"),
+    ).toEqual({ standing: false, highSchool: ["CHEM 12"] });
+  });
+});
+
+describe("highSchoolExclusions", () => {
+  it("finds the high school courses that rule a course out", () => {
+    const of = (code: string) => highSchoolExclusions(courses.find((c) => c.code === code)!.description);
+    expect(of("CHEM 100")).toEqual(["CHEM 12"]); // "credit for Chemistry 12"
+    expect(of("CHEM 111")).toEqual(["CHEM 12"]); // "credit for CHEM 12"
+    expect(of("PHYS 100")).toEqual(["PHYS 12"]);
+    expect(of("BIOL 111")).toEqual(["BIOL 12"]); // "who have credit for Biology 12 (including AP, IB)"
+    expect(of("CHEM 121")).toEqual([]);
+    const all = courses.filter((c) => highSchoolExclusions(c.description).length > 0).map((c) => c.code);
+    expect(all.sort()).toEqual(["BIOL 111", "CHEM 100", "CHEM 110", "CHEM 111", "PHYS 100"]);
   });
 });
 
@@ -113,6 +130,18 @@ describe("with facts", () => {
     expect(status("BIOL 112")).toBe("check"); // CHEM 12, and BIOL 11 or 12
     expect(status("BIOL 112", all)).toBe("can-take");
     expect(status("CPSC 121", all)).toBe("can-take"); // Pre-calculus 12, with CPSC 110 to take at the same time
+  });
+
+  it("turns courses for students without a high school course 'no credit' once it's ticked", () => {
+    const progress = (code: string, f: Facts = NO_FACTS) => courseProgress(courses, new Set(), f).get(code)!;
+    expect(progress("CHEM 111").status).toBe("check");
+    expect(progress("CHEM 111", all)).toMatchObject({ status: "no-credit", excludedBy: ["Chemistry 12"] });
+    expect(progress("PHYS 100", all)).toMatchObject({ status: "no-credit", excludedBy: ["Physics 12"] });
+    expect(progress("BIOL 111", facts({ highSchool: new Set(["BIOL 12"]) })).status).toBe("no-credit");
+    // Biology 11 alone doesn't rule BIOL 111 out.
+    expect(progress("BIOL 111", facts({ highSchool: new Set(["BIOL 11"]) })).status).toBe("check");
+    // A finished course still counts as done.
+    expect(courseProgress(courses, new Set(["CHEM 111"]), all).get("CHEM 111")!.status).toBe("done");
   });
 
   it("says which answer makes a course 'not yet'", () => {
