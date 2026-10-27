@@ -1,0 +1,1167 @@
+{
+  "subject": "ANTH",
+  "source": "https://vancouver.calendar.ubc.ca/course-descriptions/subject/anthv",
+  "courses": [
+    {
+      "code": "ANTH 100",
+      "title": "Introduction to Cultural Anthropology",
+      "credits": "3-4",
+      "description": "Basic concepts and methods of anthropology; culture and race; comparative study of social systems, religion, symbolism, art, and other institutions. Examples are drawn from a variety of cultures.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 200",
+      "title": "Introduction to Problems in Method and Theory in Anthropology",
+      "credits": "3",
+      "description": "A survey of basic concepts and procedures in the cross-cultural study of human societies.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 201",
+      "title": "Culture, Race and Inequality",
+      "credits": "3",
+      "description": "Anthropological critiques of racism, colonialism and ongoing structural inequalities.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 202",
+      "title": "Contemporary Social Problems",
+      "credits": "3-6",
+      "description": "Cultural background to contemporary events; problems of nationalism and regional conflicts, economic and social development, gender, religion and social change. Course may stress a different region of the world in different years.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 203",
+      "title": "Anthropology of Drugs",
+      "credits": "3",
+      "description": "Illicit and/or licit drugs through historical, political, cultural and societal examples.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 205",
+      "title": "The Anthropology of Insurrections and Revolution",
+      "credits": "3",
+      "description": "Analysis of insurrections and revolutions from a comparative perspective.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 206",
+      "title": "Witches, Vampires, and Zombies: Anthropology of the Supernatural",
+      "credits": "3",
+      "description": "Anthropological approaches to supernatural beliefs in both traditional and contemporary societies.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 210",
+      "title": "Eating Culture",
+      "credits": "3",
+      "description": "An anthropological exploration of how the collection, cultivation and consumption of food shapes human society and culture. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 213",
+      "title": "Sex, Gender, and Culture",
+      "credits": "3",
+      "description": "An anthropological exploration of how understandings of sex and gender are culturally and historically shaped.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 214",
+      "title": "The Family in Cross-Cultural Perspective",
+      "credits": "3-6",
+      "description": "A cross-cultural comparison of family and kinship to provide an understanding of variations in the structure and meaning of marriage relations; forms of domestic organization; and the sexual division of labour, property, and inheritance.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 215",
+      "title": "Japanese Popular Culture",
+      "credits": "3",
+      "description": "Television shows, dramas, movies, advertising, marketing, manga (Japanese style comics), anime (Japanese animation), theatrical forms, popular literature, popular music, fashion fads, tourism, toys, and sports.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 217",
+      "title": "Culture and Communication",
+      "credits": "3",
+      "description": "The study of communication; the relation between communication and its cultural context with emphasis on verbal and non-verbal communication, cross-cultural communication, and cultural differences in the use of oral, literate, and electronic media.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 220",
+      "title": "Contemporary Indigenous Issues in British Columbia",
+      "credits": "3",
+      "description": "Anthropological perspectives on contemporary Indigenous issues in British Columbia.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 221",
+      "title": "Contemporary Indigenous Cultural Expressions",
+      "credits": "3",
+      "description": "Forms and styles of indigenous expressive arts, and their current place in the lives of Indigenous Peoples. It is recommended students complete ANTH 220 before enrolling in this course.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 227",
+      "title": "Introduction to Medical Anthropology",
+      "credits": "3",
+      "description": "An examination of health and illness, in their social and cultural contexts.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 240",
+      "title": "Sport in Society and Culture",
+      "credits": "3",
+      "description": "Sport within the context of historic and contemporary society.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 241",
+      "title": "Introduction to Museums and Museology",
+      "credits": "3",
+      "description": "The critical study of anthropology museums as social institutions and material culture research and classification from the late 19th century to the present day.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 242",
+      "title": "Visions of the Sacred: Introduction to the Anthropology of Religion",
+      "credits": "3",
+      "description": "Comparative, cross-cultural approach to human engagement with the sacred. Examines religions as complex systems that share certain fundamental common features.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 275",
+      "title": "Migration and (Im)mobilities: Anthropological Perspectives",
+      "credits": "3",
+      "description": "Introduction to foundational topics in the anthropological study of migration, asylum, border-crossing, and (im)mobilities. Recommended: At least one 100-level or 200-level social science course (e.g. ANTH, SOCI, GEOG, POLI).",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 300",
+      "title": "Contemporary Anthropological Theory",
+      "credits": "3-6",
+      "description": "Contemporary approaches to society and culture in anthropology. Prerequisite: ANTH 200 is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": "ANTH 200 is recommended"
+    },
+    {
+      "code": "ANTH 301",
+      "title": "Ethnography of Eurasia",
+      "credits": "3",
+      "description": "Eurasia, including the Russian Federation, Central Asia, and Mongolia, with an emphasis on issues of power, identities, and transnational mobility in the region.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 302",
+      "title": "Ethnography of South Asia",
+      "credits": "3-6",
+      "description": "A specialized study of ethnographic and theoretical problems relating to South Asia.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 303",
+      "title": "Ethnography of Special Areas",
+      "credits": "3-6",
+      "description": "A specialized study of ethnographic and theoretical problems in one area. Different culture areas or regions may be selected each term. Consult the Department for this year's offerings.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 304",
+      "title": "Ethnography of the Northwest Coast",
+      "credits": "3-6",
+      "description": "Specialized study of ethnographic and theoretical problems of the region.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 307",
+      "title": "Ethnography of Korea",
+      "credits": "3-6",
+      "description": "An exploration of ethnographic, topical, and theoretical issues.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 308",
+      "title": "Ethnography of Sub-Saharan Africa",
+      "credits": "3-6",
+      "description": "An exploration of ethnographic, topical, and theoretical issues.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 309",
+      "title": "Ethnography of the Himalaya: Diversity & Development",
+      "credits": "3",
+      "description": "Ethnographic engagement with lives of people in and from the Himalayan region: including parts of Bhutan, China, India, Nepal, Pakistan; Tibetan cultural zones traversing these countries; and diasporas.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 311",
+      "title": "Ethnography of the Middle East",
+      "credits": "3",
+      "description": "Critical analysis of colonial experience and cultural representations of the Middle East, particularly visions of orientalism and geopolitical discourses. Draws on ethnographic literature to consider contemporary life and subjectivities.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 312",
+      "title": "Anthropology of Gender & Sexuality",
+      "credits": "3",
+      "description": "Ethnographic and theoretical approaches to gender and sexuality, in cross-cultural context.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 313",
+      "title": "The Anthropology of Social and Cultural Relationships",
+      "credits": "3-6",
+      "description": "A survey of the social and cultural bases of relationships including changing family, kinship, social networks, groups, and organizations, based on theoretical analysis and case studies.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 314",
+      "title": "Anthropology of Childhood",
+      "credits": "3",
+      "description": "Examines the life stage of childhood through various anthropological perspectives, and the evolutionary and social factors that shape human childhood. Explores childhood activities and culture to critically engage with reasons behind distinct patterns in human upbringing.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 315",
+      "title": "Japanese Culture and Society",
+      "credits": "3",
+      "description": "Japanese culture and society: patterns of organization, value systems, family, education, work, minorities and diversity, harmony and conflict, urban/rural differences, gender, sexuality, youth, tradition, continuity, change, and future prospects.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 316",
+      "title": "Culture, Power & Politics",
+      "credits": "3",
+      "description": "Topics in political anthropology; ethnographic and theoretical approaches to nationalism, globalization, political systems, international movements and organizations; anthropology of the state.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 317",
+      "title": "Linguistic Anthropology",
+      "credits": "3-6",
+      "description": "A survey of the ethnographic uses of language data and the techniques of linguistic analysis.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 329",
+      "title": "Contemporary Indigenous Issues in a Global Perspective",
+      "credits": "3-6",
+      "description": "Anthropological perspectives on contemporary issues of public policy, law, and political activity, as they affect Indigenous Peoples in Canada and globally. Prerequisite: ANTH 220 is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": "ANTH 220 is recommended"
+    },
+    {
+      "code": "ANTH 330",
+      "title": "Anthropology of Rural Peoples and the Global Economy",
+      "credits": "3",
+      "description": "A comparative study of rural peoples (such as small-scale horticulturists, artisans and craft workers, peasants, fisherfolk, or industrial/manufacturing workers) in the global economy.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 331",
+      "title": "Art, Aesthetics and Anthropology",
+      "credits": "3-6",
+      "description": "Anthropological perspectives on art, aesthetics, and expressive culture.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 332",
+      "title": "Oral Tradition",
+      "credits": "3-6",
+      "description": "An ethnographic perspective on the dynamics of oral tradition in various oral and literate cultures; the characteristics and roles of oral genres including folktale, genealogy, oral history, autobiography, and myth in these societies; and the relationship between orality and literacy.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 333",
+      "title": "Language and Power",
+      "credits": "3",
+      "description": "A sociolinguistic examination of the role of language in articulating, maintaining, and subverting power relations in society.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 341",
+      "title": "Museums, Heritage and Memory",
+      "credits": "3-6",
+      "description": "Museums, galleries, monuments, and other cultural institutions' relations to our perception of history and geography.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 350",
+      "title": "Ethnography of the Pacific Islands: Polynesia and Micronesia",
+      "credits": "3-6",
+      "description": "Major cultural groupings in Polynesia and Micronesia, emphasizing both traditional cultures and the incorporation of the region into modern international institutions.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 351",
+      "title": "Ethnography of the Pacific Islands: Melanesia",
+      "credits": "3-6",
+      "description": "Major cultural groupings in Melanesia, emphasizing both traditional cultures and the incorporation of the region into modern international institutions.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 353",
+      "title": "Ethnography of Latin America",
+      "credits": "3",
+      "description": "Indigenous peoples of Latin America, emphasizing both pre-Columbian cultural traditions and socioeconomic and cultural changes from the Colonial period to the present.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 360",
+      "title": "Introduction to Ecological Anthropology",
+      "credits": "3",
+      "description": "Analysis of the relations between human societies and the ecological aspects of their environment (including technology, society, and ideology). Previously ANTH 460.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 362",
+      "title": "The Anthropology of Energy and Sustainability",
+      "credits": "3",
+      "description": "Human dimensions of energy resource extraction, production and consumption, emphasizing ethnographic case studies. Critical debates around alternative energy transitions in the context of changing climates, with attention to cultural and historical settings, community perspectives and social justice.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 375",
+      "title": "Refugees, Resistance, and Activism",
+      "credits": "3",
+      "description": "Examines the movements around refugee and immigrant rights in various geographic contexts, through the lens of ethnographic texts and media. Explores how migrants and refugees are taking an active role in transforming the global system of borders. Recommended pre-requisite: at least one 200-level social science course (e.g. ANTH, SOCI, GEOG, POLI)",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": "at least one 200-level social science course (e.g. ANTH, SOCI, GEOG, POLI)"
+    },
+    {
+      "code": "ANTH 376",
+      "title": "Diasporas and Belonging: Anthropological Perspectives",
+      "credits": "3",
+      "description": "Examines how multiple generations of migrants find, build, and reimagine what community and belonging are beyond the confines of the nation-state. Centres ethnographies of diasporic identity and personhood. Recommended: at least one 200-level social science course (e.g. ANTH, SOCI, GEOG, POLI).",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 378",
+      "title": "Anthropology of Media",
+      "credits": "3",
+      "description": "Analysis of contemporary mass media and of the anthropological use of media (photography, film, digital audio and video, etc.).",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 400",
+      "title": "History of Anthropology",
+      "credits": "3-6",
+      "description": "The development of anthropological theory and practice in institutional contexts. It is recommended students complete ANTH 300 before enrolling in this course.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 401",
+      "title": "First Peoples of North America",
+      "credits": "3",
+      "description": "Anthropological perspectives of indigenous cultures and societies of North America. Prerequisite: ANTH 329 is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": "ANTH 329 is recommended"
+    },
+    {
+      "code": "ANTH 402",
+      "title": "Ethnography of China",
+      "credits": "3-6",
+      "description": "Advanced studies in the ethnography of China, premodern and contemporary. Topics may include kinship, rural and urban social structure, stratification and mobility, religion, national power structures, and social change in Chinese society.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 403",
+      "title": "Ethnography of Special Areas",
+      "credits": "3-6",
+      "description": "An advanced study of ethnographic and theoretical problems. A different region may be studied each term.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 404",
+      "title": "Ethnography in Circumpolar North: Comparative Perspectives.",
+      "credits": "3-6",
+      "description": "An examination of relationships between indigenous people and nation states in Greenland, Canada, Alaska and Siberia, using ethnographic methods.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 407",
+      "title": "Principles of Field Work",
+      "credits": "3",
+      "description": "An examination of field work as the basic setting for ethnographic research. Research design; relationships with study participants, field techniques, and data analysis and presentation.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 408",
+      "title": "Field Methods",
+      "credits": "3-6",
+      "description": "Intensive examination and application of selected methods of ethnographic data-collection, e.g., visual anthropology, anthropological interviewing, genealogies, ethnographic semantics, life histories, oral traditions. Consult department for current description.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 409",
+      "title": "Topics in Applied Anthropology",
+      "credits": "3-6",
+      "description": "Advanced study of the theory and practice of applied, action, and consultancy anthropology. Topics may include the application of anthropology to questions of aboriginal rights and title, education, medicine, development, women and development, tourism, and other social issues.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 412",
+      "title": "Advanced Topics in the Anthropology of Gender",
+      "credits": "3",
+      "description": "Contemporary theory employed in the anthropological study of gender.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 414",
+      "title": "Anthropology of Globalization",
+      "credits": "3",
+      "description": "Theories on the global flow of people, commodities, images, and ideas with critical ethnographic attention to the different ways people respond to globalization.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 415",
+      "title": "Religion and Society",
+      "credits": "3-6",
+      "description": "Comparative study of religious beliefs, practices, and movements; relations between religious, social, and political institutions; religion as a force for stability and change; anthropological/sociological theories of religion.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 416",
+      "title": "The Ethnography of Japan",
+      "credits": "3",
+      "description": "Ethnographies about Japan and processes of conducting fieldwork on Japan, covering topics such as work, leisure, identity, tradition, popular culture, rural/urban lifestyles, gender, sexuality, internationalization. Recommended pre-requisites: one of ANTH 215, ANTH 315.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": "one of ANTH 215, ANTH 315"
+    },
+    {
+      "code": "ANTH 417",
+      "title": "Language, Culture, and Cognition",
+      "credits": "3-6",
+      "description": "The relationships between linguistic and cultural phenomena; how language affects normative and cognitive systems of thought and behaviour.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 418",
+      "title": "Anthropological Statistics",
+      "credits": "3",
+      "description": "Applications of statistical techniques to quantitative and qualitative data in Anthropology.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 421",
+      "title": "The Anthropology of Place and Space",
+      "credits": "3-6",
+      "description": "An anthropological understanding of the spatial dimensions of social practice, and the relationships of space to culture, history, and power.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 422",
+      "title": "Modes of Subsistence",
+      "credits": "3",
+      "description": "The nature of subsistence systems antedating or alternative to modern commercial systems. Introductory survey with basic readings; focus on problems such as the development of complex cultures without agriculture, the ambiguity of hunting and gathering, agricultural and other intensification, orchestration of the use of adjacent microenvironments. Of interest to students of archaeology, anthropology and cultural geography.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 423",
+      "title": "Ethnography of East Africa and the Swahili Coast",
+      "credits": "3",
+      "description": "The everyday lives of people who inhabit East Africa and the Swahili Coast, and consideration of slave trade, long distance migration, colonialism, nationalism, independence movements, religion, identity politics, music, gender, sexuality, health, ecotourism and conservation. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 427",
+      "title": "Topics in Medical Anthropology",
+      "credits": "3",
+      "description": "Anthropological perspectives on health, illness, and disability as represented by classic and contemporary research in selected topics in medical anthropology including disease and human evolution, illness and human ecology, culture and epidemiology, ethnomedical systems, the relationship between folk and biomedicine and the cultural construction and social organization of health care, illness and disability. Specific content will vary from year to year. Consult the Department brochure.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 428",
+      "title": "Medicine, Technology, Culture, and Society",
+      "credits": "3",
+      "description": "A medical anthropological perspective on medical science, technology, translational research, and clinical practice, in laboratory, clinic, family, social, and cultural contexts. Topics include explanatory models of health, acute and chronic illness, disability; social and cultural dimensions genetics; clinical interaction.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 429",
+      "title": "Global Health in Cross-Cultural Contexts",
+      "credits": "3",
+      "description": "Includes examination of the social and cultural dimensions of specific life-threatening emerging and re-emerging infectious diseases, the political economy of health, cultural interpretations of illness and healing, medical pluralism, therapy management, and the cultural construction of efficacy.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 430",
+      "title": "Indigenous Governance, British Columbia",
+      "credits": "3",
+      "description": "Indigenous perspectives on governance, authority, and jurisdiction as applied to British Columbia First Nations. Recommended: ANTH 220.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 431",
+      "title": "Museum Practice and Curatorship",
+      "credits": "3-6",
+      "description": "Management of museum collections and their public presentation, addressing questions of access, collaboration, and cultural property. The public interpretation of anthropological concepts and materials utilizing the programs and facilities of the Museum of Anthropology. Prerequisite: ANTH 341",
+      "prereq": {
+        "text": "ANTH 341",
+        "tree": "ANTH 341",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 432",
+      "title": "The Anthropology of Public Representation",
+      "credits": "3-6",
+      "description": "The public presentation and interpretation of anthropological concepts and materials utilizing the programs and facilities of the Museum of Anthropology. Prerequisite: ANTH 341 Permission of the department is also acceptable.",
+      "prereq": {
+        "text": "ANTH 341 Permission of the department is also acceptable",
+        "tree": {
+          "one_of": [
+            "ANTH 341",
+            {
+              "other": "Permission of the department is also acceptable"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 433",
+      "title": "Directed Studies",
+      "credits": "3-6",
+      "description": "General reading and/or a research undertaking, with the agreement, and under the supervision, of a Department faculty member selected by the student. No more than six credits of Directed Studies may be taken for credit toward the Major or Honours program.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 435",
+      "title": "The Japanese Tea Ceremony: Ethnography of Performance, Practice, and Ritual",
+      "credits": "3",
+      "description": "An exploration of Chanoyu, Japanese Tea Practice, as a culturally embedded ritual, performance, and aesthetic form, and as a way of understanding underlying elements of Japanese culture. This course has a studio component and a nominal fee may be charged.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 437",
+      "title": "Gardens of Culture: The Anthropology of Food Systems",
+      "credits": "3",
+      "description": "Anthropological approaches to foodways and agricultural sustainability, particularly small-scale producers and communities. Includes ethnographic analysis of food movements, food systems and the socio-economic contexts of food provisioning and food production. Recommended: Third year status.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 448",
+      "title": "Anthropology Horizons: Navigating Careers and Shaping Research Futures",
+      "credits": "3",
+      "description": "Essential research and writing skills for graduate school preparation and anthropology career paths. Restricted to students in Anthropology honours, major, and minor programs with 3rd year standing or higher (or permission of instructor).",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 449",
+      "title": "Honours Tutorial",
+      "credits": "6-12",
+      "description": "Will usually require the presentation of at least one research paper.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 451",
+      "title": "Conservation of Organic Materials",
+      "credits": "3-6",
+      "description": "Conservation of organic materials within a museum environment; the nature of materials, mechanisms of deterioration and principles of preventive conservation. Recommended for students intending to work with cultural materials. Prerequisite: Permission of instructor required.",
+      "prereq": {
+        "text": "Permission of instructor required",
+        "tree": {
+          "other": "Permission of instructor required"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 452",
+      "title": "Conservation of Inorganic Materials",
+      "credits": "3",
+      "description": "Conservation of inorganic materials within a museum environment; the nature of materials, mechanisms of deterioration and principles of preventive conservation. Recommended for students intending to work with cultural materials. Prerequisite: Permission of instructor is required.",
+      "prereq": {
+        "text": "Permission of instructor is required",
+        "tree": {
+          "other": "Permission of instructor is required"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 461",
+      "title": "Anthropological Study of Local Ecological Knowledge",
+      "credits": "3",
+      "description": "Analysis of the concepts of ecological anthropology via the medium of local ecological knowledge. ANTH 360 is recommended as background.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 462",
+      "title": "Special Topics in Ecological Anthropology",
+      "credits": "3",
+      "description": "May include environmental discourse and social movements, anthropological contributions to ecological management systems, or examination of emerging issues in the field. ANTH 360 is recommended as background.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 470",
+      "title": "Topics in Contemporary Theory",
+      "credits": "3-6",
+      "description": "Selected topics in contemporary social and cultural theory which contribute to anthropological analyses. Topics may include Marxist anthropology, critical theory, theories of culture, phenomenology, behavioural ecology, structuralism, hermeneutics, formal theory and examination of specific social theorists.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 471",
+      "title": "Anthropology of Law",
+      "credits": "3",
+      "description": "Cross-cultural study of the operation of law within contested systems of meaning, the social organization of law, and forms of consciousness of the participants in legal/justice practices.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 472",
+      "title": "Anthropological Study of Social Inequality",
+      "credits": "3",
+      "description": "An anthropological perspective on the historical origins and theoretical explanations of social inequality.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 475",
+      "title": "Racial and Sexual Politics of (Im)mobility",
+      "credits": "3",
+      "description": "Combined anthropological approaches with interdisciplinary theories to understand experiences of mobilities and immobilities shaped by race, gender, sexuality, citizenship and class. Recommended: ANTH 375 or 376, or other upper-level courses focused on migration, gender and sexuality, or social inequality.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 478",
+      "title": "Ethnographic Film Methods",
+      "credits": "3-6",
+      "description": "Ethnographic digital video production, including methods of ethnographic fieldwork, creation of field notes, and research design; basics of digital video planning, production, and editing. Production fees are charged for this course. Prerequisite: ANTH 378 is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": "ANTH 378 is recommended"
+    },
+    {
+      "code": "ANTH 480",
+      "title": "Urban Ethnographic Field School (UEFS)",
+      "credits": "3-6",
+      "description": "Volunteering and fieldwork based in community organizations with theoretical approaches to urban spaces. Students will engage in collaborative research while considering a range of theoretical and methodological approaches. Students may earn a maximum of 6 credits from ANTH 480 and SOCI 480.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 495",
+      "title": "Advanced Studies in Anthropology",
+      "credits": "3-6",
+      "description": "An intensive examination of selected topics in Anthropology. Consult the Department for this year's offerings.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 500",
+      "title": "History of Anthropological Thought",
+      "credits": "6",
+      "description": "Various approaches to anthropology, from classical to contemporary. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 501",
+      "title": "Social Structure and Kinship",
+      "credits": "2-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 502",
+      "title": "Advanced Ethnography of a Special Area",
+      "credits": "2-18",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 505",
+      "title": "Religion and Society",
+      "credits": "2-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 506",
+      "title": "Current Research in Anthropology",
+      "credits": "3-6",
+      "description": "The relationship between current theoretical issues and research methods. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 510",
+      "title": "Comparative and Developmental Studies in Archaeology",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 512",
+      "title": "Language and Culture",
+      "credits": "2-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 513",
+      "title": "Advanced Studies in Feminist Anthropology",
+      "credits": "3-6",
+      "description": "Feminist approaches to ethnography, theory, methodology; current issues in feminist anthropology; gender relations; feminist anthropology and postmodernism. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 515",
+      "title": "Cultural Evolution and Cultural Ecology",
+      "credits": "2-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 516",
+      "title": "Qualitative Methods in Anthropology",
+      "credits": "3",
+      "description": "A discussion of selected methods used to observe, describe, and interpret cultural phenomena and social organization, including participant observation, interviewing, ethnographic semantics, life histories, componential analysis, and photography. Attention will also be given to ethics in anthropological research and writing and to such analytic matters as the nature of description, conceptualization, generalization, and content analysis. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 517",
+      "title": "Archaeological Methods",
+      "credits": "3",
+      "description": "A discussion of selected basic data-gathering methods in their relation to the development of ideas about the archaeological record. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 518",
+      "title": "Museum Methods",
+      "credits": "3-6",
+      "description": "Analytical approaches to the study of museums and collections. Methods of field collecting, collections research, laboratory procedures, visitor studies, social organization of museum and related cultural industries, exhibit and program evaluation techniques and the ethics of museum research and practice. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 519",
+      "title": "Seminar in Medical Anthropology",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 520",
+      "title": "Advanced Prehistory of a Special Area",
+      "credits": "2-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 527",
+      "title": "Advanced Archaeological Methods",
+      "credits": "3",
+      "description": "An intensive review of analytical approaches to the study of archaeological data and their applications. Includes research design; sampling strategies; analytical lab procedures; classification and typology; and multivariate analysis and other statistical procedures. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 528",
+      "title": "Advanced Quantitative Methods",
+      "credits": "3",
+      "description": "Introduction to the anthropological application of a variety of quantitative techniques: sampling designs, analysis of variance and regression, multi-way contingency tables, multivariate analysis. A series of lectures will outline the logic and exhibit applications that have been made. Students will then generate their own application and presentation. Access to data files specific to the substantive field of cultural anthropology, archaeology, physical anthropology is provided. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 530",
+      "title": "Social Change",
+      "credits": "2-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 532",
+      "title": "Field Methods",
+      "credits": "2-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 534",
+      "title": "Special Advanced Courses",
+      "credits": "2-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 540",
+      "title": "Advanced Seminar",
+      "credits": "2-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 541",
+      "title": "Advanced Seminar in Critical Museum Anthropology",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 545",
+      "title": "Graduate Research Seminar",
+      "credits": "2-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 548",
+      "title": "Major Essay",
+      "credits": "0",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 549",
+      "title": "Master's Thesis",
+      "credits": "6-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 551",
+      "title": "Cultural Studies in Communication and Interpretation",
+      "credits": "3-6",
+      "description": "History, theories, principles and techniques of communication and interpretation of cultural materials. Topics include examination of how various media (script, objects, film, video) are used to interpret histories, society, and culture in museums, art galleries, historic sites and related areas; and how communication programs are planned, implemented and assessed. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ANTH 649",
+      "title": "Doctoral Dissertation",
+      "credits": "0",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    }
+  ]
+}

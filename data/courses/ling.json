@@ -1,0 +1,938 @@
+{
+  "subject": "LING",
+  "source": "https://vancouver.calendar.ubc.ca/course-descriptions/subject/lingv",
+  "courses": [
+    {
+      "code": "LING 100",
+      "title": "Introduction to Language and Linguistics",
+      "credits": "3",
+      "description": "Study of language as a universal and uniquely human cognitive system: What universals do all languages share and how do languages differ? An investigation of sound systems, word-building, grammatical principles, language change, dialect variation, language acquisition, neurolinguistics. Recommended but not required for an honours, major, or minor in linguistics or speech sciences.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 101",
+      "title": "Languages of the World",
+      "credits": "3",
+      "description": "A survey of the linguistic map of the world, examining how languages are genetically classified and how different languages evolve. Principles underlying different writing systems and the decipherment of historical documents. Issues of languages in contact, minority language endangerment, language death and the role of English as a world language. Recommended but not required for an honours, major, or minor in linguistics or speech sciences.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 140",
+      "title": "Challenging Language Myths",
+      "credits": "3",
+      "description": "Critical consideration of a broad range of commonly held beliefs about language and its relation to the brain and cognition, learning, society, change and evolution. Note. This is an elective course that does not fulfill writing requirements in any faculty or the literature requirement in the Faculty of Arts. Credit will be granted for only one of LING 140 or ENGL 140. Equivalency: ENGL 140. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "ENGL 140",
+      "recommended": null
+    },
+    {
+      "code": "LING 142",
+      "title": "Language in the Age of AI",
+      "credits": "3",
+      "description": "Examines the impact of generative AI, large language models, and virtual assistants on human communication. Includes evolving language trends, ethics, and applications like speech recognition, text-to-speech, and machine translation. No computational or programming background required.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 170",
+      "title": "Introduction to How to Learn a Language",
+      "credits": "3",
+      "description": "Skills and strategies for second language acquisition, through the foundations of pronunciation, vocabulary, grammar, and pragmatics, connected to the practical, social, and personal challenges of language learning.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 200",
+      "title": "Linguistic Theory and Analysis I",
+      "credits": "3",
+      "description": "Introduction to phonetics and phonology; training in the identification and production of speech sounds; principles and methods for describing and writing the sound system of a language; phonological theory with reference to selected languages; the interface between phonology and morphology. Analytical practice and seminar discussion.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 201",
+      "title": "Linguistic Theory and Analysis II",
+      "credits": "3",
+      "description": "Introduction to grammatical analysis; morphology, syntax, semantics; synchronic analysis and description with illustrations from various languages. Analytical practice and seminar discussion.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 209",
+      "title": "Clinical Topics in Speech, Language, and Hearing Sciences",
+      "credits": "3",
+      "description": "Introduction to speech and hearing sciences, with emphasis on the clinical perspectives of audiology and speech pathology.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 222",
+      "title": "Language Acquisition",
+      "credits": "3",
+      "description": "Audition and speech perception, phonological organization, word learning, syntax, and pragmatics.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 242",
+      "title": "Computational Tools for Linguistic Analysis",
+      "credits": "3",
+      "description": "Practical skills for analyzing language using the Python programming language and relevant packages. Prerequisite: One of LING 100, LING 101, LING 140, LING 170, LING 200, LING 201, ENGL 330, ENGL 331. Recommended: LING 201 and CPSC 103 or CPSC 110 (or other programming experience).",
+      "prereq": {
+        "text": "One of LING 100, LING 101, LING 140, LING 170, LING 200, LING 201, ENGL 330, ENGL 331",
+        "tree": {
+          "one_of": [
+            "LING 100",
+            "LING 101",
+            "LING 140",
+            "LING 170",
+            "LING 200",
+            "LING 201",
+            "ENGL 330",
+            "ENGL 331"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": "Recommended: LING 201 and CPSC 103 or CPSC 110 (or other programming experience)"
+    },
+    {
+      "code": "LING 270",
+      "title": "Introduction to Studies in Second Language Acquisition",
+      "credits": "3",
+      "description": "Linguistic systems that learners of an additional language develop as they approximate towards the target language, and key questions about what this 'interlanguage' system reveals about how we learn languages. Prerequisite: One of LING 100, LING 101, LING 140, LING 170.",
+      "prereq": {
+        "text": "One of LING 100, LING 101, LING 140, LING 170",
+        "tree": {
+          "one_of": [
+            "LING 100",
+            "LING 101",
+            "LING 140",
+            "LING 170"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 300",
+      "title": "Studies in Grammar",
+      "credits": "3",
+      "description": "Introduction to syntactic analysis and theory, with emphasis on description and analysis of data from a wide variety of languages. Prerequisite: LING 201.",
+      "prereq": {
+        "text": "LING 201",
+        "tree": "LING 201",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 308",
+      "title": "The Languages of Africa",
+      "credits": "3",
+      "description": "Linguistic survey of the languages of Africa, including typological and historical connections between languages, individual and comparative surveys of sound systems, word structures, sentence structures, semantics, and sociolinguistic properties of a representative selection of languages. Credit will only be granted for one of LING 308 or AFST 308. Equivalency: AFST 308.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "AFST 308",
+      "recommended": null
+    },
+    {
+      "code": "LING 311",
+      "title": "Studies in Phonology",
+      "credits": "3",
+      "description": "Introduction to phonological analysis and theory, with a strong emphasis on description and analysis of data from a wide variety of languages. Prerequisite: LING 200.",
+      "prereq": {
+        "text": "LING 200",
+        "tree": "LING 200",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 313",
+      "title": "Introduction to Linguistic Phonetics and Speech Science",
+      "credits": "3",
+      "description": "The articulatory and acoustic properties of speech production and perception, including practice in phonetic transcription, instrumental recording, and the analysis of normal speech. Prerequisite: LING 200",
+      "prereq": {
+        "text": "LING 200",
+        "tree": "LING 200",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 314",
+      "title": "Instrumental Phonetics",
+      "credits": "3",
+      "description": "Physiological and/or acoustic phonetics. Focus on experimental methods and analysis techniques. Topics may include: source-filter theory; spectral and temporal acoustic analysis, inter-articulator timing and motor coordination. Prerequisite: LING 200. Recommended: LING 313",
+      "prereq": {
+        "text": "LING 200",
+        "tree": "LING 200",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": "Recommended: LING 313"
+    },
+    {
+      "code": "LING 315",
+      "title": "Sociolinguistics",
+      "credits": "3",
+      "description": "The systematic study of language as a social phenomenon. Credit will be granted for only one of LING 445 or 315. Prerequisite: All of LING 200, LING 201.",
+      "prereq": {
+        "text": "All of LING 200, LING 201",
+        "tree": {
+          "all_of": [
+            "LING 200",
+            "LING 201"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 319",
+      "title": "Historical Linguistics",
+      "credits": "3",
+      "description": "How and why languages change over time, and how languages can be grouped into families based on historical relationships. Methods of comparative and internal reconstruction of phonological, morphological, syntactic, semantic change. Social factors in language change. Not offered every year. Prerequisite: LING 200 and LING 201.",
+      "prereq": {
+        "text": "LING 200 and LING 201",
+        "tree": {
+          "all_of": [
+            "LING 200",
+            "LING 201"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 327",
+      "title": "Introduction to Semantics",
+      "credits": "3",
+      "description": "The analysis and theory of linguistic meaning with emphasis on formal techniques for semantic analysis and their application to empirical phenomena in language, including pragmatics. Prerequisite: LING 201.",
+      "prereq": {
+        "text": "LING 201",
+        "tree": "LING 201",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 333",
+      "title": "Research Methods for Linguistics",
+      "credits": "3",
+      "description": "Research methods used in linguistics and speech science. Emphasis on scientific reasoning, critical thinking, experimental design, and the ethics and methods of linguistic data-collection. Prerequisite: All of LING 200, LING 201.",
+      "prereq": {
+        "text": "All of LING 200, LING 201",
+        "tree": {
+          "all_of": [
+            "LING 200",
+            "LING 201"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 342",
+      "title": "Computational Models of Language",
+      "credits": "3",
+      "description": "A re-examination of major areas of linguistics from a computational perspective, including popular formalisms and algorithms associated with morphology, syntax, semantics, and discourse. Prerequisite: LING 242 and one of LING 201, ENGL 331 and one of STAT 200, STAT 203, STAT 251, STAT 302, MATH 302, PSYC 218.",
+      "prereq": {
+        "text": "LING 242 and one of LING 201, ENGL 331 and one of STAT 200, STAT 203, STAT 251, STAT 302, MATH 302, PSYC 218",
+        "tree": {
+          "all_of": [
+            "LING 242",
+            {
+              "one_of": [
+                "LING 201",
+                "ENGL 331"
+              ]
+            },
+            {
+              "one_of": [
+                "STAT 200",
+                "STAT 203",
+                "STAT 251",
+                "STAT 302",
+                "MATH 302",
+                "PSYC 218"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 345",
+      "title": "Pragmatics",
+      "credits": "3",
+      "description": "Selected topics in pragmatics and information structure, including variations in their cross-linguistic expression and the corresponding influence of sentence form on context. Prerequisite: One of LING 201, ENGL 331, PHIL 220, PHIL 222.",
+      "prereq": {
+        "text": "One of LING 201, ENGL 331, PHIL 220, PHIL 222",
+        "tree": {
+          "one_of": [
+            "LING 201",
+            "ENGL 331",
+            "PHIL 220",
+            "PHIL 222"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 405",
+      "title": "Morphology",
+      "credits": "3",
+      "description": "Analytic and theoretical consideration of the interrelation of word formation, sound patterning, and meaningful sentence structure. Not offered every year. Prerequisite: All of LING 300, LING 311. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "All of LING 300, LING 311",
+        "tree": {
+          "all_of": [
+            "LING 300",
+            "LING 311"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 410",
+      "title": "Advanced Phonology",
+      "credits": "3",
+      "description": "Current issues in phonological theory. Prerequisite: LING 311. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "LING 311",
+        "tree": "LING 311",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 415",
+      "title": "Language Across Time, Geography, and Society",
+      "credits": "3",
+      "description": "A cross-linguistic exploration of language change, discussing theories, data, and methods. Topics can include change across historical time periods, lifespan; change across regions, within areas; change due to language contact and other social and cultural factors. Prerequisite: One of LING 319, LING 315, LING 445, ENGL 318, ENGL 319, ENGL 324 and two of LING 300, LING 311, LING 313, LING 327.",
+      "prereq": {
+        "text": "One of LING 319, LING 315, LING 445, ENGL 318, ENGL 319, ENGL 324 and two of LING 300, LING 311, LING 313, LING 327",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "LING 319",
+                "LING 315",
+                "LING 445",
+                "ENGL 318",
+                "ENGL 319",
+                "ENGL 324"
+              ]
+            },
+            {
+              "other": "two of LING 300, LING 311, LING 313, LING 327"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 420",
+      "title": "Introduction to Linguistics",
+      "credits": "3",
+      "description": "General background to linguistic studies; the different approaches to the analysis of languages; synchronic and diachronic linguistics; phonetics, phonology, morphology, syntax, and semantics. Not available for credit toward a Major or Honours program in Linguistics.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 421",
+      "title": "Advanced Syntax",
+      "credits": "3",
+      "description": "Current issues in syntactic theory. Prerequisite: LING 300.",
+      "prereq": {
+        "text": "LING 300",
+        "tree": "LING 300",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 425",
+      "title": "Advanced Semantics",
+      "credits": "3",
+      "description": "Current issues in semantic theory. Prerequisite: One of LING 327, PHIL 220, PHIL 222. A basic introduction to syntax is recommended (e.g., LING 100, LING 201, or ENGL 331). This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "One of LING 327, PHIL 220, PHIL 222",
+        "tree": {
+          "one_of": [
+            "LING 327",
+            "PHIL 220",
+            "PHIL 222"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": "A basic introduction to syntax is recommended (e.g., LING 100, LING 201, or ENGL 331)"
+    },
+    {
+      "code": "LING 430",
+      "title": "Honours Seminar in Linguistics",
+      "credits": "3-6",
+      "description": "Research papers on general linguistic topics to be read and discussed.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 431",
+      "title": "Field Methods I",
+      "credits": "3",
+      "description": "Elicitation, transcription, organization, and analysis of linguistic data from a native speaker of a language not commonly studied. Practical experience in the use of fieldwork equipment. Prerequisite: All of LING 300, LING 311.",
+      "prereq": {
+        "text": "All of LING 300, LING 311",
+        "tree": {
+          "all_of": [
+            "LING 300",
+            "LING 311"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 432",
+      "title": "Field Methods II",
+      "credits": "3",
+      "description": "Elicitation, transcription, organization, and analysis of linguistic data from a native speaker of a language not commonly studied. Practical experience in the use of fieldwork equipment. Prerequisite: LING 431.",
+      "prereq": {
+        "text": "LING 431",
+        "tree": "LING 431",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 433",
+      "title": "Indigenous Languages of the Americas",
+      "credits": "3",
+      "description": "Survey of the Indigenous languages of the Americas. Genetic classification and areal similarities. Structures of representative languages. The present status of Indigenous languages in the Americas, language shift, and reclamation. (Note: this course is not necessarily offered every year.)",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 436",
+      "title": "Community-based Language Research",
+      "credits": "3",
+      "description": "Research methods and partnerships, ethical paradigms, the social, cultural and historical context of language research, and the relation of language research to pedagogy, policy and planning.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 440",
+      "title": "Language as a Social Instrument",
+      "credits": "3",
+      "description": "Language as a tool that shapes and is shaped by technology, media, politics and power relations in society. Considers multiple levels of linguistic structure from a cross-linguistic perspective. Prerequisite: All of LING 200, LING 201. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "All of LING 200, LING 201",
+        "tree": {
+          "all_of": [
+            "LING 200",
+            "LING 201"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 447",
+      "title": "Topics in Linguistics",
+      "credits": "3-12",
+      "description": "A capstone course for Linguistics and Speech Sciences majors, normally taken after three years of study. Individual sections will differ substantially; see online Course List for detailed descriptions and prerequisites. May be repeated for credit when content is different.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 448",
+      "title": "Directed Studies",
+      "credits": "3-6",
+      "description": "Supervisor and topic chosen by mutual agreement between student and Linguistics faculty member. Department Advisor approval is required.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 449",
+      "title": "Honours Essay",
+      "credits": "6",
+      "description": "",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 451",
+      "title": "Acquisition of Phonology",
+      "credits": "3",
+      "description": "Development of the phonological system in typical first language acquisition from the perspective of diverse linguistic topics. Phonetic transcription of child speech. Prerequisite: All of LING 222, LING 311.",
+      "prereq": {
+        "text": "All of LING 222, LING 311",
+        "tree": {
+          "all_of": [
+            "LING 222",
+            "LING 311"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 452",
+      "title": "Acquisition of Syntax",
+      "credits": "3",
+      "description": "Central issues in the first language acquisition of syntax, including early lexical and semantic development, acquisition of morphology, and syntactic development (e.g., word order, questions). Prerequisite: All of LING 222, LING 300.",
+      "prereq": {
+        "text": "All of LING 222, LING 300",
+        "tree": {
+          "all_of": [
+            "LING 222",
+            "LING 300"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 469",
+      "title": "Clinical Topics in Speech, Language, and Hearing Sciences",
+      "credits": "3",
+      "description": "Introduction to speech and hearing sciences with emphasis on the clinical perspectives of audiology and speech pathology.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 502",
+      "title": "Formal Foundations of Syntax & Semantics",
+      "credits": "4",
+      "description": "Conceptual underpinnings of the study of sentence structure and meaning; core issues in syntax and semantics; the place of syntax and semantics in a model of grammar; interface issues. Prerequisite: LING 520 and 525 are recommended. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": "LING 520 and 525 are recommended"
+    },
+    {
+      "code": "LING 503",
+      "title": "Topics in Language Acquisition",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 505",
+      "title": "Issues in Morphological Theory and Analysis",
+      "credits": "3-6",
+      "description": "Morphology from both historical and theoretical perspectives. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 507",
+      "title": "Formal Foundations of Phonetics & Phonology",
+      "credits": "4",
+      "description": "Conceptual underpinnings of the study of speech sounds; core issues in phonetics and phonology; the place of phonetics and phonology in a model of grammar; interface issues. Prerequisite: LING 508 and 510 are recommended. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": "LING 508 and 510 are recommended"
+    },
+    {
+      "code": "LING 508",
+      "title": "Phonetic Theory & Analysis",
+      "credits": "3",
+      "description": "Discussion and critical analysis of current issues in linguistic phonetics; instrumental analysis. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 510",
+      "title": "Phonological Theory and Analysis",
+      "credits": "3",
+      "description": "Discussion and critical analysis of current issues in phonological theory. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 511",
+      "title": "Topics in Phonology",
+      "credits": "3",
+      "description": "Prerequisite: LING 510. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "LING 510",
+        "tree": "LING 510",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 512",
+      "title": "Topics in Phonetics & Phonology",
+      "credits": "3",
+      "description": "Advanced topics in phonetics and phonology; in-depth analysis of specific issues and problems. Prerequisite: One of LING 508, LING 510. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "One of LING 508, LING 510",
+        "tree": {
+          "one_of": [
+            "LING 508",
+            "LING 510"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 513",
+      "title": "Topics in Phonetics",
+      "credits": "3",
+      "description": "Prerequisite: LING 508. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "LING 508",
+        "tree": "LING 508",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 518",
+      "title": "Advanced Research Seminar",
+      "credits": "3-9",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 519",
+      "title": "Problems in Comparative and Historical Linguistics",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 520",
+      "title": "Syntactic Theory and Analysis",
+      "credits": "3",
+      "description": "Discussion and critical analysis of current issues in syntactic theory. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 521",
+      "title": "Topics in Syntax",
+      "credits": "3",
+      "description": "Prerequisite: LING 520. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "LING 520",
+        "tree": "LING 520",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 522",
+      "title": "Topics in Syntax and Semantics",
+      "credits": "3",
+      "description": "Advanced topics in syntax and semantics; in-depth analysis of specific issues and problems. Prerequisite: One of LING 520, LING 525. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "One of LING 520, LING 525",
+        "tree": {
+          "one_of": [
+            "LING 520",
+            "LING 525"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 525",
+      "title": "Semantic Theory and Analysis",
+      "credits": "3",
+      "description": "Discussion and critical analysis of current issues in semantic theory. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 527",
+      "title": "Topics in Semantics",
+      "credits": "3",
+      "description": "Prerequisite: LING 525. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "LING 525",
+        "tree": "LING 525",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 530",
+      "title": "Linguistic Problems in a Special Area",
+      "credits": "3-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 531",
+      "title": "Field Methods in Linguistics I",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 532",
+      "title": "Field Methods in Linguistics II",
+      "credits": "3",
+      "description": "Prerequisite: LING 531. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "LING 531",
+        "tree": "LING 531",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 533",
+      "title": "Indigenous Languages of the Northwest",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 538",
+      "title": "Seminar on Language Acquisition in Children",
+      "credits": "3-6",
+      "description": "Linguistic analysis of data from children learning a first language. Intensive examination of a topic that will vary each year dealing with advanced research into phonological, syntactic, and semantic aspects of language acquisition. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 545",
+      "title": "Problems in Sociolinguistics",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 546",
+      "title": "Directed Reading in Topics related to Linguistics",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 548",
+      "title": "Major Essay",
+      "credits": "0",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 549",
+      "title": "Master's Thesis",
+      "credits": "3-18",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 560",
+      "title": "Managing and Preserving Linguistic Data",
+      "credits": "3",
+      "description": "Theory and practice of research data management and preservation with an emphasis on linguistic and language data. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "LING 649",
+      "title": "Doctoral Dissertation",
+      "credits": "0",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    }
+  ]
+}

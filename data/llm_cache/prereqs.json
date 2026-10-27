@@ -258,6 +258,66 @@
       ]
     }
   },
+  "All of (i) a score of 68% or higher in one of ECON 101, ECON 310; (ii) a score of 68% or higher in one of MATH 100, MATH 102, MATH 104, MATH 110, MATH 120, MATH 180, MATH 184; and (iii) completion of one of MATH 101, MATH 103, MATH 105, MATH 121": {
+    "model": "gemini-3.8-flash",
+    "problems": [],
+    "tree": {
+      "all_of": [
+        {
+          "one_of": [
+            {
+              "course": "ECON 101",
+              "min_grade": 68
+            },
+            {
+              "course": "ECON 310",
+              "min_grade": 68
+            }
+          ]
+        },
+        {
+          "one_of": [
+            {
+              "course": "MATH 100",
+              "min_grade": 68
+            },
+            {
+              "course": "MATH 102",
+              "min_grade": 68
+            },
+            {
+              "course": "MATH 104",
+              "min_grade": 68
+            },
+            {
+              "course": "MATH 110",
+              "min_grade": 68
+            },
+            {
+              "course": "MATH 120",
+              "min_grade": 68
+            },
+            {
+              "course": "MATH 180",
+              "min_grade": 68
+            },
+            {
+              "course": "MATH 184",
+              "min_grade": 68
+            }
+          ]
+        },
+        {
+          "one_of": [
+            "MATH 101",
+            "MATH 103",
+            "MATH 105",
+            "MATH 121"
+          ]
+        }
+      ]
+    }
+  },
   "All of CHBE 220, CHBE 241, CHBE 346 for students enrolled in CHBE, or third-year or higher standing in B.A.Sc. or B.Sc": {
     "model": "gemini-3.5-flash-lite",
     "problems": [],
@@ -388,6 +448,60 @@
       ]
     }
   },
+  "All of ECON 101 or ECON_O 101, ECON 102 or ECON_O 102; one of ECON 325, ECON 327, COMM 191, STAT 200, STAT 241, STAT 251, LFS 252, STAT_O 205, STAT_O 124, STAT_O 230": {
+    "model": "gemini-3.8-flash",
+    "problems": [],
+    "tree": {
+      "all_of": [
+        {
+          "one_of": [
+            "ECON 101",
+            "ECON_O 101"
+          ]
+        },
+        {
+          "one_of": [
+            "ECON 102",
+            "ECON_O 102"
+          ]
+        },
+        {
+          "one_of": [
+            "ECON 325",
+            "ECON 327",
+            "COMM 191",
+            "STAT 200",
+            "STAT 241",
+            "STAT 251",
+            "LFS 252",
+            "STAT_O 205",
+            "STAT_O 124",
+            "STAT_O 230"
+          ]
+        }
+      ]
+    }
+  },
+  "All of PSYC 217 or PSYO_O 270, PSYC 218 or PSYO_O 271": {
+    "model": "gemini-3.8-flash",
+    "problems": [],
+    "tree": {
+      "all_of": [
+        {
+          "one_of": [
+            "PSYC 217",
+            "PSYO_O 270"
+          ]
+        },
+        {
+          "one_of": [
+            "PSYC 218",
+            "PSYO_O 271"
+          ]
+        }
+      ]
+    }
+  },
   "All of a) DSCI 100 or DATA_O 101; b) MATH 100, MATH 110, MATH 120, MATH 180, SCIE 001 or MATH_O 100; and c) CPSC 103 or CPSC 110": {
     "model": "gemini-3.5-flash-lite",
     "problems": [],
@@ -458,6 +572,24 @@
               "min_grade": 76
             }
           ]
+        }
+      ]
+    }
+  },
+  "At least one of LING 201/PHIL 220/PHIL 222, plus 6 additional credits of PHIL/LING at the 200-level or above": {
+    "model": "gemini-3.8-flash",
+    "problems": [],
+    "tree": {
+      "all_of": [
+        {
+          "one_of": [
+            "LING 201",
+            "PHIL 220",
+            "PHIL 222"
+          ]
+        },
+        {
+          "other": "6 additional credits of PHIL/LING at the 200-level or above"
         }
       ]
     }
@@ -565,6 +697,21 @@
       "all_of": [
         "CIVL 402",
         "CIVL 416"
+      ]
+    }
+  },
+  "COGS 200; CPSC 110 or CPSC 103": {
+    "model": "gemini-3.8-flash",
+    "problems": [],
+    "tree": {
+      "all_of": [
+        "COGS 200",
+        {
+          "one_of": [
+            "CPSC 110",
+            "CPSC 103"
+          ]
+        }
       ]
     }
   },
@@ -701,6 +848,31 @@
           "all_of": [
             "CPEN 321",
             "CPEN 331"
+          ]
+        }
+      ]
+    }
+  },
+  "Either (a) PSYC 100 or (b) all of PSYC 101 or PSYO_O 111, PSYC 102 or PSYO_O 121": {
+    "model": "gemini-3.8-flash",
+    "problems": [],
+    "tree": {
+      "one_of": [
+        "PSYC 100",
+        {
+          "all_of": [
+            {
+              "one_of": [
+                "PSYC 101",
+                "PSYO_O 111"
+              ]
+            },
+            {
+              "one_of": [
+                "PSYC 102",
+                "PSYO_O 121"
+              ]
+            }
           ]
         }
       ]
@@ -1777,6 +1949,19 @@
       ]
     }
   },
+  "One of PHIL 441, PHIL 451. Or any 6 credits of Philosophy at the 200-level or above (except PHIL 220, PHIL 222, PHIL 320)": {
+    "model": "gemini-3.8-flash",
+    "problems": [],
+    "tree": {
+      "one_of": [
+        "PHIL 441",
+        "PHIL 451",
+        {
+          "other": "any 6 credits of Philosophy at the 200-level or above (except PHIL 220, PHIL 222, PHIL 320)"
+        }
+      ]
+    }
+  },
   "One of PHYS 118, PHYS 158. All of MATH 253, MATH 256": {
     "model": "gemini-3.5-flash-lite",
     "problems": [],
@@ -1819,6 +2004,13 @@
           "other": "Pre-calculus 12"
         }
       ]
+    }
+  },
+  "SOCI 502 is a prerequisite for Sociology graduate students": {
+    "model": "gemini-3.8-flash",
+    "problems": [],
+    "tree": {
+      "other": "SOCI 502 is a prerequisite for Sociology graduate students"
     }
   },
   "STAT 305, one of MATH 152, MATH 221, or MATH 223": {

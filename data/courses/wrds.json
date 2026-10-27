@@ -1,0 +1,438 @@
+{
+  "subject": "WRDS",
+  "source": "https://vancouver.calendar.ubc.ca/course-descriptions/subject/wrdsv",
+  "courses": [
+    {
+      "code": "WRDS 150",
+      "title": "Writing and Research in the Disciplines",
+      "credits": "3",
+      "description": "Writing and reading in disciplines across the academy, focusing on practices that research disciplines share and those that differentiate them. Restricted to students not in the Faculty of Arts. Credit can be granted for only one of WRDS 150 or WRDS 151. Equivalency: WRDS 151. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "WRDS 151",
+      "recommended": null
+    },
+    {
+      "code": "WRDS 151",
+      "title": "Writing and Research in the Disciplines",
+      "credits": "3",
+      "description": "Writing and reading in disciplines across the academy, focusing on practices that research disciplines share and those that differentiate them. Restricted to students in the Faculty of Arts. Credit can be granted for only one of WRDS 150 or WRDS 151. Equivalency: WRDS 150. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "WRDS 150",
+      "recommended": null
+    },
+    {
+      "code": "WRDS 200",
+      "title": "Writing and Communication Foundations",
+      "credits": "3",
+      "description": "Key principles of writing and communication and issues currently debated in the field of Writing Studies. The role of writing and communication in making knowledge, constructing identity, and exercising power. Restricted to students with second year standing or above.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "WRDS 250",
+      "title": "Evaluating Knowledge Production and Mobilization",
+      "credits": "3",
+      "description": "Critical and practical questions about how discourse communities construct and mobilize knowledge. The evaluation of knowledge as information/misinformation. How the evaluation of information is shaped by discursive contexts, rhetorical goals, and communication forms. Prerequisite: One of ASTU 100, ASTU 101, CAP 100, WRDS 150, WRDS 151, WRDS 350.",
+      "prereq": {
+        "text": "One of ASTU 100, ASTU 101, CAP 100, WRDS 150, WRDS 151, WRDS 350",
+        "tree": {
+          "one_of": [
+            "ASTU 100",
+            "ASTU 101",
+            "CAP 100",
+            "WRDS 150",
+            "WRDS 151",
+            "WRDS 350"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "WRDS 340",
+      "title": "Multimodal Writing",
+      "credits": "3",
+      "description": "Creation of multimodal texts, including audio, visual, and alphabetical modes, for different audiences, purposes, and contexts. Examines the impact of digital technologies on writers' considerations of purpose, audience, design, accessibility and ethics. Restricted to students with at least third year standing. Prerequisite: 3 credits from one of WRDS 150, WRDS 151, WRDS 350, ENGL 100, SCIE 113, SCIE 300, CHEM 300, APSC 176, LFS 150, FRST 150, NRES 150, COMM 196, Arts One, ASTU 100, ASTU 101, CAP 100.",
+      "prereq": {
+        "text": "3 credits from one of WRDS 150, WRDS 151, WRDS 350, ENGL 100, SCIE 113, SCIE 300, CHEM 300, APSC 176, LFS 150, FRST 150, NRES 150, COMM 196, Arts One, ASTU 100, ASTU 101, CAP 100",
+        "tree": {
+          "one_of": [
+            "WRDS 150",
+            "WRDS 151",
+            "WRDS 350",
+            "ENGL 100",
+            "SCIE 113",
+            "SCIE 300",
+            "CHEM 300",
+            "APSC 176",
+            "LFS 150",
+            "FRST 150",
+            "NRES 150",
+            "COMM 196",
+            {
+              "other": "Arts One"
+            },
+            "ASTU 100",
+            "ASTU 101",
+            "CAP 100"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "WRDS 350",
+      "title": "Knowledge-Making in the Disciplines",
+      "credits": "3",
+      "description": "An advanced scholarly research and writing course that allows students to build on their existing knowledge of academic research and writing practices by studying specific features of scholarly writing relevant to their own interests and disciplines. Prerequisite: Restricted to students with at least 3rd-year standing. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "Restricted to students with at least 3rd-year standing",
+        "tree": {
+          "other": "Restricted to students with at least 3rd-year standing"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "WRDS 360",
+      "title": "Knowledge Popularization: Research Writing in New Media",
+      "credits": "3",
+      "description": "Rhetorical purposes, moves and features of new media genres that use or transform research for public audiences. Provides opportunities for students to analyze, critically assess, and produce these genres themselves. Restricted to students with third year standing or above. Prerequisites: 3 credits from one of Arts One, ASTU 100, ASTU 101, CAP 100, WRDS 150, WRDS 151, WRDS 350, ENGL 100, SCIE 113, SCIE 300, CHEM 300, APSC 176, LFS 150, FRST 150, NRES 150, COMM 196.",
+      "prereq": {
+        "text": "3 credits from one of Arts One, ASTU 100, ASTU 101, CAP 100, WRDS 150, WRDS 151, WRDS 350, ENGL 100, SCIE 113, SCIE 300, CHEM 300, APSC 176, LFS 150, FRST 150, NRES 150, COMM 196",
+        "tree": {
+          "one_of": [
+            {
+              "other": "Arts One"
+            },
+            "ASTU 100",
+            "ASTU 101",
+            "CAP 100",
+            "WRDS 150",
+            "WRDS 151",
+            "WRDS 350",
+            "ENGL 100",
+            "SCIE 113",
+            "SCIE 300",
+            "CHEM 300",
+            "APSC 176",
+            "LFS 150",
+            "FRST 150",
+            "NRES 150",
+            "COMM 196"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "WRDS 370",
+      "title": "Research Writing and Marginalization",
+      "credits": "3",
+      "description": "Examines how marginalized groups are positioned in research writing. Focuses on the role of power, knowledge, and ethics in shaping language features and textual structures of research writing. Prerequisite: Third year standing and 3 credits from one of WRDS 150, WRDS 151, WRDS 350, ENGL 100, SCIE 113, SCIE 300, CHEM 300, APSC 176, LFS 150, FRST 150, NRES 150, COMM 196, Arts One, ASTU 100, ASTU 101, CAP 100.",
+      "prereq": {
+        "text": "Third year standing and 3 credits from one of WRDS 150, WRDS 151, WRDS 350, ENGL 100, SCIE 113, SCIE 300, CHEM 300, APSC 176, LFS 150, FRST 150, NRES 150, COMM 196, Arts One, ASTU 100, ASTU 101, CAP 100",
+        "tree": {
+          "all_of": [
+            {
+              "other": "Third year standing"
+            },
+            {
+              "one_of": [
+                "WRDS 150",
+                "WRDS 151",
+                "WRDS 350",
+                "ENGL 100",
+                "SCIE 113",
+                "SCIE 300",
+                "CHEM 300",
+                "APSC 176",
+                "LFS 150",
+                "FRST 150",
+                "NRES 150",
+                "COMM 196",
+                {
+                  "other": "Arts One"
+                },
+                "ASTU 100",
+                "ASTU 101",
+                "CAP 100"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "WRDS 380",
+      "title": "Research Writing and Community Engagement",
+      "credits": "3",
+      "description": "Examines models of communication, engagement, and knowledge sharing between university researchers and other communities. Applies scholarly research to community-engaged work that incorporates ethical communication and reflection. Restricted to students with third year standing or above. Prerequisite: 3 credits from one of WRDS 150, WRDS 151, WRDS 350, ENGL 100, SCIE 113, SCIE 300, CHEM 300, APSC 176, LFS 150, FRST 150, NRES 150, COMM 196, Arts One, ASTU 100, ASTU 101, CAP 100.",
+      "prereq": {
+        "text": "3 credits from one of WRDS 150, WRDS 151, WRDS 350, ENGL 100, SCIE 113, SCIE 300, CHEM 300, APSC 176, LFS 150, FRST 150, NRES 150, COMM 196, Arts One, ASTU 100, ASTU 101, CAP 100",
+        "tree": {
+          "one_of": [
+            "WRDS 150",
+            "WRDS 151",
+            "WRDS 350",
+            "ENGL 100",
+            "SCIE 113",
+            "SCIE 300",
+            "CHEM 300",
+            "APSC 176",
+            "LFS 150",
+            "FRST 150",
+            "NRES 150",
+            "COMM 196",
+            {
+              "other": "Arts One"
+            },
+            "ASTU 100",
+            "ASTU 101",
+            "CAP 100"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "WRDS 390",
+      "title": "Writing Disability",
+      "credits": "3",
+      "description": "Explores Disability theories, to understand their connections to writing and discourse studies. Prerequisite: Third year standing and 3 credits from one of WRDS 150, WRDS 151, WRDS 350, ENGL 100, SCIE 113, SCIE 300, CHEM 300, APSC 176, LFS 150, FRST 150, NRES 150, COMM 196, Arts One, ASTU 100, ASTU 101, CAP 100 .",
+      "prereq": {
+        "text": "Third year standing and 3 credits from one of WRDS 150, WRDS 151, WRDS 350, ENGL 100, SCIE 113, SCIE 300, CHEM 300, APSC 176, LFS 150, FRST 150, NRES 150, COMM 196, Arts One, ASTU 100, ASTU 101, CAP 100 ",
+        "tree": {
+          "all_of": [
+            {
+              "other": "Third year standing"
+            },
+            {
+              "one_of": [
+                "WRDS 150",
+                "WRDS 151",
+                "WRDS 350",
+                "ENGL 100",
+                "SCIE 113",
+                "SCIE 300",
+                "CHEM 300",
+                "APSC 176",
+                "LFS 150",
+                "FRST 150",
+                "NRES 150",
+                "COMM 196",
+                {
+                  "other": "Arts One"
+                },
+                "ASTU 100",
+                "ASTU 101",
+                "CAP 100"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "WRDS 395",
+      "title": "Working with Writers: Consulting and Editing",
+      "credits": "3",
+      "description": "Key principles and strategies for providing feedback on scholarly and professional writing. Explores writing consultation and editing as distinct professional practices. Restricted to students with third year standing or above. Prerequisites: 3 credits from one of WRDS 150, WRDS 151, WRDS 350, ENGL 100, SCIE 113, SCIE 300, CHEM 300, APSC 176, LFS 150, NRES 150, FRST 150, COMM 196, Arts One, ASTU 100, ASTU 101, CAP 100, CAP 101.",
+      "prereq": {
+        "text": "3 credits from one of WRDS 150, WRDS 151, WRDS 350, ENGL 100, SCIE 113, SCIE 300, CHEM 300, APSC 176, LFS 150, NRES 150, FRST 150, COMM 196, Arts One, ASTU 100, ASTU 101, CAP 100, CAP 101",
+        "tree": {
+          "one_of": [
+            "WRDS 150",
+            "WRDS 151",
+            "WRDS 350",
+            "ENGL 100",
+            "SCIE 113",
+            "SCIE 300",
+            "CHEM 300",
+            "APSC 176",
+            "LFS 150",
+            "NRES 150",
+            "FRST 150",
+            "COMM 196",
+            {
+              "other": "Arts One"
+            },
+            "ASTU 100",
+            "ASTU 101",
+            "CAP 100",
+            "CAP 101"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "WRDS 400",
+      "title": "Writing and Communication Capstone",
+      "credits": "3",
+      "description": "Critical assessment of approaches to writing and communication. Key principles of the field applied to public and professional domains relevant to students' future work, studies, service, or work. Restricted to students enrolled in the Minor in Writing and Communication. Prerequisite: WRDS 200. and 6 credits of WRDS courses at the 300-or 400-level",
+      "prereq": {
+        "text": "WRDS 200. and 6 credits of WRDS courses at the 300-or 400-level",
+        "tree": {
+          "all_of": [
+            "WRDS 200",
+            {
+              "other": "6 credits of WRDS courses at the 300-or 400-level"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "WRDS 450",
+      "title": "Writing Practices for Publics & Publications",
+      "credits": "3",
+      "description": "Writing processes and strategies conducive to developing larger, long-term research projects into genres of writing intended to publicly engage with scholars, activists, and intellectuals. Restricted to students with third year standing or above. Prerequisite: 3 credits from one of WRDS 150, WRDS 151, WRDS 350, ENGL 100, SCIE 113, SCIE 300, CHEM 300, APSC 176, LFS 150, FRST 150, NRES 150, COMM 196, Arts One, ASTU 100, ASTU 101, CAP 100.",
+      "prereq": {
+        "text": "3 credits from one of WRDS 150, WRDS 151, WRDS 350, ENGL 100, SCIE 113, SCIE 300, CHEM 300, APSC 176, LFS 150, FRST 150, NRES 150, COMM 196, Arts One, ASTU 100, ASTU 101, CAP 100",
+        "tree": {
+          "one_of": [
+            "WRDS 150",
+            "WRDS 151",
+            "WRDS 350",
+            "ENGL 100",
+            "SCIE 113",
+            "SCIE 300",
+            "CHEM 300",
+            "APSC 176",
+            "LFS 150",
+            "FRST 150",
+            "NRES 150",
+            "COMM 196",
+            {
+              "other": "Arts One"
+            },
+            "ASTU 100",
+            "ASTU 101",
+            "CAP 100"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "WRDS 498",
+      "title": "Special Topics in Writing Studies",
+      "credits": "3-6",
+      "description": "In-depth study of selected topics in Writing Studies. Topics vary year-by-year. Restricted to students with third-year standing or higher. Prerequisite: 3 credits from one of WRDS 150, WRDS 151, WRDS 350, ENGL 100, SCIE 113, SCIE 300, CHEM 300, APSC 176, LFS 150, FRST 150, NRES 150, COMM 196, Arts One, ASTU 100, ASTU 101, CAP 100.",
+      "prereq": {
+        "text": "3 credits from one of WRDS 150, WRDS 151, WRDS 350, ENGL 100, SCIE 113, SCIE 300, CHEM 300, APSC 176, LFS 150, FRST 150, NRES 150, COMM 196, Arts One, ASTU 100, ASTU 101, CAP 100",
+        "tree": {
+          "one_of": [
+            "WRDS 150",
+            "WRDS 151",
+            "WRDS 350",
+            "ENGL 100",
+            "SCIE 113",
+            "SCIE 300",
+            "CHEM 300",
+            "APSC 176",
+            "LFS 150",
+            "FRST 150",
+            "NRES 150",
+            "COMM 196",
+            {
+              "other": "Arts One"
+            },
+            "ASTU 100",
+            "ASTU 101",
+            "CAP 100"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "WRDS 499",
+      "title": "Directed Studies in Writing Studies",
+      "credits": "3-6",
+      "description": "Individual project on a topic of interest in Writing Studies, completed under the guidance and supervision of a UBC faculty member with relevant expertise. Restricted to students with third-year standing or higher and approval from the WRDS Chair. Prerequisite: 3 credits from one of WRDS 150, WRDS 151, WRDS 350, ENGL 100, SCIE 113, SCIE 300, CHEM 300, APSC 176, LFS 150, FRST 150, NRES 150, COMM 196, Arts One, ASTU 100, ASTU 101, CAP 100.",
+      "prereq": {
+        "text": "3 credits from one of WRDS 150, WRDS 151, WRDS 350, ENGL 100, SCIE 113, SCIE 300, CHEM 300, APSC 176, LFS 150, FRST 150, NRES 150, COMM 196, Arts One, ASTU 100, ASTU 101, CAP 100",
+        "tree": {
+          "one_of": [
+            "WRDS 150",
+            "WRDS 151",
+            "WRDS 350",
+            "ENGL 100",
+            "SCIE 113",
+            "SCIE 300",
+            "CHEM 300",
+            "APSC 176",
+            "LFS 150",
+            "FRST 150",
+            "NRES 150",
+            "COMM 196",
+            {
+              "other": "Arts One"
+            },
+            "ASTU 100",
+            "ASTU 101",
+            "CAP 100"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    }
+  ]
+}

@@ -1,0 +1,2009 @@
+{
+  "subject": "PSYC",
+  "source": "https://vancouver.calendar.ubc.ca/course-descriptions/subject/psycv",
+  "courses": [
+    {
+      "code": "PSYC 100",
+      "title": "Introductory Psychology",
+      "credits": "6",
+      "description": "Introduction to methods and statistics, biopsychology, learning, perception, memory, cognition, motivation, assessment, developmental, personality, clinical, and social psychology. Credit will be granted for only one of PSYC 100 or PSYC 101 and 102.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 101",
+      "title": "Introduction to Biological and Cognitive Psychology",
+      "credits": "3",
+      "description": "Introduction to Methods and Statistics, Biopsychology, Learning, Perception, Memory, and Cognition. Credit will be granted for only one of PSYC 100 and PSYC 101.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 102",
+      "title": "Introduction to Developmental, Social, Personality, and Clinical Psychology",
+      "credits": "3",
+      "description": "Introduction to methods and statistics, motivation, assessment, developmental, personality, clinical, and social psychology. Credit will be granted for only one of PSYC 100 and PSYC 102.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 203",
+      "title": "Career Exploration using Psychology",
+      "credits": "1",
+      "description": "Critical application of psychological concepts to further personal growth. Methods and strategies for exploring careers as a process that unfolds across the lifespan.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 207",
+      "title": "Contemporary Topics in Biological and Cognitive Psychology",
+      "credits": "3",
+      "description": "A focus on the interpretation of contemporary research in neuroscience, cognition, perception, memory, and learning.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 208",
+      "title": "Contemporary Topics in Social, Developmental, Personality, and Clinical Psychology",
+      "credits": "3",
+      "description": "A focus on the interpretation of contemporary research in social, developmental, personality, and clinical psychology.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 216",
+      "title": "Questioning Psychological Science in the Media",
+      "credits": "3",
+      "description": "Use basic principles of quantitative psychological research methods to critique psychological claims presented in the media and to translate psychological science to everyday life. Intended for non-psychology majors to prepare for upper level courses. Majors should take PSYC 217 instead.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 217",
+      "title": "Research Methods",
+      "credits": "3",
+      "description": "Focus on various research methods used in psychology, with an emphasis on critical thinking and experimental design. Credit will be granted for only one of PSYC 217 or PSYC 277. Restricted to students in one of PSYC Major, BA COGS Major. Corequisite: Either (a) PSYC 100 or (b) all of PSYC 101 or PSYO_O 111, PSYC 102 or PSYO_O 121. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": {
+        "text": "Either (a) PSYC 100 or (b) all of PSYC 101 or PSYO_O 111, PSYC 102 or PSYO_O 121",
+        "tree": {
+          "one_of": [
+            "PSYC 100",
+            {
+              "all_of": [
+                {
+                  "one_of": [
+                    "PSYC 101",
+                    "PSYO_O 111"
+                  ]
+                },
+                {
+                  "one_of": [
+                    "PSYC 102",
+                    "PSYO_O 121"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "source": "llm",
+        "problems": []
+      },
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 218",
+      "title": "Analysis of Behavioural Data",
+      "credits": "3",
+      "description": "Use of inferential statistics in psychology and conceptual interpretation of data; experimental design (laboratory, field research methods); presentation of data analyses in reports. Credit will be granted for only one of: PSYC 218, PSYC 278, BIOL 300, COMM 291, ECON 325, ECON 327, EPSE 482, FRST 231, GEOG 374, KIN 371, POLI 380, SOCI 328, STAT 200, STAT 203. Restricted to students in one of PSYC Major, BA COGS Major. Prerequisite: One of PSYC 217, PSYC 277, PSYO_O 270. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "One of PSYC 217, PSYC 277, PSYO_O 270",
+        "tree": {
+          "one_of": [
+            "PSYC 217",
+            "PSYC 277",
+            "PSYO_O 270"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 240",
+      "title": "Research Experience",
+      "credits": "1-3",
+      "description": "Applied research experience in an active psychology research lab. See Psychology Department website for application. Prerequisite: One of PSYC 101, PSYC 102. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "One of PSYC 101, PSYC 102",
+        "tree": {
+          "one_of": [
+            "PSYC 101",
+            "PSYC 102"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 277",
+      "title": "Behavioural and Neuroscientific Research Methods",
+      "credits": "4",
+      "description": "Research methods used in the neurosciences. Credit will be granted for only one of PSYC 217 or PSYC 277. Restricted to students in one of NSCI Major, BSc COGS Major (Cognition and Brain stream). This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 278",
+      "title": "Analysis of Behavioural and Neuroscientific Data",
+      "credits": "4",
+      "description": "Statistical methods for use in the neurosciences. Credit will be granted for only one of: PSYC 218, PSYC 278, BIOL 300, COMM 291, ECON 325, ECON 327, EPSE 482, FRST 231, GEOG 374, KIN 371, POLI 380, SOCI 328, STAT 200, STAT 203. Restricted to students in one of NSCI Major, BSc COGS Major (Cognition and Brain stream). Prerequisite: One of PSYC 217, PSYC 277. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "One of PSYC 217, PSYC 277",
+        "tree": {
+          "one_of": [
+            "PSYC 217",
+            "PSYC 277"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 300",
+      "title": "Introduction to Psychopathology and Clinical Science",
+      "credits": "3",
+      "description": "The definition, history, and scope of mental illness; emphasis on the psychological factors that control its origins, maintenance, and modification. Restricted to students with second-year standing or higher. Strongly recommended: PSYC 101, 102, and one of PSYC 216, 217, or 227.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 301",
+      "title": "Brain Dysfunction and Recovery",
+      "credits": "3",
+      "description": "Cognitive and behavioral impairments resulting from brain dysfunction. Focus on the efficacy of various intervention approaches. Strongly recommended: PSYC 101, 102, and one of PSYC 216, PSYC 217, or 277. Credit will be granted for only one of PSYC 301 or NSCI 302. Restricted to students with second-year standing or higher.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 302",
+      "title": "Infancy",
+      "credits": "3",
+      "description": "Human cognition, perception, motor, social, emotional needs, brain development and their interactions from birth until the emergence of language. Strongly recommended: PSYC 101, 102, and one of PSYC 216, PSYC 217, or 277. Restricted to students with second-year standing or higher.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 303",
+      "title": "Tests and Measurements",
+      "credits": "3",
+      "description": "Theory and practice of psychological measurement, statistical models for items and tests, assessment of test reliability and validity, factor analysis, scoring. Restricted to students with second-year standing or higher. Prerequisite: One of PSYC 218, PSYC 278.",
+      "prereq": {
+        "text": "One of PSYC 218, PSYC 278",
+        "tree": {
+          "one_of": [
+            "PSYC 218",
+            "PSYC 278"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 305",
+      "title": "Personality Psychology",
+      "credits": "3",
+      "description": "Theory and research on individual differences in motivation, emotion, and social behaviour. Strongly recommended: PSYC 102, and one of PSYC 216, 217, or 277. Restricted to students with second-year standing or higher.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 306",
+      "title": "Principles of Animal Behaviour",
+      "credits": "3",
+      "description": "Behavioural neuroscience; behavioural genetics; social systems; mating and parental strategies; instinct and learning; evolution of human behaviour. Credit will be given for only one of BIOL 310 or PSYC 306. Strongly recommended: PSYC 101, and one of PSYC 216, 217, or 277. Restricted to students with second-year standing or higher.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 307",
+      "title": "Cultural Psychology",
+      "credits": "3",
+      "description": "Cultural influences on human thought and behaviour; interactions of culture and self; multicultural experiences; intercultural relations; methodological issues. Strongly recommended: PSYC 102, and one of PSYC 216, 217, or 277. Restricted to students with second-year standing or higher.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 308",
+      "title": "Social Psychology",
+      "credits": "3",
+      "description": "Theory and research of individual social behaviour; social motivation; attitudes; group interaction; socialization; prejudice. Strongly recommended: PSYC 102, and one of PSYC 216, 217, or 277. Restricted to students with second-year standing or higher.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 309",
+      "title": "Cognitive Processes",
+      "credits": "3",
+      "description": "Contribution of cognitive processes to perception, attention, and memory; cognitive development, language, thinking, and creativity. Strongly recommended: PSYC 101 and one of PSYC 216, 217, or 277. Restricted to students with second-year standing or higher.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 311",
+      "title": "Psychology of Sport",
+      "credits": "3",
+      "description": "Psychological theory, research, and skills training related to sport performance, exercise motivation, and adherence. Credit will be granted for only one of PSYC 311 and KIN 150 and 231. Strongly recommended: PSYC 101 and one of PSYC 216, 217, or 277. Restricted to students with second-year standing or higher.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 312",
+      "title": "History of Psychology",
+      "credits": "3",
+      "description": "The principal trends of psychological explanation and events in the history of psychology from the earliest times to the present. Strongly recommended: PSYC 101 and one of PSYC 216, 217, or 277. Restricted to Psychology Major or Psychology Honours students.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 314",
+      "title": "Health Psychology",
+      "credits": "3",
+      "description": "Health-related behaviours such as smoking and drug use; effects of stressful events on health; methods for coping with stress; impact of chronic illness on the family; social support systems. Strongly recommended: PSYC 102 and one of PSYC 216, 217, or 277. Restricted to students with second-year standing or higher.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 315",
+      "title": "Childhood and Adolescence",
+      "credits": "3",
+      "description": "Human development from the preschool period through adolescence. Strongly recommended: PSYC 102 and one of PSYC 216, 217, or 277. Restricted to students with second-year standing or higher.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 319",
+      "title": "Applied Developmental Psychology",
+      "credits": "3",
+      "description": "Applications of theories and research in developmental psychology to contemporary social issues; topics may include daycare, child abuse, divorce and remarriage, substance abuse, sexuality. Strongly recommended: PSYC 102 and one of PSYC 216, 217, or 277. Restricted to students with second-year standing or higher.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 320",
+      "title": "Psychology of Sex Differences",
+      "credits": "3",
+      "description": "Theory and research on gender development and the influence of sex and/or gender on cognition, emotion, motivation, social behaviour, and health. Strongly recommended: PSYC 101, 102 and PSYC 216, 217, or 277. Restricted to students with second-year standing or higher.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 322",
+      "title": "Adulthood and Aging",
+      "credits": "3",
+      "description": "Issues, theories, and psychological research regarding adulthood and the aging process. Strongly recommended: PSYC 102 and one of PSYC 216, 217, or 277. Restricted to students with second-year standing or higher.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 324",
+      "title": "Brain and Behavior (I)",
+      "credits": "3",
+      "description": "The neurobiological bases of behaviour (I); Neuroanatomy and neural communication, neuroscience research methods, brain processes involved in perception and movement. This course is strongly recommended for students who have taken PSYC 101 and one of PSYC 216, PSYC 217. Restricted to all Arts and Science students with second-year standing or higher, excluding those in the B.Sc. Neuroscience specializations. Credit will be granted for only one of PSYC 324, PSYC 304 or PSYC 370.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 325",
+      "title": "Socialization: Media Content and Effects",
+      "credits": "3",
+      "description": "Examines human development in the context of the socializing role of media. Strongly recommended: PSYC 102 and one of PSYC 216, 217, or 277. Restricted to students with second-year standing or higher.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 331",
+      "title": "Forensic Psychology",
+      "credits": "3",
+      "description": "The application of psychological theory and research to legal issues and the criminal justice system. Strongly recommended: PSYC 102 and one of PSYC 216, 217, or 277. Restricted to students with second-year standing or higher.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 333",
+      "title": "Memory: Historical, Clinical and Cognitive Perspectives",
+      "credits": "3",
+      "description": "Classical and contemporary metaphors for memory and their impact on theory development. Strongly recommended: PSYC 101 and one of PSYC 216, 217, or 277. Restricted to students with second-year standing or higher.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 334",
+      "title": "Memory II",
+      "credits": "3",
+      "description": "Organic amnesia; remembering childhood events; the self and memory; and the problem of distinguishing genuine from simulated forgetting. Prerequisite: PSYC 333",
+      "prereq": {
+        "text": "PSYC 333",
+        "tree": "PSYC 333",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 335",
+      "title": "Gambling and Decision Making",
+      "credits": "3",
+      "description": "The psychology of gambling behaviour, with emphasis on relevant work from judgment and decision-making, the cognitive neuroscience of choice, and clinical perspectives on disordered gambling. Strongly recommended: PSYC 101 and one of PSYC 216, 217, or 277. Restricted to students with second-year standing or higher.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 336",
+      "title": "The Psychology of Language I",
+      "credits": "3",
+      "description": "Psychological abilities underlying human language; language processing, lexical representation, and principles of online conversation; animal versus human communication. Strongly recommended: PSYC 101 and one of PSYC 216, 217, or 277. Restricted to students with second-year standing or higher.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 337",
+      "title": "The Psychology of Language II",
+      "credits": "3",
+      "description": "Language and thought; deriving psychological principles from language universals; the psychology of literacy, dyslexia, multilingualism, and natural language processing. Prerequisite: PSYC 336",
+      "prereq": {
+        "text": "PSYC 336",
+        "tree": "PSYC 336",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 340",
+      "title": "Directed Studies in Psychology",
+      "credits": "2-6",
+      "description": "Directed investigation of a research problem, requiring a written report of the findings. Requires the supervising faculty member's permission. See the Department's website for more information. Restricted to Majors in Psychology or Cognitive Systems with second-year standing or higher.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 344",
+      "title": "Brain and Behavior (II)",
+      "credits": "3",
+      "description": "The neurobiological bases of behaviour (II); neural mechanisms underlying sexual behavior, feeding, sleep, motivation, emotion, learning and memory, psychopathology. Restricted to all Arts and Science students with second-year standing or higher, excluding those in the B.Sc. Neuroscience specializations. Credit will be granted for only one of PSYC 344, PSYC 304 or PSYC 371. Prerequisite: PSYC 324.",
+      "prereq": {
+        "text": "PSYC 324",
+        "tree": "PSYC 324",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 348",
+      "title": "Honours Seminar I",
+      "credits": "3",
+      "description": "Orientation to psychological research, with special emphasis on ongoing research within the department; effective presentation of research findings, oral and written; critical evaluation of research. Requires a research project. Restricted to students in Honours Psychology. Prerequisite: All of PSYC 217 or PSYO_O 270, PSYC 218 or PSYO_ 271.",
+      "prereq": {
+        "text": "All of PSYC 217 or PSYO_O 270, PSYC 218 or PSYO_O 271",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "PSYC 217",
+                "PSYO_O 270"
+              ]
+            },
+            {
+              "one_of": [
+                "PSYC 218",
+                "PSYO_O 271"
+              ]
+            }
+          ]
+        },
+        "source": "llm",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 349",
+      "title": "Honours Seminar II",
+      "credits": "3",
+      "description": "Continuation of PSYC 349. Restricted to students in Honours Psychology. Prerequisite: PSYC 348.",
+      "prereq": {
+        "text": "PSYC 348",
+        "tree": "PSYC 348",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 350",
+      "title": "Psychological Aspects of Human Sexuality",
+      "credits": "3",
+      "description": "Human sexuality from a biopsychological, behavioural, and psychosocial perspective. Strongly recommended: PSYC 101, 102 and one of PSYC 216, 217, or 277. Restricted to students with second-year standing or higher.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 358",
+      "title": "Evolutionary Psychology",
+      "credits": "3",
+      "description": "Theory and research on the evolution of the human mind, with emphasis on implications for cognition and behaviour in contemporary environments. Strongly recommended: PSYC 102 and one of PSYC 216, 217, or 277. Restricted to students with second-year standing or higher.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 359",
+      "title": "Advanced Research Methods in Behavioural Sciences",
+      "credits": "3",
+      "description": "Prepares students for graduate studies or other advanced behavioural research; experimental design and analytic techniques; laboratory with computer applications. Restricted to students with second-year standing or higher and a cumulative average at or above 76%. Prerequisite: One of PSYC 218, PSYC 278, PSYO_O 271.",
+      "prereq": {
+        "text": "One of PSYC 218, PSYC 278, PSYO_O 271",
+        "tree": {
+          "one_of": [
+            "PSYC 218",
+            "PSYC 278",
+            "PSYO_O 271"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 361",
+      "title": "Neuroscience of Motivation",
+      "credits": "3",
+      "description": "Experimental analysis of hunger, thirst, exploratory and curiosity behaviour, maternal and reproductive behaviour, fixed action patterns, and complex processes involved in social motivation with emphasis on the biological basis of motivation. Restricted to students with second-year standing or higher. Prerequisite: One of NSCI 201, PSYC 304, PSYC 344, PSYC 370.",
+      "prereq": {
+        "text": "One of NSCI 201, PSYC 304, PSYC 344, PSYC 370",
+        "tree": {
+          "one_of": [
+            "NSCI 201",
+            "PSYC 304",
+            "PSYC 344",
+            "PSYC 370"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 363",
+      "title": "Neuroscience of Simple Learning",
+      "credits": "3",
+      "description": "Introduction to basic theories of non-associative learning, classical and operant conditioning. Experimental findings from behavioural and biological analyses with animals and humans. Restricted to students with second-year standing or higher. Prerequisite: One of PSYC 304, PSYC 324, BIOL 361, NSCI 200.",
+      "prereq": {
+        "text": "One of PSYC 304, PSYC 324, BIOL 361, NSCI 200",
+        "tree": {
+          "one_of": [
+            "PSYC 304",
+            "PSYC 324",
+            "BIOL 361",
+            "NSCI 200"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 365",
+      "title": "Cognitive Neuroscience",
+      "credits": "3",
+      "description": "Current research into human brain systems underlying cognitive processes such as perception, attention, memory, and decision-making. Restricted to students with second-year standing or higher. Prerequisite: Either (a) one of PSYC 304, PSYC 309, PSYC 344, NSCI 201 or (b) COGS 200.",
+      "prereq": {
+        "text": "Either (a) one of PSYC 304, PSYC 309, PSYC 344, NSCI 201 or (b) COGS 200",
+        "tree": {
+          "one_of": [
+            {
+              "one_of": [
+                "PSYC 304",
+                "PSYC 309",
+                "PSYC 344",
+                "NSCI 201"
+              ]
+            },
+            "COGS 200"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 367",
+      "title": "Sensory Systems",
+      "credits": "3",
+      "description": "Anatomy and physiology of the sensory pathways and their relation to perception. Credit will be granted for only one of PSYC 367, BIOL 372. Restricted to students with second-year standing or higher. Prerequisite: Either (a) one of PSYC 101, NSCI 201 or (b) COGS 200.",
+      "prereq": {
+        "text": "Either (a) one of PSYC 101, NSCI 201 or (b) COGS 200",
+        "tree": {
+          "one_of": [
+            {
+              "one_of": [
+                "PSYC 101",
+                "NSCI 201"
+              ]
+            },
+            "COGS 200"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 368",
+      "title": "Perceptual Processing",
+      "credits": "3",
+      "description": "Perceptual phenomena and their underlying brain mechanisms. Prerequisite: PSYC 367",
+      "prereq": {
+        "text": "PSYC 367",
+        "tree": "PSYC 367",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 370",
+      "title": "Behavioural and Cognitive Neuroscience I",
+      "credits": "3",
+      "description": "Advanced methods and topics in behavioural and cognitive neuroscience. Restricted to students with second-year standing or higher who are in the Neuroscience Major or Honours or in the Cognitive Systems Major programs. Credit will be granted for only one of i) PSYC 304, ii) PSYC 324 and 344, iii) PSYC 370 and 371, iv) BIOL 371, or v) BIOL 372. Prerequisite: One of NSCI 201, COGS 200.",
+      "prereq": {
+        "text": "One of NSCI 201, COGS 200",
+        "tree": {
+          "one_of": [
+            "NSCI 201",
+            "COGS 200"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 371",
+      "title": "Behavioural and Cognitive Neuroscience II",
+      "credits": "3",
+      "description": "Neurodevelopment and neuroplasticity, the physiological bases of several motivated behaviours (sleep, sexual behaviour, hunger and eating, drugs and addiction), cognition, the stress response, and brain dysfunction and recovery. Restricted to students with second-year standing or higher who are in the Neuroscience Major or Honours or in the Cognitive Systems Major programs. Credit will be granted for only one of PSYC 304 or PSYC 324 and 344 or PSYC 370 and 371. Prerequisite: PSYC 370.",
+      "prereq": {
+        "text": "PSYC 370",
+        "tree": "PSYC 370",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 388",
+      "title": "Directed Studies in Behavioural Neuroscience",
+      "credits": "3-6",
+      "description": "Directed investigation of an experimental problem in Behavioural Neuroscience requiring a written report of the findings. Requires the supervising faculty member's permission. See the Department's website for more information. Restricted to Majors in PSYC or COGS or NSCI with second-year standing or higher. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 398",
+      "title": "Cooperative Work Placement I",
+      "credits": "3",
+      "description": "Approved and supervised relevant work experience in an industrial, academic, or government setting for a minimum of 13 weeks, full-time. Normally taken in Summer Session after third year. Work term report required. Restricted to students admitted to the Co-op Program in Psychology. Prerequisite: Co-op Workshops. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "Co-op Workshops",
+        "tree": {
+          "other": "Co-op Workshops"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 399",
+      "title": "Cooperative Work Placement II",
+      "credits": "3",
+      "description": "Approved and supervised relevant work experience in an industrial, academic, or government setting for a minimum of 13 weeks, full-time. Normally taken in fourth year Winter Session, Term 1. Work term report required. Pass/Fail. Restricted to students admitted to the Co-op Program in Psychology. Prerequisite: PSYC 398. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "PSYC 398",
+        "tree": "PSYC 398",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 400",
+      "title": "Clinical Psychology: A Health Profession",
+      "credits": "6",
+      "description": "Theory, research, practice, and professional issues in clinical psychology, including a practicum placement. Credit will be granted for only one of PSYC 400 and 401. Restricted to students with third-year standing or higher. Prerequisite: One of PSYC 217, PSYC 277, PSYC 300.",
+      "prereq": {
+        "text": "One of PSYC 217, PSYC 277, PSYC 300",
+        "tree": {
+          "one_of": [
+            "PSYC 217",
+            "PSYC 277",
+            "PSYC 300"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 401",
+      "title": "Clinical Psychology",
+      "credits": "3",
+      "description": "Theoretical and research foundations of the processes of assessment and behaviour modification in clinical psychology. Credit will be granted for only one of PSYC 400 or PSYC 401. Restricted to students with third-year standing or higher. Strongly recommended: PSYC 217, PSYC 277 and PSYC 300.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 402",
+      "title": "Research in Psychological Disorders",
+      "credits": "3",
+      "description": "Focus on the cognitive, biological, and motivational underpinnings of psychological disorders. Topics include current research methods, controversies in the research literature, and directions for future research. Restricted to students with third-year standing or higher. Prerequisite: One of PSYC 217, PSYC 277, PSYC 300.",
+      "prereq": {
+        "text": "One of PSYC 217, PSYC 277, PSYC 300",
+        "tree": {
+          "one_of": [
+            "PSYC 217",
+            "PSYC 277",
+            "PSYC 300"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 403",
+      "title": "Human Emotion",
+      "credits": "3",
+      "description": "Developmental, cognitive, and social psychological theories and research on human emotion. Restricted to students with third-year standing or higher. Prerequisite: One of PSYC 217, PSYC 277 and one of PSYC 305, PSYC 307, PSYC 308, PSYC 358.",
+      "prereq": {
+        "text": "One of PSYC 217, PSYC 277 and one of PSYC 305, PSYC 307, PSYC 308, PSYC 358",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "PSYC 217",
+                "PSYC 277"
+              ]
+            },
+            {
+              "one_of": [
+                "PSYC 305",
+                "PSYC 307",
+                "PSYC 308",
+                "PSYC 358"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 404",
+      "title": "Psychology of Religion",
+      "credits": "3",
+      "description": "Cognitive, emotional, and motivational underpinnings of religious behaviour; supernatural beliefs, magical thinking, ritual, sacrifice; religion's role in morality, prosociality, health, violence, and intergroup relations. Restricted to students with third-year standing or higher. Prerequisite: One of PSYC 217, PSYC 277 and one of PSYC 305, PSYC 307, PSYC 308, PSYC 358.",
+      "prereq": {
+        "text": "One of PSYC 217, PSYC 277 and one of PSYC 305, PSYC 307, PSYC 308, PSYC 358",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "PSYC 217",
+                "PSYC 277"
+              ]
+            },
+            {
+              "one_of": [
+                "PSYC 305",
+                "PSYC 307",
+                "PSYC 308",
+                "PSYC 358"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 407",
+      "title": "Cognition and Culture",
+      "credits": "3",
+      "description": "Cultural learning; cultural variation and universality in cognition and emotion; cognitive and emotional bases of cultural phenomena. Restricted to students with third-year standing or higher. Prerequisite: One of PSYC 217, PSYC 277 and one of PSYC 307, PSYC 308, PSYC 358.",
+      "prereq": {
+        "text": "One of PSYC 217, PSYC 277 and one of PSYC 307, PSYC 308, PSYC 358",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "PSYC 217",
+                "PSYC 277"
+              ]
+            },
+            {
+              "one_of": [
+                "PSYC 307",
+                "PSYC 308",
+                "PSYC 358"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 408",
+      "title": "Research in Social Psychology",
+      "credits": "3",
+      "description": "Representative studies on social psychological topics; emphasis on the formulation of significant questions and the design and execution of relevant research. Restricted to students with third-year standing or higher. Prerequisite: One of PSYC 217, PSYC 277 and one of PSYC 305, PSYC 307, PSYC 308, PSYC 358.",
+      "prereq": {
+        "text": "One of PSYC 217, PSYC 277 and one of PSYC 305, PSYC 307, PSYC 308, PSYC 358",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "PSYC 217",
+                "PSYC 277"
+              ]
+            },
+            {
+              "one_of": [
+                "PSYC 305",
+                "PSYC 307",
+                "PSYC 308",
+                "PSYC 358"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 409",
+      "title": "Cognitive Neuropsychology",
+      "credits": "3",
+      "description": "The structure of the mind as revealed by brain injury, neurological illness, and surgical intervention. Topics include attention, memory, language, sense of self, topographic awareness, moral reasoning, emotion, theory of mind, and social awareness. Restricted to students with third-year standing or higher. Prerequisite: Either (a) one of PSYC 304, PSYC 309, PSYC 344, NSCI 201 or (b) COGS 200.",
+      "prereq": {
+        "text": "Either (a) one of PSYC 304, PSYC 309, PSYC 344, NSCI 201 or (b) COGS 200",
+        "tree": {
+          "one_of": [
+            {
+              "one_of": [
+                "PSYC 304",
+                "PSYC 309",
+                "PSYC 344",
+                "NSCI 201"
+              ]
+            },
+            "COGS 200"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 412",
+      "title": "Cognitive Development",
+      "credits": "3",
+      "description": "The development of fundamental cognitive abilities from infancy through adulthood, including traditional approaches to cognitive development as well as new areas of current investigation. Restricted to students with third-year standing or higher. Prerequisite: One of PSYC 217, PSYC 277 and one of PSYC 302, PSYC 315, PSYC 319, PSYC 322, PSYC 325.",
+      "prereq": {
+        "text": "One of PSYC 217, PSYC 277 and one of PSYC 302, PSYC 315, PSYC 319, PSYC 322, PSYC 325",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "PSYC 217",
+                "PSYC 277"
+              ]
+            },
+            {
+              "one_of": [
+                "PSYC 302",
+                "PSYC 315",
+                "PSYC 319",
+                "PSYC 322",
+                "PSYC 325"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 413",
+      "title": "Social and Personality Development",
+      "credits": "3",
+      "description": "Comprehensive overview of the psychological processes in the social and personality development of infants, children, and adolescents. Restricted to students with third-year standing or higher. Strongly recommended: PSYC 217, PSYC 277 and one of PSYC 302, PSYC 315, PSYC 319, PSYC 322, PSYC 325.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 414",
+      "title": "Research in Developmental Psychology",
+      "credits": "3",
+      "description": "Advanced study of current research in a specific area of developmental psychology. Restricted to students with third-year standing or higher. Prerequisite: One of PSYC 217, PSYC 277 and one of PSYC 302, PSYC 315, PSYC 319, PSYC 322, PSYC 325.",
+      "prereq": {
+        "text": "One of PSYC 217, PSYC 277 and one of PSYC 302, PSYC 315, PSYC 319, PSYC 322, PSYC 325",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "PSYC 217",
+                "PSYC 277"
+              ]
+            },
+            {
+              "one_of": [
+                "PSYC 302",
+                "PSYC 315",
+                "PSYC 319",
+                "PSYC 322",
+                "PSYC 325"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 415",
+      "title": "Applied Social Psychology",
+      "credits": "3",
+      "description": "The application of social psychological research and theory to the solution of social problems. Restricted to students with third-year standing or higher. Prerequisite: One of PSYC 217, PSYC 277 and one of PSYC 305, PSYC 307, PSYC 308, PSYC 358.",
+      "prereq": {
+        "text": "One of PSYC 217, PSYC 277 and one of PSYC 305, PSYC 307, PSYC 308, PSYC 358",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "PSYC 217",
+                "PSYC 277"
+              ]
+            },
+            {
+              "one_of": [
+                "PSYC 305",
+                "PSYC 307",
+                "PSYC 308",
+                "PSYC 358"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 417",
+      "title": "Special Topics in Psychology",
+      "credits": "3",
+      "description": "Intensive examination of selected topics and issues in psychology. Restricted to students with third-year standing or higher. Prerequisite: One of PSYC 217, PSYC 277 and one of PSYC 218, PSYC 278.",
+      "prereq": {
+        "text": "One of PSYC 217, PSYC 277 and one of PSYC 218, PSYC 278",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "PSYC 217",
+                "PSYC 277"
+              ]
+            },
+            {
+              "one_of": [
+                "PSYC 218",
+                "PSYC 278"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 418",
+      "title": "The Self-Concept",
+      "credits": "3",
+      "description": "Theory and research on the self: development, knowledge, motivation, emotions, presentation. Restricted to students with third-year standing or higher. Prerequisite: One of PSYC 217, PSYC 277 and one of PSYC 305, PSYC 307, PSYC 308, PSYC 358.",
+      "prereq": {
+        "text": "One of PSYC 217, PSYC 277 and one of PSYC 305, PSYC 307, PSYC 308, PSYC 358",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "PSYC 217",
+                "PSYC 277"
+              ]
+            },
+            {
+              "one_of": [
+                "PSYC 305",
+                "PSYC 307",
+                "PSYC 308",
+                "PSYC 358"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 420",
+      "title": "Community Psychology",
+      "credits": "3",
+      "description": "The relationships between social contexts and wellbeing with a focus on the application of psychology to disadvantaged populations and community development. Restricted to students with third-year standing or higher. Prerequisite: Either (a) one of PSYC 217, PSYC 277 and one of PSYC 300, PSYC 308, PSYC 314; or (b) PSYC 319.",
+      "prereq": {
+        "text": "Either (a) one of PSYC 217, PSYC 277 and one of PSYC 300, PSYC 308, PSYC 314; or (b) PSYC 319",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                {
+                  "one_of": [
+                    "PSYC 217",
+                    "PSYC 277"
+                  ]
+                },
+                {
+                  "one_of": [
+                    "PSYC 300",
+                    "PSYC 308",
+                    "PSYC 314"
+                  ]
+                }
+              ]
+            },
+            "PSYC 319"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 421",
+      "title": "Environmental Psychology",
+      "credits": "3",
+      "description": "Psychological theory and research on the interaction between organisms and the physical environment; emphasis on applications to the design and management of constructed and natural environments. Strongly recommended: PSYC 217, PSYC 277 and one of PSYC 300, PSYC 308, PSYC 309, PSYC 314, PSYC 319. Restricted to students with third-year standing or higher.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 427",
+      "title": "Advanced Seminar in Psychology",
+      "credits": "3",
+      "description": "Investigation of an issue, topic, or phenomenon in psychology, focusing on research deeply within a subfield or integrating research across subfields. Restricted to students with third-year standing or higher. Prerequisite: One of PSYC 217, PSYC 277 and one of PSYC 218, PSYC 278. Consult Section Notes or the Psychology Department website for 300-level course(s) recommended for a specific offering.",
+      "prereq": {
+        "text": "One of PSYC 217, PSYC 277 and one of PSYC 218, PSYC 278",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "PSYC 217",
+                "PSYC 277"
+              ]
+            },
+            {
+              "one_of": [
+                "PSYC 218",
+                "PSYC 278"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": "Consult Section Notes or the Psychology Department website for 300-level course(s) recommended for a specific offering"
+    },
+    {
+      "code": "PSYC 440",
+      "title": "Directed Studies in Psychology",
+      "credits": "2-6",
+      "description": "Directed investigation of a research problem, requiring a written report of the findings. Requires the supervising faculty member's permission. See the Department's website for more information. Restricted to Majors in Psychology or Cognitive Systems, with third-year standing or higher.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 448",
+      "title": "Honours Seminar III",
+      "credits": "3",
+      "description": "Students carry out a research project and report on its development during seminars. Discussion of research with emphasis on choice of problems, research design and data analysis. Restricted to students in Honours Psychology. Prerequisite: PSYC 349.",
+      "prereq": {
+        "text": "PSYC 349",
+        "tree": "PSYC 349",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 449",
+      "title": "Honours Seminar IV",
+      "credits": "3",
+      "description": "Continuation of PSYC 448. Restricted to students in Honours Psychology. Prerequisite: PSYC 448.",
+      "prereq": {
+        "text": "PSYC 448",
+        "tree": "PSYC 448",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 460",
+      "title": "Behavioural Neuroendocrinology",
+      "credits": "3",
+      "description": "Detailed examination of the interaction between hormones and neural control of reproductive and non-reproductive behaviours; emphasis on gonadal and adrenal hormone effects on learning and memory in the brain. Restricted to students with third-year standing or higher. Prerequisite: One of PSYC 304, PSYC 344, PSYC 371, BIOL 372.",
+      "prereq": {
+        "text": "One of PSYC 304, PSYC 344, PSYC 371, BIOL 372",
+        "tree": {
+          "one_of": [
+            "PSYC 304",
+            "PSYC 344",
+            "PSYC 371",
+            "BIOL 372"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 461",
+      "title": "Neuroplasticity and Behaviour",
+      "credits": "3",
+      "description": "Experimental findings and theory documenting the plasticity of the brain and its relationship to behaviour: emphasis on gene regulation, neurogenesis and cell morphology changes in relation to learning and experience. Restricted to students with third-year standing or higher. Prerequisite: One of PSYC 304, PSYC 344, PSYC 371, BIOL 372.",
+      "prereq": {
+        "text": "One of PSYC 304, PSYC 344, PSYC 371, BIOL 372",
+        "tree": {
+          "one_of": [
+            "PSYC 304",
+            "PSYC 344",
+            "PSYC 371",
+            "BIOL 372"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 462",
+      "title": "Drugs and Behavioural Neuroscience",
+      "credits": "3",
+      "description": "Introduction to neurochemical systems and functional neuroanatomy; animal models of human cognitive processes and mental disorders; neurochemical foundations and treatments for mental disorders. Restricted to students with third-year standing or higher. Prerequisite: One of PSYC 304, PSYC 344, PSYC 371, BIOL 372.",
+      "prereq": {
+        "text": "One of PSYC 304, PSYC 344, PSYC 371, BIOL 372",
+        "tree": {
+          "one_of": [
+            "PSYC 304",
+            "PSYC 344",
+            "PSYC 371",
+            "BIOL 372"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 472",
+      "title": "Advanced Neuroscience of Motivation",
+      "credits": "3",
+      "description": "Neurobiological pathways mediating five core aspects of motivated behaviour: (1) affective decision making; (2) motivated drive; (3) goal-directed vs. habit-based behaviour; (4) learning from negative reinforcers; and (5) disorders of motivation. Restricted to students with third-year standing or higher. Prerequisite: One of PSYC 361, PSYC 365.",
+      "prereq": {
+        "text": "One of PSYC 361, PSYC 365",
+        "tree": {
+          "one_of": [
+            "PSYC 361",
+            "PSYC 365"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 488",
+      "title": "Directed Studies in Behavioural Neuroscience",
+      "credits": "3-6",
+      "description": "Directed investigation of an experimental problem in Behavioural Neuroscience requiring a written report of the findings. Requires the supervising faculty member's permission. See the Department's website for more information. Restricted to Majors in PSYC or COGS or NSCI with third-year standing or higher. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 498",
+      "title": "Cooperative Work Placement III",
+      "credits": "3",
+      "description": "Approved and supervised relevant work experience in an industrial, academic, or government setting for a minimum of 13 weeks, full-time. Normally taken in fourth year Winter Session, Term 2. Work term report required. Pass/Fail. Restricted to students admitted to the Co-op Program in Psychology. Prerequisite: PSYC 399. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "PSYC 399",
+        "tree": "PSYC 399",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 499",
+      "title": "Cooperative Work Placement IV",
+      "credits": "3",
+      "description": "Approved and supervised relevant work experience in an industrial, academic, or government setting for a minimum of 13 weeks, full time. Normally taken in Summer Session after fourth year. Work term report required. Pass/Fail. Restricted to students admitted to the Co-op Program in Psychology. Prerequisite: PSYC 498. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "PSYC 498",
+        "tree": "PSYC 498",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 500",
+      "title": "History of Psychology",
+      "credits": "3-6",
+      "description": "Restricted to students in one of M.A. PSYC, Ph.D. PSYC. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 501",
+      "title": "Health Psychology",
+      "credits": "3",
+      "description": "Restricted to students in one of M.A. PSYC, Ph.D. PSYC. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 502",
+      "title": "Research Methods in Health Psychology",
+      "credits": "3",
+      "description": "Restricted to students in one of M.A. PSYC, Ph.D. PSYC. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 503",
+      "title": "Biological Basis of Health Psychology",
+      "credits": "3",
+      "description": "Restricted to students in one of M.A. PSYC, Ph.D. PSYC. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 504",
+      "title": "Special Topics in Health Psychology",
+      "credits": "3-6",
+      "description": "Restricted to students in one of M.A. PSYC, Ph.D. PSYC. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 507",
+      "title": "Cultural Psychology",
+      "credits": "3",
+      "description": "Restricted to students in one of M.A. PSYC, Ph.D. PSYC. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 508",
+      "title": "Teaching of Psychology",
+      "credits": "3-12",
+      "description": "Restricted to students in one of Ph.D. PSYC, Ph.D. NRSC. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 510",
+      "title": "Descriptive Psychopathology",
+      "credits": "3",
+      "description": "Restricted to students in one of M.A. PSYC, Ph.D. PSYC. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 512",
+      "title": "Psychology of Emotion",
+      "credits": "3",
+      "description": "Restricted to students in one of M.A. PSYC, Ph.D. PSYC. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 513",
+      "title": "Special Topics in Developmental Psychology",
+      "credits": "3-12",
+      "description": "Restricted to students in one of M.A. PSYC, Ph.D. PSYC. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 514",
+      "title": "Advanced Topics in Biopsychology",
+      "credits": "3",
+      "description": "Restricted to students in one of M.A. PSYC, M.Sc. NRSC, Ph.D. PSYC, Ph.D. NRSC. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 516",
+      "title": "Animal Learning, Memory, and Cognition",
+      "credits": "3",
+      "description": "Restricted to students in one of M.A. PSYC, M.Sc. NRSC, Ph.D. PSYC, Ph.D. NRSC. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 517",
+      "title": "Biopsychology of Motivation",
+      "credits": "3",
+      "description": "Restricted to students in one of M.A. PSYC, M.Sc. NRSC, Ph.D. PSYC, Ph.D. NRSC. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 520",
+      "title": "Developmental Biopsychology",
+      "credits": "3",
+      "description": "Restricted to students in one of M.A. PSYC, M.Sc. NRSC, Ph.D. PSYC, Ph.D. NRSC. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 521",
+      "title": "Psycholinguistics",
+      "credits": "3-6",
+      "description": "Restricted to students in one of M.A. PSYC, Ph.D. PSYC. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 522",
+      "title": "Drugs and Behaviour",
+      "credits": "3",
+      "description": "Restricted to students in one of M.A. PSYC, M.Sc. NRSC, Ph.D. PSYC, Ph.D. NRSC. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 523",
+      "title": "Experimental Neuropsychology and Animal Models",
+      "credits": "3",
+      "description": "Restricted to students in one of M.A. PSYC, M.Sc. NRSC, Ph.D. PSYC, Ph.D. NRSC. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 524",
+      "title": "Neural Models of Learning and Memory",
+      "credits": "3-6",
+      "description": "Restricted to students in one of M.A. PSYC, M.Sc. NRSC, Ph.D. PSYC, Ph.D. NRSC. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 525",
+      "title": "Attitudes and Social Cognition",
+      "credits": "3",
+      "description": "Restricted to students in one of M.A. PSYC, Ph.D. PSYC. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 527",
+      "title": "Interpersonal Processes",
+      "credits": "3",
+      "description": "Restricted to students in one of M.A. PSYC, Ph.D. PSYC. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 528",
+      "title": "Advanced Methods in Social Psychology and Personality",
+      "credits": "3",
+      "description": "Restricted to students in one of M.A. PSYC, Ph.D. PSYC. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 529",
+      "title": "Special Topics in Social Psychology",
+      "credits": "3-12",
+      "description": "Restricted to students in one of M.A. PSYC, Ph.D. PSYC. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 530",
+      "title": "Assessment: A Critical Survey",
+      "credits": "3",
+      "description": "Restricted to students in one of M.A. PSYC, Ph.D. PSYC. Restricted to Psychology graduate students in the Clinical Research Area. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 531",
+      "title": "Assessment: Clinical Applications",
+      "credits": "3",
+      "description": "Restricted to students in one of M.A. PSYC, Ph.D. PSYC. Restricted to Psychology graduate students in the Clinical Research Area. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 532",
+      "title": "Child Assessment",
+      "credits": "3",
+      "description": "Restricted to students in one of M.A. PSYC, Ph.D. PSYC. Restricted to Psychology graduate students in the Clinical Research Area. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 533",
+      "title": "Current Issues in Clinical Psychology",
+      "credits": "3-6",
+      "description": "Restricted to students in one of M.A. PSYC, Ph.D. PSYC. Restricted to Psychology graduate students in the Clinical Research Area. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 534",
+      "title": "Clinical Psychology Practicum",
+      "credits": "3-12",
+      "description": "Restricted to students in one of M.A. PSYC, Ph.D. PSYC. Restricted to Psychology graduate students in the Clinical Research Area. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 535",
+      "title": "Psychopathology of the Adult",
+      "credits": "3",
+      "description": "Restricted to students in one of M.A. PSYC, Ph.D. PSYC. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 536",
+      "title": "Psychopathology of the Child",
+      "credits": "3",
+      "description": "Restricted to students in one of M.A. PSYC, Ph.D. PSYC. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 537",
+      "title": "Ethical and Professional Issues in Clinical Psychology",
+      "credits": "3",
+      "description": "Restricted to students in one of M.A. PSYC, Ph.D. PSYC. Restricted to Psychology graduate students in the Clinical Research Area. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 538",
+      "title": "Clinical Neuropsychological Assessment",
+      "credits": "3",
+      "description": "Restricted to students in one of M.A. PSYC, Ph.D. PSYC. Restricted to Psychology graduate students in the Clinical Research Area. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 539",
+      "title": "Biological Bases of Mental Disorders",
+      "credits": "3",
+      "description": "This course is highly recommended for students who have completed PSYC 300 or equivalent. Credit will be granted for only one of PSYC 539 or NRSC 553. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 540",
+      "title": "Strategies of Psychological Intervention",
+      "credits": "3-6",
+      "description": "Restricted to students in one of M.A. PSYC, Ph.D. PSYC. Restricted to Psychology graduate students in the Clinical Research Area. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 541",
+      "title": "Introduction to Psychotherapy",
+      "credits": "2",
+      "description": "Restricted to students in one of M.A. PSYC, Ph.D. PSYC. Restricted to Psychology graduate students in the Clinical Research Area. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 542",
+      "title": "Cognitive/Behavioural Interventions",
+      "credits": "3",
+      "description": "Restricted to students in one of M.A. PSYC, Ph.D. PSYC. Restricted to Psychology graduate students in the Clinical Research Area. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 545",
+      "title": "Advanced Statistics",
+      "credits": "3",
+      "description": "Restricted to students in one of M.A. PSYC, Ph.D. PSYC. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 546",
+      "title": "Seminar in Quantitative Psychology",
+      "credits": "3-18",
+      "description": "Restricted to students in one of M.A. PSYC, Ph.D. PSYC. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 547",
+      "title": "Reading and Conference",
+      "credits": "2-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 549",
+      "title": "Master's Thesis",
+      "credits": "18",
+      "description": "Restricted to students in M.A. PSYC. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 556",
+      "title": "Psychological Treatment of Childhood Disorders",
+      "credits": "3",
+      "description": "Restricted to students in one of M.A. PSYC, Ph.D. PSYC. Restricted to Psychology graduate students in the Clinical Research Area. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 559",
+      "title": "Clinical Psychological Internship",
+      "credits": "6-12",
+      "description": "Restricted to students in one of M.A. PSYC, Ph.D. PSYC. Restricted to Psychology graduate students in the Clinical Research Area. Pass/Fail. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 560",
+      "title": "Clinical Research Design",
+      "credits": "3",
+      "description": "Restricted to students in one of M.A. PSYC, Ph.D. PSYC. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 567",
+      "title": "Personality Dimensions and Structure",
+      "credits": "3",
+      "description": "Restricted to students in one of M.A. PSYC, Ph.D. PSYC. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 569",
+      "title": "Contemporary Conceptual Issues in Personality",
+      "credits": "3",
+      "description": "Restricted to students in one of M.A. PSYC, Ph.D. PSYC. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 570",
+      "title": "Cognitive Neuroscience",
+      "credits": "3",
+      "description": "Restricted to students in one of M.A. PSYC, Ph.D. PSYC. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 571",
+      "title": "Special Topics in Cognitive Neuroscience",
+      "credits": "3-12",
+      "description": "Restricted to students in one of M.A. PSYC, Ph.D. PSYC. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 574",
+      "title": "Biopsychology I",
+      "credits": "3",
+      "description": "Restricted to students in one of M.A. PSYC, Ph.D. PSYC. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 578",
+      "title": "Perception",
+      "credits": "3-6",
+      "description": "Restricted to students in one of M.A. PSYC, Ph.D. PSYC. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 579",
+      "title": "Special Topics in Perception",
+      "credits": "3-6",
+      "description": "Restricted to students in one of M.A. PSYC, Ph.D. PSYC. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 582",
+      "title": "Cognition",
+      "credits": "3-6",
+      "description": "Restricted to students in one of M.A. PSYC, Ph.D. PSYC. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 583",
+      "title": "Special Topics in Cognition",
+      "credits": "3-6",
+      "description": "Restricted to students in one of M.A. PSYC, Ph.D. PSYC. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 584",
+      "title": "Language Development in Infancy and Childhood",
+      "credits": "3-6",
+      "description": "Restricted to students in one of M.A. PSYC, Ph.D. PSYC. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 585",
+      "title": "Special Topics in Developmental Cognitive Neuroscience",
+      "credits": "3-6",
+      "description": "Restricted to students in one of M.A. PSYC, Ph.D. PSYC. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 586",
+      "title": "Developmental Psychology",
+      "credits": "3-6",
+      "description": "Restricted to students in one of M.A. PSYC, Ph.D. PSYC. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 587",
+      "title": "Cognitive Development",
+      "credits": "3-6",
+      "description": "Restricted to students in one of M.A. PSYC, Ph.D. PSYC. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 588",
+      "title": "Special Topics in Social and Personality Development",
+      "credits": "3-6",
+      "description": "Restricted to students in one of M.A. PSYC, Ph.D. PSYC. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 589",
+      "title": "Moral Development",
+      "credits": "3-6",
+      "description": "Restricted to students in one of M.A. PSYC, Ph.D. PSYC. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 590",
+      "title": "Survey of Social Psychology I",
+      "credits": "3",
+      "description": "Restricted to students in one of M.A. PSYC, Ph.D. PSYC. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 591",
+      "title": "Survey of Social Psychology II",
+      "credits": "3",
+      "description": "Restricted to students in one of M.A. PSYC, Ph.D. PSYC. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 592",
+      "title": "Neuroethology",
+      "credits": "3",
+      "description": "Restricted to students in one of M.A. PSYC, M.Sc. NRSC, Ph.D. PSYC, Ph.D. NRSC. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 593",
+      "title": "Neurophysiology and Cortical Plasticity",
+      "credits": "3",
+      "description": "Restricted to students in one of M.A. PSYC, M.Sc. NRSC, Ph.D. PSYC, Ph.D. NRSC. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 594",
+      "title": "Psychoneuroendocrinology",
+      "credits": "3",
+      "description": "Restricted to students in one of M.A. PSYC, M.Sc. NRSC, Ph.D. PSYC, Ph.D. NRSC. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 595",
+      "title": "Psychophysiology",
+      "credits": "3",
+      "description": "Restricted to students in one of M.A. PSYC, M.Sc. NRSC, Ph.D. PSYC, Ph.D. NRSC. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 596",
+      "title": "Advanced Research Skills in Neuroscience",
+      "credits": "3",
+      "description": "Fundamental skills in planning, conducting, analyzing, interpreting, and presenting Neuroscience research. Restricted to students in MSc and PhD in Neuroscience, or MSc and PhD in Psychology. Credit will be granted for only one of NRSC 530 or PSYC 596. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PSYC 649",
+      "title": "Doctoral Dissertation",
+      "credits": "0",
+      "description": "Restricted to students in PhD PSYC. Pass/Fail. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    }
+  ]
+}

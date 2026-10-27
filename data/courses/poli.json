@@ -1,0 +1,2685 @@
+{
+  "subject": "POLI",
+  "source": "https://vancouver.calendar.ubc.ca/course-descriptions/subject/poliv",
+  "courses": [
+    {
+      "code": "POLI 100",
+      "title": "Introduction to Politics",
+      "credits": "3",
+      "description": "Political issues and case studies, drawn from Canadian and international contexts, will be used to introduce students to central debates and concepts of politics and political analysis.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 101",
+      "title": "Introduction to Canadian Politics",
+      "credits": "3",
+      "description": "Canadian governments, politics, and public policy. How policies emerge from politics contested through the interaction of institutions (Constitution, Parliament, federalism, elections, and the courts) and actors (individuals, parties, interest groups, nations). Insights are applied to explain current events and controversies.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 110",
+      "title": "Investigating Politics: An Introduction to Scientific Political Analysis",
+      "credits": "3",
+      "description": "The logic, challenges, and major strategies of empirical political research. Core research tasks including: asking answerable questions, defining concepts, formulating hypotheses, gathering evidence, measuring variables, constructing comparisons, drawing causal inferences, and reporting findings.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 220",
+      "title": "Introduction to Political Systems Around the World",
+      "credits": "3-6",
+      "description": "Compares political systems around the world. Investigates why some countries are democracies and others are dictatorships; how different countries resolve political conflict; how institutions and culture affect the use of power and collective choices. Prerequisite: POLI 100 or POLI_O 100. Or second-year standing or higher.",
+      "prereq": {
+        "text": "POLI 100 or POLI_O 100. Or second-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "one_of": [
+                "POLI 100",
+                "POLI_O 100"
+              ]
+            },
+            {
+              "other": "second-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 240",
+      "title": "Currents of Political Thought",
+      "credits": "3",
+      "description": "A critical introduction to some major ideologies and traditions of Western political thought that examines their philosophical origins as well as their implications for political life. Prerequisite: POLI 100 or POLI_O 100. Or second-year standing or higher.",
+      "prereq": {
+        "text": "POLI 100 or POLI_O 100. Or second-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "one_of": [
+                "POLI 100",
+                "POLI_O 100"
+              ]
+            },
+            {
+              "other": "second-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 260",
+      "title": "Introduction to Global Politics",
+      "credits": "3",
+      "description": "Examines key themes and issues in the study of political interaction between states and non-state actors, including international security, armed conflict and conflict management, global governance and international institutions, the world economy, poverty and inequality, and climate change. Prerequisite: POLI 100 or POLI_O 100. Or second-year standing or higher.",
+      "prereq": {
+        "text": "POLI 100 or POLI_O 100. Or second-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "one_of": [
+                "POLI 100",
+                "POLI_O 100"
+              ]
+            },
+            {
+              "other": "second-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 300",
+      "title": "Current Issues in Politics",
+      "credits": "3",
+      "description": "Major issues in global, national, and local politics explored through core political science concepts. This course is designed for students who are not enrolled in Political Science or International Relations programs. No prior POLI coursework is required. Restricted to students with third-year standing or above. This course is not open to students in the Major, Honours, Minor and Combined Majors in Political Science or the Major, Honours, and Minor in International Relations.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 301",
+      "title": "Canadian Political Parties",
+      "credits": "3",
+      "description": "The organization and operation of party politics and the systems of party competition in Canada. The focus is on national-level politics. Prerequisite: All of POLI 100, POLI 101, POLI 110, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "All of POLI 100, POLI 101, POLI 110, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "POLI 100",
+                "POLI 101",
+                "POLI 110",
+                "POLI 240"
+              ]
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 302",
+      "title": "Public Administration",
+      "credits": "3-6",
+      "description": "The structure and organization of the administrative branch of government in theory and practice. Administrative powers and policy-making in the modern state. Examples of the administrative processes are drawn from Canada and other countries. Prerequisite: All of POLI 100, POLI 101, POLI 110, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "All of POLI 100, POLI 101, POLI 110, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "POLI 100",
+                "POLI 101",
+                "POLI 110",
+                "POLI 240"
+              ]
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 303",
+      "title": "Federalism in Canada",
+      "credits": "3",
+      "description": "Theory and practice of Canadian federalism, its relationship to public policy, cultural pluralism, social stresses, and role of the courts. Prerequisite: All of POLI 100, POLI 101, POLI 110, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "All of POLI 100, POLI 101, POLI 110, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "POLI 100",
+                "POLI 101",
+                "POLI 110",
+                "POLI 240"
+              ]
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 304",
+      "title": "British Columbia Government and Politics",
+      "credits": "3",
+      "description": "An examination of political history, party politics, and public policy in British Columbia. Prerequisite: Two of POLI 100, POLI 101, POLI 110, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "Two of POLI 100, POLI 101, POLI 110, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "other": "Two of POLI 100, POLI 101, POLI 110, POLI 240"
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 305",
+      "title": "Canadian Political Ideas",
+      "credits": "3",
+      "description": "Political theories and ideologies in Canada. Prerequisite: All of POLI 100, POLI 101, POLI 110, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "All of POLI 100, POLI 101, POLI 110, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "POLI 100",
+                "POLI 101",
+                "POLI 110",
+                "POLI 240"
+              ]
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 306",
+      "title": "Local Government and Politics in Canada",
+      "credits": "3",
+      "description": "Local and regional political institutions and public policies in Canada, with particular attention to those of Vancouver and other British Columbia localities. Prerequisite: Two of POLI 100, POLI 101, POLI 110, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "Two of POLI 100, POLI 101, POLI 110, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "other": "Two of POLI 100, POLI 101, POLI 110, POLI 240"
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 307",
+      "title": "Quebec Government and Politics",
+      "credits": "3",
+      "description": "The nature of politics and the conduct of government in contemporary Quebec. The course is open to students from fields other than political science. Prerequisite: All of POLI 100, POLI 101, POLI 110, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "All of POLI 100, POLI 101, POLI 110, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "POLI 100",
+                "POLI 101",
+                "POLI 110",
+                "POLI 240"
+              ]
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 308",
+      "title": "Topics in Canadian Politics",
+      "credits": "3-6",
+      "description": "An important topic in Canadian politics and public policies. Possible topics include elections, media, and gender and identity. Topics vary year to year; see www.politics.ubc.ca/courses . Prerequisite: Two of POLI 100, POLI 101, POLI 110, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "Two of POLI 100, POLI 101, POLI 110, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "other": "Two of POLI 100, POLI 101, POLI 110, POLI 240"
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 309",
+      "title": "Canadian Perspectives on Human Rights",
+      "credits": "3",
+      "description": "Key issues in the theory and practice of human rights in Canada. Topics will vary from year to year. Prerequisite: All of POLI 100, POLI 101, POLI 110, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "All of POLI 100, POLI 101, POLI 110, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "POLI 100",
+                "POLI 101",
+                "POLI 110",
+                "POLI 240"
+              ]
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 310",
+      "title": "The Strategy of Politics",
+      "credits": "3",
+      "description": "Uses game theory to show how politicians strike bargains, outmanoeuvre opponents, and manipulate institutional rules. Prerequisite: Two of POLI 100, POLI 101, POLI 110, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "Two of POLI 100, POLI 101, POLI 110, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "other": "Two of POLI 100, POLI 101, POLI 110, POLI 240"
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 311",
+      "title": "Political Psychology",
+      "credits": "3",
+      "description": "How psychology explains political behavior, exploring personality, cognition, emotion, and social influence in political identity, media effects, leadership, conflict, and decision-making. Prerequisite: Two of POLI 100, POLI 101, POLI 110, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "Two of POLI 100, POLI 101, POLI 110, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "other": "Two of POLI 100, POLI 101, POLI 110, POLI 240"
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 312",
+      "title": "Threats to Contemporary Democracies",
+      "credits": "3",
+      "description": "Domestic and international challenges to democracy, and innovative democratic responses to populism, polarization, globalization and disinformation. Prerequisite: Two of POLI 100, POLI 101, POLI 110, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "Two of POLI 100, POLI 101, POLI 110, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "other": "Two of POLI 100, POLI 101, POLI 110, POLI 240"
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 316",
+      "title": "Global Indigenous Politics",
+      "credits": "3-6",
+      "description": "The political dynamics of Indigenous peoples' politics on the global level; the legal and practical realities of colonization as a global Indigenous experience; current global Indigenous political issues and avenues of Indigenous resistance. Prerequisite: All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "POLI 100",
+                "POLI 101",
+                "POLI 240"
+              ]
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 317",
+      "title": "Queer Politics",
+      "credits": "3",
+      "description": "Political processes and policies governing advances and setbacks in gender and sexual minority rights around the world. Prerequisite: Two of POLI 100, POLI 101, POLI 110, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "Two of POLI 100, POLI 101, POLI 110, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "other": "Two of POLI 100, POLI 101, POLI 110, POLI 240"
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 320",
+      "title": "Government and Politics of the United States of America",
+      "credits": "3-6",
+      "description": "The distinctive political system of the U.S. Covers all major institutions and processes, focusing on contemporary issues. Comparisons with the Canadian system. Sources of political failure and possible reform. Prerequisite: All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "POLI 100",
+                "POLI 101",
+                "POLI 240"
+              ]
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 321",
+      "title": "Chinese Politics and Development",
+      "credits": "3-6",
+      "description": "The course will explore various aspects of Chinese politics and the dynamics of China's development since 1949. Topics include: the Cultural Revolution, political reform and protest, and economic reform policies and their consequences. Prerequisite: All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "POLI 100",
+                "POLI 101",
+                "POLI 240"
+              ]
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 322",
+      "title": "Japanese Government and Politics",
+      "credits": "3",
+      "description": "Introduction to modern Japanese politics and public policy from various theoretical and comparative perspectives. Prerequisite: Two of POLI 100, POLI 101, POLI 110, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "Two of POLI 100, POLI 101, POLI 110, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "other": "Two of POLI 100, POLI 101, POLI 110, POLI 240"
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 323",
+      "title": "South Asian Government and Politics",
+      "credits": "3-6",
+      "description": "Comparative analysis of politics and government in India, Pakistan, Bangladesh, and Sri Lanka. Imperial legacies and nationalist movements; political institution-building amidst socio-cultural diversity; parties and interest groups; elections and leadership crises; military intervention; ethnic and class conflicts; foreign policy. Prerequisite: All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "POLI 100",
+                "POLI 101",
+                "POLI 240"
+              ]
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 324",
+      "title": "Southeast Asian Government and Politics",
+      "credits": "3-6",
+      "description": "The political systems of contemporary Southeast Asia. Prerequisite: All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "POLI 100",
+                "POLI 101",
+                "POLI 240"
+              ]
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 325",
+      "title": "Communist and Post-Communist Politics",
+      "credits": "3",
+      "description": "An examination of the origins, development, and demise of Communist political systems, as well as the nature of post-Communist politics, with special emphasis on the Soviet Union and its successor states. Prerequisite: All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "POLI 100",
+                "POLI 101",
+                "POLI 240"
+              ]
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 326",
+      "title": "European Politics: Selected Cases",
+      "credits": "3",
+      "description": "The politics and government of one or more European countries: political development, institutional structure, party politics, and policy-making. The specific country or countries will vary by section. Prerequisite: All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "POLI 100",
+                "POLI 101",
+                "POLI 240"
+              ]
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 327",
+      "title": "European Integration",
+      "credits": "3",
+      "description": "Post-1945 integration of Europe, comparison of national politics and attitudes to integration, and the history and institutions of the European Union. Prerequisite: All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "POLI 100",
+                "POLI 101",
+                "POLI 240"
+              ]
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 328",
+      "title": "Topics in Comparative Politics",
+      "credits": "3-6",
+      "description": "Topics will vary from year to year. Consult the departmental website. Prerequisite: All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "POLI 100",
+                "POLI 101",
+                "POLI 240"
+              ]
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 329",
+      "title": "Gender and Politics",
+      "credits": "3",
+      "description": "Relations between gender and political processes and institutions, including the impact of globalization and economic development. Prerequisite: All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "POLI 100",
+                "POLI 101",
+                "POLI 240"
+              ]
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 330",
+      "title": "Japanese Political Economy",
+      "credits": "3",
+      "description": "Issues in contemporary Japanese political economy, including industrial policy, the Keiretsu groupings, the main-bank system, trends toward deregulation, and business-labour relations. Prerequisite: All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "POLI 100",
+                "POLI 101",
+                "POLI 240"
+              ]
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 331",
+      "title": "Korean Government and Politics",
+      "credits": "3",
+      "description": "An introduction to the politics of Korea. The evolution of Korean politics from authoritarian rule to democratic transition, focusing on present and future political, economic and social issues. Prerequisite: All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "POLI 100",
+                "POLI 101",
+                "POLI 240"
+              ]
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 332",
+      "title": "Politics and Government of Latin America",
+      "credits": "3-6",
+      "description": "A comparative examination of democracy and authoritarianism in Latin America: populism, corporatism, bureaucratic authoritarianism, transitions from authoritarianism, and contemporary debates on the quality and diversity of democratic institutions. Prerequisite: All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "POLI 100",
+                "POLI 101",
+                "POLI 240"
+              ]
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 333",
+      "title": "Issues in Comparative Politics",
+      "credits": "3-6",
+      "description": "An examination of a major issue in comparative politics (e.g., the media, gender, nationalism, ethnic conflict). Topics will vary from year to year. Prerequisite: All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "POLI 100",
+                "POLI 101",
+                "POLI 240"
+              ]
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 334",
+      "title": "Comparative Democratization",
+      "credits": "3",
+      "description": "Literatures and theories on regime democratization around the world; the roles of political, economic, social, and international factors in encouraging or impeding democratization. Prerequisite: All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "POLI 100",
+                "POLI 101",
+                "POLI 240"
+              ]
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 335",
+      "title": "Comparative Federalism",
+      "credits": "3-6",
+      "description": "An empirical and normative analysis of federalism as a way of structuring political life in industrialized democracies, investigating explanations for the design, persistence and operation of federal systems. Prerequisite: All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "POLI 100",
+                "POLI 101",
+                "POLI 240"
+              ]
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 336",
+      "title": "Associations and the State in Comparative Perspective",
+      "credits": "3",
+      "description": "How organised groups (civil society organizations, NGOs, interest groups) interact with governments in a variety of countries. Prerequisite: All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "POLI 100",
+                "POLI 101",
+                "POLI 240"
+              ]
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 337",
+      "title": "The U.S. Presidency in Comparative Perspective",
+      "credits": "3",
+      "description": "Executive leadership of the U.S. presidency in comparison to the leadership of other Anglo-American systems, including the U.K., Canada, and Australia. Prerequisite: All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "POLI 100",
+                "POLI 101",
+                "POLI 240"
+              ]
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 338",
+      "title": "Politics and Development",
+      "credits": "3-6",
+      "description": "The relationship between political institutions and economic growth. How governments shape economic policy and development aid. Prerequisite: All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "POLI 100",
+                "POLI 101",
+                "POLI 240"
+              ]
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 340",
+      "title": "History of Political Ideas",
+      "credits": "3-6",
+      "description": "An introduction to the political ideas of leading political philosophers from Ancient Greece to the 19th century. Prerequisite: All of POLI 100, POLI 101, POLI 240. Or third-year standing or above.",
+      "prereq": {
+        "text": "All of POLI 100, POLI 101, POLI 240. Or third-year standing or above",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "POLI 100",
+                "POLI 101",
+                "POLI 240"
+              ]
+            },
+            {
+              "other": "third-year standing or above"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 341",
+      "title": "Contemporary Political Theory",
+      "credits": "3-6",
+      "description": "Topics may include freedom, colonialism, capitalism, Critical Theory and ideology, power and knowledge, social justice, rationalism, gender and identity politics, and the political. Prerequisite: All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "POLI 100",
+                "POLI 101",
+                "POLI 240"
+              ]
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 342",
+      "title": "Modern Political Theory: Analysis of a Selected Theorist",
+      "credits": "3",
+      "description": "A detailed examination of an acknowledged masterpiece of modern political theory. The text and attendant literature vary from year to year. Consult the departmental website. Prerequisite: All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "POLI 100",
+                "POLI 101",
+                "POLI 240"
+              ]
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 343",
+      "title": "Theories of State and Society",
+      "credits": "3",
+      "description": "Classical origins of contemporary theories of the state, market, and civil society, focused on the relationship between social order, politics, and democracy. Readings from Smith, Tocqueville, Weber, and contemporary sources. Prerequisite: All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "POLI 100",
+                "POLI 101",
+                "POLI 240"
+              ]
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 344",
+      "title": "Social and Political Thought",
+      "credits": "3-6",
+      "description": "An examination of some of the major concepts in political philosophy such as justice, equality, rights, obligation, liberty in the context of both classical and contemporary political thought. Prerequisite: All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "POLI 100",
+                "POLI 101",
+                "POLI 240"
+              ]
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 345",
+      "title": "Gender and Politics: Political Thought and Practice",
+      "credits": "3-6",
+      "description": "The role of gender in Western political theory and the implications for the practice of politics. Prerequisite: All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "POLI 100",
+                "POLI 101",
+                "POLI 240"
+              ]
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 346",
+      "title": "Democratic Theory",
+      "credits": "3",
+      "description": "An examination of both classical and contemporary theories of democracy. Representative democratic theory, participatory democratic theory, and their relationship to twentieth century concepts of democracy. Prerequisite: All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "POLI 100",
+                "POLI 101",
+                "POLI 240"
+              ]
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 347",
+      "title": "Law and Political Theory",
+      "credits": "3-6",
+      "description": "An examination of law and political theory that considers topics such as sovereignty, constitutionalism, civil disobedience, rights and the political role of judges. Prerequisite: All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "POLI 100",
+                "POLI 101",
+                "POLI 240"
+              ]
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 348",
+      "title": "Political Theory and Public Policy",
+      "credits": "3",
+      "description": "Application of frameworks to policy questions that factor in debates about citizenship and social inclusion, and an examination of contemporary normative frameworks that fall along, and transcend, the left-right political spectrum. Prerequisite: All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "POLI 100",
+                "POLI 101",
+                "POLI 240"
+              ]
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 350",
+      "title": "Public Policy",
+      "credits": "3-6",
+      "description": "An introduction to public policy: rationales for government intervention, the influence of interest groups and political institutions on policy outcomes, and the various stages in the policy process. Prerequisite: All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "POLI 100",
+                "POLI 101",
+                "POLI 240"
+              ]
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 351",
+      "title": "Environmental Politics and Policy",
+      "credits": "3",
+      "description": "Domestic and international determinants of environmental policy; alternative approaches to environmental protection. The sustainable development paradigm; public opinion and interest group pressures; risk assessment; mandatory, voluntary and market-based policy instruments. Prerequisite: All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "POLI 100",
+                "POLI 101",
+                "POLI 240"
+              ]
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 352",
+      "title": "Comparative Politics of Public Policy",
+      "credits": "3-6",
+      "description": "Policy making across industrialized democracies, with a focus on North America and Europe. Prerequisite: All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "POLI 100",
+                "POLI 101",
+                "POLI 240"
+              ]
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 353",
+      "title": "Public Opinion and Public Policy",
+      "credits": "3",
+      "description": "The interaction of public opinion and public policies of climate change, inequality, poverty, and democratic institutions and values in Canada and other democracies. Prerequisite: Two of POLI 100, POLI 101, POLI 110, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "Two of POLI 100, POLI 101, POLI 110, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "other": "Two of POLI 100, POLI 101, POLI 110, POLI 240"
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 360",
+      "title": "Security Studies",
+      "credits": "3-6",
+      "description": "The contemporary international security context: reorientation of the study of security, patterns of inter- and intrastate conflict and communal violence, dilemmas of international response and conflict management. Prerequisite: All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "POLI 100",
+                "POLI 101",
+                "POLI 240"
+              ]
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 361",
+      "title": "International Violence and Its Control",
+      "credits": "3-6",
+      "description": "A study of the nature of international violence from guerrilla to nuclear war; a survey of theories of the causes of interstate war; recent research findings on the causes of war and conditions for peace; a comparative analysis of strategies for controlling violence through disarmament and the promotion of alternative means of conflict resolution. Prerequisite: All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "POLI 100",
+                "POLI 101",
+                "POLI 240"
+              ]
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 362",
+      "title": "The Great Powers and International Politics",
+      "credits": "3",
+      "description": "An examination of the changing nature of Great Power relations, including procedures and institutions for managing their conflicts, in the pre-Cold War, Cold War, and post-Cold War international systems. Prerequisite: All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "POLI 100",
+                "POLI 101",
+                "POLI 240"
+              ]
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 363",
+      "title": "Canadian Foreign Policy",
+      "credits": "3-6",
+      "description": "An analysis of Canadian foreign policy on important international issues since the 1960s and of the policy-making process. Issues may include defence commitments, economic relations, activities of international organizations, and relations with the US, Europe, USSR, Asia and the Third World. Prerequisite: All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "POLI 100",
+                "POLI 101",
+                "POLI 240"
+              ]
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 364",
+      "title": "International Organizations",
+      "credits": "3-6",
+      "description": "Analysis of the activities and influence of modern international organizations in international security, economic, and social issue areas. The course will focus on organizations associated with the United Nations, but other world and regional bodies will be analysed as well. Prerequisite: All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "POLI 100",
+                "POLI 101",
+                "POLI 240"
+              ]
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 365",
+      "title": "Asian International Relations",
+      "credits": "3-6",
+      "description": "Analysis of the foreign policies of one or more of the states of East, Southeast, and South Asia; their relations with other states in the region as well as with major outside powers. Prerequisite: All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "POLI 100",
+                "POLI 101",
+                "POLI 240"
+              ]
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 366",
+      "title": "International Political Economy",
+      "credits": "3",
+      "description": "An analysis of governmental policies and international political bargaining in regard to such issues as international investment, trade, and monetary relations. Prerequisite: Two of POLI 100, POLI 101, POLI 110, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "Two of POLI 100, POLI 101, POLI 110, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "other": "Two of POLI 100, POLI 101, POLI 110, POLI 240"
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 367",
+      "title": "International Relations Theory and the International System",
+      "credits": "3-6",
+      "description": "The evolution of the international system and empirical and normative theories of international relations such as realism, liberalism, and Marxism. Prerequisite: All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "POLI 100",
+                "POLI 101",
+                "POLI 240"
+              ]
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 368",
+      "title": "Topics in International Relations",
+      "credits": "3",
+      "description": "Topics will vary from year to year. Consult the program website ( https://politics.ubc.ca/courses/ ) for more information. Prerequisite: All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "POLI 100",
+                "POLI 101",
+                "POLI 240"
+              ]
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 369",
+      "title": "Topics in International Security",
+      "credits": "3-6",
+      "description": "Possible topics include armed conflict, terrorism, environmental change, or international crime. Topics vary year to year, see www.politics.ubc.ca/courses . Pre-requisite: Two of POLI 100, POLI 101, POLI 110, POLI 240. Or third-year standing or above.",
+      "prereq": {
+        "text": "Two of POLI 100, POLI 101, POLI 110, POLI 240. Or third-year standing or above",
+        "tree": {
+          "one_of": [
+            {
+              "other": "Two of POLI 100, POLI 101, POLI 110, POLI 240"
+            },
+            {
+              "other": "third-year standing or above"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 370",
+      "title": "Topics in International Conflict Management",
+      "credits": "3-6",
+      "description": "Problems of managing conflict in the international system. Possible topics include intervention, mediation, or sanctions. Topics vary year to year; see www.politics.ubc.ca/courses . Pre-requisite: Two of POLI 100, POLI 101, POLI 110, POLI 240. Or third-year standing or above.",
+      "prereq": {
+        "text": "Two of POLI 100, POLI 101, POLI 110, POLI 240. Or third-year standing or above",
+        "tree": {
+          "one_of": [
+            {
+              "other": "Two of POLI 100, POLI 101, POLI 110, POLI 240"
+            },
+            {
+              "other": "third-year standing or above"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 371",
+      "title": "Humanitarian Engineering: Politics and Practice",
+      "credits": "3",
+      "description": "An interdisciplinary study of best practice, politics, and ethics associated with technical solutions to humanitarian assistance within Canada and abroad; examines policies used in aid and development contexts with emphasis on the application of engineering. Restricted to students with a Major, Combined Major, Honours, Honours with, or Minor specialization in Political Science or International Relations, or at least third-year standing in any BASc program. Credit will be granted for only one of POLI 371 or APSC 367. Equivalency: APSC 367",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "APSC 367",
+      "recommended": null
+    },
+    {
+      "code": "POLI 372",
+      "title": "Multinational Corporations and Globalization",
+      "credits": "3-6",
+      "description": "Multinational corporations and the state in the contemporary international system, including the impact of multinationals and foreign direct investment on governments, societies, and industry. Prerequisite: All of POLI 100, POLI 101, POLI 110, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "All of POLI 100, POLI 101, POLI 110, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "POLI 100",
+                "POLI 101",
+                "POLI 110",
+                "POLI 240"
+              ]
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 373",
+      "title": "Ethics in World Politics",
+      "credits": "3",
+      "description": "When is it right to wage war? Who should pay for global warming? Should the wealthy provide foreign aid- how much? Analysis of traditions of moral thought to reach reasoned judgments about such dilemmas in global politics. Prerequisite: All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "POLI 100",
+                "POLI 101",
+                "POLI 240"
+              ]
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 374",
+      "title": "International Peacekeeping",
+      "credits": "3-6",
+      "description": "The development of peacekeeping within and outside the United Nations system and as an instrument of conflict management. Prerequisite: All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "POLI 100",
+                "POLI 101",
+                "POLI 240"
+              ]
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 375",
+      "title": "Global Environmental Politics",
+      "credits": "3-6",
+      "description": "Ecological consequences of the global political economy. Prerequisite: All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "POLI 100",
+                "POLI 101",
+                "POLI 240"
+              ]
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 376",
+      "title": "International Law",
+      "credits": "3",
+      "description": "The nature, sources, and sanctions of international law; the notion of nationhood with particular reference to the status of the British Dominions; territorial and extra-territorial jurisdiction; diplomatic and sovereign immunities; international delinquency; treaties; settlement of disputes; international organizations. This course may not be taken for credit in both Arts and Law. Credit will be granted for only one of POLI 376 or LAW 316. Prerequisite: All of POLI 100, POLI 101, POLI 110, POLI 240. Or third-year standing or higher. Equivalency: LAW 316",
+      "prereq": {
+        "text": "All of POLI 100, POLI 101, POLI 110, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "POLI 100",
+                "POLI 101",
+                "POLI 110",
+                "POLI 240"
+              ]
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": "LAW 316",
+      "recommended": null
+    },
+    {
+      "code": "POLI 377",
+      "title": "Nuclear Weapons and Arms Control",
+      "credits": "3",
+      "description": "Evolution and contemporary significance of nuclear weapons and arms control policy and technology from the perspective of the physical and life sciences and the social sciences and humanities. Credit will be granted for only one of POLI 377 or APSC 377. Prerequisite: All of POLI 100, POLI 101, POLI 110, POLI 240. Or third-year standing or higher. Equivalency: APSC 377",
+      "prereq": {
+        "text": "All of POLI 100, POLI 101, POLI 110, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "POLI 100",
+                "POLI 101",
+                "POLI 110",
+                "POLI 240"
+              ]
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": "APSC 377",
+      "recommended": null
+    },
+    {
+      "code": "POLI 378",
+      "title": "The Politics of Terrorism",
+      "credits": "3-6",
+      "description": "Exploration of contemporary terrorism as a contested area of understanding and as a social construct. Includes origins and motives, evolution of terrorist groups, strategies and tactics, and anti-terrorism and counter-terrorism responses. Prerequisite: All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "POLI 100",
+                "POLI 101",
+                "POLI 240"
+              ]
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 379",
+      "title": "China in World Politics",
+      "credits": "3-6",
+      "description": "Impact and implications of the rise of China in historical and contemporary perspective. Prerequisite: All of POLI 100, POLI 101, POLI 110, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "All of POLI 100, POLI 101, POLI 110, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "POLI 100",
+                "POLI 101",
+                "POLI 110",
+                "POLI 240"
+              ]
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 380",
+      "title": "Quantitative Methods in Political Science",
+      "credits": "3",
+      "description": "An introduction to quantitative research methods and data analysis used in the study of politics. Students are advised to review the Science Credit Exclusion Lists for course equivalencies to avoid unnecessary registration. Prerequisite: POLI 110. Or third-year standing or higher. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "POLI 110. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            "POLI 110",
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 381",
+      "title": "Managing Quantitative Data in Political Science",
+      "credits": "3",
+      "description": "The basics of quantitative analysis and managing data in Political Science, including the sourcing, construction, cleaning, manipulation, and visualization of data sets. Prerequisite: POLI 110",
+      "prereq": {
+        "text": "POLI 110",
+        "tree": "POLI 110",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 385",
+      "title": "Public Opinion and Elections",
+      "credits": "3-6",
+      "description": "Psychological and social foundations of public opinion; quality of democratic decision-making; how voters make up their minds; impact of electoral systems; social bases of party systems; campaigns and the mass media. The Canadian experience in comparative context. Prerequisite: All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher.",
+      "prereq": {
+        "text": "All of POLI 100, POLI 101, POLI 240. Or third-year standing or higher",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "POLI 100",
+                "POLI 101",
+                "POLI 240"
+              ]
+            },
+            {
+              "other": "third-year standing or higher"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 390",
+      "title": "Honours Seminar",
+      "credits": "6",
+      "description": "An examination of the dimensions of Political Science and the major debates within the discipline. Restricted to students with an Honours or Honours with specialization in Political Science.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 395",
+      "title": "Political Science in Practice",
+      "credits": "3",
+      "description": "The practical application of political science capacities and knowledge. Restricted to Political Science and International Relations Majors and Minors. Pass/Fail This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 401",
+      "title": "Canadian Provincial and Regional Politics",
+      "credits": "3-6",
+      "description": "Seminar examines political parties, processes, and institutions in the provincial political systems and regional arrangements between provinces. Restricted to students in fourth-year standing or higher.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 402",
+      "title": "Law and Politics of the Canadian Constitution",
+      "credits": "3-6",
+      "description": "Seminar on the origins and development of the Canadian Constitution: the political aspects of federalism and the legal consequences of the Charter of Rights. Restricted to students in fourth-year standing or higher.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 403",
+      "title": "The Political Economy of Canada",
+      "credits": "3-6",
+      "description": "A seminar devoted to the analysis of the interplay of economic and social factors in the shaping of Canadian politics: the major issues and strains in the functioning of the Canadian polity. Restricted to students in fourth-year standing or higher.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 404",
+      "title": "Public Policy and Its Administration",
+      "credits": "3-6",
+      "description": "Political and administrative aspects of public policy, particularly in Canada. Restricted to students in fourth-year standing or higher.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 405",
+      "title": "Advanced Topics in Canadian Politics",
+      "credits": "3-6",
+      "description": "Important topics in Canadian politics and public policies. Possible topics include elections, gender and identity, or media. Topics vary year to year; see www.politics.ubc.ca/courses . Restricted to students in fourth-year standing or above.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 406",
+      "title": "Indigenous Peoples and Canadian Politics",
+      "credits": "3",
+      "description": "Seminar in political structures, activities, and demands of Indigenous peoples; policies of federal, provincial, and territorial governments; relations between these governments and Indigenous peoples; role of the courts and the Constitution. Restricted to students in fourth-year standing or higher.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 420",
+      "title": "Advanced Topics in Comparative Politics",
+      "credits": "3-6",
+      "description": "An important topic involving politics, policies, and political systems around the world including, for example, ethnic politics, development, and the growth and erosion of democracy. Topics vary year to year; see www.politics.ubc.ca/courses . Restricted to students in fourth-year standing or higher.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 422",
+      "title": "Selected Problems in Comparative Politics",
+      "credits": "3-6",
+      "description": "A seminar devoted to intensive analysis of a contemporary political problem from a comparative perspective, e.g., ethnic politics, class politics, the politics of post-industrial society. For specific content in a given year, consult the departmental website. Restricted to students in fourth-year standing or higher.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 423",
+      "title": "Issues in Comparative Politics",
+      "credits": "3-6",
+      "description": "Seminar in comparative analysis of constitutionalism, authoritarianism, democracy, etc. For specific content in a given year, consult the departmental website. Restricted to students in fourth-year standing or higher.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 424",
+      "title": "Ethics in Democratic Politics",
+      "credits": "3-6",
+      "description": "Ethics in politics, including citizenship and public service, and practices demanded by the institutions of democracy. Restricted to students in fourth-year standing or higher.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 426",
+      "title": "Seminar on Comparative Parties and Party Systems",
+      "credits": "3-6",
+      "description": "Restricted to students in fourth-year standing or higher.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 427",
+      "title": "Advanced Topics in Chinese Politics and Development",
+      "credits": "3",
+      "description": "Topics in Chinese politics and public policies. Possible topics include environmental politics, local government, or state-society relations from a comparative perspective. Topics vary year to year; see www.politics.ubc.ca/courses . Restricted to students in fourth-year standing or above.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 428",
+      "title": "Comparative Public Management",
+      "credits": "3-6",
+      "description": "Major changes in the structures and processes of government in advanced democracies, including the welfare state, citizenship, ethics, accountability, and institutional reform. Restricted to students in fourth-year standing or higher. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 429",
+      "title": "Seminar in Issues in Gender and Politics",
+      "credits": "3",
+      "description": "Restricted to students in fourth-year standing or higher.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 439",
+      "title": "Politics and Economic Growth",
+      "credits": "3-6",
+      "description": "The relationship between politics, economics, and development. The role of the state, political institutions, economic policy, and foreign aid in development strategies. Restricted to students in fourth-year standing or higher. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 440",
+      "title": "Contemporary Political Theory",
+      "credits": "3-6",
+      "description": "Examines the political ideas of leading contemporary political philosophers. Topics vary year to year; see www.politics.ubc.ca/courses . Restricted to students in fourth-year standing or higher.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 441",
+      "title": "Interpretation and Criticism in Political Theory",
+      "credits": "3-6",
+      "description": "Approaches to political criticism: Critical Theory, Foucauldian genealogy, critical realism, and feminism, including forms of domination, which shape people's beliefs and self-conceptions. Restricted to students in fourth-year standing or higher.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 442",
+      "title": "Contemporary Political Theorists: Analysis of a Selected Theorist",
+      "credits": "3",
+      "description": "This seminar examines in detail the political ideas of an important political philosopher of the twentieth century. The theorist studied varies from year to year. Consult the departmental website. Restricted to students in fourth-year standing or higher.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 443",
+      "title": "Modern Western Political Thought",
+      "credits": "3-6",
+      "description": "Seminar: Texts in the history of modern Western political thought, such as works by Thomas Hobbes, John Locke, Jean-Jacques Rousseau, Karl Marx, Alexis de Tocqueville, John Stuart Mill, Friedrich Nietzsche, Max Weber, and Sigmund Freud. Restricted to students in fourth-year standing or higher.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 445",
+      "title": "Critical Theory: Political Theory and the Problems of Race",
+      "credits": "3-6",
+      "description": "Traditions of critical social theory, broadly construed, to examine the modern politics of 'race,' racism, and racialized identities. Restricted to students in fourth-year standing or higher.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 446",
+      "title": "Multiculturalism and Identity Politics",
+      "credits": "3-6",
+      "description": "Seminar will examine how identity is theorized in contemporary political thought, beginning with the role that identity plays in the western canon and proceeding to examine feminist, multicultural, queer, and post-colonial theories of citizenship along with their critics. Restricted to students in fourth-year standing or higher.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 448",
+      "title": "Democratic Theory",
+      "credits": "3-6",
+      "description": "Overview of traditional democratic theory with close readings of several contemporary theories, such as those of Habermas, Rawls, and Arendt. Readings are drawn from complete original texts, and assessment is based on a research essay. Restricted to students in fourth-year standing or higher.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 449",
+      "title": "Topics in Political Theory",
+      "credits": "3-6",
+      "description": "Restricted to students in fourth-year standing or higher.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 450",
+      "title": "Policy Analysis",
+      "credits": "3",
+      "description": "Analytical tools and practical policy analysis to address real-world issues for clients or employers. Involves collecting and analyzing policy-relevant data, generating alternatives, and evaluating trade-offs. Restricted to students in fourth-year standing or higher.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 460",
+      "title": "Foreign Policy Analysis",
+      "credits": "3-6",
+      "description": "A seminar devoted to the analysis of the foreign policies of one or more states, as well as to the study of literature pertaining to foreign policy analysis. For specific content in a given year, consult the departmental website. Restricted to students in fourth-year standing or higher.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 461",
+      "title": "Peace and Conflict Studies",
+      "credits": "3",
+      "description": "A seminar on a selected topic concerning the causes of war and strategies for the promotion of peace. For specific content in a given year, consult the departmental website. Restricted to students in fourth-year standing or higher.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 462",
+      "title": "International Relations Theory",
+      "credits": "3",
+      "description": "This seminar examines some of the major theoretical approaches to the study of international relations. For specific content in a given year, consult the departmental website. Restricted to students in fourth-year standing or higher.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 463",
+      "title": "International Interdependence",
+      "credits": "3",
+      "description": "Topics and public policies relating to international economic relations. Topics vary year to year; see www.politics.ubc.ca/courses . Restricted to students in fourth-year standing or above.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 464",
+      "title": "Advanced Topics in International Relations",
+      "credits": "3-6",
+      "description": "Topics and public policies related to interactions between states and non-state actors, such as armed conflict management or international institutions. Topics vary year to year; see www.politics.ubc.ca/courses . One section (3 credits) reserved for fourth-year International Relations Majors. Restricted to students in fourth-year standing or above.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 466",
+      "title": "The Politics of International Law",
+      "credits": "3",
+      "description": "Seminar on the origins and politics of international law, and its impact on international affairs; the laws of war, human rights, environment, law of the sea, and international criminal law. Restricted to students in fourth-year standing or higher.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 482",
+      "title": "Data and Models Capstone",
+      "credits": "3",
+      "description": "Seminar on data analysis and modeling in Political Science. Restricted to Certificate in Data and Models in Political Science students. Prerequisite: All of POLI 310, POLI 380, POLI 381.",
+      "prereq": {
+        "text": "All of POLI 310, POLI 380, POLI 381",
+        "tree": {
+          "all_of": [
+            "POLI 310",
+            "POLI 380",
+            "POLI 381"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 492",
+      "title": "Honours Thesis",
+      "credits": "12",
+      "description": "In consultation with faculty, students develop a research project, report on their project during seminars, give feedback on their fellow students' projects, and write a thesis. Restricted to students with an Honours or Honours with specialization in Political Science. Fourth-year standing or higher required. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 500",
+      "title": "Professional Development in Political Science",
+      "credits": "3",
+      "description": "Pass/Fail. Evidence-based practices and tools for academic and non-academic paths in the political science profession as well as identifying alternative career possibilities. Includes potential alignment with personal strengths and self-awareness. Restricted to students in the following programs: PhD in Political Science, MA in Political Science. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 501",
+      "title": "Core Seminar in Canadian Government and Politics",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 502",
+      "title": "Canadian Political Institutions and Processes",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 503",
+      "title": "Canadian Political Parties and Participation",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 504",
+      "title": "Topics in Canadian Politics",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 511",
+      "title": "Core Seminar in Comparative Government and Politics",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 512",
+      "title": "Theories in Comparative Politics: Political Development",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 513",
+      "title": "Current Debates in Comparative Political Economy: Globalization and Democracy",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 514",
+      "title": "Comparative Western Governments",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 515",
+      "title": "State and Society in the Developing World",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 516",
+      "title": "Issues in Comparative Politics",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 517",
+      "title": "The State in Comparative Perspective",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 521",
+      "title": "Political Theory",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 523",
+      "title": "Political Thought",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 531",
+      "title": "Public Administration",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 532",
+      "title": "Topics in Public Administration",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 533",
+      "title": "Topics in Public Policy",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 540",
+      "title": "Core Seminar in Political Theory",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 547",
+      "title": "Topics in Political Theory",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 549",
+      "title": "Master's Thesis",
+      "credits": "6-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 551",
+      "title": "Elections: Parties and Voters",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 552",
+      "title": "Political Psychology and Public Opinion",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 553",
+      "title": "Topics in Empirical Theory",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 561",
+      "title": "Core Seminar in International Relations Theory",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 562",
+      "title": "Topics in International Relations",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 563",
+      "title": "International Organization",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 564",
+      "title": "Research Seminar in International Relations",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 565",
+      "title": "International Security",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 567",
+      "title": "Norms and Ethics in World Politics",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 571",
+      "title": "Qualitative Methods of Political Analysis",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 572",
+      "title": "Quantitative Techniques of Political Analysis",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 573",
+      "title": "Formal Models in Political Science",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 574",
+      "title": "Advanced Statistical Methods for Political Science",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 580",
+      "title": "Directed Studies",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "POLI 649",
+      "title": "Doctoral Dissertation",
+      "credits": "0",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    }
+  ]
+}

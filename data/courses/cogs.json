@@ -1,0 +1,93 @@
+{
+  "subject": "COGS",
+  "source": "https://vancouver.calendar.ubc.ca/course-descriptions/subject/cogsv",
+  "courses": [
+    {
+      "code": "COGS 200",
+      "title": "Introduction to Cognitive Systems",
+      "credits": "3",
+      "description": "Interdisciplinary examination of human mental processes and how these are mediated by the brain. Will draw on cognitive psychology, linguistics, cognitive neuroscience, philosophy, artificial intelligence. [3-0-0] Prerequisite: 2nd-year class standing or higher in the Faculty of Arts or Science.",
+      "prereq": {
+        "text": "2nd-year class standing or higher in the Faculty of Arts or Science",
+        "tree": {
+          "other": "2nd-year class standing or higher in the Faculty of Arts or Science"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "COGS 300",
+      "title": "Understanding and Designing Cognitive Systems",
+      "credits": "4-8",
+      "description": "Theory and methods for integrating diverse disciplinary content in cognitive systems. Students who have earned four credits from COGS 300A may take COGS 300B for a further four credits, and vice versa. [3-2-0] Prerequisite: COGS 200; CPSC 110 or CPSC 103.",
+      "prereq": {
+        "text": "COGS 200; CPSC 110 or CPSC 103",
+        "tree": {
+          "all_of": [
+            "COGS 200",
+            {
+              "one_of": [
+                "CPSC 110",
+                "CPSC 103"
+              ]
+            }
+          ]
+        },
+        "source": "llm",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "COGS 303",
+      "title": "Research Methods in Cognitive Systems",
+      "credits": "3",
+      "description": "Examination and comparison of the research methodologies of different disciplines relevant to cognitive systems. [3-0-0] Prerequisite: COGS 200.",
+      "prereq": {
+        "text": "COGS 200",
+        "tree": "COGS 200",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "COGS 401",
+      "title": "Seminar in Cognitive Systems",
+      "credits": "3",
+      "description": "Interdisciplinary seminar integrating theory, methods, and current research topics. [1-0-4] Prerequisite: COGS 300.",
+      "prereq": {
+        "text": "COGS 300",
+        "tree": "COGS 300",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "COGS 402",
+      "title": "Research in Cognitive Systems",
+      "credits": "3",
+      "description": "Supervised research project in a Cognitive Systems-related laboratory. [0-9-0] Prerequisite: COGS 300. COGS 401 is recommended.",
+      "prereq": {
+        "text": "COGS 300",
+        "tree": "COGS 300",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": "COGS 401 is recommended"
+    }
+  ]
+}

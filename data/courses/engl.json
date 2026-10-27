@@ -1,0 +1,1526 @@
+{
+  "subject": "ENGL",
+  "source": "https://vancouver.calendar.ubc.ca/course-descriptions/subject/englv",
+  "courses": [
+    {
+      "code": "ENGL 100",
+      "title": "Reading and Writing about Language and Literatures",
+      "credits": "3",
+      "description": "A writing-intensive introduction to language and literary studies through the exploration of texts in their critical and theoretical contexts. Fulfills the first-year component of the Faculty of Arts Writing and Research Requirement. Open only to students in the Faculty of Arts. Recommended for students intending to become English majors. Essays are required. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 110",
+      "title": "Approaches to Literature and Culture",
+      "credits": "3",
+      "description": "Study of selected examples of literary and cultural expression: examples may include poetry, fiction, drama, life narratives, essays, graphic novels, screenplays, and narrative adaptations in film and other media. Essays are required. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 111",
+      "title": "Approaches to Language and Communication",
+      "credits": "3",
+      "description": "Study of selected communication genres from a language-based perspective: examples may include non-fiction, science writing, business discourse, journalism, language of the internet, podcasts, and other media. Essays are required. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 120",
+      "title": "Literature and Criticism",
+      "credits": "3",
+      "description": "Enriched study of selected works of literature from a number of critical perspectives. Open to students with a BC-equivalent mark of A (86%) in English 12 or B+ (80%) in English Literature 12. Essays are required. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 121",
+      "title": "Introduction to Literary Theory",
+      "credits": "3",
+      "description": "Enriched study of various theories of literature. Open to students with a BC-equivalent mark of A (86%) in English 12 or B+ (80%) in English Literature 12. Essays are required. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 140",
+      "title": "Challenging Language Myths",
+      "credits": "3",
+      "description": "Critical consideration of a broad range of commonly held beliefs about language and its relation to the brain and cognition, learning, society, change and evolution. Note: This is an elective course that does not fulfill writing requirements in any faculty or the literature requirement in the Faculty of Arts. Credit will be granted for only one of ENGL 140 or LING 140. Equivalency: LING 140. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "LING 140",
+      "recommended": null
+    },
+    {
+      "code": "ENGL 200",
+      "title": "Principles of Literary Studies",
+      "credits": "3",
+      "description": "A collaboratively-taught exploration and application of key scholarly, theoretical and critical approaches informing the study of literatures in English. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 210",
+      "title": "An Introduction to English Honours",
+      "credits": "6",
+      "description": "Comprehensive overview of key periods, genres, and methods in English studies for students entering the English Honours program. Restricted to students in Honours programs.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 220",
+      "title": "Literature in English to the 18th Century",
+      "credits": "3",
+      "description": "A survey of prose, poetry and drama to the 18th Century. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 221",
+      "title": "Literature in Britain: the 18th Century to the Present",
+      "credits": "3",
+      "description": "A survey of poetry, drama, fiction and non-fiction prose from the 18th century to the present. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 222",
+      "title": "Literature in Canada",
+      "credits": "3",
+      "description": "The major types of Canadian writing: fiction, poetry, non-fictional prose, and drama. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 223",
+      "title": "Literature in the United States",
+      "credits": "3",
+      "description": "The major types of American writing: fiction, poetry, drama and non-fictional prose. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 224",
+      "title": "World Literature in English",
+      "credits": "3",
+      "description": "English literature produced outside Britain and North America. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 225",
+      "title": "Poetry",
+      "credits": "3",
+      "description": "Principles, methods, and resources for reading poetry. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 226",
+      "title": "Drama",
+      "credits": "3",
+      "description": "Principles, methods and resources for reading drama. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 227",
+      "title": "Prose Fiction",
+      "credits": "3",
+      "description": "Principles, methods and resources for reading the novel and the short story. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 228",
+      "title": "Topics in Literary and/or Cultural Studies",
+      "credits": "3-6",
+      "description": "Current research interests in English studies. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 229",
+      "title": "Topics in the Study of Language and/or Rhetoric",
+      "credits": "3-6",
+      "description": "Consult Department's website for current year's offerings. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 230",
+      "title": "Introduction to Reading Place and Power in Vancouver and BC",
+      "credits": "3",
+      "description": "Indigenous, diaspora, and settler literary/cultural engagements with practices of power in the context of the West Coast of what is currently called Canada. Works about, associated with and/or by Vancouver and BC authors. Introduction to theories of place and power. For ENGL courses at the 200- or 300-level, prior completion of at least one 100-level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 231",
+      "title": "Introduction to Indigenous Literatures",
+      "credits": "3",
+      "description": "A study of cultural expression in contemporary indigenous contexts. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 232",
+      "title": "Approaches to Media Studies",
+      "credits": "3",
+      "description": "Approaches to the study of media: philosophical; technological; cultural; theoretical. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 241",
+      "title": "Shakespeare Now",
+      "credits": "3",
+      "description": "Introductory topics in Shakespeare studies that seek to identify relationships between Shakespeare's work and present-day issues and concerns. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 242",
+      "title": "Introduction to Children's and Young Adult Literature",
+      "credits": "3",
+      "description": "History, genres, and scholarly study of writing for children and adolescents. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 243",
+      "title": "Speculative Fiction",
+      "credits": "3",
+      "description": "Genres and sub-genres of speculative fiction, such as science fiction and fantasy, alternate history, dystopian and post-apocalyptic narrative, and slipstream, as well as the intersections among them. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 244",
+      "title": "Environment and Literature",
+      "credits": "3",
+      "description": "Literary, critical, and/or pop-culture texts about environmentalism and ecology. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 245",
+      "title": "Comics and Graphic Media",
+      "credits": "3",
+      "description": "Introduction to the critical study of comics and graphic media. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 246",
+      "title": "Literature and Film",
+      "credits": "3",
+      "description": "Approaches to the study of the relationships between literature and film. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 247",
+      "title": "Television Studies",
+      "credits": "3",
+      "description": "Introduction to methods and practices of television studies, with emphasis on the use of literary approaches to televisual narrative. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 248",
+      "title": "Mystery and Detective Fiction",
+      "credits": "3",
+      "description": "Thematic and generic approaches to mystery, crime, and detective writing in English, primarily short-fiction and novels; may also include comics, radio, film, and television. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 249",
+      "title": "Literary Nonfiction",
+      "credits": "3",
+      "description": "Principles, methods and resources for reading literary non-fiction, including personal essays, memoir, and literary journalism. May also include nature, travel or food writing or graphic memoir. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 300",
+      "title": "Introduction to Critical Theory",
+      "credits": "3",
+      "description": "Analysis of theoretical methods and critical approaches practiced in the discipline of English studies. Required of all students in the English Honours Literature and Language & Literature programs. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 301",
+      "title": "Technical Writing",
+      "credits": "3",
+      "description": "Study of the principles of written communication in general business and professional activities, and practice in the preparation of abstracts, proposals, reports, and correspondence. Not for credit towards the English Major or Minor. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 304",
+      "title": "Advanced Composition",
+      "credits": "3",
+      "description": "Special emphasis on rhetoric, with a focus on audience, authorial voice, and range of style. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 307",
+      "title": "Studies in Rhetoric",
+      "credits": "3-6",
+      "description": "Topics in rhetorical theories and their application. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 308",
+      "title": "Rhetorical Criticism",
+      "credits": "3-6",
+      "description": "A study of literary texts from a rhetorical perspective. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 309",
+      "title": "Rhetoric of Science, Technology, and Medicine",
+      "credits": "3",
+      "description": "Exploration of the persuasive dimension of discourse practices in science, technology, and medicine. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 310",
+      "title": "History and Theory of Rhetoric: Classical Rhetoric",
+      "credits": "3",
+      "description": "Introduction to classical rhetoric with attention to the analysis of present-day texts. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 311",
+      "title": "History and Theory of Rhetoric: The Later Theory",
+      "credits": "3",
+      "description": "Rhetorical theory from Augustine to the 21st century, emphasizing questions of persuasion in everyday life. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 312",
+      "title": "Discourse and Society",
+      "credits": "3-6",
+      "description": "Introduction to theories of language and culture, and to techniques for analysing discourses in their social contexts. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 318",
+      "title": "History of the English Language: Early History",
+      "credits": "3",
+      "description": "Principles of language change and language typology. The development of the English language from its Indo-European origins to the end of the Anglo-Saxon period. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 319",
+      "title": "History of the English Language: Later History",
+      "credits": "3",
+      "description": "Principles of language change. The development and spread of the English language from the Norman Conquest to the Modern English period. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 321",
+      "title": "English Grammar and Usage",
+      "credits": "3-6",
+      "description": "Descriptive approaches to the English language. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 322",
+      "title": "Stylistics",
+      "credits": "3-6",
+      "description": "Application of linguistic theory and method to stylistic analysis. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 323",
+      "title": "Varieties of English",
+      "credits": "3-6",
+      "description": "Study of geographical, social, and/or urban dialects of English. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 324",
+      "title": "English Corpus Linguistics",
+      "credits": "3-6",
+      "description": "Methods of collecting and analyzing linguistic data using electronic resources. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 326",
+      "title": "Studies in the English Language",
+      "credits": "3-6",
+      "description": "Topics in the history or structure of the English language. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 327",
+      "title": "Cognitive Approaches to the Study of Meaning",
+      "credits": "3-6",
+      "description": "Interpretation of linguistic usages through cognitive concepts. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 328",
+      "title": "Metaphor, Language and Thought",
+      "credits": "3-6",
+      "description": "Exploration of the concepts underlying figurative language (in vocabulary as well as in grammar), using data from both colloquial and literary language. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 330",
+      "title": "The Structure of Modern English: Sounds and Words",
+      "credits": "3",
+      "description": "An introduction to phonology, morphology, and lexical semantics. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 331",
+      "title": "The Structure of Modern English: Sentences and Their Uses",
+      "credits": "3",
+      "description": "An introduction to syntax, pragmatics, and sentence semantics. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 332",
+      "title": "Approaches to Media History",
+      "credits": "3",
+      "description": "History of media and technological change; literary, rhetorical, or linguistic methods of inquiry. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 333",
+      "title": "History of the Book",
+      "credits": "3-6",
+      "description": "Survey of development of text technologies (such as manuscripts, printed books, new media forms), through historical, cultural, and theoretical frameworks. Consult department website for current year's offerings. Credit granted for up to 6 credits of ENGL 333 and 419. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 334",
+      "title": "Literature and the Archive",
+      "credits": "3-6",
+      "description": "Analysis of a range of archival materials. Addresses broader considerations of how the archive as a cultural institution informs the production and interpretation of literature. Consult department website for current year's offerings. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 335",
+      "title": "Digital Humanities",
+      "credits": "3-6",
+      "description": "Tools, methods, and theories of digital humanities as used in English scholarship. Research methods and data gathering tools, the interpretation of data, and the digital visualization of argumentation. Consult department website for current year's offerings. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 336",
+      "title": "Print Culture and Media Studies",
+      "credits": "3-6",
+      "description": "Relationships between literature, print culture, and media. Consult department website for current year's offerings. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 337",
+      "title": "Text and Image",
+      "credits": "3-6",
+      "description": "Relationship between texts and images, or the aspect of text as image, in literary and non-literary works and of various genres, periods, and media. Consult department website for current year's offerings. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 338",
+      "title": "Literature and Science",
+      "credits": "3-6",
+      "description": "Relations between science and literature; the representation of science; and science writing in its literary, historical, and cultural contexts. Science as literature, science in literature, science fiction, and models of knowledge in science and literature. Consult department website for current year's offerings. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 339",
+      "title": "Trauma and Memory: Literature, Performance and Theory",
+      "credits": "3-6",
+      "description": "Interdisciplinary explorations of trauma and memory in literature, performance, and theory. Consult department website for current year's offerings. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 342",
+      "title": "Introduction to Old English",
+      "credits": "3",
+      "description": "Old English vocabulary, grammar, and translation, with readings in poetry and prose. Credit will be granted for only one of ENGL 340 and ENGL 342. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 343",
+      "title": "Anglo-Saxon and Early Medieval Literature",
+      "credits": "3-6",
+      "description": "Readings in the literature of early medieval (pre-1200) Britain and its neighbours, in modern English translation. May encompass multiple genres and contexts. Consult department website for current year's offerings. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 344",
+      "title": "Middle English Literature",
+      "credits": "3-6",
+      "description": "May encompass multiple genres and contexts. Consult department website for current year's offerings. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 346",
+      "title": "Chaucer",
+      "credits": "3-6",
+      "description": "A detailed study of Chaucer's major works. Consult department website for current year's offerings. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 347",
+      "title": "Renaissance Literature",
+      "credits": "3-6",
+      "description": "Literature of the sixteenth and early seventeenth-centuries. May encompass multiple genres and contexts. Consult department website for current year's offerings. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 348",
+      "title": "Shakespeare",
+      "credits": "3-6",
+      "description": "A detailed study of Shakespeare's works. Consult department website for current year's offerings. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 349",
+      "title": "Seventeenth-Century Literature",
+      "credits": "3-6",
+      "description": "Literature of Stuart and Civil War Britain. May encompass multiple genres and contexts. Consult department website for current year's offerings. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 350",
+      "title": "Milton",
+      "credits": "3-6",
+      "description": "A detailed study of Milton's works. Consult department website for current year's offerings. Credit will be granted for up to 6 credits of ENGL 350 and/or 354. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 351",
+      "title": "Restoration and Eighteenth-Century Literature",
+      "credits": "3-6",
+      "description": "British and Global literature from the Restoration of the Monarchy to the Enlightenment with a focus on intellectual and political contexts. Consult department website for current year's offerings. Credit will be granted for up to 6 credits of ENGL 351 and/or 357. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 353",
+      "title": "Eighteenth-Century Literature",
+      "credits": "3-6",
+      "description": "Intellectual developments and Literary experiments, in British and Global contexts. May encompass multiple genres and contexts. Consult department website for current year's offerings. Credit will be granted for up to 6 credits of ENGL 353 and/or 358. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 355",
+      "title": "Romantic Period Literature",
+      "credits": "3-6",
+      "description": "British and Global literature, 1780-1830, from the period of the French Revolution to the Reform Act and the Abolition of Slavery in the British Empire. May encompass multiple genres and contexts. Consult department website for current year's offerings. Credit will be granted for up to 6 credits of ENGL 355 and/or 359. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 360",
+      "title": "Early Canadian Writing",
+      "credits": "3-6",
+      "description": "Pre-Confederation colonial literature from its emergence until the end of World War 1. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 361",
+      "title": "U.S. Literature to 1890",
+      "credits": "3-6",
+      "description": "Fiction, poetry and/or drama written in the U.S. prior to the twentieth century. Consult department website for current year's offerings. Credit will be granted for up to 6 credits of ENGL 361 and/or 369. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 362",
+      "title": "Victorian Period Literature",
+      "credits": "3-6",
+      "description": "British and Global literature, 1832-1901, with an emphasis on genre or special topics. Consult department website for current year's offerings. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 364",
+      "title": "Nineteenth-Century Literature",
+      "credits": "3-6",
+      "description": "British and Global literature from the nineteenth century and its intellectual and cultural contexts. Consult department website for current year's offerings. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 365",
+      "title": "Modernist Literature",
+      "credits": "3-6",
+      "description": "Literary experimentation in 19th to 20th century movements known as modernism. Includes interdisciplinary approaches to literary, performance, and media arts, and intellectual and social histories of the period. May encompass multiple genres and contexts. Consult department website for current year's offerings. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 366",
+      "title": "Twentieth-Century Literature",
+      "credits": "3-6",
+      "description": "Fiction, poetry and/or drama written between 1900 and 1999. May encompass multiple genres and contexts. Consult department website for current year's offerings. Credit will be granted for up to 6 credits of ENGL 366 and/or 464. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 368",
+      "title": "U.S. Literature from 1890",
+      "credits": "3-6",
+      "description": "Literature and other texts in diverse U.S. cultural contexts and/or from a range of eras. Consult department website for current year's offerings. Credit will be granted for up to 6 credits of ENGL 368 and/or 472. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 369",
+      "title": "Global Black Literatures",
+      "credits": "3-6",
+      "description": "Multi-genre study of literary representations of the cultural, historical, and social contexts that shape Black experiences globally. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 370",
+      "title": "Literatures and Cultures of Africa and/or the Middle East",
+      "credits": "3-6",
+      "description": "Literary and cultural works from Africa; some sections include Africa and the Middle East. Multiple perspectives on local, national, and global issues including colonialism, migration, transnationalism, education, art and politics. May include fiction, poetry, drama, digital media, and other forms. Consult department website for current year's offerings. For ENGL courses at the 200- or 300-level, prior completion of at least one 100-level ENGL course is recommended. Credit will be granted for only one of ENGL 370 or AFST 370. Equivalency: AFST 370.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "AFST 370",
+      "recommended": null
+    },
+    {
+      "code": "ENGL 371",
+      "title": "Asian Canadian and/or Asian Transnational Studies",
+      "credits": "3-6",
+      "description": "An interdisciplinary engagement with literature in the context of Asian migrations in Canadian and other transnational locations. Consult Department for current year's offerings. Credit will be granted for up to 6 credits of ENGL 371 and/or 480. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 372",
+      "title": "Canadian Literature",
+      "credits": "3-6",
+      "description": "Writing and culture in Canada with texts taught in context. Consult department website for current year's offerings. Credit will be granted for up to 6 credits of ENGL 372 and/or 470. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 373",
+      "title": "Indigenous Literature",
+      "credits": "3",
+      "description": "Indigenous writing and cultural expression in national and/or international contexts. Consult department website for current year's offerings. Credit will be granted for up to 6 credits of ENGL 373 and/or 476. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 374",
+      "title": "Post-colonial Literature",
+      "credits": "3-6",
+      "description": "World literature in English focusing on decolonization and anti-colonial thought. Consult department website for current year's offerings. Credit will be granted for up to 6 credits of ENGL 374 and/or 478. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 375",
+      "title": "Global South Connections",
+      "credits": "3-6",
+      "description": "Literary and cultural networks relating to societies in the Global South; may address areas such as colonization, decolonization, nationalism, social movements, forced and voluntary migrations of peoples, cultural hybridity, translation, and globalization. Consult department website for current year's offerings. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 376",
+      "title": "Topics in Place, Power, Poetics, and Narrative",
+      "credits": "3-6",
+      "description": "Topics will vary. Consult the program website ( https://english.ubc.ca/courses/ ) for details. Methods of literary and scholarly reading that reflect theories of place and power as a practice on unceded Indigenous territories. Works by BC authors (Indigenous, diasporic, settler) studied alongside works from elsewhere.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 377",
+      "title": "World Literature and Social Movements",
+      "credits": "3-6",
+      "description": "Transnational and world literature and art practices that reflect on the conceptual, linguistic and visual aspects of social movements, addressing histories of colonialism, transnational feminist literature and art practices, histories of protest and cultures of resistance. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 378",
+      "title": "Contemporary Literature",
+      "credits": "3-6",
+      "description": "A variety of genres organized by cultural movements, critical issues, theoretical approaches, and/or geopolitical regions. Consult department website for current year's offerings. Credit will be granted for up to 6 credits of ENGL 378 and/or 474. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 379",
+      "title": "Migrations, Movements, and Transnational Networks in Literary and Cultural Production",
+      "credits": "3-6",
+      "description": "Writing related to transnationality and migration; forced and voluntary movements of people, denationalization or citizenship, diasporic and differential legal identities, cultural flows, borderlands and contact zones, new cosmopolitanisms, creoles and translations. Consult department website for current year's offerings. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 380",
+      "title": "Theory: Meaning and Interpretation",
+      "credits": "3-6",
+      "description": "An investigation and overview of theories of interpretation and meaning-making. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 381",
+      "title": "Theory: Signs, Codes, and Representation",
+      "credits": "3-6",
+      "description": "Semiotic and sociocultural aspects of the linguistic turn in critical theory; can include such areas as structuralism, poststructuralism and deconstruction, speech act theory and performativity, assemblage theory, or new media semiotics. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 382",
+      "title": "Theory: Anti-/De-/Post-Colonization",
+      "credits": "3-6",
+      "description": "Theoretical work concerned with confronting, resisting and overcoming various forms of colonialism and globalization. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 384",
+      "title": "Theory: Space and Displacement",
+      "credits": "3-6",
+      "description": "Critical theories of space and movement, place and displacement and how these theories reflect on cultural performances, subjectivity and social environment. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 386",
+      "title": "Theory: Critique, Intervention and Dissent",
+      "credits": "3-6",
+      "description": "Examines theories of intervention, dissent and social engagement. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 387",
+      "title": "Theory: Bodies",
+      "credits": "3-6",
+      "description": "Theories of corporeality and embodied thought. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 388",
+      "title": "Theory: Feminisms",
+      "credits": "3-6",
+      "description": "Relationships between feminist theory, literature, and language. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 390",
+      "title": "Life Narratives",
+      "credits": "3-6",
+      "description": "Analysis of modes of self-representation through theoretical, critical, historical, and methodological frameworks. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 392",
+      "title": "Children's Literature",
+      "credits": "3-6",
+      "description": "Genres and texts written for and appropriated by young readers. Consult department website for current year's offerings. Credit will be granted for up to 6 credits of ENGL 392 and/or 468. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 393",
+      "title": "Ecocriticism",
+      "credits": "3-6",
+      "description": "Ecocriticism and the environmental humanities encompassing more specific methodologies, such as queer ecology, ecofeminism, postcolonial, decolonizing, and transnational environmentalisms, environmental art. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 394",
+      "title": "Canadian Environmental Writing",
+      "credits": "3-6",
+      "description": "Ecocritical theory and its application to Canadian literature, including Indigenous authors. Consult department website for current year's offerings. Credit will be granted for up to 6 credits of ENGL 394 and/or 458. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 395",
+      "title": "Studies in Poetry",
+      "credits": "3-6",
+      "description": "Poetry organized by thematic approach, cultural movements, critical issues, and/or geopolitical regions. Consult department website for current year's offerings. Credit will be granted for up to 6 credits of ENGL 395 and/or 402. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 396",
+      "title": "Studies in Drama",
+      "credits": "3-6",
+      "description": "Plays organized by thematic approach, cultural movements, critical issues, and/or geopolitical regions. Consult department website for current year's offerings. Credit will be granted for up to 6 credits of ENGL 396 and/or 405. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 397",
+      "title": "Studies in Prose Fiction",
+      "credits": "3-6",
+      "description": "Novels and short stories organized by thematic approach, cultural movements, critical issues, and/or geopolitical regions. Consult department website for current year's offerings. Credit will be granted for up to 6 credits of ENGL 397 and/or 406. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 398",
+      "title": "Community-Facing Applications of Language and Literary Studies",
+      "credits": "3-6",
+      "description": "Principles and practice of adapting the disciplinary work of language and/or literary studies to the needs of community partners. For ENGL courses at the 200- or 300- level, prior completion of at least one 100- level ENGL course is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 489",
+      "title": "Language Majors Seminar",
+      "credits": "3",
+      "description": "Required of all Language Majors. Restricted to fourth-year English Honours and Majors in Language and Language and Literature. See department website ( www.english.ubc.ca ) for seminar topics. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 490",
+      "title": "Literature Majors Seminar",
+      "credits": "3",
+      "description": "Required of all Literature Majors. Restricted to fourth-year English Majors in Literature and Language and Literature. See Department website ( www.english.ubc.ca ) for seminar topics. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 491",
+      "title": "Senior Honours Seminar",
+      "credits": "3-12",
+      "description": "Required of all Honours Students. Restricted to English Honours students in third-year or higher. See Department website ( www.english.ubc.ca ) for seminar topics. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 496",
+      "title": "Directed Readings in English Literature",
+      "credits": "3",
+      "description": "For Honours students only. Special departmental permission required. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 499",
+      "title": "Honours Essay",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 500",
+      "title": "Research in English Studies",
+      "credits": "3",
+      "description": "Required of all graduate students in the M.A. program. Pass/Fail. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 501",
+      "title": "Book History",
+      "credits": "3-6",
+      "description": "Advanced seminar using methodologies of book history. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 502",
+      "title": "Criticism and Theory",
+      "credits": "3-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 503",
+      "title": "Studies in Prose",
+      "credits": "3-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 504",
+      "title": "Studies in Drama",
+      "credits": "3-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 505",
+      "title": "Studies in Fiction",
+      "credits": "3-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 506",
+      "title": "Studies in Poetry",
+      "credits": "3-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 510",
+      "title": "Early Medieval Literatures",
+      "credits": "3-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 511",
+      "title": "Chaucer",
+      "credits": "3-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 512",
+      "title": "Later Medieval Literatures",
+      "credits": "3-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 514",
+      "title": "Early Modern Literatures",
+      "credits": "3-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 515",
+      "title": "Shakespeare",
+      "credits": "3-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 519",
+      "title": "Studies in the Sixteenth Century",
+      "credits": "3-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 520",
+      "title": "Studies in the Seventeenth Century",
+      "credits": "3-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 521",
+      "title": "Critical Disability Studies",
+      "credits": "3-6",
+      "description": "Advanced seminar on arts and humanities research related to disability. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 523",
+      "title": "Studies in Digital Humanities",
+      "credits": "3-6",
+      "description": "Advanced seminar on arts and humanities research related to digital research and publication methods. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 524",
+      "title": "British and Irish Literatures",
+      "credits": "3-6",
+      "description": "Advanced seminar on British and Irish literatures. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 525",
+      "title": "Literatures of the Long Eighteenth Century",
+      "credits": "3-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 530",
+      "title": "Literatures of the Romantic Period",
+      "credits": "3-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 531",
+      "title": "Language and Meaning",
+      "credits": "3-6",
+      "description": "Seminar focused on explorations of linguistic meaning. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 532",
+      "title": "Language and Society",
+      "credits": "3-6",
+      "description": "Seminar focused on explorations of language use in the context of society, power and identity. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 533",
+      "title": "Rhetoric: Theory, Criticism, and Culture",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 534",
+      "title": "English Historical Linguistics",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 535",
+      "title": "Literatures of the Nineteenth Century",
+      "credits": "3-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 539",
+      "title": "Literatures of the Twentieth Century",
+      "credits": "3-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 540",
+      "title": "Studies in American Literature to 1890",
+      "credits": "3-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 541",
+      "title": "Studies in American Literature Since 1890",
+      "credits": "3-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 542",
+      "title": "Linguistic Structure and Theory",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 545",
+      "title": "Canadian Literatures",
+      "credits": "3-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 546",
+      "title": "Anti/Post/Decolonial Theory and Literature",
+      "credits": "3-6",
+      "description": "Advanced seminar on the literature and critical theory of Anti/Post/Decolonial Studies. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 547",
+      "title": "Directed Reading",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 548",
+      "title": "Black Studies",
+      "credits": "3-6",
+      "description": "Advanced seminar using interdisciplinary and multidisciplinary methods to study the ever-transforming state of Africa and its diaspora. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 549",
+      "title": "Master's Thesis",
+      "credits": "6-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 551",
+      "title": "Studies in Literary Movements",
+      "credits": "3-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 552",
+      "title": "Practical Criticism",
+      "credits": "3-6",
+      "description": "Close reading and analysis of selected literary texts. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 553",
+      "title": "Studies in Literary Theory",
+      "credits": "3-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 554",
+      "title": "Indigenous Literary Studies",
+      "credits": "3-6",
+      "description": "Advanced seminar about methodologies of Indigenous literary studies. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 555",
+      "title": "Studies in Literature and the Other Arts",
+      "credits": "3-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 556",
+      "title": "Literatures of the Global South",
+      "credits": "3-6",
+      "description": "Advanced seminar on the literature, cultural production, and critical theory of the Global South. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 557",
+      "title": "Literatures of Migration and Diaspora",
+      "credits": "3-6",
+      "description": "Advanced seminar in the study of literatures of migration and diaspora. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 561",
+      "title": "Science and Technology Studies",
+      "credits": "3-12",
+      "description": "Advanced seminar on a theme or topic of interest to both STS and English. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 565",
+      "title": "Environmental Humanities",
+      "credits": "3-6",
+      "description": "Advanced seminar on arts and humanities research related to ecology and environmentalism. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 570",
+      "title": "United States Literature",
+      "credits": "3-6",
+      "description": "Advanced seminar on the literature of the United States. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 574",
+      "title": "Media Theory",
+      "credits": "3-6",
+      "description": "Advanced seminar in the study of media theory and practice. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ENGL 649",
+      "title": "Doctoral Dissertation",
+      "credits": "0",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    }
+  ]
+}

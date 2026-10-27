@@ -1,0 +1,2166 @@
+{
+  "subject": "HIST",
+  "source": "https://vancouver.calendar.ubc.ca/course-descriptions/subject/histv",
+  "courses": [
+    {
+      "code": "HIST 100",
+      "title": "What is History?",
+      "credits": "3",
+      "description": "The discipline of history through the study of questions, sources, methods, and controversies. Includes case studies of key turning points in world history to examine what historians do and why it matters.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 102",
+      "title": "World History from 1500 to the Twentieth Century",
+      "credits": "6",
+      "description": "The civilizations of Asia, Europe, Africa and the Americas, with emphasis on the political, economic, ecological and cultural links among them, and the impact of oceanic contact, imperialism, warfare, migration, and globalization.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 103",
+      "title": "World History Since 1900",
+      "credits": "6",
+      "description": "International relations; changes in the nation-state system; the emergence and impact of major political ideologies; genocide; decolonization; the globalization of trade; and the dynamics of economic, social, cultural, and environmental change in a global context.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 104",
+      "title": "Topics in World History",
+      "credits": "3",
+      "description": "Thematically-organized topics will explore global aspects of human experience across time. Each section will examine a single theme. Check with the department for course offerings.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 109",
+      "title": "Cultural Histories of Media: From Writing to Tweeting",
+      "credits": "3",
+      "description": "The history of different forms of media in global perspective, with particular attention to audiovisual electronic media.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 112",
+      "title": "Global History from the 15th to 20th Century",
+      "credits": "3",
+      "description": "Survey of global history from the 15th to the 20th century, a transformative period marked by profound social, political, economic and environmental changes.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 113",
+      "title": "Global History Since 1900",
+      "credits": "3",
+      "description": "Historical survey of the 20th and 21st centuries. Includes international relations, colonialism, decolonization, and political ideologies. Application of historical sources and methods to examine the dynamics of change in a global context.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 200",
+      "title": "Asia and the World",
+      "credits": "3-6",
+      "description": "The political, economic, social, cultural, and human interactions between Asia and the world, inter-Asian relations, Asian diaspora, colonialism, war and the social consequences of conflict, decolonization, industrial growth, and developing world issues.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 201",
+      "title": "History Through Photographs",
+      "credits": "3",
+      "description": "The discipline of history through the study of photographs. Explores themes such as colonialism, orientalism, the mass media, representations of gender and sexuality, and protest through photographic evidence.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 202",
+      "title": "Gateway to the Middle Ages",
+      "credits": "3-6",
+      "description": "Problems and themes of medieval European History through the close study of the people and cultures that produced them.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 203",
+      "title": "The Global War on Terror",
+      "credits": "3",
+      "description": "Critically examines the origins, impacts, and legacies of the nebulous “Global War on Terror”.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 204",
+      "title": "History Through Video Games",
+      "credits": "3",
+      "description": "Exploration of global histories through video games and uses of video games for research by historians.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 205",
+      "title": "Introduction to Historical Archaeology",
+      "credits": "3",
+      "description": "An introduction to the study of medieval and modern material culture, with special emphasis on Canada, using archaeological evidence to illustrate the principles, aims, and techniques of historical archaeology and related disciplines.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 206",
+      "title": "Magic, Miracles, and Witchcraft: The Supernatural in Medieval Europe",
+      "credits": "3",
+      "description": "Social, religious, and political functions of the supernatural in late antique, early medieval, and medieval European society (400-1400 CE). Emphasis on the different roles and impacts of magic, witchcraft, and the occult in pre-modern European conceptions of the cosmos.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 207",
+      "title": "Global Environmental History",
+      "credits": "3",
+      "description": "The impact humans have had on the environment, and the ways in which the physical environment has shaped human history: climate, agriculture, energy use, and urbanization. Credit will only be granted for one of HIST 207 or HIST 106. Equivalency: HIST 106",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "HIST 106",
+      "recommended": null
+    },
+    {
+      "code": "HIST 208",
+      "title": "Global Indigenous Histories",
+      "credits": "3",
+      "description": "An introduction to the experiences of Indigenous peoples and the nature of colonialisms around the world since 1500, and an introduction to historical practices and perspectives. Credit will only be granted for one of HIST 208 or HIST 107. Equivalency: HIST 107",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "HIST 107",
+      "recommended": null
+    },
+    {
+      "code": "HIST 209",
+      "title": "Global History of Capitalism",
+      "credits": "3",
+      "description": "The history of capitalism in its global dimension from the beginnings to the age of industrialization. An investigation of economies - in both their practices and cultures - around the world and across the ages from ancient times to the modern era. Credit will only be granted for one of HIST 209 or HIST 108. Equivalency: HIST 108",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "HIST 108",
+      "recommended": null
+    },
+    {
+      "code": "HIST 211",
+      "title": "History of Global Migration",
+      "credits": "3",
+      "description": "Explores the mass migration of people in the modern world through a global perspective. Industrial and export-oriented economies in the mid-nineteenth century to contemporary issues of border regulation and refugees. Credit will be granted for only one of HIST 211 or HIST 110. Equivalency: HIST 110.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "HIST 110",
+      "recommended": null
+    },
+    {
+      "code": "HIST 212",
+      "title": "History Through Film",
+      "credits": "3",
+      "description": "Explores films as a powerful medium for making history. Analyze visual arguments and historical representations, claims, and narratives made in films.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 217",
+      "title": "Global History Before 1500: Eurasia",
+      "credits": "3",
+      "description": "Introduction to historical practices in global history and their applications to the study of human societies across Eurasia up to 1500 CE. Includes introduction to historical analysis of primary source texts, materials, and images. Credit will only be granted for one of HIST 217 or HIST 101.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 218",
+      "title": "Global History Before 1500: Africa and the Americas",
+      "credits": "3",
+      "description": "Introduction to historical practices in global history and their applications to the study of human societies across Africa and the Americas up to 1500 CE. Includes introduction to historical analysis of primary source texts, materials, images, and oral traditions. Credit will only be granted for one of HIST 218 or HIST 101.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 220",
+      "title": "History of Europe",
+      "credits": "3-6",
+      "description": "Selected themes and historical approaches in European history; may include Europe's history of religious conflict, state formation, colonialism, nationalism, industrialization, revolution, total war, globalization, genocide, or environmental change.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 235",
+      "title": "History of Canada: Moments that Matter",
+      "credits": "3",
+      "description": "An introduction to major turning points in Canadian history. Exploration of the social, political, cultural, and environmental transformations/revolutions that have shaped Canada from early European colonialism to the twenty-first century.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 236",
+      "title": "Introduction to Public History in Canada: Confronting the Canadian Past",
+      "credits": "3",
+      "description": "An introduction to public history in Canada that explores the politics and practice of representing the past in a variety of sites, such as museums, monuments, and films, and examines questions of historical interpretation, memory, and audience.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 237",
+      "title": "History of the United States",
+      "credits": "3-6",
+      "description": "Survey from colonial period to present examining political system, slavery, Civil War, race relations and civil rights, westward expansion, industrialization, feminism, expanding international presence, Cold War, and modern culture.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 240",
+      "title": "Health, Illness and Medicine",
+      "credits": "3",
+      "description": "History of health, illness and medicine from the Ancient to the modern world.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 250",
+      "title": "Latin American History",
+      "credits": "3-6",
+      "description": "Exploring themes of colonialism, indigenous life, national imaginaries, dictatorships and transitions to democracy through different forms of telling Latin American history. Includes epistolary writing, maps, eyewitness accounts, chronicles, actions, novels, films, built environment and city plans, testimonios, and plays.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 252",
+      "title": "Modern Caribbean History",
+      "credits": "3",
+      "description": "A survey of social, cultural and political history of Anglophone, Francophone and Spanish Caribbean from the Haitian Revolution to the present.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 256",
+      "title": "History of Africa",
+      "credits": "3",
+      "description": "An introduction to selected themes and historical approaches in African history. These may include African geography and identities, sources and methodology, pre-modern state formation, gender relations, world religions, labour systems, colonialism, and post-colonialism. Credit will be granted for only one of AFST 256 or HIST 256. Equivalency: AFST 256",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "AFST 256",
+      "recommended": null
+    },
+    {
+      "code": "HIST 259",
+      "title": "Science, Medicine, and Technology in the Ancient and Medieval Worlds",
+      "credits": "3",
+      "description": "The history of science, medicine, and technology, emphasizing networks, exchanges, and encounters in a global context.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 260",
+      "title": "Science and Society in the Contemporary World",
+      "credits": "3",
+      "description": "An introduction to the historical development, conceptual foundations, and cultural significance of contemporary science. Themes will vary from year to year. Credit will be granted for only one of HIST 260 or PHIL 260. Equivalency: PHIL 260.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "PHIL 260",
+      "recommended": null
+    },
+    {
+      "code": "HIST 270",
+      "title": "China in World History",
+      "credits": "3-6",
+      "description": "The history of China in a global context, from the earliest times to the most recent past; how China has changed the world and how engagement with the world has changed China. Credit will be granted for only one of HIST 270 or ASIA 270. Equivalency: ASIA 270.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "ASIA 270",
+      "recommended": null
+    },
+    {
+      "code": "HIST 271",
+      "title": "Japan and Global History, 1550 - 1900",
+      "credits": "3",
+      "description": "Thematic study of comparisons and relations between Japan and the world outside (primarily Europe and China). Commercial expansion, systems of world order, social institutions, religious and ideological expression, and state organization.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 273",
+      "title": "History of India",
+      "credits": "3",
+      "description": "Societies, cultures, and politics of the Indian subcontinent from its ancient civilizations to the formation of the modern nation-states of South Asia.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 279",
+      "title": "Steppe Empires in World History",
+      "credits": "3",
+      "description": "Powerful empires that flourished over the Eurasian Steppe, from the earliest to modern times, and how regimes and cultures associated with these empires have changed the world.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 280",
+      "title": "Islamic World History",
+      "credits": "3",
+      "description": "The history of the Islamic world in its global dimensions from its origins to the present day through the themes of religion, law, politics, culture, and modernity.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 290",
+      "title": "Contemporary Global Issues in Historical Perspective",
+      "credits": "3",
+      "description": "Places issues and problems of current relevance in historical perspective. Credit will only be granted for one of HIST 290 or HIST 105. Equivalency: HIST 105.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "HIST 105",
+      "recommended": null
+    },
+    {
+      "code": "HIST 300",
+      "title": "Vikings: Then and Now",
+      "credits": "3",
+      "description": "Historical and archaeological study of Viking-Age and premodern Scandinavia and the Vikings complex legacies in contemporary cultural heritage.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 301",
+      "title": "Global Medieval Heritage and Policy",
+      "credits": "3",
+      "description": "Examination of cultural heritage work and policy based on contemporary international case studies that engage the global medieval past.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 302",
+      "title": "History of the Indigenous Peoples of North America",
+      "credits": "3-6",
+      "description": "Indigenous peoples from pre-contact to the present in Canada and the U.S. Topics may include colonial frontiers, disease, fur trade, government policies, environment, gender, religion, oral narratives, activism, urbanization, and identity.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 303",
+      "title": "First Contacts in the Pacific",
+      "credits": "3",
+      "description": "An interdisciplinary history of early European contact with the Indigenous peoples of the northwest coast of North America and the Pacific Islands. Credit will only be granted for one of HIST 464 or HIST 303. Equivalency: HIST 464.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "HIST 464",
+      "recommended": null
+    },
+    {
+      "code": "HIST 304",
+      "title": "Researching Local History from the Ground Up",
+      "credits": "3",
+      "description": "Sources and methods for reconstructing local history that can be used by Social Studies teachers in B.C. The aim is to develop an appreciation of the formative processes and past experiences that created one's familiar community.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 305",
+      "title": "History of British Columbia",
+      "credits": "3",
+      "description": "The social, political, cultural, environmental, and economic transformations that have made British Columbia. Topics include the histories of Indigenous and settler peoples, the modern state, migration, activism, and identity.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 306",
+      "title": "Indigenous Rights in British Columbia: History, Legacy, Future",
+      "credits": "3",
+      "description": "Indigenous organizing, direct action, court cases and treaty-making in the context of settler colonial policies. Prior knowledge of Indigenous history is helpful but not required.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 307",
+      "title": "Topics in Indigenous History",
+      "credits": "3-6",
+      "description": "Selected topics in Indigenous history in North America and beyond. HIST 302 or other background in the field is recommended. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 308",
+      "title": "Quebec from the End of the 18th Century to the Present",
+      "credits": "3",
+      "description": "Relations between the English and the Canadians prior to the Rebellions of 1837-38, the emergence of French Canadian nationalism after 1840, the impact of State formation and industrialization in Quebec, the Quiet Revolution, and the independence movement.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 309",
+      "title": "History of Children and Youth",
+      "credits": "3",
+      "description": "History of childhood and adolescence. Topics include education, work and play, associated ideologies, children's material and popular culture, and differences of identity based on region, class, race, and gender. Credit will only be granted for one of HIST 443 or HIST 309. Equivalency: HIST 443.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "HIST 443",
+      "recommended": null
+    },
+    {
+      "code": "HIST 310",
+      "title": "Culture and Politics in Turn of the Century Europe",
+      "credits": "3",
+      "description": "Explores the relations between intensifying political crisis and cultural innovation in Europe and its global networks from 1880 to the First World War.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 311",
+      "title": "The British Empire",
+      "credits": "3",
+      "description": "The creation, development and twilight of the British Empire.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 312",
+      "title": "Southern Africa",
+      "credits": "3",
+      "description": "Pre-colonial, colonial, and contemporary, emphasizing South Africa. Credit will be granted for only one of AFST 312 or HIST 312. Equivalency: AFST 312",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "AFST 312",
+      "recommended": null
+    },
+    {
+      "code": "HIST 313",
+      "title": "Modern Africa",
+      "credits": "3",
+      "description": "Africa in the 19th and 20th Centuries: Islamic revolutions, the end of the slave trades, colonial conquest, labour struggles, Christianity's new appeal, PanAfricanism, nationalist resistance, and decolonization. Post-independence challenges of nation-building and economic development. Cultural renaissances and the politics of tradition. Credit will be granted for only one of AFST 313 or HIST 313. Equivalency: AFST 313",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "AFST 313",
+      "recommended": null
+    },
+    {
+      "code": "HIST 314",
+      "title": "Asian Migrations to the Americas",
+      "credits": "3",
+      "description": "Examines both the?historical and contemporary contexts for migration from Asia to Canada and the Americas. Credit will only be granted for one of HIST 483 or?HIST?314. Equivalency:?HIST?483.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "HIST?483",
+      "recommended": null
+    },
+    {
+      "code": "HIST 315",
+      "title": "History of Global Health",
+      "credits": "3",
+      "description": "The emergence of global health since 1800. Medical and social response to infectious diseases and epidemics, the ethical foundations of global health, and the relationship among health, colonialism, international collaboration, and the developing world. Credit will only be granted for one of HIST 315 or HIST 443. Equivalency: HIST 440.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "HIST 440",
+      "recommended": null
+    },
+    {
+      "code": "HIST 316",
+      "title": "History of Vancouver",
+      "credits": "3",
+      "description": "Selected themes in the history of Vancouver, exploring how the study of the past illuminates or explains major debates in the city today. Credit will be granted for only one of HIST 316 or HIST 415 Equivalency: HIST 415.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "HIST 415",
+      "recommended": null
+    },
+    {
+      "code": "HIST 317",
+      "title": "Britain, 1850-1918",
+      "credits": "3",
+      "description": "Britain from the Great Exhibition to the Great War: the creation of a mass electorate, the New Imperialism, the New Woman, and the ways that class, race, gender, and sexuality shaped modern Britain.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 318",
+      "title": "Revolution and Resistance in the Third World",
+      "credits": "3",
+      "description": "Revolutionary movements in the Third World during the second half of the twentieth century; the radicalisation of anticolonial nationalism; the impact of anticolonial radicalism in the developed world; the decline of Marxism as a revolutionary inspiration. Credit will only be granted for one of HIST 460 or HIST 318. Equivalency: HIST 460.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "HIST 460",
+      "recommended": null
+    },
+    {
+      "code": "HIST 319",
+      "title": "Britain, 1945 to the Present",
+      "credits": "3",
+      "description": "Survey of recent British history, with emphasis on de-colonization, emergence of the welfare state, new social movements and patterns of immigration, and Britain's changing relationship with Europe.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 320",
+      "title": "Constitutions in Canadian History: From Pre-Contact to the Charter of Rights",
+      "credits": "3",
+      "description": "European precedents, Colonial self-government, Canadian Confederation, and issues such as gay rights, abortion, and First Nations land rights. Credit will be granted for only one of HIST 320 or HIST 414. Equivalency: HIST 414.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "HIST 414",
+      "recommended": null
+    },
+    {
+      "code": "HIST 321",
+      "title": "Honours Tutorial",
+      "credits": "6-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 322",
+      "title": "History of Canadian International Relations",
+      "credits": "3-6",
+      "description": "Themes include Canadian relations with the United States and British Empire, the emergence of Canada in international organizations such as the United Nations and NATO, and Canada's role in the development of international law, international trade, and human rights systems. Credit will only be granted for one of HIST 322 or HIST 411. Equivalency: HIST 411.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "HIST 411",
+      "recommended": null
+    },
+    {
+      "code": "HIST 323",
+      "title": "Empires, Wars, and Revolutions in Europe and the Americas,1763-1838",
+      "credits": "3",
+      "description": "Political, social, cultural, and intellectual transformations that reshaped the Atlantic world between 1763 and 1838; special attention will be given to the American, French, and Haitian Revolutions, the Latin American Wars of Independence and Canadian rebellions.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 324",
+      "title": "Inventing Canada, 1840-1896",
+      "credits": "3",
+      "description": "An examination of political, cultural and national developments within the British North American colonies in the second half of the nineteenth century. Credit will not be granted for both HIST 324 or 326, if 326 was taken before 2007W.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 325",
+      "title": "Canada 1896-1945: Boom, Bust and War",
+      "credits": "3",
+      "description": "Includes Aboriginal policy, immigration and national identity; Canada, Britain and the US; World Wars; economic modernization; the Great Depression; regionalism; political and social movements; and the creation of 'Canadian' culture. Credit will only be granted for one of HIST 325 or HIST 426.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 326",
+      "title": "Canada Since 1945: Affluence and Anxiety in the Atomic Age",
+      "credits": "3",
+      "description": "Includes immigration policy; the welfare state; Aboriginal peoples; the Cold War; resource economies and national politics; continentalism and free trade; constitutional crises; conflicting nationalisms; and new social movements. Credit will only be granted for one of HIST 326 or HIST 426.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 327",
+      "title": "Colonialism and Revolution in the Americas",
+      "credits": "3",
+      "description": "Colonial encounters, resistance and revolutionary change across the Americas and the Caribbean.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 329",
+      "title": "Heroes, Rebels, Villains, Folks: The People Who Shaped Canada",
+      "credits": "3",
+      "description": "Canadian history through the lens of individual people's lives and their social impact. Themes include race, class, gender, sexuality, indigeneity, colonialism, slavery, immigration, moral regulation, and activism.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 330",
+      "title": "History of the Global Financial Order",
+      "credits": "3",
+      "description": "Origins and transformation of the global financial order (18th century onward) in relation to war, state-building, international political economy, and colonialism.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 331",
+      "title": "Problems in International Relations",
+      "credits": "3-6",
+      "description": "Selected topics in international relations, including trade, migration, diplomacy, war, colonialism and post- colonialism.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 332",
+      "title": "Slave Societies in the Americas",
+      "credits": "3",
+      "description": "A comparative analysis of the institution of chattel slavery, its growth, its effects on slaves and masters, its relation to the larger society, and the causes of its decline, in the various cultures of the Americas. Credit will be granted for only one of HIST 332 or HIST 444. Equivalency: HIST 444.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "HIST 444",
+      "recommended": null
+    },
+    {
+      "code": "HIST 333",
+      "title": "Third-Year Honours Seminar",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 334",
+      "title": "African-American History, 1450 - 1850",
+      "credits": "3",
+      "description": "The history of African Americans from the beginnings of the African slave trade in the 15th Century through the mid-1800s and the coming of the U.S. Civil War.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 335",
+      "title": "African-American History, 1850 to the Present",
+      "credits": "3",
+      "description": "The history of African-Americans from the Civil War and emancipation through the present. Topics include the Jim Crow system; the Harlem Renaissance; the Civil Rights Movement; and the current economic and political status of Americans of African ancestry.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 336",
+      "title": "Imperial and Colonial Archaeology and Museums",
+      "credits": "3",
+      "description": "The impact of imperialism and colonialism on archaeological practice, museum collecting, and the telling of historical narratives.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 337",
+      "title": "The 1960s in Global Perspective",
+      "credits": "3",
+      "description": "The history of the 1960s from a transnational perspective: culture, social change, student activism, and global conflict. Credit will be granted for only one of HIST 337 or HIST 418. Equivalency: HIST 418.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "HIST 418",
+      "recommended": null
+    },
+    {
+      "code": "HIST 338",
+      "title": "American Modernity: The United States, 1890-1945",
+      "credits": "3",
+      "description": "U.S. emergence as an industrial powerhouse and, eventually, a global superpower; responses to industrial society, meaning of modern times, economic upheaval and social change, U.S.'s role as a world power, and politics of race, ethnicity, and gender.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 339",
+      "title": "The United States Since 1945: The Limits of Power",
+      "credits": "3",
+      "description": "American military and geo-political power during and after Cold War; wars in Korea, Vietnam, and Middle East; domestic issues including McCarthyism, social movements (blacks, women, youth, gays and lesbians, and Native Americans), consumerism, immigration, and rise of New Right.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 340",
+      "title": "Histories of the American West",
+      "credits": "3",
+      "description": "Frontier ideologies in relation to race, gender, class, sexuality. Place-making and historical narrative in and about the western part of the United States.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 341",
+      "title": "Medieval Jewish History",
+      "credits": "3",
+      "description": "A survey of the political, social, economic, and cultural history of the Jews from the time of the Christianization of the Roman Empire to the expulsion of professing Jews from Spain and Portugal at the end of the fifteenth century.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 342",
+      "title": "Modern Jewish History",
+      "credits": "3",
+      "description": "A survey of the political, social, economic, and cultural history of the Jews from the beginning of the sixteenth century to the present with special emphasis on changing attitudes to Jews and Judaism, social and cultural transformations.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 343",
+      "title": "Medieval Gender, Christianity, and the Body",
+      "credits": "3",
+      "description": "Medieval representations and treatments of gendered bodies through disciplines of history, religion, and archaeology. Implications of a dominant male standard in early Christian thought.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 344",
+      "title": "Ancient Regime France",
+      "credits": "3-6",
+      "description": "The political, social and/or cultural history of early modern France before the Revolution. Topics may include: the changing significance of the monarchy; the Enlightenment critique of the Catholic Church and religion; the 'pre-revolution'. Credit will only be granted for one of HIST 344 or HIST 406.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 345",
+      "title": "Crime and Punishment in Canadian History",
+      "credits": "3",
+      "description": "The relationship between law and society; the development of legal institutions and the evolving character of crime in Canada. Credit will be granted for only one of HIST 345 or HIST 419. Equivalency: HIST 419.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "HIST 419",
+      "recommended": null
+    },
+    {
+      "code": "HIST 346",
+      "title": "History of Modern France",
+      "credits": "3-6",
+      "description": "The political, social, and cultural history of France from the Revolution of 1789 to the present. Topics may include: France's journey toward democracy and republicanism, the country's many revolutions over the course of the nineteenth century; the country's unique model of demographic and industrial modernization.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 347",
+      "title": "Russian History: From Kievan Rus to Revolution",
+      "credits": "3",
+      "description": "History of Russia from its medieval foundations through the Russian Revolution.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 348",
+      "title": "History of the Holocaust",
+      "credits": "3",
+      "description": "A study of the systematic attempt to destroy European Jewry during the Nazi regime, 1933- 1945. Topics of special importance include: the motivations and behaviour of the perpetrators; the reactions of the victims; the roles of bystanders. Credit will be granted for only one of HIST 348 or HIST 441. Equivalency: HIST 441.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "HIST 441",
+      "recommended": null
+    },
+    {
+      "code": "HIST 349",
+      "title": "Imperial Russian History, 1800 to 1917",
+      "credits": "3",
+      "description": "History of Russia from the time of Catherine the Great to the Russian Revolution with particular focus on social and cultural history.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 350",
+      "title": "The Soviet Union",
+      "credits": "3-6",
+      "description": "History of the Soviet Union. Topics may include the political, social, and cultural history of the Soviet Union and post-Soviet successor states from 1900 to the present.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 351",
+      "title": "East Central Europe in the 19th and 20th Centuries",
+      "credits": "3-6",
+      "description": "Covers the region between Germany and Russia as well as Southeast Europe. Emphasis on comparisons with Western Europe and features that make the area significant to Europe as a whole.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 352",
+      "title": "Modern Middle Eastern History",
+      "credits": "3",
+      "description": "Politics, culture, society, war, and diplomacy; themes include colonialism, nationalism, and authoritarianism; emphasis on the 20th and 21st centuries.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 353",
+      "title": "Special Topics in Middle Eastern History",
+      "credits": "3-6",
+      "description": "An in-depth study of one major topic in the ancient and/or modern history of the Middle East. Please consult the Department webpage for current offerings.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 354",
+      "title": "The Ottoman Empire",
+      "credits": "3",
+      "description": "The rise and fall of the Ottoman empire; themes include Islamic law, politics, art, culture, gender relations, and the influence of religion on statecraft.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 356",
+      "title": "Twentieth-Century Germany",
+      "credits": "3",
+      "description": "The political, social, and cultural history of Germany in the twentieth century.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 357",
+      "title": "History of Mexico",
+      "credits": "3",
+      "description": "Examines themes in the last five hundred years of Mexican history, with an emphasis on the critical reading of primary sources and the use of a variety of texts that may include letters, diaries, paintings, photographs, novels, and movies.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 358",
+      "title": "State and Society in 20th century Cuba",
+      "credits": "3",
+      "description": "The history and historiography of 20th century Cuba, with particular attention to changing state structures and their impact on everyday life.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 359",
+      "title": "War and Society",
+      "credits": "3-6",
+      "description": "Continuity and change in the relations of war and society, the connections between the economy, society, the military, and government in peacetime as well as war; not a course in military history. Credit will only be granted for one of HIST 359 or HIST 425.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 360",
+      "title": "International Relations, 1900-1945",
+      "credits": "3",
+      "description": "The evolution of the contemporary international system from its nineteenth-century origins to the global order of the mid-twentieth century. Credit will only be granted for only one of HIST 360 or HIST 432.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 361",
+      "title": "International Relations Since 1945",
+      "credits": "3",
+      "description": "The evolution of the contemporary international system from the end of the Second World War to the beginning of the twenty-first century. Credit will only be granted for only one of HIST 361 or HIST 432.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 362",
+      "title": "The Islamic Golden Age",
+      "credits": "3",
+      "description": "Political, economic, social, and cultural history of the premodern Islamic World and its global connections during the Abbasid Caliphate, with attention to the relevance of this past to our contemporary world.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 363",
+      "title": "Europe in the Early Middle Ages",
+      "credits": "3",
+      "description": "A survey of the development of institutions, ideas and the economy in Europe from about 400 through about 1000 CE.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 364",
+      "title": "Europe in the Late Middle Ages",
+      "credits": "3",
+      "description": "A survey of the development of institutions, ideas and the economy in Europe from about 1000 CE through the fourteenth century.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 365",
+      "title": "Europe During the Renaissance",
+      "credits": "3",
+      "description": "The interplay between new and traditional ideas, styles, and institutions from the fourteenth to the mid-sixteenth century, with emphasis upon the relationship of social, economic, and political factors to intellectual and cultural change.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 366",
+      "title": "Europe During the Reformation",
+      "credits": "3",
+      "description": "An examination of European history that place both the Protestant Reformation and the Catholic Reformation in the broader context of the political, social, cultural, and economic changes during the early modern era.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 367",
+      "title": "Europe in the Age of the Enlightenment",
+      "credits": "3",
+      "description": "Europe during the age of the Enlightenment, from the end of the religious wars to the French Revolution, with emphasis on political, social, cultural, and intellectual changes in their global context.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 368",
+      "title": "Enlightenment, Revolution and the Making of Modern Europe",
+      "credits": "3",
+      "description": "Major transformations in Europe from the Enlightenment to the beginning of the 20th century. Ideas, political change and social upheaval in a global context.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 369",
+      "title": "Europe, 1900-1950",
+      "credits": "3",
+      "description": "Europe in the first half of the twentieth century. Themes include the imperialist system, two world wars and their aftermaths, political and social movements of the interwar years, the Depression, and the crisis of liberal democracy. Credit will be granted for only one of HIST 369 or HIST 462. Equivalency: HIST 462.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "HIST 462",
+      "recommended": null
+    },
+    {
+      "code": "HIST 370",
+      "title": "Europe Since 1950",
+      "credits": "3",
+      "description": "Europe since the middle of the twentieth century. Themes include the Cold War, the development of separate social and political systems in Western and Eastern Europe, the emergence of the welfare state, and the problems of European integration.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 371",
+      "title": "U.S. Foreign Relations from Independence to World War II",
+      "credits": "3",
+      "description": "U.S. foreign policy and international history. Examines the American rise to power and political, economic, and cultural relationships between the United States and other peoples, organizations, and states worldwide. Credit will be granted for only one of HIST 371 or HIST 408. Equivalency: HIST 408.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "HIST 408",
+      "recommended": null
+    },
+    {
+      "code": "HIST 372",
+      "title": "U.S. Foreign Relations since 1945",
+      "credits": "3",
+      "description": "U.S. foreign policy and international history. Political, economic, and cultural relationships between the United States and other peoples, organizations, and states worldwide. Credit will be granted for only one of HIST 372 or HIST 409. Equivalency: HIST 409.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "HIST 409",
+      "recommended": null
+    },
+    {
+      "code": "HIST 373",
+      "title": "History of Hong Kong",
+      "credits": "3",
+      "description": "History, culture, and identities of Hong Kong from the early 1800s to the present. Credit will be granted for only one of HIST 373 or ASIA 373. Equivalency: ASIA 373.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "ASIA 373",
+      "recommended": null
+    },
+    {
+      "code": "HIST 374",
+      "title": "The First World War",
+      "credits": "3",
+      "description": "WWI as a global war; cultural history and legacy; impact of imperialism on the war; military technology. Credit will be granted for only one of HIST 374 or HIST 404. Equivalency: HIST 404.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "HIST 404",
+      "recommended": null
+    },
+    {
+      "code": "HIST 375",
+      "title": "The Second World War",
+      "credits": "3",
+      "description": "Precursors and consequences of the war; military, political, cultural, social, and economic histories of how the war shaped and reflected its global context. Themes include totalitarianism, genocide, and imperialism and decolonization. Credit will be granted for only one of HIST 375 or HIST 406. Equivalency: HIST 406.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "HIST 406",
+      "recommended": null
+    },
+    {
+      "code": "HIST 376",
+      "title": "Modern Japanese History Since 1830",
+      "credits": "3-6",
+      "description": "Meanings of modernity, from the establishment of a nation-state to the creation of a colonial empire, postwar occupation, modern politics and global influence. Social change, including civil protest, mass culture, censorship and expression, and gender, sexuality, ethnicity and race.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 377",
+      "title": "History of Cantonese Worlds",
+      "credits": "3",
+      "description": "The history, culture, languages, and identities of the multi-faceted Cantonese worlds, in the context of Chinese history and the Cantonese diaspora. Credit will be granted for only one of HIST 377 or ASIA 323. Equivalency: ASIA 323. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "ASIA 323",
+      "recommended": null
+    },
+    {
+      "code": "HIST 378",
+      "title": "History of Early China",
+      "credits": "3",
+      "description": "History of China from the earliest times to the disintegration of the Tang Empire. Students will acquire the analytical skills and tools to understand the origins and foundations of Chinese society. Credit will be granted for only one of HIST 378 or ASIA 320. Equivalency: ASIA 320.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "ASIA 320",
+      "recommended": null
+    },
+    {
+      "code": "HIST 379",
+      "title": "History of Later Imperial China",
+      "credits": "3",
+      "description": "History of China from the end of Tang to the eve of its modern transformation. Students will acquire the analytical skills and tools to understand the political, socio-economic, and cultural changes in imperial China. Credit will be granted for only one of HIST 379 or ASIA 340. Equivalency: ASIA 340.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "ASIA 340",
+      "recommended": null
+    },
+    {
+      "code": "HIST 380",
+      "title": "The Making of Modern China: Nationalism, War, Revolution",
+      "credits": "3-6",
+      "description": "The history of China from 1800 to the present including the decline of the Qing empire, the rise of modern nationalism, foreign invasion, and China's multiple revolutions.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 381",
+      "title": "Imperialism and Nationalism in Southeast Asia",
+      "credits": "3",
+      "description": "The history of European imperial rule, the forms of resistance to it, and the formation of nationalist movements in Southeast Asia. The countries studied include Vietnam, Indonesia, the Philippines, Burma, and Thailand.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 382",
+      "title": "Post-Colonial Southeast Asia",
+      "credits": "3",
+      "description": "The history of the Japanese occupation, wars of independence, international relations of the independent nation-states, and internal armed conflicts. Special attention will be paid to the wars in Vietnam, Indonesia, and East Timor.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 383",
+      "title": "Foundations of Sikh Traditions",
+      "credits": "3",
+      "description": "Sikh religious beliefs, practices, institutions, and thought. Emphasis on the history of the Sikh Gurus and their writings, and the larger social and cultural forces within which the tradition developed.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 384",
+      "title": "The Making of Modern Sikhism",
+      "credits": "3",
+      "description": "Historical, social, and cultural forces that shaped Sikh religious beliefs, practices, institutions, and thought in the modern period, including both colonial and post-colonial contexts and the transnational Sikh community.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 385",
+      "title": "India from Raj to Republic",
+      "credits": "3",
+      "description": "Exploration of the rise of the East India Company as territorial power, the formation of a colonial society in India, competing responses to British rule, the struggle for independence, and the legacies of partition.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 386",
+      "title": "Korea Since 1860",
+      "credits": "3-6",
+      "description": "An examination of the political, economic, social, and cultural transformations of Korea since the late nineteenth century. Topics include the end of the Choson Dynasty, the history of Japanese colonial rule, the Korean war, and the two Koreas in the international system.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 387",
+      "title": "Voices from Medieval India",
+      "credits": "3",
+      "description": "History of medieval India explored through different stories from and about India's pre-modern past. Studies trends in society, religion, politics, and material life to reveal the dynamism of this period and to challenge simplified narratives of Hindu-Muslim confrontation.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 388",
+      "title": "India in the Early Modern World: Kings, Courtesans, and Saints",
+      "credits": "3",
+      "description": "History of India during the period of Mughal rule (roughly 1500-1750). Studies the role of India and the Mughals within the global dynamics of the early modern world.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 389",
+      "title": "Asian Cities",
+      "credits": "3",
+      "description": "Urban, environmental, and cultural history through Asian Cities.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 390",
+      "title": "Topics in History",
+      "credits": "3-6",
+      "description": "Topics will vary from year to year. Consult the program website https://history.ubc.ca/courses/ for more information. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 391",
+      "title": "Human Rights in World History",
+      "credits": "3",
+      "description": "Changing ideas about humanity and rights. Considers the relationship between human rights and the nation-state, imperialism, and capitalism. Assesses the efforts to end large-scale human rights violations and the role of the United Nations.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 392",
+      "title": "Scientific Revolution: Circulation of Knowledge in the Early Modern World",
+      "credits": "3",
+      "description": "The profound transformation of knowledge about the world in the context of the first global encounter of civilizations between 1450 and 1800. Explores the foundations for modern science.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 393",
+      "title": "Introduction to History and Philosophy of Science",
+      "credits": "3",
+      "description": "An examination of historical, conceptual, and methodological conditions of scientific knowledge through detailed consideration of important episodes in the history of science. Credit will be granted for only one of HIST 393 or PHIL 360. Equivalency: PHIL 360",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "PHIL 360",
+      "recommended": null
+    },
+    {
+      "code": "HIST 394",
+      "title": "Darwin, Evolution, and Modern History",
+      "credits": "3",
+      "description": "Darwin and the science of evolution in nineteenth and early twentieth century. Credit will be granted for only one of HIST 394 or PHIL 364. Equivalency: PHIL 364.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "PHIL 364",
+      "recommended": null
+    },
+    {
+      "code": "HIST 395",
+      "title": "The Nuclear Century: Scientists, Atoms, and the World Order Since 1900",
+      "credits": "3",
+      "description": "Science and the military-industrial complex; quantum and relativistic revolutions in physics; nuclear energy and weapons of mass destruction; international tensions, environmental damage, and global perils.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 396",
+      "title": "Environmental History of North America",
+      "credits": "3",
+      "description": "Overview of land use and environmental change in Canada and the United States; examines ideas and practices that shaped indigenous and non-indigenous resource exploitation, management, and activism to the end of the twentieth century.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 397",
+      "title": "Environmental History of the Modern World",
+      "credits": "3",
+      "description": "Major themes in global environmental history and historiography since 1500, with a particular focus on the nineteenth through twenty-first centuries.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 398",
+      "title": "The History of Modern Medicine",
+      "credits": "3",
+      "description": "The history of health and disease in the modern world, focusing in particular on the emergence and history of modern biomedicine.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 399",
+      "title": "Theory and Practice of History",
+      "credits": "3-6",
+      "description": "Approaches to the history of historical inquiry, with particular attention to theoretical and methodo-logical debates among historians. Recommended for history majors. Not open to Department of History honours students.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 400",
+      "title": "The Practice of Oral History",
+      "credits": "3",
+      "description": "The practice, ethics, and politics of oral history. Provides research training, where students design and complete projects based on oral history interviews.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 401",
+      "title": "Seafaring in the Age of Sail",
+      "credits": "3",
+      "description": "Humankind's encounter with its ocean frontier through exploration, trading, fishing, whaling, piracy, and naval warfare from 1400 to 1850.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 403",
+      "title": "Seminar in the History of International Relations",
+      "credits": "3-9",
+      "description": "Selected topics in the history of international relations. Restricted to fourth-year students majoring in History or International Relations, and History Honours students. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 405",
+      "title": "Diplomacy and Conflict in the Middle East, 1914 to the Present",
+      "credits": "3",
+      "description": "International relations in the Middle East in the aftermath of the Ottoman Empire, with special attention to the conflicts between Jews of Palestine/Israel and their Arab neighbours.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 412",
+      "title": "The American Impact on Canada",
+      "credits": "3-6",
+      "description": "The influence of the United States' rise to continental, hemispheric, and world power upon Canada. Topics may include areas of economics, defence, and foreign policy.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 413",
+      "title": "Imagining the Nation: 19th- and 20th-Century Canada",
+      "credits": "3",
+      "description": "The political and intellectual history of the concept of the nation in French and English Canada, and the different forms of nationalism it inspired from the middle of the nineteenth century to the 1995 Quebec Referendum.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 420",
+      "title": "Topics in Canadian History",
+      "credits": "3-6",
+      "description": "May include immigration, French-English relations, the growth of the state, health and welfare, or the family.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 421",
+      "title": "Honours Tutorial",
+      "credits": "6-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 423",
+      "title": "Economic and Business History of Modern Japan",
+      "credits": "3",
+      "description": "From 1800 to the present; emphasis on the business strategies of Japan's largest companies; attention also to broader economic topics such as international trade, government policy, social impact of industry, business and politics, labour, and post-1971 multi-nationalism.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 424",
+      "title": "Economic History of the Pre-Modern World",
+      "credits": "3",
+      "description": "Historic origins and drivers of economic growth around the globe.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 425",
+      "title": "War and Society",
+      "credits": "6",
+      "description": "Continuity and change in the relations of war and society, the connections between the economy, society, the military, and government in peacetime as well as war; not a course in military history.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 433",
+      "title": "Fourth-Year Honours Seminar",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 435",
+      "title": "Gender and Sexuality in the Modern U. S.",
+      "credits": "3",
+      "description": "Gender roles and gender relations from the Gilded Age to the present day. Topics include political movements such as suffrage and feminism; labour and recreation; marriage, family, and children's socialization; sexuality; and popular culture.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 436",
+      "title": "European Social History",
+      "credits": "3-6",
+      "description": "Topics may include changes in economic activity, social structure, family life, religious attitudes, and popular behaviour which accompanied the transformation of Europe from a pre-industrial to an industrial society.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 446",
+      "title": "Topics in U.S. Cultural History",
+      "credits": "3-6",
+      "description": "",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 447",
+      "title": "Selected Topics in United States History",
+      "credits": "3",
+      "description": "Examines in depth a significant period, theme, or topic in the history of the United States. Possible subjects include The West, the Great Depression, the Sixties, and Class, Race, and Gender.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 449",
+      "title": "Honours Thesis",
+      "credits": "3-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 450",
+      "title": "Selected Topics in Latin American History",
+      "credits": "3-6",
+      "description": "A study in depth of one major topic (such as the Cuban Revolution or Peronism) in the recent history of Latin America.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 451",
+      "title": "Family and Community in Latin America",
+      "credits": "3",
+      "description": "The role of family and community from the colonial period to the present. Emergence of the nation state as it affected community and family structures.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 453",
+      "title": "Class and Culture in Latin America",
+      "credits": "3",
+      "description": "The relationship between culture and class formation from the late colonial period to the present.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 455",
+      "title": "Gender and Sexuality in Latin America",
+      "credits": "3",
+      "description": "The construction of gender ideologies and gendered and sexual identities, including masculine, feminine, and transgendered, in modern Latin America. [3-0-0]",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 456",
+      "title": "Race in the Americas",
+      "credits": "3",
+      "description": "Legacies of African, European, and Asian migrations, and colonial encounters with indigenous peoples in the Americas. Includes the creation of racial categories, the making of transnational and transracial families, and the emergence of race-based social and cultural movements.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 466",
+      "title": "Topics in Indigenous History of Canada",
+      "credits": "3",
+      "description": "Selected interdisciplinary topics in the history of Canada's Indigenous peoples after European contact, including historical demography, economic interdependency, missionary encounters, gender relations, and interactions with colonial powers and the nation state. Recommended: HIST 302 or other background in the field. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 467",
+      "title": "Topics in Indigenous History of the United States",
+      "credits": "3",
+      "description": "Interdisciplinary topics in the history of the United States' Indigenous peoples from before European contact. HIST 302 or other background in the field is recommended. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 470",
+      "title": "Seminar in Medieval History",
+      "credits": "3-6",
+      "description": "Annually changing topics of medieval studies with special attention to research methods on primary sources.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 472",
+      "title": "Imagining the Middle Ages",
+      "credits": "3",
+      "description": "Influence of nostalgia for the history, literature, arts, architecture, and traditions of medieval European centuries on modern intellectual, artistic, and nationalist and racist political movements in Europe and North America. Restricted to students with third-year standing or higher.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 473",
+      "title": "Women in the Middle Ages",
+      "credits": "3",
+      "description": "A study of women's roles in the family, society, law, religion, the economy, and literature from about 500 to 1500 CE.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 474",
+      "title": "Ideas and Religions of the Middle Ages",
+      "credits": "3",
+      "description": "A survey and exploration of the development, interpenetration, conflict, and transformation of various intellectual and religious traditions during the Middle Ages.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 475",
+      "title": "Documenting Punjabi Canada",
+      "credits": "3",
+      "description": "Exploration of the history of the Punjabi Canadian community through traditional text-based methods and oral history collection. Credit will be granted for only one of HIST 475 or ASIA 475. Equivalency: ASIA 475. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "ASIA 475",
+      "recommended": null
+    },
+    {
+      "code": "HIST 476",
+      "title": "Law and Society in the Middle Ages",
+      "credits": "3",
+      "description": "The history of law in the Middle Ages, including English common law, civil (Roman) law, and canon law, and how changes in both medieval law and society affected the development of each.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 477",
+      "title": "Constitutional History of Medieval Europe",
+      "credits": "3",
+      "description": "The evolution of political institutions, the emergence of royal governments as well as representative assemblies and urban republic and conflicts within and among them leading to the emergence of modern structures.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 478",
+      "title": "Medieval Portraits and Personalities",
+      "credits": "3",
+      "description": "The lives of leading and controversial figures in the Middle Ages and the means by which they have portrayed themselves and been portrayed by others.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 479",
+      "title": "Cultural History of Imperial China",
+      "credits": "3-6",
+      "description": "An in-depth examination of the construction, transmission, and transformation of Chinese culture(s) prior to 1800. A maximum of 6 credits will be granted for only one of HIST 479 or ASIA 440. Equivalency: ASIA 479.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "ASIA 479",
+      "recommended": null
+    },
+    {
+      "code": "HIST 480",
+      "title": "Social History of Modern China",
+      "credits": "3-6",
+      "description": "Changes and continuities in Chinese society and culture from the late imperial period to the present. Topics may include rural and urban life, social stratification, social movements and ideology, family and community, popular beliefs and cultural values.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 481",
+      "title": "Education and Society in Modern China",
+      "credits": "3",
+      "description": "The relationship between education and society in China since 1600; classical learning and the civil service examination system; popular literacy; sino-foreign interactions in education; education and gender; nationalism and education; the education revolution in China after 1949.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 482",
+      "title": "Chinese Migration",
+      "credits": "3",
+      "description": "This history of Chinese migrations from the founding of the state to the present day. Migration is used as a focus through which to examine some key themes of Chinese history; ethnicity, boundary creation, economic growth and international relations.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 484",
+      "title": "East Asian Military systems and warfare China",
+      "credits": "3",
+      "description": "Confucian societies are often thought of as ones in which the brush is mightier than the sword. In fact the military has been a crucial factor in East Asia, and warfare has been the engine which has driven many of the most significant changes in East Asian history. This course will look at the evolution of East Asian military systems, and at the impact of recurrent warfare on East Asia societies.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 485",
+      "title": "Asian Migrant Communities in Vancouver",
+      "credits": "3",
+      "description": "This course will examine the history of Asian migration to Vancouver and British Columbia, focusing on the development of local communities and provide a background in historical research methods that will enable the students to conduct research on the history of these communities.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 487",
+      "title": "History of Alternative and Complementary Medicine: Acupuncture to Yoga",
+      "credits": "3",
+      "description": "Alternative and complementary healing in history, including Traditional Chinese Medicine (TCM), yoga, meditation, and alternative drug therapies. Specific themes may vary from year to year.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 488",
+      "title": "Special Topics in Asian History",
+      "credits": "3-6",
+      "description": "",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 490",
+      "title": "Seminar for Majors in History",
+      "credits": "3-9",
+      "description": "Selected problems in the theory and practice of historical work. Check with the department for course offerings. Restricted to fourth-year students majoring in History or in the History and Philosophy of Science. Also open to History Honours students. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 491",
+      "title": "Science and the Enlightenment",
+      "credits": "3",
+      "description": "Examines the relationship between science and society in the long eighteenth century. Topics include empiricism, classification, academies, print culture, and voyages of exploration.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 493",
+      "title": "History and Social Relations of Modern Sciences.",
+      "credits": "3",
+      "description": "Science and society in the 19th to 21st Centuries. [3-0-0]",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 494",
+      "title": "Machines, Media, and Modernity: Frankenstein to Cinema",
+      "credits": "3",
+      "description": "The cultural contexts and consequences of science and nineteenth century technology. European and North American developments.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 495",
+      "title": "Evolution and the Sciences of Mind, Brain, and Behaviour",
+      "credits": "3",
+      "description": "Examines how Darwin's theory of evolution changed the investigation of human nature. Questions will be historical and scientific, but will also concern the social, ethical, and existential stakes raised by the human mind as a product of evolution.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 500",
+      "title": "Readings in Canadian History",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 505",
+      "title": "Readings in American History",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 510",
+      "title": "Readings in British History",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 520",
+      "title": "Readings in Medieval History",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 525",
+      "title": "Professional Development for Historians",
+      "credits": "3",
+      "description": "Offers essential skills for academic and non-academic paths in the historical profession as well as identifying alternative career possibilities for historians. Offers essential skills for academic and non-academic paths in the historical profession as well as identifying alternative career possibilities for historians. Restricted to students in the following programs: PhD in History, MA in History This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 530",
+      "title": "Readings in French History",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 535",
+      "title": "Readings in Central European History",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 540",
+      "title": "Readings in Russian and East European History",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 547",
+      "title": "Readings: Special Topics in History",
+      "credits": "3-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 548",
+      "title": "Historiography",
+      "credits": "3-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 549",
+      "title": "Master's Thesis",
+      "credits": "12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 550",
+      "title": "Readings in Early Modern European History",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 554",
+      "title": "Readings in Modern European History",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 558",
+      "title": "Readings in Comparative Asian History",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 560",
+      "title": "Readings in Chinese History (to 1911)",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 561",
+      "title": "Readings in Chinese History (post-1911)",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 563",
+      "title": "Methodology and Sources in Chinese History",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 566",
+      "title": "Readings in 20th-Century Japanese History",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 568",
+      "title": "Readings in Early Modern Japanese and World History",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 569",
+      "title": "Methodology and Sources in Japanese History",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 570",
+      "title": "Seminar in Japanese History",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 573",
+      "title": "Readings in Southeast Asian History",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 575",
+      "title": "Readings in International and Global History",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 577",
+      "title": "Readings in South Asian History",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 580",
+      "title": "Readings in Latin American History",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 581",
+      "title": "Topics in Science, Technology, and Society",
+      "credits": "3-12",
+      "description": "Advanced seminar on a specific theme or themes of interest to both STS and History. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 585",
+      "title": "Topics in Cultural History",
+      "credits": "3-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 586",
+      "title": "Topics in Intellectual History",
+      "credits": "3-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 589",
+      "title": "Readings in Environmental History",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 594",
+      "title": "Readings in Aboriginal History",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 595",
+      "title": "Public History",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 596",
+      "title": "Oral History",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 597",
+      "title": "Topics in Comparative History",
+      "credits": "3-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 599",
+      "title": "M.A. Research Seminar",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 649",
+      "title": "Doctoral Dissertation",
+      "credits": "0",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "HIST 699",
+      "title": "Ph.D. Research Seminar",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    }
+  ]
+}

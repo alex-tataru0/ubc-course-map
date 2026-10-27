@@ -1,0 +1,1280 @@
+{
+  "subject": "SOCI",
+  "source": "https://vancouver.calendar.ubc.ca/course-descriptions/subject/sociv",
+  "courses": [
+    {
+      "code": "SOCI 100",
+      "title": "Introduction to Sociology",
+      "credits": "6",
+      "description": "Introduction to problems in the analysis of social structures and processes. Basic sociological concepts will be introduced and their application demonstrated in various areas of sociology. Credit will be granted for only one of SOCI 100 or both SOCI 101, SOCI 102.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 101",
+      "title": "Social Interaction and Culture",
+      "credits": "3",
+      "description": "Culture, identity, social interaction, relationships and socialization. Credit will be granted for only one of SOCI 101 or SOCI 100.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 102",
+      "title": "Inequality and Social Change",
+      "credits": "3",
+      "description": "Inequality, institutions, social structure and social change. Credit will be granted for only one of SOCI 102 or SOCI 100.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 200",
+      "title": "Sociology of Family",
+      "credits": "3",
+      "description": "An introduction to contemporary family forms and relations.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 201",
+      "title": "Ethnicity",
+      "credits": "3",
+      "description": "An introduction to the study of the relations between ethnic groups and of the interplay between ethnicity and other social factors.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 204",
+      "title": "Global Population Dynamics",
+      "credits": "3",
+      "description": "Core processes that influence world population patterns and trends.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 210",
+      "title": "Canadian Social Structure",
+      "credits": "3",
+      "description": "Descriptive and analytic survey of such features as demographic characteristics, class structure, ethnicity, and regional variation in Canadian society as a basis for understanding current social issues.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 217",
+      "title": "Research Methods",
+      "credits": "3",
+      "description": "An introduction to sociological research methods. Diverse types of qualitative and quantitate data and methods to answer research questions. Prerequisite: One of SOCI 100, SOCI 101, SOCI 102, SOCI 200.",
+      "prereq": {
+        "text": "One of SOCI 100, SOCI 101, SOCI 102, SOCI 200",
+        "tree": {
+          "one_of": [
+            "SOCI 100",
+            "SOCI 101",
+            "SOCI 102",
+            "SOCI 200"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 220",
+      "title": "Sociology of Indigenous Peoples",
+      "credits": "3",
+      "description": "Sociological perspective of Indigenous peoples and issues both internationally and within Canada.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 224",
+      "title": "Sociology of Personal Life",
+      "credits": "3",
+      "description": "A sociological examination of everyday life exploring the social in the personal.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 230",
+      "title": "Shopping, Society, and Sustainability",
+      "credits": "3",
+      "description": "Major theories of consumer society, evaluating impacts of shopping on human and non-human environments and popular solutions to these impacts.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 240",
+      "title": "Introduction to Social Interaction",
+      "credits": "3",
+      "description": "Research on social interaction, with an emphasis on group (as opposed to individual) processes and behaviour.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 250",
+      "title": "Crime and Society",
+      "credits": "3",
+      "description": "Crime as a social phenomenon, with emphasis on the changing definitions of crime in relation to social and political change in Canadian and other societies.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 260",
+      "title": "Work, Technology, and Society",
+      "credits": "3",
+      "description": "Social forces responsible for changing patterns of technological innovation and work organization in modern industrial societies. Emphasis on the organization of work, labour force dynamics, and technological change.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 270",
+      "title": "Sociology of Creativity",
+      "credits": "3",
+      "description": "The application of sociological concepts to the examination of creative processes.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 280",
+      "title": "Data and Society",
+      "credits": "3",
+      "description": "Impacts of changing information and communication technologies on societies and social interactions.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 284",
+      "title": "Health and Society",
+      "credits": "3",
+      "description": "An introduction to health and illness through a sociological lens.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 285",
+      "title": "Citizenship and Identity",
+      "credits": "3",
+      "description": "The concepts of citizenship, identity, and human rights as social processes shaping individuals and communities (both local and global).",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 290",
+      "title": "Global Pandemics",
+      "credits": "3",
+      "description": "Global pandemics in relation to social inequality, social interaction and social institutions.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 301",
+      "title": "Sociology of International Development",
+      "credits": "3",
+      "description": "Causes and consequences of uneven development in countries throughout the world. It is recommended that students complete one of SOCI 100, SOCI 101, or SOCI 102 before taking this course. Restricted to students with second-year standing or above.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 302",
+      "title": "Ethnic and Racial Inequality",
+      "credits": "3",
+      "description": "A critical examination of classical and contemporary theories and research evidence concerning ethnic and racial inequality at the societal and interpersonal levels. It is recommended that students complete one of SOCI 100, SOCI 101, or SOCI 102 before taking this course. Restricted to students with second-year standing or above.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 303",
+      "title": "Sociology of Migration",
+      "credits": "3",
+      "description": "Sociological approaches to the movement of peoples and its impact over time. It is recommended that students complete one of SOCI 100, SOCI 101, or SOCI 102 before taking this course. Restricted to students with second-year standing or above.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 310",
+      "title": "Canadian Society",
+      "credits": "3",
+      "description": "Social organization of Canadian society: relationships between social institutions and social processes (e.g., economics, education, family, law, media, and politics); including issues of ancestry, ethnicity, gender, region, and social class. Prerequisite: One of SOCI 100, SOCI 101, SOCI 102.",
+      "prereq": {
+        "text": "One of SOCI 100, SOCI 101, SOCI 102",
+        "tree": {
+          "one_of": [
+            "SOCI 100",
+            "SOCI 101",
+            "SOCI 102"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 312",
+      "title": "Gender Relations",
+      "credits": "3",
+      "description": "The nature of gender relations, their social and cultural expression, and theories of gender inequality. It is recommended that students complete one of SOCI 100, SOCI 101, or SOCI 102 before taking this course. Restricted to students with second-year standing or above.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 314",
+      "title": "Sociology of Masculinity",
+      "credits": "3",
+      "description": "How masculinity differs across social contexts and time periods. It is recommended that students complete one of SOCI 100, SOCI 101, or SOCI 102 before taking this course. Restricted to students with second-year standing or above.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 320",
+      "title": "Diversity in Family Forms",
+      "credits": "3",
+      "description": "An examination of diversity within and between families and of diverse family forms. It is recommended that students complete one of SOCI 100, SOCI 101, SOCI 102 or SOCI 200 before taking this course. Restricted to students with second-year standing or above.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 324",
+      "title": "Sociology of the Life Course",
+      "credits": "3",
+      "description": "Individuals and families through the life course. It is recommended that students complete one of SOCI 100, SOCI 101, SOCI 102 or SOCI 200 before taking this course. Restricted to students with second-year standing or above.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 328",
+      "title": "Social Statistics I",
+      "credits": "3",
+      "description": "The testing of sociological theories using quantitative data analysis techniques on numerical data from social surveys, experiments and official statistics. SOCI 328 excludes credit for a number of other statistics courses in various departments. Please consult the Science Credit Exclusion List ( https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-science/bachelor-science/credit-exclusion-lists ) before registering. Prerequisite: One of SOCI 100, SOCI 101, SOCI 102.",
+      "prereq": {
+        "text": "One of SOCI 100, SOCI 101, SOCI 102",
+        "tree": {
+          "one_of": [
+            "SOCI 100",
+            "SOCI 101",
+            "SOCI 102"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 332",
+      "title": "Sociology of Adornment",
+      "credits": "3",
+      "description": "The application of sociological concepts to the understanding of objects that we use to adorn our bodies. It is recommended that students complete one of SOCI 100, SOCI 101, or SOCI 102 before taking this course. Restricted to students with second-year standing or above.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 342",
+      "title": "Consumers and Consumption",
+      "credits": "3",
+      "description": "The structure and culture of consuming and consumption. It is recommended that students complete one of SOCI 100, SOCI 101, or SOCI 102 before taking this course. Restricted to students with second-year standing or above.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 344",
+      "title": "Sociology of Aging",
+      "credits": "3",
+      "description": "Demographic, economic, and social trends associated with aging, ageism, and aging populations. It is recommended that students complete one of SOCI 100, SOCI 101, SOCI 102 or SOCI 200 before taking this course. Credit will be granted for only one of SOCI 344 and SOCI 444. Equivalency: SOCI 444. Restricted to students with second-year standing or above.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "SOCI 444. Restricted to students with second-year standing or above",
+      "recommended": null
+    },
+    {
+      "code": "SOCI 352",
+      "title": "Work and Inequality",
+      "credits": "3",
+      "description": "The meaning of work and leisure, properties of work organization, the division of labour, and the relation of work and social inequality. It is recommended that students complete one of SOCI 100, SOCI 101, or SOCI 102 before taking this course. Restricted to students with second-year standing or above.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 354",
+      "title": "Community Studies",
+      "credits": "3",
+      "description": "Study of the organization of human communities; a focus upon collective activities including family, work, neighbourhood, and formal and informal networks. It is recommended that students complete one of SOCI 100, SOCI 101, or SOCI 102 before taking this course. Restricted to students with second-year standing or above.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 360",
+      "title": "Sociology and Natural Resources",
+      "credits": "3",
+      "description": "Sociological perspectives on property, resource industries (such as agriculture, fishing, forestry and mining), resource development, and resource communities. It is recommended that students complete one of SOCI 100, SOCI 101, or SOCI 102 before taking this course. Restricted to students with second-year standing or above.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 361",
+      "title": "Social Inequality",
+      "credits": "3",
+      "description": "Tendencies toward equality and inequality; manifestations of inequality (occupation, education, gender, ethnicity, income, power) and their consequences; caste and class features of major stratification systems; theories of social class; stratification profile of contemporary industrial societies. It is recommended that students complete one of SOCI 100, SOCI 101, or SOCI 102 before taking this course. Restricted to students with second-year standing or above.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 364",
+      "title": "Built Environments",
+      "credits": "3",
+      "description": "Physical, social, and economic aspects of built environments, including housing and community planning. It is recommended that students complete one of SOCI 100, SOCI 101, or SOCI 102 before taking this course. Restricted to students with second-year standing or above.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 369",
+      "title": "Sociology of Sexualities",
+      "credits": "3",
+      "description": "Sexual identities, communities, practices, and norms across social and historical contexts. It is recommended that students complete one of SOCI 100, SOCI 101, SOCI 102 or SOCI 200 before taking this course. Restricted to students with second-year standing or above.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 370",
+      "title": "Sociological Theories: Classical and Contemporary Approaches",
+      "credits": "6",
+      "description": "An examination of selected traditions, conceptual problems, and current topics in the field of sociological theory. Credit will be granted for only one of SOCI 370 or both SOCI 371, SOCI 372. Prerequisite: One of SOCI 100, SOCI 101, SOCI 102.",
+      "prereq": {
+        "text": "One of SOCI 100, SOCI 101, SOCI 102",
+        "tree": {
+          "one_of": [
+            "SOCI 100",
+            "SOCI 101",
+            "SOCI 102"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 371",
+      "title": "Classical Traditions in Theory",
+      "credits": "3",
+      "description": "An examination of selected traditions, conceptual problems and topics in the foundational theories of sociology. Credit will be granted for only one of SOCI 371 or SOCI 370. Prerequisite: One of SOCI 100, SOCI 101, SOCI 102.",
+      "prereq": {
+        "text": "One of SOCI 100, SOCI 101, SOCI 102",
+        "tree": {
+          "one_of": [
+            "SOCI 100",
+            "SOCI 101",
+            "SOCI 102"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 372",
+      "title": "Contemporary Directions in Theory",
+      "credits": "3",
+      "description": "A survey of theories in contemporary sociology. Credit will be granted for only one of SOCI 372 or SOCI 370. Prerequisite: One of SOCI 100, SOCI 101, SOCI 102.",
+      "prereq": {
+        "text": "One of SOCI 100, SOCI 101, SOCI 102",
+        "tree": {
+          "one_of": [
+            "SOCI 100",
+            "SOCI 101",
+            "SOCI 102"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 380",
+      "title": "Sociological Methods: Survey Research",
+      "credits": "3",
+      "description": "Questionnaire design, interviewing, sampling, and analysis of survey data. Prerequisite: One of SOCI 100, SOCI 101, SOCI 102, SOCI 217.",
+      "prereq": {
+        "text": "One of SOCI 100, SOCI 101, SOCI 102, SOCI 217",
+        "tree": {
+          "one_of": [
+            "SOCI 100",
+            "SOCI 101",
+            "SOCI 102",
+            "SOCI 217"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 381",
+      "title": "Sociological Methods: Experimental Research",
+      "credits": "3",
+      "description": "Research strategies associated with the implementation of experimental methods in sociology. Prerequisite: One of SOCI 100, SOCI 101, SOCI 102 and SOCI 217.",
+      "prereq": {
+        "text": "One of SOCI 100, SOCI 101, SOCI 102 and SOCI 217",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "SOCI 100",
+                "SOCI 101",
+                "SOCI 102"
+              ]
+            },
+            "SOCI 217"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 382",
+      "title": "Sociological Methods: Qualitative Research",
+      "credits": "3",
+      "description": "Examination of the different traditions of qualitative sociological inquiry and the associated methodological features used to study the interpretive practices and meanings in the everyday lives of individuals. Prerequisite: One of SOCI 100, SOCI 101, SOCI 102 and SOCI 217.",
+      "prereq": {
+        "text": "One of SOCI 100, SOCI 101, SOCI 102 and SOCI 217",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "SOCI 100",
+                "SOCI 101",
+                "SOCI 102"
+              ]
+            },
+            "SOCI 217"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 383",
+      "title": "Sociological Methods: Historical Research",
+      "credits": "3",
+      "description": "Key approaches and debates in historical research methods. Using archival sources, historical texts, and sociological arguments to?examine how the past shapes the present. Prerequisite: One of SOCI 100, SOCI 101, SOCI 102 and SOCI 217.",
+      "prereq": {
+        "text": "One of SOCI 100, SOCI 101, SOCI 102 and SOCI 217",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "SOCI 100",
+                "SOCI 101",
+                "SOCI 102"
+              ]
+            },
+            "SOCI 217"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 384",
+      "title": "Sociology of Health and Illness",
+      "credits": "3",
+      "description": "Classic and contemporary sociological perspectives on health, illness, and health care. It is recommended that students complete one of SOCI 100, SOCI 101, or SOCI 102 before taking this course. Restricted to students with second-year standing or above.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 387",
+      "title": "Drugs and Society",
+      "credits": "3",
+      "description": "Social dimensions of the causes, consequences, regulation, and treatment of substance use from Canadian and international perspectives. It is recommended that students complete one of SOCI 100, SOCI 101, or SOCI 102 before taking this course. Restricted to students with second-year standing or above.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 410",
+      "title": "Selected Topics in Canadian Society",
+      "credits": "3-12",
+      "description": "Selected areas of study relating to Canadian society such as BC Studies; French Canada's demographic problems; rural communities; social welfare and community programs in Canada. Consult the Department for this year's offerings. It is recommended that students complete one of SOCI 100, SOCI 101, or SOCI 102 before taking this course. Restricted to students with second-year standing or above.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 414",
+      "title": "Feminist Theory",
+      "credits": "3",
+      "description": "The emergence of feminist theory, its relationship to sociology, and the major theoretical schools of thought. Prerequisite: One of SOCI 100, SOCI 101, SOCI 102.",
+      "prereq": {
+        "text": "One of SOCI 100, SOCI 101, SOCI 102",
+        "tree": {
+          "one_of": [
+            "SOCI 100",
+            "SOCI 101",
+            "SOCI 102"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 415",
+      "title": "Theories of Family and Kinship",
+      "credits": "3-6",
+      "description": "Theoretical approaches to the study of the family and family forms. Prerequisite: One of SOCI 100, SOCI 101, SOCI 102, SOCI 200.",
+      "prereq": {
+        "text": "One of SOCI 100, SOCI 101, SOCI 102, SOCI 200",
+        "tree": {
+          "one_of": [
+            "SOCI 100",
+            "SOCI 101",
+            "SOCI 102",
+            "SOCI 200"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 416",
+      "title": "Selected Topics in Sociological Theory",
+      "credits": "3-12",
+      "description": "An in-depth examination of selected sociological theories. Consult the department for this year's offerings. Prerequisite: One of SOCI 100, SOCI 101, SOCI 102.",
+      "prereq": {
+        "text": "One of SOCI 100, SOCI 101, SOCI 102",
+        "tree": {
+          "one_of": [
+            "SOCI 100",
+            "SOCI 101",
+            "SOCI 102"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 418",
+      "title": "Social Statistics II",
+      "credits": "3",
+      "description": "Primary emphasis on applications of statistical techniques to data in Sociology. It is recommended that students complete one of SOCI 100, SOCI 101, or SOCI 102 before taking this course. Restricted to students with second-year standing or above. Prerequisite: SOCI 328.",
+      "prereq": {
+        "text": "SOCI 328",
+        "tree": "SOCI 328",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 420",
+      "title": "Sociology of the Environment",
+      "credits": "3",
+      "description": "Sociological approaches to the study of environmental conflicts, issues, movements, impact of changing technology, economic development on the environment. It is recommended that students complete one of SOCI 100, SOCI 101, or SOCI 102 before taking this course. Restricted to students with second-year standing or above.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 423",
+      "title": "Sociology of Food",
+      "credits": "3",
+      "description": "Cultural, economic, and political aspects of food production and consumption, including connections to class, ethnicity, and gender. Food-related social movements will be included. It is recommended that students complete one of SOCI 100, SOCI 101, or SOCI 102 before taking this course. Restricted to students with second-year standing or above.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 425",
+      "title": "Urban Sociology",
+      "credits": "3",
+      "description": "Demographic, behavioural, and organizational aspects of urban structures and of urbanization in different societies and periods. It is recommended that students complete one of SOCI 100, SOCI 101, or SOCI 102 before taking this course. Restricted to students with second-year standing or above.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 430",
+      "title": "Global Citizenship",
+      "credits": "3",
+      "description": "Sociology approaches to global citizenship, including its contested nature and intellectual lineage.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 433",
+      "title": "Directed Studies",
+      "credits": "3-6",
+      "description": "General reading and/or a research undertaking, with the agreement, and under the supervision, of a Department faculty member selected by the student. It is recommended that students complete one of SOCI 100, SOCI 101, or SOCI 102 before taking this course. Restricted to students with second-year standing or above. And permission of the Department.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 435",
+      "title": "International Service Learning",
+      "credits": "3-6",
+      "description": "International field placement normally for eight to ten weeks; pre-departure seminars (eight to twelve seminars or equivalent) with student presentation seminars upon return from the field.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 440",
+      "title": "Economic Sociology",
+      "credits": "3",
+      "description": "Analysis of economic actions and institutions using the concepts and methods of sociology. It is recommended that students complete one of SOCI 100, SOCI 101, or SOCI 102 before taking this course. Restricted to students with second-year standing or above.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 441",
+      "title": "Society, Economy and Family",
+      "credits": "3",
+      "description": "The study of family in social and economic contexts. It is recommended that students complete one of SOCI 100, SOCI 101, SOCI 102 or SOCI 200 before taking this course. Credit will be granted for only one of SOCI 441 and FMST 440. Equivalency: FMST 440. Restricted to students with second-year standing or above.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "FMST 440. Restricted to students with second-year standing or above",
+      "recommended": null
+    },
+    {
+      "code": "SOCI 442",
+      "title": "Families and Work",
+      "credits": "3",
+      "description": "The effect of combining family and work roles. It is recommended that students complete one of SOCI 100, SOCI 101, SOCI 102 or SOCI 200 before taking this course. Credit will be granted for only one of SOCI 442 and FMST 442. Equivalency: FMST 442. Restricted to students with second-year standing or above.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "FMST 442. Restricted to students with second-year standing or above",
+      "recommended": null
+    },
+    {
+      "code": "SOCI 449",
+      "title": "Honours Tutorial",
+      "credits": "6",
+      "description": "Requires the presentation of at least one research paper. Restricted to students in the Sociology Honours program. Prerequisite: One of SOCI 100, SOCI 101, SOCI 102.",
+      "prereq": {
+        "text": "One of SOCI 100, SOCI 101, SOCI 102",
+        "tree": {
+          "one_of": [
+            "SOCI 100",
+            "SOCI 101",
+            "SOCI 102"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 461",
+      "title": "Political Sociology",
+      "credits": "3",
+      "description": "The social and economic bases of political power, including the study of the state, ideology, political movements, revolutions, and political violence. It is recommended that students complete one of SOCI 100, SOCI 101, or SOCI 102 before taking this course. Restricted to students with second-year standing or above.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 464",
+      "title": "Social Movements",
+      "credits": "3",
+      "description": "A study of the sources, stages, and effects of social movements in developing and modernized societies. It is recommended that students complete one of SOCI 100, SOCI 101, or SOCI 102 before taking this course. Restricted to students with second-year standing or above.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 465",
+      "title": "Sociology of the Arts",
+      "credits": "3",
+      "description": "An examination of the arts as social practices from the standpoint of the relationships among artists, critics, patrons, and public; and the social institutions through which these relationships are structured. It is recommended that students complete one of SOCI 100, SOCI 101, or SOCI 102 before taking this course. Restricted to students with second-year standing or above.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 466",
+      "title": "Sociology of Education",
+      "credits": "3",
+      "description": "Examines the role of schooling in modern society including links with inequality, knowledge production, socialization and the economy. It is recommended that students complete one of SOCI 100, SOCI 101, or SOCI 102 before taking this course. Restricted to students with second-year standing or above.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 469",
+      "title": "Queer Theory and Politics",
+      "credits": "3",
+      "description": "Empirical expressions and political possibilities of queer theory. It is recommended that students complete one of SOCI 100, SOCI 101, or SOCI 102 before taking this course. Restricted to students with second-year standing or above. Prerequisite: SOCI 369.",
+      "prereq": {
+        "text": "SOCI 369",
+        "tree": "SOCI 369",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 470",
+      "title": "Sociology of Crime and Justice",
+      "credits": "3",
+      "description": "Critical examination of specific forms of crime in relation to the criminal justice system including law, enforcement, and corrections. It is recommended that students complete one of SOCI 100, SOCI 101, or SOCI 102 before taking this course. Restricted to students with second-year standing or above.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 473",
+      "title": "Sociology of Mental Illness",
+      "credits": "3",
+      "description": "A sociological approach to the meaning of mental illness; the organization of psychiatric treatment; problems in the explanation of the distribution of mental illness in a population. It is recommended that students complete one of SOCI 100, SOCI 101, or SOCI 102 before taking this course. Restricted to students with second-year standing or above.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 477",
+      "title": "Sociology of Soccer",
+      "credits": "3",
+      "description": "Soccer and colonialism, soccer and global politics, and inequalities in soccer by gender, sexuality, race and class. It is recommended that students complete one of SOCI 100, SOCI 101, or SOCI 102 before taking this course. Restricted to students with second-year standing or above.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 479",
+      "title": "Social Determinants of Health",
+      "credits": "3",
+      "description": "Relationships between social phenomena (e.g., personal beliefs, lifestyle practices, social support, socio-economic status, social class, gender, and ethnicity) and the health of human populations. It is recommended that students complete one of SOCI 100, SOCI 101, or SOCI 102 before taking this course. Restricted to students with second-year standing or above.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 480",
+      "title": "Urban Ethnographic Field School (UEFS)",
+      "credits": "3-6",
+      "description": "Approximately 50 hours of volunteering and fieldwork based in community organizations with theoretical approaches to urban spaces. Students will engage in collaborative research while considering a range of theoretical and methodological approaches. Students may earn a maximum of 6 credits from ANTH 480 and SOCI 480. It is recommended that students complete one of SOCI 100, SOCI 101, or SOCI 102 before taking this course. Restricted to students with second-year standing or above.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 490",
+      "title": "Contemporary Chinese Society",
+      "credits": "3",
+      "description": "Current social topics in Chinese society; perspectives on gender, inequality, culture, and social relations. It is recommended that students complete one of SOCI 100, SOCI 101, or SOCI 102 before taking this course. Restricted to students with second-year standing or above.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 495",
+      "title": "Advanced Studies in Sociology",
+      "credits": "3-6",
+      "description": "An intensive examination of selected topics in Sociology. Consult the department for this year's offerings. It is recommended that students complete one of SOCI 100, SOCI 101, or SOCI 102 before taking this course. Restricted to students with second-year standing or above.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 500",
+      "title": "Foundations of Sociological Thought",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 501",
+      "title": "Contemporary Sociological Theory",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 502",
+      "title": "Research Design and Techniques (Quantitative)",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 503",
+      "title": "Research Design and Techniques (Qualitative)",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 504",
+      "title": "Methodology of Social Inquiry",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 505",
+      "title": "Tutorial in Sociological Theory",
+      "credits": "3-6",
+      "description": "Prerequisite: One of SOCI 500, SOCI 501. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "One of SOCI 500, SOCI 501",
+        "tree": {
+          "one_of": [
+            "SOCI 500",
+            "SOCI 501"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 506",
+      "title": "Tutorial in Research Methods",
+      "credits": "3-6",
+      "description": "Prerequisite: One of SOCI 502, SOCI 503. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "One of SOCI 502, SOCI 503",
+        "tree": {
+          "one_of": [
+            "SOCI 502",
+            "SOCI 503"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 507",
+      "title": "Advanced Theory Seminar",
+      "credits": "3-6",
+      "description": "Prerequisite: One of SOCI 500, SOCI 501. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "One of SOCI 500, SOCI 501",
+        "tree": {
+          "one_of": [
+            "SOCI 500",
+            "SOCI 501"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 508",
+      "title": "Advanced Methods Seminar",
+      "credits": "3-6",
+      "description": "Prerequisite: One of SOCI 502, SOCI 503. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "One of SOCI 502, SOCI 503",
+        "tree": {
+          "one_of": [
+            "SOCI 502",
+            "SOCI 503"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 509",
+      "title": "Sociology of the Environment",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 510",
+      "title": "Population, Community and Demography",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 511",
+      "title": "Cross-National Comparisons in the Social Sciences",
+      "credits": "3",
+      "description": "Credit will be granted for only one of SOCI 511 or IAR 511. Credit will be granted for only one of SOCI 511 or IAR 511. Equivalency: IAR 511. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "IAR 511",
+      "recommended": null
+    },
+    {
+      "code": "SOCI 512",
+      "title": "Gender and Feminist Issues",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 513",
+      "title": "Theories About the Family",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 514",
+      "title": "Analyzing Quantitative Data in Sociology",
+      "credits": "3",
+      "description": "Prerequisite: SOCI 502 is a prerequisite for Sociology graduate students. A background in material such as that covered in SOCI 502 is highly recommended for all others. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "SOCI 502 is a prerequisite for Sociology graduate students",
+        "tree": {
+          "other": "SOCI 502 is a prerequisite for Sociology graduate students"
+        },
+        "source": "llm",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": "A background in material such as that covered in SOCI 502 is highly recommended for all others"
+    },
+    {
+      "code": "SOCI 515",
+      "title": "Qualitative Data Analysis in Sociology",
+      "credits": "3",
+      "description": "Prerequisite: SOCI 503. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "SOCI 503",
+        "tree": "SOCI 503",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 520",
+      "title": "Law and Crime",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 530",
+      "title": "Social Change and Development",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 540",
+      "title": "Social Inequality",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 549",
+      "title": "Master's Thesis",
+      "credits": "6-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 550",
+      "title": "Social Interaction",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 560",
+      "title": "Culture and Knowledge",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 562",
+      "title": "Mass Media and Communications",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 570",
+      "title": "Seminar in Work, Industry and Technology",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 580",
+      "title": "Canadian Society",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 584",
+      "title": "Health, Illness and Society",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 590",
+      "title": "Seminar in an Ethnographic Area",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 596",
+      "title": "Political Sociology and Social Movements",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 598",
+      "title": "Directed Studies",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 599",
+      "title": "Special Topics Seminar",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "SOCI 649",
+      "title": "Doctoral Dissertation",
+      "credits": "0",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    }
+  ]
+}

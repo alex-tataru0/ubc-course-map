@@ -5,12 +5,13 @@ import pytest
 from google.genai import errors
 
 from build_prereqs import (
-    FACULTIES, RETRY_WAITS, SECONDS_BETWEEN_CALLS, SUBJECTS, ask_slowly, build_courses, html_path,
+    FACULTIES, RETRY_WAITS, TEXT_FIXES, SECONDS_BETWEEN_CALLS, SUBJECTS, ask_slowly, build_courses, html_path,
     load_page, pick_subjects, print_summary, source_url, write_courses,
 )
 from llm import MODELS, load_cache
 from parse_courses import parse_course_list
 from prereq_tree import normalize_codes
+from requisites import extract_requisites
 
 
 def no_save(cache):
@@ -60,6 +61,18 @@ def saved_courses(subject):
     ("MECH", 131, 78, 75, 3),
     ("MINE", 85, 41, 41, 0),
     ("MTRL", 61, 5, 5, 0),
+    ("ANTH", 113, 4, 4, 0),
+    ("COGS", 5, 5, 4, 1),
+    ("ECON", 140, 112, 110, 2),
+    ("ENGL", 152, 0, 0, 0),
+    ("GEOG", 103, 11, 11, 0),
+    ("HIST", 216, 0, 0, 0),
+    ("LING", 67, 29, 29, 0),
+    ("PHIL", 113, 11, 9, 2),
+    ("POLI", 145, 72, 72, 0),
+    ("PSYC", 145, 42, 40, 2),
+    ("SOCI", 104, 22, 21, 1),
+    ("WRDS", 15, 12, 12, 0),
 ])
 def test_only_the_hard_prereqs_go_to_gemini(subject, n_courses, n_requisites, n_rules, n_asked):
     asked = []
@@ -215,6 +228,7 @@ def test_pick_subjects():
     assert pick_subjects([]) == SUBJECTS
     assert pick_subjects(["math", "STAT"]) == ["MATH", "STAT"]
     assert pick_subjects(["engineering"]) == FACULTIES["engineering"]
+    assert pick_subjects(["arts"]) == FACULTIES["arts"]
     assert pick_subjects(["Science", "ELEC"]) == FACULTIES["science"] + ["ELEC"]
     with pytest.raises(SystemExit):
         pick_subjects(["MAHT"])
@@ -303,3 +317,26 @@ def test_other_errors_stop_right_away():
     with pytest.raises(errors.ClientError):
         ask_slowly("CPSC 110", ask, lambda seconds: None)
     assert ask.models == [MODELS[0]]
+
+
+def test_calendar_typos_are_fixed_before_reading():
+    records = {
+        r["code"]: r
+        for subject in ["ECON", "PSYC"]
+        for r in build_courses(saved_courses(subject), load_cache(), fake_ask, no_save)
+    }
+    # ECON 541's repeated ending is gone, so the rules read it like ECON 514.
+    assert records["ECON 541"]["prereq"]["source"] == "rules"
+    assert records["ECON 541"]["prereq"]["tree"] == records["ECON 514"]["prereq"]["tree"]
+    # PSYC 348's "PSYO_ 271" becomes the Okanagan code PSYO_O 271.
+    assert records["PSYC 348"]["prereq"]["text"] == (
+        "All of PSYC 217 or PSYO_O 270, PSYC 218 or PSYO_O 271"
+    )
+    # Every fix still matches the calendar text, so none is left over after a new download.
+    used = {
+        (c["code"], extract_requisites(c["description"])[key])
+        for subject in ["ECON", "PSYC"] for c in saved_courses(subject)
+        for key in ("prereq", "coreq")
+    }
+    assert set(TEXT_FIXES) <= used
+

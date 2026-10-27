@@ -19,6 +19,7 @@ from requisites import extract_requisites
 # or faculties:
 #   python pipeline/build_prereqs.py MATH STAT
 #   python pipeline/build_prereqs.py engineering
+#   python pipeline/build_prereqs.py arts
 # Each calendar page is downloaded once and saved in data/raw/. Delete that file to download
 # it again (e.g. when a new calendar year comes out).
 
@@ -34,6 +35,11 @@ FACULTIES = {
     "engineering": [
         "APSC", "BMEG", "CHBE", "CIVL", "CPEN", "ELEC", "ENPH",
         "ENVE", "IGEN", "MANU", "MECH", "MINE", "MTRL",
+    ],
+    # The first wave of Arts subjects.
+    "arts": [
+        "ANTH", "COGS", "ECON", "ENGL", "GEOG", "HIST",
+        "LING", "PHIL", "POLI", "PSYC", "SOCI", "WRDS",
     ],
 }
 SUBJECTS = [subject for subjects in FACULTIES.values() for subject in subjects]
@@ -131,6 +137,23 @@ def ask_slowly(text: str, ask=ask_gemini, sleep=time.sleep, models: list[str] | 
             print(f"  {model} is {reason}. Using {models[0]} for the rest of this run.")
 
 
+# Typos in the calendar's prereq texts, fixed before they're read:
+# (course, prereq or coreq as the calendar writes it) → the fixed text.
+TEXT_FIXES = {
+    # The calendar repeats the end of option (b) after a full stop: "… ECON_V 627. of ECON_V
+    # 600, ECON_V 601, ECON_V 602, ECON_V 603, ECON_V 626, ECON_V 627". ECON 514, 515, … have
+    # the same prereq without the repeat.
+    ("ECON 541", "Either (a) all of ECON_V 500, ECON_V 502, ECON_V 526, ECON_V 527 or (b) all "
+                 "of ECON_V 600, ECON_V 601, ECON_V 602, ECON_V 603, ECON_V 626, ECON_V 627. of "
+                 "ECON_V 600, ECON_V 601, ECON_V 602, ECON_V 603, ECON_V 626, ECON_V 627"):
+        "Either (a) all of ECON_V 500, ECON_V 502, ECON_V 526, ECON_V 527 or (b) all of "
+        "ECON_V 600, ECON_V 601, ECON_V 602, ECON_V 603, ECON_V 626, ECON_V 627",
+    # "PSYO_ 271" is missing the O of the Okanagan code PSYO_O 271 (PSYO_O 270 is next to it).
+    ("PSYC 348", "All of PSYC_V 217 or PSYO_O 270, PSYC_V 218 or PSYO_ 271"):
+        "All of PSYC_V 217 or PSYO_O 270, PSYC_V 218 or PSYO_O 271",
+}
+
+
 def requisite(text, cache: dict, ask):
     # One prereq or coreq as it goes in the output file, or None if the course has none.
     if text is None:
@@ -152,6 +175,8 @@ def build_courses(courses: list[dict], cache: dict, ask=ask_slowly, save=save_ca
     records = []
     for course in courses:
         reqs = extract_requisites(course["description"])
+        for key in ("prereq", "coreq"):
+            reqs[key] = TEXT_FIXES.get((course["code"], reqs[key]), reqs[key])
         equivalency = reqs["equivalency"]
         recommended = reqs["recommended"]
         records.append({

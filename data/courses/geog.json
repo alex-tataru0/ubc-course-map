@@ -1,0 +1,1127 @@
+{
+  "subject": "GEOG",
+  "source": "https://vancouver.calendar.ubc.ca/course-descriptions/subject/geogv",
+  "courses": [
+    {
+      "code": "GEOG 121",
+      "title": "Geography, Environment and Globalization",
+      "credits": "3",
+      "description": "Human geography of the modern world with particular attention to human-environment relationships, urbanization, and regional growth; trade and communications; environment and war; environmental governance and sustainability.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 122",
+      "title": "Geography, Modernity and Globalization",
+      "credits": "3",
+      "description": "The human geography of the modern world since 1945: global interdependence in economic geography, geopolitics, and cultural geography; consequences of modernization, including demography, urbanization and environmental effects; regional case studies; reactions to modernization.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 202",
+      "title": "Climate Emergency",
+      "credits": "3",
+      "description": "Science, impacts, and parallel crises of the climate emergency; decarbonization challenge and measuring progress towards emission targets; strategies and tools for climate action at local, national, and global levels. Credit will only be granted for one of GEOG 202 or ENST 202. Recommended: Second-year standing. Equivalency: ENST 202",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "ENST 202",
+      "recommended": null
+    },
+    {
+      "code": "GEOG 210",
+      "title": "Vancouver and Its Region",
+      "credits": "3",
+      "description": "An integrated approach to the physical and human geography of the Lower Mainland of British Columbia. Field trips.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 211",
+      "title": "The State of the Earth",
+      "credits": "3",
+      "description": "The demographic, economic, ecological, and technological factors that underlie current environmental challenges, considering their effects to date and their possible impact in the future. Credit will only be granted for one of GEOG 211 or ENST 211. Recommended: Second-year standing. Equivalency: ENST 211",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "ENST 211",
+      "recommended": null
+    },
+    {
+      "code": "GEOG 220",
+      "title": "Geopolitics",
+      "credits": "3",
+      "description": "Introduction to the political geographic perspectives on today's interdependent world through three themes: borders, regions, and flows.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 250",
+      "title": "Cities",
+      "credits": "3",
+      "description": "An interdisciplinary introduction to the city in the context of contemporary globalization. Analysis of urban patterns and processes from the theoretical perspectives of various disciplines and methodologies. Credit will be granted for only one of GEOG 250 or URST 200. Equivalency: URST 200.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "URST 200",
+      "recommended": null
+    },
+    {
+      "code": "GEOG 257",
+      "title": "People, Places & Landscapes",
+      "credits": "3",
+      "description": "Relationships among individuals, social groups, and place, with a focus on everyday spaces. Examines how social identities are intertwined with the places we live.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 281",
+      "title": "Geography of the Pacific Rim",
+      "credits": "3",
+      "description": "An introduction to changing geographies (social, economic, and political) of the Pacific Rim, with special emphasis on the relationships between Canada and Japan.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 290",
+      "title": "Introduction to the Geography of Canada",
+      "credits": "3",
+      "description": "Selected topics in human geography focusing on the regional distribution of natural resources, population, urban systems, and economic activities.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 302",
+      "title": "Climate Justice",
+      "credits": "3",
+      "description": "Concepts and debates in the interdisciplinary field and practice of climate justice; the role of systemic processes and patterns underlying climate change and climate injustices. Credit will only be granted for one of GEOG 302 or ENST 302. Recommended: Second-year standing. Equivalency: ENST 302",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "ENST 302",
+      "recommended": null
+    },
+    {
+      "code": "GEOG 310",
+      "title": "Environment and Sustainability",
+      "credits": "3",
+      "description": "Concepts of environment, resources and sustainability; the roles of physical and human geography in understanding the interaction of humans and the environment; introduction to management of environment-resource systems. Credit will be granted for only one of GEOG 310 or ENST 310. Equivalency: ENST 310",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "ENST 310",
+      "recommended": null
+    },
+    {
+      "code": "GEOG 311",
+      "title": "Urban Environments",
+      "credits": "3",
+      "description": "The impact of urban development on the natural environment and vice versa. Study of the ecology and metabolism of cities and green urban design, using global and local case studies. Credit will be granted for only one of GEOG 311 or ENST 311. Equivalency: ENST 311",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "ENST 311",
+      "recommended": null
+    },
+    {
+      "code": "GEOG 312",
+      "title": "Climate Change: Science and Society",
+      "credits": "3",
+      "description": "Climates over the geological, historical and instrument periods. Theories of climatic change. Monitoring and modelling the climate system. Impacts of change on environmental and socio-economic systems. Credit will be granted for only one of GEOG 312 or ENST 312. Recommended pre-requisites: one of GEOS 102, GEOB 102, GEOS 200, GEOB 200, GEOS 204, GEOB 204, ATSC 201, EOSC 112. Third-year standing. Equivalency: ENST 312",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "ENST 312",
+      "recommended": "one of GEOS 102, GEOB 102, GEOS 200, GEOB 200, GEOS 204, GEOB 204, ATSC 201, EOSC 112. Third-year standing"
+    },
+    {
+      "code": "GEOG 313",
+      "title": "Environmental Justice and Social Change",
+      "credits": "3",
+      "description": "Economic, social, political and cultural structures and institutions that shape contemporary socioecological challenges. Credit will be granted for only one of GEOG 313 or ENST 313. Recommended pre-requisite: GEOG 121. Equivalency: ENST 313 This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "ENST 313",
+      "recommended": "GEOG 121"
+    },
+    {
+      "code": "GEOG 314",
+      "title": "Analysing Environmental Problems",
+      "credits": "3",
+      "description": "Concepts and techniques employed in environmental research; challenges in the areas of climate change, water use, knowledge translation and natural hazards. Credit will be granted for only one of GEOG 314 or ENST 314. Restricted to students with at least third-year standing. Prerequisite: One of GEOG 211, GEOB 102, GEOB 103, GEOS 102, GEOS 103, EOSC 110 or EOSC 112. Equivalency: ENST 314. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "One of GEOG 211, GEOB 102, GEOB 103, GEOS 102, GEOS 103, EOSC 110 or EOSC 112",
+        "tree": {
+          "one_of": [
+            "GEOG 211",
+            "GEOB 102",
+            "GEOB 103",
+            "GEOS 102",
+            "GEOS 103",
+            "EOSC 110",
+            "EOSC 112"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": "ENST 314",
+      "recommended": null
+    },
+    {
+      "code": "GEOG 315",
+      "title": "Human and Environmental Geography Field Course",
+      "credits": "3",
+      "description": "Engage in primary field-based research in British Columbia on important issues concerning intercultural understanding, engagement with local communities and sustainability. Focus will shift on a bi-annual basis in accordance with location and available community partners. Special fees and liability insurance are required. Third year standing is recommended. Prerequisite: Permission of the instructor.",
+      "prereq": {
+        "text": "Permission of the instructor",
+        "tree": {
+          "other": "Permission of the instructor"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 316",
+      "title": "Geography of Natural Hazards",
+      "credits": "3",
+      "description": "The role of geophysical events, human ecology, environmental perception, world social and political order in explaining the risk of natural disasters. Assessment of acceptable risk, disaster relief and reconstruction and contrasts between developed and developing nations. Credit will only be granted for one of GEOG 316 or ENST 316. Recommended pre-requisites: one of GEOB 102, GEOS 102 and one of GEOB 103, GEOS 103. Equivalency: ENST 316",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "ENST 316",
+      "recommended": "one of GEOB 102, GEOS 102 and one of GEOB 103, GEOS 103"
+    },
+    {
+      "code": "GEOG 318",
+      "title": "Sustainability in a Changing Environment",
+      "credits": "3",
+      "description": "Biophysical and human causes of short- and long-term environmental change at various spatial scales, including measurement, interpretation, and policy. Credit will only be granted for one of GEOG 318 or ENST 318. Recommended pre-requisite: GEOG 310. Equivalency: ENST 318",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "ENST 318",
+      "recommended": "GEOG 310"
+    },
+    {
+      "code": "GEOG 319",
+      "title": "Environmental Impact Assessment",
+      "credits": "3",
+      "description": "The principles, implementation, and role of environmental impact assessment in environmental management, in Canada and internationally. Credit will be granted for only one of GEOG 319 or ENST 319. Equivalency: ENST 319",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "ENST 319",
+      "recommended": null
+    },
+    {
+      "code": "GEOG 321",
+      "title": "Historical Geography of Urbanization: Cities, Space, and Power",
+      "credits": "3",
+      "description": "From the origins of urbanism to the modern era.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 327",
+      "title": "Creating Canada",
+      "credits": "3",
+      "description": "Canada from the beginning of European contact to the mid-19th century, stressing the changing geographical patterns of settlement, economy, and culture.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 328",
+      "title": "Constructing Canada",
+      "credits": "3",
+      "description": "The construction of Canadian political space after Confederation, aboriginal-newcomer relations, regional development and conflict, industrialization, urbanization, and war.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 329",
+      "title": "Political Geography",
+      "credits": "3",
+      "description": "Review of political geography and geopolitics; relations among space, power and politics; cases from current global affairs.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 342",
+      "title": "Post- and Anti-colonial Geographies",
+      "credits": "3",
+      "description": "An examination of some key postcolonia and anticolonial theories to engage with questions of geographical difference, uneven development, and the politics of knowledge production at the global scale.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 345",
+      "title": "Theory and Practice in Human Geography",
+      "credits": "3",
+      "description": "A consideration of major intellectual issues and debates in the development of contemporary human geography, in relation to developments in other fields and changes in politics, culture and society.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 346",
+      "title": "Topics in Geography",
+      "credits": "3-6",
+      "description": "Topics will vary from year to year. Consult the departmental website or contact the Geography undergraduate advisor for details.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 350",
+      "title": "Urban Worlds",
+      "credits": "3",
+      "description": "City systems and theories of urban location; internal spatial structure of the city; commercial and industrial location; social areas; neighbourhood and land use change; urban trends and public policy.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 351",
+      "title": "Urban Environmental Politics",
+      "credits": "3",
+      "description": "Effects of urbanization and global environmental change on the geographies of cities across the world. Specific focus on urban environmental justice and inequality. Credit will be granted for only one of GEOG 351 or ENST 351. Equivalency: ENST 351",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "ENST 351",
+      "recommended": null
+    },
+    {
+      "code": "GEOG 352",
+      "title": "Urbanization in the Global South",
+      "credits": "3",
+      "description": "The role of cities in development and global capital circulation, and urban politics with emphasis on regions in Latin America, Africa, and Asia. Credit will be granted for only one of GEOG 352 or URST 352. Equivalency: URST 352",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "URST 352",
+      "recommended": null
+    },
+    {
+      "code": "GEOG 353",
+      "title": "Geographies of Migration and Settlement",
+      "credits": "3",
+      "description": "International regimes regulating migration, changes in global demographics, immigration policies of nation states, international migration patterns, settlement policies and outcomes.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 355",
+      "title": "Geographies of Urban Indigeneity",
+      "credits": "3",
+      "description": "Examines the geographies of urban Indigenous communities in settler colonial contexts, with a focus on urban Indigenous communities within Canadian cities.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 357",
+      "title": "Society, Culture & Space",
+      "credits": "3",
+      "description": "The development of social and behavioural geography, focusing on how places, landscapes, and environments both reflect and shape social life. Third year standing is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 361",
+      "title": "Critical Geographies of the Economy",
+      "credits": "3",
+      "description": "History and methods of economic geography. Location of resource industries, manufacturing, and service activities with emphasis on British Columbia in its North American and world setting. Recommended for students with no previous exposure to geographies of the economy, before taking other courses in the 36x and 46x series. Recommended pre-requisite: GEOG 122.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": "GEOG 122"
+    },
+    {
+      "code": "GEOG 362",
+      "title": "Geography of Economic Development",
+      "credits": "3",
+      "description": "Geographical approaches to economic development; models of economic development and spatial change; influences on spatial economic change; case studies from the developed, third, and socialist worlds. Recommended pre-requisites: either (a) GEOG 122 or (b) GEOG 260.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": "either (a) GEOG 122 or (b) GEOG 260"
+    },
+    {
+      "code": "GEOG 364",
+      "title": "Globalization, Cities, and Regions",
+      "credits": "3",
+      "description": "Forms of economic development; changing location of economic activities and functions; implications for government and politics; local strategies for growth and equity. Recommended pre-requisites: one of GEOG 121, GEOG 122.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": "one of GEOG 121, GEOG 122"
+    },
+    {
+      "code": "GEOG 371",
+      "title": "Research Strategies in Geography",
+      "credits": "3",
+      "description": "Formulating a research problem and selecting an appropriate research strategy. Research strategies range from social scientific survey methods to ethnography. Priority enrolment for honours and major students in Geography. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 374",
+      "title": "Statistics in Geography",
+      "credits": "3",
+      "description": "Introduction to statistical techniques and their application to geographical problems. Priority enrolment for honours and major students in Geography. Consult the Faculty of Science Credit Exclusion Lists: https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-science/bachelor-science/credit-exclusion-lists .",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 379",
+      "title": "Field Course in Human Geography",
+      "credits": "3-6",
+      "description": "As announced by the department a year in advance.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 380",
+      "title": "Geography of Asia",
+      "credits": "3",
+      "description": "A comparative regional analysis stressing the historical development and changing cultural, economic, and political patterns of the area. Special reference to India, Indonesia, China, and Japan.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 390",
+      "title": "Geography of Selected Regions",
+      "credits": "3-6",
+      "description": "A geographical analysis of selected regions not regularly included in the Department's offerings in regional geography (e.g., tropical Africa, Oceania). Students should consult the Department regarding regions to be covered.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 391",
+      "title": "Cities, Places, and Borders in Modern Europe",
+      "credits": "3",
+      "description": "Present-day human geography of the cities and regions of Europe. Restricted to students with at least second-year standing.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 395",
+      "title": "Culture, Nature, and Coloniality in Latin America",
+      "credits": "3",
+      "description": "Socio-ecologies in 1491; Spanish colonialism and biological imperialism; contemporary coloniality and neoliberalism; and social movements.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 396",
+      "title": "Geography of Africa",
+      "credits": "3",
+      "description": "A comparative regional analysis of Africa with a focus on contemporary environmental and development issues. Credit will be allowed for only one of GEOG 396 or GEOG 496. Equivalency: GEOG 496. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "GEOG 496",
+      "recommended": null
+    },
+    {
+      "code": "GEOG 397",
+      "title": "The Arctic",
+      "credits": "3",
+      "description": "Physical and biological characteristics of the circumpolar Arctic, emphasizing terrestrial environments and the impacts on and by humans, including: glacial history; climatology; biogeography/ecology of arctic tundra; human-environment interactions, settlement and exploration; and current environmental, social and economic problems. Restricted to students with second-year standing or higher. Credit will only be granted for one of GEOG 397 or GEOG 497.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 402",
+      "title": "Climate Studies and Action Capstone",
+      "credits": "3",
+      "description": "Topics will vary from year to year. Consult the departmental website or contact the instructor for details. Restricted to Certificate of Climate Studies and Action students. Credit will only be granted for one of GEOG 402 or ENVR 402. Prerequisite: ENVR 401. Equivalency: ENVR 402 This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "ENVR 401",
+        "tree": "ENVR 401",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": "ENVR 402",
+      "recommended": null
+    },
+    {
+      "code": "GEOG 410",
+      "title": "Environment and Society",
+      "credits": "3",
+      "description": "Geographical analysis of society-environment relations. Relates resource management to environmental politics, political economy, and sustainable development. Perspectives drawn from political ecology and political economy, environmental history and environmental philosophy. It is recommended students complete GEOG 310 before enrolling in this course. Registration is restricted to students enrolled in any program of study offered by the Department of Geography or permission of instructor. Credit will only be granted for one of GEOG 410 or ENST 410. Equivalency: ENST 410. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "ENST 410",
+      "recommended": null
+    },
+    {
+      "code": "GEOG 411",
+      "title": "Dynamics of Agriculture and the Global Environment",
+      "credits": "3",
+      "description": "Contemporary geographies of global agriculture and food production systems in relation to global environmental change and crisis. Restricted to students with 3rd year standing or higher (or permission of instructor).",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 412",
+      "title": "Water Management: Theory, Policy, and Practice.",
+      "credits": "3",
+      "description": "Interdisciplinary analysis of critical water issues, in Canada and internationally. Focus on social science perspectives. Emphasis on presentation, research, and essay-writing skills. Credit will only be granted for one of GEOG 412 or ENST 412. Prerequisite: GEOG 310. Equivalency: ENST 412. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "GEOG 310",
+        "tree": "GEOG 310",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": "ENST 412",
+      "recommended": null
+    },
+    {
+      "code": "GEOG 419",
+      "title": "Research in Environmental Geography",
+      "credits": "3",
+      "description": "Details available from Geography Undergraduate Advisor. Not necessarily offered each year. Registration is restricted to Major or Honours in Geography with at least 75 credits, or permission of instructor. Recommended: GEOG 313 and 314. Credit will only be granted for one of GEOG 419 or ENST 419. Equivalency: ENST 419",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "ENST 419",
+      "recommended": null
+    },
+    {
+      "code": "GEOG 423",
+      "title": "Development of Environmental Thought",
+      "credits": "3",
+      "description": "An examination of how attitudes toward human nature and non-human nature have changed from Mesolithic times to the present in Western society. Credit will only be granted for one of GEOG 423 or ENST 423. Equivalency: ENST 423.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "ENST 423",
+      "recommended": null
+    },
+    {
+      "code": "GEOG 424",
+      "title": "Feminist Geographies",
+      "credits": "3",
+      "description": "An introductory survey of contemporary feminist approaches to human geography.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 426",
+      "title": "Historical Geography of British Columbia, I",
+      "credits": "3",
+      "description": "Colonialism, resistance, and land use in early British Columbia. Prerequisite: GEOG 327 and GEOG 328 are recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": "GEOG 327 and GEOG 328 are recommended"
+    },
+    {
+      "code": "GEOG 429",
+      "title": "Research in Historical Geography",
+      "credits": "3",
+      "description": "Details available from Geography Undergraduate Advisor. Not necessarily offered each year. Recommended: Major or Honours in Geography with at least 75 credits.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 432",
+      "title": "Radical Traditions of Decolonization and Liberation",
+      "credits": "3",
+      "description": "Decolonial theory and practice through an examination of critical Indigenous and critical race scholarship and activism. Prerequisite: Restricted to students with 3rd year standing or higher. GEOG 121, or equivalent, is strongly recommended for students with 3rd year standing.",
+      "prereq": {
+        "text": "Restricted to students with 3rd year standing or higher",
+        "tree": {
+          "other": "Restricted to students with 3rd year standing or higher"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": "GEOG 121, or equivalent, is strongly recommended for students with 3rd year standing"
+    },
+    {
+      "code": "GEOG 442",
+      "title": "Student Directed Seminar in Human Geography",
+      "credits": "3",
+      "description": "Self-directed, collaborative studies in human geography, in a group-learning environment, initiated and coordinated by senior undergraduate students with the supervision of a faculty advisor. Course structure, enrolment, and delivery methods will comply with the Handbook for Student Directed Seminars. Credit will be granted for only one of GEOG 442 or GEOG 443. Prerequisite: Third-year standing in human geography. Equivalency: GEOG 443",
+      "prereq": {
+        "text": "Third-year standing in human geography",
+        "tree": {
+          "other": "Third-year standing in human geography"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": "GEOG 443",
+      "recommended": null
+    },
+    {
+      "code": "GEOG 446",
+      "title": "Topics in Geography",
+      "credits": "3",
+      "description": "See the departmental undergraduate advisor for details.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 447",
+      "title": "Directed Studies: Off Campus Research",
+      "credits": "3",
+      "description": "Based on project work outside the university, on a topic to be agreed upon by the supervising faculty member and the student. Prerequisite: Open to upper-level students enrolled in the Geography Majors or Honours programs. Permission of the Undergraduate Advisor and supervising faculty member is required.",
+      "prereq": {
+        "text": "Open to upper-level students enrolled in the Geography Majors or Honours programs. Permission of the Undergraduate Advisor and supervising faculty member is required",
+        "tree": {
+          "other": "Open to upper-level students enrolled in the Geography Majors or Honours programs. Permission of the Undergraduate Advisor and supervising faculty member is required"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 448",
+      "title": "Directed Studies in Geography",
+      "credits": "3",
+      "description": "Investigation of a topic to be agreed upon by the supervising faculty member and the student. Prerequisite: Open to upper-level students enrolled in the Geography Majors or Honours programs. Permission of the Undergraduate Advisor and supervising faculty member is required.",
+      "prereq": {
+        "text": "Open to upper-level students enrolled in the Geography Majors or Honours programs. Permission of the Undergraduate Advisor and supervising faculty member is required",
+        "tree": {
+          "other": "Open to upper-level students enrolled in the Geography Majors or Honours programs. Permission of the Undergraduate Advisor and supervising faculty member is required"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 450",
+      "title": "Urban Research",
+      "credits": "3",
+      "description": "Historical, legal, and quantitative analysis of urban research. Emphasis on spatial, racial, and political dynamics of urban inequality. Credit will be granted for only one of GEOG 450 or URST 450. Prerequisite: Fourth-year standing. Equivalency: URST 450",
+      "prereq": {
+        "text": "Fourth-year standing",
+        "tree": {
+          "other": "Fourth-year standing"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": "URST 450",
+      "recommended": null
+    },
+    {
+      "code": "GEOG 451",
+      "title": "Urban Studies Capstone I",
+      "credits": "3",
+      "description": "Formulation of key elements of urban studies theory, concepts, and methods to a community-engaged urban challenge. Credit will be granted for only one of GEOG 451 or URST 451. Prerequisite: One of GEOG 250, URST 200 and all of PLAN 211, PLAN 231, GEOG 371. Equivalency: URST 451",
+      "prereq": {
+        "text": "One of GEOG 250, URST 200 and all of PLAN 211, PLAN 231, GEOG 371",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "GEOG 250",
+                "URST 200"
+              ]
+            },
+            "PLAN 211",
+            "PLAN 231",
+            "GEOG 371"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": "URST 451",
+      "recommended": null
+    },
+    {
+      "code": "GEOG 453",
+      "title": "Political Geographic Analysis",
+      "credits": "3",
+      "description": "Political organization of space; territorial and spatial patterns of power and identity; contemporary geopolitical struggles. Prerequisite: At least third-year standing.",
+      "prereq": {
+        "text": "At least third-year standing",
+        "tree": {
+          "other": "At least third-year standing"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 456",
+      "title": "Film and the City",
+      "credits": "3",
+      "description": "The complex interrelations between film and the city; dominant urban theories, film technologies and viewing practices and the intersections between them. Credit will be granted for only one of GEOG 456, FINA 445, or ARTH 445.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 457",
+      "title": "Social and Behavioural Geography",
+      "credits": "3",
+      "description": "Theories of social change in the global city; labour markets; poverty and inequality; social polarization; housing markets; gentrification and housing affordability; immigration and segregation; diversity and multiculturalism; transnationalism; the entrepreneurial state; the convivial city. Recommended pre-requisites: One of GEOG 350, GEOG 357. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": "One of GEOG 350, GEOG 357"
+    },
+    {
+      "code": "GEOG 461",
+      "title": "Urban Political Economy",
+      "credits": "3",
+      "description": "Principal theories and debates in urban political economy and political-economic geography, with particular emphasis on global transformations.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 462",
+      "title": "Political Economy of Capitalism and Racism",
+      "credits": "3",
+      "description": "Examines the geographical and historical relationship between capitalism and racism through the perspective of the Black experience and the global African Diaspora, from the era of New World slavery to the present. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 481",
+      "title": "Geography of Japan",
+      "credits": "3",
+      "description": "A critical analysis of significant human adaptations to changing ecological conditions in the Japanese archipelago.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 484",
+      "title": "Geography of Southeast Asia",
+      "credits": "3",
+      "description": "A critical analysis of significant features of political, economic, and cultural development in the region from pre-colonial times to the present.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 485",
+      "title": "Geography of China",
+      "credits": "3",
+      "description": "An introduction to the changing cultural, social and economic geography of China.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 491",
+      "title": "Global Ocean: Geography, Sustainability, and Governance",
+      "credits": "3",
+      "description": "Maritime issues and ocean governance from a geographical perspective. Uses political geography and political ecology approaches to examine conflicts and propose initiatives to promote ocean sustainability and social inclusion.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 492",
+      "title": "Oceanic Geographies: Movement, Materiality, and Mobility",
+      "credits": "3",
+      "description": "Moves beyond continental landmasses to consider global oceanic connections, mobility and materiality, and seascape epistemologies or ways of knowing through a cultural, social and historical geographies perspective. Restricted to students with third-year standing or above.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 493",
+      "title": "Contemporary Europe: Identity and Geopolitics",
+      "credits": "3",
+      "description": "Political, economic, and social geographies of post Cold War Europe with a special emphasis on east-central Europe: societal transformations in the formerly socialist states; European Union and NATO enlargement; the external relations of these two organizations. Restricted to students with at least second-year standing.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 495",
+      "title": "Geographies of Social Movements in the Americas",
+      "credits": "3",
+      "description": "The politics of North-South solidarity in theory and practice through community service learning models. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 496",
+      "title": "Geography of Africa",
+      "credits": "3",
+      "description": "A comparative regional analysis of Africa with a focus on contemporary environmental and development issues. Credit will be allowed for only one of GEOG 396 or GEOG 496. Equivalency: GEOG 396.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "GEOG 396",
+      "recommended": null
+    },
+    {
+      "code": "GEOG 498",
+      "title": "Geographies of the Middle East",
+      "credits": "3",
+      "description": "Critical analysis of economic, social, and political development and processes defining the modern Middle East region.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 514",
+      "title": "Topics in Environmental Geography",
+      "credits": "1-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 516",
+      "title": "Perspectives on the Anthropocene",
+      "credits": "3",
+      "description": "Transdisciplinary (holistic and problem-oriented) approach to the Anthropocene as an integrative lens for studying contemporary socio-ecological crises. Critical and embodied understandings of human-environment relations oriented to collaborative and public scholarship that addresses current crises. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 517",
+      "title": "Environmental Sustainability",
+      "credits": "3",
+      "description": "Environmental sustainability is examined through conceptual literature and empirical examples. Emphasis on resources and livelihoods in the South and North. Case studies are used to discuss sustainable development, and the distribution of costs and benefits associated with resources allocation, with perspectives drawn from political ecology and economy, environmental history and philosophy. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 519",
+      "title": "Environment, Development and Security",
+      "credits": "3",
+      "description": "Analysis of environment-development-security linkages in relation to livelihoods and conflicts in poor countries, with a focus on Africa. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 520",
+      "title": "Themes and Interpretive Issues in Modern Human Geography",
+      "credits": "3",
+      "description": "Themes and interpretive issues in modern human geography. Students from outside Geography require the permission of the Head of the department. Restricted to M.A. GEOG, M.Sc. GEOG, or Ph.D. GEOG. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 521",
+      "title": "Philosophy, Social Theory, and Human Geography",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 522",
+      "title": "Feminism and Geography",
+      "credits": "1-3",
+      "description": "Feminist critiques of the discipline of geography and feminist reconstructions of geography. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 523",
+      "title": "Advanced Seminar in Human Geography",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 524",
+      "title": "Cultural Geography",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 525",
+      "title": "Cultures of Nature in Contemporary Political Ecologies",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 527",
+      "title": "Remaking North America: Historical Geographies of Changing Environments",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 528",
+      "title": "Society and Environment in British Columbia",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 533",
+      "title": "Political Geography",
+      "credits": "3",
+      "description": "Investigate how politics is bound with territorial definition. Examine how the management of political issues is intertwined with the ways in which these issues are understood in geographical and territorial terms. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 535",
+      "title": "International Migration and Settlement",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 545",
+      "title": "Topics in Human Geography",
+      "credits": "1-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 547",
+      "title": "Directed Reading in Human Geography",
+      "credits": "1-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 548",
+      "title": "Major Essay",
+      "credits": "0",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 551",
+      "title": "Urban Social Geography",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 552",
+      "title": "Urban Systems in Developed Countries",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 553",
+      "title": "Urbanization in Developing Countries",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 554",
+      "title": "Historical Urban Geography",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 560",
+      "title": "Economic Geography",
+      "credits": "1-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 570",
+      "title": "Advanced Geographic Information Systems",
+      "credits": "1-3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 571",
+      "title": "Research Methods in Human Geography",
+      "credits": "3",
+      "description": "Pass/Fail. Restricted to Human Geography graduate students. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 572",
+      "title": "Spatial and Cartographic Techniques",
+      "credits": "3-6",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 575",
+      "title": "Research Strategies in Human Geography",
+      "credits": "1-3",
+      "description": "A workshop-based seminar for Master's and Ph.D. students in human geography concerned with the evaluation of alternative research strategies and the development of individual research proposals. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 599",
+      "title": "Master's Thesis",
+      "credits": "15",
+      "description": "Restricted to M.A. in Geography students. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "GEOG 699",
+      "title": "Doctoral Dissertation",
+      "credits": "0",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    }
+  ]
+}

@@ -1,0 +1,1244 @@
+{
+  "subject": "PHIL",
+  "source": "https://vancouver.calendar.ubc.ca/course-descriptions/subject/philv",
+  "courses": [
+    {
+      "code": "PHIL 100",
+      "title": "Introduction to Philosophy",
+      "credits": "6",
+      "description": "Basic problems and methods of Philosophy. Topics such as the existence of God, the nature and scope of human knowledge, the relationship between mind and body, personal identity, free will, issues and problems in moral philosophy. Credit will be granted for only one of PHIL 100 and either or both PHIL 101 or PHIL 102.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 101",
+      "title": "Introduction to Philosophy",
+      "credits": "3",
+      "description": "Basic problems and methods of philosophy. Topics such as the nature and scope of human knowledge, the existence of God, and the relationship between mind and body. Credit will be granted for only one of PHIL 100 or PHIL 101.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 102",
+      "title": "Introduction to Philosophy II",
+      "credits": "3",
+      "description": "Basic problems and methods of philosophy. Topics such as morality, personal identity, free will and determinism, and the meaning of life. Credit will be granted for only one of PHIL 100 or PHIL 102.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 104",
+      "title": "Happiness",
+      "credits": "3",
+      "description": "What makes for deep, lasting happiness, joy, and wellbeing? Contemporary and classical works of philosophy and important debates in related fields such as psychology, economics, political theory, and sociology.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 120",
+      "title": "Introduction to Critical Thinking",
+      "credits": "3",
+      "description": "Tools for dealing with both everyday and more technical arguments and concepts. Analysis and resolution of confusions, ambiguities, and fallacies. This course is restricted to students with fewer than 90 credits.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 125",
+      "title": "Introduction to Scientific Reasoning",
+      "credits": "3",
+      "description": "Historical and logical analysis of various types of scientific hypotheses and the data that support or undermine them. This course is restricted to students with fewer than 90 credits.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 211",
+      "title": "Greek Philosophy I: Socrates and Plato",
+      "credits": "3",
+      "description": "The Pre-Socratics; Socrates; Sophists; Plato. Recommended as preparation for PHIL 310. Credit will only be granted for one of PHIL 211, CLST 211 or AMNE 235. Equivalency: CLST 211, AMNE 235",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "CLST 211, AMNE 235",
+      "recommended": null
+    },
+    {
+      "code": "PHIL 212",
+      "title": "Greek Philosophy II: Aristotle and After",
+      "credits": "3",
+      "description": "Aristotle; selections from Hellenistic and Late Antique Philosophy. Recommended as preparation for PHIL 310. Credit will only be granted for one of PHIL 212, CLST 212 or AMNE 236. Equivalency: CLST 212, AMNE 236",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "CLST 212, AMNE 236",
+      "recommended": null
+    },
+    {
+      "code": "PHIL 220",
+      "title": "Symbolic Logic",
+      "credits": "3",
+      "description": "Sentential and predicate logic. Translation from natural language; truth tables and interpretations; systems of natural deduction up to relational predicate logic with identity; alternative proof methods. Some sections may use computer-based materials and tests. Credit will be granted for only one of PHIL 220 and PHIL 222. Equivalency: PHIL 222",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "PHIL 222",
+      "recommended": null
+    },
+    {
+      "code": "PHIL 222",
+      "title": "Enriched Symbolic Logic",
+      "credits": "3",
+      "description": "Naïve set theory, relations and functions, recursion and induction; Propositional and predicate logic; Symbolizations, semantics, and formal proof theory; Metatheory for propositional logic. Recommended for students interested in pursuing upper-level courses in logic or formal philosophy. Credit will be granted for only one of PHIL 220 and PHIL 222.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 230",
+      "title": "Introduction to Ethics",
+      "credits": "3",
+      "description": "Theories of obligation and value; moral reasoning; normative ethics, descriptive ethics and meta-ethics. Readings in classic and contemporary texts.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 235",
+      "title": "Contemporary Moral Issues",
+      "credits": "3",
+      "description": "Moral issues such as life and death decisions, paternalism, markets, animal welfare, technology, and global justice.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 240",
+      "title": "Introduction to Epistemology",
+      "credits": "3",
+      "description": "Topics in epistemology such as skepticism, truth, justification, a priori and a posteriori knowledge. Readings from classic and contemporary texts.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 250",
+      "title": "Minds and Machines",
+      "credits": "3",
+      "description": "Philosophical and theoretical issues that pertain to how mental phenomena fit into the material world. Examine questions such as whether a sophisticated enough computer should be deemed a conscious intelligent being. Focus on philosophical literature on consciousness, intelligence, animal minds, and the mind-body relation.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 260",
+      "title": "Science and Society in the Contemporary World",
+      "credits": "3",
+      "description": "An introduction to the historical development, conceptual foundations, and cultural significance of contemporary science. Themes will vary from year to year. Credit will be granted for only one of PHIL 260 or HIST 260. Equivalency: HIST 260.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "HIST 260",
+      "recommended": null
+    },
+    {
+      "code": "PHIL 310",
+      "title": "The Philosophy of Plato",
+      "credits": "3",
+      "description": "A study of Plato's dialogues and his influence on subsequent philosophy. PHIL/CLST 211 or AMNE 235 and PHIL/CLST 212 or AMNE 236 are recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 311",
+      "title": "The Philosophy of Aristotle",
+      "credits": "3",
+      "description": "A study of Aristotle's writings and his influence on subsequent philosophy. Recommended pre-requisite: PHIL 310.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": "PHIL 310"
+    },
+    {
+      "code": "PHIL 313",
+      "title": "Medieval Philosophy",
+      "credits": "3",
+      "description": "Survey of Western European thought from Augustine to the 14th century. Possible topics and authors include: Augustine; Abelard; the influence of Islam; the rediscovery of Aristotle; Aquinas; Scotus; Ockham. Credit will be granted for only one of PHIL 313 and RELG 328. Equivalency: RELG 328",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "RELG 328",
+      "recommended": null
+    },
+    {
+      "code": "PHIL 314",
+      "title": "Philosophy in the 17th Century",
+      "credits": "3",
+      "description": "Survey of 17th-century philosophy from Bacon to Leibniz, including the writings of Hobbes, Descartes, and Spinoza. The influence of science and religion on philosophy.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 315",
+      "title": "Philosophy in the 18th Century",
+      "credits": "3",
+      "description": "Survey of 18th-century philosophy from Locke to Kant, including the writings of Berkeley, Rousseau, and Hume. The influence of science and religion on philosophy.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 316",
+      "title": "Philosophy After 1800",
+      "credits": "3",
+      "description": "Survey of 19th and 20th century philosophy. May include Hegel, Schopenhauer, Nietzsche, Mill, Meinong, Brentano, the British Idealists, Russell, and Moore. Social and political currents in 19th century philosophical thought.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 320",
+      "title": "Logic: Metatheory and Computability",
+      "credits": "3",
+      "description": "Continuation of PHIL 220. A system of deduction for predicate logic is selected for further study. Completeness of this system and other metatheoretic results are proved. Other topics include computability, recursive function theory, incompleteness and decidability. Recommended pre-requisite: one of PHIL 220, PHIL 222. PHIL 222 is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": "one of PHIL 220, PHIL 222. PHIL 222 is recommended"
+    },
+    {
+      "code": "PHIL 321",
+      "title": "Induction, Decision and Game Theory",
+      "credits": "3",
+      "description": "Formal methods relevant to probabilistic and inductive reasoning. Decision theory, game theory, axiomatic probability theory and its interpretations, belief dynamics, simulation and modelling. Recommended pre-requisite: one of PHIL 125, PHIL 220, PHIL 222 or instructor permission.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": "one of PHIL 125, PHIL 220, PHIL 222 or instructor permission"
+    },
+    {
+      "code": "PHIL 322",
+      "title": "Modal Logic",
+      "credits": "3",
+      "description": "Logic of the modal operators It is necessary that and It is possible that. Possible-world semantics and a method of derivation for this logic. Recommended pre-requisite: one of PHIL 220, PHIL 222. PHIL 222 is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": "one of PHIL 220, PHIL 222. PHIL 222 is recommended"
+    },
+    {
+      "code": "PHIL 323",
+      "title": "Non-Classical Logics",
+      "credits": "3",
+      "description": "One or more of conditional logic, deontic logic, epistemic logic, many-valued logic, systems of belief dynamics. Recommended pre-requisite: one of PHIL 220, PHIL 222. PHIL 222 is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": "one of PHIL 220, PHIL 222. PHIL 222 is recommended"
+    },
+    {
+      "code": "PHIL 324",
+      "title": "Philosophy of Logic",
+      "credits": "3",
+      "description": "Fundamental concepts and methods of logic; the logistic method, syntax and semantics; the conditional; entailment; consequence; modal logic; problems concerning extensionality and intentionality. Frege's distinction between sense and reference; Russell's theory of definite descriptions; Tarski's definition of truth. Recommended pre-requisite: one of PHIL 220, PHIL 222. PHIL 222 is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": "one of PHIL 220, PHIL 222. PHIL 222 is recommended"
+    },
+    {
+      "code": "PHIL 326",
+      "title": "Philosophy of Language I",
+      "credits": "3",
+      "description": "Philosophical discussion of language, meaning, and communication. Prerequisite: At least one of LING 201/PHIL 220/PHIL 222, plus 6 additional credits of PHIL/LING at the 200-level or above.",
+      "prereq": {
+        "text": "At least one of LING 201/PHIL 220/PHIL 222, plus 6 additional credits of PHIL/LING at the 200-level or above",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "LING 201",
+                "PHIL 220",
+                "PHIL 222"
+              ]
+            },
+            {
+              "other": "6 additional credits of PHIL/LING at the 200-level or above"
+            }
+          ]
+        },
+        "source": "llm",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 330",
+      "title": "Social and Political Philosophy",
+      "credits": "3",
+      "description": "Theories of political and legal obligation and authority, legal reasoning, society and the state. Readings in classic and contemporary texts. Prerequisite: PHIL 230 is strongly recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": "PHIL 230 is strongly recommended"
+    },
+    {
+      "code": "PHIL 331",
+      "title": "Business and Professional Ethics",
+      "credits": "3",
+      "description": "Moral problems in contemporary business and professional practice, general moral theory, the law, and policy formation. Corporate social and environmental responsibility, employee rights, preferential hiring and affirmative action programs, conflicts of interest, advertising, whistle blowing and self-regulation.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 332",
+      "title": "Environmental Ethics",
+      "credits": "3",
+      "description": "Moral problems arising in the context of human relationships to nature and to non-human living things, considered in terms of both general moral theory and policy formation. Topics include moral standing, animal rights, obligations to future generations, pollution, hazardous materials, the depletion of natural resources and the treatment of non-human living things.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 333",
+      "title": "Bio-Medical Ethics",
+      "credits": "3",
+      "description": "Moral problems arising in the health sciences, especially in medicine but also in biology, psychology, and social work. Topics include abortion, death and euthanasia, genetic engineering, behaviour modification, compulsory treatment, experimentation with human beings and animals, and the relationship between professionals and their patients, subjects or clients. No philosophical background is required.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 334",
+      "title": "Sex, Gender and Philosophy",
+      "credits": "3",
+      "description": "Relationship between sex, gender, and philosophy. Topics may include ethics, epistemology, science, social relations, law, and personhood.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 335",
+      "title": "Power and Oppression",
+      "credits": "3",
+      "description": "Philosophical approaches to historical problems of inequality and social harm, with readings drawn from historical and contemporary sources. Topics to be studied may include slavery, colonialism, labour, and the position of women in society.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 336",
+      "title": "Big Data, Artificial Intelligence, and Ethics",
+      "credits": "3",
+      "description": "Survey of the main ethical questions and challenges from mass data collection and analysis, automated decision making, and artificial intelligence. Some prior study of philosophical ethics and data analysis is helpful but not required. Recommended for both Major in Philosophy students and other students interested in this topic. Credit will only be granted for one of PHIL 336 or CPSC 430.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 337",
+      "title": "Ethics for the Sciences",
+      "credits": "3",
+      "description": "Philosophical exploration of ethical issues in the non-medical sciences, including topics such as intellectual integrity, responsible conduct of research, protection of human subjects, ethics of animal experimentation, and the social responsibilities of scientists. Credit will be granted for only one of ISCI 433 or PHIL 337.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 338",
+      "title": "Philosophy of Law",
+      "credits": "3",
+      "description": "Concepts of law, constitution and sovereignty; law and morality; natural law theories and legal positivism; obligation, responsibility, and punishment. Prerequisite: Restricted to second- or higher-year standing.",
+      "prereq": {
+        "text": "Restricted to second- or higher-year standing",
+        "tree": {
+          "other": "Restricted to second- or higher-year standing"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 339",
+      "title": "Philosophy of Art",
+      "credits": "3",
+      "description": "Topics include art and perception, art and reality, imagination, expression, censorship, and the role of art in human life.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 340",
+      "title": "Introduction to Metaphysics",
+      "credits": "3",
+      "description": "Topics in metaphysics such as the nature of physical reality, personal identity, the mind/body problem, free will, causation and action theory. Readings from classic and contemporary texts. Prerequisite: PHIL 240 is recommended.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": "PHIL 240 is recommended"
+    },
+    {
+      "code": "PHIL 347",
+      "title": "Philosophy of Religion",
+      "credits": "3",
+      "description": "A critical and analytical examination of arguments for and arguments against the existence of God, and other related topics.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 348",
+      "title": "Introduction to Continental Philosophy",
+      "credits": "3",
+      "description": "Major themes and figures in the Continental philosophy tradition; possible topics include 19th century precursors, 20th century philosophers, and comparisons between analytic and continental philosophy.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 351",
+      "title": "Philosophical Perspectives on Cognitive Systems Research",
+      "credits": "3",
+      "description": "Philosophical exploration of questions and theories arising from research into the mind, as conducted in psychology, linguistics, and computer science. Prerequisite: 3 credits selected from any of PHIL 211, 212, 220, 222, 230, 235, 240, 250, 260, or COGS 200",
+      "prereq": {
+        "text": "3 credits selected from any of PHIL 211, PHIL 212, PHIL 220, PHIL 222, PHIL 230, PHIL 235, PHIL 240, PHIL 250, PHIL 260, or COGS 200",
+        "tree": {
+          "one_of": [
+            "PHIL 211",
+            "PHIL 212",
+            "PHIL 220",
+            "PHIL 222",
+            "PHIL 230",
+            "PHIL 235",
+            "PHIL 240",
+            "PHIL 250",
+            "PHIL 260",
+            "COGS 200"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 360",
+      "title": "Introduction to History and Philosophy of Science",
+      "credits": "3",
+      "description": "An examination of historical, conceptual and methodological conditions of scientific knowledge through detailed consideration of important episodes in the history of science. Credit will be granted for only one of PHIL 360 or HIST 393. Equivalency: HIST 393",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "HIST 393",
+      "recommended": null
+    },
+    {
+      "code": "PHIL 362",
+      "title": "History and Philosophy of Economics from Aristotle to Adam Smith",
+      "credits": "3-6",
+      "description": "The development of economic thought from Aristotle to Adam Smith, focusing primarily on the conceptual foundations of economics, particularly the problems of value, distribution, and economic growth. A maximum of 6 credits will be granted for PHIL 362 or ECON 318. Equivalency: ECON 318",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "ECON 318",
+      "recommended": null
+    },
+    {
+      "code": "PHIL 363",
+      "title": "History and Philosophy of Economics from Ricardo to Keynes",
+      "credits": "3-6",
+      "description": "The development of economic thought from David Ricardo up to the present, including such figures as Mill, Jevons, and Keynes, focusing primarily on the conceptual foundations of economics, particularly the problems of value, distribution and growth. A maximum of 6 credits will be granted for PHIL 363 or ECON 319. Equivalency: ECON 319",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "ECON 319",
+      "recommended": null
+    },
+    {
+      "code": "PHIL 364",
+      "title": "Darwin, Evolution, and Modern History",
+      "credits": "3",
+      "description": "Darwin and the science of evolution in nineteenth and early twentieth century. Credit will be granted for only one of PHIL 364 or HIST 394. Equivalency: HIST 394",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "HIST 394",
+      "recommended": null
+    },
+    {
+      "code": "PHIL 369",
+      "title": "Philosophy of Science",
+      "credits": "3-6",
+      "description": "Issues common to all sciences. Philosophical questions including the character of scientific laws, theories and revolutions, the nature of scientific confirmation, causality, explanation and prediction, and the use of logic and probability. Difficulties in the interpretation of atomic physics and questions about relationships between biology and psychology. No philosophical background is assumed.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 371",
+      "title": "Foundations of Chinese Thought",
+      "credits": "3",
+      "description": "Early (pre 221 BCE) Chinese thought (Confucianism, Daoism, Mohism, Legalism), its contemporary implications, and the role of philosophy and religion in human flourishing./ Credit will only be granted for one of PHIL 371 or ASIA 371. Equivalency: ASIA 371",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "ASIA 371",
+      "recommended": null
+    },
+    {
+      "code": "PHIL 375",
+      "title": "Philosophy and Literature",
+      "credits": "3",
+      "description": "Philosophical issues in works of literature or arising from theories of literary interpretation. Topics include issues relating to relativism, the nature of morality, free will, personal identity, the nature of the emotions.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 378",
+      "title": "Philosophical Wisdom of Early India",
+      "credits": "3",
+      "description": "Epistemological and ontological thought from the Vedic Period to the period of the rise of philosophical schools or systems. Philosophy in the Mahabharata, Gita; early Buddhist and Jain views on knowledge and reality; views on language. Credit will be granted for only one of PHIL 378 or ASIA 378. Equivalency: ASIA 378",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "ASIA 378",
+      "recommended": null
+    },
+    {
+      "code": "PHIL 385",
+      "title": "Existentialism",
+      "credits": "3",
+      "description": "Meaning, identity and alienation as explored in the works for example of Kierkegaard, Dostoyevsky, Tolstoy, Sartre, and Camus.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 388",
+      "title": "Classical South Asian Philosophy",
+      "credits": "3",
+      "description": "Debates on issues of epistemology, language and ontology among the philosophical traditions of classical South Asia. PHIL 378/ASIA 378 is recommended. Credit will be granted for only one of PHIL 388 or ASIA 388. Equivalency: ASIA 388",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "ASIA 388",
+      "recommended": null
+    },
+    {
+      "code": "PHIL 390",
+      "title": "Honours Tutorial",
+      "credits": "6-12",
+      "description": "For students in third-year Honours.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 400",
+      "title": "Morals, Politics and the Individual",
+      "credits": "3",
+      "description": "Introduction to major themes in moral and political philosophy. Primarily for fourth-year and graduate students who have had no previous course in Philosophy. Credit will be granted for only one of PHIL 400, PHIL 100 or PHIL 101 and 102.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 401",
+      "title": "Knowledge, Explanation, and the Nature of Things",
+      "credits": "3",
+      "description": "Introduction to major themes in epistemology and metaphysics. Primarily for fourth-year and graduate students who have had no previous course in Philosophy. Credit will be granted for only one of PHIL 401, PHIL 100 or PHIL 101 and 102.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 410",
+      "title": "Topics in Ancient Philosophy",
+      "credits": "3-6",
+      "description": "Advanced study of the Presocratics, or of a philosopher such as Plato, or of a school such as the Sceptics or Stoics. Topics vary from year to year. Recommended pre-requisite: PHIL 311.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": "PHIL 311"
+    },
+    {
+      "code": "PHIL 412",
+      "title": "Topics in Medieval Philosophy",
+      "credits": "3-6",
+      "description": "Advanced study of a medieval philosopher such as Aquinas, or school. Recommended pre-requisite: PHIL 313.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": "PHIL 313"
+    },
+    {
+      "code": "PHIL 414",
+      "title": "Topics in the History of Modern Philosophy",
+      "credits": "3-6",
+      "description": "Intensive study of a major philosopher or school such as Descartes, Hume, Empiricism, Rationalism, or the British utilitarians. Recommended pre-requisites: one of PHIL 314, PHIL 315, PHIL 316.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": "one of PHIL 314, PHIL 315, PHIL 316"
+    },
+    {
+      "code": "PHIL 415",
+      "title": "The Philosophy of Immanuel Kant",
+      "credits": "3",
+      "description": "Study of Kant's critical philosophy. Recommended pre-requisite: one of PHIL 314, PHIL 315, PHIL 340",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": "one of PHIL 314, PHIL 315, PHIL 340"
+    },
+    {
+      "code": "PHIL 416",
+      "title": "Topics in 19th-Century Philosophy",
+      "credits": "3-6",
+      "description": "Study of a major 19th-century philosopher such as Hegel, Mill or Nietzsche, or school, such as German Idealism. Recommended pre-requisites: one of PHIL 314, PHIL 315, PHIL 316, PHIL 340.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": "one of PHIL 314, PHIL 315, PHIL 316, PHIL 340"
+    },
+    {
+      "code": "PHIL 418",
+      "title": "Topics in Twentieth-Century Philosophy",
+      "credits": "3-6",
+      "description": "Intensive study of a major philosopher such as Wittgenstein, Russell, or Heidegger, or school, such as pragmatism or logical empiricism. Recommended pre-requisite: PHIL 340.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": "PHIL 340"
+    },
+    {
+      "code": "PHIL 419",
+      "title": "Philosophy of History",
+      "credits": "3",
+      "description": "Concepts of history and historical explanation, historical progress, purpose, necessity, law and causation. Hegel, Marx, Vico, Spengler, Pareto, Collingwood, Croce, and Toynbee, as well as contemporary figures. Students will be expected to have an adequate knowledge of ancient or modern history.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 420",
+      "title": "Topics in Symbolic Logic",
+      "credits": "3-6",
+      "description": "Formal semantics, proof theory, incompleteness and decidability, axiomatic set theory, independence results. Consult the Department as to which topics are offered in a given year. Prerequisite: PHIL 320.",
+      "prereq": {
+        "text": "PHIL 320",
+        "tree": "PHIL 320",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 426",
+      "title": "Topics in Philosophy of Language",
+      "credits": "3-6",
+      "description": "Advanced topics in the philosophy of language. Recommended pre-requisite: PHIL 326 and 6 credits of PHIL/LING at the 200-level or above.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": "PHIL 326 and 6 credits of PHIL/LING at the 200-level or above"
+    },
+    {
+      "code": "PHIL 427",
+      "title": "Philosophy of Mathematics",
+      "credits": "3",
+      "description": "Logicism, formalism and constructivism, implications of metatheorems such as those of Gödel and Church, mathematical truth, mathematics and mental construction, mathematics and the physical world. Prerequisite: Philosophy or mathematics courses totaling 9 credits at the 200-level or above.",
+      "prereq": {
+        "text": "Philosophy or mathematics courses totaling 9 credits at the 200-level or above",
+        "tree": {
+          "other": "Philosophy or mathematics courses totaling 9 credits at the 200-level or above"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 431",
+      "title": "Topics in Social and Political Philosophy",
+      "credits": "3-6",
+      "description": "Central concepts and problems in political life and thought including obligation, citizenship, representation, justice; equality; civil rights and liberty; disobedience. Prerequisite: 9 credits of PHIL/POLI at the 200-level or above.",
+      "prereq": {
+        "text": "9 credits of PHIL/POLI at the 200-level or above",
+        "tree": {
+          "other": "9 credits of PHIL/POLI at the 200-level or above"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 432",
+      "title": "Topics in Ethical Theory",
+      "credits": "3-6",
+      "description": "Classic or contemporary works in ethical theory. Prerequisite: PHIL 230. 9 credits of PHIL at the 200-level or above",
+      "prereq": {
+        "text": "PHIL 230. 9 credits of PHIL at the 200-level or above",
+        "tree": {
+          "all_of": [
+            "PHIL 230",
+            {
+              "other": "9 credits of PHIL at the 200-level or above"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 440",
+      "title": "Topics in Epistemology",
+      "credits": "3-6",
+      "description": "Analysis of the concept of knowledge; problems of justifying ordinary and basic empirical beliefs. Recommended pre-requisite: PHIL 240.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": "PHIL 240"
+    },
+    {
+      "code": "PHIL 441",
+      "title": "Philosophy of Perception",
+      "credits": "3",
+      "description": "The contribution of the senses to knowledge of the external world; the nature of perception and its contribution to empirical knowledge. Recommended pre-requisites: Either (a) PHIL 240 or (b) COGS 200. If COGS 200, accompanied by 3 credits in PHIL at the 200-level or above.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": "Either (a) PHIL 240 or (b) COGS 200. If COGS 200, accompanied by 3 credits in PHIL at the 200-level or above"
+    },
+    {
+      "code": "PHIL 448",
+      "title": "Topics in Continental Philosophy",
+      "credits": "3-6",
+      "description": "A study of European philosophers from amongst Husserl, Heidegger, Habermas, Foucault, Derrida, Lacan, Levinas, and others.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 450",
+      "title": "Topics in Metaphysics",
+      "credits": "3-6",
+      "description": "Topics including ontology, universals and particulars, substance, determinism and indeterminism, identity over time, and theories of truth. Prerequisite: 9 credits in PHIL at the 200-level or above. PHIL 340 is recommended.",
+      "prereq": {
+        "text": "9 credits in PHIL at the 200-level or above",
+        "tree": {
+          "other": "9 credits in PHIL at the 200-level or above"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": "PHIL 340 is recommended"
+    },
+    {
+      "code": "PHIL 451",
+      "title": "Philosophy of Mind",
+      "credits": "3",
+      "description": "The nature of the mental and physical; the relation between minds and bodies; the character of psychological explanation. Recommended pre-requisites: Either (a) PHIL 240 or (b) COGS 200. If COGS 200, accompanied by 3 credits of PHIL at the 200-level or above.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": "Either (a) PHIL 240 or (b) COGS 200. If COGS 200, accompanied by 3 credits of PHIL at the 200-level or above"
+    },
+    {
+      "code": "PHIL 452",
+      "title": "Philosophy of Action",
+      "credits": "3",
+      "description": "Explanation of human actions; the conditions of responsibility; freedom of the will; the domains of rational and moral appraisal; the category of action and the individuation of actions. Recommended pre-requisite: PHIL 340.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": "PHIL 340"
+    },
+    {
+      "code": "PHIL 455",
+      "title": "Topics in the Philosophy of Cognitive Science",
+      "credits": "3-6",
+      "description": "Philosophical topics in the cognitive sciences, such as empiricism vs. nativism, consciousness, mental representation, cognitive architecture, language & thought, and situated cognition. Prerequisite: One of PHIL 441, PHIL 451. Or any 6 credits of Philosophy at the 200-level or above (except PHIL 220, PHIL 222, PHIL 320).",
+      "prereq": {
+        "text": "One of PHIL 441, PHIL 451. Or any 6 credits of Philosophy at the 200-level or above (except PHIL 220, PHIL 222, PHIL 320)",
+        "tree": {
+          "one_of": [
+            "PHIL 441",
+            "PHIL 451",
+            {
+              "other": "any 6 credits of Philosophy at the 200-level or above (except PHIL 220, PHIL 222, PHIL 320)"
+            }
+          ]
+        },
+        "source": "llm",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 461",
+      "title": "Philosophy of Social Science",
+      "credits": "3",
+      "description": "Topics in the philosophy of science of special concern to the social sciences: the problem of objectivity, the use of models and evidence, causation and causal reasoning, formal methods, the status of social kinds and norms, scientific explanation, laws. Prerequisite: 9 credits at the 200-level or above from philosophy, anthropology, geography, economics, history, political science, psychology or sociology.",
+      "prereq": {
+        "text": "9 credits at the 200-level or above from philosophy, anthropology, geography, economics, history, political science, psychology or sociology",
+        "tree": {
+          "other": "9 credits at the 200-level or above from philosophy, anthropology, geography, economics, history, political science, psychology or sociology"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 462",
+      "title": "Space and Time",
+      "credits": "3-6",
+      "description": "Such topics as: Are space and time continuous? Is motion always relative to another body? Does time flow? Is time irreversible? Recommended pre-requisites: PHIL 340 or 12 credits of mathematics or science.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": "PHIL 340 or 12 credits of mathematics or science"
+    },
+    {
+      "code": "PHIL 464",
+      "title": "Philosophy of Biology",
+      "credits": "3",
+      "description": "Methodological, historical, philosophical and social science questions about biology. Prerequisite: Fourth-year standing in any degree program or 9 credits of philosophy.",
+      "prereq": {
+        "text": "Fourth-year standing in any degree program or 9 credits of philosophy",
+        "tree": {
+          "other": "Fourth-year standing in any degree program or 9 credits of philosophy"
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 469",
+      "title": "Topics in Philosophy of Science",
+      "credits": "3-6",
+      "description": "Topics such as probability and induction; foundations of measurement; theory construction. Recommended pre-requisite: PHIL 369.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": "PHIL 369"
+    },
+    {
+      "code": "PHIL 470",
+      "title": "Comparative Conceptions of the Self",
+      "credits": "3",
+      "description": "Ways in which the 'self' has been portrayed in eastern and western religious traditions. Thinkers to be considered include Aristotle, Mencius, Freud, Xunzi (Hsn-tzu), Nietzche, and Zhuangzi (Chuang-tzu). Credit will be granted for only one of PHIL 470 or ASIA 470. Equivalency: ASIA 470",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": "ASIA 470",
+      "recommended": null
+    },
+    {
+      "code": "PHIL 485",
+      "title": "Directed Reading",
+      "credits": "3",
+      "description": "Same as PHIL 486-9.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 486",
+      "title": "Directed Reading",
+      "credits": "3",
+      "description": "",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 487",
+      "title": "Directed Reading",
+      "credits": "3",
+      "description": "",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 488",
+      "title": "Directed Reading",
+      "credits": "3",
+      "description": "",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 489",
+      "title": "Directed Reading",
+      "credits": "3",
+      "description": "",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 490",
+      "title": "Honours Tutorial",
+      "credits": "6-12",
+      "description": "For students in fourth-year Honours.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 491",
+      "title": "Seminar for Majors in Philosophy",
+      "credits": "3-6",
+      "description": "Selected problems in philosophy, with attention to methods of research. Check with the department for specific topics. Primarily for fourth-year Philosophy Major students, but also open to Philosophy Honours.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 499",
+      "title": "Directed Reading",
+      "credits": "1",
+      "description": "",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 510",
+      "title": "Ancient Philosophy",
+      "credits": "3-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 512",
+      "title": "Medieval Philosophy",
+      "credits": "3-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 514",
+      "title": "Early Modern Philosophy",
+      "credits": "3-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 516",
+      "title": "Modern Philosophy",
+      "credits": "3-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 518",
+      "title": "Twentieth-Century Philosophy",
+      "credits": "3-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 520",
+      "title": "Logic",
+      "credits": "3-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 525",
+      "title": "Philosophy of Language",
+      "credits": "3-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 527",
+      "title": "Philosophy of Mathematics",
+      "credits": "3-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 528",
+      "title": "Philosophical Issues in the Foundations of Mathematics",
+      "credits": "3-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 530",
+      "title": "Moral Philosophy",
+      "credits": "3-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 531",
+      "title": "Political Philosophy",
+      "credits": "3-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 532",
+      "title": "Ethical Theory and Practice",
+      "credits": "3-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 533",
+      "title": "Issues in Bio-Medical Ethics",
+      "credits": "3-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 534",
+      "title": "Issues in Business and Professional Ethics",
+      "credits": "3-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 535",
+      "title": "Issues in Environmental Ethics",
+      "credits": "3-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 536",
+      "title": "Ethical Issues in Public Policy",
+      "credits": "3-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 539",
+      "title": "Aesthetics",
+      "credits": "3-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 540",
+      "title": "Epistemology",
+      "credits": "3-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 550",
+      "title": "Metaphysics",
+      "credits": "3-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 551",
+      "title": "Philosophy of Mind",
+      "credits": "3-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 560",
+      "title": "Philosophy of Science",
+      "credits": "3-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 561",
+      "title": "Topics in Science and Technology Studies",
+      "credits": "3-12",
+      "description": "Advanced seminar on a theme or topic of interest to both STS and Philosophy. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 581",
+      "title": "Problems",
+      "credits": "3-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 585",
+      "title": "Directed Reading",
+      "credits": "3-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 586",
+      "title": "Philosophy of Action",
+      "credits": "3",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 599",
+      "title": "MA Thesis",
+      "credits": "6-12",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "PHIL 699",
+      "title": "Doctoral Dissertation",
+      "credits": "0",
+      "description": "This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    }
+  ]
+}

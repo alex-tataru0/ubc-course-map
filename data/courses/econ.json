@@ -1,0 +1,3904 @@
+{
+  "subject": "ECON",
+  "source": "https://vancouver.calendar.ubc.ca/course-descriptions/subject/econv",
+  "courses": [
+    {
+      "code": "ECON 101",
+      "title": "Principles of Microeconomics",
+      "credits": "3",
+      "description": "Introduction to consumer behaviour, producer theory, competitive market equilibrium, welfare economics, monopoly, oligopoly, and foundations of strategic interactions. Credit will be granted for only one of ECON 101 or ECON 310.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 102",
+      "title": "Principles of Macroeconomics",
+      "credits": "3",
+      "description": "Elements of theory and of Canadian policy and institutions concerning the economics of growth and business cycles, employment, national income accounting, interest and exchange rates, money and banking, the balance of trade. Credit will be granted for only one of ECON 102 or ECON 311.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 210",
+      "title": "Microeconomic Policy",
+      "credits": "3",
+      "description": "A survey of policy issues, such as regulation, taxation, environmental and resource policy, health care, education and income distribution. May not be taken for credit by students with fourth-year standing. Prerequisite: One of ECON 101, ECON 310 and one of ECON 102, ECON 311.",
+      "prereq": {
+        "text": "One of ECON 101, ECON 310 and one of ECON 102, ECON 311",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "ECON 101",
+                "ECON 310"
+              ]
+            },
+            {
+              "one_of": [
+                "ECON 102",
+                "ECON 311"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 211",
+      "title": "Macroeconomic Policy",
+      "credits": "3",
+      "description": "A survey of policy issues, such as the costs of inflation and unemployment, monetary and fiscal policy, the effects of government debt and exchange rate policy. May not be taken for credit by students with fourth-year standing. Prerequisite: One of ECON 101, ECON 310 and one of ECON 102, ECON 311.",
+      "prereq": {
+        "text": "One of ECON 101, ECON 310 and one of ECON 102, ECON 311",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "ECON 101",
+                "ECON 310"
+              ]
+            },
+            {
+              "one_of": [
+                "ECON 102",
+                "ECON 311"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 221",
+      "title": "Introduction to Strategic Thinking",
+      "credits": "3",
+      "description": "How individuals and businesses interact in strategic situations with applications in a wide range of topics which may include economics, business, politics, law and biology. Focus on developing intuition. May not be taken for credit by 1) students with fourth-year standing in ECON or the B.I.E., or 2) students that have taken ECON 421 or MATH 344. Credit will be granted for only one of ECON 221 or ISCI 344. Prerequisite: One of ECON 101, ECON 310.",
+      "prereq": {
+        "text": "One of ECON 101, ECON 310",
+        "tree": {
+          "one_of": [
+            "ECON 101",
+            "ECON 310"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 226",
+      "title": "Making Sense of Economic Data",
+      "credits": "3",
+      "description": "Techniques of introductory empirical economics with an emphasis on foundational econometric methods and answering economic questions using real-world data. Students will be expected to undertake applied work using a statistical programming tool. May not be taken for credit by students with fourth-year standing in ECON, or students already having credit for ECON 325, ECON 327, COMM 191, STAT 200, STAT 241, STAT 251. Credit will be granted for only one of ECON 226, ECON 227, STAT 203. Prerequisite: Either (a) one of ECON 101, ECON 310, ECON 102 or (b) ECON 311.",
+      "prereq": {
+        "text": "Either (a) one of ECON 101, ECON 310, ECON 102 or (b) ECON 311",
+        "tree": {
+          "one_of": [
+            {
+              "one_of": [
+                "ECON 101",
+                "ECON 310",
+                "ECON 102"
+              ]
+            },
+            "ECON 311"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 227",
+      "title": "Data in Economics",
+      "credits": "3",
+      "description": "Application-driven introduction to the analysis of economic data. Descriptive analysis, causality, experimental and observational data, hypothesis testing. Restricted to BIE students. Credit will be granted for only one of ECON 226 and ECON 227. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 234",
+      "title": "Wealth and Poverty of Nations",
+      "credits": "3",
+      "description": "Historical approaches to long-run economic growth; international comparisons of income growth and inequality; colonialism; evolution of world capital markets; human migrations; rise of world trading empires; instability in the international economy. May not be taken for credit by students with fourth-year standing in Bachelor of International Economics or any of the following Economics programs offered by VSE: Majors, Minors, Combined Majors, Honours. Prerequisite: One of ECON 101, ECON 310 and one of ECON 102, ECON 311.",
+      "prereq": {
+        "text": "One of ECON 101, ECON 310 and one of ECON 102, ECON 311",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "ECON 101",
+                "ECON 310"
+              ]
+            },
+            {
+              "one_of": [
+                "ECON 102",
+                "ECON 311"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 241",
+      "title": "Introduction to Global Development",
+      "credits": "3",
+      "description": "Economic approaches to long-run global development, international trade, growth, and globalization. Topics include the economics of trade policy, political economy, migration, the environment, foreign investment, and culture in a global context. Students may only receive credit for ECON 241 and ECON 255 or ECON 234 with permission of the instructor. Prerequisite: One of ECON 101, ECON 310 and one of ECON 102, ECON 311.",
+      "prereq": {
+        "text": "One of ECON 101, ECON 310 and one of ECON 102, ECON 311",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "ECON 101",
+                "ECON 310"
+              ]
+            },
+            {
+              "one_of": [
+                "ECON 102",
+                "ECON 311"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 255",
+      "title": "Understanding Globalization",
+      "credits": "3",
+      "description": "Social and economic implications for both rich and poor countries of lowered barriers to the international flows of information, capital, labour and goods. May not be taken for credit by students with fourth-year standing in Bachelor of International Economics or any of the following Economics programs offered by VSE: Majors, Minors, Combined Majors, Honours. Prerequisite: One of ECON 101, ECON 310 and one of ECON 102, ECON 311.",
+      "prereq": {
+        "text": "One of ECON 101, ECON 310 and one of ECON 102, ECON 311",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "ECON 101",
+                "ECON 310"
+              ]
+            },
+            {
+              "one_of": [
+                "ECON 102",
+                "ECON 311"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 301",
+      "title": "Intermediate Microeconomic Analysis I",
+      "credits": "3",
+      "description": "Consumer behaviour, producer theory, competitive market equilibrium, welfare economics, uncertainty, monopoly and oligopoly. Credit will be granted for only one of ECON 301, ECON 304, ECON 315, COMM 295 or FRE 295. Prerequisite: One of ECON 101, ECON 310, ECON_O 101 and one of MATH 100, MATH 102, MATH 104, MATH 110, MATH 120, MATH 180, MATH 184, MATH_O 100, MATH_O 116 and one of MATH 101, MATH 103, MATH 105, MATH 121, MATH_O 101, MATH 103.",
+      "prereq": {
+        "text": "One of ECON 101, ECON 310, ECON_O 101 and one of MATH 100, MATH 102, MATH 104, MATH 110, MATH 120, MATH 180, MATH 184, MATH_O 100, MATH_O 116 and one of MATH 101, MATH 103, MATH 105, MATH 121, MATH_O 101, MATH 103",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "ECON 101",
+                "ECON 310",
+                "ECON_O 101"
+              ]
+            },
+            {
+              "one_of": [
+                "MATH 100",
+                "MATH 102",
+                "MATH 104",
+                "MATH 110",
+                "MATH 120",
+                "MATH 180",
+                "MATH 184",
+                "MATH_O 100",
+                "MATH_O 116"
+              ]
+            },
+            {
+              "one_of": [
+                "MATH 101",
+                "MATH 103",
+                "MATH 105",
+                "MATH 121",
+                "MATH_O 101",
+                "MATH 103"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 302",
+      "title": "Intermediate Macroeconomic Analysis I",
+      "credits": "3",
+      "description": "Income and employment theory, monetary theory, the open economy, economic fluctuations and growth. Credit will be granted for only one of ECON 302, ECON 305, or ECON 309. Prerequisite: One of ECON 101, ECON 310, ECON_O 101 and one of ECON 102, ECON 311, ECON_O 102 and one of MATH 100, MATH 102, MATH 104, MATH 110, MATH 120, MATH 180, MATH 184, MATH_O 100, MATH_O 116 and one of MATH 101, MATH 103, MATH 105, MATH 121, MATH_O 101, MATH_O 103.",
+      "prereq": {
+        "text": "One of ECON 101, ECON 310, ECON_O 101 and one of ECON 102, ECON 311, ECON_O 102 and one of MATH 100, MATH 102, MATH 104, MATH 110, MATH 120, MATH 180, MATH 184, MATH_O 100, MATH_O 116 and one of MATH 101, MATH 103, MATH 105, MATH 121, MATH_O 101, MATH_O 103",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "ECON 101",
+                "ECON 310",
+                "ECON_O 101"
+              ]
+            },
+            {
+              "one_of": [
+                "ECON 102",
+                "ECON 311",
+                "ECON_O 102"
+              ]
+            },
+            {
+              "one_of": [
+                "MATH 100",
+                "MATH 102",
+                "MATH 104",
+                "MATH 110",
+                "MATH 120",
+                "MATH 180",
+                "MATH 184",
+                "MATH_O 100",
+                "MATH_O 116"
+              ]
+            },
+            {
+              "one_of": [
+                "MATH 101",
+                "MATH 103",
+                "MATH 105",
+                "MATH 121",
+                "MATH_O 101",
+                "MATH_O 103"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 303",
+      "title": "Intermediate Microeconomics II",
+      "credits": "3",
+      "description": "Risk and uncertainty, some concepts in game theory, adverse selection, moral hazard, bargaining, auctions. Credit will be granted for only one of ECON 303 or ECON 306, ECON 316. Prerequisite: One of ECON 301, ECON 304, ECON 315, COMM 295.",
+      "prereq": {
+        "text": "One of ECON 301, ECON 304, ECON 315, COMM 295",
+        "tree": {
+          "one_of": [
+            "ECON 301",
+            "ECON 304",
+            "ECON 315",
+            "COMM 295"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 304",
+      "title": "Honours Intermediate Microeconomic Analysis I",
+      "credits": "3",
+      "description": "Consumer behaviour, uncertainty, producer theory, monopoly, oligopoly, and equilibrium analysis. Credit will be granted for only one of ECON 301, ECON 304, ECON 315, COMM 295 or FRE 295. Prerequisite: All of (i) a score of 68% or higher in one of ECON 101, ECON 310; (ii) a score of 68% or higher in one of MATH 100, MATH 102, MATH 104, MATH 110, MATH 120, MATH 180, MATH 184; and (iii) completion of one of MATH 101, MATH 103, MATH 105, MATH 121.",
+      "prereq": {
+        "text": "All of (i) a score of 68% or higher in one of ECON 101, ECON 310; (ii) a score of 68% or higher in one of MATH 100, MATH 102, MATH 104, MATH 110, MATH 120, MATH 180, MATH 184; and (iii) completion of one of MATH 101, MATH 103, MATH 105, MATH 121",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                {
+                  "course": "ECON 101",
+                  "min_grade": 68
+                },
+                {
+                  "course": "ECON 310",
+                  "min_grade": 68
+                }
+              ]
+            },
+            {
+              "one_of": [
+                {
+                  "course": "MATH 100",
+                  "min_grade": 68
+                },
+                {
+                  "course": "MATH 102",
+                  "min_grade": 68
+                },
+                {
+                  "course": "MATH 104",
+                  "min_grade": 68
+                },
+                {
+                  "course": "MATH 110",
+                  "min_grade": 68
+                },
+                {
+                  "course": "MATH 120",
+                  "min_grade": 68
+                },
+                {
+                  "course": "MATH 180",
+                  "min_grade": 68
+                },
+                {
+                  "course": "MATH 184",
+                  "min_grade": 68
+                }
+              ]
+            },
+            {
+              "one_of": [
+                "MATH 101",
+                "MATH 103",
+                "MATH 105",
+                "MATH 121"
+              ]
+            }
+          ]
+        },
+        "source": "llm",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 305",
+      "title": "Honours Intermediate Macroeconomic Analysis I",
+      "credits": "3",
+      "description": "Income and employment theory, monetary theory, the open economy, economic fluctuations and growth. Credit will be granted for only one of ECON 302, ECON 305, or ECON 309. Prerequisite: A score of 68% or higher in one of ECON 101, ECON 310, ECON_O 101 and a score of 68% or higher in one of ECON 102, ECON 311, ECON_O 102 and a score of 68% or higher in one of MATH 100, MATH 102, MATH 104, MATH 110, MATH 120, MATH 180, MATH 184, MATH_O 100 and a score of 68% or higher in one of MATH 101, MATH 103, MATH 105, MATH 121, MATH_O 101, MATH_O 103.",
+      "prereq": {
+        "text": "A score of 68% or higher in one of ECON 101, ECON 310, ECON_O 101 and a score of 68% or higher in one of ECON 102, ECON 311, ECON_O 102 and a score of 68% or higher in one of MATH 100, MATH 102, MATH 104, MATH 110, MATH 120, MATH 180, MATH 184, MATH_O 100 and a score of 68% or higher in one of MATH 101, MATH 103, MATH 105, MATH 121, MATH_O 101, MATH_O 103",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                {
+                  "course": "ECON 101",
+                  "min_grade": 68
+                },
+                {
+                  "course": "ECON 310",
+                  "min_grade": 68
+                },
+                {
+                  "course": "ECON_O 101",
+                  "min_grade": 68
+                }
+              ]
+            },
+            {
+              "one_of": [
+                {
+                  "course": "ECON 102",
+                  "min_grade": 68
+                },
+                {
+                  "course": "ECON 311",
+                  "min_grade": 68
+                },
+                {
+                  "course": "ECON_O 102",
+                  "min_grade": 68
+                }
+              ]
+            },
+            {
+              "one_of": [
+                {
+                  "course": "MATH 100",
+                  "min_grade": 68
+                },
+                {
+                  "course": "MATH 102",
+                  "min_grade": 68
+                },
+                {
+                  "course": "MATH 104",
+                  "min_grade": 68
+                },
+                {
+                  "course": "MATH 110",
+                  "min_grade": 68
+                },
+                {
+                  "course": "MATH 120",
+                  "min_grade": 68
+                },
+                {
+                  "course": "MATH 180",
+                  "min_grade": 68
+                },
+                {
+                  "course": "MATH 184",
+                  "min_grade": 68
+                },
+                {
+                  "course": "MATH_O 100",
+                  "min_grade": 68
+                }
+              ]
+            },
+            {
+              "one_of": [
+                {
+                  "course": "MATH 101",
+                  "min_grade": 68
+                },
+                {
+                  "course": "MATH 103",
+                  "min_grade": 68
+                },
+                {
+                  "course": "MATH 105",
+                  "min_grade": 68
+                },
+                {
+                  "course": "MATH 121",
+                  "min_grade": 68
+                },
+                {
+                  "course": "MATH_O 101",
+                  "min_grade": 68
+                },
+                {
+                  "course": "MATH_O 103",
+                  "min_grade": 68
+                }
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 306",
+      "title": "Honours Intermediate Microeconomics II",
+      "credits": "3",
+      "description": "Microeconomic Theory with computational applications. Topics may include risk and uncertainty, information economics, game theory, bargaining, auctions. Knowledge of python and Julia is useful but not required. Credit will be granted for only one of ECON 303 or ECON 306. Prerequisite: A score of 68% or higher in ECON 304. Permission of the School is also acceptable.",
+      "prereq": {
+        "text": "A score of 68% or higher in ECON 304. Permission of the School is also acceptable",
+        "tree": {
+          "one_of": [
+            {
+              "course": "ECON 304",
+              "min_grade": 68
+            },
+            {
+              "other": "Permission of the School is also acceptable"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 307",
+      "title": "Honours Intermediate Macroeconomics II",
+      "credits": "3",
+      "description": "Theories of economic growth and the business cycle. Intended primarily for prospective honours and other qualified students. Prerequisite: A score of 68% or higher in ECON 305. Or permission of the School.",
+      "prereq": {
+        "text": "A score of 68% or higher in ECON 305. Or permission of the School",
+        "tree": {
+          "one_of": [
+            {
+              "course": "ECON 305",
+              "min_grade": 68
+            },
+            {
+              "other": "permission of the School"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 309",
+      "title": "Intermediate Open Economy Macroeconomics",
+      "credits": "3",
+      "description": "The aggregate economy with emphasis on macroeconomic policy and international economic growth, money and inflation, unemployment, business cycles, and macroeconomic stabilization policy under fixed and flexible exchange rates. Registration restricted to students in the Bachelor of International Economics Program. Credit will be granted for only one of ECON 302, ECON 305 or ECON 309. Prerequisite: One of ECON 101, ECON 310 and one of ECON 102, ECON 311 and one of MATH 100, MATH 102, MATH 104, MATH 110, MATH 120, MATH 180, MATH 184 and one of MATH 101, MATH 103, MATH 105, MATH 121. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "One of ECON 101, ECON 310 and one of ECON 102, ECON 311 and one of MATH 100, MATH 102, MATH 104, MATH 110, MATH 120, MATH 180, MATH 184 and one of MATH 101, MATH 103, MATH 105, MATH 121",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "ECON 101",
+                "ECON 310"
+              ]
+            },
+            {
+              "one_of": [
+                "ECON 102",
+                "ECON 311"
+              ]
+            },
+            {
+              "one_of": [
+                "MATH 100",
+                "MATH 102",
+                "MATH 104",
+                "MATH 110",
+                "MATH 120",
+                "MATH 180",
+                "MATH 184"
+              ]
+            },
+            {
+              "one_of": [
+                "MATH 101",
+                "MATH 103",
+                "MATH 105",
+                "MATH 121"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 310",
+      "title": "Principles of Microeconomics with Calculus",
+      "credits": "3",
+      "description": "Introduction to consumer behaviour, producer theory, competitive market equilibrium, welfare economics, monopoly, oligopoly, and strategic interactions with applications using differential calculus. The scope of this course is approximately the same as that of ECON 101. Credit will be granted for only one of ECON 310 or ECON 101. Prerequisite: One of MATH 100, 102, 104, 110, 111, 120, 180, or 184.",
+      "prereq": {
+        "text": "One of MATH 100, MATH 102, MATH 104, MATH 110, MATH 111, MATH 120, MATH 180, or MATH 184",
+        "tree": {
+          "one_of": [
+            "MATH 100",
+            "MATH 102",
+            "MATH 104",
+            "MATH 110",
+            "MATH 111",
+            "MATH 120",
+            "MATH 180",
+            "MATH 184"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 311",
+      "title": "Principles of Macroeconomics with Calculus",
+      "credits": "3",
+      "description": "Elements of theory and of Canadian policy and institutions concerning the economics of growth, business cycles, employment, national income accounting, interest, exchange rates, money, banking, and trade, with applications using differential calculus. The scope of this course is approximately the same as that of ECON 102. Credit will be granted for only one of ECON 311 or ECON 102. Prerequisite: One of MATH 100, 102, 104, 110, 111, 120, 180, or 184.",
+      "prereq": {
+        "text": "One of MATH 100, MATH 102, MATH 104, MATH 110, MATH 111, MATH 120, MATH 180, or MATH 184",
+        "tree": {
+          "one_of": [
+            "MATH 100",
+            "MATH 102",
+            "MATH 104",
+            "MATH 110",
+            "MATH 111",
+            "MATH 120",
+            "MATH 180",
+            "MATH 184"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 315",
+      "title": "Intermediate Microeconomics I",
+      "credits": "3",
+      "description": "Consumer behaviour, producer theory, exchange, monopoly, oligopoly, externalities, public goods, general equilibrium and welfare economics. Registration restricted to students in the Bachelor of International Economics Program. Credit will be granted for only one of ECON 315, ECON 301, ECON 304, COMM 295, FRE 295. Prerequisite: One of ECON 101, ECON 310 and one of MATH 100, MATH 102, MATH 104, MATH 110, MATH 120, MATH 180, MATH 184 and one of MATH 101, MATH 103, MATH 105, MATH 121. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "One of ECON 101, ECON 310 and one of MATH 100, MATH 102, MATH 104, MATH 110, MATH 120, MATH 180, MATH 184 and one of MATH 101, MATH 103, MATH 105, MATH 121",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "ECON 101",
+                "ECON 310"
+              ]
+            },
+            {
+              "one_of": [
+                "MATH 100",
+                "MATH 102",
+                "MATH 104",
+                "MATH 110",
+                "MATH 120",
+                "MATH 180",
+                "MATH 184"
+              ]
+            },
+            {
+              "one_of": [
+                "MATH 101",
+                "MATH 103",
+                "MATH 105",
+                "MATH 121"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 316",
+      "title": "Intermediate Microeconomics II",
+      "credits": "3",
+      "description": "Advanced topics in intermediate microeconomics: risk and uncertainty, some concepts in game theory, adverse selection, moral hazard, bargaining, auctions. Registration restricted to students in the Bachelor of International Economics Program. Credit will be granted for only one of ECON 316 or ECON 303. Prerequisite: One of ECON 301, ECON 304, ECON 315. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "One of ECON 301, ECON 304, ECON 315",
+        "tree": {
+          "one_of": [
+            "ECON 301",
+            "ECON 304",
+            "ECON 315"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 317",
+      "title": "Poverty and Inequality",
+      "credits": "3",
+      "description": "Economic inequality in Canada and other countries; measurement and causes. Inequality in the distribution of wealth; redistribution of income and wealth; notions of distributive justice. Prerequisite: One of ECON 101, ECON 310, ECON_O 101 and one of ECON 102, ECON 311, ECON_O 102.",
+      "prereq": {
+        "text": "One of ECON 101, ECON 310, ECON_O 101 and one of ECON 102, ECON 311, ECON_O 102",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "ECON 101",
+                "ECON 310",
+                "ECON_O 101"
+              ]
+            },
+            {
+              "one_of": [
+                "ECON 102",
+                "ECON 311",
+                "ECON_O 102"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 318",
+      "title": "History and Philosophy of Economics from Aristotle to Adam Smith",
+      "credits": "3",
+      "description": "The development of economic thought from Aristotle to Adam Smith, focusing on the conceptual foundations of economics, particularly the problems of value, distribution, and economic growth. Credit will be granted for only one of ECON 318 or PHIL 362 Prerequisite: One of ECON 101, ECON 310, ECON_O 101 and one of ECON 102, ECON 311, ECON_O 102. Equivalency: PHIL 362.",
+      "prereq": {
+        "text": "One of ECON 101, ECON 310, ECON_O 101 and one of ECON 102, ECON 311, ECON_O 102",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "ECON 101",
+                "ECON 310",
+                "ECON_O 101"
+              ]
+            },
+            {
+              "one_of": [
+                "ECON 102",
+                "ECON 311",
+                "ECON_O 102"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": "PHIL 362",
+      "recommended": null
+    },
+    {
+      "code": "ECON 319",
+      "title": "History and Philosophy of Economics from Ricardo to Keynes",
+      "credits": "3",
+      "description": "The development of economic thought from David Ricardo up to the present including such figures as Malthus, Mill, Jevons, and Keynes, focusing on the conceptual foundations of economics, particularly the problems of value, distribution and growth. Credit will be granted for only one of ECON 319 or PHIL 363. Prerequisite: One of ECON 101, ECON 310, ECON_O 101 and one of ECON 102, ECON 311, ECON_O 102. Equivalency: PHIL 363.",
+      "prereq": {
+        "text": "One of ECON 101, ECON 310, ECON_O 101 and one of ECON 102, ECON 311, ECON_O 102",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "ECON 101",
+                "ECON 310",
+                "ECON_O 101"
+              ]
+            },
+            {
+              "one_of": [
+                "ECON 102",
+                "ECON 311",
+                "ECON_O 102"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": "PHIL 363",
+      "recommended": null
+    },
+    {
+      "code": "ECON 320",
+      "title": "Introduction to Mathematical Economics",
+      "credits": "3",
+      "description": "Application of single and multivariable calculus to economics. Includes comparative static analysis of household and firm behaviour as well as simple dynamic models. ECON 320 cannot be counted as satisfying ECON requirements for the Combined Major in Economics/Mathematics. Prerequisite: One of ECON 101, ECON 310 and one of ECON 102, ECON 311 and one of MATH 100, MATH 102, MATH 104, MATH 110, MATH 120, MATH 180, MATH 184 and one of MATH 101, MATH 103, MATH 105, MATH 121.",
+      "prereq": {
+        "text": "One of ECON 101, ECON 310 and one of ECON 102, ECON 311 and one of MATH 100, MATH 102, MATH 104, MATH 110, MATH 120, MATH 180, MATH 184 and one of MATH 101, MATH 103, MATH 105, MATH 121",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "ECON 101",
+                "ECON 310"
+              ]
+            },
+            {
+              "one_of": [
+                "ECON 102",
+                "ECON 311"
+              ]
+            },
+            {
+              "one_of": [
+                "MATH 100",
+                "MATH 102",
+                "MATH 104",
+                "MATH 110",
+                "MATH 120",
+                "MATH 180",
+                "MATH 184"
+              ]
+            },
+            {
+              "one_of": [
+                "MATH 101",
+                "MATH 103",
+                "MATH 105",
+                "MATH 121"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 323",
+      "title": "Quantitative Economic Modelling with Data Science Applications",
+      "credits": "3",
+      "description": "Computational tools used in modern economics. Including application of data science in economics; visualization and manipulation of economic data; solving and simulating dynamic economic models. Credit will be granted for only one of ECON 323, CPSC 110, or CPSC 107. One course in second-year linear algebra such as MATH 221 or MATH 223 is strongly recommended, but not required. Prerequisite: One of ECON 101, ECON 310 and one of MATH 100, MATH 102, MATH 104, MATH 110, MATH 120, MATH 180, MATH 184 and one of MATH 101, MATH 103, MATH 105, MATH 121.",
+      "prereq": {
+        "text": "One of ECON 101, ECON 310 and one of MATH 100, MATH 102, MATH 104, MATH 110, MATH 120, MATH 180, MATH 184 and one of MATH 101, MATH 103, MATH 105, MATH 121",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "ECON 101",
+                "ECON 310"
+              ]
+            },
+            {
+              "one_of": [
+                "MATH 100",
+                "MATH 102",
+                "MATH 104",
+                "MATH 110",
+                "MATH 120",
+                "MATH 180",
+                "MATH 184"
+              ]
+            },
+            {
+              "one_of": [
+                "MATH 101",
+                "MATH 103",
+                "MATH 105",
+                "MATH 121"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 325",
+      "title": "Introduction to Econometrics I",
+      "credits": "3",
+      "description": "Essentials of probability and statistics for applied work in economics. Topics include fundamentals of probability and statistical inference including estimation and hypothesis testing, and simple linear regression models. Credit will only be granted for one of ECON 325, ECON 327, COMM 191, STAT 200, STAT 241, STAT 251. Prerequisite: One of ECON 101, ECON 310, ECON_O 101 and one of ECON 102, ECON 311, ECON_O 102 and one of MATH 100, MATH 102, MATH 104, MATH 110, MATH 120, MATH 180, MATH 184, MATH_O 100, MATH_O 116 and one of MATH 101, MATH 103, MATH 105, MATH 121, MATH_O 101, MATH_O 103.",
+      "prereq": {
+        "text": "One of ECON 101, ECON 310, ECON_O 101 and one of ECON 102, ECON 311, ECON_O 102 and one of MATH 100, MATH 102, MATH 104, MATH 110, MATH 120, MATH 180, MATH 184, MATH_O 100, MATH_O 116 and one of MATH 101, MATH 103, MATH 105, MATH 121, MATH_O 101, MATH_O 103",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "ECON 101",
+                "ECON 310",
+                "ECON_O 101"
+              ]
+            },
+            {
+              "one_of": [
+                "ECON 102",
+                "ECON 311",
+                "ECON_O 102"
+              ]
+            },
+            {
+              "one_of": [
+                "MATH 100",
+                "MATH 102",
+                "MATH 104",
+                "MATH 110",
+                "MATH 120",
+                "MATH 180",
+                "MATH 184",
+                "MATH_O 100",
+                "MATH_O 116"
+              ]
+            },
+            {
+              "one_of": [
+                "MATH 101",
+                "MATH 103",
+                "MATH 105",
+                "MATH 121",
+                "MATH_O 101",
+                "MATH_O 103"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 326",
+      "title": "Introduction to Econometrics II",
+      "credits": "3",
+      "description": "Methods of empirical economic research. Topics include multiple linear regression models, with a focus on regression diagnostics, prediction, statistical inference, and interpretations. Students will be required to learn to apply empirical methods using a statistical programming tool. Credit will only be granted for one of ECON 326, ECON 328, STAT 306. Prerequisite: All of ECON 101 or ECON_O 101, ECON 102 or ECON_O 102; one of ECON 325, ECON 327, COMM 191, STAT 200, STAT 241, STAT 251, LFS 252, STAT_O 205, STAT_O 124, STAT_O 230.",
+      "prereq": {
+        "text": "All of ECON 101 or ECON_O 101, ECON 102 or ECON_O 102; one of ECON 325, ECON 327, COMM 191, STAT 200, STAT 241, STAT 251, LFS 252, STAT_O 205, STAT_O 124, STAT_O 230",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "ECON 101",
+                "ECON_O 101"
+              ]
+            },
+            {
+              "one_of": [
+                "ECON 102",
+                "ECON_O 102"
+              ]
+            },
+            {
+              "one_of": [
+                "ECON 325",
+                "ECON 327",
+                "COMM 191",
+                "STAT 200",
+                "STAT 241",
+                "STAT 251",
+                "LFS 252",
+                "STAT_O 205",
+                "STAT_O 124",
+                "STAT_O 230"
+              ]
+            }
+          ]
+        },
+        "source": "llm",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 327",
+      "title": "Introduction to Empirical Methods",
+      "credits": "3",
+      "description": "Basic tools for the statistical analysis of economic data. Registration restricted to students in the Bachelor of International Economics Program. Credit will be granted for only one of ECON 325, ECON 327, COMM 191, STAT 200, STAT 203, STAT 241, STAT 251. Prerequisite: One of ECON 101, ECON 310 and one of ECON 102, ECON 311; and one of MATH 100, MATH 102, MATH 104, MATH 110, MATH 120, MATH 180, MATH 184; and one of MATH 101, MATH 103, MATH 105, MATH 121.",
+      "prereq": {
+        "text": "One of ECON 101, ECON 310 and one of ECON 102, ECON 311; and one of MATH 100, MATH 102, MATH 104, MATH 110, MATH 120, MATH 180, MATH 184; and one of MATH 101, MATH 103, MATH 105, MATH 121",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "ECON 101",
+                "ECON 310"
+              ]
+            },
+            {
+              "one_of": [
+                "ECON 102",
+                "ECON 311"
+              ]
+            },
+            {
+              "one_of": [
+                "MATH 100",
+                "MATH 102",
+                "MATH 104",
+                "MATH 110",
+                "MATH 120",
+                "MATH 180",
+                "MATH 184"
+              ]
+            },
+            {
+              "one_of": [
+                "MATH 101",
+                "MATH 103",
+                "MATH 105",
+                "MATH 121"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 328",
+      "title": "Methods of Empirical Research",
+      "credits": "3",
+      "description": "Empirical tools used in applied research, with emphasis on the linear regression model. Registration restricted to students in the Bachelor of International Economics program. Credit will be granted for only one of ECON 326, ECON 328, STAT 306, or LFS 252. Prerequisite: One of ECON 325, ECON 327. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "One of ECON 325, ECON 327",
+        "tree": {
+          "one_of": [
+            "ECON 325",
+            "ECON 327"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 333",
+      "title": "Economic History of Europe from the Paleolithic to the Industrial Revolution",
+      "credits": "3",
+      "description": "The conditions and causes of long run growth from nomadism to agriculture to industrialized states, including institutions, geography, culture, colonialism, and slave trades. Determinants of the Neolithic, consumer and industrial revolutions, demographic transition and first era of globalization. Prerequisite: One of ECON 101, ECON 310, ECON_O 101 and one of ECON 102, ECON 311, ECON_O 102.",
+      "prereq": {
+        "text": "One of ECON 101, ECON 310, ECON_O 101 and one of ECON 102, ECON 311, ECON_O 102",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "ECON 101",
+                "ECON 310",
+                "ECON_O 101"
+              ]
+            },
+            {
+              "one_of": [
+                "ECON 102",
+                "ECON 311",
+                "ECON_O 102"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 334",
+      "title": "Economic History of Modern Europe",
+      "credits": "3",
+      "description": "Background, causes and effects of economic change in Europe from the 18th century to recent times. Evolution of social and economic institutions; analysis of growth, structural change, the distribution of income, and the spread of industrialization. Prerequisite: One of ECON 101, ECON 310 and one of ECON 102, ECON 311.",
+      "prereq": {
+        "text": "One of ECON 101, ECON 310 and one of ECON 102, ECON 311",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "ECON 101",
+                "ECON 310"
+              ]
+            },
+            {
+              "one_of": [
+                "ECON 102",
+                "ECON 311"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 335",
+      "title": "Fertility, Families and Human Migration",
+      "credits": "3",
+      "description": "Traditional fertility and mortality patterns, demographic transition, catastrophes, well-being and nutrition, international and internal migration, epidemics and growth spurts. Prerequisite: One of ECON 101, ECON 310 and one of ECON 102, ECON 311.",
+      "prereq": {
+        "text": "One of ECON 101, ECON 310 and one of ECON 102, ECON 311",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "ECON 101",
+                "ECON 310"
+              ]
+            },
+            {
+              "one_of": [
+                "ECON 102",
+                "ECON 311"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 336",
+      "title": "Economic History of Canada",
+      "credits": "3",
+      "description": "The growth of the Canadian economy in relation to development of natural resources, changing markets, industrialism, communications, and technology. Prerequisite: One of ECON 101, ECON 310.",
+      "prereq": {
+        "text": "One of ECON 101, ECON 310",
+        "tree": {
+          "one_of": [
+            "ECON 101",
+            "ECON 310"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 337",
+      "title": "Economic History of the United States",
+      "credits": "3",
+      "description": "The growth of the United States from the Colonial Era to the present: British colonialism, development of slave-based agriculture, the western expansion, the 'American system' of manufacturing, cyclical instability and depression, and the distribution of income. Prerequisite: One of ECON 101, ECON 310 and one of ECON 102, ECON 311.",
+      "prereq": {
+        "text": "One of ECON 101, ECON 310 and one of ECON 102, ECON 311",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "ECON 101",
+                "ECON 310"
+              ]
+            },
+            {
+              "one_of": [
+                "ECON 102",
+                "ECON 311"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 339",
+      "title": "Economics of Technological Change",
+      "credits": "3",
+      "description": "Application of economic analysis to technological change; the impact of technological change on the growth and distribution of income; economic influences on the invention and diffusion of technology; the interaction between technology, work, skills, and education; public policy toward technological change. Prerequisite: One of ECON 101, ECON 310 and one of ECON 102, ECON 311.",
+      "prereq": {
+        "text": "One of ECON 101, ECON 310 and one of ECON 102, ECON 311",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "ECON 101",
+                "ECON 310"
+              ]
+            },
+            {
+              "one_of": [
+                "ECON 102",
+                "ECON 311"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 345",
+      "title": "Money and Banking",
+      "credits": "3",
+      "description": "Financial markets and financial institutions in theory and practice; structure and development of the Canadian financial system; development and theory of the regulation of the financial system; process of monetary control; theory and history of central banking and monetary policy. Prerequisite: One of ECON 101, ECON 310, ECON_O 101 and one of ECON 102, ECON 311, ECON_O 102.",
+      "prereq": {
+        "text": "One of ECON 101, ECON 310, ECON_O 101 and one of ECON 102, ECON 311, ECON_O 102",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "ECON 101",
+                "ECON 310",
+                "ECON_O 101"
+              ]
+            },
+            {
+              "one_of": [
+                "ECON 102",
+                "ECON 311",
+                "ECON_O 102"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 350",
+      "title": "Public Finance Policy Topics",
+      "credits": "3",
+      "description": "Examination of two or three selected policy problems from areas of taxation, income security, and public expenditures. Topics to be selected each year from areas of current or recent policy debate. Examples include public pension policy, privatization and public services, income tax or sales tax reform, federal-provincial cost sharing programs, tax incentives versus direct expenditures, welfare reform. Prerequisite: One of ECON 101, ECON 310 and one of ECON 102, ECON 311.",
+      "prereq": {
+        "text": "One of ECON 101, ECON 310 and one of ECON 102, ECON 311",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "ECON 101",
+                "ECON 310"
+              ]
+            },
+            {
+              "one_of": [
+                "ECON 102",
+                "ECON 311"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 351",
+      "title": "Sex and Gender in the Economy",
+      "credits": "3",
+      "description": "Application of economic analysis to marriage, fertility and health, gender inequality in labour markets and unpaid caregiving; the application of sex and gender-based policy analysis to topics related to employment, and technological and social change in current and historical perspectives. Prerequisite: One of ECON 101, ECON 310 and one of ECON 102, ECON 311.",
+      "prereq": {
+        "text": "One of ECON 101, ECON 310 and one of ECON 102, ECON 311",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "ECON 101",
+                "ECON 310"
+              ]
+            },
+            {
+              "one_of": [
+                "ECON 102",
+                "ECON 311"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 355",
+      "title": "Introduction to International Trade",
+      "credits": "3",
+      "description": "The determinants of trade patterns, trade policy, tariff and non-tariff barriers to trade, political economy of protectionism, bilateral and multilateral trade disputes, trade liberalization, trade and development. Prerequisite: One of ECON 101, ECON 310 and one of ECON 102, ECON 311.",
+      "prereq": {
+        "text": "One of ECON 101, ECON 310 and one of ECON 102, ECON 311",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "ECON 101",
+                "ECON 310"
+              ]
+            },
+            {
+              "one_of": [
+                "ECON 102",
+                "ECON 311"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 356",
+      "title": "Introduction to International Finance",
+      "credits": "3",
+      "description": "Exchange rate policy regimes; international financial organizations; the interaction between monetary policy and exchange rate regimes; financial crises. Prerequisite: One of ECON 101, ECON 310, ECON_O 101 and one of ECON 102, ECON 311, ECON_O 102.",
+      "prereq": {
+        "text": "One of ECON 101, ECON 310, ECON_O 101 and one of ECON 102, ECON 311, ECON_O 102",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "ECON 101",
+                "ECON 310",
+                "ECON_O 101"
+              ]
+            },
+            {
+              "one_of": [
+                "ECON 102",
+                "ECON 311",
+                "ECON_O 102"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 360",
+      "title": "Labour Economics",
+      "credits": "3",
+      "description": "A study of the Canadian labour market. Labour supply, the allocation of the time among work and non-market activity, participation in the labour force, education and training. The demand for labour. The determination of wages and employment. The effect of unions on wages and employment. The wage structure, wage differentials by occupation, industry, race and sex. Unemployment. Credit may be obtained for only one of ECON 360 and 460. Prerequisite: One of ECON 101, ECON 310.",
+      "prereq": {
+        "text": "One of ECON 101, ECON 310",
+        "tree": {
+          "one_of": [
+            "ECON 101",
+            "ECON 310"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 364",
+      "title": "The Economics of Sustainable Development: Communities, Markets and Technology",
+      "credits": "3-6",
+      "description": "Research and seminars on topics of concern to economists and communities located locally and internationally. Environmental sustainability, sustainable livelihoods, development effectiveness, institutions, agency, ethics, and well-being. Theoretical approaches, case studies, and community-based learning. Restricted to BA students with at least 3rd year standing and BIE students with at least 2nd year standing. Students are expected to have completed at least 9 ECON credits prior to registration. Prerequisite: One of ECON 101, ECON 310 and one of ECON 102, ECON 311.",
+      "prereq": {
+        "text": "One of ECON 101, ECON 310 and one of ECON 102, ECON 311",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "ECON 101",
+                "ECON 310"
+              ]
+            },
+            {
+              "one_of": [
+                "ECON 102",
+                "ECON 311"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 365",
+      "title": "Topics in Canadian Industrial Organization and Regulation Policy",
+      "credits": "3",
+      "description": "Current topics in industrial organization and regulation with emphasis on Canadian federal and provincial policy. The content will differ from year to year. Possible subjects include the regulation of transportation and communications, environmental regulation, marketing boards and other forms of agricultural regulation, competition and anti-combines policy, industrial organization and trade policy, and issues in consumer protection. Prerequisite: One of ECON 101, ECON 310 and one of ECON 102, ECON 311.",
+      "prereq": {
+        "text": "One of ECON 101, ECON 310 and one of ECON 102, ECON 311",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "ECON 101",
+                "ECON 310"
+              ]
+            },
+            {
+              "one_of": [
+                "ECON 102",
+                "ECON 311"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 367",
+      "title": "Economic Analysis of Law",
+      "credits": "3",
+      "description": "The economics of market failure, equity and efficiency. Property rights, the economics of accident and contract law, economic theories of law enforcement. Prerequisite: One of ECON 101, ECON 310 and one of ECON 102, ECON 311.",
+      "prereq": {
+        "text": "One of ECON 101, ECON 310 and one of ECON 102, ECON 311",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "ECON 101",
+                "ECON 310"
+              ]
+            },
+            {
+              "one_of": [
+                "ECON 102",
+                "ECON 311"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 370",
+      "title": "Benefit-Cost Analysis and the Economics of Project Evaluation",
+      "credits": "3",
+      "description": "Techniques and problems in benefit-cost analysis of public projects. Examination of alternative approaches to public decision-making such as cost-effectiveness analysis and multiple-objective frameworks. Case studies of projects in the areas of natural resources, the environment, human resources, public services, and transportation. Prerequisite: One of ECON 101, ECON 310.",
+      "prereq": {
+        "text": "One of ECON 101, ECON 310",
+        "tree": {
+          "one_of": [
+            "ECON 101",
+            "ECON 310"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 371",
+      "title": "Economics of the Environment",
+      "credits": "3",
+      "description": "Economic analysis applied to various environmental issues, including sustainable development, quality of life, and environmental impacts of specific industrial and consumption activities. The design and implementation of government policies. Global environmental effects of human economic activity. Credit will be granted for only one of COEC 475, COMM 487 or ECON 371. Prerequisite: One of ECON 101, ECON 310, ECON_O 101.",
+      "prereq": {
+        "text": "One of ECON 101, ECON 310, ECON_O 101",
+        "tree": {
+          "one_of": [
+            "ECON 101",
+            "ECON 310",
+            "ECON_O 101"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 374",
+      "title": "Land Economics",
+      "credits": "3",
+      "description": "Economic analysis applied to problems of land use. Rent theory. Land valuation. Land conservation. Techniques for assessing economic efficiency of land use. Effects of institutions and public policies on land use. Credit will be granted for only one of ECON 374 or FRE 374. Prerequisite: One of ECON 101, ECON 310. Equivalency: FRE 374.",
+      "prereq": {
+        "text": "One of ECON 101, ECON 310",
+        "tree": {
+          "one_of": [
+            "ECON 101",
+            "ECON 310"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": "FRE 374",
+      "recommended": null
+    },
+    {
+      "code": "ECON 384",
+      "title": "Economic Analysis of Health Services",
+      "credits": "3",
+      "description": "Microeconomic theory of resource allocation with emphasis on the applications of optimizing models of health service markets. Analysis of Canadian problems in health service supply. Models of the consumer/patient, the physician/entrepreneur, the not-for-profit hospital/firm, and the third-party regulatory and payment agency. Prerequisite: One of ECON 101, ECON 310 and one of ECON 102, ECON 311.",
+      "prereq": {
+        "text": "One of ECON 101, ECON 310 and one of ECON 102, ECON 311",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "ECON 101",
+                "ECON 310"
+              ]
+            },
+            {
+              "one_of": [
+                "ECON 102",
+                "ECON 311"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 390",
+      "title": "Introduction to Economic Research",
+      "credits": "3",
+      "description": "Selected topics in economic research. Application of research methods to economic data. Credit will be granted for only one of ECON 390, ECON 490, ECON 494, or ECON 499. Prerequisite: One of ECON 101, ECON 310, ECON_O 101 and one of ECON 102, ECON 311, ECON_O 102 and one of MATH 100, MATH 102, MATH 104, MATH 110, MATH 120, MATH 180, MATH 184, MATH_O 100. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "One of ECON 101, ECON 310, ECON_O 101 and one of ECON 102, ECON 311, ECON_O 102 and one of MATH 100, MATH 102, MATH 104, MATH 110, MATH 120, MATH 180, MATH 184, MATH_O 100",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "ECON 101",
+                "ECON 310",
+                "ECON_O 101"
+              ]
+            },
+            {
+              "one_of": [
+                "ECON 102",
+                "ECON 311",
+                "ECON_O 102"
+              ]
+            },
+            {
+              "one_of": [
+                "MATH 100",
+                "MATH 102",
+                "MATH 104",
+                "MATH 110",
+                "MATH 120",
+                "MATH 180",
+                "MATH 184",
+                "MATH_O 100"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 392",
+      "title": "Topics in Economics",
+      "credits": "3-9",
+      "description": "Topics will vary from year to year. Consult the program website ( https://economics.ubc.ca/courses/?subject=econ ) for more information. Prerequisite: One of ECON 101, ECON 310 and one of ECON 102, ECON 311.",
+      "prereq": {
+        "text": "One of ECON 101, ECON 310 and one of ECON 102, ECON 311",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "ECON 101",
+                "ECON 310"
+              ]
+            },
+            {
+              "one_of": [
+                "ECON 102",
+                "ECON 311"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 398",
+      "title": "Introduction to Causal Methods",
+      "credits": "3",
+      "description": "Theory and practice of the analytical application of economics. Causality, causal modeling, empirical analysis, and the use of theoretical models in policy evaluation and other practical applications. Prerequisite: Either (a) one of ECON 101, ECON 102, ECON 310, ECON 311, ECON_O 101, ECON_O 102 and one of STAT 200, STAT 201, STAT 241, STAT 251, COMM 191, FRST 231, STAT_O 205, STAT_O 124, STAT_O 230; or (b) one of ECON 226, ECON 325, ECON 326, ECON 327; or (c) permission of the instructor.",
+      "prereq": {
+        "text": "Either (a) one of ECON 101, ECON 102, ECON 310, ECON 311, ECON_O 101, ECON_O 102 and one of STAT 200, STAT 201, STAT 241, STAT 251, COMM 191, FRST 231, STAT_O 205, STAT_O 124, STAT_O 230; or (b) one of ECON 226, ECON 325, ECON 326, ECON 327; or (c) permission of the instructor",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                {
+                  "one_of": [
+                    "ECON 101",
+                    "ECON 102",
+                    "ECON 310",
+                    "ECON 311",
+                    "ECON_O 101",
+                    "ECON_O 102"
+                  ]
+                },
+                {
+                  "one_of": [
+                    "STAT 200",
+                    "STAT 201",
+                    "STAT 241",
+                    "STAT 251",
+                    "COMM 191",
+                    "FRST 231",
+                    "STAT_O 205",
+                    "STAT_O 124",
+                    "STAT_O 230"
+                  ]
+                }
+              ]
+            },
+            {
+              "one_of": [
+                "ECON 226",
+                "ECON 325",
+                "ECON 326",
+                "ECON 327"
+              ]
+            },
+            {
+              "other": "permission of the instructor"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 406",
+      "title": "Topics in Microeconomics",
+      "credits": "3",
+      "description": "Selected topics in advanced microeconomic analysis. Prerequisite: One of ECON 301, ECON 304, ECON 315, COMM 295 and one of ECON 303, ECON 306, ECON 316.",
+      "prereq": {
+        "text": "One of ECON 301, ECON 304, ECON 315, COMM 295 and one of ECON 303, ECON 306, ECON 316",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "ECON 301",
+                "ECON 304",
+                "ECON 315",
+                "COMM 295"
+              ]
+            },
+            {
+              "one_of": [
+                "ECON 303",
+                "ECON 306",
+                "ECON 316"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 407",
+      "title": "Topics in Macroeconomics",
+      "credits": "3",
+      "description": "Selected topics in advanced macroeconomic analysis. Prerequisite: One of ECON 301, ECON 304, ECON 315, COMM 295 and one of ECON 302, ECON 305, ECON 309.",
+      "prereq": {
+        "text": "One of ECON 301, ECON 304, ECON 315, COMM 295 and one of ECON 302, ECON 305, ECON 309",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "ECON 301",
+                "ECON 304",
+                "ECON 315",
+                "COMM 295"
+              ]
+            },
+            {
+              "one_of": [
+                "ECON 302",
+                "ECON 305",
+                "ECON 309"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 408",
+      "title": "Computational Methods in Macroeconomics",
+      "credits": "3",
+      "description": "Computational tools and algorithms used in macroeconomics and financial economics including applications to unemployment, inequality, asset pricing, and economic growth. Prerequisite: One of ECON 301, ECON 304, ECON 315 and one of ECON 323, CPSC 103, CPSC 107, CPSC 110, CPSC 301, MATH 210, COMM 337, PHYS 210, EOSC 211, APSC 160 and one of MATH 152, MATH 221, MATH 223.",
+      "prereq": {
+        "text": "One of ECON 301, ECON 304, ECON 315 and one of ECON 323, CPSC 103, CPSC 107, CPSC 110, CPSC 301, MATH 210, COMM 337, PHYS 210, EOSC 211, APSC 160 and one of MATH 152, MATH 221, MATH 223",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "ECON 301",
+                "ECON 304",
+                "ECON 315"
+              ]
+            },
+            {
+              "one_of": [
+                "ECON 323",
+                "CPSC 103",
+                "CPSC 107",
+                "CPSC 110",
+                "CPSC 301",
+                "MATH 210",
+                "COMM 337",
+                "PHYS 210",
+                "EOSC 211",
+                "APSC 160"
+              ]
+            },
+            {
+              "one_of": [
+                "MATH 152",
+                "MATH 221",
+                "MATH 223"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 420",
+      "title": "Optimization and Economic Theory",
+      "credits": "3",
+      "description": "An introduction to static and dynamic optimization methods with economic applications. Prerequisite: MATH 200 and one of ECON 301, ECON 304, ECON 315, COMM 295.",
+      "prereq": {
+        "text": "MATH 200 and one of ECON 301, ECON 304, ECON 315, COMM 295",
+        "tree": {
+          "all_of": [
+            "MATH 200",
+            {
+              "one_of": [
+                "ECON 301",
+                "ECON 304",
+                "ECON 315",
+                "COMM 295"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 421",
+      "title": "Introduction to Game Theory and Applications",
+      "credits": "3",
+      "description": "Principles of rational behaviour in strategic situations and various notions of equilibrium useful in predicting outcomes. Applications from economics, business, politics, law and biology. Prerequisite: One of ECON 301, ECON 304, ECON 315, COMM 295.",
+      "prereq": {
+        "text": "One of ECON 301, ECON 304, ECON 315, COMM 295",
+        "tree": {
+          "one_of": [
+            "ECON 301",
+            "ECON 304",
+            "ECON 315",
+            "COMM 295"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 422",
+      "title": "Mathematics for Economists",
+      "credits": "3",
+      "description": "Provides the required preparation in mathematics for the study of graduate economic theory. Solving systems of simultaneous equations; unconstrained and constrained maxima; elementary theory of difference and differential equations. Restricted to students taking graduate economic theory courses.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 425",
+      "title": "Advanced Econometrics",
+      "credits": "3",
+      "description": "The study and analysis of advanced econometric models. Topics may include statistical inference on various models with nonlinearity and endogeneity, such as models with instrumental variables, discrete-choice models, panel regression models, models of causal inference, and machine learning methods. Prerequisite: One of ECON 326, ECON 328, STAT 306, LFS 252.",
+      "prereq": {
+        "text": "One of ECON 326, ECON 328, STAT 306, LFS 252",
+        "tree": {
+          "one_of": [
+            "ECON 326",
+            "ECON 328",
+            "STAT 306",
+            "LFS 252"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 426",
+      "title": "Econometric Analysis",
+      "credits": "3",
+      "description": "Further topics in econometrics including such areas as nonlinear estimation, distributed lag models, time-series analysis, time-varying parameters, multivariate analysis, simulation and forecasting models, Monte Carlo experiments, duration models, large econometric models, Bayesian statistics, asymptotic theory, and ergodic theory. Prerequisite: ECON 425",
+      "prereq": {
+        "text": "ECON 425",
+        "tree": "ECON 425",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 441",
+      "title": "The Process of Economic Development",
+      "credits": "3",
+      "description": "Industrialization of an agrarian economy; how the West grew rich; history of Japanese development; technical progress and growth; evolution of the patterns of income distribution; role of international trade in development; environment and development. Prerequisite: One of ECON 301, ECON 304, ECON 315, COMM 295.",
+      "prereq": {
+        "text": "One of ECON 301, ECON 304, ECON 315, COMM 295",
+        "tree": {
+          "one_of": [
+            "ECON 301",
+            "ECON 304",
+            "ECON 315",
+            "COMM 295"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 442",
+      "title": "Issues in Economic Development",
+      "credits": "3",
+      "description": "Divergence in the world economy, poverty, consequences of initial inequality, institutions, the impact of history, recent developmental experience--some case studies, labour and credit markets, the trickle down process. Prerequisite: One of ECON 301, ECON 304, ECON 315, COMM 295.",
+      "prereq": {
+        "text": "One of ECON 301, ECON 304, ECON 315, COMM 295",
+        "tree": {
+          "one_of": [
+            "ECON 301",
+            "ECON 304",
+            "ECON 315",
+            "COMM 295"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 447",
+      "title": "Monetary Theory",
+      "credits": "3",
+      "description": "Theoretical analysis of economies that use money; the emergence of money; the roles of money in the economy; models of money demand; the optimal quantity of money seignorage and inflation; monetary policy and macroeconomic stability; monetary policy in an open economy. Prerequisite: One of ECON 301, ECON 304, ECON 315, COMM 295 and one of ECON 302, ECON 305, ECON 309.",
+      "prereq": {
+        "text": "One of ECON 301, ECON 304, ECON 315, COMM 295 and one of ECON 302, ECON 305, ECON 309",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "ECON 301",
+                "ECON 304",
+                "ECON 315",
+                "COMM 295"
+              ]
+            },
+            {
+              "one_of": [
+                "ECON 302",
+                "ECON 305",
+                "ECON 309"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 450",
+      "title": "Economics of Taxation",
+      "credits": "3",
+      "description": "Economic analysis of taxation. Equity, efficiency, and incidence of government revenue sources such as personal and corporate income taxes, sales taxes, property taxes, payroll taxes, and environmental taxes. Prerequisite: One of ECON 301, ECON 304, ECON 315, COMM 295 and one of ECON 302, ECON 305, ECON 309.",
+      "prereq": {
+        "text": "One of ECON 301, ECON 304, ECON 315, COMM 295 and one of ECON 302, ECON 305, ECON 309",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "ECON 301",
+                "ECON 304",
+                "ECON 315",
+                "COMM 295"
+              ]
+            },
+            {
+              "one_of": [
+                "ECON 302",
+                "ECON 305",
+                "ECON 309"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 451",
+      "title": "Economics of Public Expenditures",
+      "credits": "3",
+      "description": "The role of government in the economy; efficiency and economic justice. Theory of public goods; applications to topics such as education, medical care and social services. Pricing and investment rules for public enterprises. Prerequisite: One of ECON 301, ECON 304, ECON 315, COMM 295 and one of ECON 302, ECON 305, ECON 309.",
+      "prereq": {
+        "text": "One of ECON 301, ECON 304, ECON 315, COMM 295 and one of ECON 302, ECON 305, ECON 309",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "ECON 301",
+                "ECON 304",
+                "ECON 315",
+                "COMM 295"
+              ]
+            },
+            {
+              "one_of": [
+                "ECON 302",
+                "ECON 305",
+                "ECON 309"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 455",
+      "title": "International Trade",
+      "credits": "3",
+      "description": "International trade theory and policy in general equilibrium; relative costs, factor proportions, imperfect competition and the pattern of trade; efficiency and distribution. Prerequisite: One of ECON 301, ECON 304, ECON 315, COMM 295.",
+      "prereq": {
+        "text": "One of ECON 301, ECON 304, ECON 315, COMM 295",
+        "tree": {
+          "one_of": [
+            "ECON 301",
+            "ECON 304",
+            "ECON 315",
+            "COMM 295"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 456",
+      "title": "International Macroeconomics and Finance",
+      "credits": "3",
+      "description": "Balance of payments; market for foreign exchange; mechanism for adjusting the balance of payments; internal vs. external stability; current problems and issues. Credit will be granted for only one of ECON 456, COEC 377, or COMM 377. Prerequisite: One of ECON 302, ECON 305, ECON 309.",
+      "prereq": {
+        "text": "One of ECON 302, ECON 305, ECON 309",
+        "tree": {
+          "one_of": [
+            "ECON 302",
+            "ECON 305",
+            "ECON 309"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 457",
+      "title": "Seminar in International Economic Relations",
+      "credits": "3",
+      "description": "Selected topics focusing upon various issues arising in international economic relations. Open only to fourth-year students in the Major program in International Relations. Credit shall not count towards 400-level ECON courses for economics majors, combined majors, honours, and the B.I.E. Prerequisite: One of ECON 101, ECON 310 and one of ECON 102, ECON 311.",
+      "prereq": {
+        "text": "One of ECON 101, ECON 310 and one of ECON 102, ECON 311",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "ECON 101",
+                "ECON 310"
+              ]
+            },
+            {
+              "one_of": [
+                "ECON 102",
+                "ECON 311"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 460",
+      "title": "Economics of Labour Markets",
+      "credits": "3",
+      "description": "The theory of labour supply and demand for individuals, households, and firms. Policy implications for Canadian taxation and benefit programs. Employee selection, hiring and promotion. Credit may not be obtained for both ECON 360 and 460. Prerequisite: One of ECON 301, ECON 304, ECON 315, COMM 295 and one of ECON 302, ECON 305, ECON 309.",
+      "prereq": {
+        "text": "One of ECON 301, ECON 304, ECON 315, COMM 295 and one of ECON 302, ECON 305, ECON 309",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "ECON 301",
+                "ECON 304",
+                "ECON 315",
+                "COMM 295"
+              ]
+            },
+            {
+              "one_of": [
+                "ECON 302",
+                "ECON 305",
+                "ECON 309"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 465",
+      "title": "Market Structure",
+      "credits": "3",
+      "description": "Market structure and social welfare, theory of price discrimination, equilibrium in oligopolistic markets, entry and exit decisions, product differentiation and spatial models, theories of hierarchical organization, agency problem in the modern corporation, vertical integration and control, market structure and technical progress. Prerequisite: One of ECON 301, ECON 304, ECON 315, COMM 295.",
+      "prereq": {
+        "text": "One of ECON 301, ECON 304, ECON 315, COMM 295",
+        "tree": {
+          "one_of": [
+            "ECON 301",
+            "ECON 304",
+            "ECON 315",
+            "COMM 295"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 466",
+      "title": "The Economics of Government Regulation of Business",
+      "credits": "3",
+      "description": "Normative and positive theories of government regulation of business. Topics include natural monopoly, socially optimal monopoly pricing, regulation of multi-firm industries, competition policy. Selected empirical studies. Prerequisite: One of ECON 301, ECON 304, ECON 315, COMM 295.",
+      "prereq": {
+        "text": "One of ECON 301, ECON 304, ECON 315, COMM 295",
+        "tree": {
+          "one_of": [
+            "ECON 301",
+            "ECON 304",
+            "ECON 315",
+            "COMM 295"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 467",
+      "title": "Economics of Crime and Policing",
+      "credits": "3",
+      "description": "The application of methods and theory to topics related to the criminal justice system with a specific focus on the role of policy in reducing crime rates, punitiveness and systemic inequality. Prerequisite: One of ECON 301, ECON 304, ECON 315, COMM 295 and one of ECON 326, ECON 328, STAT 306, LFS 252.",
+      "prereq": {
+        "text": "One of ECON 301, ECON 304, ECON 315, COMM 295 and one of ECON 326, ECON 328, STAT 306, LFS 252",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "ECON 301",
+                "ECON 304",
+                "ECON 315",
+                "COMM 295"
+              ]
+            },
+            {
+              "one_of": [
+                "ECON 326",
+                "ECON 328",
+                "STAT 306",
+                "LFS 252"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 471",
+      "title": "Economics of Nonrenewable Resources",
+      "credits": "3",
+      "description": "Application of economic analysis to the management of nonrenewable natural resources. Emphasis is placed on the economics of alternative energy sources. Other topics include mineral economics, criteria for the optimal use of resources, and measurement of resources. Prerequisite: One of ECON 301, ECON 304, ECON 315, COMM 295.",
+      "prereq": {
+        "text": "One of ECON 301, ECON 304, ECON 315, COMM 295",
+        "tree": {
+          "one_of": [
+            "ECON 301",
+            "ECON 304",
+            "ECON 315",
+            "COMM 295"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 472",
+      "title": "Economics of Renewable Resources",
+      "credits": "3",
+      "description": "Application of economic analysis to the management of renewable resources. Special attention is given to criteria for the optimal use of depleting resources such as forests and water. Other topics include public policy with regard to environmental quality, conservation, and outdoor recreation. Prerequisite: One of ECON 301, ECON 304, ECON 315, COMM 295.",
+      "prereq": {
+        "text": "One of ECON 301, ECON 304, ECON 315, COMM 295",
+        "tree": {
+          "one_of": [
+            "ECON 301",
+            "ECON 304",
+            "ECON 315",
+            "COMM 295"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 473",
+      "title": "Economics of Climate Change",
+      "credits": "3",
+      "description": "The impact of climate change as examined through economic thinking and research. Social and economic outcomes, social cost of carbon, policies to mitigate or adapt to climate change, and climate justice. Prerequisites: One of ECON 301, ECON 304, ECON 315, COMM 295 or FRST 318; and one of ECON 326, ECON 328, STAT 306, or FRE 326.",
+      "prereq": {
+        "text": "One of ECON 301, ECON 304, ECON 315, COMM 295 or FRST 318; and one of ECON 326, ECON 328, STAT 306, or FRE 326",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "ECON 301",
+                "ECON 304",
+                "ECON 315",
+                "COMM 295",
+                "FRST 318"
+              ]
+            },
+            {
+              "one_of": [
+                "ECON 326",
+                "ECON 328",
+                "STAT 306",
+                "FRE 326"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 482",
+      "title": "The Economic Consequences of Religion",
+      "credits": "3",
+      "description": "Analysis of the economic aspects of religious behaviour, the structure of religious organizations, the effects of competition in the religious marketplace, the economic benefits of religion, and some of the ill-effects of religion (such as religious strife and terrorism). Prerequisite: One of ECON 301, ECON 304, ECON 315, COMM 295.",
+      "prereq": {
+        "text": "One of ECON 301, ECON 304, ECON 315, COMM 295",
+        "tree": {
+          "one_of": [
+            "ECON 301",
+            "ECON 304",
+            "ECON 315",
+            "COMM 295"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 485",
+      "title": "Political Economy",
+      "credits": "3",
+      "description": "State and politics in economics. How states emerge, how dictators stay in power. Why groups engage in costly conflict, how countries turn into democracies and what its benefits are. Prerequisite: One of ECON 301, ECON 304, ECON 315, COMM 295 and one of ECON 302, ECON 305, ECON 309 and one of ECON 326, ECON 328, STAT 306, LFS 252.",
+      "prereq": {
+        "text": "One of ECON 301, ECON 304, ECON 315, COMM 295 and one of ECON 302, ECON 305, ECON 309 and one of ECON 326, ECON 328, STAT 306, LFS 252",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "ECON 301",
+                "ECON 304",
+                "ECON 315",
+                "COMM 295"
+              ]
+            },
+            {
+              "one_of": [
+                "ECON 302",
+                "ECON 305",
+                "ECON 309"
+              ]
+            },
+            {
+              "one_of": [
+                "ECON 326",
+                "ECON 328",
+                "STAT 306",
+                "LFS 252"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 490",
+      "title": "Seminar in Applied Economics",
+      "credits": "3",
+      "description": "Selected problems and issues in the theory and practice of Economics. Each section will focus on a different field. Restricted to students in Economics Majors and Combined Majors in Economics in their final academic session. Credit will only be granted for one of ECON 390, ECON 490, ECON 494, ECON 499. Prerequisite: One of ECON 326, ECON 328, STAT 306, FRE 326 and one of ECON 301, ECON 304, ECON 315, COMM 295 and one of ECON 302, ECON 305, ECON 309. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "One of ECON 326, ECON 328, STAT 306, FRE 326 and one of ECON 301, ECON 304, ECON 315, COMM 295 and one of ECON 302, ECON 305, ECON 309",
+        "tree": {
+          "all_of": [
+            {
+              "one_of": [
+                "ECON 326",
+                "ECON 328",
+                "STAT 306",
+                "FRE 326"
+              ]
+            },
+            {
+              "one_of": [
+                "ECON 301",
+                "ECON 304",
+                "ECON 315",
+                "COMM 295"
+              ]
+            },
+            {
+              "one_of": [
+                "ECON 302",
+                "ECON 305",
+                "ECON 309"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 492",
+      "title": "Directed Reading",
+      "credits": "3-6",
+      "description": "",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 493",
+      "title": "Advanced Empirical Methods for International Economics",
+      "credits": "3",
+      "description": "Econometric methodologies necessary to conduct applied research, including time series analysis and panel data methods; review of empirical work in international economics. Registration restricted to students in the Bachelor of International Economics Program. Prerequisite: ECON 328. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "ECON 328",
+        "tree": "ECON 328",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 494",
+      "title": "Seminar in Applied International Economics",
+      "credits": "3",
+      "description": "Focus on a particular aspect of applied international economics. Independent empirical research project required. Credit will only be granted for one of ECON 390, 490, 494, 499. Registration restricted to students in the Bachelor of International Economics Program. Prerequisite: ECON 493. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "ECON 493",
+        "tree": "ECON 493",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 495",
+      "title": "Honours Seminar",
+      "credits": "3",
+      "description": "Reports and group discussions of selected topics for fourth-year Honours students. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 499",
+      "title": "Honours Essay",
+      "credits": "6",
+      "description": "Essay on some theoretical, applied, or institutional problem. Open only to fourth-year Honours students. Credit will only be granted for one of ECON 390, 490, 494, 499. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 500",
+      "title": "Microeconomics",
+      "credits": "3",
+      "description": "Restricted to M.A. ECON, Ph.D. ECON. External students may request permission to take this course from the ECON graduate program office. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 502",
+      "title": "Macroeconomics",
+      "credits": "3",
+      "description": "Restricted to M.A. ECON, Ph.D. ECON. External students may request permission to take this course from the ECON graduate program office. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 514",
+      "title": "Computational Microeconomics",
+      "credits": "3",
+      "description": "Restricted to M.A. ECON, Ph.D. ECON. External students may request permission to take this course from the ECON graduate program office. Prerequisites: Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "ECON 500",
+                "ECON 502",
+                "ECON 526",
+                "ECON 527"
+              ]
+            },
+            {
+              "all_of": [
+                "ECON 600",
+                "ECON 601",
+                "ECON 602",
+                "ECON 603",
+                "ECON 626",
+                "ECON 627"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 515",
+      "title": "Special Topics in Microeconomic Theory",
+      "credits": "3-6",
+      "description": "Restricted to M.A. ECON, Ph.D. ECON. External students may request permission to take this course from the ECON graduate program office. Prerequisite: Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "ECON 500",
+                "ECON 502",
+                "ECON 526",
+                "ECON 527"
+              ]
+            },
+            {
+              "all_of": [
+                "ECON 600",
+                "ECON 601",
+                "ECON 602",
+                "ECON 603",
+                "ECON 626",
+                "ECON 627"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 516",
+      "title": "Special Topics in Macroeconomics",
+      "credits": "3",
+      "description": "Restricted to M.A. ECON, Ph.D. ECON. External students may request permission to take this course from the ECON graduate program office. Prerequisite: Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "ECON 500",
+                "ECON 502",
+                "ECON 526",
+                "ECON 527"
+              ]
+            },
+            {
+              "all_of": [
+                "ECON 600",
+                "ECON 601",
+                "ECON 602",
+                "ECON 603",
+                "ECON 626",
+                "ECON 627"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 517",
+      "title": "Comparing Societies: Understanding Diverse Social Perspectives",
+      "credits": "3",
+      "description": "Restricted to M.A. ECON, Ph.D. ECON. External students may request permission to take this course from the ECON graduate program office. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 518",
+      "title": "History of Economic Analysis I",
+      "credits": "3",
+      "description": "Restricted to M.A. ECON, Ph.D. ECON. External students may request permission to take this course from the ECON graduate program office. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 519",
+      "title": "History of Economic Analysis II",
+      "credits": "3",
+      "description": "Restricted to M.A. ECON, Ph.D. ECON. External students may request permission to take this course from the ECON graduate program office. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 522",
+      "title": "Economic Applications of Game Theory",
+      "credits": "3",
+      "description": "Restricted to M.A. ECON, Ph.D. ECON. External students may request permission to take this course from the ECON graduate program office. Prerequisite: Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "ECON 500",
+                "ECON 502",
+                "ECON 526",
+                "ECON 527"
+              ]
+            },
+            {
+              "all_of": [
+                "ECON 600",
+                "ECON 601",
+                "ECON 602",
+                "ECON 603",
+                "ECON 626",
+                "ECON 627"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 523",
+      "title": "Behavioural Economics",
+      "credits": "3",
+      "description": "Restricted to M.A. ECON, Ph.D. ECON. External students may request permission to take this course from the ECON graduate program office. Prerequisite: Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "ECON 500",
+                "ECON 502",
+                "ECON 526",
+                "ECON 527"
+              ]
+            },
+            {
+              "all_of": [
+                "ECON 600",
+                "ECON 601",
+                "ECON 602",
+                "ECON 603",
+                "ECON 626",
+                "ECON 627"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 526",
+      "title": "Quantitative Economics with Data Science Applications",
+      "credits": "3",
+      "description": "Restricted to M.A. ECON, Ph.D. ECON. External students may request permission to take this course from the ECON graduate program office. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 527",
+      "title": "Econometric Methods of Economic Research",
+      "credits": "3",
+      "description": "Restricted to M.A. ECON, Ph.D. ECON. External students may request permission to take this course from the ECON graduate program office. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 531",
+      "title": "Economic History I",
+      "credits": "3",
+      "description": "Restricted to M.A. ECON, Ph.D. ECON. External students may request permission to take this course from the ECON graduate program office. Prerequisite: Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "ECON 500",
+                "ECON 502",
+                "ECON 526",
+                "ECON 527"
+              ]
+            },
+            {
+              "all_of": [
+                "ECON 600",
+                "ECON 601",
+                "ECON 602",
+                "ECON 603",
+                "ECON 626",
+                "ECON 627"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 532",
+      "title": "Economic History II",
+      "credits": "3",
+      "description": "Restricted to M.A. ECON, Ph.D. ECON. External students may request permission to take this course from the ECON graduate program office. Prerequisite: Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "ECON 500",
+                "ECON 502",
+                "ECON 526",
+                "ECON 527"
+              ]
+            },
+            {
+              "all_of": [
+                "ECON 600",
+                "ECON 601",
+                "ECON 602",
+                "ECON 603",
+                "ECON 626",
+                "ECON 627"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 541",
+      "title": "Economic Development I",
+      "credits": "3",
+      "description": "Restricted to M.A. ECON, Ph.D. ECON. External students may request permission to take this course from the ECON graduate program office. Prerequisite: Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627. of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "ECON 500",
+                "ECON 502",
+                "ECON 526",
+                "ECON 527"
+              ]
+            },
+            {
+              "all_of": [
+                "ECON 600",
+                "ECON 601",
+                "ECON 602",
+                "ECON 603",
+                "ECON 626",
+                "ECON 627"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 542",
+      "title": "Economic Development II",
+      "credits": "3",
+      "description": "Restricted to M.A. ECON, Ph.D. ECON. External students may request permission to take this course from the ECON graduate program office. Prerequisite: Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "ECON 500",
+                "ECON 502",
+                "ECON 526",
+                "ECON 527"
+              ]
+            },
+            {
+              "all_of": [
+                "ECON 600",
+                "ECON 601",
+                "ECON 602",
+                "ECON 603",
+                "ECON 626",
+                "ECON 627"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 543",
+      "title": "Political Economy I",
+      "credits": "3",
+      "description": "Restricted to M.A. ECON, Ph.D. ECON. External students may request permission to take this course from the ECON graduate program office. Prerequisite: Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "ECON 500",
+                "ECON 502",
+                "ECON 526",
+                "ECON 527"
+              ]
+            },
+            {
+              "all_of": [
+                "ECON 600",
+                "ECON 601",
+                "ECON 602",
+                "ECON 603",
+                "ECON 626",
+                "ECON 627"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 544",
+      "title": "Political Economy II",
+      "credits": "3",
+      "description": "Restricted to M.A. ECON, Ph.D. ECON. External students may request permission to take this course from the ECON graduate program office. Prerequisite: Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "ECON 500",
+                "ECON 502",
+                "ECON 526",
+                "ECON 527"
+              ]
+            },
+            {
+              "all_of": [
+                "ECON 600",
+                "ECON 601",
+                "ECON 602",
+                "ECON 603",
+                "ECON 626",
+                "ECON 627"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 546",
+      "title": "Monetary Theory and Policy I",
+      "credits": "3",
+      "description": "Restricted to M.A. ECON, Ph.D. ECON. External students may request permission to take this course from the ECON graduate program office. Prerequisite: Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "ECON 500",
+                "ECON 502",
+                "ECON 526",
+                "ECON 527"
+              ]
+            },
+            {
+              "all_of": [
+                "ECON 600",
+                "ECON 601",
+                "ECON 602",
+                "ECON 603",
+                "ECON 626",
+                "ECON 627"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 547",
+      "title": "Monetary Theory and Policy II",
+      "credits": "3",
+      "description": "Restricted to M.A. ECON, Ph.D. ECON. External students may request permission to take this course from the ECON graduate program office. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 550",
+      "title": "Public Economics I",
+      "credits": "3",
+      "description": "Restricted to M.A. ECON, Ph.D. ECON. External students may request permission to take this course from the ECON graduate program office. Prerequisite: Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "ECON 500",
+                "ECON 502",
+                "ECON 526",
+                "ECON 527"
+              ]
+            },
+            {
+              "all_of": [
+                "ECON 600",
+                "ECON 601",
+                "ECON 602",
+                "ECON 603",
+                "ECON 626",
+                "ECON 627"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 551",
+      "title": "Public Economics II",
+      "credits": "3",
+      "description": "Restricted to M.A. ECON, Ph.D. ECON. External students may request permission to take this course from the ECON graduate program office. Prerequisite: Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "ECON 500",
+                "ECON 502",
+                "ECON 526",
+                "ECON 527"
+              ]
+            },
+            {
+              "all_of": [
+                "ECON 600",
+                "ECON 601",
+                "ECON 602",
+                "ECON 603",
+                "ECON 626",
+                "ECON 627"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 553",
+      "title": "Wealth and Income Inequality",
+      "credits": "3",
+      "description": "Restricted to M.A. ECON, Ph.D. ECON. External students may request permission to take this course from the ECON graduate program office. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 555",
+      "title": "International Trade",
+      "credits": "3",
+      "description": "Restricted to M.A. ECON, Ph.D. ECON. External students may request permission to take this course from the ECON graduate program office. Prerequisite: Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "ECON 500",
+                "ECON 502",
+                "ECON 526",
+                "ECON 527"
+              ]
+            },
+            {
+              "all_of": [
+                "ECON 600",
+                "ECON 601",
+                "ECON 602",
+                "ECON 603",
+                "ECON 626",
+                "ECON 627"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 556",
+      "title": "International Finance",
+      "credits": "3",
+      "description": "Restricted to M.A. ECON, Ph.D. ECON. External students may request permission to take this course from the ECON graduate program office. Prerequisite: Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "ECON 500",
+                "ECON 502",
+                "ECON 526",
+                "ECON 527"
+              ]
+            },
+            {
+              "all_of": [
+                "ECON 600",
+                "ECON 601",
+                "ECON 602",
+                "ECON 603",
+                "ECON 626",
+                "ECON 627"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 557",
+      "title": "Empirical Topics in International Economics",
+      "credits": "3",
+      "description": "Restricted to M.A. ECON, Ph.D. ECON. External students may request permission to take this course from the ECON graduate program office. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 560",
+      "title": "Economics of Labour I",
+      "credits": "3",
+      "description": "Restricted to M.A. ECON, Ph.D. ECON. External students may request permission to take this course from the ECON graduate program office. Prerequisite: Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "ECON 500",
+                "ECON 502",
+                "ECON 526",
+                "ECON 527"
+              ]
+            },
+            {
+              "all_of": [
+                "ECON 600",
+                "ECON 601",
+                "ECON 602",
+                "ECON 603",
+                "ECON 626",
+                "ECON 627"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 561",
+      "title": "Economics of Labour II",
+      "credits": "3",
+      "description": "Restricted to M.A. ECON, Ph.D. ECON. External students may request permission to take this course from the ECON graduate program office. Prerequisite: Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "ECON 500",
+                "ECON 502",
+                "ECON 526",
+                "ECON 527"
+              ]
+            },
+            {
+              "all_of": [
+                "ECON 600",
+                "ECON 601",
+                "ECON 602",
+                "ECON 603",
+                "ECON 626",
+                "ECON 627"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 562",
+      "title": "Research Design and Policy Evaluation in Economics",
+      "credits": "3",
+      "description": "Restricted to M.A. ECON, Ph.D. ECON. External students may request permission to take this course from the ECON graduate program office. Prerequisite: Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "ECON 500",
+                "ECON 502",
+                "ECON 526",
+                "ECON 527"
+              ]
+            },
+            {
+              "all_of": [
+                "ECON 600",
+                "ECON 601",
+                "ECON 602",
+                "ECON 603",
+                "ECON 626",
+                "ECON 627"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 565",
+      "title": "Market Structure and Business Behaviour",
+      "credits": "3",
+      "description": "Restricted to M.A. ECON, Ph.D. ECON. External students may request permission to take this course from the ECON graduate program office. Prerequisite: Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "ECON 500",
+                "ECON 502",
+                "ECON 526",
+                "ECON 527"
+              ]
+            },
+            {
+              "all_of": [
+                "ECON 600",
+                "ECON 601",
+                "ECON 602",
+                "ECON 603",
+                "ECON 626",
+                "ECON 627"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 566",
+      "title": "Business Performance and Public Policy",
+      "credits": "3",
+      "description": "Restricted to M.A. ECON, Ph.D. ECON. External students may request permission to take this course from the ECON graduate program office. Prerequisite: Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "ECON 500",
+                "ECON 502",
+                "ECON 526",
+                "ECON 527"
+              ]
+            },
+            {
+              "all_of": [
+                "ECON 600",
+                "ECON 601",
+                "ECON 602",
+                "ECON 603",
+                "ECON 626",
+                "ECON 627"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 567",
+      "title": "Organization Theory and Non-market Allocation",
+      "credits": "3",
+      "description": "Restricted to M.A. ECON, Ph.D. ECON. External students may request permission to take this course from the ECON graduate program office. Prerequisite: Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "ECON 500",
+                "ECON 502",
+                "ECON 526",
+                "ECON 527"
+              ]
+            },
+            {
+              "all_of": [
+                "ECON 600",
+                "ECON 601",
+                "ECON 602",
+                "ECON 603",
+                "ECON 626",
+                "ECON 627"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 571",
+      "title": "The Economics of Renewable Resources",
+      "credits": "3",
+      "description": "Restricted to M.A. ECON, Ph.D. ECON. External students may request permission to take this course from the ECON graduate program office. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 572",
+      "title": "The Economics of Non-renewable Resources",
+      "credits": "3",
+      "description": "Restricted to M.A. ECON, Ph.D. ECON. External students may request permission to take this course from the ECON graduate program office. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 573",
+      "title": "Environmental Economics I",
+      "credits": "3",
+      "description": "Restricted to M.A. ECON, Ph.D. ECON. External students may request permission to take this course from the ECON graduate program office. Prerequisite: Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "ECON 500",
+                "ECON 502",
+                "ECON 526",
+                "ECON 527"
+              ]
+            },
+            {
+              "all_of": [
+                "ECON 600",
+                "ECON 601",
+                "ECON 602",
+                "ECON 603",
+                "ECON 626",
+                "ECON 627"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 574",
+      "title": "Environmental Economics II",
+      "credits": "3",
+      "description": "Restricted to M.A. ECON, Ph.D. ECON. External students may request permission to take this course from the ECON graduate program office. Prerequisite: Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "ECON 500",
+                "ECON 502",
+                "ECON 526",
+                "ECON 527"
+              ]
+            },
+            {
+              "all_of": [
+                "ECON 600",
+                "ECON 601",
+                "ECON 602",
+                "ECON 603",
+                "ECON 626",
+                "ECON 627"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 580",
+      "title": "Social and Economic Measurement",
+      "credits": "3",
+      "description": "Restricted to M.A. ECON, Ph.D. ECON. External students may request permission to take this course from the ECON graduate program office. Prerequisite: Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "ECON 500",
+                "ECON 502",
+                "ECON 526",
+                "ECON 527"
+              ]
+            },
+            {
+              "all_of": [
+                "ECON 600",
+                "ECON 601",
+                "ECON 602",
+                "ECON 603",
+                "ECON 626",
+                "ECON 627"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 581",
+      "title": "Cost-Benefit Analysis",
+      "credits": "3",
+      "description": "Restricted to M.A. ECON, Ph.D. ECON. External students may request permission to take this course from the ECON graduate program office. Prerequisite: Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "ECON 500",
+                "ECON 502",
+                "ECON 526",
+                "ECON 527"
+              ]
+            },
+            {
+              "all_of": [
+                "ECON 600",
+                "ECON 601",
+                "ECON 602",
+                "ECON 603",
+                "ECON 626",
+                "ECON 627"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 590",
+      "title": "Special Advanced Course",
+      "credits": "2-6",
+      "description": "Restricted to M.A. ECON, Ph.D. ECON. External students may request permission to take this course from the ECON graduate program office. Prerequisite: Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "ECON 500",
+                "ECON 502",
+                "ECON 526",
+                "ECON 527"
+              ]
+            },
+            {
+              "all_of": [
+                "ECON 600",
+                "ECON 601",
+                "ECON 602",
+                "ECON 603",
+                "ECON 626",
+                "ECON 627"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 592",
+      "title": "Directed Reading",
+      "credits": "2-6",
+      "description": "Restricted to M.A. ECON, Ph.D. ECON. External students may request permission to take this course from the ECON graduate program office. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 594",
+      "title": "Applied Economics",
+      "credits": "6",
+      "description": "Course restricted to ECON MA students only. Prerequisite: Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "Either (a) all of ECON 500, ECON 502, ECON 526, ECON 527 or (b) all of ECON 600, ECON 601, ECON 602, ECON 603, ECON 626, ECON 627",
+        "tree": {
+          "one_of": [
+            {
+              "all_of": [
+                "ECON 500",
+                "ECON 502",
+                "ECON 526",
+                "ECON 527"
+              ]
+            },
+            {
+              "all_of": [
+                "ECON 600",
+                "ECON 601",
+                "ECON 602",
+                "ECON 603",
+                "ECON 626",
+                "ECON 627"
+              ]
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 595",
+      "title": "Major Essay",
+      "credits": "0",
+      "description": "Course restricted to ECON MA students only. Pass/Fail. Prerequisite: All of ECON 500, ECON 502, ECON 526, ECON 527. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "All of ECON 500, ECON 502, ECON 526, ECON 527",
+        "tree": {
+          "all_of": [
+            "ECON 500",
+            "ECON 502",
+            "ECON 526",
+            "ECON 527"
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 599",
+      "title": "Master's Thesis",
+      "credits": "6-12",
+      "description": "Restricted to M.A. ECON, Ph.D. ECON. External students may request permission to take this course from the ECON graduate program office. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 600",
+      "title": "Microeconomics I",
+      "credits": "3",
+      "description": "Restricted to M.A. ECON, Ph.D. ECON. External students may request permission to take this course from the ECON graduate program office. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 601",
+      "title": "Microeconomics II",
+      "credits": "3",
+      "description": "Course restricted to ECON Ph.D. students only. External students may request permission to take this course from the ECON graduate program office. Prerequisite: ECON 600. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "ECON 600",
+        "tree": "ECON 600",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 602",
+      "title": "Macroeconomics I",
+      "credits": "3",
+      "description": "Restricted to M.A. ECON, Ph.D. ECON. External students may request permission to take this course from the ECON graduate program office. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 603",
+      "title": "Macroeconomics II",
+      "credits": "3",
+      "description": "Course restricted to ECON Ph.D. students only. External students may request permission to take this course from the ECON graduate program office. Prerequisite: ECON 602. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "ECON 602",
+        "tree": "ECON 602",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 620",
+      "title": "Mathematical Economics I",
+      "credits": "3",
+      "description": "Restricted to M.A. ECON, Ph.D. ECON. External students may request permission to take this course from the ECON graduate program office. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 621",
+      "title": "Mathematical Economics II",
+      "credits": "3",
+      "description": "Restricted to M.A. ECON, Ph.D. ECON. External students may request permission to take this course from the ECON graduate program office. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 622",
+      "title": "Computational Economics with Data Science Applications",
+      "credits": "3",
+      "description": "Computational tools used in modern economic research; applications of data science and machine learning in economics; generating data from the web and text; software tools for reproducible research. Course restricted to ECON PhD students only. External students may request permission to take this course from the ECON graduate program office. Prerequisite: ECON 627. Prior graduate-level work in econometrics is required. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "ECON 627. Prior graduate-level work in econometrics is required",
+        "tree": {
+          "all_of": [
+            "ECON 627",
+            {
+              "other": "Prior graduate-level work in econometrics is required"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 626",
+      "title": "Econometric Theory I",
+      "credits": "3",
+      "description": "Restricted to Ph.D. ECON. External students may request permission to take this course from the ECON graduate program office. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 627",
+      "title": "Econometric Theory II",
+      "credits": "3",
+      "description": "Course restricted to ECON PhD students only. External students may request permission to take this course from the ECON graduate program office. Prerequisite: ECON 626. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "ECON 626",
+        "tree": "ECON 626",
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 628",
+      "title": "Topics in Applied Econometrics I",
+      "credits": "1-3",
+      "description": "Course restricted to ECON Ph.D. students only. External students may request permission to take this course from the ECON graduate program office. Prerequisite: All of ECON 500, ECON 502, ECON 526, ECON 527. Prior graduate level work in econometrics is required. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "All of ECON 500, ECON 502, ECON 526, ECON 527. Prior graduate level work in econometrics is required",
+        "tree": {
+          "all_of": [
+            "ECON 500",
+            "ECON 502",
+            "ECON 526",
+            "ECON 527",
+            {
+              "other": "Prior graduate level work in econometrics is required"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 629",
+      "title": "Topics in Applied Econometrics II",
+      "credits": "1-3",
+      "description": "Course restricted to ECON Ph.D. students only. External students may request permission to take this course from the ECON graduate program office. Prerequisite: All of ECON 500, ECON 502, ECON 526, ECON 527. Prior graduate-level work in econometrics is required. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": {
+        "text": "All of ECON 500, ECON 502, ECON 526, ECON 527. Prior graduate-level work in econometrics is required",
+        "tree": {
+          "all_of": [
+            "ECON 500",
+            "ECON 502",
+            "ECON 526",
+            "ECON 527",
+            {
+              "other": "Prior graduate-level work in econometrics is required"
+            }
+          ]
+        },
+        "source": "rules",
+        "problems": []
+      },
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 640",
+      "title": "Ph.D. Research Seminar",
+      "credits": "3",
+      "description": "Course restricted to ECON PhD students only. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    },
+    {
+      "code": "ECON 699",
+      "title": "Doctoral Dissertation",
+      "credits": "0",
+      "description": "Course restricted to ECON PhD students only. Pass/Fail. This course is not eligible for Credit/D/Fail grading.",
+      "prereq": null,
+      "coreq": null,
+      "equivalency": null,
+      "recommended": null
+    }
+  ]
+}
