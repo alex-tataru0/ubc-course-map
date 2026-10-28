@@ -162,9 +162,13 @@ describe("Arts Majors", () => {
     expect(row(major("phil-major"), ["PHIL 400"], "21 more upper-level PHIL")).toMatchObject({ counted: [] });
   });
 
-  it("are listed one per subject, each its own button", () => {
+  it("are listed one per subject, each its own button, then the Combined Majors", () => {
     expect(arts.programs.map(programSubject)).toEqual([
       "ANTH", "ECON", "ENGL", "GEOG", "HIST", "LING", "PHIL", "POLI", "PSYC", "SOCI",
+      "ECON", "ECON", "ECON", "ECON", "PHIL",
+    ]);
+    expect(arts.programs.filter((p) => p.subjects).map((p) => p.subjects!.join("+"))).toEqual([
+      "ECON+POLI", "ECON+PHIL", "ECON+MATH", "ECON+STAT", "PHIL+POLI",
     ]);
     expect(arts.programs.every((p) => p.total_credits === 120)).toBe(true);
   });

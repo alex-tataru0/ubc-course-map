@@ -2,7 +2,7 @@ import re
 
 import pytest
 
-from arts_programs import PROGRAMS, page_text, parse_arts
+from arts_programs import PROGRAMS, WRITING, page_text, parse_arts
 from build_programs import expand_ranges, known_courses, load_arts_pages
 from build_prereqs import FACULTIES
 
@@ -17,16 +17,46 @@ def programs():
 
 
 def test_one_major_per_arts_subject_with_programs(programs):
-    subjects = {p["id"].split("-")[0].upper() for p in programs}
+    majors = [p for p in programs if "subjects" not in p]
+    subjects = {p["id"].split("-")[0].upper() for p in majors}
     # WRDS only has a Minor.
     assert subjects == set(FACULTIES["arts"]) - {"WRDS"}
+    assert len(majors) == len(subjects)
     assert all(p["id"].endswith("-major") for p in programs)
+
+
+def test_combined_majors(programs):
+    combined = {p["id"]: p["subjects"] for p in programs if "subjects" in p}
+    assert combined == {
+        "econ-poli-major": ["ECON", "POLI"], "econ-phil-major": ["ECON", "PHIL"],
+        "econ-math-major": ["ECON", "MATH"], "econ-stat-major": ["ECON", "STAT"],
+        "phil-poli-major": ["PHIL", "POLI"],
+    }
+    # Both subjects have maps on the site.
+    on_site = {s for subjects in FACULTIES.values() for s in subjects}
+    assert all(set(subjects) <= on_site for subjects in combined.values())
+    names = {p["id"]: p["name"] for p in programs}
+    assert names["econ-math-major"] == "Combined Major in Economics and Mathematics"
+
+
+def test_writing_courses_match_the_faculty_of_arts_list():
+    from build_programs import load_arts_degree
+    assert WRITING == load_arts_degree(known_courses())["writing"]["courses"]
+
+
+def test_page_text_reads_codes_with_a_space_before_v():
+    # The Economics page writes "POLI _V 350 or POLI_V 352".
+    assert page_text("<td>POLI _V 350 or POLI_V 352</td>").strip() == "POLI 350 or POLI 352"
 
 
 @pytest.mark.parametrize("id, major_credits", [
     ("anth-major", 42), ("econ-major", 42), ("engl-literature-major", 42), ("geog-human-major", 45),
     ("hist-major", 42), ("ling-major", 48), ("phil-major", 42), ("poli-major", 42),
     ("psyc-major", 42), ("soci-major", 42),
+    # ECON 33 + POLI 30; ECON 30 + PHIL 24 + joint 6; Year 1 21 + Year 2 18 + ECON 15 + MATH 18;
+    # Year 1 15 + lower 21 + upper 18 + MATH/STAT 18; PHIL 30 + POLI 30.
+    ("econ-poli-major", 63), ("econ-phil-major", 60), ("econ-math-major", 72), ("econ-stat-major", 72),
+    ("phil-poli-major", 60),
 ])
 def test_credits_add_up(programs, id, major_credits):
     # Each year's rows add up to the year, and the electives fill the B.A.'s 120 credits.

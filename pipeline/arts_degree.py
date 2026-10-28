@@ -34,6 +34,13 @@ PROGRAM_RULES = {
     "poli-major": ("Political Science", ["POLI"]),
     "psyc-major": ("Psychology", ["PSYC"]),
     "soci-major": ("Sociology", ["SOCI"]),
+    # Combined Majors: the field is both subjects. Each program's own rows already include a
+    # course from the research row named here (ECON 490, or a PHIL research seminar).
+    "econ-poli-major": ("Economics", ["ECON", "POLI"]),
+    "econ-phil-major": ("Economics", ["ECON", "PHIL"]),
+    "econ-math-major": ("Economics", ["ECON", "MATH"]),
+    "econ-stat-major": ("Economics", ["ECON", "STAT"]),
+    "phil-poli-major": ("Philosophy", ["PHIL", "POLI"]),
 }
 
 

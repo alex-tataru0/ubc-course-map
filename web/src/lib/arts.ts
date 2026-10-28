@@ -14,8 +14,9 @@ const subject = (code: string) => code.split(" ")[0];
 // Every subject with a map on the site. Only their courses can be ticked.
 const ON_SITE = new Set(FACULTIES.flatMap((f) => f.subjects.map((s) => s.code)));
 
-// For now every Arts program is a Major (Combined Majors and Honours need other numbers).
-const OUTSIDE_KIND = "Major";
+// The calendar's tables give these by kind of program. A Combined Major's outside credits must
+// be outside both its subjects. (Honours aren't on the site yet.)
+const outsideKind = (program: Program) => (program.subjects ? "Honours or Combined Major" : "Major");
 const UPPER_LEVEL_KIND = "Major, Combined Major or IDST";
 
 // One breadth area outside the Major's, with the subject that counts the most credits in it.
@@ -130,7 +131,7 @@ export function artsRows(
   const unmet = areas.filter((area) => area.credits < area.need);
   const offSite = unmet.filter((area) => !area.onSite);
 
-  const outsideNeed = degree.outside[OUTSIDE_KIND];
+  const outsideNeed = degree.outside[outsideKind(program)];
   const fieldNames = [...field].join(" and ");
 
   return [

@@ -108,6 +108,12 @@ describe("artsRows", () => {
     expect(r["Arts credits"]).toMatchObject({ status: "partial", progress: "9 of 72 cr" });
   });
 
+  it("asks Combined Majors for 48 credits outside both subjects", () => {
+    const r = rows("econ-poli-major", ["ECON 101", "POLI 100", "PHIL 120", "PSYC 101"]);
+    expect(r["Credits outside ECON and POLI"]).toMatchObject({ progress: "6 of 48 cr" });
+    expect(rows("econ-poli-major", [])[RESEARCH].options).toContain("ECON 490");
+  });
+
   it("works for every Arts Major", () => {
     for (const p of arts.programs) {
       const r = artsRows(p, degree, new Set(), creditsFor);

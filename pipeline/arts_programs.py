@@ -4,7 +4,9 @@ import re
 # The Arts Majors on the site: one Major for each Arts subject with a map (WRDS only has a
 # Minor), from the subjects' pages in the calendar's Bachelor of Arts section (Economics is in
 # the Vancouver School of Economics section). English's Major comes in three emphases; the
-# Literature emphasis is here.
+# Literature emphasis is here. Then the B.A. Combined Majors of two subjects on the site: four
+# from the Economics page (with Political Science, Philosophy, Mathematics and Statistics) and
+# Philosophy and Political Science from the Philosophy page.
 #
 # Unlike the Science and engineering pages, these pages have no requirement tables: they list
 # the requirements in sentences and bullet points. So each program is written out here by hand,
@@ -57,6 +59,13 @@ PHIL_400 = ("Credit for PHIL 400 and PHIL 401 is not permitted toward any specia
             "including the Major.")
 
 
+def combined(id: str, name: str, page: str, heading: str, subjects: list[str],
+             years: list[tuple[str, list[dict]]], notes: tuple[str, ...] = ()) -> dict:
+    # A Combined Major of two subjects, e.g. ["ECON", "POLI"]. Its id starts with the first.
+    assert id.split("-")[0] == subjects[0].lower(), id
+    return major(id, name, page, heading, years, notes) | {"subjects": subjects}
+
+
 def level(subjects: list[str], low: int, high: int | None = None) -> dict:
     spec = {"subjects": subjects, "min_level": low}
     return {"credits_of": spec | {"max_level": high} if high else spec}
@@ -65,6 +74,14 @@ def level(subjects: list[str], low: int, high: int | None = None) -> dict:
 def codes(subject: str, numbers: str) -> list[str]:
     # "SOCI", "380, 381, 382" → ["SOCI 380", "SOCI 381", "SOCI 382"]
     return [f"{subject} {n}" for n in re.findall(r"\d{3}", numbers)]
+
+
+# The courses that meet the Writing Component of the Faculty of Arts requirements (see
+# arts_degree.py; a test checks the two lists match). Arts One isn't a course code here.
+WRITING = ["ASTU 100", "ASTU 101", "CAP 100", "ENGL 100", "WRDS 150", "WRDS 151", "WRDS 350"]
+
+# "ECON 457 will not count towards 400-level electives", on the Economics programs' 400-level rows.
+ECON_457 = "ECON 457 will not count towards 400-level electives"
 
 
 def major(id: str, name: str, page: str, heading: str, years: list[tuple[str, list[dict]]],
@@ -351,6 +368,187 @@ PROGRAMS = [
             row("15 additional credits of 300- and/or 400-level SOCI courses", 15, level(["SOCI"], 300)),
         ]),
     ]),
+
+    # Combined Majors. The Economics ones start with "As for the Major in Economics" for the
+    # lower-level ECON courses, so those rows repeat the Major's.
+    combined("econ-poli-major", "Combined Major in Economics and Political Science", "bachelor-arts-economics",
+             "Combined Major in Economics and Political Science", ["ECON", "POLI"], [
+        ("Economics Lower-Level Requirements", [
+            row("ECON 101 and 102", 6, {"all_of": ["ECON 101", "ECON 102"]}),
+            row("ECON credits numbered 200 or above", 3, level(["ECON"], 200)),
+            row("ECON 325", 3, "ECON 325"),
+        ]),
+        ("Economics Upper-Level Requirements (Years 3 and 4)", [
+            row("ECON 301 or 304", 3, {"one_of": ["ECON 301", "ECON 304"]}),
+            row("ECON 302 or 305", 3, {"one_of": ["ECON 302", "ECON 305"]}),
+            row("ECON 326", 3, "ECON 326"),
+            row("ECON 490", 3, "ECON 490"),
+            row("ECON Electives numbered 300 or above", 3, level(["ECON"], 300)),
+            row("ECON Electives numbered 400 or above", 3, level(["ECON"], 400), (ECON_457,)),
+            row("ECON at any level", 3, level(["ECON"], 100)),
+        ]),
+        ("Political Science Lower-Level Requirements", [
+            row("POLI 100", 3, "POLI 100"),
+            row("POLI 101", 3, "POLI 101"),
+            row("POLI 240 (or 340)", 3, {"credits_from": ["POLI 240", "POLI 340-349"]}, (
+                "Students who have not completed POLI 240 may substitute three credits from POLI 340-349 for "
+                "POLI 240, although they are still required to complete a total of 12 POLI credits at the 100- "
+                "and 200-level.",)),
+            row("Any POLI course numbered 299 or below", 3, level(["POLI"], 100, 299)),
+        ]),
+        ("Political Science Upper-Level Requirements", [
+            row("POLI 350 or POLI 352", 3, {"one_of": ["POLI 350", "POLI 352"]}),
+            rest("15 more POLI credits numbered 300 or above", 15, level(["POLI"], 300),
+                 "Total POLI Credits numbered 300 or above"),
+        ]),
+    ], notes=(
+        "For students entering after 2025. The calendar also has a version with Political Science's "
+        "Politics, Policy and Administration focus, which isn't here.",
+    )),
+    combined("econ-phil-major", "Combined Major in Economics and Philosophy", "bachelor-arts-economics",
+             "Combined Major in Economics and Philosophy", ["ECON", "PHIL"], [
+        ("Economics Lower-Level Requirements", [
+            row("ECON 101 and 102", 6, {"all_of": ["ECON 101", "ECON 102"]}),
+            row("ECON credits numbered 200 or above", 3, level(["ECON"], 200)),
+            row("ECON 325", 3, "ECON 325"),
+        ]),
+        ("Economics Upper-Level Requirements", [
+            row("ECON 301 or 304", 3, {"one_of": ["ECON 301", "ECON 304"]}),
+            row("ECON 302 or 305", 3, {"one_of": ["ECON 302", "ECON 305"]}),
+            row("ECON 326", 3, "ECON 326"),
+            row("ECON 490", 3, "ECON 490"),
+            # The calendar puts the ECON 457 footnote (about 400-level electives) on this row, but
+            # this program has no 400-level electives row, so it's left off.
+            row("ECON Electives numbered 300 or above", 6, level(["ECON"], 300)),
+        ]),
+        ("Philosophy Requirements", [
+            row("PHIL 220, 222, 230, 321, or 330", 3, {"one_of": codes("PHIL", "220, 222, 230, 321, 330")}),
+            row("One of PHIL 240 or 340", 3, {"one_of": ["PHIL 240", "PHIL 340"]}),
+            row("One of PHIL 314, 315, 338, 360, 369, 461", 3, {"one_of": codes("PHIL", "314, 315, 338, 360, 369, 461")}),
+            row("One of PHIL 431, 432, 469, 491", 3, {"one_of": codes("PHIL", "431, 432, 469, 491")}),
+            row("PHIL Electives numbered 300 or above", 12, level(["PHIL"], 300)),
+        ]),
+        ("Joint Requirements", [
+            row("ECON 318/PHIL 362", 3, {"one_of": ["ECON 318", "PHIL 362"]}),
+            row("ECON 319/PHIL 363", 3, {"one_of": ["ECON 319", "PHIL 363"]}, (
+                "Students may elect to take joint requirements under either the PHIL or ECON course code. "
+                "Credits may be applied to the economics or philosophy elective credit requirements.",
+                "The site counts each course once, so it may ask for up to 6 more elective credits than you need.",
+            )),
+        ]),
+    ], notes=(
+        "From the Economics page, where students apply. The Philosophy page describes this program "
+        "differently (30 ECON and 30 PHIL credits, with PHIL 230 and 330 in its core), so check with both.",
+    )),
+    combined("econ-math-major", "Combined Major in Economics and Mathematics", "bachelor-arts-economics",
+             "B.A. Combined Major in Economics and Mathematics", ["ECON", "MATH"], [
+        ("Year 1 Requirements", [
+            row("ECON 101, 102", 6, {"all_of": ["ECON 101", "ECON 102"]}, (
+                "Students that have not taken ECON 101 and 102 in their first two years may replace them with "
+                "the approved equivalents ECON 310 and 311.",)),
+            row("One of MATH 100, 102, 104, 110, 120, 180, 184", 3,
+                {"one_of": codes("MATH", "100, 102, 104, 110, 120, 180, 184")}),
+            row("One of MATH 101, 103, 105, 121", 3, {"one_of": codes("MATH", "101, 103, 105, 121")}),
+            row("CPSC 110, or 103 and 107", 3, {"one_of": ["CPSC 110", {"all_of": ["CPSC 103", "CPSC 107"]}]}),
+            row("100-level PHYS, or any of ECON, STAT, PHIL, DSCI, or MATH", 3,
+                level(["PHYS", "ECON", "STAT", "PHIL", "DSCI", "MATH"], 100, 199),
+                ("The site counts 100-level courses only. ECON, STAT, PHIL, DSCI and MATH courses at any "
+                 "level count too.",)),
+            row("SCIE 113 or a course meeting the Arts Writing Requirements", 3, {"one_of": ["SCIE 113"] + WRITING}),
+        ]),
+        ("Year 2 Requirements", [
+            row("MATH 200 or 226", 3, {"one_of": ["MATH 200", "MATH 226"]}),
+            row("MATH 215", 3, "MATH 215"),
+            row("MATH 220", 3, "MATH 220", (
+                "Students obtaining 68% or higher in MATH 226 may replace MATH 220 with 3 credits of electives.",)),
+            row("MATH 221 or 223", 3, {"one_of": ["MATH 221", "MATH 223"]}),
+            row("ECON 325", 3, "ECON 325"),
+            row("ECON 301 or 304", 3, {"one_of": ["ECON 301", "ECON 304"]}),
+        ]),
+        ("Economics Upper-Level Requirements", [
+            row("ECON 302 or 305", 3, {"one_of": ["ECON 302", "ECON 305"]}),
+            row("ECON 326", 3, "ECON 326"),
+            row("ECON 490", 3, "ECON 490"),
+            row("ECON Electives numbered 300 or above", 3, level(["ECON"], 300)),
+            row("ECON Electives numbered 400 or above", 3, level(["ECON"], 400), (ECON_457,)),
+        ]),
+        ("Mathematics Upper-Level Requirements", [
+            row("MATH credits numbered 300 or higher", 18, level(["MATH"], 300), (
+                "Suitable electives include MATH 302, 303, 320, 321, 402, 403, 418, 419, and 443. MATH 320 "
+                "would be valuable for graduate study.",)),
+        ]),
+    ]),
+    combined("econ-stat-major", "Combined Major in Economics and Statistics", "bachelor-arts-economics",
+             "B.A. Combined Major in Economics and Statistics", ["ECON", "STAT"], [
+        ("Year 1 Requirements", [
+            row("ECON 101 and 102", 6, {"all_of": ["ECON 101", "ECON 102"]}),
+            row("One of MATH 100, 102, 104, 110, 120, 180, 184", 3,
+                {"one_of": codes("MATH", "100, 102, 104, 110, 120, 180, 184")}),
+            row("One of DSCI 100, ECON 226, ECON 227", 3, {"one_of": ["DSCI 100", "ECON 226", "ECON 227"]}, (
+                "The calendar lists this under both Year 1 and the Lower-level Requirements. The site counts it "
+                "once.",)),
+            row("SCIE 113 or a course meeting the Arts Writing Requirement", 3, {"one_of": ["SCIE 113"] + WRITING}),
+        ]),
+        ("Economics and Statistics Lower-level Requirements (Year 1 and 2)", [
+            row("One of MATH 101, 103, 105, 121", 3, {"one_of": codes("MATH", "101, 103, 105, 121")}),
+            row("ECON 325 or STAT 200", 3, {"one_of": ["ECON 325", "STAT 200"]}, (
+                "If STAT 200 is completed, an additional ECON course numbered 300 or higher must be taken. "
+                "Similarly, if ECON 325 is completed, an additional STAT course numbered 200 or higher must be "
+                "taken.",)),
+            row("MATH 200 or 226", 3, {"one_of": ["MATH 200", "MATH 226"]}),
+            row("ECON 301 or 304", 3, {"one_of": ["ECON 301", "ECON 304"]}),
+            row("MATH 220", 3, "MATH 220"),
+            row("MATH 221 or 223", 3, {"one_of": ["MATH 221", "MATH 223"]}),
+            row("ECON Electives numbered 200 or above", 3, level(["ECON"], 200)),
+        ]),
+        ("Economics and Statistics Upper-level Requirements (Years 3 and 4)", [
+            row("ECON 302 or 305", 3, {"one_of": ["ECON 302", "ECON 305"]}),
+            row("Either (a) ECON 326 and STAT 301 or (b) ECON 398 and STAT 306", 6, {"one_of": [
+                {"all_of": ["ECON 326", "STAT 301"]}, {"all_of": ["ECON 398", "STAT 306"]}]}),
+            row("ECON 490", 3, "ECON 490"),
+            row("ECON Electives numbered 300 and above", 3, level(["ECON"], 300)),
+            row("ECON Electives numbered 400 and above", 3, level(["ECON"], 400), (ECON_457,)),
+        ]),
+        # The calendar's table lists these after the Economics rows, without a heading.
+        ("Mathematics and Statistics Requirements", [
+            row("MATH 303 or 307", 3, {"one_of": ["MATH 303", "MATH 307"]}),
+            row("STAT 302 or MATH 302", 3, {"one_of": ["STAT 302", "MATH 302"]}),
+            row("STAT 305", 3, "STAT 305"),
+            row("STAT 404 or 443", 3, {"one_of": ["STAT 404", "STAT 443"]}),
+            row("STAT Electives numbered 300 or above", 3, level(["STAT"], 300)),
+            row("STAT Electives numbered 400 or above", 3, level(["STAT"], 400)),
+        ]),
+    ]),
+    combined("phil-poli-major", "Combined Major in Philosophy and Political Science", "philosophy",
+             "Combined Major in Philosophy and Political Science", ["PHIL", "POLI"], [
+        ("Philosophy Requirements", [
+            row("PHIL 230, 330", 6, {"all_of": ["PHIL 230", "PHIL 330"]}),
+            row("one of PHIL 240 or 340", 3, {"one_of": ["PHIL 240", "PHIL 340"]}),
+            row("3 credits of history of philosophy from among PHIL 310, 311, 313, 314, 315, 316, 371, 378, 388 or "
+                "ASIA 372", 3,
+                {"credits_from": codes("PHIL", "310, 311, 313, 314, 315, 316, 371, 378, 388") + ["ASIA 372"]}),
+            row("3 credits from one of PHIL 321, 332, 334, 335, 338, 362, 363, 461", 3,
+                {"credits_from": codes("PHIL", "321, 332, 334, 335, 338, 362, 363, 461")}),
+            row("3 research seminar credits from among PHIL 418, 426, 431, 432, 440, 450, 452, 455, 469, or 491", 3,
+                {"credits_from": codes("PHIL", "418, 426, 431, 432, 440, 450, 452, 455, 469, 491")}),
+            with_note(rest("6 more PHIL credits numbered 300 or higher", 6, level(["PHIL"], 300),
+                           "Students take an 18-credit core plus 12 credits of electives. Of these 30 credits, "
+                           "at least 18 must be at the 300 level or above."), PHIL_400),
+            with_note(rest("6 more PHIL credits at any level", 6, level(["PHIL"], 100),
+                           "Students take an 18-credit core plus 12 credits of electives. Of these 30 credits, "
+                           "at least 18 must be at the 300 level or above."), PHIL_400),
+        ]),
+        ("Political Science Requirements", [
+            row("POLI 100, 101, 110, 240, 380", 15, {"all_of": codes("POLI", "100, 101, 110, 240, 380")}),
+            row("3 credits selected from courses numbered 340-349", 3, {"credits_from": ["POLI 340-349"]}),
+            rest("12 more POLI credits numbered 300 or higher", 12, level(["POLI"], 300),
+                 "Students take an 18-credit core plus 12 credits of electives. Of these 30 credits, at least "
+                 "18 must be at the 300 level or above."),
+        ]),
+    ], notes=(
+        "The core's PHIL 330, history, seminar and one more course are upper-level, so 6 of the 12 elective "
+        "credits must be too (3 if you take PHIL 340 instead of 240).",
+    )),
 ]
 
 
@@ -359,7 +557,7 @@ def page_text(page: str) -> str:
     page = re.sub(r"<sup>.*?</sup>", "", page, flags=re.S)
     page = re.sub(r"<(script|style)[^>]*>.*?</\1>", " ", page, flags=re.S)
     text = html.unescape(re.sub(r"<[^>]+>", " ", page)).replace("\xa0", " ")
-    text = re.sub(r"\b([A-Z]{2,4})_V\b", r"\1", text)
+    text = re.sub(r"\b([A-Z]{2,4}) ?_V\b", r"\1", text)
     return re.sub(r"\s+", " ", text)
 
 
@@ -387,6 +585,8 @@ def parse_arts(pages: dict[str, str]) -> list[dict]:
             for r in y["requirements"]]} for y in p["years"]]
         program = {"id": p["id"], "name": p["name"], "heading": p["heading"], "sources": [PAGES[p["page"]]],
                    "total_credits": p["total_credits"], "years": years}
+        if p.get("subjects"):
+            program["subjects"] = p["subjects"]
         if p["notes"]:
             program["notes"] = p["notes"]
         programs.append(program)

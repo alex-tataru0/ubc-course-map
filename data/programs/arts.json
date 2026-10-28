@@ -1172,6 +1172,1112 @@
       ],
       "research": "Sociology",
       "field": ["SOCI"]
+    },
+    {
+      "id": "econ-poli-major",
+      "name": "Combined Major in Economics and Political Science",
+      "heading": "Combined Major in Economics and Political Science",
+      "sources": ["https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/vancouver-school-economics/bachelor-arts-economics"],
+      "total_credits": 120,
+      "years": [
+        {
+          "title": "Economics Lower-Level Requirements",
+          "credits": 12,
+          "requirements": [
+            {
+              "text": "ECON 101 and 102",
+              "credits": 6,
+              "tree": {
+                "all_of": ["ECON 101", "ECON 102"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "ECON credits numbered 200 or above",
+              "credits": 3,
+              "tree": {
+                "credits_of": {
+                  "subjects": ["ECON"],
+                  "min_level": 200
+                }
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "ECON 325",
+              "credits": 3,
+              "tree": "ECON 325",
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "title": "Economics Upper-Level Requirements (Years 3 and 4)",
+          "credits": 21,
+          "requirements": [
+            {
+              "text": "ECON 301 or 304",
+              "credits": 3,
+              "tree": {
+                "one_of": ["ECON 301", "ECON 304"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "ECON 302 or 305",
+              "credits": 3,
+              "tree": {
+                "one_of": ["ECON 302", "ECON 305"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "ECON 326",
+              "credits": 3,
+              "tree": "ECON 326",
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "ECON 490",
+              "credits": 3,
+              "tree": "ECON 490",
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "ECON Electives numbered 300 or above",
+              "credits": 3,
+              "tree": {
+                "credits_of": {
+                  "subjects": ["ECON"],
+                  "min_level": 300
+                }
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "ECON Electives numbered 400 or above",
+              "credits": 3,
+              "tree": {
+                "credits_of": {
+                  "subjects": ["ECON"],
+                  "min_level": 400
+                }
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["ECON 457 will not count towards 400-level electives"]
+            },
+            {
+              "text": "ECON at any level",
+              "credits": 3,
+              "tree": {
+                "credits_of": {
+                  "subjects": ["ECON"],
+                  "min_level": 100
+                }
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "title": "Political Science Lower-Level Requirements",
+          "credits": 12,
+          "requirements": [
+            {
+              "text": "POLI 100",
+              "credits": 3,
+              "tree": "POLI 100",
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "POLI 101",
+              "credits": 3,
+              "tree": "POLI 101",
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "POLI 240 (or 340)",
+              "credits": 3,
+              "tree": {
+                "credits_from": ["POLI 240", "POLI 340", "POLI 341", "POLI 342", "POLI 343", "POLI 344", "POLI 345", "POLI 346", "POLI 347", "POLI 348"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["Students who have not completed POLI 240 may substitute three credits from POLI 340-349 for POLI 240, although they are still required to complete a total of 12 POLI credits at the 100- and 200-level."]
+            },
+            {
+              "text": "Any POLI course numbered 299 or below",
+              "credits": 3,
+              "tree": {
+                "credits_of": {
+                  "subjects": ["POLI"],
+                  "min_level": 100,
+                  "max_level": 299
+                }
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "title": "Political Science Upper-Level Requirements",
+          "credits": 18,
+          "requirements": [
+            {
+              "text": "POLI 350 or POLI 352",
+              "credits": 3,
+              "tree": {
+                "one_of": ["POLI 350", "POLI 352"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "15 more POLI credits numbered 300 or above",
+              "credits": 15,
+              "tree": {
+                "credits_of": {
+                  "subjects": ["POLI"],
+                  "min_level": 300
+                }
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["The rest of the calendar's \"Total POLI Credits numbered 300 or above\""]
+            }
+          ]
+        },
+        {
+          "title": "Rest of the Degree",
+          "credits": 57,
+          "requirements": [
+            {
+              "text": "Electives",
+              "credits": 57,
+              "tree": {
+                "electives": true
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["The rest of the 120 credits for the B.A. All 120 credits must also meet the Faculty of Arts requirements (Writing and Research, Ways of Knowing Breadth, Outside, Upper-level and Arts Credit Minimum), listed after the program."]
+            }
+          ]
+        }
+      ],
+      "subjects": ["ECON", "POLI"],
+      "notes": ["For students entering after 2025. The calendar also has a version with Political Science's Politics, Policy and Administration focus, which isn't here."],
+      "research": "Economics",
+      "field": ["ECON", "POLI"]
+    },
+    {
+      "id": "econ-phil-major",
+      "name": "Combined Major in Economics and Philosophy",
+      "heading": "Combined Major in Economics and Philosophy",
+      "sources": ["https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/vancouver-school-economics/bachelor-arts-economics"],
+      "total_credits": 120,
+      "years": [
+        {
+          "title": "Economics Lower-Level Requirements",
+          "credits": 12,
+          "requirements": [
+            {
+              "text": "ECON 101 and 102",
+              "credits": 6,
+              "tree": {
+                "all_of": ["ECON 101", "ECON 102"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "ECON credits numbered 200 or above",
+              "credits": 3,
+              "tree": {
+                "credits_of": {
+                  "subjects": ["ECON"],
+                  "min_level": 200
+                }
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "ECON 325",
+              "credits": 3,
+              "tree": "ECON 325",
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "title": "Economics Upper-Level Requirements",
+          "credits": 18,
+          "requirements": [
+            {
+              "text": "ECON 301 or 304",
+              "credits": 3,
+              "tree": {
+                "one_of": ["ECON 301", "ECON 304"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "ECON 302 or 305",
+              "credits": 3,
+              "tree": {
+                "one_of": ["ECON 302", "ECON 305"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "ECON 326",
+              "credits": 3,
+              "tree": "ECON 326",
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "ECON 490",
+              "credits": 3,
+              "tree": "ECON 490",
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "ECON Electives numbered 300 or above",
+              "credits": 6,
+              "tree": {
+                "credits_of": {
+                  "subjects": ["ECON"],
+                  "min_level": 300
+                }
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "title": "Philosophy Requirements",
+          "credits": 24,
+          "requirements": [
+            {
+              "text": "PHIL 220, 222, 230, 321, or 330",
+              "credits": 3,
+              "tree": {
+                "one_of": ["PHIL 220", "PHIL 222", "PHIL 230", "PHIL 321", "PHIL 330"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "One of PHIL 240 or 340",
+              "credits": 3,
+              "tree": {
+                "one_of": ["PHIL 240", "PHIL 340"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "One of PHIL 314, 315, 338, 360, 369, 461",
+              "credits": 3,
+              "tree": {
+                "one_of": ["PHIL 314", "PHIL 315", "PHIL 338", "PHIL 360", "PHIL 369", "PHIL 461"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "One of PHIL 431, 432, 469, 491",
+              "credits": 3,
+              "tree": {
+                "one_of": ["PHIL 431", "PHIL 432", "PHIL 469", "PHIL 491"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "PHIL Electives numbered 300 or above",
+              "credits": 12,
+              "tree": {
+                "credits_of": {
+                  "subjects": ["PHIL"],
+                  "min_level": 300
+                }
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "title": "Joint Requirements",
+          "credits": 6,
+          "requirements": [
+            {
+              "text": "ECON 318/PHIL 362",
+              "credits": 3,
+              "tree": {
+                "one_of": ["ECON 318", "PHIL 362"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "ECON 319/PHIL 363",
+              "credits": 3,
+              "tree": {
+                "one_of": ["ECON 319", "PHIL 363"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["Students may elect to take joint requirements under either the PHIL or ECON course code. Credits may be applied to the economics or philosophy elective credit requirements.", "The site counts each course once, so it may ask for up to 6 more elective credits than you need."]
+            }
+          ]
+        },
+        {
+          "title": "Rest of the Degree",
+          "credits": 60,
+          "requirements": [
+            {
+              "text": "Electives",
+              "credits": 60,
+              "tree": {
+                "electives": true
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["The rest of the 120 credits for the B.A. All 120 credits must also meet the Faculty of Arts requirements (Writing and Research, Ways of Knowing Breadth, Outside, Upper-level and Arts Credit Minimum), listed after the program."]
+            }
+          ]
+        }
+      ],
+      "subjects": ["ECON", "PHIL"],
+      "notes": ["From the Economics page, where students apply. The Philosophy page describes this program differently (30 ECON and 30 PHIL credits, with PHIL 230 and 330 in its core), so check with both."],
+      "research": "Economics",
+      "field": ["ECON", "PHIL"]
+    },
+    {
+      "id": "econ-math-major",
+      "name": "Combined Major in Economics and Mathematics",
+      "heading": "B.A. Combined Major in Economics and Mathematics",
+      "sources": ["https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/vancouver-school-economics/bachelor-arts-economics"],
+      "total_credits": 120,
+      "years": [
+        {
+          "title": "Year 1 Requirements",
+          "credits": 21,
+          "requirements": [
+            {
+              "text": "ECON 101, 102",
+              "credits": 6,
+              "tree": {
+                "all_of": ["ECON 101", "ECON 102"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["Students that have not taken ECON 101 and 102 in their first two years may replace them with the approved equivalents ECON 310 and 311."]
+            },
+            {
+              "text": "One of MATH 100, 102, 104, 110, 120, 180, 184",
+              "credits": 3,
+              "tree": {
+                "one_of": ["MATH 100", "MATH 102", "MATH 104", "MATH 110", "MATH 120", "MATH 180", "MATH 184"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "One of MATH 101, 103, 105, 121",
+              "credits": 3,
+              "tree": {
+                "one_of": ["MATH 101", "MATH 103", "MATH 105", "MATH 121"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "CPSC 110, or 103 and 107",
+              "credits": 3,
+              "tree": {
+                "one_of": [
+                  "CPSC 110",
+                  {
+                    "all_of": ["CPSC 103", "CPSC 107"]
+                  }
+                ]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "100-level PHYS, or any of ECON, STAT, PHIL, DSCI, or MATH",
+              "credits": 3,
+              "tree": {
+                "credits_of": {
+                  "subjects": ["PHYS", "ECON", "STAT", "PHIL", "DSCI", "MATH"],
+                  "min_level": 100,
+                  "max_level": 199
+                }
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["The site counts 100-level courses only. ECON, STAT, PHIL, DSCI and MATH courses at any level count too."]
+            },
+            {
+              "text": "SCIE 113 or a course meeting the Arts Writing Requirements",
+              "credits": 3,
+              "tree": {
+                "one_of": ["SCIE 113", "ASTU 100", "ASTU 101", "CAP 100", "ENGL 100", "WRDS 150", "WRDS 151", "WRDS 350"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "title": "Year 2 Requirements",
+          "credits": 18,
+          "requirements": [
+            {
+              "text": "MATH 200 or 226",
+              "credits": 3,
+              "tree": {
+                "one_of": ["MATH 200", "MATH 226"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MATH 215",
+              "credits": 3,
+              "tree": "MATH 215",
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MATH 220",
+              "credits": 3,
+              "tree": "MATH 220",
+              "source": "hand",
+              "problems": [],
+              "notes": ["Students obtaining 68% or higher in MATH 226 may replace MATH 220 with 3 credits of electives."]
+            },
+            {
+              "text": "MATH 221 or 223",
+              "credits": 3,
+              "tree": {
+                "one_of": ["MATH 221", "MATH 223"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "ECON 325",
+              "credits": 3,
+              "tree": "ECON 325",
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "ECON 301 or 304",
+              "credits": 3,
+              "tree": {
+                "one_of": ["ECON 301", "ECON 304"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "title": "Economics Upper-Level Requirements",
+          "credits": 15,
+          "requirements": [
+            {
+              "text": "ECON 302 or 305",
+              "credits": 3,
+              "tree": {
+                "one_of": ["ECON 302", "ECON 305"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "ECON 326",
+              "credits": 3,
+              "tree": "ECON 326",
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "ECON 490",
+              "credits": 3,
+              "tree": "ECON 490",
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "ECON Electives numbered 300 or above",
+              "credits": 3,
+              "tree": {
+                "credits_of": {
+                  "subjects": ["ECON"],
+                  "min_level": 300
+                }
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "ECON Electives numbered 400 or above",
+              "credits": 3,
+              "tree": {
+                "credits_of": {
+                  "subjects": ["ECON"],
+                  "min_level": 400
+                }
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["ECON 457 will not count towards 400-level electives"]
+            }
+          ]
+        },
+        {
+          "title": "Mathematics Upper-Level Requirements",
+          "credits": 18,
+          "requirements": [
+            {
+              "text": "MATH credits numbered 300 or higher",
+              "credits": 18,
+              "tree": {
+                "credits_of": {
+                  "subjects": ["MATH"],
+                  "min_level": 300
+                }
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["Suitable electives include MATH 302, 303, 320, 321, 402, 403, 418, 419, and 443. MATH 320 would be valuable for graduate study."]
+            }
+          ]
+        },
+        {
+          "title": "Rest of the Degree",
+          "credits": 48,
+          "requirements": [
+            {
+              "text": "Electives",
+              "credits": 48,
+              "tree": {
+                "electives": true
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["The rest of the 120 credits for the B.A. All 120 credits must also meet the Faculty of Arts requirements (Writing and Research, Ways of Knowing Breadth, Outside, Upper-level and Arts Credit Minimum), listed after the program."]
+            }
+          ]
+        }
+      ],
+      "subjects": ["ECON", "MATH"],
+      "research": "Economics",
+      "field": ["ECON", "MATH"]
+    },
+    {
+      "id": "econ-stat-major",
+      "name": "Combined Major in Economics and Statistics",
+      "heading": "B.A. Combined Major in Economics and Statistics",
+      "sources": ["https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/vancouver-school-economics/bachelor-arts-economics"],
+      "total_credits": 120,
+      "years": [
+        {
+          "title": "Year 1 Requirements",
+          "credits": 15,
+          "requirements": [
+            {
+              "text": "ECON 101 and 102",
+              "credits": 6,
+              "tree": {
+                "all_of": ["ECON 101", "ECON 102"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "One of MATH 100, 102, 104, 110, 120, 180, 184",
+              "credits": 3,
+              "tree": {
+                "one_of": ["MATH 100", "MATH 102", "MATH 104", "MATH 110", "MATH 120", "MATH 180", "MATH 184"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "One of DSCI 100, ECON 226, ECON 227",
+              "credits": 3,
+              "tree": {
+                "one_of": ["DSCI 100", "ECON 226", "ECON 227"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["The calendar lists this under both Year 1 and the Lower-level Requirements. The site counts it once."]
+            },
+            {
+              "text": "SCIE 113 or a course meeting the Arts Writing Requirement",
+              "credits": 3,
+              "tree": {
+                "one_of": ["SCIE 113", "ASTU 100", "ASTU 101", "CAP 100", "ENGL 100", "WRDS 150", "WRDS 151", "WRDS 350"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "title": "Economics and Statistics Lower-level Requirements (Year 1 and 2)",
+          "credits": 21,
+          "requirements": [
+            {
+              "text": "One of MATH 101, 103, 105, 121",
+              "credits": 3,
+              "tree": {
+                "one_of": ["MATH 101", "MATH 103", "MATH 105", "MATH 121"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "ECON 325 or STAT 200",
+              "credits": 3,
+              "tree": {
+                "one_of": ["ECON 325", "STAT 200"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["If STAT 200 is completed, an additional ECON course numbered 300 or higher must be taken. Similarly, if ECON 325 is completed, an additional STAT course numbered 200 or higher must be taken."]
+            },
+            {
+              "text": "MATH 200 or 226",
+              "credits": 3,
+              "tree": {
+                "one_of": ["MATH 200", "MATH 226"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "ECON 301 or 304",
+              "credits": 3,
+              "tree": {
+                "one_of": ["ECON 301", "ECON 304"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MATH 220",
+              "credits": 3,
+              "tree": "MATH 220",
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "MATH 221 or 223",
+              "credits": 3,
+              "tree": {
+                "one_of": ["MATH 221", "MATH 223"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "ECON Electives numbered 200 or above",
+              "credits": 3,
+              "tree": {
+                "credits_of": {
+                  "subjects": ["ECON"],
+                  "min_level": 200
+                }
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "title": "Economics and Statistics Upper-level Requirements (Years 3 and 4)",
+          "credits": 18,
+          "requirements": [
+            {
+              "text": "ECON 302 or 305",
+              "credits": 3,
+              "tree": {
+                "one_of": ["ECON 302", "ECON 305"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "Either (a) ECON 326 and STAT 301 or (b) ECON 398 and STAT 306",
+              "credits": 6,
+              "tree": {
+                "one_of": [
+                  {
+                    "all_of": ["ECON 326", "STAT 301"]
+                  },
+                  {
+                    "all_of": ["ECON 398", "STAT 306"]
+                  }
+                ]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "ECON 490",
+              "credits": 3,
+              "tree": "ECON 490",
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "ECON Electives numbered 300 and above",
+              "credits": 3,
+              "tree": {
+                "credits_of": {
+                  "subjects": ["ECON"],
+                  "min_level": 300
+                }
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "ECON Electives numbered 400 and above",
+              "credits": 3,
+              "tree": {
+                "credits_of": {
+                  "subjects": ["ECON"],
+                  "min_level": 400
+                }
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["ECON 457 will not count towards 400-level electives"]
+            }
+          ]
+        },
+        {
+          "title": "Mathematics and Statistics Requirements",
+          "credits": 18,
+          "requirements": [
+            {
+              "text": "MATH 303 or 307",
+              "credits": 3,
+              "tree": {
+                "one_of": ["MATH 303", "MATH 307"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "STAT 302 or MATH 302",
+              "credits": 3,
+              "tree": {
+                "one_of": ["STAT 302", "MATH 302"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "STAT 305",
+              "credits": 3,
+              "tree": "STAT 305",
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "STAT 404 or 443",
+              "credits": 3,
+              "tree": {
+                "one_of": ["STAT 404", "STAT 443"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "STAT Electives numbered 300 or above",
+              "credits": 3,
+              "tree": {
+                "credits_of": {
+                  "subjects": ["STAT"],
+                  "min_level": 300
+                }
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "STAT Electives numbered 400 or above",
+              "credits": 3,
+              "tree": {
+                "credits_of": {
+                  "subjects": ["STAT"],
+                  "min_level": 400
+                }
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "title": "Rest of the Degree",
+          "credits": 48,
+          "requirements": [
+            {
+              "text": "Electives",
+              "credits": 48,
+              "tree": {
+                "electives": true
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["The rest of the 120 credits for the B.A. All 120 credits must also meet the Faculty of Arts requirements (Writing and Research, Ways of Knowing Breadth, Outside, Upper-level and Arts Credit Minimum), listed after the program."]
+            }
+          ]
+        }
+      ],
+      "subjects": ["ECON", "STAT"],
+      "research": "Economics",
+      "field": ["ECON", "STAT"]
+    },
+    {
+      "id": "phil-poli-major",
+      "name": "Combined Major in Philosophy and Political Science",
+      "heading": "Combined Major in Philosophy and Political Science",
+      "sources": ["https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-arts/bachelor-arts/philosophy"],
+      "total_credits": 120,
+      "years": [
+        {
+          "title": "Philosophy Requirements",
+          "credits": 30,
+          "requirements": [
+            {
+              "text": "PHIL 230, 330",
+              "credits": 6,
+              "tree": {
+                "all_of": ["PHIL 230", "PHIL 330"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "one of PHIL 240 or 340",
+              "credits": 3,
+              "tree": {
+                "one_of": ["PHIL 240", "PHIL 340"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "3 credits of history of philosophy from among PHIL 310, 311, 313, 314, 315, 316, 371, 378, 388 or ASIA 372",
+              "credits": 3,
+              "tree": {
+                "credits_from": ["PHIL 310", "PHIL 311", "PHIL 313", "PHIL 314", "PHIL 315", "PHIL 316", "PHIL 371", "PHIL 378", "PHIL 388", "ASIA 372"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "3 credits from one of PHIL 321, 332, 334, 335, 338, 362, 363, 461",
+              "credits": 3,
+              "tree": {
+                "credits_from": ["PHIL 321", "PHIL 332", "PHIL 334", "PHIL 335", "PHIL 338", "PHIL 362", "PHIL 363", "PHIL 461"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "3 research seminar credits from among PHIL 418, 426, 431, 432, 440, 450, 452, 455, 469, or 491",
+              "credits": 3,
+              "tree": {
+                "credits_from": ["PHIL 418", "PHIL 426", "PHIL 431", "PHIL 432", "PHIL 440", "PHIL 450", "PHIL 452", "PHIL 455", "PHIL 469", "PHIL 491"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "6 more PHIL credits numbered 300 or higher",
+              "credits": 6,
+              "tree": {
+                "credits_of": {
+                  "subjects": ["PHIL"],
+                  "min_level": 300
+                }
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["The rest of the calendar's \"Students take an 18-credit core plus 12 credits of electives. Of these 30 credits, at least 18 must be at the 300 level or above.\"", "Credit for PHIL 400 and PHIL 401 is not permitted toward any specialization in Philosophy, including the Major."]
+            },
+            {
+              "text": "6 more PHIL credits at any level",
+              "credits": 6,
+              "tree": {
+                "credits_of": {
+                  "subjects": ["PHIL"],
+                  "min_level": 100
+                }
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["The rest of the calendar's \"Students take an 18-credit core plus 12 credits of electives. Of these 30 credits, at least 18 must be at the 300 level or above.\"", "Credit for PHIL 400 and PHIL 401 is not permitted toward any specialization in Philosophy, including the Major."]
+            }
+          ]
+        },
+        {
+          "title": "Political Science Requirements",
+          "credits": 30,
+          "requirements": [
+            {
+              "text": "POLI 100, 101, 110, 240, 380",
+              "credits": 15,
+              "tree": {
+                "all_of": ["POLI 100", "POLI 101", "POLI 110", "POLI 240", "POLI 380"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "3 credits selected from courses numbered 340-349",
+              "credits": 3,
+              "tree": {
+                "credits_from": ["POLI 340", "POLI 341", "POLI 342", "POLI 343", "POLI 344", "POLI 345", "POLI 346", "POLI 347", "POLI 348"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "12 more POLI credits numbered 300 or higher",
+              "credits": 12,
+              "tree": {
+                "credits_of": {
+                  "subjects": ["POLI"],
+                  "min_level": 300
+                }
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["The rest of the calendar's \"Students take an 18-credit core plus 12 credits of electives. Of these 30 credits, at least 18 must be at the 300 level or above.\""]
+            }
+          ]
+        },
+        {
+          "title": "Rest of the Degree",
+          "credits": 60,
+          "requirements": [
+            {
+              "text": "Electives",
+              "credits": 60,
+              "tree": {
+                "electives": true
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["The rest of the 120 credits for the B.A. All 120 credits must also meet the Faculty of Arts requirements (Writing and Research, Ways of Knowing Breadth, Outside, Upper-level and Arts Credit Minimum), listed after the program."]
+            }
+          ]
+        }
+      ],
+      "subjects": ["PHIL", "POLI"],
+      "notes": ["The core's PHIL 330, history, seminar and one more course are upper-level, so 6 of the 12 elective credits must be too (3 if you take PHIL 340 instead of 240)."],
+      "research": "Philosophy",
+      "field": ["PHIL", "POLI"]
     }
   ]
 }

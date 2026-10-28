@@ -102,9 +102,11 @@ def test_every_arts_program_has_its_rules(degree):
     areas = {code: area["name"] for area in degree["areas"] for code in area["subjects"]}
     for program in programs:
         assert research_row(degree, program["research"])["courses"], program["id"]
-        assert set(program["field"]) <= set(degree["arts_subjects"])
-        # The program's main subject is in a breadth area, so the site knows which one it skips.
+        # The program's first subject is an Arts subject in a breadth area, so the site knows which
+        # area it skips. (A Combined Major's second subject can be MATH or STAT.)
+        assert program["field"][0] in degree["arts_subjects"]
         assert program["field"][0] in areas
+        assert program["field"] == program.get("subjects", program["field"])
 
 
 def test_unknown_research_row_stops_the_build(degree):

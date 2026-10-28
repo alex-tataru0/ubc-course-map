@@ -109,7 +109,8 @@ export const ENGINEERING: Faculty = {
   },
 };
 
-// The first Arts subjects, with one Major for each (WRDS only has a Minor). Economics opens
+// The first Arts subjects, with one Major for each (WRDS only has a Minor) and the Combined
+// Majors of two of them. Economics opens
 // first: its map has the most prerequisites (ECON 101 and 102 lead to most of it).
 export const ARTS: Faculty = {
   slug: "arts",
@@ -121,9 +122,9 @@ export const ARTS: Faculty = {
   programFiles: ["arts"],
   programsByMajor: false,
   programsNote:
-    "One Major for each subject, for students starting now, written out from the calendar, with " +
-    "the Faculty of Arts requirements (writing, breadth, Arts credits, …) after it. Not here yet: " +
-    "Honours, Combined Majors and the other Majors (such as English's Language emphases).",
+    "One Major for each subject and five Combined Majors, for students starting now, written out " +
+    "from the calendar, with the Faculty of Arts requirements (writing, breadth, Arts credits, …) " +
+    "after each. Not here yet: Honours and the other Majors (such as English's Language emphases).",
   subjects: [
     { code: "ANTH", name: "Anthropology" },
     { code: "ECON", name: "Economics" },
