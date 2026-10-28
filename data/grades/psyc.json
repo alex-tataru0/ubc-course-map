@@ -1,0 +1,3744 @@
+{
+  "subject": "PSYC",
+  "campus": "UBCV",
+  "source": "https://ubcgrades.com",
+  "credit": "UBCGrades.com / UBC PAIR",
+  "sessions": ["2021S", "2021W", "2022S", "2022W", "2023S", "2023W", "2024S", "2024W", "2025S", "2025W"],
+  "buckets": ["<50%", "50-54%", "55-59%", "60-63%", "64-67%", "68-71%", "72-75%", "76-79%", "80-84%", "85-89%", "90-100%"],
+  "courses": {
+    "PSYC 101": {
+      "reported": 11618,
+      "average": 73.6,
+      "grades": [501, 551, 665, 782, 859, 1197, 1243, 1152, 1812, 1385, 1385],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 1883,
+          "average": 73.5,
+          "grades": [89, 81, 121, 129, 136, 207, 193, 183, 277, 215, 252],
+          "instructors": ["Camila Cavalli", "Mark Lam", "Jay Hosking", "Grace Truong", "Simon Lolliot", "Luke Clark", "Hee Yeon Im"]
+        },
+        {
+          "session": "2025S",
+          "reported": 141,
+          "average": 78.6,
+          "grades": [8, 4, 4, 6, 7, 10, 12, 11, 17, 26, 36],
+          "instructors": ["Jill Ashley Dosso"]
+        },
+        {
+          "session": "2024W",
+          "reported": 1770,
+          "average": 74.0,
+          "grades": [79, 86, 95, 124, 143, 163, 211, 175, 242, 194, 258],
+          "instructors": ["Jill Ashley Dosso", "Mark Lam", "Jeremy Hosking", "Camila Cavalli", "Grace Truong", "Hee Yeon Im", "Luke Clark", "Miguel Antonio Del Rosario Jose"]
+        },
+        {
+          "session": "2024S",
+          "reported": 165,
+          "average": 79.0,
+          "grades": [2, 8, 7, 6, 13, 11, 10, 14, 31, 15, 48],
+          "instructors": ["Hee Yeon Im"]
+        },
+        {
+          "session": "2023W",
+          "reported": 2157,
+          "average": 73.0,
+          "grades": [110, 113, 124, 161, 149, 228, 207, 207, 324, 229, 263],
+          "instructors": ["Simon Lolliot", "Mark Lam", "Catharine Rankin", "Luke Clark", "Jeremy Hosking", "Veronika Dudarev", "Steven Barnes", "Todd Kamensek"]
+        },
+        {
+          "session": "2023S",
+          "reported": 266,
+          "average": 73.2,
+          "grades": [12, 10, 21, 17, 18, 18, 25, 33, 44, 36, 25],
+          "instructors": ["Mark Lam", "Steven Barnes"]
+        },
+        {
+          "session": "2022W",
+          "reported": 2456,
+          "average": 74.1,
+          "grades": [74, 113, 129, 162, 176, 267, 294, 244, 416, 307, 274],
+          "instructors": ["Simon Lolliot", "Mark Lam", "James Kryklywy", "Hee Yeon Im", "Luke Clark", "Catharine Rankin", "Jeremy Hosking", "Steven Barnes"]
+        },
+        {
+          "session": "2022S",
+          "reported": 186,
+          "average": 79.9,
+          "grades": [1, 4, 7, 4, 6, 13, 11, 18, 51, 45, 26],
+          "instructors": ["Janel Fergusson"]
+        },
+        {
+          "session": "2021W",
+          "reported": 2119,
+          "average": 72.0,
+          "grades": [109, 114, 150, 151, 175, 234, 222, 192, 307, 238, 197],
+          "instructors": ["Peter Graf", "Eva Zysk", "Grace Truong", "Hee Yeon Im", "Luke Clark", "Catharine Rankin", "Janel Fergusson", "Patrick Dubois"]
+        },
+        {
+          "session": "2021S",
+          "reported": 475,
+          "average": 73.9,
+          "grades": [17, 18, 7, 22, 36, 46, 58, 75, 103, 80, 6],
+          "instructors": ["Janel Fergusson", "Hee Yeon Im"]
+        }
+      ]
+    },
+    "PSYC 102": {
+      "reported": 10677,
+      "average": 72.2,
+      "grades": [510, 518, 713, 775, 869, 1185, 1194, 1122, 1548, 1152, 1004],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 1835,
+          "average": 71.8,
+          "grades": [103, 107, 113, 151, 139, 193, 188, 194, 269, 191, 187],
+          "instructors": ["Simon Lolliot", "Andrew Rivers", "Mark Lam", "Darko Odic", "Holly Engstrom"]
+        },
+        {
+          "session": "2025S",
+          "reported": 103,
+          "average": 74.2,
+          "grades": [3, 8, 6, 5, 6, 10, 8, 10, 18, 10, 19],
+          "instructors": ["Andrew Rivers"]
+        },
+        {
+          "session": "2024W",
+          "reported": 1539,
+          "average": 74.1,
+          "grades": [49, 64, 90, 110, 110, 145, 205, 174, 224, 184, 184],
+          "instructors": ["Andrew Rivers", "Rafal Skiba", "Mark Lam", "Darko Odic", "Elisha Klonsky", "Azim Shariff"]
+        },
+        {
+          "session": "2024S",
+          "reported": 145,
+          "average": 75.0,
+          "grades": [4, 2, 8, 2, 12, 14, 20, 20, 34, 21, 8],
+          "instructors": ["Rafal Skiba"]
+        },
+        {
+          "session": "2023W",
+          "reported": 1996,
+          "average": 71.9,
+          "grades": [123, 105, 127, 134, 151, 233, 205, 173, 283, 226, 189],
+          "instructors": ["Andrew Rivers", "Eva Zysk", "Mark Lam", "Darko Odic", "Tanya Schmader", "Simon Lolliot"]
+        },
+        {
+          "session": "2023S",
+          "reported": 204,
+          "average": 73.0,
+          "grades": [7, 1, 11, 14, 21, 21, 27, 23, 41, 26, 4],
+          "instructors": ["Geoffrey Gooderham", "Rafal Skiba"]
+        },
+        {
+          "session": "2022W",
+          "reported": 1912,
+          "average": 71.3,
+          "grades": [110, 107, 135, 141, 163, 219, 223, 200, 241, 192, 181],
+          "instructors": ["Simon Lolliot", "Mark Lam", "Andrew Rivers", "Darko Odic", "Natasha Parent", "Jeremy Hosking", "Eva Zysk"]
+        },
+        {
+          "session": "2022S",
+          "reported": 198,
+          "average": 73.4,
+          "grades": [8, 13, 17, 11, 12, 18, 13, 17, 26, 19, 44],
+          "instructors": ["Andrew Rivers"]
+        },
+        {
+          "session": "2021W",
+          "reported": 2523,
+          "average": 71.9,
+          "grades": [97, 104, 198, 196, 230, 309, 272, 286, 362, 256, 181],
+          "instructors": ["Simon Lolliot", "Rafal Skiba", "Darko Odic", "Andrew Rivers", "Tanya Schmader", "Azim Shariff", "Myriam Paquet"]
+        },
+        {
+          "session": "2021S",
+          "reported": 222,
+          "average": 73.8,
+          "grades": [6, 7, 8, 11, 25, 23, 33, 25, 50, 27, 7],
+          "instructors": ["Myriam Paquet"]
+        }
+      ]
+    },
+    "PSYC 207": {
+      "reported": 1448,
+      "average": 74.6,
+      "grades": [46, 66, 66, 76, 109, 133, 147, 191, 239, 156, 191],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 322,
+          "average": 76.2,
+          "grades": [7, 16, 10, 22, 20, 19, 30, 41, 66, 40, 51],
+          "instructors": ["Kalina Christoff Hadjiilieva", "Jay Hosking", "Camila Cavalli"]
+        },
+        {
+          "session": "2024W",
+          "reported": 178,
+          "average": 76.7,
+          "grades": [5, 7, 9, 7, 11, 15, 11, 32, 27, 23, 31],
+          "instructors": ["Kalina Christoff"]
+        },
+        {
+          "session": "2023W",
+          "reported": 352,
+          "average": 73.9,
+          "grades": [14, 22, 16, 22, 24, 36, 37, 38, 52, 34, 48],
+          "instructors": ["Kalina Christoff", "Ryan Tomm"]
+        },
+        {
+          "session": "2022W",
+          "reported": 301,
+          "average": 72.8,
+          "grades": [12, 14, 24, 17, 29, 25, 31, 40, 58, 29, 22],
+          "instructors": ["Kalina Christoff", "Rafal Skiba"]
+        },
+        {
+          "session": "2021W",
+          "reported": 295,
+          "average": 74.2,
+          "grades": [8, 7, 7, 8, 25, 38, 38, 40, 36, 30, 39],
+          "instructors": ["Jeremy Hosking", "Hagar Goldberg"]
+        }
+      ]
+    },
+    "PSYC 208": {
+      "reported": 1932,
+      "average": 73.7,
+      "grades": [47, 61, 83, 120, 152, 227, 262, 284, 401, 175, 115],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 433,
+          "average": 74.6,
+          "grades": [12, 11, 16, 20, 24, 49, 55, 77, 100, 52, 17],
+          "instructors": ["David King", "Jeffrey Sauve"]
+        },
+        {
+          "session": "2025S",
+          "reported": 123,
+          "average": 72.7,
+          "grades": [6, 2, 3, 4, 17, 9, 19, 28, 28, 4, 3],
+          "instructors": ["Jeffrey Sauve"]
+        },
+        {
+          "session": "2024W",
+          "reported": 365,
+          "average": 76.0,
+          "grades": [3, 9, 10, 16, 16, 38, 61, 66, 90, 31, 25],
+          "instructors": ["David King", "Jeffrey Sauve"]
+        },
+        {
+          "session": "2023W",
+          "reported": 314,
+          "average": 72.6,
+          "grades": [10, 14, 15, 31, 26, 41, 36, 22, 57, 28, 31],
+          "instructors": ["David King", "Simon Lolliot"]
+        },
+        {
+          "session": "2022W",
+          "reported": 240,
+          "average": 74.6,
+          "grades": [3, 6, 7, 13, 25, 30, 31, 27, 58, 23, 17],
+          "instructors": ["David King"]
+        },
+        {
+          "session": "2021W",
+          "reported": 457,
+          "average": 71.7,
+          "grades": [13, 19, 32, 36, 44, 60, 60, 64, 68, 37, 22],
+          "instructors": ["David King", "Simon Lolliot", "Andrea Perrino"]
+        }
+      ]
+    },
+    "PSYC 216": {
+      "reported": 704,
+      "average": 73.8,
+      "grades": [13, 17, 37, 38, 47, 88, 86, 108, 129, 89, 30],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 84,
+          "average": 77.0,
+          "grades": [1, 1, 4, 4, 5, 7, 10, 9, 24, 15, 4],
+          "instructors": ["Maria Gloria Mina Manaligod"]
+        },
+        {
+          "session": "2024W",
+          "reported": 68,
+          "average": 75.1,
+          "grades": [2, 3, 3, 2, 2, 9, 8, 12, 8, 10, 9],
+          "instructors": ["Maria Gloria Mina Manaligod"]
+        },
+        {
+          "session": "2023W",
+          "reported": 110,
+          "average": 73.4,
+          "grades": [4, 0, 6, 6, 8, 20, 11, 17, 17, 12, 5],
+          "instructors": ["Eva Zysk", "Veronika Dudarev"]
+        },
+        {
+          "session": "2022W",
+          "reported": 207,
+          "average": 73.8,
+          "grades": [6, 4, 6, 19, 16, 22, 31, 26, 36, 29, 12],
+          "instructors": ["Eva Zysk"]
+        },
+        {
+          "session": "2021W",
+          "reported": 235,
+          "average": 72.3,
+          "grades": [0, 9, 18, 7, 16, 30, 26, 44, 44, 23, 0],
+          "instructors": ["Veronika Dudarev", "Natasha Pestonji"]
+        }
+      ]
+    },
+    "PSYC 217": {
+      "reported": 4630,
+      "average": 73.0,
+      "grades": [78, 108, 253, 297, 444, 655, 702, 549, 873, 399, 208],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 834,
+          "average": 73.4,
+          "grades": [10, 17, 54, 58, 76, 124, 122, 96, 162, 79, 36],
+          "instructors": ["Mikey Jose", "Benjamin Cheung", "Jill Ashley Dosso", "Mark Lam", "Grace Truong", "Andrew Rivers"]
+        },
+        {
+          "session": "2025S",
+          "reported": 90,
+          "average": 71.7,
+          "grades": [1, 0, 7, 12, 13, 15, 8, 10, 17, 3, 4],
+          "instructors": ["Benjamin Cheung"]
+        },
+        {
+          "session": "2024W",
+          "reported": 1011,
+          "average": 73.1,
+          "grades": [19, 30, 52, 62, 103, 134, 157, 125, 198, 89, 42],
+          "instructors": ["Catherine Rawn", "Benjamin Cheung", "Mark Lam", "Grace Truong", "Andrew Rivers"]
+        },
+        {
+          "session": "2024S",
+          "reported": 89,
+          "average": 71.4,
+          "grades": [3, 4, 6, 4, 9, 14, 14, 13, 13, 5, 4],
+          "instructors": ["Benjamin Cheung"]
+        },
+        {
+          "session": "2023W",
+          "reported": 1055,
+          "average": 74.1,
+          "grades": [21, 19, 51, 56, 88, 150, 158, 109, 201, 97, 86],
+          "instructors": ["Catherine Rawn", "Benjamin Cheung", "Mark Lam", "Alyssa Mercedes Ash", "Andrew Rivers"]
+        },
+        {
+          "session": "2023S",
+          "reported": 92,
+          "average": 73.2,
+          "grades": [1, 0, 5, 5, 11, 8, 27, 13, 10, 9, 2],
+          "instructors": ["Benjamin Cheung"]
+        },
+        {
+          "session": "2022W",
+          "reported": 945,
+          "average": 71.8,
+          "grades": [18, 33, 64, 78, 89, 139, 142, 118, 164, 76, 24],
+          "instructors": ["Andrew Rivers", "Sabrina Burr", "Mark Lam", "Geoffrey Gooderham", "Grace Truong"]
+        },
+        {
+          "session": "2022S",
+          "reported": 130,
+          "average": 71.0,
+          "grades": [5, 5, 8, 7, 15, 25, 16, 14, 25, 7, 3],
+          "instructors": ["Geoffrey Gooderham"]
+        },
+        {
+          "session": "2021W",
+          "reported": 284,
+          "average": 73.8,
+          "grades": [0, 0, 0, 9, 31, 36, 44, 37, 66, 24, 0],
+          "instructors": ["Catherine Rawn", "Benjamin Cheung", "Andrew Rivers"]
+        },
+        {
+          "session": "2021S",
+          "reported": 100,
+          "average": 72.8,
+          "grades": [0, 0, 6, 6, 9, 10, 14, 14, 17, 10, 7],
+          "instructors": ["Benjamin Cheung"]
+        }
+      ]
+    },
+    "PSYC 218": {
+      "reported": 5215,
+      "average": 71.0,
+      "grades": [344, 299, 365, 413, 462, 484, 500, 434, 735, 472, 581],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 976,
+          "average": 71.2,
+          "grades": [71, 49, 71, 76, 88, 104, 103, 83, 119, 88, 124],
+          "instructors": ["Andrew Rivers", "Jessica Flake", "Kristin Laurin", "Frances Chen", "Grace Truong", "Brad Morrison", "Jason Rights"]
+        },
+        {
+          "session": "2025S",
+          "reported": 85,
+          "average": 71.1,
+          "grades": [5, 5, 9, 6, 13, 5, 7, 3, 12, 13, 7],
+          "instructors": ["Grace Truong"]
+        },
+        {
+          "session": "2024W",
+          "reported": 960,
+          "average": 71.2,
+          "grades": [66, 62, 61, 80, 93, 81, 87, 95, 141, 87, 107],
+          "instructors": ["Catherine Rawn", "Jason Rights", "Kristin Laurin", "Grace Truong", "Enda Tan", "Brad Morrison"]
+        },
+        {
+          "session": "2024S",
+          "reported": 86,
+          "average": 71.4,
+          "grades": [4, 9, 4, 4, 9, 8, 11, 7, 10, 7, 13],
+          "instructors": ["Grace Truong"]
+        },
+        {
+          "session": "2023W",
+          "reported": 1086,
+          "average": 70.7,
+          "grades": [90, 74, 82, 90, 76, 69, 106, 60, 161, 100, 143],
+          "instructors": ["Catherine Rawn", "Andrew Rivers", "Frances Chen", "Rafal Skiba", "Nicole Jenni", "Veronika Dudarev"]
+        },
+        {
+          "session": "2023S",
+          "reported": 86,
+          "average": 70.2,
+          "grades": [3, 4, 6, 15, 7, 10, 7, 9, 10, 7, 4],
+          "instructors": ["Veronika Dudarev"]
+        },
+        {
+          "session": "2022W",
+          "reported": 913,
+          "average": 71.3,
+          "grades": [55, 50, 60, 68, 88, 110, 87, 100, 129, 80, 86],
+          "instructors": ["Rafal Skiba", "Catherine Rawn", "James Kryklywy", "Andrew Rivers", "Frances Chen", "Nicole Jenni", "Grace Truong", "Veronika Dudarev"]
+        },
+        {
+          "session": "2022S",
+          "reported": 86,
+          "average": 70.2,
+          "grades": [6, 7, 10, 6, 6, 8, 9, 4, 15, 6, 9],
+          "instructors": ["Grace Truong"]
+        },
+        {
+          "session": "2021W",
+          "reported": 847,
+          "average": 70.9,
+          "grades": [44, 39, 62, 58, 74, 89, 70, 64, 123, 84, 76],
+          "instructors": ["Catherine Rawn", "Kristin Laurin", "Andrew Rivers", "Frances Chen", "Grace Truong", "David Geoffrey Hall"]
+        },
+        {
+          "session": "2021S",
+          "reported": 90,
+          "average": 72.8,
+          "grades": [0, 0, 0, 10, 8, 0, 13, 9, 15, 0, 12],
+          "instructors": ["Grace Truong"]
+        }
+      ]
+    },
+    "PSYC 270": {
+      "reported": 101,
+      "average": 79.9,
+      "grades": [0, 0, 0, 0, 0, 12, 12, 15, 31, 24, 0],
+      "terms": [
+        {
+          "session": "2021W",
+          "reported": 101,
+          "average": 79.9,
+          "grades": [0, 0, 0, 0, 0, 12, 12, 15, 31, 24, 0],
+          "instructors": ["Kiran Soma"]
+        }
+      ]
+    },
+    "PSYC 277": {
+      "reported": 599,
+      "average": 81.1,
+      "grades": [0, 4, 2, 7, 8, 36, 57, 96, 136, 143, 103],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 203,
+          "average": 83.1,
+          "grades": [0, 0, 0, 1, 3, 8, 12, 31, 44, 57, 47],
+          "instructors": ["Ipek Oruc"]
+        },
+        {
+          "session": "2023W",
+          "reported": 151,
+          "average": 81.1,
+          "grades": [0, 4, 1, 3, 2, 9, 15, 17, 34, 28, 37],
+          "instructors": ["Ipek Oruc"]
+        },
+        {
+          "session": "2022W",
+          "reported": 146,
+          "average": 79.8,
+          "grades": [0, 0, 1, 3, 3, 9, 15, 32, 36, 35, 12],
+          "instructors": ["Ipek Oruc"]
+        },
+        {
+          "session": "2021W",
+          "reported": 99,
+          "average": 78.7,
+          "grades": [0, 0, 0, 0, 0, 10, 15, 16, 22, 23, 7],
+          "instructors": ["Ipek Oruc"]
+        }
+      ]
+    },
+    "PSYC 278": {
+      "reported": 573,
+      "average": 79.2,
+      "grades": [0, 4, 8, 6, 21, 50, 57, 85, 166, 110, 57],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 183,
+          "average": 79.9,
+          "grades": [0, 1, 1, 0, 11, 14, 14, 28, 58, 35, 21],
+          "instructors": ["James Enns"]
+        },
+        {
+          "session": "2023W",
+          "reported": 148,
+          "average": 78.4,
+          "grades": [0, 0, 7, 4, 6, 13, 14, 21, 39, 33, 11],
+          "instructors": ["James Enns"]
+        },
+        {
+          "session": "2022W",
+          "reported": 142,
+          "average": 78.7,
+          "grades": [0, 3, 0, 2, 4, 17, 18, 20, 45, 21, 12],
+          "instructors": ["James Enns"]
+        },
+        {
+          "session": "2021W",
+          "reported": 100,
+          "average": 80.0,
+          "grades": [0, 0, 0, 0, 0, 6, 11, 16, 24, 21, 13],
+          "instructors": ["James Enns"]
+        }
+      ]
+    },
+    "PSYC 300": {
+      "reported": 5361,
+      "average": 75.7,
+      "grades": [99, 135, 218, 280, 378, 561, 651, 706, 898, 719, 608],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 926,
+          "average": 77.4,
+          "grades": [13, 19, 29, 45, 45, 95, 113, 117, 178, 145, 127],
+          "instructors": ["Lynn Alden", "Sheila Woody", "Jennifer Yip", "Joelle LeMoult", "Bethany Michel"]
+        },
+        {
+          "session": "2025S",
+          "reported": 202,
+          "average": 76.3,
+          "grades": [4, 5, 7, 13, 12, 19, 24, 22, 42, 29, 25],
+          "instructors": ["Joelle LeMoult", "Jennifer Yip"]
+        },
+        {
+          "session": "2024W",
+          "reported": 948,
+          "average": 75.5,
+          "grades": [15, 22, 46, 57, 80, 88, 129, 142, 158, 106, 105],
+          "instructors": ["Lynn Alden", "Paul Hewitt", "Sheila Woody", "Bethany Michel", "Brian Thomas-Peter"]
+        },
+        {
+          "session": "2024S",
+          "topic": "A",
+          "title": "Abnormal Psychology",
+          "reported": 105,
+          "average": 74.3,
+          "grades": [0, 1, 3, 4, 5, 22, 22, 24, 13, 9, 2],
+          "instructors": ["Bethany Michel"]
+        },
+        {
+          "session": "2023W",
+          "topic": "A",
+          "title": "Abnormal Psychology",
+          "reported": 978,
+          "average": 75.0,
+          "grades": [26, 22, 42, 55, 73, 108, 113, 136, 161, 141, 74],
+          "instructors": ["Sheila Woody", "Paul Hewitt", "Silvain Dang", "Bethany Michel", "Brian Thomas-Peter"]
+        },
+        {
+          "session": "2023S",
+          "topic": "A",
+          "title": "Abnormal Psychology",
+          "reported": 179,
+          "average": 74.9,
+          "grades": [4, 9, 8, 12, 10, 20, 12, 24, 26, 11, 27],
+          "instructors": ["Brian Thomas-Peter", "Silvain Dang"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Abnormal Psychology",
+          "reported": 986,
+          "average": 76.0,
+          "grades": [18, 34, 38, 57, 76, 97, 113, 140, 157, 133, 123],
+          "instructors": ["Sheila Woody", "Paul Hewitt", "Joelle Lemoult", "Lynn Alden", "Rafal Skiba", "Bethany Michel"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Abnormal Psychology",
+          "reported": 816,
+          "average": 74.0,
+          "grades": [19, 23, 38, 29, 62, 97, 101, 85, 130, 105, 86],
+          "instructors": ["Sheila Woody", "Lynn Alden", "Rafal Skiba", "Bethany Michel"]
+        },
+        {
+          "session": "2021S",
+          "topic": "A",
+          "title": "Abnormal Psychology",
+          "reported": 221,
+          "average": 77.0,
+          "grades": [0, 0, 7, 8, 15, 15, 24, 16, 33, 40, 39],
+          "instructors": ["Silvain Dang", "Bethany Michel"]
+        }
+      ]
+    },
+    "PSYC 301": {
+      "reported": 4455,
+      "average": 76.3,
+      "grades": [161, 179, 229, 240, 324, 390, 414, 425, 603, 573, 870],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 890,
+          "average": 75.9,
+          "grades": [36, 39, 39, 51, 64, 83, 81, 78, 130, 119, 170],
+          "instructors": ["Jill Ashley Dosso", "Steven Barnes", "Jay Hosking"]
+        },
+        {
+          "session": "2025S",
+          "reported": 122,
+          "average": 78.9,
+          "grades": [6, 8, 3, 6, 7, 7, 5, 11, 10, 20, 39],
+          "instructors": ["Jay Hosking"]
+        },
+        {
+          "session": "2024W",
+          "reported": 1112,
+          "average": 76.5,
+          "grades": [48, 44, 65, 58, 76, 94, 94, 104, 146, 147, 236],
+          "instructors": ["Jeremy Hosking", "Jill Ashley Dosso", "Noah Silverberg", "Steven Barnes"]
+        },
+        {
+          "session": "2023W",
+          "reported": 1004,
+          "average": 76.3,
+          "grades": [34, 40, 53, 50, 66, 91, 99, 83, 140, 123, 184],
+          "instructors": ["Jeremy Hosking", "Noah Silverberg", "Steven Barnes"]
+        },
+        {
+          "session": "2022W",
+          "reported": 599,
+          "average": 75.9,
+          "grades": [11, 22, 29, 40, 64, 53, 54, 77, 85, 73, 91],
+          "instructors": ["Hagar Goldberg", "Noah Silverberg", "Jeremy Hosking"]
+        },
+        {
+          "session": "2022S",
+          "reported": 118,
+          "average": 74.8,
+          "grades": [9, 10, 12, 3, 7, 2, 13, 8, 8, 11, 35],
+          "instructors": ["Jeremy Hosking"]
+        },
+        {
+          "session": "2021W",
+          "reported": 474,
+          "average": 76.5,
+          "grades": [11, 8, 22, 25, 30, 45, 58, 55, 73, 62, 79],
+          "instructors": ["Noah Silverberg", "Jeremy Hosking", "Hagar Goldberg"]
+        },
+        {
+          "session": "2021S",
+          "reported": 136,
+          "average": 77.1,
+          "grades": [6, 8, 6, 7, 10, 15, 10, 9, 11, 18, 36],
+          "instructors": ["Jeremy Hosking"]
+        }
+      ]
+    },
+    "PSYC 302": {
+      "reported": 3154,
+      "average": 77.4,
+      "grades": [44, 47, 74, 128, 192, 264, 369, 394, 696, 561, 343],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 405,
+          "average": 77.3,
+          "grades": [4, 14, 11, 20, 31, 36, 46, 38, 67, 78, 60],
+          "instructors": ["Janet Werker", "Erica Flaten", "Susan Birch"]
+        },
+        {
+          "session": "2024W",
+          "reported": 665,
+          "average": 77.3,
+          "grades": [12, 6, 20, 21, 39, 56, 76, 96, 183, 109, 47],
+          "instructors": ["Jane Hamlin", "Lauren Emberson", "Janet Werker", "Susan Birch"]
+        },
+        {
+          "session": "2023W",
+          "reported": 670,
+          "average": 79.8,
+          "grades": [11, 5, 7, 22, 28, 40, 64, 80, 158, 152, 98],
+          "instructors": ["Anthea Pun", "Lauren Emberson", "Susan Birch"]
+        },
+        {
+          "session": "2022W",
+          "reported": 707,
+          "average": 76.8,
+          "grades": [17, 10, 19, 29, 47, 63, 90, 94, 166, 118, 54],
+          "instructors": ["Janet Werker", "Jane Hamlin", "Lauren Emberson", "Susan Birch"]
+        },
+        {
+          "session": "2021W",
+          "reported": 707,
+          "average": 75.8,
+          "grades": [0, 12, 17, 36, 47, 69, 93, 86, 122, 104, 84],
+          "instructors": ["Lauren Emberson", "Lillian May", "Janet Werker", "Susan Birch"]
+        }
+      ]
+    },
+    "PSYC 303": {
+      "reported": 163,
+      "average": 77.9,
+      "grades": [2, 2, 4, 5, 6, 10, 22, 13, 38, 11, 30],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 41,
+          "average": 75.9,
+          "grades": [0, 1, 1, 4, 2, 4, 8, 6, 6, 3, 6],
+          "instructors": ["Victoria Savalei"]
+        },
+        {
+          "session": "2024W",
+          "reported": 45,
+          "average": 78.3,
+          "grades": [1, 0, 1, 1, 1, 2, 9, 5, 12, 5, 8],
+          "instructors": ["Victoria Savalei"]
+        },
+        {
+          "session": "2023W",
+          "reported": 43,
+          "average": 78.1,
+          "grades": [1, 1, 2, 0, 3, 4, 5, 2, 10, 3, 9],
+          "instructors": ["Victoria Savalei"]
+        },
+        {
+          "session": "2021W",
+          "reported": 34,
+          "average": 79.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 10, 0, 7],
+          "instructors": ["Victoria Savalei"]
+        }
+      ]
+    },
+    "PSYC 304": {
+      "reported": 2777,
+      "average": 76.2,
+      "grades": [56, 69, 123, 158, 189, 218, 312, 288, 421, 373, 452],
+      "terms": [
+        {
+          "session": "2025W",
+          "topic": "B",
+          "title": "Brain and Behaviour",
+          "reported": 595,
+          "average": 76.1,
+          "grades": [12, 21, 32, 38, 49, 46, 67, 64, 78, 90, 98],
+          "instructors": []
+        },
+        {
+          "session": "2025S",
+          "topic": "B",
+          "title": "Brain and Behaviour",
+          "reported": 213,
+          "average": 72.8,
+          "grades": [6, 9, 5, 15, 18, 31, 35, 28, 33, 17, 16],
+          "instructors": []
+        },
+        {
+          "session": "2024W",
+          "topic": "B",
+          "title": "Brain and Behaviour",
+          "reported": 411,
+          "average": 77.4,
+          "grades": [10, 12, 19, 16, 20, 34, 44, 37, 68, 80, 71],
+          "instructors": []
+        },
+        {
+          "session": "2024S",
+          "reported": 231,
+          "average": 76.1,
+          "grades": [0, 5, 11, 11, 22, 19, 30, 36, 44, 41, 12],
+          "instructors": ["Todd Kamensek", "Tristan Hynes"]
+        },
+        {
+          "session": "2023W",
+          "reported": 327,
+          "average": 79.5,
+          "grades": [4, 2, 12, 11, 18, 22, 29, 32, 61, 59, 68],
+          "instructors": ["Stanley Bogdan Floresco", "Jeremy Hosking", "Tristan Hynes"]
+        },
+        {
+          "session": "2023S",
+          "reported": 131,
+          "average": 74.9,
+          "grades": [3, 1, 2, 5, 11, 12, 24, 24, 21, 11, 7],
+          "instructors": ["Tristan Hynes"]
+        },
+        {
+          "session": "2022W",
+          "reported": 369,
+          "average": 76.7,
+          "grades": [8, 16, 21, 26, 21, 38, 38, 32, 40, 33, 96],
+          "instructors": ["Stanley Bogdan Floresco", "Jeremy Hosking"]
+        },
+        {
+          "session": "2022S",
+          "reported": 90,
+          "average": 75.7,
+          "grades": [7, 3, 1, 7, 7, 9, 7, 6, 14, 9, 20],
+          "instructors": ["Tristan Hynes"]
+        },
+        {
+          "session": "2021W",
+          "reported": 166,
+          "average": 72.6,
+          "grades": [0, 0, 12, 18, 0, 0, 6, 0, 25, 0, 24],
+          "instructors": ["Stanley Bogdan Floresco", "Hagar Goldberg"]
+        },
+        {
+          "session": "2021S",
+          "reported": 244,
+          "average": 75.4,
+          "grades": [6, 0, 8, 11, 23, 7, 32, 29, 37, 33, 40],
+          "instructors": ["Steven Barnes", "Hagar Goldberg", "Laura Hanson"]
+        }
+      ]
+    },
+    "PSYC 305": {
+      "reported": 5883,
+      "average": 76.7,
+      "grades": [103, 193, 253, 277, 412, 507, 676, 602, 1054, 757, 990],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 1172,
+          "average": 78.0,
+          "grades": [20, 44, 48, 47, 74, 83, 100, 118, 227, 173, 238],
+          "instructors": ["Friedrich Goetz", "David King", "Jessica Tracy"]
+        },
+        {
+          "session": "2025S",
+          "reported": 157,
+          "average": 77.0,
+          "grades": [4, 3, 16, 3, 12, 10, 14, 17, 24, 27, 27],
+          "instructors": ["Friedrich Goetz"]
+        },
+        {
+          "session": "2024W",
+          "reported": 1224,
+          "average": 76.9,
+          "grades": [32, 52, 58, 56, 69, 90, 128, 110, 237, 166, 226],
+          "instructors": ["David King", "Sunaina Assanand", "Jessica Tracy", "Brad Morrison"]
+        },
+        {
+          "session": "2024S",
+          "topic": "A",
+          "title": "Personality Psychology",
+          "reported": 102,
+          "average": 77.8,
+          "grades": [0, 1, 1, 4, 4, 7, 21, 12, 34, 13, 5],
+          "instructors": ["David King"]
+        },
+        {
+          "session": "2023W",
+          "topic": "A",
+          "title": "Personality Psychology",
+          "reported": 1160,
+          "average": 75.8,
+          "grades": [27, 38, 50, 53, 93, 113, 147, 136, 195, 134, 160],
+          "instructors": ["Friedrich Goetz", "Hyunjin Koo", "David King", "Jessica Tracy"]
+        },
+        {
+          "session": "2023S",
+          "topic": "A",
+          "title": "Personality Psychology",
+          "reported": 110,
+          "average": 76.8,
+          "grades": [1, 2, 1, 10, 8, 14, 15, 12, 17, 12, 18],
+          "instructors": ["David King"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Personality Psychology",
+          "reported": 929,
+          "average": 76.1,
+          "grades": [17, 27, 44, 50, 79, 91, 110, 103, 158, 111, 139],
+          "instructors": ["Friedrich Goetz", "David King", "Jessica Tracy"]
+        },
+        {
+          "session": "2022S",
+          "topic": "A",
+          "title": "Personality Psychology",
+          "reported": 108,
+          "average": 77.1,
+          "grades": [0, 1, 2, 5, 9, 9, 18, 12, 28, 17, 7],
+          "instructors": ["David King"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Personality Psychology",
+          "reported": 814,
+          "average": 76.1,
+          "grades": [2, 25, 33, 49, 55, 84, 108, 65, 115, 91, 151],
+          "instructors": ["David King", "Patrick Dubois"]
+        },
+        {
+          "session": "2021S",
+          "topic": "A",
+          "title": "Personality Psychology",
+          "reported": 107,
+          "average": 77.3,
+          "grades": [0, 0, 0, 0, 9, 6, 15, 17, 19, 13, 19],
+          "instructors": ["David King"]
+        }
+      ]
+    },
+    "PSYC 306": {
+      "reported": 1147,
+      "average": 72.9,
+      "grades": [46, 48, 79, 76, 123, 110, 136, 129, 148, 138, 99],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 281,
+          "average": 74.6,
+          "grades": [9, 9, 19, 20, 31, 23, 28, 31, 33, 42, 36],
+          "instructors": ["Kiran Soma", "Camila Cavalli"]
+        },
+        {
+          "session": "2024W",
+          "reported": 167,
+          "average": 74.8,
+          "grades": [2, 12, 11, 12, 19, 15, 16, 17, 15, 18, 30],
+          "instructors": ["Jackson Schumacher"]
+        },
+        {
+          "session": "2023W",
+          "topic": "A",
+          "title": "Principles of Animal Behaviour",
+          "reported": 155,
+          "average": 71.8,
+          "grades": [13, 9, 7, 8, 12, 15, 15, 11, 32, 14, 11],
+          "instructors": ["Kiran Soma"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Principles of Animal Behaviour",
+          "reported": 254,
+          "average": 73.2,
+          "grades": [5, 11, 21, 12, 33, 27, 35, 26, 33, 35, 16],
+          "instructors": ["Kiran Soma", "Desiree Seib"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Principles of Animal Behaviour",
+          "reported": 290,
+          "average": 70.7,
+          "grades": [17, 7, 21, 24, 28, 30, 42, 44, 35, 29, 6],
+          "instructors": ["Desiree Seib", "Kiran Soma"]
+        }
+      ]
+    },
+    "PSYC 307": {
+      "reported": 4399,
+      "average": 76.0,
+      "grades": [83, 112, 211, 262, 316, 428, 506, 495, 716, 508, 701],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 1130,
+          "average": 76.5,
+          "grades": [16, 31, 54, 61, 71, 106, 160, 126, 199, 133, 173],
+          "instructors": ["Ara Norenzayan", "Benjamin Cheung", "Steven Heine", "Jason Martens"]
+        },
+        {
+          "session": "2025S",
+          "reported": 135,
+          "average": 75.8,
+          "grades": [0, 4, 5, 4, 14, 9, 15, 31, 39, 10, 4],
+          "instructors": ["Jason Martens"]
+        },
+        {
+          "session": "2024W",
+          "reported": 545,
+          "average": 77.3,
+          "grades": [8, 16, 29, 22, 29, 48, 61, 66, 90, 75, 101],
+          "instructors": ["Benjamin Cheung", "Steven Heine", "Jason Martens"]
+        },
+        {
+          "session": "2024S",
+          "reported": 100,
+          "average": 75.2,
+          "grades": [3, 3, 6, 4, 10, 7, 9, 17, 21, 9, 11],
+          "instructors": ["Jason Martens"]
+        },
+        {
+          "session": "2023W",
+          "reported": 673,
+          "average": 76.4,
+          "grades": [19, 23, 31, 38, 41, 65, 69, 67, 101, 76, 131],
+          "instructors": ["Steven Heine", "Jason Martens"]
+        },
+        {
+          "session": "2023S",
+          "reported": 101,
+          "average": 75.5,
+          "grades": [1, 2, 5, 7, 7, 12, 8, 11, 20, 13, 9],
+          "instructors": ["Jason Martens"]
+        },
+        {
+          "session": "2022W",
+          "reported": 752,
+          "average": 76.2,
+          "grades": [14, 18, 43, 55, 59, 77, 68, 74, 127, 91, 126],
+          "instructors": ["Benjamin Cheung", "Steven Heine", "Jason Martens"]
+        },
+        {
+          "session": "2022S",
+          "reported": 95,
+          "average": 71.0,
+          "grades": [3, 3, 11, 15, 14, 7, 10, 7, 7, 5, 13],
+          "instructors": ["Jason Martens"]
+        },
+        {
+          "session": "2021W",
+          "reported": 785,
+          "average": 75.2,
+          "grades": [13, 12, 27, 50, 58, 97, 97, 87, 101, 88, 122],
+          "instructors": ["Benjamin Cheung", "Steven Heine", "Jason Martens"]
+        },
+        {
+          "session": "2021S",
+          "reported": 83,
+          "average": 73.2,
+          "grades": [6, 0, 0, 6, 13, 0, 9, 9, 11, 8, 11],
+          "instructors": ["Jason Martens"]
+        }
+      ]
+    },
+    "PSYC 308": {
+      "reported": 3061,
+      "average": 76.5,
+      "grades": [42, 65, 80, 142, 176, 352, 365, 370, 560, 455, 383],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 420,
+          "average": 75.3,
+          "grades": [10, 13, 17, 21, 31, 54, 43, 48, 73, 61, 49],
+          "instructors": ["Elizabeth Dunn", "Andrew Rivers"]
+        },
+        {
+          "session": "2025S",
+          "reported": 115,
+          "average": 77.4,
+          "grades": [0, 0, 2, 4, 6, 16, 18, 19, 25, 17, 8],
+          "instructors": ["Holly Engstrom"]
+        },
+        {
+          "session": "2024W",
+          "reported": 539,
+          "average": 77.9,
+          "grades": [7, 19, 15, 22, 23, 57, 57, 57, 103, 81, 98],
+          "instructors": ["Mark Schaller", "Elizabeth Dunn"]
+        },
+        {
+          "session": "2023W",
+          "topic": "A",
+          "title": "Social Psychology",
+          "reported": 544,
+          "average": 77.6,
+          "grades": [12, 17, 15, 22, 36, 56, 53, 72, 80, 70, 106],
+          "instructors": ["Lucille de Souza", "Ara Norenzayan"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Social Psychology",
+          "reported": 741,
+          "average": 75.3,
+          "grades": [7, 16, 24, 47, 55, 91, 123, 108, 118, 102, 50],
+          "instructors": ["Elizabeth Dunn", "Andrew Rivers", "Lucille de Souza", "Holly Engstrom"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Social Psychology",
+          "reported": 572,
+          "average": 76.9,
+          "grades": [6, 0, 0, 18, 16, 64, 59, 49, 138, 104, 61],
+          "instructors": ["Elizabeth Dunn", "Mark Schaller", "Andrew Rivers"]
+        },
+        {
+          "session": "2021S",
+          "topic": "A",
+          "title": "Social Psychology",
+          "reported": 130,
+          "average": 74.2,
+          "grades": [0, 0, 7, 8, 9, 14, 12, 17, 23, 20, 11],
+          "instructors": ["Katharina Block"]
+        }
+      ]
+    },
+    "PSYC 309": {
+      "reported": 3247,
+      "average": 76.1,
+      "grades": [57, 108, 129, 187, 237, 299, 364, 400, 534, 484, 416],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 681,
+          "average": 76.0,
+          "grades": [14, 26, 30, 34, 55, 68, 76, 68, 118, 111, 81],
+          "instructors": ["Todd Handy", "Joan Ongchoco", "Miriam Spering"]
+        },
+        {
+          "session": "2024W",
+          "reported": 548,
+          "average": 74.9,
+          "grades": [14, 14, 17, 32, 56, 51, 77, 77, 85, 85, 40],
+          "instructors": ["Todd Handy", "Joan Ongchoco", "Miriam Pai-Spering"]
+        },
+        {
+          "session": "2023W",
+          "topic": "A",
+          "title": "Cognitive Processes",
+          "reported": 528,
+          "average": 77.7,
+          "grades": [16, 20, 17, 26, 28, 39, 58, 41, 78, 82, 115],
+          "instructors": ["Todd Handy", "Daniela Palombo"]
+        },
+        {
+          "session": "2023S",
+          "topic": "A",
+          "title": "Cognitive Processes",
+          "reported": 131,
+          "average": 74.5,
+          "grades": [4, 5, 9, 11, 5, 10, 11, 18, 22, 14, 16],
+          "instructors": ["Brandon Tomm"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Cognitive Processes",
+          "reported": 635,
+          "average": 75.4,
+          "grades": [8, 30, 30, 46, 47, 58, 75, 90, 89, 84, 78],
+          "instructors": ["Todd Handy", "Brandon Tomm", "Daniela Palombo"]
+        },
+        {
+          "session": "2022S",
+          "topic": "A",
+          "title": "Cognitive Processes",
+          "reported": 76,
+          "average": 78.1,
+          "grades": [0, 7, 2, 5, 3, 5, 4, 6, 15, 17, 12],
+          "instructors": ["Farid Pazhoohi"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Cognitive Processes",
+          "reported": 648,
+          "average": 76.9,
+          "grades": [1, 6, 24, 33, 43, 68, 63, 100, 127, 91, 74],
+          "instructors": ["Todd Handy", "Brandon Tomm", "Daniela Palombo", "Geoffrey Gooderham"]
+        }
+      ]
+    },
+    "PSYC 311": {
+      "reported": 2679,
+      "average": 77.5,
+      "grades": [39, 24, 39, 58, 132, 217, 336, 528, 683, 456, 127],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 375,
+          "average": 79.1,
+          "grades": [1, 3, 4, 7, 14, 34, 45, 68, 90, 88, 21],
+          "instructors": ["Jeffrey Sauve"]
+        },
+        {
+          "session": "2025S",
+          "reported": 150,
+          "average": 77.9,
+          "grades": [4, 2, 1, 5, 6, 9, 20, 25, 31, 40, 7],
+          "instructors": ["Jeffrey Sauve"]
+        },
+        {
+          "session": "2024W",
+          "reported": 356,
+          "average": 79.0,
+          "grades": [2, 3, 2, 6, 13, 20, 39, 80, 110, 74, 7],
+          "instructors": ["Jeffrey Sauve"]
+        },
+        {
+          "session": "2024S",
+          "reported": 164,
+          "average": 79.1,
+          "grades": [0, 1, 0, 0, 4, 9, 22, 46, 56, 21, 5],
+          "instructors": ["Jeffrey Sauve"]
+        },
+        {
+          "session": "2023W",
+          "reported": 357,
+          "average": 77.6,
+          "grades": [3, 2, 6, 8, 19, 27, 48, 83, 93, 45, 20],
+          "instructors": ["Jeffrey Sauve"]
+        },
+        {
+          "session": "2023S",
+          "reported": 160,
+          "average": 77.8,
+          "grades": [3, 2, 2, 7, 8, 14, 14, 27, 41, 24, 15],
+          "instructors": ["Jeffrey Sauve"]
+        },
+        {
+          "session": "2022W",
+          "reported": 356,
+          "average": 76.1,
+          "grades": [7, 5, 9, 8, 25, 34, 59, 57, 94, 44, 14],
+          "instructors": ["Jeffrey Sauve"]
+        },
+        {
+          "session": "2022S",
+          "reported": 153,
+          "average": 78.9,
+          "grades": [1, 0, 1, 4, 4, 12, 15, 34, 44, 31, 7],
+          "instructors": ["Jeffrey Sauve"]
+        },
+        {
+          "session": "2021W",
+          "reported": 477,
+          "average": 75.1,
+          "grades": [18, 6, 14, 13, 39, 43, 50, 79, 99, 66, 31],
+          "instructors": ["Jeffrey Sauve", "Andrea Perrino"]
+        },
+        {
+          "session": "2021S",
+          "reported": 131,
+          "average": 76.9,
+          "grades": [0, 0, 0, 0, 0, 15, 24, 29, 25, 23, 0],
+          "instructors": ["Jeffrey Sauve"]
+        }
+      ]
+    },
+    "PSYC 312": {
+      "reported": 286,
+      "average": 81.8,
+      "grades": [1, 4, 1, 6, 2, 3, 13, 23, 67, 104, 46],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 45,
+          "average": 83.9,
+          "grades": [0, 0, 0, 0, 1, 0, 2, 5, 14, 18, 5],
+          "instructors": ["Jill Ashley Dosso"]
+        },
+        {
+          "session": "2024W",
+          "reported": 46,
+          "average": 81.6,
+          "grades": [0, 2, 1, 2, 1, 1, 6, 2, 9, 11, 11],
+          "instructors": ["Jill Ashley Dosso"]
+        },
+        {
+          "session": "2023W",
+          "topic": "A",
+          "title": "History of Psychology",
+          "reported": 62,
+          "average": 83.8,
+          "grades": [0, 1, 0, 2, 0, 0, 2, 5, 12, 26, 13],
+          "instructors": ["Alan Forbes Kingstone"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "History of Psychology",
+          "reported": 66,
+          "average": 81.6,
+          "grades": [1, 1, 0, 2, 0, 2, 3, 5, 14, 29, 9],
+          "instructors": ["Alan Forbes Kingstone"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "History of Psychology",
+          "reported": 67,
+          "average": 78.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 6, 18, 20, 8],
+          "instructors": ["Alan Forbes Kingstone"]
+        }
+      ]
+    },
+    "PSYC 314": {
+      "reported": 4995,
+      "average": 77.8,
+      "grades": [16, 71, 96, 222, 325, 495, 623, 586, 1184, 639, 677],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 887,
+          "average": 78.1,
+          "grades": [4, 15, 24, 47, 56, 78, 97, 92, 221, 124, 129],
+          "instructors": ["David King", "Rosie Shrout"]
+        },
+        {
+          "session": "2025S",
+          "reported": 254,
+          "average": 78.2,
+          "grades": [2, 5, 3, 14, 14, 24, 32, 41, 49, 28, 42],
+          "instructors": ["David King"]
+        },
+        {
+          "session": "2024W",
+          "reported": 875,
+          "average": 79.1,
+          "grades": [4, 15, 25, 32, 47, 74, 96, 87, 195, 137, 163],
+          "instructors": ["David King", "Nancy Sin"]
+        },
+        {
+          "session": "2024S",
+          "reported": 109,
+          "average": 77.3,
+          "grades": [0, 2, 2, 3, 3, 5, 19, 24, 39, 8, 4],
+          "instructors": ["David King"]
+        },
+        {
+          "session": "2023W",
+          "reported": 899,
+          "average": 77.3,
+          "grades": [4, 20, 27, 52, 65, 89, 117, 90, 199, 94, 135],
+          "instructors": ["David King"]
+        },
+        {
+          "session": "2023S",
+          "reported": 108,
+          "average": 76.9,
+          "grades": [0, 1, 1, 4, 5, 14, 17, 17, 31, 11, 5],
+          "instructors": ["David King"]
+        },
+        {
+          "session": "2022W",
+          "reported": 703,
+          "average": 77.3,
+          "grades": [2, 12, 14, 29, 48, 89, 84, 103, 157, 82, 83],
+          "instructors": ["David King", "Nancy Sin"]
+        },
+        {
+          "session": "2022S",
+          "reported": 109,
+          "average": 76.8,
+          "grades": [0, 1, 0, 3, 6, 11, 25, 15, 36, 9, 3],
+          "instructors": ["David King"]
+        },
+        {
+          "session": "2021W",
+          "reported": 800,
+          "average": 77.6,
+          "grades": [0, 0, 0, 38, 57, 76, 100, 89, 193, 117, 92],
+          "instructors": ["Nancy Sin", "David King", "Eric Kim"]
+        },
+        {
+          "session": "2021S",
+          "reported": 251,
+          "average": 76.8,
+          "grades": [0, 0, 0, 0, 24, 35, 36, 28, 64, 29, 21],
+          "instructors": ["David King"]
+        }
+      ]
+    },
+    "PSYC 315": {
+      "reported": 4452,
+      "average": 72.9,
+      "grades": [187, 158, 259, 315, 393, 480, 530, 556, 642, 523, 340],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 819,
+          "average": 75.1,
+          "grades": [23, 26, 36, 45, 69, 85, 100, 112, 145, 84, 94],
+          "instructors": ["Andrew Baron", "Lillian May"]
+        },
+        {
+          "session": "2025S",
+          "reported": 96,
+          "average": 73.3,
+          "grades": [1, 0, 4, 7, 11, 14, 10, 26, 18, 3, 2],
+          "instructors": ["Andrew Baron"]
+        },
+        {
+          "session": "2024W",
+          "reported": 824,
+          "average": 73.7,
+          "grades": [36, 39, 43, 47, 62, 77, 108, 101, 121, 112, 78],
+          "instructors": ["Andrew Baron", "Lillian May"]
+        },
+        {
+          "session": "2024S",
+          "reported": 97,
+          "average": 75.1,
+          "grades": [1, 3, 3, 3, 11, 14, 12, 15, 17, 10, 8],
+          "instructors": ["Andrew Baron"]
+        },
+        {
+          "session": "2023W",
+          "reported": 790,
+          "average": 71.9,
+          "grades": [46, 29, 47, 65, 73, 83, 95, 89, 90, 100, 55],
+          "instructors": ["Andrew Baron", "Lillian May"]
+        },
+        {
+          "session": "2023S",
+          "reported": 105,
+          "average": 70.0,
+          "grades": [7, 1, 12, 13, 10, 11, 9, 5, 12, 13, 5],
+          "instructors": ["Andrew Baron"]
+        },
+        {
+          "session": "2022W",
+          "reported": 776,
+          "average": 73.5,
+          "grades": [27, 35, 42, 41, 78, 85, 88, 92, 108, 125, 55],
+          "instructors": ["Andrew Baron", "Lillian May"]
+        },
+        {
+          "session": "2022S",
+          "reported": 94,
+          "average": 72.5,
+          "grades": [7, 2, 4, 9, 6, 16, 8, 9, 11, 14, 8],
+          "instructors": ["Andrew Baron"]
+        },
+        {
+          "session": "2021W",
+          "reported": 765,
+          "average": 70.9,
+          "grades": [33, 16, 68, 72, 62, 83, 93, 95, 111, 62, 35],
+          "instructors": ["Andrew Baron", "Taeh Haddock"]
+        },
+        {
+          "session": "2021S",
+          "reported": 86,
+          "average": 67.9,
+          "grades": [6, 7, 0, 13, 11, 12, 7, 12, 9, 0, 0],
+          "instructors": ["Andrew Baron"]
+        }
+      ]
+    },
+    "PSYC 319": {
+      "reported": 1354,
+      "average": 80.4,
+      "grades": [12, 18, 23, 42, 49, 107, 131, 113, 260, 285, 308],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 291,
+          "average": 83.4,
+          "grades": [0, 0, 7, 6, 3, 16, 29, 15, 48, 64, 103],
+          "instructors": ["Lillian May"]
+        },
+        {
+          "session": "2024W",
+          "reported": 300,
+          "average": 81.3,
+          "grades": [0, 5, 3, 14, 11, 20, 23, 29, 50, 70, 75],
+          "instructors": ["Lillian May"]
+        },
+        {
+          "session": "2023W",
+          "reported": 320,
+          "average": 80.5,
+          "grades": [9, 6, 2, 5, 9, 25, 28, 16, 68, 74, 74],
+          "instructors": ["Lillian May"]
+        },
+        {
+          "session": "2022W",
+          "reported": 298,
+          "average": 77.2,
+          "grades": [3, 7, 11, 10, 20, 33, 34, 29, 53, 53, 45],
+          "instructors": ["Lillian May"]
+        },
+        {
+          "session": "2021W",
+          "reported": 145,
+          "average": 78.2,
+          "grades": [0, 0, 0, 7, 6, 13, 17, 24, 41, 24, 11],
+          "instructors": ["Rachel Baitz"]
+        }
+      ]
+    },
+    "PSYC 320": {
+      "reported": 1842,
+      "average": 77.9,
+      "grades": [4, 10, 19, 61, 106, 169, 272, 274, 460, 226, 215],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 304,
+          "average": 79.7,
+          "grades": [0, 2, 6, 5, 13, 26, 31, 50, 72, 55, 44],
+          "instructors": ["David King"]
+        },
+        {
+          "session": "2025S",
+          "reported": 119,
+          "average": 76.9,
+          "grades": [1, 0, 2, 7, 8, 10, 19, 17, 33, 9, 13],
+          "instructors": ["David King"]
+        },
+        {
+          "session": "2024W",
+          "reported": 240,
+          "average": 78.9,
+          "grades": [1, 0, 2, 7, 10, 24, 38, 26, 62, 35, 35],
+          "instructors": ["David King"]
+        },
+        {
+          "session": "2024S",
+          "topic": "A",
+          "title": "Psychology of Sex Differences",
+          "reported": 107,
+          "average": 78.0,
+          "grades": [0, 1, 0, 0, 4, 9, 23, 21, 33, 10, 6],
+          "instructors": ["David King"]
+        },
+        {
+          "session": "2023W",
+          "topic": "A",
+          "title": "Psychology of Sex Differences",
+          "reported": 220,
+          "average": 77.5,
+          "grades": [0, 4, 1, 4, 16, 18, 35, 40, 65, 22, 15],
+          "instructors": ["David King"]
+        },
+        {
+          "session": "2023S",
+          "topic": "A",
+          "title": "Psychology of Sex Differences",
+          "reported": 108,
+          "average": 77.0,
+          "grades": [1, 0, 3, 4, 8, 11, 19, 13, 24, 12, 13],
+          "instructors": ["David King"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Psychology of Sex Differences",
+          "reported": 219,
+          "average": 77.0,
+          "grades": [0, 1, 3, 8, 23, 20, 38, 34, 50, 23, 19],
+          "instructors": ["David King"]
+        },
+        {
+          "session": "2022S",
+          "topic": "A",
+          "title": "Psychology of Sex Differences",
+          "reported": 108,
+          "average": 77.1,
+          "grades": [1, 2, 2, 6, 7, 5, 16, 19, 28, 7, 15],
+          "instructors": ["David King"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Psychology of Sex Differences",
+          "reported": 215,
+          "average": 77.5,
+          "grades": [0, 0, 0, 9, 0, 19, 23, 33, 58, 32, 21],
+          "instructors": ["David King"]
+        },
+        {
+          "session": "2021S",
+          "topic": "A",
+          "title": "Psychology of Sex Differences",
+          "reported": 202,
+          "average": 77.6,
+          "grades": [0, 0, 0, 11, 17, 27, 30, 21, 35, 21, 34],
+          "instructors": ["David King"]
+        }
+      ]
+    },
+    "PSYC 322": {
+      "reported": 2714,
+      "average": 75.0,
+      "grades": [64, 68, 156, 195, 155, 344, 322, 243, 503, 329, 321],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 430,
+          "average": 75.2,
+          "grades": [5, 7, 24, 31, 31, 48, 54, 53, 84, 56, 37],
+          "instructors": ["Mikey Jose", "Mark Lam"]
+        },
+        {
+          "session": "2025S",
+          "reported": 100,
+          "average": 74.2,
+          "grades": [2, 2, 11, 8, 8, 10, 9, 7, 21, 10, 12],
+          "instructors": ["Mark Lam"]
+        },
+        {
+          "session": "2024W",
+          "reported": 578,
+          "average": 76.0,
+          "grades": [12, 13, 24, 38, 39, 77, 60, 51, 108, 72, 84],
+          "instructors": ["Sunaina Assanand", "Mark Lam"]
+        },
+        {
+          "session": "2024S",
+          "reported": 141,
+          "average": 74.3,
+          "grades": [3, 4, 11, 15, 8, 21, 14, 10, 27, 9, 19],
+          "instructors": ["Mark Lam"]
+        },
+        {
+          "session": "2023W",
+          "reported": 384,
+          "average": 74.1,
+          "grades": [15, 12, 24, 21, 17, 59, 42, 28, 62, 52, 47],
+          "instructors": ["Mark Lam"]
+        },
+        {
+          "session": "2022W",
+          "reported": 425,
+          "average": 75.4,
+          "grades": [5, 11, 21, 34, 19, 58, 62, 44, 74, 52, 45],
+          "instructors": ["Mark Lam"]
+        },
+        {
+          "session": "2022S",
+          "reported": 148,
+          "average": 73.9,
+          "grades": [2, 6, 12, 14, 11, 16, 25, 8, 17, 16, 21],
+          "instructors": ["Mark Lam"]
+        },
+        {
+          "session": "2021W",
+          "reported": 508,
+          "average": 74.4,
+          "grades": [20, 13, 29, 34, 22, 55, 56, 42, 110, 62, 56],
+          "instructors": ["Mark Lam"]
+        }
+      ]
+    },
+    "PSYC 325": {
+      "reported": 1466,
+      "average": 79.0,
+      "grades": [8, 17, 42, 38, 81, 136, 155, 146, 320, 251, 264],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 293,
+          "average": 80.6,
+          "grades": [0, 5, 9, 3, 16, 21, 33, 26, 58, 50, 72],
+          "instructors": ["Lillian May"]
+        },
+        {
+          "session": "2025S",
+          "reported": 148,
+          "average": 78.3,
+          "grades": [3, 2, 3, 6, 8, 16, 14, 15, 27, 19, 35],
+          "instructors": ["Lillian May"]
+        },
+        {
+          "session": "2024W",
+          "reported": 273,
+          "average": 81.2,
+          "grades": [0, 0, 7, 7, 16, 14, 20, 25, 67, 52, 65],
+          "instructors": ["Lillian May"]
+        },
+        {
+          "session": "2023W",
+          "reported": 160,
+          "average": 77.8,
+          "grades": [3, 3, 8, 4, 4, 17, 21, 12, 33, 21, 33],
+          "instructors": ["Lillian May"]
+        },
+        {
+          "session": "2023S",
+          "reported": 143,
+          "average": 76.5,
+          "grades": [2, 4, 6, 8, 9, 16, 12, 9, 41, 18, 17],
+          "instructors": ["Lillian May"]
+        },
+        {
+          "session": "2022W",
+          "reported": 290,
+          "average": 77.5,
+          "grades": [0, 3, 9, 10, 17, 36, 42, 38, 48, 54, 33],
+          "instructors": ["Lillian May"]
+        },
+        {
+          "session": "2021W",
+          "reported": 159,
+          "average": 78.6,
+          "grades": [0, 0, 0, 0, 11, 16, 13, 21, 46, 37, 9],
+          "instructors": ["Lillian May"]
+        }
+      ]
+    },
+    "PSYC 333": {
+      "reported": 1305,
+      "average": 75.8,
+      "grades": [46, 27, 78, 72, 90, 132, 126, 117, 227, 158, 223],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 350,
+          "average": 79.2,
+          "grades": [6, 10, 20, 9, 22, 27, 23, 37, 58, 53, 85],
+          "instructors": ["Daniela Palombo"]
+        },
+        {
+          "session": "2024W",
+          "reported": 270,
+          "average": 80.2,
+          "grades": [2, 2, 3, 17, 18, 19, 20, 24, 66, 29, 70],
+          "instructors": ["Daniela Palombo"]
+        },
+        {
+          "session": "2023W",
+          "reported": 101,
+          "average": 71.6,
+          "grades": [9, 0, 6, 4, 7, 9, 15, 11, 23, 12, 2],
+          "instructors": ["Francesco Belardetti"]
+        },
+        {
+          "session": "2022W",
+          "reported": 370,
+          "average": 75.9,
+          "grades": [10, 14, 26, 27, 20, 34, 40, 30, 49, 57, 63],
+          "instructors": ["Daniela Palombo", "Francesco Belardetti"]
+        },
+        {
+          "session": "2022S",
+          "reported": 76,
+          "average": 67.3,
+          "grades": [5, 1, 9, 5, 15, 12, 10, 5, 10, 1, 3],
+          "instructors": ["Francesco Belardetti"]
+        },
+        {
+          "session": "2021W",
+          "reported": 138,
+          "average": 66.1,
+          "grades": [14, 0, 14, 10, 8, 31, 18, 10, 21, 6, 0],
+          "instructors": ["Francesco Belardetti"]
+        }
+      ]
+    },
+    "PSYC 335": {
+      "reported": 801,
+      "average": 79.4,
+      "grades": [7, 5, 13, 26, 21, 61, 73, 66, 257, 178, 84],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 172,
+          "average": 77.8,
+          "grades": [2, 1, 9, 5, 6, 13, 20, 13, 57, 32, 14],
+          "instructors": ["Luke Clark"]
+        },
+        {
+          "session": "2024W",
+          "reported": 159,
+          "average": 79.6,
+          "grades": [1, 0, 1, 5, 4, 21, 10, 13, 57, 32, 15],
+          "instructors": ["Luke Clark"]
+        },
+        {
+          "session": "2023W",
+          "reported": 160,
+          "average": 80.0,
+          "grades": [1, 2, 3, 5, 8, 5, 8, 19, 54, 42, 12],
+          "instructors": ["Luke Clark"]
+        },
+        {
+          "session": "2022W",
+          "reported": 152,
+          "average": 79.9,
+          "grades": [3, 2, 0, 5, 3, 13, 17, 12, 39, 33, 25],
+          "instructors": ["Luke Clark"]
+        },
+        {
+          "session": "2021W",
+          "reported": 158,
+          "average": 80.1,
+          "grades": [0, 0, 0, 6, 0, 9, 18, 9, 50, 39, 18],
+          "instructors": ["Luke Clark"]
+        }
+      ]
+    },
+    "PSYC 336": {
+      "reported": 762,
+      "average": 76.3,
+      "grades": [1, 14, 32, 50, 58, 70, 93, 115, 121, 114, 79],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 166,
+          "average": 77.3,
+          "grades": [0, 2, 2, 9, 10, 19, 22, 28, 29, 26, 19],
+          "instructors": ["Helen Lu"]
+        },
+        {
+          "session": "2024W",
+          "reported": 138,
+          "average": 76.7,
+          "grades": [0, 6, 7, 13, 8, 13, 13, 16, 17, 23, 22],
+          "instructors": ["Xin Sun"]
+        },
+        {
+          "session": "2023W",
+          "reported": 145,
+          "average": 77.3,
+          "grades": [1, 0, 6, 6, 14, 15, 15, 21, 25, 22, 17],
+          "instructors": ["Xin Sun"]
+        },
+        {
+          "session": "2022W",
+          "reported": 139,
+          "average": 77.1,
+          "grades": [0, 6, 3, 7, 11, 11, 21, 19, 24, 16, 21],
+          "instructors": ["Xin Sun"]
+        },
+        {
+          "session": "2021W",
+          "reported": 174,
+          "average": 73.7,
+          "grades": [0, 0, 14, 15, 15, 12, 22, 31, 26, 27, 0],
+          "instructors": ["Haykaz Mangardich"]
+        }
+      ]
+    },
+    "PSYC 340": {
+      "reported": 206,
+      "average": 92.0,
+      "grades": [0, 0, 0, 1, 0, 0, 6, 0, 8, 29, 162],
+      "terms": [
+        {
+          "session": "2025W",
+          "topic": "C",
+          "title": "Directed Studies in Psychology",
+          "reported": 19,
+          "average": 91.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 5, 13],
+          "instructors": ["Deborah Giaschi"]
+        },
+        {
+          "session": "2025W",
+          "topic": "E",
+          "title": "Directed Studies in Psychology",
+          "reported": 28,
+          "average": 93.0,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 1, 2, 24],
+          "instructors": ["Deborah Giaschi"]
+        },
+        {
+          "session": "2025S",
+          "topic": "F",
+          "title": "Directed Studies in Psychology",
+          "reported": 11,
+          "average": 93.4,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 9],
+          "instructors": []
+        },
+        {
+          "session": "2024W",
+          "topic": "B",
+          "title": "Directed Studies in Psychology",
+          "reported": 6,
+          "average": 93.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6],
+          "instructors": []
+        },
+        {
+          "session": "2024W",
+          "topic": "E",
+          "title": "Directed Studies in Psychology",
+          "reported": 34,
+          "average": 92.0,
+          "grades": [0, 0, 0, 0, 0, 0, 2, 0, 1, 4, 27],
+          "instructors": []
+        },
+        {
+          "session": "2024S",
+          "topic": "F",
+          "title": "Directed Studies in Psychology",
+          "reported": 14,
+          "average": 93.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 13],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "topic": "B",
+          "title": "Directed Studies in Psychology",
+          "reported": 6,
+          "average": 90.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 5],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "topic": "E",
+          "title": "Directed Studies in Psychology",
+          "reported": 33,
+          "average": 91.7,
+          "grades": [0, 0, 0, 1, 0, 0, 0, 0, 1, 6, 25],
+          "instructors": []
+        },
+        {
+          "session": "2023S",
+          "topic": "F",
+          "title": "Directed Studies in Psychology",
+          "reported": 10,
+          "average": 91.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 9],
+          "instructors": []
+        },
+        {
+          "session": "2022W",
+          "topic": "E",
+          "title": "Directed Studies in Psychology",
+          "reported": 35,
+          "average": 90.8,
+          "grades": [0, 0, 0, 0, 0, 0, 2, 0, 3, 5, 25],
+          "instructors": []
+        },
+        {
+          "session": "2022S",
+          "topic": "F",
+          "title": "Directed Studies in Psychology",
+          "reported": 10,
+          "average": 91.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 6],
+          "instructors": []
+        }
+      ]
+    },
+    "PSYC 349": {
+      "reported": 149,
+      "average": 87.4,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 4, 18, 61, 51],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 27,
+          "average": 88.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 3, 12, 12],
+          "instructors": ["Alan Kingstone", "Francis Yuen"]
+        },
+        {
+          "session": "2024W",
+          "reported": 29,
+          "average": 86.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 7, 12, 9],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "reported": 30,
+          "average": 88.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 14, 11],
+          "instructors": ["Jin-Hui Wen", "James Enns"]
+        },
+        {
+          "session": "2022W",
+          "reported": 32,
+          "average": 86.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 3, 6, 10, 13],
+          "instructors": ["Jane Hamlin", "James Enns"]
+        },
+        {
+          "session": "2021W",
+          "reported": 31,
+          "average": 86.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 6],
+          "instructors": ["Jane Hamlin", "James Enns"]
+        }
+      ]
+    },
+    "PSYC 350": {
+      "reported": 2321,
+      "average": 74.7,
+      "grades": [47, 74, 116, 173, 185, 252, 237, 250, 374, 335, 247],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 422,
+          "average": 74.1,
+          "grades": [12, 21, 18, 38, 28, 47, 51, 40, 59, 66, 42],
+          "instructors": ["Samantha Dawson", "Kaitlyn Goldsmith"]
+        },
+        {
+          "session": "2024W",
+          "reported": 424,
+          "average": 73.4,
+          "grades": [12, 14, 26, 38, 31, 52, 51, 34, 72, 64, 30],
+          "instructors": ["Samantha Dawson", "Kaitlyn Goldsmith"]
+        },
+        {
+          "session": "2023W",
+          "topic": "A",
+          "title": "Psychological Aspects of Human Sexuality",
+          "reported": 533,
+          "average": 75.0,
+          "grades": [13, 18, 28, 34, 42, 51, 54, 56, 77, 78, 72],
+          "instructors": ["Samantha Dawson", "Kaitlyn Goldsmith"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Psychological Aspects of Human Sexuality",
+          "reported": 483,
+          "average": 75.1,
+          "grades": [10, 21, 29, 25, 43, 52, 42, 54, 82, 75, 50],
+          "instructors": ["Samantha Dawson", "Kaitlyn Goldsmith"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Psychological Aspects of Human Sexuality",
+          "reported": 459,
+          "average": 75.6,
+          "grades": [0, 0, 15, 38, 41, 50, 39, 66, 84, 52, 53],
+          "instructors": ["Samantha Dawson", "Kaitlyn Goldsmith"]
+        }
+      ]
+    },
+    "PSYC 358": {
+      "reported": 743,
+      "average": 74.1,
+      "grades": [13, 42, 40, 47, 70, 75, 76, 77, 119, 80, 82],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 147,
+          "average": 75.8,
+          "grades": [4, 6, 3, 13, 15, 9, 15, 16, 26, 19, 21],
+          "instructors": ["Azim Shariff"]
+        },
+        {
+          "session": "2023W",
+          "reported": 340,
+          "average": 74.1,
+          "grades": [6, 30, 20, 13, 25, 36, 33, 29, 52, 34, 45],
+          "instructors": ["Mark Schaller"]
+        },
+        {
+          "session": "2022W",
+          "reported": 134,
+          "average": 72.9,
+          "grades": [3, 6, 10, 12, 18, 12, 12, 16, 22, 13, 10],
+          "instructors": ["Azim Shariff"]
+        },
+        {
+          "session": "2021W",
+          "reported": 122,
+          "average": 73.1,
+          "grades": [0, 0, 7, 9, 12, 18, 16, 16, 19, 14, 6],
+          "instructors": ["Azim Shariff"]
+        }
+      ]
+    },
+    "PSYC 359": {
+      "reported": 334,
+      "average": 81.7,
+      "grades": [1, 1, 2, 8, 11, 16, 22, 36, 90, 63, 70],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 67,
+          "average": 80.9,
+          "grades": [1, 1, 1, 2, 1, 5, 8, 7, 18, 5, 18],
+          "instructors": ["Jeremy Biesanz"]
+        },
+        {
+          "session": "2024W",
+          "reported": 73,
+          "average": 80.5,
+          "grades": [0, 0, 1, 2, 7, 6, 3, 8, 20, 10, 16],
+          "instructors": ["Jeremy Biesanz"]
+        },
+        {
+          "session": "2023W",
+          "reported": 75,
+          "average": 82.2,
+          "grades": [0, 0, 0, 3, 3, 4, 6, 6, 19, 15, 16],
+          "instructors": ["Jeremy Biesanz"]
+        },
+        {
+          "session": "2022W",
+          "reported": 51,
+          "average": 83.5,
+          "grades": [0, 0, 0, 1, 0, 1, 5, 8, 15, 9, 12],
+          "instructors": ["Jeremy Biesanz"]
+        },
+        {
+          "session": "2021W",
+          "reported": 68,
+          "average": 82.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 7, 18, 24, 8],
+          "instructors": ["Jeremy Biesanz"]
+        }
+      ]
+    },
+    "PSYC 361": {
+      "reported": 536,
+      "average": 74.0,
+      "grades": [18, 20, 19, 36, 43, 73, 50, 57, 84, 77, 55],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 101,
+          "average": 74.2,
+          "grades": [1, 5, 2, 6, 9, 17, 10, 12, 17, 11, 11],
+          "instructors": ["Alex Yu"]
+        },
+        {
+          "session": "2024W",
+          "reported": 124,
+          "average": 75.9,
+          "grades": [2, 4, 1, 7, 9, 14, 13, 18, 20, 23, 13],
+          "instructors": ["Alex Yu"]
+        },
+        {
+          "session": "2023W",
+          "reported": 107,
+          "average": 74.3,
+          "grades": [4, 3, 1, 11, 8, 14, 9, 7, 15, 19, 12],
+          "instructors": ["Alex Yu"]
+        },
+        {
+          "session": "2022W",
+          "reported": 103,
+          "average": 72.8,
+          "grades": [5, 2, 10, 4, 10, 16, 12, 9, 15, 10, 10],
+          "instructors": ["Catharine Winstanley"]
+        },
+        {
+          "session": "2021W",
+          "reported": 101,
+          "average": 72.5,
+          "grades": [6, 6, 5, 8, 7, 12, 6, 11, 17, 14, 9],
+          "instructors": ["Catharine Winstanley"]
+        }
+      ]
+    },
+    "PSYC 363": {
+      "reported": 229,
+      "average": 72.5,
+      "grades": [13, 9, 9, 18, 14, 17, 24, 29, 25, 19, 38],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 34,
+          "average": 74.1,
+          "grades": [2, 0, 1, 2, 4, 4, 3, 3, 6, 3, 6],
+          "instructors": ["Catharine Rankin"]
+        },
+        {
+          "session": "2024W",
+          "reported": 38,
+          "average": 72.9,
+          "grades": [2, 0, 3, 2, 4, 5, 4, 4, 5, 7, 2],
+          "instructors": ["Catharine Rankin"]
+        },
+        {
+          "session": "2023W",
+          "reported": 54,
+          "average": 68.1,
+          "grades": [6, 6, 2, 3, 3, 7, 1, 4, 1, 4, 12],
+          "instructors": ["Catharine Rankin"]
+        },
+        {
+          "session": "2022W",
+          "reported": 49,
+          "average": 71.0,
+          "grades": [3, 3, 3, 5, 3, 1, 6, 11, 3, 5, 6],
+          "instructors": ["Catharine Rankin"]
+        },
+        {
+          "session": "2021W",
+          "reported": 54,
+          "average": 76.9,
+          "grades": [0, 0, 0, 6, 0, 0, 10, 7, 10, 0, 12],
+          "instructors": ["Catharine Rankin"]
+        }
+      ]
+    },
+    "PSYC 365": {
+      "reported": 1055,
+      "average": 79.8,
+      "grades": [20, 10, 24, 32, 55, 69, 97, 120, 208, 221, 196],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 224,
+          "average": 80.4,
+          "grades": [2, 1, 2, 4, 9, 15, 19, 37, 52, 56, 27],
+          "instructors": ["Rebecca Todd"]
+        },
+        {
+          "session": "2024W",
+          "reported": 217,
+          "average": 80.2,
+          "grades": [1, 2, 2, 7, 17, 14, 22, 27, 43, 39, 43],
+          "instructors": ["Brandon Forys"]
+        },
+        {
+          "session": "2023W",
+          "reported": 189,
+          "average": 80.2,
+          "grades": [3, 2, 4, 5, 10, 10, 15, 19, 39, 44, 35],
+          "instructors": ["Rebecca Todd"]
+        },
+        {
+          "session": "2022W",
+          "reported": 230,
+          "average": 78.3,
+          "grades": [8, 3, 8, 10, 12, 19, 25, 14, 41, 47, 43],
+          "instructors": ["Rebecca Todd"]
+        },
+        {
+          "session": "2021W",
+          "reported": 195,
+          "average": 79.9,
+          "grades": [6, 2, 8, 6, 7, 11, 16, 23, 33, 35, 48],
+          "instructors": ["Rebecca Todd"]
+        }
+      ]
+    },
+    "PSYC 367": {
+      "reported": 1210,
+      "average": 75.8,
+      "grades": [48, 84, 69, 85, 73, 92, 101, 97, 124, 138, 289],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 239,
+          "average": 74.7,
+          "grades": [9, 19, 18, 21, 18, 12, 21, 24, 18, 21, 58],
+          "instructors": ["Deborah Giaschi"]
+        },
+        {
+          "session": "2024W",
+          "reported": 244,
+          "average": 76.2,
+          "grades": [7, 14, 12, 15, 14, 24, 38, 10, 20, 35, 55],
+          "instructors": ["Deborah Giaschi"]
+        },
+        {
+          "session": "2023W",
+          "reported": 264,
+          "average": 78.7,
+          "grades": [6, 21, 7, 12, 10, 27, 14, 17, 34, 28, 78],
+          "instructors": ["Hee Yeon Im"]
+        },
+        {
+          "session": "2022W",
+          "reported": 241,
+          "average": 74.2,
+          "grades": [15, 14, 16, 20, 19, 15, 16, 24, 28, 24, 50],
+          "instructors": ["Deborah Giaschi"]
+        },
+        {
+          "session": "2021W",
+          "reported": 222,
+          "average": 74.8,
+          "grades": [11, 16, 16, 17, 12, 14, 12, 22, 24, 30, 48],
+          "instructors": ["Deborah Giaschi"]
+        }
+      ]
+    },
+    "PSYC 368": {
+      "reported": 413,
+      "average": 77.1,
+      "grades": [6, 19, 20, 33, 19, 32, 34, 24, 56, 76, 85],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 56,
+          "average": 77.0,
+          "grades": [1, 4, 3, 4, 2, 5, 6, 3, 5, 6, 17],
+          "instructors": ["Deborah Giaschi"]
+        },
+        {
+          "session": "2024W",
+          "reported": 88,
+          "average": 78.5,
+          "grades": [0, 3, 3, 9, 7, 2, 2, 9, 18, 20, 15],
+          "instructors": ["Deborah Giaschi"]
+        },
+        {
+          "session": "2023W",
+          "reported": 94,
+          "average": 78.8,
+          "grades": [3, 2, 3, 8, 5, 6, 6, 8, 11, 20, 22],
+          "instructors": ["Hee Yeon Im"]
+        },
+        {
+          "session": "2022W",
+          "reported": 84,
+          "average": 76.5,
+          "grades": [2, 1, 5, 6, 5, 10, 11, 4, 8, 16, 16],
+          "instructors": ["Deborah Giaschi"]
+        },
+        {
+          "session": "2021W",
+          "reported": 91,
+          "average": 74.4,
+          "grades": [0, 9, 6, 6, 0, 9, 9, 0, 14, 14, 15],
+          "instructors": ["Deborah Giaschi"]
+        }
+      ]
+    },
+    "PSYC 370": {
+      "reported": 464,
+      "average": 80.7,
+      "grades": [9, 2, 6, 7, 20, 22, 20, 65, 113, 129, 61],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 108,
+          "average": 78.5,
+          "grades": [1, 2, 2, 1, 7, 10, 8, 19, 30, 19, 9],
+          "instructors": ["Jason Snyder"]
+        },
+        {
+          "session": "2024W",
+          "reported": 64,
+          "average": 78.1,
+          "grades": [2, 0, 2, 3, 6, 3, 3, 6, 18, 16, 5],
+          "instructors": ["Jason Snyder"]
+        },
+        {
+          "session": "2023W",
+          "reported": 94,
+          "average": 80.8,
+          "grades": [5, 0, 1, 2, 3, 3, 3, 12, 17, 30, 16],
+          "instructors": ["Jason Snyder"]
+        },
+        {
+          "session": "2022W",
+          "reported": 101,
+          "average": 81.9,
+          "grades": [1, 0, 1, 1, 4, 6, 6, 14, 24, 27, 17],
+          "instructors": ["Jason Snyder"]
+        },
+        {
+          "session": "2021W",
+          "reported": 97,
+          "average": 83.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 14, 24, 37, 14],
+          "instructors": ["Todd Peter Kamensek"]
+        }
+      ]
+    },
+    "PSYC 371": {
+      "reported": 437,
+      "average": 79.2,
+      "grades": [4, 9, 9, 10, 28, 18, 39, 60, 95, 90, 68],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 102,
+          "average": 78.6,
+          "grades": [1, 2, 3, 2, 7, 6, 9, 16, 22, 21, 13],
+          "instructors": ["Jason Snyder"]
+        },
+        {
+          "session": "2024W",
+          "reported": 61,
+          "average": 82.9,
+          "grades": [0, 2, 0, 2, 2, 0, 3, 6, 14, 14, 18],
+          "instructors": ["Jason Snyder"]
+        },
+        {
+          "session": "2023W",
+          "reported": 84,
+          "average": 77.5,
+          "grades": [2, 2, 1, 3, 2, 5, 9, 14, 20, 15, 9],
+          "instructors": ["Jason Snyder"]
+        },
+        {
+          "session": "2022W",
+          "reported": 97,
+          "average": 74.6,
+          "grades": [1, 3, 5, 3, 17, 7, 9, 15, 14, 19, 4],
+          "instructors": ["Jason Snyder"]
+        },
+        {
+          "session": "2021W",
+          "reported": 93,
+          "average": 83.6,
+          "grades": [0, 0, 0, 0, 0, 0, 9, 9, 25, 21, 24],
+          "instructors": ["Jeremy Hosking"]
+        }
+      ]
+    },
+    "PSYC 388": {
+      "reported": 20,
+      "average": 89.1,
+      "grades": [0, 0, 0, 0, 0, 0, 1, 1, 1, 4, 13],
+      "terms": [
+        {
+          "session": "2023W",
+          "topic": "E",
+          "title": "Directed Studies in Behavioural Neuroscience",
+          "reported": 8,
+          "average": 88.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 0, 3, 4],
+          "instructors": []
+        },
+        {
+          "session": "2022W",
+          "topic": "E",
+          "title": "Directed Studies in Behavioural Neuroscience",
+          "reported": 12,
+          "average": 89.5,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 9],
+          "instructors": []
+        }
+      ]
+    },
+    "PSYC 401": {
+      "reported": 1047,
+      "average": 76.4,
+      "grades": [25, 24, 31, 49, 66, 107, 119, 157, 182, 160, 116],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 270,
+          "average": 79.9,
+          "grades": [7, 2, 5, 7, 11, 24, 20, 40, 41, 52, 61],
+          "instructors": ["Paul Hewitt", "Bethany Michel"]
+        },
+        {
+          "session": "2024W",
+          "reported": 129,
+          "average": 75.6,
+          "grades": [2, 2, 2, 7, 12, 14, 19, 21, 26, 18, 6],
+          "instructors": ["Paul Hewitt"]
+        },
+        {
+          "session": "2024S",
+          "reported": 84,
+          "average": 72.7,
+          "grades": [5, 2, 4, 8, 6, 11, 10, 10, 14, 8, 6],
+          "instructors": ["Rui Mary Jia"]
+        },
+        {
+          "session": "2023W",
+          "reported": 136,
+          "average": 75.5,
+          "grades": [1, 2, 5, 7, 12, 8, 25, 22, 29, 21, 3],
+          "instructors": ["Paul Hewitt"]
+        },
+        {
+          "session": "2022W",
+          "reported": 214,
+          "average": 77.8,
+          "grades": [0, 6, 6, 11, 15, 22, 24, 28, 34, 39, 29],
+          "instructors": ["Connor Kerns", "Paul Hewitt"]
+        },
+        {
+          "session": "2021W",
+          "reported": 214,
+          "average": 73.0,
+          "grades": [10, 10, 9, 9, 10, 28, 21, 36, 38, 22, 11],
+          "instructors": ["Sheila Woody", "Paul Hewitt"]
+        }
+      ]
+    },
+    "PSYC 404": {
+      "reported": 153,
+      "average": 77.7,
+      "grades": [1, 0, 0, 0, 2, 1, 29, 31, 47, 11, 6],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 68,
+          "average": 77.8,
+          "grades": [1, 0, 0, 0, 2, 1, 12, 21, 20, 11, 0],
+          "instructors": ["Ara Norenzayan"]
+        },
+        {
+          "session": "2021W",
+          "reported": 85,
+          "average": 77.7,
+          "grades": [0, 0, 0, 0, 0, 0, 17, 10, 27, 0, 6],
+          "instructors": ["Ara Norenzayan"]
+        }
+      ]
+    },
+    "PSYC 409": {
+      "reported": 193,
+      "average": 87.1,
+      "grades": [1, 0, 0, 3, 1, 2, 5, 3, 18, 81, 79],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 50,
+          "average": 90.1,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 3, 10, 36],
+          "instructors": ["Todd Handy"]
+        },
+        {
+          "session": "2024W",
+          "reported": 49,
+          "average": 85.4,
+          "grades": [0, 0, 0, 1, 1, 1, 2, 1, 6, 25, 12],
+          "instructors": ["Todd Handy"]
+        },
+        {
+          "session": "2023W",
+          "reported": 51,
+          "average": 86.2,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 1, 8, 35, 6],
+          "instructors": ["Todd Handy"]
+        },
+        {
+          "session": "2022W",
+          "reported": 43,
+          "average": 86.5,
+          "grades": [1, 0, 0, 2, 0, 1, 1, 1, 1, 11, 25],
+          "instructors": ["Todd Handy"]
+        }
+      ]
+    },
+    "PSYC 413": {
+      "reported": 1512,
+      "average": 78.2,
+      "grades": [33, 18, 24, 33, 68, 98, 142, 185, 317, 339, 198],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 282,
+          "average": 82.6,
+          "grades": [5, 1, 2, 3, 6, 10, 15, 26, 57, 88, 69],
+          "instructors": ["Andrew Baron"]
+        },
+        {
+          "session": "2025S",
+          "reported": 93,
+          "average": 82.9,
+          "grades": [1, 1, 0, 1, 2, 0, 6, 12, 21, 25, 24],
+          "instructors": ["Andrew Baron"]
+        },
+        {
+          "session": "2024W",
+          "reported": 202,
+          "average": 79.7,
+          "grades": [5, 2, 3, 3, 6, 19, 20, 31, 30, 40, 43],
+          "instructors": ["Andrew Baron"]
+        },
+        {
+          "session": "2024S",
+          "reported": 88,
+          "average": 75.6,
+          "grades": [3, 1, 0, 3, 8, 10, 9, 15, 19, 13, 7],
+          "instructors": ["Andrew Baron"]
+        },
+        {
+          "session": "2023W",
+          "reported": 219,
+          "average": 78.2,
+          "grades": [7, 4, 8, 8, 7, 16, 12, 27, 43, 49, 33],
+          "instructors": ["Andrew Baron"]
+        },
+        {
+          "session": "2023S",
+          "reported": 102,
+          "average": 77.5,
+          "grades": [2, 1, 3, 5, 8, 6, 8, 10, 22, 25, 7],
+          "instructors": ["Andrew Baron"]
+        },
+        {
+          "session": "2022W",
+          "reported": 190,
+          "average": 75.5,
+          "grades": [7, 4, 2, 9, 13, 18, 23, 23, 44, 40, 7],
+          "instructors": ["Andrew Baron"]
+        },
+        {
+          "session": "2022S",
+          "reported": 74,
+          "average": 70.8,
+          "grades": [3, 4, 6, 1, 9, 6, 15, 12, 11, 7, 0],
+          "instructors": ["Andrew Baron"]
+        },
+        {
+          "session": "2021W",
+          "reported": 190,
+          "average": 76.4,
+          "grades": [0, 0, 0, 0, 9, 13, 28, 20, 56, 32, 8],
+          "instructors": ["Andrew Baron"]
+        },
+        {
+          "session": "2021S",
+          "reported": 72,
+          "average": 74.1,
+          "grades": [0, 0, 0, 0, 0, 0, 6, 9, 14, 20, 0],
+          "instructors": ["Andrew Baron"]
+        }
+      ]
+    },
+    "PSYC 417": {
+      "reported": 142,
+      "average": 81.4,
+      "grades": [3, 0, 0, 2, 4, 8, 4, 15, 24, 33, 37],
+      "terms": [
+        {
+          "session": "2024S",
+          "topic": "A",
+          "title": "Special Topics in Psychology",
+          "reported": 31,
+          "average": 80.2,
+          "grades": [2, 0, 0, 0, 1, 2, 3, 5, 2, 5, 11],
+          "instructors": ["Tristan Hynes"]
+        },
+        {
+          "session": "2023W",
+          "topic": "A",
+          "title": "Special Topics in Psychology",
+          "reported": 34,
+          "average": 80.8,
+          "grades": [1, 0, 0, 1, 1, 2, 0, 3, 10, 8, 6],
+          "instructors": ["Jason Rights"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Special Topics in Psychology",
+          "reported": 52,
+          "average": 82.6,
+          "grades": [0, 0, 0, 1, 2, 4, 1, 7, 12, 11, 14],
+          "instructors": ["Jason Rights", "Steven Heine"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Special Topics in Psychology",
+          "reported": 25,
+          "average": 81.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 6],
+          "instructors": ["Jason Rights"]
+        }
+      ]
+    },
+    "PSYC 421": {
+      "reported": 586,
+      "average": 78.5,
+      "grades": [3, 7, 11, 20, 30, 51, 64, 97, 110, 108, 73],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 99,
+          "average": 82.0,
+          "grades": [1, 0, 1, 1, 4, 4, 6, 13, 29, 23, 17],
+          "instructors": ["Jiaying Zhao"]
+        },
+        {
+          "session": "2024W",
+          "reported": 126,
+          "average": 76.9,
+          "grades": [0, 3, 4, 8, 10, 11, 14, 23, 22, 16, 15],
+          "instructors": ["Jiaying Zhao"]
+        },
+        {
+          "session": "2023W",
+          "reported": 112,
+          "average": 79.7,
+          "grades": [1, 2, 4, 5, 5, 5, 12, 14, 20, 22, 21],
+          "instructors": ["Jiaying Zhao"]
+        },
+        {
+          "session": "2022W",
+          "reported": 136,
+          "average": 75.9,
+          "grades": [1, 2, 2, 6, 11, 22, 21, 24, 16, 20, 11],
+          "instructors": ["Jiaying Zhao"]
+        },
+        {
+          "session": "2021W",
+          "reported": 113,
+          "average": 79.3,
+          "grades": [0, 0, 0, 0, 0, 9, 11, 23, 23, 27, 9],
+          "instructors": ["Jiaying Zhao"]
+        }
+      ]
+    },
+    "PSYC 427": {
+      "reported": 92,
+      "average": 81.5,
+      "grades": [1, 0, 0, 0, 1, 6, 3, 7, 25, 22, 17],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 18,
+          "average": 82.1,
+          "grades": [0, 0, 0, 0, 0, 2, 1, 4, 3, 5, 3],
+          "instructors": ["Kalina Christoff Hadjiilieva"]
+        },
+        {
+          "session": "2024W",
+          "reported": 13,
+          "average": 86.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 4],
+          "instructors": ["Anita DeLongis"]
+        },
+        {
+          "session": "2023W",
+          "reported": 25,
+          "average": 81.7,
+          "grades": [1, 0, 0, 0, 1, 1, 0, 3, 3, 8, 8],
+          "instructors": ["Anita Delongis"]
+        },
+        {
+          "session": "2022W",
+          "reported": 15,
+          "average": 81.4,
+          "grades": [0, 0, 0, 0, 0, 3, 2, 0, 3, 5, 2],
+          "instructors": ["Anita Delongis"]
+        },
+        {
+          "session": "2021W",
+          "reported": 21,
+          "average": 77.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 11, 0, 0],
+          "instructors": ["Anita Delongis"]
+        }
+      ]
+    },
+    "PSYC 440": {
+      "reported": 98,
+      "average": 90.3,
+      "grades": [0, 1, 1, 0, 2, 1, 0, 2, 4, 17, 70],
+      "terms": [
+        {
+          "session": "2025W",
+          "topic": "C",
+          "title": "Directed Studies in Psychology",
+          "reported": 7,
+          "average": 86.1,
+          "grades": [0, 0, 0, 0, 1, 0, 0, 0, 1, 2, 3],
+          "instructors": ["Deborah Giaschi"]
+        },
+        {
+          "session": "2025W",
+          "topic": "E",
+          "title": "Directed Studies in Psychology",
+          "reported": 17,
+          "average": 94.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 16],
+          "instructors": ["Deborah Giaschi"]
+        },
+        {
+          "session": "2024W",
+          "topic": "C",
+          "title": "Directed Studies in Psychology",
+          "reported": 6,
+          "average": 86.2,
+          "grades": [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 5],
+          "instructors": []
+        },
+        {
+          "session": "2024W",
+          "topic": "E",
+          "title": "Directed Studies in Psychology",
+          "reported": 28,
+          "average": 89.9,
+          "grades": [0, 0, 1, 0, 0, 0, 0, 1, 2, 6, 18],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "topic": "E",
+          "title": "Directed Studies in Psychology",
+          "reported": 24,
+          "average": 89.3,
+          "grades": [0, 0, 0, 0, 1, 1, 0, 0, 1, 5, 16],
+          "instructors": []
+        },
+        {
+          "session": "2022W",
+          "topic": "E",
+          "title": "Directed Studies in Psychology",
+          "reported": 16,
+          "average": 91.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 0, 3, 12],
+          "instructors": []
+        }
+      ]
+    },
+    "PSYC 449": {
+      "reported": 138,
+      "average": 88.7,
+      "grades": [1, 0, 0, 0, 0, 0, 1, 3, 8, 34, 77],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 27,
+          "average": 89.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 4, 9, 14],
+          "instructors": ["Alan Kingstone", "Francis Yuen"]
+        },
+        {
+          "session": "2024W",
+          "reported": 27,
+          "average": 90.0,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 0, 5, 21],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "reported": 32,
+          "average": 90.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 1, 6, 24],
+          "instructors": ["Jin-Hui Wen", "James Enns"]
+        },
+        {
+          "session": "2022W",
+          "reported": 29,
+          "average": 84.9,
+          "grades": [1, 0, 0, 0, 0, 0, 0, 2, 3, 14, 9],
+          "instructors": ["Jane Hamlin", "James Enns"]
+        },
+        {
+          "session": "2021W",
+          "reported": 23,
+          "average": 89.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9],
+          "instructors": ["Jane Hamlin", "James Enns"]
+        }
+      ]
+    },
+    "PSYC 460": {
+      "reported": 283,
+      "average": 78.5,
+      "grades": [3, 2, 7, 10, 20, 17, 31, 28, 64, 63, 25],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 46,
+          "average": 72.6,
+          "grades": [2, 1, 5, 1, 8, 4, 6, 2, 7, 5, 5],
+          "instructors": ["Kiran Soma"]
+        },
+        {
+          "session": "2024W",
+          "reported": 63,
+          "average": 80.0,
+          "grades": [0, 0, 0, 3, 4, 2, 8, 8, 17, 12, 9],
+          "instructors": ["Mudi Zhao"]
+        },
+        {
+          "session": "2023W",
+          "reported": 60,
+          "average": 76.4,
+          "grades": [0, 1, 2, 4, 5, 7, 9, 6, 10, 11, 4],
+          "instructors": ["Mudi Zhao"]
+        },
+        {
+          "session": "2022W",
+          "reported": 61,
+          "average": 79.9,
+          "grades": [1, 0, 0, 2, 3, 4, 8, 5, 13, 18, 7],
+          "instructors": ["Desiree Seib"]
+        },
+        {
+          "session": "2021W",
+          "reported": 53,
+          "average": 82.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 7, 17, 17, 0],
+          "instructors": ["Wansu Qiu"]
+        }
+      ]
+    },
+    "PSYC 461": {
+      "reported": 274,
+      "average": 81.2,
+      "grades": [2, 5, 3, 3, 7, 8, 24, 22, 57, 74, 56],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 50,
+          "average": 81.9,
+          "grades": [0, 0, 0, 0, 3, 3, 5, 4, 14, 14, 7],
+          "instructors": ["Ivan Trujillo-Pisanty"]
+        },
+        {
+          "session": "2024W",
+          "reported": 39,
+          "average": 82.2,
+          "grades": [1, 2, 0, 1, 0, 1, 2, 1, 8, 9, 14],
+          "instructors": ["Shayden Schofield-Lewis"]
+        },
+        {
+          "session": "2023W",
+          "reported": 83,
+          "average": 83.3,
+          "grades": [1, 1, 2, 0, 1, 2, 8, 5, 13, 30, 20],
+          "instructors": ["Alyssa Mercedes Ash", "Tanvi Puri"]
+        },
+        {
+          "session": "2022W",
+          "reported": 62,
+          "average": 77.9,
+          "grades": [0, 2, 1, 2, 3, 2, 9, 12, 14, 12, 5],
+          "instructors": ["Liisa Ann Margaret Galea", "Tanvi Puri"]
+        },
+        {
+          "session": "2021W",
+          "reported": 40,
+          "average": 80.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 8, 9, 10],
+          "instructors": ["Liisa Ann Margaret Galea"]
+        }
+      ]
+    },
+    "PSYC 462": {
+      "reported": 684,
+      "average": 75.3,
+      "grades": [19, 36, 35, 34, 44, 66, 69, 44, 111, 98, 121],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 137,
+          "average": 77.9,
+          "grades": [2, 7, 7, 4, 6, 12, 19, 4, 23, 22, 31],
+          "instructors": ["Stan Floresco"]
+        },
+        {
+          "session": "2024W",
+          "reported": 133,
+          "average": 76.9,
+          "grades": [6, 5, 4, 9, 4, 9, 11, 6, 26, 23, 30],
+          "instructors": ["Stanley Bogdan Floresco"]
+        },
+        {
+          "session": "2023W",
+          "reported": 141,
+          "average": 76.1,
+          "grades": [0, 8, 8, 6, 10, 15, 10, 11, 22, 21, 23],
+          "instructors": ["Stanley Bogdan Floresco"]
+        },
+        {
+          "session": "2022W",
+          "reported": 131,
+          "average": 72.7,
+          "grades": [6, 8, 6, 7, 10, 14, 16, 11, 20, 20, 13],
+          "instructors": ["Stanley Bogdan Floresco"]
+        },
+        {
+          "session": "2021W",
+          "reported": 142,
+          "average": 72.9,
+          "grades": [5, 8, 10, 8, 14, 16, 13, 12, 20, 12, 24],
+          "instructors": ["Stanley Bogdan Floresco"]
+        }
+      ]
+    },
+    "PSYC 472": {
+      "reported": 108,
+      "average": 76.8,
+      "grades": [1, 1, 4, 2, 1, 9, 9, 19, 15, 15, 7],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 21,
+          "average": 78.8,
+          "grades": [0, 0, 0, 1, 0, 2, 5, 4, 3, 5, 1],
+          "instructors": ["Catharine Winstanley"]
+        },
+        {
+          "session": "2024W",
+          "reported": 14,
+          "average": 74.0,
+          "grades": [1, 0, 1, 0, 0, 2, 1, 2, 3, 3, 1],
+          "instructors": ["Catharine Winstanley"]
+        },
+        {
+          "session": "2023W",
+          "reported": 20,
+          "average": 77.9,
+          "grades": [0, 0, 2, 0, 0, 1, 2, 5, 6, 3, 1],
+          "instructors": ["Catharine Winstanley"]
+        },
+        {
+          "session": "2022W",
+          "reported": 22,
+          "average": 77.4,
+          "grades": [0, 1, 1, 1, 1, 4, 1, 2, 3, 4, 4],
+          "instructors": ["Catharine Winstanley"]
+        },
+        {
+          "session": "2021W",
+          "reported": 31,
+          "average": 75.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 6, 0, 0, 0],
+          "instructors": ["Catharine Winstanley"]
+        }
+      ]
+    },
+    "PSYC 488": {
+      "reported": 35,
+      "average": 93.9,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 32],
+      "terms": [
+        {
+          "session": "2024W",
+          "topic": "E",
+          "title": "Directed Studies in Behavioural Neuroscience",
+          "reported": 9,
+          "average": 95.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "topic": "E",
+          "title": "Directed Studies in Behavioural Neuroscience",
+          "reported": 12,
+          "average": 94.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 11],
+          "instructors": []
+        },
+        {
+          "session": "2022W",
+          "topic": "E",
+          "title": "Directed Studies in Behavioural Neuroscience",
+          "reported": 14,
+          "average": 92.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 12],
+          "instructors": []
+        }
+      ]
+    },
+    "PSYC 501": {
+      "reported": 7,
+      "average": 94.7,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6],
+      "terms": [
+        {
+          "session": "2021W",
+          "reported": 7,
+          "average": 94.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6],
+          "instructors": ["Anita Delongis"]
+        }
+      ]
+    },
+    "PSYC 503": {
+      "reported": 6,
+      "average": 94.5,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 6,
+          "average": 94.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6],
+          "instructors": ["Frances Chen"]
+        }
+      ]
+    },
+    "PSYC 507": {
+      "reported": 17,
+      "average": 90.3,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 9],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 17,
+          "average": 90.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 9],
+          "instructors": ["Steven Heine"]
+        }
+      ]
+    },
+    "PSYC 512": {
+      "reported": 8,
+      "average": 89.0,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 3],
+      "terms": [
+        {
+          "session": "2022W",
+          "reported": 8,
+          "average": 89.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 3],
+          "instructors": ["Elizabeth Dunn"]
+        }
+      ]
+    },
+    "PSYC 513": {
+      "reported": 12,
+      "average": 94.6,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12],
+      "terms": [
+        {
+          "session": "2024W",
+          "topic": "A",
+          "title": "Special Topics in Developmental Psychology",
+          "reported": 12,
+          "average": 94.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12],
+          "instructors": ["Darko Odic"]
+        }
+      ]
+    },
+    "PSYC 514": {
+      "reported": 7,
+      "average": 91.6,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 6],
+      "terms": [
+        {
+          "session": "2022W",
+          "reported": 7,
+          "average": 91.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 6],
+          "instructors": ["Jason Snyder"]
+        }
+      ]
+    },
+    "PSYC 520": {
+      "reported": 7,
+      "average": 91.9,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 7,
+          "average": 91.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7],
+          "instructors": ["Catharine Rankin"]
+        }
+      ]
+    },
+    "PSYC 524": {
+      "reported": 6,
+      "average": 92.8,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6],
+      "terms": [
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Neural Models of Learning and Memory",
+          "reported": 6,
+          "average": 92.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6],
+          "instructors": ["Catharine Rankin"]
+        }
+      ]
+    },
+    "PSYC 528": {
+      "reported": 16,
+      "average": 94.1,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 15],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 16,
+          "average": 94.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 15],
+          "instructors": ["Friedrich Goetz"]
+        }
+      ]
+    },
+    "PSYC 529": {
+      "reported": 7,
+      "average": 88.9,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 3],
+      "terms": [
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Special Topics in Social Psychology",
+          "reported": 7,
+          "average": 88.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 3],
+          "instructors": ["Jessica Tracy"]
+        }
+      ]
+    },
+    "PSYC 530": {
+      "reported": 8,
+      "average": 90.0,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      "terms": [
+        {
+          "session": "2021W",
+          "reported": 8,
+          "average": 90.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Elisha Klonsky"]
+        }
+      ]
+    },
+    "PSYC 531": {
+      "reported": 8,
+      "average": 88.1,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      "terms": [
+        {
+          "session": "2021W",
+          "reported": 8,
+          "average": 88.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Amori Mikami"]
+        }
+      ]
+    },
+    "PSYC 532": {
+      "reported": 9,
+      "average": 87.0,
+      "grades": [0, 0, 0, 0, 0, 1, 0, 1, 0, 3, 4],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 9,
+          "average": 87.0,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 1, 0, 3, 4],
+          "instructors": ["Emily Piper"]
+        }
+      ]
+    },
+    "PSYC 533": {
+      "reported": 19,
+      "average": 95.4,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 18],
+      "terms": [
+        {
+          "session": "2023W",
+          "topic": "A",
+          "title": "Current Issues in Clinical Psychology",
+          "reported": 10,
+          "average": 96.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10],
+          "instructors": ["John Wagner"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Current Issues in Clinical Psychology",
+          "reported": 9,
+          "average": 94.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 8],
+          "instructors": ["Elisha Klonsky"]
+        }
+      ]
+    },
+    "PSYC 535": {
+      "reported": 21,
+      "average": 93.6,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 14,
+          "average": 94.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14],
+          "instructors": ["Joelle LeMoult"]
+        },
+        {
+          "session": "2021W",
+          "reported": 7,
+          "average": 91.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Joelle Lemoult"]
+        }
+      ]
+    },
+    "PSYC 537": {
+      "reported": 8,
+      "average": 92.3,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6],
+      "terms": [
+        {
+          "session": "2021W",
+          "reported": 8,
+          "average": 92.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6],
+          "instructors": ["Ingrid Sochting"]
+        }
+      ]
+    },
+    "PSYC 538": {
+      "reported": 19,
+      "average": 88.6,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 10, 7],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 8,
+          "average": 87.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 4, 3],
+          "instructors": ["Noah Silverberg"]
+        },
+        {
+          "session": "2022W",
+          "reported": 11,
+          "average": 89.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 6, 4],
+          "instructors": ["Noah Silverberg"]
+        }
+      ]
+    },
+    "PSYC 541": {
+      "reported": 8,
+      "average": 90.9,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6],
+      "terms": [
+        {
+          "session": "2021W",
+          "reported": 8,
+          "average": 90.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6],
+          "instructors": ["Ingrid Sochting"]
+        }
+      ]
+    },
+    "PSYC 542": {
+      "reported": 22,
+      "average": 92.4,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 10],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 7,
+          "average": 92.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 5],
+          "instructors": ["Lynn Alden"]
+        },
+        {
+          "session": "2022W",
+          "reported": 8,
+          "average": 92.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 5],
+          "instructors": ["Lynn Alden"]
+        },
+        {
+          "session": "2021W",
+          "reported": 7,
+          "average": 92.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Lynn Alden"]
+        }
+      ]
+    },
+    "PSYC 545": {
+      "reported": 71,
+      "average": 87.1,
+      "grades": [0, 0, 0, 0, 0, 1, 0, 1, 21, 23, 20],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 17,
+          "average": 91.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 3, 1, 13],
+          "instructors": ["Jeremy Biesanz"]
+        },
+        {
+          "session": "2023W",
+          "topic": "A",
+          "title": "Advanced Statistics I",
+          "reported": 13,
+          "average": 86.4,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 0, 3, 5, 4],
+          "instructors": ["Jeremy Biesanz"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Advanced Statistics I",
+          "reported": 11,
+          "average": 85.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 3, 4, 3],
+          "instructors": ["Jeremy Biesanz"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Advanced Statistics I",
+          "reported": 30,
+          "average": 85.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 12, 13, 0],
+          "instructors": ["Jeremy Biesanz"]
+        }
+      ]
+    },
+    "PSYC 546": {
+      "reported": 179,
+      "average": 93.5,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 6, 9, 150],
+      "terms": [
+        {
+          "session": "2024W",
+          "topic": "H",
+          "title": "Seminar in Psychological Problems",
+          "reported": 10,
+          "average": 87.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 3, 4, 3],
+          "instructors": ["Jessica Flake"]
+        },
+        {
+          "session": "2024W",
+          "topic": "J",
+          "title": "Seminar in Psychological Problems",
+          "reported": 18,
+          "average": 95.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 18],
+          "instructors": ["Jason Rights"]
+        },
+        {
+          "session": "2023W",
+          "topic": "B",
+          "title": "Seminar in Psychological Problems",
+          "reported": 12,
+          "average": 95.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12],
+          "instructors": ["Jason Rights"]
+        },
+        {
+          "session": "2023W",
+          "topic": "J",
+          "title": "Seminar in Psychological Problems",
+          "reported": 36,
+          "average": 95.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 34],
+          "instructors": ["Jason Rights"]
+        },
+        {
+          "session": "2023W",
+          "topic": "S",
+          "title": "Seminar in Psychological Problems",
+          "reported": 9,
+          "average": 93.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9],
+          "instructors": ["Victoria Savalei"]
+        },
+        {
+          "session": "2023W",
+          "topic": "Y",
+          "title": "Seminar in Psychological Problems",
+          "reported": 9,
+          "average": 92.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8],
+          "instructors": ["Victoria Savalei"]
+        },
+        {
+          "session": "2022W",
+          "topic": "B",
+          "title": "Seminar in Psychological Problems",
+          "reported": 17,
+          "average": 96.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 17],
+          "instructors": ["Jason Rights"]
+        },
+        {
+          "session": "2022W",
+          "topic": "E",
+          "title": "Seminar in Psychological Problems",
+          "reported": 19,
+          "average": 90.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 3, 5, 11],
+          "instructors": ["Jeremy Biesanz"]
+        },
+        {
+          "session": "2021W",
+          "topic": "B",
+          "title": "Seminar in Psychological Problems",
+          "reported": 19,
+          "average": 96.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 19],
+          "instructors": ["Jason Rights"]
+        },
+        {
+          "session": "2021W",
+          "topic": "J",
+          "title": "Seminar in Psychological Problems",
+          "reported": 19,
+          "average": 93.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 19],
+          "instructors": ["Jason Rights"]
+        },
+        {
+          "session": "2021W",
+          "topic": "Y",
+          "title": "Seminar in Psychological Problems",
+          "reported": 11,
+          "average": 89.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Victoria Savalei"]
+        }
+      ]
+    },
+    "PSYC 549": {
+      "reported": 81,
+      "average": 92.6,
+      "grades": [0, 0, 0, 0, 0, 0, 1, 2, 2, 1, 38],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 22,
+          "average": 95.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": []
+        },
+        {
+          "session": "2023S",
+          "reported": 43,
+          "average": 91.4,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 1, 2, 1, 23],
+          "instructors": []
+        },
+        {
+          "session": "2022S",
+          "reported": 16,
+          "average": 92.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 15],
+          "instructors": []
+        }
+      ]
+    },
+    "PSYC 560": {
+      "reported": 9,
+      "average": 93.6,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9],
+      "terms": [
+        {
+          "session": "2021W",
+          "reported": 9,
+          "average": 93.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9],
+          "instructors": ["Sheila Woody"]
+        }
+      ]
+    },
+    "PSYC 569": {
+      "reported": 10,
+      "average": 90.2,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8],
+      "terms": [
+        {
+          "session": "2021W",
+          "reported": 10,
+          "average": 90.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8],
+          "instructors": ["Friedrich Goetz"]
+        }
+      ]
+    },
+    "PSYC 571": {
+      "reported": 50,
+      "average": 92.3,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 43],
+      "terms": [
+        {
+          "session": "2024W",
+          "topic": "B",
+          "title": "Special Topics in Cognitive Neuroscience",
+          "reported": 11,
+          "average": 95.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11],
+          "instructors": ["Daniela Palombo"]
+        },
+        {
+          "session": "2023W",
+          "topic": "A",
+          "title": "Special Topics in Cognitive Neuroscience",
+          "reported": 12,
+          "average": 90.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 10],
+          "instructors": ["Kalina Christoff"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Special Topics in Cognitive Neuroscience",
+          "reported": 15,
+          "average": 92.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 15],
+          "instructors": ["Todd Handy"]
+        },
+        {
+          "session": "2021W",
+          "topic": "B",
+          "title": "Special Topics in Cognitive Neuroscience",
+          "reported": 12,
+          "average": 90.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7],
+          "instructors": ["Daniela Palombo"]
+        }
+      ]
+    },
+    "PSYC 582": {
+      "reported": 34,
+      "average": 89.6,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 9, 14],
+      "terms": [
+        {
+          "session": "2024W",
+          "topic": "A",
+          "title": "Cognition",
+          "reported": 11,
+          "average": 93.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11],
+          "instructors": ["Todd Handy"]
+        },
+        {
+          "session": "2023W",
+          "topic": "A",
+          "title": "Cognition",
+          "reported": 7,
+          "average": 87.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 1],
+          "instructors": ["Lawrence Ward"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Cognition",
+          "reported": 6,
+          "average": 87.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 2],
+          "instructors": ["Lawrence Ward"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Cognition",
+          "reported": 10,
+          "average": 87.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Lawrence Ward"]
+        }
+      ]
+    },
+    "PSYC 583": {
+      "reported": 18,
+      "average": 99.7,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 18],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 8,
+          "average": 100.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8],
+          "instructors": ["Daniela Palombo"]
+        },
+        {
+          "session": "2021W",
+          "reported": 10,
+          "average": 99.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10],
+          "instructors": ["Grace Truong", "Jiaying Zhao"]
+        }
+      ]
+    },
+    "PSYC 587": {
+      "reported": 13,
+      "average": 88.2,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6],
+      "terms": [
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Cognitive Development",
+          "reported": 13,
+          "average": 88.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6],
+          "instructors": ["Jane Hamlin"]
+        }
+      ]
+    },
+    "PSYC 588": {
+      "reported": 12,
+      "average": 91.8,
+      "grades": [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 11],
+      "terms": [
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Special Topics in Social and Personality Development",
+          "reported": 12,
+          "average": 91.8,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 11],
+          "instructors": ["Andrew Baron"]
+        }
+      ]
+    },
+    "PSYC 590": {
+      "reported": 19,
+      "average": 91.0,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 10,
+          "average": 94.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10],
+          "instructors": ["Mark Schaller"]
+        },
+        {
+          "session": "2021W",
+          "reported": 9,
+          "average": 86.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Ara Norenzayan"]
+        }
+      ]
+    },
+    "PSYC 594": {
+      "reported": 10,
+      "average": 90.3,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 6],
+      "terms": [
+        {
+          "session": "2022W",
+          "reported": 10,
+          "average": 90.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 6],
+          "instructors": ["Kiran Soma"]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,361 @@
+{
+  "subject": "WRDS",
+  "campus": "UBCV",
+  "source": "https://ubcgrades.com",
+  "credit": "UBCGrades.com / UBC PAIR",
+  "sessions": ["2021S", "2021W", "2022S", "2022W", "2023S", "2023W", "2024S", "2024W", "2025S", "2025W"],
+  "buckets": ["<50%", "50-54%", "55-59%", "60-63%", "64-67%", "68-71%", "72-75%", "76-79%", "80-84%", "85-89%", "90-100%"],
+  "courses": {
+    "WRDS 150": {
+      "reported": 21570,
+      "average": 76.4,
+      "grades": [621, 236, 302, 506, 703, 1352, 2549, 3232, 4759, 2786, 1982],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 2123,
+          "average": 79.8,
+          "grades": [41, 18, 15, 29, 52, 85, 210, 307, 680, 473, 213],
+          "instructors": ["Nazih El-Bezre", "Thomas Andrews", "Mi-Young Kim", "Adrian Lou", "Rohan Karpe", "Sang Wu", "Laura Knijnik Baumvol", "Dilia Hasanova", "Tara Lee", "Katja Thieme", "Mary Ann Saunders", "Dennis Foung", "Katie Fitzpatrick", "Jaclyn Rea", "Rebecca Suzanne Carruthers Den Hoed", "Susan Blake", "Laila Ferreira"]
+        },
+        {
+          "session": "2025S",
+          "topic": "A",
+          "title": "Writing and Research in the Disciplines",
+          "reported": 96,
+          "average": 71.8,
+          "grades": [10, 3, 3, 4, 4, 13, 17, 11, 12, 7, 12],
+          "instructors": ["Andrew Connolly", "Dilia Hasanova", "Jennifer Cowe"]
+        },
+        {
+          "session": "2025S",
+          "topic": "B",
+          "title": "Writing and Research in the Disciplines",
+          "reported": 470,
+          "average": 81.9,
+          "grades": [7, 2, 1, 8, 15, 16, 49, 68, 99, 96, 109],
+          "instructors": ["Mary Ann Saunders", "Kimberly Richards", "Meredith Beales", "Michael Schandorf", "Sang Wu", "Katie Fitzpatrick", "Laura Knijnik Baumvol", "Katja Thieme", "Mi-Young Kim", "Dennis Foung"]
+        },
+        {
+          "session": "2024W",
+          "topic": "A",
+          "title": "Writing and Research in the Disciplines",
+          "reported": 1768,
+          "average": 76.3,
+          "grades": [86, 26, 41, 54, 82, 134, 239, 233, 412, 269, 192],
+          "instructors": ["Kimberly Richards", "Thomas Andrews", "Diane Burgess", "Laila Ferreira", "Meredith Beales", "Dilbarhon Hasanova", "Jennifer Cowe", "Kirby Mania", "Rohan Karpe", "Andrew Connolly", "Mary Ann Saunders", "Jonathan Otto", "Stephen Dadugblor", "Sang Yin Wu", "Alexis McGee", "Susan Blake", "Kathleen Fitzpatrick", "Louis Maraj", "David Newman", "Adrian Lou"]
+        },
+        {
+          "session": "2024W",
+          "topic": "B",
+          "title": "Writing and Research in the Disciplines",
+          "reported": 1823,
+          "average": 79.6,
+          "grades": [34, 18, 22, 32, 47, 85, 187, 289, 523, 324, 262],
+          "instructors": ["Nazih El-Bezre", "Mi-Young Kim", "Tara Lee", "Katja Thieme", "Laura Knijnik Baumvol", "Sang Yin Wu", "Kin Wai Dennis Foung", "Jennifer Gagnon", "Susan Blake", "Kathleen Fitzpatrick", "Michael Schandorf", "Rebecca Suzanne Carruthers Den Hoed", "William Green", "Adrian Lou", "Thomas Andrews", "Dilbarhon Hasanova", "Mary Ann Saunders", "Jaclyn Rea", "Krista Sigurdson"]
+        },
+        {
+          "session": "2024S",
+          "topic": "A",
+          "title": "Writing and Research in the Disciplines",
+          "reported": 167,
+          "average": 74.8,
+          "grades": [7, 7, 7, 7, 8, 14, 23, 25, 28, 22, 19],
+          "instructors": ["Kathleen Fitzpatrick"]
+        },
+        {
+          "session": "2024S",
+          "topic": "B",
+          "title": "Writing and Research in the Disciplines",
+          "reported": 603,
+          "average": 81.7,
+          "grades": [8, 4, 1, 9, 17, 30, 53, 88, 147, 124, 122],
+          "instructors": ["Katja Thieme", "Mary Ann Saunders", "Nazih El-Bezre", "Kin Wai Dennis Foung", "Michael Schandorf", "Andrew Connolly", "Kimberly Richards", "Mi-Young Kim"]
+        },
+        {
+          "session": "2023W",
+          "topic": "A",
+          "title": "Writing and Research in the Disciplines",
+          "reported": 1963,
+          "average": 75.4,
+          "grades": [94, 28, 41, 69, 82, 162, 259, 310, 429, 247, 178],
+          "instructors": ["Adrian Lou", "Kimberly Richards", "M.gillian Carrabre", "Jonathan Otto", "Meredith Beales", "Diane Burgess", "Kirby Mania", "Jennifer Cowe", "Thomas Jacob Bittner", "Susan Blake", "Andrew Connolly", "Nazih El-Bezre", "David Newman", "Rohan Karpe", "Louis Maraj", "Tara Lee", "Katja Thieme", "Mary Ann Saunders", "Rebecca Suzanne Carruthers Den Hoed", "Stephen Dadugblor", "Alexis McGee", "Jennifer Gagnon"]
+        },
+        {
+          "session": "2023W",
+          "topic": "B",
+          "title": "Writing and Research in the Disciplines",
+          "reported": 2181,
+          "average": 78.0,
+          "grades": [52, 19, 30, 60, 82, 183, 294, 367, 438, 317, 292],
+          "instructors": ["Laila Ferreira", "Kin Wai Dennis Foung", "Sang Yin Wu", "Susan Blake", "Nazih El-Bezre", "Tara Lee", "Dilbarhon Hasanova", "Andrew Connolly", "Krista Sigurdson", "Katja Thieme", "Jennifer Gagnon", "Adrian Lou", "Rebecca Suzanne Carruthers Den Hoed", "Michael Schandorf", "Rohan Karpe", "Stephen Dadugblor", "Jaclyn Rea", "Mi-Young Kim", "David Newman", "Kimberly Richards", "Thomas Andrews"]
+        },
+        {
+          "session": "2023S",
+          "topic": "A",
+          "title": "Writing and Research in the Disciplines",
+          "reported": 176,
+          "average": 72.0,
+          "grades": [13, 6, 5, 7, 9, 15, 21, 25, 32, 19, 13],
+          "instructors": ["Kimberly Richards", "Kirby Mania", "Jennifer Gagnon", "Jennifer Cowe", "William Green"]
+        },
+        {
+          "session": "2023S",
+          "topic": "B",
+          "title": "Writing and Research in the Disciplines",
+          "reported": 626,
+          "average": 77.4,
+          "grades": [14, 5, 13, 15, 25, 44, 82, 133, 149, 67, 66],
+          "instructors": ["Adrian Lou", "Laura Knijnik Baumvol", "Andrew Connolly", "Sang Yin Wu", "Krista Sigurdson", "Jonathan Otto", "Michael Schandorf", "Kin Wai Dennis Foung", "Meredith Beales", "Mary Ann Saunders", "Rohan Karpe", "Dilbarhon Hasanova", "David Newman", "Mi-Young Kim"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Writing and Research in the Disciplines",
+          "reported": 1806,
+          "average": 73.2,
+          "grades": [128, 50, 51, 75, 97, 159, 253, 265, 350, 222, 156],
+          "instructors": ["M.gillian Carrabre", "Nazih El-Bezre", "Diane Burgess", "Thomas Andrews", "Jennifer Cowe", "Kathleen Fitzpatrick", "Adrian Lou", "Mary Ann Saunders", "William Green", "Jennifer Gagnon", "Deogratias Nizonkiza", "David Newman", "Michael Schandorf", "Rebecca Suzanne Carruthers Den Hoed", "Meredith Beales", "Stephen Dadugblor", "Tara Lee", "Dilbarhon Hasanova", "Rohan Karpe", "Kirby Mania", "Alexis McGee", "Jaclyn Rea", "Krista Sigurdson"]
+        },
+        {
+          "session": "2022W",
+          "topic": "B",
+          "title": "Writing and Research in the Disciplines",
+          "reported": 2354,
+          "average": 75.8,
+          "grades": [70, 37, 49, 84, 108, 210, 371, 460, 512, 274, 179],
+          "instructors": ["Laila Ferreira", "Meredith Beales", "William Green", "Laura Knijnik Baumvol", "Tara Lee", "Kimberly Richards", "Sang Yin Wu", "Adrian Lou", "Katja Thieme", "Dilbarhon Hasanova", "Connor Byrne", "Andrew Connolly", "Rebecca Suzanne Carruthers Den Hoed", "M.gillian Carrabre", "Mi-Young Kim", "David Newman", "Rohan Karpe", "Kin Wai Dennis Foung", "Jennifer Gagnon", "Susan Blake", "Thomas Andrews", "Deogratias Nizonkiza", "Nazih El-Bezre", "Michael Schandorf", "Jaclyn Rea"]
+        },
+        {
+          "session": "2022S",
+          "topic": "A",
+          "title": "Writing and Research in the Disciplines",
+          "reported": 191,
+          "average": 73.1,
+          "grades": [9, 5, 7, 7, 18, 17, 30, 22, 36, 31, 9],
+          "instructors": ["Kathleen Fitzpatrick", "Kirby Mania", "Jennifer Gagnon", "Jennifer Cowe", "Dylan Cree", "Connor Byrne", "Krista Sigurdson"]
+        },
+        {
+          "session": "2022S",
+          "topic": "B",
+          "title": "Writing and Research in the Disciplines",
+          "reported": 654,
+          "average": 76.2,
+          "grades": [17, 8, 16, 27, 32, 53, 68, 131, 165, 93, 44],
+          "instructors": ["Krista Sigurdson", "Darren Fleet", "William Green", "Laura Knijnik Baumvol", "Andrew Connolly", "Mary Ann Saunders", "Sang Yin Wu", "Adrian Lou", "Rohan Karpe", "Deogratias Nizonkiza", "Kimberly Richards", "Michael Schandorf", "Connor Byrne", "Nazih El-Bezre", "David Newman"]
+        },
+        {
+          "session": "2021W",
+          "reported": 85,
+          "average": 68.7,
+          "grades": [0, 0, 0, 0, 0, 6, 0, 6, 6, 0, 0],
+          "instructors": ["Adrian Lou", "Katja Thieme", "Laila Ferreira"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Writing and Research in the Disciplines",
+          "reported": 1333,
+          "average": 73.2,
+          "grades": [25, 0, 0, 7, 0, 33, 69, 83, 150, 54, 86],
+          "instructors": ["Louis Maraj", "Stephen Dadugblor", "Adrian Lou", "Diane Burgess", "Thomas Jacob Bittner", "M.Gillian Carrabre", "Connor Byrne", "Jennifer Cowe", "David Newman", "Rebecca Suzanne Carruthers Den Hoed", "Nazih El-Bezre", "Meredith Beales", "Jonathan Otto", "Kathleen Fitzpatrick", "Kirby Mania", "Sang Yin Wu", "Kimberly Richards", "Mary Ann Saunders", "Andrew Connolly", "Krista Sigurdson", "Alexis Mcgee", "Tara Lee"]
+        },
+        {
+          "session": "2021W",
+          "topic": "B",
+          "title": "Writing and Research in the Disciplines",
+          "reported": 2586,
+          "average": 74.3,
+          "grades": [6, 0, 0, 6, 19, 75, 287, 343, 476, 134, 30],
+          "instructors": ["Jonathan Otto", "Susan Blake", "Darren Fleet", "Rohan Karpe", "Laura Knijnik Baumvol", "Mary Ann Saunders", "Thomas Andrews", "Connor Byrne", "Kin Wai Dennis Foung", "Tara Lee", "Mi-Young Kim", "Meredith Beales", "Andrew Connolly", "William Green", "Deogratias Nizonkiza", "David Newman", "Krista Sigurdson", "Jennifer Gagnon", "Sang Yin Wu", "Kimberly Richards", "M.Gillian Carrabre", "Jaclyn Rea", "Nazih El-Bezre", "Rebecca Suzanne Carruthers Den Hoed", "Dylan Cree", "Michael Schandorf"]
+        },
+        {
+          "session": "2021S",
+          "topic": "A",
+          "title": "Writing and Research in the Disciplines",
+          "reported": 141,
+          "average": 67.7,
+          "grades": [0, 0, 0, 6, 0, 6, 6, 0, 7, 6, 0],
+          "instructors": ["Kathleen Fitzpatrick", "Kirby Mania", "Jennifer Cowe", "Andrew Connolly", "William Green"]
+        },
+        {
+          "session": "2021S",
+          "topic": "B",
+          "title": "Writing and Research in the Disciplines",
+          "reported": 424,
+          "average": 76.4,
+          "grades": [0, 0, 0, 0, 6, 12, 31, 66, 108, 7, 0],
+          "instructors": ["Connor Byrne", "Rohan Karpe", "Jonathan Otto", "Dilbarhon Hasanova", "Susan Blake", "Katja Thieme", "Mi-Young Kim", "Meredith Beales", "Deogratias Nizonkiza", "Thomas Andrews", "Kin Wai Dennis Foung", "Mary Ann Saunders"]
+        }
+      ]
+    },
+    "WRDS 151": {
+      "reported": 1530,
+      "average": 76.5,
+      "grades": [62, 20, 32, 39, 71, 115, 183, 268, 380, 206, 154],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 1530,
+          "average": 76.5,
+          "grades": [62, 20, 32, 39, 71, 115, 183, 268, 380, 206, 154],
+          "instructors": ["Kimberly Richards", "Michael Schandorf", "Diane Burgess", "Meredith Beales", "Thomas Andrews", "Tara Lee", "Jonathan Otto", "Susan Blake", "Jennifer Cowe", "Dilia Hasanova", "Adrian Lou", "William Green", "Jennifer Gagnon"]
+        }
+      ]
+    },
+    "WRDS 200": {
+      "reported": 110,
+      "average": 96.2,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 2, 3, 8, 97],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 73,
+          "average": 95.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 2, 2, 6, 63],
+          "instructors": ["Stephen Dadugblor"]
+        },
+        {
+          "session": "2024W",
+          "reported": 37,
+          "average": 97.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 34],
+          "instructors": ["Louis Maraj"]
+        }
+      ]
+    },
+    "WRDS 250": {
+      "reported": 118,
+      "average": 96.3,
+      "grades": [0, 0, 0, 1, 0, 0, 0, 0, 3, 3, 106],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 28,
+          "average": 97.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 27],
+          "instructors": ["Michael Schandorf"]
+        },
+        {
+          "session": "2024W",
+          "reported": 28,
+          "average": 98.6,
+          "grades": [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 27],
+          "instructors": ["Michael Schandorf"]
+        },
+        {
+          "session": "2023W",
+          "reported": 30,
+          "average": 97.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 27],
+          "instructors": ["Louis Maraj"]
+        },
+        {
+          "session": "2022W",
+          "reported": 19,
+          "average": 95.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 16],
+          "instructors": ["Louis Maraj"]
+        },
+        {
+          "session": "2021W",
+          "reported": 13,
+          "average": 87.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9],
+          "instructors": ["Michael Schandorf"]
+        }
+      ]
+    },
+    "WRDS 350": {
+      "reported": 474,
+      "average": 81.0,
+      "grades": [15, 7, 9, 7, 8, 17, 24, 33, 79, 59, 148],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 63,
+          "average": 87.0,
+          "grades": [2, 0, 0, 0, 1, 2, 2, 4, 7, 10, 35],
+          "instructors": ["Stephen Dadugblor", "Katja Thieme"]
+        },
+        {
+          "session": "2024W",
+          "reported": 74,
+          "average": 85.1,
+          "grades": [0, 3, 2, 2, 0, 4, 3, 3, 12, 12, 33],
+          "instructors": ["Alexis McGee", "Rebecca Suzanne Carruthers Den Hoed", "Stephen Dadugblor"]
+        },
+        {
+          "session": "2023W",
+          "reported": 107,
+          "average": 80.9,
+          "grades": [7, 2, 4, 3, 3, 3, 4, 8, 15, 16, 38],
+          "instructors": ["Stephen Dadugblor", "Michael Schandorf", "Susan Blake", "Nazih El-Bezre", "Alexis McGee"]
+        },
+        {
+          "session": "2022W",
+          "reported": 127,
+          "average": 81.2,
+          "grades": [6, 2, 3, 2, 4, 8, 9, 10, 20, 21, 42],
+          "instructors": ["Alexis McGee", "Michael Schandorf", "Stephen Dadugblor", "Laila Ferreira", "Louis Maraj"]
+        },
+        {
+          "session": "2021W",
+          "reported": 103,
+          "average": 74.1,
+          "grades": [0, 0, 0, 0, 0, 0, 6, 8, 25, 0, 0],
+          "instructors": ["Rebecca Suzanne Carruthers Den Hoed", "Susan Blake", "Laila Ferreira", "Nazih El-Bezre"]
+        }
+      ]
+    },
+    "WRDS 360": {
+      "reported": 47,
+      "average": 86.7,
+      "grades": [0, 2, 0, 0, 0, 2, 5, 1, 4, 6, 27],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 15,
+          "average": 91.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 13],
+          "instructors": ["Dennis Foung"]
+        },
+        {
+          "session": "2024W",
+          "reported": 17,
+          "average": 82.8,
+          "grades": [0, 2, 0, 0, 0, 1, 3, 0, 1, 1, 9],
+          "instructors": ["Stephen Dadugblor"]
+        },
+        {
+          "session": "2023W",
+          "reported": 7,
+          "average": 94.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 5],
+          "instructors": ["Stephen Dadugblor"]
+        },
+        {
+          "session": "2022W",
+          "reported": 8,
+          "average": 79.6,
+          "grades": [0, 0, 0, 0, 0, 1, 2, 1, 2, 2, 0],
+          "instructors": ["Kin Wai Dennis Foung"]
+        }
+      ]
+    },
+    "WRDS 370": {
+      "reported": 8,
+      "average": 83.6,
+      "grades": [0, 0, 0, 1, 0, 1, 0, 0, 0, 3, 3],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 8,
+          "average": 83.6,
+          "grades": [0, 0, 0, 1, 0, 1, 0, 0, 0, 3, 3],
+          "instructors": ["Mary Ann Saunders"]
+        }
+      ]
+    }
+  }
+}

@@ -154,6 +154,8 @@ def test_lists_of_plain_values_go_on_one_line():
     ("APSC", 114), ("BMEG", 213), ("CHBE", 223), ("CIVL", 302), ("CPEN", 132), ("ELEC", 248),
     ("ENPH", 31), ("ENVE", 23), ("IGEN", 30), ("MANU", 71), ("MECH", 339), ("MINE", 151),
     ("MTRL", 141),
+    ("ANTH", 190), ("COGS", 24), ("ECON", 354), ("ENGL", 393), ("GEOG", 213), ("HIST", 402),
+    ("LING", 156), ("PHIL", 320), ("POLI", 368), ("PSYC", 330), ("SOCI", 288), ("WRDS", 31),
 ])
 def test_terms_match_ubcgrades_own_totals(subject, overall_rows):
     # Wherever UBCGrades gives an "OVERALL" row, adding up the sections must give the same

@@ -1,0 +1,3687 @@
+{
+  "subject": "PHIL",
+  "campus": "UBCV",
+  "source": "https://ubcgrades.com",
+  "credit": "UBCGrades.com / UBC PAIR",
+  "sessions": ["2021S", "2021W", "2022S", "2022W", "2023S", "2023W", "2024S", "2024W", "2025S", "2025W"],
+  "buckets": ["<50%", "50-54%", "55-59%", "60-63%", "64-67%", "68-71%", "72-75%", "76-79%", "80-84%", "85-89%", "90-100%"],
+  "courses": {
+    "PHIL 100": {
+      "reported": 455,
+      "average": 72.4,
+      "grades": [34, 13, 20, 15, 33, 42, 55, 51, 79, 55, 44],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 76,
+          "average": 70.6,
+          "grades": [5, 6, 4, 3, 5, 7, 12, 6, 20, 6, 2],
+          "instructors": ["Ori Simchen"]
+        },
+        {
+          "session": "2024W",
+          "reported": 65,
+          "average": 71.0,
+          "grades": [8, 2, 4, 5, 4, 4, 2, 5, 10, 10, 11],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "reported": 115,
+          "average": 75.3,
+          "grades": [10, 1, 3, 1, 6, 5, 11, 11, 16, 21, 24],
+          "instructors": ["Dominic Lopes"]
+        },
+        {
+          "session": "2022W",
+          "reported": 99,
+          "average": 69.3,
+          "grades": [4, 4, 9, 6, 11, 16, 17, 15, 12, 5, 0],
+          "instructors": ["Ori Simchen"]
+        },
+        {
+          "session": "2021W",
+          "reported": 100,
+          "average": 74.5,
+          "grades": [7, 0, 0, 0, 7, 10, 13, 14, 21, 13, 7],
+          "instructors": ["Dominic Lopes"]
+        }
+      ]
+    },
+    "PHIL 101": {
+      "reported": 2156,
+      "average": 75.3,
+      "grades": [65, 38, 33, 58, 113, 209, 352, 403, 438, 281, 127],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 253,
+          "average": 79.9,
+          "grades": [4, 1, 1, 3, 3, 11, 22, 43, 101, 49, 15],
+          "instructors": ["Eric Margolis"]
+        },
+        {
+          "session": "2025S",
+          "reported": 78,
+          "average": 85.0,
+          "grades": [2, 0, 0, 0, 0, 0, 1, 4, 16, 34, 21],
+          "instructors": ["Jasper Heaton"]
+        },
+        {
+          "session": "2024W",
+          "reported": 437,
+          "average": 76.2,
+          "grades": [9, 8, 8, 13, 17, 52, 78, 82, 75, 63, 32],
+          "instructors": ["Eric Margolis", "Kimberley Brownlee", "Anders Kraal"]
+        },
+        {
+          "session": "2024S",
+          "reported": 74,
+          "average": 75.6,
+          "grades": [1, 0, 0, 1, 3, 9, 18, 19, 20, 3, 0],
+          "instructors": ["Celia Edell"]
+        },
+        {
+          "session": "2023W",
+          "reported": 467,
+          "average": 73.9,
+          "grades": [19, 11, 10, 16, 34, 47, 85, 79, 78, 40, 32],
+          "instructors": ["Eric Margolis", "Anders Kraal"]
+        },
+        {
+          "session": "2023S",
+          "reported": 27,
+          "average": 63.8,
+          "grades": [3, 3, 3, 1, 2, 2, 0, 5, 2, 2, 3],
+          "instructors": ["Aaron Henry"]
+        },
+        {
+          "session": "2022W",
+          "reported": 349,
+          "average": 73.3,
+          "grades": [16, 4, 2, 9, 29, 43, 64, 82, 59, 33, 8],
+          "instructors": ["Eric Margolis", "Anders Kraal"]
+        },
+        {
+          "session": "2022S",
+          "reported": 59,
+          "average": 77.9,
+          "grades": [0, 1, 1, 4, 4, 4, 4, 10, 15, 14, 2],
+          "instructors": ["Anders Kraal"]
+        },
+        {
+          "session": "2021W",
+          "reported": 356,
+          "average": 72.7,
+          "grades": [11, 10, 8, 11, 21, 41, 72, 72, 62, 29, 6],
+          "instructors": ["Eric Margolis", "Anders Kraal"]
+        },
+        {
+          "session": "2021S",
+          "reported": 56,
+          "average": 78.1,
+          "grades": [0, 0, 0, 0, 0, 0, 8, 7, 10, 14, 8],
+          "instructors": ["Alison Wylie"]
+        }
+      ]
+    },
+    "PHIL 102": {
+      "reported": 1749,
+      "average": 75.1,
+      "grades": [62, 30, 38, 39, 72, 180, 250, 296, 359, 240, 118],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 181,
+          "average": 72.9,
+          "grades": [10, 1, 5, 9, 15, 19, 24, 34, 35, 21, 8],
+          "instructors": ["Sylvia Berryman", "Scott Allen Anderson", "Jade Hadley"]
+        },
+        {
+          "session": "2025S",
+          "reported": 39,
+          "average": 83.1,
+          "grades": [2, 0, 0, 0, 0, 0, 1, 2, 9, 14, 11],
+          "instructors": ["Jasper Heaton"]
+        },
+        {
+          "session": "2024W",
+          "reported": 423,
+          "average": 76.4,
+          "grades": [8, 4, 11, 8, 19, 41, 80, 86, 87, 50, 29],
+          "instructors": ["Yu Shing Chan", "Anders Kraal", "Matthew Perry", "Caroline Jenkins", "Scott Allen Anderson"]
+        },
+        {
+          "session": "2024S",
+          "reported": 56,
+          "average": 68.1,
+          "grades": [5, 2, 1, 4, 2, 9, 11, 12, 8, 2, 0],
+          "instructors": ["Bianca Crewe"]
+        },
+        {
+          "session": "2023W",
+          "reported": 364,
+          "average": 74.4,
+          "grades": [12, 16, 11, 11, 20, 36, 44, 59, 74, 41, 25],
+          "instructors": ["Sylvia Berryman", "Anders Kraal", "Celia Edell"]
+        },
+        {
+          "session": "2023S",
+          "reported": 39,
+          "average": 76.7,
+          "grades": [2, 1, 0, 2, 0, 1, 0, 6, 15, 11, 0],
+          "instructors": ["Caroline Jenkins"]
+        },
+        {
+          "session": "2022W",
+          "reported": 273,
+          "average": 74.6,
+          "grades": [14, 5, 7, 5, 8, 37, 42, 44, 56, 36, 19],
+          "instructors": ["Scott Allen Anderson", "Irwin Chan", "Caroline Jenkins"]
+        },
+        {
+          "session": "2022S",
+          "reported": 24,
+          "average": 74.9,
+          "grades": [1, 1, 3, 0, 0, 2, 4, 3, 2, 5, 3],
+          "instructors": ["Bianca Crewe"]
+        },
+        {
+          "session": "2021W",
+          "reported": 315,
+          "average": 76.0,
+          "grades": [8, 0, 0, 0, 8, 35, 44, 50, 62, 50, 23],
+          "instructors": ["Irwin Chan", "Sylvia Berryman"]
+        },
+        {
+          "session": "2021S",
+          "reported": 35,
+          "average": 76.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 11, 10, 0],
+          "instructors": ["Chieh-Ling Cheng"]
+        }
+      ]
+    },
+    "PHIL 104": {
+      "reported": 136,
+      "average": 82.7,
+      "grades": [1, 2, 0, 3, 4, 8, 8, 11, 25, 40, 34],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 136,
+          "average": 82.7,
+          "grades": [1, 2, 0, 3, 4, 8, 8, 11, 25, 40, 34],
+          "instructors": ["Kimberley Brownlee"]
+        }
+      ]
+    },
+    "PHIL 120": {
+      "reported": 3132,
+      "average": 76.2,
+      "grades": [114, 109, 134, 125, 182, 219, 262, 316, 446, 439, 655],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 534,
+          "average": 74.9,
+          "grades": [19, 11, 30, 39, 43, 44, 54, 66, 81, 73, 74],
+          "instructors": ["Aaron Henry", "Irwin Chan", "Alexandre Korolev"]
+        },
+        {
+          "session": "2025S",
+          "reported": 92,
+          "average": 72.7,
+          "grades": [4, 5, 6, 11, 7, 11, 8, 5, 7, 9, 19],
+          "instructors": ["Alexandre Korolev"]
+        },
+        {
+          "session": "2024W",
+          "reported": 487,
+          "average": 76.1,
+          "grades": [16, 25, 23, 20, 26, 42, 42, 58, 86, 48, 101],
+          "instructors": ["Aaron Henry", "Alexandre Korolev"]
+        },
+        {
+          "session": "2024S",
+          "reported": 77,
+          "average": 74.9,
+          "grades": [3, 7, 4, 2, 6, 8, 3, 8, 5, 11, 20],
+          "instructors": ["Davide Zappulli", "Alexandre Korolev"]
+        },
+        {
+          "session": "2023W",
+          "reported": 509,
+          "average": 75.5,
+          "grades": [27, 24, 22, 26, 34, 32, 35, 47, 61, 73, 112],
+          "instructors": ["Alexandre Korolev", "Aaron Henry"]
+        },
+        {
+          "session": "2023S",
+          "reported": 112,
+          "average": 73.6,
+          "grades": [9, 5, 6, 2, 7, 8, 8, 17, 7, 11, 26],
+          "instructors": ["Alexandre Korolev", "Zhiyu Luo"]
+        },
+        {
+          "session": "2022W",
+          "reported": 494,
+          "average": 75.4,
+          "grades": [21, 20, 25, 18, 30, 51, 50, 53, 84, 63, 79],
+          "instructors": ["Leslie Burkholder", "Alexandre Korolev"]
+        },
+        {
+          "session": "2022S",
+          "reported": 182,
+          "average": 77.1,
+          "grades": [8, 4, 9, 7, 9, 5, 21, 16, 32, 33, 38],
+          "instructors": ["Alexandre Korolev", "Albert Cotugno III"]
+        },
+        {
+          "session": "2021W",
+          "reported": 459,
+          "average": 79.6,
+          "grades": [7, 8, 9, 0, 13, 18, 30, 38, 57, 88, 135],
+          "instructors": ["Leslie Burkholder", "Alexandre Korolev", "Graham Moore"]
+        },
+        {
+          "session": "2021S",
+          "reported": 186,
+          "average": 79.6,
+          "grades": [0, 0, 0, 0, 7, 0, 11, 8, 26, 30, 51],
+          "instructors": ["Alexandre Korolev", "Phyllis Pearson"]
+        }
+      ]
+    },
+    "PHIL 125": {
+      "reported": 799,
+      "average": 80.7,
+      "grades": [24, 15, 16, 20, 25, 31, 59, 59, 100, 161, 240],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 96,
+          "average": 74.6,
+          "grades": [5, 2, 1, 5, 7, 5, 13, 17, 17, 12, 12],
+          "instructors": ["Alan Walter Richardson"]
+        },
+        {
+          "session": "2024W",
+          "reported": 67,
+          "average": 78.4,
+          "grades": [2, 2, 1, 5, 2, 4, 6, 3, 15, 9, 18],
+          "instructors": ["Alan Walter Richardson", "Alexandre Korolev"]
+        },
+        {
+          "session": "2023W",
+          "reported": 224,
+          "average": 84.1,
+          "grades": [5, 1, 5, 7, 7, 8, 11, 10, 35, 42, 88],
+          "instructors": ["Alexandre Korolev", "Jasper Heaton", "Leslie Burkholder"]
+        },
+        {
+          "session": "2022W",
+          "reported": 177,
+          "average": 79.3,
+          "grades": [10, 9, 8, 3, 9, 6, 14, 17, 20, 22, 59],
+          "instructors": ["Leslie Burkholder"]
+        },
+        {
+          "session": "2022S",
+          "reported": 44,
+          "average": 82.3,
+          "grades": [2, 1, 1, 0, 0, 1, 3, 1, 5, 14, 16],
+          "instructors": ["Leslie Burkholder"]
+        },
+        {
+          "session": "2021W",
+          "reported": 191,
+          "average": 81.6,
+          "grades": [0, 0, 0, 0, 0, 7, 12, 11, 8, 62, 47],
+          "instructors": ["Kinley Gillette", "Bianca Crewe", "Leslie Burkholder"]
+        }
+      ]
+    },
+    "PHIL 211": {
+      "reported": 267,
+      "average": 76.3,
+      "grades": [3, 3, 7, 13, 14, 17, 30, 40, 62, 40, 21],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 46,
+          "average": 75.0,
+          "grades": [1, 2, 1, 3, 4, 6, 5, 4, 6, 5, 9],
+          "instructors": ["Anders Kraal"]
+        },
+        {
+          "session": "2024W",
+          "reported": 54,
+          "average": 78.6,
+          "grades": [0, 0, 2, 1, 3, 4, 6, 10, 16, 6, 6],
+          "instructors": ["Michael Griffin"]
+        },
+        {
+          "session": "2023W",
+          "reported": 63,
+          "average": 76.1,
+          "grades": [1, 0, 2, 6, 1, 5, 7, 12, 13, 7, 6],
+          "instructors": ["Michael Griffin"]
+        },
+        {
+          "session": "2022W",
+          "reported": 55,
+          "average": 76.2,
+          "grades": [1, 1, 2, 3, 6, 2, 5, 5, 18, 12, 0],
+          "instructors": ["Michael Griffin"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Greek Philosophy I: Socrates and Plato",
+          "reported": 49,
+          "average": 75.3,
+          "grades": [0, 0, 0, 0, 0, 0, 7, 9, 9, 10, 0],
+          "instructors": ["Michael Griffin"]
+        }
+      ]
+    },
+    "PHIL 212": {
+      "reported": 71,
+      "average": 75.5,
+      "grades": [0, 2, 1, 2, 0, 7, 2, 9, 20, 10, 0],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 16,
+          "average": 70.6,
+          "grades": [0, 2, 1, 2, 0, 1, 2, 3, 1, 2, 0],
+          "instructors": ["Sylvia Berryman"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Greek Philosophy II: Aristotle and After",
+          "reported": 55,
+          "average": 76.9,
+          "grades": [0, 0, 0, 0, 0, 6, 0, 6, 19, 8, 0],
+          "instructors": ["Michael Griffin"]
+        }
+      ]
+    },
+    "PHIL 220": {
+      "reported": 5235,
+      "average": 76.0,
+      "grades": [318, 217, 205, 209, 263, 323, 365, 426, 694, 814, 1191],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 678,
+          "average": 75.2,
+          "grades": [41, 36, 39, 35, 42, 37, 56, 68, 93, 85, 146],
+          "instructors": ["Jade Hadley", "David Gilbert", "Graham Moore", "Thomas Bittner", "Roberta Ballarin", "Alexandre Korolev"]
+        },
+        {
+          "session": "2025S",
+          "reported": 174,
+          "average": 75.1,
+          "grades": [11, 11, 10, 5, 10, 10, 17, 17, 21, 18, 44],
+          "instructors": ["Alexandre Korolev"]
+        },
+        {
+          "session": "2024W",
+          "reported": 747,
+          "average": 75.4,
+          "grades": [54, 28, 26, 39, 43, 51, 58, 66, 100, 131, 151],
+          "instructors": ["Roberta Ballarin", "Murat Aydede", "Alexandre Korolev", "Jonathan Ichikawa", "Dominic Lopes"]
+        },
+        {
+          "session": "2024S",
+          "reported": 225,
+          "average": 77.6,
+          "grades": [15, 10, 9, 8, 12, 13, 20, 10, 22, 35, 71],
+          "instructors": ["Paul Bartha", "Alexandre Korolev"]
+        },
+        {
+          "session": "2023W",
+          "reported": 977,
+          "average": 74.8,
+          "grades": [80, 35, 43, 38, 42, 65, 57, 93, 140, 137, 196],
+          "instructors": ["Jonathan Ichikawa", "Murat Aydede", "David Robert Gilbert", "Alexandre Korolev", "Leslie Burkholder"]
+        },
+        {
+          "session": "2023S",
+          "reported": 263,
+          "average": 78.5,
+          "grades": [13, 10, 12, 6, 15, 15, 11, 13, 30, 27, 80],
+          "instructors": ["Paul Bartha", "Gerrit Neels", "Leslie Burkholder"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Symbolic Logic",
+          "reported": 956,
+          "average": 75.4,
+          "grades": [60, 51, 45, 47, 61, 71, 61, 93, 118, 146, 203],
+          "instructors": ["Alexandre Korolev", "Dominic Lopes", "David Robert Gilbert", "Jonathan Ichikawa", "Thomas Jacob Bittner", "Leslie Burkholder"]
+        },
+        {
+          "session": "2022S",
+          "topic": "A",
+          "title": "Symbolic Logic",
+          "reported": 145,
+          "average": 82.9,
+          "grades": [4, 4, 3, 3, 4, 6, 14, 7, 18, 21, 61],
+          "instructors": ["Paul Bartha", "Roberta Ballarin"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Symbolic Logic",
+          "reported": 853,
+          "average": 75.8,
+          "grades": [34, 26, 18, 28, 34, 55, 65, 59, 115, 164, 172],
+          "instructors": ["David Robert Gilbert", "Jonathan Ichikawa", "Leslie Burkholder", "Alexandre Korolev", "Thomas Jacob Bittner"]
+        },
+        {
+          "session": "2021S",
+          "topic": "A",
+          "title": "Symbolic Logic",
+          "reported": 217,
+          "average": 80.2,
+          "grades": [6, 6, 0, 0, 0, 0, 6, 0, 37, 50, 67],
+          "instructors": ["Paul Bartha", "Jade Hadley", "Leslie Burkholder"]
+        }
+      ]
+    },
+    "PHIL 222": {
+      "reported": 57,
+      "average": 72.0,
+      "grades": [5, 3, 2, 3, 3, 8, 1, 3, 8, 7, 10],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 22,
+          "average": 74.1,
+          "grades": [1, 1, 1, 1, 1, 4, 0, 1, 4, 4, 4],
+          "instructors": ["David Gilbert"]
+        },
+        {
+          "session": "2023W",
+          "reported": 35,
+          "average": 70.6,
+          "grades": [4, 2, 1, 2, 2, 4, 1, 2, 4, 3, 6],
+          "instructors": ["David Robert Gilbert"]
+        }
+      ]
+    },
+    "PHIL 230": {
+      "reported": 1730,
+      "average": 76.6,
+      "grades": [39, 5, 18, 43, 66, 151, 233, 318, 455, 258, 69],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 234,
+          "average": 78.0,
+          "grades": [6, 1, 1, 8, 8, 22, 22, 34, 76, 41, 15],
+          "instructors": ["Matthew Bedke", "Cat Prueitt", "Willow Verkerk"]
+        },
+        {
+          "session": "2025S",
+          "reported": 86,
+          "average": 74.2,
+          "grades": [3, 1, 2, 2, 5, 9, 19, 13, 23, 8, 1],
+          "instructors": ["Willow Verkerk"]
+        },
+        {
+          "session": "2024W",
+          "reported": 271,
+          "average": 78.0,
+          "grades": [3, 0, 5, 5, 12, 23, 34, 63, 65, 46, 15],
+          "instructors": ["Alisabeth Ayars"]
+        },
+        {
+          "session": "2024S",
+          "reported": 163,
+          "average": 76.7,
+          "grades": [2, 0, 4, 5, 2, 14, 32, 34, 45, 25, 0],
+          "instructors": ["Willow Verkerk"]
+        },
+        {
+          "session": "2023W",
+          "reported": 295,
+          "average": 77.3,
+          "grades": [7, 1, 4, 12, 17, 17, 43, 45, 75, 43, 24],
+          "instructors": ["Alisabeth Ayars", "Matthew Bedke", "Kimberley Brownlee"]
+        },
+        {
+          "session": "2023S",
+          "reported": 83,
+          "average": 74.7,
+          "grades": [2, 1, 0, 3, 5, 11, 13, 15, 14, 15, 0],
+          "instructors": ["Willow Verkerk"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Introduction to Ethics",
+          "reported": 231,
+          "average": 77.1,
+          "grades": [7, 1, 2, 5, 8, 16, 31, 42, 69, 45, 5],
+          "instructors": ["Alisabeth Ayars", "Scott Allen Anderson", "Willow Verkerk"]
+        },
+        {
+          "session": "2022S",
+          "topic": "A",
+          "title": "Introduction to Ethics",
+          "reported": 43,
+          "average": 73.9,
+          "grades": [3, 0, 0, 3, 2, 1, 5, 9, 10, 8, 2],
+          "instructors": ["Kimberley Brownlee", "Willow Verkerk"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Introduction to Ethics",
+          "reported": 233,
+          "average": 75.9,
+          "grades": [0, 0, 0, 0, 0, 24, 25, 50, 64, 27, 7],
+          "instructors": ["Scott Allen Anderson", "Alisabeth Ayars", "Willow Verkerk"]
+        },
+        {
+          "session": "2021S",
+          "topic": "A",
+          "title": "Introduction to Ethics",
+          "reported": 91,
+          "average": 71.4,
+          "grades": [6, 0, 0, 0, 7, 14, 9, 13, 14, 0, 0],
+          "instructors": ["Kimberley Brownlee", "Willow Verkerk"]
+        }
+      ]
+    },
+    "PHIL 235": {
+      "reported": 344,
+      "average": 76.4,
+      "grades": [3, 4, 4, 11, 16, 33, 40, 63, 95, 42, 9],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 57,
+          "average": 78.0,
+          "grades": [0, 0, 1, 2, 1, 6, 7, 12, 18, 9, 1],
+          "instructors": ["Rana Ahmad"]
+        },
+        {
+          "session": "2024W",
+          "reported": 107,
+          "average": 75.8,
+          "grades": [1, 4, 1, 5, 8, 13, 13, 20, 24, 13, 5],
+          "instructors": ["Matthew Bedke", "Rana Ahmad"]
+        },
+        {
+          "session": "2023W",
+          "reported": 72,
+          "average": 78.1,
+          "grades": [0, 0, 1, 2, 4, 4, 12, 11, 27, 10, 1],
+          "instructors": ["Rana Ahmad"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Contemporary Moral Issues",
+          "reported": 56,
+          "average": 74.6,
+          "grades": [2, 0, 1, 2, 3, 10, 8, 8, 10, 10, 2],
+          "instructors": ["Rana Ahmad"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Contemporary Moral Issues",
+          "reported": 52,
+          "average": 75.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 12, 16, 0, 0],
+          "instructors": ["Rana Ahmad"]
+        }
+      ]
+    },
+    "PHIL 240": {
+      "reported": 882,
+      "average": 76.0,
+      "grades": [36, 13, 16, 28, 25, 55, 99, 120, 195, 164, 59],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 166,
+          "average": 78.4,
+          "grades": [5, 3, 2, 7, 5, 5, 20, 22, 34, 40, 23],
+          "instructors": ["Christopher Stephens", "Christopher Mole", "Stefan Lukits", "Jasper Heaton"]
+        },
+        {
+          "session": "2024W",
+          "reported": 141,
+          "average": 76.2,
+          "grades": [6, 2, 3, 6, 5, 15, 16, 19, 34, 26, 9],
+          "instructors": ["Catherine Prueitt", "Elena Holmgren", "Christopher Stephens"]
+        },
+        {
+          "session": "2024S",
+          "reported": 40,
+          "average": 76.8,
+          "grades": [2, 1, 2, 1, 0, 2, 7, 5, 8, 9, 3],
+          "instructors": ["Kinley Gillette"]
+        },
+        {
+          "session": "2023W",
+          "reported": 170,
+          "average": 76.3,
+          "grades": [6, 2, 4, 5, 8, 16, 17, 16, 44, 36, 6],
+          "instructors": ["Christopher Stephens", "Stefan Lukits"]
+        },
+        {
+          "session": "2023S",
+          "reported": 18,
+          "average": 79.2,
+          "grades": [0, 0, 1, 0, 0, 1, 2, 3, 6, 4, 0],
+          "instructors": ["Emily Tilton"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Introduction to Epistemology",
+          "reported": 133,
+          "average": 77.2,
+          "grades": [3, 4, 2, 3, 7, 9, 15, 25, 34, 27, 4],
+          "instructors": ["Stefan Lukits", "Jasper Heaton"]
+        },
+        {
+          "session": "2022S",
+          "topic": "A",
+          "title": "Introduction to Epistemology",
+          "reported": 22,
+          "average": 74.0,
+          "grades": [2, 1, 2, 0, 0, 0, 1, 1, 5, 7, 3],
+          "instructors": ["Christopher Stephens"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Introduction to Epistemology",
+          "reported": 128,
+          "average": 71.2,
+          "grades": [12, 0, 0, 6, 0, 7, 10, 21, 19, 8, 0],
+          "instructors": ["Christopher Stephens", "Catherine Prueitt"]
+        },
+        {
+          "session": "2021S",
+          "topic": "A",
+          "title": "Introduction to Epistemology",
+          "reported": 64,
+          "average": 75.1,
+          "grades": [0, 0, 0, 0, 0, 0, 11, 8, 11, 7, 11],
+          "instructors": ["Anders Kraal"]
+        }
+      ]
+    },
+    "PHIL 250": {
+      "reported": 629,
+      "average": 75.7,
+      "grades": [13, 5, 4, 15, 28, 34, 83, 109, 130, 97, 31],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 46,
+          "average": 80.5,
+          "grades": [1, 0, 0, 0, 1, 2, 4, 3, 19, 11, 5],
+          "instructors": ["Alexandra Jewell", "Tyeson Daviesbarton"]
+        },
+        {
+          "session": "2025S",
+          "reported": 15,
+          "average": 78.3,
+          "grades": [0, 1, 0, 0, 1, 3, 0, 3, 1, 3, 3],
+          "instructors": ["Ella Zhang"]
+        },
+        {
+          "session": "2024W",
+          "reported": 104,
+          "average": 76.8,
+          "grades": [0, 0, 1, 2, 10, 6, 20, 25, 29, 9, 2],
+          "instructors": ["Kousaku Yui", "Aaron Henry"]
+        },
+        {
+          "session": "2023W",
+          "reported": 81,
+          "average": 70.8,
+          "grades": [8, 2, 2, 6, 6, 7, 9, 8, 12, 10, 6],
+          "instructors": ["Aaron Henry", "Thomas Jacob Bittner"]
+        },
+        {
+          "session": "2023S",
+          "reported": 49,
+          "average": 78.6,
+          "grades": [1, 0, 0, 0, 3, 3, 7, 10, 9, 7, 5],
+          "instructors": ["Albert Cotugno III", "Elena Holmgren"]
+        },
+        {
+          "session": "2022W",
+          "reported": 134,
+          "average": 75.8,
+          "grades": [3, 1, 1, 6, 7, 11, 21, 32, 27, 18, 7],
+          "instructors": ["Aaron Henry", "Alexandra Jewell"]
+        },
+        {
+          "session": "2022S",
+          "reported": 38,
+          "average": 80.9,
+          "grades": [0, 1, 0, 1, 0, 2, 4, 7, 5, 15, 3],
+          "instructors": ["Chase Dority", "Jade Hadley"]
+        },
+        {
+          "session": "2021W",
+          "reported": 96,
+          "average": 73.1,
+          "grades": [0, 0, 0, 0, 0, 0, 18, 14, 17, 17, 0],
+          "instructors": ["Thomas Jacob Bittner", "Aaron Henry"]
+        },
+        {
+          "session": "2021S",
+          "reported": 66,
+          "average": 74.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 7, 11, 7, 0],
+          "instructors": ["Alexandre Duval", "Graham Moore"]
+        }
+      ]
+    },
+    "PHIL 260": {
+      "reported": 34,
+      "average": 79.0,
+      "grades": [1, 0, 1, 0, 0, 1, 6, 3, 10, 6, 4],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 9,
+          "average": 75.9,
+          "grades": [1, 0, 0, 0, 0, 0, 0, 2, 5, 0, 1],
+          "instructors": ["Robert Brain"]
+        },
+        {
+          "session": "2024W",
+          "reported": 10,
+          "average": 82.7,
+          "grades": [0, 0, 0, 0, 0, 0, 2, 1, 3, 2, 2],
+          "instructors": ["Robert Brain"]
+        },
+        {
+          "session": "2023W",
+          "reported": 9,
+          "average": 78.1,
+          "grades": [0, 0, 1, 0, 0, 0, 2, 0, 1, 2, 1],
+          "instructors": ["Robert Brain"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Science and Society in the Contemporary World",
+          "reported": 6,
+          "average": 78.8,
+          "grades": [0, 0, 0, 0, 0, 1, 2, 0, 1, 2, 0],
+          "instructors": ["Alexei Kojevnikov"]
+        }
+      ]
+    },
+    "PHIL 310": {
+      "reported": 233,
+      "average": 76.6,
+      "grades": [3, 0, 5, 9, 8, 26, 36, 48, 50, 37, 10],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 67,
+          "average": 78.7,
+          "grades": [1, 0, 1, 0, 5, 3, 12, 10, 15, 14, 6],
+          "instructors": ["Willow Verkerk"]
+        },
+        {
+          "session": "2024W",
+          "reported": 68,
+          "average": 77.9,
+          "grades": [0, 0, 0, 0, 1, 11, 12, 17, 17, 10, 0],
+          "instructors": ["Willow Verkerk"]
+        },
+        {
+          "session": "2023W",
+          "reported": 41,
+          "average": 68.9,
+          "grades": [2, 0, 4, 8, 1, 5, 3, 7, 6, 3, 1],
+          "instructors": ["Sylvia Berryman"]
+        },
+        {
+          "session": "2022W",
+          "reported": 57,
+          "average": 78.1,
+          "grades": [0, 0, 0, 1, 1, 7, 9, 14, 12, 10, 3],
+          "instructors": ["Ian Heckman"]
+        }
+      ]
+    },
+    "PHIL 311": {
+      "reported": 102,
+      "average": 73.3,
+      "grades": [4, 7, 5, 4, 3, 7, 8, 15, 11, 13, 2],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 41,
+          "average": 72.0,
+          "grades": [3, 2, 4, 2, 3, 2, 3, 5, 6, 9, 2],
+          "instructors": ["Sylvia Berryman"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "The Philosophy of Aristotle",
+          "reported": 29,
+          "average": 69.8,
+          "grades": [1, 5, 1, 2, 0, 5, 5, 1, 5, 4, 0],
+          "instructors": ["Sylvia Berryman"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "The Philosophy of Aristotle",
+          "reported": 32,
+          "average": 78.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 9, 0, 0, 0],
+          "instructors": ["Brooks Sommerville"]
+        }
+      ]
+    },
+    "PHIL 313": {
+      "reported": 572,
+      "average": 76.5,
+      "grades": [8, 11, 14, 15, 32, 46, 72, 99, 138, 92, 32],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 104,
+          "average": 74.2,
+          "grades": [3, 3, 4, 8, 7, 8, 16, 10, 26, 9, 10],
+          "instructors": ["Anders Kraal"]
+        },
+        {
+          "session": "2024W",
+          "reported": 152,
+          "average": 77.7,
+          "grades": [1, 2, 2, 2, 10, 14, 20, 30, 34, 26, 11],
+          "instructors": ["Anders Kraal"]
+        },
+        {
+          "session": "2023W",
+          "reported": 155,
+          "average": 76.3,
+          "grades": [3, 6, 2, 2, 8, 10, 16, 31, 43, 26, 4],
+          "instructors": ["Anders Kraal"]
+        },
+        {
+          "session": "2022W",
+          "reported": 72,
+          "average": 75.5,
+          "grades": [1, 0, 6, 3, 7, 6, 10, 11, 11, 10, 7],
+          "instructors": ["Anders Kraal"]
+        },
+        {
+          "session": "2021W",
+          "reported": 89,
+          "average": 78.8,
+          "grades": [0, 0, 0, 0, 0, 8, 10, 17, 24, 21, 0],
+          "instructors": ["Anders Kraal"]
+        }
+      ]
+    },
+    "PHIL 314": {
+      "reported": 370,
+      "average": 76.2,
+      "grades": [6, 11, 8, 18, 32, 23, 44, 36, 75, 50, 43],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 46,
+          "average": 71.0,
+          "grades": [3, 0, 1, 5, 7, 2, 9, 4, 9, 5, 1],
+          "instructors": ["Fatema Amijee"]
+        },
+        {
+          "session": "2025S",
+          "reported": 43,
+          "average": 74.1,
+          "grades": [0, 5, 0, 1, 5, 2, 7, 4, 14, 4, 1],
+          "instructors": ["Anders Kraal"]
+        },
+        {
+          "session": "2024W",
+          "reported": 16,
+          "average": 78.8,
+          "grades": [0, 0, 0, 0, 2, 1, 3, 3, 3, 3, 1],
+          "instructors": ["Fatema Amijee"]
+        },
+        {
+          "session": "2024S",
+          "reported": 63,
+          "average": 78.3,
+          "grades": [0, 2, 3, 4, 5, 1, 3, 8, 16, 11, 10],
+          "instructors": ["Anders Kraal"]
+        },
+        {
+          "session": "2023W",
+          "reported": 49,
+          "average": 72.2,
+          "grades": [2, 2, 1, 3, 6, 9, 2, 6, 12, 3, 3],
+          "instructors": ["Fatema Amijee"]
+        },
+        {
+          "session": "2023S",
+          "reported": 60,
+          "average": 77.3,
+          "grades": [0, 2, 2, 2, 5, 4, 8, 5, 7, 9, 9],
+          "instructors": ["Anders Kraal"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Philosophy in the 17th Century",
+          "reported": 69,
+          "average": 79.9,
+          "grades": [1, 0, 1, 3, 2, 4, 12, 6, 14, 8, 18],
+          "instructors": ["Anders Kraal"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Philosophy in the 17th Century",
+          "reported": 24,
+          "average": 77.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 0],
+          "instructors": ["Fatema Amijee"]
+        }
+      ]
+    },
+    "PHIL 315": {
+      "reported": 177,
+      "average": 76.4,
+      "grades": [2, 3, 6, 10, 9, 10, 17, 16, 46, 25, 13],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 31,
+          "average": 74.7,
+          "grades": [0, 2, 1, 4, 2, 3, 3, 1, 7, 5, 3],
+          "instructors": ["Fatema Amijee"]
+        },
+        {
+          "session": "2024W",
+          "reported": 42,
+          "average": 77.6,
+          "grades": [0, 1, 0, 0, 2, 3, 10, 6, 16, 3, 1],
+          "instructors": ["Margaret Schabas", "Fatema Amijee"]
+        },
+        {
+          "session": "2023W",
+          "reported": 27,
+          "average": 73.8,
+          "grades": [1, 0, 3, 1, 2, 1, 1, 4, 8, 3, 0],
+          "instructors": ["Fatema Amijee"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Philosophy in the 18th Century",
+          "reported": 60,
+          "average": 79.0,
+          "grades": [1, 0, 2, 5, 3, 3, 3, 5, 15, 14, 9],
+          "instructors": ["Anders Kraal"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Philosophy in the 18th Century",
+          "reported": 17,
+          "average": 71.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Brooks Sommerville"]
+        }
+      ]
+    },
+    "PHIL 316": {
+      "reported": 476,
+      "average": 77.3,
+      "grades": [7, 4, 5, 22, 18, 29, 50, 68, 146, 71, 41],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 116,
+          "average": 74.9,
+          "grades": [4, 2, 3, 11, 7, 7, 14, 10, 28, 19, 11],
+          "instructors": ["Anders Kraal"]
+        },
+        {
+          "session": "2024W",
+          "reported": 144,
+          "average": 78.4,
+          "grades": [1, 0, 0, 6, 3, 11, 12, 19, 73, 18, 1],
+          "instructors": ["Anders Kraal"]
+        },
+        {
+          "session": "2023W",
+          "reported": 77,
+          "average": 79.0,
+          "grades": [0, 1, 1, 4, 4, 7, 8, 12, 18, 8, 14],
+          "instructors": ["Anders Kraal"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Philosophy After 1800",
+          "reported": 68,
+          "average": 76.5,
+          "grades": [2, 1, 1, 1, 4, 4, 6, 21, 13, 9, 6],
+          "instructors": ["Anders Kraal"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Philosophy After 1800",
+          "reported": 71,
+          "average": 77.8,
+          "grades": [0, 0, 0, 0, 0, 0, 10, 6, 14, 17, 9],
+          "instructors": ["Anders Kraal"]
+        }
+      ]
+    },
+    "PHIL 320": {
+      "reported": 114,
+      "average": 72.5,
+      "grades": [7, 6, 7, 2, 7, 8, 9, 10, 16, 9, 18],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 31,
+          "average": 75.2,
+          "grades": [2, 1, 1, 0, 2, 2, 2, 2, 9, 3, 7],
+          "instructors": ["Alexandre Korolev"]
+        },
+        {
+          "session": "2024W",
+          "reported": 24,
+          "average": 74.5,
+          "grades": [1, 1, 1, 0, 1, 4, 6, 3, 1, 3, 3],
+          "instructors": ["Paul Bartha"]
+        },
+        {
+          "session": "2023W",
+          "reported": 29,
+          "average": 73.6,
+          "grades": [1, 2, 3, 1, 3, 2, 0, 3, 5, 3, 5],
+          "instructors": ["David Robert Gilbert"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Logic: Metatheory and Computability",
+          "reported": 16,
+          "average": 66.0,
+          "grades": [3, 2, 2, 1, 1, 0, 1, 2, 1, 0, 3],
+          "instructors": ["David Robert Gilbert"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Logic: Metatheory and Computability",
+          "reported": 14,
+          "average": 68.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["David Robert Gilbert"]
+        }
+      ]
+    },
+    "PHIL 321": {
+      "reported": 580,
+      "average": 76.0,
+      "grades": [13, 15, 16, 25, 36, 32, 65, 75, 108, 87, 79],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 134,
+          "average": 78.2,
+          "grades": [2, 3, 5, 3, 11, 8, 12, 19, 24, 20, 27],
+          "instructors": ["Christopher Stephens", "Alexandre Korolev"]
+        },
+        {
+          "session": "2024W",
+          "reported": 144,
+          "average": 73.9,
+          "grades": [3, 8, 4, 13, 15, 10, 15, 21, 23, 21, 11],
+          "instructors": ["Paul Bartha", "Christopher Stephens"]
+        },
+        {
+          "session": "2023W",
+          "reported": 110,
+          "average": 77.7,
+          "grades": [3, 2, 4, 4, 5, 9, 10, 10, 19, 20, 21],
+          "instructors": ["Christopher Stephens", "Alexandre Korolev"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Induction, Decision and Game Theory",
+          "reported": 86,
+          "average": 74.9,
+          "grades": [5, 2, 3, 5, 5, 5, 11, 10, 16, 11, 13],
+          "instructors": ["Paul Bartha", "Alexandre Korolev"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Induction, Decision and Game Theory",
+          "reported": 106,
+          "average": 75.2,
+          "grades": [0, 0, 0, 0, 0, 0, 17, 15, 26, 15, 7],
+          "instructors": ["Paul Bartha", "Christopher Stephens"]
+        }
+      ]
+    },
+    "PHIL 322": {
+      "reported": 40,
+      "average": 67.7,
+      "grades": [2, 2, 4, 1, 2, 2, 2, 0, 3, 3, 2],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 11,
+          "average": 71.0,
+          "grades": [0, 1, 1, 1, 1, 1, 1, 0, 3, 1, 0],
+          "instructors": ["David Robert Gilbert"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Modal Logic",
+          "reported": 13,
+          "average": 66.8,
+          "grades": [2, 1, 3, 0, 1, 1, 1, 0, 0, 2, 2],
+          "instructors": ["David Robert Gilbert"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Modal Logic",
+          "reported": 16,
+          "average": 66.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["David Robert Gilbert"]
+        }
+      ]
+    },
+    "PHIL 323": {
+      "reported": 51,
+      "average": 73.6,
+      "grades": [4, 1, 3, 0, 2, 3, 6, 6, 2, 6, 7],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 18,
+          "average": 67.3,
+          "grades": [3, 0, 1, 0, 0, 2, 4, 4, 1, 2, 1],
+          "instructors": ["David Gilbert"]
+        },
+        {
+          "session": "2023W",
+          "reported": 17,
+          "average": 74.4,
+          "grades": [1, 1, 1, 0, 2, 1, 1, 0, 1, 3, 4],
+          "instructors": ["David Robert Gilbert"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Non-Classical Logics",
+          "reported": 7,
+          "average": 79.9,
+          "grades": [0, 0, 1, 0, 0, 0, 1, 2, 0, 1, 2],
+          "instructors": ["David Robert Gilbert"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Non-Classical Logics",
+          "reported": 9,
+          "average": 79.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["David Robert Gilbert"]
+        }
+      ]
+    },
+    "PHIL 324": {
+      "reported": 23,
+      "average": 80.0,
+      "grades": [1, 0, 1, 0, 1, 2, 1, 1, 5, 5, 6],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 23,
+          "average": 80.0,
+          "grades": [1, 0, 1, 0, 1, 2, 1, 1, 5, 5, 6],
+          "instructors": ["Ori Simchen"]
+        }
+      ]
+    },
+    "PHIL 326": {
+      "reported": 214,
+      "average": 74.4,
+      "grades": [5, 8, 7, 11, 12, 25, 27, 13, 25, 20, 30],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 47,
+          "average": 73.2,
+          "grades": [1, 4, 3, 4, 3, 7, 3, 2, 3, 9, 8],
+          "instructors": ["Anders Kraal"]
+        },
+        {
+          "session": "2024W",
+          "reported": 33,
+          "average": 75.6,
+          "grades": [2, 1, 0, 0, 3, 1, 11, 0, 6, 1, 8],
+          "instructors": ["Ori Simchen", "Roberta Ballarin"]
+        },
+        {
+          "session": "2023W",
+          "reported": 71,
+          "average": 76.3,
+          "grades": [1, 1, 2, 5, 5, 9, 8, 9, 9, 9, 11],
+          "instructors": ["Jordan Roy Dodd", "Ori Simchen"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Philosophy of Language I",
+          "reported": 34,
+          "average": 72.8,
+          "grades": [1, 2, 2, 2, 1, 8, 5, 2, 7, 1, 3],
+          "instructors": ["Jordan Roy Dodd"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Philosophy of Language I",
+          "reported": 29,
+          "average": 72.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Dominic Alford-Duguid"]
+        }
+      ]
+    },
+    "PHIL 330": {
+      "reported": 660,
+      "average": 75.3,
+      "grades": [22, 9, 11, 18, 29, 68, 99, 116, 140, 98, 30],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 111,
+          "average": 74.3,
+          "grades": [3, 2, 3, 4, 3, 6, 26, 34, 22, 7, 1],
+          "instructors": ["Scott Allen Anderson", "Matthew Bedke"]
+        },
+        {
+          "session": "2024W",
+          "reported": 115,
+          "average": 78.0,
+          "grades": [2, 0, 3, 3, 8, 12, 11, 14, 31, 20, 11],
+          "instructors": ["Matthew Bedke", "John Henry Beatty"]
+        },
+        {
+          "session": "2024S",
+          "reported": 20,
+          "average": 71.0,
+          "grades": [3, 0, 0, 3, 0, 1, 2, 1, 3, 3, 4],
+          "instructors": ["Kimberley Brownlee"]
+        },
+        {
+          "session": "2023W",
+          "reported": 136,
+          "average": 74.1,
+          "grades": [6, 3, 3, 3, 8, 18, 22, 23, 19, 22, 5],
+          "instructors": ["Matthew Bedke", "John Henry Beatty"]
+        },
+        {
+          "session": "2023S",
+          "reported": 37,
+          "average": 78.1,
+          "grades": [1, 1, 1, 0, 1, 4, 4, 2, 9, 10, 3],
+          "instructors": ["Celia Edell"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Social and Political Philosophy",
+          "reported": 131,
+          "average": 74.3,
+          "grades": [7, 3, 1, 5, 9, 14, 18, 18, 25, 25, 6],
+          "instructors": ["Scott Allen Anderson", "Kimberley Brownlee"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Social and Political Philosophy",
+          "reported": 110,
+          "average": 76.2,
+          "grades": [0, 0, 0, 0, 0, 13, 16, 24, 31, 11, 0],
+          "instructors": ["Scott Allen Anderson", "Irwin Chan"]
+        }
+      ]
+    },
+    "PHIL 331": {
+      "reported": 1811,
+      "average": 77.6,
+      "grades": [27, 13, 17, 31, 44, 104, 225, 364, 624, 283, 28],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 361,
+          "average": 79.7,
+          "grades": [7, 3, 3, 2, 3, 11, 20, 68, 152, 85, 7],
+          "instructors": ["Celia Edell", "Irwin Chan", "Rana Ahmad"]
+        },
+        {
+          "session": "2025S",
+          "reported": 75,
+          "average": 79.7,
+          "grades": [2, 0, 0, 0, 0, 0, 1, 19, 37, 14, 2],
+          "instructors": ["Rana Ahmad"]
+        },
+        {
+          "session": "2024W",
+          "reported": 323,
+          "average": 79.3,
+          "grades": [3, 4, 1, 2, 3, 19, 28, 68, 136, 54, 5],
+          "instructors": ["Yu Shing Chan", "Celia Edell", "Rana Ahmad"]
+        },
+        {
+          "session": "2024S",
+          "reported": 62,
+          "average": 80.0,
+          "grades": [0, 0, 1, 0, 1, 4, 4, 16, 25, 9, 2],
+          "instructors": ["Rana Ahmad"]
+        },
+        {
+          "session": "2023W",
+          "reported": 262,
+          "average": 75.6,
+          "grades": [4, 3, 6, 8, 9, 23, 52, 45, 73, 29, 1],
+          "instructors": ["Irwin Chan", "Rana Ahmad"]
+        },
+        {
+          "session": "2023S",
+          "reported": 69,
+          "average": 73.5,
+          "grades": [4, 0, 0, 1, 9, 4, 11, 15, 16, 7, 2],
+          "instructors": ["Rana Ahmad"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Business and Professional Ethics",
+          "reported": 271,
+          "average": 76.2,
+          "grades": [6, 3, 5, 9, 9, 15, 50, 57, 75, 36, 6],
+          "instructors": ["Irwin Chan", "Rana Ahmad"]
+        },
+        {
+          "session": "2022S",
+          "topic": "A",
+          "title": "Business and Professional Ethics",
+          "reported": 71,
+          "average": 76.7,
+          "grades": [1, 0, 1, 2, 3, 6, 9, 21, 20, 5, 3],
+          "instructors": ["Rana Ahmad"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Business and Professional Ethics",
+          "reported": 254,
+          "average": 77.3,
+          "grades": [0, 0, 0, 7, 0, 14, 34, 45, 79, 44, 0],
+          "instructors": ["Irwin Chan", "Rana Ahmad"]
+        },
+        {
+          "session": "2021S",
+          "topic": "A",
+          "title": "Business and Professional Ethics",
+          "reported": 63,
+          "average": 73.3,
+          "grades": [0, 0, 0, 0, 7, 8, 16, 10, 11, 0, 0],
+          "instructors": ["Rana Ahmad"]
+        }
+      ]
+    },
+    "PHIL 332": {
+      "reported": 758,
+      "average": 75.9,
+      "grades": [10, 13, 9, 21, 32, 73, 110, 127, 190, 109, 34],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 81,
+          "average": 76.7,
+          "grades": [2, 0, 0, 1, 3, 6, 15, 21, 23, 7, 3],
+          "instructors": ["Irwin Chan", "Rana Ahmad"]
+        },
+        {
+          "session": "2025S",
+          "reported": 62,
+          "average": 78.7,
+          "grades": [1, 0, 0, 1, 1, 4, 8, 15, 21, 9, 2],
+          "instructors": ["Kinley Gillette"]
+        },
+        {
+          "session": "2024W",
+          "reported": 119,
+          "average": 79.6,
+          "grades": [1, 3, 0, 1, 3, 8, 8, 22, 43, 19, 11],
+          "instructors": ["John Henry Beatty", "Rana Ahmad"]
+        },
+        {
+          "session": "2023W",
+          "reported": 154,
+          "average": 75.3,
+          "grades": [1, 7, 6, 10, 8, 14, 22, 12, 26, 33, 7],
+          "instructors": ["John Henry Beatty", "Rana Ahmad"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Environmental Ethics",
+          "reported": 178,
+          "average": 73.4,
+          "grades": [5, 3, 3, 8, 11, 28, 34, 31, 40, 13, 2],
+          "instructors": ["Rana Ahmad"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Environmental Ethics",
+          "reported": 164,
+          "average": 75.1,
+          "grades": [0, 0, 0, 0, 6, 13, 23, 26, 37, 28, 9],
+          "instructors": ["Rana Ahmad", "John Henry Beatty"]
+        }
+      ]
+    },
+    "PHIL 333": {
+      "reported": 2947,
+      "average": 73.9,
+      "grades": [65, 40, 41, 110, 150, 345, 547, 548, 527, 317, 74],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 366,
+          "average": 76.4,
+          "grades": [12, 9, 2, 20, 12, 30, 46, 61, 74, 61, 39],
+          "instructors": ["Eric Wilkinson", "Irwin Chan", "Doran Smolkin"]
+        },
+        {
+          "session": "2025S",
+          "reported": 99,
+          "average": 73.8,
+          "grades": [1, 2, 1, 6, 6, 13, 21, 24, 16, 9, 0],
+          "instructors": ["Doran Smolkin"]
+        },
+        {
+          "session": "2024W",
+          "reported": 388,
+          "average": 74.1,
+          "grades": [4, 7, 9, 16, 31, 57, 70, 77, 77, 34, 6],
+          "instructors": ["Jade Hadley", "Yu Shing Chan", "Doran Smolkin"]
+        },
+        {
+          "session": "2024S",
+          "reported": 189,
+          "average": 73.2,
+          "grades": [4, 2, 5, 8, 11, 21, 46, 43, 39, 8, 2],
+          "instructors": ["Yu Shing Chan", "Doran Smolkin"]
+        },
+        {
+          "session": "2023W",
+          "reported": 447,
+          "average": 73.6,
+          "grades": [16, 10, 7, 17, 30, 46, 72, 81, 82, 62, 11],
+          "instructors": ["Irwin Chan", "Spencer Knafelc", "Doran Smolkin"]
+        },
+        {
+          "session": "2023S",
+          "reported": 240,
+          "average": 75.2,
+          "grades": [2, 1, 5, 13, 14, 37, 41, 40, 40, 38, 3],
+          "instructors": ["Kinley Gillette", "Irwin Chan", "Doran Smolkin"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Bio-Medical Ethics",
+          "reported": 432,
+          "average": 71.7,
+          "grades": [19, 9, 10, 24, 26, 57, 89, 97, 66, 30, 5],
+          "instructors": ["Irwin Chan", "Doran Smolkin"]
+        },
+        {
+          "session": "2022S",
+          "topic": "A",
+          "title": "Bio-Medical Ethics",
+          "reported": 171,
+          "average": 75.4,
+          "grades": [7, 0, 2, 6, 8, 18, 21, 31, 40, 30, 8],
+          "instructors": ["Graham Moore", "Irwin Chan", "Doran Smolkin"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Bio-Medical Ethics",
+          "reported": 468,
+          "average": 73.2,
+          "grades": [0, 0, 0, 0, 12, 55, 114, 69, 71, 26, 0],
+          "instructors": ["Irwin Chan", "Leslie Burkholder", "Phyllis Pearson", "Doran Smolkin"]
+        },
+        {
+          "session": "2021S",
+          "topic": "A",
+          "title": "Bio-Medical Ethics",
+          "reported": 147,
+          "average": 74.4,
+          "grades": [0, 0, 0, 0, 0, 11, 27, 25, 22, 19, 0],
+          "instructors": ["Kinley Gillette", "Irwin Chan", "Doran Smolkin"]
+        }
+      ]
+    },
+    "PHIL 334": {
+      "reported": 415,
+      "average": 76.4,
+      "grades": [11, 2, 3, 7, 18, 42, 62, 77, 95, 67, 15],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 111,
+          "average": 76.8,
+          "grades": [3, 0, 0, 2, 2, 9, 16, 28, 42, 9, 0],
+          "instructors": ["Willow Verkerk"]
+        },
+        {
+          "session": "2024W",
+          "reported": 132,
+          "average": 78.1,
+          "grades": [6, 1, 2, 2, 3, 5, 14, 23, 27, 36, 13],
+          "instructors": ["Willow Verkerk", "Jasper Heaton"]
+        },
+        {
+          "session": "2023W",
+          "reported": 55,
+          "average": 78.0,
+          "grades": [1, 0, 1, 0, 1, 4, 9, 9, 20, 4, 2],
+          "instructors": ["Willow Verkerk"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Sex, Gender and Philosophy",
+          "reported": 66,
+          "average": 71.6,
+          "grades": [1, 1, 0, 3, 12, 17, 12, 11, 6, 3, 0],
+          "instructors": ["Willow Verkerk"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Sex, Gender and Philosophy",
+          "reported": 51,
+          "average": 75.3,
+          "grades": [0, 0, 0, 0, 0, 7, 11, 6, 0, 15, 0],
+          "instructors": ["Willow Verkerk"]
+        }
+      ]
+    },
+    "PHIL 335": {
+      "reported": 370,
+      "average": 76.8,
+      "grades": [11, 5, 6, 9, 7, 18, 44, 63, 96, 71, 21],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 77,
+          "average": 78.4,
+          "grades": [2, 1, 3, 3, 1, 1, 5, 15, 22, 19, 5],
+          "instructors": ["Kinley Gillette", "Karoline Paier"]
+        },
+        {
+          "session": "2024W",
+          "reported": 56,
+          "average": 80.0,
+          "grades": [1, 1, 1, 2, 1, 4, 4, 8, 14, 10, 10],
+          "instructors": ["Wayne Wapeemukwa", "Scott Allen Anderson"]
+        },
+        {
+          "session": "2024S",
+          "reported": 13,
+          "average": 80.8,
+          "grades": [0, 0, 0, 0, 0, 0, 3, 3, 4, 2, 1],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "reported": 86,
+          "average": 71.1,
+          "grades": [7, 2, 1, 3, 2, 10, 13, 12, 19, 13, 0],
+          "instructors": ["Willow Verkerk", "Sylvia Berryman"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Power and Oppression",
+          "reported": 66,
+          "average": 77.7,
+          "grades": [1, 1, 1, 1, 3, 3, 10, 11, 20, 10, 5],
+          "instructors": ["Dominic Lopes"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Power and Oppression",
+          "reported": 72,
+          "average": 78.0,
+          "grades": [0, 0, 0, 0, 0, 0, 9, 14, 17, 17, 0],
+          "instructors": ["Brooks Sommerville"]
+        }
+      ]
+    },
+    "PHIL 336": {
+      "reported": 74,
+      "average": 76.2,
+      "grades": [1, 1, 0, 1, 4, 2, 17, 20, 20, 8, 0],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 74,
+          "average": 76.2,
+          "grades": [1, 1, 0, 1, 4, 2, 17, 20, 20, 8, 0],
+          "instructors": ["Scott Allen Anderson"]
+        }
+      ]
+    },
+    "PHIL 337": {
+      "reported": 160,
+      "average": 84.7,
+      "grades": [3, 1, 0, 0, 4, 6, 3, 10, 27, 51, 53],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 55,
+          "average": 81.3,
+          "grades": [1, 1, 0, 0, 4, 5, 1, 7, 9, 15, 12],
+          "instructors": ["Elena Holmgren"]
+        },
+        {
+          "session": "2024W",
+          "reported": 40,
+          "average": 90.4,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 0, 2, 12, 25],
+          "instructors": ["Margaret Wylie"]
+        },
+        {
+          "session": "2023W",
+          "reported": 28,
+          "average": 84.2,
+          "grades": [1, 0, 0, 0, 0, 0, 1, 1, 6, 8, 9],
+          "instructors": ["Daniel Saunders"]
+        },
+        {
+          "session": "2022W",
+          "reported": 37,
+          "average": 84.0,
+          "grades": [1, 0, 0, 0, 0, 0, 1, 2, 10, 16, 7],
+          "instructors": ["Alison Wylie"]
+        }
+      ]
+    },
+    "PHIL 338": {
+      "reported": 753,
+      "average": 73.5,
+      "grades": [34, 14, 21, 38, 52, 64, 105, 106, 146, 103, 30],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 132,
+          "average": 78.4,
+          "grades": [4, 1, 0, 4, 3, 8, 9, 23, 46, 31, 3],
+          "instructors": ["Stefan Lukits"]
+        },
+        {
+          "session": "2025S",
+          "reported": 47,
+          "average": 73.2,
+          "grades": [3, 1, 2, 2, 1, 2, 7, 8, 12, 5, 4],
+          "instructors": ["Irwin Chan"]
+        },
+        {
+          "session": "2024W",
+          "reported": 127,
+          "average": 69.5,
+          "grades": [13, 3, 5, 10, 13, 19, 21, 11, 22, 4, 6],
+          "instructors": ["Thomas Jacob Bittner", "Dominic Alford-Duguid"]
+        },
+        {
+          "session": "2024S",
+          "reported": 57,
+          "average": 82.2,
+          "grades": [0, 1, 1, 3, 1, 2, 1, 6, 14, 17, 11],
+          "instructors": ["Stefan Lukits"]
+        },
+        {
+          "session": "2023W",
+          "reported": 94,
+          "average": 70.8,
+          "grades": [7, 2, 5, 8, 6, 11, 14, 13, 16, 9, 2],
+          "instructors": ["Thomas Jacob Bittner", "Dominic Alford-Duguid"]
+        },
+        {
+          "session": "2023S",
+          "reported": 35,
+          "average": 65.2,
+          "grades": [3, 3, 2, 2, 6, 6, 5, 6, 2, 0, 0],
+          "instructors": ["Irwin Chan"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Philosophy of Law",
+          "reported": 92,
+          "average": 73.3,
+          "grades": [3, 3, 6, 3, 8, 8, 15, 10, 16, 16, 4],
+          "instructors": ["Stefan Lukits", "Thomas Jacob Bittner"]
+        },
+        {
+          "session": "2022S",
+          "topic": "A",
+          "title": "Philosophy of Law",
+          "reported": 49,
+          "average": 74.1,
+          "grades": [1, 0, 0, 0, 0, 8, 17, 15, 6, 2, 0],
+          "instructors": ["Irwin Chan"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Philosophy of Law",
+          "reported": 120,
+          "average": 72.7,
+          "grades": [0, 0, 0, 6, 14, 0, 16, 14, 12, 19, 0],
+          "instructors": ["Thomas Jacob Bittner", "Stefan Lukits"]
+        }
+      ]
+    },
+    "PHIL 339": {
+      "reported": 300,
+      "average": 76.3,
+      "grades": [7, 2, 9, 8, 11, 31, 53, 41, 60, 35, 30],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 50,
+          "average": 75.6,
+          "grades": [1, 0, 0, 2, 2, 5, 12, 11, 11, 4, 2],
+          "instructors": ["Alyssa Izatt"]
+        },
+        {
+          "session": "2025S",
+          "reported": 23,
+          "average": 76.0,
+          "grades": [1, 0, 2, 1, 0, 3, 1, 3, 6, 2, 4],
+          "instructors": ["Alyssa Izatt"]
+        },
+        {
+          "session": "2024W",
+          "reported": 68,
+          "average": 78.2,
+          "grades": [1, 2, 0, 2, 4, 6, 9, 7, 16, 15, 6],
+          "instructors": ["Dominic Lopes"]
+        },
+        {
+          "session": "2023W",
+          "reported": 67,
+          "average": 75.6,
+          "grades": [2, 0, 5, 2, 2, 8, 12, 8, 7, 7, 12],
+          "instructors": ["Dominic Lopes"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Philosophy of Art",
+          "reported": 58,
+          "average": 76.2,
+          "grades": [2, 0, 2, 1, 3, 9, 10, 5, 13, 7, 6],
+          "instructors": ["Dominic Lopes"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Philosophy of Art",
+          "reported": 34,
+          "average": 75.4,
+          "grades": [0, 0, 0, 0, 0, 0, 9, 7, 7, 0, 0],
+          "instructors": ["Dominic Lopes"]
+        }
+      ]
+    },
+    "PHIL 340": {
+      "reported": 616,
+      "average": 74.5,
+      "grades": [17, 12, 16, 34, 39, 58, 84, 79, 139, 62, 46],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 112,
+          "average": 77.1,
+          "grades": [1, 3, 4, 8, 8, 6, 14, 12, 25, 18, 13],
+          "instructors": ["Fatema Amijee", "Jasper Heaton"]
+        },
+        {
+          "session": "2024W",
+          "reported": 115,
+          "average": 76.0,
+          "grades": [2, 3, 2, 7, 5, 9, 15, 19, 31, 12, 10],
+          "instructors": ["Aaron Henry", "Anders Kraal"]
+        },
+        {
+          "session": "2023W",
+          "reported": 97,
+          "average": 73.8,
+          "grades": [3, 1, 2, 3, 10, 15, 11, 9, 23, 8, 4],
+          "instructors": ["Ori Simchen"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Introduction to Metaphysics",
+          "reported": 140,
+          "average": 74.7,
+          "grades": [4, 2, 2, 4, 9, 16, 26, 27, 34, 9, 7],
+          "instructors": ["Anders Kraal", "Dominic Alford-Duguid"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Introduction to Metaphysics",
+          "reported": 152,
+          "average": 71.7,
+          "grades": [7, 3, 6, 12, 7, 12, 18, 12, 26, 15, 12],
+          "instructors": ["Anders Kraal", "Alexandre Duval"]
+        }
+      ]
+    },
+    "PHIL 347": {
+      "reported": 1464,
+      "average": 76.0,
+      "grades": [24, 28, 39, 67, 81, 136, 178, 231, 318, 187, 139],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 255,
+          "average": 74.7,
+          "grades": [9, 6, 9, 13, 14, 26, 24, 38, 64, 30, 22],
+          "instructors": ["Evan Thompson", "Anders Kraal"]
+        },
+        {
+          "session": "2025S",
+          "reported": 43,
+          "average": 77.4,
+          "grades": [0, 1, 1, 0, 2, 6, 5, 6, 13, 8, 1],
+          "instructors": ["Anders Kraal"]
+        },
+        {
+          "session": "2024W",
+          "reported": 312,
+          "average": 74.8,
+          "grades": [7, 9, 13, 22, 26, 27, 31, 51, 64, 34, 28],
+          "instructors": ["Anders Kraal"]
+        },
+        {
+          "session": "2024S",
+          "reported": 52,
+          "average": 77.6,
+          "grades": [0, 1, 0, 1, 3, 3, 6, 12, 21, 2, 3],
+          "instructors": ["Anders Kraal"]
+        },
+        {
+          "session": "2023W",
+          "reported": 176,
+          "average": 75.8,
+          "grades": [2, 4, 8, 8, 10, 14, 21, 35, 38, 22, 12],
+          "instructors": ["Evan Thompson", "Anders Kraal"]
+        },
+        {
+          "session": "2023S",
+          "reported": 81,
+          "average": 74.0,
+          "grades": [3, 3, 4, 1, 6, 10, 12, 9, 10, 12, 8],
+          "instructors": ["Anders Kraal"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Philosophy of Religion",
+          "reported": 156,
+          "average": 77.5,
+          "grades": [2, 2, 4, 7, 2, 15, 20, 28, 38, 29, 9],
+          "instructors": ["Evan Thompson", "Anders Kraal"]
+        },
+        {
+          "session": "2022S",
+          "topic": "A",
+          "title": "Philosophy of Religion",
+          "reported": 73,
+          "average": 78.9,
+          "grades": [1, 2, 0, 7, 2, 9, 5, 7, 14, 7, 19],
+          "instructors": ["Anders Kraal"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Philosophy of Religion",
+          "reported": 182,
+          "average": 76.8,
+          "grades": [0, 0, 0, 8, 7, 15, 31, 26, 38, 31, 8],
+          "instructors": ["Anders Kraal"]
+        },
+        {
+          "session": "2021S",
+          "topic": "A",
+          "title": "Philosophy of Religion",
+          "reported": 134,
+          "average": 77.8,
+          "grades": [0, 0, 0, 0, 9, 11, 23, 19, 18, 12, 29],
+          "instructors": ["Anders Kraal"]
+        }
+      ]
+    },
+    "PHIL 348": {
+      "reported": 127,
+      "average": 77.9,
+      "grades": [2, 1, 0, 4, 2, 9, 23, 17, 29, 23, 3],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 31,
+          "average": 77.7,
+          "grades": [0, 0, 0, 1, 0, 4, 7, 6, 9, 4, 0],
+          "instructors": ["Willow Verkerk"]
+        },
+        {
+          "session": "2024W",
+          "reported": 18,
+          "average": 80.2,
+          "grades": [0, 0, 0, 0, 0, 3, 2, 3, 2, 6, 2],
+          "instructors": ["Willow Verkerk"]
+        },
+        {
+          "session": "2023W",
+          "reported": 27,
+          "average": 79.5,
+          "grades": [1, 0, 0, 0, 0, 1, 5, 4, 8, 7, 1],
+          "instructors": ["Willow Verkerk"]
+        },
+        {
+          "session": "2022W",
+          "reported": 37,
+          "average": 75.1,
+          "grades": [1, 1, 0, 3, 2, 1, 9, 4, 10, 6, 0],
+          "instructors": ["Willow Verkerk"]
+        },
+        {
+          "session": "2021W",
+          "reported": 14,
+          "average": 79.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Willow Verkerk"]
+        }
+      ]
+    },
+    "PHIL 351": {
+      "reported": 464,
+      "average": 76.6,
+      "grades": [10, 8, 11, 14, 27, 36, 53, 64, 112, 74, 35],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 137,
+          "average": 76.3,
+          "grades": [5, 3, 2, 4, 5, 9, 21, 15, 40, 25, 8],
+          "instructors": ["Jordan Dodd", "Aaron Henry"]
+        },
+        {
+          "session": "2024W",
+          "reported": 129,
+          "average": 78.9,
+          "grades": [0, 1, 1, 5, 4, 10, 15, 24, 39, 19, 11],
+          "instructors": ["Jordan Roy Dodd", "Thomas Jacob Bittner"]
+        },
+        {
+          "session": "2023W",
+          "reported": 79,
+          "average": 75.6,
+          "grades": [3, 3, 3, 2, 4, 11, 7, 6, 13, 16, 10],
+          "instructors": ["Aaron Henry"]
+        },
+        {
+          "session": "2022W",
+          "reported": 62,
+          "average": 74.5,
+          "grades": [2, 1, 5, 3, 4, 6, 10, 11, 6, 8, 6],
+          "instructors": ["Christopher Mole"]
+        },
+        {
+          "session": "2021W",
+          "reported": 57,
+          "average": 76.0,
+          "grades": [0, 0, 0, 0, 10, 0, 0, 8, 14, 6, 0],
+          "instructors": ["Jordan Roy Dodd"]
+        }
+      ]
+    },
+    "PHIL 360": {
+      "reported": 56,
+      "average": 79.0,
+      "grades": [0, 0, 0, 1, 2, 5, 7, 7, 13, 7, 7],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 16,
+          "average": 82.9,
+          "grades": [0, 0, 0, 1, 1, 1, 2, 2, 0, 2, 7],
+          "instructors": ["Alexandre Korolev"]
+        },
+        {
+          "session": "2024W",
+          "reported": 13,
+          "average": 79.5,
+          "grades": [0, 0, 0, 0, 0, 1, 3, 0, 7, 2, 0],
+          "instructors": ["Alan Walter Richardson"]
+        },
+        {
+          "session": "2023W",
+          "reported": 10,
+          "average": 78.8,
+          "grades": [0, 0, 0, 0, 1, 0, 1, 2, 3, 2, 0],
+          "instructors": ["Alan Walter Richardson"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Introduction to History and Philosophy of Science",
+          "reported": 11,
+          "average": 76.5,
+          "grades": [0, 0, 0, 0, 0, 3, 1, 3, 3, 1, 0],
+          "instructors": ["Margaret Schabas"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Introduction to History and Philosophy of Science",
+          "reported": 6,
+          "average": 72.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Alexei Kojevnikov"]
+        }
+      ]
+    },
+    "PHIL 362": {
+      "reported": 79,
+      "average": 72.6,
+      "grades": [4, 4, 0, 0, 3, 3, 13, 18, 19, 5, 0],
+      "terms": [
+        {
+          "session": "2025W",
+          "topic": "A",
+          "title": "HIST & PHIL ECON 1",
+          "reported": 28,
+          "average": 74.1,
+          "grades": [0, 3, 0, 0, 1, 1, 8, 6, 7, 2, 0],
+          "instructors": ["Margaret Schabas"]
+        },
+        {
+          "session": "2024W",
+          "topic": "A",
+          "title": "HIST & PHIL ECON 1",
+          "reported": 17,
+          "average": 69.1,
+          "grades": [3, 0, 0, 0, 0, 2, 3, 4, 3, 2, 0],
+          "instructors": ["Margaret Schabas"]
+        },
+        {
+          "session": "2023W",
+          "reported": 12,
+          "average": 71.2,
+          "grades": [1, 1, 0, 0, 2, 0, 2, 1, 3, 1, 0],
+          "instructors": ["Margaret Schabas"]
+        },
+        {
+          "session": "2021W",
+          "reported": 22,
+          "average": 74.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 7, 6, 0, 0],
+          "instructors": ["Margaret Schabas"]
+        }
+      ]
+    },
+    "PHIL 363": {
+      "reported": 78,
+      "average": 71.6,
+      "grades": [5, 2, 0, 1, 3, 11, 24, 13, 11, 5, 3],
+      "terms": [
+        {
+          "session": "2025W",
+          "topic": "A",
+          "title": "HIST & PHIL ECON 2",
+          "reported": 17,
+          "average": 74.6,
+          "grades": [0, 0, 0, 1, 0, 3, 7, 3, 1, 2, 0],
+          "instructors": ["Margaret Schabas"]
+        },
+        {
+          "session": "2024W",
+          "topic": "A",
+          "title": "HIST & PHIL ECON 2",
+          "reported": 21,
+          "average": 68.1,
+          "grades": [2, 0, 0, 0, 2, 3, 8, 1, 3, 1, 1],
+          "instructors": ["Margaret Schabas"]
+        },
+        {
+          "session": "2023W",
+          "reported": 12,
+          "average": 71.3,
+          "grades": [1, 1, 0, 0, 0, 2, 3, 1, 2, 1, 1],
+          "instructors": ["Margaret Schabas"]
+        },
+        {
+          "session": "2022W",
+          "reported": 28,
+          "average": 72.5,
+          "grades": [2, 1, 0, 0, 1, 3, 6, 8, 5, 1, 1],
+          "instructors": ["Margaret Schabas"]
+        }
+      ]
+    },
+    "PHIL 364": {
+      "reported": 129,
+      "average": 78.0,
+      "grades": [3, 1, 1, 2, 0, 12, 8, 25, 25, 19, 21],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 17,
+          "average": 85.6,
+          "grades": [0, 0, 0, 0, 0, 1, 1, 1, 5, 3, 6],
+          "instructors": ["John Henry Beatty"]
+        },
+        {
+          "session": "2024W",
+          "reported": 28,
+          "average": 78.9,
+          "grades": [0, 1, 0, 1, 0, 4, 2, 6, 6, 4, 4],
+          "instructors": ["John Henry Beatty"]
+        },
+        {
+          "session": "2023W",
+          "reported": 26,
+          "average": 72.0,
+          "grades": [3, 0, 0, 1, 0, 2, 2, 5, 6, 2, 4],
+          "instructors": ["John Henry Beatty"]
+        },
+        {
+          "session": "2022W",
+          "reported": 19,
+          "average": 76.5,
+          "grades": [0, 0, 1, 0, 0, 5, 3, 4, 2, 3, 1],
+          "instructors": ["Kinley Gillette"]
+        },
+        {
+          "session": "2021W",
+          "reported": 39,
+          "average": 78.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 9, 6, 7, 6],
+          "instructors": ["John Henry Beatty"]
+        }
+      ]
+    },
+    "PHIL 369": {
+      "reported": 100,
+      "average": 76.0,
+      "grades": [1, 1, 1, 4, 9, 3, 7, 19, 18, 17, 2],
+      "terms": [
+        {
+          "session": "2025W",
+          "topic": "A",
+          "title": "Philosophy of Science",
+          "reported": 15,
+          "average": 73.1,
+          "grades": [0, 1, 1, 2, 1, 1, 2, 1, 3, 2, 1],
+          "instructors": ["Bianca Crewe"]
+        },
+        {
+          "session": "2023W",
+          "reported": 28,
+          "average": 75.1,
+          "grades": [1, 0, 0, 1, 4, 2, 1, 4, 5, 6, 0],
+          "instructors": ["Paul Bartha"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Philosophy of Science",
+          "reported": 29,
+          "average": 78.5,
+          "grades": [0, 0, 0, 1, 4, 0, 4, 7, 3, 9, 1],
+          "instructors": ["Paul Bartha"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Philosophy of Science",
+          "reported": 28,
+          "average": 75.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 7, 7, 0, 0],
+          "instructors": ["Paul Bartha"]
+        }
+      ]
+    },
+    "PHIL 371": {
+      "reported": 207,
+      "average": 76.1,
+      "grades": [4, 4, 5, 7, 6, 8, 27, 24, 39, 23, 9],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 32,
+          "average": 73.0,
+          "grades": [1, 2, 2, 3, 1, 3, 6, 4, 3, 3, 4],
+          "instructors": ["Edward Slingerland"]
+        },
+        {
+          "session": "2023W",
+          "reported": 34,
+          "average": 78.1,
+          "grades": [1, 0, 1, 1, 2, 0, 4, 3, 9, 10, 1],
+          "instructors": ["Edward Slingerland"]
+        },
+        {
+          "session": "2022W",
+          "reported": 70,
+          "average": 75.7,
+          "grades": [2, 2, 2, 3, 3, 5, 11, 17, 11, 10, 4],
+          "instructors": ["Edward Slingerland"]
+        },
+        {
+          "session": "2021W",
+          "reported": 71,
+          "average": 76.8,
+          "grades": [0, 0, 0, 0, 0, 0, 6, 0, 16, 0, 0],
+          "instructors": ["Edward Slingerland"]
+        }
+      ]
+    },
+    "PHIL 375": {
+      "reported": 1075,
+      "average": 77.4,
+      "grades": [20, 11, 20, 37, 43, 77, 102, 138, 289, 221, 63],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 108,
+          "average": 78.6,
+          "grades": [2, 1, 2, 2, 5, 8, 9, 15, 33, 27, 4],
+          "instructors": ["Cat Prueitt", "Stefan Lukits"]
+        },
+        {
+          "session": "2025S",
+          "reported": 118,
+          "average": 81.1,
+          "grades": [2, 1, 1, 2, 2, 8, 5, 9, 38, 33, 17],
+          "instructors": ["Carrie Jenkins", "Cat Prueitt"]
+        },
+        {
+          "session": "2024W",
+          "reported": 138,
+          "average": 77.0,
+          "grades": [0, 1, 3, 6, 12, 11, 20, 27, 25, 26, 7],
+          "instructors": ["Stefan Lukits"]
+        },
+        {
+          "session": "2024S",
+          "reported": 89,
+          "average": 79.0,
+          "grades": [1, 1, 0, 1, 2, 5, 14, 16, 28, 18, 3],
+          "instructors": ["Caroline Jenkins"]
+        },
+        {
+          "session": "2023W",
+          "reported": 150,
+          "average": 76.1,
+          "grades": [3, 4, 6, 9, 7, 10, 17, 19, 30, 29, 10],
+          "instructors": ["Stefan Lukits"]
+        },
+        {
+          "session": "2023S",
+          "reported": 46,
+          "average": 76.9,
+          "grades": [1, 0, 3, 2, 2, 3, 8, 5, 13, 6, 3],
+          "instructors": ["Stefan Lukits"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Philosophy and Literature",
+          "reported": 148,
+          "average": 76.8,
+          "grades": [5, 3, 3, 6, 2, 12, 15, 23, 48, 23, 8],
+          "instructors": ["Caroline Jenkins", "Stefan Lukits"]
+        },
+        {
+          "session": "2022S",
+          "topic": "A",
+          "title": "Philosophy and Literature",
+          "reported": 71,
+          "average": 74.5,
+          "grades": [6, 0, 2, 3, 5, 7, 8, 8, 17, 10, 5],
+          "instructors": ["Stefan Lukits"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Philosophy and Literature",
+          "reported": 127,
+          "average": 76.2,
+          "grades": [0, 0, 0, 6, 6, 7, 0, 9, 30, 32, 6],
+          "instructors": ["Catherine Prueitt", "Stefan Lukits"]
+        },
+        {
+          "session": "2021S",
+          "topic": "A",
+          "title": "Philosophy and Literature",
+          "reported": 80,
+          "average": 78.0,
+          "grades": [0, 0, 0, 0, 0, 6, 6, 7, 27, 17, 0],
+          "instructors": ["Stefan Lukits"]
+        }
+      ]
+    },
+    "PHIL 378": {
+      "reported": 112,
+      "average": 80.5,
+      "grades": [1, 0, 0, 0, 0, 4, 5, 6, 31, 31, 11],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 25,
+          "average": 81.2,
+          "grades": [1, 0, 0, 0, 0, 1, 3, 2, 6, 11, 1],
+          "instructors": ["Catherine Prueitt"]
+        },
+        {
+          "session": "2023W",
+          "reported": 47,
+          "average": 84.1,
+          "grades": [0, 0, 0, 0, 0, 3, 2, 4, 14, 12, 10],
+          "instructors": ["Emily Lawson"]
+        },
+        {
+          "session": "2021W",
+          "reported": 40,
+          "average": 75.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 11, 8, 0],
+          "instructors": ["Catherine Prueitt"]
+        }
+      ]
+    },
+    "PHIL 385": {
+      "reported": 1185,
+      "average": 75.6,
+      "grades": [22, 6, 16, 27, 66, 135, 175, 237, 302, 126, 34],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 153,
+          "average": 75.2,
+          "grades": [2, 1, 3, 6, 15, 17, 24, 24, 40, 13, 8],
+          "instructors": ["Anders Kraal", "Willow Verkerk"]
+        },
+        {
+          "session": "2025S",
+          "reported": 150,
+          "average": 75.6,
+          "grades": [1, 0, 0, 5, 11, 23, 29, 30, 32, 17, 2],
+          "instructors": ["Anders Kraal"]
+        },
+        {
+          "session": "2024W",
+          "reported": 156,
+          "average": 76.6,
+          "grades": [3, 1, 4, 1, 4, 18, 25, 36, 30, 26, 8],
+          "instructors": ["Anders Kraal", "Willow Verkerk"]
+        },
+        {
+          "session": "2024S",
+          "reported": 67,
+          "average": 75.6,
+          "grades": [1, 1, 0, 3, 2, 8, 12, 8, 28, 3, 1],
+          "instructors": ["Willow Verkerk"]
+        },
+        {
+          "session": "2023W",
+          "reported": 196,
+          "average": 75.6,
+          "grades": [5, 2, 4, 7, 14, 21, 26, 31, 35, 30, 14],
+          "instructors": ["Anders Kraal", "Willow Verkerk"]
+        },
+        {
+          "session": "2023S",
+          "reported": 65,
+          "average": 73.5,
+          "grades": [3, 0, 2, 2, 7, 5, 7, 15, 19, 2, 0],
+          "instructors": ["Willow Verkerk"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Existentialism",
+          "reported": 147,
+          "average": 75.1,
+          "grades": [4, 1, 1, 2, 8, 21, 20, 35, 42, 12, 1],
+          "instructors": ["Anders Kraal", "Willow Verkerk"]
+        },
+        {
+          "session": "2022S",
+          "topic": "A",
+          "title": "Existentialism",
+          "reported": 60,
+          "average": 73.6,
+          "grades": [3, 0, 2, 1, 5, 10, 9, 7, 14, 9, 0],
+          "instructors": ["Willow Verkerk"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Existentialism",
+          "reported": 119,
+          "average": 78.2,
+          "grades": [0, 0, 0, 0, 0, 0, 9, 35, 50, 6, 0],
+          "instructors": ["Willow Verkerk", "Anders Kraal"]
+        },
+        {
+          "session": "2021S",
+          "topic": "A",
+          "title": "Existentialism",
+          "reported": 72,
+          "average": 73.8,
+          "grades": [0, 0, 0, 0, 0, 12, 14, 16, 12, 8, 0],
+          "instructors": ["Willow Verkerk"]
+        }
+      ]
+    },
+    "PHIL 388": {
+      "reported": 20,
+      "average": 83.1,
+      "grades": [0, 0, 0, 0, 1, 1, 3, 1, 3, 5, 6],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 20,
+          "average": 83.1,
+          "grades": [0, 0, 0, 0, 1, 1, 3, 1, 3, 5, 6],
+          "instructors": ["Cat Prueitt"]
+        }
+      ]
+    },
+    "PHIL 390": {
+      "reported": 71,
+      "average": 86.1,
+      "grades": [1, 0, 1, 0, 0, 0, 0, 1, 10, 35, 21],
+      "terms": [
+        {
+          "session": "2025W",
+          "topic": "A",
+          "title": "Honours Tutorial",
+          "reported": 15,
+          "average": 88.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 4],
+          "instructors": ["Scott Allen Anderson", "Christopher Stephens"]
+        },
+        {
+          "session": "2024W",
+          "topic": "A",
+          "title": "Honours Tutorial",
+          "reported": 24,
+          "average": 88.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 6, 7, 11],
+          "instructors": ["Alisabeth Ayars", "Matthew Bedke"]
+        },
+        {
+          "session": "2023W",
+          "topic": "A",
+          "title": "Honours Tutorial",
+          "reported": 20,
+          "average": 81.1,
+          "grades": [1, 0, 1, 0, 0, 0, 0, 1, 3, 8, 4],
+          "instructors": ["Evan Thompson"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Honours Tutorial",
+          "reported": 12,
+          "average": 87.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 9, 2],
+          "instructors": ["Eric Margolis"]
+        }
+      ]
+    },
+    "PHIL 414": {
+      "reported": 30,
+      "average": 87.4,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 5, 17, 6],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 30,
+          "average": 87.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 5, 17, 6],
+          "instructors": ["Anders Kraal"]
+        }
+      ]
+    },
+    "PHIL 415": {
+      "reported": 59,
+      "average": 81.6,
+      "grades": [0, 0, 0, 0, 1, 2, 2, 6, 16, 15, 4],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 13,
+          "average": 81.2,
+          "grades": [0, 0, 0, 0, 1, 1, 1, 2, 2, 3, 2],
+          "instructors": ["Fatema Amijee"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "The Philosophy of Immanuel Kant",
+          "reported": 22,
+          "average": 82.5,
+          "grades": [0, 0, 0, 0, 0, 1, 1, 4, 8, 6, 2],
+          "instructors": ["Anders Kraal"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "The Philosophy of Immanuel Kant",
+          "reported": 24,
+          "average": 80.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 6, 6, 0],
+          "instructors": ["Anders Kraal"]
+        }
+      ]
+    },
+    "PHIL 416": {
+      "reported": 86,
+      "average": 80.5,
+      "grades": [2, 1, 1, 0, 1, 4, 9, 8, 8, 26, 12],
+      "terms": [
+        {
+          "session": "2025W",
+          "topic": "A",
+          "title": "Topics in 19th-Century Philosophy",
+          "reported": 17,
+          "average": 78.4,
+          "grades": [0, 0, 1, 0, 1, 2, 4, 1, 1, 7, 0],
+          "instructors": ["Willow Verkerk"]
+        },
+        {
+          "session": "2024W",
+          "topic": "A",
+          "title": "Topics in 19th-Century Philosophy",
+          "reported": 16,
+          "average": 76.9,
+          "grades": [1, 1, 0, 0, 0, 0, 1, 3, 1, 7, 2],
+          "instructors": ["Willow Verkerk"]
+        },
+        {
+          "session": "2023W",
+          "reported": 32,
+          "average": 82.2,
+          "grades": [1, 0, 0, 0, 0, 1, 2, 4, 4, 9, 8],
+          "instructors": ["Willow Verkerk", "Dominic Lopes"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Topics in 19th-Century Philosophy",
+          "reported": 10,
+          "average": 82.5,
+          "grades": [0, 0, 0, 0, 0, 1, 2, 0, 2, 3, 2],
+          "instructors": ["Willow Verkerk"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Topics in 19th-Century Philosophy",
+          "reported": 11,
+          "average": 82.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Willow Verkerk"]
+        }
+      ]
+    },
+    "PHIL 418": {
+      "reported": 80,
+      "average": 79.7,
+      "grades": [2, 0, 1, 1, 0, 0, 1, 2, 10, 38, 12],
+      "terms": [
+        {
+          "session": "2025W",
+          "topic": "A",
+          "title": "Topics in Twentieth-Century Philosophy",
+          "reported": 25,
+          "average": 85.6,
+          "grades": [1, 0, 0, 0, 0, 0, 0, 2, 3, 11, 8],
+          "instructors": ["Evan Thompson"]
+        },
+        {
+          "session": "2023W",
+          "topic": "A",
+          "title": "Topics in Twentieth-Century Philosophy",
+          "reported": 30,
+          "average": 79.9,
+          "grades": [0, 0, 0, 1, 0, 0, 1, 0, 5, 16, 1],
+          "instructors": ["Alan Walter Richardson", "Evan Thompson"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Topics in Twentieth-Century Philosophy",
+          "reported": 10,
+          "average": 77.6,
+          "grades": [1, 0, 1, 0, 0, 0, 0, 0, 2, 3, 3],
+          "instructors": ["Ori Simchen"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Topics in Twentieth-Century Philosophy",
+          "reported": 15,
+          "average": 71.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 0],
+          "instructors": ["Evan Thompson"]
+        }
+      ]
+    },
+    "PHIL 419": {
+      "reported": 8,
+      "average": 93.6,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 7],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 8,
+          "average": 93.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 7],
+          "instructors": ["Alison Wylie"]
+        }
+      ]
+    },
+    "PHIL 420": {
+      "reported": 16,
+      "average": 77.5,
+      "grades": [1, 0, 0, 1, 1, 1, 1, 3, 3, 2, 3],
+      "terms": [
+        {
+          "session": "2025W",
+          "topic": "A",
+          "title": "Topics in Symbolic Logic",
+          "reported": 16,
+          "average": 77.5,
+          "grades": [1, 0, 0, 1, 1, 1, 1, 3, 3, 2, 3],
+          "instructors": ["David Gilbert"]
+        }
+      ]
+    },
+    "PHIL 431": {
+      "reported": 61,
+      "average": 76.2,
+      "grades": [1, 0, 0, 0, 3, 2, 5, 8, 9, 7, 4],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 23,
+          "average": 79.1,
+          "grades": [0, 0, 0, 0, 3, 2, 3, 2, 2, 3, 4],
+          "instructors": ["Matthew Bedke"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Topics in Social and Political Philosophy",
+          "reported": 20,
+          "average": 79.2,
+          "grades": [1, 0, 0, 0, 0, 0, 2, 6, 7, 4, 0],
+          "instructors": ["Scott Allen Anderson"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Topics in Social and Political Philosophy",
+          "reported": 18,
+          "average": 69.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Scott Allen Anderson"]
+        }
+      ]
+    },
+    "PHIL 432": {
+      "reported": 97,
+      "average": 81.0,
+      "grades": [2, 0, 0, 0, 2, 1, 3, 9, 31, 24, 8],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 26,
+          "average": 80.3,
+          "grades": [1, 0, 0, 0, 2, 0, 1, 2, 11, 9, 0],
+          "instructors": ["Scott Allen Anderson"]
+        },
+        {
+          "session": "2023W",
+          "reported": 24,
+          "average": 81.8,
+          "grades": [1, 0, 0, 0, 0, 1, 1, 2, 8, 9, 2],
+          "instructors": ["Alisabeth Ayars"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Topics in Ethical Theory",
+          "reported": 24,
+          "average": 84.0,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 5, 6, 6, 6],
+          "instructors": ["Alisabeth Ayars"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Topics in Ethical Theory",
+          "reported": 23,
+          "average": 78.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 0],
+          "instructors": ["Kimberley Brownlee"]
+        }
+      ]
+    },
+    "PHIL 440": {
+      "reported": 34,
+      "average": 81.6,
+      "grades": [1, 0, 0, 2, 0, 0, 2, 2, 2, 4, 7],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 20,
+          "average": 80.8,
+          "grades": [1, 0, 0, 2, 0, 0, 2, 2, 2, 4, 7],
+          "instructors": ["Catherine Prueitt"]
+        },
+        {
+          "session": "2021W",
+          "reported": 14,
+          "average": 82.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Catherine Prueitt"]
+        }
+      ]
+    },
+    "PHIL 441": {
+      "reported": 304,
+      "average": 73.2,
+      "grades": [22, 5, 8, 11, 18, 31, 35, 34, 45, 23, 36],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 26,
+          "average": 81.2,
+          "grades": [1, 0, 0, 1, 0, 3, 1, 2, 6, 4, 8],
+          "instructors": ["Dominic Alford-Duguid"]
+        },
+        {
+          "session": "2024W",
+          "reported": 77,
+          "average": 69.1,
+          "grades": [12, 1, 4, 5, 7, 8, 12, 6, 8, 9, 5],
+          "instructors": ["Dominic Alford-Duguid"]
+        },
+        {
+          "session": "2023W",
+          "reported": 74,
+          "average": 69.9,
+          "grades": [8, 1, 1, 4, 6, 14, 9, 9, 9, 4, 6],
+          "instructors": ["Dominic Alford-Duguid", "Murat Aydede"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Philosophy of Perception",
+          "reported": 69,
+          "average": 76.4,
+          "grades": [1, 3, 3, 1, 5, 6, 7, 10, 16, 6, 11],
+          "instructors": ["Aaron Henry", "Dominic Alford-Duguid"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Philosophy of Perception",
+          "reported": 58,
+          "average": 75.6,
+          "grades": [0, 0, 0, 0, 0, 0, 6, 7, 6, 0, 6],
+          "instructors": ["Dominic Alford-Duguid"]
+        }
+      ]
+    },
+    "PHIL 448": {
+      "reported": 72,
+      "average": 83.8,
+      "grades": [0, 0, 0, 0, 2, 1, 3, 7, 12, 26, 9],
+      "terms": [
+        {
+          "session": "2025W",
+          "topic": "A",
+          "title": "Topics in Continental Philosophy",
+          "reported": 22,
+          "average": 85.5,
+          "grades": [0, 0, 0, 0, 1, 0, 1, 1, 3, 11, 5],
+          "instructors": ["Willow Verkerk"]
+        },
+        {
+          "session": "2024W",
+          "reported": 16,
+          "average": 83.3,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 4, 4, 4, 3],
+          "instructors": ["Willow Verkerk"]
+        },
+        {
+          "session": "2023W",
+          "reported": 12,
+          "average": 81.5,
+          "grades": [0, 0, 0, 0, 1, 0, 1, 2, 1, 6, 0],
+          "instructors": ["Willow Verkerk"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Topics in Continental Philosophy",
+          "reported": 11,
+          "average": 84.4,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 0, 4, 5, 1],
+          "instructors": ["Willow Verkerk"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Topics in Continental Philosophy",
+          "reported": 11,
+          "average": 82.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Willow Verkerk"]
+        }
+      ]
+    },
+    "PHIL 450": {
+      "reported": 43,
+      "average": 77.0,
+      "grades": [1, 0, 0, 0, 0, 0, 1, 4, 9, 5, 6],
+      "terms": [
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Topics in Metaphysics",
+          "reported": 26,
+          "average": 81.1,
+          "grades": [1, 0, 0, 0, 0, 0, 1, 4, 9, 5, 6],
+          "instructors": ["Caroline Jenkins"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Topics in Metaphysics",
+          "reported": 17,
+          "average": 70.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Dominic Alford-Duguid"]
+        }
+      ]
+    },
+    "PHIL 451": {
+      "reported": 600,
+      "average": 78.8,
+      "grades": [0, 3, 5, 5, 22, 49, 76, 112, 157, 100, 49],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 100,
+          "average": 83.6,
+          "grades": [0, 0, 0, 2, 0, 1, 2, 18, 34, 25, 18],
+          "instructors": ["Evan Thompson", "Murat Aydede"]
+        },
+        {
+          "session": "2025S",
+          "reported": 56,
+          "average": 80.9,
+          "grades": [0, 2, 1, 1, 2, 2, 2, 5, 18, 16, 7],
+          "instructors": ["Alexandra Jewell"]
+        },
+        {
+          "session": "2024W",
+          "reported": 91,
+          "average": 79.7,
+          "grades": [0, 1, 3, 1, 9, 5, 12, 10, 15, 18, 17],
+          "instructors": ["Aaron Henry"]
+        },
+        {
+          "session": "2023W",
+          "reported": 121,
+          "average": 78.2,
+          "grades": [0, 0, 1, 0, 6, 10, 19, 30, 29, 18, 5],
+          "instructors": ["Murat Aydede", "Evan Thompson"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Philosophy of Mind",
+          "reported": 111,
+          "average": 76.6,
+          "grades": [0, 0, 0, 1, 5, 23, 20, 24, 21, 15, 2],
+          "instructors": ["Aaron Henry", "Evan Thompson"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Philosophy of Mind",
+          "reported": 121,
+          "average": 75.6,
+          "grades": [0, 0, 0, 0, 0, 8, 21, 25, 40, 8, 0],
+          "instructors": ["Murat Aydede", "Evan Thompson"]
+        }
+      ]
+    },
+    "PHIL 455": {
+      "reported": 129,
+      "average": 80.7,
+      "grades": [1, 1, 0, 0, 2, 5, 8, 19, 26, 30, 16],
+      "terms": [
+        {
+          "session": "2025W",
+          "topic": "A",
+          "title": "Topics in the Philosophy of Cognitive Science",
+          "reported": 15,
+          "average": 84.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 4, 4, 5, 2],
+          "instructors": ["Eric Margolis"]
+        },
+        {
+          "session": "2024W",
+          "topic": "A",
+          "title": "Topics in the Philosophy of Cognitive Science",
+          "reported": 38,
+          "average": 84.6,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 6, 8, 14, 9],
+          "instructors": ["Murat Aydede", "Eric Margolis"]
+        },
+        {
+          "session": "2023W",
+          "reported": 36,
+          "average": 80.1,
+          "grades": [1, 0, 0, 0, 0, 1, 3, 8, 10, 8, 2],
+          "instructors": ["Eric Margolis"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Topics in the Philosophy of Cognitive Science",
+          "reported": 22,
+          "average": 76.8,
+          "grades": [0, 1, 0, 0, 2, 4, 4, 1, 4, 3, 3],
+          "instructors": ["Aaron Henry"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Topics in the Philosophy of Cognitive Science",
+          "reported": 18,
+          "average": 75.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Eric Margolis"]
+        }
+      ]
+    },
+    "PHIL 461": {
+      "reported": 18,
+      "average": 82.6,
+      "grades": [0, 0, 1, 0, 0, 1, 0, 2, 4, 5, 5],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 6,
+          "average": 82.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 2, 1, 3, 0],
+          "instructors": ["Margaret Schabas"]
+        },
+        {
+          "session": "2022W",
+          "reported": 12,
+          "average": 82.9,
+          "grades": [0, 0, 1, 0, 0, 1, 0, 0, 3, 2, 5],
+          "instructors": ["Alison Wylie"]
+        }
+      ]
+    },
+    "PHIL 462": {
+      "reported": 57,
+      "average": 85.9,
+      "grades": [2, 0, 0, 0, 0, 0, 0, 2, 12, 14, 27],
+      "terms": [
+        {
+          "session": "2025W",
+          "topic": "A",
+          "title": "Space and Time",
+          "reported": 24,
+          "average": 83.8,
+          "grades": [2, 0, 0, 0, 0, 0, 0, 2, 3, 2, 15],
+          "instructors": ["Alexandre Korolev"]
+        },
+        {
+          "session": "2023W",
+          "reported": 18,
+          "average": 86.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 7, 5, 6],
+          "instructors": ["Alexandre Korolev"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Space and Time",
+          "reported": 15,
+          "average": 88.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 7, 6],
+          "instructors": ["Alexandre Korolev"]
+        }
+      ]
+    },
+    "PHIL 464": {
+      "reported": 33,
+      "average": 80.1,
+      "grades": [2, 0, 0, 0, 0, 0, 2, 1, 7, 7, 2],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 10,
+          "average": 82.7,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 1, 4, 3, 1],
+          "instructors": ["Christopher Stephens"]
+        },
+        {
+          "session": "2023W",
+          "reported": 11,
+          "average": 76.5,
+          "grades": [2, 0, 0, 0, 0, 0, 1, 0, 3, 4, 1],
+          "instructors": ["Christopher Stephens"]
+        },
+        {
+          "session": "2021W",
+          "reported": 12,
+          "average": 81.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Christopher Stephens"]
+        }
+      ]
+    },
+    "PHIL 469": {
+      "reported": 25,
+      "average": 84.7,
+      "grades": [0, 0, 1, 0, 0, 0, 2, 2, 3, 10, 7],
+      "terms": [
+        {
+          "session": "2025W",
+          "topic": "A",
+          "title": "Topics in Philosophy of Science",
+          "reported": 25,
+          "average": 84.7,
+          "grades": [0, 0, 1, 0, 0, 0, 2, 2, 3, 10, 7],
+          "instructors": ["Alan Walter Richardson", "Alexandre Korolev"]
+        }
+      ]
+    },
+    "PHIL 470": {
+      "reported": 232,
+      "average": 81.3,
+      "grades": [1, 1, 1, 3, 5, 6, 20, 44, 53, 62, 24],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 38,
+          "average": 80.4,
+          "grades": [0, 0, 0, 0, 0, 3, 5, 10, 10, 8, 2],
+          "instructors": ["Evan Thompson"]
+        },
+        {
+          "session": "2024W",
+          "reported": 76,
+          "average": 83.3,
+          "grades": [0, 1, 1, 1, 1, 1, 2, 13, 16, 25, 15],
+          "instructors": ["Edward Slingerland", "Evan Thompson"]
+        },
+        {
+          "session": "2023W",
+          "reported": 15,
+          "average": 79.7,
+          "grades": [0, 0, 0, 1, 2, 0, 3, 1, 2, 4, 2],
+          "instructors": ["Edward Slingerland"]
+        },
+        {
+          "session": "2022W",
+          "reported": 59,
+          "average": 79.3,
+          "grades": [1, 0, 0, 1, 2, 2, 10, 14, 11, 13, 5],
+          "instructors": ["Evan Thompson"]
+        },
+        {
+          "session": "2021W",
+          "reported": 44,
+          "average": 81.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 6, 14, 12, 0],
+          "instructors": ["Evan Thompson"]
+        }
+      ]
+    },
+    "PHIL 486": {
+      "reported": 9,
+      "average": 87.4,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 2],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 9,
+          "average": 87.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 2],
+          "instructors": ["Veta Chitnev", "Eric Margolis"]
+        }
+      ]
+    },
+    "PHIL 487": {
+      "reported": 18,
+      "average": 89.5,
+      "grades": [0, 0, 0, 0, 0, 0, 1, 0, 2, 5, 9],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 8,
+          "average": 86.7,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 1, 3, 2],
+          "instructors": ["Dominic Lopes"]
+        },
+        {
+          "session": "2022W",
+          "reported": 10,
+          "average": 91.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 7],
+          "instructors": ["Anders Kraal"]
+        }
+      ]
+    },
+    "PHIL 488": {
+      "reported": 10,
+      "average": 88.7,
+      "grades": [0, 0, 1, 0, 0, 0, 0, 0, 0, 2, 6],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 10,
+          "average": 88.7,
+          "grades": [0, 0, 1, 0, 0, 0, 0, 0, 0, 2, 6],
+          "instructors": ["Sylvia Berryman"]
+        }
+      ]
+    },
+    "PHIL 489": {
+      "reported": 9,
+      "average": 92.2,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 9,
+          "average": 92.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9],
+          "instructors": ["Anders Kraal"]
+        }
+      ]
+    },
+    "PHIL 490": {
+      "reported": 64,
+      "average": 89.2,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 5, 25, 32],
+      "terms": [
+        {
+          "session": "2025W",
+          "topic": "A",
+          "title": "Honours Tutorial",
+          "reported": 20,
+          "average": 89.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 7, 11],
+          "instructors": ["Christopher Stephens", "Eric Margolis"]
+        },
+        {
+          "session": "2024W",
+          "topic": "A",
+          "title": "Honours Tutorial",
+          "reported": 17,
+          "average": 92.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 14],
+          "instructors": ["Matthew Bedke"]
+        },
+        {
+          "session": "2023W",
+          "topic": "A",
+          "title": "Honours Tutorial",
+          "reported": 9,
+          "average": 86.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 7, 0],
+          "instructors": ["Sylvia Berryman"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Honours Tutorial",
+          "reported": 10,
+          "average": 90.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 7],
+          "instructors": ["Caroline Jenkins"]
+        },
+        {
+          "session": "2021W",
+          "reported": 8,
+          "average": 84.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 0],
+          "instructors": ["Kimberley Brownlee"]
+        }
+      ]
+    },
+    "PHIL 491": {
+      "reported": 141,
+      "average": 79.6,
+      "grades": [3, 2, 0, 1, 2, 7, 16, 12, 35, 23, 15],
+      "terms": [
+        {
+          "session": "2025W",
+          "topic": "A",
+          "title": "SEM PHIL MAJORS",
+          "reported": 51,
+          "average": 81.6,
+          "grades": [2, 0, 0, 0, 0, 1, 6, 3, 17, 13, 9],
+          "instructors": ["Matthew Bedke", "Sylvia Berryman", "Ori Simchen"]
+        },
+        {
+          "session": "2024W",
+          "topic": "A",
+          "title": "SEM PHIL MAJORS",
+          "reported": 18,
+          "average": 78.2,
+          "grades": [0, 0, 0, 0, 1, 2, 3, 6, 3, 1, 2],
+          "instructors": ["Alisabeth Ayars"]
+        },
+        {
+          "session": "2023W",
+          "topic": "A",
+          "title": "Seminar for Majors in Philosophy",
+          "reported": 30,
+          "average": 78.6,
+          "grades": [0, 1, 0, 1, 1, 3, 2, 3, 9, 6, 2],
+          "instructors": ["Ori Simchen", "Margaret Schabas"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Seminar for Majors in Philosophy",
+          "reported": 19,
+          "average": 75.7,
+          "grades": [1, 1, 0, 0, 0, 1, 5, 0, 6, 3, 2],
+          "instructors": ["Fatema Amijee", "Sylvia Berryman", "Edward Slingerland"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Seminar for Majors in Philosophy",
+          "reported": 23,
+          "average": 81.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Alisabeth Ayars", "Dominic Lopes", "Eric Margolis"]
+        }
+      ]
+    },
+    "PHIL 510": {
+      "reported": 36,
+      "average": 83.8,
+      "grades": [1, 0, 0, 0, 0, 0, 0, 0, 9, 19, 0],
+      "terms": [
+        {
+          "session": "2024W",
+          "topic": "A",
+          "title": "Ancient Philosophy",
+          "reported": 9,
+          "average": 86.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 0],
+          "instructors": ["Sylvia Berryman"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Ancient Philosophy",
+          "reported": 8,
+          "average": 77.0,
+          "grades": [1, 0, 0, 0, 0, 0, 0, 0, 3, 4, 0],
+          "instructors": ["Sylvia Berryman"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Ancient Philosophy",
+          "reported": 19,
+          "average": 85.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 6, 6, 0],
+          "instructors": ["Michael Griffin", "Edward Slingerland"]
+        }
+      ]
+    },
+    "PHIL 514": {
+      "reported": 19,
+      "average": 48.5,
+      "grades": [7, 0, 0, 1, 0, 0, 0, 1, 3, 2, 2],
+      "terms": [
+        {
+          "session": "2023W",
+          "topic": "A",
+          "title": "Early Modern Philosophy",
+          "reported": 19,
+          "average": 48.5,
+          "grades": [7, 0, 0, 1, 0, 0, 0, 1, 3, 2, 2],
+          "instructors": ["Margaret Schabas", "Fatema Amijee"]
+        }
+      ]
+    },
+    "PHIL 530": {
+      "reported": 42,
+      "average": 88.0,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 3, 21, 15],
+      "terms": [
+        {
+          "session": "2024W",
+          "topic": "A",
+          "title": "Moral Philosophy",
+          "reported": 10,
+          "average": 90.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 6],
+          "instructors": ["Dominic Lopes"]
+        },
+        {
+          "session": "2023W",
+          "topic": "A",
+          "title": "Moral Philosophy",
+          "reported": 9,
+          "average": 88.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 4, 4],
+          "instructors": ["Kimberley Brownlee"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Moral Philosophy",
+          "reported": 14,
+          "average": 88.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 8, 5],
+          "instructors": ["Alisabeth Ayars"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Moral Philosophy",
+          "reported": 9,
+          "average": 85.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 0],
+          "instructors": ["Scott Allen Anderson"]
+        }
+      ]
+    },
+    "PHIL 531": {
+      "reported": 8,
+      "average": 67.8,
+      "grades": [2, 0, 0, 0, 0, 0, 0, 0, 2, 4, 0],
+      "terms": [
+        {
+          "session": "2024W",
+          "topic": "A",
+          "title": "Political Philosophy",
+          "reported": 8,
+          "average": 67.8,
+          "grades": [2, 0, 0, 0, 0, 0, 0, 0, 2, 4, 0],
+          "instructors": ["Scott Allen Anderson"]
+        }
+      ]
+    },
+    "PHIL 532": {
+      "reported": 7,
+      "average": 76.9,
+      "grades": [1, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3],
+      "terms": [
+        {
+          "session": "2023W",
+          "topic": "A",
+          "title": "Ethical Theory and Practice",
+          "reported": 7,
+          "average": 76.9,
+          "grades": [1, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3],
+          "instructors": ["Alisabeth Ayars", "Matthew Bedke"]
+        }
+      ]
+    },
+    "PHIL 539": {
+      "reported": 16,
+      "average": 75.9,
+      "grades": [3, 0, 0, 0, 0, 0, 0, 2, 2, 5, 4],
+      "terms": [
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Aesthetics",
+          "reported": 16,
+          "average": 75.9,
+          "grades": [3, 0, 0, 0, 0, 0, 0, 2, 2, 5, 4],
+          "instructors": ["Dominic Lopes"]
+        }
+      ]
+    },
+    "PHIL 540": {
+      "reported": 28,
+      "average": 79.2,
+      "grades": [3, 0, 1, 0, 0, 0, 1, 0, 4, 14, 4],
+      "terms": [
+        {
+          "session": "2023W",
+          "topic": "A",
+          "title": "Epistemology",
+          "reported": 16,
+          "average": 79.5,
+          "grades": [2, 0, 0, 0, 0, 0, 0, 0, 1, 9, 3],
+          "instructors": ["Catherine Prueitt", "Christopher Stephens"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Epistemology",
+          "reported": 12,
+          "average": 78.7,
+          "grades": [1, 0, 1, 0, 0, 0, 1, 0, 3, 5, 1],
+          "instructors": ["Jonathan Ichikawa"]
+        }
+      ]
+    },
+    "PHIL 550": {
+      "reported": 36,
+      "average": 83.8,
+      "grades": [3, 0, 0, 0, 0, 0, 0, 0, 0, 11, 16],
+      "terms": [
+        {
+          "session": "2023W",
+          "topic": "A",
+          "title": "Metaphysics",
+          "reported": 13,
+          "average": 86.4,
+          "grades": [1, 0, 0, 0, 0, 0, 0, 0, 0, 4, 5],
+          "instructors": ["Caroline Jenkins"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Metaphysics",
+          "reported": 14,
+          "average": 79.9,
+          "grades": [2, 0, 0, 0, 0, 0, 0, 0, 0, 1, 11],
+          "instructors": ["Evan Thompson"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Metaphysics",
+          "reported": 9,
+          "average": 86.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 0],
+          "instructors": ["Roberta Ballarin"]
+        }
+      ]
+    },
+    "PHIL 551": {
+      "reported": 55,
+      "average": 79.6,
+      "grades": [5, 0, 0, 0, 0, 0, 0, 0, 8, 24, 9],
+      "terms": [
+        {
+          "session": "2024W",
+          "topic": "A",
+          "title": "Philosophy of Mind",
+          "reported": 18,
+          "average": 82.2,
+          "grades": [1, 0, 0, 0, 0, 0, 0, 0, 2, 13, 2],
+          "instructors": ["Eric Margolis", "Evan Thompson"]
+        },
+        {
+          "session": "2023W",
+          "topic": "A",
+          "title": "Philosophy of Mind",
+          "reported": 17,
+          "average": 67.6,
+          "grades": [4, 0, 0, 0, 0, 0, 0, 0, 5, 2, 4],
+          "instructors": ["Dominic Alford-Duguid", "Murat Aydede"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Philosophy of Mind",
+          "reported": 13,
+          "average": 88.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 9, 3],
+          "instructors": ["Eric Margolis"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Philosophy of Mind",
+          "reported": 7,
+          "average": 86.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Murat Aydede"]
+        }
+      ]
+    },
+    "PHIL 560": {
+      "reported": 29,
+      "average": 90.8,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 20],
+      "terms": [
+        {
+          "session": "2024W",
+          "topic": "A",
+          "title": "Philosophy of Science",
+          "reported": 9,
+          "average": 93.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 7],
+          "instructors": ["Margaret Wylie"]
+        },
+        {
+          "session": "2023W",
+          "topic": "A",
+          "title": "Philosophy of Science",
+          "reported": 6,
+          "average": 86.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Paul Bartha"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Philosophy of Science",
+          "reported": 14,
+          "average": 91.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13],
+          "instructors": ["John Henry Beatty"]
+        }
+      ]
+    },
+    "PHIL 581": {
+      "reported": 19,
+      "average": 88.9,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 9],
+      "terms": [
+        {
+          "session": "2024W",
+          "topic": "A",
+          "title": "Problems",
+          "reported": 8,
+          "average": 87.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 1],
+          "instructors": ["Christopher Stephens"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Problems",
+          "reported": 11,
+          "average": 89.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8],
+          "instructors": ["Caroline Jenkins"]
+        }
+      ]
+    }
+  }
+}

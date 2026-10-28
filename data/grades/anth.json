@@ -1,0 +1,2306 @@
+{
+  "subject": "ANTH",
+  "campus": "UBCV",
+  "source": "https://ubcgrades.com",
+  "credit": "UBCGrades.com / UBC PAIR",
+  "sessions": ["2021S", "2021W", "2022S", "2022W", "2023S", "2023W", "2024S", "2024W", "2025S", "2025W"],
+  "buckets": ["<50%", "50-54%", "55-59%", "60-63%", "64-67%", "68-71%", "72-75%", "76-79%", "80-84%", "85-89%", "90-100%"],
+  "courses": {
+    "ANTH 100": {
+      "reported": 3232,
+      "average": 76.2,
+      "grades": [70, 49, 71, 115, 144, 280, 465, 541, 772, 424, 246],
+      "terms": [
+        {
+          "session": "2025W",
+          "topic": "A",
+          "title": "Introduction to Cultural Anthropology",
+          "reported": 394,
+          "average": 76.8,
+          "grades": [4, 9, 7, 19, 18, 30, 62, 66, 100, 49, 30],
+          "instructors": ["Helena Zeweri", "Amirpouyan Shiva", "Rafael Wainer"]
+        },
+        {
+          "session": "2024W",
+          "topic": "A",
+          "title": "Introduction to Cultural Anthropology",
+          "reported": 547,
+          "average": 78.7,
+          "grades": [5, 5, 13, 12, 19, 47, 71, 81, 133, 94, 67],
+          "instructors": ["Jad Brake", "Amirpouyan Shiva", "Charles Menzies", "Helena Zeweri"]
+        },
+        {
+          "session": "2024S",
+          "reported": 21,
+          "average": 69.6,
+          "grades": [1, 1, 0, 2, 3, 2, 2, 6, 1, 2, 1],
+          "instructors": ["David Ryniker"]
+        },
+        {
+          "session": "2023W",
+          "topic": "A",
+          "title": "Introduction to Cultural Anthropology",
+          "reported": 309,
+          "average": 74.2,
+          "grades": [6, 9, 9, 14, 20, 33, 47, 47, 81, 29, 7],
+          "instructors": ["Charles Menzies", "Amirpouyan Shiva"]
+        },
+        {
+          "session": "2023W",
+          "topic": "B",
+          "title": "Introduction to Cultural Anthropology",
+          "reported": 219,
+          "average": 80.2,
+          "grades": [5, 1, 3, 8, 6, 5, 24, 31, 53, 38, 41],
+          "instructors": ["Zahra Hayat", "Helena Zeweri"]
+        },
+        {
+          "session": "2023W",
+          "topic": "C",
+          "title": "Introduction to Cultural Anthropology",
+          "reported": 142,
+          "average": 74.0,
+          "grades": [2, 1, 5, 5, 2, 23, 37, 17, 32, 9, 1],
+          "instructors": ["Amirpouyan Shiva"]
+        },
+        {
+          "session": "2023S",
+          "topic": "B",
+          "title": "Introduction to Cultural Anthropology",
+          "reported": 17,
+          "average": 70.8,
+          "grades": [0, 2, 1, 0, 4, 2, 2, 2, 2, 1, 1],
+          "instructors": ["David Ryniker"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Introduction to Cultural Anthropology",
+          "reported": 732,
+          "average": 75.8,
+          "grades": [25, 12, 15, 25, 33, 57, 87, 137, 200, 108, 33],
+          "instructors": ["Amirpouyan Shiva", "Wade Davis", "Helena Zeweri", "Zahra Hayat"]
+        },
+        {
+          "session": "2022S",
+          "reported": 66,
+          "average": 72.6,
+          "grades": [1, 3, 3, 6, 4, 11, 8, 11, 13, 2, 4],
+          "instructors": ["David Ryniker"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Introduction to Cultural Anthropology",
+          "reported": 688,
+          "average": 75.8,
+          "grades": [21, 6, 9, 14, 27, 58, 106, 129, 142, 86, 61],
+          "instructors": ["Amirpouyan Shiva", "Sara Shneiderman", "Wade Davis"]
+        },
+        {
+          "session": "2021S",
+          "reported": 97,
+          "average": 71.8,
+          "grades": [0, 0, 6, 10, 8, 12, 19, 14, 15, 6, 0],
+          "instructors": ["David Ryniker"]
+        }
+      ]
+    },
+    "ANTH 201": {
+      "reported": 145,
+      "average": 68.9,
+      "grades": [13, 1, 6, 6, 5, 20, 16, 15, 25, 12, 6],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 43,
+          "average": 72.6,
+          "grades": [4, 0, 0, 4, 4, 4, 5, 6, 6, 6, 4],
+          "instructors": ["David Ryniker"]
+        },
+        {
+          "session": "2022W",
+          "reported": 65,
+          "average": 68.2,
+          "grades": [9, 1, 6, 2, 1, 7, 11, 9, 11, 6, 2],
+          "instructors": ["David Ryniker"]
+        },
+        {
+          "session": "2021W",
+          "reported": 37,
+          "average": 66.0,
+          "grades": [0, 0, 0, 0, 0, 9, 0, 0, 8, 0, 0],
+          "instructors": ["David Ryniker"]
+        }
+      ]
+    },
+    "ANTH 202": {
+      "reported": 501,
+      "average": 75.4,
+      "grades": [32, 6, 8, 18, 21, 20, 51, 76, 98, 95, 55],
+      "terms": [
+        {
+          "session": "2025W",
+          "topic": "G",
+          "title": "Culture, Colonialism and the Making of Heritage",
+          "reported": 64,
+          "average": 84.0,
+          "grades": [0, 0, 0, 2, 0, 2, 2, 10, 9, 26, 13],
+          "instructors": ["Lennon Mhishi"]
+        },
+        {
+          "session": "2024W",
+          "topic": "B",
+          "title": "Contemporary Social Problems",
+          "reported": 8,
+          "average": 73.0,
+          "grades": [1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 4],
+          "instructors": ["Zhichun Jing"]
+        },
+        {
+          "session": "2024W",
+          "topic": "F",
+          "title": "Archaeology in Popular Culture",
+          "reported": 34,
+          "average": 81.0,
+          "grades": [0, 1, 0, 0, 0, 2, 4, 6, 8, 8, 5],
+          "instructors": ["Samantha Walker"]
+        },
+        {
+          "session": "2023W",
+          "topic": "B",
+          "title": "Contemporary Social Problems",
+          "reported": 20,
+          "average": 79.0,
+          "grades": [1, 0, 0, 1, 1, 1, 3, 1, 4, 4, 4],
+          "instructors": ["Zhichun Jing"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Contemporary Social Problems",
+          "reported": 56,
+          "average": 75.8,
+          "grades": [1, 1, 0, 1, 1, 4, 13, 16, 15, 3, 1],
+          "instructors": ["Kate Kingsbury"]
+        },
+        {
+          "session": "2022W",
+          "topic": "B",
+          "title": "Contemporary Social Problems",
+          "reported": 23,
+          "average": 62.9,
+          "grades": [3, 0, 0, 5, 4, 1, 1, 3, 4, 2, 0],
+          "instructors": ["Nicola Levell"]
+        },
+        {
+          "session": "2022W",
+          "topic": "E",
+          "title": "Contemporary Social Problems",
+          "reported": 94,
+          "average": 66.2,
+          "grades": [9, 4, 7, 9, 15, 9, 11, 11, 14, 4, 1],
+          "instructors": ["Heather Robertson"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Contemporary Social Problems",
+          "reported": 143,
+          "average": 79.6,
+          "grades": [8, 0, 0, 0, 0, 0, 10, 21, 30, 34, 27],
+          "instructors": ["Sabina Magliocco"]
+        },
+        {
+          "session": "2021W",
+          "topic": "B",
+          "title": "Contemporary Social Problems",
+          "reported": 59,
+          "average": 71.3,
+          "grades": [9, 0, 0, 0, 0, 0, 7, 8, 14, 13, 0],
+          "instructors": ["Zhichun Jing"]
+        }
+      ]
+    },
+    "ANTH 203": {
+      "reported": 1539,
+      "average": 75.1,
+      "grades": [33, 33, 38, 54, 66, 159, 228, 269, 344, 175, 83],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 141,
+          "average": 73.1,
+          "grades": [5, 2, 1, 3, 10, 19, 32, 30, 35, 4, 0],
+          "instructors": ["Rafael Wainer"]
+        },
+        {
+          "session": "2024W",
+          "reported": 268,
+          "average": 78.8,
+          "grades": [4, 5, 7, 10, 5, 22, 33, 35, 59, 54, 34],
+          "instructors": ["Hugh Phillimore Gusterson", "Michelle Hepburn"]
+        },
+        {
+          "session": "2024S",
+          "reported": 115,
+          "average": 73.3,
+          "grades": [7, 2, 3, 3, 3, 12, 16, 22, 30, 13, 4],
+          "instructors": ["Rafael Wainer"]
+        },
+        {
+          "session": "2023W",
+          "reported": 288,
+          "average": 74.0,
+          "grades": [6, 4, 8, 15, 19, 26, 55, 61, 65, 17, 5],
+          "instructors": ["Shaylih Muehlmann", "Rafael Wainer"]
+        },
+        {
+          "session": "2022W",
+          "reported": 290,
+          "average": 77.1,
+          "grades": [2, 4, 3, 9, 13, 32, 37, 60, 82, 37, 11],
+          "instructors": ["Rafael Wainer", "Hugh Phillimore Gusterson"]
+        },
+        {
+          "session": "2022S",
+          "reported": 29,
+          "average": 73.6,
+          "grades": [3, 1, 0, 2, 0, 1, 2, 5, 4, 5, 6],
+          "instructors": ["Rafael Wainer"]
+        },
+        {
+          "session": "2021W",
+          "reported": 289,
+          "average": 73.3,
+          "grades": [6, 15, 16, 12, 16, 32, 36, 31, 50, 30, 23],
+          "instructors": ["Shaylih Muehlmann", "Danya Fast"]
+        },
+        {
+          "session": "2021S",
+          "reported": 119,
+          "average": 72.8,
+          "grades": [0, 0, 0, 0, 0, 15, 17, 25, 19, 15, 0],
+          "instructors": ["Rafael Wainer"]
+        }
+      ]
+    },
+    "ANTH 205": {
+      "reported": 255,
+      "average": 74.0,
+      "grades": [4, 3, 5, 11, 17, 24, 38, 50, 52, 25, 15],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 89,
+          "average": 72.3,
+          "grades": [4, 3, 5, 3, 6, 7, 13, 18, 13, 9, 7],
+          "instructors": ["Gaston Gordillo"]
+        },
+        {
+          "session": "2022W",
+          "reported": 74,
+          "average": 78.7,
+          "grades": [0, 0, 0, 1, 2, 5, 13, 17, 24, 10, 2],
+          "instructors": ["Gaston Gordillo"]
+        },
+        {
+          "session": "2021W",
+          "reported": 92,
+          "average": 72.0,
+          "grades": [0, 0, 0, 7, 9, 12, 12, 15, 15, 6, 6],
+          "instructors": ["Gaston Gordillo"]
+        }
+      ]
+    },
+    "ANTH 206": {
+      "reported": 1271,
+      "average": 75.6,
+      "grades": [49, 24, 21, 46, 69, 115, 182, 201, 250, 172, 112],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 138,
+          "average": 74.8,
+          "grades": [7, 5, 1, 6, 8, 10, 22, 16, 39, 19, 5],
+          "instructors": ["Kate Kingsbury"]
+        },
+        {
+          "session": "2024W",
+          "reported": 240,
+          "average": 75.2,
+          "grades": [12, 4, 7, 7, 14, 25, 33, 36, 46, 31, 25],
+          "instructors": ["Sabina Magliocco", "Byron Clark"]
+        },
+        {
+          "session": "2023W",
+          "reported": 283,
+          "average": 75.3,
+          "grades": [14, 7, 7, 9, 10, 26, 41, 38, 62, 36, 25],
+          "instructors": ["Kate Kingsbury", "Sabina Magliocco"]
+        },
+        {
+          "session": "2023S",
+          "reported": 178,
+          "average": 72.5,
+          "grades": [6, 5, 3, 11, 17, 19, 33, 33, 25, 15, 2],
+          "instructors": ["Kate Kingsbury"]
+        },
+        {
+          "session": "2022W",
+          "reported": 287,
+          "average": 75.7,
+          "grades": [10, 3, 3, 13, 20, 28, 43, 57, 53, 34, 23],
+          "instructors": ["Kate Kingsbury", "Sabina Magliocco"]
+        },
+        {
+          "session": "2021W",
+          "reported": 145,
+          "average": 81.0,
+          "grades": [0, 0, 0, 0, 0, 7, 10, 21, 25, 37, 32],
+          "instructors": ["Sabina Magliocco"]
+        }
+      ]
+    },
+    "ANTH 210": {
+      "reported": 525,
+      "average": 75.0,
+      "grades": [6, 5, 13, 13, 33, 57, 105, 105, 118, 56, 6],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 132,
+          "average": 76.6,
+          "grades": [3, 3, 3, 1, 9, 7, 19, 26, 37, 19, 5],
+          "instructors": ["Mahashewta Bhattacharya"]
+        },
+        {
+          "session": "2023W",
+          "reported": 131,
+          "average": 75.3,
+          "grades": [1, 0, 2, 8, 5, 16, 29, 24, 26, 20, 0],
+          "instructors": ["Tracey Heatherington"]
+        },
+        {
+          "session": "2022W",
+          "reported": 130,
+          "average": 74.7,
+          "grades": [2, 2, 1, 4, 9, 19, 29, 29, 27, 7, 1],
+          "instructors": ["Tracey Heatherington"]
+        },
+        {
+          "session": "2021W",
+          "reported": 132,
+          "average": 73.5,
+          "grades": [0, 0, 7, 0, 10, 15, 28, 26, 28, 10, 0],
+          "instructors": ["Caitlin Gordon-Walker"]
+        }
+      ]
+    },
+    "ANTH 213": {
+      "reported": 408,
+      "average": 75.4,
+      "grades": [12, 13, 12, 11, 20, 40, 57, 42, 75, 78, 38],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 100,
+          "average": 79.5,
+          "grades": [3, 4, 1, 3, 7, 6, 6, 3, 16, 30, 21],
+          "instructors": ["Elif Sari"]
+        },
+        {
+          "session": "2023W",
+          "reported": 95,
+          "average": 73.8,
+          "grades": [4, 2, 1, 5, 5, 9, 20, 14, 14, 17, 3],
+          "instructors": ["Elif Sari"]
+        },
+        {
+          "session": "2022W",
+          "reported": 116,
+          "average": 75.0,
+          "grades": [5, 1, 3, 3, 8, 12, 14, 15, 26, 21, 8],
+          "instructors": ["Elif Sari"]
+        },
+        {
+          "session": "2021W",
+          "reported": 97,
+          "average": 73.1,
+          "grades": [0, 6, 7, 0, 0, 13, 17, 10, 19, 10, 6],
+          "instructors": ["Rafael Wainer"]
+        }
+      ]
+    },
+    "ANTH 215": {
+      "reported": 273,
+      "average": 73.2,
+      "grades": [6, 3, 1, 13, 19, 29, 48, 68, 58, 15, 2],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 29,
+          "average": 75.4,
+          "grades": [0, 0, 0, 0, 4, 4, 6, 6, 6, 3, 0],
+          "instructors": ["Millie Creighton"]
+        },
+        {
+          "session": "2023W",
+          "reported": 38,
+          "average": 76.2,
+          "grades": [1, 1, 0, 1, 1, 4, 2, 10, 10, 6, 1],
+          "instructors": ["Millie Creighton"]
+        },
+        {
+          "session": "2022W",
+          "reported": 131,
+          "average": 73.4,
+          "grades": [5, 2, 1, 2, 7, 15, 27, 42, 23, 6, 1],
+          "instructors": ["Simon Nantais"]
+        },
+        {
+          "session": "2021W",
+          "reported": 75,
+          "average": 70.5,
+          "grades": [0, 0, 0, 10, 7, 6, 13, 10, 19, 0, 0],
+          "instructors": ["Millie Creighton"]
+        }
+      ]
+    },
+    "ANTH 217": {
+      "reported": 351,
+      "average": 78.4,
+      "grades": [7, 7, 8, 6, 13, 17, 40, 44, 59, 59, 72],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 65,
+          "average": 81.9,
+          "grades": [1, 0, 1, 1, 2, 3, 5, 6, 16, 14, 16],
+          "instructors": ["Daisy Rosenblum"]
+        },
+        {
+          "session": "2024W",
+          "reported": 45,
+          "average": 79.0,
+          "grades": [3, 0, 1, 0, 2, 1, 2, 4, 12, 10, 10],
+          "instructors": ["Patrick Moore"]
+        },
+        {
+          "session": "2023W",
+          "reported": 108,
+          "average": 76.4,
+          "grades": [1, 4, 6, 5, 6, 9, 15, 17, 8, 16, 17],
+          "instructors": ["Daisy Rosenblum"]
+        },
+        {
+          "session": "2022W",
+          "reported": 64,
+          "average": 81.6,
+          "grades": [2, 3, 0, 0, 3, 4, 4, 5, 9, 11, 23],
+          "instructors": ["Daisy Rosenblum"]
+        },
+        {
+          "session": "2021W",
+          "reported": 69,
+          "average": 75.0,
+          "grades": [0, 0, 0, 0, 0, 0, 14, 12, 14, 8, 6],
+          "instructors": ["Patrick Moore"]
+        }
+      ]
+    },
+    "ANTH 220": {
+      "reported": 470,
+      "average": 78.3,
+      "grades": [7, 1, 4, 7, 24, 30, 63, 52, 108, 90, 63],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 100,
+          "average": 73.3,
+          "grades": [3, 0, 1, 3, 6, 15, 29, 20, 17, 5, 1],
+          "instructors": ["Jennifer Kramer"]
+        },
+        {
+          "session": "2023W",
+          "reported": 88,
+          "average": 73.5,
+          "grades": [1, 1, 2, 4, 14, 9, 14, 15, 17, 3, 4],
+          "instructors": ["Jennifer Kramer"]
+        },
+        {
+          "session": "2022W",
+          "reported": 128,
+          "average": 82.2,
+          "grades": [3, 0, 1, 0, 4, 6, 7, 7, 30, 34, 36],
+          "instructors": ["Charles Menzies"]
+        },
+        {
+          "session": "2021W",
+          "reported": 154,
+          "average": 81.2,
+          "grades": [0, 0, 0, 0, 0, 0, 13, 10, 44, 48, 22],
+          "instructors": ["Charles Menzies"]
+        }
+      ]
+    },
+    "ANTH 227": {
+      "reported": 593,
+      "average": 75.1,
+      "grades": [11, 4, 13, 15, 30, 50, 93, 120, 143, 76, 18],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 62,
+          "average": 76.2,
+          "grades": [0, 2, 2, 2, 4, 2, 10, 12, 20, 7, 1],
+          "instructors": ["Rafael Wainer"]
+        },
+        {
+          "session": "2024W",
+          "reported": 134,
+          "average": 74.6,
+          "grades": [4, 1, 6, 4, 1, 14, 25, 32, 35, 10, 2],
+          "instructors": ["Rafael Wainer"]
+        },
+        {
+          "session": "2024S",
+          "reported": 25,
+          "average": 77.8,
+          "grades": [0, 0, 0, 0, 0, 7, 3, 3, 8, 4, 0],
+          "instructors": ["Rafael Wainer"]
+        },
+        {
+          "session": "2023W",
+          "reported": 68,
+          "average": 75.1,
+          "grades": [2, 0, 2, 1, 6, 4, 6, 21, 13, 10, 2],
+          "instructors": ["Vinay Ramnath Kamat"]
+        },
+        {
+          "session": "2022W",
+          "reported": 92,
+          "average": 75.0,
+          "grades": [5, 0, 2, 4, 5, 7, 8, 13, 25, 17, 6],
+          "instructors": ["Rafael Wainer"]
+        },
+        {
+          "session": "2022S",
+          "reported": 33,
+          "average": 73.5,
+          "grades": [0, 1, 1, 4, 3, 2, 5, 6, 5, 5, 1],
+          "instructors": ["Vinay Ramnath Kamat"]
+        },
+        {
+          "session": "2021W",
+          "reported": 116,
+          "average": 76.1,
+          "grades": [0, 0, 0, 0, 11, 6, 23, 27, 19, 16, 6],
+          "instructors": ["Vinay Ramnath Kamat"]
+        },
+        {
+          "session": "2021S",
+          "reported": 63,
+          "average": 73.6,
+          "grades": [0, 0, 0, 0, 0, 8, 13, 6, 18, 7, 0],
+          "instructors": ["Rafael Wainer"]
+        }
+      ]
+    },
+    "ANTH 241": {
+      "reported": 50,
+      "average": 76.5,
+      "grades": [2, 0, 0, 0, 1, 5, 14, 6, 10, 11, 1],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 50,
+          "average": 76.5,
+          "grades": [2, 0, 0, 0, 1, 5, 14, 6, 10, 11, 1],
+          "instructors": ["Nicola Levell"]
+        }
+      ]
+    },
+    "ANTH 300": {
+      "reported": 416,
+      "average": 76.7,
+      "grades": [10, 4, 6, 12, 18, 26, 39, 59, 113, 70, 32],
+      "terms": [
+        {
+          "session": "2025W",
+          "topic": "A",
+          "title": "Contemporary Anthropological Theory",
+          "reported": 74,
+          "average": 79.1,
+          "grades": [1, 0, 1, 2, 3, 2, 9, 15, 19, 12, 10],
+          "instructors": ["Millie Creighton", "Alexia Bloch"]
+        },
+        {
+          "session": "2024W",
+          "topic": "A",
+          "title": "Contemporary Anthropological Theory",
+          "reported": 85,
+          "average": 77.2,
+          "grades": [3, 1, 1, 3, 5, 5, 9, 4, 27, 22, 5],
+          "instructors": ["Amirpouyan Shiva", "Vinay Ramnath Kamat"]
+        },
+        {
+          "session": "2023W",
+          "topic": "A",
+          "title": "Contemporary Anthropological Theory",
+          "reported": 90,
+          "average": 77.6,
+          "grades": [2, 1, 2, 5, 4, 8, 9, 6, 23, 16, 13],
+          "instructors": ["Vinay Ramnath Kamat", "Shaylih Muehlmann"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Contemporary Anthropological Theory",
+          "reported": 85,
+          "average": 73.2,
+          "grades": [4, 2, 2, 2, 6, 11, 12, 11, 20, 11, 4],
+          "instructors": ["Amirpouyan Shiva", "Vinay Ramnath Kamat"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Contemporary Anthropological Theory",
+          "reported": 44,
+          "average": 78.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 9, 16, 9, 0],
+          "instructors": ["Shaylih Muehlmann"]
+        },
+        {
+          "session": "2021W",
+          "topic": "B",
+          "title": "Contemporary Anthropological Theory",
+          "reported": 38,
+          "average": 74.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 14, 8, 0, 0],
+          "instructors": ["Amirpouyan Shiva"]
+        }
+      ]
+    },
+    "ANTH 301": {
+      "reported": 35,
+      "average": 82.3,
+      "grades": [0, 0, 1, 1, 0, 3, 2, 6, 6, 8, 8],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 35,
+          "average": 82.3,
+          "grades": [0, 0, 1, 1, 0, 3, 2, 6, 6, 8, 8],
+          "instructors": ["Alexia Bloch"]
+        }
+      ]
+    },
+    "ANTH 302": {
+      "reported": 36,
+      "average": 79.3,
+      "grades": [0, 3, 0, 1, 0, 0, 5, 5, 12, 6, 4],
+      "terms": [
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Ethnography of South Asia",
+          "reported": 36,
+          "average": 79.3,
+          "grades": [0, 3, 0, 1, 0, 0, 5, 5, 12, 6, 4],
+          "instructors": ["Zahra Hayat"]
+        }
+      ]
+    },
+    "ANTH 303": {
+      "reported": 546,
+      "average": 83.4,
+      "grades": [3, 2, 4, 5, 8, 14, 20, 55, 111, 138, 149],
+      "terms": [
+        {
+          "session": "2025W",
+          "topic": "F",
+          "title": "Sounding it Out: Music and African Diasporic Life",
+          "reported": 40,
+          "average": 85.6,
+          "grades": [0, 0, 0, 0, 0, 1, 1, 4, 10, 10, 14],
+          "instructors": ["Lennon Mhishi"]
+        },
+        {
+          "session": "2025W",
+          "topic": "K",
+          "title": "Anthropology of Tourism",
+          "reported": 23,
+          "average": 76.1,
+          "grades": [1, 0, 0, 0, 2, 1, 0, 6, 8, 3, 2],
+          "instructors": ["Millie Creighton"]
+        },
+        {
+          "session": "2025W",
+          "topic": "L",
+          "title": "Archaeology and Society",
+          "reported": 32,
+          "average": 80.3,
+          "grades": [0, 0, 0, 1, 1, 2, 4, 3, 9, 10, 2],
+          "instructors": ["Andrew Martindale"]
+        },
+        {
+          "session": "2024W",
+          "topic": "F",
+          "title": "Ethnography of Special Areas",
+          "reported": 42,
+          "average": 96.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 41],
+          "instructors": ["Lennon Mhishi"]
+        },
+        {
+          "session": "2024W",
+          "topic": "G",
+          "title": "Ethnography of Mediterranean",
+          "reported": 47,
+          "average": 83.3,
+          "grades": [0, 0, 0, 0, 0, 2, 3, 7, 12, 17, 6],
+          "instructors": ["Sabina Magliocco"]
+        },
+        {
+          "session": "2024W",
+          "topic": "H",
+          "title": "Ethnography of Australia",
+          "reported": 49,
+          "average": 85.7,
+          "grades": [0, 1, 2, 0, 1, 0, 0, 3, 9, 12, 21],
+          "instructors": ["Helena Zeweri"]
+        },
+        {
+          "session": "2024W",
+          "topic": "I",
+          "title": "Archaeology of the Eastern Arctic",
+          "reported": 43,
+          "average": 80.9,
+          "grades": [1, 0, 0, 2, 3, 5, 3, 4, 5, 4, 16],
+          "instructors": ["Samantha Walker"]
+        },
+        {
+          "session": "2024W",
+          "topic": "J",
+          "title": "Medical Anthropology and Global Health in the Anthropocene",
+          "reported": 40,
+          "average": 81.0,
+          "grades": [0, 1, 0, 0, 0, 0, 8, 5, 10, 13, 3],
+          "instructors": ["Vinay Ramnath Kamat"]
+        },
+        {
+          "session": "2023W",
+          "topic": "B",
+          "title": "Ethnography of Special Areas",
+          "reported": 49,
+          "average": 85.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 9, 9, 19, 10],
+          "instructors": ["Zahra Hayat"]
+        },
+        {
+          "session": "2023W",
+          "topic": "C",
+          "title": "Ethnography of Special Areas",
+          "reported": 31,
+          "average": 81.5,
+          "grades": [0, 0, 0, 1, 0, 0, 1, 6, 16, 6, 1],
+          "instructors": ["Tracey Heatherington"]
+        },
+        {
+          "session": "2023W",
+          "topic": "D",
+          "title": "Ethnography of Special Areas",
+          "reported": 40,
+          "average": 81.2,
+          "grades": [1, 0, 0, 1, 1, 3, 0, 8, 6, 8, 10],
+          "instructors": ["Charles Menzies"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Ethnography of Special Areas",
+          "reported": 35,
+          "average": 85.7,
+          "grades": [0, 0, 2, 0, 0, 0, 0, 0, 9, 14, 10],
+          "instructors": ["Aleksa Alaica"]
+        },
+        {
+          "session": "2021W",
+          "topic": "C",
+          "title": "Ethnography of Special Areas",
+          "reported": 42,
+          "average": 77.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 8, 13, 0],
+          "instructors": ["Andrew Martindale"]
+        },
+        {
+          "session": "2021W",
+          "topic": "D",
+          "title": "Ethnography of Special Areas",
+          "reported": 33,
+          "average": 83.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 13],
+          "instructors": ["Kate Kingsbury"]
+        }
+      ]
+    },
+    "ANTH 304": {
+      "reported": 40,
+      "average": 87.4,
+      "grades": [0, 0, 1, 0, 0, 0, 0, 1, 11, 7, 20],
+      "terms": [
+        {
+          "session": "2024W",
+          "topic": "A",
+          "title": "Ethnography of the Northwest Coast",
+          "reported": 40,
+          "average": 87.4,
+          "grades": [0, 0, 1, 0, 0, 0, 0, 1, 11, 7, 20],
+          "instructors": ["Charles Menzies"]
+        }
+      ]
+    },
+    "ANTH 307": {
+      "reported": 64,
+      "average": 77.0,
+      "grades": [3, 1, 1, 2, 1, 7, 5, 4, 16, 17, 7],
+      "terms": [
+        {
+          "session": "2024W",
+          "topic": "A",
+          "title": "Ethnography of Korea",
+          "reported": 25,
+          "average": 72.4,
+          "grades": [3, 0, 0, 0, 1, 3, 2, 1, 9, 5, 1],
+          "instructors": ["Millie Creighton"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Ethnography of Korea",
+          "reported": 39,
+          "average": 80.0,
+          "grades": [0, 1, 1, 2, 0, 4, 3, 3, 7, 12, 6],
+          "instructors": ["Elias Alexander"]
+        }
+      ]
+    },
+    "ANTH 308": {
+      "reported": 114,
+      "average": 73.5,
+      "grades": [7, 1, 0, 2, 4, 5, 20, 22, 16, 16, 6],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 39,
+          "average": 68.9,
+          "grades": [6, 1, 0, 1, 2, 2, 10, 5, 4, 4, 4],
+          "instructors": ["Vinay Ramnath Kamat"]
+        },
+        {
+          "session": "2022S",
+          "reported": 26,
+          "average": 75.6,
+          "grades": [1, 0, 0, 1, 2, 3, 3, 7, 3, 4, 2],
+          "instructors": ["Vinay Ramnath Kamat"]
+        },
+        {
+          "session": "2021W",
+          "reported": 49,
+          "average": 76.1,
+          "grades": [0, 0, 0, 0, 0, 0, 7, 10, 9, 8, 0],
+          "instructors": ["Vinay Ramnath Kamat"]
+        }
+      ]
+    },
+    "ANTH 309": {
+      "reported": 110,
+      "average": 79.1,
+      "grades": [1, 2, 2, 3, 1, 12, 10, 15, 25, 20, 14],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 62,
+          "average": 75.8,
+          "grades": [1, 2, 2, 1, 1, 10, 9, 9, 15, 6, 6],
+          "instructors": ["Mark Turin"]
+        },
+        {
+          "session": "2023W",
+          "reported": 48,
+          "average": 83.3,
+          "grades": [0, 0, 0, 2, 0, 2, 1, 6, 10, 14, 8],
+          "instructors": ["Sara Shneiderman"]
+        }
+      ]
+    },
+    "ANTH 311": {
+      "reported": 47,
+      "average": 79.5,
+      "grades": [0, 0, 0, 0, 2, 4, 6, 8, 18, 4, 5],
+      "terms": [
+        {
+          "session": "2022W",
+          "reported": 47,
+          "average": 79.5,
+          "grades": [0, 0, 0, 0, 2, 4, 6, 8, 18, 4, 5],
+          "instructors": ["Amirpouyan Shiva"]
+        }
+      ]
+    },
+    "ANTH 312": {
+      "reported": 207,
+      "average": 83.1,
+      "grades": [2, 3, 1, 2, 1, 1, 12, 18, 64, 44, 59],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 63,
+          "average": 79.7,
+          "grades": [2, 2, 0, 2, 1, 1, 4, 5, 15, 18, 13],
+          "instructors": ["Elif Sari"]
+        },
+        {
+          "session": "2024S",
+          "reported": 49,
+          "average": 81.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 8, 35, 6, 0],
+          "instructors": ["Elif Sari Ozcelik"]
+        },
+        {
+          "session": "2023W",
+          "reported": 49,
+          "average": 84.5,
+          "grades": [0, 0, 1, 0, 0, 0, 6, 4, 8, 11, 19],
+          "instructors": ["Elif Sari"]
+        },
+        {
+          "session": "2022W",
+          "reported": 46,
+          "average": 88.7,
+          "grades": [0, 1, 0, 0, 0, 0, 2, 1, 6, 9, 27],
+          "instructors": ["Elif Sari"]
+        }
+      ]
+    },
+    "ANTH 314": {
+      "reported": 60,
+      "average": 76.7,
+      "grades": [4, 1, 0, 2, 3, 2, 5, 7, 16, 11, 9],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 60,
+          "average": 76.7,
+          "grades": [4, 1, 0, 2, 3, 2, 5, 7, 16, 11, 9],
+          "instructors": ["Aleksa Alaica"]
+        }
+      ]
+    },
+    "ANTH 315": {
+      "reported": 167,
+      "average": 75.0,
+      "grades": [2, 0, 1, 4, 5, 19, 30, 39, 40, 17, 1],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 36,
+          "average": 75.6,
+          "grades": [1, 0, 0, 1, 1, 2, 7, 6, 14, 4, 0],
+          "instructors": ["Millie Creighton"]
+        },
+        {
+          "session": "2023S",
+          "reported": 47,
+          "average": 74.4,
+          "grades": [1, 0, 1, 0, 4, 7, 9, 7, 13, 3, 0],
+          "instructors": ["Simon Nantais"]
+        },
+        {
+          "session": "2022W",
+          "reported": 36,
+          "average": 77.0,
+          "grades": [0, 0, 0, 3, 0, 1, 7, 13, 7, 4, 1],
+          "instructors": ["Millie Creighton"]
+        },
+        {
+          "session": "2021W",
+          "reported": 48,
+          "average": 73.5,
+          "grades": [0, 0, 0, 0, 0, 9, 7, 13, 6, 6, 0],
+          "instructors": ["Simon Nantais"]
+        }
+      ]
+    },
+    "ANTH 316": {
+      "reported": 88,
+      "average": 80.3,
+      "grades": [0, 1, 1, 3, 2, 6, 5, 14, 26, 20, 10],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 41,
+          "average": 81.5,
+          "grades": [0, 1, 1, 1, 1, 2, 2, 3, 12, 11, 7],
+          "instructors": ["Helena Zeweri"]
+        },
+        {
+          "session": "2022W",
+          "reported": 47,
+          "average": 79.2,
+          "grades": [0, 0, 0, 2, 1, 4, 3, 11, 14, 9, 3],
+          "instructors": ["Helena Zeweri"]
+        }
+      ]
+    },
+    "ANTH 317": {
+      "reported": 327,
+      "average": 77.1,
+      "grades": [8, 4, 3, 10, 7, 19, 43, 41, 79, 65, 29],
+      "terms": [
+        {
+          "session": "2025W",
+          "topic": "A",
+          "title": "Linguistic Anthropology",
+          "reported": 76,
+          "average": 78.7,
+          "grades": [0, 1, 0, 6, 2, 7, 12, 7, 15, 14, 12],
+          "instructors": ["Patrick Moore"]
+        },
+        {
+          "session": "2024W",
+          "topic": "A",
+          "title": "Linguistic Anthropology",
+          "reported": 75,
+          "average": 75.5,
+          "grades": [5, 1, 1, 2, 1, 7, 12, 9, 15, 18, 4],
+          "instructors": ["Patrick Moore"]
+        },
+        {
+          "session": "2023W",
+          "topic": "A",
+          "title": "Linguistic Anthropology",
+          "reported": 59,
+          "average": 76.9,
+          "grades": [3, 2, 1, 1, 4, 3, 4, 7, 14, 11, 8],
+          "instructors": ["Patrick Moore"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Linguistic Anthropology",
+          "reported": 66,
+          "average": 79.8,
+          "grades": [0, 0, 1, 1, 0, 2, 7, 18, 25, 7, 5],
+          "instructors": ["Joash Gambarage"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Linguistic Anthropology",
+          "reported": 51,
+          "average": 74.0,
+          "grades": [0, 0, 0, 0, 0, 0, 8, 0, 10, 15, 0],
+          "instructors": ["Patrick Moore"]
+        }
+      ]
+    },
+    "ANTH 329": {
+      "reported": 303,
+      "average": 81.1,
+      "grades": [4, 0, 1, 6, 6, 14, 23, 29, 74, 77, 55],
+      "terms": [
+        {
+          "session": "2025W",
+          "topic": "A",
+          "title": "Contemporary Indigenous Issues in a Global Perspective",
+          "reported": 55,
+          "average": 78.3,
+          "grades": [2, 0, 0, 0, 3, 7, 3, 7, 11, 19, 3],
+          "instructors": ["Carole Blackburn"]
+        },
+        {
+          "session": "2024W",
+          "topic": "A",
+          "title": "Contemporary Indigenous Issues in a Global Perspective",
+          "reported": 69,
+          "average": 78.8,
+          "grades": [2, 0, 0, 0, 0, 1, 13, 16, 23, 10, 4],
+          "instructors": ["Ana Vivaldi Pasqua"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Contemporary Indigenous Issues in a Global Perspective",
+          "reported": 66,
+          "average": 77.8,
+          "grades": [0, 0, 1, 6, 3, 6, 7, 6, 25, 10, 2],
+          "instructors": ["Carole Blackburn"]
+        },
+        {
+          "session": "2021S",
+          "topic": "A",
+          "title": "Contemporary First Nations Issues",
+          "reported": 113,
+          "average": 85.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 15, 38, 46],
+          "instructors": ["Kelly Linton"]
+        }
+      ]
+    },
+    "ANTH 331": {
+      "reported": 89,
+      "average": 79.5,
+      "grades": [2, 0, 0, 1, 2, 5, 9, 17, 18, 21, 11],
+      "terms": [
+        {
+          "session": "2025W",
+          "topic": "A",
+          "title": "Art, Aesthetics and Anthropology",
+          "reported": 41,
+          "average": 79.6,
+          "grades": [2, 0, 0, 0, 0, 0, 3, 9, 10, 10, 7],
+          "instructors": ["Nicola Levell"]
+        },
+        {
+          "session": "2023W",
+          "topic": "A",
+          "title": "Art, Aesthetics and Anthropology",
+          "reported": 48,
+          "average": 79.5,
+          "grades": [0, 0, 0, 1, 2, 5, 6, 8, 8, 11, 4],
+          "instructors": ["Nicola Levell"]
+        }
+      ]
+    },
+    "ANTH 332": {
+      "reported": 72,
+      "average": 74.7,
+      "grades": [1, 0, 1, 1, 1, 2, 5, 8, 13, 4, 10],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 46,
+          "average": 79.4,
+          "grades": [1, 0, 1, 1, 1, 2, 5, 8, 13, 4, 10],
+          "instructors": ["Leslie Robertson"]
+        },
+        {
+          "session": "2021W",
+          "reported": 26,
+          "average": 66.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Bruce Miller"]
+        }
+      ]
+    },
+    "ANTH 341": {
+      "reported": 170,
+      "average": 78.8,
+      "grades": [2, 0, 0, 2, 5, 8, 17, 38, 28, 27, 25],
+      "terms": [
+        {
+          "session": "2025W",
+          "topic": "A",
+          "title": "Museums, Heritage and Memory",
+          "reported": 34,
+          "average": 81.8,
+          "grades": [0, 0, 0, 2, 1, 1, 2, 8, 6, 6, 8],
+          "instructors": ["Christopher Smith"]
+        },
+        {
+          "session": "2023W",
+          "topic": "C",
+          "title": "Museums, Heritage and Memory",
+          "reported": 46,
+          "average": 78.0,
+          "grades": [0, 0, 0, 0, 4, 4, 4, 15, 8, 7, 2],
+          "instructors": ["Nicola Levell"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Museums, Heritage and Memory",
+          "reported": 46,
+          "average": 82.0,
+          "grades": [2, 0, 0, 0, 0, 3, 1, 4, 14, 7, 15],
+          "instructors": ["Erika Balcombe"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Museums, Heritage and Memory",
+          "reported": 44,
+          "average": 73.8,
+          "grades": [0, 0, 0, 0, 0, 0, 10, 11, 0, 7, 0],
+          "instructors": ["Caitlin Gordon-Walker"]
+        }
+      ]
+    },
+    "ANTH 350": {
+      "reported": 36,
+      "average": 74.2,
+      "grades": [1, 0, 1, 2, 3, 5, 8, 4, 5, 6, 1],
+      "terms": [
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Ethnography of the Pacific Islands: Polynesia and Micronesia",
+          "reported": 36,
+          "average": 74.2,
+          "grades": [1, 0, 1, 2, 3, 5, 8, 4, 5, 6, 1],
+          "instructors": ["David Ryniker"]
+        }
+      ]
+    },
+    "ANTH 351": {
+      "reported": 41,
+      "average": 70.8,
+      "grades": [1, 1, 0, 3, 0, 4, 3, 2, 6, 1, 1],
+      "terms": [
+        {
+          "session": "2023W",
+          "topic": "A",
+          "title": "Ethnography of the Pacific Islands: Melanesia",
+          "reported": 23,
+          "average": 70.4,
+          "grades": [1, 1, 0, 3, 0, 4, 3, 2, 6, 1, 1],
+          "instructors": ["David Ryniker"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Ethnography of the Pacific Islands: Melanesia",
+          "reported": 18,
+          "average": 71.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["David Ryniker"]
+        }
+      ]
+    },
+    "ANTH 360": {
+      "reported": 171,
+      "average": 78.7,
+      "grades": [1, 0, 0, 5, 2, 5, 26, 42, 56, 25, 3],
+      "terms": [
+        {
+          "session": "2025S",
+          "reported": 35,
+          "average": 82.1,
+          "grades": [0, 0, 0, 2, 0, 1, 1, 4, 13, 12, 2],
+          "instructors": ["Tracey Heatherington"]
+        },
+        {
+          "session": "2022W",
+          "reported": 69,
+          "average": 75.9,
+          "grades": [1, 0, 0, 3, 2, 4, 15, 21, 20, 2, 1],
+          "instructors": ["Tracey Heatherington"]
+        },
+        {
+          "session": "2021W",
+          "reported": 67,
+          "average": 79.8,
+          "grades": [0, 0, 0, 0, 0, 0, 10, 17, 23, 11, 0],
+          "instructors": ["Tracey Heatherington"]
+        }
+      ]
+    },
+    "ANTH 362": {
+      "reported": 35,
+      "average": 84.9,
+      "grades": [0, 0, 1, 1, 0, 0, 0, 2, 12, 9, 10],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 35,
+          "average": 84.9,
+          "grades": [0, 0, 1, 1, 0, 0, 0, 2, 12, 9, 10],
+          "instructors": ["Tracey Heatherington"]
+        }
+      ]
+    },
+    "ANTH 376": {
+      "reported": 89,
+      "average": 84.5,
+      "grades": [1, 2, 0, 3, 2, 4, 2, 4, 11, 26, 34],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 46,
+          "average": 85.2,
+          "grades": [1, 1, 0, 2, 1, 1, 2, 3, 3, 7, 25],
+          "instructors": ["Helena Zeweri"]
+        },
+        {
+          "session": "2024W",
+          "reported": 43,
+          "average": 83.7,
+          "grades": [0, 1, 0, 1, 1, 3, 0, 1, 8, 19, 9],
+          "instructors": ["Mahtab Sirdani", "Helena Zeweri"]
+        }
+      ]
+    },
+    "ANTH 378": {
+      "reported": 862,
+      "average": 76.4,
+      "grades": [8, 3, 5, 10, 42, 80, 143, 147, 275, 88, 17],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 94,
+          "average": 80.7,
+          "grades": [0, 0, 0, 1, 1, 3, 7, 12, 50, 20, 0],
+          "instructors": ["Amirpouyan Shiva"]
+        },
+        {
+          "session": "2025S",
+          "reported": 79,
+          "average": 75.4,
+          "grades": [3, 1, 0, 2, 1, 6, 12, 14, 35, 2, 3],
+          "instructors": ["Amirpouyan Shiva"]
+        },
+        {
+          "session": "2024W",
+          "reported": 90,
+          "average": 80.3,
+          "grades": [2, 1, 0, 0, 3, 1, 5, 14, 33, 28, 3],
+          "instructors": ["Amirpouyan Shiva"]
+        },
+        {
+          "session": "2024S",
+          "reported": 57,
+          "average": 78.2,
+          "grades": [1, 0, 0, 0, 4, 1, 11, 11, 17, 6, 6],
+          "instructors": ["Ana Vivaldi Pasqua"]
+        },
+        {
+          "session": "2023W",
+          "reported": 101,
+          "average": 76.9,
+          "grades": [0, 1, 2, 0, 2, 12, 23, 15, 32, 9, 4],
+          "instructors": ["Amirpouyan Shiva"]
+        },
+        {
+          "session": "2022W",
+          "reported": 96,
+          "average": 76.4,
+          "grades": [2, 0, 1, 1, 5, 11, 13, 19, 32, 12, 0],
+          "instructors": ["Amirpouyan Shiva"]
+        },
+        {
+          "session": "2022S",
+          "reported": 115,
+          "average": 75.3,
+          "grades": [0, 0, 2, 6, 5, 10, 31, 24, 32, 4, 1],
+          "instructors": ["Amirpouyan Shiva"]
+        },
+        {
+          "session": "2021W",
+          "reported": 105,
+          "average": 74.1,
+          "grades": [0, 0, 0, 0, 8, 20, 20, 20, 22, 0, 0],
+          "instructors": ["Amirpouyan Shiva"]
+        },
+        {
+          "session": "2021S",
+          "reported": 125,
+          "average": 72.6,
+          "grades": [0, 0, 0, 0, 13, 16, 21, 18, 22, 7, 0],
+          "instructors": ["Amirpouyan Shiva"]
+        }
+      ]
+    },
+    "ANTH 400": {
+      "reported": 353,
+      "average": 79.2,
+      "grades": [7, 5, 2, 2, 4, 17, 23, 47, 92, 78, 44],
+      "terms": [
+        {
+          "session": "2025W",
+          "topic": "A",
+          "title": "History of Anthropology",
+          "reported": 83,
+          "average": 81.7,
+          "grades": [0, 1, 0, 1, 2, 4, 8, 9, 20, 27, 11],
+          "instructors": ["Sara Shneiderman", "Carole Blackburn"]
+        },
+        {
+          "session": "2024W",
+          "topic": "A",
+          "title": "History of Anthropology",
+          "reported": 67,
+          "average": 79.7,
+          "grades": [2, 3, 1, 0, 0, 3, 3, 8, 19, 23, 5],
+          "instructors": ["Amirpouyan Shiva", "Carole Blackburn"]
+        },
+        {
+          "session": "2023W",
+          "topic": "A",
+          "title": "History of Anthropology",
+          "reported": 72,
+          "average": 81.0,
+          "grades": [1, 0, 0, 0, 1, 3, 5, 11, 26, 17, 8],
+          "instructors": ["Sara Shneiderman", "Amirpouyan Shiva"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "History of Anthropology",
+          "reported": 61,
+          "average": 78.0,
+          "grades": [4, 1, 1, 1, 1, 7, 7, 10, 6, 3, 20],
+          "instructors": ["Carole Blackburn", "Helena Zeweri"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "History of Anthropology",
+          "reported": 25,
+          "average": 72.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 0],
+          "instructors": ["Vinay Ramnath Kamat"]
+        },
+        {
+          "session": "2021W",
+          "topic": "B",
+          "title": "History of Anthropology",
+          "reported": 45,
+          "average": 76.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 9, 21, 0, 0],
+          "instructors": ["Amirpouyan Shiva"]
+        }
+      ]
+    },
+    "ANTH 403": {
+      "reported": 25,
+      "average": 89.4,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 11, 13],
+      "terms": [
+        {
+          "session": "2025S",
+          "topic": "G",
+          "title": "ETHN SARDINIA",
+          "reported": 14,
+          "average": 90.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 8],
+          "instructors": ["Sabina Magliocco"]
+        },
+        {
+          "session": "2023S",
+          "topic": "G",
+          "title": "Ethnography of Special Areas",
+          "reported": 11,
+          "average": 88.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 5, 5],
+          "instructors": ["Sabina Magliocco"]
+        }
+      ]
+    },
+    "ANTH 404": {
+      "reported": 32,
+      "average": 83.8,
+      "grades": [1, 0, 0, 0, 0, 1, 1, 2, 5, 9, 13],
+      "terms": [
+        {
+          "session": "2024W",
+          "topic": "A",
+          "title": "Ethnography in Circumpolar North: Comparative Perspectives.",
+          "reported": 32,
+          "average": 83.8,
+          "grades": [1, 0, 0, 0, 0, 1, 1, 2, 5, 9, 13],
+          "instructors": ["Patrick Moore"]
+        }
+      ]
+    },
+    "ANTH 407": {
+      "reported": 186,
+      "average": 80.5,
+      "grades": [0, 0, 0, 4, 4, 13, 17, 34, 37, 44, 19],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 46,
+          "average": 83.3,
+          "grades": [0, 0, 0, 0, 0, 2, 5, 8, 6, 16, 9],
+          "instructors": ["Amirpouyan Shiva"]
+        },
+        {
+          "session": "2024W",
+          "reported": 34,
+          "average": 81.7,
+          "grades": [0, 0, 0, 3, 1, 0, 2, 2, 7, 15, 4],
+          "instructors": ["Amirpouyan Shiva"]
+        },
+        {
+          "session": "2023W",
+          "reported": 32,
+          "average": 79.0,
+          "grades": [0, 0, 0, 0, 1, 3, 3, 7, 10, 6, 1],
+          "instructors": ["Amirpouyan Shiva"]
+        },
+        {
+          "session": "2022W",
+          "reported": 37,
+          "average": 79.2,
+          "grades": [0, 0, 0, 1, 2, 2, 7, 5, 8, 7, 5],
+          "instructors": ["Amirpouyan Shiva"]
+        },
+        {
+          "session": "2021W",
+          "reported": 37,
+          "average": 78.4,
+          "grades": [0, 0, 0, 0, 0, 6, 0, 12, 6, 0, 0],
+          "instructors": ["Amirpouyan Shiva"]
+        }
+      ]
+    },
+    "ANTH 414": {
+      "reported": 48,
+      "average": 77.2,
+      "grades": [2, 2, 0, 0, 2, 0, 4, 5, 20, 10, 3],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 21,
+          "average": 81.9,
+          "grades": [0, 0, 0, 0, 1, 0, 3, 2, 6, 6, 3],
+          "instructors": ["Millie Creighton"]
+        },
+        {
+          "session": "2022W",
+          "reported": 27,
+          "average": 73.5,
+          "grades": [2, 2, 0, 0, 1, 0, 1, 3, 14, 4, 0],
+          "instructors": ["Millie Creighton"]
+        }
+      ]
+    },
+    "ANTH 418": {
+      "reported": 95,
+      "average": 75.9,
+      "grades": [5, 4, 2, 5, 1, 12, 3, 2, 14, 14, 25],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 17,
+          "average": 81.5,
+          "grades": [0, 1, 0, 1, 1, 0, 2, 0, 4, 3, 5],
+          "instructors": ["Zhichun Jing"]
+        },
+        {
+          "session": "2024W",
+          "reported": 15,
+          "average": 77.4,
+          "grades": [2, 0, 0, 1, 0, 2, 0, 0, 1, 0, 9],
+          "instructors": ["Zhichun Jing"]
+        },
+        {
+          "session": "2023W",
+          "reported": 17,
+          "average": 76.1,
+          "grades": [2, 0, 0, 1, 0, 1, 0, 0, 5, 1, 4],
+          "instructors": ["Zhichun Jing"]
+        },
+        {
+          "session": "2022W",
+          "reported": 25,
+          "average": 66.7,
+          "grades": [1, 3, 2, 2, 0, 9, 1, 2, 4, 1, 0],
+          "instructors": ["Heather Robertson"]
+        },
+        {
+          "session": "2021W",
+          "reported": 21,
+          "average": 81.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 7],
+          "instructors": ["Zhichun Jing"]
+        }
+      ]
+    },
+    "ANTH 427": {
+      "reported": 36,
+      "average": 83.8,
+      "grades": [0, 0, 0, 0, 0, 0, 1, 6, 8, 16, 5],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 36,
+          "average": 83.8,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 6, 8, 16, 5],
+          "instructors": ["Zahra Hayat"]
+        }
+      ]
+    },
+    "ANTH 429": {
+      "reported": 68,
+      "average": 78.2,
+      "grades": [0, 1, 0, 1, 2, 4, 12, 12, 24, 10, 2],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 34,
+          "average": 77.9,
+          "grades": [0, 0, 0, 0, 2, 3, 7, 5, 12, 5, 0],
+          "instructors": ["Vinay Ramnath Kamat"]
+        },
+        {
+          "session": "2022W",
+          "reported": 34,
+          "average": 78.4,
+          "grades": [0, 1, 0, 1, 0, 1, 5, 7, 12, 5, 2],
+          "instructors": ["Vinay Ramnath Kamat"]
+        }
+      ]
+    },
+    "ANTH 430": {
+      "reported": 71,
+      "average": 89.7,
+      "grades": [1, 0, 0, 0, 0, 0, 0, 0, 3, 10, 56],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 36,
+          "average": 88.9,
+          "grades": [1, 0, 0, 0, 0, 0, 0, 0, 2, 3, 29],
+          "instructors": ["Charles Menzies"]
+        },
+        {
+          "session": "2022W",
+          "reported": 35,
+          "average": 90.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 7, 27],
+          "instructors": ["Charles Menzies"]
+        }
+      ]
+    },
+    "ANTH 431": {
+      "reported": 93,
+      "average": 83.2,
+      "grades": [0, 0, 0, 1, 1, 0, 5, 3, 18, 45, 8],
+      "terms": [
+        {
+          "session": "2025W",
+          "topic": "A",
+          "title": "Museum Practice and Curatorship",
+          "reported": 13,
+          "average": 82.5,
+          "grades": [0, 0, 0, 1, 0, 0, 0, 1, 4, 7, 0],
+          "instructors": ["Jennifer Kramer"]
+        },
+        {
+          "session": "2024W",
+          "topic": "A",
+          "title": "Museum Practice and Curatorship",
+          "reported": 24,
+          "average": 85.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 5, 16, 2],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "topic": "C",
+          "title": "Museum Practice and Curatorship",
+          "reported": 19,
+          "average": 81.4,
+          "grades": [0, 0, 0, 0, 1, 0, 4, 1, 3, 9, 0],
+          "instructors": ["Nicola Levell", "Susan Rowley"]
+        },
+        {
+          "session": "2022W",
+          "topic": "C",
+          "title": "Museum Practice and Curatorship",
+          "reported": 18,
+          "average": 85.4,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 6, 5, 6],
+          "instructors": ["Nicola Levell"]
+        },
+        {
+          "session": "2021W",
+          "topic": "C",
+          "title": "Museum Practice and Curatorship",
+          "reported": 19,
+          "average": 80.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 0],
+          "instructors": ["Jennifer Kramer", "Susan Rowley"]
+        }
+      ]
+    },
+    "ANTH 435": {
+      "reported": 46,
+      "average": 77.9,
+      "grades": [0, 0, 2, 1, 2, 3, 8, 5, 11, 8, 4],
+      "terms": [
+        {
+          "session": "2025S",
+          "reported": 20,
+          "average": 80.0,
+          "grades": [0, 0, 0, 0, 1, 1, 4, 1, 7, 5, 1],
+          "instructors": ["Millie Creighton"]
+        },
+        {
+          "session": "2023W",
+          "reported": 26,
+          "average": 76.2,
+          "grades": [0, 0, 2, 1, 1, 2, 4, 4, 4, 3, 3],
+          "instructors": ["Millie Creighton"]
+        }
+      ]
+    },
+    "ANTH 437": {
+      "reported": 67,
+      "average": 82.5,
+      "grades": [0, 0, 0, 0, 1, 1, 5, 10, 24, 21, 5],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 36,
+          "average": 84.3,
+          "grades": [0, 0, 0, 0, 1, 0, 0, 4, 10, 17, 4],
+          "instructors": ["Tracey Heatherington"]
+        },
+        {
+          "session": "2022W",
+          "reported": 31,
+          "average": 80.4,
+          "grades": [0, 0, 0, 0, 0, 1, 5, 6, 14, 4, 1],
+          "instructors": ["Tracey Heatherington"]
+        }
+      ]
+    },
+    "ANTH 449": {
+      "reported": 26,
+      "average": 89.2,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 3, 11, 12],
+      "terms": [
+        {
+          "session": "2025W",
+          "topic": "A",
+          "title": "Honours Tutorial",
+          "reported": 9,
+          "average": 87.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 6, 2],
+          "instructors": []
+        },
+        {
+          "session": "2024W",
+          "topic": "A",
+          "title": "Honours Tutorial",
+          "reported": 8,
+          "average": 90.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 4],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "topic": "A",
+          "title": "Honours Tutorial",
+          "reported": 9,
+          "average": 89.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 6],
+          "instructors": []
+        }
+      ]
+    },
+    "ANTH 451": {
+      "reported": 42,
+      "average": 83.7,
+      "grades": [0, 0, 0, 1, 1, 1, 4, 1, 9, 18, 7],
+      "terms": [
+        {
+          "session": "2025W",
+          "topic": "A",
+          "title": "Conservation of Organic Materials",
+          "reported": 15,
+          "average": 84.6,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 1, 4, 6, 3],
+          "instructors": ["Heidi Swierenga"]
+        },
+        {
+          "session": "2024W",
+          "topic": "A",
+          "title": "Conservation of Organic Materials",
+          "reported": 14,
+          "average": 83.6,
+          "grades": [0, 0, 0, 1, 0, 0, 2, 0, 2, 7, 2],
+          "instructors": ["Heidi Swierenga"]
+        },
+        {
+          "session": "2023W",
+          "reported": 13,
+          "average": 82.7,
+          "grades": [0, 0, 0, 0, 1, 1, 1, 0, 3, 5, 2],
+          "instructors": ["Heidi Swierenga"]
+        }
+      ]
+    },
+    "ANTH 452": {
+      "reported": 13,
+      "average": 84.7,
+      "grades": [0, 0, 0, 0, 0, 0, 2, 0, 3, 6, 2],
+      "terms": [
+        {
+          "session": "2022W",
+          "reported": 13,
+          "average": 84.7,
+          "grades": [0, 0, 0, 0, 0, 0, 2, 0, 3, 6, 2],
+          "instructors": ["Heidi Swierenga"]
+        }
+      ]
+    },
+    "ANTH 461": {
+      "reported": 32,
+      "average": 88.0,
+      "grades": [0, 1, 0, 0, 0, 0, 0, 0, 1, 4, 21],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 21,
+          "average": 88.8,
+          "grades": [0, 1, 0, 0, 0, 0, 0, 0, 1, 4, 15],
+          "instructors": ["Charles Menzies"]
+        },
+        {
+          "session": "2021W",
+          "reported": 11,
+          "average": 86.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6],
+          "instructors": ["Charles Menzies"]
+        }
+      ]
+    },
+    "ANTH 471": {
+      "reported": 40,
+      "average": 78.1,
+      "grades": [0, 0, 0, 2, 4, 5, 3, 3, 12, 4, 5],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 40,
+          "average": 78.1,
+          "grades": [0, 0, 0, 2, 4, 5, 3, 3, 12, 4, 5],
+          "instructors": ["Carole Blackburn"]
+        }
+      ]
+    },
+    "ANTH 475": {
+      "reported": 24,
+      "average": 82.6,
+      "grades": [1, 1, 0, 0, 0, 0, 1, 1, 3, 9, 8],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 24,
+          "average": 82.6,
+          "grades": [1, 1, 0, 0, 0, 0, 1, 1, 3, 9, 8],
+          "instructors": ["Elif Sari"]
+        }
+      ]
+    },
+    "ANTH 478": {
+      "reported": 14,
+      "average": 86.2,
+      "grades": [1, 0, 0, 0, 0, 0, 0, 0, 0, 2, 11],
+      "terms": [
+        {
+          "session": "2022S",
+          "topic": "B",
+          "title": "Ethnographic Film Methods",
+          "reported": 14,
+          "average": 86.2,
+          "grades": [1, 0, 0, 0, 0, 0, 0, 0, 0, 2, 11],
+          "instructors": ["Charles Menzies"]
+        }
+      ]
+    },
+    "ANTH 480": {
+      "reported": 46,
+      "average": 83.9,
+      "grades": [0, 0, 0, 0, 0, 0, 1, 3, 14, 13, 4],
+      "terms": [
+        {
+          "session": "2024S",
+          "topic": "B",
+          "title": "Urban Ethnographic Field School (UEFS)",
+          "reported": 14,
+          "average": 85.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 2, 4, 4, 4],
+          "instructors": ["Amirpouyan Shiva"]
+        },
+        {
+          "session": "2023S",
+          "topic": "B",
+          "title": "Urban Ethnographic Field School (UEFS)",
+          "reported": 8,
+          "average": 84.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 4, 4, 0],
+          "instructors": ["Patrick Moore"]
+        },
+        {
+          "session": "2022S",
+          "topic": "B",
+          "title": "Urban Ethnographic Field School (UEFS)",
+          "reported": 13,
+          "average": 82.1,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 1, 6, 5, 0],
+          "instructors": ["Patrick Moore"]
+        },
+        {
+          "session": "2021S",
+          "topic": "B",
+          "title": "Urban Ethnographic Field School (UEFS)",
+          "reported": 11,
+          "average": 83.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Amirpouyan Shiva"]
+        }
+      ]
+    },
+    "ANTH 495": {
+      "reported": 90,
+      "average": 85.5,
+      "grades": [0, 0, 0, 0, 3, 5, 0, 8, 17, 21, 35],
+      "terms": [
+        {
+          "session": "2025W",
+          "topic": "D",
+          "title": "Memoir, Life history and Family",
+          "reported": 20,
+          "average": 89.4,
+          "grades": [0, 0, 0, 0, 0, 2, 0, 0, 1, 2, 15],
+          "instructors": ["Charles Menzies"]
+        },
+        {
+          "session": "2023W",
+          "topic": "A",
+          "title": "Advanced Studies in Anthropology",
+          "reported": 19,
+          "average": 82.4,
+          "grades": [0, 0, 0, 0, 1, 1, 0, 2, 5, 8, 1],
+          "instructors": ["Aleksa Alaica"]
+        },
+        {
+          "session": "2023W",
+          "topic": "B",
+          "title": "Advanced Studies in Anthropology",
+          "reported": 18,
+          "average": 84.8,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 4, 4, 4, 5],
+          "instructors": ["Hugh Phillimore Gusterson"]
+        },
+        {
+          "session": "2023W",
+          "topic": "C",
+          "title": "Advanced Studies in Anthropology",
+          "reported": 17,
+          "average": 87.2,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 0, 2, 6, 8],
+          "instructors": ["Shaylih Muehlmann"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Advanced Studies in Anthropology",
+          "reported": 8,
+          "average": 82.5,
+          "grades": [0, 0, 0, 0, 2, 0, 0, 1, 1, 0, 4],
+          "instructors": ["Bruce Miller"]
+        },
+        {
+          "session": "2022W",
+          "topic": "B",
+          "title": "Advanced Studies in Anthropology",
+          "reported": 8,
+          "average": 83.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 4, 1, 2],
+          "instructors": ["Camilla Speller"]
+        }
+      ]
+    },
+    "ANTH 500": {
+      "reported": 45,
+      "average": 88.2,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 30],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 10,
+          "average": 89.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 4],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "reported": 13,
+          "average": 91.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13],
+          "instructors": ["Gaston Gordillo"]
+        },
+        {
+          "session": "2022W",
+          "reported": 11,
+          "average": 89.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 6],
+          "instructors": ["Gaston Gordillo"]
+        },
+        {
+          "session": "2021W",
+          "reported": 11,
+          "average": 81.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7],
+          "instructors": ["Gaston Gordillo"]
+        }
+      ]
+    },
+    "ANTH 502": {
+      "reported": 8,
+      "average": 85.7,
+      "grades": [1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 5],
+      "terms": [
+        {
+          "session": "2023W",
+          "topic": "B",
+          "title": "Advanced Ethnography of a Special Area",
+          "reported": 8,
+          "average": 85.7,
+          "grades": [1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 5],
+          "instructors": ["Charles Menzies"]
+        }
+      ]
+    },
+    "ANTH 512": {
+      "reported": 21,
+      "average": 91.0,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 14],
+      "terms": [
+        {
+          "session": "2024W",
+          "topic": "B",
+          "title": "Language and Culture",
+          "reported": 10,
+          "average": 90.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 3, 1, 6],
+          "instructors": ["Daisy Rosenblum"]
+        },
+        {
+          "session": "2023W",
+          "topic": "B",
+          "title": "Language and Culture",
+          "reported": 11,
+          "average": 91.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 8],
+          "instructors": ["Patrick Moore"]
+        }
+      ]
+    },
+    "ANTH 516": {
+      "reported": 71,
+      "average": 87.7,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 6, 15, 17, 32],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 16,
+          "average": 87.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 2, 9, 4],
+          "instructors": ["Leslie Robertson", "Hugh Phillimore Gusterson"]
+        },
+        {
+          "session": "2023W",
+          "reported": 18,
+          "average": 82.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 3, 9, 6, 0],
+          "instructors": ["Hugh Phillimore Gusterson"]
+        },
+        {
+          "session": "2022W",
+          "reported": 21,
+          "average": 88.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 2, 4, 2, 13],
+          "instructors": ["Patrick Moore", "Hugh Phillimore Gusterson"]
+        },
+        {
+          "session": "2021W",
+          "reported": 16,
+          "average": 92.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 15],
+          "instructors": ["Patrick Moore"]
+        }
+      ]
+    },
+    "ANTH 517": {
+      "reported": 17,
+      "average": 87.4,
+      "grades": [0, 0, 0, 0, 1, 0, 0, 0, 0, 11, 5],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 9,
+          "average": 85.3,
+          "grades": [0, 0, 0, 0, 1, 0, 0, 0, 0, 8, 0],
+          "instructors": ["Aleksa Alaica"]
+        },
+        {
+          "session": "2022W",
+          "reported": 8,
+          "average": 89.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 5],
+          "instructors": ["Andrew Martindale"]
+        }
+      ]
+    },
+    "ANTH 518": {
+      "reported": 50,
+      "average": 88.0,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 6, 24, 20],
+      "terms": [
+        {
+          "session": "2023W",
+          "topic": "A",
+          "title": "Museum Methods",
+          "reported": 16,
+          "average": 85.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 5, 9, 2],
+          "instructors": ["Jennifer Kramer"]
+        },
+        {
+          "session": "2023S",
+          "topic": "A",
+          "title": "Museum Methods",
+          "reported": 17,
+          "average": 89.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 6, 10],
+          "instructors": ["Jill Baird"]
+        },
+        {
+          "session": "2022S",
+          "topic": "A",
+          "title": "Museum Methods",
+          "reported": 17,
+          "average": 89.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 8],
+          "instructors": ["Jill Baird"]
+        }
+      ]
+    },
+    "ANTH 519": {
+      "reported": 9,
+      "average": 95.0,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 9,
+          "average": 95.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Vinay Ramnath Kamat"]
+        }
+      ]
+    },
+    "ANTH 540": {
+      "reported": 87,
+      "average": 88.4,
+      "grades": [0, 0, 0, 0, 0, 0, 1, 2, 3, 30, 37],
+      "terms": [
+        {
+          "session": "2024W",
+          "topic": "G",
+          "title": "ADVANCED SEMINAR",
+          "reported": 19,
+          "average": 92.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 19],
+          "instructors": ["Shaylih Muehlmann"]
+        },
+        {
+          "session": "2024W",
+          "topic": "H",
+          "title": "Legal Anthropology",
+          "reported": 10,
+          "average": 90.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 6],
+          "instructors": ["Carole Blackburn"]
+        },
+        {
+          "session": "2024S",
+          "topic": "H",
+          "title": "Advanced Seminar",
+          "reported": 6,
+          "average": 89.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 2],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "topic": "B",
+          "title": "Advanced Seminar",
+          "reported": 12,
+          "average": 87.0,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 2, 0, 6, 3],
+          "instructors": ["Helena Zeweri"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Advanced Seminar",
+          "reported": 6,
+          "average": 86.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 2],
+          "instructors": ["Wade Davis"]
+        },
+        {
+          "session": "2022W",
+          "topic": "B",
+          "title": "Advanced Seminar",
+          "reported": 7,
+          "average": 89.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 3],
+          "instructors": ["Carole Blackburn"]
+        },
+        {
+          "session": "2022W",
+          "topic": "D",
+          "title": "Advanced Seminar",
+          "reported": 7,
+          "average": 86.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 4, 2],
+          "instructors": ["Leslie Robertson"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Advanced Seminar",
+          "reported": 13,
+          "average": 82.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 0],
+          "instructors": ["Wade Davis"]
+        },
+        {
+          "session": "2021W",
+          "topic": "B",
+          "title": "Advanced Seminar",
+          "reported": 7,
+          "average": 89.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Alexia Bloch"]
+        }
+      ]
+    },
+    "ANTH 545": {
+      "reported": 6,
+      "average": 88.3,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      "terms": [
+        {
+          "session": "2023W",
+          "topic": "B",
+          "title": "Graduate Research Seminar",
+          "reported": 6,
+          "average": 88.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": []
+        }
+      ]
+    }
+  }
+}

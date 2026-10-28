@@ -1,0 +1,2292 @@
+{
+  "subject": "GEOG",
+  "campus": "UBCV",
+  "source": "https://ubcgrades.com",
+  "credit": "UBCGrades.com / UBC PAIR",
+  "sessions": ["2021S", "2021W", "2022S", "2022W", "2023S", "2023W", "2024S", "2024W", "2025S", "2025W"],
+  "buckets": ["<50%", "50-54%", "55-59%", "60-63%", "64-67%", "68-71%", "72-75%", "76-79%", "80-84%", "85-89%", "90-100%"],
+  "courses": {
+    "GEOG 121": {
+      "reported": 1738,
+      "average": 74.8,
+      "grades": [44, 14, 44, 67, 125, 177, 228, 333, 404, 240, 52],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 387,
+          "average": 75.3,
+          "grades": [8, 4, 7, 15, 26, 35, 48, 75, 103, 58, 8],
+          "instructors": ["Mohammed Arefin", "Siobhán Wittig McPhee"]
+        },
+        {
+          "session": "2024W",
+          "reported": 370,
+          "average": 74.3,
+          "grades": [7, 5, 12, 14, 40, 35, 46, 66, 88, 49, 8],
+          "instructors": ["Jessica Dempsey", "Mohammed Arefin", "Siobhan Wittig McPhee"]
+        },
+        {
+          "session": "2023W",
+          "reported": 382,
+          "average": 77.2,
+          "grades": [2, 2, 9, 8, 14, 43, 40, 76, 97, 67, 19],
+          "instructors": ["Jessica Dempsey", "Mohammed Arefin", "Siobhan Wittig McPhee"]
+        },
+        {
+          "session": "2022W",
+          "reported": 332,
+          "average": 74.6,
+          "grades": [12, 3, 5, 15, 18, 38, 46, 61, 76, 41, 17],
+          "instructors": ["Jessica Dempsey", "Mohammed Arefin"]
+        },
+        {
+          "session": "2021W",
+          "reported": 267,
+          "average": 71.3,
+          "grades": [15, 0, 11, 15, 27, 26, 48, 55, 40, 25, 0],
+          "instructors": ["Siobhan Mcphee"]
+        }
+      ]
+    },
+    "GEOG 122": {
+      "reported": 983,
+      "average": 72.3,
+      "grades": [43, 24, 31, 33, 77, 99, 147, 176, 200, 111, 24],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 184,
+          "average": 74.5,
+          "grades": [6, 4, 9, 6, 17, 15, 18, 24, 38, 33, 14],
+          "instructors": ["Trevor Barnes", "Peter Hudson"]
+        },
+        {
+          "session": "2024W",
+          "reported": 112,
+          "average": 73.5,
+          "grades": [3, 4, 3, 7, 4, 8, 18, 24, 26, 12, 3],
+          "instructors": ["Jessica Wang", "Trevor Barnes", "Peter Hudson"]
+        },
+        {
+          "session": "2023W",
+          "reported": 217,
+          "average": 70.6,
+          "grades": [13, 8, 10, 14, 13, 21, 30, 44, 43, 15, 4],
+          "instructors": ["Jessica Wang", "Trevor Barnes"]
+        },
+        {
+          "session": "2022W",
+          "reported": 250,
+          "average": 71.1,
+          "grades": [12, 8, 9, 6, 26, 27, 45, 45, 44, 25, 3],
+          "instructors": ["Trevor Barnes", "Rachel Bok"]
+        },
+        {
+          "session": "2021W",
+          "reported": 220,
+          "average": 72.8,
+          "grades": [9, 0, 0, 0, 17, 28, 36, 39, 49, 26, 0],
+          "instructors": ["Trevor Barnes", "James Francis Glassman"]
+        }
+      ]
+    },
+    "GEOG 202": {
+      "reported": 352,
+      "average": 75.4,
+      "grades": [19, 1, 3, 3, 14, 21, 41, 70, 128, 42, 7],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 83,
+          "average": 75.4,
+          "grades": [7, 0, 0, 0, 1, 3, 5, 14, 42, 9, 2],
+          "instructors": ["Alec Blair", "Naomi Klein"]
+        },
+        {
+          "session": "2024W",
+          "reported": 65,
+          "average": 76.9,
+          "grades": [2, 1, 1, 2, 2, 5, 6, 10, 21, 11, 4],
+          "instructors": ["Alec Blair", "Naomi Klein"]
+        },
+        {
+          "session": "2023W",
+          "reported": 91,
+          "average": 74.7,
+          "grades": [6, 0, 0, 1, 1, 4, 10, 27, 32, 6, 1],
+          "instructors": ["Alec Blair", "Naomi Klein"]
+        },
+        {
+          "session": "2022W",
+          "reported": 113,
+          "average": 75.0,
+          "grades": [4, 0, 2, 0, 10, 9, 20, 19, 33, 16, 0],
+          "instructors": ["Alec Blair", "Naomi Klein"]
+        }
+      ]
+    },
+    "GEOG 210": {
+      "reported": 327,
+      "average": 78.7,
+      "grades": [6, 3, 2, 9, 6, 20, 28, 50, 117, 75, 8],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 78,
+          "average": 76.9,
+          "grades": [2, 0, 1, 3, 2, 4, 11, 16, 28, 10, 1],
+          "instructors": ["Michael Fabris"]
+        },
+        {
+          "session": "2025S",
+          "reported": 78,
+          "average": 81.2,
+          "grades": [0, 1, 0, 1, 1, 2, 6, 9, 30, 26, 2],
+          "instructors": ["Desiree Valadares"]
+        },
+        {
+          "session": "2024W",
+          "reported": 95,
+          "average": 80.2,
+          "grades": [1, 1, 1, 1, 1, 3, 6, 15, 40, 24, 2],
+          "instructors": ["Michael Fabris"]
+        },
+        {
+          "session": "2023W",
+          "reported": 76,
+          "average": 76.2,
+          "grades": [3, 1, 0, 4, 2, 11, 5, 10, 19, 15, 3],
+          "instructors": ["Michael Fabris"]
+        }
+      ]
+    },
+    "GEOG 211": {
+      "reported": 687,
+      "average": 74.4,
+      "grades": [21, 8, 20, 22, 62, 85, 110, 100, 157, 65, 31],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 88,
+          "average": 73.0,
+          "grades": [6, 2, 7, 5, 8, 4, 10, 12, 18, 11, 5],
+          "instructors": ["Loch Brown"]
+        },
+        {
+          "session": "2024W",
+          "reported": 130,
+          "average": 78.4,
+          "grades": [2, 1, 2, 2, 8, 15, 15, 15, 31, 26, 13],
+          "instructors": ["Loch Brown"]
+        },
+        {
+          "session": "2023W",
+          "reported": 223,
+          "average": 73.0,
+          "grades": [6, 1, 9, 5, 22, 35, 42, 31, 52, 8, 6],
+          "instructors": ["Loch Brown"]
+        },
+        {
+          "session": "2022W",
+          "reported": 246,
+          "average": 74.1,
+          "grades": [7, 4, 2, 10, 24, 31, 43, 42, 56, 20, 7],
+          "instructors": ["Loch Brown"]
+        }
+      ]
+    },
+    "GEOG 220": {
+      "reported": 113,
+      "average": 68.6,
+      "grades": [5, 1, 3, 1, 9, 14, 24, 14, 24, 3, 0],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 50,
+          "average": 68.8,
+          "grades": [5, 1, 3, 1, 3, 4, 12, 8, 9, 3, 0],
+          "instructors": ["Merje Kuus"]
+        },
+        {
+          "session": "2021W",
+          "reported": 63,
+          "average": 68.4,
+          "grades": [0, 0, 0, 0, 6, 10, 12, 6, 15, 0, 0],
+          "instructors": ["Merje Kuus"]
+        }
+      ]
+    },
+    "GEOG 250": {
+      "reported": 638,
+      "average": 76.3,
+      "grades": [24, 10, 16, 22, 21, 45, 65, 70, 154, 118, 63],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 131,
+          "average": 76.7,
+          "grades": [6, 2, 2, 3, 3, 9, 18, 16, 29, 23, 20],
+          "instructors": ["Elvin Wyly", "Micheal Jerowsky"]
+        },
+        {
+          "session": "2025S",
+          "reported": 36,
+          "average": 71.5,
+          "grades": [4, 0, 2, 2, 1, 3, 4, 7, 8, 4, 1],
+          "instructors": ["Siobhán Wittig McPhee"]
+        },
+        {
+          "session": "2024W",
+          "reported": 88,
+          "average": 80.3,
+          "grades": [1, 1, 0, 1, 1, 8, 9, 8, 25, 19, 15],
+          "instructors": ["Elvin Wyly"]
+        },
+        {
+          "session": "2024S",
+          "reported": 46,
+          "average": 76.3,
+          "grades": [2, 1, 1, 2, 4, 2, 4, 6, 12, 10, 2],
+          "instructors": ["Siobhan Wittig McPhee"]
+        },
+        {
+          "session": "2023W",
+          "reported": 106,
+          "average": 76.7,
+          "grades": [2, 2, 4, 2, 5, 13, 11, 14, 24, 20, 5],
+          "instructors": ["Dimitar Anguelov"]
+        },
+        {
+          "session": "2023S",
+          "reported": 47,
+          "average": 75.6,
+          "grades": [1, 1, 2, 2, 2, 1, 6, 6, 13, 7, 3],
+          "instructors": ["Charles Greenberg"]
+        },
+        {
+          "session": "2022W",
+          "reported": 95,
+          "average": 77.0,
+          "grades": [1, 3, 4, 7, 5, 8, 4, 8, 23, 17, 15],
+          "instructors": ["Elvin Wyly"]
+        },
+        {
+          "session": "2022S",
+          "reported": 44,
+          "average": 69.8,
+          "grades": [7, 0, 1, 3, 0, 1, 9, 5, 11, 5, 2],
+          "instructors": ["Charles Greenberg"]
+        },
+        {
+          "session": "2021S",
+          "reported": 45,
+          "average": 75.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 9, 13, 0],
+          "instructors": ["Charles Greenberg"]
+        }
+      ]
+    },
+    "GEOG 257": {
+      "reported": 28,
+      "average": 74.4,
+      "grades": [0, 0, 0, 2, 2, 2, 8, 8, 6, 0, 0],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 28,
+          "average": 74.4,
+          "grades": [0, 0, 0, 2, 2, 2, 8, 8, 6, 0, 0],
+          "instructors": ["Siobhan Wittig McPhee"]
+        }
+      ]
+    },
+    "GEOG 290": {
+      "reported": 117,
+      "average": 73.2,
+      "grades": [3, 0, 2, 2, 12, 18, 24, 28, 25, 2, 1],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 43,
+          "average": 73.4,
+          "grades": [0, 0, 0, 0, 7, 11, 9, 7, 8, 0, 1],
+          "instructors": ["Christopher Lamb"]
+        },
+        {
+          "session": "2022W",
+          "reported": 74,
+          "average": 73.1,
+          "grades": [3, 0, 2, 2, 5, 7, 15, 21, 17, 2, 0],
+          "instructors": ["Christopher Lamb"]
+        }
+      ]
+    },
+    "GEOG 302": {
+      "reported": 325,
+      "average": 80.3,
+      "grades": [4, 1, 1, 0, 12, 18, 23, 54, 96, 88, 28],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 82,
+          "average": 76.2,
+          "grades": [2, 1, 1, 0, 10, 5, 8, 27, 11, 13, 4],
+          "instructors": ["Corrine Armistead"]
+        },
+        {
+          "session": "2024W",
+          "reported": 88,
+          "average": 84.1,
+          "grades": [0, 0, 0, 0, 0, 2, 5, 6, 25, 40, 10],
+          "instructors": ["Avram Lewis"]
+        },
+        {
+          "session": "2023W",
+          "reported": 93,
+          "average": 80.0,
+          "grades": [1, 0, 0, 0, 1, 6, 8, 13, 42, 15, 7],
+          "instructors": ["Avram Lewis"]
+        },
+        {
+          "session": "2022W",
+          "reported": 62,
+          "average": 80.9,
+          "grades": [1, 0, 0, 0, 1, 5, 2, 8, 18, 20, 7],
+          "instructors": ["Avram Lewis"]
+        }
+      ]
+    },
+    "GEOG 310": {
+      "reported": 2282,
+      "average": 75.2,
+      "grades": [38, 33, 71, 85, 139, 232, 337, 383, 517, 336, 90],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 286,
+          "average": 78.9,
+          "grades": [5, 3, 4, 2, 6, 14, 31, 54, 86, 54, 27],
+          "instructors": ["Alec Blair", "Phurwa Dondrub Dolpopa"]
+        },
+        {
+          "session": "2025S",
+          "reported": 124,
+          "average": 74.1,
+          "grades": [4, 0, 4, 4, 9, 16, 18, 23, 25, 20, 1],
+          "instructors": ["Alec Blair"]
+        },
+        {
+          "session": "2024W",
+          "reported": 318,
+          "average": 76.4,
+          "grades": [3, 5, 2, 7, 15, 24, 59, 54, 100, 45, 4],
+          "instructors": ["Alec Blair"]
+        },
+        {
+          "session": "2024S",
+          "reported": 124,
+          "average": 75.9,
+          "grades": [1, 2, 2, 2, 7, 17, 17, 19, 35, 18, 4],
+          "instructors": ["Alec Blair"]
+        },
+        {
+          "session": "2023W",
+          "reported": 258,
+          "average": 74.4,
+          "grades": [5, 0, 7, 9, 26, 22, 47, 43, 54, 34, 5],
+          "instructors": ["Alec Blair", "Christopher Lamb"]
+        },
+        {
+          "session": "2023S",
+          "reported": 138,
+          "average": 73.4,
+          "grades": [3, 2, 6, 8, 8, 19, 17, 20, 24, 18, 5],
+          "instructors": ["Alec Blair"]
+        },
+        {
+          "session": "2022W",
+          "reported": 541,
+          "average": 74.7,
+          "grades": [9, 14, 19, 28, 37, 56, 79, 91, 110, 81, 17],
+          "instructors": ["Alec Blair", "Audrey Pearson", "Loch Brown"]
+        },
+        {
+          "session": "2022S",
+          "reported": 129,
+          "average": 74.4,
+          "grades": [2, 4, 8, 8, 8, 10, 15, 26, 18, 19, 11],
+          "instructors": ["Alec Blair"]
+        },
+        {
+          "session": "2021W",
+          "reported": 364,
+          "average": 73.6,
+          "grades": [6, 3, 19, 17, 23, 54, 54, 53, 65, 47, 16],
+          "instructors": ["Karen Jessica Bakker", "Alec Blair"]
+        }
+      ]
+    },
+    "GEOG 311": {
+      "reported": 722,
+      "average": 76.4,
+      "grades": [7, 9, 9, 19, 33, 57, 110, 141, 207, 105, 20],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 169,
+          "average": 75.9,
+          "grades": [2, 3, 3, 6, 10, 13, 26, 36, 39, 25, 6],
+          "instructors": ["Alec Blair"]
+        },
+        {
+          "session": "2024W",
+          "reported": 228,
+          "average": 75.5,
+          "grades": [3, 3, 3, 6, 15, 24, 31, 44, 67, 27, 5],
+          "instructors": ["Alec Blair"]
+        },
+        {
+          "session": "2023W",
+          "reported": 96,
+          "average": 74.7,
+          "grades": [1, 3, 3, 6, 3, 8, 23, 12, 20, 15, 2],
+          "instructors": ["Alec Blair"]
+        },
+        {
+          "session": "2022W",
+          "reported": 128,
+          "average": 78.8,
+          "grades": [1, 0, 0, 1, 5, 5, 16, 26, 39, 28, 7],
+          "instructors": ["Alec Blair", "Yin Kiu Leung"]
+        },
+        {
+          "session": "2021W",
+          "reported": 101,
+          "average": 77.9,
+          "grades": [0, 0, 0, 0, 0, 7, 14, 23, 42, 10, 0],
+          "instructors": ["Alec Blair"]
+        }
+      ]
+    },
+    "GEOG 312": {
+      "reported": 310,
+      "average": 76.2,
+      "grades": [1, 3, 9, 11, 21, 35, 47, 35, 79, 39, 17],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 81,
+          "average": 77.2,
+          "grades": [0, 0, 5, 5, 7, 9, 7, 5, 21, 14, 8],
+          "instructors": ["Simon Donner"]
+        },
+        {
+          "session": "2024W",
+          "reported": 75,
+          "average": 77.0,
+          "grades": [1, 2, 2, 3, 3, 9, 10, 7, 18, 12, 8],
+          "instructors": ["Simon Donner"]
+        },
+        {
+          "session": "2023W",
+          "reported": 57,
+          "average": 76.1,
+          "grades": [0, 1, 2, 3, 3, 4, 9, 10, 17, 6, 1],
+          "instructors": ["Simon Donner"]
+        },
+        {
+          "session": "2021W",
+          "reported": 97,
+          "average": 74.8,
+          "grades": [0, 0, 0, 0, 8, 13, 21, 13, 23, 7, 0],
+          "instructors": ["Simon Donner"]
+        }
+      ]
+    },
+    "GEOG 313": {
+      "reported": 536,
+      "average": 75.2,
+      "grades": [12, 4, 5, 10, 17, 34, 98, 132, 148, 52, 10],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 125,
+          "average": 74.4,
+          "grades": [4, 2, 1, 2, 6, 5, 24, 41, 30, 10, 0],
+          "instructors": ["Jemima Baada"]
+        },
+        {
+          "session": "2024W",
+          "reported": 138,
+          "average": 75.9,
+          "grades": [3, 0, 3, 2, 1, 12, 25, 35, 49, 7, 1],
+          "instructors": ["Jemima Baada"]
+        },
+        {
+          "session": "2023W",
+          "reported": 50,
+          "average": 75.2,
+          "grades": [4, 0, 0, 1, 1, 3, 6, 10, 11, 11, 2],
+          "instructors": ["Micheal Jerowsky"]
+        },
+        {
+          "session": "2022W",
+          "reported": 90,
+          "average": 74.3,
+          "grades": [1, 2, 1, 5, 9, 3, 16, 22, 25, 6, 0],
+          "instructors": ["Christopher Lamb"]
+        },
+        {
+          "session": "2021W",
+          "reported": 133,
+          "average": 75.8,
+          "grades": [0, 0, 0, 0, 0, 11, 27, 24, 33, 18, 7],
+          "instructors": ["Alec Blair"]
+        }
+      ]
+    },
+    "GEOG 314": {
+      "reported": 477,
+      "average": 78.7,
+      "grades": [9, 8, 4, 8, 11, 34, 43, 52, 107, 106, 76],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 107,
+          "average": 78.1,
+          "grades": [5, 5, 0, 2, 1, 8, 8, 4, 30, 26, 18],
+          "instructors": ["Marysa Lague"]
+        },
+        {
+          "session": "2024W",
+          "reported": 94,
+          "average": 81.3,
+          "grades": [3, 2, 0, 2, 2, 5, 7, 8, 15, 24, 26],
+          "instructors": ["Marysa Lague"]
+        },
+        {
+          "session": "2023W",
+          "reported": 66,
+          "average": 79.6,
+          "grades": [0, 0, 0, 0, 1, 6, 8, 16, 18, 10, 5],
+          "instructors": ["Holly Chubb"]
+        },
+        {
+          "session": "2022W",
+          "reported": 96,
+          "average": 77.2,
+          "grades": [1, 1, 4, 4, 7, 9, 10, 14, 17, 17, 12],
+          "instructors": ["Audrey Pearson"]
+        },
+        {
+          "session": "2021W",
+          "reported": 114,
+          "average": 78.0,
+          "grades": [0, 0, 0, 0, 0, 6, 10, 10, 27, 29, 15],
+          "instructors": ["Michele Koppes", "Simon Donner"]
+        }
+      ]
+    },
+    "GEOG 316": {
+      "reported": 371,
+      "average": 75.2,
+      "grades": [7, 4, 9, 10, 24, 38, 56, 72, 70, 58, 10],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 91,
+          "average": 73.9,
+          "grades": [4, 2, 5, 4, 7, 10, 8, 18, 15, 16, 2],
+          "instructors": ["Loch Brown"]
+        },
+        {
+          "session": "2024W",
+          "reported": 67,
+          "average": 75.9,
+          "grades": [0, 0, 1, 2, 2, 6, 16, 18, 16, 5, 1],
+          "instructors": ["Alec Blair"]
+        },
+        {
+          "session": "2023W",
+          "reported": 80,
+          "average": 75.6,
+          "grades": [3, 1, 1, 3, 5, 7, 6, 11, 24, 13, 4],
+          "instructors": ["Loch Brown"]
+        },
+        {
+          "session": "2022W",
+          "reported": 64,
+          "average": 77.2,
+          "grades": [0, 1, 2, 1, 3, 5, 12, 8, 15, 14, 3],
+          "instructors": ["Alec Blair"]
+        },
+        {
+          "session": "2021W",
+          "reported": 69,
+          "average": 74.0,
+          "grades": [0, 0, 0, 0, 7, 10, 14, 17, 0, 10, 0],
+          "instructors": ["Alec Blair"]
+        }
+      ]
+    },
+    "GEOG 318": {
+      "reported": 337,
+      "average": 76.3,
+      "grades": [4, 0, 3, 7, 11, 17, 32, 69, 112, 46, 7],
+      "terms": [
+        {
+          "session": "2024S",
+          "reported": 38,
+          "average": 75.9,
+          "grades": [0, 0, 1, 1, 1, 5, 7, 9, 9, 4, 1],
+          "instructors": ["Alec Blair"]
+        },
+        {
+          "session": "2023W",
+          "reported": 49,
+          "average": 76.4,
+          "grades": [1, 0, 1, 1, 1, 2, 5, 15, 19, 4, 0],
+          "instructors": ["Alec Blair"]
+        },
+        {
+          "session": "2023S",
+          "reported": 45,
+          "average": 75.7,
+          "grades": [1, 0, 0, 4, 4, 4, 4, 5, 11, 9, 2],
+          "instructors": ["Alec Blair"]
+        },
+        {
+          "session": "2022W",
+          "reported": 62,
+          "average": 77.2,
+          "grades": [1, 0, 0, 1, 0, 2, 4, 16, 38, 0, 0],
+          "instructors": ["Alec Blair"]
+        },
+        {
+          "session": "2022S",
+          "reported": 44,
+          "average": 76.8,
+          "grades": [1, 0, 1, 0, 5, 4, 4, 5, 10, 10, 4],
+          "instructors": ["Alec Blair"]
+        },
+        {
+          "session": "2021W",
+          "reported": 50,
+          "average": 75.3,
+          "grades": [0, 0, 0, 0, 0, 0, 8, 8, 8, 12, 0],
+          "instructors": ["Heather Chappells"]
+        },
+        {
+          "session": "2021S",
+          "reported": 49,
+          "average": 76.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 11, 17, 7, 0],
+          "instructors": ["Alec Blair"]
+        }
+      ]
+    },
+    "GEOG 319": {
+      "reported": 460,
+      "average": 74.7,
+      "grades": [7, 3, 5, 11, 65, 29, 72, 98, 81, 62, 12],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 137,
+          "average": 73.6,
+          "grades": [6, 1, 4, 8, 12, 12, 26, 16, 25, 21, 6],
+          "instructors": ["Micheal Jerowsky"]
+        },
+        {
+          "session": "2024W",
+          "reported": 64,
+          "average": 78.6,
+          "grades": [0, 0, 0, 0, 7, 1, 4, 29, 7, 13, 3],
+          "instructors": ["Nina Hewitt"]
+        },
+        {
+          "session": "2023W",
+          "reported": 70,
+          "average": 74.8,
+          "grades": [1, 0, 0, 1, 13, 8, 10, 10, 15, 7, 3],
+          "instructors": ["Nina Hewitt"]
+        },
+        {
+          "session": "2022W",
+          "reported": 94,
+          "average": 74.1,
+          "grades": [0, 2, 1, 2, 18, 8, 17, 17, 22, 7, 0],
+          "instructors": ["Nina Hewitt"]
+        },
+        {
+          "session": "2021W",
+          "reported": 95,
+          "average": 74.2,
+          "grades": [0, 0, 0, 0, 15, 0, 15, 26, 12, 14, 0],
+          "instructors": ["Nina Hewitt"]
+        }
+      ]
+    },
+    "GEOG 321": {
+      "reported": 56,
+      "average": 74.7,
+      "grades": [0, 0, 0, 0, 0, 0, 7, 9, 15, 11, 0],
+      "terms": [
+        {
+          "session": "2021W",
+          "reported": 56,
+          "average": 74.7,
+          "grades": [0, 0, 0, 0, 0, 0, 7, 9, 15, 11, 0],
+          "instructors": ["Wesley Attewell"]
+        }
+      ]
+    },
+    "GEOG 327": {
+      "reported": 251,
+      "average": 73.0,
+      "grades": [4, 1, 5, 11, 34, 23, 50, 41, 49, 14, 0],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 73,
+          "average": 72.5,
+          "grades": [1, 0, 5, 7, 7, 7, 12, 10, 16, 4, 0],
+          "instructors": ["Kathryn McKay"]
+        },
+        {
+          "session": "2022W",
+          "reported": 86,
+          "average": 73.1,
+          "grades": [3, 1, 0, 4, 13, 3, 17, 19, 16, 10, 0],
+          "instructors": ["Kathryn McKay"]
+        },
+        {
+          "session": "2021W",
+          "reported": 92,
+          "average": 73.3,
+          "grades": [0, 0, 0, 0, 14, 13, 21, 12, 17, 0, 0],
+          "instructors": ["Kathryn Mckay"]
+        }
+      ]
+    },
+    "GEOG 328": {
+      "reported": 293,
+      "average": 80.3,
+      "grades": [3, 0, 1, 7, 12, 21, 24, 46, 74, 68, 35],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 96,
+          "average": 79.2,
+          "grades": [2, 0, 0, 0, 2, 12, 9, 17, 26, 23, 5],
+          "instructors": ["Desiree Valadares"]
+        },
+        {
+          "session": "2024W",
+          "reported": 77,
+          "average": 80.0,
+          "grades": [1, 0, 0, 5, 2, 4, 6, 16, 13, 20, 10],
+          "instructors": ["Desiree Valadares"]
+        },
+        {
+          "session": "2023W",
+          "reported": 64,
+          "average": 82.5,
+          "grades": [0, 0, 0, 0, 3, 2, 4, 6, 22, 15, 10],
+          "instructors": ["Desiree Valadares"]
+        },
+        {
+          "session": "2022W",
+          "reported": 56,
+          "average": 80.1,
+          "grades": [0, 0, 1, 2, 5, 3, 5, 7, 13, 10, 10],
+          "instructors": ["Desiree Valadares"]
+        }
+      ]
+    },
+    "GEOG 329": {
+      "reported": 317,
+      "average": 74.2,
+      "grades": [2, 1, 1, 11, 20, 56, 48, 54, 78, 14, 9],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 73,
+          "average": 75.2,
+          "grades": [1, 1, 0, 3, 9, 7, 9, 15, 16, 8, 4],
+          "instructors": ["Philippe le Billon"]
+        },
+        {
+          "session": "2024W",
+          "reported": 79,
+          "average": 76.2,
+          "grades": [0, 0, 1, 4, 5, 6, 16, 15, 27, 3, 2],
+          "instructors": ["Philippe le Billon"]
+        },
+        {
+          "session": "2023W",
+          "reported": 80,
+          "average": 73.7,
+          "grades": [1, 0, 0, 4, 6, 18, 13, 13, 16, 3, 3],
+          "instructors": ["Philippe le Billon"]
+        },
+        {
+          "session": "2021W",
+          "reported": 85,
+          "average": 72.1,
+          "grades": [0, 0, 0, 0, 0, 25, 10, 11, 19, 0, 0],
+          "instructors": ["Philippe Le Billon"]
+        }
+      ]
+    },
+    "GEOG 342": {
+      "reported": 211,
+      "average": 76.8,
+      "grades": [10, 2, 1, 4, 9, 10, 20, 38, 73, 40, 4],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 72,
+          "average": 78.9,
+          "grades": [2, 0, 0, 1, 2, 3, 8, 8, 35, 13, 0],
+          "instructors": ["Priti Narayan"]
+        },
+        {
+          "session": "2024W",
+          "reported": 84,
+          "average": 76.1,
+          "grades": [4, 1, 0, 2, 4, 4, 6, 23, 27, 11, 2],
+          "instructors": ["Priti Narayan"]
+        },
+        {
+          "session": "2023W",
+          "reported": 55,
+          "average": 75.0,
+          "grades": [4, 1, 1, 1, 3, 3, 6, 7, 11, 16, 2],
+          "instructors": ["Priti Narayan"]
+        }
+      ]
+    },
+    "GEOG 345": {
+      "reported": 153,
+      "average": 74.3,
+      "grades": [3, 3, 3, 14, 10, 23, 22, 18, 25, 17, 13],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 37,
+          "average": 74.8,
+          "grades": [2, 0, 0, 4, 2, 2, 6, 7, 7, 4, 3],
+          "instructors": ["Bonnie Kaserman"]
+        },
+        {
+          "session": "2023W",
+          "reported": 55,
+          "average": 74.7,
+          "grades": [1, 0, 2, 3, 2, 13, 7, 4, 10, 6, 5],
+          "instructors": ["Bonnie Kaserman"]
+        },
+        {
+          "session": "2022W",
+          "reported": 61,
+          "average": 73.6,
+          "grades": [0, 3, 1, 7, 6, 8, 9, 7, 8, 7, 5],
+          "instructors": ["Bonnie Kaserman"]
+        }
+      ]
+    },
+    "GEOG 346": {
+      "reported": 96,
+      "average": 79.4,
+      "grades": [4, 1, 0, 1, 0, 3, 4, 11, 16, 26, 13],
+      "terms": [
+        {
+          "session": "2023W",
+          "topic": "A",
+          "title": "Topics in Geography",
+          "reported": 12,
+          "average": 92.3,
+          "grades": [0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 9],
+          "instructors": ["Peter Hudson"]
+        },
+        {
+          "session": "2023W",
+          "topic": "B",
+          "title": "Topics in Geography",
+          "reported": 10,
+          "average": 72.8,
+          "grades": [2, 0, 0, 0, 0, 0, 0, 4, 2, 2, 0],
+          "instructors": ["Michael Fabris"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Topics in Geography",
+          "reported": 24,
+          "average": 75.9,
+          "grades": [2, 1, 0, 0, 0, 0, 3, 5, 5, 5, 3],
+          "instructors": ["Priti Narayan"]
+        },
+        {
+          "session": "2022W",
+          "topic": "B",
+          "title": "Topics in Geography",
+          "reported": 13,
+          "average": 81.6,
+          "grades": [0, 0, 0, 0, 0, 2, 1, 2, 2, 5, 1],
+          "instructors": ["Michael Fabris"]
+        },
+        {
+          "session": "2021W",
+          "topic": "B",
+          "title": "Topics in Geography",
+          "reported": 37,
+          "average": 78.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 7, 14, 0],
+          "instructors": ["Priti Narayan"]
+        }
+      ]
+    },
+    "GEOG 350": {
+      "reported": 962,
+      "average": 74.2,
+      "grades": [30, 9, 13, 31, 66, 81, 145, 189, 229, 93, 25],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 96,
+          "average": 75.0,
+          "grades": [2, 2, 3, 3, 4, 9, 21, 18, 24, 10, 0],
+          "instructors": ["Siobhán Wittig McPhee"]
+        },
+        {
+          "session": "2024W",
+          "reported": 165,
+          "average": 73.4,
+          "grades": [6, 2, 2, 6, 17, 14, 30, 28, 44, 13, 3],
+          "instructors": ["María Cervantes Macías", "Joseph Daniels"]
+        },
+        {
+          "session": "2024S",
+          "reported": 49,
+          "average": 72.0,
+          "grades": [3, 0, 0, 3, 2, 6, 12, 12, 10, 1, 0],
+          "instructors": ["Siobhan Wittig McPhee"]
+        },
+        {
+          "session": "2023W",
+          "reported": 129,
+          "average": 71.9,
+          "grades": [6, 1, 2, 7, 16, 9, 24, 21, 29, 5, 5],
+          "instructors": ["Joseph Daniels"]
+        },
+        {
+          "session": "2023S",
+          "reported": 73,
+          "average": 72.2,
+          "grades": [2, 1, 3, 6, 6, 4, 8, 12, 12, 8, 1],
+          "instructors": ["Andrew Shmuely"]
+        },
+        {
+          "session": "2022W",
+          "reported": 159,
+          "average": 75.0,
+          "grades": [8, 3, 3, 5, 11, 13, 14, 32, 32, 24, 14],
+          "instructors": ["Lia Frederiksen", "Andrew Shmuely"]
+        },
+        {
+          "session": "2022S",
+          "reported": 68,
+          "average": 75.5,
+          "grades": [3, 0, 0, 1, 3, 5, 11, 13, 24, 6, 2],
+          "instructors": ["Rachel Brydolf-Horwitz", "Lia Frederiksen"]
+        },
+        {
+          "session": "2021W",
+          "reported": 157,
+          "average": 75.7,
+          "grades": [0, 0, 0, 0, 7, 14, 15, 39, 39, 17, 0],
+          "instructors": ["Lia Frederiksen", "Andrew Shmuely"]
+        },
+        {
+          "session": "2021S",
+          "reported": 66,
+          "average": 77.0,
+          "grades": [0, 0, 0, 0, 0, 7, 10, 14, 15, 9, 0],
+          "instructors": ["Lia Frederiksen"]
+        }
+      ]
+    },
+    "GEOG 351": {
+      "reported": 149,
+      "average": 76.4,
+      "grades": [5, 1, 2, 4, 10, 13, 17, 21, 38, 25, 13],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 71,
+          "average": 76.0,
+          "grades": [2, 0, 1, 3, 5, 6, 5, 14, 18, 12, 5],
+          "instructors": ["Mohammed Arefin"]
+        },
+        {
+          "session": "2023W",
+          "reported": 34,
+          "average": 75.8,
+          "grades": [3, 1, 0, 0, 1, 3, 4, 1, 9, 8, 4],
+          "instructors": ["Mohammed Arefin"]
+        },
+        {
+          "session": "2022W",
+          "reported": 44,
+          "average": 77.5,
+          "grades": [0, 0, 1, 1, 4, 4, 8, 6, 11, 5, 4],
+          "instructors": ["Trevor Wideman"]
+        }
+      ]
+    },
+    "GEOG 352": {
+      "reported": 413,
+      "average": 78.5,
+      "grades": [6, 2, 4, 4, 8, 16, 37, 85, 152, 81, 6],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 95,
+          "average": 79.7,
+          "grades": [5, 1, 1, 1, 0, 0, 5, 7, 40, 35, 0],
+          "instructors": ["Priti Narayan"]
+        },
+        {
+          "session": "2024W",
+          "reported": 85,
+          "average": 78.0,
+          "grades": [0, 0, 1, 0, 3, 4, 9, 29, 39, 0, 0],
+          "instructors": ["Priti Narayan"]
+        },
+        {
+          "session": "2023W",
+          "reported": 65,
+          "average": 79.3,
+          "grades": [1, 0, 1, 1, 2, 0, 7, 14, 24, 13, 2],
+          "instructors": ["Priti Narayan"]
+        },
+        {
+          "session": "2022W",
+          "reported": 69,
+          "average": 80.0,
+          "grades": [0, 1, 1, 2, 3, 4, 3, 9, 22, 20, 4],
+          "instructors": ["Priti Narayan"]
+        },
+        {
+          "session": "2021W",
+          "reported": 99,
+          "average": 76.3,
+          "grades": [0, 0, 0, 0, 0, 8, 13, 26, 27, 13, 0],
+          "instructors": ["Priti Narayan"]
+        }
+      ]
+    },
+    "GEOG 353": {
+      "reported": 253,
+      "average": 75.3,
+      "grades": [7, 1, 6, 5, 18, 27, 31, 47, 68, 33, 8],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 62,
+          "average": 77.7,
+          "grades": [2, 0, 0, 1, 4, 7, 5, 6, 21, 14, 2],
+          "instructors": ["Jemima Baada"]
+        },
+        {
+          "session": "2024W",
+          "reported": 63,
+          "average": 74.4,
+          "grades": [3, 0, 1, 1, 3, 8, 4, 14, 20, 7, 2],
+          "instructors": ["Jemima Baada"]
+        },
+        {
+          "session": "2023W",
+          "reported": 70,
+          "average": 74.8,
+          "grades": [1, 0, 4, 1, 4, 6, 12, 16, 17, 6, 1],
+          "instructors": ["Jemima Baada"]
+        },
+        {
+          "session": "2022W",
+          "reported": 58,
+          "average": 74.2,
+          "grades": [1, 1, 1, 2, 7, 6, 10, 11, 10, 6, 3],
+          "instructors": ["Jemima Baada"]
+        }
+      ]
+    },
+    "GEOG 355": {
+      "reported": 120,
+      "average": 78.0,
+      "grades": [3, 3, 0, 4, 6, 7, 10, 8, 41, 32, 6],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 66,
+          "average": 78.6,
+          "grades": [2, 0, 0, 2, 2, 3, 6, 5, 26, 18, 2],
+          "instructors": ["Michael Fabris"]
+        },
+        {
+          "session": "2024W",
+          "reported": 54,
+          "average": 77.2,
+          "grades": [1, 3, 0, 2, 4, 4, 4, 3, 15, 14, 4],
+          "instructors": ["Michael Fabris"]
+        }
+      ]
+    },
+    "GEOG 357": {
+      "reported": 490,
+      "average": 73.9,
+      "grades": [15, 6, 8, 18, 23, 42, 84, 82, 122, 47, 7],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 23,
+          "average": 77.0,
+          "grades": [1, 2, 0, 0, 0, 0, 2, 3, 9, 4, 2],
+          "instructors": ["Bonnie Kaserman"]
+        },
+        {
+          "session": "2024S",
+          "reported": 66,
+          "average": 72.4,
+          "grades": [3, 3, 2, 2, 8, 4, 13, 9, 12, 6, 4],
+          "instructors": ["Bonnie Kaserman"]
+        },
+        {
+          "session": "2023W",
+          "reported": 19,
+          "average": 80.5,
+          "grades": [0, 0, 0, 1, 0, 1, 1, 1, 9, 6, 0],
+          "instructors": ["Bonnie Kaserman"]
+        },
+        {
+          "session": "2023S",
+          "reported": 70,
+          "average": 75.0,
+          "grades": [1, 0, 2, 2, 6, 6, 10, 9, 15, 8, 0],
+          "instructors": ["Bonnie Kaserman"]
+        },
+        {
+          "session": "2022W",
+          "reported": 62,
+          "average": 75.6,
+          "grades": [1, 0, 1, 3, 1, 5, 11, 14, 21, 5, 0],
+          "instructors": ["Bonnie Kaserman"]
+        },
+        {
+          "session": "2022S",
+          "reported": 86,
+          "average": 71.7,
+          "grades": [3, 1, 3, 2, 8, 13, 20, 12, 16, 7, 1],
+          "instructors": ["Bonnie Kaserman"]
+        },
+        {
+          "session": "2021W",
+          "reported": 81,
+          "average": 75.0,
+          "grades": [0, 0, 0, 0, 0, 6, 17, 17, 16, 11, 0],
+          "instructors": ["Bonnie Kaserman"]
+        },
+        {
+          "session": "2021S",
+          "reported": 83,
+          "average": 72.0,
+          "grades": [6, 0, 0, 8, 0, 7, 10, 17, 24, 0, 0],
+          "instructors": ["Bonnie Kaserman"]
+        }
+      ]
+    },
+    "GEOG 361": {
+      "reported": 219,
+      "average": 74.9,
+      "grades": [6, 2, 1, 7, 5, 18, 48, 26, 76, 13, 1],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 45,
+          "average": 77.3,
+          "grades": [1, 1, 0, 0, 1, 3, 5, 9, 20, 5, 0],
+          "instructors": ["Trevor Barnes"]
+        },
+        {
+          "session": "2024W",
+          "reported": 52,
+          "average": 75.0,
+          "grades": [2, 0, 0, 1, 4, 3, 16, 5, 16, 4, 1],
+          "instructors": ["Trevor Barnes"]
+        },
+        {
+          "session": "2023W",
+          "reported": 37,
+          "average": 74.8,
+          "grades": [2, 0, 0, 0, 0, 2, 10, 7, 15, 0, 0],
+          "instructors": ["Trevor Barnes"]
+        },
+        {
+          "session": "2022W",
+          "reported": 35,
+          "average": 75.5,
+          "grades": [1, 1, 1, 0, 0, 3, 10, 5, 10, 4, 0],
+          "instructors": ["Trevor Barnes"]
+        },
+        {
+          "session": "2021W",
+          "reported": 50,
+          "average": 72.2,
+          "grades": [0, 0, 0, 6, 0, 7, 7, 0, 15, 0, 0],
+          "instructors": ["Trevor Barnes"]
+        }
+      ]
+    },
+    "GEOG 362": {
+      "reported": 201,
+      "average": 76.6,
+      "grades": [7, 1, 3, 10, 2, 18, 26, 21, 60, 38, 14],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 71,
+          "average": 80.5,
+          "grades": [0, 0, 1, 2, 0, 2, 10, 5, 26, 18, 7],
+          "instructors": ["James Francis Glassman"]
+        },
+        {
+          "session": "2024W",
+          "reported": 53,
+          "average": 71.9,
+          "grades": [4, 1, 0, 3, 1, 11, 8, 5, 13, 6, 1],
+          "instructors": ["James Francis Glassman"]
+        },
+        {
+          "session": "2023W",
+          "reported": 39,
+          "average": 77.6,
+          "grades": [0, 0, 1, 3, 1, 3, 5, 5, 11, 7, 2],
+          "instructors": ["James Francis Glassman"]
+        },
+        {
+          "session": "2022W",
+          "reported": 38,
+          "average": 75.0,
+          "grades": [3, 0, 1, 2, 0, 2, 3, 6, 10, 7, 4],
+          "instructors": ["James Francis Glassman"]
+        }
+      ]
+    },
+    "GEOG 364": {
+      "reported": 222,
+      "average": 73.3,
+      "grades": [6, 0, 2, 0, 3, 35, 67, 66, 35, 7, 0],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 54,
+          "average": 74.4,
+          "grades": [1, 0, 0, 0, 2, 5, 14, 19, 9, 4, 0],
+          "instructors": ["Jamie Peck"]
+        },
+        {
+          "session": "2024W",
+          "reported": 61,
+          "average": 75.2,
+          "grades": [0, 0, 1, 0, 0, 11, 16, 19, 14, 0, 0],
+          "instructors": ["Jamie Peck"]
+        },
+        {
+          "session": "2023W",
+          "reported": 47,
+          "average": 70.0,
+          "grades": [4, 0, 0, 0, 0, 7, 15, 13, 4, 3, 0],
+          "instructors": ["Jamie Peck"]
+        },
+        {
+          "session": "2022W",
+          "reported": 60,
+          "average": 72.9,
+          "grades": [1, 0, 1, 0, 1, 12, 22, 15, 8, 0, 0],
+          "instructors": ["Jamie Peck"]
+        }
+      ]
+    },
+    "GEOG 371": {
+      "reported": 247,
+      "average": 81.1,
+      "grades": [6, 4, 5, 3, 7, 7, 6, 20, 44, 66, 63],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 59,
+          "average": 81.8,
+          "grades": [0, 0, 4, 1, 1, 3, 2, 5, 12, 21, 10],
+          "instructors": ["Bonnie Kaserman"]
+        },
+        {
+          "session": "2024W",
+          "reported": 57,
+          "average": 83.2,
+          "grades": [2, 3, 0, 0, 1, 1, 2, 2, 8, 16, 22],
+          "instructors": ["Bonnie Kaserman"]
+        },
+        {
+          "session": "2023W",
+          "reported": 48,
+          "average": 75.6,
+          "grades": [4, 1, 1, 2, 5, 3, 1, 9, 5, 5, 11],
+          "instructors": ["Bonnie Kaserman"]
+        },
+        {
+          "session": "2022W",
+          "reported": 35,
+          "average": 87.1,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 4, 7, 9, 14],
+          "instructors": ["Bonnie Kaserman"]
+        },
+        {
+          "session": "2021W",
+          "reported": 48,
+          "average": 78.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 12, 15, 6],
+          "instructors": ["Bonnie Kaserman"]
+        }
+      ]
+    },
+    "GEOG 374": {
+      "reported": 551,
+      "average": 74.8,
+      "grades": [10, 4, 11, 24, 64, 24, 85, 100, 84, 85, 33],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 111,
+          "average": 77.3,
+          "grades": [6, 0, 3, 2, 4, 6, 12, 13, 17, 29, 19],
+          "instructors": ["Carla Urquhart"]
+        },
+        {
+          "session": "2024W",
+          "reported": 102,
+          "average": 75.5,
+          "grades": [1, 1, 1, 7, 12, 5, 19, 20, 11, 18, 7],
+          "instructors": ["Nina Hewitt"]
+        },
+        {
+          "session": "2023W",
+          "reported": 90,
+          "average": 73.4,
+          "grades": [3, 0, 2, 2, 16, 3, 20, 15, 15, 7, 5],
+          "instructors": ["Nina Hewitt"]
+        },
+        {
+          "session": "2022W",
+          "reported": 113,
+          "average": 73.5,
+          "grades": [0, 3, 5, 13, 10, 10, 16, 22, 18, 14, 2],
+          "instructors": ["Nina Hewitt"]
+        },
+        {
+          "session": "2021W",
+          "reported": 135,
+          "average": 74.3,
+          "grades": [0, 0, 0, 0, 22, 0, 18, 30, 23, 17, 0],
+          "instructors": ["Nina Hewitt"]
+        }
+      ]
+    },
+    "GEOG 391": {
+      "reported": 96,
+      "average": 72.0,
+      "grades": [5, 1, 3, 4, 5, 14, 18, 15, 24, 3, 2],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 18,
+          "average": 69.9,
+          "grades": [2, 1, 0, 0, 1, 2, 3, 2, 5, 0, 2],
+          "instructors": ["Merje Kuus"]
+        },
+        {
+          "session": "2023W",
+          "reported": 24,
+          "average": 70.6,
+          "grades": [2, 0, 1, 2, 1, 1, 6, 3, 4, 2, 0],
+          "instructors": ["Merje Kuus"]
+        },
+        {
+          "session": "2022W",
+          "reported": 54,
+          "average": 73.4,
+          "grades": [1, 0, 2, 2, 3, 11, 9, 10, 15, 1, 0],
+          "instructors": ["Merje Kuus"]
+        }
+      ]
+    },
+    "GEOG 395": {
+      "reported": 171,
+      "average": 76.1,
+      "grades": [8, 1, 2, 2, 5, 10, 28, 29, 53, 26, 4],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 59,
+          "average": 78.3,
+          "grades": [2, 0, 2, 2, 3, 2, 4, 10, 16, 14, 4],
+          "instructors": ["Jose Garcia Martinez"]
+        },
+        {
+          "session": "2023W",
+          "reported": 70,
+          "average": 73.7,
+          "grades": [5, 1, 0, 0, 0, 5, 16, 9, 27, 4, 0],
+          "instructors": ["Juanita Sundberg"]
+        },
+        {
+          "session": "2022W",
+          "reported": 42,
+          "average": 76.9,
+          "grades": [1, 0, 0, 0, 2, 3, 8, 10, 10, 8, 0],
+          "instructors": ["Juanita Sundberg"]
+        }
+      ]
+    },
+    "GEOG 402": {
+      "reported": 8,
+      "average": 87.6,
+      "grades": [0, 0, 0, 0, 0, 1, 0, 0, 0, 2, 5],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 8,
+          "average": 87.6,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 0, 0, 2, 5],
+          "instructors": ["Jessica Dempsey", "Rachel White"]
+        }
+      ]
+    },
+    "GEOG 410": {
+      "reported": 338,
+      "average": 77.7,
+      "grades": [7, 2, 3, 2, 4, 9, 44, 59, 127, 40, 11],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 62,
+          "average": 79.2,
+          "grades": [1, 0, 1, 0, 0, 3, 3, 12, 28, 13, 1],
+          "instructors": ["Loch Brown", "Alec Blair"]
+        },
+        {
+          "session": "2024W",
+          "reported": 45,
+          "average": 78.6,
+          "grades": [1, 0, 0, 1, 1, 1, 6, 7, 17, 8, 3],
+          "instructors": ["Loch Brown"]
+        },
+        {
+          "session": "2024S",
+          "reported": 22,
+          "average": 75.0,
+          "grades": [1, 0, 1, 0, 2, 1, 3, 5, 6, 3, 0],
+          "instructors": ["Max Cohen"]
+        },
+        {
+          "session": "2023W",
+          "reported": 42,
+          "average": 79.1,
+          "grades": [0, 1, 0, 0, 0, 0, 7, 9, 22, 3, 0],
+          "instructors": ["Loch Brown"]
+        },
+        {
+          "session": "2023S",
+          "reported": 27,
+          "average": 75.1,
+          "grades": [1, 1, 1, 1, 1, 2, 4, 2, 2, 5, 5],
+          "instructors": ["Max Cohen"]
+        },
+        {
+          "session": "2022W",
+          "reported": 45,
+          "average": 79.4,
+          "grades": [1, 0, 0, 0, 0, 1, 4, 6, 26, 5, 2],
+          "instructors": ["Loch Brown"]
+        },
+        {
+          "session": "2022S",
+          "reported": 23,
+          "average": 72.9,
+          "grades": [2, 0, 0, 0, 0, 1, 3, 5, 9, 3, 0],
+          "instructors": ["Denver Nixon"]
+        },
+        {
+          "session": "2021W",
+          "reported": 47,
+          "average": 76.6,
+          "grades": [0, 0, 0, 0, 0, 0, 8, 6, 9, 0, 0],
+          "instructors": ["Alec Blair"]
+        },
+        {
+          "session": "2021S",
+          "reported": 25,
+          "average": 78.1,
+          "grades": [0, 0, 0, 0, 0, 0, 6, 7, 8, 0, 0],
+          "instructors": ["Denver Nixon"]
+        }
+      ]
+    },
+    "GEOG 411": {
+      "reported": 21,
+      "average": 79.6,
+      "grades": [1, 0, 0, 0, 0, 0, 1, 6, 6, 7, 0],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 21,
+          "average": 79.6,
+          "grades": [1, 0, 0, 0, 0, 0, 1, 6, 6, 7, 0],
+          "instructors": ["Loch Brown"]
+        }
+      ]
+    },
+    "GEOG 412": {
+      "reported": 243,
+      "average": 77.9,
+      "grades": [3, 1, 2, 6, 7, 21, 31, 44, 36, 45, 21],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 29,
+          "average": 76.3,
+          "grades": [1, 0, 0, 3, 0, 3, 4, 6, 4, 5, 3],
+          "instructors": ["Heather Chappells"]
+        },
+        {
+          "session": "2024W",
+          "reported": 57,
+          "average": 76.3,
+          "grades": [1, 0, 1, 1, 4, 6, 11, 10, 12, 10, 1],
+          "instructors": ["Micheal Jerowsky", "Heather Chappells"]
+        },
+        {
+          "session": "2023W",
+          "reported": 62,
+          "average": 80.6,
+          "grades": [1, 1, 0, 1, 2, 4, 5, 10, 10, 14, 14],
+          "instructors": ["Rosanna Carver", "Heather Chappells"]
+        },
+        {
+          "session": "2022W",
+          "reported": 31,
+          "average": 78.3,
+          "grades": [0, 0, 1, 1, 1, 1, 4, 10, 2, 8, 3],
+          "instructors": ["Heather Chappells"]
+        },
+        {
+          "session": "2021W",
+          "reported": 64,
+          "average": 77.2,
+          "grades": [0, 0, 0, 0, 0, 7, 7, 8, 8, 8, 0],
+          "instructors": ["Karen Jessica Bakker"]
+        }
+      ]
+    },
+    "GEOG 419": {
+      "reported": 61,
+      "average": 80.8,
+      "grades": [0, 0, 0, 1, 2, 2, 8, 8, 5, 12, 0],
+      "terms": [
+        {
+          "session": "2022W",
+          "reported": 31,
+          "average": 76.6,
+          "grades": [0, 0, 0, 1, 2, 2, 8, 8, 5, 5, 0],
+          "instructors": ["Jemima Baada"]
+        },
+        {
+          "session": "2021W",
+          "reported": 30,
+          "average": 85.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 0],
+          "instructors": ["Max Furrier", "Natasha Fox"]
+        }
+      ]
+    },
+    "GEOG 423": {
+      "reported": 74,
+      "average": 77.2,
+      "grades": [1, 1, 0, 0, 3, 5, 6, 16, 19, 11, 7],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 16,
+          "average": 80.1,
+          "grades": [0, 0, 0, 0, 2, 2, 0, 2, 2, 6, 2],
+          "instructors": ["Matthew Evenden"]
+        },
+        {
+          "session": "2024W",
+          "reported": 20,
+          "average": 78.6,
+          "grades": [0, 0, 0, 0, 0, 3, 4, 5, 4, 2, 2],
+          "instructors": ["Micheal Jerowsky"]
+        },
+        {
+          "session": "2023W",
+          "reported": 17,
+          "average": 75.6,
+          "grades": [1, 1, 0, 0, 1, 0, 2, 2, 4, 3, 3],
+          "instructors": ["Mollie Holmberg"]
+        },
+        {
+          "session": "2021W",
+          "reported": 21,
+          "average": 74.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 7, 9, 0, 0],
+          "instructors": ["Denver Nixon"]
+        }
+      ]
+    },
+    "GEOG 424": {
+      "reported": 72,
+      "average": 76.8,
+      "grades": [3, 0, 0, 0, 0, 2, 8, 10, 30, 7, 1],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 17,
+          "average": 79.2,
+          "grades": [0, 0, 0, 0, 0, 1, 3, 3, 8, 2, 0],
+          "instructors": ["Rachel Brydolf-Horwitz"]
+        },
+        {
+          "session": "2023W",
+          "reported": 22,
+          "average": 70.6,
+          "grades": [3, 0, 0, 0, 0, 0, 1, 5, 11, 2, 0],
+          "instructors": ["Rachel Brydolf-Horwitz"]
+        },
+        {
+          "session": "2022W",
+          "reported": 15,
+          "average": 80.0,
+          "grades": [0, 0, 0, 0, 0, 1, 4, 2, 4, 3, 1],
+          "instructors": ["Rachel Brydolf-Horwitz"]
+        },
+        {
+          "session": "2021W",
+          "reported": 18,
+          "average": 79.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 7, 0, 0],
+          "instructors": ["Juliane Collard", "Rachel Brydolf-Horwitz"]
+        }
+      ]
+    },
+    "GEOG 432": {
+      "reported": 83,
+      "average": 79.7,
+      "grades": [4, 0, 2, 0, 1, 1, 0, 6, 21, 28, 6],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 18,
+          "average": 82.3,
+          "grades": [1, 0, 0, 0, 0, 0, 0, 1, 7, 7, 2],
+          "instructors": ["Michael Fabris"]
+        },
+        {
+          "session": "2024W",
+          "reported": 16,
+          "average": 81.4,
+          "grades": [1, 0, 0, 0, 0, 0, 0, 2, 5, 6, 2],
+          "instructors": ["Michael Fabris"]
+        },
+        {
+          "session": "2023W",
+          "reported": 17,
+          "average": 78.6,
+          "grades": [1, 0, 1, 0, 0, 1, 0, 2, 6, 5, 1],
+          "instructors": ["Michael Fabris"]
+        },
+        {
+          "session": "2022W",
+          "reported": 18,
+          "average": 78.3,
+          "grades": [1, 0, 1, 0, 1, 0, 0, 1, 3, 10, 1],
+          "instructors": ["Michael Fabris"]
+        },
+        {
+          "session": "2021W",
+          "reported": 14,
+          "average": 77.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Michael Fabris"]
+        }
+      ]
+    },
+    "GEOG 442": {
+      "reported": 13,
+      "average": 89.3,
+      "grades": [1, 0, 0, 0, 0, 0, 0, 0, 0, 3, 9],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 13,
+          "average": 89.3,
+          "grades": [1, 0, 0, 0, 0, 0, 0, 0, 0, 3, 9],
+          "instructors": ["Peter Hudson"]
+        }
+      ]
+    },
+    "GEOG 446": {
+      "reported": 201,
+      "average": 82.6,
+      "grades": [0, 2, 2, 1, 3, 3, 17, 24, 44, 41, 43],
+      "terms": [
+        {
+          "session": "2025W",
+          "topic": "A",
+          "title": "TOPICS IN GEOG",
+          "reported": 16,
+          "average": 83.1,
+          "grades": [0, 0, 0, 0, 0, 0, 2, 1, 4, 7, 2],
+          "instructors": ["Jemima Baada"]
+        },
+        {
+          "session": "2025W",
+          "topic": "B",
+          "title": "TOPICS IN GEOG",
+          "reported": 16,
+          "average": 89.6,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 1, 0, 4, 10],
+          "instructors": ["Peter Hudson"]
+        },
+        {
+          "session": "2024W",
+          "topic": "A",
+          "title": "TOPICS IN GEOG",
+          "reported": 38,
+          "average": 80.6,
+          "grades": [0, 0, 1, 0, 1, 0, 2, 7, 16, 10, 1],
+          "instructors": ["Loch Brown", "Jemima Baada"]
+        },
+        {
+          "session": "2023W",
+          "topic": "A",
+          "title": "Topics in Geography",
+          "reported": 38,
+          "average": 87.9,
+          "grades": [0, 0, 1, 0, 0, 1, 5, 3, 5, 6, 16],
+          "instructors": ["Loch Brown", "Peter Hudson"]
+        },
+        {
+          "session": "2023W",
+          "topic": "B",
+          "title": "Topics in Geography",
+          "reported": 15,
+          "average": 78.4,
+          "grades": [0, 0, 0, 1, 2, 1, 2, 3, 0, 4, 2],
+          "instructors": ["Desiree Valadares"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Topics in Geography",
+          "reported": 22,
+          "average": 78.0,
+          "grades": [0, 2, 0, 0, 0, 1, 2, 5, 5, 6, 1],
+          "instructors": ["Loch Brown"]
+        },
+        {
+          "session": "2022W",
+          "topic": "B",
+          "title": "Topics in Geography",
+          "reported": 19,
+          "average": 82.6,
+          "grades": [0, 0, 0, 0, 0, 0, 3, 4, 4, 4, 4],
+          "instructors": ["Desiree Valadares"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Topics in Geography",
+          "reported": 20,
+          "average": 76.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 10, 0, 0],
+          "instructors": ["Philippe Le Billon"]
+        },
+        {
+          "session": "2021W",
+          "topic": "B",
+          "title": "Topics in Geography",
+          "reported": 17,
+          "average": 85.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7],
+          "instructors": ["Avram Lewis"]
+        }
+      ]
+    },
+    "GEOG 448": {
+      "reported": 14,
+      "average": 87.9,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 3],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 8,
+          "average": 87.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 1],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "reported": 6,
+          "average": 88.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 2],
+          "instructors": []
+        }
+      ]
+    },
+    "GEOG 450": {
+      "reported": 91,
+      "average": 81.7,
+      "grades": [1, 0, 3, 0, 0, 6, 0, 6, 28, 21, 14],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 17,
+          "average": 85.0,
+          "grades": [0, 0, 0, 0, 0, 2, 0, 0, 2, 8, 5],
+          "instructors": ["Elvin Wyly"]
+        },
+        {
+          "session": "2024W",
+          "reported": 16,
+          "average": 79.7,
+          "grades": [1, 0, 1, 0, 0, 1, 0, 0, 3, 4, 6],
+          "instructors": ["Elvin Wyly"]
+        },
+        {
+          "session": "2023W",
+          "reported": 18,
+          "average": 78.8,
+          "grades": [0, 0, 2, 0, 0, 2, 0, 6, 2, 5, 1],
+          "instructors": ["Maria Cervantes"]
+        },
+        {
+          "session": "2022W",
+          "reported": 18,
+          "average": 83.3,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 0, 11, 4, 2],
+          "instructors": ["Elvin Wyly"]
+        },
+        {
+          "session": "2021W",
+          "reported": 22,
+          "average": 81.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 10, 0, 0],
+          "instructors": ["Elvin Wyly"]
+        }
+      ]
+    },
+    "GEOG 451": {
+      "reported": 49,
+      "average": 87.2,
+      "grades": [0, 0, 0, 0, 0, 0, 1, 1, 8, 20, 19],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 24,
+          "average": 89.1,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 0, 7, 16],
+          "instructors": ["Keisha Maloney", "Priti Narayan"]
+        },
+        {
+          "session": "2024W",
+          "reported": 25,
+          "average": 85.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 8, 13, 3],
+          "instructors": ["Priti Narayan"]
+        }
+      ]
+    },
+    "GEOG 453": {
+      "reported": 55,
+      "average": 75.3,
+      "grades": [1, 0, 1, 2, 3, 3, 8, 16, 15, 5, 1],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 17,
+          "average": 72.3,
+          "grades": [1, 0, 0, 2, 1, 1, 1, 7, 1, 2, 1],
+          "instructors": ["Merje Kuus"]
+        },
+        {
+          "session": "2023W",
+          "reported": 22,
+          "average": 77.1,
+          "grades": [0, 0, 0, 0, 1, 2, 2, 7, 10, 0, 0],
+          "instructors": ["Merje Kuus"]
+        },
+        {
+          "session": "2022W",
+          "reported": 16,
+          "average": 75.9,
+          "grades": [0, 0, 1, 0, 1, 0, 5, 2, 4, 3, 0],
+          "instructors": ["Merje Kuus"]
+        }
+      ]
+    },
+    "GEOG 457": {
+      "reported": 15,
+      "average": 83.7,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      "terms": [
+        {
+          "session": "2021W",
+          "reported": 15,
+          "average": 83.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Lia Frederiksen"]
+        }
+      ]
+    },
+    "GEOG 461": {
+      "reported": 19,
+      "average": 82.7,
+      "grades": [1, 0, 0, 0, 0, 0, 0, 2, 2, 10, 4],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 11,
+          "average": 81.5,
+          "grades": [1, 0, 0, 0, 0, 0, 0, 0, 1, 6, 3],
+          "instructors": ["Jamie Peck"]
+        },
+        {
+          "session": "2024W",
+          "reported": 8,
+          "average": 84.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 2, 1, 4, 1],
+          "instructors": ["Rachel Phillips", "Christopher Meulbroek"]
+        }
+      ]
+    },
+    "GEOG 484": {
+      "reported": 58,
+      "average": 72.9,
+      "grades": [6, 0, 0, 1, 0, 1, 1, 4, 10, 10, 7],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 15,
+          "average": 79.1,
+          "grades": [1, 0, 0, 0, 0, 0, 0, 2, 5, 4, 3],
+          "instructors": ["James Francis Glassman"]
+        },
+        {
+          "session": "2023W",
+          "reported": 16,
+          "average": 76.1,
+          "grades": [2, 0, 0, 1, 0, 0, 1, 2, 4, 4, 2],
+          "instructors": ["James Francis Glassman"]
+        },
+        {
+          "session": "2022W",
+          "reported": 9,
+          "average": 68.8,
+          "grades": [3, 0, 0, 0, 0, 1, 0, 0, 1, 2, 2],
+          "instructors": ["James Francis Glassman"]
+        },
+        {
+          "session": "2021W",
+          "reported": 18,
+          "average": 67.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["James Francis Glassman"]
+        }
+      ]
+    },
+    "GEOG 492": {
+      "reported": 30,
+      "average": 81.1,
+      "grades": [0, 1, 1, 0, 2, 0, 4, 3, 3, 9, 7],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 15,
+          "average": 82.7,
+          "grades": [0, 0, 1, 0, 0, 0, 2, 2, 2, 4, 4],
+          "instructors": ["Desiree Valadares"]
+        },
+        {
+          "session": "2024W",
+          "reported": 15,
+          "average": 79.5,
+          "grades": [0, 1, 0, 0, 2, 0, 2, 1, 1, 5, 3],
+          "instructors": ["Desiree Valadares"]
+        }
+      ]
+    },
+    "GEOG 495": {
+      "reported": 61,
+      "average": 84.1,
+      "grades": [1, 0, 0, 0, 0, 1, 3, 3, 10, 43, 0],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 17,
+          "average": 85.1,
+          "grades": [0, 0, 0, 0, 0, 1, 1, 0, 2, 13, 0],
+          "instructors": ["Juanita Sundberg"]
+        },
+        {
+          "session": "2024W",
+          "reported": 18,
+          "average": 84.8,
+          "grades": [0, 0, 0, 0, 0, 0, 2, 0, 4, 12, 0],
+          "instructors": ["Juanita Sundberg"]
+        },
+        {
+          "session": "2023W",
+          "reported": 11,
+          "average": 80.9,
+          "grades": [1, 0, 0, 0, 0, 0, 0, 2, 0, 8, 0],
+          "instructors": ["Juanita Sundberg"]
+        },
+        {
+          "session": "2022W",
+          "reported": 15,
+          "average": 84.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 4, 10, 0],
+          "instructors": ["Juanita Sundberg"]
+        }
+      ]
+    },
+    "GEOG 497": {
+      "reported": 97,
+      "average": 79.2,
+      "grades": [1, 0, 3, 4, 4, 3, 10, 14, 23, 24, 11],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 45,
+          "average": 82.8,
+          "grades": [1, 0, 1, 0, 0, 0, 4, 4, 9, 17, 9],
+          "instructors": []
+        },
+        {
+          "session": "2024W",
+          "reported": 52,
+          "average": 76.1,
+          "grades": [0, 0, 2, 4, 4, 3, 6, 10, 14, 7, 2],
+          "instructors": ["McKenzie Kuhn"]
+        }
+      ]
+    },
+    "GEOG 498": {
+      "reported": 18,
+      "average": 78.2,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      "terms": [
+        {
+          "session": "2021W",
+          "reported": 18,
+          "average": 78.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Cavlan Erengezgin"]
+        }
+      ]
+    },
+    "GEOG 514": {
+      "reported": 6,
+      "average": 90.0,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 4],
+      "terms": [
+        {
+          "session": "2022W",
+          "topic": "B",
+          "title": "Topics in Environmental Geography",
+          "reported": 6,
+          "average": 90.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 4],
+          "instructors": ["Jessica Dempsey"]
+        }
+      ]
+    },
+    "GEOG 520": {
+      "reported": 31,
+      "average": 82.4,
+      "grades": [2, 0, 0, 0, 0, 0, 0, 0, 2, 24, 3],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 9,
+          "average": 86.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 1],
+          "instructors": ["Trevor Barnes", "Juanita Sundberg"]
+        },
+        {
+          "session": "2023W",
+          "reported": 11,
+          "average": 75.5,
+          "grades": [2, 0, 0, 0, 0, 0, 0, 0, 1, 6, 2],
+          "instructors": ["Trevor Barnes", "Juanita Sundberg"]
+        },
+        {
+          "session": "2022W",
+          "reported": 11,
+          "average": 85.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 10, 0],
+          "instructors": ["Trevor Barnes", "Merje Kuus"]
+        }
+      ]
+    },
+    "GEOG 525": {
+      "reported": 10,
+      "average": 86.8,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 0],
+      "terms": [
+        {
+          "session": "2022W",
+          "reported": 10,
+          "average": 86.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 0],
+          "instructors": ["Juanita Sundberg"]
+        }
+      ]
+    },
+    "GEOG 545": {
+      "reported": 34,
+      "average": 89.9,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 10, 17],
+      "terms": [
+        {
+          "session": "2024W",
+          "topic": "B",
+          "title": "Topics in Human Geography",
+          "reported": 16,
+          "average": 92.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 15],
+          "instructors": ["Naomi Klein"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Topics in Human Geography",
+          "reported": 12,
+          "average": 87.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 9, 2],
+          "instructors": ["Naomi Klein"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Topics in Human Geography",
+          "reported": 6,
+          "average": 88.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Naomi Klein"]
+        }
+      ]
+    },
+    "GEOG 547": {
+      "reported": 9,
+      "average": 88.9,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      "terms": [
+        {
+          "session": "2021W",
+          "topic": "E",
+          "title": "Directed Reading in Human Geography",
+          "reported": 9,
+          "average": 88.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Trevor Barnes"]
+        }
+      ]
+    },
+    "GEOG 551": {
+      "reported": 23,
+      "average": 88.5,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 3, 11, 8],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 13,
+          "average": 88.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 8, 4],
+          "instructors": ["Mohammed Arefin"]
+        },
+        {
+          "session": "2023W",
+          "reported": 10,
+          "average": 88.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 4],
+          "instructors": ["Mohammed Arefin"]
+        }
+      ]
+    },
+    "GEOG 560": {
+      "reported": 13,
+      "average": 87.4,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 1],
+      "terms": [
+        {
+          "session": "2024W",
+          "topic": "A",
+          "title": "Economic Geography",
+          "reported": 7,
+          "average": 87.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 0],
+          "instructors": ["Jamie Peck"]
+        },
+        {
+          "session": "2023W",
+          "topic": "D",
+          "title": "Economic Geography",
+          "reported": 6,
+          "average": 87.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 1],
+          "instructors": ["Jamie Peck"]
+        }
+      ]
+    },
+    "GEOG 599": {
+      "reported": 83,
+      "average": 85.8,
+      "grades": [0, 0, 0, 0, 0, 0, 1, 0, 3, 8, 8],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 41,
+          "average": 83.7,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 3],
+          "instructors": []
+        },
+        {
+          "session": "2023S",
+          "reported": 36,
+          "average": 88.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 4, 3],
+          "instructors": []
+        },
+        {
+          "session": "2022S",
+          "reported": 6,
+          "average": 87.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 2],
+          "instructors": []
+        }
+      ]
+    }
+  }
+}

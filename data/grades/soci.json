@@ -1,0 +1,3091 @@
+{
+  "subject": "SOCI",
+  "campus": "UBCV",
+  "source": "https://ubcgrades.com",
+  "credit": "UBCGrades.com / UBC PAIR",
+  "sessions": ["2021S", "2021W", "2022S", "2022W", "2023S", "2023W", "2024S", "2024W", "2025S", "2025W"],
+  "buckets": ["<50%", "50-54%", "55-59%", "60-63%", "64-67%", "68-71%", "72-75%", "76-79%", "80-84%", "85-89%", "90-100%"],
+  "courses": {
+    "SOCI 100": {
+      "reported": 377,
+      "average": 71.9,
+      "grades": [16, 9, 15, 28, 25, 41, 64, 76, 79, 19, 1],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 104,
+          "average": 69.8,
+          "grades": [8, 2, 3, 10, 7, 14, 20, 26, 11, 3, 0],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "reported": 142,
+          "average": 74.0,
+          "grades": [3, 1, 5, 7, 12, 11, 25, 35, 29, 10, 0],
+          "instructors": ["Kerry Greer"]
+        },
+        {
+          "session": "2022W",
+          "reported": 131,
+          "average": 71.2,
+          "grades": [5, 6, 7, 11, 6, 16, 19, 15, 39, 6, 1],
+          "instructors": ["Kerry Greer"]
+        }
+      ]
+    },
+    "SOCI 101": {
+      "reported": 3512,
+      "average": 71.6,
+      "grades": [121, 83, 123, 223, 354, 492, 613, 566, 537, 254, 69],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 584,
+          "average": 70.4,
+          "grades": [20, 17, 34, 47, 66, 77, 117, 82, 75, 43, 6],
+          "instructors": ["Tony Silva", "Elic Chan", "Chris MacKenzie", "Craig Meadows"]
+        },
+        {
+          "session": "2024W",
+          "reported": 479,
+          "average": 71.1,
+          "grades": [15, 26, 29, 33, 46, 58, 67, 98, 67, 31, 9],
+          "instructors": ["Tony Silva", "Christopher MacKenzie"]
+        },
+        {
+          "session": "2024S",
+          "reported": 56,
+          "average": 72.6,
+          "grades": [0, 0, 0, 6, 4, 14, 10, 13, 5, 3, 1],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "reported": 593,
+          "average": 71.8,
+          "grades": [22, 13, 23, 39, 57, 73, 93, 93, 103, 40, 16],
+          "instructors": ["Tony Silva", "Craig Meadows", "Christopher MacKenzie"]
+        },
+        {
+          "session": "2023S",
+          "reported": 48,
+          "average": 72.0,
+          "grades": [0, 0, 1, 2, 4, 12, 15, 5, 8, 0, 0],
+          "instructors": ["Christopher MacKenzie"]
+        },
+        {
+          "session": "2022W",
+          "reported": 641,
+          "average": 71.4,
+          "grades": [27, 18, 16, 44, 58, 102, 115, 102, 94, 53, 12],
+          "instructors": ["Christopher MacKenzie", "Tony Silva"]
+        },
+        {
+          "session": "2022S",
+          "reported": 77,
+          "average": 71.4,
+          "grades": [3, 2, 1, 2, 10, 16, 11, 12, 19, 1, 0],
+          "instructors": ["Christopher MacKenzie"]
+        },
+        {
+          "session": "2021W",
+          "reported": 888,
+          "average": 72.5,
+          "grades": [34, 7, 19, 50, 95, 112, 151, 135, 141, 83, 25],
+          "instructors": ["Christopher Mackenzie", "Tony Silva", "Kerry Greer", "Craig Meadows"]
+        },
+        {
+          "session": "2021S",
+          "reported": 146,
+          "average": 71.8,
+          "grades": [0, 0, 0, 0, 14, 28, 34, 26, 25, 0, 0],
+          "instructors": ["Christopher Mackenzie"]
+        }
+      ]
+    },
+    "SOCI 102": {
+      "reported": 3593,
+      "average": 75.3,
+      "grades": [72, 47, 68, 154, 252, 360, 503, 542, 815, 407, 257],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 437,
+          "average": 76.0,
+          "grades": [7, 4, 10, 13, 32, 50, 61, 65, 114, 55, 26],
+          "instructors": ["Kerry Greer", "Elic Chan", "Andrew Jorgenson", "Katherine Lyon", "Neil Armitage"]
+        },
+        {
+          "session": "2025S",
+          "reported": 27,
+          "average": 81.5,
+          "grades": [0, 0, 0, 0, 0, 3, 5, 3, 7, 2, 7],
+          "instructors": ["Neil Armitage"]
+        },
+        {
+          "session": "2024W",
+          "reported": 441,
+          "average": 73.2,
+          "grades": [8, 11, 20, 23, 32, 54, 76, 81, 98, 33, 5],
+          "instructors": ["Elic Chan", "Craig Meadows", "Andrew Jorgenson", "Ana Vivaldi Pasqua"]
+        },
+        {
+          "session": "2024S",
+          "reported": 68,
+          "average": 71.8,
+          "grades": [2, 0, 1, 2, 10, 9, 19, 13, 11, 1, 0],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "reported": 603,
+          "average": 74.8,
+          "grades": [11, 6, 21, 38, 50, 71, 85, 79, 128, 68, 36],
+          "instructors": ["Katherine Lyon", "Neil Armitage", "Andrew Jorgenson"]
+        },
+        {
+          "session": "2023S",
+          "reported": 47,
+          "average": 72.5,
+          "grades": [0, 0, 0, 2, 6, 9, 14, 4, 8, 1, 0],
+          "instructors": ["Christopher MacKenzie"]
+        },
+        {
+          "session": "2022W",
+          "reported": 702,
+          "average": 75.4,
+          "grades": [17, 12, 15, 33, 48, 51, 87, 130, 195, 88, 26],
+          "instructors": ["Neil Armitage", "Craig Meadows", "Katherine Lyon"]
+        },
+        {
+          "session": "2022S",
+          "reported": 60,
+          "average": 70.3,
+          "grades": [2, 2, 1, 7, 8, 6, 7, 9, 15, 3, 0],
+          "instructors": ["Christopher MacKenzie"]
+        },
+        {
+          "session": "2021W",
+          "reported": 1090,
+          "average": 77.0,
+          "grades": [25, 12, 0, 36, 53, 80, 123, 138, 220, 156, 157],
+          "instructors": ["Deborah Dergousoff", "Catherine Corrigall-Brown", "Edward Haddon", "Craig Meadows", "Kerry Greer", "Neil Armitage"]
+        },
+        {
+          "session": "2021S",
+          "reported": 118,
+          "average": 71.6,
+          "grades": [0, 0, 0, 0, 13, 27, 26, 20, 19, 0, 0],
+          "instructors": ["Christopher Mackenzie"]
+        }
+      ]
+    },
+    "SOCI 200": {
+      "reported": 3508,
+      "average": 80.3,
+      "grades": [35, 29, 38, 76, 136, 241, 361, 438, 759, 630, 713],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 433,
+          "average": 79.0,
+          "grades": [7, 6, 8, 10, 21, 34, 58, 51, 105, 68, 65],
+          "instructors": ["Aryan Karimi", "Holly Hummer", "Silvia Bartolic"]
+        },
+        {
+          "session": "2025S",
+          "reported": 46,
+          "average": 75.5,
+          "grades": [0, 1, 1, 2, 1, 5, 10, 13, 8, 5, 0],
+          "instructors": ["Oral Robinson"]
+        },
+        {
+          "session": "2024W",
+          "reported": 533,
+          "average": 79.3,
+          "grades": [10, 3, 5, 15, 19, 44, 70, 77, 115, 67, 108],
+          "instructors": ["Silvia Bartolic", "Alyssa Alexander", "Craig Meadows", "Oral Robinson"]
+        },
+        {
+          "session": "2024S",
+          "reported": 74,
+          "average": 77.8,
+          "grades": [0, 1, 1, 5, 3, 5, 7, 10, 25, 15, 2],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "reported": 782,
+          "average": 78.9,
+          "grades": [12, 10, 11, 19, 35, 57, 84, 117, 153, 159, 113],
+          "instructors": ["Alyssa Alexander", "Oral Robinson", "Silvia Bartolic", "Craig Meadows"]
+        },
+        {
+          "session": "2023S",
+          "reported": 82,
+          "average": 78.8,
+          "grades": [0, 0, 2, 0, 6, 10, 8, 9, 26, 11, 8],
+          "instructors": ["Oral Robinson"]
+        },
+        {
+          "session": "2022W",
+          "reported": 834,
+          "average": 83.5,
+          "grades": [6, 6, 9, 10, 15, 28, 68, 79, 179, 187, 247],
+          "instructors": ["Alyssa Alexander", "Oral Robinson", "Silvia Bartolic"]
+        },
+        {
+          "session": "2022S",
+          "reported": 80,
+          "average": 76.1,
+          "grades": [0, 2, 1, 2, 3, 12, 10, 14, 32, 4, 0],
+          "instructors": ["Oral Robinson"]
+        },
+        {
+          "session": "2021W",
+          "reported": 515,
+          "average": 82.6,
+          "grades": [0, 0, 0, 6, 17, 35, 31, 42, 86, 104, 164],
+          "instructors": ["Alyssa Alexander", "Oral Robinson", "Rafael Wainer"]
+        },
+        {
+          "session": "2021S",
+          "reported": 129,
+          "average": 74.1,
+          "grades": [0, 0, 0, 7, 16, 11, 15, 26, 30, 10, 6],
+          "instructors": ["Oral Robinson"]
+        }
+      ]
+    },
+    "SOCI 201": {
+      "reported": 106,
+      "average": 76.5,
+      "grades": [1, 2, 2, 5, 4, 15, 15, 15, 24, 15, 8],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 38,
+          "average": 79.3,
+          "grades": [0, 0, 0, 1, 2, 5, 6, 3, 10, 4, 7],
+          "instructors": ["Neda Maghbouleh"]
+        },
+        {
+          "session": "2023W",
+          "reported": 49,
+          "average": 74.4,
+          "grades": [0, 2, 2, 4, 2, 7, 6, 8, 9, 8, 1],
+          "instructors": ["Neda Maghbouleh"]
+        },
+        {
+          "session": "2022W",
+          "reported": 19,
+          "average": 76.5,
+          "grades": [1, 0, 0, 0, 0, 3, 3, 4, 5, 3, 0],
+          "instructors": ["Lisa Richlen"]
+        }
+      ]
+    },
+    "SOCI 204": {
+      "reported": 67,
+      "average": 74.2,
+      "grades": [5, 3, 2, 4, 1, 2, 8, 2, 4, 9, 9],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 7,
+          "average": 80.9,
+          "grades": [0, 0, 1, 0, 0, 0, 1, 0, 1, 3, 1],
+          "instructors": ["Guy Stecklov"]
+        },
+        {
+          "session": "2023W",
+          "reported": 14,
+          "average": 74.8,
+          "grades": [1, 1, 0, 1, 0, 0, 3, 1, 2, 3, 1],
+          "instructors": ["Guy Stecklov"]
+        },
+        {
+          "session": "2022W",
+          "reported": 29,
+          "average": 71.0,
+          "grades": [4, 2, 1, 3, 1, 2, 4, 1, 1, 3, 7],
+          "instructors": ["Guy Stecklov"]
+        },
+        {
+          "session": "2021W",
+          "reported": 17,
+          "average": 76.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Guy Stecklov"]
+        }
+      ]
+    },
+    "SOCI 210": {
+      "reported": 62,
+      "average": 76.0,
+      "grades": [0, 0, 0, 0, 0, 7, 0, 9, 16, 15, 0],
+      "terms": [
+        {
+          "session": "2021S",
+          "reported": 62,
+          "average": 76.0,
+          "grades": [0, 0, 0, 0, 0, 7, 0, 9, 16, 15, 0],
+          "instructors": ["Elic Chan"]
+        }
+      ]
+    },
+    "SOCI 217": {
+      "reported": 1413,
+      "average": 72.9,
+      "grades": [68, 28, 48, 69, 129, 141, 184, 199, 226, 166, 92],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 98,
+          "average": 75.1,
+          "grades": [4, 1, 5, 2, 8, 5, 14, 21, 18, 12, 8],
+          "instructors": ["Anna Dawczyk"]
+        },
+        {
+          "session": "2025S",
+          "reported": 24,
+          "average": 75.2,
+          "grades": [0, 1, 0, 1, 0, 5, 4, 6, 3, 3, 1],
+          "instructors": ["Elic Chan"]
+        },
+        {
+          "session": "2024W",
+          "reported": 237,
+          "average": 72.6,
+          "grades": [12, 3, 9, 17, 23, 27, 27, 42, 40, 28, 9],
+          "instructors": ["Amin Ghaziani", "Elic Chan"]
+        },
+        {
+          "session": "2023W",
+          "reported": 245,
+          "average": 73.5,
+          "grades": [11, 7, 15, 12, 18, 21, 20, 42, 47, 27, 16],
+          "instructors": ["Elic Chan", "Amin Ghaziani", "Anna Dawczyk"]
+        },
+        {
+          "session": "2023S",
+          "reported": 45,
+          "average": 84.0,
+          "grades": [0, 1, 1, 0, 1, 2, 2, 6, 5, 14, 12],
+          "instructors": ["Anna Dawczyk"]
+        },
+        {
+          "session": "2022W",
+          "reported": 313,
+          "average": 74.3,
+          "grades": [22, 9, 10, 16, 26, 24, 36, 36, 42, 46, 46],
+          "instructors": ["Anna Dawczyk", "Amin Ghaziani", "Elic Chan"]
+        },
+        {
+          "session": "2022S",
+          "reported": 33,
+          "average": 70.0,
+          "grades": [1, 0, 2, 2, 2, 7, 10, 3, 5, 1, 0],
+          "instructors": ["Elic Chan"]
+        },
+        {
+          "session": "2021W",
+          "reported": 344,
+          "average": 70.1,
+          "grades": [18, 6, 6, 12, 41, 50, 56, 43, 51, 28, 0],
+          "instructors": ["Elic Chan", "Amin Ghaziani"]
+        },
+        {
+          "session": "2021S",
+          "reported": 74,
+          "average": 70.6,
+          "grades": [0, 0, 0, 7, 10, 0, 15, 0, 15, 7, 0],
+          "instructors": ["Elic Chan"]
+        }
+      ]
+    },
+    "SOCI 220": {
+      "reported": 969,
+      "average": 90.0,
+      "grades": [14, 2, 3, 1, 3, 9, 8, 19, 54, 123, 719],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 365,
+          "average": 92.3,
+          "grades": [2, 0, 1, 0, 1, 3, 2, 3, 11, 27, 315],
+          "instructors": ["Kimberly Huyser"]
+        },
+        {
+          "session": "2024W",
+          "reported": 147,
+          "average": 93.0,
+          "grades": [1, 0, 0, 0, 0, 1, 1, 2, 4, 12, 126],
+          "instructors": ["Kimberly Huyser"]
+        },
+        {
+          "session": "2023W",
+          "reported": 148,
+          "average": 87.6,
+          "grades": [4, 0, 0, 0, 0, 2, 1, 8, 10, 32, 89],
+          "instructors": ["Kimberly Huyser"]
+        },
+        {
+          "session": "2022W",
+          "reported": 165,
+          "average": 85.6,
+          "grades": [7, 2, 2, 1, 2, 3, 4, 6, 17, 19, 102],
+          "instructors": ["Leslie Robertson", "Kimberly Huyser"]
+        },
+        {
+          "session": "2021W",
+          "reported": 144,
+          "average": 88.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 12, 33, 87],
+          "instructors": ["Kimberly Huyser"]
+        }
+      ]
+    },
+    "SOCI 224": {
+      "reported": 876,
+      "average": 78.0,
+      "grades": [14, 5, 9, 13, 22, 57, 111, 187, 276, 120, 43],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 209,
+          "average": 80.0,
+          "grades": [1, 0, 2, 3, 6, 14, 19, 42, 63, 38, 21],
+          "instructors": ["Neil Armitage"]
+        },
+        {
+          "session": "2025S",
+          "reported": 27,
+          "average": 80.4,
+          "grades": [1, 0, 0, 0, 1, 1, 2, 5, 6, 3, 8],
+          "instructors": ["Neil Armitage"]
+        },
+        {
+          "session": "2024W",
+          "reported": 96,
+          "average": 74.7,
+          "grades": [5, 0, 0, 2, 5, 12, 19, 21, 20, 5, 7],
+          "instructors": ["Neil Armitage"]
+        },
+        {
+          "session": "2023W",
+          "reported": 142,
+          "average": 77.0,
+          "grades": [5, 2, 2, 1, 4, 7, 20, 32, 45, 20, 3],
+          "instructors": ["Neil Armitage"]
+        },
+        {
+          "session": "2023S",
+          "reported": 69,
+          "average": 78.5,
+          "grades": [0, 0, 1, 1, 1, 1, 13, 18, 21, 10, 0],
+          "instructors": ["Neil Armitage"]
+        },
+        {
+          "session": "2022W",
+          "reported": 142,
+          "average": 76.9,
+          "grades": [1, 2, 4, 4, 5, 10, 21, 22, 60, 13, 0],
+          "instructors": ["Neil Armitage"]
+        },
+        {
+          "session": "2022S",
+          "reported": 76,
+          "average": 78.8,
+          "grades": [1, 1, 0, 2, 0, 6, 10, 14, 22, 16, 4],
+          "instructors": ["Neil Armitage"]
+        },
+        {
+          "session": "2021W",
+          "reported": 115,
+          "average": 78.1,
+          "grades": [0, 0, 0, 0, 0, 6, 7, 33, 39, 15, 0],
+          "instructors": ["Neil Armitage"]
+        }
+      ]
+    },
+    "SOCI 230": {
+      "reported": 631,
+      "average": 74.3,
+      "grades": [15, 24, 18, 28, 51, 64, 85, 99, 113, 87, 31],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 39,
+          "average": 71.2,
+          "grades": [0, 1, 2, 10, 7, 1, 5, 2, 5, 3, 3],
+          "instructors": ["Craig Meadows"]
+        },
+        {
+          "session": "2024W",
+          "reported": 53,
+          "average": 74.2,
+          "grades": [1, 5, 2, 1, 4, 7, 5, 12, 3, 8, 5],
+          "instructors": ["Emily Huddart"]
+        },
+        {
+          "session": "2024S",
+          "reported": 35,
+          "average": 74.5,
+          "grades": [0, 0, 0, 5, 2, 4, 5, 7, 9, 2, 1],
+          "instructors": ["Craig Meadows"]
+        },
+        {
+          "session": "2023W",
+          "reported": 149,
+          "average": 74.0,
+          "grades": [7, 7, 4, 4, 17, 15, 16, 22, 25, 23, 9],
+          "instructors": ["Emily Huddart"]
+        },
+        {
+          "session": "2023S",
+          "reported": 27,
+          "average": 74.7,
+          "grades": [1, 1, 1, 1, 1, 1, 4, 5, 6, 3, 2],
+          "instructors": ["Craig Meadows"]
+        },
+        {
+          "session": "2022W",
+          "reported": 147,
+          "average": 73.8,
+          "grades": [5, 10, 2, 6, 11, 14, 22, 22, 27, 20, 8],
+          "instructors": ["Emily Huddart Kennedy"]
+        },
+        {
+          "session": "2022S",
+          "reported": 35,
+          "average": 73.9,
+          "grades": [1, 0, 1, 1, 0, 4, 11, 7, 4, 3, 3],
+          "instructors": ["Craig Meadows"]
+        },
+        {
+          "session": "2021W",
+          "reported": 146,
+          "average": 75.9,
+          "grades": [0, 0, 6, 0, 9, 18, 17, 22, 34, 25, 0],
+          "instructors": ["Emily Huddart Kennedy"]
+        }
+      ]
+    },
+    "SOCI 240": {
+      "reported": 532,
+      "average": 76.5,
+      "grades": [13, 3, 4, 10, 25, 40, 78, 104, 174, 67, 7],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 88,
+          "average": 79.6,
+          "grades": [2, 0, 1, 0, 0, 6, 5, 20, 26, 26, 2],
+          "instructors": ["Amy Hanser", "Neil Armitage"]
+        },
+        {
+          "session": "2024W",
+          "reported": 75,
+          "average": 78.1,
+          "grades": [1, 1, 0, 1, 3, 4, 8, 9, 43, 5, 0],
+          "instructors": ["Amy Hanser"]
+        },
+        {
+          "session": "2023W",
+          "reported": 67,
+          "average": 77.7,
+          "grades": [3, 0, 0, 2, 2, 2, 6, 15, 27, 9, 1],
+          "instructors": ["Neil Armitage"]
+        },
+        {
+          "session": "2023S",
+          "reported": 17,
+          "average": 77.1,
+          "grades": [0, 0, 0, 2, 1, 1, 0, 5, 6, 1, 1],
+          "instructors": ["Rafael Wainer"]
+        },
+        {
+          "session": "2022W",
+          "reported": 126,
+          "average": 76.0,
+          "grades": [6, 1, 2, 3, 8, 6, 8, 27, 44, 19, 2],
+          "instructors": ["Neil Armitage"]
+        },
+        {
+          "session": "2022S",
+          "reported": 14,
+          "average": 69.5,
+          "grades": [1, 1, 1, 2, 0, 0, 3, 1, 3, 1, 1],
+          "instructors": ["Rafael Wainer"]
+        },
+        {
+          "session": "2021S",
+          "reported": 145,
+          "average": 74.2,
+          "grades": [0, 0, 0, 0, 11, 21, 48, 27, 25, 6, 0],
+          "instructors": ["Neil Armitage"]
+        }
+      ]
+    },
+    "SOCI 250": {
+      "reported": 2452,
+      "average": 73.3,
+      "grades": [59, 16, 31, 86, 198, 335, 476, 502, 493, 183, 23],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 380,
+          "average": 73.8,
+          "grades": [13, 2, 3, 12, 30, 50, 68, 66, 94, 39, 3],
+          "instructors": ["Elic Chan", "Chris MacKenzie"]
+        },
+        {
+          "session": "2024W",
+          "reported": 460,
+          "average": 73.9,
+          "grades": [5, 1, 6, 19, 32, 61, 99, 117, 96, 23, 1],
+          "instructors": ["Christopher MacKenzie", "Elic Chan"]
+        },
+        {
+          "session": "2024S",
+          "reported": 23,
+          "average": 73.8,
+          "grades": [0, 0, 1, 0, 0, 6, 6, 4, 5, 1, 0],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "reported": 614,
+          "average": 73.1,
+          "grades": [23, 6, 7, 25, 55, 78, 105, 114, 118, 58, 10],
+          "instructors": ["Elic Chan", "Christopher MacKenzie", "Craig Meadows"]
+        },
+        {
+          "session": "2023S",
+          "reported": 23,
+          "average": 76.8,
+          "grades": [0, 0, 0, 0, 1, 3, 1, 7, 7, 2, 0],
+          "instructors": ["Christopher MacKenzie"]
+        },
+        {
+          "session": "2022W",
+          "reported": 681,
+          "average": 73.2,
+          "grades": [18, 7, 13, 30, 55, 89, 141, 136, 127, 57, 8],
+          "instructors": ["Christopher MacKenzie", "Craig Meadows", "Elic Chan"]
+        },
+        {
+          "session": "2022S",
+          "reported": 27,
+          "average": 73.7,
+          "grades": [0, 0, 1, 0, 3, 7, 6, 3, 3, 3, 1],
+          "instructors": ["Christopher MacKenzie"]
+        },
+        {
+          "session": "2021W",
+          "reported": 117,
+          "average": 72.0,
+          "grades": [0, 0, 0, 0, 15, 30, 31, 16, 17, 0, 0],
+          "instructors": ["Christopher Mackenzie"]
+        },
+        {
+          "session": "2021S",
+          "reported": 127,
+          "average": 72.1,
+          "grades": [0, 0, 0, 0, 7, 11, 19, 39, 26, 0, 0],
+          "instructors": ["Christopher Mackenzie", "Robert Small"]
+        }
+      ]
+    },
+    "SOCI 260": {
+      "reported": 169,
+      "average": 74.3,
+      "grades": [3, 5, 8, 9, 14, 12, 26, 25, 47, 14, 6],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 27,
+          "average": 76.1,
+          "grades": [0, 1, 2, 1, 1, 1, 1, 7, 11, 0, 2],
+          "instructors": ["Elizabeth Hirsh"]
+        },
+        {
+          "session": "2024W",
+          "reported": 34,
+          "average": 73.1,
+          "grades": [1, 0, 2, 2, 2, 4, 7, 5, 8, 2, 1],
+          "instructors": ["Charlotte Hirsh"]
+        },
+        {
+          "session": "2022W",
+          "reported": 108,
+          "average": 74.2,
+          "grades": [2, 4, 4, 6, 11, 7, 18, 13, 28, 12, 3],
+          "instructors": ["Charlotte Hirsh"]
+        }
+      ]
+    },
+    "SOCI 270": {
+      "reported": 107,
+      "average": 77.4,
+      "grades": [0, 1, 0, 2, 1, 8, 4, 25, 30, 21, 0],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 19,
+          "average": 78.4,
+          "grades": [0, 1, 0, 1, 0, 1, 3, 1, 4, 7, 0],
+          "instructors": ["Carrie Yodanis"]
+        },
+        {
+          "session": "2022W",
+          "reported": 24,
+          "average": 78.4,
+          "grades": [0, 0, 0, 1, 1, 1, 1, 6, 10, 4, 0],
+          "instructors": ["Carrie Yodanis"]
+        },
+        {
+          "session": "2021W",
+          "reported": 64,
+          "average": 76.7,
+          "grades": [0, 0, 0, 0, 0, 6, 0, 18, 16, 10, 0],
+          "instructors": ["Carrie Yodanis"]
+        }
+      ]
+    },
+    "SOCI 280": {
+      "reported": 160,
+      "average": 80.3,
+      "grades": [3, 1, 4, 2, 8, 5, 7, 17, 43, 56, 13],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 48,
+          "average": 83.4,
+          "grades": [0, 0, 1, 1, 0, 0, 2, 4, 14, 24, 2],
+          "instructors": ["Laura Nelson"]
+        },
+        {
+          "session": "2024W",
+          "reported": 41,
+          "average": 77.5,
+          "grades": [2, 0, 2, 0, 2, 1, 1, 8, 9, 14, 2],
+          "instructors": ["Laura Nelson"]
+        },
+        {
+          "session": "2023W",
+          "reported": 40,
+          "average": 79.2,
+          "grades": [1, 1, 0, 0, 3, 3, 1, 3, 12, 14, 1],
+          "instructors": ["Laura Nelson"]
+        },
+        {
+          "session": "2022W",
+          "reported": 23,
+          "average": 76.0,
+          "grades": [0, 0, 1, 1, 3, 1, 3, 2, 8, 4, 0],
+          "instructors": ["Laura Nelson"]
+        },
+        {
+          "session": "2022S",
+          "reported": 8,
+          "average": 94.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8],
+          "instructors": ["Laura Nelson"]
+        }
+      ]
+    },
+    "SOCI 284": {
+      "reported": 19,
+      "average": 76.8,
+      "grades": [0, 0, 1, 0, 1, 5, 3, 1, 3, 2, 3],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 19,
+          "average": 76.8,
+          "grades": [0, 0, 1, 0, 1, 5, 3, 1, 3, 2, 3],
+          "instructors": ["Lindsey Richardson"]
+        }
+      ]
+    },
+    "SOCI 290": {
+      "reported": 143,
+      "average": 75.4,
+      "grades": [8, 2, 1, 5, 4, 15, 8, 6, 45, 25, 15],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 23,
+          "average": 78.7,
+          "grades": [0, 1, 0, 0, 2, 2, 2, 2, 9, 3, 2],
+          "instructors": ["Katherine Lyon"]
+        },
+        {
+          "session": "2022W",
+          "reported": 46,
+          "average": 74.6,
+          "grades": [1, 1, 1, 5, 2, 4, 6, 4, 13, 6, 3],
+          "instructors": ["Katherine Lyon"]
+        },
+        {
+          "session": "2021W",
+          "reported": 74,
+          "average": 74.8,
+          "grades": [7, 0, 0, 0, 0, 9, 0, 0, 23, 16, 10],
+          "instructors": ["Robert Small"]
+        }
+      ]
+    },
+    "SOCI 301": {
+      "reported": 956,
+      "average": 75.9,
+      "grades": [14, 11, 9, 22, 46, 104, 128, 172, 281, 98, 32],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 78,
+          "average": 75.5,
+          "grades": [1, 2, 0, 2, 3, 10, 17, 18, 11, 11, 3],
+          "instructors": ["Rafael Wainer", "Craig Meadows"]
+        },
+        {
+          "session": "2024W",
+          "reported": 86,
+          "average": 77.6,
+          "grades": [4, 0, 0, 0, 0, 3, 4, 15, 56, 4, 0],
+          "instructors": ["Amanda Cheong"]
+        },
+        {
+          "session": "2023W",
+          "reported": 236,
+          "average": 77.8,
+          "grades": [1, 2, 1, 3, 9, 23, 37, 46, 82, 22, 8],
+          "instructors": ["Oral Robinson", "Amanda Cheong"]
+        },
+        {
+          "session": "2023S",
+          "reported": 66,
+          "average": 76.1,
+          "grades": [0, 1, 2, 1, 7, 8, 7, 9, 18, 9, 1],
+          "instructors": ["Oral Robinson"]
+        },
+        {
+          "session": "2022W",
+          "reported": 257,
+          "average": 74.5,
+          "grades": [5, 4, 2, 11, 22, 39, 31, 51, 57, 28, 7],
+          "instructors": ["Oral Robinson", "David Ryniker", "Ana Vivaldi Pasqua"]
+        },
+        {
+          "session": "2022S",
+          "reported": 76,
+          "average": 73.0,
+          "grades": [3, 2, 4, 5, 5, 7, 15, 7, 20, 6, 2],
+          "instructors": ["Oral Robinson"]
+        },
+        {
+          "session": "2021W",
+          "reported": 157,
+          "average": 76.0,
+          "grades": [0, 0, 0, 0, 0, 14, 17, 26, 37, 18, 11],
+          "instructors": ["Oral Robinson"]
+        }
+      ]
+    },
+    "SOCI 302": {
+      "reported": 752,
+      "average": 76.5,
+      "grades": [6, 10, 15, 26, 49, 63, 82, 103, 190, 114, 54],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 54,
+          "average": 75.9,
+          "grades": [0, 1, 3, 1, 6, 4, 7, 8, 16, 4, 4],
+          "instructors": ["Oral Robinson"]
+        },
+        {
+          "session": "2024W",
+          "reported": 152,
+          "average": 77.6,
+          "grades": [3, 1, 0, 3, 5, 15, 17, 29, 57, 19, 3],
+          "instructors": ["Ana Vivaldi Pasqua", "Oral Robinson"]
+        },
+        {
+          "session": "2024S",
+          "reported": 35,
+          "average": 73.9,
+          "grades": [0, 1, 1, 4, 4, 2, 7, 4, 8, 3, 1],
+          "instructors": ["Oral Robinson"]
+        },
+        {
+          "session": "2023W",
+          "reported": 148,
+          "average": 76.0,
+          "grades": [0, 3, 4, 10, 14, 22, 15, 14, 30, 17, 16],
+          "instructors": ["Oral Robinson", "Lisa Richlen"]
+        },
+        {
+          "session": "2022W",
+          "reported": 145,
+          "average": 75.4,
+          "grades": [3, 3, 5, 6, 11, 13, 26, 19, 29, 21, 9],
+          "instructors": ["Oral Robinson", "David Ryniker"]
+        },
+        {
+          "session": "2022S",
+          "reported": 74,
+          "average": 80.9,
+          "grades": [0, 1, 2, 2, 1, 7, 4, 7, 14, 28, 8],
+          "instructors": ["Oral Robinson"]
+        },
+        {
+          "session": "2021W",
+          "reported": 144,
+          "average": 75.8,
+          "grades": [0, 0, 0, 0, 8, 0, 6, 22, 36, 22, 13],
+          "instructors": ["David Ryniker", "Caroline Chung-Hsuan Locher-Lo"]
+        }
+      ]
+    },
+    "SOCI 303": {
+      "reported": 543,
+      "average": 76.8,
+      "grades": [8, 7, 10, 13, 24, 42, 70, 74, 146, 69, 51],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 118,
+          "average": 80.0,
+          "grades": [0, 2, 2, 2, 3, 2, 14, 24, 35, 25, 9],
+          "instructors": ["Aryan Karimi", "Iman Fadaei"]
+        },
+        {
+          "session": "2023W",
+          "reported": 136,
+          "average": 79.0,
+          "grades": [5, 1, 2, 1, 3, 5, 8, 13, 69, 15, 13],
+          "instructors": ["Amanda Cheong", "Aryan Karimi"]
+        },
+        {
+          "session": "2023S",
+          "reported": 34,
+          "average": 75.2,
+          "grades": [1, 0, 1, 4, 2, 1, 5, 3, 6, 9, 1],
+          "instructors": ["Ali Kaveh"]
+        },
+        {
+          "session": "2022W",
+          "reported": 150,
+          "average": 77.8,
+          "grades": [2, 4, 5, 6, 6, 22, 19, 15, 23, 20, 28],
+          "instructors": ["Aryan Karimi", "Stefano Gulmanelli"]
+        },
+        {
+          "session": "2021W",
+          "reported": 67,
+          "average": 69.7,
+          "grades": [0, 0, 0, 0, 10, 6, 17, 12, 7, 0, 0],
+          "instructors": ["Stefano Gulmanelli"]
+        },
+        {
+          "session": "2021S",
+          "reported": 38,
+          "average": 68.7,
+          "grades": [0, 0, 0, 0, 0, 6, 7, 7, 6, 0, 0],
+          "instructors": ["Stefano Gulmanelli"]
+        }
+      ]
+    },
+    "SOCI 310": {
+      "reported": 1466,
+      "average": 75.1,
+      "grades": [31, 23, 38, 50, 68, 127, 204, 212, 339, 201, 88],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 198,
+          "average": 77.5,
+          "grades": [1, 3, 8, 6, 10, 14, 26, 26, 58, 36, 10],
+          "instructors": ["Oral Robinson"]
+        },
+        {
+          "session": "2024W",
+          "reported": 152,
+          "average": 76.3,
+          "grades": [2, 0, 2, 3, 4, 11, 27, 44, 40, 15, 4],
+          "instructors": ["Craig Meadows"]
+        },
+        {
+          "session": "2024S",
+          "reported": 40,
+          "average": 76.7,
+          "grades": [0, 0, 2, 1, 4, 4, 6, 3, 13, 6, 1],
+          "instructors": ["Oral Robinson"]
+        },
+        {
+          "session": "2023W",
+          "reported": 287,
+          "average": 76.9,
+          "grades": [5, 8, 8, 13, 18, 20, 40, 34, 50, 50, 34],
+          "instructors": ["Rima Wilkes", "Craig Meadows"]
+        },
+        {
+          "session": "2023S",
+          "reported": 41,
+          "average": 74.6,
+          "grades": [2, 1, 0, 3, 1, 1, 7, 6, 12, 8, 0],
+          "instructors": ["Rafael Wainer"]
+        },
+        {
+          "session": "2022W",
+          "reported": 332,
+          "average": 75.3,
+          "grades": [9, 11, 11, 15, 16, 40, 43, 40, 72, 43, 32],
+          "instructors": ["Rima Wilkes", "Rafael Wainer", "Craig Meadows"]
+        },
+        {
+          "session": "2022S",
+          "reported": 32,
+          "average": 72.0,
+          "grades": [2, 0, 1, 1, 3, 2, 5, 7, 5, 6, 0],
+          "instructors": ["Rafael Wainer"]
+        },
+        {
+          "session": "2021W",
+          "reported": 325,
+          "average": 71.4,
+          "grades": [10, 0, 6, 8, 12, 29, 43, 39, 74, 29, 7],
+          "instructors": ["Rima Wilkes", "Rafael Wainer", "Debra Pentecost"]
+        },
+        {
+          "session": "2021S",
+          "reported": 59,
+          "average": 75.8,
+          "grades": [0, 0, 0, 0, 0, 6, 7, 13, 15, 8, 0],
+          "instructors": ["Rafael Wainer"]
+        }
+      ]
+    },
+    "SOCI 312": {
+      "reported": 611,
+      "average": 75.6,
+      "grades": [21, 13, 11, 10, 17, 30, 80, 117, 134, 89, 51],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 12,
+          "average": 75.8,
+          "grades": [0, 1, 0, 1, 1, 1, 1, 0, 4, 2, 1],
+          "instructors": ["Jennifer Berdahl"]
+        },
+        {
+          "session": "2024W",
+          "reported": 117,
+          "average": 75.0,
+          "grades": [6, 2, 5, 6, 6, 11, 11, 17, 23, 18, 12],
+          "instructors": ["Jennifer Berdahl"]
+        },
+        {
+          "session": "2023W",
+          "reported": 125,
+          "average": 77.2,
+          "grades": [3, 5, 5, 2, 6, 4, 10, 22, 33, 22, 11],
+          "instructors": ["Jennifer Berdahl", "Caroline Chung-Hsuan Locher-Lo"]
+        },
+        {
+          "session": "2022W",
+          "reported": 154,
+          "average": 74.7,
+          "grades": [5, 5, 1, 1, 4, 14, 29, 46, 26, 15, 8],
+          "instructors": ["Craig Meadows"]
+        },
+        {
+          "session": "2021W",
+          "reported": 158,
+          "average": 75.1,
+          "grades": [7, 0, 0, 0, 0, 0, 21, 25, 37, 25, 19],
+          "instructors": ["Craig Meadows", "Jennifer Berdahl"]
+        },
+        {
+          "session": "2021S",
+          "reported": 45,
+          "average": 77.3,
+          "grades": [0, 0, 0, 0, 0, 0, 8, 7, 11, 7, 0],
+          "instructors": ["Jennifer Berdahl"]
+        }
+      ]
+    },
+    "SOCI 314": {
+      "reported": 285,
+      "average": 73.0,
+      "grades": [17, 7, 21, 10, 18, 17, 29, 25, 41, 41, 33],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 45,
+          "average": 72.1,
+          "grades": [1, 1, 3, 2, 8, 4, 11, 3, 5, 5, 2],
+          "instructors": ["Tony Silva"]
+        },
+        {
+          "session": "2024W",
+          "reported": 51,
+          "average": 72.6,
+          "grades": [4, 3, 1, 1, 5, 3, 8, 9, 7, 6, 4],
+          "instructors": ["Tony Silva"]
+        },
+        {
+          "session": "2023W",
+          "reported": 66,
+          "average": 69.1,
+          "grades": [8, 2, 9, 3, 4, 4, 3, 9, 11, 7, 3],
+          "instructors": ["Tony Silva"]
+        },
+        {
+          "session": "2022W",
+          "reported": 63,
+          "average": 74.2,
+          "grades": [4, 1, 8, 4, 1, 6, 7, 4, 7, 12, 9],
+          "instructors": ["Tony Silva"]
+        },
+        {
+          "session": "2021W",
+          "reported": 60,
+          "average": 77.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 11, 11, 15],
+          "instructors": ["Tony Silva"]
+        }
+      ]
+    },
+    "SOCI 320": {
+      "reported": 911,
+      "average": 76.8,
+      "grades": [6, 2, 11, 21, 51, 93, 129, 187, 264, 110, 18],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 134,
+          "average": 77.5,
+          "grades": [1, 1, 0, 3, 4, 9, 16, 46, 42, 12, 0],
+          "instructors": ["Yue Qian", "Rafael Wainer"]
+        },
+        {
+          "session": "2025S",
+          "reported": 60,
+          "average": 82.3,
+          "grades": [1, 0, 0, 0, 0, 0, 3, 9, 20, 20, 7],
+          "instructors": ["Alyssa Alexander"]
+        },
+        {
+          "session": "2024W",
+          "reported": 170,
+          "average": 78.5,
+          "grades": [0, 1, 2, 6, 5, 15, 17, 29, 67, 22, 6],
+          "instructors": ["Yue Qian", "Alyssa Alexander"]
+        },
+        {
+          "session": "2023W",
+          "reported": 234,
+          "average": 74.5,
+          "grades": [4, 0, 8, 7, 15, 35, 44, 50, 45, 22, 2],
+          "instructors": ["Yue Qian", "Rafael Wainer"]
+        },
+        {
+          "session": "2022W",
+          "reported": 149,
+          "average": 76.0,
+          "grades": [0, 0, 1, 5, 12, 19, 29, 27, 45, 8, 3],
+          "instructors": ["Rafael Wainer"]
+        },
+        {
+          "session": "2021W",
+          "reported": 164,
+          "average": 76.2,
+          "grades": [0, 0, 0, 0, 15, 15, 20, 26, 45, 26, 0],
+          "instructors": ["Yue Qian"]
+        }
+      ]
+    },
+    "SOCI 328": {
+      "reported": 1175,
+      "average": 73.5,
+      "grades": [49, 42, 69, 57, 88, 97, 121, 136, 191, 164, 107],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 171,
+          "average": 73.0,
+          "grades": [8, 9, 7, 6, 20, 18, 18, 13, 36, 22, 14],
+          "instructors": ["Guy Stecklov", "Gerry Veenstra", "Elic Chan"]
+        },
+        {
+          "session": "2024W",
+          "reported": 164,
+          "average": 73.8,
+          "grades": [7, 8, 10, 10, 17, 12, 18, 18, 19, 26, 19],
+          "instructors": ["Guy Stecklov", "Yue Qian"]
+        },
+        {
+          "session": "2024S",
+          "reported": 36,
+          "average": 78.6,
+          "grades": [1, 0, 0, 1, 2, 2, 3, 6, 9, 7, 5],
+          "instructors": ["Elic Chan"]
+        },
+        {
+          "session": "2023W",
+          "reported": 275,
+          "average": 73.3,
+          "grades": [13, 16, 24, 18, 15, 22, 27, 21, 30, 40, 39],
+          "instructors": ["Gerry Veenstra", "Qiang Fu", "Yue Qian", "Anna Dawczyk"]
+        },
+        {
+          "session": "2023S",
+          "reported": 32,
+          "average": 75.4,
+          "grades": [0, 1, 4, 1, 0, 2, 1, 8, 7, 4, 2],
+          "instructors": ["Elic Chan"]
+        },
+        {
+          "session": "2022W",
+          "reported": 216,
+          "average": 76.6,
+          "grades": [5, 5, 4, 6, 13, 20, 28, 29, 45, 38, 23],
+          "instructors": ["Gerry Veenstra", "Elic Chan", "Qiang Fu"]
+        },
+        {
+          "session": "2022S",
+          "reported": 49,
+          "average": 73.2,
+          "grades": [1, 3, 4, 1, 5, 5, 5, 9, 6, 5, 5],
+          "instructors": ["Elic Chan"]
+        },
+        {
+          "session": "2021W",
+          "reported": 162,
+          "average": 68.5,
+          "grades": [14, 0, 16, 14, 16, 16, 12, 21, 20, 14, 0],
+          "instructors": ["Gerry Veenstra", "Elic Chan"]
+        },
+        {
+          "session": "2021S",
+          "reported": 70,
+          "average": 73.7,
+          "grades": [0, 0, 0, 0, 0, 0, 9, 11, 19, 8, 0],
+          "instructors": ["Adam Vanzella Yang"]
+        }
+      ]
+    },
+    "SOCI 332": {
+      "reported": 23,
+      "average": 80.0,
+      "grades": [0, 0, 1, 1, 0, 0, 3, 4, 4, 9, 1],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 23,
+          "average": 80.0,
+          "grades": [0, 0, 1, 1, 0, 0, 3, 4, 4, 9, 1],
+          "instructors": ["Carrie Yodanis"]
+        }
+      ]
+    },
+    "SOCI 342": {
+      "reported": 593,
+      "average": 76.0,
+      "grades": [14, 11, 19, 19, 40, 51, 69, 91, 142, 73, 50],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 172,
+          "average": 75.7,
+          "grades": [4, 7, 9, 11, 16, 11, 12, 15, 26, 29, 32],
+          "instructors": ["Clayton Childress"]
+        },
+        {
+          "session": "2024W",
+          "reported": 86,
+          "average": 77.8,
+          "grades": [0, 1, 2, 1, 3, 6, 14, 18, 31, 9, 1],
+          "instructors": ["Amy Hanser"]
+        },
+        {
+          "session": "2023W",
+          "reported": 159,
+          "average": 75.3,
+          "grades": [8, 3, 7, 6, 5, 22, 14, 25, 27, 25, 15],
+          "instructors": ["Amy Hanser", "Christopher Childress"]
+        },
+        {
+          "session": "2022W",
+          "reported": 88,
+          "average": 77.1,
+          "grades": [2, 0, 1, 1, 3, 4, 19, 18, 28, 10, 2],
+          "instructors": ["Amy Hanser"]
+        },
+        {
+          "session": "2021W",
+          "reported": 88,
+          "average": 75.1,
+          "grades": [0, 0, 0, 0, 13, 8, 10, 15, 30, 0, 0],
+          "instructors": ["Amy Hanser"]
+        }
+      ]
+    },
+    "SOCI 352": {
+      "reported": 547,
+      "average": 76.3,
+      "grades": [16, 5, 7, 12, 26, 52, 60, 113, 151, 77, 26],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 103,
+          "average": 77.0,
+          "grades": [3, 1, 1, 2, 3, 4, 10, 30, 32, 16, 1],
+          "instructors": ["Sylvia Fuller", "Elizabeth Hirsh"]
+        },
+        {
+          "session": "2024W",
+          "reported": 144,
+          "average": 75.3,
+          "grades": [4, 0, 1, 4, 13, 20, 23, 24, 31, 17, 7],
+          "instructors": ["Sylvia Fuller", "Charlotte Hirsh"]
+        },
+        {
+          "session": "2023W",
+          "reported": 138,
+          "average": 74.4,
+          "grades": [6, 1, 2, 2, 6, 18, 13, 30, 40, 15, 3],
+          "instructors": ["Sylvia Fuller", "Robert Small"]
+        },
+        {
+          "session": "2022W",
+          "reported": 162,
+          "average": 78.5,
+          "grades": [3, 3, 3, 4, 4, 10, 14, 29, 48, 29, 15],
+          "instructors": ["Sylvia Fuller", "Charlotte Hirsh"]
+        }
+      ]
+    },
+    "SOCI 354": {
+      "reported": 305,
+      "average": 74.2,
+      "grades": [4, 11, 5, 11, 18, 35, 47, 51, 55, 41, 16],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 29,
+          "average": 75.7,
+          "grades": [1, 3, 0, 1, 1, 2, 1, 4, 7, 5, 4],
+          "instructors": ["Sean Lauer"]
+        },
+        {
+          "session": "2024W",
+          "reported": 72,
+          "average": 72.1,
+          "grades": [2, 2, 2, 4, 5, 12, 10, 14, 11, 10, 0],
+          "instructors": ["Sean Lauer"]
+        },
+        {
+          "session": "2023W",
+          "reported": 62,
+          "average": 73.4,
+          "grades": [0, 3, 2, 4, 6, 9, 11, 5, 11, 9, 1],
+          "instructors": ["Sean Lauer"]
+        },
+        {
+          "session": "2022W",
+          "reported": 72,
+          "average": 74.3,
+          "grades": [1, 3, 1, 2, 6, 6, 15, 15, 14, 6, 3],
+          "instructors": ["Sean Lauer"]
+        },
+        {
+          "session": "2021W",
+          "reported": 70,
+          "average": 76.3,
+          "grades": [0, 0, 0, 0, 0, 6, 10, 13, 12, 11, 8],
+          "instructors": ["Sean Lauer"]
+        }
+      ]
+    },
+    "SOCI 360": {
+      "reported": 382,
+      "average": 78.4,
+      "grades": [10, 4, 12, 13, 22, 23, 38, 54, 81, 59, 66],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 80,
+          "average": 80.0,
+          "grades": [3, 1, 4, 2, 4, 3, 3, 6, 13, 15, 26],
+          "instructors": ["Kathryn McConnell", "David Tindall"]
+        },
+        {
+          "session": "2024W",
+          "reported": 115,
+          "average": 77.5,
+          "grades": [4, 2, 5, 6, 10, 9, 4, 15, 26, 13, 21],
+          "instructors": ["David Tindall", "Kathryn McConnell"]
+        },
+        {
+          "session": "2023W",
+          "reported": 48,
+          "average": 76.0,
+          "grades": [1, 0, 1, 1, 1, 5, 13, 11, 7, 6, 2],
+          "instructors": ["David Tindall"]
+        },
+        {
+          "session": "2022W",
+          "reported": 139,
+          "average": 79.1,
+          "grades": [2, 1, 2, 4, 7, 6, 18, 22, 35, 25, 17],
+          "instructors": ["Nathan Vadeboncoeur", "David Tindall"]
+        }
+      ]
+    },
+    "SOCI 361": {
+      "reported": 898,
+      "average": 76.3,
+      "grades": [16, 11, 13, 15, 29, 65, 142, 186, 197, 122, 59],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 55,
+          "average": 76.8,
+          "grades": [1, 2, 0, 1, 6, 6, 3, 7, 15, 9, 5],
+          "instructors": ["Craig Meadows"]
+        },
+        {
+          "session": "2024S",
+          "reported": 55,
+          "average": 72.2,
+          "grades": [4, 1, 0, 2, 2, 4, 9, 10, 15, 5, 3],
+          "instructors": ["Craig Meadows"]
+        },
+        {
+          "session": "2023W",
+          "reported": 165,
+          "average": 76.4,
+          "grades": [2, 1, 4, 2, 8, 13, 29, 35, 41, 19, 5],
+          "instructors": ["Neil Armitage", "Craig Meadows"]
+        },
+        {
+          "session": "2023S",
+          "reported": 59,
+          "average": 73.8,
+          "grades": [1, 1, 3, 6, 3, 8, 10, 6, 12, 4, 3],
+          "instructors": ["Neil Armitage"]
+        },
+        {
+          "session": "2022W",
+          "reported": 198,
+          "average": 76.3,
+          "grades": [5, 6, 4, 2, 6, 18, 32, 37, 38, 33, 17],
+          "instructors": ["Caroline Chung-Hsuan Locher-Lo", "Craig Meadows", "Ana Vivaldi Pasqua"]
+        },
+        {
+          "session": "2022S",
+          "reported": 74,
+          "average": 75.1,
+          "grades": [3, 0, 2, 2, 4, 9, 11, 17, 11, 10, 5],
+          "instructors": ["Neil Armitage"]
+        },
+        {
+          "session": "2021W",
+          "reported": 213,
+          "average": 76.5,
+          "grades": [0, 0, 0, 0, 0, 7, 48, 55, 50, 27, 6],
+          "instructors": ["Neil Armitage", "Craig Meadows"]
+        },
+        {
+          "session": "2021S",
+          "reported": 79,
+          "average": 80.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 19, 15, 15, 15],
+          "instructors": ["Neil Armitage"]
+        }
+      ]
+    },
+    "SOCI 364": {
+      "reported": 227,
+      "average": 78.0,
+      "grades": [3, 2, 4, 6, 7, 11, 17, 37, 50, 61, 11],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 49,
+          "average": 77.7,
+          "grades": [1, 0, 1, 2, 2, 5, 6, 6, 11, 10, 5],
+          "instructors": ["Nathanael Lauster"]
+        },
+        {
+          "session": "2023W",
+          "reported": 63,
+          "average": 77.2,
+          "grades": [2, 2, 1, 2, 4, 5, 6, 9, 11, 16, 5],
+          "instructors": ["Nathanael Lauster"]
+        },
+        {
+          "session": "2022W",
+          "reported": 59,
+          "average": 79.8,
+          "grades": [0, 0, 2, 2, 1, 1, 5, 14, 14, 19, 1],
+          "instructors": ["Nathanael Lauster"]
+        },
+        {
+          "session": "2021W",
+          "reported": 56,
+          "average": 77.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 8, 14, 16, 0],
+          "instructors": ["Nathanael Lauster"]
+        }
+      ]
+    },
+    "SOCI 369": {
+      "reported": 697,
+      "average": 74.6,
+      "grades": [20, 20, 37, 36, 36, 65, 80, 83, 126, 99, 62],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 59,
+          "average": 71.8,
+          "grades": [3, 1, 5, 2, 7, 7, 10, 7, 11, 4, 2],
+          "instructors": ["Tony Silva"]
+        },
+        {
+          "session": "2024W",
+          "reported": 114,
+          "average": 70.1,
+          "grades": [8, 8, 11, 9, 10, 6, 11, 13, 18, 13, 7],
+          "instructors": ["Brandy Wiebe", "Tony Silva"]
+        },
+        {
+          "session": "2023W",
+          "reported": 156,
+          "average": 72.6,
+          "grades": [7, 5, 11, 9, 9, 15, 19, 29, 26, 21, 4],
+          "instructors": ["Brandy Wiebe", "Tony Silva"]
+        },
+        {
+          "session": "2022W",
+          "reported": 145,
+          "average": 75.1,
+          "grades": [2, 6, 10, 9, 10, 17, 22, 13, 15, 18, 23],
+          "instructors": ["Brandy Wiebe", "Tony Silva"]
+        },
+        {
+          "session": "2021W",
+          "reported": 223,
+          "average": 78.7,
+          "grades": [0, 0, 0, 7, 0, 20, 18, 21, 56, 43, 26],
+          "instructors": ["Becky Ross", "Lj Slovin"]
+        }
+      ]
+    },
+    "SOCI 370": {
+      "reported": 341,
+      "average": 70.0,
+      "grades": [26, 3, 14, 15, 27, 54, 52, 40, 58, 26, 14],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 41,
+          "average": 70.7,
+          "grades": [5, 0, 0, 1, 2, 7, 4, 5, 6, 6, 5],
+          "instructors": ["Kerry Greer"]
+        },
+        {
+          "session": "2024W",
+          "reported": 51,
+          "average": 71.9,
+          "grades": [1, 1, 6, 3, 3, 13, 3, 7, 10, 3, 1],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "reported": 80,
+          "average": 70.4,
+          "grades": [4, 2, 4, 4, 9, 11, 13, 9, 18, 4, 0],
+          "instructors": ["Kerry Greer"]
+        },
+        {
+          "session": "2022W",
+          "reported": 82,
+          "average": 70.0,
+          "grades": [8, 0, 4, 7, 6, 14, 8, 6, 16, 5, 8],
+          "instructors": ["Kerry Greer"]
+        },
+        {
+          "session": "2021W",
+          "reported": 87,
+          "average": 68.3,
+          "grades": [8, 0, 0, 0, 7, 9, 24, 13, 8, 8, 0],
+          "instructors": ["Simon Lafontaine", "Thomas Kemple"]
+        }
+      ]
+    },
+    "SOCI 371": {
+      "reported": 1045,
+      "average": 76.1,
+      "grades": [14, 7, 8, 17, 49, 82, 169, 207, 254, 131, 46],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 173,
+          "average": 79.6,
+          "grades": [1, 0, 2, 2, 3, 16, 22, 21, 52, 48, 6],
+          "instructors": ["Laura Nelson", "Chris MacKenzie"]
+        },
+        {
+          "session": "2024W",
+          "reported": 169,
+          "average": 76.9,
+          "grades": [0, 1, 1, 4, 6, 18, 32, 41, 41, 15, 10],
+          "instructors": ["Craig Meadows"]
+        },
+        {
+          "session": "2024S",
+          "reported": 43,
+          "average": 73.6,
+          "grades": [2, 1, 1, 3, 4, 3, 7, 6, 9, 6, 1],
+          "instructors": ["Ana Vivaldi Pasqua"]
+        },
+        {
+          "session": "2023W",
+          "reported": 173,
+          "average": 77.4,
+          "grades": [4, 3, 1, 4, 14, 12, 30, 30, 32, 24, 19],
+          "instructors": ["Seth Abrutyn", "Ana Vivaldi Pasqua"]
+        },
+        {
+          "session": "2023S",
+          "reported": 44,
+          "average": 76.8,
+          "grades": [1, 0, 0, 2, 2, 3, 7, 4, 10, 11, 3],
+          "instructors": ["Craig Meadows"]
+        },
+        {
+          "session": "2022W",
+          "reported": 145,
+          "average": 76.4,
+          "grades": [1, 1, 1, 2, 11, 13, 28, 39, 34, 13, 2],
+          "instructors": ["Ana Vivaldi Pasqua", "Seth Abrutyn"]
+        },
+        {
+          "session": "2022S",
+          "reported": 50,
+          "average": 69.9,
+          "grades": [5, 1, 2, 0, 1, 5, 8, 11, 6, 6, 5],
+          "instructors": ["Craig Meadows"]
+        },
+        {
+          "session": "2021W",
+          "reported": 170,
+          "average": 73.0,
+          "grades": [0, 0, 0, 0, 8, 12, 22, 35, 41, 8, 0],
+          "instructors": ["Seth Abrutyn", "Kerry Greer"]
+        },
+        {
+          "session": "2021S",
+          "reported": 78,
+          "average": 74.3,
+          "grades": [0, 0, 0, 0, 0, 0, 13, 20, 29, 0, 0],
+          "instructors": ["Craig Meadows"]
+        }
+      ]
+    },
+    "SOCI 372": {
+      "reported": 517,
+      "average": 76.7,
+      "grades": [15, 6, 3, 16, 20, 45, 60, 97, 104, 69, 59],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 74,
+          "average": 82.3,
+          "grades": [2, 1, 2, 4, 1, 3, 5, 6, 5, 12, 33],
+          "instructors": ["Qiang Fu", "Seth Abrutyn"]
+        },
+        {
+          "session": "2024W",
+          "reported": 104,
+          "average": 78.6,
+          "grades": [3, 0, 0, 4, 5, 7, 10, 15, 24, 26, 10],
+          "instructors": ["Qiang Fu", "Seth Abrutyn"]
+        },
+        {
+          "session": "2023W",
+          "reported": 76,
+          "average": 75.1,
+          "grades": [2, 4, 1, 2, 3, 5, 14, 12, 18, 12, 3],
+          "instructors": ["Ana Vivaldi Pasqua"]
+        },
+        {
+          "session": "2023S",
+          "reported": 10,
+          "average": 80.5,
+          "grades": [0, 0, 0, 1, 0, 2, 0, 0, 2, 3, 2],
+          "instructors": ["Ana Vivaldi Pasqua"]
+        },
+        {
+          "session": "2022W",
+          "reported": 81,
+          "average": 72.9,
+          "grades": [5, 0, 0, 4, 8, 11, 9, 18, 21, 3, 2],
+          "instructors": ["Thomas Kemple"]
+        },
+        {
+          "session": "2022S",
+          "reported": 35,
+          "average": 73.5,
+          "grades": [3, 1, 0, 1, 3, 3, 5, 7, 5, 5, 2],
+          "instructors": ["Ana Vivaldi Pasqua"]
+        },
+        {
+          "session": "2021W",
+          "reported": 82,
+          "average": 75.3,
+          "grades": [0, 0, 0, 0, 0, 6, 11, 21, 17, 8, 7],
+          "instructors": ["Ana Vivaldi Pasqua"]
+        },
+        {
+          "session": "2021S",
+          "reported": 55,
+          "average": 76.8,
+          "grades": [0, 0, 0, 0, 0, 8, 6, 18, 12, 0, 0],
+          "instructors": ["Ana Vivaldi Pasqua"]
+        }
+      ]
+    },
+    "SOCI 380": {
+      "reported": 979,
+      "average": 81.6,
+      "grades": [18, 5, 16, 14, 44, 56, 107, 71, 150, 147, 320],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 138,
+          "average": 82.4,
+          "grades": [1, 0, 3, 1, 5, 9, 13, 8, 23, 43, 32],
+          "instructors": ["David Tindall", "Kimberly Huyser"]
+        },
+        {
+          "session": "2025S",
+          "reported": 48,
+          "average": 77.4,
+          "grades": [5, 0, 0, 0, 0, 1, 3, 4, 12, 15, 8],
+          "instructors": ["Elic Chan"]
+        },
+        {
+          "session": "2024W",
+          "reported": 161,
+          "average": 80.8,
+          "grades": [5, 1, 3, 2, 8, 14, 23, 12, 14, 17, 62],
+          "instructors": ["Elic Chan", "Kimberly Huyser"]
+        },
+        {
+          "session": "2024S",
+          "reported": 35,
+          "average": 73.6,
+          "grades": [2, 0, 2, 2, 1, 1, 6, 4, 9, 6, 2],
+          "instructors": ["Elic Chan"]
+        },
+        {
+          "session": "2023W",
+          "reported": 165,
+          "average": 85.3,
+          "grades": [1, 1, 2, 0, 6, 5, 8, 8, 27, 34, 70],
+          "instructors": ["Caroline Chung-Hsuan Locher-Lo", "Kimberly Huyser"]
+        },
+        {
+          "session": "2023S",
+          "reported": 47,
+          "average": 76.2,
+          "grades": [0, 0, 0, 0, 4, 4, 13, 9, 9, 4, 1],
+          "instructors": ["Sayyed Mohsen Fatemi"]
+        },
+        {
+          "session": "2022W",
+          "reported": 172,
+          "average": 84.0,
+          "grades": [1, 1, 5, 6, 10, 11, 19, 14, 13, 9, 83],
+          "instructors": ["Kimberly Huyser", "Oral Robinson"]
+        },
+        {
+          "session": "2022S",
+          "reported": 55,
+          "average": 73.7,
+          "grades": [3, 2, 1, 3, 4, 4, 9, 6, 14, 7, 2],
+          "instructors": ["Oral Robinson"]
+        },
+        {
+          "session": "2021W",
+          "reported": 86,
+          "average": 90.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 7, 12, 60],
+          "instructors": ["Kimberly Huyser"]
+        },
+        {
+          "session": "2021S",
+          "reported": 72,
+          "average": 73.9,
+          "grades": [0, 0, 0, 0, 6, 7, 13, 6, 22, 0, 0],
+          "instructors": ["Oral Robinson"]
+        }
+      ]
+    },
+    "SOCI 381": {
+      "reported": 51,
+      "average": 76.9,
+      "grades": [0, 1, 1, 4, 5, 5, 3, 10, 8, 5, 8],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 11,
+          "average": 80.4,
+          "grades": [0, 0, 0, 0, 1, 0, 1, 2, 4, 2, 1],
+          "instructors": ["Jennifer Berdahl"]
+        },
+        {
+          "session": "2023W",
+          "reported": 40,
+          "average": 75.9,
+          "grades": [0, 1, 1, 4, 4, 5, 2, 8, 4, 3, 7],
+          "instructors": ["Jennifer Berdahl"]
+        }
+      ]
+    },
+    "SOCI 382": {
+      "reported": 481,
+      "average": 78.3,
+      "grades": [12, 2, 6, 4, 16, 35, 44, 73, 113, 80, 67],
+      "terms": [
+        {
+          "session": "2025S",
+          "reported": 30,
+          "average": 76.5,
+          "grades": [1, 0, 1, 0, 1, 2, 5, 3, 8, 7, 2],
+          "instructors": ["Oral Robinson"]
+        },
+        {
+          "session": "2024W",
+          "reported": 42,
+          "average": 79.5,
+          "grades": [1, 0, 0, 0, 3, 0, 3, 5, 16, 13, 1],
+          "instructors": ["Ana Vivaldi Pasqua"]
+        },
+        {
+          "session": "2024S",
+          "reported": 73,
+          "average": 77.4,
+          "grades": [2, 0, 1, 2, 2, 7, 14, 11, 16, 9, 9],
+          "instructors": ["Katherine Lyon"]
+        },
+        {
+          "session": "2023W",
+          "reported": 77,
+          "average": 76.1,
+          "grades": [4, 0, 0, 1, 3, 7, 6, 17, 21, 16, 1],
+          "instructors": ["Ana Vivaldi Pasqua"]
+        },
+        {
+          "session": "2023S",
+          "reported": 28,
+          "average": 78.7,
+          "grades": [0, 1, 1, 1, 0, 0, 4, 6, 5, 7, 1],
+          "instructors": ["Katherine Lyon"]
+        },
+        {
+          "session": "2022W",
+          "reported": 87,
+          "average": 85.6,
+          "grades": [4, 1, 3, 0, 0, 1, 5, 2, 9, 9, 53],
+          "instructors": ["Lily Ivanova"]
+        },
+        {
+          "session": "2021W",
+          "reported": 85,
+          "average": 76.2,
+          "grades": [0, 0, 0, 0, 0, 11, 7, 21, 26, 10, 0],
+          "instructors": ["Michela Musto"]
+        },
+        {
+          "session": "2021S",
+          "reported": 59,
+          "average": 74.7,
+          "grades": [0, 0, 0, 0, 7, 7, 0, 8, 12, 9, 0],
+          "instructors": ["Katherine Lyon"]
+        }
+      ]
+    },
+    "SOCI 383": {
+      "reported": 42,
+      "average": 73.4,
+      "grades": [0, 0, 0, 1, 0, 6, 7, 7, 14, 2, 0],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 9,
+          "average": 78.0,
+          "grades": [0, 0, 0, 1, 0, 0, 1, 1, 4, 2, 0],
+          "instructors": ["Renisa Mawani"]
+        },
+        {
+          "session": "2021W",
+          "reported": 33,
+          "average": 72.1,
+          "grades": [0, 0, 0, 0, 0, 6, 6, 6, 10, 0, 0],
+          "instructors": ["Renisa Mawani"]
+        }
+      ]
+    },
+    "SOCI 384": {
+      "reported": 478,
+      "average": 76.8,
+      "grades": [6, 3, 2, 10, 28, 31, 74, 100, 129, 82, 3],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 161,
+          "average": 78.7,
+          "grades": [2, 1, 0, 2, 9, 8, 19, 31, 48, 39, 2],
+          "instructors": ["Ethan Raker"]
+        },
+        {
+          "session": "2024W",
+          "reported": 76,
+          "average": 77.2,
+          "grades": [1, 0, 1, 4, 3, 5, 14, 10, 22, 15, 1],
+          "instructors": ["Ethan Raker"]
+        },
+        {
+          "session": "2023W",
+          "reported": 83,
+          "average": 75.6,
+          "grades": [1, 1, 1, 3, 6, 7, 13, 20, 21, 9, 0],
+          "instructors": ["Ethan Raker"]
+        },
+        {
+          "session": "2022W",
+          "reported": 79,
+          "average": 77.1,
+          "grades": [2, 1, 0, 1, 2, 2, 15, 25, 22, 9, 0],
+          "instructors": ["Ethan Raker"]
+        },
+        {
+          "session": "2021W",
+          "reported": 79,
+          "average": 73.8,
+          "grades": [0, 0, 0, 0, 8, 9, 13, 14, 16, 10, 0],
+          "instructors": ["Ethan Raker"]
+        }
+      ]
+    },
+    "SOCI 387": {
+      "reported": 593,
+      "average": 78.0,
+      "grades": [17, 2, 1, 1, 6, 32, 62, 83, 200, 119, 43],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 170,
+          "average": 78.6,
+          "grades": [6, 0, 0, 0, 2, 11, 17, 25, 66, 36, 7],
+          "instructors": ["Lindsey Richardson"]
+        },
+        {
+          "session": "2024W",
+          "reported": 78,
+          "average": 79.2,
+          "grades": [2, 0, 0, 0, 1, 5, 7, 11, 32, 18, 2],
+          "instructors": ["Lindsey Richardson"]
+        },
+        {
+          "session": "2023W",
+          "reported": 81,
+          "average": 78.8,
+          "grades": [2, 0, 0, 1, 1, 4, 13, 5, 34, 14, 5],
+          "instructors": ["Lindsey Richardson"]
+        },
+        {
+          "session": "2022W",
+          "reported": 83,
+          "average": 78.1,
+          "grades": [1, 2, 1, 0, 2, 12, 10, 9, 25, 14, 7],
+          "instructors": ["Lindsey Richardson"]
+        },
+        {
+          "session": "2021W",
+          "reported": 95,
+          "average": 76.7,
+          "grades": [6, 0, 0, 0, 0, 0, 8, 18, 27, 22, 6],
+          "instructors": ["Robert Small"]
+        },
+        {
+          "session": "2021S",
+          "reported": 86,
+          "average": 76.4,
+          "grades": [0, 0, 0, 0, 0, 0, 7, 15, 16, 15, 16],
+          "instructors": ["Robert Small"]
+        }
+      ]
+    },
+    "SOCI 414": {
+      "reported": 183,
+      "average": 76.6,
+      "grades": [4, 2, 7, 3, 9, 6, 28, 25, 47, 34, 5],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 42,
+          "average": 69.3,
+          "grades": [2, 2, 7, 1, 6, 2, 4, 8, 7, 3, 0],
+          "instructors": ["Brandy Wiebe"]
+        },
+        {
+          "session": "2024W",
+          "reported": 24,
+          "average": 76.9,
+          "grades": [1, 0, 0, 1, 0, 0, 4, 5, 10, 3, 0],
+          "instructors": ["Brandy Wiebe"]
+        },
+        {
+          "session": "2023W",
+          "reported": 52,
+          "average": 78.9,
+          "grades": [1, 0, 0, 1, 2, 0, 12, 5, 13, 16, 1],
+          "instructors": ["Ana Vivaldi Pasqua", "Brandy Wiebe"]
+        },
+        {
+          "session": "2022W",
+          "reported": 42,
+          "average": 79.9,
+          "grades": [0, 0, 0, 0, 1, 4, 8, 7, 6, 12, 4],
+          "instructors": ["Ana Vivaldi Pasqua", "Brandy Wiebe"]
+        },
+        {
+          "session": "2021W",
+          "reported": 23,
+          "average": 78.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 11, 0, 0],
+          "instructors": ["Brandy Wiebe"]
+        }
+      ]
+    },
+    "SOCI 415": {
+      "reported": 1123,
+      "average": 83.1,
+      "grades": [9, 1, 5, 14, 24, 30, 64, 122, 209, 324, 271],
+      "terms": [
+        {
+          "session": "2025W",
+          "topic": "A",
+          "title": "Theories of Family and Kinship",
+          "reported": 223,
+          "average": 83.6,
+          "grades": [3, 0, 1, 3, 4, 2, 12, 21, 42, 98, 37],
+          "instructors": ["Alyssa Alexander", "Silvia Bartolic"]
+        },
+        {
+          "session": "2025S",
+          "topic": "A",
+          "title": "Theories of Family and Kinship",
+          "reported": 34,
+          "average": 83.4,
+          "grades": [0, 0, 0, 0, 1, 1, 0, 5, 12, 10, 5],
+          "instructors": ["Alyssa Alexander"]
+        },
+        {
+          "session": "2024W",
+          "topic": "A",
+          "title": "Theories of Family and Kinship",
+          "reported": 153,
+          "average": 83.5,
+          "grades": [2, 0, 1, 0, 2, 4, 9, 19, 28, 54, 34],
+          "instructors": ["Alyssa Alexander", "Silvia Bartolic"]
+        },
+        {
+          "session": "2024S",
+          "reported": 29,
+          "average": 75.1,
+          "grades": [0, 0, 2, 4, 0, 3, 3, 6, 8, 2, 1],
+          "instructors": ["Rafael Wainer"]
+        },
+        {
+          "session": "2023W",
+          "reported": 218,
+          "average": 81.3,
+          "grades": [4, 1, 0, 0, 7, 9, 18, 29, 43, 85, 20],
+          "instructors": ["Silvia Bartolic", "Rafael Wainer", "Alyssa Alexander", "Craig Meadows"]
+        },
+        {
+          "session": "2023S",
+          "reported": 33,
+          "average": 89.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 14, 18],
+          "instructors": ["Alyssa Alexander"]
+        },
+        {
+          "session": "2022W",
+          "reported": 215,
+          "average": 82.0,
+          "grades": [0, 0, 1, 6, 10, 10, 22, 19, 46, 50, 51],
+          "instructors": ["Rafael Wainer", "Alyssa Alexander", "Silvia Bartolic"]
+        },
+        {
+          "session": "2022S",
+          "reported": 27,
+          "average": 90.5,
+          "grades": [0, 0, 0, 1, 0, 1, 0, 0, 1, 2, 22],
+          "instructors": ["Alyssa Alexander"]
+        },
+        {
+          "session": "2021W",
+          "reported": 163,
+          "average": 85.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 15, 19, 9, 83],
+          "instructors": ["Rafael Wainer", "Alyssa Alexander", "Silvia Bartolic"]
+        },
+        {
+          "session": "2021S",
+          "reported": 28,
+          "average": 77.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 8, 9, 0, 0],
+          "instructors": ["Rafael Wainer"]
+        }
+      ]
+    },
+    "SOCI 418": {
+      "reported": 52,
+      "average": 73.5,
+      "grades": [2, 3, 3, 0, 3, 7, 5, 4, 7, 3, 6],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 15,
+          "average": 73.4,
+          "grades": [1, 0, 1, 0, 1, 2, 3, 3, 1, 2, 1],
+          "instructors": ["Yue Qian"]
+        },
+        {
+          "session": "2024W",
+          "reported": 18,
+          "average": 70.0,
+          "grades": [1, 2, 1, 0, 2, 4, 1, 0, 5, 0, 2],
+          "instructors": ["Yue Qian"]
+        },
+        {
+          "session": "2023W",
+          "reported": 12,
+          "average": 77.3,
+          "grades": [0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 3],
+          "instructors": ["Yue Qian"]
+        },
+        {
+          "session": "2021W",
+          "reported": 7,
+          "average": 76.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Yue Qian"]
+        }
+      ]
+    },
+    "SOCI 420": {
+      "reported": 221,
+      "average": 81.2,
+      "grades": [3, 3, 7, 3, 7, 8, 19, 16, 54, 25, 67],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 24,
+          "average": 83.8,
+          "grades": [0, 0, 1, 0, 1, 1, 2, 3, 4, 3, 9],
+          "instructors": ["Andrew Jorgenson"]
+        },
+        {
+          "session": "2024W",
+          "reported": 92,
+          "average": 82.7,
+          "grades": [1, 1, 3, 0, 3, 5, 8, 6, 22, 10, 33],
+          "instructors": ["Andrew Jorgenson", "Emily Huddart", "Kathryn McConnell", "David Tindall"]
+        },
+        {
+          "session": "2023W",
+          "reported": 86,
+          "average": 78.8,
+          "grades": [2, 2, 3, 3, 3, 2, 9, 7, 22, 12, 18],
+          "instructors": ["Andrew Jorgenson", "Craig Meadows", "Emily Huddart"]
+        },
+        {
+          "session": "2021W",
+          "reported": 19,
+          "average": 81.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 7],
+          "instructors": ["Emily Huddart Kennedy"]
+        }
+      ]
+    },
+    "SOCI 423": {
+      "reported": 60,
+      "average": 81.9,
+      "grades": [0, 0, 1, 0, 0, 0, 1, 9, 27, 18, 0],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 31,
+          "average": 81.2,
+          "grades": [0, 0, 1, 0, 0, 0, 1, 3, 18, 7, 0],
+          "instructors": ["Amy Hanser"]
+        },
+        {
+          "session": "2021W",
+          "reported": 29,
+          "average": 82.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 6, 9, 11, 0],
+          "instructors": ["Amy Hanser"]
+        }
+      ]
+    },
+    "SOCI 425": {
+      "reported": 87,
+      "average": 76.6,
+      "grades": [5, 1, 1, 1, 4, 7, 6, 6, 15, 18, 6],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 27,
+          "average": 75.6,
+          "grades": [2, 0, 0, 0, 1, 2, 2, 3, 7, 7, 3],
+          "instructors": ["Nathanael Lauster"]
+        },
+        {
+          "session": "2023W",
+          "reported": 26,
+          "average": 72.2,
+          "grades": [3, 0, 1, 1, 3, 3, 1, 0, 5, 6, 3],
+          "instructors": ["Nathanael Lauster"]
+        },
+        {
+          "session": "2022W",
+          "reported": 17,
+          "average": 77.8,
+          "grades": [0, 1, 0, 0, 0, 2, 3, 3, 3, 5, 0],
+          "instructors": ["Nathanael Lauster"]
+        },
+        {
+          "session": "2021W",
+          "reported": 17,
+          "average": 83.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Nathanael Lauster"]
+        }
+      ]
+    },
+    "SOCI 430": {
+      "reported": 15,
+      "average": 85.5,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 0],
+      "terms": [
+        {
+          "session": "2021W",
+          "reported": 15,
+          "average": 85.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 0],
+          "instructors": ["Sean Lauer"]
+        }
+      ]
+    },
+    "SOCI 433": {
+      "reported": 24,
+      "average": 91.4,
+      "grades": [0, 0, 0, 0, 0, 0, 1, 0, 2, 3, 18],
+      "terms": [
+        {
+          "session": "2024W",
+          "topic": "A",
+          "title": "Directed Studies",
+          "reported": 6,
+          "average": 90.0,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 4],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "topic": "A",
+          "title": "Directed Studies",
+          "reported": 7,
+          "average": 89.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 5],
+          "instructors": []
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Directed Studies",
+          "reported": 11,
+          "average": 93.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 9],
+          "instructors": []
+        }
+      ]
+    },
+    "SOCI 440": {
+      "reported": 101,
+      "average": 80.7,
+      "grades": [0, 1, 0, 0, 1, 2, 7, 13, 48, 17, 0],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 24,
+          "average": 81.8,
+          "grades": [0, 1, 0, 0, 0, 0, 0, 2, 15, 6, 0],
+          "instructors": ["Amy Hanser"]
+        },
+        {
+          "session": "2023W",
+          "reported": 30,
+          "average": 80.8,
+          "grades": [0, 0, 0, 0, 0, 1, 4, 4, 16, 5, 0],
+          "instructors": ["Amy Hanser"]
+        },
+        {
+          "session": "2022W",
+          "reported": 28,
+          "average": 80.2,
+          "grades": [0, 0, 0, 0, 1, 1, 3, 7, 10, 6, 0],
+          "instructors": ["Amy Hanser"]
+        },
+        {
+          "session": "2021W",
+          "reported": 19,
+          "average": 80.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 7, 0, 0],
+          "instructors": ["Amy Hanser"]
+        }
+      ]
+    },
+    "SOCI 441": {
+      "reported": 58,
+      "average": 79.6,
+      "grades": [1, 1, 1, 1, 1, 1, 2, 3, 11, 4, 13],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 25,
+          "average": 78.0,
+          "grades": [1, 1, 1, 1, 1, 1, 2, 3, 3, 4, 7],
+          "instructors": ["Phyllis Johnson"]
+        },
+        {
+          "session": "2021W",
+          "reported": 33,
+          "average": 80.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 8, 0, 6],
+          "instructors": ["Phyllis Johnson"]
+        }
+      ]
+    },
+    "SOCI 442": {
+      "reported": 84,
+      "average": 79.1,
+      "grades": [1, 0, 0, 0, 5, 3, 14, 15, 23, 17, 5],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 26,
+          "average": 79.7,
+          "grades": [0, 0, 0, 0, 1, 0, 8, 4, 6, 5, 2],
+          "instructors": ["Sylvia Fuller"]
+        },
+        {
+          "session": "2023W",
+          "reported": 30,
+          "average": 79.2,
+          "grades": [0, 0, 0, 0, 2, 3, 4, 5, 7, 6, 2],
+          "instructors": ["Sylvia Fuller"]
+        },
+        {
+          "session": "2022W",
+          "reported": 28,
+          "average": 78.4,
+          "grades": [1, 0, 0, 0, 2, 0, 2, 6, 10, 6, 1],
+          "instructors": ["Sylvia Fuller"]
+        }
+      ]
+    },
+    "SOCI 449": {
+      "reported": 61,
+      "average": 89.5,
+      "grades": [1, 0, 0, 0, 0, 0, 1, 0, 0, 9, 45],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 12,
+          "average": 92.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 10],
+          "instructors": ["Oral Robinson"]
+        },
+        {
+          "session": "2024W",
+          "reported": 15,
+          "average": 92.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 11],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "reported": 13,
+          "average": 90.7,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 0, 2, 8],
+          "instructors": ["Oral Robinson"]
+        },
+        {
+          "session": "2022W",
+          "reported": 9,
+          "average": 83.7,
+          "grades": [1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 7],
+          "instructors": ["Oral Robinson"]
+        },
+        {
+          "session": "2021W",
+          "reported": 12,
+          "average": 85.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9],
+          "instructors": ["Oral Robinson", "Kerry Greer"]
+        }
+      ]
+    },
+    "SOCI 464": {
+      "reported": 85,
+      "average": 83.5,
+      "grades": [2, 2, 1, 0, 0, 0, 4, 5, 19, 24, 28],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 30,
+          "average": 84.0,
+          "grades": [0, 1, 0, 0, 0, 0, 1, 4, 6, 12, 6],
+          "instructors": ["Catherine Corrigall-Brown"]
+        },
+        {
+          "session": "2024W",
+          "reported": 43,
+          "average": 87.0,
+          "grades": [0, 1, 0, 0, 0, 0, 1, 0, 12, 9, 20],
+          "instructors": ["David Tindall", "Catherine Corrigall-Brown"]
+        },
+        {
+          "session": "2023W",
+          "reported": 12,
+          "average": 69.4,
+          "grades": [2, 0, 1, 0, 0, 0, 2, 1, 1, 3, 2],
+          "instructors": ["David Tindall"]
+        }
+      ]
+    },
+    "SOCI 465": {
+      "reported": 21,
+      "average": 80.7,
+      "grades": [0, 0, 0, 0, 1, 0, 5, 2, 4, 7, 2],
+      "terms": [
+        {
+          "session": "2022W",
+          "reported": 21,
+          "average": 80.7,
+          "grades": [0, 0, 0, 0, 1, 0, 5, 2, 4, 7, 2],
+          "instructors": ["Carrie Yodanis"]
+        }
+      ]
+    },
+    "SOCI 466": {
+      "reported": 132,
+      "average": 82.0,
+      "grades": [1, 0, 2, 0, 3, 5, 11, 22, 32, 31, 25],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 55,
+          "average": 82.4,
+          "grades": [0, 0, 1, 0, 0, 2, 5, 8, 17, 12, 10],
+          "instructors": ["Neil Armitage"]
+        },
+        {
+          "session": "2024W",
+          "reported": 24,
+          "average": 85.6,
+          "grades": [0, 0, 0, 0, 1, 0, 1, 3, 2, 9, 8],
+          "instructors": ["Neil Armitage"]
+        },
+        {
+          "session": "2023W",
+          "reported": 23,
+          "average": 84.2,
+          "grades": [0, 0, 0, 0, 0, 0, 2, 4, 7, 3, 7],
+          "instructors": ["Neil Armitage"]
+        },
+        {
+          "session": "2022W",
+          "reported": 30,
+          "average": 76.5,
+          "grades": [1, 0, 1, 0, 2, 3, 3, 7, 6, 7, 0],
+          "instructors": ["Neil Armitage"]
+        }
+      ]
+    },
+    "SOCI 470": {
+      "reported": 109,
+      "average": 77.7,
+      "grades": [3, 1, 4, 3, 0, 5, 12, 12, 32, 24, 7],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 31,
+          "average": 78.6,
+          "grades": [0, 1, 1, 3, 0, 2, 3, 1, 9, 7, 4],
+          "instructors": ["Carole Blackburn"]
+        },
+        {
+          "session": "2023W",
+          "reported": 27,
+          "average": 73.3,
+          "grades": [2, 0, 2, 0, 0, 3, 8, 2, 6, 2, 2],
+          "instructors": ["Carole Blackburn"]
+        },
+        {
+          "session": "2022W",
+          "reported": 28,
+          "average": 77.6,
+          "grades": [1, 0, 1, 0, 0, 0, 1, 9, 10, 5, 1],
+          "instructors": ["Robert Small"]
+        },
+        {
+          "session": "2021W",
+          "reported": 23,
+          "average": 81.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 7, 10, 0],
+          "instructors": ["Elic Chan"]
+        }
+      ]
+    },
+    "SOCI 473": {
+      "reported": 32,
+      "average": 76.9,
+      "grades": [0, 0, 0, 2, 1, 5, 6, 4, 8, 6, 0],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 32,
+          "average": 76.9,
+          "grades": [0, 0, 0, 2, 1, 5, 6, 4, 8, 6, 0],
+          "instructors": ["Seth Abrutyn"]
+        }
+      ]
+    },
+    "SOCI 477": {
+      "reported": 15,
+      "average": 83.4,
+      "grades": [0, 0, 1, 2, 0, 0, 1, 0, 1, 3, 7],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 15,
+          "average": 83.4,
+          "grades": [0, 0, 1, 2, 0, 0, 1, 0, 1, 3, 7],
+          "instructors": ["Gerry Veenstra"]
+        }
+      ]
+    },
+    "SOCI 479": {
+      "reported": 82,
+      "average": 80.5,
+      "grades": [0, 0, 0, 1, 2, 3, 6, 5, 25, 15, 5],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 25,
+          "average": 82.8,
+          "grades": [0, 0, 0, 0, 0, 1, 2, 3, 7, 9, 2],
+          "instructors": ["Gerry Veenstra"]
+        },
+        {
+          "session": "2022W",
+          "reported": 28,
+          "average": 79.7,
+          "grades": [0, 0, 0, 1, 2, 2, 4, 2, 8, 6, 3],
+          "instructors": ["Gerry Veenstra"]
+        },
+        {
+          "session": "2021W",
+          "reported": 29,
+          "average": 79.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 10, 0, 0],
+          "instructors": ["Gerry Veenstra"]
+        }
+      ]
+    },
+    "SOCI 480": {
+      "reported": 87,
+      "average": 82.2,
+      "grades": [1, 1, 0, 1, 0, 2, 2, 11, 27, 31, 8],
+      "terms": [
+        {
+          "session": "2025S",
+          "topic": "A",
+          "title": "Urban Ethnographic Field School (UEFS)",
+          "reported": 22,
+          "average": 82.1,
+          "grades": [0, 1, 0, 0, 0, 1, 1, 2, 5, 10, 2],
+          "instructors": []
+        },
+        {
+          "session": "2024S",
+          "reported": 13,
+          "average": 75.5,
+          "grades": [1, 0, 0, 1, 0, 1, 1, 1, 3, 4, 1],
+          "instructors": ["Rima Wilkes"]
+        },
+        {
+          "session": "2023S",
+          "reported": 19,
+          "average": 85.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 6, 9, 3],
+          "instructors": ["Kerry Greer"]
+        },
+        {
+          "session": "2022S",
+          "reported": 15,
+          "average": 85.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 5, 8, 2],
+          "instructors": ["Thomas Kemple"]
+        },
+        {
+          "session": "2021S",
+          "reported": 18,
+          "average": 81.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 7, 8, 0, 0],
+          "instructors": ["Thomas Kemple"]
+        }
+      ]
+    },
+    "SOCI 490": {
+      "reported": 120,
+      "average": 87.6,
+      "grades": [1, 0, 0, 0, 0, 0, 2, 2, 23, 31, 57],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 25,
+          "average": 90.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 4, 3, 17],
+          "instructors": ["Qiang Fu"]
+        },
+        {
+          "session": "2024W",
+          "reported": 24,
+          "average": 85.6,
+          "grades": [0, 0, 0, 0, 0, 0, 2, 0, 5, 14, 3],
+          "instructors": ["Qiang Fu"]
+        },
+        {
+          "session": "2023W",
+          "reported": 25,
+          "average": 85.3,
+          "grades": [1, 0, 0, 0, 0, 0, 0, 1, 1, 8, 13],
+          "instructors": ["Qiang Fu"]
+        },
+        {
+          "session": "2022W",
+          "reported": 28,
+          "average": 85.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 13, 6, 9],
+          "instructors": ["Qiang Fu"]
+        },
+        {
+          "session": "2021W",
+          "reported": 18,
+          "average": 92.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 15],
+          "instructors": ["Qiang Fu"]
+        }
+      ]
+    },
+    "SOCI 495": {
+      "reported": 140,
+      "average": 79.8,
+      "grades": [1, 0, 4, 2, 1, 1, 11, 16, 40, 25, 17],
+      "terms": [
+        {
+          "session": "2025W",
+          "topic": "A",
+          "title": "Advanced Studies in Sociology",
+          "reported": 12,
+          "average": 82.0,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 1, 5, 5, 0],
+          "instructors": ["Ethan Raker"]
+        },
+        {
+          "session": "2025W",
+          "topic": "D",
+          "title": "Advanced Studies in Sociology",
+          "reported": 10,
+          "average": 81.0,
+          "grades": [0, 0, 1, 0, 0, 0, 1, 1, 2, 3, 2],
+          "instructors": ["Sean Lauer"]
+        },
+        {
+          "session": "2024W",
+          "topic": "A",
+          "title": "Advanced Studies in Sociology",
+          "reported": 9,
+          "average": 82.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 2, 5, 2, 0],
+          "instructors": ["Ethan Raker"]
+        },
+        {
+          "session": "2024W",
+          "topic": "B",
+          "title": "Advanced Studies in Sociology",
+          "reported": 9,
+          "average": 74.6,
+          "grades": [1, 0, 0, 0, 0, 0, 1, 0, 5, 2, 0],
+          "instructors": ["Sean Lauer"]
+        },
+        {
+          "session": "2023W",
+          "topic": "B",
+          "title": "Advanced Studies in Sociology",
+          "reported": 13,
+          "average": 83.3,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 2, 4, 5, 1],
+          "instructors": ["Gerry Veenstra"]
+        },
+        {
+          "session": "2023W",
+          "topic": "F",
+          "title": "Advanced Studies in Sociology",
+          "reported": 9,
+          "average": 79.8,
+          "grades": [0, 0, 1, 0, 0, 0, 1, 1, 2, 3, 1],
+          "instructors": ["Lindsey Richardson"]
+        },
+        {
+          "session": "2023W",
+          "topic": "G",
+          "title": "Advanced Studies in Sociology",
+          "reported": 7,
+          "average": 83.8,
+          "grades": [0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 3],
+          "instructors": ["David Tindall"]
+        },
+        {
+          "session": "2023W",
+          "topic": "H",
+          "title": "Advanced Studies in Sociology",
+          "reported": 16,
+          "average": 80.0,
+          "grades": [0, 0, 0, 1, 0, 0, 2, 3, 4, 2, 3],
+          "instructors": ["Sean Lauer"]
+        },
+        {
+          "session": "2022W",
+          "topic": "D",
+          "title": "Advanced Studies in Sociology",
+          "reported": 8,
+          "average": 93.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 6],
+          "instructors": ["Kimberly Huyser"]
+        },
+        {
+          "session": "2022W",
+          "topic": "E",
+          "title": "Advanced Studies in Sociology",
+          "reported": 7,
+          "average": 75.3,
+          "grades": [0, 0, 1, 0, 0, 0, 1, 2, 3, 0, 0],
+          "instructors": ["Ethan Raker"]
+        },
+        {
+          "session": "2022W",
+          "topic": "F",
+          "title": "Advanced Studies in Sociology",
+          "reported": 20,
+          "average": 78.3,
+          "grades": [0, 0, 1, 0, 1, 0, 4, 3, 7, 3, 1],
+          "instructors": ["Lindsey Richardson"]
+        },
+        {
+          "session": "2021W",
+          "topic": "A",
+          "title": "Advanced Studies in Sociology",
+          "reported": 20,
+          "average": 72.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Seth Abrutyn"]
+        }
+      ]
+    },
+    "SOCI 500": {
+      "reported": 20,
+      "average": 86.0,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 1, 2, 10, 1],
+      "terms": [
+        {
+          "session": "2022W",
+          "reported": 7,
+          "average": 84.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 1],
+          "instructors": ["Thomas Kemple"]
+        },
+        {
+          "session": "2021W",
+          "reported": 13,
+          "average": 86.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 0],
+          "instructors": ["Thomas Kemple"]
+        }
+      ]
+    },
+    "SOCI 501": {
+      "reported": 27,
+      "average": 86.6,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 3, 22, 1],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 10,
+          "average": 86.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 8, 0],
+          "instructors": ["Seth Abrutyn"]
+        },
+        {
+          "session": "2023W",
+          "reported": 11,
+          "average": 86.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 9, 0],
+          "instructors": ["Seth Abrutyn"]
+        },
+        {
+          "session": "2022W",
+          "reported": 6,
+          "average": 87.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 1],
+          "instructors": ["Seth Abrutyn"]
+        }
+      ]
+    },
+    "SOCI 502": {
+      "reported": 28,
+      "average": 90.7,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 22],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 9,
+          "average": 93.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9],
+          "instructors": ["Nathanael Lauster"]
+        },
+        {
+          "session": "2023W",
+          "reported": 6,
+          "average": 92.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 5],
+          "instructors": ["Nathanael Lauster"]
+        },
+        {
+          "session": "2021W",
+          "reported": 13,
+          "average": 88.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8],
+          "instructors": ["Nathanael Lauster"]
+        }
+      ]
+    },
+    "SOCI 503": {
+      "reported": 48,
+      "average": 88.7,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 26, 19],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 14,
+          "average": 89.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 6],
+          "instructors": ["Amanda Cheong"]
+        },
+        {
+          "session": "2023W",
+          "reported": 10,
+          "average": 90.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 9],
+          "instructors": ["Amanda Cheong"]
+        },
+        {
+          "session": "2022W",
+          "reported": 11,
+          "average": 88.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 6, 4],
+          "instructors": ["Amanda Cheong"]
+        },
+        {
+          "session": "2021W",
+          "reported": 13,
+          "average": 86.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 0],
+          "instructors": ["Amanda Cheong"]
+        }
+      ]
+    },
+    "SOCI 508": {
+      "reported": 8,
+      "average": 87.1,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 6, 1],
+      "terms": [
+        {
+          "session": "2022W",
+          "reported": 8,
+          "average": 87.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 6, 1],
+          "instructors": ["Laura Nelson"]
+        }
+      ]
+    },
+    "SOCI 512": {
+      "reported": 10,
+      "average": 85.8,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 8, 0],
+      "terms": [
+        {
+          "session": "2022W",
+          "reported": 10,
+          "average": 85.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 8, 0],
+          "instructors": ["Michela Musto"]
+        }
+      ]
+    },
+    "SOCI 514": {
+      "reported": 43,
+      "average": 86.3,
+      "grades": [0, 0, 0, 0, 0, 0, 1, 0, 7, 19, 9],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 9,
+          "average": 84.0,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 3, 5, 0],
+          "instructors": ["Charlotte Hirsh"]
+        },
+        {
+          "session": "2023W",
+          "reported": 11,
+          "average": 90.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 8],
+          "instructors": ["Qiang Fu"]
+        },
+        {
+          "session": "2022W",
+          "reported": 10,
+          "average": 84.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 4, 5, 1],
+          "instructors": ["Charlotte Hirsh"]
+        },
+        {
+          "session": "2021W",
+          "reported": 13,
+          "average": 85.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 0],
+          "instructors": ["Charlotte Hirsh"]
+        }
+      ]
+    },
+    "SOCI 515": {
+      "reported": 14,
+      "average": 87.4,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 1, 0, 12, 1],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 6,
+          "average": 88.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 1],
+          "instructors": ["Amin Ghaziani"]
+        },
+        {
+          "session": "2022W",
+          "reported": 8,
+          "average": 86.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 0, 7, 0],
+          "instructors": ["Amin Ghaziani"]
+        }
+      ]
+    },
+    "SOCI 599": {
+      "reported": 43,
+      "average": 88.8,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 10, 4, 15],
+      "terms": [
+        {
+          "session": "2023W",
+          "topic": "D",
+          "title": "Special Topics Seminar",
+          "reported": 7,
+          "average": 84.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 4, 3, 0],
+          "instructors": ["Ethan Raker"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Special Topics Seminar",
+          "reported": 7,
+          "average": 95.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7],
+          "instructors": ["David Tindall"]
+        },
+        {
+          "session": "2022W",
+          "topic": "C",
+          "title": "Special Topics Seminar",
+          "reported": 7,
+          "average": 88.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 3, 1, 3],
+          "instructors": ["Emily Huddart Kennedy"]
+        },
+        {
+          "session": "2022W",
+          "topic": "E",
+          "title": "Special Topics Seminar",
+          "reported": 8,
+          "average": 88.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 5],
+          "instructors": ["Anne Martin-Matthews"]
+        },
+        {
+          "session": "2021W",
+          "topic": "C",
+          "title": "Special Topics Seminar",
+          "reported": 7,
+          "average": 87.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Emily Huddart Kennedy"]
+        },
+        {
+          "session": "2021W",
+          "topic": "D",
+          "title": "Special Topics Seminar",
+          "reported": 7,
+          "average": 89.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Seth Abrutyn"]
+        }
+      ]
+    }
+  }
+}

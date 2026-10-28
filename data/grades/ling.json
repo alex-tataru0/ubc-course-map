@@ -1,0 +1,1791 @@
+{
+  "subject": "LING",
+  "campus": "UBCV",
+  "source": "https://ubcgrades.com",
+  "credit": "UBCGrades.com / UBC PAIR",
+  "sessions": ["2021S", "2021W", "2022S", "2022W", "2023S", "2023W", "2024S", "2024W", "2025S", "2025W"],
+  "buckets": ["<50%", "50-54%", "55-59%", "60-63%", "64-67%", "68-71%", "72-75%", "76-79%", "80-84%", "85-89%", "90-100%"],
+  "courses": {
+    "LING 100": {
+      "reported": 3619,
+      "average": 79.1,
+      "grades": [50, 38, 47, 84, 154, 230, 368, 455, 841, 760, 501],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 428,
+          "average": 80.4,
+          "grades": [8, 8, 6, 13, 9, 28, 33, 20, 113, 110, 80],
+          "instructors": ["Eva Csipak"]
+        },
+        {
+          "session": "2025S",
+          "reported": 130,
+          "average": 80.4,
+          "grades": [4, 1, 1, 2, 1, 3, 6, 11, 45, 46, 10],
+          "instructors": ["Eva Csipak"]
+        },
+        {
+          "session": "2024W",
+          "reported": 508,
+          "average": 77.3,
+          "grades": [9, 10, 11, 13, 25, 45, 65, 85, 129, 73, 43],
+          "instructors": ["Amanda Cardoso", "Eva Csipak"]
+        },
+        {
+          "session": "2024S",
+          "reported": 80,
+          "average": 77.1,
+          "grades": [2, 3, 0, 3, 4, 9, 7, 12, 15, 15, 10],
+          "instructors": ["Md Jahurul Islam"]
+        },
+        {
+          "session": "2023W",
+          "reported": 761,
+          "average": 78.6,
+          "grades": [5, 6, 14, 19, 35, 69, 88, 108, 179, 149, 69],
+          "instructors": ["Amanda Cardoso", "Sylvia Cho", "Eva Csipak"]
+        },
+        {
+          "session": "2023S",
+          "reported": 95,
+          "average": 87.3,
+          "grades": [1, 0, 1, 0, 1, 0, 3, 5, 10, 25, 45],
+          "instructors": ["Carla Hudson Kam", "Rose-Marie Dechaine"]
+        },
+        {
+          "session": "2022W",
+          "reported": 662,
+          "average": 81.0,
+          "grades": [8, 7, 9, 12, 25, 29, 59, 93, 142, 148, 130],
+          "instructors": ["Sylvia Cho", "Eva Csipak", "Amanda Cardoso"]
+        },
+        {
+          "session": "2022S",
+          "reported": 181,
+          "average": 77.2,
+          "grades": [6, 3, 5, 7, 12, 12, 25, 19, 31, 31, 30],
+          "instructors": ["Rachel Soo", "Sylvia Cho"]
+        },
+        {
+          "session": "2021W",
+          "reported": 636,
+          "average": 77.8,
+          "grades": [7, 0, 0, 15, 35, 35, 67, 83, 155, 131, 66],
+          "instructors": ["Amanda Cardoso", "Sylvia Cho"]
+        },
+        {
+          "session": "2021S",
+          "reported": 138,
+          "average": 77.1,
+          "grades": [0, 0, 0, 0, 7, 0, 15, 19, 22, 32, 18],
+          "instructors": ["Eva Csipak", "Oksana Tkachman"]
+        }
+      ]
+    },
+    "LING 101": {
+      "reported": 3843,
+      "average": 77.6,
+      "grades": [94, 120, 130, 174, 245, 305, 340, 414, 549, 641, 784],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 544,
+          "average": 75.6,
+          "grades": [9, 17, 24, 34, 59, 60, 59, 65, 60, 73, 84],
+          "instructors": ["Strang Burton", "Eva Csipak"]
+        },
+        {
+          "session": "2025S",
+          "reported": 88,
+          "average": 75.6,
+          "grades": [3, 2, 4, 8, 6, 13, 3, 7, 10, 15, 17],
+          "instructors": ["Strang Burton"]
+        },
+        {
+          "session": "2024W",
+          "reported": 422,
+          "average": 76.2,
+          "grades": [13, 25, 17, 27, 31, 23, 39, 35, 69, 64, 79],
+          "instructors": ["Strang Burton", "Eva Csipak"]
+        },
+        {
+          "session": "2024S",
+          "reported": 205,
+          "average": 82.6,
+          "grades": [4, 2, 2, 3, 4, 4, 16, 21, 38, 54, 57],
+          "instructors": ["Sylvia Cho", "Eva Csipak"]
+        },
+        {
+          "session": "2023W",
+          "reported": 479,
+          "average": 73.6,
+          "grades": [22, 13, 26, 33, 38, 50, 50, 55, 65, 77, 44],
+          "instructors": ["Eva Csipak"]
+        },
+        {
+          "session": "2023S",
+          "reported": 308,
+          "average": 76.0,
+          "grades": [4, 10, 18, 13, 17, 26, 33, 47, 53, 45, 30],
+          "instructors": ["Raiane Oliveira Salles", "Strang Burton"]
+        },
+        {
+          "session": "2022W",
+          "reported": 841,
+          "average": 77.9,
+          "grades": [22, 41, 25, 31, 44, 60, 67, 96, 132, 145, 178],
+          "instructors": ["Strang Burton"]
+        },
+        {
+          "session": "2022S",
+          "reported": 313,
+          "average": 77.3,
+          "grades": [9, 10, 14, 11, 24, 21, 35, 33, 37, 47, 72],
+          "instructors": ["Strang Burton", "Emanuela Mileva"]
+        },
+        {
+          "session": "2021W",
+          "reported": 393,
+          "average": 83.6,
+          "grades": [8, 0, 0, 8, 13, 22, 15, 24, 50, 71, 161],
+          "instructors": ["Neda Todorovic", "Strang Burton", "Gloria Mellesmoen"]
+        },
+        {
+          "session": "2021S",
+          "reported": 250,
+          "average": 80.9,
+          "grades": [0, 0, 0, 6, 9, 26, 23, 31, 35, 50, 62],
+          "instructors": ["Strang Burton", "Emanuela Mileva"]
+        }
+      ]
+    },
+    "LING 140": {
+      "reported": 127,
+      "average": 76.9,
+      "grades": [0, 1, 0, 2, 4, 5, 21, 27, 37, 8, 0],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 19,
+          "average": 75.7,
+          "grades": [0, 1, 0, 1, 1, 0, 4, 6, 5, 1, 0],
+          "instructors": ["Amanda Cardoso", "Elise Stickles"]
+        },
+        {
+          "session": "2023W",
+          "reported": 26,
+          "average": 75.8,
+          "grades": [0, 0, 0, 0, 1, 2, 7, 12, 3, 0, 0],
+          "instructors": ["Amanda Cardoso", "James Stratton"]
+        },
+        {
+          "session": "2022W",
+          "reported": 45,
+          "average": 78.7,
+          "grades": [0, 0, 0, 1, 2, 3, 3, 9, 20, 7, 0],
+          "instructors": ["James Stratton", "Gunnar Hansson"]
+        },
+        {
+          "session": "2021W",
+          "reported": 37,
+          "average": 76.0,
+          "grades": [0, 0, 0, 0, 0, 0, 7, 0, 9, 0, 0],
+          "instructors": ["Laurel Brinton", "Gunnar Hansson"]
+        }
+      ]
+    },
+    "LING 142": {
+      "reported": 84,
+      "average": 89.9,
+      "grades": [0, 1, 1, 0, 0, 3, 1, 1, 6, 13, 58],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 36,
+          "average": 84.8,
+          "grades": [0, 1, 1, 0, 0, 3, 1, 1, 4, 10, 15],
+          "instructors": ["James Mackie"]
+        },
+        {
+          "session": "2023W",
+          "reported": 48,
+          "average": 93.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 43],
+          "instructors": ["Miikka Pietari Silfverberg"]
+        }
+      ]
+    },
+    "LING 170": {
+      "reported": 248,
+      "average": 80.7,
+      "grades": [2, 1, 0, 5, 3, 11, 16, 24, 70, 58, 42],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 44,
+          "average": 86.1,
+          "grades": [0, 0, 0, 2, 0, 0, 3, 3, 5, 13, 18],
+          "instructors": ["Strang Burton"]
+        },
+        {
+          "session": "2024W",
+          "reported": 48,
+          "average": 79.2,
+          "grades": [1, 1, 0, 0, 0, 2, 7, 3, 22, 9, 3],
+          "instructors": ["Strang Burton"]
+        },
+        {
+          "session": "2022W",
+          "reported": 73,
+          "average": 81.8,
+          "grades": [1, 0, 0, 3, 3, 3, 6, 6, 18, 18, 15],
+          "instructors": ["Strang Burton"]
+        },
+        {
+          "session": "2021W",
+          "reported": 83,
+          "average": 77.7,
+          "grades": [0, 0, 0, 0, 0, 6, 0, 12, 25, 18, 6],
+          "instructors": ["Strang Burton"]
+        }
+      ]
+    },
+    "LING 200": {
+      "reported": 963,
+      "average": 77.7,
+      "grades": [19, 11, 21, 30, 49, 75, 113, 142, 167, 156, 135],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 135,
+          "average": 77.3,
+          "grades": [2, 1, 4, 6, 9, 14, 15, 20, 25, 23, 16],
+          "instructors": ["Gunnar Hansson"]
+        },
+        {
+          "session": "2025S",
+          "reported": 54,
+          "average": 80.2,
+          "grades": [0, 0, 0, 1, 3, 5, 5, 10, 9, 16, 5],
+          "instructors": ["Gunnar Hansson"]
+        },
+        {
+          "session": "2024W",
+          "reported": 138,
+          "average": 75.5,
+          "grades": [2, 1, 8, 6, 11, 12, 22, 23, 26, 18, 9],
+          "instructors": ["Gunnar Hansson"]
+        },
+        {
+          "session": "2024S",
+          "reported": 43,
+          "average": 78.6,
+          "grades": [0, 1, 0, 1, 1, 5, 7, 9, 8, 6, 5],
+          "instructors": ["Gunnar Hansson"]
+        },
+        {
+          "session": "2023W",
+          "reported": 163,
+          "average": 76.9,
+          "grades": [2, 2, 3, 5, 10, 12, 18, 32, 40, 15, 12],
+          "instructors": ["Gunnar Hansson"]
+        },
+        {
+          "session": "2023S",
+          "reported": 50,
+          "average": 74.0,
+          "grades": [3, 2, 3, 4, 1, 3, 5, 4, 5, 8, 8],
+          "instructors": ["M.D. Jahurul Islam"]
+        },
+        {
+          "session": "2022W",
+          "reported": 139,
+          "average": 76.9,
+          "grades": [3, 3, 3, 6, 6, 15, 16, 22, 24, 25, 16],
+          "instructors": ["M.D. Jahurul Islam"]
+        },
+        {
+          "session": "2022S",
+          "reported": 47,
+          "average": 81.4,
+          "grades": [0, 1, 0, 1, 2, 3, 4, 9, 5, 13, 9],
+          "instructors": ["M.D. Jahurul Islam"]
+        },
+        {
+          "session": "2021W",
+          "reported": 147,
+          "average": 81.2,
+          "grades": [7, 0, 0, 0, 6, 6, 11, 13, 19, 25, 55],
+          "instructors": ["Anne-Michelle Tessier"]
+        },
+        {
+          "session": "2021S",
+          "reported": 47,
+          "average": 75.2,
+          "grades": [0, 0, 0, 0, 0, 0, 10, 0, 6, 7, 0],
+          "instructors": ["Kathleen Hall"]
+        }
+      ]
+    },
+    "LING 201": {
+      "reported": 879,
+      "average": 81.7,
+      "grades": [12, 15, 7, 16, 34, 48, 78, 86, 164, 135, 264],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 131,
+          "average": 81.5,
+          "grades": [2, 2, 0, 3, 5, 10, 14, 12, 28, 19, 36],
+          "instructors": ["Marcin Morzycki"]
+        },
+        {
+          "session": "2025S",
+          "reported": 39,
+          "average": 82.9,
+          "grades": [0, 0, 1, 0, 2, 0, 2, 6, 10, 9, 9],
+          "instructors": ["Ryan Bochnak"]
+        },
+        {
+          "session": "2024W",
+          "reported": 138,
+          "average": 84.5,
+          "grades": [0, 0, 0, 0, 2, 5, 7, 16, 38, 31, 39],
+          "instructors": ["Marcin Morzycki"]
+        },
+        {
+          "session": "2024S",
+          "reported": 41,
+          "average": 79.9,
+          "grades": [0, 4, 0, 1, 1, 5, 0, 6, 6, 7, 11],
+          "instructors": ["Michael Ryan Bochnak"]
+        },
+        {
+          "session": "2023W",
+          "reported": 123,
+          "average": 82.8,
+          "grades": [0, 0, 0, 2, 3, 4, 21, 18, 27, 7, 36],
+          "instructors": ["Marcin Morzycki"]
+        },
+        {
+          "session": "2023S",
+          "reported": 41,
+          "average": 77.6,
+          "grades": [0, 4, 1, 2, 3, 4, 1, 3, 5, 5, 11],
+          "instructors": ["Michael Ryan Bochnak"]
+        },
+        {
+          "session": "2022W",
+          "reported": 147,
+          "average": 78.7,
+          "grades": [3, 5, 3, 8, 7, 20, 11, 5, 25, 25, 35],
+          "instructors": ["Michael Ryan Bochnak"]
+        },
+        {
+          "session": "2022S",
+          "reported": 46,
+          "average": 86.7,
+          "grades": [0, 0, 2, 0, 2, 0, 2, 3, 4, 10, 23],
+          "instructors": ["Hermann Keupdjio"]
+        },
+        {
+          "session": "2021W",
+          "reported": 133,
+          "average": 80.6,
+          "grades": [7, 0, 0, 0, 9, 0, 11, 10, 12, 16, 56],
+          "instructors": ["Lisa Matthewson"]
+        },
+        {
+          "session": "2021S",
+          "reported": 40,
+          "average": 82.1,
+          "grades": [0, 0, 0, 0, 0, 0, 9, 7, 9, 6, 8],
+          "instructors": ["Marcin Morzycki"]
+        }
+      ]
+    },
+    "LING 209": {
+      "reported": 814,
+      "average": 78.0,
+      "grades": [23, 8, 11, 19, 45, 62, 91, 107, 172, 164, 102],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 134,
+          "average": 79.3,
+          "grades": [2, 3, 2, 4, 7, 9, 14, 15, 28, 25, 25],
+          "instructors": ["Molly Babel"]
+        },
+        {
+          "session": "2024W",
+          "reported": 181,
+          "average": 78.9,
+          "grades": [2, 4, 1, 2, 13, 11, 16, 31, 40, 42, 19],
+          "instructors": ["Molly Babel"]
+        },
+        {
+          "session": "2023W",
+          "reported": 190,
+          "average": 80.7,
+          "grades": [4, 0, 2, 1, 6, 13, 18, 26, 44, 44, 29],
+          "instructors": ["Molly Babel"]
+        },
+        {
+          "session": "2022W",
+          "reported": 177,
+          "average": 76.6,
+          "grades": [9, 1, 6, 4, 7, 17, 19, 19, 41, 33, 21],
+          "instructors": ["Arian Shamei"]
+        },
+        {
+          "session": "2021W",
+          "reported": 132,
+          "average": 73.3,
+          "grades": [6, 0, 0, 8, 12, 12, 24, 16, 19, 20, 8],
+          "instructors": ["Md Jahurul Islam"]
+        }
+      ]
+    },
+    "LING 222": {
+      "reported": 648,
+      "average": 78.7,
+      "grades": [18, 10, 11, 18, 23, 34, 58, 63, 128, 132, 116],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 117,
+          "average": 82.9,
+          "grades": [2, 1, 0, 0, 0, 3, 9, 12, 29, 42, 19],
+          "instructors": ["Anne-Michelle Tessier"]
+        },
+        {
+          "session": "2024W",
+          "reported": 94,
+          "average": 76.7,
+          "grades": [4, 2, 4, 3, 5, 3, 8, 14, 26, 11, 14],
+          "instructors": ["Gloria Mellesmoen"]
+        },
+        {
+          "session": "2024S",
+          "reported": 26,
+          "average": 80.5,
+          "grades": [0, 0, 0, 0, 1, 2, 4, 3, 6, 8, 2],
+          "instructors": ["Gloria Mellesmoen"]
+        },
+        {
+          "session": "2023W",
+          "reported": 79,
+          "average": 76.7,
+          "grades": [3, 0, 1, 5, 2, 7, 11, 10, 16, 13, 9],
+          "instructors": ["Anne-Michelle Tessier"]
+        },
+        {
+          "session": "2023S",
+          "reported": 50,
+          "average": 74.8,
+          "grades": [1, 4, 2, 1, 1, 6, 5, 2, 9, 6, 7],
+          "instructors": ["Gloria Mellesmoen"]
+        },
+        {
+          "session": "2022W",
+          "reported": 81,
+          "average": 78.8,
+          "grades": [1, 2, 2, 4, 3, 6, 8, 8, 15, 12, 20],
+          "instructors": ["Gloria Mellesmoen"]
+        },
+        {
+          "session": "2022S",
+          "reported": 58,
+          "average": 76.8,
+          "grades": [1, 1, 2, 5, 4, 7, 5, 5, 9, 8, 11],
+          "instructors": ["Gloria Mellesmoen"]
+        },
+        {
+          "session": "2021W",
+          "reported": 96,
+          "average": 76.1,
+          "grades": [6, 0, 0, 0, 7, 0, 8, 9, 18, 19, 13],
+          "instructors": ["Carla Hudson Kam"]
+        },
+        {
+          "session": "2021S",
+          "reported": 47,
+          "average": 86.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 21],
+          "instructors": ["Danica Reid"]
+        }
+      ]
+    },
+    "LING 242": {
+      "reported": 74,
+      "average": 89.7,
+      "grades": [0, 0, 1, 0, 3, 1, 2, 2, 4, 10, 45],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 14,
+          "average": 85.9,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 1, 2, 4, 6],
+          "instructors": ["Garrett Nicolai"]
+        },
+        {
+          "session": "2023W",
+          "reported": 32,
+          "average": 89.6,
+          "grades": [0, 0, 0, 0, 3, 0, 1, 1, 2, 4, 18],
+          "instructors": ["Jungyeul Park"]
+        },
+        {
+          "session": "2022W",
+          "reported": 17,
+          "average": 91.7,
+          "grades": [0, 0, 1, 0, 0, 0, 1, 0, 0, 2, 13],
+          "instructors": ["Jungyeul Park"]
+        },
+        {
+          "session": "2021W",
+          "reported": 11,
+          "average": 91.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8],
+          "instructors": ["Jungyeul Park"]
+        }
+      ]
+    },
+    "LING 270": {
+      "reported": 25,
+      "average": 81.1,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 8, 8, 0],
+      "terms": [
+        {
+          "session": "2021W",
+          "reported": 25,
+          "average": 81.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 8, 8, 0],
+          "instructors": ["Stefka Marinova-Todd"]
+        }
+      ]
+    },
+    "LING 300": {
+      "reported": 551,
+      "average": 82.2,
+      "grades": [8, 2, 9, 10, 10, 23, 39, 53, 103, 126, 146],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 112,
+          "average": 81.8,
+          "grades": [0, 0, 0, 3, 1, 8, 12, 18, 25, 24, 21],
+          "instructors": ["Rose Underhill", "Joash Gambarage"]
+        },
+        {
+          "session": "2024W",
+          "reported": 102,
+          "average": 83.3,
+          "grades": [2, 2, 3, 1, 5, 4, 6, 3, 11, 27, 38],
+          "instructors": ["Rose-Marie Dechaine", "Christopher Hammerly"]
+        },
+        {
+          "session": "2023W",
+          "reported": 128,
+          "average": 83.6,
+          "grades": [2, 0, 0, 1, 1, 6, 7, 18, 25, 25, 40],
+          "instructors": ["Joash Gambarage"]
+        },
+        {
+          "session": "2022W",
+          "reported": 106,
+          "average": 77.8,
+          "grades": [4, 0, 6, 5, 3, 5, 14, 14, 17, 19, 19],
+          "instructors": ["Joash Gambarage"]
+        },
+        {
+          "session": "2021W",
+          "reported": 103,
+          "average": 84.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 25, 31, 28],
+          "instructors": ["Rose-Marie Dechaine"]
+        }
+      ]
+    },
+    "LING 308": {
+      "reported": 110,
+      "average": 80.9,
+      "grades": [0, 0, 0, 1, 2, 4, 5, 12, 37, 26, 3],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 8,
+          "average": 83.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 4, 3, 0],
+          "instructors": ["Joash Gambarage"]
+        },
+        {
+          "session": "2024W",
+          "reported": 27,
+          "average": 80.8,
+          "grades": [0, 0, 0, 0, 0, 1, 3, 4, 13, 6, 0],
+          "instructors": ["Joash Gambarage"]
+        },
+        {
+          "session": "2023W",
+          "reported": 25,
+          "average": 81.5,
+          "grades": [0, 0, 0, 0, 1, 2, 1, 2, 10, 7, 1],
+          "instructors": ["Joash Gambarage"]
+        },
+        {
+          "session": "2022W",
+          "reported": 31,
+          "average": 82.0,
+          "grades": [0, 0, 0, 1, 1, 1, 1, 5, 10, 10, 2],
+          "instructors": ["Joash Gambarage"]
+        },
+        {
+          "session": "2021W",
+          "reported": 19,
+          "average": 77.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Joash Gambarage"]
+        }
+      ]
+    },
+    "LING 311": {
+      "reported": 573,
+      "average": 74.3,
+      "grades": [12, 14, 40, 30, 38, 53, 50, 65, 98, 88, 44],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 125,
+          "average": 76.7,
+          "grades": [3, 3, 6, 9, 6, 10, 7, 15, 29, 21, 16],
+          "instructors": ["Kathleen Hall"]
+        },
+        {
+          "session": "2024W",
+          "reported": 115,
+          "average": 78.8,
+          "grades": [2, 0, 6, 3, 8, 4, 11, 14, 23, 26, 18],
+          "instructors": ["Kathleen Hall"]
+        },
+        {
+          "session": "2023W",
+          "reported": 119,
+          "average": 72.9,
+          "grades": [3, 6, 7, 11, 9, 13, 17, 11, 14, 17, 8],
+          "instructors": ["Douglas Pulleyblank", "Kathleen Hall"]
+        },
+        {
+          "session": "2022W",
+          "reported": 113,
+          "average": 71.3,
+          "grades": [4, 5, 9, 7, 9, 19, 15, 16, 17, 10, 2],
+          "instructors": ["Douglas Pulleyblank"]
+        },
+        {
+          "session": "2021W",
+          "reported": 101,
+          "average": 71.1,
+          "grades": [0, 0, 12, 0, 6, 7, 0, 9, 15, 14, 0],
+          "instructors": ["Douglas Pulleyblank"]
+        }
+      ]
+    },
+    "LING 313": {
+      "reported": 538,
+      "average": 74.6,
+      "grades": [15, 26, 24, 28, 34, 39, 68, 61, 89, 82, 41],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 133,
+          "average": 72.8,
+          "grades": [5, 10, 7, 12, 11, 9, 20, 11, 18, 18, 12],
+          "instructors": ["Molly Babel"]
+        },
+        {
+          "session": "2024W",
+          "reported": 116,
+          "average": 73.2,
+          "grades": [3, 11, 5, 5, 10, 10, 18, 14, 13, 18, 9],
+          "instructors": ["Md Jahurul Islam"]
+        },
+        {
+          "session": "2023W",
+          "reported": 111,
+          "average": 72.6,
+          "grades": [6, 5, 10, 7, 9, 11, 9, 14, 15, 13, 9],
+          "instructors": ["Molly Babel"]
+        },
+        {
+          "session": "2022W",
+          "reported": 82,
+          "average": 76.4,
+          "grades": [1, 0, 2, 4, 4, 9, 15, 13, 22, 9, 3],
+          "instructors": ["Amanda Cardoso"]
+        },
+        {
+          "session": "2021W",
+          "reported": 96,
+          "average": 79.5,
+          "grades": [0, 0, 0, 0, 0, 0, 6, 9, 21, 24, 8],
+          "instructors": ["Amanda Cardoso", "Md Jahurul Islam"]
+        }
+      ]
+    },
+    "LING 314": {
+      "reported": 408,
+      "average": 80.3,
+      "grades": [10, 3, 9, 12, 14, 19, 30, 49, 70, 102, 79],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 82,
+          "average": 77.2,
+          "grades": [4, 0, 1, 3, 6, 8, 6, 16, 13, 17, 8],
+          "instructors": ["Md Jahurul Islam"]
+        },
+        {
+          "session": "2024W",
+          "reported": 69,
+          "average": 74.2,
+          "grades": [4, 1, 5, 4, 3, 3, 10, 13, 11, 9, 6],
+          "instructors": ["Md Jahurul Islam"]
+        },
+        {
+          "session": "2023W",
+          "reported": 87,
+          "average": 78.2,
+          "grades": [2, 2, 3, 5, 2, 5, 9, 11, 14, 22, 10],
+          "instructors": ["M.D. Jahurul Islam"]
+        },
+        {
+          "session": "2022W",
+          "reported": 92,
+          "average": 83.9,
+          "grades": [0, 0, 0, 0, 3, 3, 5, 9, 23, 30, 19],
+          "instructors": ["Murray Schellenberg"]
+        },
+        {
+          "session": "2021W",
+          "reported": 78,
+          "average": 86.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 9, 24, 36],
+          "instructors": ["Murray Schellenberg"]
+        }
+      ]
+    },
+    "LING 315": {
+      "reported": 111,
+      "average": 79.0,
+      "grades": [3, 1, 1, 0, 2, 2, 8, 23, 47, 22, 1],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 43,
+          "average": 81.0,
+          "grades": [0, 0, 0, 0, 0, 1, 3, 7, 24, 7, 1],
+          "instructors": ["Amanda Cardoso"]
+        },
+        {
+          "session": "2024W",
+          "reported": 30,
+          "average": 80.5,
+          "grades": [0, 1, 0, 0, 1, 1, 2, 7, 7, 11, 0],
+          "instructors": ["Amanda Cardoso"]
+        },
+        {
+          "session": "2023W",
+          "reported": 38,
+          "average": 75.5,
+          "grades": [3, 0, 1, 0, 1, 0, 3, 9, 16, 4, 0],
+          "instructors": ["Amanda Cardoso"]
+        }
+      ]
+    },
+    "LING 319": {
+      "reported": 174,
+      "average": 76.6,
+      "grades": [3, 1, 0, 5, 10, 20, 21, 28, 30, 28, 9],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 34,
+          "average": 74.5,
+          "grades": [1, 1, 0, 2, 2, 4, 5, 8, 3, 7, 1],
+          "instructors": ["Amanda Cardoso"]
+        },
+        {
+          "session": "2023W",
+          "reported": 46,
+          "average": 76.4,
+          "grades": [1, 0, 0, 1, 3, 6, 10, 9, 7, 4, 5],
+          "instructors": ["Gunnar Hansson"]
+        },
+        {
+          "session": "2022W",
+          "reported": 63,
+          "average": 77.7,
+          "grades": [1, 0, 0, 2, 5, 4, 6, 11, 20, 11, 3],
+          "instructors": ["Gunnar Hansson"]
+        },
+        {
+          "session": "2021W",
+          "reported": 31,
+          "average": 77.2,
+          "grades": [0, 0, 0, 0, 0, 6, 0, 0, 0, 6, 0],
+          "instructors": ["Gunnar Hansson"]
+        }
+      ]
+    },
+    "LING 327": {
+      "reported": 293,
+      "average": 83.5,
+      "grades": [0, 0, 3, 3, 9, 11, 28, 33, 56, 52, 87],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 53,
+          "average": 85.5,
+          "grades": [0, 0, 1, 1, 2, 1, 4, 7, 5, 7, 25],
+          "instructors": ["Marcin Morzycki"]
+        },
+        {
+          "session": "2024W",
+          "reported": 68,
+          "average": 85.2,
+          "grades": [0, 0, 0, 0, 3, 5, 4, 7, 9, 15, 25],
+          "instructors": ["Marcin Morzycki"]
+        },
+        {
+          "session": "2023W",
+          "reported": 57,
+          "average": 80.3,
+          "grades": [0, 0, 2, 2, 4, 5, 5, 8, 8, 8, 13],
+          "instructors": ["Marcin Morzycki"]
+        },
+        {
+          "session": "2022W",
+          "reported": 58,
+          "average": 87.6,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 4, 14, 15, 24],
+          "instructors": ["Marcin Morzycki"]
+        },
+        {
+          "session": "2021W",
+          "reported": 57,
+          "average": 78.6,
+          "grades": [0, 0, 0, 0, 0, 0, 14, 7, 20, 7, 0],
+          "instructors": ["Hotze Rullmann"]
+        }
+      ]
+    },
+    "LING 333": {
+      "reported": 404,
+      "average": 81.5,
+      "grades": [1, 1, 6, 10, 9, 20, 16, 44, 101, 119, 50],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 83,
+          "average": 80.3,
+          "grades": [0, 0, 0, 1, 4, 7, 9, 13, 22, 20, 7],
+          "instructors": ["Md Jahurul Islam"]
+        },
+        {
+          "session": "2024W",
+          "reported": 73,
+          "average": 76.4,
+          "grades": [1, 1, 4, 7, 5, 10, 5, 8, 7, 12, 13],
+          "instructors": ["Md Jahurul Islam"]
+        },
+        {
+          "session": "2023W",
+          "reported": 88,
+          "average": 84.0,
+          "grades": [0, 0, 2, 2, 0, 2, 2, 9, 23, 26, 21],
+          "instructors": ["M.D. Jahurul Islam"]
+        },
+        {
+          "session": "2022W",
+          "reported": 63,
+          "average": 84.6,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 4, 27, 22, 9],
+          "instructors": ["M.D. Jahurul Islam"]
+        },
+        {
+          "session": "2021W",
+          "reported": 57,
+          "average": 82.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 13, 26, 0],
+          "instructors": ["Md Jahurul Islam"]
+        },
+        {
+          "session": "2021S",
+          "reported": 40,
+          "average": 81.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 10, 9, 13, 0],
+          "instructors": ["Md Jahurul Islam"]
+        }
+      ]
+    },
+    "LING 342": {
+      "reported": 39,
+      "average": 74.5,
+      "grades": [1, 0, 1, 1, 0, 2, 1, 2, 4, 4, 6],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 11,
+          "average": 83.5,
+          "grades": [0, 0, 0, 0, 0, 2, 0, 0, 3, 3, 3],
+          "instructors": ["Garrett Nicolai"]
+        },
+        {
+          "session": "2022W",
+          "reported": 11,
+          "average": 73.1,
+          "grades": [1, 0, 1, 1, 0, 0, 1, 2, 1, 1, 3],
+          "instructors": ["Garrett Nicolai"]
+        },
+        {
+          "session": "2021W",
+          "reported": 17,
+          "average": 69.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Garrett Nicolai"]
+        }
+      ]
+    },
+    "LING 345": {
+      "reported": 166,
+      "average": 81.1,
+      "grades": [3, 1, 0, 4, 2, 6, 8, 26, 26, 33, 39],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 35,
+          "average": 78.8,
+          "grades": [0, 0, 0, 2, 1, 2, 6, 5, 9, 10, 0],
+          "instructors": ["Hotze Rullmann"]
+        },
+        {
+          "session": "2024W",
+          "reported": 28,
+          "average": 87.9,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 0, 6, 6, 15],
+          "instructors": ["Eva Csipak"]
+        },
+        {
+          "session": "2023W",
+          "reported": 32,
+          "average": 77.8,
+          "grades": [2, 0, 0, 2, 1, 3, 1, 5, 2, 7, 7],
+          "instructors": ["Eva Csipak"]
+        },
+        {
+          "session": "2022W",
+          "reported": 32,
+          "average": 86.7,
+          "grades": [1, 1, 0, 0, 0, 0, 1, 1, 1, 10, 17],
+          "instructors": ["Eva Csipak"]
+        },
+        {
+          "session": "2021W",
+          "reported": 39,
+          "average": 76.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 15, 8, 0, 0],
+          "instructors": ["Henry Thomas Davis"]
+        }
+      ]
+    },
+    "LING 405": {
+      "reported": 75,
+      "average": 87.6,
+      "grades": [0, 1, 0, 1, 0, 1, 1, 4, 6, 19, 33],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 39,
+          "average": 86.8,
+          "grades": [0, 1, 0, 1, 0, 0, 1, 2, 4, 14, 16],
+          "instructors": ["Christopher Hammerly"]
+        },
+        {
+          "session": "2022W",
+          "reported": 21,
+          "average": 88.5,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 2, 2, 5, 11],
+          "instructors": ["Christopher Hammerly"]
+        },
+        {
+          "session": "2021W",
+          "reported": 15,
+          "average": 88.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6],
+          "instructors": ["Christopher Hammerly"]
+        }
+      ]
+    },
+    "LING 410": {
+      "reported": 38,
+      "average": 83.0,
+      "grades": [0, 0, 0, 0, 0, 0, 2, 1, 11, 15, 2],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 12,
+          "average": 87.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 8, 2],
+          "instructors": ["Gunnar Hansson"]
+        },
+        {
+          "session": "2023W",
+          "reported": 7,
+          "average": 82.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 4, 2, 0],
+          "instructors": ["Douglas Pulleyblank"]
+        },
+        {
+          "session": "2022W",
+          "reported": 12,
+          "average": 83.2,
+          "grades": [0, 0, 0, 0, 0, 0, 2, 0, 5, 5, 0],
+          "instructors": ["Douglas Pulleyblank"]
+        },
+        {
+          "session": "2021W",
+          "reported": 7,
+          "average": 75.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Gunnar Hansson"]
+        }
+      ]
+    },
+    "LING 415": {
+      "reported": 43,
+      "average": 75.3,
+      "grades": [3, 0, 1, 0, 1, 0, 4, 8, 15, 9, 2],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 12,
+          "average": 62.2,
+          "grades": [3, 0, 0, 0, 0, 0, 1, 0, 5, 3, 0],
+          "instructors": ["Amanda Cardoso"]
+        },
+        {
+          "session": "2023W",
+          "reported": 18,
+          "average": 81.0,
+          "grades": [0, 0, 1, 0, 1, 0, 1, 3, 6, 4, 2],
+          "instructors": ["Amanda Cardoso"]
+        },
+        {
+          "session": "2022W",
+          "reported": 13,
+          "average": 79.5,
+          "grades": [0, 0, 0, 0, 0, 0, 2, 5, 4, 2, 0],
+          "instructors": ["Amanda Cardoso"]
+        }
+      ]
+    },
+    "LING 420": {
+      "reported": 33,
+      "average": 73.6,
+      "grades": [5, 0, 2, 0, 0, 2, 2, 4, 5, 6, 7],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 33,
+          "average": 73.6,
+          "grades": [5, 0, 2, 0, 0, 2, 2, 4, 5, 6, 7],
+          "instructors": ["Eva Csipak", "Anne-Michelle Tessier", "Christopher Hammerly"]
+        }
+      ]
+    },
+    "LING 421": {
+      "reported": 41,
+      "average": 80.4,
+      "grades": [1, 0, 1, 0, 0, 0, 0, 2, 15, 14, 3],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 7,
+          "average": 87.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 3],
+          "instructors": ["Rose-Marie Dechaine"]
+        },
+        {
+          "session": "2024W",
+          "reported": 8,
+          "average": 85.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 6, 0],
+          "instructors": ["Rose-Marie Dechaine"]
+        },
+        {
+          "session": "2023W",
+          "reported": 8,
+          "average": 72.1,
+          "grades": [1, 0, 1, 0, 0, 0, 0, 2, 3, 1, 0],
+          "instructors": ["Henry Thomas Davis"]
+        },
+        {
+          "session": "2022W",
+          "reported": 6,
+          "average": 85.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 2, 4, 0],
+          "instructors": ["Carla Hudson Kam", "Douglas Pulleyblank", "Rose-Marie Dechaine"]
+        },
+        {
+          "session": "2021W",
+          "reported": 12,
+          "average": 75.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 7, 0, 0],
+          "instructors": ["Henry Thomas Davis"]
+        }
+      ]
+    },
+    "LING 425": {
+      "reported": 58,
+      "average": 79.3,
+      "grades": [1, 1, 0, 2, 2, 3, 3, 3, 5, 5, 14],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 11,
+          "average": 91.6,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 2, 1, 7],
+          "instructors": ["Ryan Bochnak"]
+        },
+        {
+          "session": "2024W",
+          "reported": 7,
+          "average": 73.6,
+          "grades": [1, 0, 0, 0, 0, 1, 0, 1, 0, 1, 3],
+          "instructors": ["Michael Ryan Bochnak"]
+        },
+        {
+          "session": "2023W",
+          "reported": 10,
+          "average": 78.0,
+          "grades": [0, 0, 0, 1, 2, 1, 1, 0, 1, 2, 2],
+          "instructors": ["Hotze Rullmann"]
+        },
+        {
+          "session": "2022W",
+          "reported": 11,
+          "average": 77.5,
+          "grades": [0, 1, 0, 1, 0, 1, 1, 2, 2, 1, 2],
+          "instructors": ["Hotze Rullmann"]
+        },
+        {
+          "session": "2021W",
+          "reported": 19,
+          "average": 76.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Hotze Rullmann"]
+        }
+      ]
+    },
+    "LING 431": {
+      "reported": 35,
+      "average": 90.1,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 1, 1, 19, 14],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 10,
+          "average": 88.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 0],
+          "instructors": ["Rose-Marie Dechaine"]
+        },
+        {
+          "session": "2024W",
+          "reported": 7,
+          "average": 95.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 6],
+          "instructors": ["Christopher Hammerly"]
+        },
+        {
+          "session": "2023W",
+          "reported": 10,
+          "average": 89.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 5, 4],
+          "instructors": ["Michael Ryan Bochnak"]
+        },
+        {
+          "session": "2022W",
+          "reported": 8,
+          "average": 89.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 0, 3, 4],
+          "instructors": ["Lisa Matthewson"]
+        }
+      ]
+    },
+    "LING 433": {
+      "reported": 112,
+      "average": 74.8,
+      "grades": [7, 1, 0, 4, 2, 4, 11, 15, 34, 17, 4],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 37,
+          "average": 74.4,
+          "grades": [3, 0, 0, 0, 0, 2, 4, 6, 16, 4, 2],
+          "instructors": ["Suzanne Gessner"]
+        },
+        {
+          "session": "2024W",
+          "reported": 27,
+          "average": 72.6,
+          "grades": [3, 0, 0, 2, 1, 1, 2, 3, 9, 5, 1],
+          "instructors": ["Suzanne Gessner"]
+        },
+        {
+          "session": "2023W",
+          "reported": 36,
+          "average": 76.6,
+          "grades": [1, 1, 0, 2, 1, 1, 5, 6, 9, 8, 1],
+          "instructors": ["Suzanne Gessner"]
+        },
+        {
+          "session": "2021W",
+          "reported": 12,
+          "average": 75.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Suzanne Gessner"]
+        }
+      ]
+    },
+    "LING 440": {
+      "reported": 77,
+      "average": 78.9,
+      "grades": [0, 0, 0, 1, 0, 3, 8, 23, 23, 7, 0],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 24,
+          "average": 79.4,
+          "grades": [0, 0, 0, 0, 0, 1, 3, 8, 9, 3, 0],
+          "instructors": ["Amanda Cardoso"]
+        },
+        {
+          "session": "2022W",
+          "reported": 28,
+          "average": 78.2,
+          "grades": [0, 0, 0, 1, 0, 2, 5, 8, 8, 4, 0],
+          "instructors": ["Hotze Rullmann", "Amanda Cardoso"]
+        },
+        {
+          "session": "2021W",
+          "reported": 25,
+          "average": 79.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 7, 6, 0, 0],
+          "instructors": ["Hotze Rullmann", "Amanda Cardoso"]
+        }
+      ]
+    },
+    "LING 445": {
+      "reported": 69,
+      "average": 79.6,
+      "grades": [0, 0, 1, 0, 1, 2, 7, 13, 22, 13, 3],
+      "terms": [
+        {
+          "session": "2022W",
+          "reported": 35,
+          "average": 81.0,
+          "grades": [0, 0, 1, 0, 1, 2, 1, 6, 14, 7, 3],
+          "instructors": ["Amanda Cardoso"]
+        },
+        {
+          "session": "2021W",
+          "reported": 34,
+          "average": 78.1,
+          "grades": [0, 0, 0, 0, 0, 0, 6, 7, 8, 6, 0],
+          "instructors": ["Amanda Cardoso"]
+        }
+      ]
+    },
+    "LING 447": {
+      "reported": 445,
+      "average": 84.9,
+      "grades": [3, 0, 0, 0, 4, 9, 2, 42, 94, 140, 123],
+      "terms": [
+        {
+          "session": "2025W",
+          "topic": "G",
+          "title": "Topics in Linguistics",
+          "reported": 44,
+          "average": 86.5,
+          "grades": [0, 0, 0, 0, 2, 2, 0, 2, 7, 12, 19],
+          "instructors": ["Ryan Bochnak", "Lisa Matthewson"]
+        },
+        {
+          "session": "2025W",
+          "topic": "H",
+          "title": "Topics in Linguistics",
+          "reported": 51,
+          "average": 84.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 8, 18, 16, 9],
+          "instructors": ["Amanda Cardoso", "Md Jahurul Islam"]
+        },
+        {
+          "session": "2024W",
+          "topic": "E",
+          "title": "Topics in Linguistics",
+          "reported": 45,
+          "average": 84.6,
+          "grades": [0, 0, 0, 0, 0, 4, 0, 3, 7, 26, 5],
+          "instructors": ["Hotze Rullmann", "Strang Burton"]
+        },
+        {
+          "session": "2024W",
+          "topic": "F",
+          "title": "Topics in Linguistics",
+          "reported": 44,
+          "average": 85.9,
+          "grades": [1, 0, 0, 0, 0, 0, 0, 2, 5, 14, 22],
+          "instructors": ["Md Jahurul Islam", "Rose-Marie Dechaine", "Marcin Morzycki"]
+        },
+        {
+          "session": "2023W",
+          "topic": "C",
+          "title": "Topics in Linguistics",
+          "reported": 59,
+          "average": 83.5,
+          "grades": [0, 0, 0, 0, 1, 1, 1, 10, 18, 21, 7],
+          "instructors": []
+        },
+        {
+          "session": "2023W",
+          "topic": "D",
+          "title": "Topics in Linguistics",
+          "reported": 37,
+          "average": 87.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 10, 13, 12],
+          "instructors": ["Marcin Morzycki"]
+        },
+        {
+          "session": "2022W",
+          "topic": "A",
+          "title": "Topics in Linguistics",
+          "reported": 40,
+          "average": 82.2,
+          "grades": [2, 0, 0, 0, 0, 0, 1, 1, 6, 25, 5],
+          "instructors": []
+        },
+        {
+          "session": "2022W",
+          "topic": "B",
+          "title": "Topics in Linguistics",
+          "reported": 40,
+          "average": 83.8,
+          "grades": [0, 0, 0, 0, 1, 2, 0, 9, 11, 6, 11],
+          "instructors": ["Michael Ryan Bochnak", "Molly Babel"]
+        },
+        {
+          "session": "2021W",
+          "topic": "L",
+          "title": "Topics in Linguistics",
+          "reported": 12,
+          "average": 74.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Eva Csipak"]
+        },
+        {
+          "session": "2021W",
+          "topic": "N",
+          "title": "Topics in Linguistics",
+          "reported": 26,
+          "average": 82.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 6, 12, 7, 0],
+          "instructors": ["Henry Thomas Davis"]
+        },
+        {
+          "session": "2021W",
+          "topic": "O",
+          "title": "Topics in Linguistics",
+          "reported": 24,
+          "average": 93.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20],
+          "instructors": ["Christopher Hammerly"]
+        },
+        {
+          "session": "2021W",
+          "topic": "P",
+          "title": "Topics in Linguistics",
+          "reported": 23,
+          "average": 87.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13],
+          "instructors": ["Anne-Michelle Tessier", "Marcin Morzycki"]
+        }
+      ]
+    },
+    "LING 451": {
+      "reported": 221,
+      "average": 81.7,
+      "grades": [4, 2, 0, 3, 9, 4, 9, 23, 56, 56, 48],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 56,
+          "average": 81.3,
+          "grades": [1, 0, 0, 1, 6, 2, 4, 5, 6, 19, 12],
+          "instructors": ["Anne-Michelle Tessier"]
+        },
+        {
+          "session": "2024W",
+          "reported": 37,
+          "average": 77.8,
+          "grades": [1, 2, 0, 0, 0, 1, 2, 5, 17, 9, 0],
+          "instructors": ["Anne-Michelle Tessier"]
+        },
+        {
+          "session": "2023W",
+          "reported": 39,
+          "average": 81.1,
+          "grades": [1, 0, 0, 1, 1, 0, 2, 6, 9, 14, 3],
+          "instructors": ["Anne-Michelle Tessier"]
+        },
+        {
+          "session": "2022W",
+          "reported": 43,
+          "average": 81.8,
+          "grades": [1, 0, 0, 1, 2, 1, 1, 7, 12, 8, 10],
+          "instructors": ["Anne-Michelle Tessier"]
+        },
+        {
+          "session": "2021W",
+          "reported": 46,
+          "average": 85.9,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 12, 6, 23],
+          "instructors": ["Anne-Michelle Tessier"]
+        }
+      ]
+    },
+    "LING 452": {
+      "reported": 206,
+      "average": 85.5,
+      "grades": [3, 0, 1, 2, 4, 7, 4, 10, 29, 43, 94],
+      "terms": [
+        {
+          "session": "2025W",
+          "reported": 53,
+          "average": 87.9,
+          "grades": [1, 0, 0, 0, 0, 2, 0, 2, 6, 12, 30],
+          "instructors": ["Carla Hudson Kam"]
+        },
+        {
+          "session": "2024W",
+          "reported": 49,
+          "average": 82.3,
+          "grades": [1, 0, 1, 2, 2, 3, 2, 4, 4, 11, 19],
+          "instructors": ["Carla Hudson Kam"]
+        },
+        {
+          "session": "2023W",
+          "reported": 33,
+          "average": 85.1,
+          "grades": [0, 0, 0, 0, 2, 2, 1, 3, 5, 7, 12],
+          "instructors": ["Carla Hudson Kam"]
+        },
+        {
+          "session": "2022W",
+          "reported": 30,
+          "average": 88.5,
+          "grades": [1, 0, 0, 0, 0, 0, 1, 1, 2, 6, 19],
+          "instructors": ["Carla Hudson Kam"]
+        },
+        {
+          "session": "2021W",
+          "reported": 41,
+          "average": 84.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 12, 7, 14],
+          "instructors": ["Carla Hudson Kam"]
+        }
+      ]
+    },
+    "LING 508": {
+      "reported": 24,
+      "average": 86.2,
+      "grades": [0, 0, 0, 0, 1, 0, 0, 1, 3, 13, 2],
+      "terms": [
+        {
+          "session": "2024W",
+          "reported": 7,
+          "average": 82.4,
+          "grades": [0, 0, 0, 0, 1, 0, 0, 0, 2, 4, 0],
+          "instructors": ["Molly Babel"]
+        },
+        {
+          "session": "2022W",
+          "reported": 6,
+          "average": 86.5,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 1, 2, 2],
+          "instructors": ["Molly Babel"]
+        },
+        {
+          "session": "2021W",
+          "reported": 11,
+          "average": 88.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 0],
+          "instructors": ["Bryan Gick"]
+        }
+      ]
+    },
+    "LING 510": {
+      "reported": 13,
+      "average": 85.0,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 1, 4, 2, 0],
+      "terms": [
+        {
+          "session": "2022W",
+          "reported": 7,
+          "average": 82.6,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 1, 4, 2, 0],
+          "instructors": ["Douglas Pulleyblank"]
+        },
+        {
+          "session": "2021W",
+          "reported": 6,
+          "average": 87.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Gunnar Hansson"]
+        }
+      ]
+    },
+    "LING 511": {
+      "reported": 6,
+      "average": 89.3,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3],
+      "terms": [
+        {
+          "session": "2022W",
+          "reported": 6,
+          "average": 89.3,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3],
+          "instructors": ["Anne-Michelle Tessier"]
+        }
+      ]
+    },
+    "LING 513": {
+      "reported": 12,
+      "average": 72.6,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 6,
+          "average": 58.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Molly Babel"]
+        },
+        {
+          "session": "2021W",
+          "reported": 6,
+          "average": 87.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Marton Soskuthy"]
+        }
+      ]
+    },
+    "LING 518": {
+      "reported": 9,
+      "average": 82.2,
+      "grades": [1, 0, 0, 0, 0, 0, 0, 0, 1, 3, 4],
+      "terms": [
+        {
+          "session": "2022W",
+          "reported": 9,
+          "average": 82.2,
+          "grades": [1, 0, 0, 0, 0, 0, 0, 0, 1, 3, 4],
+          "instructors": ["Marton Soskuthy"]
+        }
+      ]
+    },
+    "LING 520": {
+      "reported": 9,
+      "average": 51.2,
+      "grades": [3, 0, 0, 0, 0, 0, 0, 0, 1, 2, 0],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 9,
+          "average": 51.2,
+          "grades": [3, 0, 0, 0, 0, 0, 0, 0, 1, 2, 0],
+          "instructors": ["Henry Thomas Davis"]
+        }
+      ]
+    },
+    "LING 525": {
+      "reported": 6,
+      "average": 86.2,
+      "grades": [0, 0, 0, 0, 0, 0, 1, 0, 1, 3, 1],
+      "terms": [
+        {
+          "session": "2022W",
+          "reported": 6,
+          "average": 86.2,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 1, 3, 1],
+          "instructors": ["Hotze Rullmann"]
+        }
+      ]
+    },
+    "LING 527": {
+      "reported": 8,
+      "average": 85.0,
+      "grades": [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7],
+      "terms": [
+        {
+          "session": "2022W",
+          "reported": 8,
+          "average": 85.0,
+          "grades": [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7],
+          "instructors": ["Marcin Morzycki"]
+        }
+      ]
+    },
+    "LING 530": {
+      "reported": 60,
+      "average": 90.5,
+      "grades": [1, 0, 0, 0, 0, 1, 0, 0, 1, 12, 35],
+      "terms": [
+        {
+          "session": "2023W",
+          "topic": "P",
+          "title": "Linguistic Problems in a Special Area",
+          "reported": 7,
+          "average": 80.4,
+          "grades": [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 4],
+          "instructors": ["Kathleen Hall"]
+        },
+        {
+          "session": "2023W",
+          "topic": "Q",
+          "title": "Linguistic Problems in a Special Area",
+          "reported": 8,
+          "average": 88.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Lisa Matthewson"]
+        },
+        {
+          "session": "2022W",
+          "topic": "G",
+          "title": "Linguistic Problems in a Special Area",
+          "reported": 10,
+          "average": 97.4,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10],
+          "instructors": ["Fatemeh Salehian Kia"]
+        },
+        {
+          "session": "2022W",
+          "topic": "K",
+          "title": "Linguistic Problems in a Special Area",
+          "reported": 6,
+          "average": 91.7,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 4],
+          "instructors": ["Christopher Hammerly"]
+        },
+        {
+          "session": "2022W",
+          "topic": "N",
+          "title": "Linguistic Problems in a Special Area",
+          "reported": 12,
+          "average": 91.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 10],
+          "instructors": ["Miikka Pietari Silfverberg"]
+        },
+        {
+          "session": "2021W",
+          "topic": "G",
+          "title": "Linguistic Problems in a Special Area",
+          "reported": 10,
+          "average": 87.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 0],
+          "instructors": ["Muhammad Abdul-Mageed"]
+        },
+        {
+          "session": "2021W",
+          "topic": "L",
+          "title": "Linguistic Problems in a Special Area",
+          "reported": 7,
+          "average": 95.0,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7],
+          "instructors": ["Lisa Matthewson"]
+        }
+      ]
+    },
+    "LING 531": {
+      "reported": 25,
+      "average": 89.9,
+      "grades": [0, 0, 0, 0, 0, 0, 1, 0, 0, 6, 6],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 9,
+          "average": 90.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 2],
+          "instructors": ["Michael Ryan Bochnak"]
+        },
+        {
+          "session": "2022W",
+          "reported": 7,
+          "average": 90.7,
+          "grades": [0, 0, 0, 0, 0, 0, 1, 0, 0, 2, 4],
+          "instructors": ["Lisa Matthewson"]
+        },
+        {
+          "session": "2021W",
+          "reported": 9,
+          "average": 89.1,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Michael Ryan Bochnak"]
+        }
+      ]
+    },
+    "LING 532": {
+      "reported": 22,
+      "average": 88.3,
+      "grades": [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 6],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 8,
+          "average": 84.2,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Michael Ryan Bochnak"]
+        },
+        {
+          "session": "2022W",
+          "reported": 7,
+          "average": 90.6,
+          "grades": [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 6],
+          "instructors": ["Lisa Matthewson"]
+        },
+        {
+          "session": "2021W",
+          "reported": 7,
+          "average": 90.7,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Michael Ryan Bochnak"]
+        }
+      ]
+    },
+    "LING 560": {
+      "reported": 6,
+      "average": 96.8,
+      "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      "terms": [
+        {
+          "session": "2023W",
+          "reported": 6,
+          "average": 96.8,
+          "grades": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          "instructors": ["Murray Schellenberg"]
+        }
+      ]
+    }
+  }
+}
