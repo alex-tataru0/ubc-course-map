@@ -102,6 +102,8 @@ export interface Program {
   sources?: string[]; // the calendar pages it comes from, when there are several (engineering)
   notes?: string[]; // about the whole program, e.g. which entry years its tables are for
   degree?: string; // added by the page, e.g. "Bachelor of Applied Science"
+  research?: string; // Arts: its row in the Research Component table, e.g. "Economics"
+  field?: string[]; // Arts: the subjects of its field of study, e.g. ["ANTH", "ARCL"]
   total_credits: number;
   years: ProgramYear[];
 }
@@ -109,4 +111,19 @@ export interface Program {
 export interface ProgramFile {
   source: string;
   programs: Program[];
+}
+
+// Types for data/arts-degree.json, the Faculty of Arts requirements every B.A. shares,
+// written by pipeline/build_programs.py (see pipeline/arts_degree.py).
+export interface ArtsDegree {
+  source: string;
+  writing: { text: string; courses: string[] }; // the Writing Component's courses
+  research: { major: string; text: string; courses: string[] }[]; // research-intensive courses by major
+  place_and_power: string; // the Faculty of Arts page with the Place and Power course list
+  breadth_credits: number[]; // [9, 6, 3]: credits in one subject of each remaining breadth area
+  areas: { name: string; subjects: string[] }[]; // the four Ways of Knowing breadth areas
+  outside: Record<string, number>; // credits outside the field, by kind of program ("Major": 60)
+  upper_level: Record<string, number>; // credits numbered 300+, by kind ("Major, Combined Major or IDST": 48)
+  arts_credits: number; // 72
+  arts_subjects: string[]; // the subjects the Faculty of Arts offers
 }

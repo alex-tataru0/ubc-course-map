@@ -5,7 +5,7 @@ import type { SubjectMap } from "@/lib/subjectMap";
 import { feedbackUrl, REPO_URL } from "@/lib/links";
 import { courseUrl, FACULTIES, facultyOf, hashFor, readHash, subjectOf } from "@/lib/subjects";
 import type { Faculty } from "@/lib/subjects";
-import type { Course, CourseGrades, Program } from "@/lib/types";
+import type { ArtsDegree, Course, CourseGrades, Program } from "@/lib/types";
 import CourseGraph from "./CourseGraph";
 import EdgeLegend from "./Legend";
 import SubjectPicker from "./SubjectPicker";
@@ -21,6 +21,7 @@ interface FacultyViewProps {
   programUrl: string;
   programsNote: string;
   programsByMajor: boolean; // list them by major, with a major's paths behind one button
+  artsDegree: ArtsDegree; // the Faculty of Arts requirements, for the program panel
   closed: string[]; // other faculties' courses this page's students usually can't take
 }
 

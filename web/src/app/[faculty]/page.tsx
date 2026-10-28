@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import FacultyView from "@/components/FacultyView";
-import { loadCourses, loadGrades, loadPrograms } from "@/lib/data";
+import { loadArtsDegree, loadCourses, loadGrades, loadPrograms } from "@/lib/data";
 import { gradesFor } from "@/lib/grades";
 import { undergradOnly } from "@/lib/graph";
 import { readSentences } from "@/lib/progress";
@@ -113,6 +113,7 @@ export default async function FacultyPage({ params }: Props) {
         programUrl={programUrl}
         programsNote={faculty.programsNote}
         programsByMajor={faculty.programsByMajor}
+        artsDegree={loadArtsDegree()}
         closed={closed}
       />
     </>

@@ -1,25 +1,38 @@
 import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 import { creditsLookup, programProgress } from "./program";
-import { BREADTH, COMMUNICATION_COURSES, isScience, scienceRows, withCommunicationCourses } from "./science";
-import type { CourseFile, Program, ProgramFile } from "./types";
+import { BREADTH, COMMUNICATION_COURSES, isArtsForScience, isScience, scienceRows, withCommunicationCourses } from "./science";
+import type { ArtsDegree, CourseFile, Program, ProgramFile } from "./types";
 
 const read = (file: string) => JSON.parse(readFileSync(new URL(file, import.meta.url), "utf8"));
 const cpsc: ProgramFile = read("../../../data/programs/cpsc.json");
 const science: ProgramFile = read("../../../data/programs/science.json");
-const courses = ["cpsc", "math", "chem", "phys", "biol", "stat"].flatMap(
+const degree: ArtsDegree = read("../../../data/arts-degree.json");
+const artsSubjects = new Set(degree.arts_subjects);
+const courses = ["cpsc", "math", "chem", "phys", "biol", "stat", "phil", "psyc", "wrds", "engl"].flatMap(
   (s) => (read(`../../../data/courses/${s}.json`) as CourseFile).courses,
 );
 const creditsFor = creditsLookup(courses);
-const program = (id: string) => [...cpsc.programs, ...science.programs].find((p) => p.id === id)!;
+const program = (id: string) =>
+  withCommunicationCourses([...cpsc.programs, ...science.programs].find((p) => p.id === id)!);
 const rows = (p: Program, done: string[], highSchool: string[] = []) =>
-  Object.fromEntries(scienceRows(p, new Set(done), creditsFor, new Set(highSchool)).map((row) => [row.title, row]));
+  Object.fromEntries(
+    scienceRows(p, new Set(done), creditsFor, artsSubjects, new Set(highSchool)).map((row) => [row.title, row]),
+  );
 
 describe("isScience", () => {
   it("knows Science subjects and the Science courses of other faculties", () => {
     expect(["CPSC 110", "MATH 100", "AI 422", "BIOC 202", "GEOS 207", "SCIE 113"].every(isScience)).toBe(true);
     expect(["PSYC 360", "PSYC 348", "MEDG 410", "FNH 350"].every(isScience)).toBe(true);
     expect(["PSYC 101", "MEDG 422", "ENGL 110", "WRDS 150", "CPEN 221", "ECON 101"].some(isScience)).toBe(false);
+  });
+});
+
+describe("isArtsForScience", () => {
+  it("counts courses the Faculty of Arts offers, but not GEOS or PSYC with Science credit", () => {
+    const arts = (code: string) => isArtsForScience(code, artsSubjects);
+    expect(["PHIL 120", "ECON 101", "PSYC 101", "WRDS 150", "ASIC 200", "ASIC 220"].every(arts)).toBe(true);
+    expect(["PSYC 360", "PSYC 348", "GEOS 207", "GEOB 207", "CPSC 110", "ASIC 100"].some(arts)).toBe(false);
   });
 });
 
@@ -43,7 +56,7 @@ describe("scienceRows", () => {
 
   it("starts with nothing done", () => {
     expect(Object.values(rows(major, [])).map((r) => r.status)).toEqual([
-      "todo", "todo", "todo", "todo", "todo", "check", "check",
+      "todo", "todo", "todo", "todo", "todo", "todo", "check",
     ]);
   });
 
@@ -91,6 +104,23 @@ describe("scienceRows", () => {
       expect(row).toMatchObject({ status: "check", counted: ["Biology 12", "CHEM 121"], ask: "Physics 12" });
       expect(row.check).toBe("Without Physics 12: 3 credits of 100-level PHYS (usually PHYS 100).");
       expect(foundational([]).ask).toBe("Biology 11 or Biology 12 or Chemistry 12 or Physics 12");
+    });
+  });
+
+  describe("the Arts credits row", () => {
+    const arts = (done: string[]) => rows(major, done)["Arts credits"];
+
+    it("counts Arts courses toward 12 credits", () => {
+      expect(arts(["PHIL 120", "PSYC 101"])).toMatchObject({ status: "partial", progress: "6 of 12 cr" });
+      // PSYC 360 has Science credit, so it isn't Arts credit for a B.Sc.
+      expect(arts(["PHIL 120", "PSYC 101", "PSYC 360"]).progress).toBe("6 of 12 cr");
+      expect(arts(["PHIL 120", "PHIL 125", "PSYC 101", "PSYC 102"])).toMatchObject({ status: "done", progress: "12 of 12 cr" });
+    });
+
+    it("leaves out the course that meets the Communication Requirement", () => {
+      expect(arts(["WRDS 150"]).progress).toBe("0 of 12 cr");
+      // With two, one is the communication course and the other is Arts credit.
+      expect(arts(["WRDS 150", "ENGL 110"]).progress).toBe("3 of 12 cr");
     });
   });
 

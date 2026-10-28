@@ -39,7 +39,7 @@ import { countStatuses, courseProgress, WONT_TAKE } from "@/lib/progress";
 import type { CourseStatus } from "@/lib/progress";
 import type { SubjectMap } from "@/lib/subjectMap";
 import type { Elsewhere } from "@/lib/subjects";
-import type { Course, CourseGrades, Program } from "@/lib/types";
+import type { ArtsDegree, Course, CourseGrades, Program } from "@/lib/types";
 import { centeredViewport, fullyVisible } from "@/lib/view";
 import CourseDetails from "./CourseDetails";
 import OutsideCourses from "./OutsideCourses";
@@ -65,6 +65,7 @@ interface CourseGraphProps {
   programUrl: string; // the calendar page they come from
   programsNote: string; // under the list of programs
   programsByMajor: boolean; // list them by major (Science) or each on its own (engineering)
+  artsDegree: ArtsDegree; // the Faculty of Arts requirements, for the program panel
   closed: string[]; // other faculties' courses this page's students usually can't take
 }
 
@@ -237,6 +238,7 @@ export default function CourseGraph({
   programUrl,
   programsNote,
   programsByMajor,
+  artsDegree,
   closed,
 }: CourseGraphProps) {
   const { subject, courses, edges, labels, bands, width, calendarUrl } = map;
@@ -740,6 +742,7 @@ export default function CourseGraph({
           program={program}
           progress={programRows}
           creditsFor={creditsFor}
+          artsDegree={artsDegree}
           calendarUrl={programUrl}
           note={programsNote}
           byMajor={programsByMajor}

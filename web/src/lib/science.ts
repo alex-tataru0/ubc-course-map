@@ -1,4 +1,5 @@
 import { HIGH_SCHOOL_COURSES } from "./facts";
+import { programProgress } from "./program";
 import type { CreditsFor, RowStatus } from "./program";
 import { SCIENCE } from "./subjects";
 import type { Program } from "./types";
@@ -67,6 +68,18 @@ const SCIENCE_ONE_CATEGORIES = 4;
 // their own ("Additional Communication Requirement"), which withCommunicationCourses turns
 // into a choice of these courses so it can be ticked off.
 export const COMMUNICATION_COURSES = ["WRDS 150", "ENGL 110", "ENGL 111", "SCIE 300", "CHEM 300", "ENVR 200"];
+const COMMUNICATION_ROW = /^Additional Communications? Requirement$/;
+
+// Arts Requirement: courses offered by the Faculty of Arts (`artsSubjects`, from the calendar),
+// except GEOS (or GEOB) and PSYC courses with Science credit, plus ASIC 200 and 220. (Music
+// history, theory and composition courses count too, and up to 8 credits of ensembles; MUSC
+// isn't on the site.)
+export function isArtsForScience(code: string, artsSubjects: ReadonlySet<string>): boolean {
+  const s = subject(code);
+  if (code === "ASIC 200" || code === "ASIC 220") return true;
+  if (s === "GEOS" || s === "GEOB" || (s === "PSYC" && isSciencePsyc(code))) return false;
+  return artsSubjects.has(s);
+}
 
 export function withCommunicationCourses(program: Program): Program {
   return {
@@ -74,7 +87,7 @@ export function withCommunicationCourses(program: Program): Program {
     years: program.years.map((year) => ({
       ...year,
       requirements: year.requirements.map((row) =>
-        /^Additional Communications? Requirement$/.test(row.text)
+        COMMUNICATION_ROW.test(row.text)
           ? { ...row, tree: { one_of: COMMUNICATION_COURSES } }
           : row,
       ),
@@ -111,11 +124,13 @@ const statusOf = (have: number, need: number): RowStatus => (have >= need ? "don
 const isHonours = (program: Program) => /Honours/.test(program.name);
 const isCombined = (program: Program) => /^Combined /.test(program.name);
 
-// `highSchool` is the high school courses ticked on the checklist (see facts.ts).
+// `artsSubjects` is the subjects the Faculty of Arts offers (data/arts-degree.json), and
+// `highSchool` the high school courses ticked on the checklist (see facts.ts).
 export function scienceRows(
   program: Program,
   done: ReadonlySet<string>,
   creditsFor: CreditsFor,
+  artsSubjects: ReadonlySet<string>,
   highSchool: ReadonlySet<string> = new Set(),
 ): ScienceRow[] {
   const courses = [...done].sort();
@@ -140,6 +155,13 @@ export function scienceRows(
   const science = courses.filter(isScience);
   const upper = courses.filter((code) => level(code) >= 300);
   const upperScienceNeed = isHonours(program) ? 42 : 30;
+
+  // The course the program's Communication row counts doesn't count as Arts credit too.
+  const progress = programProgress(program, done, creditsFor);
+  const communication = program.years.flatMap((year, y) =>
+    year.requirements.flatMap((row, r) => (COMMUNICATION_ROW.test(row.text) ? progress[y][r].counted : [])),
+  );
+  const arts = courses.filter((code) => isArtsForScience(code, artsSubjects) && !communication.includes(code));
 
   // Each foundational subject is covered by a ticked high school course, or by 3 credits of
   // 100-level courses in it (shown are the first ones that make 3 credits). A subject that's
@@ -168,9 +190,7 @@ export function scienceRows(
     creditRow("Science credits", science, 72),
     creditRow("Credits numbered 300 or higher", upper, 48),
     creditRow("…of which in Science", upper.filter(isScience), upperScienceNeed),
-    row("12 Arts credits", "check", {
-      check: "Arts courses aren't on this site. The communication course doesn't count toward these.",
-    }),
+    creditRow("Arts credits", arts, 12),
     row("Foundational Biology, Chemistry and Physics", missing.length === 0 ? "done" : "check", {
       counted: foundational.flatMap((part) => part.covered ?? []),
       check:

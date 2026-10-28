@@ -3,7 +3,7 @@ import { programMajors, programSummary, treeCourses } from "@/lib/program";
 import type { CreditsFor, Major, RowProgress, RowStatus } from "@/lib/program";
 import { facultyOf, SCIENCE } from "@/lib/subjects";
 import type { Elsewhere } from "@/lib/subjects";
-import type { Program, ProgramRequirement } from "@/lib/types";
+import type { ArtsDegree, Program, ProgramRequirement } from "@/lib/types";
 import { scienceRows } from "@/lib/science";
 import type { ScienceRow } from "@/lib/science";
 import { useSavedFacts } from "@/lib/savedFacts";
@@ -28,6 +28,7 @@ interface ProgramPanelProps extends CodeLinks {
   program: Program | null; // null until one is picked
   progress: RowProgress[][] | null; // progress through each requirement row of `program`
   creditsFor: CreditsFor;
+  artsDegree: ArtsDegree; // the Faculty of Arts requirements, and which subjects are Arts
   calendarUrl: string; // the calendar page the programs come from
   note: string; // under the list of programs: what's there and what isn't yet
   byMajor: boolean; // one entry per major, opening to its paths, or every program on its own
@@ -45,6 +46,7 @@ export default function ProgramPanel({
   program,
   progress,
   creditsFor,
+  artsDegree,
   calendarUrl,
   note,
   byMajor,
@@ -121,6 +123,7 @@ export default function ProgramPanel({
           program={program}
           progress={progress}
           creditsFor={creditsFor}
+          artsDegree={artsDegree}
           onChange={() => setChoosing(true)}
           {...links}
         />
@@ -322,17 +325,20 @@ function Requirements({
   program,
   progress,
   creditsFor,
+  artsDegree,
   onChange,
   ...links
 }: {
   program: Program;
   progress: RowProgress[][];
   creditsFor: CreditsFor;
+  artsDegree: ArtsDegree;
   onChange: () => void;
 } & CodeLinks) {
   const { rowsDone, rows, spareCredits } = programSummary(progress, links.done, creditsFor);
   const { facts } = useSavedFacts();
   const highSchool = useMemo(() => new Set(facts.highSchool), [facts.highSchool]);
+  const artsSubjects = useMemo(() => new Set(artsDegree.arts_subjects), [artsDegree]);
   return (
     <>
       <button
@@ -401,7 +407,7 @@ function Requirements({
       })}
 
       {program.degree === SCIENCE.degree && (
-        <ScienceRules rows={scienceRows(program, links.done, creditsFor, highSchool)} {...links} />
+        <ScienceRules rows={scienceRows(program, links.done, creditsFor, artsSubjects, highSchool)} {...links} />
       )}
     </>
   );

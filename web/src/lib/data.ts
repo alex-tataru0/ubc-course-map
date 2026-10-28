@@ -1,6 +1,6 @@
 import { readFileSync } from "node:fs";
 import path from "node:path";
-import type { CourseFile, GradesFile, ProgramFile } from "./types";
+import type { ArtsDegree, CourseFile, GradesFile, ProgramFile } from "./types";
 
 // Reads the pipeline's output. Only the pages use these, while `npm run build` runs, so the
 // finished site is plain HTML and JSON and never calls an API.
@@ -19,4 +19,8 @@ export function loadGrades(subject: string): GradesFile {
 
 export function loadPrograms(subject: string): ProgramFile {
   return loadJson("programs", `${subject.toLowerCase()}.json`);
+}
+
+export function loadArtsDegree(): ArtsDegree {
+  return loadJson("arts-degree.json");
 }
