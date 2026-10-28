@@ -12,29 +12,29 @@ A website for UBC students to plan courses using the prerequisite graph.
 
 ## Features
 
-- [x] Prerequisite maps for 27 subjects on two faculty pages, one map per subject, laid out from first year to fourth: 14 Faculty of Science subjects, from Astronomy and Biology to Computer Science, Mathematics, Physics and Statistics, and 13 engineering subjects, from Applied Science to Computer, Electrical, Mechanical and Mining Engineering. A home page links to every subject.
+- [x] Prerequisite maps for 39 subjects on three faculty pages, one map per subject, laid out from first year to fourth: 15 Faculty of Science subjects, from Astronomy and Biology to Cognitive Systems, Computer Science, Mathematics, Physics and Statistics; 13 engineering subjects, from Applied Science to Computer, Electrical, Mechanical and Mining Engineering; and 11 Arts subjects, from Anthropology and Economics to Psychology, Sociology and Writing, Research, and Discourse Studies. A home page links to every subject.
 - [x] Click a course to highlight everything it needs and everything it unlocks.
 - [x] Course details: description, credits, and the exact prerequisite rule, including courses from other departments. A course from another subject opens on that subject's map.
 - [x] "What can I take next?": mark the courses you've done (in any subject) and every course shows whether you can take it.
-- [x] A short checklist for what isn't a course: your year standing and your high school courses, so prerequisites like "Third-year standing" or "PHYS 12" count without checking.
+- [x] A short checklist for what isn't a course: your year standing and your high school courses, so prerequisites like "Third-year standing" or "PHYS 12", and sentences like "Restricted to students with second-year standing or higher", count without checking.
 - [x] The shortest path to any course from the courses you've done, term by term and across subjects, in the side panel and on the map.
 - [x] Grades for each course since 2021: the average, a chart of how grades spread, and who taught it each term (from UBCGrades).
 - [x] Links to r/ubc posts and UBCGrades for each course, and a Rate My Professors search for each instructor.
-- [x] Pick your program to see its requirements year by year, which ones you've finished, and its courses marked on the map: on the Science page, any of 67 Bachelor of Science programs (the Majors and Honours of 12 subjects, from Astronomy to Statistics, and 29 Combined Majors and Honours like Computer Science and Mathematics), with the Faculty of Science's own requirements (a lab course, breadth, Science and upper-level credits); on the engineering page, any of the 14 Vancouver engineering majors.
+- [x] Pick your program to see its requirements year by year, which ones you've finished, and its courses marked on the map: on the Science page, any of 67 Bachelor of Science programs (the Majors and Honours of 12 subjects, from Astronomy to Statistics, and 29 Combined Majors and Honours like Computer Science and Mathematics), with the Faculty of Science's own requirements (a lab course, breadth, Science and upper-level credits); on the engineering page, any of the 14 Vancouver engineering majors; on the Arts page, a Major in each of 10 subjects, from Anthropology to Sociology. Electives fill up with the courses no other requirement used.
 - [x] A Feedback link that opens a short form on GitHub.
-- [ ] More faculties, and their majors.
+- [ ] More faculties and Arts subjects, Arts Honours and Combined Majors, and the Faculty of Arts' own requirements.
 
 ## How the course data is built
 
 All of this runs once, ahead of time. The website only loads the finished JSON files.
 
 1. **Parse the calendar.** `parse_courses.py` reads the UBC Academic Calendar page for a subject and gets each course's code, title, credits and description. The calendar shortens long links to "…/faculties-colleges-and-schools/facult…", so the link's full address is put back in their place.
-2. **Cut out the requirements.** `requisites.py` finds the "Prerequisite:", "Corequisite:" and "Equivalency:" text in each description. Advice like "One of MATH 152, MATH 221, MATH 223 is recommended" or "Recommended pre-requisite: MECH 380" is kept apart, since you don't need it to take the course. A prerequisite that is only advice ("A background in … is highly recommended") isn't a requirement at all. Weekly hours written after a prerequisite ("MECH 224 or MECH 260. [2-2-0]") and sentences like "Credit will be granted for only one of MECH 468 or MECH 509" are left out of the requirement too; the website reads those from the description.
+2. **Cut out the requirements.** `requisites.py` finds the "Prerequisite:", "Corequisite:" and "Equivalency:" text in each description. Advice like "One of MATH 152, MATH 221, MATH 223 is recommended", "Recommended: LING 313" or "Recommended pre-requisite: MECH 380" is kept apart, since you don't need it to take the course. A prerequisite that is only advice ("A background in … is highly recommended") isn't a requirement at all. Weekly hours written after a prerequisite ("MECH 224 or MECH 260. [2-2-0]") and sentences like "Credit will be granted for only one of MECH 468 or MECH 509" are left out of the requirement too; the website reads those from the description.
 3. **Turn the text into a tree.** "One of CPSC 210, CPEN 221 and …" becomes nested `one_of` / `all_of` groups, with optional minimum grades and free-text requirements like "Third-year standing".
-   - **Rules first.** `prereq_tree.py` handles the common patterns: single courses, "One of" (also with ", or" before the last course), "All of", "Either … or", chains joined by "and", lettered options like "Either (a) … or (b) …", and minimum grades like "a score of 68% or higher in MATH 226". Text with no course codes (like "Permission of the Department Head", "and Third-year standing", a last sentence like "Familiarity with a programming language is required", or a high school course like "PHYS 12") is kept as one thing to check, next to the courses. Codes written without a space ("MICB306") get one, and a bare number after a code is read as the same subject ("STAT 200, 201" means STAT 201). The rules refuse anything they aren't sure about instead of guessing.
+   - **Rules first.** `prereq_tree.py` handles the common patterns: single courses, "One of" (also with ", or" before the last course), "All of", "Either … or", chains joined by "and", lettered options like "Either (a) … or (b) …", and minimum grades like "a score of 68% or higher in MATH 226". Text with no course codes (like "Permission of the Department Head", "and Third-year standing", a last sentence like "Familiarity with a programming language is required", or a high school course like "PHYS 12") is kept as one thing to check, next to the courses. Codes written without a space ("MICB306") get one, and a bare number after a code is read as the same subject ("STAT 200, 201" means STAT 201). The Arts subjects added a few: "ECON 304. Permission of the School is also acceptable" (another way in, not a second requirement), "3 credits from one of WRDS 150, WRDS 151, …" (any one of them) and "Two of POLI 100, POLI 101, POLI 110, POLI 240", kept as text to check. The rules refuse anything they aren't sure about instead of guessing.
    - **Gemini for the rest.** `llm.py` sends the leftover sentences to Gemini (free tier) with a short prompt and a few examples. Every answer is cached in `data/llm_cache/prereqs.json`, so each sentence is only ever sent once, and the data can be rebuilt without an API key.
    - **Every tree is checked.** A checker makes sure the tree has a valid shape and mentions exactly the courses in the sentence, with none dropped and none made up. Anything it flags is marked for review.
-4. **Write the output.** `build_prereqs.py` writes one file per subject, like `data/courses/cpsc.json`. It downloads each subject's calendar page once and keeps it in `data/raw/`. The subjects are grouped by faculty page: 14 for Science and 13 for engineering (ENPH, Engineering Physics, is listed under Science in the calendar but goes with engineering).
+4. **Write the output.** `build_prereqs.py` writes one file per subject, like `data/courses/cpsc.json`. It downloads each subject's calendar page once and keeps it in `data/raw/`. The subjects are grouped by faculty page: 15 for Science, 13 for engineering and 11 for Arts. ENPH (Engineering Physics) is listed under Science in the calendar but goes with engineering; COGS (Cognitive Systems) has a B.A. and a B.Sc., and goes with Science, where the calendar lists it. Two typos in the calendar are fixed before reading, each with a note quoting it (`TEXT_FIXES`): ECON 541 repeats the end of its prerequisite after a full stop, and PSYC 348 writes "PSYO_ 271" for the Okanagan course PSYO_O 271.
 
 ### Accuracy (October 2026)
 
@@ -48,6 +48,7 @@ Every prerequisite and corequisite was checked by hand against the calendar text
 | ATSC | 26 | 15 | 15 | 0 | 15 / 15 |
 | BIOL | 136 | 119 | 112 | 7 | 119 / 119 |
 | CHEM | 115 | 75 | 73 | 2 | 75 / 75 |
+| COGS | 5 | 5 | 4 | 1 | 5 / 5 |
 | CPSC | 112 | 51 | 46 | 5 | 51 / 51 |
 | DSCI | 32 | 25 | 23 | 2 | 25 / 25 |
 | ENVR | 21 | 19 | 18 | 1 | 19 / 19 |
@@ -58,7 +59,7 @@ Every prerequisite and corequisite was checked by hand against the calendar text
 | PHYS | 116 | 96 | 93 | 3 | 96 / 96 |
 | SCIE | 15 | 9 | 9 | 0 | 9 / 9 |
 | STAT | 54 | 30 | 27 | 3 | 30 / 30 |
-| **Total** | **1,047** | **693** | **658 (95%)** | **35** | **693 / 693** |
+| **Total** | **1,052** | **698** | **662 (95%)** | **36** | **698 / 698** |
 
 **Engineering (Faculty of Applied Science)**
 
@@ -79,6 +80,25 @@ Every prerequisite and corequisite was checked by hand against the calendar text
 | MTRL | 61 | 5 | 5 | 0 | 5 / 5 |
 | **Total** | **810** | **432** | **407 (94%)** | **25** | **432 / 432** |
 
+**Faculty of Arts**
+
+| Subject | Courses | Prereqs and coreqs | Read by rules | Read by Gemini | Correct |
+|---|---|---|---|---|---|
+| ANTH | 113 | 4 | 4 | 0 | 4 / 4 |
+| ECON | 140 | 112 | 110 | 2 | 112 / 112 |
+| ENGL | 152 | 0 | 0 | 0 | – |
+| GEOG | 103 | 11 | 11 | 0 | 11 / 11 |
+| HIST | 216 | 0 | 0 | 0 | – |
+| LING | 67 | 29 | 29 | 0 | 29 / 29 |
+| PHIL | 113 | 11 | 9 | 2 | 11 / 11 |
+| POLI | 145 | 72 | 72 | 0 | 72 / 72 |
+| PSYC | 145 | 42 | 40 | 2 | 42 / 42 |
+| SOCI | 104 | 22 | 21 | 1 | 22 / 22 |
+| WRDS | 15 | 12 | 12 | 0 | 12 / 12 |
+| **Total** | **1,313** | **315** | **308 (98%)** | **7** | **315 / 315** |
+
+No ENGL or HIST course lists a prerequisite, so those maps have no lines. Many Arts courses say who can take them in the description instead ("Restricted to students with second-year standing or higher"), which the website reads.
+
 Course counts include graduate courses (500 and up), which have their requirements read too but aren't drawn on the maps.
 
 Gemini wasn't always right on the first try, and the checker can't catch every kind of mistake, so every answer is checked by hand:
@@ -86,16 +106,17 @@ Gemini wasn't always right on the first try, and the checker can't catch every k
 - **MATH and STAT:** 17 sent, 15 right on the first try. MATH 551 dropped the "MATH 550." at the start, which the checker flagged. STAT 321 turned "STAT 305 may be taken concurrently" into an extra requirement instead of another choice. The checker can't see that kind of mistake; the hand check did.
 - **The other 11 Science subjects:** 20 sent, 16 right on the first try. BIOL 201 and BIOL 234 turned "a corequisite of …" into prerequisites, though a corequisite can be taken at the same time. EOSC 440 put the "…, and MATH 200, and …" in its list into the one_of before it, so MATH 200 became optional. PHYS 107 wrote "85% or higher in PHYS 100" as text instead of a course with a minimum grade. The checker flagged none of them, since every course was still in the tree.
 - **Engineering:** the rules' answers were checked by hand as well (408 of them), and 9 were wrong. The worst was CHBE 220's "One of CHEM 121 and CHEM 123 or CHEM 154", read as always needing CHEM 121. Others split text on "or" ("third-year standing", "higher in IGEN" for CIVL 305's "third-year standing or higher in IGEN") or read a leftover "either" as a requirement (ELEC 371). The rules now send those to Gemini or keep the text whole, and every Science tree came out the same. Then 27 went to Gemini, and 21 were right. CHBE 352 wrote "all_Of" instead of "all_of", which the checker flagged. CHBE 241 wrote CHEM 121 and CHEM 123 as text instead of course codes, and CHBE 411's "All of CHBE 241, CHBE 345 or equivalents" allowed an equivalent for CHBE 345 only. The other 3 (ELEC 442, MECH 468, CPEN 355), plus APSC 367, had "Credit will be granted for only one of …" as a requirement: that was the pipeline's mistake, so those sentences are now left out of the requirement text, which also let the rules read CPEN 355 and APSC 367.
+- **Arts (and COGS):** 9 sent, 7 right on the first try. The 2 wrong ones were typos in the calendar (ECON 541's repeated ending, read as an extra requirement, and PSYC 348's "PSYO_ 271", which the checker flagged), now fixed before reading; PSYC 348's fixed text was asked again and came back right. The rules' 312 answers were checked by hand too.
 - Each time, the prompt got a new rule and an example, only the wrong answers were asked again, and they came back right.
 
-The rules written for MATH and STAT also read 7 of the 13 CPSC prerequisites Gemini had answered: 4 come out exactly like Gemini's checked answers, and the other 3 have no course codes, so their text is kept whole. The rules for text next to course codes then read 7 more that Gemini had answered (CPSC 491 and MATH 121, 312, 440, 442, 443, 444), all exactly like Gemini's checked answers.
+The rules written for MATH and STAT also read 7 of the 13 CPSC prerequisites Gemini had answered: 4 come out exactly like Gemini's checked answers, and the other 3 have no course codes, so their text is kept whole. The rules for text next to course codes then read 7 more that Gemini had answered (CPSC 491 and MATH 121, 312, 440, 442, 443, 444), all exactly like Gemini's checked answers. The rules written for Arts read two more ("two of …" in ELEC 391 and MECH 368), again exactly like Gemini's answers.
 
 Known gaps:
 - CPSC 448's requirement isn't labelled "Prerequisite:" in the calendar, so it isn't captured.
 - EOSC 355 says "Either (a) SCIE 001 or (b) one of MATH 101, …; and one of CHEM 110, … and one of PHYS 101, …". Read word for word, as the data does, Science One students also need a CHEM and a PHYS course. EOSC 340 and 372 list the same courses with all three inside (b), so the semicolon is probably a typo.
 - Exclusions ("Not for students with credit for …", "Credit will be granted for only one of …", "Credit cannot be obtained for both …") and sentences about who can take a course ("Restricted to …", "Permission of the supervisor required") aren't extracted by the pipeline yet. The website reads them from the description for now.
-- "Two of ELEC 301, ELEC 341, …" (ELEC 391, MECH 368) is kept as text to check, since the tree has no "two of" group.
-- Engineering prerequisites also name courses from subjects that aren't on the site yet (WRDS, ENGL, BIOC, WOOD and a few others), so those show as courses with no data.
+- "Two of ELEC 301, ELEC 341, …" (ELEC 391, MECH 368, LING 415 and 12 POLI courses) is kept as text to check, since the tree has no "two of" group.
+- Prerequisites also name courses from subjects that aren't on the site yet (BIOC, WOOD, COMR, ARCL, URST and a few others), so those show as courses with no data.
 - Requirements that aren't courses (year standing, credit counts, department permission) are kept as text, so the website shows them as "check first" instead of deciding. The website's checklist then answers the ones about year standing and high school courses.
 
 ### Running it
@@ -108,17 +129,17 @@ pytest
 python pipeline/build_prereqs.py
 ```
 
-With no arguments, `build_prereqs.py` builds all 27 subjects in the tables. To build only some, name subjects or a faculty: `python pipeline/build_prereqs.py MATH STAT` or `python pipeline/build_prereqs.py engineering`.
+With no arguments, `build_prereqs.py` builds all 39 subjects in the tables. To build only some, name subjects or a faculty: `python pipeline/build_prereqs.py MATH STAT`, `python pipeline/build_prereqs.py engineering` or `python pipeline/build_prereqs.py arts`.
 
-A Gemini API key is only needed when there are prerequisites the cache doesn't have yet. Put it in a `.env` file (see `.env.example`). There are 329 `pytest` tests for the whole pipeline.
+A Gemini API key is only needed when there are prerequisites the cache doesn't have yet. Put it in a `.env` file (see `.env.example`). There are 399 `pytest` tests for the whole pipeline.
 
 ## How the grade data is built
 
 `build_grades.py` pulls grade distributions from the [UBCGrades](https://ubcgrades.com) API, which republishes UBC PAIR's data. Like the course data, it runs ahead of time, about once a term.
 
-1. **Download each term once.** One request per term and subject gets every section: 10 terms, 2021 Summer to 2025 Winter, for each of the 27 subjects. The responses are saved as they are in `data/raw/grades/`. A term that's already saved isn't downloaded again, so a new term means one new request per subject. When a subject had no sections in a term (ENVR in most summers, ENVE and MANU in every summer), UBCGrades answers "404 Not Found", and that term is saved as an empty list.
+1. **Download each term once.** One request per term and subject gets every section: 10 terms, 2021 Summer to 2025 Winter, for each of the 39 subjects. The responses are saved as they are in `data/raw/grades/`. A term that's already saved isn't downloaded again, so a new term means one new request per subject. When a subject had no sections in a term (ENVR in most summers, ENVE and MANU in every summer), UBCGrades answers "404 Not Found", and that term is saved as an empty list.
 2. **Add up the sections.** For each course and term: the number of students, the average weighted by students, the count in each grade range, and every instructor. Topics courses like CPSC 436N (NLP) and 436C (Cloud Computing) get a row each.
-3. **Check against UBCGrades' own totals.** UBCGrades sends its own total for most course-terms, but not for 2021, so every term is added up from its sections instead. The 4,575 totals it does send (2,557 for Science, 2,018 for engineering) match ours exactly, and a test checks this for every subject.
+3. **Check against UBCGrades' own totals.** UBCGrades sends its own total for most course-terms, but not for 2021, so every term is added up from its sections instead. The 7,644 totals it does send (2,581 for Science, 2,018 for engineering, 3,045 for Arts) match ours exactly, and a test checks this for every subject.
 4. **Write the output.** One file per subject, like `data/grades/cpsc.json`:
 
 **Faculty of Science**
@@ -129,6 +150,7 @@ A Gemini API key is only needed when there are prerequisites the cache doesn't h
 | ATSC | 11 | 35 | 6,166 |
 | BIOL | 108 | 528 | 74,367 |
 | CHEM | 87 | 365 | 59,069 |
+| COGS | 5 | 30 | 3,609 |
 | CPSC | 79 | 408 | 80,088 |
 | DSCI | 32 | 124 | 21,089 |
 | ENVR | 14 | 44 | 2,210 |
@@ -139,7 +161,7 @@ A Gemini API key is only needed when there are prerequisites the cache doesn't h
 | PHYS | 71 | 302 | 50,621 |
 | SCIE | 4 | 17 | 7,618 |
 | STAT | 33 | 166 | 25,599 |
-| **Total** | **741** | **3,202** | **480,581** |
+| **Total** | **746** | **3,232** | **484,190** |
 
 **Engineering**
 
@@ -160,17 +182,34 @@ A Gemini API key is only needed when there are prerequisites the cache doesn't h
 | MTRL | 47 | 178 | 8,132 |
 | **Total** | **609** | **2,528** | **168,469** |
 
-About 1–8% of students, depending on the subject (9% in ASTR, 13% in MINE), are in a grade range whose count UBC PAIR doesn't give. They're still counted in each course's total, and the chart says how many it leaves out.
+**Faculty of Arts**
+
+| Subject | Courses | Course-terms | Grades |
+|---|---|---|---|
+| ANTH | 67 | 231 | 15,499 |
+| ECON | 108 | 449 | 61,193 |
+| ENGL | 117 | 473 | 31,102 |
+| GEOG | 67 | 253 | 18,104 |
+| HIST | 156 | 510 | 22,814 |
+| LING | 47 | 202 | 16,344 |
+| PHIL | 88 | 395 | 37,189 |
+| POLI | 98 | 471 | 39,499 |
+| PSYC | 89 | 417 | 107,983 |
+| SOCI | 74 | 359 | 36,727 |
+| WRDS | 7 | 38 | 23,857 |
+| **Total** | **918** | **3,798** | **410,311** |
+
+About 1–8% of students, depending on the subject (9% in ASTR, 11% in WRDS, 13% in MINE), are in a grade range whose count UBC PAIR doesn't give. They're still counted in each course's total, and the chart says how many it leaves out.
 
 ```
 python pipeline/build_grades.py
 ```
 
-With no arguments it does every subject; `python pipeline/build_grades.py MATH` does just one, and `python pipeline/build_grades.py engineering` does one faculty. Add `--refresh` to download every term again. No API key is needed.
+With no arguments it does every subject; `python pipeline/build_grades.py MATH` does just one, and `python pipeline/build_grades.py engineering` or `arts` does one faculty. Add `--refresh` to download every term again. No API key is needed.
 
 ## How the program data is built
 
-`build_programs.py` reads the six programs on the calendar's [Computer Science page](https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-science/bachelor-science/computer-science): the Major and Honours in Computer Science, the same two with the Artificial Intelligence option, and the Major and Honours in Computer Science and Software Engineering. It reads 61 more Science programs from the subjects' pages in the calendar's [Bachelor of Science](https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-science/bachelor-science) section: the Majors and Honours of the other 11 subjects with fixed course lists (Biology's seven named Honours, like Marine Biology, and the Earth and Ocean Sciences department's Geology, Geophysics and Fisheries Oceanography among them), and the 29 Combined Majors and Honours with their own table, like Computer Science and Mathematics or Chemical Biology. Integrated Sciences (students design their own), combined honours with "another Science subject" (no fixed courses) and the B.Sc./B.Ed. dual degrees are left out. It also reads the 14 Vancouver engineering majors on the faculty's [list of degree programs](https://apsc.ubc.ca/students/degree-programs), from Biomedical to Mining Engineering. That list has majors only, so options like Mechatronics, or Electrical Engineering's Biomedical option, are left out, and so are footnotes about them. Like the rest of the data, it runs ahead of time.
+`build_programs.py` reads the six programs on the calendar's [Computer Science page](https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-science/bachelor-science/computer-science): the Major and Honours in Computer Science, the same two with the Artificial Intelligence option, and the Major and Honours in Computer Science and Software Engineering. It reads 61 more Science programs from the subjects' pages in the calendar's [Bachelor of Science](https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-science/bachelor-science) section: the Majors and Honours of the other 11 subjects with fixed course lists (Biology's seven named Honours, like Marine Biology, and the Earth and Ocean Sciences department's Geology, Geophysics and Fisheries Oceanography among them), and the 29 Combined Majors and Honours with their own table, like Computer Science and Mathematics or Chemical Biology. Integrated Sciences (students design their own), combined honours with "another Science subject" (no fixed courses) and the B.Sc./B.Ed. dual degrees are left out. It also reads the 14 Vancouver engineering majors on the faculty's [list of degree programs](https://apsc.ubc.ca/students/degree-programs), from Biomedical to Mining Engineering. That list has majors only, so options like Mechatronics, or Electrical Engineering's Biomedical option, are left out, and so are footnotes about them. And it writes out 10 Arts Majors, one for each Arts subject with a map but WRDS (which only has a Minor), from the subjects' pages in the calendar's [Bachelor of Arts](https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-arts/bachelor-arts) section and the [Vancouver School of Economics](https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/vancouver-school-economics/bachelor-arts-economics) page (step 6). Like the rest of the data, it runs ahead of time.
 
 1. **Save the pages once.** Each calendar page is downloaded once to `data/raw/programs/` and read from there. Deleting a file downloads it again, e.g. for a new calendar year.
 2. **Read the tables.** `parse_programs.py` finds each program's heading and table, splits it into years (First Year, Second Year, Third and Fourth Years), and keeps each requirement's credits and footnotes. The Major and Honours share a first-year table, and a year the calendar only describes as "Same as …" another program is copied from that program. A test checks that the credits add up for every year and every degree (120 for a Major, 132 for an Honours).
@@ -178,17 +217,19 @@ With no arguments it does every subject; `python pipeline/build_grades.py MATH` 
    The other Science programs are read by `science_programs.py`, one table per program. Some years say "Same as for Biology Major (3095)" and are copied from it. Some programs split the upper years into "Third Year", "Third or Fourth Years" and "Fourth Year" with one total for all of them: those are put together as one year, and each row from a single-year part gets a note ("In third year"). The table's total for the degree is checked too, which found two mistakes in the calendar, both fixed with a note quoting it: Computer Science and Chemistry's third and fourth years say 47 credits where the rows add up to 46 (and the degree to 120), and a row in the Combined Honours in Computer Science and Mathematics has its bracket after the wrong course ("MATH 131, 215, (or one of 111, 221, 223), …", a 9-credit row of three courses). A "Minimum total credits for second year" line is kept as a note, not a total.
 3. **Turn each requirement into a tree.** `program_rules.py` reads rows like "MATH 100 or 102 or 104 (or 180 or 184 or 120 or 110)", "Three of CPSC 304, 330, …, AI 422 at least 6 credits of which must be 400 or above" and "CPSC or AI courses numbered 300 or higher" into `one_of`, `all_of`, `pick`, `credits_of`, electives and free text. The Science pages added more: "MATH 221 (or 223), 215" (a list with choices inside), "15 credits from MATH 400-406, 412, 418-428, …" (`credits_from`; the build swaps each range for the MATH courses that exist), "EOSC, ENVR, or ATSC 400-level" (a level band), "Economics courses numbered 300 or above", "MATH/STAT 302" (cross-listed) and "Either (a) ECON 326 and STAT 301 or (b) ECON 398 and STAT 306". GEOB is the old code of GEOS, so "GEOS (or GEOB) 300" keeps only GEOS. Shorthand like "CPSC 310, 313, 320" is written out in full, and a checker makes sure each tree has exactly the courses in its row, like the one for prerequisites.
 4. **Gemini for the rest.** A row the rules can't read goes to Gemini, with the answer cached in `data/llm_cache/programs.json`, like the prerequisites. The rules read every Computer Science and engineering row; 10 Science wordings went to Gemini, like "Four of EOSC 353, 429, … or (three of EOSC 353, 429, … and one of EOSC 329, 350, PHYS 301, MATH 345)", which becomes a choice of two groups.
-5. **Write the output.** `data/programs/cpsc.json`: 6 programs, 120 requirements. `data/programs/science.json`: 61 programs, 1,559 requirements, every one 120 or 132 credits. `data/programs/engineering.json`: 14 programs, 617 requirements. An engineering "Electives" row comes from a department's list, so it's something to check, like "Technical electives" and "Complementary Studies electives", not any course. Science rows that point to a list the site doesn't have ("Biology Laboratory Selections", "Area of Concentration", "CHEM Electives") are things to check too, with the calendar's footnote.
+5. **The Arts Majors, by hand.** Arts program pages have no requirement tables: they say "12 credits of 100- and 200-level SOCI, including: at least 3 credits from SOCI 100, 101, or 102; SOCI 217" in sentences and lists. So `arts_programs.py` writes each Major out row by row. A row that quotes the calendar is checked against the saved page on every build, so a new calendar year that changes it stops the build. The rest of an "including" sentence becomes its own row ("6 more credits of 100- and 200-level SOCI"), with the calendar's sentence in its note, since a course counts once. Each Major ends with the rest of the B.A.'s 120 credits as electives. English's Major comes in three emphases; Literature is the one here.
+6. **Write the output.** `data/programs/cpsc.json`: 6 programs, 120 requirements. `data/programs/science.json`: 61 programs, 1,559 requirements, every one 120 or 132 credits. `data/programs/engineering.json`: 14 programs, 617 requirements. An engineering "Electives" row comes from a department's list, so it's something to check, like "Technical electives" and "Complementary Studies electives", not any course. Science rows that point to a list the site doesn't have ("Biology Laboratory Selections", "Area of Concentration", "CHEM Electives") are things to check too, with the calendar's footnote. `data/programs/arts.json`: 10 programs, 84 requirements, every one 120 credits.
 
 ### Accuracy (October 2026)
 
 The 120 Computer Science requirements use 36 different wordings, since most rows repeat across programs (the first year is the same for all six). The 617 engineering requirements use 293 (most programs share the first year), and the 1,559 other Science requirements use 520. Every wording was checked by hand against the calendar. For engineering, the rules needed three new ones: "One of: MATH 318, …" with a colon, "One of MINE 350, …, MINE 455 or MINE 465" with "or" before the last course, and "MECH 280, CIVL 215, or CHBE 251", a choice written as a list.
 
-| | Computer Science | Other Science | Engineering | Correct |
-|---|---|---|---|---|
-| Parsed by rules | 36 | 510 | 293 | 839 |
-| Parsed by Gemini | 0 | 10 | 0 | 10 |
-| **Total** | **36** | **520** | **293** | **849 / 849** |
+| | Computer Science | Other Science | Engineering | Arts | Correct |
+|---|---|---|---|---|---|
+| Parsed by rules | 36 | 510 | 293 | – | 839 |
+| Parsed by Gemini | 0 | 10 | 0 | – | 10 |
+| Written by hand | – | – | – | 75 | 75 |
+| **Total** | **36** | **520** | **293** | **75** | **924 / 924** |
 
 For the Science programs, the hand check caught three mistakes in the new rules before anything was saved: a lone "Elective" was read as text instead of electives, "MATH 111 (or one of 131, 221, 223)" lost the courses after "one of", and "ECON 200- or 300-level" counted ECON 200 as a course. Gemini got 5 of its 10 right on the first try. It put "any MICB course" inside a choice three times (credits from a subject only work as a whole row), split the STAT Honours' "6 credits chosen from MATH 418, 419, 420, 421 and statistics courses numbered 400 or above" into two requirements, and read "Another MICB selection or a selection from BIOC 402, 410, …" as needing all eight courses. Each time the prompt got a new rule and an example, only those were asked again, and they came back right.
 
@@ -198,7 +239,8 @@ Known gaps:
 - Only the current version of an engineering year. A student who started Mechanical third year in 2025W or earlier has slightly different requirements.
 - A row with a choice of credits ("MECH 226 or MECH 227", 3 or 5 credits) counts as the smaller number in a year's total, with the calendar's wording kept next to it.
 - Footnotes that aren't about which courses count are shown, not checked, e.g. "At least 3 credits must come from lecture-based course(s)" or when CPSC 449 can be waived.
-- Electives aren't tracked; the site shows them as "any courses". The Faculty of Science's own requirements are, except the 12 Arts credits (Arts courses aren't on the site) and the limits on credits outside Science and Arts and numbered 500 or higher.
+- Electives take any finished course no other requirement used, without checking a program's rules for them. The Faculty of Science's own requirements are tracked, except the 12 Arts credits (to check yourself) and the limits on credits outside Science and Arts and numbered 500 or higher. The Faculty of Arts' requirements (Writing and Research, Ways of Knowing breadth, Outside, Upper-level, Arts credits) aren't tracked yet.
+- Arts: only one Major per subject; no Honours, Combined Majors or other Majors (English's Language emphases, Urban Studies, Speech Sciences, …). A few rows are approximations, each explained in its note: English's first 6 credits count any 6 from 100-level ENGL, CAP, WRDS and ASTU (the calendar allows only 3 of WRDS); Philosophy assumes the area courses are taken at the 200 level; Psychology's "6 credits from each of two of four lists" and History's "6 credits of substantially pre-modern history" are to check yourself.
 - "PHYS 100-level" counts PHYS 100 too, although its footnote leaves it out.
 
 ```
@@ -218,13 +260,13 @@ The site is in `web/`: Next.js, TypeScript and React Flow, exported as a plain s
 - **Keyboard focus follows the panels.** When a side panel opens, focus moves to its heading, so Tab carries on inside it and screen readers say what opened. Closing it (× or Esc) puts focus back on the course or button that opened it.
 - **The picked course stays in view.** If the side panel or the bars over the map would cover it, the map moves it to the middle of the space that's left.
 - **Links in the calendar's text,** like the Faculty of Science Credit Exclusion Lists, are shown as short links ("vancouver.calendar.ubc.ca/…/credit-exclusion-lists").
-- **A preview card.** Sharing a link shows a picture of a map with the site's title and description: the CPSC map with CPSC 340 picked for the home page and Science (`web/public/og.png`), and the CPEN map with CPEN 331 picked for engineering (`og-engineering.png`).
+- **A preview card.** Sharing a link shows a picture of a map with the site's title and description: the CPSC map with CPSC 340 picked for the home page and Science (`web/public/og.png`), the CPEN map with CPEN 331 picked for engineering (`og-engineering.png`), and the ECON map with ECON 326 picked for Arts (`og-arts.png`).
 
 ### One map per subject
 
-- **A page per faculty.** `/science` and `/engineering` each have their subjects in a menu next to the title, A to Z, and tabs above it to switch faculty. The subject is kept in the address (`/science#math`), and so is the course whose panel is open (`/science#math-221`), so links, refreshing and the back button work, and the address can be copied to share a course. Opening courses replaces the address instead of adding to the history, so the back button doesn't step through every course clicked. With no `#`, a faculty's first subject opens (Computer Science for Science, Applied Science for engineering). A page is built with that subject showing, so a link to `#biol` would flash the CPSC map first; a tiny script in the page hides the map until the right subject is showing.
-- **A home page.** `/` has a card per faculty with a link to each subject's map. Links from before there were faculty pages, like `/#math`, still work: the "#" part never reaches the server, so a tiny script on the home page sends them on to `/science#math`.
-- **What each page carries.** A page has its own faculty's maps and grades, plus the course data of every faculty, so statuses and paths can cross faculties. Every faculty's programs come too, since they're small. The Science page is 2.16 MB (287 KB gzipped), the engineering page 1.97 MB (253 KB), and the home page 32 KB. Links between pages don't prefetch, so the home page doesn't download both.
+- **A page per faculty.** `/science`, `/engineering` and `/arts` each have their subjects in a menu next to the title, A to Z, and tabs above it to switch faculty. The subject is kept in the address (`/science#math`), and so is the course whose panel is open (`/science#math-221`), so links, refreshing and the back button work, and the address can be copied to share a course. Opening courses replaces the address instead of adding to the history, so the back button doesn't step through every course clicked. With no `#`, a faculty's first subject opens (Computer Science for Science, Applied Science for engineering, Economics for Arts). A page is built with that subject showing, so a link to `#biol` would flash the CPSC map first; a tiny script in the page hides the map until the right subject is showing.
+- **A home page.** `/` has a card per faculty, three in a row on wide screens, with a link to each subject's map. Links from before there were faculty pages, like `/#math`, still work: the "#" part never reaches the server, so a tiny script on the home page sends them on to `/science#math`.
+- **What each page carries.** A page has its own faculty's maps and grades, plus the course data of every faculty, so statuses and paths can cross faculties. Other faculties' courses keep only the sentences of their descriptions the site reads (who can take a course and what rules it out), since a page never shows them; a test checks that every course reads the same either way. That took the Science page from 287 to 247 KB gzipped before Arts came. Every faculty's programs come too, since they're small. The Science page is 2.31 MB (279 KB gzipped), the engineering page 2.10 MB (240 KB), the Arts page 2.50 MB (308 KB), and the home page 41 KB. Links between pages don't prefetch, so the home page doesn't download both.
 - **Why not one big map?** Three layouts were tried with the real data: one map per subject; each map plus the courses it needs from other subjects as extra boxes; and all three subjects on one map. The extra boxes added 24 courses to the CPSC map and pushed CPSC 221 down a row, and the combined map (175 courses) was unreadable without zooming in. One map per subject stays readable and works for any number of subjects.
 - **Across subjects.** Ticks, statuses, paths and the picked program cover every subject. A MATH course in CPSC 340's panel opens on the MATH map, and the Computer Science Major marks its MATH courses there too.
 - **Across faculties.** Ticks are saved once for the whole site, so MATH 100 ticked on the engineering page counts on the Science page too. A course from the other faculty in a panel (CPEN 221 in CPSC 221's prerequisites, MATH 101 in ELEC 201's path) has a tick box and a ↗ link that opens it on its own page (`/engineering#cpen-221`). ELEC 201's path plans MATH 100, PHYS 157 and the rest from the Science data, and CPSC 221 knows what CPEN 221 needs.
@@ -236,11 +278,11 @@ The site is in `web/`: Next.js, TypeScript and React Flow, exported as a plain s
 - **Your courses stay in your browser.** Ticks and checklist answers are saved in localStorage. There are no accounts, and nothing you tick is ever sent anywhere.
 - **Three answers, not two.** Each requirement is met, not met, or "check yourself", because the site can't know your grades or a department's permission, and only knows your year standing or whether you took Pre-calculus 12 if you say so (see the checklist below). A "one of" group is met if any option is, an "all of" group fails if any part fails, and anything uncertain stays uncertain (three-valued logic).
 - **Six statuses.** Done, can take, check first, not yet, no credit and not needed. A corequisite can be taken at the same time.
-  - **Check first:** a sentence saying who can take the course, in any of the calendar's wordings: "Restricted to …", "Not open to …", "Only open to students in a Chemistry specialization", "Permission of the supervisor required", "Enrolment limited to students in the B.Sc. program", or the Student Directed Seminars handbook (CPSC 490). Only the description is read, not the prerequisites, where "or permission of the instructor" is just one way in.
+  - **Check first:** a sentence saying who can take the course, in any of the calendar's wordings: "Restricted to …", "Not open to …", "Only open to students in a Chemistry specialization", "Permission of the supervisor required", "Enrolment limited to students in the B.Sc. program", or the Student Directed Seminars handbook (CPSC 490). Only the description is read, not the prerequisites, where "or permission of the instructor" is just one way in. A year standing is the exception: "Restricted to students with second-year standing or higher" (on about 130 Arts courses) is answered by the checklist, so it's "can take" or "not yet" once you've said your year, and paths don't avoid those courses.
   - **No credit:** "Not for students with credit for CPSC 110" makes CPSC 100 "no credit" once 110 is done, and "Credit will be granted for only one of BIOL 121 or BIOL 344" does the same for each of the pair. A high school course ticked on the checklist does it too: with Chemistry 12, CHEM 100, 110 and 111 ("Not open to students with credit for Chemistry 12") are "no credit", and so are PHYS 100 with Physics 12 and BIOL 111 with Biology 12.
   - **Not needed:** a course whose every way in goes through a "no credit" course. CPSC 107 needs CPSC 103, which isn't for students with CPSC 110, so after 110 it's greyed out instead of "not yet", with no path to it.
 - **Clear all asks first.** It can't be undone, so the bar asks "Clear all 12 marked courses?", with Cancel ready to press.
-- **Year standing and high school courses.** "Not on the map", the list that opens with "Edit my courses", starts with a short checklist: your year standing (1st to 4th or higher) and the high school courses you have (Biology 11 and 12, Chemistry 12, Physics 11 and 12, Pre-calculus 12). It reads 88 of the 164 non-course wordings in the prerequisites, like "Third-year standing", "3rd-year class standing or higher", "Completion of third year", "Fourth-year standing or permission of the instructor" or "PHYS 12".
+- **Year standing and high school courses.** "Not on the map", the list that opens with "Edit my courses", starts with a short checklist: your year standing (1st to 4th or higher) and the high school courses you have (Biology 11 and 12, Chemistry 12, Physics 11 and 12, Pre-calculus 12). It reads 98 of the 193 non-course wordings in the prerequisites, like "Third-year standing", "3rd-year class standing or higher", "Completion of third year", "Fourth-year standing or permission of the instructor", "Restricted to second- or higher-year standing" or "PHYS 12", and the same kind of sentence in a description ("Restricted to students in fourth-year standing or higher").
   - A year that's high enough makes the requirement met, and a lower one makes the course "not yet", with the reason: "It needs Third-year standing, and you said you're in first year."
   - An unticked high school course stays "check first": leaving it out isn't the same as saying you don't have it.
   - A place in the wording ("Third-year standing in Mining Engineering", "in the Faculty of Science") is met only when the picked program is in it. Anything else stays something to check.
@@ -258,11 +300,11 @@ The site is in `web/`: Next.js, TypeScript and React Flow, exported as a plain s
 
 ### Pick a program
 
-- **Programs by faculty.** Every program has its own button with its own name. The Science page lists them by subject, A to Z like the menu: a subject with several programs is one button that opens to them, its own first (Mathematics: the Major, Mathematical Sciences and Honours), then "Combined with another subject" (Computer Science and Mathematics, Mathematics and Statistics, …). A combined program shows under both its subjects, and the map's own subject starts open. Data Science, with one program, is a plain button. The engineering page lists its 14 majors one by one, from Biomedical to Mining Engineering. One program is saved for the whole site, so one picked on the engineering page still shows on the Science page, with its MATH and PHYS courses marked on those maps. An engineering program's panel says which entry years its tables are for, and links to each calendar page it comes from.
+- **Programs by faculty.** Every program has its own button with its own name. The Science page lists them by subject, A to Z like the menu: a subject with several programs is one button that opens to them, its own first (Mathematics: the Major, Mathematical Sciences and Honours), then "Combined with another subject" (Computer Science and Mathematics, Mathematics and Statistics, …). A combined program shows under both its subjects, and the map's own subject starts open. Data Science, with one program, is a plain button. The engineering page lists its 14 majors one by one, from Biomedical to Mining Engineering, and the Arts page its 10 Majors, from Anthropology to Sociology. One program is saved for the whole site, so one picked on the engineering page still shows on the Science page, with its MATH and PHYS courses marked on those maps. An engineering program's panel says which entry years its tables are for, and links to each calendar page it comes from.
 - **Requirements by year.** Pick a program and a panel lists its requirements year by year, in the calendar's words, each marked done, partly done, to do or "check yourself". It shows which of your courses fill each one, and the courses you could still take for it.
-- **A course counts once.** Each finished course fills one requirement only, so nothing is counted twice. Requirements that name exact courses pick first, then "one of" lists (shortest first), then "three of", then credit counts like "9 credits of CPSC 300 or higher" (the 400-level one first, so a 400-level course isn't used up too early). With CPSC 304 and 317 done, the Software Engineering Major's "One of CPSC 304, 317, 344" gets 304 and "One more of …" gets 317.
+- **A course counts once.** Each finished course fills one requirement only, so nothing is counted twice. Requirements that name exact courses pick first, then "one of" lists (shortest first), then "three of", then credit counts like "9 credits of CPSC 300 or higher" (the 400-level one first, so a 400-level course isn't used up too early). With CPSC 304 and 317 done, the Software Engineering Major's "One of CPSC 304, 317, 344" gets 304 and "One more of …" gets 317. Electives come last and take any finished course no other requirement used, earlier years first (the calendar lets elective credits move between years), so ECON 101 shows up as an elective in the Computer Science Major. The CS Major's "CPSC 300 or higher" and "CPSC 400 or higher" rows never share a course: its third and fourth years only add up to 60 credits that way.
 - **Choices inside choices.** "EOSC 212 (or EOSC 111 and one of EOSC 110, 112, …)" is partly done with EOSC 111 alone, and "Two of BIOL 415, 417, 434 or two of BIOL 417, 418, 434" doesn't take BIOL 415 and 418 together. Credit rows count credits: "15 credits from MATH 400-406, …" shows "6 of 15 cr", and "PHYS 100-level" only takes 100-level courses.
-- **Conditions in the wording.** "At least 6 credits of which must be 400 or above" is checked, and the footnote saying CPSC 490 "cannot be used" keeps it out of the credit count. Any other condition is shown for you to check.
+- **Conditions in the wording.** "At least 6 credits of which must be 400 or above" is checked, and the footnote saying CPSC 490 "cannot be used" keeps it out of the credit count, like "ECON 457 will not count towards 400-level electives" or "PSYC 340, 388, 440, or 488 may not be included". Any other condition is shown for you to check.
 - **The Faculty of Science's requirements.** Every B.Sc. program ends with the rules the whole faculty shares: a lab course (one of 15), 3 credits in 6 of the 7 Science Breadth categories (5 for combined programs; MATH 302 counts as Statistics, Science One as four), 72 Science credits, 48 credits numbered 300 or higher, 30 of them in Science (42 for honours), the foundational Biology, Chemistry and Physics (each covered by a high school course ticked on the checklist, like Chemistry 12, or by 3 credits of 100-level courses in it; one that's neither stays to check, with an "I have Chemistry 12" tick in the row), and, to check yourself, 12 Arts credits. A course can count there and for the program, and they have their own count, so the program's "N of M" stays about the program. The programs' "Additional Communication Requirement" row is tracked too: one of WRDS 150, ENGL 110 or 111, SCIE 300, CHEM 300 or ENVR 200.
 - **On the map.** The program's courses get a stripe down the left edge, on every subject's map: solid for required, striped for one of a few choices. Its colour passed the same colour-blindness check against the three highlight colours, and the pattern means it never relies on colour alone.
 - **Remembered.** The picked program is saved in localStorage next to your courses.
@@ -282,7 +324,7 @@ npm test
 npm run dev
 ```
 
-`npm run build` writes the static site to `web/out/`. There are 230 tests (Vitest) for the graph, layout, highlighting, course details, statuses, the checklist, saving, path logic, grades, links, programs, subjects and moving the view, including checks against the real course data for all 27 subjects. GitHub Actions runs `pytest` and the website's tests, lint and build on every push, and [Vercel](https://vercel.com) builds and publishes the site from `main`.
+`npm run build` writes the static site to `web/out/`. There are 241 tests (Vitest) for the graph, layout, highlighting, course details, statuses, the checklist, saving, path logic, grades, links, programs, subjects and moving the view, including checks against the real course data for all 39 subjects. GitHub Actions runs `pytest` and the website's tests, lint and build on every push, and [Vercel](https://vercel.com) builds and publishes the site from `main`.
 
 ## Feedback
 
