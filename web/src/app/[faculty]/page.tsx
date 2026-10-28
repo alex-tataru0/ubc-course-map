@@ -4,6 +4,7 @@ import FacultyView from "@/components/FacultyView";
 import { loadCourses, loadGrades, loadPrograms } from "@/lib/data";
 import { gradesFor } from "@/lib/grades";
 import { undergradOnly } from "@/lib/graph";
+import { readSentences } from "@/lib/progress";
 import { withCommunicationCourses } from "@/lib/science";
 import { subjectMap } from "@/lib/subjectMap";
 import { FACULTIES, pendingSubjectScript, SCIENCE } from "@/lib/subjects";
@@ -61,8 +62,12 @@ export default async function FacultyPage({ params }: Props) {
   // cross subjects (CPSC 340 needs MATH 221) and faculties (ELEC 201 needs MATH 101, CPSC 221
   // can follow CPEN 221). Only this faculty's subjects get maps.
   const others = FACULTIES.filter((f) => f.slug !== faculty.slug);
-  const otherFiles = others.flatMap((f) => f.subjects.map((s) => loadCourses(s.code)));
-  const details = [...files, ...otherFiles].flatMap((file) => undergradOnly(file.courses));
+  // Their descriptions are never shown on this page (their courses link to their own page), so
+  // they keep only the sentences the site reads, which makes the page much smaller.
+  const otherCourses = others
+    .flatMap((f) => f.subjects.flatMap((s) => undergradOnly(loadCourses(s.code).courses)))
+    .map((c) => ({ ...c, description: readSentences(c.description) }));
+  const details = [...files.flatMap((file) => undergradOnly(file.courses)), ...otherCourses];
   // Other faculties' courses that this faculty's students usually can't take, which paths
   // only use when there's no other way (engineering courses, on the Science page).
   const closed = others

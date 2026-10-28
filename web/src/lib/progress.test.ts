@@ -1,10 +1,13 @@
-import { readFileSync } from "node:fs";
+import { readdirSync, readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
+import { highSchoolExclusions } from "./facts";
 import { undergradOnly } from "./graph";
 import {
   countStatuses,
   courseProgress,
   exclusionsOf,
+  notForStudentsWith,
+  readSentences,
   requirementStatus,
   restrictionOf,
   toCheck,
@@ -174,6 +177,12 @@ describe("restrictionOf and exclusionsOf", () => {
     const description = "Machine learning. Prerequisite: CPEN 221. Credit cannot be obtained for both CPEN 355 and CPSC 340.";
     expect(exclusionsOf({ code: "CPEN 355", description })).toEqual(["CPSC 340"]);
   });
+
+  it("ends a sentence with no full stop at the requisites", () => {
+    // ECON 318: "… Credit will be granted for only one of ECON 318 or PHIL 362 Prerequisite: One of
+    // ECON 101, …". ECON 101 is needed first, it doesn't rule ECON 318 out.
+    expect(exclusionsOf(read("econ").courses.find((c) => c.code === "ECON 318")!)).toEqual(["PHIL 362"]);
+  });
 });
 
 describe("courseProgress", () => {
@@ -291,6 +300,35 @@ describe("courseProgress", () => {
       "76% or higher in CPSC 313",
       "76% or higher in CPSC 317",
     ]);
+  });
+});
+
+describe("readSentences", () => {
+  // Every undergraduate course in the data, in every subject.
+  const all = readdirSync(new URL("../../../data/courses/", import.meta.url)).flatMap((file) =>
+    undergradOnly(read(file.replace(".json", "")).courses),
+  );
+
+  it("keeps everything the site reads from a description, for every course", () => {
+    for (const course of all) {
+      const short = { ...course, description: readSentences(course.description) };
+      expect(restrictionOf(short.description), course.code).toBe(restrictionOf(course.description));
+      expect(exclusionsOf(short), course.code).toEqual(exclusionsOf(course));
+      expect(notForStudentsWith(short), course.code).toEqual(notForStudentsWith(course));
+      expect(highSchoolExclusions(short.description), course.code).toEqual(highSchoolExclusions(course.description));
+      const applies = (text: string) => /\bapplication process\b/i.test(text);
+      expect(applies(short.description), course.code).toBe(applies(course.description));
+    }
+  });
+
+  it("leaves out the rest", () => {
+    const full = all.reduce((sum, c) => sum + c.description.length, 0);
+    const short = all.reduce((sum, c) => sum + readSentences(c.description).length, 0);
+    expect(short / full).toBeLessThan(0.25);
+    expect(readSentences(find("CPSC 110").description)).toBe("");
+    expect(readSentences(find("CPSC 100").description)).toBe(
+      "Not for students with existing credit for or exemption from CPSC 107, CPSC 110 or APSC 160.",
+    );
   });
 });
 

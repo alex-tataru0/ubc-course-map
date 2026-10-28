@@ -2,7 +2,7 @@ import type { ReqNode } from "./types";
 
 // The labels that start the requisite part of a description, as in pipeline/requisites.py.
 // "Recommended pre-requisite:" is advice, which the side panel shows on its own line.
-const REQUISITE_LABEL =
+export const REQUISITE_LABEL =
   /\b(Recommended [Pp]re-?requisites?|Pre-?requisites?|Co-?requisites?|Equivalency):/;
 
 // Weekly hours, e.g. "[3-2-0]" is 3 hours of lecture, 2 of lab and 0 of tutorial.

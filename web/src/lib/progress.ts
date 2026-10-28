@@ -1,4 +1,4 @@
-import { splitDescription } from "./details";
+import { REQUISITE_LABEL, splitDescription } from "./details";
 import { factStatus, HIGH_SCHOOL_COURSES, highSchoolExclusions, NO_FACTS } from "./facts";
 import type { Facts } from "./facts";
 import type { Course, ReqNode } from "./types";
@@ -88,6 +88,33 @@ export function restrictionOf(description: string): string | null {
   return sentence ? sentence.trim().replace(/\.+$/, "") : null;
 }
 
+// The words that start what the site reads in a description: who can take the course
+// (RESTRICTION), the courses that rule it out ("Not for students with credit for …", "Credit will
+// be granted for only one of …", "Not open to students with credit for Chemistry 12") and
+// "application process" (path.ts). It's broader than each of them on purpose.
+const READ = new RegExp(
+  "\\b(?:restricted|available|open|enrolment|requires|approv|permission|Handbook|Not for|" +
+    "Credit (?:will|cannot)|application process)",
+  "i",
+);
+
+// A shorter description with only the sentences the site reads, for courses on other faculties'
+// pages: their descriptions are never shown there, and the full texts are most of a page's size.
+// The requisites stay behind their label, so a sentence there still isn't read as who can take
+// the course. A test checks that every course reads the same either way.
+export function readSentences(description: string): string {
+  const keep = (text: string) =>
+    text
+      .split(SENTENCE_END)
+      .filter((sentence) => READ.test(sentence))
+      .join(" ");
+  const label = description.match(REQUISITE_LABEL);
+  if (!label || label.index === undefined) return keep(description);
+  const before = keep(description.slice(0, label.index));
+  const after = keep(description.slice(label.index + label[0].length));
+  return [before, label[0], after].filter(Boolean).join(" ");
+}
+
 // A course code, or a bare number after one in a list, which is in the same subject:
 // "CHEM 233, 235" is CHEM 233 and CHEM 235.
 const CODE_OR_NUMBER = /\b([A-Z]{2,4}) (\d{3})\b|(?:,\s*|\s(?:or|and)\s+|\/)(\d{3})\b/g;
@@ -113,10 +140,16 @@ function codesInSentences(course: Pick<Course, "code" | "description">, sentence
   return [...new Set(codes)].filter((code) => code !== course.code);
 }
 
-const NOT_FOR = /Not for [^.]*\./g;
+// The rest of a sentence: up to its full stop, or to a requisite label when the full stop is
+// missing, as in ECON 318's "Credit will be granted for only one of ECON 318 or PHIL 362
+// Prerequisite: One of ECON 101, …" (ECON 101 doesn't rule ECON 318 out).
+const REST_OF_SENTENCE = `[^.]*?(?=\\.|\\s*${REQUISITE_LABEL.source}|$)`;
+const NOT_FOR = new RegExp(`Not for ${REST_OF_SENTENCE}`, "g");
 // CPEN 355 says it another way: "Credit cannot be obtained for both CPEN 355 and CPSC 340."
-const ONLY_ONE_OF =
-  /Credit (?:will (?:only )?be granted for only one of|cannot be obtained for both) [^.]*\./g;
+const ONLY_ONE_OF = new RegExp(
+  `Credit (?:will (?:only )?be granted for only one of|cannot be obtained for both) ${REST_OF_SENTENCE}`,
+  "g",
+);
 
 // The courses this one is a lesser choice than, from a sentence like
 // "Not for students with credit for, or currently enrolled in, CPSC 210 or CPEN 221."
