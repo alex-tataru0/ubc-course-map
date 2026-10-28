@@ -990,7 +990,7 @@
               },
               "source": "hand",
               "problems": [],
-              "notes": ["The calendar says: \"At least 6 credits from each of two of the following four lists:\""]
+              "notes": ["The calendar says: \"At least 6 credits from each of two of the following four lists:\"", "The lists: Clinical/Health: PSYC 300, 311, 314, 331, 350, 400, 401, 402, 469. Developmental: PSYC 302, 315, 319, 320, 322, 325, 412, 413, 414. Foundations/Psychometrics: PSYC 303, 312, 359. Personality/Social: PSYC 305, 307, 308, 358, 403, 404, 407, 408, 415, 418."]
             },
             {
               "text": "12 more credits of 300- and 400-level PSYC",
@@ -1023,8 +1023,7 @@
             }
           ]
         }
-      ],
-      "notes": ["The lists: Clinical/Health: PSYC 300, 311, 314, 331, 350, 400, 401, 402, 469. Developmental: PSYC 302, 315, 319, 320, 322, 325, 412, 413, 414. Foundations/Psychometrics: PSYC 303, 312, 359. Personality/Social: PSYC 305, 307, 308, 358, 403, 404, 407, 408, 415, 418."]
+      ]
     },
     {
       "id": "soci-major",

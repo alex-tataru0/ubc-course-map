@@ -18,6 +18,7 @@ const read = (file: string) => JSON.parse(readFileSync(new URL(file, import.meta
 const programs: ProgramFile = read("../../../data/programs/cpsc.json");
 const engineering: ProgramFile = read("../../../data/programs/engineering.json");
 const science: ProgramFile = read("../../../data/programs/science.json");
+const arts: ProgramFile = read("../../../data/programs/arts.json");
 const courses: CourseFile = read("../../../data/courses/cpsc.json");
 const creditsFor = creditsLookup(courses.courses);
 const program = (id: string) => [...programs.programs, ...science.programs].find((p) => p.id === id)!;
@@ -133,6 +134,39 @@ describe("credit rows by level", () => {
     // Third and Fourth Years: 10 + 9 + 9 + 32 electives = 60 credits.
     const year = major.years.find((y) => y.title === "Third and Fourth Years")!;
     expect(year.requirements.reduce((sum, r) => sum + (r.credits ?? 0), 0)).toBe(year.credits);
+  });
+});
+
+describe("Arts Majors", () => {
+  const major = (id: string) => arts.programs.find((p) => p.id === id)!;
+
+  it("fill the rest of a requirement after the courses it names", () => {
+    // "12 credits of 100- and 200-level SOCI, including SOCI 217 and 3 credits from SOCI 100, 101 or 102".
+    const soci = major("soci-major");
+    const done = ["SOCI 100", "SOCI 101", "SOCI 217", "SOCI 200"];
+    expect(row(soci, done, "At least 3 credits from SOCI 100")).toMatchObject({ status: "done", counted: ["SOCI 100"] });
+    expect(row(soci, done, "SOCI 217")).toMatchObject({ status: "done" });
+    expect(row(soci, done, "6 more credits of 100- and 200-level SOCI")).toMatchObject({
+      status: "done",
+      counted: ["SOCI 101", "SOCI 200"],
+    });
+  });
+
+  it("leave out the courses a footnote rules out", () => {
+    // "ECON 457 will not count towards 400-level electives"
+    expect(row(major("econ-major"), ["ECON 457"], "ECON Electives numbered 400")).toMatchObject({ counted: [] });
+    expect(row(major("econ-major"), ["ECON 457"], "ECON Electives numbered 300")).toMatchObject({ counted: ["ECON 457"] });
+    // "PSYC 340, 388, 440, or 488 may not be included for the minimum 30 Psychology credits"
+    expect(row(major("psyc-major"), ["PSYC 340", "PSYC 300"], "12 more credits")).toMatchObject({ counted: ["PSYC 300"] });
+    // "Credit for PHIL 400 and PHIL 401 is not permitted toward any specialization in Philosophy"
+    expect(row(major("phil-major"), ["PHIL 400"], "21 more upper-level PHIL")).toMatchObject({ counted: [] });
+  });
+
+  it("are listed one per subject, each its own button", () => {
+    expect(arts.programs.map(programSubject)).toEqual([
+      "ANTH", "ECON", "ENGL", "GEOG", "HIST", "LING", "PHIL", "POLI", "PSYC", "SOCI",
+    ]);
+    expect(arts.programs.every((p) => p.total_credits === 120)).toBe(true);
   });
 });
 

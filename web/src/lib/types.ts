@@ -81,7 +81,7 @@ export interface ProgramRequirement {
   text: string; // the calendar's wording, e.g. "CPSC 310, 313, 320"
   credits: number;
   tree: ProgramNode;
-  source: "rules" | "llm";
+  source: "rules" | "llm" | "hand"; // "hand": written out from the calendar (the Arts Majors)
   problems: string[];
   notes: string[]; // the row's footnotes
   credits_text?: string; // when the calendar gives a choice, e.g. "3 or 5" (credits is the smaller)

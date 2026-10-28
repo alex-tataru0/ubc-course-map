@@ -109,8 +109,7 @@ export const ENGINEERING: Faculty = {
   },
 };
 
-// The first Arts subjects. Arts has no programs on the site yet, so its page has no "Pick a
-// program" button (a program picked on another page still marks its courses). Economics opens
+// The first Arts subjects, with one Major for each (WRDS only has a Minor). Economics opens
 // first: its map has the most prerequisites (ECON 101 and 102 lead to most of it).
 export const ARTS: Faculty = {
   slug: "arts",
@@ -119,9 +118,12 @@ export const ARTS: Faculty = {
   about: "Faculty of Arts",
   openToAll: true,
   degree: "Bachelor of Arts",
-  programFiles: [],
+  programFiles: ["arts"],
   programsByMajor: false,
-  programsNote: "",
+  programsNote:
+    "One Major for each subject, for students starting now, written out from the calendar. Not " +
+    "here yet: Honours, Combined Majors, the other Majors (such as English's Language emphases), " +
+    "and the Faculty of Arts requirements (writing, breadth and Arts credits).",
   subjects: [
     { code: "ANTH", name: "Anthropology" },
     { code: "ECON", name: "Economics" },

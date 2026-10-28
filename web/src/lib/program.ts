@@ -203,10 +203,11 @@ function match(
 }
 
 // Courses a footnote rules out, e.g. "Credits gained from … Seminars (CPSC 490) cannot be used
-// to fulfill this requirement."
+// to fulfill this requirement.", "ECON 457 will not count towards 400-level electives", "Credit
+// for PHIL 400 and PHIL 401 is not permitted …", "PSYC 340, 388, 440, or 488 may not be included …".
 function excludedCourses(notes: string[]): Set<string> {
   const codes = notes
-    .filter((note) => /can ?not be used/i.test(note))
+    .filter((note) => /can ?not be used|will not count|is not permitted|may not be included/i.test(note))
     .flatMap((note) => note.match(/[A-Z]{2,4} \d{3}/g) ?? []);
   return new Set(codes);
 }

@@ -311,22 +311,22 @@ PROGRAMS = [
                      {"credits_from": codes("PSYC", "301, 304, 306, 324, 344, 361, 363, 460, 461, 462, 466, 472, "
                                                     "309, 321, 333, 335, 336, 365, 367, 368, 409, 421, 463")},
                      "At least 6 credits from the following two lists:"),
-            reworded("6 credits from each of two of: Clinical/Health, Developmental, Foundations/Psychometrics, "
-                     "Personality/Social", 12,
-                     {"other": "6 credits from each of two of the lists Clinical/Health, Developmental, "
-                               "Foundations/Psychometrics and Personality/Social"},
-                     "At least 6 credits from each of two of the following four lists:"),
+            with_note(reworded("6 credits from each of two of: Clinical/Health, Developmental, "
+                               "Foundations/Psychometrics, Personality/Social", 12,
+                               {"other": "6 credits from each of two of the lists Clinical/Health, "
+                                         "Developmental, Foundations/Psychometrics and Personality/Social"},
+                               "At least 6 credits from each of two of the following four lists:"),
+                      "The lists: Clinical/Health: PSYC 300, 311, 314, 331, 350, 400, 401, 402, 469. "
+                      "Developmental: PSYC 302, 315, 319, 320, 322, 325, 412, 413, 414. "
+                      "Foundations/Psychometrics: PSYC 303, 312, 359. Personality/Social: PSYC 305, 307, 308, "
+                      "358, 403, 404, 407, 408, 415, 418."),
             with_note(rest("12 more credits of 300- and 400-level PSYC", 12, level(["PSYC"], 300),
                            "Students must take a minimum of 30 credits in 300- and/or 400-level courses "
                            "including:"),
                       "PSYC 340, 388, 440, or 488 may not be included for the minimum 30 Psychology "
                       "credits required for the Major Program."),
         ]),
-    ], notes=(
-        "The lists: Clinical/Health: PSYC 300, 311, 314, 331, 350, 400, 401, 402, 469. Developmental: PSYC "
-        "302, 315, 319, 320, 322, 325, 412, 413, 414. Foundations/Psychometrics: PSYC 303, 312, 359. "
-        "Personality/Social: PSYC 305, 307, 308, 358, 403, 404, 407, 408, 415, 418.",
-    )),
+    ]),
     major("soci-major", "Sociology Major", "sociology", "Major in Sociology", [
         ("Lower-level Requirements", [
             row("At least 3 credits from SOCI 100, 101, or 102", 3,
