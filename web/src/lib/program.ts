@@ -6,13 +6,13 @@ import type { Course, Program, ProgramNode, ProgramRequirement } from "./types";
 // The main rule: a course counts toward one requirement only. If you took CPSC 304 and 317,
 // "One of CPSC 304, 317, 344" gets one of them and "One more of …" gets the other, and a course
 // used for a named requirement doesn't also count toward "9 credits of CPSC 300 or higher".
+// Electives come last: any finished course no other row used counts toward them.
 
 export type RowStatus =
   | "done"
   | "partial" // some of it is done
   | "todo"
-  | "check" // not about courses, e.g. "Additional Communication Requirement"
-  | "electives"; // any courses; we don't track these
+  | "check"; // not about courses, e.g. "Additional Communication Requirement"
 
 export interface RowProgress {
   status: RowStatus;
@@ -50,13 +50,15 @@ export function treeCourses(node: ProgramNode): string[] {
 // rows (fewest choices first, so "One more of" a long list comes after "One of" a short one),
 // then "pick N", then credits from a list ("9 credits from MATH 300, 301, …"), then credit
 // rows by level (400-level before 300-level, so a 400-level course fills the 400 row before
-// it's used for the 300 row), then rows we don't track.
+// it's used for the 300 row), then electives, which take whatever is left (earlier years
+// first: the calendar lets elective credits move between years), then rows we don't track.
 function rank(node: ProgramNode): number {
   if (typeof node === "string" || "all_of" in node) return 0;
   if ("one_of" in node) return 1 + node.one_of.length / 1000;
   if ("pick" in node) return 2;
   if ("credits_from" in node) return 2.5;
   if ("credits_of" in node) return 3 - node.credits_of.min_level / 10000;
+  if ("electives" in node) return 3.5;
   return 4;
 }
 
@@ -97,8 +99,9 @@ function rowProgress(
     return { status, counted: codes, credits, check };
   };
 
-  if (typeof tree === "object" && ("credits_of" in tree || "credits_from" in tree)) {
-    // The row's credits from any courses that fit: by subject and level, or from a list.
+  if (typeof tree === "object" && ("credits_of" in tree || "credits_from" in tree || "electives" in tree)) {
+    // The row's credits from any courses that fit: by subject and level, from a list, or for
+    // electives, any course (by now, only the ones no other row used).
     const excluded = excludedCourses(requirement.notes);
     const fits =
       "credits_of" in tree
@@ -106,7 +109,9 @@ function rowProgress(
             const { subjects, min_level, max_level = 999 } = tree.credits_of;
             return subjects.includes(subject(code)) && level(code) >= min_level && level(code) <= max_level;
           }
-        : (code: string) => tree.credits_from.includes(code);
+        : "credits_from" in tree
+          ? (code: string) => tree.credits_from.includes(code)
+          : () => true;
     const taken: string[] = [];
     let credits = 0;
     for (const code of [...done].filter((c) => free(c) && fits(c) && !excluded.has(c)).sort()) {
@@ -115,9 +120,6 @@ function rowProgress(
       credits += creditsFor(code);
     }
     return claim(taken, credits >= requirement.credits ? "done" : credits > 0 ? "partial" : "todo");
-  }
-  if (typeof tree === "object" && "electives" in tree) {
-    return { status: "electives", counted: [], credits: 0, check: null };
   }
   if (typeof tree === "object" && "other" in tree) {
     return { status: "check", counted: [], credits: 0, check: tree.other };
@@ -242,14 +244,14 @@ function requiredCourses(node: ProgramNode): string[] {
   return [];
 }
 
-// A one-line summary: rows done out of rows we can track (not electives or "check" rows),
-// and the credits of your other finished courses, which can count as electives.
+// A one-line summary: rows done out of rows we can track (not "check" rows), and the credits
+// of your finished courses that no row used, not even the electives.
 export function programSummary(
   progress: RowProgress[][],
   done: ReadonlySet<string>,
   creditsFor: CreditsFor,
 ): { rowsDone: number; rows: number; spareCredits: number } {
-  const rows = progress.flat().filter((row) => row.status !== "electives" && row.status !== "check");
+  const rows = progress.flat().filter((row) => row.status !== "check");
   const counted = new Set(progress.flat().flatMap((row) => row.counted));
   const spare = [...done].filter((code) => !counted.has(code));
   return {

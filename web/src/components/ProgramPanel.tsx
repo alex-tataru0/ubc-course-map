@@ -355,7 +355,7 @@ function Requirements({
         </p>
         {spareCredits > 0 && (
           <p className="text-xs text-ink-muted">
-            Your other finished courses add up to {spareCredits} credits, which can count as electives.
+            Your other finished courses add up to {spareCredits} more credits than the program needs.
           </p>
         )}
       </div>
@@ -481,11 +481,10 @@ const STATUS_WORDS: Record<RowStatus, string> = {
   partial: "Partly done",
   todo: "To do",
   check: "Check yourself",
-  electives: "Electives",
 };
 
 // A small square per row: filled with a tick when done, half filled when partly done,
-// empty to do, dashed with a "?" to check yourself, and a dash for electives.
+// empty to do, and dashed with a "?" to check yourself.
 function RowIcon({ status }: { status: RowStatus }) {
   const base =
     "inline-flex h-4 w-4 shrink-0 items-center justify-center rounded-[4px] text-[10px] font-bold leading-none";
@@ -500,14 +499,11 @@ function RowIcon({ status }: { status: RowStatus }) {
     );
   }
   if (status === "todo") return <span className={`${base} border-2 border-ink-muted/50`} aria-hidden />;
-  if (status === "check") {
-    return (
-      <span className={`${base} border-2 border-dashed border-ink-muted text-ink-muted`} aria-hidden>
-        ?
-      </span>
-    );
-  }
-  return <span className={`${base} text-ink-muted`} aria-hidden>–</span>;
+  return (
+    <span className={`${base} border-2 border-dashed border-ink-muted text-ink-muted`} aria-hidden>
+      ?
+    </span>
+  );
 }
 
 // One requirement: its status, the calendar's wording and credits, then what's useful next:
@@ -523,8 +519,9 @@ function Row({
   const noteId = useId();
   const { tree, notes } = requirement;
   // Credit rows show credits so far ("3 of 9 cr"). "CPSC or AI courses numbered 300 or higher"
-  // has no list of courses; "9 credits from MATH 300, 301, …" does.
-  const isCredits = typeof tree === "object" && ("credits_of" in tree || "credits_from" in tree);
+  // and electives have no list of courses; "9 credits from MATH 300, 301, …" does.
+  const isElectives = typeof tree === "object" && "electives" in tree;
+  const isCredits = typeof tree === "object" && ("credits_of" in tree || "credits_from" in tree || isElectives);
   const options = [...new Set(treeCourses(tree))];
 
   const meta: string[] = [];
@@ -532,7 +529,7 @@ function Row({
   const hadChoice = isCredits || counted.length < options.length;
   if (status === "done" && hadChoice && counted.length > 0) meta.push(`With ${counted.join(", ")}`);
   if (status === "check") meta.push("Check this yourself");
-  if (status === "electives") meta.push("Any courses");
+  if (isElectives && status !== "done") meta.push("Any courses");
   // "Additional Communication Requirement" would only repeat itself.
   if (progress.check && progress.check !== requirement.text) meta.push(`Check: ${progress.check}`);
 
@@ -546,7 +543,7 @@ function Row({
         <span className="mt-0.5 flex">
           <RowIcon status={status} />
         </span>
-        <span className={`min-w-0 flex-1 ${status === "electives" ? "text-ink-muted" : ""}`}>
+        <span className="min-w-0 flex-1">
           <span className="sr-only">{STATUS_WORDS[status]}: </span>
           {requirement.text}
         </span>

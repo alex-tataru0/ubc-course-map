@@ -47,7 +47,6 @@ describe("programProgress", () => {
   it("shows nothing done when no courses are marked", () => {
     const progress = programProgress(major, new Set(), creditsFor).flat();
     expect(progress.filter((r) => r.status === "done")).toEqual([]);
-    expect(progress.map((r) => r.status)).toContain("electives");
     expect(progress.map((r) => r.status)).toContain("check"); // the communication requirement
   });
 
@@ -99,6 +98,44 @@ describe("programProgress", () => {
   });
 });
 
+describe("electives", () => {
+  const major = program("cpsc-major");
+  const electives = (done: string[]) =>
+    programProgress(major, new Set(done), creditsFor)
+      .flatMap((year, y) => year.map((progress, r) => ({ requirement: major.years[y].requirements[r], progress })))
+      .filter(({ requirement }) => typeof requirement.tree === "object" && "electives" in requirement.tree)
+      .map(({ progress }) => progress);
+
+  it("fill with finished courses no other row used, earlier years first", () => {
+    // CPSC 110 is a named requirement, so it isn't an elective.
+    const [first, second] = electives(["ECON 101", "ECON 102", "PSYC 101", "CPSC 110"]);
+    expect(first).toMatchObject({ status: "partial", counted: ["ECON 101", "ECON 102", "PSYC 101"], credits: 9 });
+    expect(second).toMatchObject({ status: "todo", counted: [] });
+    // First year's 10 credits are full after four courses, so the fifth goes to second year.
+    const [full, next, last] = electives(["ECON 101", "ECON 102", "PSYC 101", "PSYC 102", "SOCI 100"]);
+    expect(full).toMatchObject({ status: "done", credits: 12 });
+    expect(next).toMatchObject({ status: "partial", counted: ["SOCI 100"] });
+    expect(last).toMatchObject({ status: "todo", counted: [] });
+  });
+
+  it("count toward the program's total like any other row", () => {
+    const done = new Set(["ECON 101"]);
+    const summary = programSummary(programProgress(major, done, creditsFor), done, creditsFor);
+    expect(summary.rows).toBe(16);
+  });
+});
+
+describe("credit rows by level", () => {
+  it("count a 400-level course once, in the 400 row (the calendar's credits add up only that way)", () => {
+    const major = program("cpsc-major");
+    expect(row(major, ["CPSC 416"], "CPSC or AI courses numbered 400")).toMatchObject({ counted: ["CPSC 416"] });
+    expect(row(major, ["CPSC 416"], "CPSC or AI courses numbered 300")).toMatchObject({ counted: [] });
+    // Third and Fourth Years: 10 + 9 + 9 + 32 electives = 60 credits.
+    const year = major.years.find((y) => y.title === "Third and Fourth Years")!;
+    expect(year.requirements.reduce((sum, r) => sum + (r.credits ?? 0), 0)).toBe(year.credits);
+  });
+});
+
 describe("programCourses", () => {
   it("marks named courses as required and options as choices", () => {
     const kinds = programCourses(program("cpsc-major"));
@@ -115,8 +152,8 @@ describe("programSummary", () => {
     const done = new Set(["CPSC 110", "CPSC 121", "CPSC 100"]);
     const summary = programSummary(programProgress(major, done, creditsFor), done, creditsFor);
     expect(summary.rowsDone).toBe(2);
-    expect(summary.rows).toBe(13); // 17 rows minus 3 electives rows and the communication row
-    expect(summary.spareCredits).toBe(3); // CPSC 100 isn't part of the major
+    expect(summary.rows).toBe(16); // 17 rows minus the communication row
+    expect(summary.spareCredits).toBe(0); // CPSC 100 isn't part of the major, so it's an elective
   });
 });
 
