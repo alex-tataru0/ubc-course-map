@@ -107,7 +107,9 @@
             }
           ]
         }
-      ]
+      ],
+      "research": "Anthropology",
+      "field": ["ANTH", "ARCL"]
     },
     {
       "id": "econ-major",
@@ -238,7 +240,9 @@
           ]
         }
       ],
-      "notes": ["Economics courses that (i) have been granted unassigned first-year transfer credit (e.g., ECON 1st), or (ii) have been taken on a Credit/D/Fail basis, may not be included in the 42 credits required for a program in Economics."]
+      "notes": ["Economics courses that (i) have been granted unassigned first-year transfer credit (e.g., ECON 1st), or (ii) have been taken on a Credit/D/Fail basis, may not be included in the 42 credits required for a program in Economics."],
+      "research": "Economics",
+      "field": ["ECON"]
     },
     {
       "id": "engl-literature-major",
@@ -394,7 +398,9 @@
             }
           ]
         }
-      ]
+      ],
+      "research": "English, Emphasis Literature",
+      "field": ["ENGL"]
     },
     {
       "id": "geog-human-major",
@@ -515,7 +521,9 @@
           ]
         }
       ],
-      "notes": ["No course can be counted twice to meet credit requirements in Cultures and Places, Cities and Globalization, Nature and Society, or within the A and B categories of the Research and Methods theme."]
+      "notes": ["No course can be counted twice to meet credit requirements in Cultures and Places, Cities and Globalization, Nature and Society, or within the A and B categories of the Research and Methods theme."],
+      "research": "Geography, Human",
+      "field": ["GEOG", "GEOS"]
     },
     {
       "id": "hist-major",
@@ -614,7 +622,9 @@
           ]
         }
       ],
-      "notes": ["Subject to the approval of the Department, a maximum of 6 credits from other departments may be accepted as credits toward a Major in History."]
+      "notes": ["Subject to the approval of the Department, a maximum of 6 credits from other departments may be accepted as credits toward a Major in History."],
+      "research": "History",
+      "field": ["HIST"]
     },
     {
       "id": "ling-major",
@@ -703,7 +713,9 @@
           ]
         }
       ],
-      "notes": ["100-level LING courses do not count toward Honours, Major or Minor programs in Linguistics."]
+      "notes": ["100-level LING courses do not count toward Honours, Major or Minor programs in Linguistics."],
+      "research": "Linguistics",
+      "field": ["LING"]
     },
     {
       "id": "phil-major",
@@ -823,7 +835,9 @@
           ]
         }
       ],
-      "notes": ["The rows assume the Area Requirements' PHIL 220/222, 230 and 240 are taken at the 200 level. Each of PHIL 330 or 340 used for an area also counts toward the 30 upper-level credits, so you'd need fewer than shown."]
+      "notes": ["The rows assume the Area Requirements' PHIL 220/222, 230 and 240 are taken at the 200 level. Each of PHIL 330 or 340 used for an area also counts toward the 30 upper-level credits, so you'd need fewer than shown."],
+      "research": "Philosophy",
+      "field": ["PHIL"]
     },
     {
       "id": "poli-major",
@@ -928,7 +942,9 @@
             }
           ]
         }
-      ]
+      ],
+      "research": "Political Science",
+      "field": ["POLI"]
     },
     {
       "id": "psyc-major",
@@ -1023,7 +1039,9 @@
             }
           ]
         }
-      ]
+      ],
+      "research": "Psychology",
+      "field": ["PSYC"]
     },
     {
       "id": "soci-major",
@@ -1151,7 +1169,9 @@
             }
           ]
         }
-      ]
+      ],
+      "research": "Sociology",
+      "field": ["SOCI"]
     }
   ]
 }

@@ -1,0 +1,273 @@
+{
+  "source": "https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-arts/bachelor-arts/degree-requirements-students-who-enter-program-202425-or-later",
+  "writing": {
+    "text": "Arts One, ASTU 100, ASTU 101 or CAP 100 (Coordinated Arts Program), ENGL 100, WRDS 150 or WRDS 151, or WRDS 350",
+    "courses": ["ASTU 100", "ASTU 101", "CAP 100", "ENGL 100", "WRDS 150", "WRDS 151", "WRDS 350"]
+  },
+  "research": [
+    {
+      "major": "Ancient Mediterranean and Near Eastern Studies",
+      "text": "AMNE 369, 420, 440, 441, 463, 464, 470, 471, 472, 480, 499",
+      "courses": ["AMNE 369", "AMNE 420", "AMNE 440", "AMNE 441", "AMNE 463", "AMNE 464", "AMNE 470", "AMNE 471", "AMNE 472", "AMNE 480", "AMNE 499"]
+    },
+    {
+      "major": "Anthropology",
+      "text": "ANTH 317, 407, 408, 417, 418, 428, 431, 449, 452, 478; ARCL 306, 405, 406, 419",
+      "courses": ["ANTH 317", "ANTH 407", "ANTH 408", "ANTH 417", "ANTH 418", "ANTH 428", "ANTH 431", "ANTH 449", "ANTH 452", "ANTH 478", "ARCL 306", "ARCL 405", "ARCL 406", "ARCL 419"]
+    },
+    {
+      "major": "Art History",
+      "text": "ARTH 410, 432, 436, 437, 439, 440, 442, 443, 445, 448, 450, 455, 458, 459, 464, 471, 476, 479, 480",
+      "courses": ["ARTH 410", "ARTH 432", "ARTH 436", "ARTH 437", "ARTH 439", "ARTH 440", "ARTH 442", "ARTH 443", "ARTH 445", "ARTH 448", "ARTH 450", "ARTH 455", "ARTH 458", "ARTH 459", "ARTH 464", "ARTH 471", "ARTH 476", "ARTH 479", "ARTH 480"]
+    },
+    {
+      "major": "Asian Area Studies",
+      "text": "ASIA 402, 407, 408, 427, 440, 442, 445, 451, 453, 468, 477, 491, 495, 498, 499, CHIN 482, JAPN 408, 453, 462, KORN 410",
+      "courses": ["ASIA 402", "ASIA 407", "ASIA 408", "ASIA 427", "ASIA 440", "ASIA 442", "ASIA 445", "ASIA 451", "ASIA 453", "ASIA 468", "ASIA 477", "ASIA 491", "ASIA 495", "ASIA 498", "ASIA 499", "CHIN 482", "JAPN 408", "JAPN 453", "JAPN 462", "KORN 410"]
+    },
+    {
+      "major": "Asian Language and Culture",
+      "text": "ASIA 402, 407, 408, 427, 440, 442, 445, 451, 453, 468, 477, 491, 495, 498, 499, CHIN 482, JAPN 408, 453, 462, KORN 410",
+      "courses": ["ASIA 402", "ASIA 407", "ASIA 408", "ASIA 427", "ASIA 440", "ASIA 442", "ASIA 445", "ASIA 451", "ASIA 453", "ASIA 468", "ASIA 477", "ASIA 491", "ASIA 495", "ASIA 498", "ASIA 499", "CHIN 482", "JAPN 408", "JAPN 453", "JAPN 462", "KORN 410"]
+    },
+    {
+      "major": "Canadian Studies",
+      "text": "CDST 450",
+      "courses": ["CDST 450"]
+    },
+    {
+      "major": "Cinema Studies",
+      "text": "CINE 445, 449",
+      "courses": ["CINE 445", "CINE 449"]
+    },
+    {
+      "major": "Cognitive Systems",
+      "text": "COGS 402",
+      "courses": ["COGS 402"]
+    },
+    {
+      "major": "Computer Science",
+      "text": "CPSC 319, 410, 444, 491; also CPSC 448, 449 (with the approval of the Department of Computer Science)",
+      "courses": ["CPSC 319", "CPSC 410", "CPSC 444", "CPSC 491", "CPSC 448", "CPSC 449"]
+    },
+    {
+      "major": "Critical Studies in Sexuality",
+      "text": "CSIS 450, GRSJ 422, 480",
+      "courses": ["CSIS 450", "GRSJ 422", "GRSJ 480"]
+    },
+    {
+      "major": "Economics",
+      "text": "ECON 390, 490, 495, 499",
+      "courses": ["ECON 390", "ECON 490", "ECON 495", "ECON 499"]
+    },
+    {
+      "major": "English, Emphasis Literature",
+      "text": "ENGL 490, 491, 492, 496, 499",
+      "courses": ["ENGL 490", "ENGL 491", "ENGL 492", "ENGL 496", "ENGL 499"]
+    },
+    {
+      "major": "English, Emphasis Language",
+      "text": "ENGL 489",
+      "courses": ["ENGL 489"]
+    },
+    {
+      "major": "First Nations and Endangered Languages",
+      "text": "FNEL 389, 448, 481, 482",
+      "courses": ["FNEL 389", "FNEL 448", "FNEL 481", "FNEL 482"]
+    },
+    {
+      "major": "First Nations and Indigenous Studies",
+      "text": "FNIS 400",
+      "courses": ["FNIS 400"]
+    },
+    {
+      "major": "First Nations Languages and Linguistics",
+      "text": "LING 431, 432, 447",
+      "courses": ["LING 431", "LING 432", "LING 447"]
+    },
+    {
+      "major": "French",
+      "text": "FREN 495, 496",
+      "courses": ["FREN 495", "FREN 496"]
+    },
+    {
+      "major": "Gender, Race, Sexuality & Social Justice Studies",
+      "text": "GRSJ 401, 422, 480",
+      "courses": ["GRSJ 401", "GRSJ 422", "GRSJ 480"]
+    },
+    {
+      "major": "Geography, Environment and Sustainability",
+      "text": "GEOG 312, 315, 345, 371, 379, 395, 410, 412, 419, 424, 429, 446, 447, 448, 450, 453, 495, 498 GEOS 309, 405, 406, 407, 472, 479, URST 400",
+      "courses": ["GEOG 312", "GEOG 315", "GEOG 345", "GEOG 371", "GEOG 379", "GEOG 395", "GEOG 410", "GEOG 412", "GEOG 419", "GEOG 424", "GEOG 429", "GEOG 446", "GEOG 447", "GEOG 448", "GEOG 450", "GEOG 453", "GEOG 495", "GEOG 498", "GEOS 309", "GEOS 405", "GEOS 406", "GEOS 407", "GEOS 472", "GEOS 479", "URST 400"]
+    },
+    {
+      "major": "Geography, Human",
+      "text": "GEOG 312, 315, 345, 371, 379, 395, 410, 412, 419, 424, 429, 446, 447, 448, 450, 453, 495, 498 GEOS 309, 405, 406, 407, 472, 479, URST 400",
+      "courses": ["GEOG 312", "GEOG 315", "GEOG 345", "GEOG 371", "GEOG 379", "GEOG 395", "GEOG 410", "GEOG 412", "GEOG 419", "GEOG 424", "GEOG 429", "GEOG 446", "GEOG 447", "GEOG 448", "GEOG 450", "GEOG 453", "GEOG 495", "GEOG 498", "GEOS 309", "GEOS 405", "GEOS 406", "GEOS 407", "GEOS 472", "GEOS 479", "URST 400"]
+    },
+    {
+      "major": "German",
+      "text": "GERM 403, 404, 406, 408, 420, 439, 449",
+      "courses": ["GERM 403", "GERM 404", "GERM 406", "GERM 408", "GERM 420", "GERM 439", "GERM 449"]
+    },
+    {
+      "major": "History",
+      "text": "HIST 403, 449, 466, 467, 468, 479, 490",
+      "courses": ["HIST 403", "HIST 449", "HIST 466", "HIST 467", "HIST 468", "HIST 479", "HIST 490"]
+    },
+    {
+      "major": "History and Philosophy of Science",
+      "text": "PHIL 491, HIST 490",
+      "courses": ["PHIL 491", "HIST 490"]
+    },
+    {
+      "major": "History with International Relations",
+      "text": "HIST 403, 449, 466, 467, 468",
+      "courses": ["HIST 403", "HIST 449", "HIST 466", "HIST 467", "HIST 468"]
+    },
+    {
+      "major": "Interdisciplinary Studies",
+      "text": "Any research-intensive approved course for which the student qualifies to register, normally in the student’s primary-category discipline",
+      "courses": []
+    },
+    {
+      "major": "International Relations",
+      "text": "HIST 403, ECON 457, POLI 464, or other Faculty Approved Research-Intensive courses approved for IR",
+      "courses": ["HIST 403", "ECON 457", "POLI 464"]
+    },
+    {
+      "major": "Italian/Italian Studies",
+      "text": "ITAL 495, ITST 495",
+      "courses": ["ITAL 495", "ITST 495"]
+    },
+    {
+      "major": "Latin American Studies",
+      "text": "LAST 303",
+      "courses": ["LAST 303"]
+    },
+    {
+      "major": "Linguistics",
+      "text": "LING 431, 432, 447, 449",
+      "courses": ["LING 431", "LING 432", "LING 447", "LING 449"]
+    },
+    {
+      "major": "Mathematics",
+      "text": "MATH 441, 444, 448, 461, 462",
+      "courses": ["MATH 441", "MATH 444", "MATH 448", "MATH 461", "MATH 462"]
+    },
+    {
+      "major": "Medieval Studies",
+      "text": "MDVL 440, 449, 490",
+      "courses": ["MDVL 440", "MDVL 449", "MDVL 490"]
+    },
+    {
+      "major": "Modern European Studies",
+      "text": "CENS 404, GERM 403, RUSS 410",
+      "courses": ["CENS 404", "GERM 403", "RUSS 410"]
+    },
+    {
+      "major": "Music",
+      "text": "MUSC 207, 320, 402, 403, 409, 412, 413, 449, 469",
+      "courses": ["MUSC 207", "MUSC 320", "MUSC 402", "MUSC 403", "MUSC 409", "MUSC 412", "MUSC 413", "MUSC 449", "MUSC 469"]
+    },
+    {
+      "major": "Philosophy",
+      "text": "PHIL 418, 426, 431, 432, 440, 450, 452, 455, 469, 490, 491",
+      "courses": ["PHIL 418", "PHIL 426", "PHIL 431", "PHIL 432", "PHIL 440", "PHIL 450", "PHIL 452", "PHIL 455", "PHIL 469", "PHIL 490", "PHIL 491"]
+    },
+    {
+      "major": "Political Science",
+      "text": "All POLI courses at the 400-level",
+      "courses": ["POLI 401", "POLI 402", "POLI 403", "POLI 404", "POLI 405", "POLI 406", "POLI 420", "POLI 422", "POLI 423", "POLI 424", "POLI 426", "POLI 427", "POLI 428", "POLI 429", "POLI 439", "POLI 440", "POLI 441", "POLI 442", "POLI 443", "POLI 445", "POLI 446", "POLI 448", "POLI 449", "POLI 450", "POLI 460", "POLI 461", "POLI 462", "POLI 463", "POLI 464", "POLI 466", "POLI 482", "POLI 492"]
+    },
+    {
+      "major": "Psychology",
+      "text": "PSYC 217",
+      "courses": ["PSYC 217"]
+    },
+    {
+      "major": "Religion, Study of",
+      "text": "RGST 400",
+      "courses": ["RGST 400"]
+    },
+    {
+      "major": "Romance Studies",
+      "text": "RMST 495, 499",
+      "courses": ["RMST 495", "RMST 499"]
+    },
+    {
+      "major": "Russian",
+      "text": "RUSS 410",
+      "courses": ["RUSS 410"]
+    },
+    {
+      "major": "Slavic Studies",
+      "text": "SLAV 421",
+      "courses": ["SLAV 421"]
+    },
+    {
+      "major": "Sociology",
+      "text": "SOCI 380, 381, 382, 383, 449",
+      "courses": ["SOCI 380", "SOCI 381", "SOCI 382", "SOCI 383", "SOCI 449"]
+    },
+    {
+      "major": "Spanish",
+      "text": "SPAN 411, 495",
+      "courses": ["SPAN 411", "SPAN 495"]
+    },
+    {
+      "major": "Speech Sciences",
+      "text": "LING 431, 432, 447, 449",
+      "courses": ["LING 431", "LING 432", "LING 447", "LING 449"]
+    },
+    {
+      "major": "Theatre",
+      "text": "THTR 417, 439, 445, 449",
+      "courses": ["THTR 417", "THTR 439", "THTR 445", "THTR 449"]
+    },
+    {
+      "major": "United States Studies",
+      "text": "HIST 467 or other Research-Intensive courses, including POLI courses at the 400-level, with the approval of the USST Chair",
+      "courses": ["HIST 467", "POLI 401", "POLI 402", "POLI 403", "POLI 404", "POLI 405", "POLI 406", "POLI 420", "POLI 422", "POLI 423", "POLI 424", "POLI 426", "POLI 427", "POLI 428", "POLI 429", "POLI 439", "POLI 440", "POLI 441", "POLI 442", "POLI 443", "POLI 445", "POLI 446", "POLI 448", "POLI 449", "POLI 450", "POLI 460", "POLI 461", "POLI 462", "POLI 463", "POLI 464", "POLI 466", "POLI 482", "POLI 492"]
+    },
+    {
+      "major": "Visual Arts",
+      "text": "VISA 401, 410, 411, 430, 431, 440, 441, 450, 451, 470, 471, 479, 480, 481",
+      "courses": ["VISA 401", "VISA 410", "VISA 411", "VISA 430", "VISA 431", "VISA 440", "VISA 441", "VISA 450", "VISA 451", "VISA 470", "VISA 471", "VISA 479", "VISA 480", "VISA 481"]
+    }
+  ],
+  "place_and_power": "https://www.arts.ubc.ca/degree-planning/degree-requirements/bachelor-of-arts/",
+  "breadth_credits": [9, 6, 3],
+  "areas": [
+    {
+      "name": "Humanities and Creative Arts",
+      "subjects": ["ACAM", "AFST", "AMNE", "ARTH", "ASIA", "ASIX", "CDST", "CENS", "CINE", "CRWR", "CSIS", "ENGL", "FIPR", "FNIS", "GMST", "GRSJ", "HIST", "ITST", "JRNL", "LAST", "MDIA", "MDVL", "MES", "MUSC", "NORD", "PHIL", "RGST", "RMST", "SCAN", "SLAV", "THFL", "THTR", "VISA", "WRDS"]
+    },
+    {
+      "name": "Language as Meaning",
+      "subjects": ["ARBC", "ARBM", "ASL", "ASLA", "CHIN", "CNTO", "CTLN", "DANI", "FNEL", "FREN", "GERN", "GREK", "HEBR", "HINU", "INDO", "ITAL", "JAPN", "KORN", "LATN", "NEPL", "PERS", "POLS", "PORT", "PUNJ", "RUSS", "SANS", "SEAL", "SOAL", "SPAN", "SWAH", "SWED", "TIBT", "UKRN", "YDSH"]
+    },
+    {
+      "name": "Natural and Physical Sciences",
+      "subjects": ["ASTR", "ATSC", "BIOC", "BIOL", "BIOT", "CAPS", "CHEM", "COGS", "CPSC", "DSCI", "ENPH", "ENVR", "EOSC", "FSCT", "GEOS", "ISCI", "MRNE", "MATH", "MICB", "NSCI", "PCTH", "PHYS", "STAT"]
+    },
+    {
+      "name": "Social and Behavioural Systems",
+      "subjects": ["ANTH", "ARCL", "ECON", "ENST", "FMST", "GEOG", "INFO", "LASO", "LING", "POLI", "PPGA", "PSYC", "SOCI", "SOWK", "URST"]
+    }
+  ],
+  "outside": {
+    "Major": 60,
+    "Honours or Combined Major": 48,
+    "Double Major, Double Honours or Adding a Minor": 24
+  },
+  "upper_level": {
+    "Major, Combined Major or IDST": 48,
+    "Honours": 54,
+    "Double Major": 60,
+    "Major/Honours": 66,
+    "Double Honours": 84
+  },
+  "arts_credits": 72,
+  "arts_subjects": ["ACAM", "AFST", "AMNE", "ANTH", "ARBC", "ARBM", "ARCL", "ARST", "ARTC", "ARTH", "ARTS", "ASIA", "ASIX", "ASL", "ASLA", "ASTU", "CAP", "CCST", "CDST", "CENS", "CHIL", "CHIN", "CINE", "CLST", "CMST", "CNTO", "COLX", "CRWR", "CSIS", "CTLN", "DANI", "DMED", "ECON", "ENGL", "ENSO", "ENST", "FIPR", "FMST", "FNEL", "FNIS", "FREN", "GEOG", "GEOS", "GERN", "GMST", "GREK", "GRSJ", "HEBR", "HESO", "HINU", "HIST", "IAR", "IEST", "INDO", "INFO", "INLB", "INTR", "ITAL", "JAPN", "JRNL", "JWST", "KORN", "LAIS", "LASO", "LAST", "LATN", "LIBR", "LING", "MDIA", "MDVL", "MES", "MUSC", "NEPL", "NEST", "NORD", "PERS", "PHIL", "POLI", "POLS", "PORT", "PPGA", "PSYC", "PUNJ", "RELG", "RGST", "RMST", "RUSS", "SANS", "SEAL", "SLAV", "SOAL", "SOCI", "SOWK", "SPAN", "SWAH", "SWED", "THFL", "THTR", "TIBT", "UKRN", "URST", "VISA", "WRDS", "YDSH"]
+}

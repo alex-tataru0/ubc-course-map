@@ -8,6 +8,7 @@ from dotenv import load_dotenv
 from build_prereqs import ask_slowly
 from grades import fetch_text, to_json
 from llm import ask_gemini, load_cache, save_cache
+from arts_degree import URL as ARTS_DEGREE_URL, add_program_rules, parse_degree
 from arts_programs import BASE as ARTS_BASE, PAGES as ARTS_PAGES, parse_arts
 from engineering_programs import BASE, PAGES, parse_engineering
 from science_programs import BASE as SCIENCE_BASE, PAGES as SCIENCE_PAGES, parse_science
@@ -18,8 +19,9 @@ from program_rules import INSTRUCTIONS, parse_requirement
 # requirement tree, and writes data/programs/cpsc.json (the Computer Science programs),
 # data/programs/engineering.json (the 14 Vancouver engineering majors),
 # data/programs/science.json (the other Science Majors and Honours) and data/programs/arts.json
-# (the Arts Majors, written by hand in arts_programs.py, so no rules or Gemini). Run from the
-# repo root:
+# (the Arts Majors, written by hand in arts_programs.py, so no rules or Gemini). It also writes
+# data/arts-degree.json, the Faculty of Arts requirements every B.A. shares (arts_degree.py),
+# which needs data/subjects.json from build_subjects.py. Run from the repo root:
 #   python pipeline/build_programs.py
 # Each calendar page is downloaded once and saved in data/raw/programs/. Delete a file to
 # download it again (e.g. when a new calendar year comes out).
@@ -35,6 +37,8 @@ OUTPUT_PATH = ROOT / "data" / "programs" / "cpsc.json"
 ENGINEERING_PATH = ROOT / "data" / "programs" / "engineering.json"
 SCIENCE_PATH = ROOT / "data" / "programs" / "science.json"
 ARTS_PATH = ROOT / "data" / "programs" / "arts.json"
+ARTS_DEGREE_PATH = ROOT / "data" / "arts-degree.json"
+SUBJECTS_PATH = ROOT / "data" / "subjects.json"
 COURSES_DIR = ROOT / "data" / "courses"
 
 # Gemini's answers for rows the rules can't read, saved and committed like the prereq ones.
@@ -72,6 +76,17 @@ def load_arts_pages() -> dict[str, str]:
     return load_pages(ARTS_PAGES)
 
 
+def load_arts_degree(known: set[str]) -> dict:
+    # The Faculty of Arts requirements from the saved calendar page, with "POLI 400-499" in the
+    # Research table turned into courses.
+    page = load_page(RAW_DIR / f"{ARTS_DEGREE_URL.rsplit('/', 1)[1]}.html", url=ARTS_DEGREE_URL)
+    subjects = json.loads(SUBJECTS_PATH.read_text(encoding="utf-8"))["subjects"]
+    degree = parse_degree(page, subjects)
+    for row in degree["research"]:
+        row["courses"] = expand_all(row["courses"], known)
+    return degree
+
+
 def electives_to_check(programs: list[dict]) -> list[dict]:
     # Engineering "Electives" come from a department's list, which we don't have, so they're
     # something to check, like "Technical electives", not any course as on the CS page.
@@ -89,23 +104,29 @@ def known_courses(courses_dir: Path = COURSES_DIR) -> set[str]:
             for course in json.loads(path.read_text(encoding="utf-8"))["courses"]}
 
 
-def expand_ranges(programs: list[dict], known: set[str]) -> list[dict]:
-    # "MATH 400-406" in a credits_from list → the MATH courses numbered 400 to 406 that exist
-    # (MATH 400, 401, 402, …), so the website can treat every item as a course.
-    def expand(item: str) -> list[str]:
-        match = re.fullmatch(r"([A-Z]{2,4}) (\d{3})-(\d{3})", item)
-        if not match:
-            return [item]
-        subject, low, high = match[1], int(match[2]), int(match[3])
-        codes = sorted(c for c in known if c.split()[0] == subject and low <= int(c.split()[1][:3]) <= high)
-        if not codes:
-            raise ValueError(f"No courses for {item!r}: is {subject} on the site?")
-        return codes
+def expand(item: str, known: set[str]) -> list[str]:
+    # "MATH 400-406" → the MATH courses numbered 400 to 406 that exist (MATH 400, 401, 402, …).
+    # Anything else stays as it is.
+    match = re.fullmatch(r"([A-Z]{2,4}) (\d{3})-(\d{3})", item)
+    if not match:
+        return [item]
+    subject, low, high = match[1], int(match[2]), int(match[3])
+    codes = sorted(c for c in known if c.split()[0] == subject and low <= int(c.split()[1][:3]) <= high)
+    if not codes:
+        raise ValueError(f"No courses for {item!r}: is {subject} on the site?")
+    return codes
 
+
+def expand_all(items: list[str], known: set[str]) -> list[str]:
+    return list(dict.fromkeys(c for item in items for c in expand(item, known)))
+
+
+def expand_ranges(programs: list[dict], known: set[str]) -> list[dict]:
+    # Ranges in credits_from lists become courses, so the website can treat every item as a course.
     def walk(node):
         if isinstance(node, dict):
             if "credits_from" in node:
-                node["credits_from"] = list(dict.fromkeys(c for item in node["credits_from"] for c in expand(item)))
+                node["credits_from"] = expand_all(node["credits_from"], known)
             for value in node.values():
                 if isinstance(value, list):
                     for child in value:
@@ -182,7 +203,13 @@ if __name__ == "__main__":
     print_summary(science)
     print("Wrote", SCIENCE_PATH.relative_to(ROOT))
 
-    arts = expand_ranges(parse_arts(load_arts_pages()), known_courses())
+    degree = load_arts_degree(known_courses())
+    ARTS_DEGREE_PATH.write_text(to_json(degree), encoding="utf-8")
+    print(f"Faculty of Arts requirements: {len(degree['research'])} research rows, "
+          f"{sum(len(a['subjects']) for a in degree['areas'])} breadth course codes")
+    print("Wrote", ARTS_DEGREE_PATH.relative_to(ROOT))
+
+    arts = add_program_rules(expand_ranges(parse_arts(load_arts_pages()), known_courses()), degree)
     write_programs(arts, ARTS_PATH, ARTS_BASE.rstrip("/"))
     print_summary(arts)
     print("Wrote", ARTS_PATH.relative_to(ROOT))
