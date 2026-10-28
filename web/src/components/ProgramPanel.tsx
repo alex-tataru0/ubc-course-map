@@ -1,11 +1,13 @@
 import { useEffect, useId, useMemo, useRef, useState } from "react";
 import { programMajors, programSummary, treeCourses } from "@/lib/program";
 import type { CreditsFor, Major, RowProgress, RowStatus } from "@/lib/program";
-import { facultyOf, SCIENCE } from "@/lib/subjects";
+import { ARTS, facultyOf, SCIENCE } from "@/lib/subjects";
 import type { Elsewhere } from "@/lib/subjects";
 import type { ArtsDegree, Program, ProgramRequirement } from "@/lib/types";
 import { scienceRows } from "@/lib/science";
 import type { ScienceRow } from "@/lib/science";
+import { artsRows } from "@/lib/arts";
+import type { AreaProgress, ArtsRow } from "@/lib/arts";
 import { useSavedFacts } from "@/lib/savedFacts";
 import { QuickFacts } from "./FactsChecklist";
 import { StripeSample } from "./ProgramStripe";
@@ -407,78 +409,161 @@ function Requirements({
       })}
 
       {program.degree === SCIENCE.degree && (
-        <ScienceRules rows={scienceRows(program, links.done, creditsFor, artsSubjects, highSchool)} {...links} />
+        <FacultyRules
+          heading="Faculty of Science requirements"
+          intro="Every B.Sc. program needs these too. A course can count here and in the program above."
+          rows={scienceRows(program, links.done, creditsFor, artsSubjects, highSchool)}
+          {...links}
+        />
+      )}
+      {program.degree === ARTS.degree && (
+        <FacultyRules
+          heading="Faculty of Arts requirements"
+          intro="Every B.A. program needs these too. A course can count here and in the program above."
+          rows={artsRows(program, artsDegree, links.done, creditsFor)}
+          {...links}
+        />
       )}
     </>
   );
 }
 
-// The Faculty of Science's rules for every B.Sc. program, after the program's own years. They
-// have their own count: the program's "N of M requirements done" is about the program only.
-function ScienceRules({ rows, ...links }: { rows: ScienceRow[] } & CodeLinks) {
+// One of a faculty's shared rules (Science's or Arts'): the shapes differ only in their extras.
+type RuleRow = ScienceRow | ArtsRow;
+
+// Long lists of choices (all 400-level POLI courses for research) show this many at first.
+const FIRST_OPTIONS = 12;
+
+// A faculty's rules for every degree program, after the program's own years: the Faculty of
+// Science's for a B.Sc., the Faculty of Arts' for a B.A. They have their own count: the
+// program's "N of M requirements done" is about the program only.
+function FacultyRules({
+  heading,
+  intro,
+  rows,
+  ...links
+}: { heading: string; intro: string; rows: RuleRow[] } & CodeLinks) {
   const tracked = rows.filter((row) => row.status !== "check");
   return (
     <section className="mt-5">
       <h3 className="flex items-baseline justify-between gap-3 border-b border-line pb-1.5 font-semibold">
-        <span>Faculty of Science requirements</span>
+        <span>{heading}</span>
         <span className="shrink-0 text-xs font-normal text-ink-muted">
           {tracked.filter((row) => row.status === "done").length} of {tracked.length} done
         </span>
       </h3>
-      <p className="mt-1.5 text-xs text-ink-muted">
-        Every B.Sc. program needs these too. A course can count here and in the program above.
-      </p>
+      <p className="mt-1.5 text-xs text-ink-muted">{intro}</p>
       <ul className="divide-y divide-line">
         {rows.map((row) => (
-          <li key={row.title} className="py-2.5">
-            <div className="flex items-start gap-2.5">
-              <span className="mt-0.5 flex">
-                <RowIcon status={row.status} />
-              </span>
-              <span className="min-w-0 flex-1">
-                <span className="sr-only">{STATUS_WORDS[row.status]}: </span>
-                {row.title}
-              </span>
-              {row.progress && <span className="shrink-0 text-xs tabular-nums text-ink-muted">{row.progress}</span>}
-            </div>
-            <div className="ml-[26px]">
-              {row.categories && (
-                <ul className="mt-1.5 flex flex-wrap gap-1.5" aria-label="Science Breadth categories">
-                  {row.categories.map((category) => (
-                    <li
-                      key={category.name}
-                      className={`rounded border px-1.5 py-0.5 text-xs ${
-                        category.done ? "border-ink" : "border-line text-ink-muted"
-                      }`}
-                    >
-                      {category.done && (
-                        <>
-                          <span aria-hidden>✓ </span>
-                          <span className="sr-only">Done: </span>
-                        </>
-                      )}
-                      {category.name}
-                    </li>
-                  ))}
-                </ul>
-              )}
-              {row.options.length > 0 && (
-                <div className="mt-1.5 flex flex-wrap gap-1.5">
-                  {row.options.map((code) => (
-                    <Chip key={code} code={code} counted={false} {...links} />
-                  ))}
-                </div>
-              )}
-              {row.counted.length > 0 && (
-                <p className="mt-1 text-xs text-ink-muted">With {row.counted.join(", ")}</p>
-              )}
-              {row.check && <p className="mt-1 text-xs text-ink-muted">Check this yourself · {row.check}</p>}
-              {row.ask && <QuickFacts text={row.ask} />}
-            </div>
-          </li>
+          <RuleItem key={row.title} row={row} {...links} />
         ))}
       </ul>
     </section>
+  );
+}
+
+function RuleItem({ row, ...links }: { row: RuleRow } & CodeLinks) {
+  const [allOptions, setAllOptions] = useState(false);
+  const categories = "categories" in row ? row.categories : null;
+  const areas = "areas" in row ? row.areas : null;
+  const ask = "ask" in row ? row.ask : null;
+  const link = "link" in row ? row.link : null;
+  const options = allOptions ? row.options : row.options.slice(0, FIRST_OPTIONS);
+  return (
+    <li className="py-2.5">
+      <div className="flex items-start gap-2.5">
+        <span className="mt-0.5 flex">
+          <RowIcon status={row.status} />
+        </span>
+        <span className="min-w-0 flex-1">
+          <span className="sr-only">{STATUS_WORDS[row.status]}: </span>
+          {row.title}
+        </span>
+        {row.progress && <span className="shrink-0 text-xs tabular-nums text-ink-muted">{row.progress}</span>}
+      </div>
+      <div className="ml-[26px]">
+        {categories && (
+          <ul className="mt-1.5 flex flex-wrap gap-1.5" aria-label="Science Breadth categories">
+            {categories.map((category) => (
+              <li
+                key={category.name}
+                className={`rounded border px-1.5 py-0.5 text-xs ${
+                  category.done ? "border-ink" : "border-line text-ink-muted"
+                }`}
+              >
+                {category.done && <DoneMark />}
+                {category.name}
+              </li>
+            ))}
+          </ul>
+        )}
+        {areas && <BreadthAreas areas={areas} />}
+        {options.length > 0 && (
+          <div className="mt-1.5 flex flex-wrap gap-1.5">
+            {options.map((code) => (
+              <Chip key={code} code={code} counted={false} {...links} />
+            ))}
+            {row.options.length > FIRST_OPTIONS && (
+              <button
+                type="button"
+                onClick={() => setAllOptions(!allOptions)}
+                aria-expanded={allOptions}
+                className="px-1 text-xs underline underline-offset-2 hover:text-ink-muted"
+              >
+                {allOptions ? "Show fewer" : `Show all ${row.options.length}`}
+              </button>
+            )}
+          </div>
+        )}
+        {row.counted.length > 0 && <p className="mt-1 text-xs text-ink-muted">With {row.counted.join(", ")}</p>}
+        {row.check && (
+          <p className="mt-1 text-xs text-ink-muted">
+            Check this yourself · {row.check}
+            {link && (
+              <>
+                {" "}
+                <a href={link} target="_blank" rel="noreferrer" className="underline underline-offset-2 hover:text-ink">
+                  Place and Power courses
+                  <span aria-hidden> ↗</span>
+                </a>
+              </>
+            )}
+          </p>
+        )}
+        {ask && <QuickFacts text={ask} />}
+      </div>
+    </li>
+  );
+}
+
+function DoneMark() {
+  return (
+    <>
+      <span aria-hidden>✓ </span>
+      <span className="sr-only">Done: </span>
+    </>
+  );
+}
+
+// The three Ways of Knowing breadth areas outside the Major's, a line each: the subject counting
+// the most so far and its credits out of the 9, 6 or 3 the area needs.
+function BreadthAreas({ areas }: { areas: AreaProgress[] }) {
+  const done = (area: AreaProgress) => area.credits >= area.need;
+  return (
+    <ul className="mt-1.5 space-y-1 text-xs" aria-label="Breadth areas">
+      {areas.map((area) => (
+        <li key={area.name} className="flex items-baseline justify-between gap-3">
+          <span className={done(area) ? "" : "text-ink-muted"}>
+            {done(area) && <DoneMark />}
+            {area.name}
+            {!area.onSite && <span className="text-ink-muted"> (not on this site)</span>}
+          </span>
+          <span className="shrink-0 tabular-nums text-ink-muted">
+            {area.subject ? `${area.subject} ${area.credits} of ${area.need}` : `0 of ${area.need}`}
+          </span>
+        </li>
+      ))}
+    </ul>
   );
 }
 

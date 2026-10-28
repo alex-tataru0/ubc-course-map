@@ -15,7 +15,7 @@ import re
 # course only counts toward one row.
 #
 # Every Major ends with the rest of the B.A.'s 120 credits as electives. The Faculty of Arts
-# requirements (writing, breadth, …) aren't tracked yet.
+# requirements (writing, breadth, …) are in arts_degree.py.
 
 BASE = "https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-arts/bachelor-arts/"
 ECONOMICS = (
@@ -75,7 +75,7 @@ def major(id: str, name: str, page: str, heading: str, years: list[tuple[str, li
     electives = row("Electives", DEGREE_CREDITS - major_credits, {"electives": True}, (
         "The rest of the 120 credits for the B.A. All 120 credits must also meet the Faculty of "
         "Arts requirements (Writing and Research, Ways of Knowing Breadth, Outside, Upper-level "
-        "and Arts Credit Minimum), which the site doesn't check yet.",
+        "and Arts Credit Minimum), listed after the program.",
     ))
     electives["quoted"] = False
     blocks.append({"title": "Rest of the Degree", "credits": electives["credits"], "requirements": [electives]})

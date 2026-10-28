@@ -121,9 +121,9 @@ export const ARTS: Faculty = {
   programFiles: ["arts"],
   programsByMajor: false,
   programsNote:
-    "One Major for each subject, for students starting now, written out from the calendar. Not " +
-    "here yet: Honours, Combined Majors, the other Majors (such as English's Language emphases), " +
-    "and the Faculty of Arts requirements (writing, breadth and Arts credits).",
+    "One Major for each subject, for students starting now, written out from the calendar, with " +
+    "the Faculty of Arts requirements (writing, breadth, Arts credits, …) after it. Not here yet: " +
+    "Honours, Combined Majors and the other Majors (such as English's Language emphases).",
   subjects: [
     { code: "ANTH", name: "Anthropology" },
     { code: "ECON", name: "Economics" },
