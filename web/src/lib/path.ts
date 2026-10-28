@@ -1,7 +1,7 @@
-import { factStatus } from "./facts";
+import { factStatus, NO_FACTS } from "./facts";
 import type { Facts } from "./facts";
 import { buildGraph, descendants, prereqCourses } from "./graph";
-import { notForStudentsWith, requirementStatus, restrictionOf } from "./progress";
+import { notForStudentsWith, requirementStatus, restrictionStatus } from "./progress";
 import type { Course, ReqNode } from "./types";
 
 // Something a path needs besides the courses it plans.
@@ -22,7 +22,8 @@ export interface CoursePath {
 // - a course we have no data for (we don't know what it needs), e.g. CPEN 221;
 // - a choice that's only something to check, e.g. "advanced credit for MATH 100";
 // - a course only some students can take, e.g. "Restricted to students admitted to the
-//   Co-operative Education Program", MATH 190's "registration in the B.S.F. or B.Sc.N.
+//   Co-operative Education Program" (but not "Restricted to students with second-year
+//   standing or higher": everyone gets there, like a year standing in a prerequisite), MATH 190's "registration in the B.S.F. or B.Sc.N.
 //   programs", Science One (SCIE 001), which takes students by application, or CHEM 111's
 //   "Not open to students with credit for CHEM 12";
 // - a course in `closed`: on the Science page, the engineering courses (see Faculty.openToAll).
@@ -72,15 +73,16 @@ export function planPath(
   // Plans `code` and everything it needs, given the courses in `have` (done or already planned).
   function planCourse(code: string, have: ReadonlySet<string>): Plan {
     const course = byCode.get(code)!;
-    const restriction = restrictionOf(course.description);
+    const restriction = restrictionStatus(course, facts ?? NO_FACTS);
     const prereqText = course.prereq?.text ?? "";
     const onlyForSome =
-      restriction !== null ||
+      (restriction !== null && !restriction.byYear) ||
       (closed?.has(code) ?? false) ||
       /\bregistration in\b|\bnot open to\b/i.test(prereqText) ||
       /\bapplication process\b/i.test(course.description);
     let plan: Plan = { courses: new Set([code]), also: [], lastResorts: onlyForSome ? 1 : 0 };
-    if (restriction) plan.also.push({ kind: "check", text: restriction });
+    // A year standing they've said they have isn't listed to check.
+    if (restriction && restriction.status !== "met") plan.also.push({ kind: "check", text: restriction.text });
     for (const requisite of [course.prereq, course.coreq]) {
       if (requisite) plan = merge(plan, planNode(requisite.tree, union(have, plan.courses)));
     }

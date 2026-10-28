@@ -7,7 +7,7 @@ import { rateMyProfUrl, redditSearchUrl, ubcGradesUrl } from "@/lib/links";
 import type { AlsoNeeded, CoursePath } from "@/lib/path";
 import { HIGH_SCHOOL_COURSES } from "@/lib/facts";
 import type { Facts } from "@/lib/facts";
-import { notMetByFacts, requirementStatus, WONT_TAKE } from "@/lib/progress";
+import { notMetByFacts, requirementStatus, restrictionStatus, WONT_TAKE } from "@/lib/progress";
 import type { CourseProgress } from "@/lib/progress";
 import type { Elsewhere } from "@/lib/subjects";
 import type { Course, CourseGrades, ReqNode, Requisite } from "@/lib/types";
@@ -296,6 +296,9 @@ function StatusNote({
   const { status } = progress;
   // "Third-year standing" for someone who said they're in first year.
   const tooLow = status === "locked" && course.prereq ? notMetByFacts(course.prereq.tree, done, facts) : [];
+  // "Restricted to students with third-year standing or higher", for someone in second year.
+  const restriction = restrictionStatus(course, facts);
+  const restrictedByYear = status === "locked" && tooLow.length === 0 && restriction?.status === "unmet";
   // For "no credit": the finished courses that rule it out, and the ticked high school courses.
   const saidHighSchool = HIGH_SCHOOL_COURSES.filter((c) => progress.excludedBy.includes(c.name)).map((c) => c.key);
   const saidCourses = progress.excludedBy.filter((by) => !HIGH_SCHOOL_COURSES.some((c) => c.name === by));
@@ -314,9 +317,15 @@ function StatusNote({
             <strong>Check first.</strong> Your courses can&apos;t tell us if you meet:
           </>
         )}
-        {status === "locked" && tooLow.length === 0 && (
+        {status === "locked" && tooLow.length === 0 && !restrictedByYear && (
           <>
             <strong>Not yet.</strong> Some prerequisites below aren&apos;t done.
+          </>
+        )}
+        {restrictedByYear && (
+          <>
+            <strong>Not yet.</strong> {restriction.text}
+            {facts.standing !== null && `, and you said you're in ${YEAR_NAMES[facts.standing]}`}.
           </>
         )}
         {status === "locked" && tooLow.length > 0 && (

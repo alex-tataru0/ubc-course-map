@@ -61,6 +61,32 @@ describe("factStatus", () => {
     expect(factStatus("Third-year standing", NO_FACTS)).toBe("unknown");
   });
 
+  it("reads 'Restricted to … standing' sentences", () => {
+    const first = facts({ standing: 1 });
+    const second = facts({ standing: 2 });
+    for (const text of [
+      "Restricted to students with second-year standing or above",
+      "Restricted to students with second-year standing or higher",
+      "Restricted to students with at least second-year standing",
+      "Restricted to students with second year standing or above",
+      "Restricted to second- or higher-year standing",
+    ]) {
+      expect(factStatus(text, first), text).toBe("unmet");
+      expect(factStatus(text, second), text).toBe("met");
+      expect(factStatus(text, NO_FACTS), text).toBe("unknown");
+    }
+    expect(factStatus("Restricted to students in fourth-year standing or higher", facts({ standing: 3 }))).toBe("unmet");
+    expect(factStatus("Restricted to students with fourth year class standing", facts({ standing: 4 }))).toBe("met");
+    const inScience = "Restricted to students with third-year standing or higher in B.A.Sc. or B.Sc";
+    expect(factStatus(inScience, facts({ standing: 3, program: csMajor }))).toBe("met");
+    expect(factStatus(inScience, facts({ standing: 3 }))).toBe("unknown"); // no program picked
+    // A restriction that asks for more than a year isn't read.
+    expect(factStatus("Restricted to Majors in PSYC or COGS or NSCI with second-year standing or higher", second)).toBeNull();
+    expect(
+      factStatus("Restricted to students with second-year standing or higher and a cumulative average at or above 76%", second),
+    ).toBeNull();
+  });
+
   it("checks the place against the picked program", () => {
     const text = "Third-year standing in the Faculty of Science";
     expect(factStatus(text, facts({ standing: 3 }))).toBe("unknown"); // no program picked
@@ -83,9 +109,9 @@ describe("factStatus", () => {
     expect(factStatus(both, facts({ standing: 3 }))).toBe("unknown");
   });
 
-  it("reads 95 of the data's non-course wordings, and changes nothing until the checklist is used", () => {
+  it("reads 98 of the data's non-course wordings, and changes nothing until the checklist is used", () => {
     const read = [...texts].filter((text) => factStatus(text, NO_FACTS) !== null);
-    expect(read).toHaveLength(95);
+    expect(read).toHaveLength(98);
     expect(read.every((text) => factStatus(text, NO_FACTS) === "unknown")).toBe(true);
   });
 });
@@ -148,6 +174,23 @@ describe("with facts", () => {
     const tree = courses.find((c) => c.code === "BIOL 350")!.prereq!.tree;
     expect(notMetByFacts(tree, new Set(), facts({ standing: 1 }))).toEqual(["Third-year standing"]);
     expect(notMetByFacts(tree, new Set(), all)).toEqual([]);
+  });
+
+  it("answers 'Restricted to students with … standing' from the year", () => {
+    // PSYC 300 has no prerequisite: "Restricted to students with second-year standing or higher."
+    const progress = (code: string, f: Facts = NO_FACTS) => courseProgress(courses, new Set(), f).get(code)!;
+    expect(progress("PSYC 300")).toMatchObject({
+      status: "check",
+      toCheck: ["Restricted to students with second-year standing or higher"],
+    });
+    expect(progress("PSYC 300", facts({ standing: 1 })).status).toBe("locked");
+    expect(progress("PSYC 300", facts({ standing: 2 })).status).toBe("can-take");
+    // Other restrictions stay something to check.
+    expect(progress("CPSC 298", all).status).toBe("check"); // the Co-op program
+    const checks = (f: Facts) =>
+      planPath("PSYC 300", courses, new Set(), { facts: f }).also.map((item) => ("text" in item ? item.text : ""));
+    expect(checks(NO_FACTS)).toEqual(["Restricted to students with second-year standing or higher"]);
+    expect(checks(facts({ standing: 2 }))).toEqual([]);
   });
 
   it("leaves high school courses out of a path once ticked", () => {

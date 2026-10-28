@@ -47,9 +47,14 @@ const YEAR = "(first|second|third|fourth|1st|2nd|3rd|4th)";
 // "Third-year standing", "3rd-year class standing or higher", "Third- or fourth-year class
 // standing", "Open to all students with second-year, or higher, standing", "Fourth-year
 // standing in Mining Engineering", "3rd-year class standing or higher in Science is required".
-// Groups: the year, then where (if it says).
+// Also the "who can take it" sentences many Arts courses have instead of a prerequisite:
+// "Restricted to students with second-year standing or above", "Restricted to students in
+// fourth-year standing or higher", "Restricted to students with at least third year standing",
+// "Restricted to second- or higher-year standing" (PHIL 338).
+// Groups: the year, then the other year (if it says), then where (if it says).
 const STANDING = new RegExp(
-  `^(?:A minimum of |at least |Open to all students with )?${YEAR}-?(?: or ${YEAR})?[- ]year` +
+  "^(?:Restricted to (?:students (?:with|in) )?)?(?:A minimum of |at least |Open to all students with )?" +
+    `${YEAR}-?(?: or (?:${YEAR}|higher))?[- ]year` +
     "(?:,? or higher,?)?(?: class)? standing(?: or (?:higher|greater|above))?" +
     "(?: in (.+?))?(?: is required)?$",
   "i",

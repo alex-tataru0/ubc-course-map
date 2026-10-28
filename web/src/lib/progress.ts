@@ -88,6 +88,19 @@ export function restrictionOf(description: string): string | null {
   return sentence ? sentence.trim().replace(/\.+$/, "") : null;
 }
 
+// A course's "who can take it" sentence and whether the student meets it. Only a year standing
+// can be answered ("Restricted to students with third-year standing or higher", from the
+// checklist); anything else (a program, permission, an average) is always "unknown".
+export function restrictionStatus(
+  course: Pick<Course, "description">,
+  facts: Facts,
+): { text: string; status: Status; byYear: boolean } | null {
+  const text = restrictionOf(course.description);
+  if (text === null) return null;
+  const status = factStatus(text, facts);
+  return { text, status: status ?? "unknown", byYear: status !== null };
+}
+
 // The words that start what the site reads in a description: who can take the course
 // (RESTRICTION), the courses that rule it out ("Not for students with credit for …", "Credit will
 // be granted for only one of …", "Not open to students with credit for Chemistry 12") and
@@ -267,8 +280,8 @@ function progressOf(
     return { ...NOTHING, status: "not-needed", excludedBy: by, blockedBy };
   }
   const coreq = course.coreq ? requirementStatus(course.coreq.tree, startable, facts) : "met";
-  const restriction = restrictionOf(course.description);
-  const status = allOf([prereq, coreq, restriction ? "unknown" : "met"]);
+  const restriction = restrictionStatus(course, facts);
+  const status = allOf([prereq, coreq, restriction?.status ?? "met"]);
 
   if (status === "unmet") {
     return { ...NOTHING, status: "locked" };
@@ -279,7 +292,7 @@ function progressOf(
   const items = [
     ...(course.prereq ? toCheck(course.prereq.tree, done, facts) : []),
     ...(course.coreq ? toCheck(course.coreq.tree, startable, facts) : []),
-    ...(restriction ? [restriction] : []),
+    ...(restriction?.status === "unknown" ? [restriction.text] : []),
   ];
   return { ...NOTHING, status: "check", toCheck: items };
 }
