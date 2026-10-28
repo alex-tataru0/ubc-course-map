@@ -1,0 +1,1325 @@
+{
+  "source": "https://vancouver.calendar.ubc.ca/course-descriptions/courses-subject",
+  "subjects": [
+    {
+      "code": "AANB",
+      "name": "Applied Animal Biology",
+      "faculty": "Faculty of Land and Food Systems"
+    },
+    {
+      "code": "ACAM",
+      "name": "Asian Canadian and Asian Migration Studies",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "ADHE",
+      "name": "Adult and Higher Education",
+      "faculty": "Faculty of Education"
+    },
+    {
+      "code": "AFST",
+      "name": "African Studies",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "AGEC",
+      "name": "Agricultural Economics",
+      "faculty": "Faculty of Land and Food Systems"
+    },
+    {
+      "code": "AI",
+      "name": "Artificial Intelligence",
+      "faculty": "Faculty of Science"
+    },
+    {
+      "code": "AMNE",
+      "name": "Ancient Mediterranean and Near Eastern Studies",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "ANAT",
+      "name": "Anatomy",
+      "faculty": "Faculty of Medicine"
+    },
+    {
+      "code": "ANTH",
+      "name": "Anthropology",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "APBI",
+      "name": "Applied Biology",
+      "faculty": "Faculty of Land and Food Systems"
+    },
+    {
+      "code": "APPP",
+      "name": "Applied Science Professional Program Platform",
+      "faculty": "Faculty of Applied Science"
+    },
+    {
+      "code": "APSC",
+      "name": "Applied Science",
+      "faculty": "Faculty of Applied Science"
+    },
+    {
+      "code": "AQUA",
+      "name": "Aquaculture",
+      "faculty": "Faculty of Land and Food Systems"
+    },
+    {
+      "code": "ARBC",
+      "name": "Classical Arabic",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "ARBM",
+      "name": "Modern Standard Arabic",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "ARCH",
+      "name": "Architecture",
+      "faculty": "Faculty of Applied Science"
+    },
+    {
+      "code": "ARCL",
+      "name": "Anthropological Archaeology",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "ARST",
+      "name": "Archival Studies",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "ARTC",
+      "name": "Arts Co-Op",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "ARTH",
+      "name": "Art History",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "ARTS",
+      "name": "Arts",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "ASIA",
+      "name": "Asian Studies",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "ASIC",
+      "name": "Arts and Science Interdisciplinary Courses",
+      "faculty": "Faculty of Science"
+    },
+    {
+      "code": "ASIX",
+      "name": "Asian Studies Crossings",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "ASL",
+      "name": "American Sign Language",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "ASLA",
+      "name": "Asian Languages",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "ASTR",
+      "name": "Astronomy",
+      "faculty": "Faculty of Science"
+    },
+    {
+      "code": "ASTU",
+      "name": "Arts Studies",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "ATSC",
+      "name": "Atmospheric Science",
+      "faculty": "Faculty of Science"
+    },
+    {
+      "code": "AUDI",
+      "name": "Audiology and Speech Sciences",
+      "faculty": "Faculty of Medicine"
+    },
+    {
+      "code": "BA",
+      "name": "Business Administration: Core",
+      "faculty": "Faculty of Commerce and Business Administration"
+    },
+    {
+      "code": "BAAC",
+      "name": "Business Administration: Accounting",
+      "faculty": "Faculty of Commerce and Business Administration"
+    },
+    {
+      "code": "BABS",
+      "name": "Business Administration: Business Statistics",
+      "faculty": "Faculty of Commerce and Business Administration"
+    },
+    {
+      "code": "BAEN",
+      "name": "Business Administration: Entrepreneurship",
+      "faculty": "Faculty of Commerce and Business Administration"
+    },
+    {
+      "code": "BAFI",
+      "name": "Business Administration: Finance",
+      "faculty": "Faculty of Commerce and Business Administration"
+    },
+    {
+      "code": "BAHR",
+      "name": "Business Administration: Human Resources Management",
+      "faculty": "Faculty of Commerce and Business Administration"
+    },
+    {
+      "code": "BAIT",
+      "name": "Business Administration: Business Technology Management",
+      "faculty": "Faculty of Commerce and Business Administration"
+    },
+    {
+      "code": "BALA",
+      "name": "Business Administration: Law",
+      "faculty": "Faculty of Commerce and Business Administration"
+    },
+    {
+      "code": "BAMA",
+      "name": "Business Administration: Marketing",
+      "faculty": "Faculty of Commerce and Business Administration"
+    },
+    {
+      "code": "BAMS",
+      "name": "Business Administration: Management Science",
+      "faculty": "Faculty of Commerce and Business Administration"
+    },
+    {
+      "code": "BAPA",
+      "name": "Business Administration: Policy Analysis",
+      "faculty": "Faculty of Commerce and Business Administration"
+    },
+    {
+      "code": "BASC",
+      "name": "Business Administration: Supply Chain",
+      "faculty": "Faculty of Commerce and Business Administration"
+    },
+    {
+      "code": "BASM",
+      "name": "Business Administration: Strategic Management",
+      "faculty": "Faculty of Commerce and Business Administration"
+    },
+    {
+      "code": "BAUL",
+      "name": "Business Administration: Urban Land Economics",
+      "faculty": "Faculty of Commerce and Business Administration"
+    },
+    {
+      "code": "BEST",
+      "name": "Forest Bioeconomy Sciences and Technology",
+      "faculty": "Faculty of Forestry and Environmental Stewardship"
+    },
+    {
+      "code": "BIOC",
+      "name": "Biochemistry",
+      "faculty": "Faculty of Medicine"
+    },
+    {
+      "code": "BIOF",
+      "name": "Bioinformatics",
+      "faculty": "Faculty of Science"
+    },
+    {
+      "code": "BIOL",
+      "name": "Biology",
+      "faculty": "Faculty of Science"
+    },
+    {
+      "code": "BIOT",
+      "name": "Biotechnology",
+      "faculty": "Faculty of Science"
+    },
+    {
+      "code": "BMEG",
+      "name": "Biomedical Engineering",
+      "faculty": "Faculty of Applied Science"
+    },
+    {
+      "code": "BOTA",
+      "name": "Botany",
+      "faculty": "Faculty of Science"
+    },
+    {
+      "code": "BUSI",
+      "name": "Business",
+      "faculty": "Faculty of Commerce and Business Administration"
+    },
+    {
+      "code": "CAP",
+      "name": "Coordinated Arts Program",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "CAPS",
+      "name": "Cellular, Anatomical and Physiological Sciences",
+      "faculty": "Faculty of Medicine"
+    },
+    {
+      "code": "CCFI",
+      "name": "Centre for Cross-Faculty Inquiry",
+      "faculty": "Faculty of Education"
+    },
+    {
+      "code": "CCST",
+      "name": "Critical and Curatorial Studies",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "CDST",
+      "name": "Canadian Studies",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "CEEN",
+      "name": "Clean Energy Engineering",
+      "faculty": "Faculty of Applied Science"
+    },
+    {
+      "code": "CELL",
+      "name": "Cell and Developmental Biology",
+      "faculty": "Faculty of Medicine"
+    },
+    {
+      "code": "CENS",
+      "name": "Central, Eastern and Northern European Studies",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "CHBE",
+      "name": "Chemical and Biological Engineering",
+      "faculty": "Faculty of Applied Science"
+    },
+    {
+      "code": "CHEM",
+      "name": "Chemistry",
+      "faculty": "Faculty of Science"
+    },
+    {
+      "code": "CHIL",
+      "name": "Children's Literature",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "CHIN",
+      "name": "Chinese",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "CINE",
+      "name": "Cinema Studies",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "CIVL",
+      "name": "Civil Engineering",
+      "faculty": "Faculty of Applied Science"
+    },
+    {
+      "code": "CLST",
+      "name": "Classical Studies",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "CMST",
+      "name": "Cinema and Media Studies",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "CNPS",
+      "name": "Counselling Psychology",
+      "faculty": "Faculty of Education"
+    },
+    {
+      "code": "CNTO",
+      "name": "Cantonese",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "COEC",
+      "name": "Commerce Economics",
+      "faculty": "Faculty of Commerce and Business Administration"
+    },
+    {
+      "code": "COGS",
+      "name": "Cognitive Systems Program",
+      "faculty": "Faculty of Science"
+    },
+    {
+      "code": "COHR",
+      "name": "Commerce Human Resources",
+      "faculty": "Faculty of Commerce and Business Administration"
+    },
+    {
+      "code": "COLX",
+      "name": "Computational Linguistics",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "COMM",
+      "name": "Commerce",
+      "faculty": "Faculty of Commerce and Business Administration"
+    },
+    {
+      "code": "COMR",
+      "name": "Commerce Minor",
+      "faculty": "Faculty of Commerce and Business Administration"
+    },
+    {
+      "code": "CONS",
+      "name": "Natural Resources Conservation",
+      "faculty": "Faculty of Forestry and Environmental Stewardship"
+    },
+    {
+      "code": "CPEN",
+      "name": "Computer Engineering",
+      "faculty": "Faculty of Applied Science"
+    },
+    {
+      "code": "CPSC",
+      "name": "Computer Science",
+      "faculty": "Faculty of Science"
+    },
+    {
+      "code": "CRWR",
+      "name": "Creative Writing",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "CSIS",
+      "name": "Critical Studies in Sexuality",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "CSPW",
+      "name": "Coordinated Science Program Workshop",
+      "faculty": "Faculty of Science"
+    },
+    {
+      "code": "CTLN",
+      "name": "Catalan",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "DANI",
+      "name": "Danish",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "DENT",
+      "name": "Dentistry",
+      "faculty": "Faculty of Dentistry"
+    },
+    {
+      "code": "DES",
+      "name": "Design",
+      "faculty": "Faculty of Applied Science"
+    },
+    {
+      "code": "DHYG",
+      "name": "Dental Hygiene",
+      "faculty": "Faculty of Dentistry"
+    },
+    {
+      "code": "DMED",
+      "name": "Digital Media",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "DSCI",
+      "name": "Data Science",
+      "faculty": "Faculty of Science"
+    },
+    {
+      "code": "ECED",
+      "name": "Early Childhood Education",
+      "faculty": "Faculty of Education"
+    },
+    {
+      "code": "ECON",
+      "name": "Economics",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "ECPS",
+      "name": "Educational & Counselling Psychology, & Special Education",
+      "faculty": "Faculty of Education"
+    },
+    {
+      "code": "EDCP",
+      "name": "Curriculum and Pedagogy",
+      "faculty": "Faculty of Education"
+    },
+    {
+      "code": "EDST",
+      "name": "Educational Studies",
+      "faculty": "Faculty of Education"
+    },
+    {
+      "code": "EDUC",
+      "name": "Education",
+      "faculty": "Faculty of Education"
+    },
+    {
+      "code": "EECE",
+      "name": "Electrical and Computer Engineering",
+      "faculty": "Faculty of Applied Science"
+    },
+    {
+      "code": "ELEC",
+      "name": "Electrical Engineering",
+      "faculty": "Faculty of Applied Science"
+    },
+    {
+      "code": "EMBA",
+      "name": "Executive M.B.A.",
+      "faculty": "Faculty of Commerce and Business Administration"
+    },
+    {
+      "code": "ENGL",
+      "name": "English",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "ENPH",
+      "name": "Engineering Physics",
+      "faculty": "Faculty of Science"
+    },
+    {
+      "code": "ENPP",
+      "name": "Engineering and Public Policy",
+      "faculty": "Faculty of Applied Science"
+    },
+    {
+      "code": "ENSO",
+      "name": "Environment and Society",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "ENST",
+      "name": "Environment and Sustainability",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "ENVE",
+      "name": "Environmental Engineering",
+      "faculty": "Faculty of Applied Science"
+    },
+    {
+      "code": "ENVR",
+      "name": "Environmental Science",
+      "faculty": "Faculty of Science"
+    },
+    {
+      "code": "EOSC",
+      "name": "Earth and Ocean Sciences",
+      "faculty": "Faculty of Science"
+    },
+    {
+      "code": "EPSE",
+      "name": "Educational Psychology and Special Education",
+      "faculty": "Faculty of Education"
+    },
+    {
+      "code": "ETEC",
+      "name": "Educational Technology",
+      "faculty": "Faculty of Education"
+    },
+    {
+      "code": "EXCH",
+      "name": "Exchange Programs",
+      "faculty": null
+    },
+    {
+      "code": "EXGR",
+      "name": "Exchange Graduate Research",
+      "faculty": null
+    },
+    {
+      "code": "FCOR",
+      "name": "Forestry Core",
+      "faculty": "Faculty of Forestry and Environmental Stewardship"
+    },
+    {
+      "code": "FIPR",
+      "name": "Film Production",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "FISH",
+      "name": "Fisheries Research",
+      "faculty": "Faculty of Science"
+    },
+    {
+      "code": "FMPR",
+      "name": "Family Practice",
+      "faculty": "Faculty of Medicine"
+    },
+    {
+      "code": "FMST",
+      "name": "Family Studies",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "FNEL",
+      "name": "First Nations and Endangered Languages Program",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "FNH",
+      "name": "Food, Nutrition and Health",
+      "faculty": "Faculty of Land and Food Systems"
+    },
+    {
+      "code": "FNIS",
+      "name": "First Nations and Indigenous Studies",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "FOOD",
+      "name": "Food Science",
+      "faculty": "Faculty of Land and Food Systems"
+    },
+    {
+      "code": "FOPE",
+      "name": "Forestry Online Professional Education",
+      "faculty": "Faculty of Forestry and Environmental Stewardship"
+    },
+    {
+      "code": "FOPR",
+      "name": "Forest Operations",
+      "faculty": "Faculty of Forestry and Environmental Stewardship"
+    },
+    {
+      "code": "FRE",
+      "name": "Food and Resource Economics",
+      "faculty": "Faculty of Land and Food Systems"
+    },
+    {
+      "code": "FREN",
+      "name": "French",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "FRST",
+      "name": "Forestry",
+      "faculty": "Faculty of Forestry and Environmental Stewardship"
+    },
+    {
+      "code": "FSCT",
+      "name": "Biochemistry and Forensic Science",
+      "faculty": "Faculty of Medicine"
+    },
+    {
+      "code": "GEM",
+      "name": "Geomatics for Environmental Management",
+      "faculty": "Faculty of Forestry and Environmental Stewardship"
+    },
+    {
+      "code": "GEOG",
+      "name": "Geography",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "GEOS",
+      "name": "Geographical Sciences",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "GERN",
+      "name": "German",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "GLBH",
+      "name": "Global Health",
+      "faculty": "Faculty of Medicine"
+    },
+    {
+      "code": "GMST",
+      "name": "Germanic Studies",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "GREK",
+      "name": "Greek",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "GRS",
+      "name": "Global Resource Systems",
+      "faculty": "Faculty of Land and Food Systems"
+    },
+    {
+      "code": "GRSJ",
+      "name": "Gender, Race, Sexuality and Social Justice",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "GSAT",
+      "name": "Genome Science and Technology",
+      "faculty": "Faculty of Science"
+    },
+    {
+      "code": "HEBR",
+      "name": "Hebrew",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "HESO",
+      "name": "Health and Society",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "HGSE",
+      "name": "Haida Gwaii Semesters",
+      "faculty": "Faculty of Forestry and Environmental Stewardship"
+    },
+    {
+      "code": "HINU",
+      "name": "Hindi-Urdu",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "HIST",
+      "name": "History",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "HPB",
+      "name": "High Performance Buildings",
+      "faculty": "Faculty of Applied Science"
+    },
+    {
+      "code": "HUNU",
+      "name": "Human Nutrition",
+      "faculty": "Faculty of Land and Food Systems"
+    },
+    {
+      "code": "IAR",
+      "name": "Institute of Asian Research",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "IEST",
+      "name": "European Studies",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "IGEN",
+      "name": "Integrated Engineering",
+      "faculty": "Faculty of Applied Science"
+    },
+    {
+      "code": "ILS",
+      "name": "Indigenous Land Stewardship",
+      "faculty": "Faculty of Forestry and Environmental Stewardship"
+    },
+    {
+      "code": "INDO",
+      "name": "Indonesian",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "INDS",
+      "name": "Interdisciplinary Studies",
+      "faculty": "Faculty of Graduate and Postdoctoral Studies"
+    },
+    {
+      "code": "INFO",
+      "name": "Information Studies",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "INLB",
+      "name": "Indigenous Land-Based Studies",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "INTR",
+      "name": "International Relations",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "ISCI",
+      "name": "Integrated Sciences",
+      "faculty": "Faculty of Science"
+    },
+    {
+      "code": "ITAL",
+      "name": "Italian",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "IWME",
+      "name": "Integrated Water Management Engineering",
+      "faculty": "Faculty of Applied Science"
+    },
+    {
+      "code": "JAPN",
+      "name": "Japanese",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "JRNL",
+      "name": "Journalism",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "JWST",
+      "name": "Jewish Studies",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "KIN",
+      "name": "Kinesiology",
+      "faculty": "Faculty of Education"
+    },
+    {
+      "code": "KORN",
+      "name": "Korean",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "LAIS",
+      "name": "Library, Archival and Information Studies",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "LARC",
+      "name": "Landscape Architecture",
+      "faculty": "Faculty of Applied Science"
+    },
+    {
+      "code": "LASO",
+      "name": "Law and Society",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "LAST",
+      "name": "Latin American Studies",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "LATN",
+      "name": "Latin",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "LAW",
+      "name": "Law",
+      "faculty": "Peter A. Allard School of Law"
+    },
+    {
+      "code": "LFS",
+      "name": "Land & Food Systems",
+      "faculty": "Faculty of Land and Food Systems"
+    },
+    {
+      "code": "LIBE",
+      "name": "Teacher Librarianship",
+      "faculty": "Faculty of Education"
+    },
+    {
+      "code": "LIBR",
+      "name": "Library and Information Studies",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "LING",
+      "name": "Linguistics",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "LLED",
+      "name": "Language and Literacy Education",
+      "faculty": "Faculty of Education"
+    },
+    {
+      "code": "LWS",
+      "name": "Land and Water Systems",
+      "faculty": "Faculty of Land and Food Systems"
+    },
+    {
+      "code": "MANU",
+      "name": "Manufacturing Engineering",
+      "faculty": "Faculty of Applied Science"
+    },
+    {
+      "code": "MATH",
+      "name": "Mathematics",
+      "faculty": "Faculty of Science"
+    },
+    {
+      "code": "MDIA",
+      "name": "Media Studies",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "MDVL",
+      "name": "Medieval Studies",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "MECH",
+      "name": "Mechanical Engineering",
+      "faculty": "Faculty of Applied Science"
+    },
+    {
+      "code": "MEDD",
+      "name": "Doctor of Medicine",
+      "faculty": "Faculty of Medicine"
+    },
+    {
+      "code": "MEDG",
+      "name": "Medical Genetics",
+      "faculty": "Faculty of Medicine"
+    },
+    {
+      "code": "MEDI",
+      "name": "Medicine",
+      "faculty": "Faculty of Medicine"
+    },
+    {
+      "code": "MES",
+      "name": "Middle East Studies",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "MGMT",
+      "name": "Management",
+      "faculty": "Vantage College"
+    },
+    {
+      "code": "MICB",
+      "name": "Microbiology",
+      "faculty": "Faculty of Science"
+    },
+    {
+      "code": "MIDW",
+      "name": "Midwifery",
+      "faculty": "Faculty of Medicine"
+    },
+    {
+      "code": "MINE",
+      "name": "Mining Engineering",
+      "faculty": "Faculty of Applied Science"
+    },
+    {
+      "code": "MRNE",
+      "name": "Marine Science",
+      "faculty": "Faculty of Science"
+    },
+    {
+      "code": "MTRL",
+      "name": "Materials Engineering",
+      "faculty": "Faculty of Applied Science"
+    },
+    {
+      "code": "MUSC",
+      "name": "Music",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "NAME",
+      "name": "Naval Architecture and Marine Engineering",
+      "faculty": "Faculty of Applied Science"
+    },
+    {
+      "code": "NEPL",
+      "name": "Nepali",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "NEST",
+      "name": "Near Eastern Studies",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "NEUR",
+      "name": "Neurosurgery",
+      "faculty": "Faculty of Medicine"
+    },
+    {
+      "code": "NORD",
+      "name": "Nordic Studies",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "NRES",
+      "name": "Natural Resources",
+      "faculty": "Faculty of Forestry and Environmental Stewardship"
+    },
+    {
+      "code": "NRSC",
+      "name": "Neuroscience",
+      "faculty": "Faculty of Medicine"
+    },
+    {
+      "code": "NSCI",
+      "name": "Neuroscience Undergraduate",
+      "faculty": "Faculty of Science"
+    },
+    {
+      "code": "NURS",
+      "name": "Nursing",
+      "faculty": "Faculty of Applied Science"
+    },
+    {
+      "code": "OBMS",
+      "name": "Oral Biological Medical Sciences",
+      "faculty": "Faculty of Dentistry"
+    },
+    {
+      "code": "OBST",
+      "name": "Obstetrics and Gynaecology",
+      "faculty": "Faculty of Medicine"
+    },
+    {
+      "code": "OHS",
+      "name": "Oral Health Sciences",
+      "faculty": "Faculty of Dentistry"
+    },
+    {
+      "code": "ONCO",
+      "name": "Oncology",
+      "faculty": "Faculty of Medicine"
+    },
+    {
+      "code": "ORPA",
+      "name": "Orthopaedics",
+      "faculty": "Faculty of Medicine"
+    },
+    {
+      "code": "OSOT",
+      "name": "Occupational Science and Occupational Therapy",
+      "faculty": "Faculty of Medicine"
+    },
+    {
+      "code": "PATH",
+      "name": "Pathology",
+      "faculty": "Faculty of Medicine"
+    },
+    {
+      "code": "PCTH",
+      "name": "Pharmacology and Therapeutics",
+      "faculty": "Faculty of Medicine"
+    },
+    {
+      "code": "PERS",
+      "name": "Persian",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "PHAR",
+      "name": "Pharmaceutical Sciences",
+      "faculty": "Faculty of Pharmaceutical Sciences"
+    },
+    {
+      "code": "PHIL",
+      "name": "Philosophy",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "PHRM",
+      "name": "Pharmacy",
+      "faculty": "Faculty of Pharmaceutical Sciences"
+    },
+    {
+      "code": "PHTH",
+      "name": "Physical Therapy",
+      "faculty": "Faculty of Medicine"
+    },
+    {
+      "code": "PHYL",
+      "name": "Cellular and Physiological Sciences",
+      "faculty": "Faculty of Medicine"
+    },
+    {
+      "code": "PHYS",
+      "name": "Physics",
+      "faculty": "Faculty of Science"
+    },
+    {
+      "code": "PLAN",
+      "name": "Community and Regional Planning",
+      "faculty": "Faculty of Applied Science"
+    },
+    {
+      "code": "PLNT",
+      "name": "Plant Science",
+      "faculty": "Faculty of Land and Food Systems"
+    },
+    {
+      "code": "POLI",
+      "name": "Political Science",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "POLS",
+      "name": "Polish",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "PORT",
+      "name": "Portuguese",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "PPGA",
+      "name": "Public Policy and Global Affairs",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "PSYC",
+      "name": "Psychology",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "PSYT",
+      "name": "Psychiatry",
+      "faculty": "Faculty of Medicine"
+    },
+    {
+      "code": "PUNJ",
+      "name": "Punjabi",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "RADI",
+      "name": "Radiology",
+      "faculty": "Faculty of Medicine"
+    },
+    {
+      "code": "RADS",
+      "name": "Interdisciplinary Radiology",
+      "faculty": "Faculty of Medicine"
+    },
+    {
+      "code": "RELG",
+      "name": "Religious Studies",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "RES",
+      "name": "Resources, Environment and Sustainability",
+      "faculty": "Faculty of Science"
+    },
+    {
+      "code": "RGST",
+      "name": "Study of Religion",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "RHSC",
+      "name": "Rehabilitation Sciences",
+      "faculty": "Faculty of Medicine"
+    },
+    {
+      "code": "RMST",
+      "name": "Romance Studies",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "RUSS",
+      "name": "Russian",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "SANS",
+      "name": "Sanskrit",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "SCIE",
+      "name": "Science",
+      "faculty": "Faculty of Science"
+    },
+    {
+      "code": "SEAL",
+      "name": "Southeast Asian Languages",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "SGES",
+      "name": "Smart Grid Energy Systems",
+      "faculty": "Faculty of Applied Science"
+    },
+    {
+      "code": "SLAV",
+      "name": "Slavic and Eastern European Studies",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "SOAL",
+      "name": "South Asian Languages",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "SOCI",
+      "name": "Sociology",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "SOIL",
+      "name": "Soil Science",
+      "faculty": "Faculty of Land and Food Systems"
+    },
+    {
+      "code": "SOWK",
+      "name": "Social Work",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "SPAN",
+      "name": "Spanish",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "SPE",
+      "name": "Sustainable Process Engineering",
+      "faculty": "Faculty of Applied Science"
+    },
+    {
+      "code": "SPHA",
+      "name": "School of Population & Public Health",
+      "faculty": "Faculty of Medicine"
+    },
+    {
+      "code": "SPPH",
+      "name": "School of Population & Public Health",
+      "faculty": "Faculty of Medicine"
+    },
+    {
+      "code": "STAT",
+      "name": "Statistics",
+      "faculty": "Faculty of Science"
+    },
+    {
+      "code": "STS",
+      "name": "Science and Technology Studies",
+      "faculty": "Faculty of Graduate and Postdoctoral Studies"
+    },
+    {
+      "code": "SURG",
+      "name": "Surgery",
+      "faculty": "Faculty of Medicine"
+    },
+    {
+      "code": "SWAH",
+      "name": "Swahili",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "SWED",
+      "name": "Swedish",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "THFL",
+      "name": "Theatre And Film",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "THTR",
+      "name": "Theatre",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "TIBT",
+      "name": "Tibetan Languages",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "UDES",
+      "name": "Urban Design",
+      "faculty": "Faculty of Applied Science"
+    },
+    {
+      "code": "UFOR",
+      "name": "Urban Forestry",
+      "faculty": "Faculty of Forestry and Environmental Stewardship"
+    },
+    {
+      "code": "UKRN",
+      "name": "Ukrainian",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "UROL",
+      "name": "Urological Surgery",
+      "faculty": "Faculty of Medicine"
+    },
+    {
+      "code": "URST",
+      "name": "Urban Studies",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "URSY",
+      "name": "Urban Systems",
+      "faculty": "Faculty of Applied Science"
+    },
+    {
+      "code": "VANT",
+      "name": "Vantage College",
+      "faculty": "Vantage College"
+    },
+    {
+      "code": "VISA",
+      "name": "Visual Arts",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "VRHC",
+      "name": "Vocational Rehabilitation Counselling",
+      "faculty": "Faculty of Education"
+    },
+    {
+      "code": "WACH",
+      "name": "Women+ and Children's Health Sciences",
+      "faculty": "Faculty of Medicine"
+    },
+    {
+      "code": "WOOD",
+      "name": "Wood Products Processing",
+      "faculty": "Faculty of Forestry and Environmental Stewardship"
+    },
+    {
+      "code": "WRDS",
+      "name": "Writing, Research, and Discourse Studies",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "WRIT",
+      "name": "University Writing Centre Courses",
+      "faculty": null
+    },
+    {
+      "code": "YDSH",
+      "name": "Yiddish",
+      "faculty": "Faculty of Arts"
+    },
+    {
+      "code": "ZOOL",
+      "name": "Zoology",
+      "faculty": "Faculty of Science"
+    }
+  ]
+}
