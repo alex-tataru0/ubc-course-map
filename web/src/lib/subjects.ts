@@ -120,7 +120,7 @@ export const ARTS: Faculty = {
   openToAll: true,
   degree: "Bachelor of Arts",
   programFiles: ["arts"],
-  programsByMajor: false,
+  programsByMajor: true,
   programsNote:
     "One Major for each subject and five Combined Majors, for students starting now, written out " +
     "from the calendar, with the Faculty of Arts requirements (writing, breadth, Arts credits, …) " +

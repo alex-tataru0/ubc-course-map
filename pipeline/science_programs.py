@@ -126,7 +126,7 @@ PROGRAMS = [
              "computer-science",
              "Combined Honours (1376): Computer Science and Statistics (CPSC, STAT)", ["CPSC", "STAT"]),
     combined("math-econ-major", "Combined Major in Mathematics and Economics", "mathematics",
-             "Combined Major (1135): Mathematics and Economics (MATH, ECON)", ["MATH"]),
+             "Combined Major (1135): Mathematics and Economics (MATH, ECON)", ["MATH", "ECON"]),
     combined("cpsc-math-major", "Combined Major in Computer Science and Mathematics", "mathematics",
              "Combined Major (1429): Computer Science and Mathematics", ["CPSC", "MATH"]),
     combined("cpsc-micb-major", "Combined Major in Computer Science and Microbiology and Immunology",

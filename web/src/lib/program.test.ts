@@ -162,7 +162,7 @@ describe("Arts Majors", () => {
     expect(row(major("phil-major"), ["PHIL 400"], "21 more upper-level PHIL")).toMatchObject({ counted: [] });
   });
 
-  it("are listed one per subject, each its own button, then the Combined Majors", () => {
+  it("are one Major per subject, then the Combined Majors", () => {
     expect(arts.programs.map(programSubject)).toEqual([
       "ANTH", "ECON", "ENGL", "GEOG", "HIST", "LING", "PHIL", "POLI", "PSYC", "SOCI",
       "ECON", "ECON", "ECON", "ECON", "PHIL",
@@ -211,6 +211,18 @@ describe("programMajors", () => {
     expect(majors.map((m) => [m.subject, m.programs.length])).toEqual([["CPSC", 6]]);
     expect(majors[0].programs.map((p) => p.id)).toEqual([
       "cpsc-major", "cpsc-honours", "cpsc-ai-major", "cpsc-ai-honours", "cpsc-se-major", "cpsc-se-honours",
+    ]);
+  });
+
+  it("lists the Arts Combined Majors under their Arts subjects only", () => {
+    const majors = programMajors(arts.programs);
+    expect(majors.map((m) => [m.subject, m.programs.length, m.combined.length])).toEqual([
+      ["ANTH", 1, 0], ["ECON", 1, 4], ["ENGL", 1, 0], ["GEOG", 1, 0], ["HIST", 1, 0], ["LING", 1, 0],
+      ["PHIL", 1, 2], ["POLI", 1, 2], ["PSYC", 1, 0], ["SOCI", 1, 0],
+    ]);
+    // Economics and Mathematics is under Economics, not under Mathematics (a Science subject).
+    expect(majors.find((m) => m.subject === "ECON")!.combined.map((p) => p.id)).toEqual([
+      "econ-poli-major", "econ-phil-major", "econ-math-major", "econ-stat-major",
     ]);
   });
 

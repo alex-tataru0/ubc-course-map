@@ -12598,7 +12598,7 @@
       "id": "math-econ-major",
       "name": "Combined Major in Mathematics and Economics",
       "heading": "Combined Major (1135): Mathematics and Economics (MATH, ECON)",
-      "subjects": ["MATH"],
+      "subjects": ["MATH", "ECON"],
       "sources": ["https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-science/bachelor-science/mathematics"],
       "notes": [],
       "total_credits": 120,

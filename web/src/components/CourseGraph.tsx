@@ -64,7 +64,7 @@ interface CourseGraphProps {
   otherPrograms: Program[]; // other faculties' programs, in case one was picked on their page
   programUrl: string; // the calendar page they come from
   programsNote: string; // under the list of programs
-  programsByMajor: boolean; // list them by major (Science) or each on its own (engineering)
+  programsByMajor: boolean; // list them by major (Science, Arts) or each on its own (engineering)
   artsDegree: ArtsDegree; // the Faculty of Arts requirements, for the program panel
   closed: string[]; // other faculties' courses this page's students usually can't take
 }

@@ -291,8 +291,12 @@ export function programMajors(programs: Program[]): Major[] {
     return major;
   };
   for (const program of programs) {
-    if (program.subjects) program.subjects.forEach((s) => majorOf(s).combined.push(program));
-    else majorOf(programSubject(program)).programs.push(program);
+    // A combined program is listed under each of its subjects in its own faculty: the B.A. in
+    // Economics and Mathematics under Economics only, since Mathematics is on the Science page.
+    const home = facultyOf(program.subjects?.[0] ?? programSubject(program));
+    if (program.subjects) {
+      program.subjects.filter((s) => facultyOf(s) === home).forEach((s) => majorOf(s).combined.push(program));
+    } else majorOf(programSubject(program)).programs.push(program);
   }
   // A subject's place in its faculty's menu. sort keeps the others in the order they came.
   const place = (s: string) => facultyOf(s)?.subjects.findIndex((x) => x.code === s) ?? 1e9;
