@@ -9,7 +9,7 @@ const subjectCount = FACULTIES.reduce((n, f) => n + f.subjects.length, 0);
 
 export const metadata: Metadata = {
   title: "UBC Course Map",
-  description: "Plan UBC Science and engineering courses with the prerequisite graph.",
+  description: "Plan UBC Science, engineering and Arts courses with the prerequisite graph.",
   // What Reddit, Discord, iMessage and others show when the link is pasted. The image is the
   // CPSC map with CPSC 340 picked (public/og.png, 1200×630); they print the title and
   // description next to it, so the image has no text of its own.
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     title: "UBC Course Map",
     description:
       "See what every course needs and unlocks, plan your path and check past grades. " +
-      `${subjectCount} Science and engineering subjects. Free, unofficial student project.`,
+      `${subjectCount} Science, engineering and Arts subjects. Free, unofficial student project.`,
     images: [
       {
         url: "/og.png",
@@ -65,13 +65,14 @@ export default function Home() {
           </a>
         </p>
       </header>
-      <main className="mx-auto w-full max-w-5xl px-4 py-8 sm:px-5 sm:py-10">
+      <main className="mx-auto w-full max-w-6xl px-4 py-8 sm:px-5 sm:py-10">
         <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">Plan your UBC courses</h1>
         <p className="mt-2 max-w-2xl text-ink-muted sm:text-lg">
           See what every course needs and unlocks, mark the ones you&apos;ve taken, find the shortest
           path to any course, and check past grades.
         </p>
-        <div className="mt-7 grid gap-5 md:grid-cols-2">
+        {/* One card per faculty: three in a row on wide screens, two on tablets, one on phones. */}
+        <div className="mt-7 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
           {FACULTIES.map((faculty) => (
             <section key={faculty.slug} className="flex flex-col rounded-xl border border-line bg-surface p-5 shadow-sm">
               <h2 className="text-lg font-semibold">{faculty.tab}</h2>

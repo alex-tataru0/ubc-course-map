@@ -29,17 +29,18 @@ ROOT = Path(__file__).parents[1]
 # engineering.
 FACULTIES = {
     "science": [
-        "ASTR", "ATSC", "BIOL", "CHEM", "CPSC", "DSCI", "ENVR",
+        "ASTR", "ATSC", "BIOL", "CHEM", "COGS", "CPSC", "DSCI", "ENVR",
         "EOSC", "ISCI", "MATH", "MICB", "PHYS", "SCIE", "STAT",
     ],
     "engineering": [
         "APSC", "BMEG", "CHBE", "CIVL", "CPEN", "ELEC", "ENPH",
         "ENVE", "IGEN", "MANU", "MECH", "MINE", "MTRL",
     ],
-    # The first wave of Arts subjects.
+    # The first wave of Arts subjects. COGS (Cognitive Systems) has a B.A. and a B.Sc., but the
+    # calendar lists it under Science, so it's with Science.
     "arts": [
-        "ANTH", "COGS", "ECON", "ENGL", "GEOG", "HIST",
-        "LING", "PHIL", "POLI", "PSYC", "SOCI", "WRDS",
+        "ANTH", "ECON", "ENGL", "GEOG", "HIST", "LING",
+        "PHIL", "POLI", "PSYC", "SOCI", "WRDS",
     ],
 }
 SUBJECTS = [subject for subjects in FACULTIES.values() for subject in subjects]

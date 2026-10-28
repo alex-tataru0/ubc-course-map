@@ -95,7 +95,8 @@ export default async function FacultyPage({ params }: Props) {
       });
     });
   const programs = programsOf(faculty);
-  const programUrl = loadPrograms(faculty.programFiles[0]).source;
+  // Arts has no programs yet, so nothing to link to.
+  const programUrl = faculty.programFiles.length > 0 ? loadPrograms(faculty.programFiles[0]).source : "";
 
   return (
     <>

@@ -2,6 +2,7 @@ import { existsSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 import {
   courseUrl,
+  ARTS,
   ENGINEERING,
   FACULTIES,
   facultyOf,
@@ -48,7 +49,8 @@ describe("subjects", () => {
     expect(readHash(hashFor("MATH", SCIENCE, "MATH 221"), SCIENCE).course).toBe("MATH 221");
     expect(courseUrl("CPEN 221")).toBe("/engineering#cpen-221");
     expect(courseUrl("MATH 100")).toBe("/science#math-100");
-    expect(courseUrl("WRDS 150")).toBeNull();
+    expect(courseUrl("WRDS 150")).toBe("/arts#wrds-150");
+    expect(courseUrl("BIOC 202")).toBeNull(); // not on the site
   });
 
   it("writes the hash for a subject, and none for the home subject", () => {
@@ -85,10 +87,12 @@ describe("subjects", () => {
   it("puts every subject in one faculty, ENPH with engineering", () => {
     const codes = FACULTIES.flatMap((f) => f.subjects.map((s) => s.code));
     expect(new Set(codes).size).toBe(codes.length);
-    expect(codes).toHaveLength(27);
+    expect(codes).toHaveLength(39);
     expect(facultyOf("ENPH")).toBe(ENGINEERING);
     expect(facultyOf("MATH")).toBe(SCIENCE);
-    expect(facultyOf("WRDS")).toBeUndefined();
+    expect(facultyOf("COGS")).toBe(SCIENCE); // the calendar lists it under Science
+    expect(facultyOf("WRDS")).toBe(ARTS);
+    expect(facultyOf("BIOC")).toBeUndefined();
     expect(new Set(FACULTIES.map((f) => f.slug)).size).toBe(FACULTIES.length);
   });
 
@@ -102,6 +106,7 @@ describe("subjects", () => {
     };
     expect(forward("#math")).toBe("/science#math");
     expect(forward("#ELEC")).toBe("/engineering#ELEC");
+    expect(forward("#econ-101")).toBe("/arts#econ-101");
     expect(forward("#math-221")).toBe("/science#math-221");
     expect(forward("")).toBeNull();
     expect(forward("#zool")).toBeNull();
@@ -111,8 +116,8 @@ describe("subjects", () => {
 });
 
 describe("link previews", () => {
-  it("gives each faculty page its own picture, in web/public", () => {
-    expect(FACULTIES.map((f) => f.preview.image)).toEqual(["/og.png", "/og-engineering.png"]);
+  it("gives each faculty page a picture, in web/public (Arts borrows Science's for now)", () => {
+    expect(FACULTIES.map((f) => f.preview.image)).toEqual(["/og.png", "/og-engineering.png", "/og.png"]);
     for (const faculty of FACULTIES) {
       expect(existsSync(new URL(`../../public${faculty.preview.image}`, import.meta.url))).toBe(true);
     }

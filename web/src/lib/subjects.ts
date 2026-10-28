@@ -1,5 +1,5 @@
 // The subjects on the site, by faculty. Each faculty has its own page (/science,
-// /engineering), and its subjects are picked from a menu on that page.
+// /engineering, /arts), and its subjects are picked from a menu on that page.
 
 export interface Subject {
   code: string; // e.g. "CPSC"
@@ -29,7 +29,9 @@ export interface Faculty {
 }
 
 // Names as the UBC Calendar writes them, in A–Z order. Computer Science opens first because
-// links to the site from before there was a menu should still show it.
+// links to the site from before there was a menu should still show it. Cognitive Systems is
+// interdisciplinary (it has a B.A. and a B.Sc.), but the calendar lists it under Science.
+// The calendar calls it "Cognitive Systems Program"; the menu leaves out "Program".
 export const SCIENCE: Faculty = {
   slug: "science",
   name: "Faculty of Science",
@@ -49,6 +51,7 @@ export const SCIENCE: Faculty = {
     { code: "ATSC", name: "Atmospheric Science" },
     { code: "BIOL", name: "Biology" },
     { code: "CHEM", name: "Chemistry" },
+    { code: "COGS", name: "Cognitive Systems" },
     { code: "CPSC", name: "Computer Science" },
     { code: "DSCI", name: "Data Science" },
     { code: "EOSC", name: "Earth and Ocean Sciences" },
@@ -106,11 +109,42 @@ export const ENGINEERING: Faculty = {
   },
 };
 
+// The first Arts subjects. Arts has no programs on the site yet, so its page has no "Pick a
+// program" button (a program picked on another page still marks its courses). Economics opens
+// first: its map has the most prerequisites (ECON 101 and 102 lead to most of it).
+export const ARTS: Faculty = {
+  slug: "arts",
+  name: "Faculty of Arts",
+  tab: "Arts",
+  about: "Faculty of Arts",
+  openToAll: true,
+  degree: "Bachelor of Arts",
+  programFiles: [],
+  programsByMajor: false,
+  programsNote: "",
+  subjects: [
+    { code: "ANTH", name: "Anthropology" },
+    { code: "ECON", name: "Economics" },
+    { code: "ENGL", name: "English" },
+    { code: "GEOG", name: "Geography" },
+    { code: "HIST", name: "History" },
+    { code: "LING", name: "Linguistics" },
+    { code: "PHIL", name: "Philosophy" },
+    { code: "POLI", name: "Political Science" },
+    { code: "PSYC", name: "Psychology" },
+    { code: "SOCI", name: "Sociology" },
+    { code: "WRDS", name: "Writing, Research, and Discourse Studies" },
+  ],
+  home: "ECON",
+  // For now the Science picture; Arts gets its own in the next step.
+  preview: SCIENCE.preview,
+};
+
 // Every faculty, in the order of the tabs and the home page.
-export const FACULTIES: Faculty[] = [SCIENCE, ENGINEERING];
+export const FACULTIES: Faculty[] = [SCIENCE, ENGINEERING, ARTS];
 
 // The faculty a subject is in, e.g. "CPEN" -> ENGINEERING. Undefined for a subject that
-// isn't on the site (WRDS, BIOC, …).
+// isn't on the site (BIOC, COMR, …).
 export function facultyOf(subject: string): Faculty | undefined {
   return FACULTIES.find((f) => f.subjects.some((s) => s.code === subject));
 }
