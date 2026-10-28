@@ -136,8 +136,12 @@ export const ARTS: Faculty = {
     { code: "WRDS", name: "Writing, Research, and Discourse Studies" },
   ],
   home: "ECON",
-  // For now the Science picture; Arts gets its own in the next step.
-  preview: SCIENCE.preview,
+  preview: {
+    image: "/og-arts.png",
+    alt:
+      "The ECON map with ECON 326 picked, the courses it needs highlighted in orange and the " +
+      "ones it unlocks in green",
+  },
 };
 
 // Every faculty, in the order of the tabs and the home page.

@@ -116,8 +116,8 @@ describe("subjects", () => {
 });
 
 describe("link previews", () => {
-  it("gives each faculty page a picture, in web/public (Arts borrows Science's for now)", () => {
-    expect(FACULTIES.map((f) => f.preview.image)).toEqual(["/og.png", "/og-engineering.png", "/og.png"]);
+  it("gives each faculty page its own picture, in web/public", () => {
+    expect(FACULTIES.map((f) => f.preview.image)).toEqual(["/og.png", "/og-engineering.png", "/og-arts.png"]);
     for (const faculty of FACULTIES) {
       expect(existsSync(new URL(`../../public${faculty.preview.image}`, import.meta.url))).toBe(true);
     }
