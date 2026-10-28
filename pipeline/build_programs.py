@@ -8,6 +8,7 @@ from dotenv import load_dotenv
 from build_prereqs import ask_slowly
 from grades import fetch_text, to_json
 from llm import ask_gemini, load_cache, save_cache
+from arts_programs import BASE as ARTS_BASE, PAGES as ARTS_PAGES, parse_arts
 from engineering_programs import BASE, PAGES, parse_engineering
 from science_programs import BASE as SCIENCE_BASE, PAGES as SCIENCE_PAGES, parse_science
 from parse_programs import parse_programs
@@ -15,8 +16,10 @@ from program_rules import INSTRUCTIONS, parse_requirement
 
 # Reads the requirement tables of the programs on the site, turns every row into a
 # requirement tree, and writes data/programs/cpsc.json (the Computer Science programs),
-# data/programs/engineering.json (the 14 Vancouver engineering majors) and
-# data/programs/science.json (the other Science Majors and Honours). Run from the repo root:
+# data/programs/engineering.json (the 14 Vancouver engineering majors),
+# data/programs/science.json (the other Science Majors and Honours) and data/programs/arts.json
+# (the Arts Majors, written by hand in arts_programs.py, so no rules or Gemini). Run from the
+# repo root:
 #   python pipeline/build_programs.py
 # Each calendar page is downloaded once and saved in data/raw/programs/. Delete a file to
 # download it again (e.g. when a new calendar year comes out).
@@ -31,6 +34,7 @@ HTML_PATH = RAW_DIR / "computer-science.html"
 OUTPUT_PATH = ROOT / "data" / "programs" / "cpsc.json"
 ENGINEERING_PATH = ROOT / "data" / "programs" / "engineering.json"
 SCIENCE_PATH = ROOT / "data" / "programs" / "science.json"
+ARTS_PATH = ROOT / "data" / "programs" / "arts.json"
 COURSES_DIR = ROOT / "data" / "courses"
 
 # Gemini's answers for rows the rules can't read, saved and committed like the prereq ones.
@@ -61,6 +65,11 @@ def load_engineering_pages() -> dict[str, str]:
 def load_science_pages() -> dict[str, str]:
     # The other Science subjects' pages (data/raw/programs/mathematics.html, …).
     return load_pages(SCIENCE_PAGES)
+
+
+def load_arts_pages() -> dict[str, str]:
+    # The Arts subjects' pages (data/raw/programs/sociology.html, …).
+    return load_pages(ARTS_PAGES)
 
 
 def electives_to_check(programs: list[dict]) -> list[dict]:
@@ -143,10 +152,13 @@ def write_programs(programs: list[dict], path: Path = OUTPUT_PATH, source: str =
 def print_summary(programs: list[dict]) -> None:
     rows = [r for p in programs for y in p["years"] for r in y["requirements"]]
     by_rules = sum(r["source"] == "rules" for r in rows)
+    by_gemini = sum(r["source"] == "llm" for r in rows)
     for program in programs:
         print(f"{program['name']}: {sum(len(y['requirements']) for y in program['years'])} "
               f"requirements, {program['total_credits']} credits")
-    print(f"{len(rows)} requirements: {by_rules} by rules, {len(rows) - by_rules} by Gemini")
+    by_hand = len(rows) - by_rules - by_gemini
+    print(f"{len(rows)} requirements: {by_rules} by rules, {by_gemini} by Gemini"
+          + (f", {by_hand} written by hand" if by_hand else ""))
     for row in rows:
         if row["problems"]:
             print(f"NEEDS REVIEW  {row['text']}: {row['problems']}")
@@ -169,3 +181,8 @@ if __name__ == "__main__":
     write_programs(science, SCIENCE_PATH, SCIENCE_BASE.rstrip("/"))
     print_summary(science)
     print("Wrote", SCIENCE_PATH.relative_to(ROOT))
+
+    arts = expand_ranges(parse_arts(load_arts_pages()), known_courses())
+    write_programs(arts, ARTS_PATH, ARTS_BASE.rstrip("/"))
+    print_summary(arts)
+    print("Wrote", ARTS_PATH.relative_to(ROOT))

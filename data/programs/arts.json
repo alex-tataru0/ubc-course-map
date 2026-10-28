@@ -1,0 +1,1158 @@
+{
+  "source": "https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-arts/bachelor-arts",
+  "programs": [
+    {
+      "id": "anth-major",
+      "name": "Anthropology Major",
+      "heading": "Major in Anthropology",
+      "sources": ["https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-arts/bachelor-arts/anthropology"],
+      "total_credits": 120,
+      "years": [
+        {
+          "title": "Lower-level Requirements",
+          "credits": 12,
+          "requirements": [
+            {
+              "text": "ANTH 100 (3)",
+              "credits": 3,
+              "tree": "ANTH 100",
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "ARCL 103 (3) or ARCL 140 (3)",
+              "credits": 3,
+              "tree": {
+                "one_of": ["ARCL 103", "ARCL 140"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "6 credits chosen from other ANTH or ARCL courses at the 200-level",
+              "credits": 6,
+              "tree": {
+                "credits_of": {
+                  "subjects": ["ANTH", "ARCL"],
+                  "min_level": 200,
+                  "max_level": 299
+                }
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "title": "Upper-level Requirements",
+          "credits": 30,
+          "requirements": [
+            {
+              "text": "ANTH 300 (3)",
+              "credits": 3,
+              "tree": "ANTH 300",
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "ANTH 400 (3)",
+              "credits": 3,
+              "tree": "ANTH 400",
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "3 credits in research methods and techniques: ANTH 317, 407, 408, 409, 417, 418, 431, 433, 451, 452, 471, 478, 480; ARCL 306, 345, 405, 406, 419, 424, 425, 430, 495.",
+              "credits": 3,
+              "tree": {
+                "credits_from": ["ANTH 317", "ANTH 407", "ANTH 408", "ANTH 409", "ANTH 417", "ANTH 418", "ANTH 431", "ANTH 433", "ANTH 451", "ANTH 452", "ANTH 471", "ANTH 478", "ANTH 480", "ARCL 306", "ARCL 345", "ARCL 405", "ARCL 406", "ARCL 419", "ARCL 424", "ARCL 425", "ARCL 430", "ARCL 495"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "21 more credits of upper-level ANTH or ARCL courses",
+              "credits": 21,
+              "tree": {
+                "credits_of": {
+                  "subjects": ["ANTH", "ARCL"],
+                  "min_level": 300
+                }
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["The rest of the calendar's \"Students must complete at least 30 credits of upper-level ANTH or ARCL courses, including:\""]
+            }
+          ]
+        },
+        {
+          "title": "Rest of the Degree",
+          "credits": 78,
+          "requirements": [
+            {
+              "text": "Electives",
+              "credits": 78,
+              "tree": {
+                "electives": true
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["The rest of the 120 credits for the B.A. All 120 credits must also meet the Faculty of Arts requirements (Writing and Research, Ways of Knowing Breadth, Outside, Upper-level and Arts Credit Minimum), which the site doesn't check yet."]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "econ-major",
+      "name": "Economics Major",
+      "heading": "Major in Economics",
+      "sources": ["https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/vancouver-school-economics/bachelor-arts-economics"],
+      "total_credits": 120,
+      "years": [
+        {
+          "title": "Lower-Level Requirements",
+          "credits": 12,
+          "requirements": [
+            {
+              "text": "ECON 101 and 102",
+              "credits": 6,
+              "tree": {
+                "all_of": ["ECON 101", "ECON 102"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "ECON credits numbered 200 or above",
+              "credits": 3,
+              "tree": {
+                "credits_of": {
+                  "subjects": ["ECON"],
+                  "min_level": 200
+                }
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "ECON 325",
+              "credits": 3,
+              "tree": "ECON 325",
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "title": "Upper-Level Requirements",
+          "credits": 30,
+          "requirements": [
+            {
+              "text": "ECON 301 or 304",
+              "credits": 3,
+              "tree": {
+                "one_of": ["ECON 301", "ECON 304"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "ECON 302 or 305",
+              "credits": 3,
+              "tree": {
+                "one_of": ["ECON 302", "ECON 305"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "ECON 326",
+              "credits": 3,
+              "tree": "ECON 326",
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "ECON 490",
+              "credits": 3,
+              "tree": "ECON 490",
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "ECON Electives numbered 300 or above",
+              "credits": 6,
+              "tree": {
+                "credits_of": {
+                  "subjects": ["ECON"],
+                  "min_level": 300
+                }
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "ECON Electives numbered 400 or above",
+              "credits": 12,
+              "tree": {
+                "credits_of": {
+                  "subjects": ["ECON"],
+                  "min_level": 400
+                }
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["ECON 457 will not count towards 400-level electives"]
+            }
+          ]
+        },
+        {
+          "title": "Rest of the Degree",
+          "credits": 78,
+          "requirements": [
+            {
+              "text": "Electives",
+              "credits": 78,
+              "tree": {
+                "electives": true
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["The rest of the 120 credits for the B.A. All 120 credits must also meet the Faculty of Arts requirements (Writing and Research, Ways of Knowing Breadth, Outside, Upper-level and Arts Credit Minimum), which the site doesn't check yet."]
+            }
+          ]
+        }
+      ],
+      "notes": ["Economics courses that (i) have been granted unassigned first-year transfer credit (e.g., ECON 1st), or (ii) have been taken on a Credit/D/Fail basis, may not be included in the 42 credits required for a program in Economics."]
+    },
+    {
+      "id": "engl-literature-major",
+      "name": "English Major: Literature Emphasis",
+      "heading": "Major in English: Literature Emphasis",
+      "sources": ["https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-arts/bachelor-arts/english"],
+      "total_credits": 120,
+      "years": [
+        {
+          "title": "Lower-Level Requirements",
+          "credits": 12,
+          "requirements": [
+            {
+              "text": "6 credits of 100-level English; or Arts One (6 credits); or CAP 100 and 101 (6 credits); or 3 credits of CAP 100 and 3 credits of 100-level English; or 3 credits of WRDS 150, 151 or 350 and 3 credits of 100-level English; or 6 credits of ASTU 100; or 3 credits of ASTU 100 or 101 and 3 credits of 100-level English",
+              "credits": 6,
+              "tree": {
+                "credits_from": ["ENGL 100", "ENGL 110", "ENGL 111", "ENGL 120", "ENGL 121", "ENGL 140", "CAP 100", "CAP 101", "WRDS 150", "WRDS 151", "WRDS 350", "ASTU 100", "ASTU 101"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["The site counts any 6 credits from these courses. The calendar allows only 3 credits of WRDS, and Arts One (not a course code here) counts for all 6."]
+            },
+            {
+              "text": "3 credits of ENGL 200",
+              "credits": 3,
+              "tree": "ENGL 200",
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "3 credits selected from ENGL 220-249",
+              "credits": 3,
+              "tree": {
+                "credits_from": ["ENGL 220", "ENGL 221", "ENGL 222", "ENGL 223", "ENGL 224", "ENGL 225", "ENGL 226", "ENGL 227", "ENGL 228", "ENGL 229", "ENGL 230", "ENGL 231", "ENGL 232", "ENGL 241", "ENGL 242", "ENGL 243", "ENGL 244", "ENGL 245", "ENGL 246", "ENGL 247", "ENGL 248", "ENGL 249"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "title": "Upper-Level Requirements",
+          "credits": 30,
+          "requirements": [
+            {
+              "text": "3 credits from Group A (Medieval and Renaissance Literatures: ENGL 343 to 350)",
+              "credits": 3,
+              "tree": {
+                "credits_from": ["ENGL 343", "ENGL 344", "ENGL 346", "ENGL 347", "ENGL 348", "ENGL 349", "ENGL 350"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["The calendar says: \"12 credits comprising 3 credits selected from each of Group A, B, C, and D above\""]
+            },
+            {
+              "text": "3 credits from Group B (18th- and 19th-Century Literatures: ENGL 351 to 364)",
+              "credits": 3,
+              "tree": {
+                "credits_from": ["ENGL 351", "ENGL 353", "ENGL 355", "ENGL 360", "ENGL 361", "ENGL 362", "ENGL 364"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["The calendar says: \"12 credits comprising 3 credits selected from each of Group A, B, C, and D above\""]
+            },
+            {
+              "text": "3 credits from Group C (Modern, Contemporary, Transnational, and Indigenous Literatures: ENGL 365 to 379)",
+              "credits": 3,
+              "tree": {
+                "credits_from": ["ENGL 365", "ENGL 366", "ENGL 368", "ENGL 369", "ENGL 370", "ENGL 371", "ENGL 372", "ENGL 373", "ENGL 374", "ENGL 375", "ENGL 376", "ENGL 377", "ENGL 378", "ENGL 379"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["The calendar says: \"12 credits comprising 3 credits selected from each of Group A, B, C, and D above\""]
+            },
+            {
+              "text": "3 credits from Group D (Media, Theory, Genre, and Special Topic: ENGL 332 to 339; ENGL 380 to 397)",
+              "credits": 3,
+              "tree": {
+                "credits_from": ["ENGL 332", "ENGL 333", "ENGL 334", "ENGL 335", "ENGL 336", "ENGL 337", "ENGL 338", "ENGL 339", "ENGL 380", "ENGL 381", "ENGL 382", "ENGL 384", "ENGL 386", "ENGL 387", "ENGL 388", "ENGL 390", "ENGL 392", "ENGL 393", "ENGL 394", "ENGL 395", "ENGL 396", "ENGL 397"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["The calendar says: \"12 credits comprising 3 credits selected from each of Group A, B, C, and D above\""]
+            },
+            {
+              "text": "3 additional credits from either Group A or Group B",
+              "credits": 3,
+              "tree": {
+                "credits_from": ["ENGL 343", "ENGL 344", "ENGL 346", "ENGL 347", "ENGL 348", "ENGL 349", "ENGL 350", "ENGL 351", "ENGL 353", "ENGL 355", "ENGL 360", "ENGL 361", "ENGL 362", "ENGL 364"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "3 additional credits from either Group C or Group D",
+              "credits": 3,
+              "tree": {
+                "credits_from": ["ENGL 365", "ENGL 366", "ENGL 368", "ENGL 369", "ENGL 370", "ENGL 371", "ENGL 372", "ENGL 373", "ENGL 374", "ENGL 375", "ENGL 376", "ENGL 377", "ENGL 378", "ENGL 379", "ENGL 332", "ENGL 333", "ENGL 334", "ENGL 335", "ENGL 336", "ENGL 337", "ENGL 338", "ENGL 339", "ENGL 380", "ENGL 381", "ENGL 382", "ENGL 384", "ENGL 386", "ENGL 387", "ENGL 388", "ENGL 390", "ENGL 392", "ENGL 393", "ENGL 394", "ENGL 395", "ENGL 396", "ENGL 397"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "3 credits of Canadian Literature selected from ENGL 222, 360, 371, 372, 373, 394",
+              "credits": 3,
+              "tree": {
+                "credits_from": ["ENGL 222", "ENGL 360", "ENGL 371", "ENGL 372", "ENGL 373", "ENGL 394"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["Or any other pre-approved course in which there is a large selection of Canadian Literature; please see a Majors Advisor.", "ENGL 222 may be used to satisfy the Canadian Literature requirement, but does not count towards the required 30 credits of upper-level ENGL; please see a Majors Advisor."]
+            },
+            {
+              "text": "3 credits of ENGL 490",
+              "credits": 3,
+              "tree": "ENGL 490",
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "6 additional credits of upper-level ENGL",
+              "credits": 6,
+              "tree": {
+                "credits_of": {
+                  "subjects": ["ENGL"],
+                  "min_level": 300
+                }
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "title": "Rest of the Degree",
+          "credits": 78,
+          "requirements": [
+            {
+              "text": "Electives",
+              "credits": 78,
+              "tree": {
+                "electives": true
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["The rest of the 120 credits for the B.A. All 120 credits must also meet the Faculty of Arts requirements (Writing and Research, Ways of Knowing Breadth, Outside, Upper-level and Arts Credit Minimum), which the site doesn't check yet."]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "geog-human-major",
+      "name": "Human Geography Major",
+      "heading": "Major in Human Geography",
+      "sources": ["https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-arts/bachelor-arts/human-geography"],
+      "total_credits": 120,
+      "years": [
+        {
+          "title": "Lower-level Requirements",
+          "credits": 15,
+          "requirements": [
+            {
+              "text": "at least 9 credits from GEOG 121, 122, 202, 210, 211, 220, 250, 257, 281, 290, URST 200",
+              "credits": 9,
+              "tree": {
+                "credits_from": ["GEOG 121", "GEOG 122", "GEOG 202", "GEOG 210", "GEOG 211", "GEOG 220", "GEOG 250", "GEOG 257", "GEOG 281", "GEOG 290", "URST 200"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "6 credits from GEOB/GEOS 102*, 103*",
+              "credits": 6,
+              "tree": {
+                "credits_from": ["GEOS 102", "GEOS 103", "GEOB 102", "GEOB 103"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["As of 2021S, the course code GEOS replaced the course code GEOB.", "*Students may obtain credit for only one of GEOB/GEOS 102 or EOSC 112 and only one of GEOB/GEOS 103 or EOSC 110."]
+            }
+          ]
+        },
+        {
+          "title": "Upper-level Requirements",
+          "credits": 30,
+          "requirements": [
+            {
+              "text": "6 credits from Cultures and Places: GEOG 321, 327, 328, 329, 342, 352, 380, 390, 391, 395, 396, 419, 423, 426, 429, 432, 439, 456, 481, 484, 485, 495, 496, 497, 498, URST 352",
+              "credits": 6,
+              "tree": {
+                "credits_from": ["GEOG 321", "GEOG 327", "GEOG 328", "GEOG 329", "GEOG 342", "GEOG 352", "GEOG 380", "GEOG 390", "GEOG 391", "GEOG 395", "GEOG 396", "GEOG 419", "GEOG 423", "GEOG 426", "GEOG 429", "GEOG 432", "GEOG 439", "GEOG 456", "GEOG 481", "GEOG 484", "GEOG 485", "GEOG 495", "GEOG 496", "GEOG 497", "GEOG 498", "URST 352"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["The calendar says: \"6 credits from each of the three themes (Cultures and Places, Cities and Globalization, Nature and Society)\""]
+            },
+            {
+              "text": "6 credits from Cities and Globalization: GEOG 321, 329, 342, 350, 351, 352, 353, 355, 357, 361, 362, 364, 380, 391, 396, 450, 453, 456, 457, 461, 493, 496, URST 352, 400",
+              "credits": 6,
+              "tree": {
+                "credits_from": ["GEOG 321", "GEOG 329", "GEOG 342", "GEOG 350", "GEOG 351", "GEOG 352", "GEOG 353", "GEOG 355", "GEOG 357", "GEOG 361", "GEOG 362", "GEOG 364", "GEOG 380", "GEOG 391", "GEOG 396", "GEOG 450", "GEOG 453", "GEOG 456", "GEOG 457", "GEOG 461", "GEOG 493", "GEOG 496", "URST 352", "URST 400"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["The calendar says: \"6 credits from each of the three themes (Cultures and Places, Cities and Globalization, Nature and Society)\""]
+            },
+            {
+              "text": "6 credits from Nature and Society: GEOG 302, 310, 311, 312, 313, 314, 316, 318, 319, 351, 361, 395, 396, 410, 412, 418, 419, 423, 432, 496, 497, GEOS 415",
+              "credits": 6,
+              "tree": {
+                "credits_from": ["GEOG 302", "GEOG 310", "GEOG 311", "GEOG 312", "GEOG 313", "GEOG 314", "GEOG 316", "GEOG 318", "GEOG 319", "GEOG 351", "GEOG 361", "GEOG 395", "GEOG 396", "GEOG 410", "GEOG 412", "GEOG 418", "GEOG 419", "GEOG 423", "GEOG 432", "GEOG 496", "GEOG 497", "GEOS 415"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["The calendar says: \"6 credits from each of the three themes (Cultures and Places, Cities and Globalization, Nature and Society)\""]
+            },
+            {
+              "text": "3 credits from Research and Methods A: GEOS 370, 372, 373, 472, 479, GEOG 374, 450",
+              "credits": 3,
+              "tree": {
+                "credits_from": ["GEOS 370", "GEOS 372", "GEOS 373", "GEOS 472", "GEOS 479", "GEOG 374", "GEOG 450"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["The calendar says: \"6 credits from the Research and Methods theme with 3 credits from concentration A and 3 credits from concentration B\""]
+            },
+            {
+              "text": "3 credits from Research and Methods B: GEOG 315, 342, 345, 371, 424, 446, URST 400",
+              "credits": 3,
+              "tree": {
+                "credits_from": ["GEOG 315", "GEOG 342", "GEOG 345", "GEOG 371", "GEOG 424", "GEOG 446", "URST 400"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["The calendar says: \"6 credits from the Research and Methods theme with 3 credits from concentration A and 3 credits from concentration B\""]
+            },
+            {
+              "text": "6 more credits of 300- or 400-level geography (GEOG/GEOS) courses",
+              "credits": 6,
+              "tree": {
+                "credits_of": {
+                  "subjects": ["GEOG", "GEOS", "GEOB"],
+                  "min_level": 300
+                }
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["The rest of the calendar's \"At least 30 credits of 300- or 400-level geography (GEOG/GEOB/GEOS) courses:\""]
+            }
+          ]
+        },
+        {
+          "title": "Rest of the Degree",
+          "credits": 75,
+          "requirements": [
+            {
+              "text": "Electives",
+              "credits": 75,
+              "tree": {
+                "electives": true
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["The rest of the 120 credits for the B.A. All 120 credits must also meet the Faculty of Arts requirements (Writing and Research, Ways of Knowing Breadth, Outside, Upper-level and Arts Credit Minimum), which the site doesn't check yet."]
+            }
+          ]
+        }
+      ],
+      "notes": ["No course can be counted twice to meet credit requirements in Cultures and Places, Cities and Globalization, Nature and Society, or within the A and B categories of the Research and Methods theme."]
+    },
+    {
+      "id": "hist-major",
+      "name": "History Major",
+      "heading": "Major in History",
+      "sources": ["https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-arts/bachelor-arts/history"],
+      "total_credits": 120,
+      "years": [
+        {
+          "title": "Lower-level Requirements",
+          "credits": 12,
+          "requirements": [
+            {
+              "text": "At least 6 credits of 200-level History",
+              "credits": 6,
+              "tree": {
+                "credits_of": {
+                  "subjects": ["HIST"],
+                  "min_level": 200,
+                  "max_level": 299
+                }
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["The calendar says: \"Students must take 12 credits from any of the 100- or 200-level courses in History, or the equivalent taken at other institutions. At least 6 of these credits must be at the 200 level.\""]
+            },
+            {
+              "text": "6 more credits of 100- or 200-level History",
+              "credits": 6,
+              "tree": {
+                "credits_of": {
+                  "subjects": ["HIST"],
+                  "min_level": 100,
+                  "max_level": 299
+                }
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["The rest of the calendar's \"Students must take 12 credits from any of the 100- or 200-level courses in History\""]
+            }
+          ]
+        },
+        {
+          "title": "Upper-level Requirements",
+          "credits": 30,
+          "requirements": [
+            {
+              "text": "3 credits of HIST 403, 466, 468, or 490, to be taken in the final year of study",
+              "credits": 3,
+              "tree": {
+                "credits_from": ["HIST 403", "HIST 466", "HIST 468", "HIST 490"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "Students must take 6 credits of substantially pre-modern history.",
+              "credits": 6,
+              "tree": {
+                "other": "6 credits of substantially pre-modern history"
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["A list of courses with substantial pre-modern content is available from departmental advisors and on the Departmental website."]
+            },
+            {
+              "text": "21 more credits of 300- and 400-level History courses",
+              "credits": 21,
+              "tree": {
+                "credits_of": {
+                  "subjects": ["HIST"],
+                  "min_level": 300
+                }
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["The rest of the calendar's \"Students must take 30 credits of 300- and 400- level History courses.\""]
+            }
+          ]
+        },
+        {
+          "title": "Rest of the Degree",
+          "credits": 78,
+          "requirements": [
+            {
+              "text": "Electives",
+              "credits": 78,
+              "tree": {
+                "electives": true
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["The rest of the 120 credits for the B.A. All 120 credits must also meet the Faculty of Arts requirements (Writing and Research, Ways of Knowing Breadth, Outside, Upper-level and Arts Credit Minimum), which the site doesn't check yet."]
+            }
+          ]
+        }
+      ],
+      "notes": ["Subject to the approval of the Department, a maximum of 6 credits from other departments may be accepted as credits toward a Major in History."]
+    },
+    {
+      "id": "ling-major",
+      "name": "Linguistics Major",
+      "heading": "Major in Linguistics",
+      "sources": ["https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-arts/bachelor-arts/linguistics"],
+      "total_credits": 120,
+      "years": [
+        {
+          "title": "Language Requirement",
+          "credits": 6,
+          "requirements": [
+            {
+              "text": "6 credits of coursework in a single language other than English",
+              "credits": 6,
+              "tree": {
+                "other": "6 credits of coursework in a single language other than English"
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["Courses may be taken in any non-English language and at any level. Courses that say \"in English\" or \"in translation\" can't be used. They may also count toward the Faculty of Arts Ways of Knowing Breadth Requirement."]
+            }
+          ]
+        },
+        {
+          "title": "Required Courses",
+          "credits": 42,
+          "requirements": [
+            {
+              "text": "both LING 200 and 201",
+              "credits": 6,
+              "tree": {
+                "all_of": ["LING 200", "LING 201"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "all of LING 300, 311, 313, 327, and 333",
+              "credits": 15,
+              "tree": {
+                "all_of": ["LING 300", "LING 311", "LING 313", "LING 327", "LING 333"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "LING 447",
+              "credits": 3,
+              "tree": "LING 447",
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "an additional 18 credits of courses numbered 300 or higher, of which 6 may be taken from upper-level courses in related areas",
+              "credits": 18,
+              "tree": {
+                "credits_of": {
+                  "subjects": ["LING"],
+                  "min_level": 300
+                }
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["The site counts LING courses only; up to 6 credits may come from related areas (see the Department of Linguistics website)."]
+            }
+          ]
+        },
+        {
+          "title": "Rest of the Degree",
+          "credits": 72,
+          "requirements": [
+            {
+              "text": "Electives",
+              "credits": 72,
+              "tree": {
+                "electives": true
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["The rest of the 120 credits for the B.A. All 120 credits must also meet the Faculty of Arts requirements (Writing and Research, Ways of Knowing Breadth, Outside, Upper-level and Arts Credit Minimum), which the site doesn't check yet."]
+            }
+          ]
+        }
+      ],
+      "notes": ["100-level LING courses do not count toward Honours, Major or Minor programs in Linguistics."]
+    },
+    {
+      "id": "phil-major",
+      "name": "Philosophy Major",
+      "heading": "Major in Philosophy",
+      "sources": ["https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-arts/bachelor-arts/philosophy"],
+      "total_credits": 120,
+      "years": [
+        {
+          "title": "Area Requirements",
+          "credits": 15,
+          "requirements": [
+            {
+              "text": "Symbolic Logic: PHIL 220 or 222",
+              "credits": 3,
+              "tree": {
+                "one_of": ["PHIL 220", "PHIL 222"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "Value Theory: at least one of PHIL 230 or 330",
+              "credits": 3,
+              "tree": {
+                "one_of": ["PHIL 230", "PHIL 330"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "Epistemology/Metaphysics: at least one of PHIL 240 or 340",
+              "credits": 3,
+              "tree": {
+                "one_of": ["PHIL 240", "PHIL 340"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "History of Philosophy: at least 6 credits from PHIL 310, 311, 313, 314, 315, 316, 371, 378, 388, or ASIA 372",
+              "credits": 6,
+              "tree": {
+                "credits_from": ["PHIL 310", "PHIL 311", "PHIL 313", "PHIL 314", "PHIL 315", "PHIL 316", "PHIL 371", "PHIL 378", "PHIL 388", "ASIA 372"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "title": "Research Requirement",
+          "credits": 3,
+          "requirements": [
+            {
+              "text": "Research Seminar: at least one of PHIL 418, 426, 431, 432, 440, 450, 452, 455, 469, or 491",
+              "credits": 3,
+              "tree": {
+                "one_of": ["PHIL 418", "PHIL 426", "PHIL 431", "PHIL 432", "PHIL 440", "PHIL 450", "PHIL 452", "PHIL 455", "PHIL 469", "PHIL 491"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "title": "Additional Philosophy",
+          "credits": 24,
+          "requirements": [
+            {
+              "text": "21 more upper-level PHIL credits",
+              "credits": 21,
+              "tree": {
+                "credits_of": {
+                  "subjects": ["PHIL"],
+                  "min_level": 300
+                }
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["The rest of the calendar's \"Students are required to complete a total of 30 upper-level credits in Philosophy including any upper-level courses taken to meet the Area Requirements or the Research Requirement.\"", "Credit for PHIL 400 and PHIL 401 is not permitted toward any specialization in Philosophy, including the Major."]
+            },
+            {
+              "text": "3 more PHIL credits at any level",
+              "credits": 3,
+              "tree": {
+                "credits_of": {
+                  "subjects": ["PHIL"],
+                  "min_level": 100
+                }
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["The rest of the calendar's \"students must complete additional courses in Philosophy at any level in order to meet the total number of credits (42) required for the Major.\"", "Credit for PHIL 400 and PHIL 401 is not permitted toward any specialization in Philosophy, including the Major."]
+            }
+          ]
+        },
+        {
+          "title": "Rest of the Degree",
+          "credits": 78,
+          "requirements": [
+            {
+              "text": "Electives",
+              "credits": 78,
+              "tree": {
+                "electives": true
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["The rest of the 120 credits for the B.A. All 120 credits must also meet the Faculty of Arts requirements (Writing and Research, Ways of Knowing Breadth, Outside, Upper-level and Arts Credit Minimum), which the site doesn't check yet."]
+            }
+          ]
+        }
+      ],
+      "notes": ["The rows assume the Area Requirements' PHIL 220/222, 230 and 240 are taken at the 200 level. Each of PHIL 330 or 340 used for an area also counts toward the 30 upper-level credits, so you'd need fewer than shown."]
+    },
+    {
+      "id": "poli-major",
+      "name": "Political Science Major",
+      "heading": "Major in Political Science",
+      "sources": ["https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-arts/bachelor-arts/political-science"],
+      "total_credits": 120,
+      "years": [
+        {
+          "title": "Lower-level Requirements",
+          "credits": 12,
+          "requirements": [
+            {
+              "text": "POLI 100",
+              "credits": 3,
+              "tree": "POLI 100",
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "POLI 101",
+              "credits": 3,
+              "tree": "POLI 101",
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "POLI 110",
+              "credits": 3,
+              "tree": "POLI 110",
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "POLI 240 (or 340)",
+              "credits": 3,
+              "tree": {
+                "one_of": ["POLI 240", "POLI 340"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["Students who have not completed POLI 240 may substitute POLI 340 for POLI 240, although they are still required to complete a total of 12 POLI credits at the 100- and 200-level."]
+            }
+          ]
+        },
+        {
+          "title": "Upper-level Requirements",
+          "credits": 30,
+          "requirements": [
+            {
+              "text": "POLI 380",
+              "credits": 3,
+              "tree": "POLI 380",
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "One 400-level POLI course",
+              "credits": 3,
+              "tree": {
+                "credits_of": {
+                  "subjects": ["POLI"],
+                  "min_level": 400
+                }
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["The calendar says: \"To satisfy the Bachelor of Arts Writing and Research Requirement, students must take at least one 400-level POLI course.\""]
+            },
+            {
+              "text": "24 more credits of Political Science courses numbered 300 or higher",
+              "credits": 24,
+              "tree": {
+                "credits_of": {
+                  "subjects": ["POLI"],
+                  "min_level": 300
+                }
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["The rest of the calendar's \"30 credits of Political Science courses numbered 300 or higher, which must include:\""]
+            }
+          ]
+        },
+        {
+          "title": "Rest of the Degree",
+          "credits": 78,
+          "requirements": [
+            {
+              "text": "Electives",
+              "credits": 78,
+              "tree": {
+                "electives": true
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["The rest of the 120 credits for the B.A. All 120 credits must also meet the Faculty of Arts requirements (Writing and Research, Ways of Knowing Breadth, Outside, Upper-level and Arts Credit Minimum), which the site doesn't check yet."]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "psyc-major",
+      "name": "Psychology Major",
+      "heading": "Major in Psychology",
+      "sources": ["https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-arts/bachelor-arts/psychology"],
+      "total_credits": 120,
+      "years": [
+        {
+          "title": "Lower Level Requirements",
+          "credits": 12,
+          "requirements": [
+            {
+              "text": "either PSYC 100; or PSYC 101 and PSYC 102",
+              "credits": 6,
+              "tree": {
+                "one_of": [
+                  "PSYC 100",
+                  {
+                    "all_of": ["PSYC 101", "PSYC 102"]
+                  }
+                ]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "Quantitative Methods courses: PSYC 217 and 218",
+              "credits": 6,
+              "tree": {
+                "all_of": ["PSYC 217", "PSYC 218"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "title": "Upper Level Requirements",
+          "credits": 30,
+          "requirements": [
+            {
+              "text": "6 credits from Behavioural Neuroscience (PSYC 301, 304, 306, 324, 344, 361, 363, 460, 461, 462, 466, 472) or Cognitive Science (PSYC 309, 321, 333, 335, 336, 365, 367, 368, 409, 421, 463)",
+              "credits": 6,
+              "tree": {
+                "credits_from": ["PSYC 301", "PSYC 304", "PSYC 306", "PSYC 324", "PSYC 344", "PSYC 361", "PSYC 363", "PSYC 460", "PSYC 461", "PSYC 462", "PSYC 466", "PSYC 472", "PSYC 309", "PSYC 321", "PSYC 333", "PSYC 335", "PSYC 336", "PSYC 365", "PSYC 367", "PSYC 368", "PSYC 409", "PSYC 421", "PSYC 463"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["The calendar says: \"At least 6 credits from the following two lists:\""]
+            },
+            {
+              "text": "6 credits from each of two of: Clinical/Health, Developmental, Foundations/Psychometrics, Personality/Social",
+              "credits": 12,
+              "tree": {
+                "other": "6 credits from each of two of the lists Clinical/Health, Developmental, Foundations/Psychometrics and Personality/Social"
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["The calendar says: \"At least 6 credits from each of two of the following four lists:\""]
+            },
+            {
+              "text": "12 more credits of 300- and 400-level PSYC",
+              "credits": 12,
+              "tree": {
+                "credits_of": {
+                  "subjects": ["PSYC"],
+                  "min_level": 300
+                }
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["The rest of the calendar's \"Students must take a minimum of 30 credits in 300- and/or 400-level courses including:\"", "PSYC 340, 388, 440, or 488 may not be included for the minimum 30 Psychology credits required for the Major Program."]
+            }
+          ]
+        },
+        {
+          "title": "Rest of the Degree",
+          "credits": 78,
+          "requirements": [
+            {
+              "text": "Electives",
+              "credits": 78,
+              "tree": {
+                "electives": true
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["The rest of the 120 credits for the B.A. All 120 credits must also meet the Faculty of Arts requirements (Writing and Research, Ways of Knowing Breadth, Outside, Upper-level and Arts Credit Minimum), which the site doesn't check yet."]
+            }
+          ]
+        }
+      ],
+      "notes": ["The lists: Clinical/Health: PSYC 300, 311, 314, 331, 350, 400, 401, 402, 469. Developmental: PSYC 302, 315, 319, 320, 322, 325, 412, 413, 414. Foundations/Psychometrics: PSYC 303, 312, 359. Personality/Social: PSYC 305, 307, 308, 358, 403, 404, 407, 408, 415, 418."]
+    },
+    {
+      "id": "soci-major",
+      "name": "Sociology Major",
+      "heading": "Major in Sociology",
+      "sources": ["https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-arts/bachelor-arts/sociology"],
+      "total_credits": 120,
+      "years": [
+        {
+          "title": "Lower-level Requirements",
+          "credits": 12,
+          "requirements": [
+            {
+              "text": "At least 3 credits from SOCI 100, 101, or 102",
+              "credits": 3,
+              "tree": {
+                "credits_from": ["SOCI 100", "SOCI 101", "SOCI 102"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "SOCI 217 Research Methods",
+              "credits": 3,
+              "tree": "SOCI 217",
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "6 more credits of 100- and 200-level SOCI",
+              "credits": 6,
+              "tree": {
+                "credits_of": {
+                  "subjects": ["SOCI"],
+                  "min_level": 100,
+                  "max_level": 299
+                }
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["The rest of the calendar's \"12 credits of 100-and 200-level SOCI, including:\""]
+            }
+          ]
+        },
+        {
+          "title": "Upper-level Requirements",
+          "credits": 30,
+          "requirements": [
+            {
+              "text": "3 credits of SOCI 310 Canadian Society",
+              "credits": 3,
+              "tree": "SOCI 310",
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "3 credits of SOCI 328 Social Statistics I",
+              "credits": 3,
+              "tree": "SOCI 328",
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "3 credits of classical sociological theory (from SOCI 370* or SOCI 371)",
+              "credits": 3,
+              "tree": {
+                "credits_from": ["SOCI 370", "SOCI 371"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["SOCI 370 is a 6-credit course that covers both classical sociological theory and contemporary sociological theory."]
+            },
+            {
+              "text": "3 credits of contemporary sociological theory (from SOCI 370*, SOCI 372, SOCI 414, SOCI 415, SOCI 416 or SOCI 469)",
+              "credits": 3,
+              "tree": {
+                "credits_from": ["SOCI 370", "SOCI 372", "SOCI 414", "SOCI 415", "SOCI 416", "SOCI 469"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["SOCI 370 is a 6-credit course that covers both classical sociological theory and contemporary sociological theory."]
+            },
+            {
+              "text": "3 credits of advanced research methods (from SOCI 380, SOCI 381, SOCI 382 or SOCI 383)",
+              "credits": 3,
+              "tree": {
+                "credits_from": ["SOCI 380", "SOCI 381", "SOCI 382", "SOCI 383"]
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            },
+            {
+              "text": "15 additional credits of 300- and/or 400-level SOCI courses",
+              "credits": 15,
+              "tree": {
+                "credits_of": {
+                  "subjects": ["SOCI"],
+                  "min_level": 300
+                }
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "title": "Rest of the Degree",
+          "credits": 78,
+          "requirements": [
+            {
+              "text": "Electives",
+              "credits": 78,
+              "tree": {
+                "electives": true
+              },
+              "source": "hand",
+              "problems": [],
+              "notes": ["The rest of the 120 credits for the B.A. All 120 credits must also meet the Faculty of Arts requirements (Writing and Research, Ways of Knowing Breadth, Outside, Upper-level and Arts Credit Minimum), which the site doesn't check yet."]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
