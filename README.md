@@ -8,7 +8,7 @@ A website for UBC students to plan courses using the prerequisite graph.
 
 > Work in progress. Unofficial, not affiliated with UBC. Something wrong or missing? Use the **Feedback** link on the site (see [Feedback](#feedback)).
 
-![Starting on the home page, opening the Computer Engineering map and picking the Computer Engineering program, so its courses get a stripe on the map. Then opening CPEN 331 and showing only its path, APSC 160, CPEN 211 and 221, then CPEN 212, and following MATH 253 from the program's second year to the Mathematics map on the Science page, where the program is still picked, and hovering its grade chart](docs/demo.gif)
+![Starting on the home page, opening the Political Science map, marking POLI 100 and 101 as done and setting third-year standing in the checklist, so 71 POLI courses can be taken. Then picking the Combined Major in Economics and Political Science, so its courses get a stripe on the map, scrolling down to the Faculty of Arts requirements (Writing, a research-intensive course, Ways of Knowing breadth), and opening POLI 350, which can be taken now that third-year standing is set, and hovering its grade chart](docs/demo.gif)
 
 ## Features
 
