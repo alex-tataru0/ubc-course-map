@@ -660,8 +660,11 @@ export default function CourseGraph({
           ariaLabelConfig={marking ? markingHints : exploreHints}
         >
           <Controls showInteractive={false} />
-          <Panel position="top-left" className="flex flex-col items-start gap-2">
-            <div className="flex flex-wrap items-start gap-2">
+          {/* Clicks go through the empty parts of the panel to the map: when the row wraps
+              (a narrow window, or a side panel open), its box covers the top courses. Only the
+              bars and buttons themselves take clicks. */}
+          <Panel position="top-left" className="pointer-events-none flex flex-col items-start gap-2">
+            <div className="flex flex-wrap items-start gap-2 *:pointer-events-auto">
               <ProgressBar
                 counts={counts}
                 marked={done.size}

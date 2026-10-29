@@ -18,7 +18,7 @@ export default function SelectionBar({ highlight, onDetails, onClear }: Selectio
   if (kind === "path") needsText = needs.size === 0 ? "Path: none first" : `Path: ${needs.size} to take`;
   const button = "rounded-md border border-line px-2.5 py-1 font-medium hover:bg-canvas";
   return (
-    <div className="flex flex-wrap items-center gap-x-4 gap-y-2 rounded-lg border border-line bg-surface/95 px-3 py-2 text-sm text-ink shadow-sm">
+    <div className="pointer-events-auto flex flex-wrap items-center gap-x-4 gap-y-2 rounded-lg border border-line bg-surface/95 px-3 py-2 text-sm text-ink shadow-sm">
       <span className="font-semibold">
         <Swatch className="border-role-selected" />
         {selected}
