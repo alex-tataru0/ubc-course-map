@@ -2,13 +2,15 @@ import sys
 from pathlib import Path
 
 from build_prereqs import pick_subjects
-from grades import build_summary, download_grades, to_json
+from grades import build_summary, download_grades, new_terms, to_json
 
 # Downloads any new terms from UBCGrades, then writes one summary per subject to
 # data/grades/<subject>.json. Run from the repo root. With no arguments it does every
 # subject, or name some:
 #   python pipeline/build_grades.py MATH STAT
 # Add --refresh to download every term again, not just the new ones.
+# --check only asks UBCGrades which terms are new and prints them, one per line (nothing
+# if there are none). The monthly GitHub Action uses it before downloading anything.
 
 ROOT = Path(__file__).parents[1]
 RAW_DIR = ROOT / "data" / "raw" / "grades"
@@ -28,6 +30,10 @@ def print_summary(data: dict) -> None:
 
 
 if __name__ == "__main__":
+    if "--check" in sys.argv:
+        for term in new_terms(RAW_DIR):
+            print(term)
+        sys.exit()
     refresh = "--refresh" in sys.argv
     for subject in pick_subjects([arg for arg in sys.argv[1:] if arg != "--refresh"]):
         new = download_grades(subject, RAW_DIR, refresh=refresh)

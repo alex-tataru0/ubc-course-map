@@ -1,0 +1,111 @@
+name: New UBCGrades terms
+
+# Once a month, asks UBCGrades whether it has a term that isn't in data/raw/grades/ yet.
+# If it does, downloads it for every subject, runs the same checks as ci.yml and opens a
+# pull request to review and merge. It can also be started by hand: Actions tab →
+# "New UBCGrades terms" → Run workflow.
+#
+# Needs "Allow GitHub Actions to create and approve pull requests" ticked in Settings →
+# Actions → General. GitHub turns scheduled workflows off in a public repo after 60 days
+# with no commits; it sends an email, and the Actions tab has a button to turn it back on.
+on:
+  schedule:
+    # 17:23 UTC on the 1st of the month (10:23 in Vancouver in summer, 9:23 in winter).
+    - cron: "23 17 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  grades:
+    name: Check for new terms
+    runs-on: ubuntu-latest
+    # "shell: bash" adds pipefail, so a failed request to UBCGrades fails the step instead of
+    # looking like "no new terms".
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+          cache: pip
+          cache-dependency-path: pipeline/requirements.txt
+      - run: pip install -r pipeline/requirements.txt
+
+      # One request to UBCGrades. If a pull request for the same terms is already waiting
+      # (its branch exists), there's nothing more to do until it's merged. To get a fresh
+      # one after closing it without merging, delete its branch.
+      - name: Ask UBCGrades which terms are new
+        id: check
+        run: |
+          terms=$(python pipeline/build_grades.py --check | paste -sd ' ' -)
+          echo "New terms: ${terms:-none}"
+          branch="grades-${terms// /-}"
+          if [ -z "$terms" ]; then
+            echo "Nothing to do."
+          elif git ls-remote --exit-code --heads origin "$branch" > /dev/null; then
+            echo "Branch $branch already exists, so its pull request is waiting to be merged."
+          else
+            echo "go=true" >> "$GITHUB_OUTPUT"
+          fi
+          echo "terms=$terms" >> "$GITHUB_OUTPUT"
+          echo "branch=$branch" >> "$GITHUB_OUTPUT"
+
+      - name: Download the new terms and rebuild data/grades
+        if: steps.check.outputs.go == 'true'
+        run: python pipeline/build_grades.py | tee "$RUNNER_TEMP/build.txt"
+
+      # The same checks as ci.yml. GitHub doesn't start ci.yml for a pull request opened
+      # by an Action, so they run here; ci.yml runs again on main after the merge.
+      - if: steps.check.outputs.go == 'true'
+        run: pytest
+      - if: steps.check.outputs.go == 'true'
+        uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - name: Website tests, lint and build
+        if: steps.check.outputs.go == 'true'
+        working-directory: web
+        run: |
+          npm ci
+          npm test
+          npm run lint
+          npm run build
+
+      - name: Open a pull request
+        if: steps.check.outputs.go == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TERMS: ${{ steps.check.outputs.terms }}
+          BRANCH: ${{ steps.check.outputs.branch }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -c "$BRANCH"
+          git add data/raw/grades data/grades
+          git commit -m "Add UBCGrades $TERMS"
+          git push origin "$BRANCH"
+          {
+            echo "UBCGrades now has **$TERMS**. This adds it for every subject: the raw responses in \`data/raw/grades/\` and the summaries in \`data/grades/\`."
+            echo
+            echo "Already checked in [this run]($GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID): pytest, and the website's tests, lint and build."
+            echo
+            echo "Before merging:"
+            echo "- [ ] Look at a subject or two, e.g. \`git --no-pager diff main -- data/grades/cpsc.json\`"
+            echo "- [ ] Update the grade numbers in README.md on this branch (terms in step 1, the totals in step 3, the tables)"
+            echo
+            echo "<details><summary>build_grades.py output</summary>"
+            echo
+            echo '```'
+            grep -v '^Wrote' "$RUNNER_TEMP/build.txt"
+            echo '```'
+            echo
+            echo "</details>"
+          } > "$RUNNER_TEMP/body.md"
+          gh pr create --base main --head "$BRANCH" --title "Add UBCGrades $TERMS" --body-file "$RUNNER_TEMP/body.md"

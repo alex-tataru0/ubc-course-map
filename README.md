@@ -131,13 +131,13 @@ python pipeline/build_prereqs.py
 
 With no arguments, `build_prereqs.py` builds all 39 subjects in the tables. To build only some, name subjects or a faculty: `python pipeline/build_prereqs.py MATH STAT`, `python pipeline/build_prereqs.py engineering` or `python pipeline/build_prereqs.py arts`.
 
-A Gemini API key is only needed when there are prerequisites the cache doesn't have yet. Put it in a `.env` file (see `.env.example`). There are 438 `pytest` tests for the whole pipeline.
+A Gemini API key is only needed when there are prerequisites the cache doesn't have yet. Put it in a `.env` file (see `.env.example`). There are 441 `pytest` tests for the whole pipeline.
 
 ## How the grade data is built
 
-`build_grades.py` pulls grade distributions from the [UBCGrades](https://ubcgrades.com) API, which republishes UBC PAIR's data. Like the course data, it runs ahead of time, about once a term.
+`build_grades.py` pulls grade distributions from the [UBCGrades](https://ubcgrades.com) API, which republishes UBC PAIR's data. Like the course data, it runs ahead of time, not on the live site. On the 1st of every month, a GitHub Action (`.github/workflows/grades.yml`) asks UBCGrades whether it has a new term, which takes one request. When there is one, the Action downloads it, runs the same tests and build as CI, and opens a pull request to review and merge.
 
-1. **Download each term once.** One request per term and subject gets every section: 10 terms, 2021 Summer to 2025 Winter, for each of the 39 subjects. The responses are saved as they are in `data/raw/grades/`. A term that's already saved isn't downloaded again, so a new term means one new request per subject. When a subject had no sections in a term (ENVR in most summers, ENVE and MANU in every summer), UBCGrades answers "404 Not Found", and that term is saved as an empty list.
+1. **Download each term once.** One request per term and subject gets every section: 10 terms, 2021 Summer to 2025 Winter, for each of the 39 subjects. The responses are saved as they are in `data/raw/grades/`. A term that's already saved isn't downloaded again, so a new term means one new request per subject. When a subject had no sections in a term (ENVR in most summers, ENVE and MANU in every summer), UBCGrades answers "404 Not Found", and that term is saved as an empty list. The tests check numbers for these ten terms only, so a new term doesn't break them, and one test checks that every saved term has a file for every subject (a download that stopped halfway would fail it).
 2. **Add up the sections.** For each course and term: the number of students, the average weighted by students, the count in each grade range, and every instructor. Topics courses like CPSC 436N (NLP) and 436C (Cloud Computing) get a row each.
 3. **Check against UBCGrades' own totals.** UBCGrades sends its own total for most course-terms, but not for 2021, so every term is added up from its sections instead. The 7,644 totals it does send (2,581 for Science, 2,018 for engineering, 3,045 for Arts) match ours exactly, and a test checks this for every subject.
 4. **Write the output.** One file per subject, like `data/grades/cpsc.json`:
@@ -330,7 +330,7 @@ npm test
 npm run dev
 ```
 
-`npm run build` writes the static site to `web/out/`. There are 257 tests (Vitest) for the graph, layout, highlighting, course details, statuses, the checklist, saving, path logic, grades, links, programs, subjects and moving the view, including checks against the real course data for all 39 subjects. GitHub Actions runs `pytest` and the website's tests, lint and build on every push, and [Vercel](https://vercel.com) builds and publishes the site from `main`.
+`npm run build` writes the static site to `web/out/`. There are 257 tests (Vitest) for the graph, layout, highlighting, course details, statuses, the checklist, saving, path logic, grades, links, programs, subjects and moving the view, including checks against the real course data for all 39 subjects. GitHub Actions runs `pytest` and the website's tests, lint and build on every push, checks UBCGrades for new terms once a month, and [Vercel](https://vercel.com) builds and publishes the site from `main`.
 
 ## Feedback
 

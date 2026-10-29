@@ -65,6 +65,20 @@ def download_grades(subject: str, raw_dir: Path, fetch=fetch_text, sleep=time.sl
     return downloaded
 
 
+def saved_terms(raw_dir: Path) -> list[str]:
+    # The terms that have files in raw_dir, in time order.
+    names = {path.name.split("-")[1] for path in raw_dir.glob(f"{CAMPUS}-*-*.json")}
+    return sorted(names, key=session_key)
+
+
+def new_terms(raw_dir: Path, fetch=fetch_text) -> list[str]:
+    # The terms UBCGrades has that aren't saved yet. One request, so the monthly check in
+    # .github/workflows/grades.yml costs UBCGrades almost nothing when there's nothing new.
+    sessions = json.loads(fetch(f"{API}/yearsessions/{CAMPUS}"))
+    saved = set(saved_terms(raw_dir))
+    return [session for session in sessions if session not in saved]
+
+
 def load_rows(subject: str, raw_dir: Path) -> list[dict]:
     rows = []
     for path in sorted(raw_dir.glob(f"{CAMPUS}-*-{subject}.json")):
